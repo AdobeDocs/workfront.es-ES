@@ -1,0 +1,98 @@
+---
+navigation-topic: notifications
+title: Personalización de los temas de correo electrónico para las notificaciones de eventos
+description: Puede personalizar la línea de asunto de los correos electrónicos activados por las notificaciones de eventos.
+author: Lisa, Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
+source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 4%
+
+---
+
+# Personalización de los temas de correo electrónico para las notificaciones de eventos
+
+Puede personalizar la línea de asunto de los correos electrónicos activados por las notificaciones de evento:
+
+Cambiar las líneas de asunto afecta a todos los usuarios del sistema, independientemente del nivel de acceso del destinatario. Los usuarios ven todos los objetos y campos incluidos en el asunto del correo electrónico.
+
+Algunas notificaciones de eventos tienen varias líneas de asunto, lo que significa que esas notificaciones de eventos pueden tener varios temas de correo electrónico en función de su funcionalidad.
+
+>[!IMPORTANT]
+>
+>Tenga cuidado al eliminar campos predeterminados en los casos en que las líneas de asunto hacen referencia a varios objetos. A continuación se muestra la lista de notificaciones de eventos que contienen dichas líneas de asunto:
+>
+>* Alguien me incluye en una actualización dirigida
+>* Alguien incluye a mi equipo en una actualización dirigida
+>* Comentario en elemento de trabajo a participantes del hilo
+>* Comentario de elemento de trabajo a la persona asignada al elemento
+>
+
+
+## Requisitos de acceso
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td> <p>Planificador o superior, con acceso administrativo a las notificaciones de recordatorio</p> <p>Para obtener información sobre cómo conceder acceso administrativo a un usuario del Plan, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
+## Personalización de las líneas de asunto de correo electrónico para notificaciones de eventos {#customize-email-subject-lines-for-event-notifications}
+
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+
+1. En el panel izquierdo, haga clic en **Correo electrónico** > **Notificaciones**.
+
+1. Haga clic en el **Notificaciones de eventos** pestaña .
+1. Haga clic en el nombre de la notificación de evento que desea personalizar para abrir el **Notificación de evento** en la ventana
+1. En el **Línea de asunto del correo electrónico** , cambie el texto y los campos, incluidos los campos personalizados, en el asunto del correo electrónico.
+
+   Los nombres de los campos añadidos deben coincidir con la sintaxis de mayúsculas y minúsculas de nuestra estructura de base de datos. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+
+1. Haga clic en **Actualizar** para guardar las nuevas líneas de asunto de los correos electrónicos.
+
+## Personalización de líneas de asunto de correo electrónico para correos electrónicos con varios objetos
+
+Algunas notificaciones de eventos tienen varias líneas de asunto, dependiendo de los objetos que tengan en déclencheur.
+
+Por ejemplo, &quot;Alguien me incluye en una actualización dirigida&quot; tiene dos líneas temáticas diferentes: en primer lugar, se trata de tareas, problemas, tareas de plantilla y documentos (también conocidos como &quot;referenceObject&quot;) y en segundo lugar, de objetos que permiten a los usuarios realizar comentarios, como portafolio, programa, etc. (también conocidos como &quot;topReferenceObject&quot;).
+
+![](assets/Ev-not-mult-subj-lines.png)
+
+Si se incluye a un usuario en una conversación sobre la tarea, el problema, la tarea de plantilla o el documento, se genera un correo electrónico con la primera línea de asunto. La línea de asunto contiene &quot;referenceObject:name&quot; y el sistema define el objeto y muestra el nombre adecuado en el campo de asunto. La línea de asunto del correo electrónico tendría un aspecto similar a este: &quot;Comentario sobre la tarea 123 en el proyecto ABC.&quot;
+
+Si se añade a una conversación de proyecto, se genera un correo electrónico con el segundo asunto. En este caso, la línea de asunto contiene &quot;topReferenceObject:name&quot; y, de nuevo, Workfront identifica qué objeto se ha hecho referencia y devuelve ese nombre de objeto en lugar de &quot;topReferenceObject:name&quot; en el asunto. La línea de asunto del correo electrónico tendría un aspecto similar a este: &quot;Comentario sobre el proyecto ABC.&quot;
+
+Para editar las líneas de asunto del correo electrónico y añadir campos adicionales a cualquiera de las líneas de asunto, consulte [Personalización de las líneas de asunto de correo electrónico para notificaciones de eventos](#customize-email-subject-lines-for-event-notifications) en este artículo.
+
+## Personalización de líneas de asunto de correo electrónico para correos electrónicos de varias acciones
+
+Algunas notificaciones de eventos también tienen varios temas de correo electrónico para delinear las diferentes acciones que se realizan en los objetos.
+
+Por ejemplo, solicitar que se añada un documento a un problema es un evento que puede almacenar en déclencheur dos correos electrónicos diferentes: una para cuándo se agrega el documento y otra para cuándo se edita.
+
+![](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+Para editar las líneas de asunto del correo electrónico y añadir campos adicionales a cualquiera de las líneas de asunto, consulte [Personalización de las líneas de asunto de correo electrónico para notificaciones de eventos](#customize-email-subject-lines-for-event-notifications) en este artículo.
