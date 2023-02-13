@@ -8,7 +8,7 @@ description: Puede importar campos personalizados con varias opciones en Adobe W
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Algunos ejemplos de campos personalizados con varias opciones son:
 * Lista desplegable de selección múltiple
 * Lista desplegable
 * Casillas de verificación
-* Botones de radio.
+* Botones de radio
 
 Estos campos a veces pueden tener muchas opciones (a veces cientos). Importarlos con la funcionalidad Inicio rápido puede ahorrarle, como administrador de Workfront, mucho tiempo y asegurarse de evitar errores.
 
-Debe seguir los pasos descritos en las secciones siguientes, en este orden, para importar campos personalizados con varias opciones mediante un inicio inicial:
+>[!IMPORTANT]
+>
+>Debe seguir los pasos descritos en las secciones siguientes, en este orden, para importar campos personalizados con varias opciones mediante un inicio inicial:
+>
+>1. Exportar datos personalizados existentes desde Workfront (paso opcional)
+>1. Exportar la plantilla de inicio rápido para datos personalizados
+>1. Rellenar la hoja de cálculo de Excel Kick-Starts
+>1. Cargar la hoja de cálculo de Excel a Workfront
 
-1. Exportar datos personalizados existentes desde Workfront (paso opcional)
-1. Exportar la plantilla de inicio rápido para datos personalizados
-1. Rellenar la hoja de cálculo de Excel Kick-Starts
-1. Cargar la hoja de cálculo de Excel a Workfront
+
 
 ## Exportar datos personalizados existentes desde Workfront (paso opcional)
 
@@ -115,15 +119,20 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
 1. Abra la hoja de cálculo de Excel que descargó en la sección anterior y observe varias hojas. Cada hoja representa un objeto en la aplicación.
 
-   Por ejemplo: **Parámetro** (que hace referencia a Campo personalizado), **Opción de parámetro**(que hace referencia a la opción Campo personalizado ), **Categoría** (que hace referencia al formulario personalizado).
+   >[!INFO]
+   >
+   >Por ejemplo, **Parámetro** (que hace referencia a Campo personalizado), **Opción de parámetro**(que hace referencia a la opción Campo personalizado ), **Categoría** (que hace referencia al formulario personalizado).
+   >
+   >Debe escribir los nombres de los objetos y sus atributos en el formato admitido por la base de datos de Workfront.
+   >
+   >Para obtener información sobre el significado de estos objetos, consulte la [Glosario de Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Para obtener información sobre los nombres de los objetos de la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   Debe escribir los nombres de los objetos y sus atributos en el formato admitido por la base de datos de Workfront.
 
-   Para obtener información sobre el significado de estos objetos, consulte la [Glosario de Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Para obtener información sobre los nombres de los objetos de la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Asegúrese de que la siguiente información tenga el formato correcto:
@@ -164,7 +173,9 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    * **`setName`** = introduzca el nombre de los campos personalizados tal como desea que se muestren en Workfront.
 
-      Por ejemplo, podemos importar dos campos personalizados, llamados _Marca_, un campo de casilla de verificación y _Medios_, un campo de botón de radio.
+      >[!INFO]
+      >
+      >Por ejemplo, podemos importar dos campos personalizados, llamados _Marca_, un campo de casilla de verificación y _Medios_, un campo de botón de radio.
 
    * La variable **`setName`** y **`setValue`** normalmente contienen la misma información y deben reflejar los nombres deseados en la interfaz de Workfront para el nuevo campo.
    El valor de un campo es el nombre que aparece en los informes, por ejemplo, mientras que el nombre aparece en los formularios personalizados adjuntos a los objetos.
