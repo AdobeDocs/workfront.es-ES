@@ -5,14 +5,18 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: ffd7a588c0c9449b7a6aa18e6df7baa7c9872926
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Recursos de presupuesto en el caso empresarial con el planificador de escenarios
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Como parte de la planificación de recursos, puede utilizar el Planificador de escenario de Adobe Workfront para presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial.
 
@@ -126,15 +130,19 @@ Puede presupuestar sus recursos para un período de 15 años. Si se presupuestan
 
       ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-      Workfront utiliza las horas de función de trabajo necesarias de la iniciativa vinculada para calcular el coste laboral presupuestado del proyecto. Esta es la opción recomendada. El coste se muestra en el caso empresarial en la moneda del proyecto.
+      Workfront utiliza las horas de función de trabajo necesarias de la iniciativa vinculada para calcular el costo laboral presupuestado y las horas presupuestadas del proyecto. Esta es la opción recomendada. El coste se muestra en el caso empresarial en la moneda del proyecto.
 
-      >[!IMPORTANT]
-      Cuando se utiliza el Planificador de escenario para presupuestar recursos para el proyecto, el Coste de trabajo presupuestado se muestra en las siguientes áreas de Workfront:
-      * Área de presupuestación de recursos del caso empresarial
-      * El planificador de escenario a nivel de sistema como el coste personal de la iniciativa vinculada al proyecto. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
+      <!--drafted for Budgeted Hours:
+   <span class="preview">Cuando copia un proyecto y selecciona copiar las horas presupuestadas en el nuevo proyecto, las horas presupuestadas con el planificador de escenario no se copian en el nuevo proyecto. Solo se copian las horas presupuestadas en el Planificador de recursos. Para obtener más información, consulte [Copiar un proyecto](../manage-projects/copy-project.md)</span>
+—>
+
+   >[!IMPORTANT]
+   Cuando se utiliza el Planificador de escenario para presupuestar recursos para el proyecto, el Coste de trabajo presupuestado se muestra en las siguientes áreas de Workfront:
+   * Área de presupuestación de recursos del caso empresarial
+   * El planificador de escenario a nivel de sistema como el coste personal de la iniciativa vinculada al proyecto. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
-1. (Opcional) Haga clic en **Ver en el planificador de escenarios** para abrir el plan que contiene la iniciativa vinculada al proyecto. Se abre el Planificador de escenario en una nueva ficha del explorador.
+1. (Opcional) Haga clic en **Ver en el planificador de escenarios** para abrir el plan que contiene la iniciativa vinculada al proyecto. Se abre el Planificador de escenario en una nueva ficha del explorador.
 1. (Opcional) Actualice la información sobre la iniciativa. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
