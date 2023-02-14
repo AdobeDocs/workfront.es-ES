@@ -7,14 +7,18 @@ description: Puede convertir correos electrónicos normales que no sean de Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # Convertir los correos electrónicos de G Suite en [!DNL Adobe Workfront] objetos y actualizaciones
+
+>[!NOTE]
+>
+>Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
 
 Puede cambiar a normal[!DNL Workfront] correos electrónicos a [!DNL Adobe Workfront] objetos y actualizaciones sin salir [!DNL G Mail]. Para obtener más información, consulte los siguientes artículos:
 

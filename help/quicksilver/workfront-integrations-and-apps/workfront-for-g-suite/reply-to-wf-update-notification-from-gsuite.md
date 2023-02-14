@@ -7,14 +7,18 @@ description: Cuando reciba una notificación sobre una actualización en [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
 
 # Responder a un [!DNL Adobe Workfront] actualizar notificación desde [!DNL G Suite]
+
+>[!NOTE]
+>
+>Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
 
 Cuando reciba una notificación sobre una actualización en [!DNL Adobe] [!DNL Workfront], puede enviar rápidamente una respuesta desde [!DNL Workfront for G Suite].
 

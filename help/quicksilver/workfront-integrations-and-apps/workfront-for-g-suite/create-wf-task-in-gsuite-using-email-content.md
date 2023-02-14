@@ -7,14 +7,18 @@ description: Puede convertir un correo electrónico externo (no generado por el 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Cree un [!DNL Adobe Workfront] tarea en [!DNL G Suite] uso del contenido de correo electrónico
+
+>[!NOTE]
+>
+>Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
 
 Puede convertir un correo electrónico externo (no generado por [!DNL Adobe Workfront]) a [!DNL Workfront] tarea.
 

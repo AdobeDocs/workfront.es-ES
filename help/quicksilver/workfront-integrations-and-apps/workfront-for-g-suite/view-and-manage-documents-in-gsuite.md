@@ -7,14 +7,18 @@ description: Puede ver y administrar documentos asociados a un [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Ver y administrar documentos desde [!DNL G Suite]
+
+>[!NOTE]
+>
+>Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
 
 Puede ver y administrar documentos asociados a un [!DNL Adobe Workfront] objeto sin salir [!DNL G Suite].
 
