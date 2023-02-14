@@ -220,10 +220,10 @@ Consulte también [Notificaciones: Solicitudes que he formulado](../../../workfr
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Agregar documento de solicitud al autor del problema</p> </td> 
-   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento del problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola. &lt;!— BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
+   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento del problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola. <!-- BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Información general de la ficha Detalles de cola de un proyecto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +429,10 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Agregar documento de solicitud a persona a la que se asignó el problema</p> </td> 
-   <td> <p>Cuando se suba o actualice un documento en una solicitud que se me haya asignado.</p> <p>El destinatario del problema recibe una notificación por correo electrónico cuando se cargan o cambian documentos en un problema que han añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el destinatario del mismo.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola.&lt;!— BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
+   <td> <p>Cuando se suba o actualice un documento en una solicitud que se me haya asignado.</p> <p>El destinatario del problema recibe una notificación por correo electrónico cuando se cargan o cambian documentos en un problema que han añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el destinatario del mismo.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola. <!-- BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Información general de la ficha Detalles de cola de un proyecto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
