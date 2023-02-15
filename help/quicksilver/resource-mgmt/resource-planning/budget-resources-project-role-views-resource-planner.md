@@ -6,9 +6,9 @@ description: Puede presupuestar recursos en el planificador de recursos de Adobe
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Si todavía no tiene acceso, pregunte a su administrador de Workfront si estable
    Para obtener más información sobre el área de Presupuestación de Recursos del caso empresarial, consulte la sección &quot;Presupuestación de Recursos&quot; en el artículo [Información general sobre las áreas del caso empresarial](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Opcional) Seleccione la vista Usuario para ver si el usuario tiene sobreasignaciones o subutilización entre las horas Disponible y Planificado para cada usuario. Las horas presupuestadas no están visibles en la vista Usuario.
+
+   Para obtener información sobre cómo calcula Workfront la disponibilidad de un usuario, consulte [Configurar las preferencias de Administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Recursos presupuestarios en la vista de funciones {#budget-resources-in-the-role-view}
 

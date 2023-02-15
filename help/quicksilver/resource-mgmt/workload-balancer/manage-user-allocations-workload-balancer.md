@@ -6,9 +6,9 @@ description: Como administrador de recursos, puede asignar trabajo a usuarios y 
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
       >Modificar las asignaciones cuando esta configuración está habilitada hace que disminuya el número total en la línea de usuario.
 
    1. **Proyecto** en el **Seleccionar tema de color** para obtener más información. Esto muestra cada proyecto y sus respectivos elementos de trabajo en colores únicos y facilita la comprensión de los elementos que pertenecen a cada proyecto.
-   1. **Porcentaje** en el **Mostrar la asignación de usuarios en** para obtener más información. Esto muestra las asignaciones como un valor de porcentaje. La capacidad del usuario según su programación se considera del 100 %. Por ejemplo, si un usuario está asociado con una programación de 8 horas al día, 8 horas equivale a un 100% de capacidad. Si desea asignar al usuario para que trabaje 4 horas al día, actualizaría su asignación al 50%.
+   1. **Porcentaje** en el **Mostrar la asignación de usuarios en** para obtener más información. Esto muestra las asignaciones como un valor de porcentaje. La capacidad del usuario según la programación se considera del 100 %. Por ejemplo, si un usuario está asociado con una programación de 8 horas al día, 8 horas equivale a un 100% de capacidad. Si desea asignar al usuario para que trabaje 4 horas al día, actualizaría su asignación al 50%.
+
+      >[!NOTE]
+      >
+      >El administrador de Workfront decide qué programación utilizar en el sistema para calcular la capacidad del usuario en el área de administración de recursos de la configuración. Para obtener más información, consulte [Configurar las preferencias de Administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Haga clic en el **Más** menú ![](assets/qs-more-menu.png) para un elemento de trabajo, haga clic en **Editar asignaciones**.
 

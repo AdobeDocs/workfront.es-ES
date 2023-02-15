@@ -6,7 +6,7 @@ description: Como gestor de recursos, puede utilizar Adobe Workfront Workload Ba
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 Como gestor de recursos, puede utilizar Adobe Workfront Workload Balancer para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
 
@@ -47,6 +51,9 @@ Workfront utiliza la siguiente información para calcular la capacidad del usuar
 * El tiempo de espera del usuario. Indica los días que el usuario tiene previsto despegar.
 
    Para obtener más información, consulte [Configuración del tiempo de espera personal en Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## Asignar trabajo en el equilibrador de carga de trabajo
 
