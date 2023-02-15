@@ -134,16 +134,19 @@ Puede presupuestar sus recursos para un período de 15 años. Si se presupuestan
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Cuando copia un proyecto y selecciona copiar las horas presupuestadas en el nuevo proyecto, las horas presupuestadas con el planificador de escenario no se copian en el nuevo proyecto. Solo se copian las horas presupuestadas en el Planificador de recursos. Para obtener más información, consulte [Copiar un proyecto](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Cuando se utiliza el Planificador de escenario para presupuestar recursos para el proyecto, el Coste de trabajo presupuestado se muestra en las siguientes áreas de Workfront:
-   * Área de presupuestación de recursos del caso empresarial
-   * El planificador de escenario a nivel de sistema como el coste personal de la iniciativa vinculada al proyecto. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
+   >
+   >Cuando se utiliza el Planificador de escenario para presupuestar recursos para el proyecto, el Coste de trabajo presupuestado se muestra en las siguientes áreas de Workfront:
+   >
+   >* Área de presupuestación de recursos del caso empresarial
+   >* El planificador de escenario a nivel de sistema como el coste personal de la iniciativa vinculada al proyecto. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Opcional) Haga clic en **Ver en el planificador de escenarios** para abrir el plan que contiene la iniciativa vinculada al proyecto. Se abre el Planificador de escenario en una nueva ficha del explorador.
 1. (Opcional) Actualice la información sobre la iniciativa. Para obtener más información, consulte [Crear y editar iniciativas en el planificador de escenarios](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   Debe publicar la iniciativa después de cada cambio en el área de Presupuestación de recursos del proyecto para actualizarla.
+   >
+   >Debe publicar la iniciativa después de cada cambio en el área de Presupuestación de recursos del proyecto para actualizarla.
