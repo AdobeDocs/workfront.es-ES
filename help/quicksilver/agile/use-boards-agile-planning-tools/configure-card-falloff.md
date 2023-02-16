@@ -6,7 +6,7 @@ title: Configuración de la caída de tarjetas
 description: Puede configurar un tablero para que las tarjetas se archiven o queden fuera del tablero según una programación.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Configuración de descarga de tarjeta](assets/card-falloff-switch.png)
 
-1. Seleccione cuándo archivar las tarjetas desde el tablero. Puede elegir entre 4 semanas o hasta 30 días.
+1. Seleccione cuándo archivar las tarjetas desde el tablero. Puede elegir entre 8 semanas o hasta 60 días.
 
    La fecha se determina a partir de la última modificación de la tarjeta.
 

@@ -6,9 +6,9 @@ description: Las personas deben agregarse al tablero como miembros para poder ve
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el **[!UICONTROL Agregar miembro]** icono ![Agregar miembros](assets/boards-addmember-spectrum-25x25.png).
 1. En el **[!UICONTROL Agregar miembros]** , empiece a escribir un nombre y selecciónelo cuando aparezca en la lista.
 
-   Puede seleccionar un miembro individual o un equipo. Si elige un equipo, éste se agregará al tablero. A continuación, los integrantes de cada equipo están disponibles para asignarlos a una tarjeta.
+   Puede seleccionar un miembro individual o un equipo. Si elige un equipo, éste se agregará al tablero. El equipo completo y sus integrantes individuales están disponibles para asignarlos a una tarjeta.
 
    >[!NOTE]
    >
