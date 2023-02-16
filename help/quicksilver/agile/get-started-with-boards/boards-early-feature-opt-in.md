@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   </tr>
   <tr>
    <td>Crear colecciones de tableros</td>
-   <td>Planificados</td>
+   <td>Liberado parcialmente</td>
   </tr>
   <tr>
    <td>Crear iteraciones</td>
@@ -162,7 +162,7 @@ Las primeras funciones de los tableros están disponibles para todas las organiz
 Solo [!DNL Workfront] los administradores pueden incluirse en las primeras funciones de los tableros. Cuando [!DNL Workfront] El administrador habilita las funciones iniciales, todos los usuarios de la organización están seleccionados.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en **[!UICONTROL Inclusión anticipada de funciones]** en la parte superior de la pantalla del panel.
+1. Haga clic en ![Inclusión anticipada de funciones](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusión anticipada de funciones]) en la parte superior de la pantalla del panel.
 1. Haga clic en **[!UICONTROL Habilitar]**.
 1. Empiece a utilizar las primeras funciones de los tableros.
 
@@ -192,5 +192,5 @@ Sin embargo, la variable [!DNL Workfront] el administrador puede ocultar la opci
 Solo [!DNL Workfront] los administradores pueden desactivar la recepción de funciones anticipadas. Si [!DNL Workfront] administrador desactiva las funciones iniciales, se excluye a todos los usuarios de la organización.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en **[!UICONTROL Activación de la opción de inclusión de funciones anticipadas]** en la parte superior de la pantalla del panel.
+1. Haga clic en ![Activación de la opción de inclusión de funciones anticipadas](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Activación de la opción de inclusión de funciones anticipadas]) en la parte superior de la pantalla del panel.
 1. Haga clic en **[!UICONTROL Deshabilitar]**.

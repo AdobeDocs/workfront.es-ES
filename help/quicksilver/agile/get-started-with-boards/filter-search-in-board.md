@@ -6,9 +6,9 @@ description: Puede filtrar un tablero para que solo se muestren determinadas tar
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Miembros] y seleccione la persona o personas cuyas tarjetas desea ver. También puede mostrar tarjetas sin asignar.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Miembros] y seleccione la persona o personas cuyas tarjetas desea ver. También puede mostrar tarjetas sin asignar.
 
    ![Filtrar por miembro](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrado de un tablero por etiquetas
 
 1. Acceda al tablero.
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Etiquetas] y seleccione las etiquetas que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Etiquetas] y seleccione las etiquetas que desee ver.
 
    ![Filtrar por etiqueta](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrado de tableros por estado
 
 1. Acceda al tablero.
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Estados] y seleccione los tipos de estado que desea ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Estados] y seleccione los tipos de estado que desea ver.
 
    También puede ocultar las tarjetas completadas.
 
@@ -78,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Filtrado de tableros por fecha de vencimiento
 
 1. Acceda al tablero.
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Fecha de vencimiento] y seleccione las opciones de fecha que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Fecha de vencimiento] y seleccione las opciones de fecha que desee ver.
 
    Solo se muestran las tarjetas de los intervalos de fechas seleccionados.
 
@@ -89,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
 1. Acceda al tablero.
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Tarjetas archivadas] y seleccione **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Tarjetas archivadas] y seleccione **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.
 
    El filtro muestra el número de tarjetas archivadas.
 
@@ -100,7 +100,7 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 ## Filtrado de tableros por conexión
 
 1. Acceda al tablero.
-1. Haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda el [!UICONTROL Conexión] y seleccione [!DNL Workfront] proyectos para las tarjetas conectadas que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda el [!UICONTROL Conexión] y seleccione [!DNL Workfront] proyectos para las tarjetas conectadas que desee ver.
 
    También puede mostrar tarjetas que no estén conectadas a un proyecto.
 
@@ -109,7 +109,7 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 ## Buscar en un tablero
 
 1. Acceda al tablero.
-1. Haga clic en el icono de búsqueda ![Buscar](assets/search-icon.png) y escriba un término de búsqueda. A continuación, pulse Intro.
+1. Haga clic en [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
 
    Se muestran todas las tarjetas que contienen el término de búsqueda.
 

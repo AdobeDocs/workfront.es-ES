@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión 23.2 {#release-23-2}
          * [Resumen de la versión 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [Actividad de la versión 23.2: semana del 13 de febrero de 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [Actividad de la versión 23.2: semana del 6 de febrero de 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [Actividad de la versión 23.2: semana del 23 de enero de 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [Actualizaciones de apariencia durante el lapso de tiempo de la versión 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [Agregar una columna de admisión a un tablero](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Usar grupos en un tablero](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configuración de la caída de tarjetas](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * Kanban en un equipo ágil {#kanban}
       * [Kanban en un equipo ágil](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Información general de Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -1088,6 +1090,7 @@ ht-degree: 1%
          * [Examine el catálogo de modelos y solicite la instalación de modelos](administration-and-setup/blueprints/browse-catalog.md)
          * [Copiar una plantilla de proyecto](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [Adjuntar una plantilla a un proyecto](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [Copiar y mover tareas de plantilla](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Editar plantillas de proyecto](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Editar una tarea de plantilla](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Crear plantilla del proyecto](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
