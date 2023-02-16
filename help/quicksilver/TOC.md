@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [Usar tarjetas conectadas en tableros](agile/get-started-with-boards/connected-cards.md)
       * [Administrar tarjetas](agile/get-started-with-boards/move-board-items.md)
       * [Administrar los elementos de la lista de comprobación en las tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Personalización de los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Eliminar o archivar una tarjeta de un tablero](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrar y buscar en un tablero](agile/get-started-with-boards/filter-search-in-board.md)
       * [Agregar etiquetas](agile/get-started-with-boards/add-tags.md)
@@ -1668,8 +1669,8 @@ ht-degree: 1%
       * [Delegar solicitud de aprobación](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Asociar un proceso de aprobación nuevo o existente al trabajo](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recuperar aprobaciones enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Prueba {#proofing}
-      * [Prueba](review-and-approve-work/proofing/proofing.md)
+   * Revisión {#proofing}
+      * [Revisión](review-and-approve-work/proofing/proofing.md)
       * Información general sobre pruebas {#proofing-overview}
          * [Información general sobre pruebas](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Resumen del perfil de permisos de prueba](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

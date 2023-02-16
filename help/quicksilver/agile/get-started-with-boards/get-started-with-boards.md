@@ -6,9 +6,9 @@ description: Lea estos artículos para aprender a utilizar los tableros en Workf
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Esta sección contiene los siguientes artículos:
 * [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Administrar tarjetas](../../agile/get-started-with-boards/move-board-items.md)
 * [Administrar los elementos de la lista de comprobación en las tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+* [Personalización de los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [Eliminar o archivar una tarjeta de un tablero](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtrar y buscar en un tablero](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Agregar etiquetas](../../agile/get-started-with-boards/add-tags.md)
