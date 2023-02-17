@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      <tr> 
       <td role="rowheader">Dirección URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue la dirección URL del widget donde se almacena en Internet.</p> 
+       <p><strong>Importante</strong>: La dirección URL de debe ser una dirección URL pública. </p>
       <p>Si está agregando un widget de vídeo, actualmente puede hacerlo agregando lo siguiente en el cuadro URL:</p> 
       <ul> 
       <li> <p>Vínculo de YouTube o Vimeo</p> </li> 
       <li> <p>Vínculo de vídeo de Google Drive</p> </li> 
       <li> <p>Vínculo a vídeo con extensión MP4 y MOV</p> </li> 
-      <li> <p>Vínculo a vídeo ya cargado en el área Documentos de la instancia de Workfront. Para obtener instrucciones, consulte <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Agregue un widget de vídeo a un formulario personalizado desde el área Documentos</a> en este artículo.</p> </li> 
+      <li> <p>Vínculo a vídeo ya cargado en el área Documentos de la instancia de Workfront. Para obtener instrucciones, consulte <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Agregue un widget de vídeo a un formulario personalizado desde el área Documentos</a> en este artículo.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 

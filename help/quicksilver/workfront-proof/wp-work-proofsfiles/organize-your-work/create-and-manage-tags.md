@@ -7,9 +7,9 @@ description: Puede crear y editar etiquetas y aplicarlas a sus pruebas y archivo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
