@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
 
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras en Agile](#agile-enhancements)
+* [Mejoras en la administración de proyectos](#project-management-enhancements)
+* [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en el administrador
@@ -81,6 +83,57 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalización de la visualización de campos en una tarjeta</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>La personalización ya está disponible para configurar qué campos se muestran en una tarjeta, tanto en la vista completa cuando la tarjeta está abierta como en la vista de tarjeta condensada en el tablero. Cuando desactiva un campo, no se muestra en ninguna de las vistas. También puede activar un campo en la vista completa y ocultarlo de la vista condensada.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 16 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versión de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta función está disponible en Producción en esta fecha solo mediante la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definir un estado predeterminado para las tarjetas movidas a una columna de tablero</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede establecer un estado predeterminado para aplicarlo a las tarjetas movidas a una columna específica; para ello, seleccione un estado personalizado y un estado del sistema en las políticas de columna. Al mover una tarjeta a la columna , Workfront intenta primero aplicar el estado personalizado (por ejemplo, Esperando comentarios). Si el estado personalizado no está disponible para esa tarjeta, Workfront aplicará el estado del sistema en su lugar (por ejemplo, En espera). Además, si el estado de la tarea o problema conectado se cambia al estado personalizado o del sistema establecido en la directiva de columna, la tarjeta se mueve automáticamente a la columna .</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 16 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versión de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta función está disponible en Producción en esta fecha solo mediante la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Colecciones ahora disponibles en Adobe Workfront Boards</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede crear colecciones en el panel de tableros. Una colección es un grupo de tableros para colaborar en el trabajo. Una vez que haya asignado un nombre a la colección, puede agregar tableros a la colección mediante un conjunto de plantillas que ofrezcan una configuración predefinida, como los nombres de columna.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 16 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versión de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta función está disponible en Producción en esta fecha solo mediante la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">El campo Estimation de las tarjetas conectadas se asigna al campo Story Points de los objetos Workfront</a></p>
@@ -99,7 +152,6 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Tarjeta de vista previa en la columna de admisión</a></p>
@@ -113,6 +165,77 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                             <li>
                                  <p>Versión de producción para la inclusión anticipada: 2 de febrero de 2023 <span style="color: #ff0000;"> Esta función está disponible en Producción en esta fecha solo mediante la opción de inclusión de la función inicial para Workfront Boards.</span></p>
                                 <p>Versión de producción para todos los clientes: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Mejoras en la administración de proyectos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copiar horas presupuestadas al copiar un proyecto</a><span style="color: #ff0000;"> Novedades de Vista previa</span>
+                        <p>Ahora, tiene la opción de copiar las horas presupuestadas en el área de Presupuestación de Recursos del Caso de Negocio o el Planificador de Recursos cuando copia un proyecto. Antes de esta mejora, las horas presupuestadas para el proyecto no se transferían al proyecto copiado.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 16 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versión de producción: 2 de marzo de 2023 (fuera de ciclo)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Mejoras en la administración de recursos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Presentación del campo Tiempo de Trabajo para calcular con precisión la capacidad del usuario</a><span style="color: #ff0000;"> Novedades de Vista previa</span>
+                        <p>Para permitir que los administradores de recursos calculen con precisión la disponibilidad de sus usuarios y tengan en cuenta el tiempo que los usuarios dedican al trabajo real relacionado con el proyecto, presentamos el concepto de tiempo de trabajo a Adobe Workfront.</p>
+                        <p>Puede definir el valor del campo Tiempo de trabajo para cada usuario, al crear o editar su perfil.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 16 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versión de producción: 2 de marzo de 2023 (fuera de ciclo)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportar tableros como un solo PDF o como varios archivos de PDF en Adobe Workfront para XD</span></a><span style="color: #ff0000;"> Novedades en Producción!</span>
-                        <p>En el complemento Adobe Workfront for XD, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportar tableros como un solo PDF o como varios archivos de PDF en Adobe Workfront para XD</span></a>
+                        </span></a><p>En el complemento Adobe Workfront for XD, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

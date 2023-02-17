@@ -4,10 +4,10 @@ description: Actualizaciones de apariencia durante el lapso de tiempo de la vers
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ Para obtener más información y ver una demostración en vídeo de una función
 ## Icono de versión de documento actualizado en Detalles del documento
 
 Hemos actualizado la apariencia del icono de la versión del documento. El icono ahora muestra un punto rojo que indica cuándo se encuentra en una versión anterior, así como un pase que indica &quot;Versión anterior&quot;.
+
+## Nueva experiencia al copiar una o varias tareas de plantilla
+
+>[!NOTE]
+>
+>Versión de vista previa: 16 de febrero de 2023; Versión de producción planificada: 2 de marzo de 2023
+
+Para que el uso de Adobe Workfront sea coherente en todas partes de la aplicación, hemos rediseñado la interfaz al copiar o mover una tarea de plantilla. Actualmente está disponible al copiar una tarea de plantilla en el nivel de tarea o al copiar una o varias tareas en una lista.
+
+Algunas de las mejoras incluyen:
+
+* Toda la información que debe actualizar antes de copiar o mover la tarea de plantilla se muestra en una página continua.
+* Workfront comprueba si tiene acceso a la plantilla de destino inmediatamente después de elegir la plantilla. Antes de esta mejora, aparece un mensaje de advertencia que indica que no tiene el acceso correcto después de confirmar la copia o el movimiento, lo que da como resultado pasos adicionales y que la acción no está permitida.
+* Capacidad para solicitar acceso para una plantilla en la que desee copiar o mover la tarea de plantilla sin salir del cuadro Copiar o Mover tarea de plantilla .
+
+Para obtener más información, consulte [Copiar y mover tareas de plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
