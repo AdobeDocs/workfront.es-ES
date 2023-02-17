@@ -7,9 +7,9 @@ description: La herramienta de desarrollo de Adobe Workfront Fusion le permite c
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar la variable [!DNL Workfront Fusion] DevTool, primero debe instalarla.
 
-1. Haga clic en [este vínculo](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) para descargar la extensión de .
+1. Haga clic en [este vínculo](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) para descargar la extensión de .
 1. Una vez descargados los archivos, extráigalos a la carpeta que elija.
 1. Abra una ficha en [!DNL Chrome]
 1. En la barra de búsqueda de la pestaña , introduzca `chrome://extensions`.
