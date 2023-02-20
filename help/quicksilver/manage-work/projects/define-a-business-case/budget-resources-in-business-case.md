@@ -5,9 +5,9 @@ description: Como parte de la planificación de recursos, puede presupuestar las
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Como parte de la planificación de recursos, puede presupuestar las funciones de
 
 >[!NOTE]
 >
->La asignación de recursos no es lo mismo que programar recursos para un proyecto. Al presupuestar recursos, se calculan las funciones que podrían ser necesarias para completar el trabajo en un proyecto. Para programar o asignar usuarios al trabajo de un proyecto, consulte [Introducción a la programación de recursos](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Para obtener información sobre la planificación de recursos en Adobe Workfront, consulte [Introducción a la planificación de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>La asignación de recursos no es lo mismo que programar recursos para un proyecto. Al presupuestar recursos, se calculan las funciones que podrían ser necesarias para completar el trabajo en un proyecto. Para programar o asignar usuarios al trabajo de un proyecto, consulte [Administrar asignaciones de usuario en el equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Debe asociar funciones de trabajo con el proyecto antes de poder presupuestar los recursos para él. A continuación se indican las formas de asignar funciones de trabajo a un proyecto:
 

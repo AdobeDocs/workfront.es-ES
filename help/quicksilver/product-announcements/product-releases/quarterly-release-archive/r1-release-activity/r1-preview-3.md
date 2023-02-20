@@ -6,9 +6,9 @@ description: Esta página describe todos los cambios disponibles en el entorno d
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Para obtener más información, consulte  [Vincular documentos de aplicaciones 
 
 ## Equipo Actualizado Que Trabaja En El Calendario
 
+>[!NOTE]
+>
+>Las herramientas de programación de recursos se han desaprobado y eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el equilibrador de carga de trabajo, consulte [Información general del equilibrador de carga de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 El calendario de trabajo disponible para los equipos ahora contiene funciones adicionales y una apariencia actualizada. El equipo Trabajo en el calendario ahora funciona de forma similar a la herramienta de programación de recursos para los proyectos.
 
 El equipo actualizado Working On calendar incluye las siguientes mejoras:
@@ -52,22 +56,26 @@ Diferencias con respecto a la herramienta de programación de recursos al progra
 * Los problemas se muestran de forma predeterminada en el equipo que trabaja en el calendario.\
    Al programar recursos para proyectos, los problemas no se muestran de forma predeterminada.
 
-Para obtener más información sobre el uso del calendario actualizado de Trabajo en equipo, consulte [Programación de recursos](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Para obtener más información sobre el uso del equipo actualizado Trabajando en el calendario, consulte &quot;Programación de recursos&quot;.
 
 ## Mejoras en la programación de recursos
 
 La cronología de programación incluye las siguientes mejoras:
 
-* [Utilice el filtro para controlar qué usuarios se muestran en la línea de tiempo de programación](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Los usuarios permanecen en la línea de tiempo después de recibir una tarea](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Use el filtro para controlar qué usuarios se muestran en la cronología de programación&quot;
+* &quot;Los usuarios permanecen en la línea de tiempo después de que se les asigne una tarea&quot;
 
 ### Utilice el filtro para controlar qué usuarios se muestran en la línea de tiempo de programación {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Las herramientas de programación de recursos se han desaprobado y eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el equilibrador de carga de trabajo, consulte [Información general del equilibrador de carga de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 El filtro ahora se puede utilizar para controlar qué usuarios se muestran en la cronología de la programación, además de qué tareas y problemas se muestran en el área No asignado. Cuando los usuarios están seleccionados en el filtro, solo se muestran los usuarios seleccionados, independientemente de si tienen una asignación de funciones que coincida con la asignación de funciones de tareas en el área No asignado. También se muestran todas las tareas asignadas actualmente a ese usuario.
 
 Antes de este cambio, el filtro controlaba solo qué tareas y problemas se mostraban en el área Sin asignar. Los usuarios se mostraban en la cronología de la programación solo si el usuario coincidía con la asignación de funciones de una tarea en el área No asignada.
 
-Para obtener más información sobre el uso del filtro para controlar lo que se muestra en la cronología de programación, consulte  [Filtrado de información en el área Programación](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)y  [Asignación manual de tareas y problemas no asignados en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) en [Asignación manual de tareas y problemas no asignados en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Para obtener más información sobre el uso del filtro para controlar lo que se muestra en la cronología de programación, consulte &quot;Información de filtro en el área de programación&quot; y &quot;Asignar manualmente tareas y problemas no asignados en las áreas de programación&quot;.
 
 ### Los usuarios permanecen en la línea de tiempo después de recibir una tarea {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Los usuarios permanecen en la cronología de programación después de que se le
 
 Antes de este cambio, los usuarios desaparecían de la cronología de programación inmediatamente después de que se les asignara una tarea o problema si no quedaban tareas o problemas en el área No asignado con una asignación de función coincidente.
 
-Para obtener más información, consulte  [Asignación manual de tareas y problemas no asignados en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) en [Asignación manual de tareas y problemas no asignados en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Para obtener más información, consulte &quot;Asignación manual de tareas y problemas no asignados en las áreas de programación&quot;.
 
 ## Personalización de la terminología de Workfront mediante el cambio de los nombres de objeto
 

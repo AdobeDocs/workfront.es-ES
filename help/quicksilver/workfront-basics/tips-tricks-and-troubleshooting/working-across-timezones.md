@@ -5,9 +5,9 @@ title: Trabajo en zonas horarias
 description: 'Puede ser útil comprender cómo [!DNL Adobe Workfront] utiliza husos horarios para calcular lo siguiente: EDITAR ME.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ Puede ayudar a los usuarios a trabajar más fácilmente en varios husos horarios
 
    Para obtener instrucciones sobre la asignación de una programación a un proyecto o a un usuario, consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Programación] y [!DNL Workload Balancer], consulte lo siguiente:
-
-   * [Administrar asignaciones de usuario en la variable [!UICONTROL Programación] áreas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [Administrar asignaciones de usuario en la variable [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!DNL Workload Balancer], consulte [Administrar asignaciones de usuario en la variable [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Usar campos de hora calculados en un formulario personalizado {#use-calculated-time-fields-in-a-custom-form}

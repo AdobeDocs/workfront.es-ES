@@ -7,7 +7,7 @@ description: La fecha de finalización planeada de un proyecto es la fecha en la
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Para programar un proyecto desde la fecha de finalización:
 
 1. Select **Detalles del proyecto** en el panel izquierdo y, a continuación, haga clic en el **Editar proyecto** en la esquina superior derecha.
 
-1. En el **Programar desde** campo, seleccione **Fecha de finalización**.
+1. En el **Modo de programación** campo, seleccione **Fecha de finalización**.
 
 1. Especifique la variable **Fecha de finalización planeada** del proyecto.
 1. Haga clic en **Guardar cambios**.
@@ -119,7 +119,7 @@ Para programar un proyecto desde la fecha de inicio:
 
 1. Select **Detalles del proyecto** en el panel izquierdo y, a continuación, haga clic en el **Editar proyecto** en la esquina superior derecha.
 
-1. En el **Programar desde** campo, seleccione **Fecha de inicio**.
+1. En el **Modo de programación** campo, seleccione **Fecha de inicio**.
 
 1. Especifique la variable **Fecha de inicio planeada** del proyecto.
 1. Haga clic en **Guardar cambios**.

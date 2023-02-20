@@ -6,9 +6,9 @@ description: Información general sobre el plan de un proyecto
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Al definir tareas, tenga en cuenta lo siguiente:
 
    Para obtener más información sobre las horas planificadas, consulte el artículo [Información general sobre las horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Asigne cada tarea a un usuario o equipo responsable de completarla. 
+* Asigne cada tarea a un usuario o equipo responsable de completarla.
 * Compruebe la disponibilidad de los usuarios que asigna a las tareas. Asegúrese de que son libres de trabajar y de que no están sobreasignados para poder completar las tareas asignadas. Si los usuarios están sobreasignados o tienen tiempo libre en sus programaciones, tenga en cuenta una de las siguientes opciones:
 
    * Reduzca las horas planificadas de cada tarea.
    * Agregue más usuarios a una tarea para asegurarse de que se pueda completar durante el tiempo asignado.
    * Vuelva a asignar las tareas a usuarios que no estén disponibles sin otras restricciones.\
       Para obtener más información sobre la planificación de los recursos del proyecto, consulte el artículo [Planificación de recursos en Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Para obtener más información sobre la programación de recursos para realizar el trabajo en un proyecto, consulte el artículo [Programación de recursos](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Para obtener más información sobre la programación de recursos para realizar el trabajo en un proyecto, consulte [Información general del equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

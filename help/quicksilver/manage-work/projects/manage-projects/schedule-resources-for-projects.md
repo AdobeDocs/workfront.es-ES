@@ -6,7 +6,7 @@ description: Puede programar recursos para un solo proyecto para indicar a qué 
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Para acceder a la herramienta Programación de un proyecto:
 1. Vaya al proyecto para el que desea programar recursos.
 1. Haga clic en el **Programación** o Equilibrador de carga de trabajo en el panel izquierdo. La sección Programación o Equilibrador de carga de trabajo puede estar ubicada en **Mostrar más**.
 
-   Para obtener información sobre la programación de recursos con la herramienta Programación de un proyecto, consulte la [Modificar asignaciones y asignaciones de usuarios](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) sección del artículo [Introducción a la programación de recursos](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Para obtener información sobre la programación de recursos mediante la herramienta Programación de un proyecto, consulte la sección &quot;Modificación de asignaciones y asignaciones de usuarios&quot; en el artículo &quot;Introducción a la programación de recursos&quot;.
 
 1. (Condicional y recomendado) Si hizo clic en Programación, haga clic en **Cambiar a equilibrador de carga de trabajo** para programar recursos mediante el equilibrador de carga de trabajo.
 

@@ -5,9 +5,9 @@ title: Glosario de [!DNL Adobe Workfront] terminología
 description: La variable [!DNL Adobe Workfront] el glosario enumera los términos más utilizados en Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '19106'
+source-wordcount: '19138'
 ht-degree: 0%
 
 ---
@@ -480,8 +480,14 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>Capacidad</p> </td> 
+   <td> <p>El tiempo disponible de un recurso cuando se puede asignar para que funcione. Consulte "Disponibilidad". </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL Categoría]</p> </td> 
    <td> <p>Una categoría es un formulario personalizado. Puede crear informes para este objeto y mostrarlos también en otros informes de objeto. No todos los objetos pueden tener un formulario personalizado o una categoría. Los siguientes objetos pueden tener un formulario personalizado: <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td>[!UICONTROL Folder]</td> 
    <td>Las carpetas se utilizan para organizar documentos o informes asociados a un objeto.</td> </tr>
   <tr>
-  <td>FTE (equivalente a tiempo completo)</td> 
+  <td>[!UICONTROL FTE] (equivalente a tiempo completo)</td> 
    <td>Este es el equivalente de tiempo completo que indica la cantidad de tiempo que un recurso está disponible para trabajar. 
-   El campo FTE se muestra en las siguientes áreas: 
+   El campo [!UICONTROL FTE] se muestra en las siguientes áreas: 
   <ul>
    <li> Perfil del usuario al editar o crear el usuario </li>
-   <li> Planificador de recursos </li>
-   <li> Planificador de escenario (requiere licencia adicional para el planificador de escenario de Workfront) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL Scenario Planner] (requiere licencia adicional para Workfront Scenario Planner) </li>
    <li> Listas de usuarios e informes </li> </ul>
 
-<p>El FTE debe ser un número decimal de hasta 1 y no puede ser 0. </p>
-   <p> Un FTE de 1 (que es el valor predeterminado para el campo FTE de un usuario, tal como se define en su perfil) significa que un recurso (usuario o función) funciona durante todo el número de horas, según la programación que calcula su disponibilidad. </p>
+<p>El [!UICONTROL FTE] debe ser un número decimal de hasta 1 y no puede ser 0. </p>
+   <p> Un [!UICONTROL FTE] de 1 (que es el valor predeterminado del campo [!UICONTROL FTE] de un usuario, tal como se define en su perfil) significa que un recurso (usuario o función) funciona durante todo el número de horas, según la programación que calcula su disponibilidad. </p>
    <p>El administrador de Workfront decide qué programación utilizar para determinar la disponibilidad del usuario.  </p>
    <ul>
-   <li> Cuando se utiliza la programación predeterminada, Workfront utiliza el FTE del usuario que se encuentra en su perfil para calcular la disponibilidad. </li>
-   <li> Cuando se utiliza la programación del usuario, Workfront utiliza el tiempo de espera del usuario, <span class="preview">Valor de tiempo de trabajo</span>y las horas de programación predeterminadas para calcular el tiempo de espera del usuario. </li> </ul>
+   <li> Cuando se utiliza el [!UICONTROL Programación predeterminada], Workfront utiliza el [!UICONTROL FTE] del usuario que se encuentra en su perfil para calcular la disponibilidad. </li>
+   <li> Cuando se utiliza la programación del usuario, Workfront utiliza el tiempo de espera del usuario, <span class="preview">Valor de [!UICONTROL Work Time]</span>y las horas de [!UICONTROL Programación predeterminada] para calcular el [!UICONTROL FTE] del usuario. </li> </ul>
 
 <p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a>.  </p>
-   <p>Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>. </p>
+   <p>Para obtener más información sobre la creación de programaciones en [!DNL Workfront], consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>. </p>
 
 <p><b>NOTA</b></p>
-   <p>Para todos los cálculos del Planificador de escenarios, Workfront utiliza el siguiente valor: 1 FTE = 8 horas.</p>
-   <p>Para obtener más información, consulte <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Introducción al planificador de escenarios</a>. </p>
+   <p>Para todos los cálculos del [!UICONTROL Scenario Planner], Workfront utiliza el siguiente valor: 1 [!UICONTROL FTE] = 8 horas.</p>
+   <p>Para obtener más información, consulte <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Introducción al [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL planificado]</td> 
-   <td> <p>El lapso de tiempo dentro del cual está programado que ocurra algo. Al crear proyectos, tareas o problemas en [!DNL Workfront], se establecen las fechas de inicio y finalización planificadas, así como el periodo planificado durante el cual se producen. Estos valores representan su intención original o estiman cuánto tiempo debe tardar un tiempo de trabajo en completarse. </p></td> 
+   <td> <p>El lapso de tiempo dentro del cual está programado que ocurra algo. Al crear proyectos, tareas o problemas en [!DNL Workfront], se establecen las fechas de inicio y finalización planificadas, así como el periodo planificado durante el cual se producen. Estos valores representan su intención original o estiman cuánto tiempo debe tardar un artículo en completarse. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Beneficio planificado]</td> 
@@ -1904,7 +1910,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Programar exención]</td> 
-   <td>También se conoce como [!UICONTROL Modificfied Shift]. Días programados a diferencia de los tiempos de trabajo semanales normales definidos por la programación. Por ejemplo, un sábado programado para funcionar, cuando el programa está configurado para trabajar solo de lunes a viernes, sería una [!UICONTROL Schedule Exemption].</td> 
+   <td>También se conoce como [!UICONTROL Modificfied Shift]. Días programados a diferencia de los tiempos de trabajo semanales normales, tal como se define en la programación. Por ejemplo, un sábado programado para funcionar, cuando el programa está configurado para trabajar solo de lunes a viernes, sería una [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Informe programado]</td> 
@@ -2328,15 +2334,15 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Tiempo de trabajo]</td> 
    <td>
 
-<p><span class="preview">Representa el porcentaje del tiempo equivalente a tiempo completo (FTE) que el usuario está disponible para el trabajo real, sin incluir la sobrecarga. El tiempo de trabajo debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, un 20% de disponibilidad para el trabajo real sería 0,2.</span>  </p>
-   </p><span class="preview">El valor predeterminado del campo es 1, lo que indica que un usuario gasta todo su FTE en trabajo real relacionado con el proyecto.</span>   </p>
+<p><span class="preview">Representa el porcentaje del tiempo equivalente a tiempo completo ([!UICONTROL FTE]) que el usuario está disponible para el trabajo real, sin incluir la sobrecarga. [!UICONTROL Tiempo de trabajo] debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, un 20% de disponibilidad para el trabajo real sería 0,2.</span>  </p>
+   </p><span class="preview">El valor predeterminado del campo es 1, lo que indica que un usuario gasta todo su [!UICONTROL FTE] en trabajo real relacionado con el proyecto.</span>   </p>
    <p><span class="preview">El sistema utiliza este número para calcular la disponibilidad del usuario para el trabajo real relacionado con el proyecto. </span></p>
    <p> <span class="preview">Las excepciones de programación y el tiempo de espera también pueden afectar a la capacidad del usuario.</span> </p>
-   <p><span class="preview">Para obtener más información sobre la creación de programaciones en Workfront, consulte Creación de una programación. (INSERTAR VÍNCULO)</span> </p>
-    <p>Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurar las preferencias de Administración de recursos</a>. </p> 
-   <p><span class="preview">Puede actualizar el tiempo de trabajo de un usuario al editarlo o crearlo. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a></span></p> 
+   <p><span class="preview">Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>.</span> </p>
+    <p>Workfront calcula la disponibilidad de un usuario según las preferencias de Gestión de recursos del área [!UICONTROL Setup]. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurar las preferencias de Administración de recursos</a>. </p> 
+   <p><span class="preview">Puede actualizar el [!UICONTROL Work Time] de un usuario al editarlo o crearlo. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a></span></p> 
    <b>SUGERENCIA</b> 
-   <p><span class="preview">Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para trabajos relacionados con el proyecto con todo su equivalente de tiempo completo.</span></p> 
+   <p><span class="preview">Establezca el valor [!UICONTROL Work Time] en 1 para indicar que el usuario está disponible para trabajos relacionados con proyectos con todo su equivalente a tiempo completo.</span></p> 
    </td> 
   </tr> 
   <tr> 

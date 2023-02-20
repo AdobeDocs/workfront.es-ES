@@ -6,7 +6,7 @@ description: Como gestor de recursos, puede utilizar Adobe Workfront Workload Ba
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ Workfront utiliza la siguiente información para calcular la capacidad del usuar
 * El tiempo de espera del usuario. Indica los días que el usuario tiene previsto despegar.
 
    Para obtener más información, consulte [Configuración del tiempo de espera personal en Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">Tiempo de trabajo del usuario. Esto indica el porcentaje de tiempo de espera a largo plazo que el usuario está disponible para realizar un trabajo real relacionado con el proyecto, sin incluir los gastos generales. Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para trabajos relacionados con el proyecto con todo su equivalente de tiempo completo.</span>
+<div class="preview">
+* El tiempo de trabajo del usuario. Esto indica el porcentaje de tiempo de espera a largo plazo que el usuario está disponible para realizar un trabajo real relacionado con el proyecto, sin incluir los gastos generales. Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para trabajos relacionados con el proyecto con todo su equivalente de tiempo completo.
+</div>
 
 ## Asignar trabajo en el equilibrador de carga de trabajo
 

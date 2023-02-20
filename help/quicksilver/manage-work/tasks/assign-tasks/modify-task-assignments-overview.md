@@ -7,7 +7,7 @@ description: Puede asignar o anular la asignación de tareas de usuarios, equipo
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Este artículo contiene información general sobre el impacto de la modificació
 
 * Para obtener información sobre la asignación de tareas, consulte [Asignación de tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) y [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Para obtener información sobre la modificación de asignaciones en varias tareas del área Programación, consulte [Modificar asignaciones de varios usuarios a tareas en las áreas de programación](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Para obtener información sobre la modificación de asignaciones en varias tareas del área de programación, consulte &quot;Modificación de asignaciones de varios usuarios a tareas en las áreas de programación&quot;.
 * Para obtener información sobre la asignación de tareas mediante el equilibrador de carga de trabajo, consulte [Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Parte de la información de este artículo también se aplica a las asignaciones a problemas. Para obtener más información sobre la asignación de problemas y consideraciones adicionales, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

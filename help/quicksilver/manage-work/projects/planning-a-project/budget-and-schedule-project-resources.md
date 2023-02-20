@@ -6,10 +6,10 @@ description: Presupuesto y calendario de los recursos para proyectos
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,4 @@ Asegúrese de hacer lo siguiente al finalizar la planificación de sus proyectos
    * [Planificación de recursos en Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Introducción al planificador de escenarios](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Programe sus recursos o asígnelos a tareas y problemas. Al asignar los recursos a tareas y problemas, puede asociar usuarios, equipos o funciones a elementos de trabajo específicos, lo que los hace responsables de completar estos elementos. .
-
-   Para obtener más información, consulte los artículos:
-
-   * [Información general del equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [Horario de recursos](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* Programe sus recursos o asígnelos a tareas y problemas. Al asignar los recursos a tareas y problemas, puede asociar usuarios, equipos o funciones a elementos de trabajo específicos, lo que los hace responsables de completar estos elementos. Para obtener más información, consulte [Información general del equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

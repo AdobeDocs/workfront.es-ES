@@ -6,9 +6,9 @@ description: Las siguientes funciones estaban disponibles en el entorno de vista
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Las siguientes funciones estaban disponibles en el entorno de vista previa en 20
 
 ## Mejoras en la programación de recursos
 
-Ahora puede ver todas las tareas en proyectos para los que es el Administrador de recursos, lo que le permite estar más informado al tomar decisiones de programación. 
+>[!NOTE]
+>
+>Las herramientas de programación de recursos se han desaprobado y eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el equilibrador de carga de trabajo, consulte [Información general del equilibrador de carga de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Para obtener información general sobre las herramientas disponibles para programar recursos, consulte [Introducción a la programación de recursos](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Ahora puede ver todas las tareas en proyectos para los que es el Administrador de recursos, lo que le permite estar más informado al tomar decisiones de programación.
 
-Para ajustar la información que se muestra en la cronología de la programación, cree un filtro, tal como se describe en [Filtrado de información en el área Programación](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Para obtener información general sobre las herramientas disponibles para programar recursos, consulte &quot;Introducción a la programación de recursos&quot;.
 
-Además de ver las tareas en los proyectos de los que es responsable, puede utilizar la cronología de programación para realizar cambios en las asignaciones de recursos. Para obtener información sobre cómo administrar las asignaciones de usuario en la cronología de programación, consulte [Asignación manual de tareas y problemas no asignados en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Para ajustar la información que se muestra en la cronología de la programación, cree un filtro, tal como se describe en &quot;Filtrar información en el área de programación&quot;.
+
+Además de ver las tareas en los proyectos de los que es responsable, puede utilizar la cronología de programación para realizar cambios en las asignaciones de recursos. Para obtener información sobre cómo administrar las asignaciones de usuario en la cronología de programación, consulte &quot;Asignación manual de tareas y problemas no asignados en las áreas de programación&quot;.
 
 ## Administrar asignaciones de usuario en la cronología de programación
 
 Ahora, al programar recursos con las nuevas herramientas de programación de recursos, puede determinar cómo se asignan a los usuarios las horas programadas para una tarea o un problema. Puede dividir horas entre días en la duración de la tarea y entre usuarios asignados.
 
-Para obtener más información, consulte [Administrar asignaciones de usuario en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Para obtener más información, consulte &quot;Administrar asignaciones de usuario en las áreas de programación&quot;.
 
 ## Las asignaciones del usuario están deshabilitadas de forma predeterminada
 
@@ -39,7 +43,7 @@ El sombreado de la asignación de usuarios en la cronología de programación al
 
 Anteriormente, el sombreado de asignación se mostraba de forma predeterminada y no se podía deshabilitar.
 
-Para obtener más información sobre cómo habilitar las opciones de asignación de usuarios, consulte [Administrar asignaciones de usuario en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) en  [Administrar asignaciones de usuario en las áreas de programación](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Para obtener más información sobre cómo habilitar las opciones de asignación de usuarios, consulte &quot;Administrar asignaciones de usuarios en las áreas de programación&quot;.
 
 ## Plantilla de diseño determina si el calendario nuevo o heredado se muestra en Mi área de trabajo
 

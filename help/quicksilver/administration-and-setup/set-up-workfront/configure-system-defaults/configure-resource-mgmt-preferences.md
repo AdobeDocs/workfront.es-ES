@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Al calcular la capacidad de un usuario, Workfront tiene en cuenta la siguiente i
 * [!UICONTROL Programación] [!UICONTROL Excepciones] (dependiendo de qué [!UICONTROL Programación] se utiliza, puede ser las excepciones de la programación del usuario o las asociadas con la variable [!DNL Workfront] [!UICONTROL Programación predeterminada])
 * Tiempo de espera del usuario
 * El valor del equivalente de tiempo completo ([!UICONTROL FTE]) del usuario o del del [!DNL Workfront] sistema. La variable [!UICONTROL FTE] es igual a 1 cuando el usuario trabaja a tiempo completo, tal como se define en la programación.
-* <span class="preview">El valor de [!UICONTROL Tiempo de trabajo] para el usuario que hace referencia al tiempo que el usuario emplea en el trabajo relacionado con el proyecto. Esto no incluye el tiempo invertido, como las reuniones y la formación. La variable [!UICONTROL Tiempo de trabajo] es igual a 1 cuando el usuario está disponible para trabajar todo el tiempo indicado por la variable [!UICONTROL FTE] o el programa, lo que significa que no pasan tiempo en trabajos no relacionados con proyectos como reuniones o capacitación.</span>
+<div class="preview">
+* El valor de [!UICONTROL Work Time] para el usuario, que hace referencia al tiempo que el usuario emplea en el trabajo relacionado con el proyecto. Esto no incluye el tiempo invertido, como las reuniones y la formación. El [!UICONTROL Work Time] es igual a 1 cuando el usuario está disponible para trabajar todo el tiempo indicado por el [!UICONTROL FTE] o la programación, lo que significa que no pasa ningún tiempo en trabajos no relacionados con el proyecto, como reuniones o cursos de capacitación.
+</div>
 
 Para obtener información sobre planificación y programación de recursos en [!DNL Workfront], consulte [Introducción a la administración de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

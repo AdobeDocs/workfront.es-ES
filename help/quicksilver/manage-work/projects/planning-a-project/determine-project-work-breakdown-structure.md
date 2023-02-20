@@ -6,9 +6,9 @@ description: La definición de una estructura de desglose de trabajo (EDT) para 
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Al principio de un año o trimestre fiscal, es posible que desee administrar los
 Para obtener información sobre la planificación del uso de los recursos en un nivel superior, consulte el artículo [Introducción a la planificación de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Al administrar los recursos en el contexto de la creación de la estructura de desglose de trabajo de un proyecto y asegurarse de que cada tarea esté asignada al recurso correcto, está listo para programar los recursos para el trabajo que debe realizarse.\
-Para obtener información sobre la programación de los recursos, consulte los artículos de la sección [Programación de recursos](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) para obtener más información.
+Para obtener información sobre la programación de los recursos, consulte los artículos de la sección [El equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/workload-balancer.md) para obtener más información.
 
 ## Estimación de las finanzas de los proyectos
 

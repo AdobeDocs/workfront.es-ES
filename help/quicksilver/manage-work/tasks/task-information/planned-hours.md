@@ -7,9 +7,9 @@ description: Las horas planificadas asociadas a una tarea, un problema o un proy
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Por ejemplo, si una tarea se configura para que comience a las 4 p. m. y queda u
 >
 >Las horas planificadas por día o la asignación diaria son la asignación de horas planificadas para cada día durante la duración de la tarea. Si la tarea tiene una asignación, este número representa las horas planificadas por día por asignación. Si la tarea tiene varias asignaciones, las horas planificadas por día por asignación son diferentes de las horas planificadas por día para la tarea. No hay representación visual en Workfront para las horas planificadas por día por asignación, para tareas con varias asignaciones.
 
- 
-
 ## Localizar y comprender los valores de horas planificadas
 
 Puede encontrar valores de horas planificadas en varias áreas de Workfront. 
@@ -89,7 +87,6 @@ Puede localizar Horario planificado en las siguientes áreas de Workfront:
 * [La sección Detalles de un proyecto, tarea o problema](#the-details-section-of-a-project-task-or-issue)
 * [El cuadro Editar tarea o Editar problema](#the-edit-task-or-edit-issue-box)
 * [Informes](#reports)
-* [Las áreas de programación](#the-scheduling-areas)
 * [El equilibrador de carga de trabajo](#the-workload-balancer)
 * [El planificador de recursos](#the-resource-planner)
 * [El informe Utilización](#the-utilization-report)
@@ -131,20 +128,22 @@ Para obtener información sobre la creación de informes, consulte [Crear un inf
 >
 >Si crea un informe de proyecto (datos financieros) y lo agrupa por fecha, las horas planificadas podrían mostrar una parte de las horas planificadas del proyecto en función de la cronología de las tareas del proyecto. De forma predeterminada, Workfront distribuye las tareas Horas planificadas de forma equitativa para cada día de la duración de la tarea. Las horas planificadas para un intervalo de tiempo determinado coinciden con la distribución igual establecida por Workfront para ese lapso de tiempo en el informe Proyecto (Datos financieros).
 
-### Las áreas de programación  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-Las horas planificadas para tareas y problemas se muestran en las áreas de programación del campo Horario planificado .
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-Puede ver la asignación diaria de horas planificadas para cada usuario asignado a una tarea o a un problema en las áreas de programación.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-La cantidad de horas diarias representa una de las siguientes: 
+The daily hour amount represents one of the following:
 
-* cantidad predeterminada distribuida equitativamente por Workfront para cada día de la duración de las tareas o problemas
-* la asignación diaria ajustada administrada por los gestores de recursos.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Para obtener información sobre el ajuste de las asignaciones diarias en las herramientas de programación, consulte [Administrar asignaciones de usuario en las áreas de programación](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### El equilibrador de carga de trabajo {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Las siguientes horas planificadas para tareas, problemas y proyectos se muestran
 * Para los proyectos, se muestra un total de horas planificadas de las tareas y problemas visibles en la pantalla.
 
    >[!TIP]
-   El equilibrador de carga de trabajo no muestra todas las horas planificadas de un proyecto como visibles en el área Detalles del proyecto.
+   >
+   >El equilibrador de carga de trabajo no muestra todas las horas planificadas de un proyecto como visibles en el área Detalles del proyecto.
 
 Puede ver la asignación diaria de horas planificadas para cada usuario asignado a una tarea o a un problema en el equilibrador de carga de trabajo.
 
@@ -176,7 +176,8 @@ El planificador de recursos muestra las horas planificadas para proyectos, tarea
 Puede ver las asignaciones semanales de horas planificadas para los usuarios y las funciones de trabajo asociadas con elementos de trabajo en la columna PLN del Planificador de recursos.
 
 >[!TIP]
-Los ajustes de asignación diaria en el equilibrador de carga de trabajo influyen en las asignaciones semanales para tareas y problemas en el planificador de recursos.
+>
+>Los ajustes de asignación diaria en el equilibrador de carga de trabajo influyen en las asignaciones semanales para tareas y problemas en el planificador de recursos.
 
 El número de horas planificadas para cada objeto difiere según la vista que aplique al planificador de recursos. Para obtener más información, consulte [Descripción general de las horas, los datos a tiempo completo y la información de costes en las vistas Proyecto y Función del planificador de recursos](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ La cantidad semanal de proyectos, usuarios y funciones está influida por las ca
 Las horas planificadas del proyecto son las que están asociadas con las asignaciones de cada tarea y problema.
 
 >[!IMPORTANT]
-Tenga en cuenta que las horas planificadas del informe Utilización están asociadas con las asignaciones y no con las tareas y problemas en sí. Las horas planificadas del informe de utilización no siempre coinciden con las horas planificadas en cuanto a las tareas y los problemas del proyecto. Sin embargo, las horas planificadas coinciden con las horas asociadas con las asignaciones en tareas y problemas.
+>
+>Tenga en cuenta que las horas planificadas del informe Utilización están asociadas con las asignaciones y no con las tareas y problemas en sí. Las horas planificadas del informe de utilización no siempre coinciden con las horas planificadas en cuanto a las tareas y los problemas del proyecto. Sin embargo, las horas planificadas coinciden con las horas asociadas con las asignaciones en tareas y problemas.
 
 Puede ver los siguientes tipos de horas planificadas en el informe Uso:
 
