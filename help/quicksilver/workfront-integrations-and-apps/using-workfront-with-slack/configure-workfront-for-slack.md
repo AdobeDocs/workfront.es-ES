@@ -6,9 +6,9 @@ description: Integración [!DNL Adobe Workfront] con Slack le permite acceder a 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 09b4644a63241fa9e0a213bfa6f1a7e4264a1703
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,8 @@ Siga los pasos a continuación para ejecutar el proceso de instalación y autori
 1. Haga clic en **[!UICONTROL Abrir en[!DNL Slack]]**.
 
 1. Inicie sesión en su espacio de trabajo especificando su [!DNL Slack] URL y clic **[!UICONTROL Continuar]**.\
-   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
 
 1. Examine el acceso que [!DNL Slack] solicita. Si acepta este acceso, haga clic en **[!UICONTROL Permitir acceso]** para autorizar [!DNL Workfront] aplicación.
-
-   ![](assets/integrations-access-screen-350x429.png)
 
 Ahora puede acceder a [!DNL Workfront] from [!DNL Slack], tal como se describe en la sección [Acceso [!DNL Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -98,8 +95,6 @@ Puede instalar el [!DNL Workfront] directamente desde la [!DNL Slack] aplicació
    O
 
    Haga clic en el **[!UICONTROL Agregar aplicaciones]** en su [!DNL Slack] instancia.
-
-   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
 
 1. Empezar a escribir *[!DNL Workfront]* en el campo de búsqueda.
 1. Pulse Intro.

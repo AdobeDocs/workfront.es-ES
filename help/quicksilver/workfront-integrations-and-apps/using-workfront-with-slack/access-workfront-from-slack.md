@@ -6,7 +6,7 @@ description: Integración [!DNL Adobe Workfront] con [!DNL Slack] le permite acc
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -95,8 +95,6 @@ Para iniciar sesión en [!DNL Workfront] from [!DNL Slack]:
    * `/wf home`
 
       Muestra los botones desde los que puede acceder a las listas de tareas, problemas y aprobaciones. Al hacer clic en uno de los botones, se muestran los 20 primeros elementos de cada lista de [!DNL Slack].
-
-      ![](assets/slack-home-buttons-350x80.png)
 
       Para obtener más información sobre la administración [!DNL Workfront] elementos de trabajo de [!DNL Slack], consulte [Administre su trabajo y aprobaciones desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
@@ -203,8 +201,6 @@ Para obtener más información sobre el acceso a [!DNL Workfront] desde un vínc
    O
 
    `/wf settings`
-
-   ![](assets/slack-configuring-settings-350x302.png)
 
    Todos los ajustes están habilitados de forma predeterminada.
 

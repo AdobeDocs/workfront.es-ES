@@ -6,9 +6,9 @@ description: Puede acceder a su lista de trabajo en el hogar, revisar y aceptar 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -62,8 +62,7 @@ Antes de administrar el trabajo y las aprobaciones desde [!DNL Slack], debe
    >* Puede iniciar el comando con `/wf` en lugar de `/workfront`.
 
 
-   Se muestran los botones desde los que puede acceder a las listas de tareas, problemas y aprobaciones. Al hacer clic en uno de los botones, se muestran los 20 primeros elementos de cada lista de [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   Se muestran los botones desde los que puede acceder a las listas de tareas, problemas y aprobaciones. Al hacer clic en uno de los botones, se muestran los 20 primeros elementos de cada lista de [!DNL Slack].
 
 1. (Opcional) Haga clic en **[!UICONTROL Tareas]** para mostrar todas las tareas.
 
@@ -95,8 +94,7 @@ Antes de administrar el trabajo y las aprobaciones desde [!DNL Slack], debe
    >* Puede iniciar el comando con `/wf` en lugar de `/workfront`.
 
 
-   Se muestran las 20 primeras tareas de la lista.\
-   ![](assets/slack-two-tasks-350x286.png)
+   Se muestran las 20 primeras tareas de la lista.
 
 1. Haga clic en **[!UICONTROL +`<remaining number>` more]** para mostrar tareas adicionales.
 1. Considere la posibilidad de revisar la siguiente información sobre sus elementos de trabajo:
@@ -141,8 +139,7 @@ Antes de administrar el trabajo y las aprobaciones desde [!DNL Slack], debe
    >* Puede iniciar el comando con `/wf` en lugar de `/workfront`.
 
 
-   Se muestran los 20 primeros problemas de la lista.\
-   ![](assets/slack-two-issues-350x323.png)
+   Se muestran los 20 primeros problemas de la lista.
 
 1. Haga clic en **[!UICONTROL + restante `<number>` more]** para mostrar elementos adicionales.
 1. Considere la posibilidad de revisar la siguiente información sobre sus elementos de trabajo:
@@ -179,12 +176,6 @@ Antes de administrar el trabajo y las aprobaciones desde [!DNL Slack], debe
    Los primeros 20 artículos de su **[!UICONTROL Aprobaciones]** visualización de la lista. También se muestra información adicional sobre los elementos, como el nombre del usuario que lo solicitó o el nombre del proyecto al que pertenece el elemento.
 
 1. Haga clic en **[!UICONTROL + restante `<number>` more]** para mostrar elementos adicionales.
-
-   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Considere la posibilidad de administrar aprobaciones para los siguientes objetos:
 

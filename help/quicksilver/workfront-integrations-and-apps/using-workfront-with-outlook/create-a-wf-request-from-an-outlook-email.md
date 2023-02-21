@@ -6,9 +6,9 @@ description: Puede crear un [!DNL Adobe Workfront] solicitud de un correo electr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Para crear un [!DNL Workfront] Solicitar desde [!DNL Outlook]:
 1. Haga clic en el **[!DNL Workfront]** en la esquina superior derecha del mensaje de correo electrónico para mostrar el complemento de Workfront.\
    Es posible que tenga que hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder a la [!DNL Workfront] icono.
 
-1. Haga clic en el **[!UICONTROL Menú]** para mostrar la lista de [!DNL Workfront] opciones.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Haga clic en el **[!UICONTROL Menú]** icono ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) para mostrar la lista de [!DNL Workfront] opciones.
 
 1. Haga clic en **[!UICONTROL Enviar solicitud]**.
 1. En el **[!UICONTROL Seleccionar un tipo de solicitud]** , seleccione la cola de solicitudes en la que desea enviar la solicitud.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Especifique la siguiente información:\
    Los campos disponibles pueden variar en función de cómo se haya configurado la cola de solicitudes. Para obtener una lista y descripción completas de los campos posibles, consulte [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../manage-work/requests/create-requests/create-submit-requests.md) artículo.
@@ -78,5 +74,4 @@ Para crear un [!DNL Workfront] Solicitar desde [!DNL Outlook]:
    La solicitud se envía a [!DNL Workfront], en la cola de solicitudes especificada.
 
 1. (Opcional) Vuelva a [!DNL Outlook]y seleccione el correo electrónico original.\
-   En la parte superior del [!DNL Workfront] panel de complementos, observe la confirmación con un vínculo de que el correo electrónico se agregó a Workfront como solicitud. El vínculo incluye la fecha de conversión.\
-   ![outlook_submit_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)
+   En la parte superior del [!DNL Workfront] panel de complementos, observe la confirmación con un vínculo de que el correo electrónico se agregó a Workfront como solicitud. El vínculo incluye la fecha en la que se convirtió.\

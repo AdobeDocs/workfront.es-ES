@@ -6,9 +6,9 @@ description: Puede vincular [!DNL Jira] problemas con [!DNL Adobe Workfront] tar
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Para vincular automáticamente un [!DNL Workfront] tarea a [!DNL Jira] problema:
 
    En el **[!UICONTROL Actualizaciones]** del área de la nueva tarea, hay un comentario que indica que también se ha creado un nuevo problema en [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Opcional) Haga clic en el enlace al problema de Jira para abrirlo en Jira.
 
    O
@@ -142,15 +140,14 @@ Para vincular manualmente [!DNL Jira] problemas con [!DNL Workfront] elementos:
 
    O
 
-   En el [!UICONTROL Detalles] area ![](assets/details-icon-in-left-panel.png), copie el **[!UICONTROL Número de referencia]** del elemento en Workfront.
+   En el [!UICONTROL Detalles] , copie el **[!UICONTROL Número de referencia]** del elemento en Workfront.
 
    >[!NOTE]
    >
    >Debe tener un [!DNL Workfront] licencia para iniciar sesión en [!DNL Workfront]. De lo contrario, un [!DNL Workfront] El usuario debe proporcionarle esta información.
 
 1. En [!DNL Jira], vaya a un problema que desee vincular manualmente al [!DNL Workfront] elemento.
-1. En el [!DNL Workfront] panel derecho, pegue el **URL** o **[!UICONTROL Número de referencia]** del [!DNL Workfront] elemento que desea vincular a él.\
-   ![manualmente_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. En el [!DNL Workfront] panel derecho, pegue el **URL** o **[!UICONTROL Número de referencia]** del [!DNL Workfront] elemento que desea vincular a él.
 
 1. Haga clic en **[!UICONTROL Vínculo]**.
 
@@ -168,8 +165,6 @@ Para vincular manualmente [!DNL Jira] problemas con [!DNL Workfront] elementos:
 
 Para obtener más información sobre cómo activar campos adicionales para que se muestren en el panel derecho, consulte [Configuración de la sincronización de campos entre [!DNL Jira] y [!DNL Workfront] Elementos](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) en [Configurar [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Un comentario del [!DNL Workfront] el administrador asociado a la integración se publica en la **[!DNL Workfront]** de la pestaña [!DNL Jira] problema para confirmar que [!DNL Jira] se ha creado el elemento. El comentario contiene un vínculo al [!DNL Jira] problema.
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Desvincular elementos entre [!DNL Jira] y [!DNL Workfront]
 
 Elementos vinculados entre [!DNL Jira] y [!DNL Workfront] se puede desvincular manualmente de [!DNL Jira].\
@@ -185,6 +180,6 @@ Solo un [!DNL Workfront] el administrador puede desvincular elementos que se vin
 Para desvincular un [!DNL Jira] desde un [!DNL Workfront] elemento:
 
 1. En [!DNL Jira], vaya a un problema vinculado a un [!DNL Workfront] tarea o problema.
-1. Vaya a la [!DNL Workfront] panel derecho y haga clic en el botón **[!UICONTROL Desvincular]** y, a continuación, haga clic en **[!UICONTROL Desvincular]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Vaya a la [!DNL Workfront] panel derecho y haga clic en el botón **[!UICONTROL Desvincular]** y, a continuación, haga clic en **[!UICONTROL Desvincular]**.
+
    El vínculo anterior [!DNL Jira] y [!DNL Workfront] los elementos ahora están desvinculados. Los campos, comentarios o documentos que puedan actualizarse sobre ellos individualmente en el futuro no se actualizan en su contraparte anterior en la otra aplicación.

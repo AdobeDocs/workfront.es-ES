@@ -6,9 +6,9 @@ description: Puede buscar [!DNL Adobe Workfront] elementos de [!DNL Slack], if y
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
@@ -60,8 +60,7 @@ Antes de poder buscar [!DNL Workfront] elementos de [!DNL Slack], debe
 
    >[!NOTE]
    >
-   >Los comandos distinguen entre mayúsculas y minúsculas. La palabra clave no distingue entre mayúsculas y minúsculas y debe escribirse sin corchetes ni comillas.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >Los comandos distinguen entre mayúsculas y minúsculas. La palabra clave no distingue entre mayúsculas y minúsculas y debe escribirse sin corchetes ni comillas.
 
 1. En el campo que aparece, seleccione un tipo de objeto de lo siguiente:
 

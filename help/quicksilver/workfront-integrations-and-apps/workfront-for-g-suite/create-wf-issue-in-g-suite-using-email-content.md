@@ -7,7 +7,7 @@ description: Puede convertir un correo electrónico externo (no generado por [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ Antes de crear un problema desde [!DNL G Suite], debe
    En la parte inferior del **[!UICONTROL Detalles]** , también puede hacer clic en **[!UICONTROL Ver en Workfront]** para ir al nuevo problema en Workfront.
 
    Al actualizar el explorador, aparece un mensaje con un vínculo en la parte inferior de la variable [!UICONTROL Workfront para G Suite] confirma que ha convertido el correo electrónico en un problema:
-
-   ![](assets/email-was-converted.png)
 
    Puede hacer clic en el vínculo para ir a la vista Detalles, dentro del [!DNL Workfront for G Suite] para el problema que ha creado.
 

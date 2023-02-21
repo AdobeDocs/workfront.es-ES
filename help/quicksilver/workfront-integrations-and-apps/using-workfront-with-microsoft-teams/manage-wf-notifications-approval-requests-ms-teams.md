@@ -6,9 +6,9 @@ description: Puede recibir notificaciones de [!DNL Adobe Workfront] acerca de lo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Puede recibir [!DNL Workfront] notificaciones en [!DNL Microsoft Teams] si se cu
 
 * Un propietario del equipo ha instalado y configurado [!DNL Workfront for Microsoft Teams] para su equipo.
 * Ha iniciado sesión [!DNL Workfront] from [!DNL Microsoft Teams].
-* Ha habilitado las notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo activar notificaciones instantáneas, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Ha habilitado notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo activar notificaciones instantáneas, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obtener información sobre la instalación [!DNL Workfront for Microsoft Teams] e inicie sesión en [!DNL Workfront from Microsoft Teams], consulte [Instalar [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -71,9 +71,7 @@ Tenga en cuenta lo siguiente al trabajar con [!DNL Workfront] notificaciones de 
 
 Para administrar el [!DNL Workfront] notificaciones que puede recibir en [!DNL Microsoft Teams]:
 
-1. Haga clic en el **[!UICONTROL Más]** icono de aplicaciones en la barra de navegación izquierda de [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Haga clic en el **[!UICONTROL Más]** icono de aplicaciones (tres puntos) en la barra de navegación izquierda de [!DNL Microsoft Teams].
 
 1. Haga clic en [!DNL Workfront] en la lista que aparece.
 1. Seleccione el **[!UICONTROL Configuración]** pestaña .

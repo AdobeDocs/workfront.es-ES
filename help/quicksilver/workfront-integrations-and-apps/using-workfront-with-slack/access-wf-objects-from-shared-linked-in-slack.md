@@ -6,9 +6,9 @@ description: Cuando los vínculos a [!DNL Adobe Workfront] los objetos se compar
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ Antes de poder acceder a sus favoritos y elementos recientes desde [!DNL Slack],
    >[!NOTE]
    >
    >El usuario que comparte el vínculo debe tener al menos [!UICONTROL Ver] permisos del proyecto para que pueda ver información adicional sobre él.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Opcional) Haga clic en el nombre del proyecto para abrirlo en [!DNL Workfront] en una nueva pestaña del explorador.
 1. Considere la posibilidad de revisar la siguiente información adicional sobre el proyecto:

@@ -7,7 +7,7 @@ description: Puede acceder a su [!DNL Adobe Workfront] Contenido de inicio, incl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ Antes de poder acceder a [!UICONTROL Página principal] contenido de [!DNL G Sui
 1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
 1. Si ve una flecha izquierda en la parte superior de [!DNL Workfront] para [!DNL G Suite], haga clic en la flecha para ir a la [!UICONTROL Página principal] .
 
-   ![](assets/left-arrow-to-home.png)
-
 1. En el **[!UICONTROL Ordenar por]** , haga clic en la flecha de expansión ![](assets/dropdown-arrow.png)y, a continuación, haga clic en una opción para especificar cómo desea agrupar los elementos de trabajo para que pueda encontrar el que desee.
-
-   ![](assets/sort-by-area.png)
 
    Cuando ordena por **[!UICONTROL Fecha de confirmación]** o **[!UICONTROL Finalización prevista]** , los elementos de trabajo más antiguos se encuentran en la parte superior.
 

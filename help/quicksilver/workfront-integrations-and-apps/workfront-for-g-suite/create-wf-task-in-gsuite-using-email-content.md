@@ -7,7 +7,7 @@ description: Puede convertir un correo electrónico externo (no generado por el 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Antes de crear un [!DNL Workfront] tarea en [!DNL G Suite], debe
 1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
 1. Con el mensaje de correo electrónico abierto en [!DNL G Suite], haga clic en una opción de [!DNL Workfront for G Suite] para convertir el correo electrónico en un nuevo [!DNL Workfront] tarea.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Seleccione un **[!UICONTROL Crear nuevo]** para indicar si la tarea va a formar parte de un proyecto o de una tarea personal independiente de él.
 1. Si desea adjuntar la tarea a un proyecto principal, haga clic en **[!UICONTROL Nombre del proyecto]**, empiece a escribir el nombre del proyecto en el que desea la tarea y, a continuación, haga clic en el nombre del proyecto cuando aparezca en la lista siguiente.
 1. Realice cualquiera de estos cambios:
@@ -107,8 +105,6 @@ Antes de crear un [!DNL Workfront] tarea en [!DNL G Suite], debe
    En la parte inferior del **[!UICONTROL Detalles]** , también puede hacer clic en **[!UICONTROL Ver en[!DNL Workfront]]** para ir a la nueva tarea en Workfront.
 
    Al actualizar el explorador, aparece un mensaje con un vínculo en la parte inferior de la variable [!DNL Workfront for G Suite] confirma que ha convertido el correo electrónico en una tarea:
-
-   ![](assets/email-was-converted.png)
 
    Puede hacer clic en el vínculo para ir a la vista Detalles, dentro del [!DNL Workfront for G Suite] para la tarea que ha creado.
 

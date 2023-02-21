@@ -6,9 +6,9 @@ description: Puede convertir [!DNL Outlook] correos electrónicos a [!DNL Adobe 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Su [!DNL Workfront] el administrador debe habilitar [!DNL Outlook for Office] co
 1. Haga clic en el **[!DNL Workfront]** en la esquina superior derecha del mensaje de correo electrónico para mostrar la variable [!DNL Workfront] complemento.\
    Es posible que tenga que hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder a la [!DNL Workfront] icono.
 
-1. Haga clic en el **[!UICONTROL Menú]** para mostrar la lista de [!DNL Workfront] opciones.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Haga clic en el **[!UICONTROL Menú]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para mostrar la lista de [!DNL Workfront] opciones.\
+
 
 1. Haga clic en **[!UICONTROL Agregar a trabajo]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Anule la selección de **[!UICONTROL Agregar a proyecto]** campo .
 1. (Opcional) Puede actualizar la siguiente información del correo electrónico antes de guardarla como tarea:
@@ -67,5 +66,4 @@ Su [!DNL Workfront] el administrador debe habilitar [!DNL Outlook for Office] co
 1. (Opcional) Haga clic en **[!UICONTROL Ver en Workfront]** para mostrar la tarea dentro de la variable [!DNL Workfront] en una pestaña nueva.
 
 1. (Opcional) Vuelva a [!DNL Outlook]y seleccione el correo electrónico original.\
-   En la parte superior del [!DNL Workfront] panel de complementos, observe la confirmación con un vínculo de que el correo electrónico se ha agregado a Workfront como tarea. El vínculo incluye la fecha de conversión.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)
+   En la parte superior del [!DNL Workfront] panel de complementos, observe la confirmación con un vínculo de que el correo electrónico se ha agregado a Workfront como tarea. El vínculo incluye la fecha en la que se convirtió.\

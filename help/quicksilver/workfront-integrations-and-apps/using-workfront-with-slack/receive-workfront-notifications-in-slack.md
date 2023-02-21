@@ -6,9 +6,9 @@ description: Recibir [!DNL Adobe Workfront] notificaciones en [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ Antes de recibir [!DNL Workfront] notificaciones en [!DNL Slack], debe
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. De forma predeterminada, todas las notificaciones están habilitadas.\
    Desactive cualquiera de las siguientes notificaciones:
 
@@ -107,25 +105,15 @@ Para administrar su [!DNL Workfront] notificaciones para [!DNL Slack]:
 
    * Haga clic en **[!UICONTROL Trabaje en él]** aceptar para trabajar en una tarea.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (Condicional y opcional) Haga clic en **[!UICONTROL Responder en[!DNL Workfront]]** para responder a un comentario, escriba su respuesta y haga clic en **[!UICONTROL Responder]**.
 
-   * (Condicional y opcional) Haga clic en **[!UICONTROL Responder en[!DNL Workfront]]** para responder a un comentario, escriba su respuesta y haga clic en **[!UICONTROL Responder]**.\
+   * (Condicional y opcional) Haga clic en **[!UICONTROL Aprobar]** o **[!UICONTROL Rechazar]** para aprobar o rechazar una tarea, un problema o un proyecto que estén pendientes de aprobación.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (Condicional y opcional) Haga clic en **[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]** o **[!UICONTROL Rechazar]**, para aprobar, aprobar con cambios o rechazar un documento.
 
-   * (Condicional y opcional) Haga clic en **[!UICONTROL Aprobar]** o **[!UICONTROL Rechazar]** para aprobar o rechazar una tarea, un problema o un proyecto que estén pendientes de aprobación.\
-
-      ![slack_approve_task_notification_png](assets/slack-approve-task-notification-350x105.png)
-
-   * (Condicional y opcional) Haga clic en **[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]** o **[!UICONTROL Rechazar]**, para aprobar, aprobar con cambios o rechazar un documento.\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       También puede pasar el ratón sobre la miniatura del documento y hacer clic en el icono de lupa para ver una previsualización más grande del documento, antes de aprobarlo.\
       Solo el Slack aprobado [tipos de archivo](https://api.slack.com/types/file) se puede obtener una vista previa.
 
    * (Condicional y opcional) Haga clic en **[!UICONTROL Concesión]** o **[!UICONTROL Ignorar]** para conceder o ignorar la solicitud de más acceso de otro usuario.\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       Recibirá una confirmación de que su acción se ha completado en [!DNL Workfront], para cada decisión que tome dentro de sus notificaciones.

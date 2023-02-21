@@ -7,7 +7,7 @@ description: Este artículo describe cómo iniciar o salir del [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -69,8 +69,6 @@ Antes de iniciar o cerrar sesión [!DNL Workfront for G Suite], debe
 
 1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
 1. Haga clic en el **[!UICONTROL Más acciones]** en la parte superior del [!DNL Workfront for G Suite] panel.
-
-   ![](assets/more-actions-icon.png)
 
 1. Haga clic en **[!UICONTROL Cerrar sesión]** en el menú que aparece.
 

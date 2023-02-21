@@ -6,9 +6,9 @@ description: Para instalar la aplicación antes de que esté disponible en el [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ Para instalar la aplicación antes de que esté disponible:
 
 1. Marque la **[!UICONTROL Sí, conceder acceso a estos sitios web de terceros]** en la ventana
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    Aparece una pantalla de carga y la instalación puede tardar un rato.
 
 1. Haga clic en **[!UICONTROL Listo]** cuando se complete la instalación.
@@ -123,11 +121,9 @@ Para instalar la aplicación antes de que esté disponible:
 
    La variable [!DNL Workfront] la aplicación aparece en **[!UICONTROL Paquetes instalados]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Vaya a **[!UICONTROL Configuración>Controles de seguridad>Configuración del sitio remoto]**.
 1. (Condicional) Si no ve su [!DNL Workfront] La URL que aparece en la sección **[!UICONTROL Todos los sitios remotos]** lista, haga clic en **[!UICONTROL Nuevo sitio remoto]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Especifique la variable **[!UICONTROL Nombre del sitio remoto]**.\
    Por ejemplo, *[!DNL Workfront]*.
@@ -137,7 +133,7 @@ Para instalar la aplicación antes de que esté disponible:
 
 1. Haga clic en **[!UICONTROL Guardar]**.\
    La variable [!DNL Workfront] la aplicación ya está instalada en su [!DNL Salesforce] y **[!UICONTROL Oportunidades del frente de trabajo]** y **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] Las páginas se han creado en su entorno.\
-   [!DNL Salesforce] los usuarios no podrán usar la aplicación hasta que no agregue la variable [!DNL Workfront] para [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
+   [!DNL Salesforce] los usuarios no podrán usar la aplicación hasta que no agregue la variable [!DNL Workfront] a su [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
    Para obtener información sobre cómo configurar la variable [!DNL Workfront] para los usuarios, consulte [Configure las variables [!DNL Adobe Workfront] para [!DNL Salesforce] usuarios](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 ### Instalación [!DNL Workfront for Salesforce] en el [!DNL Salesforce Lightning Experience] Marco
@@ -167,15 +163,11 @@ Para instalar la aplicación antes de que esté disponible:
 
    La variable [!DNL Workfront] la aplicación aparece en **[!UICONTROL Paquetes instalados]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Vaya a **[!UICONTROL Configuración].**
 1. En el **[!UICONTROL CONFIGURACIÓN]** expandir &#x200B;**[!UICONTROL Seguridad].**
 
 1. Haga clic en **[!UICONTROL Configuración del sitio remoto]**.
 1. (Condicional) Si no ve su [!DNL Workfront] La URL que aparece en la sección **[!UICONTROL Todos los sitios remotos]** lista, haga clic en **[!UICONTROL Nuevo sitio remoto]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Especifique la variable **[!UICONTROL Nombre del sitio remoto]**.
 
@@ -189,5 +181,5 @@ Para instalar la aplicación antes de que esté disponible:
 
    La variable [!DNL Workfront] la aplicación ya está instalada en su [!DNL Salesforce] y la **[!DNL Workfront]** ahora se añade a su entorno.
 
-   [!UICONTROL Salesforce] los usuarios pueden usar la variable [!DNL Workfront] una vez que haya agregado la variable [!DNL Workfront] para [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
+   [!UICONTROL Salesforce] los usuarios pueden usar la variable [!DNL Workfront] una vez que haya agregado la variable [!DNL Workfront] a su [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
    Para obtener información sobre cómo configurar la variable [!DNL Workfront] para los usuarios, consulte [Configure las variables [!DNL Adobe Workfront] para [!DNL Salesforce] usuarios](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).

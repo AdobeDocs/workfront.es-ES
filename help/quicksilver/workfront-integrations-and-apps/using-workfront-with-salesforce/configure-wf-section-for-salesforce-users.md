@@ -6,9 +6,9 @@ description: Después de la instalación [!DNL Adobe Workfront] para Salesforce 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este a
    Haga clic en **[!UICONTROL Nuevo]** para añadir un nuevo diseño.
 
 1. (Opcional) Arrastre el **[!UICONTROL Sección]** en el diseño y colóquelo en la posición deseada.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (Opcional) Especifique un nombre para la nueva sección.
 
@@ -82,15 +81,13 @@ Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este a
 1. Haga clic en **[!UICONTROL OK]**.
 1. En el **[!UICONTROL Diseño]** área, haga clic en **[!UICONTROL Páginas de VisualForce].**
 
-1. Arrastre y suelte la **[!UICONTROL Oportunidades de trabajo]** a la nueva sección de la sección **[!UICONTROL Oportunidades]** Diseño.
+1. Arrastre y suelte la **[!UICONTROL Oportunidades del frente de trabajo]** a la nueva sección de la sección **[!UICONTROL Oportunidades]** Diseño.
 
    O
 
    Arrastre y suelte la **[!UICONTROL WorkfrontAccounts]** a la nueva sección de la sección  **[!UICONTROL Cuenta]** Diseño.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. Haga clic en el **[!UICONTROL Propiedades]** en la parte superior derecha del componente recién añadido.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. Haga clic en el **[!UICONTROL Propiedades]** en la parte superior derecha del componente recién agregado.\
 
 1. Para lograr una visualización óptima, especifique las siguientes propiedades para la variable [!DNL Workfront Visualforce] página:
 
@@ -104,8 +101,6 @@ Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este a
    Todos los usuarios que tienen este diseño asignado ahora pueden ver la variable [!DNL Workfront] en la sección [!UICONTROL Oportunidades] o [!UICONTROL Cuentas] objetos.
 
    Los usuarios ven una [!DNL Workfront] pantalla de inicio de sesión en [!DNL Workfront] para obtener más información. Si no tienen un [!DNL Workfront] pueden contraer la sección, pero no eliminarla de su diseño.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Configure las variables [!DNL Workfront] en la sección [!DNL Salesforce Lightning Experience] marco
 
@@ -142,14 +137,11 @@ Puede añadir la variable [!DNL Workfront] a la presentación de un [!DNL Salesf
 1. Vaya a un **[!UICONTROL Oportunidad]** o **[!UICONTROL Cuenta]**.
 
 1. Haga clic en el **[!UICONTROL Configuración]** y, a continuación, haga clic en **[!UICONTROL Editar página]**.\
-   ![salesforce_lightning_oportunidad_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Expanda el **[!UICONTROL Gestionado a medida]** para obtener más información.
 1. Arrastre y suelte la **[!DNL Workfront]** en su [!UICONTROL Oportunidad] o la página Cuenta.
 
    Se recomienda utilizar la anchura completa de la página para la variable [!DNL Workfront] en lugar de una de las columnas de la presentación.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -159,4 +151,3 @@ Puede añadir la variable [!DNL Workfront] a la presentación de un [!DNL Salesf
    >
    >Los usuarios ven una [!DNL Workfront] pantalla de inicio de sesión en [!DNL Workfront] para obtener más información. Si no tienen un [!DNL Workfront] pueden contraer la sección, pero no eliminarla de su diseño. Los usuarios pueden iniciar sesión con el método de autenticación que ha habilitado: Autenticación mejorada o su URL de Lenguaje de marcado de aserción de seguridad (SAML).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)
