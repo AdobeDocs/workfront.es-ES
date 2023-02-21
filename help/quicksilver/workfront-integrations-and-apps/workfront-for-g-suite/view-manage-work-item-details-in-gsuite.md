@@ -7,7 +7,7 @@ description: Puede ver y administrar los detalles de un elemento de trabajo sin 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Antes de poder ver y administrar los detalles de los elementos de trabajo en [!D
 
    Al seleccionar una tarea o un problema, la variable **[!UICONTROL Detalles]** está abierta. El área encima de la **[!UICONTROL Detalles]** muestra el nombre del objeto principal, el nombre de la tarea o el problema y la pestaña [!UICONTROL Fecha de vencimiento] (si es una tarea) o [!UICONTROL Fecha de prioridad] (si es un problema).
 
-   ![](assets/details-tab.png)
 
    Puede realizar varias tareas en esta ficha sin salir de [!DNL G Suite], lo que incluye lo siguiente:
 
