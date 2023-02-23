@@ -5,9 +5,9 @@ title: Personalización de los campos que se muestran en una tarjeta
 description: Puede personalizar los campos que se muestran en una tarjeta desactivando un campo para que no se muestre en la tarjeta completa o en la vista condensada, o ocultando un campo en la vista de tarjeta condensada.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Personalización de los campos que se muestran en una tarjeta
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Esta función solo está disponible a través de la opción de inclusión de las funciones iniciales para Workfront Board.
+>Esta función solo está disponible a través de la opción de inclusión inicial de [!DNL Workfront] [!UICONTROL Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 De forma predeterminada, todos los campos disponibles se muestran en una tarjeta, tanto en la vista completa cuando la tarjeta está abierta como en la vista de tarjeta condensada en el tablero. Puede personalizar los campos que se muestran:
 
@@ -62,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar .
 1. Expandir [!UICONTROL **Tarjetas**].
 
-   Todos los campos están habilitados de forma predeterminada.
+   La mayoría de los campos están habilitados de forma predeterminada.
 
 1. Desactive un campo para desactivarlo en ambas vistas de tarjeta.
 1. Haga clic en el icono Ocultar ![Ocultar icono](assets/eye-hide-icon.png) junto a un campo para ocultarlo en la vista condensada.

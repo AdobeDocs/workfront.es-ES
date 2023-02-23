@@ -6,7 +6,7 @@ title: Administrar colecciones
 description: Una colección es un grupo configurable de tableros para colaborar en el trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Administrar colecciones
-
-{{highlighted-preview-article-level}}
 
 Una colección es un grupo configurable de tableros para colaborar en el trabajo. Las colecciones pueden incluir distintos tipos de tableros creados a partir de plantillas.
 

@@ -6,7 +6,7 @@ title: Eliminar o archivar un tablero
 description: Puede eliminar o archivar un tablero en Workfront. Al eliminar un tablero, éste se elimina permanentemente de Workfront, mientras que al archivar un tablero se conservan todas las tarjetas y se pueden restaurar posteriormente.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -15,9 +15,7 @@ ht-degree: 0%
 
 # Eliminar o archivar un tablero
 
-{{highlighted-preview}}
-
-Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se elimina de [!DNL Workfront], mientras que el archivado de un tablero conserva todas las tarjetas y permite restaurarlas posteriormente. <span class="preview">Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de colecciones.</span>
+Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se elimina de [!DNL Workfront], mientras que el archivado de un tablero conserva todas las tarjetas y permite restaurarlas posteriormente. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de colecciones.
 
 >[!NOTE]
 >

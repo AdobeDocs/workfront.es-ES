@@ -6,7 +6,7 @@ description: La variable [!UICONTROL tableros] tablero muestra la lista de table
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Usar el tablero de tableros
 
-{{highlighted-preview}}
-
-El tablero de tableros muestra la lista de tableros <span class="preview">y colecciones</span> a los que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se ha agregado. <span class="preview">Los tableros individuales a los que tiene acceso que no forman parte de una colección se muestran primero.</span>
+El tablero de tableros muestra la lista de tableros y colecciones a las que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se ha agregado. Los tableros individuales a los que tiene acceso que no forman parte de una colección se muestran primero.
 
 >[!NOTE]
 >
 >Las colecciones solo están disponibles a través de la opción de inclusión de la función inicial de [!DNL Workfront] [!UICONTROL Tableros].
 
-En el tablero puede hacer lo siguiente para tableros y <span class="preview">colecciones</span>:
+En el tablero puede hacer lo siguiente para tableros y colecciones:
 
 * Archivar un tablero (las colecciones no se pueden archivar)
 * Filtrar la lista de tableros
@@ -31,7 +29,7 @@ En el tablero puede hacer lo siguiente para tableros y <span class="preview">col
 * Buscar un tablero o una colección
 * Eliminar un tablero o una colección
 
-Para obtener información sobre cómo crear un tablero nuevo o editar uno existente, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Para obtener información sobre cómo crear una colección nueva, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Para obtener información sobre cómo crear un tablero nuevo o editar uno existente, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md). Para obtener información sobre cómo crear una colección nueva, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acceso
 
@@ -72,9 +70,9 @@ Puede filtrar el tablero de tableros para mostrar tableros activos, archivados o
 
    Cuando se aplica una ordenación distinta del valor predeterminado en el panel, aparece un indicador en el icono de ordenación ![Orden aplicada](assets/sort-applied-boards.png).
 
-## Buscar un tablero <span class="preview">o una colección</span>
+## Buscar un tablero o una colección
 
-<span class="preview">En el área Tableros puede buscar un tablero específico o buscar una colección específica en el área Colecciones .</span>
+En el área Tableros puede buscar un tablero específico o buscar una colección específica en el área Colecciones .
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
 1. Haga clic en [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
@@ -102,11 +100,11 @@ El archivado de un tablero lo envía al archivo y puede restaurarlo más adelant
 
 1. Para restaurar un tablero archivado, haga clic en el botón **[!UICONTROL Más]** menú ![Más icono de menú](assets/more-icon-spectrum.png) en el tablero y seleccione **[!UICONTROL Restaurar]**.
 
-## Eliminar un tablero <span class="preview">o una colección</span>
+## Eliminar un tablero o una colección
 
 Cuando elimina un tablero, se elimina permanentemente de [!DNL Workfront] y no se pueden restaurar. Todas las tarjetas del tablero también se eliminan junto con el tablero.
 
-<span class="preview">Al eliminar una colección, se eliminan todos los tableros de la colección.</span>
+Al eliminar una colección, se eliminan todos los tableros de la colección.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ Cuando elimina un tablero, se elimina permanentemente de [!DNL Workfront] y no s
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
 1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero o colección, y seleccione **[!UICONTROL Eliminar]**.
 
-   <span class="preview">En una colección, el menú está a la derecha, junto al [!UICONTROL **Ver colección**] botón.</span>
+   En una colección, el menú está a la derecha, junto al [!UICONTROL **Ver colección**] botón.
 
 1. Haga clic en **[!UICONTROL Eliminar tablero]** o [!UICONTROL **Eliminar colección**] en el mensaje de confirmación.
-
-<div class="preview">
 
 ## Mover un tablero a una colección
 
@@ -135,5 +131,3 @@ Puede mover un tablero independiente a una colección o moverlo de una colecció
 
    El tablero se mueve a la colección y ya no aparece en el [!UICONTROL Tableros] .
 Si todavía no ha creado una colección, se le pedirá que la cree para moverla al tablero.
-
-</div>

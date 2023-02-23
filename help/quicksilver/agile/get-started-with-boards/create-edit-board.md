@@ -6,7 +6,7 @@ description: En el [!UICONTROL tableros] tablero, puede crear un tablero nuevo o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 4%
@@ -15,11 +15,9 @@ ht-degree: 4%
 
 # Crear o editar un tablero
 
-{{highlighted-preview}}
-
 En el [!UICONTROL tableros] tablero, puede crear un tablero nuevo o editar uno existente.
 
-<span class="preview">Para agregar un tablero a una colección, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Para agregar un tablero a una colección, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acceso
 
@@ -45,15 +43,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Crear un tablero nuevo
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Para crear un tablero independiente, haga clic en **[!UICONTROL Crear nuevo]** en el [!UICONTROL Tableros] . <span class="preview">Para agregar un tablero a una colección, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Para crear un tablero independiente, haga clic en **[!UICONTROL Crear nuevo]** en el [!UICONTROL Tableros] . Para agregar un tablero a una colección, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Las colecciones solo están disponibles a través de la opción de inclusión de la función inicial de [!DNL Workfront] [!UICONTROL Tableros].
 
-1. <span class="preview">Seleccione una plantilla para el tablero.</span>
-
-   <div class="preview">
+1. Seleccione una plantilla para el tablero.
 
    | Plantilla | Descripción |
    |---------|----------|
@@ -64,8 +60,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!NOTE]
    >
    > Las plantillas de tablero solo están disponibles a través de la opción de inclusión de las funciones iniciales de [!DNL Workfront] [!UICONTROL Tableros].
-
-   </div>
 
 1. Escriba un nombre para el tablero en el **[!UICONTROL Consejo]** y pulse Intro.
 1. Configure el tablero según sea necesario.
