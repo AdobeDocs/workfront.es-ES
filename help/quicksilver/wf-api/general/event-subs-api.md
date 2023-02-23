@@ -6,7 +6,7 @@ description: API de suscripción de evento
 author: John
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c52f1839d3d00c71c6d567084dafd586d161d8fb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Para crear, consultar o eliminar una suscripción de evento, el usuario de Workf
 **URL de solicitud:**
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **Solicitar encabezados:**
@@ -130,7 +130,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## Formación del recurso de suscripción

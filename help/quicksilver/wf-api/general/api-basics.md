@@ -6,7 +6,7 @@ description: Conceptos básicos de API
 author: John
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 4c3997f17c4d563849c475d3c0a080129a2b91eb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '4405'
 ht-degree: 0%
@@ -43,9 +43,9 @@ Esta sección ofrece una introducción de alto nivel sobre cómo interactuar con
 A cada objeto del sistema se le asigna un URI único que consta del tipo de objeto y el ID. Los siguientes ejemplos muestran URI que describen tres objetos únicos:
 
 ```
-/attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
-/attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
-/attask/api/v9.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
+/attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
+/attask/api/v15.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
 ```
 
 El tipo de objeto no distingue entre mayúsculas y minúsculas y puede ser ObjCode abreviado (como proj) o el nombre de objeto alternativo (proyecto).
@@ -64,14 +64,14 @@ Los métodos HTTP estándar corresponden a las siguientes operaciones:
 * **DELETE** - Elimina un objeto
 
 Para solucionar las deficiencias del cliente o los límites de longitud del protocolo, se puede utilizar el parámetro de método para anular el comportamiento HTTP. Por ejemplo, una operación de GET se puede implementar publicando el siguiente URI:
-<pre>GET /attask/api/v9.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v9.0/project/4c78...54d0?method=get</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### respuesta
 
 A cada solicitud se le da una respuesta en formato JSON. La respuesta tiene un atributo de datos si la solicitud se realizó correctamente o un atributo de error si hubo un problema. Por ejemplo, la solicitud
 
 ```
-GET /attask/api/v9.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
+GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 ```
 
 devuelve una respuesta JSON similar a la siguiente:
@@ -84,7 +84,7 @@ devuelve una respuesta JSON similar a la siguiente:
 >Al ejecutar una solicitud de GET a través de la barra de direcciones del explorador, no es necesario incluir el sessionID como parte de la solicitud.
 
 Se ha añadido una seguridad especial en torno a las solicitudes de PUT, POST y DELETE. Cualquier solicitud que resulte en escribir o eliminar de la base de datos solo se puede ejecutar si la variable **sessionID=abc123** se incluye en el URI. Los siguientes ejemplos muestran cómo buscaría esto una solicitud del DELETE:
-<pre>GET /attask/api/v9.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v9.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### Autenticación
 
@@ -99,7 +99,7 @@ El método preferido de autenticación es pasar un encabezado de solicitud denom
 El siguiente es un ejemplo de encabezado de solicitud:
 
 ```
-GET /attask/api/v9.0/project/search
+GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
 
@@ -108,7 +108,7 @@ SessionID: abc1234
 Puede autenticarse pasando un parámetro de solicitud denominado sessionID, como se muestra en el siguiente ejemplo: 
 
 ```
-GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
+GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Autenticación basada en cookies
@@ -137,7 +137,7 @@ Para obtener una lista de procedimientos que difieren en función de si su organ
 Con un nombre de usuario y una contraseña válidos, puede utilizar la siguiente solicitud para obtener un ID de sesión:
 
 ```
-POST /attask/api/v9.0/login?username=admin&password=user
+POST /attask/api/v15.0/login?username=admin&password=user
 ```
 
 Esto establece una cookie para autenticar futuras solicitudes, así como para devolver una respuesta JSON con el sessionID recién creado, el userID del usuario que ha iniciado sesión y otros atributos de sesión.
@@ -151,7 +151,7 @@ Puede generar una clave de API al iniciar sesión en el sistema como ese usuario
 
 
 ```
-PUT /attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put
+PUT /attask/api/v15.0/user?action=generateApiKey&username= username&password=password&method=put
 ```
 
 **Recuperación de una clave de API generada anteriormente**
@@ -160,7 +160,7 @@ También puede recuperar una clave de API que se haya generado anteriormente par
 
 
 ```
-PUT /attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
+PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 A continuación, puede utilizar este resultado para autenticar cualquier llamada de API añadiendo &quot;apiKey&quot; como parámetro de solicitud con este valor en lugar de sessionID o nombre de usuario y contraseña. Esto es beneficioso desde el punto de vista de la seguridad.
@@ -168,7 +168,7 @@ A continuación, puede utilizar este resultado para autenticar cualquier llamada
 La siguiente solicitud es un ejemplo de recuperación de datos de un proyecto mediante apiKey:
 
 ```
-GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
+GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 ```
 
 **Invalidación de una clave de API**
@@ -176,7 +176,7 @@ GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 Si el valor de apiKey se ha visto comprometido, puede ejecutar &quot;clearApiKey&quot;, que invalida la clave de API actual, como se muestra en el siguiente ejemplo:
 
 ```
-GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
+GET /attask/api/v15.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 Una vez borrada, puede ejecutar getApiKey de nuevo para generar una nueva clave de API.
@@ -186,7 +186,7 @@ Una vez borrada, puede ejecutar getApiKey de nuevo para generar una nueva clave 
 Cuando se completa una sesión, se puede utilizar la siguiente solicitud para cerrar la sesión del usuario, lo que impide cualquier acceso adicional con sessionID.
 
 ```
-GET /attask/api/v9.0/logout?sessionID=abc1234
+GET /attask/api/v15.0/logout?sessionID=abc1234
 ```
 
 El sessionID que se va a cerrar se puede especificar como cookie, encabezado de solicitud o parámetro de solicitud.
@@ -194,12 +194,12 @@ El sessionID que se va a cerrar se puede especificar como cookie, encabezado de 
 Para cerrar la sesión de un usuario:
 
 1. Vaya a la pantalla de inicio de sesión, pero no inicie sesión.
-1. Cambie la URL a /attask/api/v9.0/project/search.\
+1. Cambie la URL a /attask/api/v15.0/project/search.\
    Observe que la página no se encuentra.
 1. Reemplazar la palabra *búsqueda* con login?username=admin&amp;password=user, sustituyendo su nombre de usuario y contraseña por *admin* y *usuario\
    *Esta sesión se almacena en el explorador como una cookie y no es necesario reiniciarla en cada solicitud de GET posterior.
 
-1. Volver a cambiar la dirección URL a **/attask/api/v9.0/project/search**.
+1. Volver a cambiar la dirección URL a **/attask/api/v15.0/project/search**.
 1. Observe la respuesta proporcionada.
 
 Siempre debe incluir el sessionID proporcionado después del inicio de sesión al realizar solicitudes de PUT, POST y DELETE.
@@ -217,7 +217,7 @@ Puede mejorar la búsqueda de objetos mediante modificadores y filtros.
 Si conoce el ID de un objeto, puede recuperarlo accediendo a su URI único. Por ejemplo, la solicitud
 
 ```
-GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 ```
 
 devuelve una respuesta similar a la siguiente:
@@ -229,10 +229,10 @@ Puede recuperar varios objetos en la misma solicitud especificando el parámetro
 
 
 ```
-GET /attask/api/v9.0/project?id=4c78...54d0,4c78...54d1
+GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-Observe que la solicitud /attask/api/v9.0/project?id=... es la misma que la solicitud `/attask/api/v9.0/project/...` solicitud.
+Observe que la solicitud /attask/api/v15.0/project?id=... es la misma que la del `/attask/api/v15.0/project/...` solicitud.
 
 #### Recuperación de un objeto mediante el URI
 
@@ -241,19 +241,19 @@ Si desea recuperar un objeto por criterios que no sean el ID, puede buscar el UR
 Por ejemplo, puede utilizar la siguiente solicitud para devolver una lista de todos los proyectos del sistema:
 
 ```
-GET /attask/api/v9.0/project/search
+GET /attask/api/v15.0/project/search
 ```
 
 Puede especificar filtros utilizando los parámetros de solicitud como pares nombre-valor. Por ejemplo, el siguiente ejemplo muestra una solicitud que encontraría todos los proyectos actuales:
 
 ```
-GET /attask/api/v9.0/project/search?status=CUR
+GET /attask/api/v15.0/project/search?status=CUR
 ```
 
 La siguiente solicitud encuentra todas las tareas que aún no se han completado y que están asignadas a un usuario llamado John.
 
 ```
-GET /attask/api/v9.0/task/search?percentComplete=100
+GET /attask/api/v15.0/task/search?percentComplete=100
 &percentComplete_Mod=lt &assignedTo:firstName=John
 ```
 
@@ -290,7 +290,7 @@ Por ejemplo, si desea filtrar por
 * Tareas que tienen una tarea principal denominada &quot;Tarea final&quot;
 
 a continuación, utilice la siguiente llamada de API con sus varias instrucciones OR:
-<pre>GET /attask/api/v9.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portafolio:name=FixedAssets<br>&amp;OR:1:portafolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
+<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portafolio:name=FixedAssets<br>&amp;OR:1:portafolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
 </pre>
 
 #### Uso de parámetros de filtro
@@ -298,13 +298,13 @@ a continuación, utilice la siguiente llamada de API con sus varias instruccione
 Un problema potencial con el uso de parámetros de URL para filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar los distintos métodos de autenticación (por ejemplo, nombre de usuario, contraseña, apiKey, cookie). Cuando esto sucede, los parámetros no se utilizan como filtros en la llamada de . 
 
 Para evitar este problema, puede colocar estos valores en parámetros de filtro con formato JSON. Por ejemplo, si desea filtrar por el usuario testuser del nombre de usuario, en lugar de usar 
-<pre>/attask/api/v9.0/user/search?username=testuser@workfront.com</pre>pase el parámetro URL en un filtro, como se muestra en el siguiente ejemplo:
-<pre>/attask/api/v9.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
+<pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>pase el parámetro URL en un filtro, como se muestra en el siguiente ejemplo:
+<pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
 #### Uso del parámetro de solicitud de mapa
 
 De forma predeterminada, los datos devueltos por una búsqueda son una matriz JSON. En función de su caso de uso, puede ser más eficaz obtener el resultado como un objeto JSON indexado por ID. Esto se puede hacer utilizando el parámetro de solicitud de asignación. Por ejemplo, la solicitud 
-<pre>/attask/api/v9.0/task/search?map=true</pre>devuelve una respuesta indexada por ID similar a la siguiente:
+<pre>/attask/api/v15.0/task/search?map=true</pre>devuelve una respuesta indexada por ID similar a la siguiente:
 <pre>{<br>    "data": {<br>        "4c9a97db000000f13ee446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "primera tarea",<br>            "ID": "4c9a97db000000f13ee446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "segunda tarea",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### Uso del parámetro de solicitud de campos
@@ -312,7 +312,7 @@ De forma predeterminada, los datos devueltos por una búsqueda son una matriz JS
 De forma predeterminada, la recuperación de un objeto devuelve solo el subconjunto de campos más utilizado.
 
 Puede utilizar el parámetro de solicitud de campos para especificar que se devuelve una lista de campos específicos separados por coma. Por ejemplo, la solicitud
-<pre>/attask/api/v9.0/task/search?fields=scheduledStartDate,priority</pre>devuelve una respuesta similar a la siguiente:
+<pre>/attask/api/v15.0/task/search?fields=scheduledStartDate,priority</pre>devuelve una respuesta similar a la siguiente:
 <pre>{<br>    "prioridad": 2,<br>    "name": "primera tarea",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "scheduledStartDate": "2010-08-30T09:00:00:00-0600" <br>}</pre>
 
 >[!NOTE]
@@ -323,44 +323,44 @@ Para obtener una lista de posibles referencias de campo, consulte la  [Explorad
 #### Búsqueda de objetos anidados
 
 Puede buscar objetos anidados. De forma predeterminada, los objetos anidados se devuelven únicamente con el nombre y el ID. Por ejemplo, para obtener todos los problemas junto con sus propietarios, utilice la siguiente solicitud:
-<pre>/attask/api/v9.0/issue/search?fields=owner</pre>Si se necesita más información, se puede solicitar un campo anidado con sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
-<pre>/attask/api/v9.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
+<pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si se necesita más información, se puede solicitar un campo anidado con sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
+<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
 <pre>{<br>    "name": "un problema importante",<br>    "ID": "4c78285f0000908ea8cfd66e084939f",<br>    "propietario": {<br>        "title": "Especialista en operaciones",<br>        "phoneNumber": "555-1234",<br>        "name": "Usuario administrador",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Recuperación de colecciones anidadas
 
 Puede recuperar colecciones anidadas de objetos. Por ejemplo, para obtener un proyecto con todas sus tareas, utilice la siguiente solicitud:
-<pre>/attask/api/v9.0/project/search?fields=tasks</pre>La siguiente solicitud obtiene asignaciones de tareas:
-<pre>/attask/api/v9.0/task/search?fields=asignaciones</pre>
+<pre>/attask/api/v15.0/project/search?fields=tasks</pre>La siguiente solicitud obtiene asignaciones de tareas:
+<pre>/attask/api/v15.0/task/search?fields=tasks</pre>
 
 #### Búsqueda de varios campos anidados
 
 De forma predeterminada, solo se devuelve el nombre y el ID de cada tarea, pero los campos anidados adicionales se pueden especificar con dos puntos de sintaxis. Para ver todos los campos disponibles de un objeto o colección relacionado, simplemente añada dos puntos y un asterisco a la referencia de objeto o colección.
-<pre>/attask/api/v9.0/task/search?fields=tasks:*</pre>
+<pre>/attask/api/v15.0/task/search?fields=tasks:*</pre>
 
 #### Recuperación de datos personalizados
 
 Puede recuperar los campos de datos personalizados con el prefijo &quot;DE:&quot;. Por ejemplo, para solicitar un proyecto con un parámetro llamado &quot;CustomText&quot;, utilice la siguiente solicitud:
-<pre>/attask/api/v9.0/project/search?fields=DE:CustomText</pre>que devuelve
+<pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>que devuelve
 <pre>{<br>    "name": "proyecto de datos personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "tarea b" <br>}</pre>También puede recuperar todos los datos personalizados de un objeto solicitando el campo parameterValues . Por ejemplo, 
-<pre>/attask/api/v9.0/project/search?fields=parameterValues</pre>devuelve datos similares a los siguientes:
+<pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>devuelve datos similares a los siguientes:
 <pre>{<br>    "name": "proyecto de datos personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarea b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["primero", "segundo", "tercero"] <br>    } <br>}</pre>
 
 #### Uso de consultas con nombre
 
 Algunos tipos de objeto tienen búsquedas con nombre que se ejecutan normalmente y están disponibles anexando el nombre de la consulta al final del URI de tipo de objeto. Por ejemplo, la siguiente solicitud recupera los elementos de trabajo (tareas y problemas) a los que el usuario está asignado actualmente:
-<pre>/attask/api/v9.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro de campos para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de consultas con nombre permitidas y un objeto, consulte la ficha Acción para el objeto en [API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro de campos para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de consultas con nombre permitidas y un objeto, consulte la ficha Acción para el objeto en [API Explorer](../../wf-api/general/api-explorer.md).
 
 #### Uso del filtro Recuento
 
 Puede especificar el número de resultados que desea que devuelva una búsqueda determinada. Esto permite que el servidor procese la solicitud más rápidamente y ahorra ancho de banda. Por ejemplo, la solicitud
-<pre>GET /attask/api/v9.0/project/count?status=CUR</pre>devuelve el número de resultados en el siguiente formato:
+<pre>GET /attask/api/v15.0/project/count?status=CUR</pre>devuelve el número de resultados en el siguiente formato:
 <pre>{<br>    "count": 3 <br>}</pre>Este resultado es una descarga mucho menor que si se enviaran los objetos completos. La sintaxis del filtro es idéntica al comando de búsqueda.
 
 ### Solicitud de un informe
 
 Puede realizar una solicitud de informe en la que solo se desee añadir un campo con una o más agrupaciones. Como se muestra en el siguiente ejemplo, la sintaxis del informe es la misma que la de la API SOAP:
-<pre>GET /attask/api/v9.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
+<pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
 <pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo proyecto": { <br>        "sum_hours": 30 <br>    } <br>}</pre>La adición del parámetro $$ROLLUP=true incluye un total en cada nivel de agrupación:
 <pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo proyecto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
@@ -428,19 +428,19 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
 ### Uso de respuestas paginadas {#using-paginated-responses}
 
 Para anular la limitación de consulta Número predeterminado de resultados y permitir 200 resultados, puede incluir el filtro $$LIMIT=200 en la consulta, como se muestra en el siguiente ejemplo:
-<pre>GET /attask/api/v9.0/project/search?$$LIMIT=200</pre>A fin de garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitido por consulta es de 2000 objetos. Si se intenta especificar un límite mayor, se generará un mensaje de error IllegalArgumentException. 
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>A fin de garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitido por consulta es de 2000 objetos. Si se intenta especificar un límite mayor, se generará un mensaje de error IllegalArgumentException. 
 
 Por lo tanto, le recomendamos que considere la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar el primer resultado que debe devolverse, agregue el filtro $$FIRST. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 para una consulta:
-<pre>GET /attask/api/v9.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
 
 ### Creación de una regla de acceso
 
 Puede crear una regla de acceso para determinar quién puede acceder a un objeto. Los siguientes son ejemplos de reglas de acceso que puede establecer:
 
 Para configurar un proyecto de modo que solo se comparta con un usuario con el ID &quot;abc123&quot;, utilice la siguiente solicitud:
-<pre>GET /attask/api/v9.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {descriptor de accesoID: "abc123", accessorObjCode: "USER", coreAction: 'VIEW'} ] }</pre>Alternativamente, para compartir solo con una persona nueva y mantener intactos los permisos existentes:
-<pre>GET /attask/api/v9.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Para recuperar las reglas de acceso existentes:
-<pre>GET /attask/api/v9.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {descriptor de accesoID: "abc123", accessorObjCode: "USER", coreAction: 'VIEW'} ] }</pre>Alternativamente, para compartir solo con una persona nueva y mantener intactos los permisos existentes:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Para recuperar las reglas de acceso existentes:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
 ## Comportamiento del POST
 
@@ -449,22 +449,22 @@ POST inserta un nuevo objeto. La sintaxis es idéntica a la del PUT, pero con al
 ### Creación de un objeto
 
 A continuación se muestra un ejemplo de una solicitud para crear un nuevo proyecto:
-<pre>POST /attask/api/v9.0/project?name=Nuevo proyecto</pre>La respuesta incluye el proyecto recién creado junto con su nuevo ID y cualquier otro campo especificado.
+<pre>POST /attask/api/v15.0/project?name=Nuevo proyecto</pre>La respuesta incluye el proyecto recién creado junto con su nuevo ID y cualquier otro campo especificado.
 
 ### Copia de un objeto
 
 Algunos objetos admiten la copia. Para estos tipos de objetos, es posible crear nuevos objetos publicando con un parámetro copySourceID . Por ejemplo, la siguiente solicitud copia el proyecto dado y le da un nombre nuevo:
 
 ```
-POST /attask/api/v9.0/project?copySourceID=4c7...&name=Copied Project
+POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 ```
 
 ### Carga de documentos
 
 Puede cargar documentos a través de la siguiente URL de API:
-<pre>POST /attask/api/v9.0/upload</pre>La API espera que el tipo de contenido sea multipart/form-data. El nombre del parámetro para el archivo debe ser uploadFile. El servidor devuelve los siguientes datos JSON:
+<pre>POST /attask/api/v15.0/upload</pre>La API espera que el tipo de contenido sea multipart/form-data. El nombre del parámetro para el archivo debe ser uploadFile. El servidor devuelve los siguientes datos JSON:
 <pre>{<br>    "handle": "4c7c08fa000002ff924e298ee148df4"<br>}</pre>Al crear un documento de Workfront, puede usar el control y publicar en la siguiente URL:
-<pre>POST /attask/api/v9.0/document?updates={<br>    nombre: aFileName,<br>    control: abc...123, (controlador de la carga de archivos)<br>    docObjCode: PROJ, (o TASK, OPTASK, etc.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>    nombre: aFileName,<br>    control: abc...123, (controlador de la carga de archivos)<br>    docObjCode: PROJ, (o TASK, OPTASK, etc.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## Comportamiento del PUT
 
@@ -475,56 +475,56 @@ La respuesta de un PUT es idéntica a una GET. En ambos casos, el servidor devue
 ### Edición de objetos
 
 Las actualizaciones de los objetos siempre se realizan mediante un ID que utiliza el URI único del objeto. Los campos que se van a actualizar se especifican como parámetros de solicitud. Por ejemplo, para cambiar el nombre de un proyecto, puede enviar una solicitud similar a la siguiente:
-<pre>PUT /attask/api/v9.0/project/4c7...?name=Nuevo nombre del proyecto <br>PUT /attask/api/v9.0/project?id=4c7...&amp;name=Nuevo nombre del proyecto</pre>Dado que la actualización requiere un ID, esta operación fallará (sin inserción) si el objeto no existe en el servidor.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Nuevo nombre del proyecto <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=Nuevo nombre del proyecto</pre>Dado que la actualización requiere un ID, esta operación fallará (sin inserción) si el objeto no existe en el servidor.
 
 ### Especificación de modificaciones JSON
 
 Como se muestra en el siguiente ejemplo, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
-<pre>PUT /attask/api/v9.0/project/4c7...?updates= <br>{<br>     nombre: "Nuevo nombre del proyecto", <br>     estado: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nombre: "Nuevo nombre del proyecto", <br>     estado: "CUR", <br>     ... <br>}</pre>
 
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, el siguiente ejemplo demuestra cómo sobrescribir las asignaciones existentes para una tarea determinada:
-<pre>PUT /attask/api/v9.0/task/4c7...?updates= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            AsignaciónPorcentaje: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            AsignaciónPorcentaje: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo la colección existente. Para editar una sola asignación en una tarea sin afectar a los objetos, utilice el PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia al cliente pública. Tenga en cuenta que se reemplazan las propiedades de cola existentes.
-<pre>PUT /attask/api/v9.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### Uso del parámetro de solicitud de acción
 
 Algunos objetos admiten acciones adicionales que se pueden realizar además de ediciones simples. Puede especificar estas acciones utilizando el parámetro de solicitud de acción . Por ejemplo, la siguiente solicitud vuelve a calcular la escala de tiempo de un proyecto determinado:
-<pre>PUT /attask/api/v9.0/project/4c7...?action=calculateTimeline<br><br>o<br><br>PUT /attask/api/v9.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>o<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### Mover objetos
 
 A continuación se muestra la sintaxis para mover una tarea de un proyecto a otro:
-<pre>PUT /attask/api/v9.0/task/4c7.../move?projectID=5d8...</pre>Aquí se proporciona un ejemplo para cada tipo de acción: (??)
-<pre>PUT /attask/api/v9.0/project/1234/approveApproval<br><br>PUT /attask/api/v9.0/project/1234/calculateFinance<br><br>PUT /attask/api/v9.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v9.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v9.0/project/1234/seekApproval<br><br>PUT /attask/api/v9.0/project/1234/rejectApproval<br><br>PUT /attask/api/v9.0/task/1234/move<br><br>PUT /attask/api/v9.0/workitem/1234/markViewed</pre>Solo la acción de mover requiere la identificación de atributos adicionales para especificar el proyecto al que se va a mover el elemento de trabajo.
+<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>Aquí se proporciona un ejemplo para cada tipo de acción: (??)
+<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/seekApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Solo la acción de mover requiere la identificación de atributos adicionales para especificar el proyecto al que se va a mover el elemento de trabajo.
 
 A continuación se muestra un ejemplo de cada tipo de acción: 
-<pre>PUT /attask/api/v9.0/project/1234?method=put&amp;updates={accessRules:[{descriptorID: "abc123", accessorObjCode: "USER", coreAction: 'VIEW'}}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: "abc123", accessorObjCode: "USER", coreAction: 'VIEW'}}</pre>
 
 ### Uso compartido de objetos
 
 En el siguiente ejemplo se muestra la sintaxis para compartir un proyecto con un equipo:
-<pre>PUT /attask/api/v9.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>Al editar un objeto, puede reemplazar todas las reglas de acceso de un objeto haciendo un PUT y enviando actualizaciones similares al siguiente ejemplo:
-<pre>PUT /attask/api/v9.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}}</pre>El siguiente ejemplo muestra la sintaxis para mover una tarea de un proyecto a otro:
-<pre>PUT /attask/api/v9.0/task/4c7.../move?projectID=5d8...</pre>
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/accessor?xxxx/accessor?xxOB</pre>Al editar un objeto, puede reemplazar todas las reglas de acceso de un objeto haciendo un PUT y enviando actualizaciones similares al siguiente ejemplo:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{descriptorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}}</pre>El siguiente ejemplo muestra la sintaxis para mover una tarea de un proyecto a otro:
+<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>
 
 ## Comportamiento del DELETE
 
 DELETE quita un objeto. En cada caso, el URI puede incluir el parámetro force=true para que el servidor elimine los datos especificados y sus dependientes. En el siguiente ejemplo, una tarea se elimina ejecutando el método de DELETE HTTP en un URI:
-<pre>DELETE /attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v9.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v9.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
+<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
 
 ## Actualizaciones masivas
 
 Una instrucción de actualización masiva actualiza varios objetos al mismo tiempo en una sola llamada API. Una llamada API de creación masiva se crea de forma similar a una llamada de actualización normal, como se muestra en los ejemplos siguientes:
-<pre>PUT /attask/api/v9.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
 <pre>datos: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nombre: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:00-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:00-0400",<br>    prioridad: 0,<br>    estimatedCompletionDate: "2014-08-28T16:12:00:00-0400",<br>    estado: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nombre: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:00-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:00-0400",<br>    prioridad: 0,<br>    estimatedCompletionDate: "2014-08-28T16:12:00:00-0400",<br>    estado: "CUR"<br>}]</pre>También puede realizar una actualización masiva similar a la siguiente:
-<pre>PUT /attask/api/v9.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" xxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
+<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" xxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
 <pre>datos: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     nombre: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     scheduledCompletionDate: "2014-08-28T11:00:00:00-0400",<br>     scheduledStartDate: "2014-08-28T11:00:00:00-0400",<br>     prioridad: 0,<br>     estimatedCompletionDate: "2014-08-28T16:16:00:00-0400",<br>     estado: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    nombre: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:00-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:00-0400",<br>    prioridad: 0,<br>    estimatedCompletionDate: "2014-08-28T16:16:00:00-0400",<br>    estado: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, añada "atomic=true" a la llamada API por lotes como parámetro de solicitud. De este modo, si falla alguna de las operaciones, todas las operaciones se anulan.
 
 >[!NOTE]

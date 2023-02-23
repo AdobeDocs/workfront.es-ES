@@ -6,10 +6,10 @@ description: Programación de versiones y asistencia de API
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfront publica nuevas versiones de API cada dos años, cada seis a ocho meses. Las versiones de API son compatibles durante los 3 años posteriores al lanzamiento. Ya no se admiten las versiones de API anteriores a 3 años.
+Adobe Workfront publica regularmente nuevas versiones de API, normalmente dos veces al año. Las versiones de API son compatibles durante los 3 años posteriores al lanzamiento. Ya no se admiten las versiones de API anteriores a 3 años.
 
 La tabla siguiente muestra la programación de versiones y asistencia para la API de Workfront.
 
