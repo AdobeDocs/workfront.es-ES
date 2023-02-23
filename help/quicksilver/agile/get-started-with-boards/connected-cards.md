@@ -6,14 +6,16 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # Usar tarjetas conectadas en tableros
+
+{{highlighted-preview}}
 
 Puede agregar una tarjeta del tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Después de crear una tarjeta ad hoc, puede convertirla en una tarjeta conectada
    El nombre del proyecto se muestra en el área Conexión de los detalles de la tarjeta.
 
 1. Haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
+
+<div class="preview">
+
+## Horas de registro en una tarjeta conectada
+
+>[!NOTE]
+>
+>Esta función solo está disponible a través de la opción de inclusión de las funciones iniciales para Workfront Board.
+
+Debe tener los permisos correctos para registrar las horas en la tarea o problema conectado.
+
+Los campos de registro de tiempo no se muestran en las tarjetas conectadas de forma predeterminada. Debe habilitar [!UICONTROL **Horas**] en el [!UICONTROL Configurar] área bajo [!UICONTROL Tarjetas]. Para obtener más información, consulte [Personalización de los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Introduzca el número de horas para la tarea o el problema.
+1. Seleccione un [!UICONTROL Tipo de hora] en el menú desplegable, si es diferente al predeterminado.
+1. Haga clic en [!UICONTROL **Tiempo de registro**].
+
+   ![Registrar horas en la tarjeta](assets/log-hours-on-card.png)
+
+   El tiempo registrado en la tarjeta también se guarda en la tarea o problema conectado.
+
+La hora de inicio de sesión en la tarjeta es la misma que la hora de inicio de sesión en una tarea o problema. Para obtener más información, consulte &quot;Tiempo de inicio de sesión en un proyecto, tarea o problema&quot; en el artículo [Tiempo de registro](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
