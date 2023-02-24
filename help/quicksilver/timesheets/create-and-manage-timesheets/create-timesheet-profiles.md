@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Crear, editar y asignar perfiles de parte de horas
-description: 'Puede crear, editar y asignar perfiles de hojas de horas que generen hojas de horas recurrentes para los usuarios sin ninguna otra intervención por su parte. Esto ahorra tiempo y garantiza que los siguientes sean coherentes entre los usuarios: EDITE.'
+description: Puede crear, editar y asignar perfiles de hojas de horas que generen hojas de horas recurrentes para los usuarios sin ninguna otra intervención por su parte. Esto ahorra tiempo y garantiza la coherencia entre los usuarios.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ Si todavía no tiene acceso, pregunte a su administrador de Workfront si estable
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Crear hojas de horas</strong> </td> 
-      <td> <p> <p>Especifique cuándo debe generar el perfil del parte de horas los partes de horas. Se puede configurar un parte de horas para que se genere automáticamente con periodicidad semanal, quincenal, semestral o mensual. Seleccione el día de la semana en el que desea que se produzca el parte de horas.</p> <p><b>NOTA</b>
+      <td> <p> <p>Especifique cuándo debe generar el perfil del parte de horas los partes de horas. Se puede configurar un parte de horas para que se genere automáticamente con periodicidad semanal, quincenal, semestral o mensual. Seleccione el día de la semana en el que desea que se produzca el parte de horas.</p>
+      <p>Un parte de horas semanal comienza en la fecha en que se genera. Por ejemplo, si crea hojas de horas semanales todos los jueves, el primer día de la semana en el parte de horas es jueves.</p>
+      <p><b>NOTA</b></p>
 
-   Si configura un perfil de parte de horas para crear hojas de horas en un viernes, los usuarios no podrán registrar horas en viernes, sábado y domingo para la semana actual.</p> <p>Workfront siempre crea dos partes de horas a la vez: el primer parte de horas siempre incluye la fecha actual y el segundo parte de horas se inicia cuando finaliza el período de tiempo del primero.</p> </p> </td>
-   </tr> 
+   <p>Workfront siempre crea dos partes de horas a la vez: el primer parte de horas siempre incluye la fecha actual y el segundo parte de horas se inicia cuando finaliza el período de tiempo del primero.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Aprobadores</strong></p> </td> 
       <td> <p> <p>Los aprobadores son usuarios que aprueban el parte de horas para los usuarios asociados al parte de horas. Puede identificar hasta 7 usuarios como aprobadores en un parte de horas. La identificación de varios usuarios es útil para garantizar que un aprobador esté disponible cuando alguien está fuera de la oficina. Se notifica a todos los aprobadores cuando un usuario envía el parte de horas para su aprobación. Solo se necesita un usuario para aprobar el parte de horas para que se apruebe.</p> <p>Solo los usuarios con derechos administrativos de parte de horas pueden configurarse como aprobadores. Para obtener más información sobre los derechos administrativos del parte de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> <p>Utilice el menú desplegable para seleccionar el aprobador del parte de horas (si se requiere un aprobador). Puede seleccionar entre las siguientes opciones:</p> 
