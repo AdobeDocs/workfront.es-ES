@@ -6,24 +6,22 @@ title: Administrar colecciones
 description: Una colección es un grupo configurable de tableros para colaborar en el trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
 # Administrar colecciones
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Las colecciones solo están disponibles a través de la opción de inclusión de la función inicial de [!UICONTROL [!DNL Workfront] Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Una colección es un grupo configurable de tableros para colaborar en el trabajo. Las colecciones pueden incluir distintos tipos de tableros creados a partir de plantillas.
 
 Las colecciones aparecen en el tablero junto con los tableros individuales a los que tiene acceso que no forman parte de una colección. Para obtener información sobre el tablero de tableros, consulte [Usar el tablero de tableros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Puede hacer clic en cualquier nombre de tablero del tablero para abrirlo.
-
->[!NOTE]
->
->Las colecciones solo están disponibles a través de la opción de inclusión de la función inicial de [!UICONTROL [!DNL Workfront] Tableros].
 
 ## Requisitos de acceso
 
