@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
-source-wordcount: '12587'
+source-wordcount: '12592'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión 23.2 {#release-23-2}
          * [Resumen de la versión 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [Actividad de la versión 23.2: semana del 20 de febrero de 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
          * [Actividad de la versión 23.2: semana del 13 de febrero de 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [Actividad de la versión 23.2: semana del 6 de febrero de 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [Actividad de la versión 23.2: semana del 23 de enero de 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
@@ -703,7 +704,7 @@ ht-degree: 1%
       * [El uso compartido muestra más de un permiso](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Correo electrónico no autenticado no aceptado](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Credenciales de usuario vs. credenciales de SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [Actualizar las opciones de actualización automática en los niveles de acceso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [Actualice las opciones de actualización automática en los niveles de acceso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Conceptos básicos de Adobe Workfront {#basics}
    * [Conceptos básicos de Adobe Workfront](workfront-basics/workfront-basics.md)
    * [Glosario de terminología de Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)

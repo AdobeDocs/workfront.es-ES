@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Cambiar el nombre de los pines en la plantilla de diseño</span></a><span style="color: #ff0000;"> Novedades de Vista previa</span>
-                        <p>Ahora puede cambiar el nombre de los pines en una plantilla de diseño para que sea más significativo para los usuarios, en lugar de usar el nombre predeterminado para la página anclada. Los pines que crean los administradores se muestran para todos los usuarios asignados a la plantilla de diseño y los usuarios no pueden cambiar el nombre de esos pines.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Cambiar el nombre de los pines en la plantilla de diseño</span></a>
+                        </span></a><p>Ahora puede cambiar el nombre de los pines en una plantilla de diseño para que sea más significativo para los usuarios, en lugar de usar el nombre predeterminado para la página anclada. Los pines que crean los administradores se muestran para todos los usuarios asignados a la plantilla de diseño y los usuarios no pueden cambiar el nombre de esos pines.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Registro de horas en tarjetas conectadas en un tablero</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede registrar horas en tarjetas conectadas, del mismo modo que lo haría en una tarea o problema. Debe tener los permisos correctos para la tarea o el problema para registrar la hora.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 23 de febrero de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versión de producción para la inclusión anticipada: 2 de marzo de 2023 <span style="color: #ff0000;"> Esta función está disponible en Producción en esta fecha solo mediante la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalización de la visualización de campos en una tarjeta</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalización de la visualización de campos en una tarjeta</a></p>
                         <p>La personalización ya está disponible para configurar qué campos se muestran en una tarjeta, tanto en la vista completa cuando la tarjeta está abierta como en la vista de tarjeta condensada en el tablero. Cuando desactiva un campo, no se muestra en ninguna de las vistas. También puede activar un campo en la vista completa y ocultarlo de la vista condensada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -102,7 +119,7 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definir un estado predeterminado para las tarjetas movidas a una columna de tablero</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definir un estado predeterminado para las tarjetas movidas a una columna de tablero</a></p>
                         <p>Ahora puede establecer un estado predeterminado para aplicarlo a las tarjetas movidas a una columna específica; para ello, seleccione un estado personalizado y un estado del sistema en las políticas de columna. Al mover una tarjeta a la columna , Workfront intenta primero aplicar el estado personalizado (por ejemplo, Esperando comentarios). Si el estado personalizado no está disponible para esa tarjeta, Workfront aplicará el estado del sistema en su lugar (por ejemplo, En espera). Además, si el estado de la tarea o problema conectado se cambia al estado personalizado o del sistema establecido en la directiva de columna, la tarjeta se mueve automáticamente a la columna .</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -119,7 +136,7 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Colecciones ahora disponibles en Adobe Workfront Boards</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Colecciones ahora disponibles en Adobe Workfront Boards</a></p>
                         <p>Ahora puede crear colecciones en el panel de tableros. Una colección es un grupo de tableros para colaborar en el trabajo. Una vez que haya asignado un nombre a la colección, puede agregar tableros a la colección mediante un conjunto de plantillas que ofrezcan una configuración predefinida, como los nombres de columna.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -190,7 +207,7 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copiar horas presupuestadas al copiar un proyecto</a><span style="color: #ff0000;"> Novedades de Vista previa</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copiar horas presupuestadas al copiar un proyecto</a>
                         <p>Ahora, tiene la opción de copiar las horas presupuestadas en el área de Presupuestación de Recursos del Caso de Negocio o el Planificador de Recursos cuando copia un proyecto. Antes de esta mejora, las horas presupuestadas para el proyecto no se transferían al proyecto copiado.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -225,7 +242,7 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Presentación del campo Tiempo de Trabajo para calcular con precisión la capacidad del usuario</a><span style="color: #ff0000;"> Novedades de Vista previa</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Presentación del campo Tiempo de Trabajo para calcular con precisión la capacidad del usuario</a>
                         <p>Para permitir que los administradores de recursos calculen con precisión la disponibilidad de sus usuarios y tengan en cuenta el tiempo que los usuarios dedican al trabajo real relacionado con el proyecto, presentamos el concepto de tiempo de trabajo a Adobe Workfront.</p>
                         <p>Puede definir el valor del campo Tiempo de trabajo para cada usuario, al crear o editar su perfil.</p>
                     </td>
@@ -328,6 +345,21 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 
 Explore las últimas actualizaciones realizadas en los programas de aprendizaje, las rutas de aprendizaje, los vídeos y las guías para cada versión de producto de Adobe Workfront. Para obtener más información, consulte la [Página de actualizaciones de la versión de capacitación](https://one.workfront.com/s/training-release-updates).
 
+### Funcionalidad que se eliminará próximamente de Workfront
+
+Pronto se eliminará la siguiente funcionalidad de Workfront:
+
+#### **Cambios en la API predeterminada de Workfront**
+
+Para garantizar que las llamadas de API puedan aprovechar la funcionalidad de API de Workfront más actualizada, se está actualizando la API predeterminada. Cuando una llamada de API no especifica una versión de la API, la llamada se realiza a la API predeterminada.
+
+Ahora, la API predeterminada reflejará la versión más reciente de la API. Más adelante, actualizaremos la API predeterminada cada vez que se publique una nueva versión de la API, de modo que las llamadas a la API predeterminada siempre utilizarán la versión más reciente de la API.
+
+Anteriormente, la API predeterminada utilizaba la versión 2.0 de la API de Workfront, que ya no se utilizaba.
+
+Si su organización está utilizando la API predeterminada obsoleta, su administrador de Workfront ha recibido un mensaje del Centro de anuncios con más instrucciones sobre la API predeterminada.
+
+Para obtener más información, consulte [Actualizar integraciones que utilizan versiones de API predeterminadas](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Explore las últimas actualizaciones realizadas en los programas de aprendizaje,
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
