@@ -6,14 +6,16 @@ title: Administrar colecciones
 description: Una colección es un grupo configurable de tableros para colaborar en el trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Administrar colecciones
+
+{{highlighted-preview-article-level}}
 
 Una colección es un grupo configurable de tableros para colaborar en el trabajo. Las colecciones pueden incluir distintos tipos de tableros creados a partir de plantillas.
 
@@ -60,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 | Plantilla | Descripción |
 |---------|----------|
-| Tablero básico | Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. <p>Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. |
+| Tablero básico | Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. <p>No se aplica ninguna directiva de columna. |
 | Tablero Kanban | En el tablero se proporcionan las columnas siguientes: Retraso, Nuevo, En curso, Completado y En espera. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas.<p>Para utilizar el trabajo pendiente, debe configurar filtros para la columna de admisión. Para obtener más información, consulte [Agregar una columna de admisión a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar las directivas predeterminadas de cada columna, haga clic en el botón [!UICONTROL **Más** menú] en una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas directivas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Tablero retrospectivo | En el tablero se proporcionan las columnas siguientes: ¿Qué fue bien? Qué se podría mejorar? A quién debemos homenajear? Qué podemos hacer para avanzar más rápido? Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. <p>No se aplica ninguna directiva de columna. |
 
