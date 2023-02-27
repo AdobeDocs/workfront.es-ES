@@ -7,9 +7,9 @@ description: El entorno de Vista previa se actualiza una vez a la semana con nue
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Normalmente, las funciones de Vista previa están disponibles en el entorno Prod
 
 ### Actualizaciones de mantenimiento
 
-Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno Producción cada semana. Consulte la [Actualizaciones de mantenimiento de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) para ver lo que se ha corregido recientemente.
+Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno Producción cada semana. Consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) para ver lo que se ha corregido recientemente.
 
 ## Funciones eliminadas de una versión trimestral
 

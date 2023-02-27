@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 660b6ac9-9607-4c48-a0c1-60529720f1c5
 hidefromtoc: true
-source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En esta página se describen todas las mejoras realizadas en Adobe Workfront Fus
 
 Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
 
 ## Seleccione la versión de la API de Workfront en el módulo Workfront > Llamadas de API personalizadas .
 
