@@ -6,7 +6,7 @@ description: Puede registrar el tiempo de los elementos de trabajo en&nbsp;Adobe
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Puede registrar el tiempo en las siguientes áreas de Workfront:
 * [Página de inicio](#home)
 * [Proyecto, tarea o problema](#project-task-or-issue)
 * [Panel de resumen](#summary-panel)
-* <span class="preview">[Tableros](#boards)</span>
+* [Tableros](#boards)
 * [aplicación móvil](#mobile-app)
 
 ### Hoja de horas {#timesheet}
