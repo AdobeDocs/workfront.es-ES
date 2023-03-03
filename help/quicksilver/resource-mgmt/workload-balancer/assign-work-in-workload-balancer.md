@@ -1,90 +1,88 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo
-description: Como gestor de recursos, puede utilizar Adobe Workfront Workload Balancer para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
+title: Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo
+description: Como administrador de recursos, puede utilizar el Distribuidor de cargas de trabajo de Adobe Workfront para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo
+# Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+Como administrador de recursos, puede utilizar el Distribuidor de cargas de trabajo de Adobe Workfront para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
 
-Como gestor de recursos, puede utilizar Adobe Workfront Workload Balancer para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
+Para obtener información general sobre el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Para obtener información general sobre el equilibrador de carga de trabajo, consulte [Información general del equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-
-Puede asignar elementos de trabajo (tareas y problemas) a usuarios de otras áreas de Workfront. Sin embargo, al utilizar el equilibrador de carga de trabajo, puede comprender fácilmente la disponibilidad de los usuarios y ver claramente todos los demás elementos a los que están asignados antes de asignarles más trabajo.
+Puede asignar elementos de trabajo (tareas y problemas) a usuarios de otras áreas de Workfront. Sin embargo, al utilizar el Distribuidor de cargas de trabajo, puede comprender fácilmente la disponibilidad de los usuarios y ver claramente todos los demás elementos a los que están asignados antes de asignarles más trabajo.
 
 Para obtener información sobre la asignación de elementos de trabajo en otras áreas de Workfront, consulte los siguientes artículos:
 
-* [Asignación de tareas](../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [Asignación de problemas](../../manage-work/issues/manage-issues/assign-issues.md)
+* [Asignar tareas](../../manage-work/tasks/assign-tasks/assign-tasks.md)
+* [Asignar problemas](../../manage-work/issues/manage-issues/assign-issues.md)
 
-## Disponibilidad del usuario en el equilibrador de carga de trabajo
+## Disponibilidad del usuario en el Distribuidor de cargas de trabajo
 
-Puede asignar trabajo en el equilibrador de carga de trabajo para que coincida con el tiempo disponible de los usuarios. Para asegurarse de asignar la cantidad de trabajo correcta y no la sobreasignación del usuario, el total de horas planificadas de los elementos de trabajo asignados al usuario debe coincidir con las asignaciones diarias o semanales del usuario.
+Puede asignar trabajo en el Distribuidor de cargas de trabajo para que coincida con el tiempo disponible de los usuarios. Para asegurarse de que asigna la cantidad correcta de trabajo y no asigna en exceso al usuario, el total de horas planificadas de los elementos de trabajo asignados al usuario debe coincidir con las asignaciones diarias o semanales del usuario.
 
 Debe comprender cómo calcula Workfront el tiempo disponible para un usuario.
 
-Workfront utiliza la siguiente información para calcular la capacidad del usuario en el equilibrador de carga de trabajo:
+Workfront utiliza la siguiente información para calcular la capacidad del usuario en el Distribuidor de cargas de trabajo:
 
-* Las Preferencias De Administración De Recursos. El administrador de Workfront determina cómo se calcula el tiempo disponible para el sistema seleccionando una de las siguientes opciones en el área Administración de recursos de Configuración:
+* Preferencias de administración de recursos. El administrador de Workfront determina cómo se calcula el tiempo disponible para el sistema seleccionando la opción de usar una de las siguientes opciones en el área Administración de recursos de Configuración:
 
-   * La programación predeterminada del sistema Workfront y el FTE del usuario.
-   * La programación del usuario, tal como se indica en el área Perfil del usuario .
+   * El horario predeterminado del sistema Workfront y el FTE del usuario.
+   * La programación del usuario, tal como se indica en el área Perfil de usuario.
 
-      Esto calcula la disponibilidad diaria y semanal del usuario. Cualquier excepción de programación en la programación seleccionada se refleja en la capacidad del usuario en el equilibrador de carga de trabajo.
-   Para obtener más información, consulte [Configurar las preferencias de Administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      Calcula la disponibilidad diaria y semanal del usuario. Cualquier excepción de programación en la programación seleccionada se refleja en la capacidad del usuario en el Distribuidor de cargas de trabajo.
+   Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-   Para obtener información sobre las programaciones, consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+   Para obtener información sobre las programaciones, consulte [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-* El tiempo de espera del usuario. Indica los días que el usuario tiene previsto despegar.
+* El tiempo libre del usuario. Esto indica qué días planea despegar el usuario.
 
-   Para obtener más información, consulte [Configuración del tiempo de espera personal en Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
-* El tiempo de trabajo del usuario. Esto indica el porcentaje de tiempo de espera a largo plazo que el usuario está disponible para realizar un trabajo real relacionado con el proyecto, sin incluir los gastos generales. Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para trabajos relacionados con el proyecto con todo su equivalente de tiempo completo.
-</div>
+   Para obtener más información, consulte [Configuración de los días libres personales en Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-## Asignar trabajo en el equilibrador de carga de trabajo
+* El tiempo de trabajo del usuario. Indica el porcentaje de tiempo de ETC que el usuario está disponible para realizar trabajo real relacionado con el proyecto, sin incluir los gastos generales. Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a tiempo completo.
 
-Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o reasignar elementos que se hayan asignado a usuarios en el equilibrador de carga de trabajo.
 
-Puede asignar trabajo en el equilibrador de carga de trabajo de las siguientes maneras:
+## Asignar trabajo en el Distribuidor de cargas de trabajo
 
-* Un elemento a la vez asignando manualmente cada elemento.
+Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o reasignar elementos que se hayan asignado a usuarios en el Distribuidor de cargas de trabajo.
 
-   Puede realizar asignaciones avanzadas al asignar elementos manualmente, de una en una.
+Puede asignar trabajo en el Distribuidor de cargas de trabajo de las siguientes maneras:
 
-   Para obtener más información, consulte [Asignar trabajo manualmente mediante el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* Elemento a elemento asignando manualmente cada elemento.
 
-* Un elemento a la vez, arrastrando y soltando elementos de trabajo al usuario que debe asignarse.
+   Puede realizar Asignaciones avanzadas cuando asigne elementos manualmente, de uno en uno.
 
-   Para obtener más información, consulte [Asignar trabajo en el equilibrador de carga de trabajo arrastrando y soltando](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   Para obtener más información, consulte [Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-* Varios elementos a la vez, mediante la opción Asignaciones masivas . Puede definir las reglas según las cuales los artículos se asignan a varios usuarios a la vez.
+* Elemento por elemento, arrastrando y soltando elementos de trabajo al usuario que debe asignarse.
 
-   Para obtener más información, consulte [Asignar trabajo de forma masiva mediante el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   Para obtener más información, consulte [Asignar trabajo en el Distribuidor de cargas de trabajo arrastrando y soltando](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-Para obtener información sobre cómo anular la asignación de trabajo, consulte [Anular la asignación de trabajo en el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+* Varios elementos a la vez, utilizando la opción Asignaciones masivas. Puede definir reglas según las cuales los elementos se asignarán a varios usuarios a la vez.
 
-## Áreas de asignación en el equilibrador de carga de trabajo
+   Para obtener más información, consulte [Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Puede asignar trabajo a usuarios mediante el equilibrador de carga de trabajo en el área Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre la ubicación del equilibrador de carga de trabajo en Workfront, consulte [Localizar el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Para obtener información sobre cómo anular la asignación de trabajo, consulte [Trabajo no asignado en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
-Hay dos áreas en el equilibrador de carga de trabajo en las que puede ver elementos de trabajo:
+## Áreas de asignación en el Distribuidor de cargas de trabajo
 
-* **Trabajo no asignado**: muestra los elementos que no están asignados a usuarios.
-* **Trabajo asignado**: muestra los elementos que están asignados a usuarios.
+Puede asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo en el área de Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo en Workfront, consulte [Localización del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-La tabla siguiente describe qué artículos se muestran en cada área en función de sus asignaciones:
+Existen dos áreas en el Distribuidor de cargas de trabajo en las que puede ver elementos de trabajo:
+
+* **Trabajo sin asignar**: muestra los elementos que no están asignados a los usuarios.
+* **Trabajo asignado**: muestra los elementos asignados a los usuarios.
+
+En la tabla siguiente se describen los elementos que se muestran en cada área en función de sus asignaciones:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +99,7 @@ La tabla siguiente describe qué artículos se muestran en cada área en funció
    <td>Trabajo asignado </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span style="font-weight: normal;">Elemento no asignado</span> </td> 
+   <td><span style="font-weight: normal;">Elemento sin asignar</span> </td> 
    <td><span>✔</span> </td> 
    <td> </td> 
   </tr> 
@@ -116,7 +114,7 @@ La tabla siguiente describe qué artículos se muestran en cada área en funció
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Función y equipo</td> 
+   <td>Rol y equipo</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
@@ -131,38 +129,38 @@ La tabla siguiente describe qué artículos se muestran en cada área en funció
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Usuario, función y equipo</td> 
+   <td>Usuario, rol y equipo</td> 
    <td>✔*</td> 
    <td>✔**</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Usuario y función</p> </td> 
+   <td> <p>Usuario y rol</p> </td> 
    <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
    <td>✔**</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Cuando se asigna un elemento de trabajo a un usuario y una función, este aparece en el área Trabajo no asignado solo cuando la función es el usuario asignado principal.
+&#42;Cuando se asigna un elemento de trabajo a un usuario y a una función, solo se muestra en el área de Trabajo no asignado cuando la función es la persona asignada principal.
 
-&#42;&#42;Cuando se asigna un elemento de trabajo a un usuario y a otra entidad, este aparece en el área Trabajo asignado solo cuando el usuario es el usuario asignado principal.
+&#42;&#42;Cuando se asigna un elemento de trabajo a un usuario y a otra entidad, solo se muestra en el área de Trabajo asignado cuando el usuario es la persona asignada principal.
 
-Para obtener más información sobre las áreas sin asignar y asignadas del equilibrador de carga de trabajo, consulte [Navegar por el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información sobre las áreas sin asignar y asignadas del Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Consideraciones para varias asignaciones a funciones de trabajo, equipos y usuarios
+## Consideraciones para varias asignaciones a roles de trabajo, equipos y usuarios
 
 Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo:
 
-* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre cómo asociar usuarios con funciones de trabajo, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre la asociación de usuarios con funciones del puesto, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Normalmente, las tareas o los problemas se asignan primero a una o varias funciones de trabajo o a un equipo. Cuando los proyectos están listos para iniciarse, es posible que también deban asignarse a usuarios.\
-   Si se asigna una tarea o un problema a una o varias funciones y, a continuación, también se asigna un usuario, Adobe Workfront decide qué rol de trabajo se asociará al usuario adicional (si lo hay) de acuerdo con las siguientes reglas:
+* Las tareas o los problemas suelen asignarse primero a una o varias funciones del puesto o a un equipo. Cuando los proyectos están listos para iniciarse, es posible que también deban asignarse a usuarios.\
+   Si se asigna una tarea o un problema a una o varias funciones y, a continuación, también se asigna un usuario, Adobe Workfront decide qué función de trabajo se asocia al usuario adicional (si corresponde) según las siguientes reglas:
 
-   * Si solo hay una función de trabajo asignada y coincide con la función principal del usuario, la tarea o el problema se asignan solo al usuario que cumple su función principal.
-   * Si hay varias funciones asignadas y al menos una de ellas coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que cumple una de sus Otras funciones (que Workfront selecciona al azar si hay varias coincidencias), así como a cualquier función adicional asignada.
-   * Si hay una o más funciones de trabajo asignadas y no hay coincidencias con las funciones del usuario, la tarea o el problema se asignan tanto a la función o a las funciones como al usuario.
+   * Si solo hay una función de trabajo asignada y coincide con la función principal del usuario, la tarea o el problema se asignan únicamente al usuario que cumple su función principal.
+   * Si hay varias funciones asignadas y al menos una de las funciones coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que cumple una de sus otras funciones (que Workfront selecciona aleatoriamente si hay varias coincidencias), así como cualquier función adicional asignada.
+   * Si hay uno o más roles asignados y no hay coincidencias con los roles del usuario, la tarea o el problema se asignan tanto al rol o los roles como al usuario.
 
-* Si se asigna una tarea o un problema a un equipo y también se asigna un usuario, la tarea o el problema permanece asignado tanto al equipo como al usuario.
+* Si se asigna una tarea o un problema a un equipo y también se asigna un usuario, la tarea o el problema permanecen asignados tanto al equipo como al usuario.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

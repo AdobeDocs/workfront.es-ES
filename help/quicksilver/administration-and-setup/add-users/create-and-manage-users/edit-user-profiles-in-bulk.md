@@ -2,37 +2,35 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Editar perfiles de usuario de forma masiva
+title: Edición de perfiles de usuario por lotes
 description: Como administrador de Adobe Workfront, puede editar las cuentas de usuario de forma masiva.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2363'
 ht-degree: 0%
 
 ---
 
-# Editar perfiles de usuario de forma masiva
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+# Edición de perfiles de usuario por lotes
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página solo se aplica a organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
+>El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->Para obtener instrucciones sobre la edición del perfil de un usuario en Adobe Admin Console, consulte la sección &quot;Editar detalles del usuario&quot; en el artículo [Usuarios de carga masiva](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) o póngase en contacto con su administrador de Adobe Admin Console.
+>Para obtener instrucciones sobre cómo editar el perfil de un usuario en Adobe Admin Console, consulte la sección &quot;Editar detalles del usuario&quot; en el artículo [Usuarios de carga masiva](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) o póngase en contacto con su administrador de Adobe Admin Console.
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en plataformas (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Puede editar las cuentas de usuario de forma masiva. Al editar usuarios de forma masiva, solo los campos que seleccione específicamente se actualizarán con la misma información para todos los usuarios seleccionados. Todos los demás campos que deje sin seleccionar permanecen igual para cada usuario individual, incluso si son diferentes para cada usuario.
+Puede editar las cuentas de usuario de forma masiva. Al editar usuarios por lotes, solo los campos que seleccione específicamente se actualizan con la misma información para todos los usuarios seleccionados. Todos los demás campos que deje sin seleccionar permanecen igual para cada usuario individual, aunque sean diferentes para cada usuario.
 
 >[!NOTE]
 >
->* No puede editar de forma masiva la sección Información personal de los perfiles de los usuarios porque dicha información debe ser única para cada usuario.
->* Para garantizar la precisión de los datos y un rendimiento óptimo, le recomendamos que no seleccione más de 2000 usuarios al mismo tiempo para una edición masiva.
+>* No puede editar de forma masiva la sección Información personal de los perfiles de los usuarios porque esa información debe ser única para cada usuario.
+>* Para garantizar la precisión de los datos y un rendimiento óptimo, se recomienda seleccionar un máximo de 2000 usuarios al mismo tiempo para una edición masiva.
 >
 
 
@@ -54,22 +52,22 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener una de las siguientes opciones:</p> 
+   <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>Nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en el nivel de acceso configurado para <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si es Usuario <b>Administración (usuarios del grupo)</b> está activada, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> <p>Para obtener más información sobre la variable <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
+     <li> <p><b>Usuarios</b> en su nivel de acceso configurado en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Editar cuentas de usuario de forma masiva
+## Editar cuentas de usuario por lotes
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleccione más de un usuario y, a continuación, haga clic en el icono Editar ![](assets/edit-icon.png).
+1. Seleccione más de un usuario y haga clic en el icono Editar ![](assets/edit-icon.png).
 
-1. En el **Editar usuario** cambie cualquiera de las siguientes opciones:
+1. En el **Editar usuario** que aparece, cambie cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,14 +78,14 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td> 
        <ul> 
         <li><b>Zona horaria:</b> Zona horaria de los usuarios.</li> 
-        <li><b>Configuración regional</b>: La configuración regional preferida de los usuarios. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li> 
-        <li><b>Mostrar porcentaje completado en el estado de actualización</b>: Marque esta opción si desea mostrar una barra de porcentaje completado dentro del flujo de actualización de tareas para todos los usuarios.</li> 
-        <li><b>Enviar trabajo que me asigne a mi misma en la pestaña Trabajar en</b>: Marque esta opción si desea que todo lo que los usuarios se asignan a sí mismos aparezca directamente en la pestaña Trabajar en . El valor predeterminado es mostrar todo lo asignado a un usuario en la pestaña Solicitud de trabajo .</li> 
+        <li><b>Configuración regional</b>: la configuración regional preferida de los usuarios. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li> 
+        <li><b>Mostrar porcentaje completado al actualizar el estado</b>: marque esta opción si desea mostrar una barra de porcentaje completado dentro del flujo de actualización de tareas para todos los usuarios.</li> 
+        <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que los usuarios se asignan a sí mismos aparezca directamente en su ficha Trabajando en. El valor predeterminado es enumerar todo lo asignado a un usuario en su pestaña Solicitud de trabajo.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notificaciones</td> 
-      <td>Seleccione las notificaciones por correo electrónico que deben habilitarse para el nuevo usuario.<p>Puede seleccionar notificaciones de compendio instantáneo y diario. Todas las notificaciones diarias del compendio se entregan en algún momento después de la misma hora para todos los usuarios seleccionados. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configurar notificaciones de eventos para todos los miembros del sistema</a>.</p></td> 
+      <td>Seleccione las notificaciones por correo electrónico que deben habilitarse para el nuevo usuario.<p>Puede seleccionar notificaciones de resumen instantáneas y diarias. Todas las notificaciones de resumen diario se envían en algún momento después de la misma hora para todos los usuarios seleccionados. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configurar notificaciones de eventos para todos los usuarios del sistema</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Acceso</td> 
@@ -97,17 +95,17 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
         <li> 
         <p><b>Nivel de acceso:</b> Seleccione el nivel de acceso que desea asignar a estos usuarios. Todos los usuarios seleccionados tendrán el mismo nivel de acceso.
         </p> 
-        <p>Al asignar un nivel de acceso a los usuarios, puede asignar un nivel igual o inferior a su propio nivel de acceso. (Por ejemplo, si el nivel de acceso es Planificador, no puede asignar el nivel de acceso Administrador). </p>
-        <p>Sin embargo, no puede asignar un nivel de acceso inferior al suyo si el administrador de Workfront ha habilitado permisos en el nivel de acceso que no están también habilitados en el suyo propio (a través de la configuración de Ajuste, como se describe en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>).</p> 
+        <p>Al asignar un nivel de acceso a los usuarios, puede asignar un nivel igual o inferior al suyo propio. (Por ejemplo, si su nivel de acceso es Planificador, no puede asignar el nivel de acceso Administrador). </p>
+        <p>Sin embargo, no puede asignar un nivel de acceso inferior al suyo si el administrador de Workfront ha habilitado permisos en el nivel de acceso que no están habilitados también en el suyo propio (a través de la configuración Ajustar, como se describe en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>).</p> 
         <p>Para obtener más información sobre los niveles de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuración del acceso a Adobe Workfront</a>.</p> 
          </li> 
         <li> 
-        <p><b>Plantilla de diseño</b>: Elija una plantilla de diseño para los usuarios. La plantilla de diseño asignada a los usuarios tendrá prioridad sobre cualquier plantilla de diseño asignada a su grupo principal, equipo doméstico o función de trabajo principal. Para obtener más información sobre la prioridad de asignación de la plantilla de diseño, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Creación y administración de plantillas de diseño</a>.</p> 
-        <p><b>NOTA</b>: La lista de plantillas de diseño disponibles en este campo depende del acceso:
+        <p><b>Plantilla de diseño</b>: elija una plantilla de diseño para los usuarios. La plantilla de diseño asignada a los usuarios tendrá prioridad sobre cualquier plantilla de diseño asignada a su grupo de inicio, equipo de inicio o función de trabajo principal. Para obtener más información sobre la prioridad de asignación de la plantilla de diseño, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Creación y administración de plantillas de diseño</a>.</p> 
+        <p><b>NOTA</b>: La lista de plantillas de diseño que tiene disponibles en este campo depende de su acceso:
           <ul>
-           <li>Como administrador de Workfront, puede ver todas las plantillas de diseño a nivel de sistema y de grupo.</li>
-           <li>Como administrador de grupo, puede ver las plantillas de diseño de nivel de sistema, así como las asociadas con los grupos que administra.</li>
-           <li><p>Como usuario con licencia de Planificador y acceso para editar usuarios, solo puede ver plantillas de diseño a nivel de sistema. </p>
+           <li>Como administrador de Workfront, puede ver todas las plantillas de diseño de nivel de sistema y de grupo.</li>
+           <li>Como administrador de grupos, puede ver las plantillas de diseño de nivel de sistema, así como las asociadas a los grupos que administra.</li>
+           <li><p>Como usuario con una licencia de Planner y acceso para editar usuarios, solo puede ver plantillas de diseño de nivel de sistema. </p>
            <p>Para obtener información sobre las plantillas de diseño de nivel de grupo, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Creación y administración de plantillas de diseño</a>.</p>
            </li>
           </ul></p> 
@@ -118,22 +116,22 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader">Organización</td> 
       <td> 
        <ul> 
-        <li><b>Empresa</b>: Empresa de los usuarios. Los usuarios solo pueden asociarse con una empresa. Debe crear una empresa para poder asociarla con un usuario. En la lista solo aparecen las empresas activas. Para obtener información sobre la creación de empresas, consulte Explicación y administración de empresas.</li> 
-        <li><b>Equipo principal</b>: Especifique el equipo principal de los usuarios. Los usuarios solo pueden tener un equipo de inicio. </li> 
-        <li><b>Otros equipos</b>: Los usuarios pueden pertenecer a varios equipos. </li> 
-        <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar a los usuarios como su grupo de inicio. Esto permite al usuario acceder a los objetos que se comparten con el grupo.</p> <p><b>NOTA</b>: Se trata de un campo obligatorio. Los usuarios no pueden estar asociados a un grupo de inicio.</p> <p>Puede asignar un grupo a usuarios solo en las siguientes situaciones:</p> 
+        <li><b>Compañía</b>: la compañía de los usuarios. Los usuarios solo pueden asociarse con una compañía. Debe crear una compañía antes de poder asociarla a un usuario. En la lista solo se muestran las empresas activas. Para obtener información acerca de la creación de compañías, vea Descripción y administración de compañías.</li> 
+        <li><b>Equipo de inicio</b>: especifique el equipo de inicio de los usuarios. Los usuarios solo pueden tener un equipo de inicio. </li> 
+        <li><b>Otros equipos</b>: los usuarios pueden pertenecer a varios equipos. </li> 
+        <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar los usuarios como su grupo de inicio. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo.</p> <p><b>NOTA</b>: este campo es obligatorio. No puede haber usuarios que no estén asociados a un grupo de inicio.</p> <p>Puede asignar un grupo a usuarios solo en las situaciones siguientes:</p> 
          <ul> 
-          <li>Es administrador de Workfront.</li> 
+          <li>Usted es administrador de Workfront.</li> 
           <li>Usted es el administrador de ese grupo.</li> 
           <li>El grupo es público.</li> 
          </ul> </li> 
-        <li> <p><b>Otros grupos</b>: Los usuarios pueden pertenecer a varios grupos. Puede asignar un grupo a un usuario solo en las siguientes situaciones:</p> 
+        <li> <p><b>Otros grupos</b>: los usuarios pueden pertenecer a varios grupos. Puede asignar un grupo a un usuario solo en las siguientes situaciones:</p> 
          <ul> 
-          <li>Es administrador de Workfront.</li> 
+          <li>Usted es administrador de Workfront.</li> 
           <li>Usted es el administrador de ese grupo.</li> 
           <li> <p>El grupo es público. </p> 
           <p>Para obtener más información sobre los grupos públicos, consulte <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Crear un grupo</a>.</p> 
-          <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general sobre grupos</a>.</p> 
+          <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general de grupos</a>.</p> 
           </li> 
          </ul> 
          </li> 
@@ -145,78 +143,78 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        <ul>
 
    <li>
-       <b><span class="preview">Tiempo de trabajo</span></b>: <span class="preview">Representa el porcentaje del tiempo equivalente a tiempo completo (FTE) que el usuario está disponible para el trabajo real, sin incluir la sobrecarga. El tiempo de trabajo debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, un 20% de disponibilidad para el trabajo real sería 0,2.</span>
+       <b>Tiempo de trabajo</b>: Representa el porcentaje del tiempo equivalente a tiempo completo (FTE) que el usuario está disponible para el trabajo real, sin incluir los gastos generales. El tiempo de trabajo debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, una disponibilidad del 20% para el trabajo real sería de 0,2.
 
-   <span class="preview">El valor predeterminado del campo es 1, lo que indica que un usuario gasta todo su FTE en trabajo real relacionado con el proyecto.</span>
+   El valor predeterminado del campo es 1, lo que indica que un usuario emplea todo su valor de FTE en trabajo real relacionado con el proyecto.
 
-   <span class="preview">El sistema utiliza este número para calcular la disponibilidad del usuario para el trabajo real relacionado con el proyecto. </span>
+   El sistema utiliza este número para calcular la disponibilidad del usuario para el trabajo real relacionado con el proyecto.
 
-   <span class="preview">Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>.</span>
+   Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creación de una programación</a>.
 
-   <span class="preview">Las excepciones de programación y el tiempo de espera también pueden afectar a la capacidad del usuario.
+   Las excepciones de horario y los días libres también pueden afectar a la capacidad del usuario.
 
-   Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de configuración. Para obtener más información, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a>.
+   Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de Configuración. Para obtener más información, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferencias de administración de recursos</a>.
 
    <b>SUGERENCIA</b>
 
-   <span class="preview">Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para trabajos relacionados con el proyecto con todo su equivalente de tiempo completo.</span>
+   Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a tiempo completo.
    </li>
 
-   <li><b>Desactivación de programación</b>: Marque esta casilla si desea programar que los usuarios se desactiven después de un periodo de tiempo.</li> 
-       <li><b>Fecha de desactivación programada</b>: La fecha después de la cual se desactivan los usuarios. Para obtener más información sobre la programación de usuarios para la desactivación, consulte la sección <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> en <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</li> 
-       <li> <p><b>Función principal</b>: Esta es la función de trabajo principal que tiene un usuario en Workfront. De forma predeterminada, todas las tareas y problemas a los que se asignan los usuarios también se asignan a esta función de trabajo. Las funciones de los puestos de trabajo son esenciales en la gestión de los recursos. Para obtener más información sobre las funciones de trabajo, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a></p> <p>Este campo solo se puede actualizar si tiene una licencia de Plan con acceso administrativo de usuario o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso administrativo a los usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </li> 
-       <li>(Condicional) Si seleccionó un <b>Función principal</b>, el <b>Porcentaje de disponibilidad de FTE</b> se muestra. Especifique qué porcentaje de tiempo de las programaciones de los usuarios se asigna a esta función de trabajo. El valor predeterminado para el Porcentaje de disponibilidad de FTE para la función principal es del 100%.</li> 
-       <li> <p><b>Otras funciones</b>: Los usuarios pueden tener varias funciones de trabajo en Workfront. Las funciones de los puestos de trabajo son esenciales en la gestión de los recursos. No hay límite para la cantidad de funciones de trabajo que un usuario puede desempeñar. Sin embargo, se recomienda no asignar un usuario a un número excesivamente grande de funciones de trabajo, ya que la administración de recursos puede llegar a ser demasiado compleja para estos usuarios.</p> <p>Para obtener más información sobre las funciones de trabajo, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a>.</p> <p>Este campo solo se puede actualizar si tiene una licencia de Plan con acceso administrativo de usuario o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso administrativo a los usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </li> 
-       <li> <p>(Condicional) Si ha seleccionado una o varias <b>Otras funciones</b>, el <b>Porcentaje de disponibilidad de FTE</b> se muestra para cada función. Especifique qué porcentaje de tiempo de las programaciones de los usuarios se asigna a cada rol de trabajo. El valor predeterminado del Porcentaje de disponibilidad de FTE para las otras funciones es 0%.</p> <p><b>NOTA</b>:  
+   <li><b>Programar desactivación</b>: Marque esta casilla si desea programar la desactivación de usuarios después de un periodo de tiempo.</li> 
+       <li><b>Fecha programada de desactivación</b>: la fecha después de la cual se desactivan los usuarios. Para obtener más información sobre cómo programar usuarios para su desactivación, consulte la sección <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</li> 
+       <li> <p><b>Rol principal</b>: Esta es la función principal que un usuario tiene en Workfront. De forma predeterminada, todas las tareas y problemas que se asignan a los usuarios también se asignan a este rol. Las funciones del puesto son esenciales en la gestión de recursos. Para obtener más información sobre las funciones, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a></p> <p>Solo puede actualizar este campo si dispone de una licencia de planificación con acceso de usuario administrativo o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+       <li>(Condicional) Si seleccionó una <b>Rol principal</b>, el <b>Porcentaje de disponibilidad de FTE</b> se muestra el campo. Especifique qué porcentaje de tiempo de las programaciones de los usuarios se asigna a este rol. El valor predeterminado para el porcentaje de disponibilidad de FTE para el rol principal es 100%.</li> 
+       <li> <p><b>Otros roles</b>: los usuarios pueden tener varios roles en Workfront. Las funciones del puesto son esenciales en la gestión de recursos. No hay límite en cuanto a las funciones que puede desempeñar un usuario. Sin embargo, se recomienda no asignar un usuario a un número excesivamente elevado de funciones del puesto, ya que la administración de recursos podría resultar demasiado compleja para estos usuarios.</p> <p>Para obtener más información sobre las funciones, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a>.</p> <p>Solo puede actualizar este campo si dispone de una licencia de planificación con acceso de usuario administrativo o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+       <li> <p>(Condicional) Si ha seleccionado uno o varios <b>Otros roles</b>, el <b>Porcentaje de disponibilidad de FTE</b> El campo se muestra para cada rol. Especifique qué porcentaje de tiempo de las programaciones de los usuarios se asigna a cada rol. El valor predeterminado para el porcentaje de disponibilidad de FTE para los otros roles es 0%.</p> <p><b>NOTA</b>:  
        <ul> 
-       <li>Si Otras funciones tienen una disponibilidad del 0% de FTE, no se muestran en el Planificador de recursos, a menos que se asignen a los usuarios tareas en estas funciones.</li> 
-       <li> <p>La suma de todos los porcentajes de disponibilidad de FTE para todas las funciones debe ser igual al 100%. Cada porcentaje de disponibilidad de FTE calcula las horas disponibles para cada función por usuario en el Planificador de recursos. Las horas disponibles para cada función por usuario dependen del tiempo disponible para el usuario.</p> <p>Workfront calcula el tiempo disponible para el usuario según el método que haya seleccionado el administrador de Workfront para calcular el FTE en las preferencias de administración de recursos.</p> <p>Para obtener más información sobre el cálculo de la disponibilidad para el usuario, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Descripción general del cálculo de horas y FTE para usuarios y funciones en el planificador de recursos</a>.</p> <p>Para obtener más información sobre la configuración de las preferencias de Administración de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de Administración de recursos</a>.</p> </li> 
+       <li>Si otros roles tienen una disponibilidad de FTE del 0%, no se muestran en el Planificador de recursos, a menos que los usuarios estén asignados a tareas de estos roles.</li> 
+       <li> <p>La suma de todos los porcentajes de disponibilidad de FTE para todos los roles debe ser igual a 100%. Cada porcentaje de disponibilidad de FTE calcula las horas disponibles para cada rol por usuario en el Planificador de recursos. Las horas disponibles para cada rol por usuario dependen del tiempo disponible para el usuario.</p> <p>Workfront calcula el tiempo disponible para el usuario según el método que haya seleccionado el administrador de Workfront para calcular el valor de FTE en las Preferencias de administración de recursos.</p> <p>Para obtener más información sobre el cálculo de la disponibilidad del usuario, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información sobre cómo configurar las preferencias de Administración de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferencias de administración de recursos</a>.</p> </li> 
        </ul> </p> </li> 
-       <li> <p><b>Programación</b>: Asocie una programación a los usuarios. La programación de los usuarios calcula la cronología de las tareas a las que se asignan los usuarios.</p> <p>Un administrador de Workfront o un administrador de grupo deben crear una programación para poder asociarla con los usuarios.</p> <p>Seleccione una programación de sistema o de grupo para asignarla a los usuarios seleccionados.</p> <p>Para obtener más información sobre las programaciones de grupos y niveles del sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p><b>IMPORTANTE</b>: Workfront utiliza la programación de un usuario únicamente cuando la opción Calcular disponibilidad de recursos mediante está establecida en la programación del usuario. Para obtener información acerca de cómo afecta la configuración Calcular disponibilidad de recursos usando a la programación que se usa para la Administración de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de Administración de recursos</a>.</p> </li> 
-       <li> <p><b>Perfil de hoja de horas</b>: Asocie un perfil de parte de horas a los usuarios. Esto garantiza que las hojas de horas se generen automáticamente para los usuarios.</p> 
+       <li> <p><b>Programación</b>: asocie una programación a los usuarios. La programación de los usuarios calcula la cronología de las tareas que se les asignan.</p> <p>Un administrador de Workfront o de un grupo debe crear una programación para poder asociarla a los usuarios.</p> <p>Seleccione una programación de nivel de sistema o de grupo para asignarla a los usuarios seleccionados.</p> <p>Para obtener más información sobre las programaciones de grupo y de nivel del sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creación de una programación</a>.</p> <p><b>IMPORTANTE</b>: Workfront utiliza la programación de un usuario solo cuando la configuración Calcular disponibilidad de recursos mediante está establecida en El horario del usuario. Para obtener información sobre cómo la configuración Calcular disponibilidad de recursos mediante afecta a la programación que se utiliza para la administración de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferencias de administración de recursos</a>.</p> </li> 
+       <li> <p><b>Perfil de hoja de horas</b>: asocie un perfil de hoja de horas a los usuarios. Esto garantiza que las plantillas de horas se generen automáticamente para los usuarios.</p> 
        <p><b>NOTA</b>:  
        <ul> 
-       <li>La lista de perfiles de hojas de horas que tiene disponibles en este campo depende del acceso:
+       <li>La lista de perfiles de hojas de horas que tiene disponibles en este campo depende de su acceso:
        <ul>
-       <li>Como administrador de Workfront, puede ver todos los perfiles de hojas de horas a nivel de sistema y de grupo.</li>
-       <li><p>Como administrador de grupos, puede ver perfiles de parte de horas de nivel de sistema, así como los asociados a los grupos que administra.</p></li>
-       <li><p>Como usuario con licencia de Planificador y acceso para editar usuarios, solo puede ver perfiles de hojas de horas a nivel de sistema.</p></li>
+       <li>Como administrador de Workfront, puede ver todos los perfiles de hojas de horas de nivel de sistema y de grupo.</li>
+       <li><p>Como administrador de grupos, puede ver perfiles de hojas de horas de nivel de sistema, así como los asociados a los grupos que administra.</p></li>
+       <li><p>Como usuario con una licencia de Planner y acceso para editar usuarios, solo puede ver perfiles de hojas de horas en el sistema.</p></li>
        </ul></li> 
-       <li>Si es administrador de grupos, todos los usuarios que edite deben ser miembros de un grupo que administre.</li> 
+       <li>Si es administrador de un grupo, todos los usuarios que esté editando deben ser miembros de un grupo que administre.</li> 
        </ul> </p> </li> 
-       <li><b>Tipo de hora predeterminado</b>: Seleccione el tipo de hora predeterminado para los usuarios. Este es el tipo de hora que se utiliza de forma predeterminada cuando los usuarios registran la hora.</li> 
-       <li> <p><b>Tipos de hora disponibles</b>: Seleccione los tipos de hora que deben estar disponibles para el usuario. Estos tipos de hora son visibles en todas partes en Workfront donde los usuarios pueden registrar la hora. Un usuario solo puede ver los tipos de hora habilitados en el nivel de proyecto, así como en el nivel de usuario.</p> 
-       <p>Para obtener más información sobre los tipos de hora disponibles para los usuarios, consulte <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definir tipos de hora y disponibilidad para hojas de hora</a>.</p> 
+       <li><b>Tipo de hora predeterminado</b>: seleccione el tipo de hora predeterminado para los usuarios. Es el tipo de hora que se utiliza de forma predeterminada cuando los usuarios registran la hora.</li> 
+       <li> <p><b>Tipos de horas disponibles</b>: seleccione los tipos de horas que deben estar disponibles para el usuario. Estos tipos de horas son visibles en todas partes en Workfront, donde los usuarios pueden registrar la hora. Un usuario solo puede ver los tipos de horas que están habilitados en el nivel de proyecto y en el nivel de usuario.</p> 
+       <p>Para obtener más información sobre los tipos de horas disponibles para los usuarios, consulte <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definir tipos de horas y disponibilidad para hojas de horas</a>.</p> 
        </li> 
-       <li> <b>FTE</b>: Es el equivalente de tiempo completo del usuario. Workfront utiliza este número para calcular la disponibilidad del usuario según la programación predeterminada solo cuando las preferencias de administración de recursos a nivel de sistema están establecidas en la programación predeterminada.
+       <li> <b>ETC</b>: es el equivalente a tiempo completo del usuario. Workfront utiliza este número para calcular la disponibilidad del usuario según el horario predeterminado sólo cuando las Preferencias de Gestión de Recursos del sistema están definidas en El Horario por Defecto.
 
-   <p>El FTE indica la cantidad de tiempo que el usuario puede pasar en el trabajo. Esto incluye los gastos generales, así como el tiempo empleado en el trabajo del proyecto. Por ejemplo, el tiempo que se pasa en las reuniones o la formación también se incluye en el ETC.</p>
+   <p>El valor de FTE indica la cantidad de tiempo que el usuario puede pasar en el trabajo. Esto incluye los gastos generales, así como el tiempo empleado en el trabajo del proyecto. Por ejemplo, el tiempo empleado en reuniones o en formación también se incluye en el ETC.</p>
 
-   El FTE debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, si el valor de FTE es 0,5 y el programa predeterminado en Workfront es 40 horas, el usuario estará disponible 20 horas a la semana.
+   El valor de FTE debe ser un número decimal de hasta 1 y no puede ser 0. Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado en Workfront es 40 horas, el usuario estará disponible durante 20 horas a la semana.
 
    El valor predeterminado del campo es 1.
 
-   Programar excepciones, tiempo de espera podría <span class="preview">y el valor del tiempo de trabajo</span> puede afectar a la disponibilidad del usuario.
+   Las excepciones de horario, el tiempo libre y el valor del Tiempo de trabajo pueden afectar a la disponibilidad del usuario.
 
-   Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de configuración.
+   Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de Configuración.
 
-   Si las Preferencias de Gestión de Recursos a nivel de sistema se establecen en La programación del usuario, se ignora el valor que especifique aquí y se considera que el usuario está disponible según lo especificado en su programación.
+   Si las Preferencias de administración de recursos en el nivel del sistema se establecen en el Horario del usuario, el valor que especifique aquí se ignorará y el usuario se considerará disponible según lo especificado en su horario.
 
-   Para obtener más información, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a>.
+   Para obtener más información, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferencias de administración de recursos</a>.
 
-   Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>.
+   Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creación de una programación</a>.
    </li> 
-       <li> <p><b>Grupos de recursos</b>: Asocie a los usuarios con grupos de recursos.</p> <p><b>NOTA</b>: En este campo solo aparecen los grupos de recursos comunes a todos los usuarios seleccionados. Si los usuarios seleccionados no tienen grupos de recursos compartidos, este campo está vacío. Si este campo está vacío, los grupos de recursos que especifique aquí sobrescribirán sus grupos de recursos individuales.</p> 
-       <p>Para obtener más información sobre los grupos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resumen de los grupos de recursos </a>.</p> </li> 
+       <li> <p><b>Conjuntos de recursos</b>: asocie los usuarios a conjuntos de recursos.</p> <p><b>NOTA</b>: En este campo solo aparecen los conjuntos de recursos que son comunes a todos los usuarios seleccionados. Si los usuarios seleccionados no tienen conjuntos de recursos compartidos, este campo está vacío. Si este campo está vacío, los conjuntos de recursos que especifique aquí sobrescribirán sus conjuntos de recursos individuales.</p> 
+       <p>Para obtener más información sobre los conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resumen de conjuntos de recursos </a>.</p> </li> 
        <li><b>Costo por hora</b>: Cantidad de coste por hora para el usuario. </li> 
-       <li><b>Facturación por hora</b>: El importe de la facturación por hora para el usuario.</li> 
-       <li><b>Forms personalizado</b>: Asocie un formulario personalizado de usuario existente a los usuarios. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo aparecen los formularios personalizados activos. Para obtener información sobre la creación de formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</li> 
-       <li><b>Comentario</b>: Introduzca un comentario en el campo proporcionado. Todos los usuarios seleccionados recibirán una notificación en la aplicación, así como una notificación por correo electrónico con su comentario. El comentario se muestra en la pestaña Actualizaciones del perfil de los usuarios.</li> 
+       <li><b>Facturación por hora</b>: Cantidad de facturación por hora para el usuario.</li> 
+       <li><b>Forms personalizado</b>: asocie un formulario personalizado de usuario existente a los usuarios. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo se muestran los formularios personalizados activos. Para obtener información sobre la creación de formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</li> 
+       <li><b>Comentario</b>: introduzca un comentario en el campo proporcionado. Todos los usuarios seleccionados recibirán una notificación dentro de la aplicación, así como una notificación por correo electrónico con su comentario. El comentario se muestra en la pestaña Actualizaciones del perfil de los usuarios.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) En la **Forms personalizado** seleccione **Volver a calcular expresiones personalizadas** para garantizar que todos los campos personalizados calculados de los formularios personalizados adjuntos a los usuarios seleccionados estén actualizados.
+1. (Opcional) En el **Forms personalizado** , seleccione la **Volver a calcular expresiones personalizadas** para garantizar que todos los campos personalizados calculados en formularios personalizados adjuntos a los usuarios seleccionados estén actualizados.
 
-1. Haga clic en **Guardar cambios**.
+1. Clic **Guardar cambios**.
