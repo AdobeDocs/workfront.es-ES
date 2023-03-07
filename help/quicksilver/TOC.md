@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 1%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 1%
       * [Configurar Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Introducción a los tableros en Adobe Workfront {#boards-in-workfront}
       * [Introducción a los tableros en Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Demostraciones en vídeo de Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Inclusión de funciones anticipadas en el tablero](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Uso del tablero de mandos](agile/get-started-with-boards/use-boards-page.md)
       * [Crear o editar un tablero](agile/get-started-with-boards/create-edit-board.md)
