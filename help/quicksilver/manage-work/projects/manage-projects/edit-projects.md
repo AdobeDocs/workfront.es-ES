@@ -6,7 +6,7 @@ description: Puede editar un proyecto en Adobe Workfront con la frecuencia neces
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ Tenga en cuenta lo siguiente al editar proyectos:
 
 ## Edición de un proyecto
 
-La edición de un proyecto permite modificar la información y la configuración del proyecto, así como las tareas y problemas del proyecto.
+Al editar un proyecto, puede modificar la información y la configuración del proyecto, así como las tareas y problemas del proyecto.
 
 Algunas de las configuraciones mencionadas en este artículo podrían modificarse de su estado predeterminado por su estado en la plantilla desde la que se creó el proyecto. Para obtener información sobre la edición de plantillas, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
