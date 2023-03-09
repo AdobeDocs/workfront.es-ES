@@ -4,9 +4,9 @@ description: 23.2 Otras mejoras
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Esta página describe todas las demás mejoras realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Nueva experiencia de comentarios para los problemas beta
+
+Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos.
+
+Esta nueva experiencia finalmente unificará los comentarios en Adobe Workfront y más allá, en todo Adobe Experience Cloud.
+
+Como parte de esta actualización, presentamos la nueva experiencia de comentarios en la sección de actualizaciones de problemas. Con la versión actual, habrá una opción disponible para cada usuario para habilitar esta experiencia en su propio entorno, en modo beta. Después de aceptar el acuerdo beta, aparece la sección de nuevas actualizaciones y pueden seguir administrando su trabajo en esa sección como lo hacen ahora.
+Con la versión 23.1 de se lanzaron funciones similares para los objetivos de Workfront.
+
+Algunas de las funciones incluidas en esta actualización son:
+
+* Separación de pestañas para comentarios y actualizaciones del sistema
+* Mejor rendimiento
+
+Se añadirán más funciones en futuras versiones, ya que la funcionalidad también se añadirá a otros objetos.
+
+Para obtener información sobre lo que ofrece la nueva experiencia de comentarios, consulte [Experiencia de comentarios unificados](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para su uso en el
 
