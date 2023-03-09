@@ -4,9 +4,9 @@ description: 23.2 Mejoras del administrador
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Con el nuevo diseñador de formularios, hemos agregado la capacidad de
 
 * **Cambio del tamaño del texto descriptivo**: Ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos. <span style="color: #ff0000;"> El cambio del tamaño del texto descriptivo se ha retrasado temporalmente, pero llegará pronto.</span></li>
 
-Para obtener más información, consulte [Información general del diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Para obtener más información, consulte [Información general del diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Cambiar nombre de anclajes en plantilla de diseño
 
@@ -37,4 +39,4 @@ Ahora puede cambiar el nombre de los anclajes en una plantilla de diseño para q
 
 Para obtener más información, consulte [Personalización de páginas ancladas con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Para obtener más información sobre cómo los usuarios pueden cambiar el nombre de sus páginas ancladas personales, consulte [Anclar páginas para personalizar el espacio de trabajo](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3414364/)
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3414364/){target=_blank}
