@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Colocación de campos y widgets personalizados en un formulario personalizado
-description: Puede cambiar la posición de los campos personalizados y las utilidades en un formulario personalizado.
+title: Coloque los campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados
+description: Puede cambiar la posición de los campos y widgets personalizados en un formulario personalizado.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-# Colocación de campos y widgets personalizados en un formulario personalizado
+# Coloque los campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados
 
-Puede cambiar la posición de los campos personalizados y las utilidades en un formulario personalizado.
+Puede cambiar la posición de los campos y widgets personalizados en un formulario personalizado.
 
-Para obtener información sobre los campos personalizados y las utilidades de los formularios personalizados, consulte [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -44,14 +44,14 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Colocación de campos y widgets personalizados en un formulario personalizado
+## Colocar campos y widgets personalizados en un formulario personalizado
 
-1. Comience a crear o editar un formulario personalizado, tal como se describe en [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Agregue campos personalizados y utilidades al formulario, tal como se describe en [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Comience a crear o editar un formulario personalizado, tal como se describe en [Crear o editar un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Agregue campos y widgets personalizados al formulario, tal como se describe en [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. (Opcional) Para colocar campos personalizados y utilidades en la misma fila, arrastre uno junto al otro hasta que aparezca una línea entre ellos.
+1. (Opcional) Para colocar campos y widgets personalizados en la misma fila, arrastre uno junto al otro hasta que aparezca una línea entre ellos.
 
 <!--
 Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
@@ -64,18 +64,18 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* Puede usar la variable **Vista previa** en la esquina inferior derecha para obtener una idea de cómo se mostrarán los campos personalizados y las utilidades en el formulario.
+>* Puede usar el complemento **Previsualizar** en la esquina inferior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
 >* Los campos de texto descriptivo no pueden compartir una fila.
->* Es posible que los campos personalizados y las utilidades no siempre se muestren del mismo modo en el formulario, dependiendo de cuánto espacio de pantalla esté disponible cuando el usuario lo vea. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal está limitado.
+>* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
 
 
-1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo por encima o por debajo hasta que aparezca una línea azul horizontal entre los elementos.
-1. Haga clic en **Aplicar**.
-1. Si desea seguir creando el formulario personalizado de otras formas, continúe con uno de los siguientes artículos:
+1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
+1. Clic **Aplicar**.
+1. Si desea seguir creando el formulario personalizado de otras formas, consulte uno de los siguientes artículos:
 
-   * [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Agregar lógica de visualización y de omisión de lógica a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Obtener una vista previa y completar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Agregar un salto de sección a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Agregar lógica de visualización y saltar lógica a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Previsualizar y completar un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

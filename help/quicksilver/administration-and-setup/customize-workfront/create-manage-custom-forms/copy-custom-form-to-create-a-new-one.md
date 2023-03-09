@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: crear,personalizado,formulario,copiar,base,otro
 navigation-topic: create-and-manage-custom-forms
-title: Copiar un formulario personalizado para crear uno nuevo
+title: Copiar un formulario personalizado para crear uno nuevo con el generador heredado
 description: Puede crear un nuevo formulario personalizado basado en uno existente.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Copiar un formulario personalizado para crear uno nuevo
+# Copiar un formulario personalizado para crear uno nuevo con el generador heredado
 
 Puede crear un nuevo formulario personalizado basado en uno existente.
 
@@ -29,7 +29,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -43,15 +43,15 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Copiar un formulario personalizado para crear uno nuevo
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **Forms personalizado.**
-1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y haga clic en **Copiar**.
-1. En el **Copia de formulario personalizada** que aparece, escriba la siguiente información:
+1. Clic **Forms personalizado.**
+1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y, a continuación, haga clic en **Copiar**.
+1. En el **Copia de formulario personalizado** que aparece, escriba la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -62,8 +62,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td>Escriba un nombre para el formulario copiado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Tipos de formulario </p> </td> 
-      <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X junto a cualquier tipo que desee quitar. Los tipos que ya están asociados al formulario se desactivan en la lista.</p> 
+      <td role="rowheader"> <p role="rowheader">Tipos de formularios </p> </td> 
+      <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X situada junto a los tipos que desee quitar. Los tipos que ya están asociados con el formulario se deshabilitan en la lista.</p> 
       <p><img src="assets/copy-form-obj-types.png"></p> 
       <p>El formulario debe estar asociado al menos a un tipo de objeto.</p> 
       </td> 
@@ -71,21 +71,21 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. Haga clic en **Copiar formulario**.
+1. Clic **Copiar formulario**.
 
-   En el formulario original, si los campos calculados hacen referencia a campos que son incompatibles con un tipo de objeto que se agrega al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
+   En el formulario original, si los campos calculados hacen referencia a campos incompatibles con un tipo de objeto que agregue al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
 
-   Del mismo modo, si una opción de acceso para un salto de sección en el formulario original no es compatible con un tipo de objeto que agregue al nuevo, un mensaje le pedirá que ajuste la opción.
+   Del mismo modo, si una opción de acceso para un salto de sección en el formulario original no es compatible con un tipo de objeto que agregue al nuevo, aparecerá un mensaje en el que se le pedirá que ajuste la opción.
 
 1. Seleccione el formulario que acaba de copiar y haga clic en **Editar**.
-1. Realice cualquier cambio en el formulario, tal como se explica en los siguientes artículos:
+1. Realice cambios en el formulario, tal como se explica en los siguientes artículos:
 
-   * [Copiar un formulario personalizado para crear uno nuevo](#Add2)
-   * [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Colocación de campos y widgets personalizados en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Reutilizar un campo personalizado calculado existente en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Agregar lógica de visualización y de omisión de lógica a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Obtener una vista previa y completar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Copiar un formulario personalizado para crear uno nuevo con el generador de formularios heredados](#Add2)
+   * [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Coloque los campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Reutilizar un campo personalizado calculado existente en un formulario personalizado con el creador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Agregar lógica de visualización y saltar lógica a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Previsualizar y completar un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
-1. (Opcional) Después de hacer clic en **Guardar y cerrar**, adjunte el formulario al objeto en el que desea utilizarlo, tal como se describe en [Adición de un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Opcional) Después de hacer clic en **Guardar + Cerrar**, adjunte el formulario al objeto donde desee utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

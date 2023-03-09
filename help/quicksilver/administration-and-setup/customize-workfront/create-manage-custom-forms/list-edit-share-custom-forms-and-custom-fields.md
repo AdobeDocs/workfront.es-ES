@@ -1,19 +1,20 @@
 ---
-title: Enumerar y editar formularios personalizados y widgets agregados a formularios personalizados
-description: Cuando vea una lista de los formularios personalizados de su organización y los campos y utilidades personalizados que se les han agregado, puede utilizar las opciones de la barra de herramientas para editar sus propiedades, limitar con quién se comparten, copiarlos y eliminarlos. También puede ver otra información en las columnas que se muestran, como los tipos de objeto a los que está asociado cada formulario personalizado.
+title: Mostrar y editar formularios personalizados y widgets agregados a formularios personalizados
+description: Cuando vea una lista de los formularios personalizados de su organización y los campos personalizados y widgets que se les han agregado, puede utilizar las opciones de la barra de herramientas para editar sus propiedades, limitar con quién se comparten, copiarlos y eliminarlos. También puede ver otra información en las columnas que se muestran, como los tipos de objeto con los que está asociado cada formulario personalizado.
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
-# Enumerar y editar formularios personalizados y widgets agregados a formularios personalizados
 
-Cuando vea una lista de los formularios personalizados de su organización y los campos y utilidades personalizados que se les han agregado, puede utilizar las opciones de la barra de herramientas para editar sus propiedades, limitar con quién se comparten, copiarlos y eliminarlos. También puede ver otra información en las columnas que se muestran, como los tipos de objeto a los que está asociado cada formulario personalizado.
+# Mostrar y editar formularios personalizados y widgets agregados a formularios personalizados
 
-Para obtener información sobre los campos personalizados y las utilidades de los formularios personalizados, consulte [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Cuando vea una lista de los formularios personalizados de su organización y los campos personalizados y widgets que se les han agregado, puede utilizar las opciones de la barra de herramientas para editar sus propiedades, limitar con quién se comparten, copiarlos y eliminarlos. También puede ver otra información en las columnas que se muestran, como los tipos de objeto con los que está asociado cada formulario personalizado.
+
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -24,7 +25,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -38,48 +39,48 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Enumerar y editar formularios personalizados y elementos agregados a formularios personalizados
+## Mostrar y editar formularios personalizados y elementos agregados a formularios personalizados
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **Forms personalizado**.
+1. Clic **Forms personalizado**.
 
-   Con la variable **Forms** seleccionados, se muestran todos los formularios personalizados de su organización, junto con sus descripciones, los tipos de objeto asociados a ellos, los nombres de los usuarios que los crearon y si están activos o no en el sistema.
+   Con el **Forms** Una vez seleccionados, se muestran todos los formularios personalizados de la organización, junto con sus descripciones, los tipos de objeto asociados a ellos, los nombres de los usuarios que los crearon y si están activos o no en el sistema.
 
    Para obtener información sobre lo que puede hacer al seleccionar un formulario personalizado en la lista, consulte los siguientes artículos:
 
    * [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [Compartir un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Copiar un formulario personalizado para crear uno nuevo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-   * [Eliminación o desactivación de un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+   * [Eliminar o desactivar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Haga clic en el **Campos** pestaña .
+1. Haga clic en **Campos** pestaña.
 
-   En esta ficha se enumeran los campos y utilidades personalizados que los usuarios del sistema han agregado a los formularios personalizados, así como la información sobre el tipo de cada elemento, las instrucciones y los detalles al respecto y una lista de los formularios personalizados que lo contienen.
+   Esta pestaña enumera los campos y widgets personalizados que los usuarios del sistema han agregado a los formularios personalizados, junto con información sobre el tipo de cada elemento, instrucciones y detalles sobre él, y una lista de los formularios personalizados que lo contienen.
 
-   Esta lista contiene solo elementos de formulario personalizados que cumplen al menos uno de los siguientes criterios:
+   Esta lista contiene únicamente elementos de formulario personalizados que cumplen al menos uno de los siguientes criterios:
 
-   * Sistema editable
+   * Editable en todo el sistema
    * Visible en todo el sistema
    * Creado por usted
-   * Compartido con usted, con acceso de Vista o Administrar
+   * Compartido con usted, con acceso de Ver o Administrar
 
    >[!NOTE]
    >
-   >Los saltos de sección no se muestran en la ficha Campos .
+   >Los saltos de sección no se muestran en la pestaña Campos.
 
-   Para obtener información sobre lo que puede hacer al seleccionar un elemento en la lista, consulte los siguientes artículos:
+   Para obtener información acerca de lo que puede hacer al seleccionar un elemento de la lista, vea los siguientes artículos:
 
-   * [Editar propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [Configuración del uso compartido para campos personalizados y widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Configuración del uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Eliminar un campo o widget personalizado del sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 
-1. Seleccione el **Secciones** , asegúrese de que **Grupo de parámetros** se selecciona como **Ver** para la lista.
+1. Seleccione el **Secciones** pestaña y, a continuación, asegúrese de que **Grupo de parámetros** está seleccionado como **Ver** para la lista..
 
-   Todos los saltos de sección se muestran en esta vista, junto con una lista de formularios personalizados que contienen cada salto de sección.
+   En esta vista se muestran todos los saltos de sección, junto con una lista de los formularios personalizados que contienen cada salto de sección.
 
-   Para obtener información sobre la edición de una sección personalizada que seleccione en la lista, consulte [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   Para obtener información sobre cómo editar una sección personalizada que seleccione en la lista, consulte [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
