@@ -7,17 +7,16 @@ description: Puede agregar un formulario personalizado existente a cualquiera de
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
 # Agregar un formulario personalizado a un objeto
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 Puede agregar un formulario personalizado existente a cualquiera de los objetos enumerados a continuación. Un formulario personalizado contiene campos personalizados en los que se puede almacenar información sobre el objeto.
 
@@ -53,8 +52,10 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a los objetos para los que administra formularios personalizados</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar el acceso a los objetos para los que administra formularios personalizados</p> <p><b>NOTA</b></p>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Administre permisos al objeto para el que desea adjuntar un formulario personalizado.</p> <p>Ver o permisos superiores del formulario personalizado, con permiso para <b>Adjuntar a datos personalizados</b> objetos (proyectos, tareas y problemas). Para obtener más información, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>.</p> <p>Importante: Si no tiene una licencia de planificación con acceso administrativo a Forms personalizado, debe tener permisos específicos para ver al menos el formulario personalizado, como se describe en <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>. Se le deben otorgar estos permisos incluso si el formulario es visible en todo el sistema. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
@@ -110,13 +111,13 @@ Se pueden agregar hasta 10 formularios personalizados a un objeto determinado, l
 Puede agregar formularios personalizados a varios objetos seleccionándolos en una lista.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">Para obtener información sobre cómo agregar formularios personalizados a proyectos por lotes en el entorno de vista previa, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. Navegue hasta una lista de objetos.
 1. Seleccione varios objetos de la lista.

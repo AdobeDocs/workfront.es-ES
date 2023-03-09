@@ -6,9 +6,9 @@ description: Los conjuntos de recursos son colecciones de usuarios que le ayudan
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # Asociar conjuntos de recursos a proyectos y plantillas
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ Para asociar conjuntos de recursos a varios proyectos de forma masiva:
 
    >[!NOTE]
    >
-   >Cuando edita proyectos o plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todos los proyectos o plantillas seleccionados. Si los proyectos seleccionados no tienen conjuntos de recursos compartidos, este campo estará vacío. Los conjuntos de recursos que especifique aquí sobrescribirán los conjuntos de recursos individuales de los proyectos o plantillas.
+   >* En el entorno Producción, cuando edita proyectos o plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todos los proyectos o plantillas seleccionados. Si los proyectos seleccionados no tienen conjuntos de recursos compartidos, este campo estará vacío. Los conjuntos de recursos que especifique aquí sobrescribirán los conjuntos de recursos individuales de los proyectos o plantillas.
+   >
+   >* <span class="preview">En el entorno de vista previa, cuando se editan proyectos de forma masiva, aparece el indicador &quot;Varios valores&quot; si los proyectos seleccionados tienen diferentes conjuntos de recursos. Si agrega conjuntos de recursos de forma masiva, todos los conjuntos se agregarán al proyecto seleccionado, sobrescribiendo los conjuntos de recursos originales.</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. Clic **Guardar cambios**.\
    Cuando los conjuntos de recursos están asociados a sus proyectos o a sus plantillas, puede presupuestar las asignaciones de usuarios para sus proyectos dentro del Planificador de recursos.\
