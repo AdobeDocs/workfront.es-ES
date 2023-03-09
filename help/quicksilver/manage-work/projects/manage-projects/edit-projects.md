@@ -6,17 +6,16 @@ description: Puede editar un proyecto en Adobe Workfront con la frecuencia neces
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 2%
 
 ---
 
 # Editar proyectos
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ Los campos siguientes se incluyen en el encabezado del proyecto de forma predete
 
 Puede editar proyectos por lotes y actualizar la información de todos los proyectos seleccionados al mismo tiempo.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+La información que está cambiando en todos los proyectos seleccionados sobrescribe la información existente en proyectos individuales, excepto en el campo Administrador de recursos.
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+Si se añade un nuevo administrador de recursos al editar proyectos de forma masiva, se añade dicho administrador a todos los proyectos seleccionados. Si hay otros administradores de recursos asociados a los proyectos seleccionados, permanecen en los proyectos además del añadido mediante la edición masiva.
 
-### Edit projects in bulk in the Production environment
+La edición masiva de proyectos difiere según el entorno en el que decida actualizarlos.
 
--->
+### Editar proyectos por lotes en el entorno de producción
 
 Para editar proyectos de forma masiva:
 
@@ -792,105 +789,103 @@ Para editar proyectos de forma masiva:
 
    Todos los cambios realizados ahora están visibles en todos los proyectos seleccionados.
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### Editar proyectos en el entorno de vista previa
 
-Consider the following when editing projects in bulk in the Preview environment:
+Tenga en cuenta lo siguiente al editar proyectos por lotes en el entorno de vista previa:
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* Cuando se seleccionan proyectos que tienen valores diferentes para el mismo campo, el campo muestra un indicador &quot;Varios valores&quot; en el cuadro Editar proyectos. Los campos que son casillas de verificación, botones de opción y toggles tienen un indicador &quot;Varios valores&quot; junto a ellos.
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* Además del indicador &quot;Varios valores&quot;, cuando las opciones seleccionadas son diferentes en al menos uno de los proyectos seleccionados, los campos que tienen varias opciones se muestran de una de las siguientes maneras:
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * Los campos de casilla de verificación tienen una línea en lugar de una casilla de verificación para la opción que está marcada para algunos pero no para todos los proyectos seleccionados.
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * Los campos de tipo de alternancia se muestran atenuados, con el conmutador en el medio para la opción que está habilitada para algunos proyectos pero no para todos los seleccionados.
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * Los campos del tipo de botón de opción que tienen algunas opciones seleccionadas, pero no todas, muestran todos los botones de opción como vacíos.
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* Cuando se actualiza una opción en un campo de varias opciones (por ejemplo, un campo que se muestra como un conjunto de opciones o casillas de verificación), todas las demás opciones deben coincidir entre los proyectos seleccionados.
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >Por ejemplo, puede tener un campo de casilla de verificación con tres casillas de verificación (Opción 1, Opción 2 y Opción 3) y la Opción 1 está desactivada para todos los proyectos, y las Opciones 2 y 3 están seleccionadas para algunos y no están seleccionadas para otros proyectos que ha seleccionado. Si desea comprobar la opción 1 para todos los proyectos, también debe hacer que las opciones 2 y 3 coincidan con todos los proyectos seleccionados antes de guardar los cambios, por lo que debe seleccionarlas o deseleccionarlas para que puedan coincidir en todos los proyectos seleccionados. Si no cambia ninguna de las opciones, puede guardar el campo tal cual y los proyectos mantendrán su selección actual para todas las opciones.
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* Al seleccionar varios proyectos que pertenecen a grupos diferentes, los estados que se muestran en el campo Estado son estados de nivel del sistema y no estados de nivel de grupo.
 
-To edit projects in the Preview environment: 
+Para editar proyectos en el entorno de vista previa:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Clic **Proyectos**.
+1. Seleccione varios proyectos en la lista.
+1. Haga clic en **Editar** icono ![](assets/edit-icon.png) al principio de la lista.
+El **Editar proyectos** se abre el cuadro de diálogo.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+Según la forma en que el administrador de Workfront o del grupo haya modificado la plantilla de diseño, las áreas del panel izquierdo del cuadro Editar proyecto o cualquier campo enumerado en estas áreas podrían reorganizarse o no mostrarse. Para obtener más información, consulte [Personalización de la vista Detalles mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. Clic **Información general** para editar información general sobre los proyectos seleccionados.  Para obtener más información sobre cómo editar el área Información general, consulte la sección [Información general](#overview) en este artículo.
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >Los campos que edite se mostrarán con un fondo morado claro.
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. Clic **Forms personalizado** para editar, agregar o reemplazar formularios personalizados asociados con los proyectos seleccionados.
+
+   Los formularios personalizados adjuntos a todos los proyectos seleccionados se muestran en la variable **Formularios personalizados en común** subsección de la **Forms personalizado** área.
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   Los nombres de los formularios que son comunes a todos los proyectos seleccionados se muestran en el panel izquierdo del cuadro Editar proyectos.
+
+1. Empiece a escribir el nombre de un formulario personalizado en la **Añadir formulario personalizado** field.
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   Los formularios personalizados que ya están adjuntos a los proyectos seleccionados se muestran en la **Formularios adjuntos** subsección de la **Añadir formulario personalizado** field.
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   Los formularios personalizados adicionales que se pueden asociar a proyectos pero que no están adjuntos a ninguno de los proyectos seleccionados se muestran en la **Forms para añadir** subsección de la **Añadir formulario personalizado** field.
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. Haga clic en para seleccionar el formulario personalizado adicional en la **Añadir formulario personalizado** o **Forms para añadir** subsecciones cuando se muestra en la lista.
+
+   Cuando ya se adjunta un formulario personalizado a algunos de los proyectos seleccionados, al agregar un formulario, aparece una indicación junto al nombre del formulario de cuántos proyectos ya lo tienen seleccionado.
+
+1. (Opcional) Haga clic en **x** a la derecha del nombre de un formulario personalizado y, a continuación, haga clic en **Eliminar** para quitarlo de todos los proyectos seleccionados.
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   Si se eliminan los formularios personalizados, se perderá toda la información de los campos personalizados de los formularios. Esto no se puede recuperar.
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   Para obtener más información sobre la edición de formularios personalizados, consulte la sección [Forms personalizado](#custom-forms) en este artículo.
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. Clic **Finanzas** para editar la información financiera de todos los proyectos seleccionados.
+Para obtener más información sobre cómo editar el área de Finanzas, consulte la sección [Finanzas](#finance) en este artículo.
+1. Clic **Configuración de proyecto** para editar la configuración de todos los proyectos seleccionados.
+Para obtener más información sobre cómo editar el área de Configuración del proyecto, consulte la sección [Configuración de proyecto](#project-settings) en este artículo.
+1. Clic **Configuración de tarea** para editar la configuración de tareas para todos los proyectos seleccionados.
+Para obtener más información sobre cómo editar el área Configuración de tarea, consulte la sección [Configuración de tarea](#task-settings) en este artículo.
+1. Clic **Configuración de problema** para editar la configuración de problemas de todos los proyectos seleccionados.
+Para obtener más información sobre cómo editar el área Configuración de problema, consulte la sección [Configuración de problema](#issue-settings) en este artículo.
+1. Clic **Acceso** para editar la configuración de acceso para todos los proyectos seleccionados.
+Para obtener más información sobre cómo editar el área de Access, consulte la sección [Acceso](#access) en este artículo.
+1. (Opcional) Para eliminar cualquier información que haya agregado en el cuadro Editar proyectos, pase el ratón sobre un campo editado y, a continuación, haga clic en **x** icono de descartar en la parte superior derecha del campo.
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. (Opcional) Haga clic en **Cancelar** en la parte inferior de la **Editar proyectos** para eliminar todos los cambios realizados en todos los proyectos.
+1. Haga clic en **Guardar**.
 
 <div>
--->

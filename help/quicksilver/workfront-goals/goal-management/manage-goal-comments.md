@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Administrar comentarios de objetivo en objetivos de Adobe Workfront
-description: Puede agregar comentarios a todos los objetivos que puede ver en los objetivos de Adobe Workfront.
+title: Administrar comentarios sobre metas en Adobe Workfront Goals
+description: Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
-# Administrar comentarios de objetivo en objetivos de Adobe Workfront
+# Administrar comentarios sobre metas en Adobe Workfront Goals
 
-Puede agregar comentarios a todos los objetivos que puede ver en los objetivos de Adobe Workfront.
+Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 
 <!--drafted for P&P:
 
@@ -78,43 +78,43 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Pro o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td> 
+   <td> <p>Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>Debe adquirir una licencia adicional para los objetivos de Adobe Workfront para acceder a la funcionalidad que se describe en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar los objetivos de Workfront</a>. </p> </td> 
+   <td> <p>Debe adquirir una licencia adicional para acceder a la funcionalidad de Adobe Workfront Goals que se describe en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso*</td> 
-   <td> <p>Ver o tener más acceso a los objetivos</p> <p><b>NOTA</b><p>Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte:</p> 
+   <td> <p>Ver los objetivos o acceder a ellos</p> <p><b>NOTA</b><p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acceso a los objetivos de Adobe Workfront</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concesión de acceso a Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
     <div> 
-     <p>Ver o permisos superiores en objetivos</p> 
-     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir un objetivo en los objetivos de Workfront</a>. </p> 
+     <p>Ver permisos superiores en las metas</p> 
+     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
 Debe tener lo siguiente para poder iniciar:
 
-* Plantilla de diseño que incluye el área Objetivos del menú principal.
+* Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 
 ## Busque el área Comentarios
 
@@ -188,28 +188,29 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->El contenido de esta página hace referencia a funciones que forman parte de la nueva experiencia de comentarios unificados, actualmente disponible solo en los objetivos de Adobe Workfront. Para obtener más información sobre la experiencia de comentarios unificados, consulte [Experiencia de comentarios unificada](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 Puede agregar comentarios a los objetivos en la sección Actualizaciones de la página de un objetivo.
 
-Puede responder o indicar que le gusta un comentario que agregó usted u otros usuarios en esta área.
+Puede responder a un comentario que usted u otras personas agregaron en esta área o marcarlo como me gusta.
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) > **Objetivos** en la esquina superior derecha.
-Esto abre la lista de objetivos.
-1. Busque el objetivo al que desee agregar comentarios y haga clic en su nombre para abrir la página de objetivo.
-1. Haga clic en  **Actualizaciones** en el panel izquierdo.
-1. Haga clic en el **Comentarios** en la esquina superior izquierda del área Actualizaciones.
-1. Comience a introducir un comentario en el **Escribir un comentario** en la ventana
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+Se abrirá la lista de metas.
+1. Busque la meta a la que desee agregar comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
+1. Clic  **Actualizaciones** en el panel izquierdo.
+1. Haga clic en **Comentarios** en la esquina superior izquierda del área de Actualizaciones.
+1. Comience a escribir un comentario en **Escribir un comentario** cuadro.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. (Opcional) En la **Notificar** , empiece a escribir el nombre o el correo electrónico de un usuario, o un equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando aparezca en la lista.
-1. Haga clic en **Submit**.
-1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-7 anteriores. <!--insure this stays accurate-->
-1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.
-1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Haga clic en el **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza un objetivo, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema . Workfront también registra una actualización del sistema cuando un resultado, actividad o proyecto se agrega al objetivo o cuando se actualiza. <!--ensure the casing on the tab has not changed-->
+   >[!TIP]
+   >
+   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Los comentarios redactados solo son visibles para el usuario que los escribe.
+
+1. (Opcional) En el **Notificar** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
+1. Clic **Enviar**.
+1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 5 al 7 anteriores. <!--insure this stays accurate-->
+1. (Opcional) Haga clic en **Like** icono![](assets/like-icon.png) para que le guste un comentario que otra persona haya agregado. El icono se actualiza con el número de me gusta.
+1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice los atributos de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza un objetivo, Workfront genera una nota sobre esa actualización que se muestra en la pestaña Actividad del sistema. Workfront también registra una actualización del sistema cuando se agrega un resultado, una actividad o un proyecto al objetivo o cuando se actualiza. <!--ensure the casing on the tab has not changed-->
 
 <!--
 ## Add comments to goals in the Check-in section
