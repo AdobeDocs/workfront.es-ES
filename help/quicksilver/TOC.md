@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 1%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 1%
          * [Imprimir un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [Compartir un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Eliminación de una página externa de un panel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [Información general sobre paneles de lienzo](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Análisis mejorado {#enhanced-analytics}
       * [Análisis mejorado](enhanced-analytics/enhanced-analytics.md)
       * [Resumen de análisis mejorado](enhanced-analytics/enhanced-analytics-overview.md)
