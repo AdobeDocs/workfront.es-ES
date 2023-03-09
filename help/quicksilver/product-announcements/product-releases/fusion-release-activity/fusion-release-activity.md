@@ -3,25 +3,29 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: product-releases
-title: Información general sobre la actividad de la versión de Adobe Workfront Fusion
+title: Información general sobre la actividad de Adobe Workfront Fusion
 description: Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1e4d7aa9be56710d2b3297be9eb3f5da0de74d64
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la actividad de la versión de Adobe Workfront Fusion
+# Información general sobre la actividad de Adobe Workfront Fusion
 
 Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
 
-Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+Para obtener información sobre cómo utilizar Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Versiones recientes
+
+### Marzo de 2023
+
+* [Actividad de la versión de Workfront Fusion: Semana del 6 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
 
 ### Diciembre de 2022
 
@@ -119,7 +123,7 @@ Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Work
 
 * [Actividad de la versión de Workfront Fusion: Semana del 26 de abril de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 19 de abril de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-<!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
+   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### Marzo de 2021
 
