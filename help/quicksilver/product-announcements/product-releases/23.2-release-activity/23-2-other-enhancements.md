@@ -1,0 +1,47 @@
+---
+title: 23.2 Otras mejoras
+description: 23.2 Otras mejoras
+author: Courtney
+draft: Probably
+feature: Product Announcements
+source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
+
+---
+
+# 23.2 Otras mejoras
+
+Esta página describe todas las demás mejoras realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
+
+Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para su uso en el
+
+En el complemento Adobe Workfront XD para la, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Cargar [!DNL XD] tableros de arte como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Cargar [!DNL XD] tableros de arte como pruebas para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+
+## Nuevos clientes netos que se incorporarán a la experiencia unificada de Adobe
+
+Entre mediados y finales de marzo de 2023, los nuevos clientes empezarán a incorporarse a la experiencia unificada de Adobe. Los nuevos clientes se gestionarán caso por caso a medida que se incorporen a Adobe Business Platform.
+
+La migración de los clientes existentes a la experiencia unificada se ha pospuesto para más adelante en 2023. Se notificará a todos los clientes afectados en ese momento.
+
+La experiencia unificada de Adobe incluye lo siguiente:
+
+* Un solo inicio de sesión para todas las aplicaciones de Adobe a través de Adobe Experience Cloud
+* Un &quot;conmutador de organización&quot; para alternar entre organizaciones y entornos de Workfront.
+* Navegación con opciones para páginas de Workfront, preferencias de Adobe Experience Cloud y su perfil de Workfront
+
+Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## El visor de revisión se abre en una nueva pestaña para los usuarios de la experiencia unificada
+
+Debido a un requisito técnico con la experiencia unificada, el visualizador de pruebas se iniciará en una nueva pestaña del explorador.
