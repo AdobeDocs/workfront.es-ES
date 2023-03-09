@@ -6,7 +6,7 @@ description: Puede editar un proyecto en Adobe Workfront con la frecuencia neces
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ Puede editar un proyecto en Adobe Workfront con la frecuencia necesaria. Le reco
  </tbody> 
 </table>
 -->
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ Algunas de las configuraciones mencionadas en este artículo podrían modificars
      <tr> 
       <td role="rowheader"><strong>Tipo de condición</strong> </td> 
       <td> <p>Seleccione entre los siguientes tipos de condición: 
-        <ul> 
-         <li><strong>Manual:</strong> El propietario del proyecto establece la condición en el proyecto manualmente.</li> 
-         <li><strong>Estado de progreso:</strong> Workfront establece automáticamente la condición en función del estado de progreso de las tareas en la ruta crítica. Para obtener más información sobre el estado de progreso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Resumen del estado de progreso de tareas</a>.</li> 
-        </ul><p>El administrador de Workfront<span> o un administrador de grupo</span> selecciona el valor predeterminado para la forma en que se calcula la condición de los proyectos para el sistema <span>o su grupo</span>. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>Manual:</strong> El propietario del proyecto establece la condición en el proyecto manualmente.</li> 
+       <li><strong>Estado de progreso:</strong> Workfront establece automáticamente la condición en función del estado de progreso de las tareas en la ruta crítica. Para obtener más información sobre el estado de progreso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Resumen del estado de progreso de tareas</a>.</li> 
+       </ul><p>El administrador de Workfront<span> o un administrador de grupo</span> selecciona el valor predeterminado para la forma en que se calcula la condición de los proyectos para el sistema <span>o su grupo</span>. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condición</strong> </td> 
@@ -242,10 +243,10 @@ Algunas de las configuraciones mencionadas en este artículo podrían modificars
      <tr> 
       <td role="rowheader"><strong>Modo de horario</strong> </td> 
       <td> <p>Especifique si el proyecto está programado desde la fecha de inicio o desde la fecha de finalización. Esta selección determina las fechas planificadas de las tareas del proyecto. 
-        <ul> 
-         <li><strong>Fecha de inicio</strong>: la primera tarea del proyecto tiene la misma fecha planificada de inicio que el proyecto de forma predeterminada. Para obtener información sobre la fecha planificada de inicio de la tarea, consulte <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio de la tarea</a>. La cronología del proyecto se calcula a partir de la fecha de inicio y la fecha de finalización del proyecto se calcula mediante el sistema, en función de la duración de todas las tareas. </li> 
-         <li><strong>Fecha de finalización</strong>: la última tarea del proyecto tiene la misma fecha planificada de finalización que el proyecto. La cronología del proyecto se calcula a partir de la fecha de finalización y la fecha de inicio del proyecto se calcula mediante el sistema, restando la duración de todas las tareas de la fecha de finalización del proyecto. </li> 
-        </ul><p>El administrador de Workfront<span> o un administrador de grupo</span> selecciona la configuración predeterminada del Modo de horario para su sistema o grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>Fecha de inicio</strong>: la primera tarea del proyecto tiene la misma fecha planificada de inicio que el proyecto de forma predeterminada. Para obtener información sobre la fecha planificada de inicio de la tarea, consulte <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio de la tarea</a>. La cronología del proyecto se calcula a partir de la fecha de inicio y la fecha de finalización del proyecto se calcula mediante el sistema, en función de la duración de todas las tareas. </li> 
+       <li><strong>Fecha de finalización</strong>: la última tarea del proyecto tiene la misma fecha planificada de finalización que el proyecto. La cronología del proyecto se calcula a partir de la fecha de finalización y la fecha de inicio del proyecto se calcula mediante el sistema, restando la duración de todas las tareas de la fecha de finalización del proyecto. </li> 
+       </ul><p>El administrador de Workfront<span> o un administrador de grupo</span> selecciona la configuración predeterminada del Modo de horario para su sistema o grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Fecha y hora planificadas para el inicio</strong> </td> 
@@ -266,10 +267,10 @@ Algunas de las configuraciones mencionadas en este artículo podrían modificars
      <tr> 
       <td role="rowheader"><strong>Grupo</strong></td> 
       <td> <p> <p>Especifique el nombre del grupo asociado con el proyecto. </p>Este campo es obligatorio. No puede tener un proyecto que no esté asociado a un grupo. </p> <p>Puede asegurarse de que está seleccionando el grupo correcto pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a ella. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> De forma predeterminada, uno de los siguientes grupos se asocia automáticamente a un proyecto cuando se crea, a menos que especifique un grupo diferente:</p> 
-        <ul> 
-         <li> <p><span>Cuando se crea el proyecto desde el área de Proyectos, el grupo de inicio del creador del proyecto se asocia al proyecto.</span> </p> <p>Esto también ocurre cuando el proyecto se crea desde la sección Proyectos en un portafolio o programa.</p> </li> 
-         <li> <p>Cuando el proyecto se crea a partir de la página principal de un grupo en el área de Configuración, ese grupo se asocia al proyecto.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes en el nivel de sistema. Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo. Para obtener información sobre la creación de procesos de aprobación de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Procesos de aprobación de nivel de grupo</a>. Para obtener información sobre cómo crear un estado personalizado de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Crear o editar un estado de grupo</a></p> </td> 
+       <ul> 
+       <li> <p><span>Cuando se crea el proyecto desde el área de Proyectos, el grupo de inicio del creador del proyecto se asocia al proyecto.</span> </p> <p>Esto también ocurre cuando el proyecto se crea desde la sección Proyectos en un portafolio o programa.</p> </li> 
+       <li> <p>Cuando el proyecto se crea a partir de la página principal de un grupo en el área de Configuración, ese grupo se asocia al proyecto.</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes en el nivel de sistema. Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo. Para obtener información sobre la creación de procesos de aprobación de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Procesos de aprobación de nivel de grupo</a>. Para obtener información sobre cómo crear un estado personalizado de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Crear o editar un estado de grupo</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Compañía</strong> </td> 
@@ -293,7 +294,7 @@ Algunas de las configuraciones mencionadas en este artículo podrían modificars
 
    >[!TIP]
    >
-   >   Al actualizar los campos Propietario del proyecto, Patrocinador del proyecto y Administrador de recursos, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+   >Al actualizar los campos Propietario del proyecto, Patrocinador del proyecto y Administrador de recursos, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
 
 1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
 
@@ -302,7 +303,6 @@ Algunas de las configuraciones mencionadas en este artículo podrían modificars
    Haga clic en **Guardar**.
 
 ### Formularios personalizados {#custom-forms}
-
 
 Según el nivel de acceso y los permisos que tenga en el proyecto, se producirán los siguientes escenarios:
 
@@ -333,7 +333,7 @@ Para editar información sobre formularios personalizados:
 
    >[!NOTE]
    >
-   >   Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede agregar hasta diez formularios personalizados a un proyecto.
+   >Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede agregar hasta diez formularios personalizados a un proyecto.
 
 
 1. (Condicional) Si adjuntó un formulario personalizado al proyecto, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar el proyecto.
@@ -514,17 +514,12 @@ Para editar campos en el área Finanzas:
        <td> <p>Seleccione el proceso de aprobación que desea asociar al proyecto. El administrador de Workfront debe definir los procesos de aprobación en el nivel de sistema para poder asociarlos a proyectos. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información sobre la creación de procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente al añadir procesos de aprobación: </p> 
        <ul> 
        <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
-       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.</p> <p>Si el grupo asociado con el proyecto cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en los procesos de aprobación y de grupo a los procesos de aprobación asignados</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>Cuando se editan proyectos por lotes, existen los siguientes escenarios:</p>
-
-   <ul> 
-   <li> <p>Al seleccionar proyectos del mismo grupo, en este campo se muestran tanto los procesos de aprobación de nivel de sistema como los de nivel de grupo.</p> </li> 
-   <li> <p>Al seleccionar proyectos de diferentes grupos, solo se muestran en este campo los procesos de aprobación de nivel de sistema.</p> </li> 
-   <li> <p>Cuando alguno de los proyectos tiene un proceso de aprobación de un solo uso adjunto, se reemplaza por el proceso de aprobación de nivel de sistema o de grupo que seleccione. </p> </li> 
-   </ul> 
+       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.</p> <p>Si el grupo asociado con el proyecto cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en los procesos de aprobación y de grupo a los procesos de aprobación asignados</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>Cuando se editan proyectos por lotes, existen los siguientes escenarios:</p> 
+       <ul> 
+       <li> <p>Al seleccionar proyectos del mismo grupo, en este campo se muestran tanto los procesos de aprobación de nivel de sistema como los de nivel de grupo.</p> </li> 
+       <li> <p>Al seleccionar proyectos de diferentes grupos, solo se muestran en este campo los procesos de aprobación de nivel de sistema.</p> </li> 
+       <li> <p>Cuando alguno de los proyectos tiene un proceso de aprobación de un solo uso adjunto, se reemplaza por el proceso de aprobación de nivel de sistema o de grupo que seleccione. </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ Según la forma en que el administrador de Workfront o del grupo haya modificado
 
    >[!CAUTION]
    >
-   >   Si se eliminan los formularios personalizados, se perderá toda la información de los campos personalizados de los formularios. Esto no se puede recuperar.
+   >Si se eliminan los formularios personalizados, se perderá toda la información de los campos personalizados de los formularios. Esto no se puede recuperar.
 
    Para obtener más información sobre la edición de formularios personalizados, consulte la sección [Forms personalizado](#custom-forms) en este artículo.
 
@@ -887,5 +882,3 @@ Para obtener más información sobre cómo editar el área de Access, consulte l
 
 1. (Opcional) Haga clic en **Cancelar** en la parte inferior de la **Editar proyectos** para eliminar todos los cambios realizados en todos los proyectos.
 1. Haga clic en **Guardar**.
-
-<div>
