@@ -2,71 +2,71 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Información general sobre la fecha de entrega de tareas
-description: La fecha de entrega es la fecha en que una tarea está disponible para el trabajo. Esto suele significar que sus predecesores se han resuelto y que el usuario asignado de la tarea puede empezar a trabajar en ella.
+title: Resumen de fecha de transferencia de tareas
+description: La fecha de transferencia es la fecha en la que una tarea está disponible para trabajar. Esto suele significar que sus predecesoras se han resuelto y que el usuario asignado de la tarea puede empezar a trabajar en ella.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
 
-# Información general sobre la fecha de entrega de tareas
+# Resumen de fecha de transferencia de tareas
 
-La fecha de entrega es la fecha en que una tarea está disponible para el trabajo. Esto suele significar que sus predecesores se han resuelto y que el usuario asignado de la tarea puede empezar a trabajar en ella.
+La fecha de transferencia es la fecha en la que una tarea está disponible para trabajar. Esto suele significar que sus predecesoras se han resuelto y que el usuario asignado de la tarea puede empezar a trabajar en ella.
 
 >[!TIP]
 >
->Las fechas de entrega no existen para problemas y proyectos.
+>Las fechas de transferencia no existen para problemas y proyectos.
 
-## Cómo calcula Adobe Workfront la fecha de entrega
+## Cálculo de la fecha de transferencia por parte de Adobe Workfront
 
 >[!NOTE]
 >
->La fecha de entrega solo se calcula si el estado del proyecto es igual a los siguientes estados:
+>La fecha de entrega solo se calcula si el estado del proyecto equivale a los siguientes estados:
 >
 >* En espera
 >* Al día
->* Finalizado
+>* Finalizadas
 >* Inactivo
 >
 
 
-Workfront utiliza las siguientes reglas para calcular la fecha de entrega de una tarea:
+Workfront utiliza las siguientes reglas para calcular la fecha de transferencia de una tarea:
 
-* **Cuando la tarea tiene un predecesor incompleto**: La fecha de entrega de la tarea es nula.
-* **Cuando la tarea tiene un predecesor completo**: La fecha de entrega es la misma que la fecha de finalización real de la tarea predecesora. Si el predecesor tiene un retraso, Workfront calcula la fecha de entrega de la tarea sucesora mediante la fórmula siguiente:
+* **Cuando la tarea tiene un predecesor incompleto**: la fecha de entrega de la tarea es nula.
+* **Cuando la tarea tiene una predecesora completa**: la fecha de transferencia es la misma que la fecha de finalización real de la tarea predecesora. Si la tarea predecesora tiene un retardo, Workfront calcula la fecha de transferencia de la tarea sucesora mediante la siguiente fórmula:
 
    `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-   Para obtener información sobre el tiempo de retraso, consulte [Descripción general de los tipos de retraso](../use-prdcssrs/lag-types.md).
+   Para obtener información sobre el tiempo de retardo, consulte [Información general sobre los tipos de retardo](../use-prdcssrs/lag-types.md).
 
-   Si la tarea sucesora tiene más de un predecesor, la fecha de entrega se calcula en función de la última fecha de finalización real de los predecesores. Por ejemplo, si las fechas de finalización reales de los dos predecesores son el 8 de noviembre de 2022 y el 20 de noviembre de 2022, la fecha de entrega del sucesor es el 20 de noviembre de 2022.
+   Si la tarea sucesora tiene más de una predecesora, la fecha de transferencia se calcula según la última fecha real de finalización de las predecesoras. Por ejemplo, si las fechas de finalización reales de las dos predecesoras son el 8 de noviembre de 2022 y el 20 de noviembre de 2022, la fecha de transferencia de la sucesora es el 20 de noviembre de 2022.
 
    >[!NOTE]
    >
-   >   El cálculo de la fecha de entrega de una tarea sucesora en función de la fecha de finalización real o de una tarea predecesora es el mismo tanto si la predecesora se aplica como si no. Para obtener más información sobre las predecesoras reforzadas, consulte [Aplicar predecesores](../use-prdcssrs/enforced-predecessors.md).
+   >   El cálculo de la fecha de transferencia de una tarea sucesora en función de la fecha real de finalización o de una tarea predecesora es el mismo independientemente de si la predecesora es obligatoria o no. Para obtener más información sobre predecesoras forzadas, consulte [Forzar predecesoras](../use-prdcssrs/enforced-predecessors.md).
 
 
-* **Cuando la tarea no tiene predecesor y**:
+* **Cuando la tarea no tiene predecesora y**:
 
-   * **La fecha de inicio planeada es anterior**: La fecha de entrega es la misma que la fecha de inicio planeada del proyecto.
-   * **La fecha de inicio planeada es futura (cualquier fecha posterior a la fecha actual)**: La fecha de entrega es la misma que la fecha de inicio planeada del proyecto.
+   * **La fecha planificada de inicio se encuentra en el pasado**: la fecha de entrega es la misma que la fecha planificada de inicio del proyecto.
+   * **La fecha planificada de inicio es futura (cualquier fecha posterior a la fecha actual)**: la fecha de entrega es la misma que la fecha planificada de inicio del proyecto.
 
 >[!NOTE]
 >
->Cuando la tarea tiene un predecesor entre proyectos, la fecha de entrega del sucesor se vuelve a calcular solo cuando se produce cualquiera de las siguientes situaciones:
+>Cuando la tarea tiene una predecesora entre proyectos, la fecha de transferencia de la sucesora se vuelve a calcular únicamente cuando se produce una de las siguientes situaciones:
 >
->* Se vuelve a calcular manualmente la cronología del proyecto del sucesor. Debe tener permisos de administración para volver a calcular la cronología del proyecto.
->* La cronología del proyecto del sucesor se vuelve a calcular automáticamente por la noche.
+>* Se puede recalcular manualmente la escala de tiempo del proyecto del sucesor. Debe tener permisos de administración en el proyecto para volver a calcular la escala de tiempo.
+>* La cronología del proyecto del sucesor se recalcula automáticamente por la noche.
 >
->Para obtener información sobre cómo volver a calcular la cronología del proyecto, consulte [Volver a calcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Para obtener información sobre cómo recalcular la escala de tiempo del proyecto, consulte [Recalcular escalas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Cuando la tarea tiene una restricción forzada para las fechas planificadas**: La fecha de entrega siempre es la misma que la fecha establecida por la restricción, independientemente de cualquier otra condición.\
-   Las siguientes son restricciones forzadas en tareas:
+* **Cuando la tarea tiene una restricción forzada para las fechas planificadas**: la fecha de transferencia varía según el tipo de restricción y si la tarea tiene una fecha de inicio real o no.\
+   A continuación se indican restricciones forzadas en tareas:
 
    * Debe iniciarse el
    * Debe finalizarse el
@@ -74,7 +74,14 @@ Workfront utiliza las siguientes reglas para calcular la fecha de entrega de una
    * No iniciar después del
    * Fecha fija
 
-## Localización de la fecha de entrega
+   Existen los siguientes escenarios:
 
-Puede mostrar la fecha de entrega de una tarea en un informe de tareas o la vista de una lista de tareas.\
-Para obtener más información sobre cómo crear un informe, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Cuando la tarea tiene una delimitación de Debe comenzar el o No comenzar antes del, la fecha de transferencia es la fecha de delimitación, a menos que haya una fecha de inicio real en la tarea. Si hay una fecha de inicio real en la tarea, la fecha de transferencia es la fecha de finalización real de la predecesora.
+   * Cuando la tarea tiene una delimitación de Debe finalizar el o No comenzar después del, la fecha de transferencia es siempre la fecha de finalización real de la predecesora, independientemente de si hay o no una fecha de inicio real en la tarea.
+   * Cuando la tarea tiene una delimitación de Fechas fijas, la fecha de transferencia es la fecha planificada de inicio de la tarea, independientemente de si tiene una predecesora o no e independientemente de si la predecesora se ha completado o no.
+
+
+## Localizar la fecha de entrega
+
+Puede mostrar la fecha de transferencia de una tarea en un informe de tareas o en la vista de una lista de tareas.\
+Para obtener más información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

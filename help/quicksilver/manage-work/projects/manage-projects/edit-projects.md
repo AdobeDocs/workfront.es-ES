@@ -6,9 +6,9 @@ description: Puede editar un proyecto en Adobe Workfront con la frecuencia neces
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '7664'
+source-wordcount: '7666'
 ht-degree: 2%
 
 ---
@@ -786,7 +786,7 @@ Para editar proyectos de forma masiva:
 
 <div class="preview">
 
-### Editar proyectos en el entorno de vista previa
+### Editar proyectos por lotes en el entorno de vista previa
 
 Tenga en cuenta lo siguiente al editar proyectos por lotes en el entorno de vista previa:
 
