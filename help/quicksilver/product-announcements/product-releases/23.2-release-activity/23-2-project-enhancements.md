@@ -4,9 +4,9 @@ description: 23.2 Mejoras del proyecto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Además de una apariencia y presentación actualizadas de la interfaz, los sigui
 * Indicación de los formularios personalizados que ya están adjuntos a los proyectos seleccionados y el número de proyectos que ya tienen un determinado formulario adjunto.
 
 * Se ha eliminado la funcionalidad de comentarios de la casilla Editar proyectos.
+
+* Hemos eliminado la opción Recalcular informes de valoración al editar proyectos por lotes.
 
 Para obtener más información, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
