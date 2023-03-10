@@ -4,9 +4,9 @@ description: 23.2 Mejoras del administrador
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Esta página describe todas las mejoras de administrador realizadas con la versi
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Crear formularios personalizados con el nuevo diseñador de formularios
+## Crear formularios personalizados con el nuevo diseñador de formularios beta
 
-El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.
+Ahora disponible en una versión beta pública, el nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.
 
 Con el nuevo diseñador de formularios, hemos agregado la capacidad de
 

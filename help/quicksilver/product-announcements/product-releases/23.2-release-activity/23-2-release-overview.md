@@ -4,9 +4,9 @@ description: Información general de la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Crear formularios personalizados con el nuevo diseñador de formularios</a><span style="color: #ff0000;"> Novedades en la vista previa</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Crear formularios personalizados con el nuevo diseñador de formularios beta</a><span style="color: #ff0000;"> Novedades en la vista previa</span>
                         <p>El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.</p>
                         <p>Con el nuevo diseñador de formularios, hemos agregado la capacidad de 
                         <ul>
