@@ -6,9 +6,9 @@ description: API de suscripción de evento
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Al consultar el código HTTP de Workfront, utilice el método de GET. Existen do
 
 ### Consultar todas las suscripciones a eventos
 
-Puede consultar todas las suscripciones de eventos de un cliente según lo especificado por el valor apiKey. También puede utilizar las siguientes opciones para administrar la respuesta:
+Puede consultar todas las suscripciones de eventos de un cliente o utilizar lo siguiente para administrar la respuesta. También puede utilizar las siguientes opciones para administrar la respuesta:
 
 * **página**: opción de parámetro de consulta para especificar el número de páginas que se devolverán. El valor predeterminado es 1.
 * **límite**: opción de parámetro de consulta para especificar el número de resultados que se devuelven por página. El valor predeterminado es 100, con un máximo de 1000.
