@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Se abrirá la lista de metas.
 1. Busque la meta a la que desee agregar comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Clic  **Actualizaciones** en el panel izquierdo.
 1. Haga clic en **Comentarios** en la esquina superior izquierda del área de Actualizaciones.
-1. Comience a escribir un comentario en **Escribir un comentario** cuadro.
+1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Se abrirá la lista de metas.
    >
    >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
-1. (Opcional) En el **Notificar** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
+1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Clic **Enviar**.
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 5 al 7 anteriores. <!--insure this stays accurate-->
 1. (Opcional) Haga clic en **Like** icono![](assets/like-icon.png) para que le guste un comentario que otra persona haya agregado. El icono se actualiza con el número de me gusta.
