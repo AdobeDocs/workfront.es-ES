@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Experiencia de comentarios unificada
-description: La nueva experiencia de comentarios unificados
+description: La nueva experiencia unificada de comentarios
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 90b8d467365f18d9e762b5ac339401e7b925eb21
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,24 @@ ht-degree: 0%
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
-Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos.
+Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de los objetos seleccionados.
 
-Para obtener información sobre los objetos que incluyen la sección Actualizaciones, consulte [Información general de la pestaña Actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+<!--drafted for commenting experience on issues: 
 
-Aunque actualmente solo se implementa en los Objetivos de Workfront de Adobe, esta nueva experiencia finalmente unificará los comentarios en Adobe Workfront y más allá en Adobe Experience Cloud.
+>[!NOTE]
+>
+>The new commenting experience is not available for other areas of Workfront that displays updates. For example, the new experience is not availabe for the following areas:
+>
+>* Home
+>* Summary panel in a list
+>* Summary panel in a timesheet
+>
+>The new commenting experience is only available for the Updates section of select objects. 
+>
+>For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+-->
+
+Aunque actualmente solo se implementa en los objetivos de fuentes de trabajo de Adobe, esta nueva experiencia estará disponible lentamente para todos los objetos con una sección de actualizaciones en Workfront y, más adelante, se ampliará a otras aplicaciones de Adobe Experience Cloud.
 
 <!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
 
@@ -45,11 +58,11 @@ By enabling the Beta toggle, in the Preview environment:
 
 * Issues
 
-    For more informatiob about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 </div>
 
-This new experience will slowly become available for the objects with an Updates section in Workfront, and later it will unify the commenting experience across all the Adobe Experience Cloud applications.
+This new experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 -->
 
 ## Funciones
@@ -57,23 +70,23 @@ This new experience will slowly become available for the objects with an Updates
 La nueva experiencia de comentarios incluye mejoras y cambios en el flujo de actualización existente.
 
 >[!IMPORTANT]
->Actualmente, las funciones de experiencia de comentarios unificada que se enumeran a continuación solo están disponibles en los objetivos de Adobe Workfront.
+>Las funciones de Experiencia de comentarios unificada que se enumeran a continuación actualmente solo están disponibles en los objetivos de Adobe Workfront.
 
 * **Creación de comentarios**
 
-   Puede crear un nuevo comentario, aplicarle formato con texto enriquecido y etiquetar a otros para que se les notifique. Para obtener más información sobre la creación de comentarios, consulte [Administrar comentarios de metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+   Puede crear un comentario nuevo, darle formato con texto enriquecido y etiquetar a otros para que se les notifique. Para obtener más información sobre la creación de comentarios, consulte [Administrar comentarios de objetivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 * **Respuesta a los comentarios**
 
-   Puede reaccionar a un comentario con un me gusta o responder con un nuevo comentario en el hilo que puede notificar al comentarista original y al propietario del objeto.
+   Puede reaccionar a un comentario con un &quot;Me gusta&quot; o responder con un nuevo comentario en hilo que puede notificar al comentarista y propietario original del objeto.
 
 * **Actividad del sistema**
 
-   Las actualizaciones generadas por el sistema para un objeto ahora se muestran por separado de los comentarios realizados en la pestaña de actualización. Para obtener más información sobre la visualización del flujo de actividad del sistema, consulte el paso 11 de [Administrar comentarios de metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+   Las actualizaciones generadas por el sistema para un objeto ahora se enumeran por separado a partir de los comentarios realizados en la pestaña actualización. Para obtener más información sobre la visualización del flujo de actividad del sistema, consulte el paso 11 de [Administrar comentarios de objetivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
 
-One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system updates with the introduction of the System Activity tab. There are no changes to the system updates functionality.
+One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system activity updates with the introduction of the System Activity tab. There are no changes to the way system-generated activity updates function.
 
 Among the improvements included in the new commenting experience are the following:
 
@@ -102,8 +115,20 @@ The following table illustrates the features that will be available in the new c
    <td>Create/read/reply/delete comments 
    </td>
    <td>✓ 
- <p>
- 
+  </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Rich text (exludes quoting and emojis)
+   </td>
+   <td>✓ 
    </td>
    <td>✓ 
    </td>
@@ -115,20 +140,22 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text 
-   </td>
-   <td>✓ 
+ <tr>
+   <td>Rich text (quoting and emojis)
    </td>
    <td>✓ 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> ✓
+   </td>
+   <td> Q2, 2023
    </td>
    <td> 
    </td>
   </tr>
   <tr>
+
    <td>React to comments (Like) 
    </td>
    <td>✓ 
