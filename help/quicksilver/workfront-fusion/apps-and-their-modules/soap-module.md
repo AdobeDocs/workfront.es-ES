@@ -68,8 +68,7 @@ La variable [!UICONTROL SOAP] está actualmente en fase beta y no admite:
 >  
 >Los siguientes no serían reconocidos correctamente por [!UICONTROL Workfront Fusion]:
 >
->
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
 >   

@@ -133,8 +133,7 @@ Especifique parámetros y valores en el formato JSON.
 >
 >**Ejemplo:**
 >
->
-```
+>```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
 >
