@@ -82,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       >* Puede agregar un revisor a una prueba solo una vez, lo que significa que no puede agregar la misma persona a más de un paso de la prueba.
       >* Los revisores que no se agregan a un escenario privado no pueden ver ese escenario en la prueba o los comentarios realizados en ese escenario.
       >* De forma predeterminada, agregar un usuario a una etapa concede a ese usuario acceso para ver la prueba desde el momento en que se crea la prueba.\
-         El administrador de Workfront puede restringir el acceso de los usuarios a la prueba hasta que el flujo de trabajo entre en la fase en la que se agregó el usuario.
+      >  El administrador de Workfront puede restringir el acceso de los usuarios a la prueba hasta que el flujo de trabajo entre en la fase en la que se agregó el usuario.
 
 
    1. Haga clic en **Configuración de escenario**.
