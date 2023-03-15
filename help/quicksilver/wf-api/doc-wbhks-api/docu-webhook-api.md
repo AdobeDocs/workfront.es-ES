@@ -9,7 +9,7 @@ feature: Workfront API
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3646'
 ht-degree: 3%
 
 ---
@@ -396,7 +396,7 @@ GET /archivos
 |---|---|
 | parentId  | El ID de la carpeta. Para obtener los metadatos del directorio raíz, utilice el valor &#39;/&#39;. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Actualmente, la API de Document Webhooks no admite la paginación.
 
@@ -533,7 +533,7 @@ GET/miniatura
 | id  | El ID del documento. |
 | size  |  La anchura de la miniatura |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -728,7 +728,7 @@ POST /createFolder
 | parentId  | El ID de carpeta en el que se debe crear la carpeta |
 | name  | El nombre de la nueva carpeta |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -776,7 +776,7 @@ PUT /delete
 | documentId  | El ID del documento que se va a eliminar |
 | folderId  |  El ID de carpeta que se va a eliminar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Respuesta Una cadena JSON que indica que se ha realizado correctamente o que se ha producido un error, tal como se especifica en la sección Gestión de errores más abajo.
 
@@ -814,7 +814,7 @@ PUT /cambiar nombre
 | id | El ID de documento o carpeta al que cambiar el nombre |
 | name  | El nuevo nombre del documento o carpeta |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

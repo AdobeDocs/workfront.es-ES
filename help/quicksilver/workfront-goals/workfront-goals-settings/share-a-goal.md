@@ -250,7 +250,7 @@ En la tabla siguiente se enumeran los permisos que puede conceder al compartir u
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Eliminar objetivo</p> </td> 
+   <td> <p>Eliminar meta</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 

@@ -130,7 +130,7 @@ Método EAC = Calcular a nivel de proyecto
    <th> <br> <p><strong>Tarea</strong> </p> </th> 
    <th> <br> <p><strong>Hrs pln</strong> </p> </th> 
    <th> <br> <p><strong>Hs reales</strong> </p> </th> 
-   <th> <p><strong>% Finalizado</strong> </p> </th> 
+   <th> <p><strong>% Finalizadas</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -256,7 +256,7 @@ Método EAC = Calcular a nivel de proyecto
    <th> <br> <p><strong>Coste de libra</strong> </p> </th> 
    <th> <br> <p><strong>Hs reales</strong> </p> </th> 
    <th> <br> <p><strong>Coste de la biblioteca de leyes</strong> </p> </th> 
-   <th> <p><strong>% Finalizado</strong> </p> </th> 
+   <th> <p><strong>% Finalizadas</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -520,7 +520,7 @@ Método EAC = Calcular a nivel de proyecto
    <th> <br> <p><strong>Coste de libra</strong> </p> </th> 
    <th> <br> <p><strong>Hs reales</strong> </p> </th> 
    <th> <br> <p><strong>Coste de la biblioteca de leyes</strong> </p> </th> 
-   <th> <p><strong>% Finalizado</strong> </p> </th> 
+   <th> <p><strong>% Finalizadas</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

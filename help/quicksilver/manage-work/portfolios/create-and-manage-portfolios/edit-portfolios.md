@@ -139,7 +139,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descripción]</td> 
-      <td> <p>Escriba una descripción para que el Portfolio indique lo que es único al respecto. </p> </td> 
+      <td> <p>Escriba una descripción para que el Portfolio indique qué es lo único que tiene. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Administrador de Portfolio]</td> 

@@ -121,11 +121,11 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
   <tr> 
    <td>Actualizar el porcentaje completado de la tarea al 100%</td> 
    <td>Nuevo o en curso</td> 
-   <td>Finalizado</td> 
+   <td>Finalizadas</td> 
   </tr> 
   <tr> 
    <td>Actualizar el porcentaje completado de la tarea de 100 % a un número inferior</td> 
-   <td>Finalizado</td> 
+   <td>Finalizadas</td> 
    <td>En curso</td> 
   </tr> 
   <tr data-mc-conditions=""> 

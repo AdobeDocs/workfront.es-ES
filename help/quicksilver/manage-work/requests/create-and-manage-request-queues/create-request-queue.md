@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2545'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Para crear una cola de solicitud:
       | Personas en la compañía de este proyecto | Los usuarios que pertenezcan a la empresa asociada con este proyecto podrán ver y agregar solicitudes a esta cola. Si hay una empresa asociada al proyecto, el nombre de la empresa aparece entre paréntesis después de esta configuración. |
       | Personas en el grupo de este proyecto | Los usuarios que pertenezcan al grupo asociado con este proyecto podrán ver y agregar solicitudes a esta cola. Si hay un grupo asociado al proyecto, el nombre del grupo se muestra entre paréntesis después de esta configuración. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Comparta con estos vínculos:** Las siguientes opciones permiten proporcionar acceso directo a la cola de solicitud y a los formularios asociados a ella a usuarios fuera de Workfront o a usuarios de Workfront que utilicen una página externa. Para obtener información sobre la incrustación de una cola de solicitudes en un panel como página externa, consulte [Incrustar una cola de solicitudes en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -275,7 +275,7 @@ Para crear una cola de solicitud:
       | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia Plan que también tengan derechos de Vista para este proyecto pueden ver los campos seleccionados, así como los campos no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto pueden ver solo los campos seleccionados. |
       | Ningún usuario | Ningún usuario puede ver los campos no seleccionados. Todos los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Forms personalizado**: Seleccione un formulario personalizado para asociarlo a la cola de solicitud. Solo se puede seleccionar Forms personalizado de problemas en este menú desplegable. Todos los problemas enviados a la cola de solicitud tendrán los formularios seleccionados asociados a ellos.\
       Si tiene varios temas de cola asociados con una cola de solicitud, le recomendamos que asocie formularios personalizados con los temas de la cola. Para obtener más información sobre la creación de subsecciones para la cola de solicitud, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

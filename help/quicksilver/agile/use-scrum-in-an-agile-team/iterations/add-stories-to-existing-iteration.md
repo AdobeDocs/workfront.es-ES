@@ -6,7 +6,7 @@ description: Puede agregar artículos a una iteración de muchas maneras.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%

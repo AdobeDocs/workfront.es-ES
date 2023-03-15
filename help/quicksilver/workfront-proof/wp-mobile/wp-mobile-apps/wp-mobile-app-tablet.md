@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1989'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ El texto de prueba sobre la marcha está realmente en el [!DNL Workfront Proof] 
    | **[!UICONTROL Eliminar]** | Atrapa el texto y agrega [DELETE] al cuadro de comentarios. |
    | **[!UICONTROL Insertar después]** | Agrega [INSERTAR DESPUÉS] en el cuadro de comentarios. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Para pegar texto de otro documento que haya guardado en la tableta, toque y mantenga presionado el dedo en el cuadro de comentarios hasta que vea una opción para pegar el texto copiado del documento.
 

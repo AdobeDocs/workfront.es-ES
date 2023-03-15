@@ -166,8 +166,7 @@ Debe satisfacer un conjunto de requisitos para poder utilizar de forma eficaz la
 Para obtener información sobre los requisitos de cada herramienta de administración de recursos en Workfront, consulte lo siguiente:
 
 * La sección &quot;Requisitos previos para trabajar en el planificador de recursos&quot; del artículo [Información general del planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * La sección &quot;Prácticas recomendadas para utilizar el equilibrador de carga de trabajo&quot; del artículo [Información general del equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acceso necesario para administrar los recursos en el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

@@ -7,7 +7,7 @@ description: Después de solicitar una copia de seguridad de los datos de prueba
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3e485d6c-6c88-4857-8396-8cc90593bda7
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

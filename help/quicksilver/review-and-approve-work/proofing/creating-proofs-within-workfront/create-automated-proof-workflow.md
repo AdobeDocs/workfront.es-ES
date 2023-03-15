@@ -65,8 +65,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >Tenga en cuenta lo siguiente cuando utilice una plantilla Flujo de trabajo automatizado :
    >   
    >* La configuración de una plantilla Flujo de trabajo automatizado determina lo que puede hacer con el Flujo de trabajo automatizado para una prueba. Por ejemplo, si el botón Add a stage está desactivado en la plantilla, no está visible ya que se trabaja con la configuración de flujo de trabajo automatizado para la prueba.
-   >* Cuando se añade una persona a un mensaje en una plantilla Flujo de trabajo automatizado , pero también ya está presente como revisor en la prueba, al aplicar la plantilla, se elimina al revisor de la fase. Si no agrega otro revisor a la fase, un mensaje le pedirá que añada uno.
-   >* La capacidad de modificar una plantilla de flujo de trabajo automatizado depende de la configuración de la plantilla del administrador de Workfront, tal como se describe en . Si la capacidad de modificar la plantilla está deshabilitada, solo el propietario de la plantilla puede modificarla.
+   * Cuando se añade una persona a un mensaje en una plantilla Flujo de trabajo automatizado , pero también ya está presente como revisor en la prueba, al aplicar la plantilla, se elimina al revisor de la fase. Si no agrega otro revisor a la fase, un mensaje le pedirá que añada uno.
+   * La capacidad de modificar una plantilla de flujo de trabajo automatizado depende de la configuración de la plantilla del administrador de Workfront, tal como se describe en . Si la capacidad de modificar la plantilla está deshabilitada, solo el propietario de la plantilla puede modificarla.
 
 
 1. Configure la primera etapa del flujo de trabajo automatizado:
@@ -75,16 +75,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    1. En el **Destinatarios** para el escenario, agregue revisores al escenario.
 
       >[!NOTE]
-      > 
-      >Tenga en cuenta lo siguiente al agregar revisores a una etapa:
-      > 
-      >* Puede añadir usuarios externos a un escenario con una dirección de correo electrónico.
-      >* Después de agregar un usuario a una etapa, puede configurar las opciones de ese usuario en la prueba.
-      >* Puede arrastrar a los usuarios directamente a otro paso o a un escenario en el **Etapas** diagrama. Para seleccionar varios usuarios, pulse Mayús+Ctrl (en Windows) o Mayús+Comando (en Mac).
-      >* Puede agregar un revisor a una prueba solo una vez, lo que significa que no puede agregar la misma persona a más de un paso de la prueba.
-      >* Los revisores que no se agregan a un escenario privado no pueden ver ese escenario en la prueba o los comentarios realizados en ese escenario.
-      >* De forma predeterminada, agregar un usuario a una etapa concede a ese usuario acceso para ver la prueba desde el momento en que se crea la prueba.\
-      >  El administrador de Workfront puede restringir el acceso de los usuarios a la prueba hasta que el flujo de trabajo entre en la fase en la que se agregó el usuario.
+      Tenga en cuenta lo siguiente al agregar revisores a una etapa:
+      * Puede añadir usuarios externos a un escenario con una dirección de correo electrónico.
+      * Después de agregar un usuario a una etapa, puede configurar las opciones de ese usuario en la prueba.
+      * Puede arrastrar a los usuarios directamente a otro paso o a un escenario en el **Etapas** diagrama. Para seleccionar varios usuarios, pulse Mayús+Ctrl (en Windows) o Mayús+Comando (en Mac).
+      * Puede agregar un revisor a una prueba solo una vez, lo que significa que no puede agregar la misma persona a más de un paso de la prueba.
+      * Los revisores que no se agregan a un escenario privado no pueden ver ese escenario en la prueba o los comentarios realizados en ese escenario.
+      * De forma predeterminada, agregar un usuario a una etapa concede a ese usuario acceso para ver la prueba desde el momento en que se crea la prueba.\
+         El administrador de Workfront puede restringir el acceso de los usuarios a la prueba hasta que el flujo de trabajo entre en la fase en la que se agregó el usuario.
 
 
    1. Haga clic en **Configuración de escenario**.

@@ -6,7 +6,7 @@ description: 'Debe tener el siguiente acceso para realizar los pasos de este art
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%

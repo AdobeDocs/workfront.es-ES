@@ -80,7 +80,7 @@ De forma predeterminada, los estados se muestran en el siguiente orden:
      <p>Inactivo</p> 
      <p> En espera </p> 
      <p> Planificación </p> 
-     <p> Finalizado </p> 
+     <p> Finalizadas </p> 
      <p> Solicitado </p> 
      <p> Aprobado </p> 
      <p> Rechazado </p> 
@@ -89,7 +89,7 @@ De forma predeterminada, los estados se muestran en el siguiente orden:
    <td> 
      <p>Nuevo</p> 
      <p>En curso</p> 
-     <p>Finalizado</p> 
+     <p>Finalizadas</p> 
    </td> 
    <td> 
      <p>Nuevo</p> 

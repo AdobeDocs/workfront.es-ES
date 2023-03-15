@@ -6,8 +6,8 @@ feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Antes de comenzar, debe inscribirse en la versión beta del lienzo de informes. 
       |---|---|
       | Mostrar fuente de datos | Active esta opción para mostrar la tabla de origen de la visualización en el lienzo del informe o desactive la opción para ocultarla. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
 <!--   
       NOLAN-FLAG: convert table to html. 

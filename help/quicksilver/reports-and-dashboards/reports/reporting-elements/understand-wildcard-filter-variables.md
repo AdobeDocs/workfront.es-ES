@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Para indicar varios períodos de tiempo y distintos puntos en el tiempo (futuro 
 | **m** | mes |
 | **y** | año |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Cualificadores** |  |
 |---|---|
 | **b** | inicio de la semana (domingo) |
 | **e** | final de semana (sábado) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Operadores** |  |
 |---|---|
 | **+** | añadir valor al valor comodín |
 | **-** | restar valor del valor comodín |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Por ejemplo, el comodín `$$TODAYb+2w` hace referencia a &quot;2 semanas desde el comienzo de esta semana&quot;. El comodín *`$$NOW+2h` hace referencia a &quot;2 horas a partir de ahora&quot;.
 

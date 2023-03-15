@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ De forma predeterminada, el panel abrirá la vista Pruebas totales . Esta vista 
 | **Vista reciente** | Incluye las pruebas a las que usted y su propietario han accedido recientemente, tienen permisos para ver según sus permisos de perfil y que se compartieron con usted. Esta vista muestra únicamente las pruebas que usted mismo ha abierto (ya sea a través del [!DNL Workfront Proof] Visualizador o a través de la página de detalles de la prueba). |
 | **Vínculo de correo electrónico** | Para abrir una prueba desde el correo electrónico, simplemente abra el correo electrónico en la aplicación de correo electrónico y haga clic en el botón [!UICONTROL Vaya a la prueba] en el vínculo del correo electrónico (1) y se le redirigirá a la prueba en la [!DNL Workfront Proof] aplicación. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Revisar una prueba estática en la aplicación
 

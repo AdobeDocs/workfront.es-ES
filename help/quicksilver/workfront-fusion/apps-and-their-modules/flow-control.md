@@ -10,8 +10,8 @@ feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '589'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +83,7 @@ Para usar un [!UICONTROL Repetidor] módulo:
 | [!UICONTROL Se repite] | Introduzca o asigne el número de veces que desea que se repita el módulo. Este número debe ser bueno o igual a 0 y menor o igual que 10 000. |
 | [!UICONTROL Etapa] | Este es el número por el cual el módulo aumenta el valor de `i`. El valor predeterminado es 1. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

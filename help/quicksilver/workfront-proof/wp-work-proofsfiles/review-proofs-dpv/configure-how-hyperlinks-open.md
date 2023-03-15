@@ -7,7 +7,7 @@ description: Algunos vínculos del contenido web interactivo están configurados
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1133c5a6-896f-40f3-92c9-0d350fd24b09
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

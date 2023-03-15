@@ -6,7 +6,7 @@ description: Las iniciativas de priorización son importantes porque las iniciat
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%

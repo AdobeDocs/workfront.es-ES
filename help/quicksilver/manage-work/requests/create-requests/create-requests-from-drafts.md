@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Debe hacer lo siguiente antes de crear una solicitud a partir de un borrador: 
    | Fecha de entrada | La fecha en la que se inició la creación de la solicitud. |
    | Fecha de última actualización | La última actualización. Si no lo ha actualizado desde que inició la solicitud, la fecha de entrada y la fecha de última actualización deberían ser las mismas. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Haga clic en **Filtrar por tipo de solicitud** en la esquina superior derecha de la lista de borradores, seleccione la cola de solicitudes que contiene los borradores que desea mostrar.
 1. Haga clic en el nombre de un borrador para abrirlo.

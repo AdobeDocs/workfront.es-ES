@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Al actualizar la duración de las tareas en una lista, puede utilizar las siguie
 | Semanas transcurridas | EW |
 | Meses transcurridos | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Ejemplo:** Si desea indicar que la duración de una tarea es de 3 días transcurridos, escriba &quot;3 ED&quot; en el campo Duración de una lista de tareas .  También puede seleccionar la opción preferida para la unidad de tiempo de duración en el menú desplegable disponible al editar una tarea o en la sección Detalles de la tarea . Para obtener información sobre la edición de tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 

@@ -6,7 +6,7 @@ feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Antes de comenzar, debe inscribirse en la versión beta del lienzo de informes. 
    | Mover una columna | Para reorganizar el orden de las columnas de una tabla, haga clic en el nombre de una columna y arrástrela a una nueva ubicación. |
    | Eliminar una columna | Para eliminar una columna de una tabla, haga clic en la columna que desee eliminar y luego haga clic en la x a la derecha del nombre de la columna. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Para configurar una columna, haga clic en el nombre de la columna que desee modificar en la fila de encabezado de la tabla y, a continuación, en una de las fichas siguientes del panel derecho:
 

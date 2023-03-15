@@ -6,7 +6,7 @@ description: Aunque no hay límite para cuántos usuarios puede tener en un grup
 author: Alina
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%

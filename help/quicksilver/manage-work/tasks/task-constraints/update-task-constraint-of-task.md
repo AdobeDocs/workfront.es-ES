@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 9%
+source-wordcount: '355'
+ht-degree: 8%
 
 ---
 
@@ -69,7 +69,7 @@ Debe tener lo siguiente para cambiar la restricción de tareas de una tarea:
    | No terminar después de | Para obtener más información, consulte [Información general sobre la restricción de tareas: Finalizar a más tardar](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
    | Finalizar no antes del | Para obtener más información, consulte [Información general sobre la restricción de tareas: Finalizar no antes del](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en **Guardar** **Cambios**.
 

@@ -7,7 +7,7 @@ description: Esta vista muestra la vista, el filtro y la agrupación utilizados 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%

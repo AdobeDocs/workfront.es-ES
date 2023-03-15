@@ -1,9 +1,9 @@
 ---
-title: Diseñar un formulario a partir de una copia con el diseñador de formularios
+title: Diseño de un formulario a partir de una copia con el diseñador de formularios
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Puede diseñar un formulario personalizado a partir de una copia con el diseñador de formularios.
+description: Puede diseñar un formulario personalizado desde una copia con el diseñador de formularios.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -15,11 +15,11 @@ ht-degree: 0%
 ---
 
 
-# Diseñar un formulario a partir de una copia con el diseñador de formularios
+# Diseño de un formulario a partir de una copia con el diseñador de formularios
 
 {{highlighted-preview-article-level}}
 
-Puede diseñar un nuevo formulario personalizado basado en uno existente. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
+Puede diseñar un nuevo formulario personalizado basado en uno existente. Puede adjuntar formularios personalizados a distintos objetos de Workfront para capturar datos sobre dichos objetos.
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>
    <p>Plan actual: Estándar</p>
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan heredado: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -47,15 +47,15 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Copiar un formulario personalizado para crear uno nuevo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado.**
-1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y, a continuación, haga clic en **Copiar**.
-1. En el **Copia de formulario personalizado** que aparece, escriba la siguiente información:
+1. Haga clic en **Forms personalizado.**
+1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y haga clic en **Copiar**.
+1. En el **Copia de formulario personalizada** que aparece, escriba la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -66,8 +66,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td>Escriba un nombre para el formulario copiado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Tipos de formularios </p> </td> 
-      <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X situada junto a los tipos que desee quitar. Los tipos que ya están asociados con el formulario se deshabilitan en la lista.</p> 
+      <td role="rowheader"> <p role="rowheader">Tipos de formulario </p> </td> 
+      <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X junto a cualquier tipo que desee quitar. Los tipos que ya están asociados al formulario se desactivan en la lista.</p> 
       <p><img src="assets/copy-form-obj-types.png"></p> 
       <p>El formulario debe estar asociado al menos a un tipo de objeto.</p> 
       </td> 
@@ -75,21 +75,21 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. Clic **Copiar formulario**.
+1. Haga clic en **Copiar formulario**.
 
-   En el formulario original, si los campos calculados hacen referencia a campos incompatibles con un tipo de objeto que agregue al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
+   En el formulario original, si los campos calculados hacen referencia a campos que son incompatibles con un tipo de objeto que se agrega al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
 
-   Del mismo modo, si una opción de acceso para un salto de sección en el formulario original no es compatible con un tipo de objeto que agregue al nuevo, aparecerá un mensaje en el que se le pedirá que ajuste la opción.
+   Del mismo modo, si una opción de acceso para un salto de sección en el formulario original no es compatible con un tipo de objeto que agregue al nuevo, un mensaje le pedirá que ajuste la opción.
 
 1. Seleccione el formulario que acaba de copiar y haga clic en **Editar**.
-1. Realice cambios en el formulario, tal como se explica en las siguientes secciones de la [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artículo:
+1. Realice cualquier cambio en el formulario, tal como se explica en las siguientes secciones de la sección [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artículo:
 
-* [Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-   * [Añadir campos de texto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+* [Reutilizar un campo o widget existente que ya se haya utilizado en otro formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Adición de campos de texto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
    * [Añadir campos calculados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-   * [Agregar botones de opción, grupos de casillas de verificación y menús desplegables](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Adición de campos de fecha y tipo anticipado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-   * [Agregar imágenes, PDF y vídeos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-   * [Añadir archivos de Adobe XD](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+   * [Agregar botones de opción, grupo de casillas de verificación y desplegables](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Adición de campos de fecha y de avance](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Añadir imágenes, PDF y vídeos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [Añadir archivos Adobe XD](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
 
-1. (Opcional) Después de hacer clic en **Guardar + Cerrar**, adjunte el formulario al objeto donde desee utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Opcional) Después de hacer clic en **Guardar y cerrar**, adjunte el formulario al objeto en el que desea utilizarlo, tal como se describe en [Adición de un formulario personalizado a un objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

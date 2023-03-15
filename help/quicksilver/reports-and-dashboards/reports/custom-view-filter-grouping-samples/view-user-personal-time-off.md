@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    | Fecha de inicio | La fecha de inicio del período de tiempo indicado por el usuario. |
    | Fecha de finalización | Fecha final del período de tiempo que indicó el usuario. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Termine de crear el informe editando cualquiera de las fichas siguientes:
 

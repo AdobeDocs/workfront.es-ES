@@ -11,8 +11,8 @@ exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
 hidefromtoc: true
 source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ En la tabla siguiente se enumeran los procedimientos que se deben gestionar de f
 | Desactivar un usuario | La sección [Eliminar un usuario](../../workfront-fusion/organizations/manage-fusion-users.md#delete) en [Administrar [!DNL Adobe Workfront Fusion] usuarios de su organización](../../workfront-fusion/organizations/manage-fusion-users.md) | La sección &quot;Eliminar usuarios&quot; de [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 | Cambiar detalles del usuario | [Cambiar la configuración de perfil en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | La sección &quot;Editar detalles del usuario&quot; del artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!--
 ## SSO (Single Sign-On)

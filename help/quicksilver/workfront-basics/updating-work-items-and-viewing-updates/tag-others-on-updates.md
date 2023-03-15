@@ -6,7 +6,7 @@ description: Al proporcionar comentarios de actualización en un objeto de Adobe
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eba586f4d3ce6db667839b0620dfeb65f6e28be
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%

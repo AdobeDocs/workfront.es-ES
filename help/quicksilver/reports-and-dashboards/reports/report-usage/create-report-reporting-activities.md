@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    | **Ingresado por** | Este es el propietario del informe. |
    | **Fecha de última visualización** | Esta es la fecha y la hora en que un usuario vio por última vez el informe. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Para limitar la lista de informes a usuarios desactivados específicos:
 

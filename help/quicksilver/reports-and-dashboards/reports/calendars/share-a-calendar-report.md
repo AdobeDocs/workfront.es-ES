@@ -2,7 +2,7 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Compartir un informe de calendario
-description: Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, lo que permite que alguien sin [!DNL Adobe Workfront] licencia para verla.
+description: Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, lo que permite que alguien sin [!DNL Adobe Workfront] licencia para verlo.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Compartir un informe de calendario
 
-Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, lo que permite que alguien sin [!DNL Adobe Workfront] licencia para verla.
+Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, lo que permite que alguien sin [!DNL Adobe Workfront] licencia para verlo.
 
 ## Requisitos de acceso
 

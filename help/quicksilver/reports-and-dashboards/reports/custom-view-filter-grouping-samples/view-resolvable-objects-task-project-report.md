@@ -7,7 +7,7 @@ description: Puede mostrar una lista de todos los objetos resueltos en un inform
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%

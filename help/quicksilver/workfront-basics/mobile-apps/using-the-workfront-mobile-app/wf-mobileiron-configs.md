@@ -6,7 +6,7 @@ description: En la aplicación Adobe Workfront for MobileIron, se admiten las co
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%

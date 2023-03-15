@@ -5,7 +5,7 @@ description: Puede localizar fácilmente los elementos en [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 1%

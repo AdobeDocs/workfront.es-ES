@@ -7,7 +7,7 @@ description: Agile es una metodología de trabajo que permite a los equipos comp
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%

@@ -6,7 +6,7 @@ description: Puede organizar el tipo de problemas o solicitudes que se registran
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%

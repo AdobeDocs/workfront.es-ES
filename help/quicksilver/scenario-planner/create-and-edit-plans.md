@@ -82,7 +82,7 @@ Para crear o editar un plan:
 
    | Filtro | Descripción |
    |---|---|
-   | [!UICONTROL Todos] | Muestra todos los planes que ha creado o que se han compartido con usted. |
+   | [!UICONTROL Todas] | Muestra todos los planes que ha creado o que se han compartido con usted. |
    | [!UICONTROL Mis planes] | Muestra los planes que ha creado. |
    | [!UICONTROL Compartido conmigo] | Muestra los planes compartidos con usted. |
 

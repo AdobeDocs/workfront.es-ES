@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2825'
 ht-degree: 2%
 
 ---
@@ -420,7 +420,7 @@ Para editar tareas en una lista al utilizar la opción Guardar manualmente plani
    | Horas | Haga clic en para registrar las horas. |
    | Rutas de aprobación | Haga clic en para añadir aprobaciones de tareas. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en el botón Atrás del explorador para volver a la lista de tareas cuando termine de actualizar la tarea.
 

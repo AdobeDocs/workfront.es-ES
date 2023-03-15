@@ -10,8 +10,8 @@ feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 3%
+source-wordcount: '612'
+ht-degree: 2%
 
 ---
 
@@ -89,7 +89,7 @@ La siguiente tabla ilustra si los cambios realizados en las actualizaciones del 
 | Tipo de duración | No actualiza los elementos secundarios |
 | Información de formulario personalizado | No actualiza los elementos secundarios |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Los siguientes escenarios existen cuando actualiza la Frecuencia de periodicidad de una tarea principal:
 

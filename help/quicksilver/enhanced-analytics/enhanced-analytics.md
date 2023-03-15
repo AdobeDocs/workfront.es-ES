@@ -30,9 +30,9 @@ Esta sección contiene los siguientes artículos:
 * [Visualización de la capacidad de los recursos en Análisis mejorado](../enhanced-analytics/resource-capacity-overview.md)
 * [Ver la visualización de capacidad del equipo en Análisis mejorado](../enhanced-analytics/team-capacity-overview.md)
 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
+   <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-<!--
+   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 

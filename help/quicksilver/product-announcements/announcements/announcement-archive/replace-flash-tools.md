@@ -105,7 +105,7 @@ Se han eliminado las siguientes funciones e informes de informes:
 * Las subfichas Gantt heredadas en Portfolio y programas
 * La subficha Gantt heredado de una lista de tareas de plantilla de una plantilla, la vista Gantt heredado de la ficha Subtareas de una tarea de plantilla y de un informe Tarea de plantilla
 
-### Prueba
+### Revisión
 
 El visor de pruebas heredadas se ha sustituido por el nuevo visor de pruebas web y visor de pruebas de escritorio para la mayoría de los clientes, y se ha eliminado para todos los clientes en noviembre de 2020.
 

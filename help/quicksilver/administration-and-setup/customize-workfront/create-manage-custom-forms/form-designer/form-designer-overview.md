@@ -3,7 +3,7 @@ title: Información general del diseñador de formularios
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Puede diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
+description: Puede diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajen en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 {{highlighted-preview-article-level}}
 
-Puede utilizar el nuevo diseñador de formularios para diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
+Puede utilizar el nuevo diseñador de formularios para diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajen en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 
-El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones mientras diseña el formulario.
+El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de campo al mismo tiempo. También le permite arrastrar y soltar campos dentro de las secciones mientras diseña el formulario.
 
 <!-- add screenshot when field settings empty state is ready -->
 
 ## Cómo acceder al nuevo diseñador de formularios
 
-Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y del creador de formularios heredados. Puede utilizar este botón para cambiar entre el generador heredado y el nuevo diseñador.
+Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y del generador de formularios heredado. Puede utilizar este botón para cambiar entre el generador heredado y el nuevo diseñador.
 
 ![](assets/switch-views.png)
 
@@ -34,31 +34,31 @@ Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y d
 
 Con el nuevo diseñador de formularios, hemos agregado la capacidad de
 
-* **Copiar un campo**: Ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.
+* **Copiar un campo**: Ahora puede copiar campos existentes haciendo clic en el icono Copiar de los campos directamente desde el lienzo.
 
-* **Cambio del tamaño del texto descriptivo**: Ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos.
+* **Cambiar el tamaño del texto descriptivo**: Ahora puede asignar tamaños pequeños, medios o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos.
 
-* **Utilizar una sección predeterminada**: Si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se puede ver una sección Predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada.
+* **Usar una sección predeterminada**: Si el creador del formulario no ha agregado ninguna sección en la parte superior del formulario, ahora se puede ver una sección predeterminada en el lienzo, de modo que los usuarios puedan ajustar los permisos de los campos que no tengan una sección personalizada asignada.
 
    >[!NOTE]
    >
-   >La sección predeterminada no es visible dentro de los objetos una vez que el formulario está adjunto al objeto.
+   >La sección predeterminada no está visible en los objetos una vez que el formulario está adjunto al objeto.
 
 ## Funcionalidad próximamente
 
 Los siguientes elementos no están disponibles actualmente en el diseñador de formularios, pero se agregarán próximamente:
 
-* Ajuste del tamaño del texto descriptivo
+* Ajustar el tamaño del texto descriptivo
 
-* Lógica de visualización/omisión
+* Mostrar/Omitir lógica
 
-* Filtrar por campos de escritura anticipada
+* Filtro para campos tipográficos
 
 >[!IMPORTANT]
 >
->Las configuraciones existentes para la lógica y los filtros de escritura anticipada no se verán afectadas al trabajar con el nuevo diseñador de formularios.
+>Las configuraciones existentes para los filtros lógicos y typeforward no se verán afectadas cuando trabaje con el nuevo diseñador de formularios.
 
-## Funcionalidad quitada del diseñador de formularios
+## Funcionalidad eliminada del diseñador de formularios
 
 Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
 
@@ -67,12 +67,12 @@ Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
 
    * La configuración de formulario ya está disponible en la parte superior del lienzo
 
-   * Pestaña principal Compartir formularios y subpestaña Compartir campos
+   * Ficha principal de Uso compartido de formularios y subficha Uso compartido de campos
    >[!NOTE]
    >
-   >Puede controlar el uso compartido de formularios y campos desde la pestaña Configuración > Forms personalizado > Forms o Campos.
+   >Puede controlar el uso compartido de formularios y campos desde la ficha Configuración > Forms personalizado > Forms o Campos .
 
 * Seguir cambios de los campos en las fuentes de actualización
    >[!NOTE]
    >
-   >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes
+   >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes .

@@ -10,10 +10,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 6%
+source-wordcount: '1499'
+ht-degree: 5%
 
 ---
 
@@ -94,7 +94,7 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Planificador de escenarios |   |   | ✓ (el valor predeterminado es Sin acceso). |
 | Workfront Goals |   |   | ✓ (el valor predeterminado es Sin acceso). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nivel de acceso del trabajador
 
@@ -130,7 +130,7 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Planificador de escenarios |   |   | ✓ (el valor predeterminado es Sin acceso). |
 | Workfront Goals |   |   | ✓ (el valor predeterminado es Sin acceso). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nivel de acceso del revisor
 
@@ -284,7 +284,7 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Planificador de escenarios | ✓ |   |   |
 | Workfront Goals |   |   | ✓ (el valor predeterminado es Sin acceso). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nivel de acceso de usuario externo
 

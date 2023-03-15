@@ -6,7 +6,7 @@ description: Los filtros y las indicaciones son similares en el sentido de que a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 0%

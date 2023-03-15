@@ -5,7 +5,7 @@ description: Después de completar y enviar el caso de negocio para una solicitu
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%

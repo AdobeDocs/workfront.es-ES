@@ -95,7 +95,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Para filtrar tareas en estado In Progress, utilice la siguiente línea:</p> <p><code>status=INP</code> </p> <p>Sugerencia: Al filtrar por estados, debe utilizar el código de tres letras del estado y no el nombre.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Modificador de nombre de campo y al que es igual el modificador. Esto indica qué condiciones debe cumplir el campo por el que está filtrando.</p> <p>Esta línea es obligatoria.</p> </td> 
+      <td> <p>Modificador de nombre de campo y al que es igual el modificador. Esto indica las condiciones que debe cumplir el campo por el que está filtrando.</p> <p>Esta línea es obligatoria.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que el estado de las tareas para las que filtre debe ser igual a En curso, utilice la línea siguiente además de la anterior:</p> <p><code>status_Mod=in</code> </p> <p>Si el modificador es un rango, hay dos líneas que indican el modificador.</p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Ejemplo: </b></span></span> 
         <p>Este es un filtro de modo de texto que busca tareas que estén en curso, que tengan una fecha de finalización planeada dentro del mes actual y que estén asignadas a un usuario con un GUID específico:</p> 

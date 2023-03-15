@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +53,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
@@ -61,7 +61,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### BudgetedHour
 
@@ -75,7 +75,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Sección del portal del calendario
 
@@ -90,7 +90,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### SecciónCalendario
 
@@ -107,7 +107,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Sección externa
 
@@ -135,7 +135,7 @@ Esta es una lista de recursos nuevos para la versión 9 de la API; para ver una 
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

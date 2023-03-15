@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
-description: Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
+title: Editar propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
+description: Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Entre ellos se incluyen la etiqueta, el nombre, las instrucciones, etc. del elemento.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
+# Editar propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
 
-Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
+Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Entre ellos se incluyen la etiqueta, el nombre, las instrucciones, etc. del elemento.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos personalizados y las utilidades de los formularios personalizados, consulte [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -44,19 +44,19 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
-## Editar un campo, un salto de sección o un widget personalizado utilizado en un formulario personalizado
+## Editar un campo personalizado, un salto de sección o una utilidad utilizados en un formulario personalizado
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado.**
-1. Haga clic en **Campos** pestaña.
-1. Seleccione el campo personalizado, el salto de sección o el widget y haga clic en **Editar**.
-1. En el cuadro que aparece, cambie cualquiera de las opciones disponibles para el elemento que está editando.
+1. Haga clic en **Forms personalizado.**
+1. Haga clic en el **Campos** pestaña .
+1. Seleccione el campo personalizado, el salto de sección o la utilidad y haga clic en **Editar**.
+1. En el cuadro que aparece, cambie cualquiera de las opciones disponibles para el elemento que esté editando.
 
    Ver más información sobre estas opciones
-   * Si utiliza el creador de formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-   * Si está utilizando el diseñador de formularios, consulte [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Si utiliza el creador de formularios personalizado, consulte [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Si usa el diseñador de formularios, consulte [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cuando haya terminado, haga clic en **Guardar + Cerrar**.

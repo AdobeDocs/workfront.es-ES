@@ -7,7 +7,7 @@ description: Adobe Workfront le permite enviar rápida y fácilmente mensajes qu
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

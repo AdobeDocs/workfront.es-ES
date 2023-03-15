@@ -80,7 +80,7 @@ Para acceder a un problema y ver información sobre él:
 
    * Abrir
    * Finalizado
-   * Todos
+   * Todas
 
 1. Haga clic en el nombre de un problema.
 

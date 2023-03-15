@@ -7,7 +7,7 @@ description: La versión 21.2 está disponible en el entorno Producción durante
 author: Luke
 feature: Product Announcements
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '5474'
 ht-degree: 0%

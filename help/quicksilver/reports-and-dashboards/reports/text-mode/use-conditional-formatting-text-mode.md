@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 2%
+source-wordcount: '1743'
+ht-degree: 1%
 
 ---
 
@@ -322,7 +322,7 @@ Utilice las tablas siguientes para identificar qué líneas deben modificarse y 
 | Rojo | `d30519` |
 | Amarillo | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Alineación** | **Línea: align=** |
 |---|---|
@@ -330,14 +330,14 @@ Utilice las tablas siguientes para identificar qué líneas deben modificarse y 
 | Alineación derecha | `right` |
 | Alineación central | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | Fuente | Línea: ***fontstyle=*** |
 |---|---|
 | Negrita | `bold` |
 | Cursiva | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Color de fondo** | **Línea: bgcolor=** |
 |---|---|
@@ -350,7 +350,7 @@ Utilice las tablas siguientes para identificar qué líneas deben modificarse y 
 | Amarillo | `feecc8` |
 | Blanco | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### Varios formatos condicionales {#multiple-conditional-formats}
 
@@ -553,7 +553,7 @@ Para utilizar las imágenes disponibles, aplique el código y los valores siguie
 | Círculo blanco ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Círculo amarillo ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Formatear condicionalmente un `valueexpression` {#conditionally-format-a-valueexpression}
 

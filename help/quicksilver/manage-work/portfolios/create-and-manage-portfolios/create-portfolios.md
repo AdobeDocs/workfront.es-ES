@@ -73,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descripción]</td> 
-      <td> <p>Escriba una descripción para que el Portfolio indique lo que es único al respecto. </p> </td> 
+      <td> <p>Escriba una descripción para que el Portfolio indique qué es lo único que tiene. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Administrador de Portfolio]</td> 

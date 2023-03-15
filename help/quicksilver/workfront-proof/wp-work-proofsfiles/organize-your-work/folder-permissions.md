@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 17%
+source-wordcount: '557'
+ht-degree: 16%
 
 ---
 
@@ -38,7 +38,7 @@ El perfil de permiso también afecta a los derechos que tiene sobre las carpetas
 | **Gerente** | No | Sí | Sí | No | Sí | No | Sí |
 | **Observador** | No | Sí | No | No | No | No | No |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Si la carpeta pública es propiedad de un administrador, este puede eliminar la carpeta raíz y las subcarpetas.
 
@@ -57,7 +57,7 @@ Si una carpeta es privada, otros usuarios de la misma cuenta no podrán ver el n
 | **Gerente** | No | Sí | No | No | No | No | No |
 | **Observador** | No | Sí | No | No | No | No | No |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Si, por ejemplo, desea que el Administrador de proyectos y sus equipos solo vean carpetas específicas, el Administrador de proyectos puede configurar una carpeta privada y luego compartir la carpeta con usuarios específicos.
 

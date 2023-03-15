@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ Antes de comenzar, debe inscribirse en la versión beta del lienzo de informes. 
    | Dirección URL no válida | La dirección URL introducida no devuelve un sitio válido. |
    | Restricciones del sitio del proveedor | No se permite el sitio que está intentando incrustar. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Haga clic en el **Pasar parámetros** para abrir una lista de parámetros de paso disponibles.
 

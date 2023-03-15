@@ -6,9 +6,9 @@ description: El tipo de duración de una tarea identifica la relación entre el 
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Para actualizar el tipo de duración de una tarea:
    | Asignación calculada | Para obtener más información, consulte [Información general del tipo de duración: Asignación calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Sencilla | Para obtener más información, consulte [Información general del tipo de duración: Sencilla](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en **Guardar** **Cambios**.
 

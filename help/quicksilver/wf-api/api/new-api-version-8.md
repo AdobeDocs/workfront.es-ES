@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 32%
+source-wordcount: '261'
+ht-degree: 26%
 
 ---
 
@@ -44,7 +44,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
@@ -55,7 +55,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | versionName |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **KanbanBoard**
 
@@ -69,7 +69,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 |   |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApprovalStatus
 
@@ -79,7 +79,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ProofFileMetadata**
 
@@ -91,7 +91,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | Identificador |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ResourceBudgetedHour**
 
@@ -105,7 +105,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | userID |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
@@ -119,7 +119,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 |   |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **RichTextNote**
 
@@ -130,7 +130,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 |   |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Suscribirse
 
@@ -143,7 +143,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 |   |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserRole
 

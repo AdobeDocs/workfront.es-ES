@@ -99,7 +99,7 @@ Al utilizar el Planificador de recursos para un proyecto, los números de asigna
 
    >[!TIP]
    >
-   >Solo puede agregar un grupo de recursos en el área de Presupuestación de recursos del caso empresarial cuando el proyecto no tiene ningún grupo de recursos asociado. Cuando el proyecto ya tiene un grupo de recursos, los usuarios del grupo y sus funciones de trabajo se muestran en el área de presupuestación de recursos de forma predeterminada.
+   >Solo puede agregar un grupo de recursos en el área de Presupuestación de recursos del caso empresarial cuando el proyecto no tiene ningún grupo de recursos asociado a él. Cuando el proyecto ya tiene un grupo de recursos, los usuarios del grupo y sus funciones de trabajo se muestran en el área de presupuestación de recursos de forma predeterminada.
 
    ![](assets/resource-budgeting-area-on-project-350x70.png)
 

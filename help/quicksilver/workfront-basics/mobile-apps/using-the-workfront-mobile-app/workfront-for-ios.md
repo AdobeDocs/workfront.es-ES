@@ -7,7 +7,7 @@ description: La variable [!DNL Adobe Workfront] permite acceder a su trabajo en 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 3%

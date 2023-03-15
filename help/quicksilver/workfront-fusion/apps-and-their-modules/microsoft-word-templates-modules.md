@@ -92,14 +92,14 @@ A [!DNL Microsoft Word] plantilla es normal [!DNL Microsoft Word] documento (arc
 Una etiqueta de valor simple se reemplaza simplemente por un valor correspondiente. El nombre de la etiqueta corresponde a la variable [!UICONTROL Clave] valor del campo, que se coloca dentro de llaves dobles; por ejemplo,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Ejemplo:** Para crear un documento que diga &quot;¡Hola, Petr!&quot;, puede usar un [!DNL Microsoft Word Template] para crear la siguiente plantilla:
 
-<pre>> ¡Hola &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; ¡Hola {{name}}!</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 
@@ -110,7 +110,7 @@ Para ello, debe configurar el módulo de la siguiente manera:
 Puede utilizar una etiqueta de condición para ajustar el texto que solo debe procesarse cuando se cumplen determinadas condiciones. Para ajustar el texto, colóquelo entre las etiquetas de condición de apertura y cierre, como &quot;hasPhone&quot;, si la condición es si los datos incluyen o no un número de teléfono. El nombre de una etiqueta de apertura va precedido de un signo de almohadilla #, el nombre de una etiqueta de cierre va precedido de una barra diagonal /, como se muestra en el ejemplo siguiente.
 
 **Ejemplo:** Para producir un documento que incluya el número de teléfono de un cliente si los datos de entrada incluyen un número de teléfono, pero no una dirección de correo electrónico, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
-<pre>> &#123;&#123;#hasPhone&#125;&#125;Teléfono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;Correo electrónico: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Para ello, debe configurar el módulo de la siguiente manera:
+<pre>&gt; {{#hasPhone}}Teléfono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Correo electrónico: {{email}} {{/hasEmail}}</pre>Para ello, debe configurar el módulo de la siguiente manera:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -123,13 +123,13 @@ Puede utilizar una etiqueta de bucle, también conocida como etiqueta de secció
 
 * [Etiqueta Bucle con Relleno de un módulo de documento](#loop-tag-with-fill-out-a-document-module)
 
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+   <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Etiqueta Bucle con Relleno de un módulo de documento {#loop-tag-with-fill-out-a-document-module}
 
 **Ejemplo:** Para producir un documento que enumere el nombre y el número de teléfono de cada contacto en una lista de clientes, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>>     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt; {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 

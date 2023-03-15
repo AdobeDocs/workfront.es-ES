@@ -7,7 +7,7 @@ description: Esta vista de tareas es similar a la vista "Todas las fechas" que s
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%

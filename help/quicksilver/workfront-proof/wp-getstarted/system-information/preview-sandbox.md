@@ -8,7 +8,7 @@ description: El espacio aislado de vista previa es un entorno de prueba que sirv
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%

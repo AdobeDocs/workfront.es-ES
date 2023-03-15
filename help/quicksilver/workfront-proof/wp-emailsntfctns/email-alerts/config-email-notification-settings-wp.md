@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Para obtener información sobre la configuración de prueba, la variable [!DNL W
    |---|---|
    | **[!UICONTROL Plantilla de mensaje de prueba]** | Se muestra en la página New proof , en la página New version , en la página Message y en la página Remind . Se puede editar antes de enviarlo. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Cambiar alertas de correo electrónico para un destinatario
 

@@ -6,7 +6,7 @@ description: El diagrama de Gantt de la lista de tareas muestra detalles sobre l
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 1%

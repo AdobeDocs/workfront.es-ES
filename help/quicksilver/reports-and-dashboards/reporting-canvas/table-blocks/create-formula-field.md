@@ -7,7 +7,7 @@ feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -67,6 +67,6 @@ Antes de comenzar, debe inscribirse en la versión beta del lienzo de informes. 
    | DATEDIFF | Calcula el número total de días entre dos fechas, redondeado a un decimal. | Número |
    | WEEKDAYDIFF | Calcula el número de días laborables entre dos fechas, redondeado a un decimal. | Número |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en el **Volver** en la esquina superior izquierda de la pantalla para volver a la tabla.

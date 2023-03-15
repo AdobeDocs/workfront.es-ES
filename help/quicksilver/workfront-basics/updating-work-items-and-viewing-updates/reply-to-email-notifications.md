@@ -6,7 +6,7 @@ description: Realice comentarios sobre los objetos sin iniciar sesión en Adobe 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 7%

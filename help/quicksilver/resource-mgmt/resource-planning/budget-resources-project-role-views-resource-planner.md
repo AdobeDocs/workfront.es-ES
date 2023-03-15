@@ -6,7 +6,7 @@ description: Puede presupuestar recursos en el planificador de recursos de Adobe
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 0%

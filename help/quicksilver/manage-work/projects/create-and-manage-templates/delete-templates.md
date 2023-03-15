@@ -55,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Las tareas que se añadieron a los proyectos cuando se adjuntó la plantilla permanecen en los proyectos. Sin embargo, se elimina la información de la tarea de plantilla asociada a las tareas.
 * El nombre de la plantilla ya no aparece en la lista **Plantilla** en el campo **Información general** subpestaña del proyecto.
 
-* Puede recuperar una plantilla eliminada recientemente de la Papelera de reciclaje. Para obtener información sobre la recuperación de artículos de la Papelera de reciclaje, consulte [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* Puede recuperar una plantilla eliminada recientemente de la Papelera de reciclaje. Para obtener información sobre la recuperación de elementos de la Papelera de reciclaje, consulte [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Eliminar una plantilla
 

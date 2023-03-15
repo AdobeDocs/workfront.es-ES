@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '864'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ La siguiente lista puede ayudarle a comprender qué visor de pruebas puede utili
 | Publicar comentarios en varias páginas | ✓ (disponible en todas las vistas) | ✓&#42; (disponible en todas las vistas) |
 | Métodos abreviados de prueba estáticos avanzados | ✓ (para obtener más información, consulte [Métodos abreviados de teclado en el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(para obtener más información, consulte [Métodos abreviados de teclado en el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Esta funcionalidad solo funciona si el administrador de Workfront ha configurado Desktop Proofing Viewer como visor predeterminado para todas las pruebas.
 
@@ -65,7 +65,7 @@ La siguiente lista puede ayudarle a comprender qué visor de pruebas puede utili
 | Realización de pruebas de vídeo en bucle (los vídeos finalizan e inician automáticamente) | ✓ | ✓&#42;  |
 | Métodos abreviados de vídeo avanzados | ✓ (para obtener más información, consulte [Métodos abreviados de teclado en el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Esta funcionalidad solo funciona si Desktop Proofing Viewer está configurado como visor predeterminado para todas las pruebas.
 
@@ -80,7 +80,7 @@ La siguiente lista puede ayudarle a comprender qué visor de pruebas puede utili
 | Revisar sitios no protegidos (HTTP) | No admitido | ✓ |
 | Revise los sitios protegidos por iFrame (sitios protegidos contra la visualización dentro de un iFrame) | No admitido | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Comentarios
 
@@ -231,7 +231,7 @@ La siguiente lista puede ayudarle a comprender qué visor de pruebas puede utili
 | Toma de decisiones | ✓ | ✓ |
 | Personalizar decisiones | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Comparar pruebas
 
@@ -373,7 +373,7 @@ La siguiente lista puede ayudarle a comprender qué visor de pruebas puede utili
 |---|---|---|
 | Código incrustado | Planificado para el futuro para pruebas de vídeo estáticas y nativas | No admitido  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Traducciones
 

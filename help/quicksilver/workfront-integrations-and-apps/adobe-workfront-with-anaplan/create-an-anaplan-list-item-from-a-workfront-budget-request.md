@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
@@ -178,7 +178,7 @@ Complete los siguientes pasos para implementar este escenario de integración en
    | [!UICONTROL [!DNL Anaplan] Nombre del módulo] | El nombre del módulo que describe los atributos de campaña en el [!DNL Anaplan] Lista. |
    | [!UICONTROL Nombre de la lista de campañas] | El nombre de la lista de su [!DNL Anaplan] y el espacio de trabajo y modelo seleccionados. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    En la sección [!DNL Anaplan] documentación de configuración.
 

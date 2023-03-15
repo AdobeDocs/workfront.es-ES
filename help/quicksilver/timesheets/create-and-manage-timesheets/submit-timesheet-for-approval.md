@@ -6,7 +6,7 @@ description: El envío del parte de horas para su aprobación proporciona al adm
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%

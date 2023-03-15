@@ -9,7 +9,7 @@ exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
 source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-* Debe instalar el Visor de prueba de escritorio. Para obtener más información, consulte [Instalación del Visor de prueba de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* Debe instalar el Visor de prueba de escritorio. Para obtener más información, consulte [Instalación de Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Apertura de pruebas desde el Visor de pruebas de escritorio
 
