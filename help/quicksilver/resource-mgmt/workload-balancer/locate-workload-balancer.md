@@ -7,9 +7,9 @@ description: Puede utilizar el equilibrador de carga de trabajo para programar r
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 87f02f3908c86575ca2dfacd7d88146b9967a804
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -53,8 +53,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo para un equipo o en el área de recursos </p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un proyecto </p>
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p>
  </td> 
   </tr> 
   <tr> 

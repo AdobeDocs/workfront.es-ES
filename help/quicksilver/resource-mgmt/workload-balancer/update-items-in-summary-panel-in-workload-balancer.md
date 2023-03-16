@@ -6,9 +6,9 @@ description: Puede abrir el panel Resumen en el equilibrador de carga de trabajo
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,8 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo para un equipo o en el área de recursos </p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un proyecto </p>
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p> 
  </p> </td> 
   </tr> 
   <tr> 

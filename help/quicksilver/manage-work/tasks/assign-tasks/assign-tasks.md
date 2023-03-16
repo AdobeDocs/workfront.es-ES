@@ -6,7 +6,7 @@ description: Puede asignar tareas a usuarios, funciones o equipos para indicar q
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Si se asignan varias funciones y al menos una de ellas coincide con las demás funciones del usuario, la tarea o el problema se asignan al usuario (la función se selecciona aleatoriamente si hay varias coincidencias), junto con las funciones adicionales que se asignen</li>
       <li>Si se asigna al menos una función de trabajo y no hay coincidencias con las funciones de trabajo del usuario, la tarea o el problema se asignan tanto a la función o las funciones como al usuario.</li>
      </ul>
-   <p>Para obtener información sobre la función principal y otras funciones de un usuario, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Edición del perfil de un usuario</a>.</p>
-   </td>
-  </tr>
+   <p>Para obtener información sobre la función principal y otras funciones de un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

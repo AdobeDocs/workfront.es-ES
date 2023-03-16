@@ -6,9 +6,9 @@ description: Utilice el equilibrador de carga de trabajo para comprender la disp
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4048'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo para un equipo o en el área de recursos </p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un proyecto </p>
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p>
  </td> 
   </tr> 
   <tr> 

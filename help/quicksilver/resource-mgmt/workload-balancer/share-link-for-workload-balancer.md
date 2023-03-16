@@ -6,9 +6,9 @@ description: Puede compartir el equilibrador de carga de trabajo con otros usuar
 author: Alina
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar o superior</p> </td> 
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 

@@ -6,9 +6,9 @@ description: Obtenga información sobre las áreas de Adobe Workfront en las que
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,14 +121,18 @@ Para localizar solicitudes que usted u otros usuarios han enviado:
 
    Si un problema se ha convertido en una tarea o proyecto y el problema se ha eliminado en el proceso de conversión, el panel Resumen está en blanco. Para obtener información sobre la conversión de problemas, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. En el **Icono de filtro** ![](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros siguientes:
+1. En el **Icono de filtro** ![](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros enumerados en la siguiente tabla.
+
+   >[!TIP]
+   >
+   >Los filtros no se pueden modificar en el área Solicitudes . Además, no hay opciones para modificar o cambiar la vista del área Solicitudes .
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Todos</td> 
+      <td role="rowheader">Todas</td> 
       <td>Todas las solicitudes enviadas, independientemente del estado o de quién las haya enviado.</td> 
      </tr> 
      <tr> 

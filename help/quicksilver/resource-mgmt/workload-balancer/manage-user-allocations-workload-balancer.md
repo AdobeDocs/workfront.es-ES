@@ -6,9 +6,9 @@ description: Como administrador de recursos, puede asignar trabajo a usuarios y 
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2785'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo para un equipo o en el área de recursos </p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un proyecto </p>
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p>
  </td> 
   </tr> 
   <tr> 

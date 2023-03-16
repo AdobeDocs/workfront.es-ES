@@ -6,10 +6,10 @@ description: Sin el acceso o los permisos correctos, es posible que no pueda ver
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ La siguiente tabla ilustra la conexión entre el plan de Workfront que tiene su 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Workfront</td> 
+   <td role="rowheader"><p>Plan de Workfront</p></td> 
    <td> <p>Áreas en las que puede acceder al equilibrador de carga de trabajo</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Debe tener el siguiente acceso para ver el equilibrador de carga de trabajo:
  <tbody> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Planifique la vista del equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabaje para ver el equilibrador de carga de trabajo de un equipo o proyecto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -83,8 +84,8 @@ Debe tener el siguiente acceso para administrar el equilibrador de carga de trab
  <tbody> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> 
-   <p>Trabajar, para administrar los recursos en el equilibrador de carga de trabajo de un proyecto</p>
+   <td> <p>Planifique la administración de asignaciones en el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabaje para administrar asignaciones en el equilibrador de carga de trabajo de un equipo o proyecto</p>
    </td> 
   </tr> 
   <tr> 

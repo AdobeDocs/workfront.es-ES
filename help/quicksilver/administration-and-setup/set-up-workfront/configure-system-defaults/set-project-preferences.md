@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ### Estado del proyecto {#project-status}
 
-Configure cualquiera de las siguientes preferencias para los proyectos recién creados en todo el sistema:
+Configure cualquiera de las siguientes preferencias para proyectos recién creados en todo el sistema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,7 +139,7 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
 
 ### Escalas de tiempo {#timelines}
 
-Configure cualquiera de las siguientes preferencias para los proyectos recién creados en todo el sistema:
+Configure cualquiera de las siguientes preferencias para proyectos recién creados en todo el sistema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -179,8 +179,15 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
        <ul> 
         <li>Tener un estado de [!UICONTROL Current]</li> 
         <li>Han tenido una actualización en los últimos 3 meses</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Cuando cambia el ámbito de un proyecto</strong>: Seleccione esta opción para volver a calcular las líneas de tiempo del proyecto inmediatamente cuando se produzca un cambio en el ámbito del proyecto. Para obtener información sobre lo que constituye un cambio en el ámbito de un proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Volver a calcular las líneas de tiempo del proyecto</a>.</p> </li> 
+        <li>Han tenido un tipo de actualización de uno de los siguientes:</li>
+        <ul>
+        <li>Automático y al cambiar</li>
+        <li>Solo al cambiar</li>
+        <li>Solo automático</li> 
+      </ul>       
+    <b>SUGERENCIA</b>
+    <p>Los proyectos que tienen un tipo de actualización de solo manual no se ven afectados por esta configuración.</p>
+    <li> <p><strong>Cuando cambia el ámbito de un proyecto</strong>: Seleccione esta opción para volver a calcular las líneas de tiempo del proyecto inmediatamente cuando se produzca un cambio en el ámbito del proyecto. Para obtener información sobre lo que constituye un cambio en el ámbito de un proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Volver a calcular las líneas de tiempo del proyecto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -216,7 +223,7 @@ Después de la [!DNL Workfront] el administrador habilita las secciones en la va
 
 ### [!UICONTROL Vida después de la muerte] {#life-after-death}
 
-Configure cualquiera de las siguientes preferencias para proyectos recién creados en todo el sistema:
+Configure cualquiera de las siguientes preferencias para los proyectos recién creados en todo el sistema:
 
 <table style="table-layout:auto"> 
  <col> 

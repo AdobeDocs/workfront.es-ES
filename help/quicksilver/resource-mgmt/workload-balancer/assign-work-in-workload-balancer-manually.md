@@ -6,9 +6,9 @@ description: Puede asignar manualmente elementos de trabajo a los usuarios media
 author: Alina
 feature: Resource Management
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo para un equipo o en el área de recursos </p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un proyecto </p>
+   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p>
  </td> 
   </tr> 
   <tr> 
