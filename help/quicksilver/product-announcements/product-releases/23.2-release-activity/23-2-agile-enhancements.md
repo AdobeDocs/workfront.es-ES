@@ -4,9 +4,9 @@ description: 23.2 Mejoras ágiles
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Tenga en cuenta que se ha cambiado el nombre de las colecciones a flujos de trab
 
 Para obtener más información, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)y [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Los dos segundos artículos no estarán disponibles en Principal hasta que publique mi rama.
 
-## Agregar tareas y problemas a flujos de trabajo de tableros de listas e informes
+## Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo
 
 Ahora puede agregar tareas o problemas existentes a un flujo de trabajo en los tableros de Workfront directamente desde una lista o vista de informe. Los elementos que agregue al flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.
+
+Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Añadir campos personalizados a tarjetas en un tablero
+
+Ahora puede incluir campos personalizados en los tableros de Adobe Workfront. El campo ya debe crearse en Workfront. No se pueden diseñar ni crear nuevos campos personalizados dentro de un tablero.
+
+Al igual que los campos predeterminados, puede elegir mostrar el campo personalizado en la vista completa de una tarjeta y la vista condensada en el tablero.
+
+Cualquier dato del campo personalizado de la tarjeta es de solo lectura.
+
+Para obtener más información, consulte [Personalización de los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Agregar tareas y problemas de listas e informes a un tablero de Workfront
+
+Ahora puede agregar tareas o problemas existentes a un tablero de Workfront directamente desde una lista o vista de informe. Cualquier elemento que agregue al tablero se convertirá en tarjetas conectadas.
+
+Además, el campo Tableros ahora está disponible para agregarlo a listas e informes para tareas o problemas. Este campo muestra todos los tableros a los que se ha añadido una tarea o un problema.
 
 Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Los campos de registro de tiempo no se muestran en las tarjetas conectadas de fo
 
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Agregar tareas y problemas a tableros de Workfront desde listas e informes
-
-Ahora puede agregar tareas o problemas existentes a un tablero de Workfront directamente desde una lista o vista de informe. Cualquier elemento que agregue al tablero se convertirá en tarjetas conectadas.
-
-Además, el campo Tableros ahora está disponible para agregarlo a listas e informes para tareas o problemas. Este campo muestra todos los tableros a los que se ha añadido una tarea o un problema.
-
-Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personalización de la visualización de campos en una tarjeta
 

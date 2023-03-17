@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas a flujos de trabajo de tableros de listas e informes</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
                         <p>Ahora puede agregar tareas o problemas existentes a un flujo de trabajo en los tableros de Workfront directamente desde una lista o vista de informe. Los elementos que agregue al flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -170,7 +170,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas a tableros de Workfront desde listas e informes</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de listas e informes a un tablero de Workfront</a></p>
                         <p>Ahora puede agregar tareas o problemas existentes a un tablero de Workfront directamente desde una lista o vista de informe. Cualquier elemento que agregue al tablero se convertirá en tarjetas conectadas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
