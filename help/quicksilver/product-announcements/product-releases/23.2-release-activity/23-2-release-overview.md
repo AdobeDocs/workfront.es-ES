@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -114,44 +114,60 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                         </p>
                     </td>
                 </tr>
-              <!-- <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funcionalidad de iteración disponible en Adobe Workfront Boards</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Hay varias funciones nuevas disponibles en los Workfront Boards que permiten utilizar la funcionalidad Agile Scrum. Estas funciones incluyen:
+                        <ul>
+                        <li>Flujos de trabajo para agrupar tableros relacionados con el mismo equipo y colaborar en el trabajo</li>
+                        <li>Una lista de tarjetas, o trabajo atrasado, con la opción de utilizar fuentes para conectar tarjetas a tareas y problemas de Workfront</li>
+                        <li>Tableros de procesos de planificación e iteración</li>
+                        </ul>
+                        </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>Versión de vista previa: 17 de marzo de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Versión de producción: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas a flujos de trabajo de tableros de listas e informes</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede agregar tareas o problemas existentes a un flujo de trabajo en los tableros de Workfront directamente desde una lista o vista de informe. Los elementos que agregue al flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 17 de marzo de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Versión de producción: Con la versión 23.2</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
-                        <ul>
-                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
-                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
-                        <li>Iteration planning and iteration process boards</li>
-                        </ul>
-                        </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Añadir campos personalizados a tarjetas en un tablero</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede incluir campos personalizados en los tableros de Adobe Workfront. El campo ya debe crearse en Workfront. No se pueden diseñar ni crear nuevos campos personalizados dentro de un tablero.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>Versión de vista previa: 17 de marzo de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Versión de producción: Con la versión 23.2</p>
                             </li>
                         </ul>
                     </td>
-                </tr> -->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas a tableros de Workfront desde listas e informes</a></p>

@@ -4,9 +4,9 @@ description: 23.2 Mejoras ágiles
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ En esta página se describen todas las mejoras ágiles realizadas con la versió
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de versión 23.2, consulte [Resumen de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Funcionalidad de iteración disponible en Adobe Workfront Boards
 
-## Iteration functionality available in Adobe Workfront Boards
+Hay varias funciones nuevas disponibles en los Workfront Boards que permiten utilizar la funcionalidad Agile Scrum. Estas funciones incluyen:
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Flujos de trabajo para agrupar tableros relacionados con el mismo equipo y colaborar en el trabajo
+* Una lista de tarjetas, o trabajo atrasado, con la opción de utilizar fuentes para conectar tarjetas a tareas y problemas de Workfront
+* Tableros de procesos de planificación e iteración
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+Tenga en cuenta que se ha cambiado el nombre de las colecciones a flujos de trabajo. Los flujos de trabajo le ayudan a visualizar los datos de diferentes maneras. Puede mostrar elementos en tarjetas en una lista, en un tablero o en una iteración. Las tarjetas de un flujo de trabajo también se pueden compartir entre varios tableros. Puede facilitar fácilmente los flujos de trabajo mediante tarjetas y tableros en un flujo de trabajo.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Para obtener más información, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)y [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Los dos segundos artículos no estarán disponibles en Principal hasta que publique mi rama.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Agregar tareas y problemas a flujos de trabajo de tableros de listas e informes
 
-## Add tasks and issues to Boards workstreams from lists and reports
+Ahora puede agregar tareas o problemas existentes a un flujo de trabajo en los tableros de Workfront directamente desde una lista o vista de informe. Los elementos que agregue al flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Registro de horas en tarjetas conectadas en un tablero
 
@@ -50,6 +47,14 @@ Ahora puede registrar horas en tarjetas conectadas, del mismo modo que lo haría
 Los campos de registro de tiempo no se muestran en las tarjetas conectadas de forma predeterminada. Debe habilitar **Horas** en el área Configurar debajo de Tarjetas.
 
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Agregar tareas y problemas a tableros de Workfront desde listas e informes
+
+Ahora puede agregar tareas o problemas existentes a un tablero de Workfront directamente desde una lista o vista de informe. Cualquier elemento que agregue al tablero se convertirá en tarjetas conectadas.
+
+Además, el campo Tableros ahora está disponible para agregarlo a listas e informes para tareas o problemas. Este campo muestra todos los tableros a los que se ha añadido una tarea o un problema.
+
+Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personalización de la visualización de campos en una tarjeta
 
