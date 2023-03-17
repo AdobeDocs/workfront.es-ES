@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,10 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   <tr>
    <td>Registro de horas en tarjetas conectadas</td>
    <td>Liberado parcialmente</td>
+  </tr>
+  <tr>
+   <td>Añadir campos personalizados a tarjetas conectadas</td>
+   <td>Publicado parcialmente (disponible en Vista previa)</td>
   </tr>
  </tbody> 
 </table>
