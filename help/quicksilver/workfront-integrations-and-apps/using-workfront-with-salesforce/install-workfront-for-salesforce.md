@@ -6,7 +6,7 @@ description: Para instalar la aplicación antes de que esté disponible en el [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 1%
@@ -71,11 +71,11 @@ Para instalar la aplicación antes de que esté disponible:
 
 1. En el entorno de producción, vaya a
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
    En el entorno de espacio aislado, vaya a
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
 1. Marque la **[!UICONTROL Sí, conceder acceso a estos sitios web de terceros]** en la ventana
 
@@ -133,7 +133,7 @@ Para instalar la aplicación antes de que esté disponible:
 
 1. Haga clic en **[!UICONTROL Guardar]**.\
    La variable [!DNL Workfront] la aplicación ya está instalada en su [!DNL Salesforce] y **[!UICONTROL Oportunidades del frente de trabajo]** y **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] Las páginas se han creado en su entorno.\
-   [!DNL Salesforce] los usuarios no podrán usar la aplicación hasta que no agregue la variable [!DNL Workfront] a su [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
+   [!DNL Salesforce] los usuarios no podrán usar la aplicación hasta que no agregue la variable [!DNL Workfront] para [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
    Para obtener información sobre cómo configurar la variable [!DNL Workfront] para los usuarios, consulte [Configure las variables [!DNL Adobe Workfront] para [!DNL Salesforce] usuarios](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 ### Instalación [!DNL Workfront for Salesforce] en el [!DNL Salesforce Lightning Experience] Marco
@@ -181,5 +181,5 @@ Para instalar la aplicación antes de que esté disponible:
 
    La variable [!DNL Workfront] la aplicación ya está instalada en su [!DNL Salesforce] y la **[!DNL Workfront]** ahora se añade a su entorno.
 
-   [!UICONTROL Salesforce] los usuarios pueden usar la variable [!DNL Workfront] una vez que haya agregado la variable [!DNL Workfront] a su [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
+   [!UICONTROL Salesforce] los usuarios pueden usar la variable [!DNL Workfront] una vez que haya agregado la variable [!DNL Workfront] para [!UICONTROL Oportunidad] o [!UICONTROL Cuenta] diseños de página.\
    Para obtener información sobre cómo configurar la variable [!DNL Workfront] para los usuarios, consulte [Configure las variables [!DNL Adobe Workfront] para [!DNL Salesforce] usuarios](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
