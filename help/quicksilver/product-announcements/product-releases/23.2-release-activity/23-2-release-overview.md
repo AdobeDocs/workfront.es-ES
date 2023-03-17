@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableros de lienzo</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableros de lienzo</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
                         <p>Los paneles de lienzo se han agregado como una función de trabajo en curso para los tableros que se puede habilitar en las plantillas de diseño. Los paneles de lienzo permitirán combinar las visualizaciones de lienzo de informes con los informes existentes, además de las nuevas opciones de diseño. Actualmente solo se admiten informes de lista, pero se agregarán más opciones a medida que continúe el desarrollo.</p>
                     </td>
-                    <td><p><b>Disponible en estas fechas: N/D</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa:<br /></p>
+                                <p>Versión de vista previa: N/D<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versión de producción: Con la versión 23.2</span></p>
