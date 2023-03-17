@@ -6,20 +6,21 @@ title: Eliminar o archivar un tablero
 description: Puede eliminar o archivar un tablero en Workfront. Al eliminar un tablero, éste se elimina permanentemente de Workfront, mientras que al archivar un tablero se conservan todas las tarjetas y se pueden restaurar posteriormente.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Eliminar o archivar un tablero
 
-Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se elimina de [!DNL Workfront], mientras que el archivado de un tablero conserva todas las tarjetas y permite restaurarlas posteriormente. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de colecciones.
+Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se elimina de [!DNL Workfront], mientras que el archivado de un tablero conserva todas las tarjetas y permite restaurarlas posteriormente. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de flujos de trabajo.
 
 >[!NOTE]
 >
->Las colecciones solo están disponibles a través de la opción de inclusión de funciones iniciales para los tableros de Workfront.
+>La versión anterior de flujos de trabajo, denominadas colecciones, solo está disponible a través de la opción de inclusión de las funciones iniciales de [!UICONTROL [!DNL Workfront] Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Los flujos de trabajo están disponibles para todos los usuarios del entorno de vista previa.
 
 ## Requisitos de acceso
 

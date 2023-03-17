@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
    <td>Liberado parcialmente</td>
   </tr>
   <tr>
-   <td>Crear colecciones de tableros</td>
+   <td>Crear flujos de trabajo y agregar tableros a flujos de trabajo</td>
    <td>Liberado parcialmente</td>
   </tr>
   <tr>
    <td>Crear iteraciones</td>
-   <td>Planificados</td>
+   <td>Publicado parcialmente (disponible en Vista previa)</td>
   </tr>
   <tr>
    <td>Definir la lista de tarjetas o el trabajo atrasado</td>
-   <td>Planificados</td>
+   <td>Publicado parcialmente (disponible en Vista previa)</td>
   </tr>
   <tr>
    <td>Importar subtareas como elementos de la lista de comprobación en tarjetas</td>

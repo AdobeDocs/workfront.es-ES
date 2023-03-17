@@ -6,30 +6,32 @@ description: La variable [!UICONTROL tableros] tablero muestra la lista de table
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
 # Usar el tablero de tableros
 
-El tablero de tableros muestra la lista de tableros y colecciones a las que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se ha agregado. Los tableros individuales a los que tiene acceso que no forman parte de una colección se muestran primero.
+{{highlighted-preview}}
+
+El tablero de tableros muestra la lista de tableros y flujos de trabajo a los que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se ha agregado. Los tableros individuales a los que tiene acceso que no forman parte de un flujo de trabajo se muestran primero.
 
 >[!NOTE]
 >
->Las colecciones solo están disponibles a través de la opción de inclusión de la función inicial de [!DNL Workfront] [!UICONTROL Tableros].
+>Los flujos de trabajo están disponibles en el entorno de vista previa y en Producción desde la inclusión de la función inicial de [!UICONTROL [!DNL Workfront] Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-En el tablero puede hacer lo siguiente para tableros y colecciones:
+En el tablero, puede hacer lo siguiente para tableros y flujos de trabajo:
 
-* Archivar un tablero (las colecciones no se pueden archivar)
-* Filtrar la lista de tableros
+* Archivar un tablero <span class="preview">o flujo de trabajo</span>
+* Filtrar los tableros <span class="preview">y flujos de trabajo</span>
 * Ordenar la lista de tableros por nombre de tablero o fecha de modificación
-* Buscar un tablero o una colección
-* Eliminar un tablero o una colección
+* Buscar un tablero o flujo de trabajo
+* Eliminación de un tablero o flujo de trabajo
 
-Para obtener información sobre cómo crear un tablero nuevo o editar uno existente, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md). Para obtener información sobre cómo crear una colección nueva, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Para obtener información sobre cómo crear un tablero nuevo o editar uno existente, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md). Para obtener información sobre cómo crear un flujo de trabajo nuevo, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acceso
 
@@ -52,14 +54,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Tableros de filtro {#filter-boards}
+## Tableros de filtro <span class="preview">y flujos de trabajo</span> {#filter-boards}
 
-Puede filtrar el tablero de tableros para mostrar tableros activos, archivados o todos los tableros.
+Puede filtrar el tablero de tableros para que muestre los tableros activos, archivados o todos los tableros o flujos de trabajo.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en [!UICONTROL **Filtro**] y seleccione **[!UICONTROL Todo]**, **[!UICONTROL Tableros activos]** o **[!UICONTROL Tableros archivados]**.
+1. Haga clic en [!UICONTROL **Filtro**] en el área Tableros o Flujos de trabajo y seleccione **[!UICONTROL Todo]**, **[!UICONTROL Activo]** o **[!UICONTROL Archivado]**.
 
-   Cuando se aplica un filtro que no sea el predeterminado en el panel, se muestra un indicador en el icono de filtro ![[!UICONTROL Filtro aplicado a] tablero](assets/boards-filterapplied-30x30.png).
+   Cuando se aplica un filtro que no sea el predeterminado en el panel, se muestra un indicador en el icono de filtro ![Filtro aplicado al tablero](assets/boards-filterapplied-30x30.png).
 
 ## Ordenar tableros
 
@@ -70,64 +72,68 @@ Puede filtrar el tablero de tableros para mostrar tableros activos, archivados o
 
    Cuando se aplica una ordenación distinta del valor predeterminado en el panel, aparece un indicador en el icono de ordenación ![Orden aplicada](assets/sort-applied-boards.png).
 
-## Buscar un tablero o una colección
+## Buscar un tablero o un flujo de trabajo
 
-En el área Tableros puede buscar un tablero específico o buscar una colección específica en el área Colecciones .
+Puede buscar en el área Tableros un tablero específico o en el área Flujos de trabajo un flujo de trabajo específico.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
 1. Haga clic en [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
 
-   Se muestran todos los tableros que contienen el término de búsqueda en el título.
+   Se muestran todos los tableros o flujos de trabajo que contienen el término de búsqueda en el título.
 
    Haga clic en la X para borrar la búsqueda.
 
    ![Buscar tableros en el tablero](assets/boards-searchbox.png)
 
-## Archivar un tablero
+## Archivar un tablero <span class="preview">o un flujo de trabajo</span>
 
-El archivado de un tablero lo envía al archivo y puede restaurarlo más adelante.
+El archivado de un tablero o un flujo de trabajo lo envía al archivo y puede restaurarlo más adelante.
 
 >[!NOTE]
 >
 >Al archivar un tablero, se archiva para todos los miembros del tablero.
+>
+>Al archivar un flujo de trabajo, se archivan todos sus tableros.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en el **[!UICONTROL Más]** menú ![Más menú](assets/more-icon-spectrum.png) en el tablero y seleccione **[!UICONTROL Archivo]**.
+1. Haga clic en el **[!UICONTROL Más]** menú ![Más menú](assets/more-icon-spectrum.png) en el tablero o flujo de trabajo, y seleccione **[!UICONTROL Archivo]**.
 
-   Un [!UICONTROL Archivo] icono ![Archivo](assets/archive-icon-spectrum-25x20.png) aparece en el tablero. No se puede editar un tablero archivado.
+   En un flujo de trabajo, el menú está a la derecha, junto al [!UICONTROL **Ver flujo de trabajo**] botón.
 
-   Los tableros archivados están ocultos en el tablero de tableros a menos que aplique un filtro para mostrarlos. Para obtener más información, consulte la [[!UICONTROL Tableros de filtro]](#filter-boards) en este artículo.
+   Un [!UICONTROL Archivo] icono ![Archivo](assets/archive-icon-spectrum-25x20.png) aparece en el tablero o flujo de trabajo. No se puede editar un tablero o flujo de trabajo archivado.
 
-1. Para restaurar un tablero archivado, haga clic en el botón **[!UICONTROL Más]** menú ![Más icono de menú](assets/more-icon-spectrum.png) en el tablero y seleccione **[!UICONTROL Restaurar]**.
+   Los elementos archivados se ocultan en el tablero de tableros a menos que aplique un filtro para mostrarlos. Para obtener más información, consulte la [[!UICONTROL Tableros de filtro]](#filter-boards) en este artículo.
 
-## Eliminar un tablero o una colección
+1. Para restaurar un tablero o flujo de trabajo archivado, haga clic en el botón **[!UICONTROL Más]** menú ![Más icono de menú](assets/more-icon-spectrum.png) en el tablero o flujo de trabajo y seleccione **[!UICONTROL Restaurar]**.
+
+## Eliminar un tablero o un flujo de trabajo
 
 Cuando elimina un tablero, se elimina permanentemente de [!DNL Workfront] y no se pueden restaurar. Todas las tarjetas del tablero también se eliminan junto con el tablero.
 
-Al eliminar una colección, se eliminan todos los tableros de la colección.
+Al eliminar un flujo de trabajo, también se eliminan todos los tableros del flujo de trabajo.
 
 >[!NOTE]
 >
->Solo puede eliminar tableros y colecciones que haya creado, no tableros y colecciones a los que se haya agregado.
+>Solo se pueden eliminar tableros y flujos de trabajo que se hayan creado, no tableros y flujos de trabajo a los que se hayan agregado.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero o colección, y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero o flujo de trabajo, y seleccione **[!UICONTROL Eliminar]**.
 
-   En una colección, el menú está a la derecha, junto al [!UICONTROL **Ver colección**] botón.
+   En un flujo de trabajo, el menú está a la derecha, junto al [!UICONTROL **Ver flujo de trabajo**] botón.
 
-1. Haga clic en **[!UICONTROL Eliminar tablero]** o [!UICONTROL **Eliminar colección**] en el mensaje de confirmación.
+1. Haga clic en **[!UICONTROL Eliminar tablero]** o [!UICONTROL **Eliminar flujo de trabajo**] en el mensaje de confirmación.
 
-## Mover un tablero a una colección
+## Mover un tablero a un flujo de trabajo
 
-Puede mover un tablero independiente a una colección o moverlo de una colección a otra.
+Puede mover un tablero independiente a un flujo de trabajo o moverlo de un flujo de trabajo a otro.
 
 >[!NOTE]
 >
 >Solo se pueden mover los tableros que se hayan creado, no los tableros a los que se añadieron.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero y seleccione [!UICONTROL **Mover a la colección**].
-1. Seleccione a qué colección agregar el tablero y haga clic en [!UICONTROL **Mover**].
+1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero y seleccione [!UICONTROL **Mover al flujo de trabajo**].
+1. Seleccione a qué flujo de trabajo añadir el tablero y haga clic en [!UICONTROL **Mover**].
 
-   El tablero se mueve a la colección y ya no aparece en el [!UICONTROL Tableros] .
-Si todavía no ha creado una colección, se le pedirá que la cree para moverla al tablero.
+   El tablero se mueve al flujo de trabajo y ya no aparece en el [!UICONTROL Tableros] .
+Si todavía no ha creado un flujo de trabajo, se le pedirá que lo cree para mover el tablero a.

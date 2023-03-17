@@ -6,7 +6,7 @@ description: Puede filtrar un tablero para que solo se muestren determinadas tar
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -115,4 +115,4 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 
    Haga clic en la X para borrar la búsqueda.
 
-   ![[!UICONTROL Buscar tarjetas en un tablero]](assets/boards-searchbox.png)
+   ![Buscar tarjetas en un tablero](assets/boards-searchbox.png)

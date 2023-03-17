@@ -7,18 +7,36 @@ description: A medida que crea un tablero utilizando tarjetas ad hoc y conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Información general sobre las herramientas de planificación de Agile
 
-A medida que crea un tablero utilizando tarjetas ad hoc y conectadas, puede que desee aprovechar herramientas de planificación ágiles adicionales, incluidos los límites de trabajo en curso de columna, la agrupación de tarjetas en bolsillos, una columna de admisión que se puede utilizar para un trabajo pendiente y colecciones de tableros.
+{{highlighted-preview}}
 
-Puede usar cualquiera o todas estas herramientas de una manera que funcione para usted y su equipo, sin comprometerse con una metodología ágil específica como Kanban o Scrum.
+A medida que crea un tablero utilizando tarjetas específicas y conectadas, es posible que desee aprovechar las herramientas de planificación ágiles adicionales.
+
+Las herramientas útiles para Kanban incluyen:
+
+* Límites de WIP en columnas
+* Agrupación de tarjetas en swimlanes
+* Una columna de admisión que puede utilizarse para un registro pendiente
+
+<div class="preview">
+
+Las herramientas útiles para la exploración incluyen:
+
+* Flujos de trabajo y tableros de iteración
+* Lista de tarjetas o trabajo atrasado
+* Métricas de iteración
+
+</div>
+
+Puede usar cualquiera o todas estas herramientas de una manera que funcione para usted y su equipo, sin comprometerse con una metodología ágil específica.
 
 Esta sección contiene los siguientes artículos:
 
@@ -26,4 +44,7 @@ Esta sección contiene los siguientes artículos:
 * [Agregar una columna de admisión a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Usar grupos en un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configuración de la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Revisar métricas de iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
