@@ -4,9 +4,9 @@ description: 23.2 Otras mejoras
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Con este rediseño, hemos eliminado la adición de comentarios a las actualizaci
 En futuras versiones se añadirán más funciones, ya que estas mejoras se seguirán agregando a otros objetos.
 
 Para obtener información sobre las ofertas de la nueva experiencia de comentarios, consulte [Experiencia de comentarios unificada](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportar tableros como un solo PDF o como varios archivos de PDF en Adobe Workfront para XD
 

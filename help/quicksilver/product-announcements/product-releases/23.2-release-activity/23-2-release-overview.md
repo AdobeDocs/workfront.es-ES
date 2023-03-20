@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -484,7 +484,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para problemas beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para problemas beta<span style="color: #ff0000;"> Novedades de Vista previa</span></a>
                         <p>Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos. </p>
                         <p>Esta nueva experiencia unificará finalmente los comentarios en Adobe Workfront y más allá, en Adobe Experience Cloud. </p>
                     </td>
