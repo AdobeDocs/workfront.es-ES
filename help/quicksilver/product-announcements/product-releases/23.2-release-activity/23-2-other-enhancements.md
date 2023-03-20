@@ -4,62 +4,73 @@ description: 23.2 Otras mejoras
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # 23.2 Otras mejoras
 
-Esta página describe todas las demás mejoras realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
+En esta página se describen todas las demás mejoras realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno Producción con la versión 23.2.
 
-Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de versión 23.2, consulte [Resumen de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Nueva experiencia de comentarios para los problemas beta
+## Nueva experiencia de comentarios para problemas beta
 
 Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos.
 
-Esta nueva experiencia finalmente unificará los comentarios en Adobe Workfront y más allá, en todo Adobe Experience Cloud.
+Esta nueva experiencia unificará finalmente los comentarios en Adobe Workfront y más allá, en Adobe Experience Cloud.
 
-Como parte de esta actualización, presentamos la nueva experiencia de comentarios en la sección de actualizaciones de problemas. Con la versión actual, habrá una opción disponible para cada usuario para habilitar esta experiencia en su propio entorno, en modo beta. Después de aceptar el acuerdo beta, aparece la sección de nuevas actualizaciones y pueden seguir administrando su trabajo en esa sección como lo hacen ahora.
-Con la versión 23.1 de se lanzaron funciones similares para los objetivos de Workfront.
+Como parte de esta actualización, presentamos la nueva experiencia de comentar a la sección de temas Actualizaciones . Con la versión actual, habrá un conmutador disponible para cada usuario para habilitar esta experiencia en su propio entorno, en modo beta. Después de aceptar el acuerdo beta, se muestra la nueva sección Actualizaciones y pueden seguir administrando su trabajo en esa sección como lo hacen ahora.
+
+Con la versión 23.1 se incorporó una funcionalidad similar a Workfront Goal.
 
 Algunas de las funciones incluidas en esta actualización son:
 
-* Separación de pestañas para comentarios y actualizaciones del sistema
+* Separación de fichas para comentarios y actualizaciones del sistema
+
 * Mejor rendimiento
 
-Se añadirán más funciones en futuras versiones, ya que la funcionalidad también se añadirá a otros objetos.
+* Indicador en tiempo real para comentarios nuevos.
+   >[!NOTE]
+   >
+   >El lanzamiento del indicador en tiempo real se ha retrasado.
 
-Para obtener información sobre lo que ofrece la nueva experiencia de comentarios, consulte [Experiencia de comentarios unificados](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+* Edición de comentarios después de enviarlos.
 
-## Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para su uso en el
+Con este rediseño, hemos eliminado la adición de comentarios a las actualizaciones del sistema.
 
-En el complemento Adobe Workfront XD para la, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.
+En futuras versiones se añadirán más funciones, ya que estas mejoras se seguirán agregando a otros objetos.
+
+Para obtener información sobre las ofertas de la nueva experiencia de comentarios, consulte [Experiencia de comentarios unificada](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+## Exportar tableros como un solo PDF o como varios archivos de PDF en Adobe Workfront para XD
+
+En el complemento Adobe Workfront for XD, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Cargar [!DNL XD] tableros de arte como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
 * [Cargar [!DNL XD] tableros de arte como pruebas para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
-## Nuevos clientes netos que se incorporarán a la experiencia unificada de Adobe
+## Nuevos clientes que se incorporarán a la experiencia unificada de Adobe
 
-Entre mediados y finales de marzo de 2023, los nuevos clientes empezarán a incorporarse a la experiencia unificada de Adobe. Los nuevos clientes se gestionarán caso por caso a medida que se incorporen a Adobe Business Platform.
+Desde mediados hasta finales de marzo de 2023, los nuevos clientes empezarán a incorporarse a la Experiencia unificada de Adobe. Los nuevos clientes se gestionarán caso por caso a medida que se incorporen a la plataforma de negocios de Adobe.
 
-La migración de los clientes existentes a la experiencia unificada se ha pospuesto para más adelante en 2023. Se notificará a todos los clientes afectados en ese momento.
+La migración de los clientes existentes a la experiencia unificada se ha pospuesto hasta más adelante en 2023. A cualquier cliente afectado se le notificará en ese momento.
 
-La experiencia unificada de Adobe incluye lo siguiente:
+La experiencia unificada de Adobe incluye:
 
-* Un solo inicio de sesión para todas las aplicaciones de Adobe a través de Adobe Experience Cloud
-* Un &quot;conmutador de organización&quot; para alternar entre organizaciones y entornos de Workfront.
+* Un inicio de sesión único para todas las aplicaciones de Adobe a través de Adobe Experience Cloud
+* Un &quot;conmutador de organización&quot; para moverse entre las organizaciones y los entornos de Workfront
 * Navegación con opciones para páginas de Workfront, preferencias de Adobe Experience Cloud y su perfil de Workfront
 
 Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
-## El visor de revisión se abre en una nueva pestaña para los usuarios de la experiencia unificada
+## El visor de pruebas se abre en una nueva pestaña para los usuarios de la experiencia unificada
 
-Debido a un requisito técnico con la experiencia unificada, el visualizador de pruebas se iniciará en una nueva pestaña del explorador.
+Debido a un requisito técnico con la Experiencia unificada, el visor de pruebas se iniciará ahora en una nueva pestaña del explorador.
