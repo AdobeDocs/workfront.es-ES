@@ -7,9 +7,9 @@ description: A medida que crea un tablero utilizando tarjetas ad hoc y conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,5 @@ Esta sección contiene los siguientes artículos:
 * [Configuración de la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [Revisar métricas de iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

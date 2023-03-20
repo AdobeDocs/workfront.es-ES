@@ -6,9 +6,9 @@ title: Usar la lista de tarjetas
 description: Puede crear una lista de tarjetas en un flujo de trabajo y agregarlas a iteraciones.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Haga clic en la X para borrar la búsqueda.
 
 >[!NOTE]
 >
->Debe crear una iteración para poder añadir tarjetas a ella. Para obtener más información, consulte [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>Debe crear una iteración para poder añadir tarjetas a ella. Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Acceda a la lista de tarjetas para el flujo de trabajo.
 1. Seleccione el [!UICONTROL **Vista iteración**] para ver qué tarjetas se asignan a una iteración y cuáles no están planificadas.

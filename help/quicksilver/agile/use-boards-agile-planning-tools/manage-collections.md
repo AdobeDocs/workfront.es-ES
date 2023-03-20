@@ -6,9 +6,9 @@ title: Administrar flujos de trabajo
 description: Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '868'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo. Los flujos de trabajo pueden incluir distintos tipos de tableros creados a partir de plantillas, <span class="preview">y una lista de tarjetas de elementos de trabajo. En un flujo de trabajo, se puede realizar un seguimiento del trabajo en iteraciones o sprints.</span>
 
-<span class="preview">Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) y [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) y [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Los flujos de trabajo aparecen en el tablero junto con los tableros individuales a los que tiene acceso que no forman parte de un flujo de trabajo. Para obtener información sobre el tablero de tableros, consulte [Usar el tablero de tableros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Puede hacer clic en cualquier nombre de tablero del tablero para abrirlo.
 
@@ -111,7 +111,7 @@ Para poder ver el flujo de trabajo y su contenido, se deben agregar personas y e
 
    El número total de tarjetas, el número de tarjetas señaladas y el número de iteraciones se muestran en la sección Lista de tarjetas . Haga clic en [!UICONTROL **Ver lista**] para abrir la lista y añadir tarjetas. Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Si se ha definido una iteración, se muestra su fecha de inicio, el número de tarjetas y el número de puntos. Haga clic en [!UICONTROL **Ver tablero de iteración**] para abrir el tablero. Para obtener más información, consulte [Crear una iteración](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Si se ha definido una iteración, se muestra su fecha de inicio, el número de tarjetas y el número de puntos. Haga clic en [!UICONTROL **Ver tablero de iteración**] para abrir el tablero. Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Haga clic en [!UICONTROL **Agregar fuente**] para definir un origen para importar tarjetas en el flujo de trabajo. En este momento, la única fuente disponible es [!DNL Adobe Workfront].
 1. Añada filtros para importar tareas y problemas desde Workfront como tarjetas.
