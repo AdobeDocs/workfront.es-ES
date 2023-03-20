@@ -3,11 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Experiencia de comentarios unificada
 description: La nueva experiencia unificada de comentarios
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -15,108 +15,65 @@ ht-degree: 1%
 
 # Nueva experiencia de comentarios
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de los objetos seleccionados.
 
-<!--drafted for commenting experience on issues: 
-
->[!NOTE]
->
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
->The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
->
->* Home
->* Summary panel in a list
->* Summary panel in a timesheet
->
-
--->
-
-Aunque actualmente solo se implementa en los objetivos de fuentes de trabajo de Adobe, esta nueva experiencia estará disponible lentamente para todos los objetos con una sección de actualizaciones en Workfront y, más adelante, se ampliará a otras aplicaciones de Adobe Experience Cloud.
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta version in the Updates section, in the Preview environment: 
-
-* Issues
-
-    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
--->
+La nueva experiencia de comentarios va a estar disponible para todos los objetos con una sección de actualizaciones en Workfront y más adelante se ampliará a otras aplicaciones de Adobe Experience Cloud.
 
 ## Funciones
 
 La nueva experiencia de comentarios incluye mejoras y cambios en el flujo de actualización existente.
 
+<!-- Previous content here - replaced with the table below: 
+
 >[!IMPORTANT]
->Las funciones de Experiencia de comentarios unificada que se enumeran a continuación actualmente solo están disponibles en los objetivos de Adobe Workfront.
+>The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
 
-* **Creación de comentarios**
+* **Creating comments**
 
-   Puede crear un comentario nuevo, darle formato con texto enriquecido y etiquetar a otros para que se les notifique. Para obtener más información sobre la creación de comentarios, consulte [Administrar comentarios de objetivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-* **Respuesta a los comentarios**
+* **Responding to comments**
 
-   Puede reaccionar a un comentario con un &quot;Me gusta&quot; o responder con un nuevo comentario en hilo que puede notificar al comentarista y propietario original del objeto.
+    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
 
-* **Actividad del sistema**
+* **System Activity**
+    
+    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-   Las actualizaciones generadas por el sistema para un objeto ahora se enumeran por separado a partir de los comentarios realizados en la pestaña actualización. Para obtener más información sobre la visualización del flujo de actividad del sistema, consulte el paso 11 de [Administrar comentarios de objetivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
+Entre las mejoras incluidas en la nueva experiencia de comentarios se encuentran las siguientes:
 
-Among the improvements included in the new commenting experience are the following:
+* Rendimiento y experiencia de usuario mejorados
+* Separación de los comentarios del usuario de las actualizaciones de la actividad del sistema. No hay cambios en la forma en que funciona la actualización del sistema.
+* Indicador en tiempo real cuando se agregan nuevos comentarios a un objeto
+* Edición de comentarios después de enviarlos.
 
-* Improved performance and user experience
-* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
-* Real-time updates
-* Edit comments after submitting them. 
+Se han eliminado las siguientes funciones de la nueva experiencia:
 
-The following features have been removed from the new experience:
+* Comente en una actualización del sistema.
 
-* Comment on a system update
-
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+La tabla siguiente ilustra las funciones que estarán disponibles en la nueva experiencia de comentarios, así como su disponibilidad en las áreas en las que son compatibles:
 
 <table>
   <tr>
-   <td><strong>Feature </strong>
+   <td><strong>Función </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>Existe en la experiencia de comentarios antigua </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>Existe en la versión beta de la nueva experiencia de comentarios </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   <td><strong>Se introducirá en la nueva experiencia de comentarios </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
+   <td><strong>Cuándo se introducirá en la nueva experiencia de comentarios </strong>
    </td>
-   <td><strong>In research </strong>
+   <td><strong>En investigación </strong>
    </td>
   </tr>
   <tr>
-   <td>Create/read/reply/delete comments 
+   <td>Crear/leer/responder/eliminar comentarios 
    </td>
    <td>✓ 
   </td>
@@ -130,11 +87,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text (exludes quoting and emojis)
+   <td>Texto enriquecido (excepto comillas y emojis)
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -145,7 +102,7 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>Texto enriquecido (citas y emojis)
    </td>
    <td>✓ 
    </td>
@@ -153,14 +110,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Q2, 2023
+   <td> Segundo trimestre de 2023
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-   <td>React to comments (Like) 
+<td>Reaccione a los comentarios (Me gusta) 
    </td>
    <td>✓ 
    </td>
@@ -174,7 +131,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Attach images to comments 
+   <td>Adjuntar imágenes a comentarios 
    </td>
    <td>✓ 
    </td>
@@ -188,7 +145,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Tag people in comments 
+   <td>Etiquetar personas en comentarios 
    </td>
    <td>✓ 
    </td>
@@ -202,25 +159,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>Quitar personas del subproceso 
    </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Comments that are private to a company 
-   </td>
-   <td>✓ 
-   </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -230,49 +173,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Undo posting of a comment 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with edit comment 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Turn off system updates 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with Activity tab 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Edit comments 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Saving comment drafts when navigating away from the page 
+   <td>Comentarios que son privados para una empresa 
    </td>
    <td>✓ 
    </td>
@@ -286,7 +187,63 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>Deshacer la publicación de un comentario 
+   </td>
+   <td>✓ 
+   </td>
+   <td><span class="preview">Se sustituye por un comentario de edición </span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Desactivar actualizaciones del sistema 
+   </td>
+   <td>✓ 
+   </td>
+   <td>Se ha sustituido por la pestaña Actividad 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Editar comentarios 
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Guardar borradores de comentarios al salir de la página 
+   </td>
+   <td>✓ 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Ver nuevos comentarios en tiempo real 
    </td>
    <td> 
    </td>
@@ -300,7 +257,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Log time 
+   <td>Tiempo de registro 
    </td>
    <td>✓ 
    </td>
@@ -314,7 +271,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Edit custom form 
+   <td>Editar formulario personalizado 
    </td>
    <td>✓ 
    </td>
@@ -328,7 +285,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>Capacidad para editar estado, condición, confirmar fecha al comentar 
    </td>
    <td>✓ 
    </td>
@@ -342,7 +299,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Copy thread link 
+   <td>Copiar el enlace del hilo 
    </td>
    <td>✓ 
    </td>
@@ -350,13 +307,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>Segundo trimestre de 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy comment link 
+   <td>Copiar vínculo de comentario 
    </td>
    <td>✓ 
    </td>
@@ -364,13 +321,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>Segundo trimestre de 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Quote comment text 
+   <td>Texto de comentario de comillas 
    </td>
    <td>✓ 
    </td>
@@ -378,13 +335,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>Segundo trimestre de 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy body text 
+   <td>Copiar el texto del cuerpo 
    </td>
    <td>✓ 
    </td>
@@ -392,13 +349,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>Segundo trimestre de 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Resolve comments 
+   <td>Resolver comentarios 
    </td>
    <td> 
    </td>
@@ -406,13 +363,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>Tercer trimestre de 2023 
    </td>
    <td>✓ 
    </td>
   </tr>
   <tr>
-   <td>Search in comments 
+   <td>Buscar en comentarios 
    </td>
    <td> 
    </td>
@@ -420,7 +377,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>Tercer trimestre de 2023 
    </td>
    <td>✓ 
    </td>
@@ -428,29 +385,42 @@ The following table illustrates the features that will be available in the new c
 </table>
 
 
-## Locate the new commenting experience
+## Localizar la nueva experiencia de comentarios
 
-The new commenting experience is the default experience for Workfront goals. 
+La nueva experiencia de comentarios se admite actualmente para los siguientes objetos, cuando se ve la sección Actualizaciones en las siguientes versiones:
 
-<div span="preview">
-For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
-</div>
+* Al habilitar la experiencia Beta en la sección Actualizaciones:
 
+   <div class="preview">
 
-Currently, the new experience is available for the following objects:
+   * Problemas.
+   Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-* <span class="preview">Issues</span>
+   </div>
+
+* De forma predeterminada, como experiencia principal de comentarios:
+
+   * Metas
+   >[!NOTE]
+   >
+   >Para poder acceder a esta área de Workfront, debe tener una licencia adicional para los objetivos de Adobe Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   Para obtener más información sobre la administración de actualizaciones para objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 <div class="preview">
-To enable the new commenting exprience Beta: 
 
-1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
-1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+Para habilitar la nueva experiencia de comentarios beta:
+
+1. Vaya a un objeto para el que desee activar la nueva experiencia de comentarios y, a continuación, haga clic en **Actualizaciones** en el panel izquierdo.
+1. Haga clic en **Pruebe la beta de comentarios** en la esquina inferior derecha del área Actualizaciones .
+1. Haga clic en **Aceptar** en el cuadro de acuerdo beta. Esto habilita la nueva experiencia de comentarios para el objeto seleccionado.
+1. Comience a escribir una actualización en la **Comentarios** pestaña . La pestaña Comentarios debe ser la pestaña predeterminada cuando se abra la nueva experiencia
+
+   O
+
+   Haga clic en el  **Actividad del sistema** para ver las actualizaciones de actividad generadas por Workfront.
+
+   Para obtener más información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
 </div>
--->
