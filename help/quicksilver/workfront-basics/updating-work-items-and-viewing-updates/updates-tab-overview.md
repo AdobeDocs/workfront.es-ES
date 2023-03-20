@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Actualmente estamos rediseñando la sección Actualizaciones de un objeto. Puede acceder al nuevo diseño activando el comentario Beta.
+>Actualmente estamos rediseñando la sección Actualizaciones de un objeto.
 >
->Actualmente, la versión beta está disponible para <span class="preview">problemas</span>.
+>Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Puede acceder al nuevo diseño desde los siguientes objetos y en los siguientes entornos:
+>
+>* <span class="preview">Cuando activa la experiencia de comentarios beta para los siguientes objetos:</span>
+   >
+   >     * <span class="preview">Problemas</span>
+
+   >     
+   >     <span class="preview">Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:</span>
+   >
+   >     * <span class="preview">Página de inicio</span>
+   >     * <span class="preview">Panel Resumen en listas</span>
+   >     * <span class="preview">Panel Resumen en hojas de horas</span>
+>
+>* De forma predeterminada, como la experiencia de comentarios actual para los siguientes objetos:
+   >
+   >     * Metas
+
+   >
+   >     Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios hacen en las actualizaciones de objeto o del sistema que realizan un seguimiento de los cambios en el objeto.
 
@@ -79,9 +98,9 @@ La sección Actualizaciones se muestra para los siguientes objetos:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-La sección Actualizaciones muestra información en las siguientes pestañas de la experiencia de comentarios en la versión beta:
+La sección Actualizaciones muestra información en las fichas siguientes de la nueva experiencia de comentarios:
 
-* **Actualizaciones**: Muestra los comentarios realizados por los usuarios y las respuestas a esos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comentarios**: Muestra los comentarios realizados por los usuarios y las respuestas a esos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 * **Actividad del sistema**: Muestra las actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador de Workfront o de grupos puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Actualmente, puede realizar comentarios y responder a las actualizaciones mediante la experiencia de comentarios beta en los siguientes objetos:
@@ -102,14 +121,6 @@ Actualmente, puede realizar comentarios y responder a las actualizaciones median
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->La experiencia de comentarios beta es la experiencia actual predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront.
->
->Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Actualizaciones que también aparecen en objetos de mayor rango
 

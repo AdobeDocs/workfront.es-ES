@@ -1,13 +1,13 @@
 ---
 title: Configuración de notificaciones de recordatorio
 description: Configuración de notificaciones de recordatorio
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
      </tr> 
      <tr> 
       <td role="rowheader">Intervalo</td> 
-      <td> <p>Seleccione el evento que déclencheur la notificación de recordatorio a programarse.</p> <p>Si la notificación del recordatorio está pensada para proyectos, tareas o problemas, las opciones disponibles están relacionadas con la fecha de finalización o la fecha de inicio. La notificación del recordatorio tiene en cuenta la marca de tiempo de las fechas de finalización e inicio de los proyectos, tareas y problemas.</p> <p>Si la notificación del recordatorio está pensada para partes de horas, las opciones disponibles están relacionadas con la fecha de finalización, la fecha de inicio o la fecha de última actualización. La notificación de recordatorio para Hojas de horas tiene en cuenta la marca de tiempo de las fechas de finalización, inicio y última actualización del parte de horas. El parte de horas comienza a medianoche del día de la fecha de inicio (12:00 AM) y finaliza justo antes de la medianoche en la fecha de finalización (23:59 PM).</p> </td> 
+      <td> <p>Seleccione el evento que déclencheur la notificación de recordatorio a programarse.</p> <p>Si la notificación del recordatorio está pensada para proyectos, tareas o problemas, las opciones disponibles están relacionadas con la fecha de finalización o la fecha de inicio. La notificación del recordatorio tiene en cuenta la marca de tiempo de las fechas de finalización e inicio de los proyectos, tareas y problemas.</p>
+
+   <p>Si la notificación del recordatorio está pensada para partes de horas, las opciones disponibles están relacionadas con la fecha de finalización, la fecha de inicio o la fecha de última actualización. La notificación de recordatorio para Hojas de horas tiene en cuenta la marca de tiempo de las fechas de finalización, inicio y última actualización del parte de horas. El parte de horas comienza a medianoche del día de la fecha de inicio (12:00 AM) y finaliza justo antes de la medianoche en la fecha de finalización (23:59 PM).</p>
+
+   <p><b>NOTA</b></p>
+      <p>Las notificaciones de recordatorios de hojas de horas se distribuyen solo una vez cada 24 horas.</p> <p>Cuando configura varias notificaciones de recordatorio dentro de un periodo de 24 horas, Workfront envía un mensaje de correo electrónico de notificación con todos los recordatorios incluidos en esa notificación.</p>
+      <p>Por ejemplo, si configura tres notificaciones de recordatorio para que se almacenen en déclencheur 10 horas antes, 2 horas antes y 1 hora antes de una fecha de vencimiento, los tres recordatorios se combinarán en la misma notificación si se producen durante el mismo día.</p> <p>Sin embargo, si establece una notificación recordatoria para 26 horas antes y otra para 1 hora antes de una fecha de vencimiento, los usuarios recibirán dos notificaciones independientes. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Criterios</td> 

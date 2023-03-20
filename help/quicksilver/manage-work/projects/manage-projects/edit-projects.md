@@ -6,9 +6,9 @@ description: Puede editar un proyecto en Adobe Workfront tantas veces como sea n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,15 @@ Algunos ajustes mencionados en este artículo pueden modificarse del estado pred
        <ul> 
        <li> <p><span>Cuando el proyecto se crea desde el área Proyectos , el grupo de inicio del creador del proyecto se asocia al proyecto.</span> </p> <p>Esto también ocurre cuando el proyecto se crea desde la sección Proyectos de un portafolio o programa.</p> </li> 
        <li> <p>Cuando el proyecto se crea a partir de la página principal de un grupo en el área Configuración, ese grupo se asocia al proyecto.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes a nivel de sistema. Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo. Para obtener información sobre la creación de procesos de aprobación a nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Procesos de aprobación a nivel de grupo</a>. Para obtener información sobre la creación de un estado personalizado de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Crear o editar un estado de grupo</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>NOTAS</b></p>
+
+   <ul>
+      <li><p>Si el proyecto, sus tareas o problemas están asociados a un estado personalizado de nivel de grupo, cambiar el grupo del proyecto puede provocar que el estado del proyecto, las tareas o los problemas cambien para que coincidan con el nuevo grupo.</p></li>
+      <li><p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes a nivel de sistema.</p>
+      <p>Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo.</p>
+      <p>Para obtener información sobre la creación de procesos de aprobación a nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Procesos de aprobación a nivel de grupo</a>.</p>
+      <p>Para obtener información sobre la creación de un estado personalizado de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Crear o editar un estado de grupo</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Compañía</strong> </td> 

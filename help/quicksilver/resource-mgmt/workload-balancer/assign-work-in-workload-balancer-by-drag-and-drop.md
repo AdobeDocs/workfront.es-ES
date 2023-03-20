@@ -6,7 +6,7 @@ description: Puede asignar elementos de trabajo mediante el equilibrador de carg
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -35,8 +35,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planifique la asignación de trabajo en el equilibrador de carga de trabajo en el área de recursos</p>
-   <p>Trabajo para asignar trabajo en el equilibrador de carga de trabajo de un equipo o proyecto</p>
+   <td> <p>Planificar, para asignar trabajo en el equilibrador de carga de trabajo en el área de recursos</p>
+   <p>Trabajo, para asignar trabajo en el equilibrador de carga de trabajo de un equipo o proyecto</p>
  </td> 
   </tr> 
   <tr> 
