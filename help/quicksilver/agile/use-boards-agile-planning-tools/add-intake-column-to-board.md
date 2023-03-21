@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!NOTE]
    >
    >Puede filtrar la columna de admisión para incluir tareas y problemas, pero debe configurar los filtros por separado para cada tipo de objeto.
+   >
+   >Además, los filtros guardados y los filtros predeterminados del sistema están disponibles para su selección.
 
 1. En el panel de filtro, haga clic en **[!UICONTROL Nuevo filtro]** para empezar.
 

@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ Si utiliza el límite de WIP en una columna, no se agregará un contador de tarj
 
       ![Estado de las columnas](assets/boards-column-status.png)
 
-      También se muestran las opciones de traducción del estado de las tarjetas conectadas. (La traducción del estado no se aplica a las tarjetas ad hoc). Estas opciones determinan el estado que se aplica a la tarea o al problema en [!DNL Workfront] cuando se mueve una tarjeta conectada a esta columna.
+      También se muestran las opciones de traducción del estado de las tarjetas conectadas. (La traducción del estado no se aplica a las tarjetas ad hoc). Estas opciones determinan el estado personalizado que se aplica a la tarea o al problema en [!DNL Workfront] cuando se mueve una tarjeta conectada a esta columna.
 
-   1. Para cambiar las selecciones de traducción de estado predeterminadas, haga clic en el botón **[!UICONTROL Editar]** icono ![Icono Editar](assets/edit-icon-spectrum.png).
-   1. Si está utilizando la opción de inclusión inicial de la función: Seleccione un [!UICONTROL **Personalizado**] para aplicar a la tarjeta, tanto para tareas como para problemas.
+   1. Si está utilizando la opción de inclusión inicial de la función: Seleccione un [!UICONTROL **Personalizado**] para aplicar a la tarjeta las tareas y los problemas.
 
-      Cuando se mueve una tarjeta a esta columna, [!DNL Workfront] primero intenta aplicar el estado personalizado (por ejemplo, Resuelto). Si el estado personalizado no está disponible para esa tarjeta, Workfront aplicará el estado del sistema en su lugar (por ejemplo, Cerrado). El estado del sistema es el estado seleccionado en el paso b anterior.
+      Cuando se mueve una tarjeta a esta columna, [!DNL Workfront] primero intenta aplicar el estado personalizado (por ejemplo, Resuelto). Si el estado personalizado seleccionado no está disponible para esa tarjeta, se le pedirá que elija otro estado que corresponda al estado del sistema (del paso b anterior).
 
       Además, si el estado de la tarea o problema conectado se cambia al estado personalizado o del sistema establecido en la directiva de columna, la tarjeta se mueve automáticamente a la columna .
 
