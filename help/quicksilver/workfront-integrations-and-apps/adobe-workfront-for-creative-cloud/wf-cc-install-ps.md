@@ -6,9 +6,9 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >Para encontrar el dominio, abra un explorador y vaya a [!DNL Workfront] y copie la primera parte de la URL:\
-   >![](assets/domain-350x50.png)   >
+   >* Para encontrar el dominio, abra un explorador y vaya a [!DNL Workfront] y copie la primera parte de la URL:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Si la instancia de Workfront está integrada con Experience Cloud, pídale al administrador que le proporcione el dominio de Workfront que se encuentra en Producto > Workfront en el Admin Console.
+
 
 1. En el explorador, introduzca su [!DNL Workfront] credenciales y, a continuación, haga clic en **[!UICONTROL Iniciar sesión]**. Si su empresa utiliza un inicio de sesión único (SSO), se le dirigirá a la página de su proveedor de SSO para iniciar sesión.
 
