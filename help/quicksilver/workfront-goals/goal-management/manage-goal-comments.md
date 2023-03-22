@@ -6,14 +6,16 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Administrar comentarios de objetivo en objetivos de Adobe Workfront
+
+<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
@@ -149,16 +151,28 @@ Esto abre la lista de objetivos.
    >
    >   <span class="preview">Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.</span>
 
+   <!-- <div class="preview">
+   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+
+      * **Copy update link** to copy the link of an update, without the replies.
+      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy body text** to copy the text of an update. 
+
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+   </div>
+   -->
+
 1. Haga clic en **Submit**.
 
-   <!--drafted for 23.2 beta release: 
-      >[!TIP]
-      >
-      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-      >
-      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
-      >
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Si otro usuario envía un comentario al mismo elemento que está actualizando, habrá una línea roja con un indicador &quot;Nuevo&quot; para informarle de los comentarios más recientes.
+   >
+   >El indicador solo se muestra después de enviar el comentario en el elemento, y no cuando el comentario sigue compuesto.
+   >
+   >El indicador &quot;Nuevo&quot; solo se muestra cuando tanto el usuario que ha introducido una nueva actualización como el usuario que está introduciendo una actualización están utilizando la nueva experiencia de comentarios.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-9 anteriores. <!--insure this stays accurate-->
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.

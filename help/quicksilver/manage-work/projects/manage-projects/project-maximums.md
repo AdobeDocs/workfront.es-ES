@@ -7,9 +7,9 @@ description: Adobe Workfront tiene límites para la cantidad de objetos que se p
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Los siguientes objetos asociados a proyectos tienen los límites siguientes:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Tareas</p></td> 
-   <td>  <p>El número máximo de tareas por proyecto es de 5.000. Aparece un mensaje de advertencia cuando el número de tareas se acerca a este máximo. Cuando se alcanza el máximo, aparece un mensaje de error y no se pueden agregar tareas adicionales al proyecto.</p> <p>Para evitar alcanzar este máximo, mueva las tareas que estén cerradas a otro proyecto designado para tareas cerradas. Puede que sea necesario ajustar los informes sobre estos proyectos.</p> </td> 
+   <td>  <p>El número máximo de tareas por proyecto es de 5.000. Aparece un mensaje de advertencia cuando el número de tareas se acerca a este máximo. Cuando se alcanza el máximo, aparece un mensaje de error y no se pueden agregar tareas adicionales al proyecto.</p> <p>Para evitar alcanzar este máximo, mueva las tareas que estén cerradas a otro proyecto designado para tareas cerradas. Puede que sea necesario ajustar los informes sobre estos proyectos.</p>
+
+<b>IMPORTANTE</b>
+
+Para los proyectos en los que las tareas tienen muchas dependencias, recomendamos que el número de tareas en los proyectos sea mucho menor que el máximo permitido de 5000 tareas.
+
+Algunos ejemplos de dependencias de tareas que pueden influir o evitar volver a calcular la cronología del proyecto son:
+
+<ul><li>Número de elementos secundarios</li>
+   <li>Múltiples niveles de sangría de tareas</li>
+   <li>Número de predecesores</li>
+   <li>Múltiples asignaciones</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Problemas</p></td> 
