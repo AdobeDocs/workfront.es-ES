@@ -6,16 +6,16 @@ description: Puede editar un proyecto en Adobe Workfront tantas veces como sea n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '7705'
+source-wordcount: '7718'
 ht-degree: 2%
 
 ---
 
 # Editar proyectos
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
 
 <!--
 <p>***Linked to many articles,</p>

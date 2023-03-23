@@ -5,16 +5,16 @@ description: Puede utilizar un informe de valoración para medir cómo se alinea
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Aplicar un informe de valoración a un proyecto y generar una puntuación de alineación
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
 
 Puede utilizar un informe de valoración para medir cómo se alinea un proyecto con los criterios establecidos anteriormente para un portafolio. Un informe de valoración a menudo refleja la misión, los valores y los objetivos estratégicos de una organización.
 
