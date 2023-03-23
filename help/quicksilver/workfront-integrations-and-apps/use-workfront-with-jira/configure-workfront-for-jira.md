@@ -6,9 +6,9 @@ description: Puede usar [!DNL Adobe Workfront for Jira] para integrar su [!DNL J
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ Para configurar [!DNL Workfront for Jira]:
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] conecta con [!DNL Jira] con OAuth 2.0, un estándar utilizado por la mayoría de las integraciones basadas en web para la autenticación y autorización de usuarios.
+   >El usuario debe tener un `apiKey` en [!UICONTROL Workfront] para crear una conexión correcta.
 
    Debe iniciar sesión en [!DNL Workfront] como [!DNL Workfront] para continuar con la configuración.
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] conecta con [!DNL Jira] con OAuth 2.0, un estándar utilizado por la mayoría de las integraciones basadas en web para la autenticación y autorización de usuarios.
    >* Cuando se le pida que introduzca el dominio de su [!DNL Workfront] cuenta, escríbala con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de la empresa suele ser el nombre de la empresa.
    >* La autenticación mejorada no está disponible hasta que se [!DNL Workfront] el administrador lo habilita para esta integración.
 
@@ -317,7 +318,7 @@ Para definir qué campos deben sincronizarse automáticamente en elementos vincu
 
    Ahora, cada vez que un usuario actualiza cualquiera de los campos especificados en esta configuración en un elemento de [!DNL Jira] o [!DNL Workfront], el elemento vinculado en la otra aplicación también se actualiza.
 
-## Resolución de problemas
+## Solución de problemas
 
 ### Los elementos no se pueden crear en [!DNL Jira] debido a los campos de déclencheur marcados &quot;[!UICONTROL No se pudo encontrar]&quot;
 
