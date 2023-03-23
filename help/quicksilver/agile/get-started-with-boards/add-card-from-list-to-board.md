@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Agregar tareas o problemas existentes a un tablero de Adobe Workfront
+title: Agregar tareas o problemas existentes a un tablero o flujo de trabajo de Adobe Workfront
 description: Puede agregar cualquier tarea o problema a un tablero en Adobe Workfront desde una lista o vista de informe.
 author: Lisa
 feature: Agile
-source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
+source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Puede añadir cualquier tarea o problema a un tablero o a un flujo de trabajo en [!DNL Adobe Workfront] de una lista o vista de informe.
+Puede añadir cualquier tarea o problema a un tablero o a un flujo de trabajo en [!DNL Adobe Workfront] desde una lista o vista de informe, o desde los detalles del objeto.
 
 ## Requisitos de acceso
 
@@ -43,36 +43,45 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Agregar tareas o problemas existentes a un tablero
+## Agregar tareas o problemas existentes a un tablero o a un flujo de trabajo de una lista
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
 1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Tableros]**.
-1. Vaya al proyecto, informe o panel que contenga la tarea o el problema que desee agregar al tablero.
+1. Vaya al proyecto, informe o panel que contenga la tarea o el problema que desee agregar al tablero o al flujo de trabajo.
 1. Seleccione una o varias tareas o problemas.
-1. Haga clic en [!UICONTROL **Más**] > [!UICONTROL **Agregar a tableros**].
-1. En el [!UICONTROL Agregar a] , seleccione el tablero al que desee agregar los elementos.
+1. Haga clic en [!UICONTROL **Más**] > [!UICONTROL **Agregar a tableros**] o [!UICONTROL **Agregar a flujos de trabajo**].
+1. En el [!UICONTROL Agregar a] , seleccione el tablero o flujo de trabajo al que desee agregar los elementos.
 
-   Con esta opción solo están disponibles los tableros independientes, no los tableros que forman parte de flujos de trabajo.
+   Para un tablero, solo están disponibles los tableros independientes, no los tableros que forman parte de flujos de trabajo.
 
 1. Haga clic en [!UICONTROL **Agregar**].
 
-   La tarea o el problema se añaden al tablero. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se agrega en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de admisión.
+   Para un tablero: La tarea o el problema se añaden al tablero. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se agrega en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de admisión.
 
    Para obtener información sobre las directivas de columna, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Agregar tareas o problemas existentes a un flujo de trabajo
+   Para un flujo de trabajo: La tarea o el problema se añaden a la lista de tarjetas del flujo de trabajo como una tarjeta no planificada.
+
+## Agregar tareas o problemas existentes a un tablero o a un flujo de trabajo desde los detalles del objeto
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
-1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Tableros]**.
-1. Vaya al proyecto, informe o panel que contenga la tarea o el problema que desee agregar al flujo de trabajo.
-1. Seleccione una o varias tareas o problemas.
-1. Haga clic en [!UICONTROL **Más**] > [!UICONTROL **Agregar a flujo de trabajo**].
-1. En el [!UICONTROL Agregar a] , seleccione el flujo de trabajo al que desea agregar los elementos.
+1. Haga clic en [!UICONTROL **Proyectos**] y, a continuación, haga clic en el nombre de un proyecto para abrirlo.
+1. Haga clic en [!UICONTROL **Tareas**] o [!UICONTROL **Problemas**] en el panel izquierdo.
+1. Haga clic en la tarea o el problema que desee agregar a un tablero o flujo de trabajo.
+1. Haga clic en el **[!UICONTROL Más]** junto al nombre del objeto y seleccione [!UICONTROL **Agregar a tableros**] o [!UICONTROL **Agregar a flujos de trabajo**].
+1. En el [!UICONTROL Agregar a] , seleccione el tablero o flujo de trabajo al que desee agregar los elementos.
+
+   Para un tablero, solo están disponibles los tableros independientes, no los tableros que forman parte de flujos de trabajo.
+
 1. Haga clic en [!UICONTROL **Agregar**].
 
-   La tarea o el problema se añaden a la lista de tarjetas del flujo de trabajo como una tarjeta no planificada.
+   Para un tablero: La tarea o el problema se añaden al tablero. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se agrega en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de admisión.
 
-## Mostrar los tableros asociados a una tarea o un problema
+   Para obtener información sobre las directivas de columna, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+   Para un flujo de trabajo: La tarea o el problema se añaden a la lista de tarjetas del flujo de trabajo como una tarjeta no planificada.
+
+## Mostrar los tableros asociados a una tarea o problema de una lista
 
 1. Vaya al proyecto, informe o panel que contenga la tarea o el problema para el que desee ver la información de los tableros.
 1. Seleccione una vista que incluya la columna Tableros o cree una nueva vista con la columna Tableros .
