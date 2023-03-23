@@ -3,28 +3,29 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: product-releases
-title: Información general sobre la actividad de Adobe Workfront Fusion
+title: Información general sobre la actividad de la versión de Adobe Workfront Fusion
 description: Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
+source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la actividad de Adobe Workfront Fusion
+# Información general sobre la actividad de la versión de Adobe Workfront Fusion
 
 Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
 
-Para obtener información sobre cómo utilizar Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Versiones recientes
 
 ### Marzo de 2023
 
+* [Actividad de la versión de Workfront Fusion: Semana del 20 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 6 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
 
 ### Diciembre de 2022
