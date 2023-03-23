@@ -4,9 +4,9 @@ description: 23.2 Mejoras ágiles
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 En esta página se describen todas las mejoras ágiles realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno Producción con la versión 23.2.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de versión 23.2, consulte [Resumen de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Agregar tareas y problemas de los detalles de los objetos a un tablero o flujo de trabajo de Workfront
+
+Ahora puede agregar tareas o problemas existentes a un tablero de Workfront o a una lista de tarjetas de flujo de trabajo directamente desde los detalles del objeto. Los elementos que agregue a un tablero se convertirán en tarjetas conectadas, y los elementos agregados a un flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.
+
+Para obtener más información, consulte [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Funcionalidad de iteración disponible en Adobe Workfront Boards
 
@@ -28,6 +34,8 @@ Hay varias funciones nuevas disponibles en los Workfront Boards que permiten uti
 Tenga en cuenta que se ha cambiado el nombre de las colecciones a flujos de trabajo. Los flujos de trabajo le ayudan a visualizar los datos de diferentes maneras. Puede mostrar elementos en tarjetas en una lista, en un tablero o en una iteración. Las tarjetas de un flujo de trabajo también se pueden compartir entre varios tableros. Puede facilitar fácilmente los flujos de trabajo mediante tarjetas y tableros en un flujo de trabajo.
 
 Para obtener más información, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)y [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Los dos segundos artículos no estarán disponibles en Principal hasta que publique mi rama.
+
+[Ver una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo
 

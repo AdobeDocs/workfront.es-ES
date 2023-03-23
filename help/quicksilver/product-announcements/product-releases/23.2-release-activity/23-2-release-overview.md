@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funcionalidad de iteración disponible en Adobe Workfront Boards</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de los detalles de los objetos a un tablero o flujo de trabajo de Workfront</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede agregar tareas o problemas existentes a un tablero de Workfront o a una lista de tarjetas de flujo de trabajo directamente desde los detalles del objeto. Los elementos que agregue a un tablero se convertirán en tarjetas conectadas, y los elementos agregados a un flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 23 de marzo de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Versión de producción: Con la versión 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funcionalidad de iteración disponible en Adobe Workfront Boards</a></p>
                         <p>Hay varias funciones nuevas disponibles en los Workfront Boards que permiten utilizar la funcionalidad Agile Scrum. Estas funciones incluyen:
                         <ul>
                         <li>Flujos de trabajo para agrupar tableros relacionados con el mismo equipo y colaborar en el trabajo</li>
@@ -138,7 +154,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo</a></p>
                         <p>Ahora puede agregar tareas o problemas existentes a un flujo de trabajo en los tableros de Workfront directamente desde una lista o vista de informe. Los elementos que agregue al flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -154,7 +170,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Añadir campos personalizados a tarjetas en un tablero</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Añadir campos personalizados a tarjetas en un tablero</a></p>
                         <p>Ahora puede incluir campos personalizados en los tableros de Adobe Workfront. El campo ya debe crearse en Workfront. No se pueden diseñar ni crear nuevos campos personalizados dentro de un tablero.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -484,7 +500,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para problemas beta<span style="color: #ff0000;"> Novedades de Vista previa</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para problemas beta</a>
                         <p>Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos. </p>
                         <p>Esta nueva experiencia unificará finalmente los comentarios en Adobe Workfront y más allá, en Adobe Experience Cloud. </p>
                     </td>
