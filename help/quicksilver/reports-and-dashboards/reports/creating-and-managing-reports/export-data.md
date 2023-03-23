@@ -6,9 +6,9 @@ description: 'Algunas de las razones para exportar datos son: EDITE ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ La información se puede exportar en los siguientes formatos:
 ### Límites de exportación {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Existen varias limitaciones en la forma en que se muestran los informes en Workfront, así como en la forma en que exportan a través de una exportación manual, un informe enviado o a través de la API.
@@ -106,9 +106,13 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
    * Para los archivos .xlsx de Excel, este límite es **100 000 filas**.
    * Estos límites excluyen los encabezados de columna, así como las filas para las agrupaciones en el informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas o datos, el archivo exportado tendrá 50 000 filas.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Si el informe tiene más elementos que estos límites, aparece un error que indica que la exportación no se ha realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número menor o igual que estos límites para poder exportar los resultados.
+   >Exportar un informe que incluya una referencia de recopilación dentro de una columna puede generar un error, incluso si el informe se encuentra dentro de los límites de exportación enumerados. Si la colección a la que se hace referencia es demasiado grande, se agota el tiempo de espera del proceso de exportación y, posteriormente, se produce un error.
+   >
+   >Para evitar este error, excluya las columnas que hacen referencia a colecciones grandes o reduzca el tamaño de las colecciones a las que se hace referencia antes de exportar.
+
+   Si el informe tiene más elementos que estos límites, aparece un error que indica que la exportación no se ha realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número menor o igual que estos límites para poder exportar los resultados.
 
    Si el informe tiene más de 50 000/ 65 000/ 100 000 filas y desea exportar todos los datos, le sugerimos que utilice filtros o mensajes para obtener cargas de datos menores y que realice varias exportaciones.
 
