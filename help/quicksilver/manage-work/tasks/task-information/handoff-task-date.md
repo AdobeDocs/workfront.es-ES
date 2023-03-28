@@ -7,10 +7,10 @@ description: La fecha de entrega es la fecha en la que una tarea está disponibl
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ Workfront utiliza las siguientes reglas para calcular la fecha de entrega de una
 
    Existen los siguientes escenarios:
 
-   * Cuando la tarea tiene una restricción de Debe comenzar el o No empezar antes de, la Fecha de entrega es la fecha de restricción, a menos que haya una Fecha de inicio real en la tarea. Si hay una Fecha de Inicio Real en la tarea, la Fecha de Entrega es la Fecha de Finalización Real del predecesor.
+   * Cuando la tarea tiene una restricción de Debe comenzar el o No iniciar antes de, la Fecha de entrega es la fecha de restricción, a menos que haya una Fecha de inicio real en la tarea. Si hay una Fecha de Inicio Real en la tarea, la Fecha de Entrega es la Fecha de Finalización Real del predecesor.
    * Cuando la tarea tiene una restricción de Must Finish On o Start No Later Than, la Fecha de entrega es siempre la Fecha de finalización real del predecesor, independientemente de si existe o no una Fecha de inicio real en la tarea.
    * Cuando la tarea tiene una restricción de Fechas fijas, la Fecha de entrega es la Fecha de inicio planificada de la tarea, independientemente de si tiene un predecesor o no y de si el predecesor se ha completado o no.
 
