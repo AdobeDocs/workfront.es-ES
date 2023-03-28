@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo en Workfront para complementos de Creative Cloud</a>
+                        <p>Hemos añadido los siguientes cambios a los complementos de Workfront para Creative Cloud:
+                        <ul>
+                        <li>El complemento ahora le notifica cuando una tarea tiene un predecesor</li>
+                        <li>El coreano es ahora un idioma admitido</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: N/D<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versión de producción: 23 de marzo de 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

@@ -6,9 +6,9 @@ description: Puede permanecer en las aplicaciones de Adobe Creative Cloud y comp
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 1. En el **[!UICONTROL Lista de trabajo]**, seleccione la tarea o el problema que desea marcar como completado.
 1. Haga clic en **[!UICONTROL Listo]**.\
-   Marca la finalización del elemento en Workfront.\
-   ![](assets/complete-work-350x529.png)
+   Marca la finalización del elemento en Workfront.
+
+   >[!NOTE]
+   >
+   >Si el elemento de trabajo tiene predecesores, el botón Listo aparece en gris hasta que los predecesores se marquen como Completos. Para ver las predecesoras dentro de [!DNL Workfront], haga clic en el nombre de la tarea.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
