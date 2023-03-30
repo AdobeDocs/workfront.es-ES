@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Creación de un proyecto mediante una plantilla
-description: Puede utilizar plantillas como marco para crear nuevos proyectos. Si tiene proyectos que se repiten con frecuencia, el uso de plantillas para la cronología general del nuevo proyecto evita tener que crear los mismos proyectos repetidamente.
+description: Puede utilizar plantillas como marco para crear proyectos. Si tiene proyectos que se repiten con frecuencia, el uso de plantillas para la cronología general del nuevo proyecto evita tener que crear los mismos proyectos repetidamente.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
+source-wordcount: '1104'
+ht-degree: 0%
 
 ---
 
 # Creación de un proyecto mediante una plantilla
 
-Puede utilizar plantillas como marco para crear nuevos proyectos. Si tiene proyectos que se repiten con frecuencia, el uso de plantillas para la cronología general del nuevo proyecto evita tener que crear los mismos proyectos repetidamente.
+Puede utilizar plantillas como marco para crear proyectos. Si tiene proyectos que se repiten con frecuencia, el uso de plantillas para la cronología general del nuevo proyecto evita tener que crear los mismos proyectos repetidamente.
 
-Las plantillas le proporcionan una forma de capturar todos los procesos, la información y la configuración repetibles asociados a sus proyectos. Toda la información asociada a una plantilla se transfiere al proyecto. Esto incluye tareas, asignaciones, duraciones, documentos, detalles financieros, riesgos y formularios personalizados.
+Las plantillas le proporcionan una forma de capturar procesos, información y configuraciones repetibles asociadas con sus proyectos. La información asociada a una plantilla se transfiere al proyecto. Esto incluye tareas, asignaciones, duraciones, documentos, detalles financieros, riesgos y formularios personalizados.
 
 >[!TIP]
 >
->El estado de un nuevo proyecto creado a partir de una plantilla se corresponde con el estado definido por el administrador de Workfront en el área principal de Preferencias del proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias del proyecto de un grupo. Para obtener información sobre cómo configurar las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configuración de las preferencias de un proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront define el grupo y el estado del nuevo proyecto de la siguiente manera:
+>
+>* El estado predeterminado de un nuevo proyecto creado a partir de una plantilla se corresponde con el estado definido por el administrador de Workfront en el área principal Preferencias del proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias del proyecto de un grupo. Para obtener información sobre cómo configurar las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configuración de las preferencias de un proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* El Grupo del nuevo proyecto es el Grupo de la plantilla. Si la plantilla no está asociada a un grupo, el grupo del proyecto es el grupo de inicio del usuario que crea el proyecto.
+>
+>* Los estados disponibles para un nuevo proyecto coinciden con los estados del Grupo del proyecto que es el Grupo de la plantilla o el Grupo Principal del usuario que crea el proyecto.
+
 
 Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
 
