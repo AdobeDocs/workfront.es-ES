@@ -6,9 +6,9 @@ description: Puede incrustar una página web externa en un tablero para proporci
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en la
 
 >[!IMPORTANT]
 >
->Las páginas de tablero ya no se admiten como páginas externas incorporadas en tableros. En concreto, los siguientes subdominios de Workfront.com ya no son compatibles:
+>Las páginas de tablero ya no se admiten como páginas externas incorporadas en tableros. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación a un tablero que incluya tal referencia no se podrá guardar hasta que la referencia se elimine o cambie.
+>
+>En concreto, los siguientes subdominios de Workfront.com ya no son compatibles:
 >
 >* /&#x200B; de tableros
 >* /dashboard/:&#x200B; de ID
@@ -44,7 +46,8 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en la
 >* /request/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Como solución alternativa, considere la posibilidad de incluir un informe de lista en su panel, tal como se explica en [Agregar un informe a un tablero](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Requisitos de acceso
 

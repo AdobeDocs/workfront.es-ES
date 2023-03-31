@@ -6,9 +6,9 @@ description: 'Algunas de las razones para exportar datos son: EDITE ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
 
    >[!IMPORTANT]
    >
-   >Exportar un informe que incluya una referencia de recopilación dentro de una columna puede generar un error, incluso si el informe se encuentra dentro de los límites de exportación enumerados. Si la colección a la que se hace referencia es demasiado grande, se agota el tiempo de espera del proceso de exportación y, posteriormente, se produce un error.
+   >Exportar un informe que incluya una referencia de recopilación dentro de una columna puede generar un error, incluso si el informe se encuentra dentro de los límites de exportación enumerados. Si la colección a la que se hace referencia es demasiado grande, el proceso de exportación agota el tiempo de espera y, posteriormente, provoca un error.
    >
    >Para evitar este error, excluya las columnas que hacen referencia a colecciones grandes o reduzca el tamaño de las colecciones a las que se hace referencia antes de exportar.
 
