@@ -7,22 +7,24 @@ description: Revise los artículos de estas áreas para aprender a utilizar Agil
 author: Lisa
 feature: Agile
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
 # Agile
 
+[!DNL Adobe Workfront] ofrece varias herramientas para ayudarle a definir flujos de trabajo ágiles. Los tableros son herramientas sencillas pero flexibles para la colaboración en equipo. Las herramientas de planificación ágiles heredadas incluyen un trabajo acumulado y un tablero de historias para los equipos Kanban o Scrum.
+
 Esta sección contiene las siguientes subsecciones:
 
-* [Información general de Agile](../agile/agile-overview.md)
 * [Información general sobre los tableros](../agile/boards-overview.md)
-* [Águila en proyectos](../agile/agile-in-projects/agile-in-projects.md)
-* [Introducción a Agile en [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Introducción a los tableros en [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Usar herramientas de planificación ágiles en tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [Información general de Agile](../agile/agile-overview.md)
+* [Introducción a Agile en [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban en un equipo ágil](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Anular en un equipo ágil](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Trabajar en un entorno ágil](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

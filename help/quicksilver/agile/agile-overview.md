@@ -7,9 +7,9 @@ description: Agile es una metodología de trabajo que permite a los equipos comp
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: ''
+source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -43,3 +43,7 @@ Para empezar a utilizar el ágil avanzado en Workfront:
 1. Agregue tareas de los proyectos al trabajo pendiente o al tablero de artículos del equipo.
 
    Para obtener más información, consulte [Administrar el trabajo atrasado ágil](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Agregue tareas o problemas existentes a [!UICONTROL Kanban] tablero](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)y [Añadir artículos a una iteración existente](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## Uso de Agile en un proyecto
+
+Puede aprovechar la funcionalidad ágil de su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas ágiles (como administrar un trabajo pendiente del equipo, crear iteraciones, etc.). Para obtener más información, consulte [Administrar un proyecto en la vista Águila](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
