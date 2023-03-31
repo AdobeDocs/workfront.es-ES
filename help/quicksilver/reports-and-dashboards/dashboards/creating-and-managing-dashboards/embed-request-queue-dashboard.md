@@ -6,9 +6,9 @@ description: Puede incrustar una nueva cola de solicitudes en un tablero para pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,9 +97,7 @@ Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de sol
 
    El código debe tener un aspecto similar al siguiente:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
    Este es el vínculo a la cola de solicitudes asociada al proyecto seleccionado. El tipo de solicitud está preseleccionado.
 
@@ -120,19 +118,15 @@ Cuando comparte un vínculo a un tipo de solicitud preseleccionado, el tipo de s
 
    El código debe tener un aspecto similar al siguiente:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Edite el código para conservar solo la información siguiente:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Puede conservar la variable `<samp>iframe </samp>` al incrustar el código en una aplicación que no sea Workfront.
+   >Puede añadir un `<samp>iframe </samp>` al incrustar el código en una aplicación que no sea Workfront.
 
    Este es el vínculo a la cola de solicitudes asociada al proyecto seleccionado. El tipo de solicitud está preseleccionado y no se puede cambiar.
 
@@ -156,7 +150,7 @@ Puede incrustar un vínculo a la cola de solicitudes o a un tema de cola anidado
    * **Nombre**: introduzca el nombre de la cola de solicitudes tal como desea que aparezca en el panel. Este campo es obligatorio.
 
    * **Descripción**: introduzca una descripción sobre la visualización de esta página externa. Este campo no es obligatorio y solo es importante para la generación de informes. No se muestra en el tablero.
-   * **URL**: pegue la dirección URL que ha obtenido utilizando uno de los métodos descritos en el paso 1.
+   * **URL**: pegue la dirección URL que obtuvo mediante uno de los métodos descritos en el paso 1.
 
       <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
