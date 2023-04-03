@@ -6,9 +6,9 @@ description: Puede editar un proyecto en Adobe Workfront tantas veces como sea n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 2%
 
 ---
@@ -323,6 +323,7 @@ Al seleccionar más de un proyecto para editarlo de forma masiva, se dan las sig
 * Si no tiene permisos de edición de formularios personalizados en al menos uno de los proyectos seleccionados, no puede editar los campos de ninguno de los formularios personalizados adjuntos. Solo puede ver los campos en los formularios personalizados adjuntos
 * Si tiene acceso de vista (y no de edición) a una sección de un formulario personalizado, no puede editar los campos de esa sección. Solo puede ver los campos de esa sección.
 * Si no tiene acceso a una sección de uno de los formularios personalizados adjuntos al menos a uno de los proyectos, la sección no se muestra en el cuadro Editar proyectos .
+* Si tiene campos obligatorios en cualquiera de los formularios personalizados adjuntos a todos los proyectos y selecciona un campo sin editarlo, debe descartar los cambios en ese campo o agregar información para poder guardar los proyectos seleccionados. Si no selecciona ningún campo obligatorio, puede guardar los proyectos seleccionados aunque el campo requerido esté vacío.
 
 Para obtener información sobre el acceso a formularios personalizados, consulte los siguientes artículos:
 

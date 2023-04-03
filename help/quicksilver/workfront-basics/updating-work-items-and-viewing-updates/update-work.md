@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ Añadir una actualización a un elemento de trabajo varía en función de la ver
 
 1. Busque el objeto que desea actualizar y haga clic en su nombre para abrir la página del objeto.
 1. Haga clic en  **Actualizaciones** en el panel izquierdo.
-1. Haga clic en **Pruebe el comentario Beta** en la esquina inferior derecha del área Actualizaciones y, a continuación, haga clic en **Aceptar** en el acuerdo Beta. Esto cambia el área Actualizaciones a la experiencia Beta de comentarios.
+1. Active la variable **Comentando beta** alterne en la esquina superior derecha del área Actualizaciones y haga clic en **Aceptar** en el acuerdo Beta. Esto cambia el área Actualizaciones a la experiencia Beta de comentarios.
 La variable **Comentarios** está seleccionada de forma predeterminada.
 1. Comience a introducir un comentario en el **Nuevo comentario** en la ventana
 
@@ -224,7 +224,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
 
 1. Haga clic en **Submit** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-menu.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
+1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
 
 ## Copiar información de actualización
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->No es posible copiar una actualización al utilizar la experiencia de comentarios beta.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Existen varias formas de copiar una actualización. Después de copiar un vínculo, puede compartir el vínculo con otros para dirigirlos a la actualización.
 
@@ -348,7 +349,7 @@ Esta opción copia el texto de una actualización específica en el portapapeles
 Esta opción copia el vínculo de subproceso completo en el portapapeles para que pueda compartir el subproceso con otros usuarios.
 
 1. Vaya al subproceso de actualización que desea copiar.
-1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso**.
+1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso** <span class="preview">o **Copiar vínculo** al utilizar la experiencia beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Esta opción copia el vínculo de subproceso completo en el portapapeles para qu
 Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
 
 1. Vaya a la actualización o a la respuesta que desee copiar.
-1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización**.
+1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización** <span class="preview">o **Copiar vínculo** al utilizar la experiencia beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -151,17 +151,12 @@ Esto abre la lista de objetivos.
    >
    >   <span class="preview">Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.</span>
 
-   <!-- <div class="preview">
-   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+   1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png)y, a continuación, haga clic en cualquiera de las siguientes opciones para copiar información de un comentario en el portapapeles:
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
-      * **Copy body text** to copy the text of an update. 
+      * **Copiar vínculo** para copiar el vínculo de una actualización, sin las respuestas.
+      * **Copiar texto del cuerpo** para copiar el texto de una actualización.
 
-         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
+         Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. Haga clic en **Submit**.
 
@@ -174,6 +169,7 @@ Esto abre la lista de objetivos.
    >El indicador &quot;Nuevo&quot; solo se muestra cuando tanto el usuario que ha introducido una nueva actualización como el usuario que está introduciendo una actualización están utilizando la nueva experiencia de comentarios.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">(Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado. </span>
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-9 anteriores. <!--insure this stays accurate-->
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

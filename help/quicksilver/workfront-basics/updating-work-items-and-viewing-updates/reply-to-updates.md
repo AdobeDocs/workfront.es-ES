@@ -6,9 +6,9 @@ description: Cuando alguien agrega o responde a una actualización de un objeto 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,14 +109,11 @@ La respuesta a un comentario o respuesta difiere según la experiencia y el obje
 
 1. Empiece a escribir su respuesta y utilice cualquier opción adicional de la barra de herramientas Texto enriquecido. Para obtener información sobre el uso de texto enriquecido, consulte la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; en [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Haga clic en **Submit** para guardar la respuesta.
 
+1. (Opcional) Haga clic en el **Más** menú ![](assets/more-menu.png) junto a la actualización para obtener más opciones para administrar la respuesta. Para obtener más información, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## Responder a una actualización mediante notificación por correo electrónico
 
