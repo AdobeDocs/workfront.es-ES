@@ -5,9 +5,9 @@ title: Carga de documentos desde Illustrator
 description: Puede cargar los tableros de arte como documentos para una revisión y aprobación rápidas o simplemente para almacenarlos en Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
 
 1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
-1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
-1. Haga clic en **[!UICONTROL Cargar]**y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
+1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
+1. Abra el **[!UICONTROL Definir configuración de archivo de exportación]** a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
+
+   ![](assets/file-export-settings.png)
+1. Haga clic en **[!UICONTROL Cargar]**.
 El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.

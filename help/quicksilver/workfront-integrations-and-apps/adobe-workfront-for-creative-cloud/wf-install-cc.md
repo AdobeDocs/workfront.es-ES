@@ -6,9 +6,9 @@ description: Puede instalar el complemento de Workfront para Creative Cloud desd
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -74,17 +74,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para instalar el [!DNL Adobe Workfront for design and video] complemento:
 
-1. Abra el [!DNL Adobe Creative Cloud] aplicación.
-1. Haga clic en el **[!UICONTROL Marketplace]** cerca de la parte superior de la ventana.
-1. En el **[!UICONTROL Buscar todos los complementos]** cuadro, tipo *Workfront* y, a continuación, pulse **[!UICONTROL Entrar]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for design and video] aparece en los resultados de la búsqueda, haga clic en **[!UICONTROL Get]**.
+1. Vaya a la [Página de instalación de Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) en el Adobe Exchange.
+1. En el cuadro de diálogo que aparece, haga clic en **Apertura [!DNL Adobe Creative Cloud] aplicación de escritorio**.
+1. Una vez [!DNL Adobe Creative Cloud] se abre el administrador de complementos, haga clic en **[!UICONTROL Instalar]**.
 1. Lea la información del cuadro de diálogo y haga clic en **[!UICONTROL OK]**.
 1. Una vez que el complemento esté instalado, abra el [!DNL Creative Cloud] aplicación que necesita y busque el complemento de Workfront en el panel del complemento.
-
-   <!-- new screen -->
 
 1. Continúe con la siguiente sección para obtener información sobre cómo abrir el complemento.
 

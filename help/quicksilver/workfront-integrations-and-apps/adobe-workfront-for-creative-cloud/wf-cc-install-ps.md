@@ -6,9 +6,9 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -64,13 +64,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 >Si es [!DNL Adobe Admin Console] administrador, puede incluir el complemento en [!DNL Creative Cloud] paquetes de implementación. Para obtener más información, consulte [Inclusión de complementos en el paquete](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Abra el [!DNL Adobe Creative Cloud] aplicación.
-1. Haga clic en el **[!UICONTROL Marketplace]** cerca de la parte superior de la ventana.
-1. En el **[!UICONTROL Buscar todos los complementos]** cuadro, tipo *Workfront* y, a continuación, pulse **[!UICONTROL Entrar]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Cuando aparezca el complemento Adobe Workfront for Photoshop en los resultados de la búsqueda, haga clic en **[!UICONTROL Get]**.
+1. Vaya a la [Página de instalación de Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) en el Adobe Exchange.
+1. En el cuadro de diálogo que aparece, haga clic en **Apertura [!DNL Adobe Creative Cloud] aplicación de escritorio**.
+1. Una vez [!DNL Adobe Photoshop] se abre el administrador de complementos, haga clic en **[!UICONTROL Instalar]**.
 1. Lea la información del cuadro de diálogo y haga clic en **[!UICONTROL OK]**.
 
 1. Continúe con la siguiente sección para obtener información sobre cómo abrir el complemento.
@@ -97,7 +93,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En el **[!UICONTROL Complementos]** en la parte superior de la pantalla, seleccione **[!UICONTROL Panel de complementos]**.
 1. Seleccionar **[!DNL Adobe Workfront for Photoshop]**.
-1. Introduzca su dominio y haga clic en **[!UICONTROL Iniciar sesión]**. Se abre una página del explorador.
+1. Introduzca su dominio y haga clic en **[!UICONTROL Iniciar sesión]**. Se abre una página del explorador. Puede que tenga que dar permiso a Photoshop para abrir el explorador.
 
    >[!TIP]
    >
