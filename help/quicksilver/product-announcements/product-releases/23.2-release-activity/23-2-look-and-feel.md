@@ -4,9 +4,9 @@ description: Actualizaciones de apariencia durante el lapso de tiempo de la vers
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 2%
 En esta página se describen actualizaciones menores del aspecto de varias áreas de la aplicación Adobe Workfront realizadas dentro del marco temporal de la versión 23.2. Estas mejoras estarán disponibles en el entorno Producción al menos 2 semanas después de su publicación en Vista previa.
 
 Para obtener una lista de todos los cambios disponibles con la versión 23.2, consulte [Resumen de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Actualizaciones de la apariencia de la lista Borradores en el área Solicitudes
+
+>[!NOTE]
+>
+>Versión de vista previa: 4 de abril de 2023; Versión de producción planificada: 18 de abril de 2023
+
+Hemos actualizado la lista Borradores del área Solicitudes para que sea coherente con las listas más recientes de Workfront.
+Algunas de las actualizaciones son las siguientes:
+
+* Se ha sustituido el filtro &quot;Filtrar por tipo de solicitud&quot; por el filtro rápido estándar
+* Se ha eliminado la imagen de la lista Borradores cuando la lista no contiene solicitudes
+* Se ha añadido la paginación y la ordenación de columnas a la lista.
+
+Para obtener más información, consulte [Crear solicitudes a partir de borradores](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Selección de usuarios inteligente disponible en áreas adicionales de Workfront
 
