@@ -6,14 +6,16 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
 
 # Crear solicitudes a partir de borradores
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 Además de utilizar los borradores disponibles que Workfront le sugiere cuando introduce una nueva solicitud, también puede acceder a una solicitud de borrador de la sección Borradores y terminar de enviarla desde allí.
 
@@ -53,11 +55,13 @@ Debe hacer lo siguiente antes de crear una solicitud a partir de un borrador: 
 ## Crear solicitudes a partir de borradores
 
 1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront.
-1. Haga clic en **Solicitudes** > **Borradores**.
+1. Haga clic en **Solicitudes** > **Borradores**.
 
    En esta lista se muestra un borrador para cada tema de cola de cada cola de solicitud.
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+
+1. <span class="preview">(Opcional) Haga clic en el encabezado de una columna para ordenar la lista por esa columna.</span>
 
 1. Revise la información sobre cada borrador en las siguientes columnas de la lista Borradores:
 
@@ -69,8 +73,7 @@ Debe hacer lo siguiente antes de crear una solicitud a partir de un borrador: 
 
    {style="table-layout:auto"}
 
-1. (Opcional) Haga clic en **Filtrar por tipo de solicitud** en la esquina superior derecha de la lista de borradores, seleccione la cola de solicitudes que contiene los borradores que desea mostrar.
-1. Haga clic en el nombre de un borrador para abrirlo.
+1. <span class="preview">(Opcional) Con el filtro rápido en la esquina superior derecha de la lista Borradores, empiece a escribir el nombre de una solicitud redactada, una cola de solicitudes, un tema de cola o un grupo de temas y, a continuación, haga clic en el nombre de un borrador para abrirlo. </span>
 1. Actualice la información de la solicitud tal como se describe en [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional y condicional) En cualquier momento durante la introducción de la solicitud, haga clic en **Descartar** borrador si desea eliminar el borrador. Esto elimina el borrador que no se puede recuperar. Para obtener más información sobre la eliminación de borradores, consulte [Eliminar un borrador de solicitud](../../../manage-work/requests/create-requests/delete-request-draft.md).
 

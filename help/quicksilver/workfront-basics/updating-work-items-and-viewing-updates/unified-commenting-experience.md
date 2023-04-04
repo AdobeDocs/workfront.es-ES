@@ -5,9 +5,9 @@ title: Experiencia de comentarios unificada
 description: La nueva experiencia unificada de comentarios
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ La nueva experiencia de comentarios se admite actualmente para los siguientes ob
 Para habilitar la nueva experiencia de comentarios beta:
 
 1. Vaya a un objeto para el que desee activar la nueva experiencia de comentarios y, a continuación, haga clic en **Actualizaciones** en el panel izquierdo.
-1. Haga clic en **Pruebe la beta de comentarios** en la esquina inferior derecha del área Actualizaciones .
+1. Active la variable **Comentando beta** en la esquina superior derecha del área Actualizaciones.
 1. Haga clic en **Aceptar** en el cuadro de acuerdo beta. Esto habilita la nueva experiencia de comentarios para el objeto seleccionado.
 1. Comience a escribir una actualización en la **Comentarios** pestaña . La pestaña Comentarios debe ser la pestaña predeterminada cuando se abra la nueva experiencia
 

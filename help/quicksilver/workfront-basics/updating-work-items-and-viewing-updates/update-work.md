@@ -6,7 +6,7 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
    >[!TIP]
    >
    >   Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.
+
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 4-7 anteriores. <!--(**************insure this stays accurate***********)-->. Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png). El icono se actualiza con el número de &quot;Me gusta&quot;.
 1. (Condicional y Opcional) Si ha incluido otras personas en el comentario, haga clic en el número de miembros incluidos en la actualización para mostrar una lista de entidades con las que se comparte el comentario que ha introducido.
@@ -349,7 +350,12 @@ Esta opción copia el texto de una actualización específica en el portapapeles
 Esta opción copia el vínculo de subproceso completo en el portapapeles para que pueda compartir el subproceso con otros usuarios.
 
 1. Vaya al subproceso de actualización que desea copiar.
-1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso** <span class="preview">o **Copiar vínculo** al utilizar la experiencia beta</span>.
+
+1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso**
+
+   o
+
+   <span class="preview">**Copiar vínculo** al utilizar la experiencia beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Esta opción copia el vínculo de subproceso completo en el portapapeles para qu
 Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
 
 1. Vaya a la actualización o a la respuesta que desee copiar.
-1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización** <span class="preview">o **Copiar vínculo** al utilizar la experiencia beta</span>.
+1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización**
+
+   o
+
+   <span class="preview">**Copiar vínculo** al utilizar la experiencia beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Ningún usuario de Workfront (incluido el administrador de Workfront) puede elim
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. En el mensaje que aparece, haga clic en **Confirmar** <span class="preview">o **Eliminar**</span>, en la experiencia beta de comentarios.
+1. En el mensaje que aparece, haga clic en **Confirmar**
+
+   o
+
+   <span class="preview"> **Eliminar**, en la experiencia beta de comentarios</span>.
 
 >[!NOTE]
 >
