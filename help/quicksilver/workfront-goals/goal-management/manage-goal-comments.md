@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Puede agregar comentarios a todos los objetivos que puede ver en los objetivos de Adobe Workfront.
 
@@ -140,16 +140,15 @@ Esto abre la lista de objetivos.
    >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario se mantiene en modo borrador incluso después de cerrar la sesión y volver a iniciarla. Los comentarios borrados solo son visibles para el usuario que los introduce.
 
 1. (Opcional) En la **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario, o un equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando aparezca en la lista.
-1. <span class="preview">(Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**. </span>
-1. <span class="preview">Edite la información del comentario o elimine cualquiera de los usuarios etiquetados. </span>
+1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
+1. Edite la información del comentario&lt;<!--, or remove any of the tagged users-->.
+Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
-   <span class="preview">Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.</span>
+   > Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.
 
    1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png)y, a continuación, haga clic en cualquiera de las siguientes opciones para copiar información de un comentario en el portapapeles:
 
@@ -169,7 +168,7 @@ Esto abre la lista de objetivos.
    >El indicador &quot;Nuevo&quot; solo se muestra cuando tanto el usuario que ha introducido una nueva actualización como el usuario que está introduciendo una actualización están utilizando la nueva experiencia de comentarios.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">(Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado. </span>
+1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado.
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-9 anteriores. <!--insure this stays accurate-->
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

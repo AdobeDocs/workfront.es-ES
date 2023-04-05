@@ -6,9 +6,9 @@ description: Los grupos de recursos son colecciones de usuarios que ayudan a adm
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Para asociar grupos de recursos con varios proyectos en masa:
 
    >[!NOTE]
    >
-   >* En el entorno Producción, cuando edita proyectos o plantillas de forma masiva, solo los grupos de recursos comunes a todos los proyectos o plantillas seleccionados aparecen en este campo. Si los proyectos seleccionados no tienen grupos de recursos compartidos, este campo estará vacío. Los grupos de recursos que especifique aquí sobrescribirán los grupos de recursos individuales de los proyectos o plantillas.
+   >* Cuando edita plantillas de forma masiva, solo aparecen en este campo los grupos de recursos comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen grupos de recursos compartidos, este campo está vacío. Los grupos de recursos que especifique aquí sobrescriben los grupos de recursos individuales de los proyectos o plantillas.
    >
-   >* <span class="preview">En el entorno de Vista previa, cuando edita proyectos de forma masiva, hay un indicador de &quot;Valores múltiples&quot; si los proyectos seleccionados tienen grupos de recursos diferentes. Si agrega grupos de recursos de forma masiva, todos los grupos se agregarán al proyecto seleccionado, sobrescribiendo los grupos de recursos originales.</span>
+   >* Cuando edita proyectos de forma masiva, aparece un indicador &quot;Valores múltiples&quot; si los proyectos seleccionados tienen grupos de recursos diferentes. Si agrega grupos de recursos de forma masiva para proyectos, todos los grupos se agregan al proyecto seleccionado, sobrescribiendo los grupos de recursos originales.</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

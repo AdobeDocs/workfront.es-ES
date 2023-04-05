@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Personalización de la vista Detalles mediante una plantilla de diseño
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para determinar qué información aparece cuando un usuario hace clic en el icono Detalles ![](assets/project-details-icon.png) en el panel izquierdo mientras ve una tarea, un problema, un documento, un programa o un portafolio.
 
@@ -38,9 +38,9 @@ Los cambios que realice en la vista Detalles de un objeto también determinan la
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">Las pantallas &quot;Editar objetos&quot; cuando se editan proyectos de forma masiva, como Editar proyectos</span>
+* Editar objetos cuando edita objetos de forma masiva. Actualmente, se admite para editar proyectos de forma masiva.
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Resumen ![](assets/summary-panel-icon.png) panel para listas de tareas y problemas

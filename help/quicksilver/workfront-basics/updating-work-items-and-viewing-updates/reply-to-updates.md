@@ -6,9 +6,9 @@ description: Cuando alguien agrega o responde a una actualización de un objeto 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Puede acceder al nuevo diseño para los siguientes objetos:
-> * <span class="preview">Problemas, al activar el comentario Beta. </span>
+> * Problemas, al activar el comentario Beta.
    >
-   >     <span class="preview">Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:</span>
+   >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:
    >
-   >     * <span class="preview">Página de inicio</span>
-   >     * <span class="preview">Panel Resumen en listas</span>
-   >     * <span class="preview">Panel Resumen en hojas de horas</span>
+   >     * Página de inicio
+   >     * Panel Resumen en listas
+   >     * Panel Resumen en hojas de horas
 >
 > * Metas
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ La respuesta a un comentario o respuesta difiere según la experiencia y el obje
 1. (Opcional) Use formato, emojis, vínculos de inclusión o imágenes como se explica en la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; del artículo [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Haga clic en **Responder** para guardar la respuesta.
 
-<div class="preview">
-
 ### Responder a un comentario al utilizar la experiencia beta de comentarios
 
 1. Vaya al objeto al que desee añadir una respuesta.
@@ -113,7 +112,6 @@ La respuesta a un comentario o respuesta difiere según la experiencia y el obje
 
 1. (Opcional) Haga clic en el **Más** menú ![](assets/more-menu.png) junto a la actualización para obtener más opciones para administrar la respuesta. Para obtener más información, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## Responder a una actualización mediante notificación por correo electrónico
 

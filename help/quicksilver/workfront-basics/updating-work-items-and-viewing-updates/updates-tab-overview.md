@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->Actualmente estamos rediseñando la sección Actualizaciones de un objeto.
->
+>Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
 >Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Puede acceder al nuevo diseño desde los siguientes objetos y en los siguientes entornos:
+>Puede acceder al nuevo diseño para los siguientes objetos:
+> * Problemas, al activar el comentario Beta.
+   >
+   >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:
+   >
+   >     * Página de inicio
+   >     * Panel Resumen en listas
+   >     * Panel Resumen en hojas de horas
 >
->* <span class="preview">Cuando activa la experiencia de comentarios beta para los siguientes objetos:</span>
-   >
-   >     * <span class="preview">Problemas</span>
-
-   >     
-   >     <span class="preview">Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:</span>
-   >
-   >     * <span class="preview">Página de inicio</span>
-   >     * <span class="preview">Panel Resumen en listas</span>
-   >     * <span class="preview">Panel Resumen en hojas de horas</span>
->
->* De forma predeterminada, como la experiencia de comentarios actual para los siguientes objetos:
-   >
-   >     * Metas
+> * Metas
 
    >
-   >     Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios hacen en las actualizaciones de objeto o del sistema que realizan un seguimiento de los cambios en el objeto.
@@ -116,7 +111,7 @@ Actualmente, puede realizar comentarios y responder a las actualizaciones median
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Problemas</span></li> 
+     <li>Problemas</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Por ejemplo, cuando agrega una actualización a una tarea, la actualización apa
 >
 >Para obtener información sobre la jerarquía de objetos en Adobe Workfront, consulte [Explicación de los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> No es posible responder a las actualizaciones del sistema en la nueva experiencia Beta de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> No es posible responder a las actualizaciones del sistema en la nueva experiencia Beta de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Limitaciones de la sección Actualizaciones
 

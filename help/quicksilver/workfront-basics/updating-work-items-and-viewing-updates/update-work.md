@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Puede acceder al nuevo diseño para los siguientes objetos:
-> * <span class="preview">Problemas, al activar el comentario Beta. </span>
+> * Problemas, al activar el comentario Beta.
    >
-   >     <span class="preview">Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:</span>
+   >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:
    >
-   >     * <span class="preview">Página de inicio</span>
-   >     * <span class="preview">Panel Resumen en listas</span>
-   >     * <span class="preview">Panel Resumen en hojas de horas</span>
+   >     * Página de inicio
+   >     * Panel Resumen en listas
+   >     * Panel Resumen en hojas de horas
 >
 > * Metas
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Para obtener información sobre cómo comentar objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ Añadir una actualización a un elemento de trabajo varía en función de la ver
 
 1. Para responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Agregar una actualización a un elemento de trabajo mediante la experiencia beta de comentarios
 
 1. Busque el objeto que desea actualizar y haga clic en su nombre para abrir la página del objeto.
@@ -224,7 +223,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
 
 1. Haga clic en **Submit** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-menu.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Editar la información en el comentario <!--or remove any of the tagged users-->.
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
    >
    >No puede agregar un comentario a una actualización del sistema.
 
-</div>
 
 ## Usar texto enriquecido en una actualización de Workfront
 
@@ -318,7 +316,7 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
    >* Las imágenes solo son accesibles desde la ficha Actualizaciones de un objeto y no están disponibles en la ficha Documentos.
    >* Puede enviar una actualización con una imagen sin texto.
 
-1. Haga clic en **Actualizar**  <span class="preview">o **Submit**</span>, en la experiencia beta de comentarios.
+1. Haga clic en **Actualizar**  o **Submit**, al utilizar la experiencia beta de comentarios.
 
 
 ## Copiar información de actualización
@@ -351,11 +349,7 @@ Esta opción copia el vínculo de subproceso completo en el portapapeles para qu
 
 1. Vaya al subproceso de actualización que desea copiar.
 
-1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso**
-
-   o
-
-   <span class="preview">**Copiar vínculo** al utilizar la experiencia beta</span>.
+1. Haga clic en el **Más** a continuación, haga clic en **Copiar vínculo de subproceso** o **Copiar vínculo**, al usar la experiencia Beta.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Esta opción copia el vínculo de subproceso completo en el portapapeles para qu
 Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
 
 1. Vaya a la actualización o a la respuesta que desee copiar.
-1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización**
-
-   o
-
-   <span class="preview">**Copiar vínculo** al utilizar la experiencia beta</span>.
+1. Haga clic en el **Más** junto a la actualización individual y, a continuación, haga clic en **Copiar vínculo de actualización** o **Copiar vínculo**, al usar la experiencia Beta.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Ningún usuario de Workfront (incluido el administrador de Workfront) puede elim
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. En el mensaje que aparece, haga clic en **Confirmar**
-
-   o
-
-   <span class="preview"> **Eliminar**, en la experiencia beta de comentarios</span>.
+1. En el mensaje que aparece, haga clic en **Confirmar** o **Eliminar**, al utilizar la experiencia beta de comentarios.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Ningún usuario de Workfront (incluido el administrador de Workfront) puede elim
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">No es posible desactivar las actualizaciones del sistema al utilizar la experiencia de comentarios beta. </span>
-><span class="preview">La información de esta sección se refiere únicamente a las funciones disponibles en la sección Actualizaciones actuales. </span>
-><span class="preview">Para obtener más información sobre las actualizaciones del sistema en la versión beta, consulte [Información general sobre la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>No es posible desactivar las actualizaciones del sistema al utilizar la experiencia de comentarios beta.
+>La información de esta sección se refiere únicamente a las funciones disponibles en la sección Actualizaciones actuales.
+>Para obtener más información sobre las actualizaciones del sistema en la versión beta, consulte [Información general sobre la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 La sección Actualizaciones de un objeto Workfront muestra dos tipos de información:
