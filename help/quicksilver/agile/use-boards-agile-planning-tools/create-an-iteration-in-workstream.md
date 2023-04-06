@@ -6,9 +6,9 @@ title: Creación de una iteración en un flujo de trabajo
 description: Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos ágiles pueden referirse a una iteración como un sprint.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Una vez iniciada una iteración, solo puede cambiar el nombre de la iteración.
 
+## Eliminar una iteración
+
+1. Haga clic en el [!UICONTROL **Lista de tarjetas**] en el flujo de trabajo y abra la vista de iteración.
+1. Haga clic en el **Eliminar** junto a la iteración.
+1. Haga clic en [!UICONTROL **Eliminar iteración**] en el mensaje de confirmación.
