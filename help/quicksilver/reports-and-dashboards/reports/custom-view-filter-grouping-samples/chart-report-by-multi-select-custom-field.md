@@ -7,16 +7,16 @@ description: No se puede graficar un informe mediante un campo personalizado de 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Gráfico de un informe mediante un campo personalizado de selección múltiple
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 No se puede graficar un informe mediante un campo personalizado de selección múltiple. Se debe crear un campo calculado adicional que haga referencia al campo personalizado de selección múltiple para que también se muestre el informe según el valor del campo personalizado de selección múltiple.
 
@@ -109,7 +109,7 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
    >[!NOTE]
    >
-   ><span class="preview">Esta opción se ha eliminado de la edición de proyectos de forma masiva en el entorno de vista previa.  Puede volver a calcular las expresiones de los proyectos de forma masiva haciendo clic en **Más** ![](assets/more-icon-45x33.png) en la parte superior de una lista de proyectos, **Volver a calcular expresiones**. </span>
+   >Esta opción se ha eliminado de la edición de proyectos de forma masiva.  Puede volver a calcular expresiones para proyectos de forma masiva haciendo clic en el botón **Más** icono ![](assets/more-icon-45x33.png) en la parte superior de una lista de proyectos, **Volver a calcular expresiones**.
 
 
 1. Vaya al informe donde desee agregar el gráfico para el campo calculado que hace referencia al campo personalizado de selección múltiple.

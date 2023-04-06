@@ -5,16 +5,14 @@ description: Puede utilizar un informe de valoración para medir cómo se alinea
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Aplicar un informe de valoración a un proyecto y generar una puntuación de alineación
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
 
 Puede utilizar un informe de valoración para medir cómo se alinea un proyecto con los criterios establecidos anteriormente para un portafolio. Un informe de valoración a menudo refleja la misión, los valores y los objetivos estratégicos de una organización.
 
@@ -95,17 +93,20 @@ Para aplicar un informe de valoración a un proyecto:
 
    El informe de valoración ahora está asociado al proyecto y se clasifica el proyecto.
 
-1. (Condicional) Cuando se producen cambios en los valores de las preguntas del informe de valoración, debe volver a calcular el informe de valoración para que refleje los nuevos valores de la puntuación del proyecto. Para volver a calcular el informe de valoración, haga lo siguiente:
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Vaya a una lista de proyectos y seleccione todos los proyectos de la lista.
-   1. Haga clic en el **Editar** en la parte superior de la lista.
-   1. Haga clic en **Configuración** en el panel izquierdo y, a continuación, marque la **Volver a calcular los informes de valoración** al final del área Configuración .
-   1. Haga clic en Guardar. Esto vuelve a calcular el valor de puntuación en función de los informes de valoración adjuntos a todos los proyectos seleccionados.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">La opción para volver a calcular los informes de valoración se ha eliminado del entorno de vista previa al editar proyectos de forma masiva. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Generar una puntuación de alineación
 

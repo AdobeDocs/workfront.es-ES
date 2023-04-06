@@ -6,16 +6,16 @@ description: Se puede actualizar el orden en que aparecen los formularios person
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # Administrar formularios personalizados adjuntos a objetos
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Se puede actualizar el orden en que aparecen los formularios personalizados adjuntos a un objeto, eliminarlos o editarlos de forma masiva para mostrar los formularios personalizados en varios objetos.
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Para obtener información sobre la administración de formularios personalizados en proyectos de forma masiva en el entorno de vista previa, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>La administración de formularios personalizados a objetos es idéntica para todos los objetos excepto para los proyectos.
+>
+>Para obtener información sobre cómo agregar formularios personalizados a proyectos de forma masiva, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 Cuando se editan objetos por lotes que tienen varios formularios personalizados aplicados, se puede editar la forma en que se muestran los formularios personalizados en esos objetos, así como editar campos comunes en los formularios personalizados.
 
