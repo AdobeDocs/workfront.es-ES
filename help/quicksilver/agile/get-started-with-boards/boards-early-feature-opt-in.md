@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   </tr>
   <tr>
    <td>Tarjetas de solo vista en la columna de admisión</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Asignar el campo Estimación de la tarjeta al campo Puntos de artículo de la tarea</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Crear flujos de trabajo y agregar tableros a flujos de trabajo</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Crear iteraciones</td>
-   <td>Publicado parcialmente (disponible en Vista previa)</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Definir la lista de tarjetas o el trabajo atrasado</td>
-   <td>Publicado parcialmente (disponible en Vista previa)</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Importar subtareas como elementos de la lista de comprobación en tarjetas</td>
@@ -142,19 +142,31 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   </tr>
   <tr>
    <td>Personalización de la visualización de campos en una tarjeta</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>  
   <tr>
    <td>Definir un estado predeterminado para las tarjetas movidas a columnas</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Registro de horas en tarjetas conectadas</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Añadir campos personalizados a tarjetas conectadas</td>
-   <td>Publicado parcialmente (disponible en Vista previa)</td>
+   <td>Publicado</td>
+  </tr>
+  <tr>
+   <td>Definir notificaciones por correo electrónico para tableros</td>
+   <td>Planificados</td>
+  </tr>
+  <tr>
+   <td>Migración de tarjetas Kanban heredadas a tableros</td>
+   <td>Planificados</td>
+  </tr>
+  <tr>
+   <td>Crear tableros dinámicos</td>
+   <td>Planificados</td>
   </tr>
  </tbody> 
 </table>

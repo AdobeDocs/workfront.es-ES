@@ -6,7 +6,7 @@ description: Puede agregar rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo de [!DNL Adobe Wo
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimación]</strong></td> 
-      <td><p>Escriba el número estimado de horas para completar la tarjeta. Esta es una entrada manual solamente.</p></td>
+      <td>Escriba el número estimado de horas para completar la tarjeta. Esta es una entrada manual solamente.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Fecha de vencimiento]</strong></td> 

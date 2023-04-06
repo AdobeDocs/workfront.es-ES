@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    ![Columna de entrada](assets/intake-column-added3.png)
 
    Las tarjetas de la columna de admisión no se pueden editar hasta que se mueven a otras columnas de la placa. Puede hacer clic en la tarjeta para abrirla en una vista de solo lectura o hacer clic en ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir la tarea o el problema en una nueva pestaña del navegador.
-
-   >[!NOTE]
-   >
-   >La vista de solo lectura para tarjetas de la columna de admisión solo está disponible a través de la opción de inclusión de la función anterior de [!DNL Workfront] [!UICONTROL Tableros].
 
    Puede reordenar manualmente los elementos de la columna de admisión.
 

@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Si utiliza el límite de WIP en una columna, no se agregará un contador de tarj
 
       También se muestran las opciones de traducción del estado de las tarjetas conectadas. (La traducción del estado no se aplica a las tarjetas ad hoc). Estas opciones determinan el estado personalizado que se aplica a la tarea o al problema en [!DNL Workfront] cuando se mueve una tarjeta conectada a esta columna.
 
-   1. Si está utilizando la opción de inclusión inicial de la función: Seleccione un [!UICONTROL **Personalizado**] para aplicar a la tarjeta las tareas y los problemas.
+   1. Seleccione un [!UICONTROL **Personalizado**] para aplicar a la tarjeta las tareas y los problemas.
 
-      Cuando se mueve una tarjeta a esta columna, [!DNL Workfront] primero intenta aplicar el estado personalizado (por ejemplo, Resuelto). Si el estado personalizado seleccionado no está disponible para esa tarjeta, se le pedirá que elija otro estado que corresponda al estado del sistema (del paso b anterior).
+      Cuando se mueve una tarjeta a esta columna, [!DNL Workfront] primero intenta aplicar el estado personalizado (por ejemplo, Resuelto). Si el estado personalizado seleccionado no está disponible para esa tarjeta, se le pedirá que elija otro estado que corresponda al estado del sistema (del paso b anterior). Para obtener más información sobre los estados, consulte [Resumen de los estados](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Además, si el estado de la tarea o problema conectado se cambia al estado personalizado o del sistema establecido en la directiva de columna, la tarjeta se mueve automáticamente a la columna .
-
-      >[!NOTE]
-      >
-      >La configuración de un estado personalizado predeterminado para la columna solo está disponible a través de la inclusión de la función anterior. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Si no utiliza la opción de inclusión inicial de la función: Seleccione un estado para las tareas y un estado para los problemas. Solo el valor predeterminado [!DNL Workfront] los estados están disponibles, no los personalizados.
-
-      >[!NOTE]
-      >
-      >Si utiliza estados personalizados en [!DNL Workfront], la primera vez que mueva una tarjeta conectada a esta columna se le pedirá que elija un estado. Por ejemplo, si el proyecto conectado tiene varios tipos de estado a los que corresponden todos [!UICONTROL Completado], debe elegir qué estado utilizar en [!DNL Workfront]. Puede establecer su opción como predeterminada para que no tenga que realizar la selección cada vez que mueva una tarjeta a la columna.
-      >Para obtener más información sobre los estados, consulte [Resumen de los estados](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Opcional) Establezca un valor para los asignadores de tarjetas:
 

@@ -6,9 +6,9 @@ description: Puede registrar el tiempo para los elementos de trabajo en &nbsp;Ad
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Para obtener más información, consulte [Resumen](../../workfront-basics/the-ne
 ![](assets/summary-hour-log.png)
 
 ### Tableros {#boards}
-
->[!NOTE]
->
->Esta función solo está disponible a través de la opción de inclusión de las funciones iniciales para Workfront Board.
 
 Puede iniciar sesión en tarjetas conectadas en un tablero de Workfront. Este es el mismo proceso que iniciar sesión en una tarea o problema, y las horas registradas en la tarjeta se guardan en la tarea o problema conectado.
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
