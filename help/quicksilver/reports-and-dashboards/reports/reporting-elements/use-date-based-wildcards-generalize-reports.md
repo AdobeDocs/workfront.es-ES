@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utilice caracteres comodín basados en datos para generalizar informes
 description: Puede generalizar un informe utilizando caracteres comodín en lugar de información específica al crear ciertos elementos de informes.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%

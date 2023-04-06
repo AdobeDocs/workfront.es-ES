@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modificar el ancho y el orden de las columnas
 description: Lea este artículo para obtener más información sobre las directrices de anchura de columna y cómo cambiar el ancho y el orden de las columnas en Workfront.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: ''
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%

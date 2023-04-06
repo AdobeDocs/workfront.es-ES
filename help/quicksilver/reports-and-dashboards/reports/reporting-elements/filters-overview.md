@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Información general sobre filtros en Adobe Workfront
 description: Los filtros de Adobe Workfront se pueden usar para reducir la cantidad de información que se muestra en la pantalla en listas, informes u otras áreas.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
 
 # Información general sobre filtros en Adobe Workfront
-
-<span class="preview">Tenga en cuenta que en el entorno de Vista previa, la experiencia de filtro mejorada (anteriormente denominada &quot;beta&quot;) es ahora la predeterminada. Estos filtros mejorados ahora son &quot;estándar&quot; y la experiencia de filtrado anterior es &quot;heredada&quot;.</span>
 
 Los filtros de Adobe Workfront se pueden usar para reducir la cantidad de información que se muestra en la pantalla en listas, informes u otras áreas.
 
@@ -169,11 +167,11 @@ Al crear un filtro, se conectan varios elementos que conforman instrucciones de 
 
 Este es un ejemplo del generador de filtros estándar:
 
-![Generador de filtros estándar](assets/filter-statements-with-or-and-and-nwe.png)
+![Generador de filtros estándar](assets/filter-sample-with-or.png)
 
-Este es un ejemplo del generador de filtros beta:
+Este es un ejemplo del generador de filtros heredado:
 
-![Generador de filtros beta](assets/filter-sample-with-or.png)
+![Generador de filtros heredados](assets/filter-statements-with-or-and-and-nwe.png)
 
 Un filtro contiene los siguientes elementos:
 
@@ -233,13 +231,13 @@ Para obtener más información sobre los modificadores de filtro, consulte [Modi
 
 ## Creación de filtros en la interfaz del generador
 
-Puede crear un filtro mediante la interfaz estándar o del generador beta de las siguientes maneras:
+Puede crear un filtro mediante la interfaz del generador estándar o heredado de las siguientes maneras:
 
 * Desde cero
 * Modificación de un filtro existente
 * Copiar un filtro existente
 
-Para obtener información sobre la creación de un filtro mediante la interfaz estándar o del generador beta, consulte [Crear o editar filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obtener información sobre la creación de un filtro mediante la interfaz del generador estándar o heredado, consulte [Crear o editar filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Creación de filtros mediante la interfaz del modo de texto
 

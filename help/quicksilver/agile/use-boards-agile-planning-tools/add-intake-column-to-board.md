@@ -7,7 +7,7 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Este ejemplo muestra un filtro para tareas de un proyecto específico que se encuentran en el estado de [!UICONTROL Nuevo] o [!UICONTROL En curso], y se me asignan.
 
-   Para obtener más información sobre la creación de filtros, consulte la sección &quot;Creación o edición de filtros en el generador beta&quot; en el artículo [Crear o editar filtros en [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Para obtener más información sobre la creación de filtros, consulte la sección &quot;Creación o edición de filtros en el generador estándar&quot; en el artículo [Crear o editar filtros en [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Asigne un nombre al filtro y haga clic en **[!UICONTROL Guardar]**.
 

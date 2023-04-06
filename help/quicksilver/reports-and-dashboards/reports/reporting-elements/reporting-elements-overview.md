@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reports
 title: Información general sobre elementos de informes
 description: 'Todos los informes y listas de Adobe Workfront son una combinación de tres elementos esenciales: vistas, filtros y agrupaciones.'
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

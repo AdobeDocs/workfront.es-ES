@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variables de filtro comodín
 description: Mediante el uso de comodines en los filtros, puede hacer referencia a un usuario o una fecha genéricos en lugar de a un usuario o fecha específicos. De este modo, los elementos que genera son dinámicos y los resultados cambian según el contexto en el que se utilicen.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 1%

@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Información general sobre las vistas en Adobe Workfront
 description: Para personalizar el tipo de información que se muestra en una lista o informe, gestione la vista de la lista o el informe. Puede mostrar los objetos y sus atributos en una vista.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
