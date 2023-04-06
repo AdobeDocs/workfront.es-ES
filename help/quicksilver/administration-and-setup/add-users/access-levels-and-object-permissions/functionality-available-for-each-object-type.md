@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Funcionalidad disponible para cada tipo de objeto
+title: Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso heredados
 description: En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 12%
+source-wordcount: '1446'
+ht-degree: 11%
 
 ---
 
-# Funcionalidad disponible para cada tipo de objeto
+# Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso heredados
 
 En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
 
@@ -91,7 +91,7 @@ Solo los usuarios con una licencia del Plan pueden tener acceso completo a los p
 | Ver finanzas | ✓ | ✓ | ✓ |   |   |
 | Actualizaciones/comentarios | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ Los usuarios con una licencia del Plan pueden tener acceso completo a los inform
 | Editar | ✓ |   |   |   |   |
 | Copiar | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ Los usuarios con una licencia del Plan pueden tener acceso completo a los inform
 | Vínculo (con integración) | ✓ | ✓ | ✓ | ✓ |   |
 | Desvincular (con integración) | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ Los usuarios con una licencia del Plan pueden tener acceso completo a los inform
 | Copiar | ✓ |   |   |   |   |
 | Editar detalles de plantilla | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ Los tipos de licencia Solicitud y Usuario externo no se incluyen aquí porque no
 | Crear riesgos en proyectos | ✓ |   |   |
 | Ver riesgos en proyectos | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ Solo los usuarios con una licencia del Plan pueden tener acceso completo a [sele
 | Recursos presupuestarios en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |   |
 | Adjuntar grupos de recursos a proyectos, plantillas y usuarios | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ Solo los usuarios con una licencia del Plan pueden tener acceso completo a [sele
 | Ver escenarios en el menú principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | Ver planes e iniciativas que el usuario creó&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

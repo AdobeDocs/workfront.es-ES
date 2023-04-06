@@ -6,9 +6,9 @@ description: Puede compartir o quitar permisos para un objeto que haya creado o 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 No es necesario ser administrador de Adobe Workfront para compartir permisos sobre objetos a los que tiene acceso, pero los permisos sobre objetos funcionan dentro de los niveles de acceso establecidos por el administrador de Workfront.
 
-Para obtener más información sobre los niveles de acceso y los permisos, consulte [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-Puede compartir o quitar permisos para un objeto que haya creado o para un objeto que se haya compartido con usted. Si no es el creador del objeto, debe tener acceso Compartir en el objeto que desee compartir en el nivel de acceso, además de permisos Compartir en el objeto. Para obtener información sobre los niveles de acceso, consulte [Información general sobre los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Puede compartir o quitar permisos para un objeto que haya creado o para un objeto que se haya compartido con usted. Si no es el creador del objeto, debe tener acceso Compartir en el objeto que desee compartir en el nivel de acceso, además de permisos Compartir en el objeto. Para obtener información sobre los niveles de acceso, consulte [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) o [Resumen de los niveles de acceso heredados](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Puede compartir los siguientes objetos en Workfront con otros usuarios:
 
    Por ejemplo, si tiene permisos de Contribute en el objeto, no puede conceder a otro usuario permisos de gestión en ese objeto.
 
-* No se puede compartir un objeto con un nivel de permiso superior al nivel de acceso de un usuario. Por ejemplo, si un usuario tiene acceso de vista a Proyectos en su nivel de acceso, no puede concederles permisos de administración en un proyecto.
+* No se puede compartir un objeto con un nivel de permiso superior al nivel de acceso de un usuario. Por ejemplo, si un usuario tiene acceso de vista a Proyectos en su nivel de acceso, no puede concederles permisos de administración en un proyecto.
 * Un usuario con permisos para al menos Ver un objeto puede compartir ese objeto con otra persona.
 * Puede compartir objetos con usuarios activos, funciones de trabajo, equipos, grupos o empresas.
 

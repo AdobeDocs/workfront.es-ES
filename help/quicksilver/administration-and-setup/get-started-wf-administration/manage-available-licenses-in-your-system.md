@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Para ver la información de licencia en su sistema:
 
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 
-   Para obtener más información sobre las licencias enumeradas en esta página, consulte [Información general sobre las licencias de Adobe Workfront](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Para obtener más información sobre las licencias enumeradas en esta página, consulte [Información general sobre licencias heredadas](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Para ver la información de licencia en su sistema:
 
 1. (Condicional) Si ve el mensaje **Para establecer un máximo, debe agregar un grupo de inicio**, agregue grupos principales en el sistema como se explica en la sección [Agregar o quitar un grupo de inicio a la página Licencias](#add-or-remove-a-home-group-to-the-licenses-page) en este artículo.
 
-## Visualización de información sobre licencias para complementos de Workfront
+## Ver información sobre licencias para complementos de Workfront
 
 En la captura de pantalla siguiente, **5 de 10 licencias de prueba** indica que esta organización tiene el complemento de pago Workfront Proof y que actualmente está utilizando 5 de las 10 licencias de Workfront Proof que compró.
 
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* Límite de tipo de licencia: Límite del planificador
 >
 >Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## Ver información sobre pruebas mensuales y habilitaciones de decisión de documentos
+
+Las pruebas y las decisiones documentales están limitadas para todas las licencias de Workfront no pagadas. Los límites se restablecen por usuario cada mes.
+
+>[!IMPORTANT]
+>
+>Los límites de pruebas y decisiones de documentos no se aplican a los usuarios en [licencias heredadas de Workfront y niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+Los límites de decisión para cada licencia difieren según el plan en el que esté. Puede consultar la asignación mensual en Configuración > Licencias.
+
+Para obtener más información sobre los límites de pruebas y decisiones de documentos, consulte [Información general sobre la resolución limitada de documentos y pruebas para usuarios no pagados](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## Agregar o quitar un grupo de inicio a la página Licencias {#add-or-remove-a-home-group-to-the-licenses-page}
 

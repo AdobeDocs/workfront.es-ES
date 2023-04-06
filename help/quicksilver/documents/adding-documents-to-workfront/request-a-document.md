@@ -6,9 +6,9 @@ description: Puede solicitar un documento en cualquier objeto que admita Documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Debe tener lo siguiente:
 
    >[!NOTE]
    >
-   >Si tiene la variable [Información general sobre las licencias de Adobe Workfront](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activada en su cuenta, puede enviar una solicitud a cualquier dirección de correo electrónico. Hay una configuración en la variable [Configuración de las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) que determina si estos usuarios de correo electrónico externos deben crear una contraseña antes de interactuar con Workfront. 
+   >Si tiene la variable [Información general sobre licencias heredadas](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activada en su cuenta, puede enviar una solicitud a cualquier dirección de correo electrónico. Hay una configuración en la variable [Configuración de las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) que determina si estos usuarios de correo electrónico externos deben crear una contraseña antes de interactuar con Workfront. 
 
 1. Describa el motivo por el que solicita el documento.
 1. Haga clic en **Enviar solicitud**.

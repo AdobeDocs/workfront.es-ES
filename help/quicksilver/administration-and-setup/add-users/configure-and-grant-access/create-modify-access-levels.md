@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios, tal como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. Al trabajar con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que los usuarios conceden cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte
 
-Al trabajar con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que los usuarios conceden cuando comparten objetos entre sí. Para obtener más información, consulte [Cómo funcionan juntos los niveles de acceso y los permisos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Resumen de los niveles de acceso heredados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Se recomienda dejar los niveles de acceso integrados sin cambios para poder consultarlos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. (Puede hacerlo para todos los niveles de acceso excepto para el administrador del sistema y el usuario externo).
+>Se recomienda dejar los niveles de acceso integrados sin cambios para poder consultarlos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. Puede hacerlo para todos los niveles de acceso excepto para el administrador del sistema y el usuario externo.
 
 ## Requisitos de acceso
 
@@ -41,11 +42,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>Plan actual: Estándar
+   <p>o</p>
+   <p>Plan heredado: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="#" class="MCXref xref selected">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>Escriba un nombre para el nivel de acceso. </p> <p>Si acaba de copiar un nivel de acceso para crear uno nuevo, el nombre predeterminado es Nombre de nivel de acceso (copia), donde Nombre de nivel de acceso es el nivel de acceso que ha copiado.</p> <p><strong>Sugerencia</strong>: Se recomienda incluir el nombre original del nivel de acceso en el nombre de la copia. Por ejemplo, en la empresa ACME, una copia del nivel de acceso del Planificador podría llamarse Planificador ACME.</p> </td> 
+      <td> <p>Escriba un nombre para el nivel de acceso. </p> <p>Si acaba de copiar un nivel de acceso para crear uno nuevo, el nombre predeterminado es Nombre de nivel de acceso (copia), donde Nombre de nivel de acceso es el nivel de acceso que ha copiado.</p> <p><strong>Sugerencia</strong>: Se recomienda incluir el nombre original del nivel de acceso en el nombre de la copia. Por ejemplo, en la empresa ACME, una copia del nivel de acceso estándar podría llamarse ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción </td> 
@@ -77,12 +80,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de licencia</td> 
-      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada con el tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</td> 
+      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada con el tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre licencias heredadas</a> o <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias heredadas de Adobe Workfront</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si **Plan** se selecciona en la variable **Tipo de licencia** , desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para aquellos que tengan este nivel de acceso.
+1. (Condicional) Si **Estándar** o **Plan** se selecciona en la variable **Tipo de licencia** , desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para aquellos que tengan este nivel de acceso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         <li>Añadir nuevas funciones de trabajo</li> 
         <li>Editar facturación de funciones y tasas de coste</li> 
        </ul> 
-       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario planificador con acceso administrativo a funciones de trabajo, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuarios planificadores con acceso administrativo a funciones de trabajo</a>.</p>
+       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario estándar o planificador con acceso administrativo a funciones de trabajo, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuarios estándar o de planificación con acceso administrativo a funciones de trabajo</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Hojas de horas y horas</td> 
-      <td> <p>Los administradores de grupos pueden asignar perfiles de parte de horas a usuarios de los grupos y subgrupos que administran.</p> <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de parte de horas a otros usuarios de los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con una licencia de Plan pueden ver todas las horas y hojas de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas en:</p> 
+      <td> <p>Los administradores de grupos pueden asignar perfiles de parte de horas a usuarios de los grupos y subgrupos que administran.</p> <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de parte de horas a otros usuarios de los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con una licencia de Standard o Plan pueden ver todas las horas y partes de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas en:</p> 
        <ul> 
         <li>Proyectos, tareas o problemas que administran</li> 
         <li>Su propio parte de horas</li> 
@@ -203,9 +206,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Para obtener información sobre cómo un administrador de Adobe asigna un nivel de acceso de administrador del sistema a un usuario, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Usuarios planificadores con acceso administrativo a funciones de trabajo {#planner-users}
+## Usuarios estándar o de planificación con acceso administrativo a funciones de trabajo {#planner-users}
 
-Si concede a un usuario planificador acceso administrativo a funciones de trabajo, la configuración Editar tasas de costes y facturación de funciones se habilita automáticamente para el usuario.
+Si concede acceso administrativo de usuario de Standard o Planner a las funciones de trabajo, la configuración Editar tasas de costes y facturación de funciones se habilita automáticamente para el usuario.
 
 Posteriormente, si deshabilita el acceso administrativo a las funciones de trabajo para el usuario, las funciones de trabajo seguirán estando visibles para el usuario porque la opción Editar tasas de costes y facturación de funciones sigue habilitada.
 

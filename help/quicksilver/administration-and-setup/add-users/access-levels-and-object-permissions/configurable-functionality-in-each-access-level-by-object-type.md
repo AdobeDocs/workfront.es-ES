@@ -1,26 +1,26 @@
 ---
-title: Acceso configurable a la funcionalidad para cada tipo de objeto
-description: Este artículo explica lo que puede permitir como administrador de Adobe Workfront para cada tipo de objeto, en cada nivel de acceso. También explica cuál es la configuración predeterminada para cada tipo de nivel de acceso.
-author: Caroline
+title: Acceso heredado configurable para cada tipo de objeto
+description: En este artículo se explica lo que puede permitir como administrador de Adobe Workfront para cada tipo de objeto, en cada nivel de acceso heredado. También explica cuál es la configuración predeterminada para cada tipo de nivel de acceso heredado.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3456'
 ht-degree: 10%
 
 ---
 
-# Acceso configurable a la funcionalidad para cada tipo de objeto
+# Acceso heredado configurable para cada tipo de objeto
 
-Este artículo explica lo que puede permitir como administrador de Adobe Workfront para cada tipo de objeto, en cada nivel de acceso. También explica cuál es la configuración predeterminada para cada tipo de nivel de acceso.
+En este artículo se explica lo que puede permitir como administrador de Adobe Workfront para cada tipo de objeto, en cada nivel de acceso heredado. También explica cuál es la configuración predeterminada para cada tipo de nivel de acceso heredado.
 
 Para obtener información sobre toda la funcionalidad disponible para un tipo de objeto en cada nivel de acceso, consulte [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Proyectos
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los proyectos:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los proyectos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los proye
 
 ## Tareas
 
-En cada nivel de acceso, puede configurar las siguientes opciones para las tareas:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para las tareas:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para las tarea
 
 ## Problemas
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los problemas:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los problemas:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los probl
 
 ## Portafolios
 
-En cada nivel de acceso, puede configurar las siguientes opciones para portafolios:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para portafolios:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para portafoli
 
 ## Programas
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los programas:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los programas:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los progr
 
 ## Informes, tableros y calendarios
 
-En cada nivel de acceso, puede configurar las siguientes opciones para informes, tableros y calendarios:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para informes, tableros y calendarios:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para informes,
 
 ## Filtros, vistas y agrupaciones
 
-En cada nivel de acceso, puede configurar las siguientes opciones para filtros, vistas y agrupaciones:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para filtros, vistas y agrupaciones:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para filtros, 
 
 ## Documentos
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los documentos:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los documentos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los docum
 
 ## Usuarios
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los usuarios:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los usuarios:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los usuar
 
 ## Equipos
 
-En cada nivel de acceso, puede configurar las siguientes opciones para equipos:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para equipos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para equipos:
 
 ## Plantillas
 
-En cada nivel de acceso, puede configurar las siguientes opciones para las plantillas:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para las plantillas:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para las plant
 
 ## Datos financieros
 
-En cada nivel de acceso, puede configurar las siguientes opciones para los datos financieros:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para los datos financieros:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para los datos
 
 ## Administración de recursos
 
-En cada nivel de acceso, puede configurar las siguientes opciones para la Administración de recursos:
+En cada nivel de acceso heredado, puede configurar las siguientes opciones para la Administración de recursos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ En cada nivel de acceso, puede configurar las siguientes opciones para la Admini
 
 ## Área de Planificador de escenario
 
-La configuración predeterminada para todos los niveles de acceso es Sin acceso. Un administrador de Workfront puede cambiar esto a Ver o Editar acceso para cualquier nivel de acceso de Planificador, Trabajador y Revisor.
+La configuración predeterminada para todos los niveles de acceso heredados es Sin acceso. Un administrador de Workfront puede cambiar esto a Ver o Editar acceso para cualquier nivel de acceso de Planificador, Trabajador y Revisor.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Área de objetivos de Workfront
 
-Los seis niveles de acceso predeterminados (y los cuatro tipos de licencia) pueden editar y ver los objetivos de Workfront.
+Los seis niveles de acceso heredados predeterminados (y los cuatro tipos de licencia) pueden editar y ver los objetivos de Workfront.
 
 Editar es la opción predeterminada.

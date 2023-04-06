@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Configurar si las pruebas se generan automáticamente
 description: Puede configurar si el sistema genera pruebas automáticamente cuando los usuarios especifican agregar documentos a Workfront. Esta configuración está deshabilitada de forma predeterminada.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Debe tener lo siguiente:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias heredadas</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
