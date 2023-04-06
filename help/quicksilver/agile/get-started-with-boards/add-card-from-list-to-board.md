@@ -5,7 +5,7 @@ title: Agregar tareas o problemas existentes a un tablero o flujo de trabajo de 
 description: Puede agregar cualquier tarea o problema a un tablero en Adobe Workfront desde una lista o vista de informe.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Agregue tareas o problemas existentes a un [!DNL Adobe Workfront] tablero o flujo de trabajo
-
-{{highlighted-preview-article-level}}
 
 Puede añadir cualquier tarea o problema a un tablero o a un flujo de trabajo en [!DNL Adobe Workfront] desde una lista o vista de informe, o desde los detalles del objeto.
 
