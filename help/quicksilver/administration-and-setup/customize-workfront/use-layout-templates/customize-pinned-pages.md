@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Personalización de páginas ancladas mediante una plantilla de diseño
-
-{{highlighted-preview}}
 
 En una plantilla de diseño, puede fijar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a estas páginas a través del menú principal ![](assets/main-menu-icon.png) o tableros.
 
@@ -70,9 +68,9 @@ Para realizarlos para un grupo, debe ser administrador de dicho grupo.</p> <p><b
 
 1. Repita el paso anterior para fijar cualquier otra página.
 
-1. <span class="preview"> (Opcional) Para cambiar el nombre de un pin, pase el ratón sobre él, haga clic en la flecha situada junto al nombre del pin y seleccione **Cambiar nombre de pin**. Escriba el nuevo nombre del pin y haga clic en el icono de marca de verificación o pulse Intro.</span>
+1. (Opcional) Para cambiar el nombre de un pin, pase el ratón sobre él, haga clic en la flecha situada junto al nombre del pin y seleccione **Cambiar nombre de pin**. Escriba el nuevo nombre del pin y haga clic en el icono de marca de verificación o pulse Intro.
 
-   <span class="preview"> Después de hacer clic en la marca de verificación o pulsar Intro, aparece una pequeña ventana emergente durante varios segundos, lo que permite deshacer el cambio del nombre del pin antes de guardarlo.</span>
+   Después de hacer clic en la marca de verificación o pulsar Intro, aparece una pequeña ventana emergente durante varios segundos, lo que permite deshacer el cambio del nombre del pin antes de guardarlo.
 
 1. Continúe personalizando la plantilla de diseño.
 
