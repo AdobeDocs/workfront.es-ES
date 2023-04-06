@@ -7,7 +7,7 @@ description: A medida que crea un tablero utilizando tarjetas ad hoc y conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Información general sobre las herramientas de planificación de Agile
-
-{{highlighted-preview}}
 
 A medida que crea un tablero utilizando tarjetas específicas y conectadas, es posible que desee aprovechar las herramientas de planificación ágiles adicionales.
 
@@ -26,15 +24,11 @@ Las herramientas útiles para Kanban incluyen:
 * Agrupación de tarjetas en swimlanes
 * Una columna de admisión que puede utilizarse para un registro pendiente
 
-<div class="preview">
-
 Las herramientas útiles para la exploración incluyen:
 
 * Flujos de trabajo y tableros de iteración
 * Lista de tarjetas o trabajo atrasado
 * Métricas de iteración
-
-</div>
 
 Puede usar cualquiera o todas estas herramientas de una manera que funcione para usted y su equipo, sin comprometerse con una metodología ágil específica.
 

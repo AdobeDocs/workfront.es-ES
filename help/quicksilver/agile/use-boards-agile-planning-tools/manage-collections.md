@@ -6,24 +6,18 @@ title: Administrar flujos de trabajo
 description: Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 2%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
 # Administrar flujos de trabajo
 
-{{highlighted-preview}}
+Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo. Los flujos de trabajo pueden incluir distintos tipos de tableros creados a partir de plantillas y una lista de tarjetas de elementos de trabajo. En un flujo de trabajo, se puede realizar un seguimiento del trabajo en iteraciones o sprints.
 
->[!NOTE]
->
->Los flujos de trabajo están disponibles en el entorno de vista previa y en Producción desde la inclusión de la función inicial de [!UICONTROL [!DNL Workfront] Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo. Los flujos de trabajo pueden incluir distintos tipos de tableros creados a partir de plantillas, <span class="preview">y una lista de tarjetas de elementos de trabajo. En un flujo de trabajo, se puede realizar un seguimiento del trabajo en iteraciones o sprints.</span>
-
-<span class="preview">Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) y [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) y [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 Los flujos de trabajo aparecen en el tablero junto con los tableros individuales a los que tiene acceso que no forman parte de un flujo de trabajo. Para obtener información sobre el tablero de tableros, consulte [Usar el tablero de tableros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Puede hacer clic en cualquier nombre de tablero del tablero para abrirlo.
 
@@ -68,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 | Tablero básico | Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. <p>No se aplica ninguna directiva de columna. |
 | Tablero Kanban | En el tablero se proporcionan las columnas siguientes: Retraso, Nuevo, En curso, Completado y En espera. Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas.<p>Para utilizar el trabajo pendiente, debe configurar filtros para la columna de admisión. Para obtener más información, consulte [Agregar una columna de admisión a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar las directivas predeterminadas de cada columna, haga clic en el botón [!UICONTROL **Más** menú] en una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas directivas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Tablero retrospectivo | En el tablero se proporcionan las columnas siguientes: ¿Qué fue bien? Qué se podría mejorar? A quién debemos homenajear? Qué podemos hacer para avanzar más rápido? Puede agregar nuevas columnas y cambiar el nombre o eliminar las columnas predeterminadas. <p>No se aplica ninguna directiva de columna. |
-| <span class="preview">Proceso de iteración</span> | <span class="preview">Este es el tablero utilizado para definir y ejecutar una iteración. <p>En el tablero se proporcionan las columnas siguientes: Retraso, Nuevo, En curso, Completado y En espera. No se puede agregar ninguna columna al tablero. <p>Para revisar las directivas predeterminadas de cada columna, haga clic en el botón [!UICONTROL **Más**] en una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas directivas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Proceso de iteración | Este es el tablero utilizado para definir y ejecutar una iteración. <p>En el tablero se proporcionan las columnas siguientes: Retraso, Nuevo, En curso, Completado y En espera. No se puede agregar ninguna columna al tablero. <p>Para revisar las directivas predeterminadas de cada columna, haga clic en el botón [!UICONTROL **Más**] en una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas directivas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Para obtener más información sobre la configuración del tablero, consulte [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ Para poder ver el flujo de trabajo y su contenido, se deben agregar personas y e
 
    Este es el mismo proceso que agregar miembros a un tablero. Para obtener más información, consulte [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Configuración de un flujo de trabajo
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ Para poder ver el flujo de trabajo y su contenido, se deben agregar personas y e
 
    Añadir filtros para fuentes de flujo de trabajo es lo mismo que agregar filtros para una columna de admisión en un tablero básico o un tablero kanban. Para obtener más información, consulte [Agregar una columna de admisión a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

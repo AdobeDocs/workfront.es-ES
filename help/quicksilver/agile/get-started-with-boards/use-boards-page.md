@@ -6,27 +6,21 @@ description: La variable [!UICONTROL tableros] tablero muestra la lista de table
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Usar el tablero de tableros
 
-{{highlighted-preview}}
-
 El tablero de tableros muestra la lista de tableros y flujos de trabajo a los que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se ha agregado. Los tableros individuales a los que tiene acceso que no forman parte de un flujo de trabajo se muestran primero.
-
->[!NOTE]
->
->Los flujos de trabajo están disponibles en el entorno de vista previa y en Producción desde la inclusión de la función inicial de [!UICONTROL [!DNL Workfront] Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 En el tablero, puede hacer lo siguiente para tableros y flujos de trabajo:
 
-* Archivar un tablero <span class="preview">o flujo de trabajo</span>
-* Filtrar los tableros <span class="preview">y flujos de trabajo</span>
+* Archivar un tablero o flujo de trabajo
+* Filtrado de tableros y flujos de trabajo
 * Ordenar la lista de tableros por nombre de tablero o fecha de modificación
 * Buscar un tablero o flujo de trabajo
 * Eliminación de un tablero o flujo de trabajo
@@ -54,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Tableros de filtro <span class="preview">y flujos de trabajo</span> {#filter-boards}
+## Filtrado de tableros y flujos de trabajo {#filter-boards}
 
 Puede filtrar el tablero de tableros para que muestre los tableros activos, archivados o todos los tableros o flujos de trabajo.
 
@@ -85,7 +79,7 @@ Puede buscar en el área Tableros un tablero específico o en el área Flujos de
 
    ![Buscar tableros en el tablero](assets/boards-searchbox.png)
 
-## Archivar un tablero <span class="preview">o un flujo de trabajo</span>
+## Archivar un tablero o un flujo de trabajo
 
 El archivado de un tablero o un flujo de trabajo lo envía al archivo y puede restaurarlo más adelante.
 
@@ -123,17 +117,18 @@ Al eliminar un flujo de trabajo, también se eliminan todos los tableros del flu
 
 1. Haga clic en **[!UICONTROL Eliminar tablero]** o [!UICONTROL **Eliminar flujo de trabajo**] en el mensaje de confirmación.
 
-## Mover un tablero a un flujo de trabajo
+<!-- ## Move a board to a workstream
 
-Puede mover un tablero independiente a un flujo de trabajo o moverlo de un flujo de trabajo a otro.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Solo se pueden mover los tableros que se hayan creado, no los tableros a los que se añadieron.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en el tablero y seleccione [!UICONTROL **Mover al flujo de trabajo**].
-1. Seleccione a qué flujo de trabajo añadir el tablero y haga clic en [!UICONTROL **Mover**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   El tablero se mueve al flujo de trabajo y ya no aparece en el [!UICONTROL Tableros] .
-Si todavía no ha creado un flujo de trabajo, se le pedirá que lo cree para mover el tablero a.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
