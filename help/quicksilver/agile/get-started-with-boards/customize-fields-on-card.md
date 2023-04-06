@@ -5,21 +5,15 @@ title: Personalización de los campos que se muestran en una tarjeta
 description: Puede personalizar los campos que se muestran en una tarjeta desactivando un campo para que no se muestre en la tarjeta completa o en la vista condensada, o ocultando un campo en la vista de tarjeta condensada.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 
 # Personalización de los campos que se muestran en una tarjeta
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Esta función solo está disponible a través de la opción de inclusión inicial de [!DNL Workfront] [!UICONTROL Tableros]. Para obtener más información, consulte [Inclusión anticipada de funciones para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 De forma predeterminada, todos los campos disponibles se muestran en una tarjeta, tanto en la vista completa cuando la tarjeta está abierta como en la vista de tarjeta condensada en el tablero. Puede personalizar los campos que se muestran:
 
@@ -71,13 +65,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Para mostrar todos los campos en ambas vistas, haga clic en [!UICONTROL **Restaurar todos los campos de forma predeterminada**].
 1. Haga clic en [!UICONTROL **Ocultar configurar**] para cerrar el panel Configurar .
 
-<div class="preview">
-
 ## Añadir campos personalizados a tarjetas
+
+Los campos personalizados están disponibles en tarjetas conectadas. Solo son visibles en la vista completa de la tarjeta, no en la vista condensada del tablero.
 
 >[!NOTE]
 >
->Cuando agrega un campo personalizado a las tarjetas, los datos de la tarjeta son de solo lectura. Además, los campos personalizados solo están disponibles en tarjetas conectadas.
+>Cuando agrega un campo personalizado a las tarjetas, los datos de la tarjeta son de solo lectura.
 
 1. Acceda a un tablero y haga clic en [!UICONTROL **Configurar**] para abrir el panel Configurar .
 1. Expandir [!UICONTROL **Tarjetas**].
@@ -88,8 +82,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Buscar campo personalizado](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >Los siguientes tipos de campos no están disponibles para agregarlos a las tarjetas: Adobe XD, Imagen, PDF, Vídeo.
+
 1. Seleccione el nombre del campo.
+1. (Opcional) Haga clic en la **[!UICONTROL Valor de campo]** para cambiar este campo personalizado por otro.
+1. (Opcional) Cambie el **[!UICONTROL Etiqueta de campo]** al nombre del campo que desea que aparezca en las tarjetas.
+1. Cuando haya terminado de realizar cambios, haga clic en [!UICONTROL **Guardar campo**].
 
-   El campo personalizado se añade a la lista de campos disponibles y se activa de forma predeterminada. Puede deshabilitar u ocultar el campo personalizado siguiendo los pasos de la sección [Configuración de tarjetas](customize-fields-on-card.md#configure-cards) o elimínelo del tablero.
+   ![Etiqueta y valor de campo personalizado](assets/save-custom-field-value-label.png)
 
-</div>
+   El campo personalizado se añade a la lista de campos disponibles y se activa de forma predeterminada. Puede desactivar el campo personalizado siguiendo los pasos de la sección [Configuración de tarjetas](customize-fields-on-card.md#configure-cards) , edite el campo o elimínelo de todas las tarjetas.
+
