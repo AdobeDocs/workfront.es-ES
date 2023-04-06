@@ -7,9 +7,9 @@ description: Puede ver si un informe se agrega a un tablero en Adobe Workfront. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Mostrar la información del tablero en la Vista de una lista de informes
 
+>[!WARNING]
+>
+>Incluir la columna Tableros en una lista de informes puede aumentar significativamente los tiempos de carga, especialmente para listas de informes largas.
+
 Para crear una vista con información de tablero para una lista de informes:
 
 1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront, haga clic en **Informes**.
-
 1. En la lista de informes, haga clic en el botón **Ver** menú desplegable.
 1. Haga clic en **Nueva vista**.
 1. Haga clic en **Agregar columna**.

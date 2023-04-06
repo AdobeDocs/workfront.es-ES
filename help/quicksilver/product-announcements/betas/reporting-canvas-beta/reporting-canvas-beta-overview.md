@@ -6,186 +6,37 @@ description: Información sobre el programa beta para la próxima herramienta de
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Reporting Canvas beta: información general
 
-## La versión beta del lienzo de informes
+## Lienzo de informes
 
-La nueva herramienta de lienzo de informes, una completa reimaginación de los informes en Workfront, está a punto de completarse y estará disponible próximamente para pruebas públicas. Al desarrollar el Lienzo de informes, hemos trabajado duro para proporcionar una experiencia que ofrezca la máxima flexibilidad, junto con un diseño intuitivo y modular, de modo que los usuarios como usted puedan aprovechar de manera más eficaz sus propios datos al crear y compartir informes. Con un nuevo tipo de informe unificado que le permite arrastrar y soltar casi todos los elementos en un lienzo ilimitado, la creación de una obra maestra de datos visuales será más fácil que nunca.
+La nueva herramienta de lienzo de informes, que se ha reinventado completamente para crear informes en Workfront, está en desarrollo. Al diseñar el Lienzo de informes, hemos trabajado duro para proporcionar una experiencia que ofrezca la máxima flexibilidad, junto con un diseño intuitivo y modular, de modo que los usuarios como usted puedan aprovechar de manera más eficaz sus propios datos al crear y compartir informes. Con un nuevo tipo de informe unificado que le permite arrastrar y soltar casi todos los elementos en un lienzo ilimitado, la creación de una obra maestra de datos visuales será más fácil que nunca.
 
-Este artículo contiene información sobre cómo funcionará la versión beta y cómo su organización puede ayudarnos a mejorar el Lienzo de informes antes de su lanzamiento oficial.
+Este artículo contiene información sobre la versión beta privada actual, que está limitada a clientes específicos. Las nuevas funciones del lienzo de informes ahora se implementan a través de los paneles de lienzo. Consulte **Plan de desarrollo** más abajo para obtener más información.
 
-### Programación de la versión
+### Plan de desarrollo
 
-* Beta actual: La versión beta actual es privada y está limitada a un número específico de clientes.
-* Lanzamiento beta público: TBD (Una vez que se anuncie una fecha, empezaremos a permitir que todos los clientes accedan a la versión beta del lienzo de informes).
-* Versión oficial: TBD
+Estamos en las fases finales de resolución de un problema de calidad de datos que observamos al principio de la versión beta del lienzo de informes. Pronto reanudaremos el trabajo para proporcionar nuevas visualizaciones, expandir la selección de objetos de Workfront informables y mejorar las experiencias de creación y distribución de informes, todas las cuales son esenciales para lograr nuestros objetivos para el Lienzo de informes.
 
-### Funciones
-
-Al desarrollar el Lienzo de informes, hemos rediseñado radicalmente algunas funciones (y hemos creado algunas nuevas desde cero) con el fin de racionalizar la creación de informes. En la tabla siguiente se describen las principales funciones del Lienzo de informes en comparación con las herramientas de informes existentes, así como su estado de versión actual:
-
->[!NOTE]
->
->Para obtener una lista cronológica de las funciones añadidas y los problemas resueltos, consulte [Reporting Canvas beta: actividad de versión](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Descripción de la función</th> 
-   <th>Terminología heredada </th> 
-   <th>Terminología del lienzo de informes</th> 
-   <th>Estado</th> 
-  </tr> 
-  <tr> 
-   <td>Informes</td> 
-   <td>Informe</td> 
-   <td>Lienzo de informes</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Paneles</td> 
-   <td>Panel</td> 
-   <td>Lienzo de informes</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Tablas</td> 
-   <td>Ficha Detalles</td> 
-   <td>Bloque de tabla</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Gráficos</td> 
-   <td>Ficha Gráfico</td> 
-   <td>Bloque de visualización</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Subtotales</td> 
-   <td>Ficha Resumen</td> 
-   <td>Visualización de KPI</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Ruta de obtención de detalles</td> 
-   <td>Modo del visor de informes</td> 
-   <td>Superposición del visor de informes</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Columnas</td> 
-   <td>Ficha Ver</td> 
-   <td>Edición de tablas</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Filtros</td> 
-   <td>Ficha Filtro</td> 
-   <td>Edición de tablas</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Grupos</td> 
-   <td>Ficha Grupo</td> 
-   <td>Edición de tablas</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Configuración de campo<br>(agregaciones y formato condicional)</td> 
-   <td>Ficha Ver</td> 
-   <td>Edición de tablas (columna seleccionada)</td> 
-   <td>Publicado</td> 
-  </tr> 
-  <tr> 
-   <td>Cambio del tamaño de las columnas</td> 
-   <td>Modo de texto</td> 
-   <td>Edición de tablas (columna seleccionada)</td> 
-   <td>Publicado</td> 
-  </tr> 
-   <tr> 
-   <td>Contenido externo</td> 
-   <td>Página externa</td> 
-   <td>Bloque de contenido web</td> 
-   <td>Publicado</td> 
-  </tr> 
-   <tr> 
-   <td>Exportando</td> 
-   <td>Acciones de informe</td> 
-   <td><strong>Más</strong> en el visor</td> 
-   <td>Publicado parcialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Uso compartido de columnas</td> 
-   <td>Modo de texto</td> 
-   <td>Generador de campos</td> 
-   <td>Publicado parcialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Columnas calculadas</td> 
-   <td>Modo de texto</td> 
-   <td>Generador de campos</td> 
-   <td>Publicado parcialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Estilo de gráfico</td> 
-   <td>Ficha Gráfico</td> 
-   <td>Bloque de visualización (pestaña Estilo)</td> 
-   <td>Planificados</td> 
-  </tr> 
-  <tr> 
-   <td>Entrega programada</td> 
-   <td>Acciones de informe</td> 
-   <td><strong>Más</strong> en el visor</td> 
-   <td>Planificados</td> 
-  </tr> 
-  <tr> 
-   <td>Concesión de acceso a informes</td> 
-   <td>Acciones de informe</td> 
-   <td><strong>Más</strong> en el visor</td> 
-   <td>Planificados</td> 
-  </tr> 
-  <tr> 
-   <td>Acceso a tableros no autenticado</td> 
-   <td>Acciones del panel</td> 
-   <td><strong>Más</strong> en el visor</td> 
-   <td>Planificados</td> 
-  </tr> 
-  <tr> 
-   <td>Edición de datos de informes</td> 
-   <td>Edición en línea</td> 
-   <td>Panel de resumen</td> 
-   <td>Planificados</td> 
-  </tr> 
-  <tr> 
-   <td>Filtro de página</td> 
-   <td>N/D</td> 
-   <td>Filtro Lienzo</td> 
-   <td>Planificados</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->Las funciones enumeradas aquí se lanzarán como parte de un esquema de lanzamiento de productos por niveles. Es posible que las funciones a las que tiene acceso en esta versión beta no estén disponibles en la versión completa, según el plan de su organización.
+Las nuevas experiencias se distribuirán gradualmente, a partir de la versión 23.2, a través de la nueva página Tableros de lienzo que ahora está disponible en su entorno de vista previa. Los paneles de lienzo le permiten mostrar los informes existentes junto con las nuevas funciones de informes que estamos creando, y servirán como entorno principal para implementar y probar nuevas funciones para el lienzo de informes. Para obtener más información sobre cómo habilitar y usar paneles de lienzo, consulte [Información general sobre los paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Participar en la versión beta
 
+>[!IMPORTANT]
+>
+>La información beta siguiente es para administradores que ya se han incluido en la versión beta del lienzo de informes, que ya no aceptan nuevos participantes. Si desea probar las nuevas funciones del lienzo de informes a medida que se agregan, consulte **Plan de desarrollo** más arriba para obtener información sobre cómo habilitar los paneles de lienzo.
+
 ### Disponibilidad
 
-La versión beta del lienzo de informes estará disponible para todas las organizaciones que estén en AWS, independientemente de la región.
+La versión beta del lienzo de informes está disponible para todas las organizaciones que estén en AWS, independientemente de la región.
 
 ### Únase a la versión beta
 

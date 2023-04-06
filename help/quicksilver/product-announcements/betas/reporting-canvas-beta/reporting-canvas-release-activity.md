@@ -1,14 +1,10 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: '''Reporting Canvas beta: actividad de versión"'
 description: Actividad de la versión semanal de Adobe Workfront Reporting Canvas beta
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -77,3 +73,152 @@ Para obtener información general sobre la versión beta del lienzo de informes,
 
 * #Valor! se muestra en la celda cuando no se puede realizar un cálculo por fila
 * Se agregó la validación al arrastrar y soltar determinados tipos de datos en determinadas funciones del generador de campos
+
+## Funciones planificadas
+
+Al desarrollar el Lienzo de informes, hemos rediseñado radicalmente algunas funciones (y hemos creado algunas nuevas desde cero) con el fin de racionalizar la creación de informes. En la tabla siguiente se describen las principales funciones del Lienzo de informes en comparación con las herramientas de informes existentes, así como su estado de versión actual:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Descripción de la función</th> 
+   <th>Terminología heredada </th> 
+   <th>Terminología del lienzo de informes</th> 
+   <th>Estado</th> 
+  </tr> 
+  <tr> 
+   <td>Informes</td> 
+   <td>Informe</td> 
+   <td>Lienzo de informes</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Paneles</td> 
+   <td>Panel</td> 
+   <td>Lienzo de informes</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Tablas</td> 
+   <td>Ficha Detalles</td> 
+   <td>Bloque de tabla</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Gráficos</td> 
+   <td>Ficha Gráfico</td> 
+   <td>Bloque de visualización</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Subtotales</td> 
+   <td>Ficha Resumen</td> 
+   <td>Visualización de KPI</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Ruta de obtención de detalles</td> 
+   <td>Modo del visor de informes</td> 
+   <td>Superposición del visor de informes</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Columnas</td> 
+   <td>Ficha Ver</td> 
+   <td>Edición de tablas</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Filtros</td> 
+   <td>Ficha Filtro</td> 
+   <td>Edición de tablas</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Grupos</td> 
+   <td>Ficha Grupo</td> 
+   <td>Edición de tablas</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Configuración de campo<br>(agregaciones y formato condicional)</td> 
+   <td>Ficha Ver</td> 
+   <td>Edición de tablas (columna seleccionada)</td> 
+   <td>Publicado</td> 
+  </tr> 
+  <tr> 
+   <td>Cambio del tamaño de las columnas</td> 
+   <td>Modo de texto</td> 
+   <td>Edición de tablas (columna seleccionada)</td> 
+   <td>Publicado</td> 
+  </tr> 
+   <tr> 
+   <td>Contenido externo</td> 
+   <td>Página externa</td> 
+   <td>Bloque de contenido web</td> 
+   <td>Publicado</td> 
+  </tr> 
+   <tr> 
+   <td>Exportando</td> 
+   <td>Acciones de informe</td> 
+   <td><strong>Más</strong> en el visor</td> 
+   <td>Publicado parcialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Uso compartido de columnas</td> 
+   <td>Modo de texto</td> 
+   <td>Generador de campos</td> 
+   <td>Publicado parcialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Columnas calculadas</td> 
+   <td>Modo de texto</td> 
+   <td>Generador de campos</td> 
+   <td>Publicado parcialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Estilo de gráfico</td> 
+   <td>Ficha Gráfico</td> 
+   <td>Bloque de visualización (pestaña Estilo)</td> 
+   <td>Planificados</td> 
+  </tr> 
+  <tr> 
+   <td>Entrega programada</td> 
+   <td>Acciones de informe</td> 
+   <td><strong>Más</strong> en el visor</td> 
+   <td>Planificados</td> 
+  </tr> 
+  <tr> 
+   <td>Concesión de acceso a informes</td> 
+   <td>Acciones de informe</td> 
+   <td><strong>Más</strong> en el visor</td> 
+   <td>Planificados</td> 
+  </tr> 
+  <tr> 
+   <td>Acceso a tableros no autenticado</td> 
+   <td>Acciones del panel</td> 
+   <td><strong>Más</strong> en el visor</td> 
+   <td>Planificados</td> 
+  </tr> 
+  <tr> 
+   <td>Edición de datos de informes</td> 
+   <td>Edición en línea</td> 
+   <td>Panel de resumen</td> 
+   <td>Planificados</td> 
+  </tr> 
+  <tr> 
+   <td>Filtro de página</td> 
+   <td>N/D</td> 
+   <td>Filtro Lienzo</td> 
+   <td>Planificados</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Las funciones enumeradas aquí se lanzarán como parte de un esquema de lanzamiento de productos por niveles. Es posible que las funciones a las que tiene acceso en esta versión beta no estén disponibles en la versión completa, según el plan de su organización.
