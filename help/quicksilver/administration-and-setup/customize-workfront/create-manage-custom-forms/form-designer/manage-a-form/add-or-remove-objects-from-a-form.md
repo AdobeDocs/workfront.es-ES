@@ -3,11 +3,11 @@ title: Agregar o eliminar tipos de objetos de un formulario personalizado existe
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Puede agregar o quitar tipos de objetos de los formularios personalizados con el diseñador de formularios.
+description: Puede agregar o quitar tipos de objetos de formularios personalizados con el diseñador de formularios.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Agregar o eliminar tipos de objetos de un formulario personalizado existente con el diseñador de formularios
-
-{{highlighted-preview-article-level}}
 
 Puede agregar o eliminar tipos de objetos de un formulario personalizado existente con el diseñador de formularios.
 
@@ -30,7 +28,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -38,7 +36,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>
    <p>Plan actual: Estándar</p>
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan heredado: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -47,36 +45,36 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
-## Agregar tipos de objetos a un formulario personalizado existente
+## Agregar tipos de objeto a un formulario personalizado existente
 
-Puede agregar tipos de objetos adicionales al formulario para que se pueda adjuntar a varios objetos.
+Puede agregar tipos de objeto adicionales al formulario para que se puedan adjuntar a varios objetos.
 
 >[!NOTE]
 >
->Los permisos de salto de sección pueden verse afectados por el tipo de objeto. El permiso Editar de forma limitada para saltos de sección de formulario personalizados solo está disponible para los tipos de objeto Proyecto, Tarea, Problema y Usuario.
+>Los permisos de salto de sección pueden verse afectados por el tipo de objeto. Los saltos de sección de permisos de edición limitada para formularios personalizados solo están disponibles para los tipos de objeto Proyecto, Tarea, Problema y Usuario.
 >
 >Para obtener más información, consulte [Cómo pueden afectar varios tipos de objetos a los permisos de salto de sección](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 
-   En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
+   En la vista que aparece, puede revisar todos los formularios personalizados creados para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado al que desee agregar tipos de objeto adicionales y, a continuación, haga clic en **Editar**.
+1. Seleccione el formulario personalizado al que desee agregar tipos de objeto adicionales y haga clic en **Editar**.
 
-1. En la parte superior del formulario, haga clic en el signo más + después **Tipos de objetos**, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
+1. En la parte superior del formulario, haga clic en el signo más + después de **Tipos de objetos** y, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
 
    ![](assets/add-new-object.png)
 
-1. Clic **Guardar y cerrar**.
+1. Haga clic en **Guardar y cerrar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en **Aplicar** en cualquier momento mientras crea un formulario personalizado para guardar los cambios y mantener el formulario abierto.
+   >Puede hacer clic en **Aplicar** en cualquier momento mientras esté creando un formulario personalizado para guardar los cambios y mantener el formulario abierto.
 
 ## Eliminar tipos de objetos en un formulario personalizado
 
@@ -84,19 +82,19 @@ Puede eliminar tipos de objetos de un formulario personalizado existente. Un for
 
 >[!CAUTION]
 >
->Si las personas ya han adjuntado el formulario personalizado a objetos del tipo que desea eliminar y le han agregado datos, esos datos se eliminan de forma permanente al eliminar ese tipo de objeto en el formulario. Puede incluir información histórica que los usuarios necesitarán más adelante.
+>Si hay personas que ya han adjuntado el formulario personalizado a objetos del tipo que desea eliminar y que le han agregado datos, esos datos se eliminarán de forma permanente cuando elimine ese tipo de objeto en el formulario. Puede incluir información histórica que los usuarios necesitarán más adelante.
 >
->En general, se recomienda minimizar el número de veces que se edita un formulario personalizado que ya está en uso. No hay ningún sistema de notificación que avise a las personas que utilizan el formulario personalizado sobre sus cambios.
+>En general, se recomienda minimizar el número de veces que se edita un formulario personalizado que ya está en uso. No hay ningún sistema de notificación para avisar a las personas que usen el formulario personalizado sobre sus cambios.
 
 Para eliminar un tipo de objeto:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 1. Seleccione el formulario personalizado que desee editar y haga clic en **Editar**.
-1. Haga clic en la X de cualquiera de las **Tipos de objetos** que desee eliminar del formulario y, a continuación, haga clic en **Eliminar** en el mensaje de advertencia que se muestra.
+1. Haga clic en la X de cualquiera de las **Tipos de objetos** que desea eliminar del formulario y, a continuación, haga clic en **Eliminar** en el mensaje de advertencia que aparece.
 
    ![](assets/delete-object-types.png)
 
-1. (Opcional) Repita el paso anterior para cualquier otro tipo de objeto que desee quitar del formulario.
-1. Clic **Listo**, luego haga clic en **Cerrar y guardar**.
+1. (Opcional) Repita el paso anterior con cualquier otro tipo de objeto que desee quitar del formulario.
+1. Haga clic en **Listo** y haga clic en **Cerrar y guardar**.

@@ -7,7 +7,7 @@ description: Puede diseñar un formulario personalizado desde una copia con el d
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Diseño de un formulario a partir de una copia con el diseñador de formularios
-
-{{highlighted-preview-article-level}}
 
 Puede diseñar un nuevo formulario personalizado basado en uno existente. Puede adjuntar formularios personalizados a distintos objetos de Workfront para capturar datos sobre dichos objetos.
 

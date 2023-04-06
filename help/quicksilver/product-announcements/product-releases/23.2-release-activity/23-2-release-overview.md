@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Resumen de la versión 23.2
 
-Esta página proporciona información sobre las funciones que se incluyen en la versión 23.2 programada para la semana del 3 de abril de 2023.
-
-Las mejoras de esta página están disponibles en el entorno Vista previa . Esta página se actualizará con mejoras adicionales a medida que la versión 23.2 se acerca a la versión de producción planificada.
+Esta página proporciona información sobre la funcionalidad incluida en la versión 23.1. Estas mejoras están disponibles en el entorno de producción con la versión 23.2 del 6 y 7 de abril de 2023.
 
 Para obtener sugerencias sobre la preparación de la próxima versión, consulte [Preparación para una versión trimestral de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de los detalles de los objetos a un tablero o flujo de trabajo de Workfront</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tareas y problemas de los detalles de los objetos a un tablero o flujo de trabajo de Workfront</a></p>
                         <p>Ahora puede agregar tareas o problemas existentes a un tablero de Workfront o a una lista de tarjetas de flujo de trabajo directamente desde los detalles del objeto. Los elementos que agregue a un tablero se convertirán en tarjetas conectadas, y los elementos agregados a un flujo de trabajo se agregarán a la lista de tarjetas como tarjetas no planificadas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -429,7 +427,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Tableros de lienzo</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Paneles de lienzo</a></p>
                         <p>Los paneles de lienzo se han agregado como una función de trabajo en curso para los tableros que se puede habilitar en las plantillas de diseño. Los paneles de lienzo permitirán combinar las visualizaciones de lienzo de informes con los informes existentes, además de las nuevas opciones de diseño. Actualmente solo se admiten informes de lista, pero se agregarán más opciones a medida que continúe el desarrollo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -464,8 +462,8 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colecciones biométricas de inicio de sesión y tableros en la aplicación móvil</span></a><span style="color: #ff0000;"> ¡Muy pronto!</span>
-                        <p>El inicio de sesión biométrico es ahora una opción para un inicio de sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán usar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, habrá una serie de mejoras en la apariencia de la experiencia de inicio de sesión general que llegarán en una actualización posterior.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colecciones biométricas de inicio de sesión y tableros en la aplicación móvil</span></a>
+                        </span></a><p>El inicio de sesión biométrico es ahora una opción para un inicio de sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán usar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, habrá una serie de mejoras en la apariencia de la experiencia de inicio de sesión general que llegarán en una actualización posterior.</p>
                         <p>Las colecciones de tableros también son compatibles con la aplicación móvil, lo que permite a los usuarios móviles ver cualquier colección a la que tengan acceso en la versión de escritorio desde la lista de tableros móviles.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -537,7 +535,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos clientes que se incorporarán a la experiencia unificada de Adobe</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos clientes que se incorporarán a la experiencia unificada de Adobe</a></p>
                         <p>La experiencia unificada de Adobe incluye:
                         <ul>
                         <li>Un inicio de sesión único para todas las aplicaciones de Adobe a través de Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El visor de pruebas se abre en una nueva pestaña para los usuarios de la experiencia unificada</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El visor de pruebas se abre en una nueva pestaña para los usuarios de la experiencia unificada</a></p>
                         <p>El visor de pruebas ahora se abre en una nueva pestaña para los usuarios de la experiencia unificada.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ No hay actualizaciones de Workfront Proof en este punto de la versión. Esta ár
 
 Nuevas funciones de la versión Workfront de objetivos con la versión 23.2. Para obtener información sobre estas nuevas funciones ahora disponibles en Vista previa, consulte [Objetivos de Adobe Workfront con la versión 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### Versión de API 15
+### Versión de API 16
 
-Para la versión 15 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+La versión 16 de la API se lanzará con la versión 2.3. Para la versión 16 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre las novedades y las actualizaciones, consulte [Novedades de la versión 15 de la API](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Para obtener información sobre las novedades y las actualizaciones, consulte [Novedades de la versión 16 de la API](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Para obtener información sobre las versiones de API, consulte [Programación de versiones y asistencia de API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

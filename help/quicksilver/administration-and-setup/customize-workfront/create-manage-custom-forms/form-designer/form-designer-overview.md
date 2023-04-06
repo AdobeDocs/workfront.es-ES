@@ -7,7 +7,7 @@ description: Puede diseñar un formulario personalizado que los usuarios puedan 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Información general del diseñador de formularios
-
-{{highlighted-preview-article-level}}
 
 Puede utilizar el nuevo diseñador de formularios para diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajen en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 

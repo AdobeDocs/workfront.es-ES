@@ -7,7 +7,7 @@ description: Puede cambiar el nombre de los formularios personalizados existente
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -17,9 +17,7 @@ ht-degree: 0%
 
 # Cambiar el nombre de un formulario personalizado con el diseñador de formularios
 
-{{highlighted-preview-article-level}}
-
-Puede cambiar el nombre de un formulario personalizado en cualquier momento después de crearlo con el diseñador de formularios.
+Puede cambiar el nombre de un formulario personalizado en cualquier momento después de haberlo creado con el diseñador de formularios.
 
 ## Requisitos de acceso
 
@@ -30,7 +28,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -38,7 +36,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>
    <p>Plan actual: Estándar</p>
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan heredado: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -47,22 +45,22 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Cambiar el nombre de un formulario personalizado con el diseñador de formularios
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 
-   En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
+   En la vista que aparece, puede revisar todos los formularios personalizados creados para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado cuyo nombre desea cambiar y haga clic en **Editar**.
+1. Seleccione el formulario personalizado al que desee cambiar el nombre y haga clic en **Editar**.
 1. Para cambiar el título, haga clic en el nombre del formulario.
 1. Para cambiar la descripción, haga clic en el cuadro de texto de descripción.
 
-1. Clic **Guardar y cerrar**.
+1. Haga clic en **Guardar y cerrar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en **Aplicar** en cualquier momento mientras crea un formulario personalizado para guardar los cambios y mantener el formulario abierto.
+   >Puede hacer clic en **Aplicar** en cualquier momento mientras esté creando un formulario personalizado para guardar los cambios y mantener el formulario abierto.

@@ -1,5 +1,5 @@
 ---
-title: Diseñar un formulario con el diseñador de formularios
+title: Diseño de un formulario con el diseñador de formularios
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -7,7 +7,7 @@ description: Puede diseñar un formulario personalizado con el diseñador de for
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 4%
@@ -15,11 +15,9 @@ ht-degree: 4%
 ---
 
 
-# Diseñar un formulario con el diseñador de formularios
+# Diseño de un formulario con el diseñador de formularios
 
-{{highlighted-preview-article-level}}
-
-Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
+Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a distintos objetos de Workfront para capturar datos sobre dichos objetos.
 
 ## Requisitos de acceso
 
@@ -30,7 +28,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -38,7 +36,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>
    <p>Plan actual: Estándar</p>
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan heredado: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -47,104 +45,104 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Empezar a diseñar un formulario personalizado
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clic **Nuevo formulario personalizado.**
-1. Seleccione a qué tipos de objetos desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
+1. Haga clic en **Nuevo formulario personalizado.**
+1. Seleccione a qué tipos de objeto desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 
    ![](assets/choose-object-type.jpg)
 
 1. En el **El título es obligatorio** , escriba el título del formulario personalizado.
-1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en **Añadir** icono ![](assets/add-objects-icon.png) después **Tipos de objetos**, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
+1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se puedan adjuntar a más objetos, haga clic en el botón **Agregar** icono ![](assets/add-objects-icon.png) after **Tipos de objetos** y, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
 
    También puede hacer clic en la X de un tipo de objeto para eliminarlo del formulario.
 
    >[!CAUTION]
    >
-   >Al eliminar un formulario personalizado, también se eliminan todos los datos personalizados de los objetos asociados con el formulario. Los datos eliminados no se pueden recuperar. Considere la posibilidad de desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados.
+   >Al eliminar un formulario personalizado también se eliminan todos los datos personalizados de los objetos asociados al formulario. Los datos eliminados no se pueden recuperar. Considere desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados.
    >
    >Para obtener más información, consulte [Eliminar tipos de objetos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 
-1. A continuación, puede empezar a agregar campos de al formulario personalizado. Consulte las secciones siguientes:
-   * [Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-   * [Añadir campos de texto](#add-text-fields)
+1. A continuación, puede empezar a añadir campos al formulario personalizado. Consulte las secciones siguientes:
+   * [Reutilizar un campo o widget existente que ya se haya utilizado en otro formulario personalizado](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Adición de campos de texto](#add-text-fields)
    * [Añadir campos calculados](#add-calculated-fields)
-   * [Agregar botones de opción, grupos de casillas de verificación y menús desplegables](#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Adición de campos de fecha y tipo anticipado](#add-typeahead-and-date-fields)
-   * [Agregar imágenes, PDF y vídeos](#add-images-pdfs-and-videos)
-   * [Añadir archivos de Adobe XD](#add-adobe-xd-files)
+   * [Agregar botones de opción, grupo de casillas de verificación y desplegables](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Adición de campos de fecha y de avance](#add-typeahead-and-date-fields)
+   * [Añadir imágenes, PDF y vídeos](#add-images-pdfs-and-videos)
+   * [Añadir archivos Adobe XD](#add-adobe-xd-files)
 
-## Agregar campos nuevos o existentes al formulario personalizado
+## Adición de campos nuevos o existentes al formulario personalizado
 
-Puede utilizar campos nuevos o existentes al diseñar el formulario personalizado.
+Al diseñar el formulario personalizado, puede utilizar campos nuevos o existentes.
 
-## Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado
+## Reutilizar un campo o widget existente que ya se haya utilizado en otro formulario personalizado
 
 1. En la parte superior izquierda de la pantalla, haga clic en **Biblioteca de campos**.
 
-1. Arrastre el campo o widget donde desee en el formulario personalizado.
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. Arrastre el campo o el widget que desee en el formulario personalizado.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    >[!NOTE]
    >
-   >Puede agregar hasta 500 campos y widgets en un solo formulario personalizado. Sin embargo, puede producirse una degradación del rendimiento cuando existen más de 100 en un formulario, según su complejidad.
+   >Puede agregar hasta 500 campos y utilidades en un solo formulario personalizado. Sin embargo, la degradación del rendimiento puede producirse cuando existen más de 100 en un formulario, según su complejidad.
    >
    >
-   >Algunos ejemplos de formularios complejos son formularios con parámetros en cascada, campos de datos personalizados calculados y varias opciones de valor en un único campo.
+   >Algunos ejemplos de formularios complejos son los formularios con parámetros en cascada, campos de datos personalizados calculados y varias opciones de valor en un solo campo.
 
 1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-### Añadir campos de texto
+### Adición de campos de texto
 
-Puede agregar varios campos de texto diferentes a un formulario personalizado.
+Se pueden agregar varios campos de texto diferentes a un formulario personalizado.
 
-+++ **Amplíe para ver las descripciones de los campos de texto disponibles**
++++ **Expandir para ver las descripciones de los campos de texto disponibles**
 
-* **Campo de texto de línea única**: permite a los usuarios escribir una sola línea de texto en el campo.
-* **Campo de texto de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
-* **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y dar formato al texto con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
+* **Campo de texto de una sola línea**: Permite a los usuarios escribir una sola línea de texto en el campo.
+* **Campo de texto de párrafo**: Permite a los usuarios escribir varias líneas de texto en el campo.
+* **Campo de texto con formato**: Permite a los usuarios escribir varias líneas de texto en el campo y dar formato al texto con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de caracteres de 15.000 permite un montón de texto y formato.
 
    Para obtener información sobre el acceso a este campo a través de la API, consulte Almacenamiento de campos de texto enriquecido en la API.
 
    >[!NOTE]
    >
-   >Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront (disponibles en próximas versiones).
+   >Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront (disponibles en las próximas versiones).
 
 * **Texto descriptivo**: Permite incluir instrucciones y vínculos a páginas fuera de Workfront.
 
 +++
 
-Para agregar un campo de texto:
+Para añadir un campo de texto:
 
-1. En la parte izquierda de la pantalla, busque uno de los siguientes campos de texto y arrástrelo a una sección del lienzo:
+1. En el lado izquierdo de la pantalla, busque uno de los siguientes campos de texto y arrástrelo a una sección del lienzo:
 
-   * Texto de línea única:
+   * Texto de una sola línea:
    * Texto de párrafo
    * Campo de texto con formato
    * Texto descriptivo
 
    ![](assets/drag-field-to-section.png)
 
-1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
+1. A la derecha de la pantalla, configure las opciones que están disponibles para el tipo de campo personalizado que está agregando:
 
    <table>
     <tr>
-    <td>Entrada en</td>
+    <td>Entrada a</td>
     <td>Descripción</td>
     <td>Disponible para </td>
     </tr>
@@ -161,7 +159,7 @@ Para agregar un campo de texto:
     </tr>
     <tr>
     <td>Etiqueta</td>
-    <td><p>Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.<p>
+    <td><p>Escriba una etiqueta descriptiva para mostrarla encima del widget. Puede cambiar la etiqueta en cualquier momento.<p>
     <p>IMPORTANTE: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p></td>
     <td><ul>
     <li>Texto de línea única</li>
@@ -171,10 +169,10 @@ Para agregar un campo de texto:
     </tr>
     <tr>
      <td>Nombre</td>
-    <td><p>(Obligatorio) Así es como el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+    <td><p>(Obligatorio) Este nombre es el modo en que el sistema identifica el campo. Cuando configura la utilidad por primera vez y escribe la etiqueta, el campo Nombre se rellena automáticamente para que coincida con ella. Sin embargo, los campos Etiqueta y Nombre no están sincronizados: esto le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
     <p><b>IMPORTANTE</b>:   
       <ul> 
-      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
+      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado en el que podría hacerse referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y más tarde cambia su nombre, Workfront no lo reconoce en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
       <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
       <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></li>
     </td>
@@ -187,7 +185,7 @@ Para agregar un campo de texto:
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.
+    <td>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenen el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver una información que contenga la información que escriba aquí.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -198,10 +196,10 @@ Para agregar un campo de texto:
     </tr>
     <tr>
     <td>Formato</td>
-    <td><p>Seleccione el tipo de datos que se capturarán en el campo personalizado.</p> <p><b>NOTA</b>:   
+    <td><p>Seleccione el tipo de datos que desea capturar en el campo personalizado.</p> <p><b>NOTA</b>:   
     <ul> 
-    <li>Este campo no se puede editar después de guardar el formulario. Si tiene intención de utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato de número o de moneda.<br></li> 
-    <li>Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li> 
+    <li>Este campo no se puede editar una vez guardado el formulario. Si desea utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato Number o Currency .<br></li> 
+    <li>Cuando selecciona Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li> 
      </ul></p></td> </td>
     <td><ul>
     <li>Texto de línea única</li>
@@ -218,16 +216,16 @@ Para agregar un campo de texto:
     </tr>
     <tr>
     <td>Hipervínculo</td>
-    <td> Si desea aplicar un hipervínculo al texto descriptivo que ha escrito, agréguelo aquí. El texto descriptivo se muestra como un vínculo en los objetos en los que está adjunto el formulario.</td>
+    <td> Si desea aplicar un hipervínculo al Texto descriptivo que ha escrito, agréguelo aquí. El texto descriptivo se muestra como un vínculo en los objetos donde está adjunto el formulario.</td>
     <td><ul><li>Texto descriptivo</li></ul></td>
     </tr>
    </table>
 
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    o
 
-   Para copiar un campo, pase el ratón sobre él y haga clic en el icono Copiar.
+   Para copiar un campo, pase el ratón sobre él y haga clic en el icono de copia.
 
    ![icono de copia](assets/copy-field.png)
 
@@ -235,29 +233,29 @@ Para agregar un campo de texto:
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Añadir campos calculados
 
-En un formulario personalizado, puede agregar un campo personalizado calculado que utilice datos existentes para generar datos nuevos cuando el formulario personalizado se adjunta a un objeto.
+En un formulario personalizado, puede agregar un campo personalizado calculado que utilice datos existentes para generar nuevos datos cuando el formulario personalizado esté adjunto a un objeto.
 
-Para agregar un campo calculado, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Para añadir un campo calculado, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Agregar botones de opción, casillas de verificación y listas desplegables
+### Agregar botones de opción, casillas de verificación y desplegables
 
-Puede agregar botones de opción, casillas de verificación y listas desplegables a un formulario personalizado.
+Puede agregar botones de opción, casillas de verificación y desplegables a un formulario personalizado.
 
-+++ **Amplíe para ver las descripciones de los campos disponibles**
++++ **Expandir para ver las descripciones de los campos disponibles**
 
-* **Botones de radio**: requiere que los usuarios seleccionen solo una opción.
-* **Grupo de casillas**: permite a los usuarios seleccionar varias opciones.
-* **Desplegable**: Proporciona una lista de opciones desplegables.
+* **Botones de radio**: Requiere que los usuarios seleccionen solo una opción.
+* **Grupo de casillas de verificación**: Permite a los usuarios seleccionar varias opciones.
+* **Lista desplegable**: Proporciona una lista de opciones desplegables.
 
 +++
 
 Para agregar botones de opción y casillas de verificación:
 
-1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
+1. En la parte izquierda de la pantalla, busque uno de los campos siguientes y arrástrelo a una sección del lienzo.
 
    * Botones de radio
    * Grupo de casillas de verificación
@@ -265,18 +263,18 @@ Para agregar botones de opción y casillas de verificación:
 
    ![](assets/drag-field-to-section.png)
 
-1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
+1. A la derecha de la pantalla, configure las opciones que están disponibles para el tipo de campo personalizado que está agregando:
 
    <table style="table-layout:auto"> 
     <tbody> 
     <tr>
-    <td>Entrada en</td>
+    <td>Entrada a</td>
     <td>Descripción</td>
     <td>Disponible para </td>
     </tr>
     <tr> 
      <td role="rowheader">Etiqueta</td> 
-     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
+     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
      <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
@@ -285,13 +283,13 @@ Para agregar botones de opción y casillas de verificación:
      </tr> 
      <tr> 
     <td role="rowheader">Nombre</td> 
-     <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas de Workfront, como informes, Inicio e interacciones de API.</p> <p>Cuando configure el campo personalizado por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
+     <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el campo personalizado cuando lo agrega a varias áreas de Workfront, como informes, Inicio e interacciones de API.</p> <p>Cuando configura el campo personalizado por primera vez y escribe la etiqueta, el campo Nombre se rellena automáticamente para que coincida con él. Sin embargo, los campos Etiqueta y Nombre no están sincronizados: esto le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
     <p><b>IMPORTANTE</b>:   
      <ul> 
-    <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
+    <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado en el que podría hacerse referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y más tarde cambia su nombre, Workfront no lo reconoce en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
     <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
      <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></li>
-     </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Agregar un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
+     </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar una que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Añadir un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
      <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
@@ -300,7 +298,7 @@ Para agregar botones de opción y casillas de verificación:
     </tr> 
     <tr> 
     <td role="rowheader">Instrucciones</td> 
-    <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.</p> 
+    <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenen el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver una información que contenga la información que escriba aquí.</p> 
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
@@ -311,10 +309,10 @@ Para agregar botones de opción y casillas de verificación:
     </tr> 
     <tr> 
     <td role="rowheader">Formato</td> 
-    <td> <p>Seleccione el tipo de datos que se capturarán en el campo personalizado.</p> <p><b>NOTA</b>:   
+    <td> <p>Seleccione el tipo de datos que desea capturar en el campo personalizado.</p> <p><b>NOTA</b>:   
      <ul> 
-    <li>Este campo no se puede editar después de guardar el formulario. Si tiene intención de utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato de número o de moneda.<br></li> 
-    <li>Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li> 
+    <li>Este campo no se puede editar una vez guardado el formulario. Si desea utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato Number o Currency .<br></li> 
+    <li>Cuando selecciona Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li> 
      </ul></p></td> 
      <td><ul>
     <li>Botones de radio</li>
@@ -324,7 +322,7 @@ Para agregar botones de opción y casillas de verificación:
     </tr> 
     <tr> 
      <td role="rowheader">Tipo de presentación</td> 
-    <td>Cambiar entre botones de opción, grupos de casillas de verificación o listas desplegables para el campo.</td> 
+    <td>Cambiar entre botones de opción, grupos de casillas de verificación o desplegables para el campo.</td> 
     <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
@@ -332,7 +330,7 @@ Para agregar botones de opción y casillas de verificación:
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">Establecer un campo obligatorio</td> 
+    <td role="rowheader">Cambiar un campo a obligatorio</td> 
     <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
     <td><ul>
     <li>Botones de radio</li>
@@ -344,17 +342,17 @@ Para agregar botones de opción y casillas de verificación:
     <td role="rowheader">Opciones </td> 
     <td> 
     <ol> 
-    <li> <p>Clic <b>Opciones</b>y, a continuación, habilite cualquiera de las siguientes opciones:</p> 
+    <li> <p>Haga clic en <b>Opciones</b>y, a continuación, active cualquiera de las siguientes opciones:</p> 
     <ul> 
-    <li><strong>Mostrar valores</strong>: Muestra los valores de cada opción en el campo. La etiqueta de cada opción se muestra de forma predeterminada.</li> 
-     <li><strong>Ordenar opciones A-Z</strong>: Ordena las opciones que se agregan alfabéticamente en el campo.</li> 
+    <li><strong>Mostrar valores</strong>: Muestra los valores de cada opción en el campo . La etiqueta de cada opción se muestra de forma predeterminada.</li> 
+     <li><strong>Opciones de orden A-Z</strong>: Ordena las opciones que se agregan alfabéticamente en el campo.</li> 
     </ul> 
     </li> 
-    <li> <p>Para cada opción que agregue para el usuario, haga clic en el icono de engranaje <img src="assets/gear-icon-settings.png">, luego seleccione una de las siguientes opciones:</p> 
+    <li> <p>Para cada opción que añada para el usuario, haga clic en el icono de engranaje <img src="assets/gear-icon-settings.png">y, a continuación, seleccione una de las siguientes opciones:</p> 
     <ul> 
-    <li><strong>Seleccionar de forma predeterminada</strong>: Seleccione la opción de forma predeterminada en el campo.</li> 
-    <li> <p><strong>Ocultar opción</strong>: oculte la opción en el campo. Las opciones ocultas siguen siendo accesibles en los informes.</p> </li> 
-    <li> <p><strong>Quitar opción</strong>: elimine la opción del campo.</p> <p><b>ADVERTENCIA</b>: Si tiene objetos actuales utilizando esta opción, no lo elimine del campo. Si lo elimina, se perderán datos históricos. En su lugar, seleccione la opción para ocultarla, lo que impide que los usuarios la seleccionen en el futuro.</p> </li> 
+    <li><strong>Seleccionar por defecto</strong>: Seleccione la opción de forma predeterminada en el campo .</li> 
+    <li> <p><strong>Ocultar opción</strong>: Oculte la opción en el campo . Las opciones ocultas siguen siendo accesibles en los informes.</p> </li> 
+    <li> <p><strong>Eliminar opción</strong>: Elimine la opción del campo .</p> <p><b>ADVERTENCIA</b>: Si tiene objetos actuales utilizando esta opción, no la elimine del campo. Si se elimina, se perderán datos históricos. En su lugar, seleccione la opción para ocultarla, lo que impide que los usuarios la seleccionen en el futuro.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -367,11 +365,11 @@ Para agregar botones de opción y casillas de verificación:
     </tbody> 
     </table>
 
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    o
 
-   Para copiar un campo, pase el ratón sobre él y haga clic en el icono Copiar.
+   Para copiar un campo, pase el ratón sobre él y haga clic en el icono de copia.
 
    ![icono de copia](assets/copy-field.png)
 
@@ -379,15 +377,15 @@ Para agregar botones de opción y casillas de verificación:
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-### Adición de campos de fecha y tipo anticipado
+### Adición de campos de fecha y de avance
 
-Puede agregar campos de escritura anticipada y fecha a un formulario personalizado.
+Se pueden agregar campos de fecha y de tipo anterior a un formulario personalizado.
 
-+++ **Amplíe para ver las descripciones de los campos disponibles**
++++ **Expandir para ver las descripciones de los campos disponibles**
 
-* **Escritura anticipada**: permite a los usuarios escribir el nombre de un objeto que existe en Workfront. Aparece una lista de sugerencias cuando el usuario empieza a escribir. Este tipo de campo admite los siguientes objetos:
+* **Typeforward**: Permite a los usuarios escribir el nombre de un objeto que existe en Workfront. Cuando el usuario empieza a escribir, aparece una lista de sugerencias. Este tipo de campo admite los siguientes objetos:
    * Usuario
    * Grupo
    * Función
@@ -397,20 +395,20 @@ Puede agregar campos de escritura anticipada y fecha a un formulario personaliza
    * Equipo
    * Plantilla
    * Compañía
-* **Campo de fecha**: muestra un calendario en el que los usuarios pueden seleccionar una fecha y una hora.
+* **Campo de fecha**: Muestra un calendario en el que los usuarios pueden seleccionar una fecha y una hora.
 
 +++
 
-Para agregar campos de fecha de escritura anticipada:
+Para añadir campos de fecha tipeante:
 
-1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
+1. En la parte izquierda de la pantalla, busque uno de los campos siguientes y arrástrelo a una sección del lienzo.
 
    * Escritura anticipada
    * Campo de fecha
 
    ![](assets/drag-field-to-section.png)
 
-1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
+1. A la derecha de la pantalla, configure las opciones que están disponibles para el tipo de campo personalizado que está agregando:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -421,7 +419,7 @@ Para agregar campos de fecha de escritura anticipada:
     </tr>
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
        <td><ul>
     <li>Escritura anticipada</li>
     <li>Campo de fecha</li>
@@ -429,13 +427,13 @@ Para agregar campos de fecha de escritura anticipada:
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas de Workfront, como informes, Inicio e interacciones de API.</p> <p>Cuando configure el campo personalizado por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
+      <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el campo personalizado cuando lo agrega a varias áreas de Workfront, como informes, Inicio e interacciones de API.</p> <p>Cuando configura el campo personalizado por primera vez y escribe la etiqueta, el campo Nombre se rellena automáticamente para que coincida con él. Sin embargo, los campos Etiqueta y Nombre no están sincronizados: esto le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
       <p><b>IMPORTANTE</b>:   
       <ul> 
-      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
+      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado en el que podría hacerse referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y más tarde cambia su nombre, Workfront no lo reconoce en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
       <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
       <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></li>
-      </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Agregar un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
+      </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar una que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Añadir un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
          <td><ul>
     <li>Escritura anticipada</li>
     <li>Campo de fecha</li>
@@ -443,7 +441,7 @@ Para agregar campos de fecha de escritura anticipada:
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
-      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.</p> 
+      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenen el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver una información que contenga la información que escriba aquí.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
@@ -453,24 +451,24 @@ Para agregar campos de fecha de escritura anticipada:
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar hora del día</td> 
-      <td>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo.</td> 
+      <td>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo .</td> 
          <td><ul>
     <li>Campo de fecha</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>Seleccione el tipo de objeto que desea asociar al campo.</p> <p>Una vez que haya hecho clic en Aplicar o en Guardar+Cerrar, no puede cambiar el tipo de objeto del campo.</p> <p><b>NOTA</b>:   
+      <td> <p>Seleccione el tipo de objeto que desea asociar al campo.</p> <p>Una vez que haya hecho clic en Aplicar o en Guardar+Cerrar, no podrá cambiar el tipo de objeto del campo.</p> <p><b>NOTA</b>:   
         <ul> 
-         <li>Si el administrador de Workfront personalizó el nombre para Portfolio, Programas o Proyectos en la interfaz de usuario de Workfront, el nombre de Workfront predeterminado para el objeto aparecerá en esta lista desplegable, no en el nombre personalizado. Póngase en contacto con el administrador de Workfront si necesita ayuda con esto.<br></li> 
-         <li>Los siguientes tipos de objetos son compatibles con las aplicaciones móviles de iOS y Android Workfront: usuario, empresa, grupo, función de trabajo, Portfolio, programa, proyecto y plantilla.</li> 
+         <li>Si el administrador de Workfront ha personalizado el nombre para Portfolio, Programas o Proyectos en la interfaz de usuario de Workfront, el nombre predeterminado de Workfront para el objeto aparece en esta lista desplegable, no en el nombre personalizado. Consulte con el administrador de Workfront si necesita ayuda con esto.<br></li> 
+         <li>Los siguientes tipos de objetos son compatibles con las aplicaciones móviles iOS y Android Workfront : Usuario, Empresa, Grupo, Función de trabajo, Portfolio, Programa, Proyecto y Plantilla.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Escritura anticipada</li>
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Establecer un campo obligatorio</td> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td> 
       <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
        <td><ul>
     <li>Escritura anticipada</li>
@@ -480,11 +478,11 @@ Para agregar campos de fecha de escritura anticipada:
     </tbody> 
    </table>
 
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    o
 
-   Para copiar un campo, pase el ratón sobre él y haga clic en el icono Copiar.
+   Para copiar un campo, pase el ratón sobre él y haga clic en el icono de copia.
 
    ![icono de copia](assets/copy-field.png)
 
@@ -492,14 +490,14 @@ Para agregar campos de fecha de escritura anticipada:
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-### Agregar imágenes, PDF y vídeos
+### Añadir imágenes, PDF y vídeos
 
-Puede agregar imágenes, PDF y vídeos a un formulario personalizado. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado solo podrán ver la imagen, el PDF o el vídeo en las áreas siguientes:
+Puede agregar imágenes, PDF y vídeos a un formulario personalizado. Los usuarios que trabajen con el objeto al que esté adjunto el formulario personalizado solo podrán ver la imagen, el PDF o el vídeo en las siguientes áreas:
 
 * El área Detalles del objeto (por ejemplo, para un proyecto, el área Detalles del proyecto)
-* El cuadro Editar del objeto, si tiene el nuevo aspecto y funcionamiento de la experiencia Adobe Workfront (por ejemplo, los cuadros Editar proyecto y Editar tarea)
+* El cuadro Editar del objeto, si tiene el nuevo aspecto y presentación de la experiencia de Adobe Workfront (por ejemplo, los cuadros Editar proyecto y Editar tarea)
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -508,17 +506,17 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Amplíe para ver las descripciones de los campos disponibles**
++++ **Expandir para ver las descripciones de los campos disponibles**
 
-* **Imagen**: permite a los usuarios añadir archivos de imagen _____.
-* **PDF**: permite a los usuarios añadir PDF
-* **Vídeos**: permite a los usuarios añadir archivos de vídeo ____.
+* **Imagen**: Permite a los usuarios agregar archivos de imagen _____.
+* **PDF**: Permite a los usuarios agregar PDF
+* **Vídeos**: Permite a los usuarios agregar ____ archivos de vídeo.
 
 +++
 
 Para agregar imágenes, PDF o vídeos:
 
-1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
+1. En la parte izquierda de la pantalla, busque uno de los campos siguientes y arrástrelo a una sección del lienzo.
 
    * Imagen
    * PDF
@@ -534,11 +532,11 @@ Para agregar imágenes, PDF o vídeos:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es la forma en que el sistema identifica el widget.</p> <p>Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p><b>IMPORTANTE</b>: Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en el widget. Si lo hace, el sistema ya no reconocerá el widget donde ahora se podría hacer referencia a él en otras áreas de Workfront. </p> <p>Cada nombre de widget debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. </p> </td> 
+      <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el widget.</p> <p>Cuando configura la utilidad por primera vez y escribe la etiqueta, el campo Nombre se rellena automáticamente para que coincida con ella. Sin embargo, los campos Etiqueta y Nombre no están sincronizados: esto le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p><b>IMPORTANTE</b>: Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en un widget. Si lo hace, el sistema ya no reconocerá el widget donde podría hacerse referencia a él en otras áreas de Workfront. </p> <p>Cada nombre de widget debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar una que ya se haya creado para otro formulario personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dirección URL</td> 
@@ -548,13 +546,13 @@ Para agregar imágenes, PDF o vídeos:
       <li> <p>Vínculo de YouTube o Vimeo</p> </li> 
       <li> <p>Vínculo de vídeo de Google Drive</p> </li> 
       <li> <p>Vínculo a vídeo con extensión MP4 y MOV</p> </li> 
-      <li> <p>Vínculo a un vídeo ya cargado en el área Documentos de la instancia de Workfront. Para obtener instrucciones, consulte <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Agregar un widget de vídeo a un formulario personalizado desde el área Documentos</a> en este artículo.</p> </li> 
+      <li> <p>Vínculo a vídeo ya cargado en el área Documentos de la instancia de Workfront. Para obtener instrucciones, consulte <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Agregue un widget de vídeo a un formulario personalizado desde el área Documentos</a> en este artículo.</p> </li> 
       </ul> 
        </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
-      <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.</p> </td> 
+      <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenen el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver una información que contenga la información que escriba aquí.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tamaño</td> 
@@ -563,11 +561,11 @@ Para agregar imágenes, PDF o vídeos:
     </tbody> 
    </table>
 
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    o
 
-   Para copiar un campo, pase el ratón sobre él y haga clic en el icono Copiar.
+   Para copiar un campo, pase el ratón sobre él y haga clic en el icono de copia.
 
    ![icono de copia](assets/copy-field.png)
 
@@ -575,30 +573,30 @@ Para agregar imágenes, PDF o vídeos:
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-#### **Agregar un widget de vídeo a un formulario personalizado desde el área Documentos**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### **Agregue un widget de vídeo a un formulario personalizado desde el área Documentos**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Cuando se agrega un vídeo a un formulario personalizado de este modo, solo se aplican al vídeo los permisos establecidos para el formulario personalizado cuando los usuarios acceden al formulario en un objeto, no los permisos establecidos para el vídeo en el área Documentos.
+>Cuando agrega un vídeo a un formulario personalizado de esta forma, solo los permisos establecidos para el formulario personalizado se aplican al vídeo cuando los usuarios acceden al formulario en un objeto, no a los permisos establecidos para el vídeo en el área Documentos.
 
-1. Vaya al vídeo en el área Documents y genere una prueba para él, tal como se describe en [Creación de una prueba interactiva para un sitio web u otro contenido web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Vaya al vídeo en el área Documentos y genere una prueba para él, tal como se describe en [Crear una prueba interactiva para un sitio web u otro contenido web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Abra la prueba.
 1. Haga clic con el botón derecho en cualquier lugar del vídeo y seleccione **Copiar dirección de vídeo**.
-1. En el formulario personalizado en el que está agregando el widget de vídeo, pegue la dirección copiada en la **URL** cuadro.
+1. En el formulario personalizado en el que va a añadir el widget de vídeo, pegue la dirección copiada en la **URL** en la ventana
 1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-### Añadir archivos de Adobe XD
+### Añadir archivos Adobe XD
 
-Puede agregar un prototipo de Adobe XD directamente a un formulario personalizado. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado solo podrán ver el archivo Adobe XD en las áreas siguientes:
+Puede agregar un prototipo de Adobe XD directamente a un formulario personalizado. Los usuarios que trabajen con el objeto al que esté adjunto el formulario personalizado solo podrán ver el archivo Adobe XD en las siguientes áreas:
 
 * El área Detalles del objeto (por ejemplo, para un proyecto, el área Detalles del proyecto)
-* El cuadro Editar del objeto, si tiene el nuevo aspecto y funcionamiento de la experiencia Adobe Workfront (por ejemplo, los cuadros Editar proyecto y Editar tarea)
+* El cuadro Editar del objeto, si tiene el nuevo aspecto y presentación de la experiencia de Adobe Workfront (por ejemplo, los cuadros Editar proyecto y Editar tarea)
 
 Para agregar un archivo Adobe XD:
 
@@ -611,26 +609,26 @@ Para agregar un archivo Adobe XD:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es la forma en que el sistema identifica el widget. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td> <p>(Obligatorio) Este nombre es el modo en que el sistema identifica el widget. Cuando configura la utilidad por primera vez y escribe la etiqueta, el campo Nombre se rellena automáticamente para que coincida con ella. Sin embargo, los campos Etiqueta y Nombre no están sincronizados: esto le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
     <p><b>IMPORTANTE</b>:   
       <ul> 
-      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
+      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado en el que podría hacerse referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y más tarde cambia su nombre, Workfront no lo reconoce en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
       <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
       <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dirección URL</td> 
-      <td> <p>XD (Obligatorio) Escriba o pegue un vínculo válido de prototipo de.</p> 
-      <p>Nota: La configuración Acceso a vínculos de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
+      <td> <p>(Obligatorio) Escriba o pegue un vínculo de prototipo de XD válido.</p> 
+      <p>Nota: La configuración de Acceso a vínculos de la ficha Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
-      <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.
+      <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenen el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver una información que contenga la información que escriba aquí.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr> 
      <tr> 
@@ -640,11 +638,11 @@ Para agregar un archivo Adobe XD:
     </tbody> 
    </table>
 
-1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
+1. (Opcional) Repita el paso anterior para agregar otros campos o utilidades.
 
    o
 
-   Para copiar un campo, pase el ratón sobre él y haga clic en el icono Copiar.
+   Para copiar un campo, pase el ratón sobre él y haga clic en el icono de copia.
 
    ![icono de copia](assets/copy-field.png)
 
@@ -652,8 +650,8 @@ Para agregar un archivo Adobe XD:
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
-## Organizar y obtener una vista previa de un formulario con el diseñador de formularios
+## Organizar y previsualizar un formulario con el diseñador de formularios
 
-Para obtener información sobre cómo organizar y ver una vista previa del formulario, consulte [Organizar y obtener una vista previa de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Para obtener información sobre cómo organizar y ver una vista previa del formulario, consulte [Organizar y previsualizar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).

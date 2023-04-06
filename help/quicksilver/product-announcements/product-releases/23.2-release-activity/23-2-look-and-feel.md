@@ -4,7 +4,7 @@ description: Actualizaciones de apariencia durante el lapso de tiempo de la vers
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles con la versión 23.2, co
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de abril de 2023; Versión de producción planificada: 18 de abril de 2023
+>Versión de vista previa: 4 de abril de 2023; Versión de producción planificada: 20 de abril de 2023
 
 Hemos actualizado la lista Borradores del área Solicitudes para que sea coherente con las listas más recientes de Workfront.
 Algunas de las actualizaciones son las siguientes:

@@ -7,7 +7,7 @@ description: Puede organizar un formulario personalizado con el Diseñador de fo
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 529de9d31be883325d425dceb286d750397c5d8e
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Organizar y previsualizar un formulario con el diseñador de formularios
-
-{{highlighted-preview-article-level}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios.
 
