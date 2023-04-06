@@ -6,7 +6,7 @@ description: Adobe Workfront lanzó la versión 13 de la API el 22 de abril de 2
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Un objeto de parte de horas representa un panel de tiempo virtual que permite a 
 
 ### UITemplate {#uitemplate}
 
-Los administradores de Adobe Workfront o los administradores de grupos pueden crear plantillas para personalizar los elementos de diseño en Adobe Workfront. El objeto LayoutTemplate es específico de la nueva experiencia de Adobe Workfront.
+Los administradores de Adobe Workfront o los administradores de grupos pueden crear plantillas para personalizar los elementos de diseño en Adobe Workfront. El objeto UITemplate es específico de la nueva experiencia de Adobe Workfront.
 
 Para el objeto que representa las plantillas de diseño en Adobe Workfront Classic, consulte [PlantillaDiseño](#layouttemplate).
 
