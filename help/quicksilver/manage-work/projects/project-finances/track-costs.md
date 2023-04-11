@@ -7,9 +7,9 @@ description: Puede realizar un seguimiento de los costes de los proyectos, las t
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,6 @@ El coste planificado de un proyecto se calcula mediante la fórmula siguiente:
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 Por ejemplo, tiene los siguientes gastos en la pestaña Expenses de una tarea: un gasto de marketing de 100 $ y un gasto administrativo de 50 $. En la pestaña Finanzas, seleccione el tipo de coste Usuario por hora . Un usuario se asigna a la tarea y la tasa por hora del usuario es de 15 $. El usuario tiene asignado trabajar 5 horas en esta tarea. En la pestaña Gastos del proyecto, tiene un costo planificado de 100 $ para un gasto denominado Consultoría. También tiene un costo fijo de 200 $ para el proyecto.
 
 El costo planeado del proyecto se calcula de la siguiente manera:
@@ -148,17 +145,15 @@ El costo real de un proyecto es el costo asociado con el trabajo real (horas reg
 El costo real se calcula mediante la fórmula siguiente:
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-Por ejemplo, tiene los siguientes gastos en la pestaña Expenses de una tarea: un gasto de marketing con un costo real de 110 dólares y un gasto administrativo con un costo real de 40 dólares. Seleccione el tipo de coste Función por hora y asigne la función de trabajo Consultor a la tarea. La tasa de la función de trabajo del consultor es de 15 $ por hora y hay 6 horas registradas en la tarea para la función de trabajo del consultor. También hay un gasto de consultoría asociado al proyecto (en la pestaña Gastos ), con un costo real de 100 $ y un usuario con una tasa de costo por hora de 20 $ en sus registros de perfil de usuario de 10 horas en el proyecto.
+Por ejemplo, tiene los siguientes gastos en la pestaña Expenses de una tarea: un gasto de marketing con un costo real de 110 dólares y un gasto administrativo con un costo real de 40 dólares. Seleccione el tipo de coste Función por hora y asigne la función de trabajo Consultor a la tarea. La tasa de la función de trabajo del consultor es de 15 $ por hora y hay 6 horas registradas en la tarea para la función de trabajo del consultor. Hay un gasto de consultoría asociado al proyecto (en la pestaña Gastos ), con un costo real de 100 $ y un usuario con una tasa de costo por hora de 20 $ en sus registros de perfil de usuario de 10 horas en el proyecto. También tiene un costo fijo de 200 $ para el proyecto.
 
 El costo real del proyecto se calcula de la siguiente manera:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
