@@ -6,10 +6,10 @@ description: Puede vincular manualmente la resolución de un problema a la resol
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 
 ---
 
@@ -68,19 +68,30 @@ Antes de comenzar, debe:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Vaya a la **Información general** en el **Detalles del problema** para obtener más información.
-1. Haga clic en el **Resuelto por** y seleccione entre los siguientes tipos de objetos resueltos:  
+1. Haga clic en el **Resuelto por** y seleccione entre los siguientes tipos de objetos resueltos:
 
    * **Proyecto**
    * **Tarea**
    * **Problema**
 
-1. Se muestra el campo del objeto de resolución.
-1. Después de seleccionar el objeto, empiece a escribir el nombre de un proyecto, tarea o problema específico en el campo disponible y selecciónelo cuando aparezca en la lista desplegable.
-1. Haga clic en **Guardar** **Cambios**.\
+   Según el objeto seleccionado, se muestran los campos siguientes:
+
+   * **Resolviendo proyecto**
+   * **Resolviendo tarea**
+   * **Resolviendo problema**
+
+
+1. Empiece a escribir el nombre de un proyecto, tarea o problema específico en la sección **Resolver proyecto**, **Tarea** o **Problema** y haga clic en él cuando aparezca en la lista.
+
+   >[!NOTE]
+   >
+   >No puede asociar la resolución de un problema a la tarea o al proyecto en el que se encuentra el problema. La tarea o el proyecto del problema no se muestran en los campos Tarea resuelta o Tarea resuelta .
+
+
+1. Haga clic en **Guardar cambios**.
+
    El problema original se convierte en el objeto resuelto para el proyecto, la tarea o el problema seleccionado en los pasos 4 y 5. Esto significa que el problema original se completa cuando se completa el objeto resuelto (el proyecto, la tarea o el problema al que lo vinculó).
 
    >[!NOTE]
    >
    >Un proyecto, tarea o problema puede tener varios problemas como Objetos resueltos.
-
- 
