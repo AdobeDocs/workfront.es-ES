@@ -6,7 +6,7 @@ description: Puede agregar etiquetas a las tarjetas para mostrar visualmente que
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en la tarjeta y seleccione **[!UICONTROL Editar]**.
 
-1. Busque la etiqueta que desea eliminar de la tarjeta y, a continuación, haga clic en el botón **[!UICONTROL Eliminar]** icono &#x200B; ![Eliminar etiqueta](assets/copy-of-boards-remove-30x23.png).
+1. Busque la etiqueta que desea eliminar de la tarjeta y, a continuación, haga clic en el botón **[!UICONTROL Eliminar]** icono ![Eliminar etiqueta](assets/copy-of-boards-remove-30x23.png).
 1. Haga clic en **[!UICONTROL Cerrar]**.
 
 ## Eliminar una etiqueta
