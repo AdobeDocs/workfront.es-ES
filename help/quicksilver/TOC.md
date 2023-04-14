@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 1%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 1%
       * [Eliminar o archivar una tarjeta de un tablero](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrar y buscar en un tablero](agile/get-started-with-boards/filter-search-in-board.md)
       * [Agregar etiquetas](agile/get-started-with-boards/add-tags.md)
+      * [Notificaciones y preferencias de correo electrónico de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Usar herramientas de planificación ágiles en tableros {#agile-planning-boards}
       * [Información general sobre las herramientas de planificación de Agile](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Administrar el límite de trabajo en curso (WIP) en un tablero](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)

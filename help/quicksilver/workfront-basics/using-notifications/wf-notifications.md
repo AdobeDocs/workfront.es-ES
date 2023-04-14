@@ -6,14 +6,16 @@ description: Adobe Workfront envía notificaciones por correo electrónico, noti
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] notificaciones
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] envía notificaciones por correo electrónico, notificaciones en la aplicación y notificaciones en el dispositivo móvil.
 
@@ -32,6 +34,7 @@ Puede recibir las siguientes notificaciones por correo electrónico desde [!DNL 
 * [Notificación de los comentarios publicados](#notification-of-posted-comments)
 * [Avisos automáticos](#automatic-reminders)
 * [Notificaciones de recordatorio](#reminder-notifications)
+* [Notificaciones del tablero](#boards-notifications)
 * [Otro [!DNL Workfront] correos electrónicos](#other-workfront-emails)
 
 ### Notificaciones de eventos
@@ -126,6 +129,16 @@ A [!DNL Workfront] administrador (o un usuario con un [!UICONTROL Planificador] 
 Las notificaciones del recordatorio se envían desde la dirección de correo electrónico de que la variable [!DNL Workfront] administrador seleccionado para gestionar correos electrónicos salientes.
 
 Para obtener información sobre la configuración y activación de notificaciones de recordatorio, consulte [Configuración de notificaciones de recordatorio](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### Notificaciones del tablero
+
+[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta.
+
+Puede seleccionar qué correos electrónicos desea recibir en las preferencias de tableros. Para obtener más información, consulte [Notificaciones y preferencias de correo electrónico de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### Otro [!DNL Workfront] correos electrónicos
 
