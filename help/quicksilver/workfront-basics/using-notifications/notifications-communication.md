@@ -6,9 +6,9 @@ description: Las siguientes notificaciones le avisan sobre la comunicación, com
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1534'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Alguien agrega comentarios a uno de mis elementos de trabajo</strong> </p> <p>El usuario asignado del elemento de trabajo recibe una notificación por correo electrónico cada vez que un usuario agrega una actualización a un elemento de trabajo, a menos que el usuario que agrega la actualización también sea el usuario asignado. </p> <p>Cuando se publique un comentario en una solicitud, envíe un correo electrónico al contacto principal del problema.</p> <p>El contacto principal de un problema recibe una notificación por correo electrónico cuando se publica un comentario en una solicitud, a menos que el usuario que publicó el comentario también sea el contacto principal del problema.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Comentario en] &lt;work item="" name=""&gt; en &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> El tema de la notificación diaria de compendio es:<em> [!UICONTROL Resumen de comunicación] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Alguien agrega comentarios a uno de mis elementos de trabajo</strong> </p> <p>El usuario asignado del elemento de trabajo recibe una notificación por correo electrónico cada vez que un usuario agrega una actualización a un elemento de trabajo, a menos que el usuario que agrega la actualización también sea el usuario asignado. </p> <p>Cuando se publique un comentario en una solicitud, envíe un correo electrónico al contacto principal del problema.</p> <p>El contacto principal de un problema recibe una notificación por correo electrónico cuando se publica un comentario en una solicitud, a menos que el usuario que publicó el comentario también sea el contacto principal del problema.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Comentario en] &lt;work item="" name=""&gt; en &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> El tema de la notificación diaria de compendio es:<em> [!UICONTROL Resumen de comunicación] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Nombre del elemento de trabajo<br>Nombre del proyecto<br>Número de referencia del elemento de trabajo<br>Nombre del usuario que comentó el elemento de trabajo<br>Texto del comentario sobre el elemento de trabajo<br>Fecha y hora en que se realizó el comentario<br>*Número total de comentarios recibidos<br>*Número de comentarios recibidos para cada objeto<br>*Nombre del proyecto<br>*<strong>[!UICONTROL Ver todas las notificaciones]</strong> botón<br>*Fecha del compendio diario </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
