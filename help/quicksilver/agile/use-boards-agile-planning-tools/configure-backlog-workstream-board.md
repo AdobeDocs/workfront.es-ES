@@ -5,9 +5,10 @@ navigation-topic: boards
 title: Configuración del trabajo pendiente en un tablero de flujos de trabajo
 description: Puede elegir mostrar una columna de trabajo pendiente en un tablero en un flujo de trabajo y definir una consulta para las tarjetas que se arrastran al trabajo acumulado del tablero desde la lista de tarjetas del flujo de trabajo.
 author: Lisa
-source-git-commit: b58831d50c2be421c666515808091aa4863bb471
+exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    La columna de trabajo atrasado se agrega a la izquierda del tablero. Permanecerá en blanco hasta que se le aplique una consulta.
 
 1. Expandir [!UICONTROL **Consulta de atrasos**].
+
+   >[!NOTE]
+   >
+   >Es posible que ya se haya aplicado una consulta predeterminada al registro acumulado, que muestra todos los elementos de trabajo de la lista de tarjetas que no pertenecen a una iteración y que no están en estado Complete .
+
 1. Haga clic en [!UICONTROL **Añadir condición**] y haga clic en el campo &quot;vacío&quot;.
 1. Seleccione el campo por el que desea realizar la consulta.
 
@@ -58,13 +64,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Seleccione el modificador de consulta.
 
-   Las opciones son: es igual a, no es igual a, existe y no existe.
-
-   Ejemplo: Si elige Fecha de vencimiento y existe, el registro de atrasos mostrará las tarjetas con fechas de vencimiento asignadas. Las tarjetas sin fecha de vencimiento no se arrastrarán al registro acumulado.
+   Las opciones del modificador dependen de los campos a los que se puedan aplicar. Por ejemplo, el campo &quot;nombre&quot; no tiene &quot;bueno que&quot; o &quot;menor que&quot; como opciones modificadoras porque esos modificadores solo se aplican a los números.
 
 1. Seleccione el valor .
 
-   El valor solo está disponible cuando se usa igual o no igual que como modificador.
+   El valor no está disponible cuando se usa &quot;existe&quot; o &quot;no existe&quot; como modificador.
+
+   Por ejemplo, si elige &quot;Fecha de vencimiento&quot; y &quot;existe&quot;, el registro de atrasos mostrará tarjetas con fechas de vencimiento asignadas. Las tarjetas sin fecha de vencimiento no se arrastrarán al registro acumulado.
 
 1. (Opcional) Haga clic en [!UICONTROL **Añadir condición**] para agregar otra condición a la consulta.
 
