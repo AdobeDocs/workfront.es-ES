@@ -6,9 +6,9 @@ description: Puede registrar el tiempo para los elementos de trabajo en &nbsp;Ad
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ Puede registrar horas generales u horas específicas del proyecto en un parte de
 
    >[!IMPORTANT]
    >
-   >Si la función de trabajo para la que ha registrado ha cambiado y la variable **Asignar roles de trabajo a las entradas de hora manualmente** se ha desactivado, debe guardar manualmente las entradas de tiempo. El parte de horas volverá a ahorrar tiempo automáticamente solo cuando ya no haya ningún tiempo registrado para la función de trabajo que ha cambiado.
+   >Debe guardar el parte de horas manualmente si se da alguna de las siguientes situaciones:
    >
-   >Si la función ha cambiado y la variable **Asignar roles de trabajo a las entradas de hora manualmente** está activada, puede registrar la hora o actualizar la función y los cambios se guardarán automáticamente.
+   >* La función de trabajo asociada con el tiempo que ha registrado anteriormente ha cambiado y la variable **Asignar roles de trabajo a las entradas de hora manualmente** se ha desactivado. La hora de registro de las nuevas fechas la asociará a una función de trabajo diferente.
+      >   
+      >   Si la función ha cambiado y la variable **Asignar roles de trabajo a las entradas de hora manualmente** está activada, puede registrar la hora o actualizar la función y los cambios se guardarán automáticamente.
+   >
+   >* La función de trabajo asignada a una tarea o problema es diferente a la función de trabajo con la que el propietario del parte de horas está registrando la hora <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >El parte de horas volverá a guardar el tiempo automáticamente cuando no haya más entradas en conflicto entre las dos funciones.
 
 1. (Opcional) Especifique la cantidad de horas extra en el campo Horas extra del encabezado del parte de horas.
 

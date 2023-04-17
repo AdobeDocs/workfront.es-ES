@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
    >   Se genera un correo electrónico para notificar a los usuarios de la actualización solo cuando envíe la actualización original. Después de editar la actualización no se genera ningún correo electrónico.
 
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 4-7 anteriores. <!--(**************insure this stays accurate***********)-->. Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Condicional y opcional) Si otros usuarios han añadido comentarios que se muestran fuera del área visible de la sección Actualizaciones , haga clic en **Ver** dentro del azul **banner de comentarios nuevos** en la parte inferior de la pantalla para mostrar estos comentarios.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Los comentarios adicionales aparecen en la parte inferior de la pantalla.
+
+   >[!NOTE]
+   >
+   >   El indicador &quot;comentarios nuevos&quot; y el botón &quot;Ver&quot; solo se muestran cuando tanto los usuarios que han introducido las nuevas actualizaciones como el usuario que está viendo la sección Actualizaciones están usando la nueva experiencia de comentarios.
+
+
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png). El icono se actualiza con el número de &quot;Me gusta&quot;.
 1. (Condicional y Opcional) Si ha incluido otras personas en el comentario, haga clic en el número de miembros incluidos en la actualización para mostrar una lista de entidades con las que se comparte el comentario que ha introducido.
 

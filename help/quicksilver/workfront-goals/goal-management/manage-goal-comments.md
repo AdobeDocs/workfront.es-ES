@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
 
 1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado.
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-9 anteriores. <!--insure this stays accurate-->
+1. (Condicional y opcional) Si otros usuarios han añadido comentarios que se muestran fuera del área visible de la sección Actualizaciones , haga clic en **Ver** dentro del azul **banner de comentarios nuevos** en la parte inferior de la pantalla para mostrar estos comentarios.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Los comentarios adicionales aparecen en la parte inferior de la pantalla.
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Haga clic en el **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza un objetivo, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema . Workfront también registra una actualización del sistema cuando un resultado, actividad o proyecto se agrega al objetivo o cuando se actualiza. <!--ensure the casing on the tab has not changed-->
