@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
 workflow-type: tm+mt
-source-wordcount: '12880'
+source-wordcount: '12897'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
       * [Resumen de las versiones del producto](product-announcements/product-releases/product-releases.md)
       * [Programación y proceso de la versión de Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Versión 23.3 {#release-23-3}
+         * [Información general sobre la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
+         * [Actualizaciones de aspecto durante el lapso de tiempo de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+         * [semana de actividad de la versión 23.3 del 17 de abril de 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
       * Versión 23.2 {#release-23-2}
          * [Resumen de la versión 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Mejoras del administrador](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
