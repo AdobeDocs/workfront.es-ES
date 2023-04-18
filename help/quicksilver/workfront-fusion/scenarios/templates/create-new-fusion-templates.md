@@ -7,9 +7,9 @@ description: Puede crear nuevas plantillas de escenario en [!DNL Adobe] Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Crear una plantilla nueva
 
+Puede crear una plantilla en un proceso similar a la creación de un escenario. Los administradores de Fusion también pueden crear plantillas a partir de escenarios existentes.
+
+* [Creación de una plantilla](#build-a-template)
+* [Creación de una plantilla a partir de un escenario](#create-a-template-from-a-scenario)
+
+### Creación de una plantilla
+
 1. Haga clic en **[!UICONTROL Plantillas]** ![](assets/fusion-template-icon.png) en el panel de navegación izquierdo.
 1. Haga clic en **[!UICONTROL Crear una plantilla nueva]** en la esquina superior derecha.
 1. (Opcional) Cambie el nombre de la plantilla reemplazando el valor predeterminado **[!UICONTROL Nuevo nombre de plantilla]** en la esquina superior izquierda.
@@ -81,6 +88,36 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 >[!NOTE]
 >
 >Al guardar la plantilla, la hace visible para todos los integrantes del equipo. Si desea que la plantilla sea accesible fuera del equipo, debe publicarla y, a continuación, utilizar un vínculo compartido, o solicitar al administrador que apruebe y publique la plantilla.
+
+### Creación de una plantilla a partir de un escenario
+
+>[!NOTE]
+>
+>Debe ser administrador de Fusion para crear una plantilla a partir de un escenario.
+
+1. Abra la página de detalles del escenario desde la que desea crear el escenario.
+1. Haga clic en el **Administrador** desplegable cerca de la esquina superior derecha de la página.
+1. Select **Clonar como plantilla**.
+
+   El escenario se copia en una página Nueva plantilla .
+1. (Opcional) Cambie el nombre de la plantilla reemplazando el valor predeterminado **[!UICONTROL Nuevo nombre de plantilla]** en la esquina superior izquierda.
+1. (Opcional) Para cambiar el idioma de la plantilla, haga clic en **[!UICONTROL Configuración de una plantilla]** ![](assets/fusion-scenario-settings-icon.png) y seleccione el idioma en la lista desplegable Idioma .
+
+   >[!IMPORTANT]
+   >
+   >La selección de Idiomas corresponde a los idiomas disponibles en la configuración del sistema y afecta únicamente al nombre de la plantilla pública y su descripción. Una vez guardada la plantilla, no se puede cambiar un idioma de plantilla.
+
+1. (Opcional) Para introducir una descripción de la plantilla, haga clic en **[!UICONTROL Configuración de una plantilla]** ![](assets/fusion-scenario-settings-icon.png) e introduzca la descripción.
+1. Edite aplicaciones, módulos y herramientas del mismo modo que lo haría al editar un escenario estándar.
+
+   Para añadir ayuda contextual a los módulos, consulte [Configuración [!UICONTROL Asistente] funcionalidad](#set-up-wizard-functionality) en este artículo.
+
+   >[!NOTE]
+   >
+   >Si la plantilla incluye módulos que requieren la adición de la conexión, las credenciales u otra información confidencial, esta información no se comparte con los usuarios de la plantilla.
+
+1. (Opcional) Haga clic en **[!UICONTROL Ejecutar una vez]** para probar la plantilla.
+1. Haga clic en el **[!UICONTROL Guardar]** icono ![](assets/save-icon.png).
 
 ## Configuración [!UICONTROL Asistente] funcionalidad {#set-up-wizard-functionality}
 
