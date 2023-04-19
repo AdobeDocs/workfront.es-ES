@@ -7,9 +7,9 @@ description: Complemento de Adobe Workfront para aplicaciones de Creative Cloud
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ Para obtener información sobre cómo utilizar e instalar el complemento, consul
 * [Administre el trabajo con [!DNL Adobe Workfront] complemento para [!DNL Creative Cloud] Aplicaciones](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Cargue documentos y pruebas con el [!DNL Adobe Workfront] complemento para [!DNL Creative Cloud] Aplicaciones](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [Tutorial de vídeo: Uso [!DNL Adobe Workfront] plugins para [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [Tutorial de vídeo: Creación y administración de paquetes, implementación de actualizaciones y solución de errores de instalación](https://www.youtube.com/watch?v=zzvXNLIBzrc)
