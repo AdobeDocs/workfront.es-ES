@@ -6,9 +6,9 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Debe instalar el [!DNL Adobe Photoshop] antes de instalar la aplicación [!DNL Workfront] plugin.
 
-## Instale el [!DNL Adobe Workfront for Photoshop] plugin
+## Instale el [!DNL Adobe Workfront for Photoshop] complemento para su organización
 
->[!TIP]
->
->Si es [!DNL Adobe Admin Console] administrador, puede incluir el complemento en [!DNL Creative Cloud] paquetes de implementación. Para obtener más información, consulte [Inclusión de complementos en el paquete](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Si es [!DNL Adobe Admin Console] administrador, puede incluir el complemento en [!DNL Creative Cloud] paquetes de implementación. Para obtener más información, consulte [Inclusión de complementos en el paquete](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[Ver un tutorial de vídeo aquí](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Instale el [!DNL Adobe Workfront for Photoshop] complemento individualmente
+
+Puede instalar el [!DNL Adobe Workfront for Photoshop] complemento para usted mismo desde el [!DNL Adobe Exchange].
 
 1. Vaya a la [Página de instalación de Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) en el Adobe Exchange.
 1. En el cuadro de diálogo que aparece, haga clic en **Apertura [!DNL Adobe Creative Cloud] aplicación de escritorio**.
