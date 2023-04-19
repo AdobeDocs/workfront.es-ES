@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Esta plantilla captura una línea de base de proyecto sobre cualquier cambio en 
 ### Workfront: creación de línea de base semanal
 
 Esta plantilla captura una línea de base del proyecto de forma semanal todos los lunes a las 6 a. m. ET en proyectos filtrados por portafolio y crea una actualización en el flujo de actualización para el registro.
+
+### Buscar plantillas de proyecto que no se utilicen en el tiempo de la directiva y notificar
+
+Una vez al mes, revise las plantillas de proyecto usando su propia directiva con esta plantilla fácil de administrar que notifica a los usuarios apropiados sobre las plantillas que infringen su política.
 
 ## Workfront: plantillas de prueba de Workfront
 
