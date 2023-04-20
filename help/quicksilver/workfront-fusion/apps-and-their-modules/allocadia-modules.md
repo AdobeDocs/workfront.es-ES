@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c88b00a086a9e1c5e44d481dde94f4244c7c959d
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada a la API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada a la API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
