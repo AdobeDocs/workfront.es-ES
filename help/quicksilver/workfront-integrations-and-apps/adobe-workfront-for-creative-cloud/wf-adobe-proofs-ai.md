@@ -5,13 +5,13 @@ title: Cargar pruebas desde Illustrator
 description: Puede cargar los tableros de arte como documentos para una revisión y aprobación rápidas o simplemente para almacenarlos en Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # Cargar pruebas desde [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En el **[!UICONTROL Aprobaciones de prueba]** , seleccione **[!UICONTROL Automatizado]**.
 1. (Opcional) En la **[!UICONTROL Plantilla de flujo de trabajo]** , escriba el nombre de una plantilla de flujo de trabajo de prueba.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

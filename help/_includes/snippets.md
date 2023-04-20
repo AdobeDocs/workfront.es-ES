@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 ## Ajustar la configuración de la prueba automatizada {#adjust-proof-settings}
 
-1. (Opcional) Ajuste la configuración de la prueba automatizada
+1. (Opcional) Ajuste de la configuración del flujo de trabajo de prueba automatizada
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Fases de prueba</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Deshabilitar etapas
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Fases de prueba</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Deshabilitar etapas
+         </td>
+         <td>
+      <ol>
 
    <li>Alternar Seleccionar todo para deshabilitar todas las etapas. 
-   <p>O</p></li>
-   <li>Alternar etapas individuales.</li>
+      <p>O</p></li>
+      <li>Alternar etapas individuales.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Añadir destinatarios
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Añadir destinatarios
+         </td>
+         <td>
+      <ol>
 
    <li>En el cuadro Agregar nuevo destinatario , empiece a escribir el nombre del usuario.
-
-   Nota: No se pueden añadir destinatarios externos por correo electrónico desde el complemento.
 
    <li>Especifique la función de prueba.
 
    <li>Elija el tipo de alertas de correo electrónico para el destinatario. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Establecer una fecha límite
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Establecer una fecha límite
+         </td>
+         <td>
+      <ol>
 
    <li>Elija una fecha límite.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>Notificaciones por correo electrónico</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Notificar a los destinatarios sobre la prueba
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>Notificaciones por correo electrónico</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Notificar a los destinatarios sobre la prueba
+         </td>
+         <td>
+      <ol>
 
    <li>Active la casilla para notificar a los usuarios cuando se cree la prueba.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Añadir un mensaje personalizado
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Añadir un mensaje personalizado
+         </td>
+         <td>
+      <ol>
 
    <li>Escriba un asunto.
 
    <li>Escriba el mensaje personalizado.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
