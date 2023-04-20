@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización en un objeto de Adobe
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
    ![](assets/tag-users-in-update.png)
 
-1. (Opcional) Para que la actualización sea privada, active **Privado para mi empresa** en la esquina inferior derecha del cuadro de actualización. Esto hace que la actualización sea visible solo para los usuarios de su empresa.
+1. (Opcional) Para que la actualización sea privada, active **Privado para mi empresa** en la esquina inferior derecha del cuadro de actualización. Esto hace que la actualización sea visible solo para los usuarios de su empresa. La variable **Privado para mi empresa** solo está disponible cuando se especifica una empresa en el perfil de Workfront.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
 ### Etiquete a otros en actualizaciones en la experiencia de comentarios en la versión beta
 
+Puede etiquetar a otros en actualizaciones en la experiencia beta de comentarios. También puede eliminar usuarios etiquetados por error al editar un comentario.
+
 1. Comience a actualizar un elemento de trabajo, tal como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. En el **Etiquetar personas o equipos** , empiece a escribir el nombre del usuario o equipo que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
@@ -148,7 +150,7 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Opcional) Para que la actualización sea privada, active **Privado para mi empresa** en la esquina inferior derecha del cuadro de actualización. Esto hace que la actualización sea visible solo para los usuarios de su empresa.
+1. (Opcional) Para que la actualización sea privada, active **Privado para mi empresa** en la esquina inferior derecha del cuadro de actualización. Esto hace que la actualización sea visible solo para los usuarios de su empresa. La variable **Privado para mi empresa** solo está disponible cuando se especifica una empresa en el perfil de Workfront.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Opcional) Haga clic en el **Más** menú ![](assets/more-menu.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y haga clic en **Submit**. Puede editar un comentario solo en los 15 minutos siguientes a su introducción. Solo puede editar los comentarios que ha agregado.
