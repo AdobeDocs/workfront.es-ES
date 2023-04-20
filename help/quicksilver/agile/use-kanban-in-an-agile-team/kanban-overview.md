@@ -7,16 +7,18 @@ description: Lea este artículo para comprender mejor cómo funciona la junta de
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Información general de Kanban
 
-Las secciones siguientes le permiten comprender mejor cómo se usa la variable [!UICONTROL Kanban] funciones de tablero:
+Las secciones siguientes le permiten comprender mejor cómo se usa la variable [!UICONTROL Kanban] funciones de tablero.
+
+Si está interesado en migrar desde un equipo ágil [!UICONTROL Kanban] tablero a [!DNL Workfront] [!UICONTROL Tableros], consulte [Migración de equipos ágiles [!UICONTROL Kanban] tarjetas a [!DNL Workfront] tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] diseño y funciones del tablero
 
