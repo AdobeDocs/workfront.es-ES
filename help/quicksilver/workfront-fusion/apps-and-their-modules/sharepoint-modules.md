@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Si ve el botón de asignación encima de un campo o función, puede utilizarlo p
 
 ![](assets/map-toggle-350x74.png)
 
+* [Elemento de unidad](#drive-item)
 * [Elemento](#item)
 * [Lista](#list)
 * [Página (Beta)](#page-beta)
 * [Sitio](#site)
 * [Otro](#other)
+
+### Elemento de unidad
+
+* [Crear un archivo](#create-a-file)
+* [Crear una carpeta](#create-a-folder)
+* [Obtener un archivo](#get-a-file)
+* [Elementos de carpeta de inspección](#watch-folder-items)
+
+#### Crear un archivo
+
+Este módulo de acción crea un nuevo archivo en SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL SharePoint] cuenta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Introducir ID de sitio, unidad y carpeta]</td> 
+   <td> <p>Seleccione cómo desea identificar la ubicación del archivo que desea crear.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL Folder ID]</strong> en los campos que aparecen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccione en la lista que sigue]</strong> </p> <p>Seleccione la ubicación en la que desea crear el archivo. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Archivo de origen]</td> 
+   <td>Seleccione un archivo de origen de un módulo anterior o asigne el nombre y los datos del archivo de origen.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Crear una carpeta
+
+Este módulo de acción crea una nueva carpeta en SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL SharePoint] cuenta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Introducir ID de sitio, unidad y carpeta]</td> 
+   <td> <p>Seleccione cómo desea identificar la ubicación de la carpeta que desea crear.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL Folder ID]</strong> en los campos que aparecen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccione en la lista que sigue]</strong> </p> <p>Seleccione la ubicación en la que desea crear la carpeta. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder name]</td> 
+   <td>Introduzca o asigne un nombre para la nueva carpeta.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Obtener un archivo
+
+Este módulo de acción recupera el archivo SharePoint especificado.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL SharePoint] cuenta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Introducir ID de sitio, unidad y carpeta]</td> 
+   <td> <p>Seleccione cómo desea identificar la ubicación del archivo que desea obtener.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL File ID]</strong> en los campos que aparecen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccione en la lista que sigue]</strong> </p> <p>Seleccione la ubicación del archivo. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Elementos de carpeta de inspección
+
+Este módulo de déclencheur inicia un escenario cuando se actualiza un elemento en una carpeta seleccionada.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL SharePoint] cuenta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Introducir ID de sitio, unidad y carpeta]</td> 
+   <td> <p>Seleccione cómo desea identificar la ubicación del archivo que desea obtener.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL folder ID]</strong> en los campos que aparecen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccione en la lista que sigue]</strong> </p> <p>Seleccione la ubicación de la carpeta que desee ver. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Límite]</td> 
+   <td>Introduzca el número máximo de elementos [!DNL Workfront Fusion] debe volver durante un ciclo de ejecución de escenario.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Elemento
 
