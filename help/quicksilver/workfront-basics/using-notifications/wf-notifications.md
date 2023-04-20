@@ -6,7 +6,7 @@ description: Adobe Workfront envía notificaciones por correo electrónico, noti
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] notificaciones
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] envía notificaciones por correo electrónico, notificaciones en la aplicación y notificaciones en el dispositivo móvil.
 
@@ -130,15 +128,11 @@ Las notificaciones del recordatorio se envían desde la dirección de correo ele
 
 Para obtener información sobre la configuración y activación de notificaciones de recordatorio, consulte [Configuración de notificaciones de recordatorio](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Notificaciones del tablero
 
 [!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta.
 
 Puede seleccionar qué correos electrónicos desea recibir en las preferencias de tableros. Para obtener más información, consulte [Notificaciones y preferencias de correo electrónico de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Otro [!DNL Workfront] correos electrónicos
 
