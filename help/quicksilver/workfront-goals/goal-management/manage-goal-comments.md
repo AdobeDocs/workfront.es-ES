@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Esto abre la lista de objetivos.
 
    >[!TIP]
    >
-   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario se mantiene en modo borrador incluso después de cerrar la sesión y volver a iniciarla. Los comentarios borrados solo son visibles para el usuario que los introduce.
+   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario se mantiene en modo borrador incluso después de cerrar la sesión y volver a iniciarla. Las imágenes que se agreguen al comentario también se guardan en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios borrados solo son visibles para el usuario que los introduce.
 
+1. (Opcional) Para agregar formato de texto enriquecido a la actualización, un hipervínculo o una imagen, utilice las opciones de la barra de herramientas Texto enriquecido o los iconos adyacentes. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) En la **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario, o un equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando aparezca en la lista.
+1. Seleccione el **Privado para mi empresa** alterne para que el comentario sea visible solo para las personas de su empresa.
+
+   >[!TIP]
+   >
+   >Debe tener una empresa especificada en el perfil para que esta opción esté disponible en el área Actualizaciones .
+
+1. Haga clic en **Submit**.
+
+   >[!TIP]
+   >
+   >Si otro usuario envía un comentario al mismo elemento que está actualizando, habrá una línea roja con un indicador &quot;Nuevo&quot; para informarle de los comentarios más recientes.
+   >
+   >El indicador solo se muestra después de enviar el comentario en el elemento, y no cuando el comentario sigue compuesto.
+   >
+   >El indicador &quot;Nuevo&quot; solo se muestra cuando tanto el usuario que ha introducido una nueva actualización como el usuario que está introduciendo una actualización están utilizando la nueva experiencia de comentarios.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario&lt;<!--, or remove any of the tagged users-->.
+1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
 
          Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Haga clic en **Submit**.
-
-   >[!TIP]
-   >
-   >Si otro usuario envía un comentario al mismo elemento que está actualizando, habrá una línea roja con un indicador &quot;Nuevo&quot; para informarle de los comentarios más recientes.
-   >
-   >El indicador solo se muestra después de enviar el comentario en el elemento, y no cuando el comentario sigue compuesto.
-   >
-   >El indicador &quot;Nuevo&quot; solo se muestra cuando tanto el usuario que ha introducido una nueva actualización como el usuario que está introduciendo una actualización están utilizando la nueva experiencia de comentarios.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado.
+1. (Opcional) Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 5-9 anteriores. <!--insure this stays accurate-->
 1. (Condicional y opcional) Si otros usuarios han añadido comentarios que se muestran fuera del área visible de la sección Actualizaciones , haga clic en **Ver** dentro del azul **banner de comentarios nuevos** en la parte inferior de la pantalla para mostrar estos comentarios.
 
@@ -176,7 +183,7 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
 
    Los comentarios adicionales aparecen en la parte inferior de la pantalla.
 1. (Opcional) Haga clic en el **Like** icono![](assets/like-icon.png) para indicar que le gusta un comentario que otro haya añadido. El icono se actualiza con el número de &quot;Me gusta&quot;.
-1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la barra de herramientas Texto enriquecido mientras escribe. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (Opcional) Haga clic en el **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza un objetivo, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema . Workfront también registra una actualización del sistema cuando un resultado, actividad o proyecto se agrega al objetivo o cuando se actualiza. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
