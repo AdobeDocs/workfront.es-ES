@@ -6,9 +6,9 @@ description: Obtenga información sobre las áreas de Adobe Workfront en las que
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '885'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ Para localizar solicitudes que usted u otros usuarios han enviado:
 
    >[!TIP]
    >
-   >Los filtros no se pueden modificar en el área Solicitudes . Además, no hay opciones para modificar o cambiar la vista del área Solicitudes .
+   >Los filtros no se pueden modificar en la sección Enviado del área Solicitudes . Además, no hay opciones para modificar o cambiar la vista de la lista de solicitudes enviadas.
 
    <table style="table-layout:auto"> 
     <col> 
