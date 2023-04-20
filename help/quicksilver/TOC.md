@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '12897'
+source-wordcount: '12905'
 ht-degree: 1%
 
 ---
@@ -935,6 +935,7 @@ ht-degree: 1%
       * [Agregar una columna de admisión a un tablero](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Usar grupos en un tablero](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configuración de la caída de tarjetas](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Migración de tarjetas Kanban de equipos ágiles a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
