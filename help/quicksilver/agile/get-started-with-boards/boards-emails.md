@@ -5,7 +5,8 @@ navigation-topic: boards
 title: Notificaciones y preferencias de correo electrónico de tableros
 description: Los tableros de Adobe Workfront le envían un correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Notificaciones y preferencias de correo electrónico de tableros
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de los tableros qué correos electrónicos desea recibir.
 
