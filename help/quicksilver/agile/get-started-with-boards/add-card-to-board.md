@@ -6,14 +6,16 @@ description: Puede agregar rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Agregar una tarjeta ad hoc a un tablero
+
+{{highlighted-preview}}
 
 Puede agregar rápidamente una tarjeta a un tablero y asignarla a un miembro del tablero. La tarjeta puede representar una tarea, un problema, una persona, un grupo o cualquier tipo de elemento que desee incluir en el tablero.
 
@@ -63,7 +65,7 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo de [!DNL Adobe Wo
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong> </td> 
-      <td>Descripción de la tarjeta.</td> 
+      <td>Descripción de la tarjeta. <span class="preview">Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Asignados]</strong> </td> 
@@ -96,7 +98,17 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo de [!DNL Adobe Wo
     </tbody> 
    </table>
 
+   Imagen de detalles de tarjeta de muestra en el entorno de producción:
    ![Detalles de tarjeta específicos](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Imagen de detalles de tarjeta de muestra en el entorno de vista previa:
+   ![Detalles de tarjeta específicos](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Utilice el panel de navegación de la izquierda para desplazarse entre grupos de campos en los detalles de la tarjeta.</span>
+
+   >[!NOTE]
+   >
+   >El panel de navegación izquierdo y la capacidad de agregar vínculos en los que se puede hacer clic en el campo Descripción solo están disponibles a través de la opción de inclusión de funciones anteriores para los tableros de Workfront.
 
 1. Haga clic en **[!UICONTROL Cerrar]** para agregar la tarjeta al tablero.
 
