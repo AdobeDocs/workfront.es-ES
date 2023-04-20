@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Si lo desea, puede agregar una columna de admisión al tablero que extraiga automáticamente tareas y problemas como tarjetas conectadas cuando se agregan [!DNL Workfront], en función de los filtros definidos. La columna de admisión puede servir como columna de trabajo pendiente para un equipo de Kanban, ubicación de admisión para un equipo de asistencia para ver los problemas a medida que se añaden a una cola de solicitudes o cualquier otro propósito que necesite.
 
 En un tablero solo se permite una columna de admisión y siempre aparece como la columna situada más a la izquierda.
+
+La columna de admisión no está disponible en un panel dinámico.
 
 La columna de admisión está limitada a 300 tareas y 300 problemas. Se ordenan por la prioridad definida en los elementos. Para obtener información sobre la prioridad, consulte [Actualizar prioridad de tareas](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) y [Actualizar prioridad del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
