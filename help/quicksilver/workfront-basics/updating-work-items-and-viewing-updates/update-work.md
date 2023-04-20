@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
 
    >[!TIP]
    >
-   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario se mantiene en modo borrador incluso después de cerrar la sesión y volver a iniciarla. Los comentarios borrados solo son visibles para el usuario que los introduce.
+   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario se mantiene en modo borrador incluso después de cerrar la sesión y volver a iniciarla. Las imágenes que se agreguen al comentario también se guardan en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios borrados solo son visibles para el usuario que los introduce.
 
 1. (Opcional) En la **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario, o un equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando aparezca en la lista.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquiera de las siguientes opciones de la sección **Texto enriquecido** para mejorar el texto:
@@ -223,7 +223,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
 
 1. Haga clic en **Submit** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-menu.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Editar la información en el comentario <!--or remove any of the tagged users-->.
+1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
    1. En **Texto para mostrar**, escriba o pegue el texto del vínculo.
    1. Haga clic en **Guardar**.
 
-1. (Opcional) Para adjuntar una imagen a la actualización, haga clic en el **Imagen** icono ![](assets/addimageicon-35x32.png) y busque la imagen en el equipo.\
-   O\
-   Arrastre la imagen al área de actualización.
+1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones, según el entorno que utilice:
+
+   * Haga clic en el **Imagen** icono ![](assets/addimageicon-35x32.png) y busque la imagen en el equipo o arrastre la imagen al área de actualización, al utilizar la experiencia de actualización actual
+
+   O
+
+   Haga clic en el **Agregar datos adjuntos** icono ![](assets/add-image-paperclip-icon.png) y busque la imagen en el equipo, cuando use la experiencia de comentarios Beta.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Ningún usuario de Workfront (incluido el administrador de Workfront) puede elim
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. En el mensaje que aparece, haga clic en **Confirmar** o **Eliminar**, al utilizar la experiencia beta de comentarios.
+1. En el mensaje que aparece, haga clic en **Confirmar** o haga clic en **Eliminar**, al utilizar la experiencia beta de comentarios.
 
->[!NOTE]
->
->Al eliminar una actualización con una imagen adjunta, se eliminan el comentario y la imagen.
+   >[!NOTE]
+   >
+   >Al eliminar una actualización con una imagen adjunta, se eliminan el comentario y la imagen.
+
+   Cuando el comentario que elimina tiene respuestas asociadas, hay una indicación de que el comentario se eliminó con el nombre del usuario que lo eliminó.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Al utilizar la experiencia de comentarios beta, los comentarios eliminados se eliminan inmediatamente de Workfront. Un usuario que utiliza la sección Actualizaciones ve que otro usuario elimina un comentario en tiempo real.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Agregar una actualización a un parte de horas
 
