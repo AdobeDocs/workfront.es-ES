@@ -3,13 +3,13 @@ title: Información general sobre la versión 23.3
 description: Información general sobre la versión 23.3
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # Información general sobre la versión 23.3
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en Agile](#agile-enhancements)
+* [Otras mejoras](#other-enhancements)
 
 ### Mejoras en Agile
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Notificaciones y preferencias de correo electrónico de tableros</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Plantilla de tablero dinámico</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora hay disponible una nueva plantilla, el tablero dinámico, para los tableros independientes. Esta plantilla no está disponible para tableros dentro de un flujo de trabajo.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migración de tarjetas Kanban de equipos ágiles a tableros</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Un nuevo <b>Agregar a tableros</b> en las tarjetas Kanban del equipo ágil le permite agregar todas las tarjetas del tablero Kanban a un tablero de Workfront. Puede elegir crear un tablero de Workfront nuevo o agregar las tarjetas a un tablero existente.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Se ha añadido la navegación izquierda a los detalles de las tarjetas en los tableros</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>A medida que se añaden más opciones de campo a las tarjetas en los tableros de Workfront, los detalles de las tarjetas se han ampliado. Un nuevo panel de navegación a la izquierda de los detalles de la tarjeta le permite seleccionar una sección y desplazarse automáticamente a ese grupo de campos.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">Notificaciones y preferencias de correo electrónico de tableros</a></p>
                         <p>Las notificaciones por correo electrónico ya están disponibles para los foros de Adobe Workfront. Las notificaciones están activadas de forma predeterminada y puede seleccionar en sus preferencias los correos electrónicos que desea recibir. Recibirá un correo electrónico cuando se le añada a un tablero y cuando se le asigne una tarjeta.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de apariencia durante el intervalo de tiempo de la versión 23.3</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Mejoras de Workfront Fusion
 
-En este punto de la versión no hay actualizaciones de Workfront Fusion. Esta área se actualizará cuando haya actualizaciones disponibles.
+Las nuevas funciones de Workfront Fusion están disponibles en Producción en una cadencia fuera de la programación de versiones 23.3. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Mejoras en el planificador de escenarios de Workfront
 
