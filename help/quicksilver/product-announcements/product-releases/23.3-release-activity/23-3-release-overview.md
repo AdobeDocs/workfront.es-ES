@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
+source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -137,23 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Los perfiles sin avatares ahora muestran las iniciales del usuario</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Con el fin de facilitar la búsqueda de usuarios específicos en listas grandes, los perfiles sin avatares personalizados ahora muestran las iniciales del usuario en un fondo de color en listas e informes preexistentes. Se trata de un cambio cosmético menor y no se aplica si ya se está utilizando una foto de avatar o si el usuario está desactivado.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                                <p>Versión preliminar: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                                <p><span class="preview">Versión de producción: con la versión 23.3</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de apariencia durante el intervalo de tiempo de la versión 23.3</a></p>
