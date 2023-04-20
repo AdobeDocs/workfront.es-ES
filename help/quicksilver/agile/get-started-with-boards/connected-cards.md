@@ -6,14 +6,16 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
 
 # Usar tarjetas conectadas en tableros
+
+{{highlighted-preview}}
 
 Puede agregar una tarjeta del tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Al cambiar el nombre también se cambia el nombre en el [!DNL Workfront] objeto.</p> </td> 
+      <td>Al cambiar el nombre también se cambia el nombre en el [!DNL Workfront] objeto.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong></td> 
-      <td> <p>Al cambiar la descripción también se cambia la descripción en el [!DNL Workfront] objeto.</p> </td> 
+      <td>Al cambiar la descripción también se cambia la descripción en el [!DNL Workfront] objeto. <span class="preview">Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Asignados]</strong></td>
@@ -110,7 +112,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Columna]</strong></td>
-      <td><p>Seleccione la columna de la tarjeta.</p></td>
+      <td>Seleccione la columna de la tarjeta.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Finalización planificada]</strong></td>
-      <td><p>Al cambiar esta fecha también se cambia la fecha de finalización planificada en la [!DNL Workfront] objeto.</p></td>
+      <td>Al cambiar esta fecha también se cambia la fecha de finalización planificada en la [!DNL Workfront] objeto.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimación]</strong></td>
@@ -137,6 +139,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Utilice el panel de navegación de la izquierda para desplazarse entre grupos de campos en los detalles de la tarjeta.</span>
+
+   >[!NOTE]
+   >
+   >El panel de navegación izquierdo y la capacidad de agregar vínculos en los que se puede hacer clic en el campo Descripción solo están disponibles a través de la opción de inclusión de funciones anteriores para los tableros de Workfront.
 
 1. Haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 El objeto conectado, los usuarios asignados, las etiquetas, la fecha de vencimiento, el contador de la lista de comprobación, las horas estimadas y el estado se muestran en la tarjeta.
