@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 199a83eaeb7fb96b41cec44ea116121cb84c1721
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   </tr>
   <tr>
    <td>Crear tableros dinámicos</td>
-   <td>Planificados</td>
+   <td>Liberado parcialmente</td>
   </tr>
  </tbody> 
 </table>
