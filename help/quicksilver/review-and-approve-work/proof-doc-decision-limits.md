@@ -5,23 +5,19 @@ title: Información general sobre la resolución limitada de documentos y prueba
 description: Las pruebas y las decisiones documentales están limitadas para todas las licencias de Workfront no pagadas. Los límites se restablecen por usuario cada mes.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # Información general sobre la resolución limitada de documentos y pruebas para usuarios no pagados
 
-Las pruebas y las decisiones documentales están limitadas para todas las licencias de Workfront no pagadas. Los límites se restablecen por usuario cada mes.
+Las pruebas y las decisiones documentales están limitadas para todas las licencias Workfront no pagadas de los nuevos planes. Para obtener más información, consulte [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->Los límites de pruebas y decisiones de documentos no se aplican a los usuarios en [licencias heredadas de Workfront y niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-Los límites de decisión para cada licencia difieren según el plan en el que se encuentre:
+Los límites se restablecen por usuario cada mes. Los límites de decisión para cada licencia difieren según el plan en el que se encuentre:
 
 <table>
   <tr>

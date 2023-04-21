@@ -1,5 +1,5 @@
 ---
-title: Información general sobre licencias heredadas
+title: Información general sobre licencias
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# Información general sobre licencias heredadas
+# Información general sobre licencias
 
-Su organización adquirió un cierto número de licencias heredadas al adquirir Adobe Workfront. Como administrador de Workfront, cada usuario recibe uno de los 4 tipos de licencias heredadas de Workfront de pago al asignar un nivel de acceso al usuario.
+Su organización adquirió un determinado número de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, concede uno de los 4 tipos de licencias de Workfront de pago a cada usuario al asignar un nivel de acceso.
 
-## Cómo se unen las licencias heredadas y los niveles de acceso heredados
+## Cómo se vinculan las licencias y los niveles de acceso
 
-Los 4 tipos de licencias heredadas de Workfront de pago permiten diferentes niveles de acceso a Workfront. Cada nivel de acceso heredado se adjunta a una de estas licencias heredadas.
+Los 4 tipos de licencias de Workfront de pago permiten diferentes niveles de acceso a Workfront. Cada nivel de acceso está adjunto a una de estas licencias.
 
-Como administrador de Workfront, en lugar de asignar una licencia heredada a un usuario, se le asigna el nivel de acceso heredado adjunto a esa licencia heredada.
+Como administrador de Workfront, en lugar de asignar una licencia a un usuario, se le asigna el nivel de acceso adjunto a esa licencia.
 
 En esta tabla y diagrama se muestran los niveles principales de acceso a Workfront:
 
-| Licencia heredada | Nivel de acceso heredado asociado |
+| Licencia | Nivel de acceso asociado |
 |--- |--- |
 | Plan | Administrador del sistema, planificador |
 | Trabajo | Trabajador |

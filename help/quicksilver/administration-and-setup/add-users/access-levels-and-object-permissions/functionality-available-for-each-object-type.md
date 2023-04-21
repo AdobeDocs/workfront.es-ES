@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso heredados
+title: Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso
 description: En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
-# Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso heredados
+# Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso
 
 En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
 
