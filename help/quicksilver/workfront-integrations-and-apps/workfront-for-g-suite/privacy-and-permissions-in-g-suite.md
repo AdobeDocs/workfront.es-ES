@@ -7,16 +7,16 @@ description: Privacidad y permisos en Workfront para G Suite
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 90d088846e72f1632274043c8d8ca7807ff05b4a
+source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Privacidad y permisos en Workfront para G Suite
 
-Como la privacidad del cliente es importante, Adobe Workfront no almacena ni recopila ningún dato de identificación del cliente que resulte de la autorización de terceros de una aplicación de complemento de Google. Workfront para G Suite cumple con la Política de datos de usuario de los servicios de Google API, incluidos los requisitos de uso limitado.
+Como la privacidad del cliente es importante, Adobe Workfront no almacena ni recopila ningún dato de identificación del cliente que resulte de la autorización de terceros de una aplicación de complemento de Google. Workfront para el uso y la transferencia de la información recibida de las API de Google a cualquier otra aplicación de G Suite se adherirá a la Política de datos del usuario de los servicios de la API de Google, incluidos los requisitos de uso limitado.
 
 Se necesitan los siguientes permisos para que el complemento Workfront for G Suite pueda proporcionar su máximo valor:
 
