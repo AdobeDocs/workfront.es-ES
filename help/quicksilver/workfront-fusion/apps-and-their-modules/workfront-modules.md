@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -420,7 +420,7 @@ Al configurar este módulo, se muestran los campos siguientes:
    <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Dirección URL</td> 
+   <td role="rowheader">URL</td> 
    <td> <p>Especifique una ruta relativa a<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
@@ -771,7 +771,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>[!UICONTROL Criterios de búsqueda]</td> 
-   <td> <p>Introduzca el campo por el que desea buscar, el operador que desea utilizar en la consulta y el valor que está buscando en el campo .</p> <p>Nota: No use <code>username </code>en los criterios de búsqueda. Inclusión <code>username </code>en una consulta de API a [!DNL Workfront] inicia sesión en Workfront y la búsqueda no se realizará correctamente.</p> </td> 
+   <td> <p>Introduzca el campo por el que desea buscar, el operador que desea utilizar en la consulta y el valor que está buscando en el campo .</p> <p>Nota: No use <code>username </code>en los criterios de búsqueda. Inclusión <code>username </code>en una consulta de API a [!DNL Workfront] inicia sesión en Workfront y la búsqueda no se realizará correctamente.</p> <p>Nota: <code>In</code> y <code>NotIn</code>trabajar con matrices. Las entradas deben tener el formato de matriz.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Salidas]</td> 
