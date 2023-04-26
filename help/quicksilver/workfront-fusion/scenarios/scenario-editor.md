@@ -7,9 +7,9 @@ description: El editor de escenarios permite crear y editar escenarios en una in
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
    Si desea editar un escenario existente, haga clic en el escenario.
 
-1. (Condicional) Si está creando un nuevo escenario, en **[!UICONTROL Qué servicios desea integrar]**, seleccione las aplicaciones con las que desee trabajar en el escenario y, a continuación, haga clic en **[!UICONTROL Continuar]**.
-
-   O
-
-   Haga clic en **[!UICONTROL Omitir]** si desea elegir las aplicaciones desde el editor de escenarios.
-
    En el editor de situaciones que se muestra, puede hacer todo lo que se enumera en la siguiente tabla. Para obtener más información, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Cuando termine de editar un escenario (o en cualquier momento mientras esté editando), haga clic en el botón [!UICONTROL Guardar] icono. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    >Después de guardar el escenario, habrá una nueva versión disponible en el menú de tres puntos en caso de que necesite acceder a ella en el futuro. Las versiones de escenarios guardadas anteriormente solo están disponibles durante 60 días.
 
 ## Acciones disponibles del editor de escenarios
+
+Las siguientes acciones están disponibles en el editor de escenarios:
 
 <table style="table-layout:auto"> 
 <tbody>
