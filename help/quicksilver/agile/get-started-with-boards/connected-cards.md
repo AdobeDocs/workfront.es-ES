@@ -6,7 +6,7 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Usar tarjetas conectadas en tableros
-
-{{highlighted-preview}}
 
 Puede agregar una tarjeta del tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -102,7 +100,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong></td> 
-      <td>Al cambiar la descripción también se cambia la descripción en el [!DNL Workfront] objeto. <span class="preview">Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</span></td> 
+      <td>Al cambiar la descripción también se cambia la descripción en el [!DNL Workfront] objeto. Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Asignados]</strong></td>
@@ -140,7 +138,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-   <span class="preview">Utilice el panel de navegación de la izquierda para desplazarse entre grupos de campos en los detalles de la tarjeta.</span>
+   Utilice el panel de navegación de la izquierda para desplazarse entre grupos de campos en los detalles de la tarjeta.
 
    >[!NOTE]
    >
