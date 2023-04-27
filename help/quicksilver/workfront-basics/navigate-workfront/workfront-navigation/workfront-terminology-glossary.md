@@ -5,9 +5,9 @@ title: Glosario de [!DNL Adobe Workfront] terminología
 description: La variable [!DNL Adobe Workfront] el glosario enumera los términos más utilizados en Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td>[!UICONTROL Externo]</td> 
    <td> <p>Normalmente, un tipo de licencia, o un usuario con dicha licencia, que solo tiene la capacidad de revisar la información en el sistema.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] información general sobre licencias</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL Sistema externo]</td> 
    <td>Cualquier servicio o software que esté almacenado y regido fuera del sistema de registro designado.</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Cualquier objeto de Workfront o la información asociada a él, tal como aparece en la base de datos. </p>
+   <p>Por ejemplo, "proyecto", "usuario", "hora" son objetos de Workfront y campos. "Nombre", "estado", "propietario", "fecha de inicio" son campos de Workfront asociados a los objetos anteriores. </p>
+
+<p>Al referirse a los objetos, los términos "objetos" y "campos" pueden utilizarse de forma intercambiable.</p>
+   <p>En el ámbito de los informes, los "campos" hacen referencia a los objetos o a la información sobre el objeto que desea capturar en el informe.</p>
+
+<p><b>NOTA</b></p>
+
+<p>En los informes de texto adicional, los campos hacen referencia a los objetos o a su información tal como aparece en la base de datos.</p>
+   <p>A veces, el nombre que se ve en la interfaz de usuario es diferente del nombre del campo de la base de datos. Por ejemplo, "problema" es el nombre del objeto en la interfaz de Workfront, pero "opTask" es el nombre del objeto (o el campo) en la base de datos de Workfront. </p> 
+   <p> Es importante utilizar el campo como aparece en la base de datos al escribir un informe, una vista, un filtro o una agrupación en modo de texto, o al crear un campo calculado.</p>
+
+<p>Para obtener más información, consulte <a href="../../../wf-api/general/api-explorer.md">Explorador de API</a> y <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Información general sobre el modo de texto</a>.</p>
+
+<p>De forma predeterminada, Workfront viene con un conjunto de campos que definen ambos objetos y su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filtro]</td> 
    <td> <p>Uno de los componentes principales de un informe o un elemento de lista que define qué información se muestra en la pantalla. Para obtener más información sobre los elementos de informes, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> <p>El filtro determina los resultados que se muestran en un informe o en un [!DNL Workfront] listado de paneles, como proyectos, tareas o problemas.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL (objeto)</td> 
-   <td> <p>Elementos de trabajo e informes de una organización, así como los grupos de usuarios que los administran en [!UICONTROL Workfront]. Los objetos pueden ser:</p> 
+   <td> <p>La información que se muestra en [!DNL Adobe Workfront] se representa mediante objetos almacenados en la variable [!DNL Workfront] base de datos. Los objetos son lo que impulsa la información en Workfront. Algunos ejemplos de objetos son:</p> 
     <ul> 
      <li>[!UICONTROL Portfolio]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1314,7 +1335,17 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
      <li>[!UICONTROL Equipos]</li> 
      <li>[!UICONTROL Usuarios]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Explicación de los objetos en [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Formularios personalizados]</li>
+     <li>[!UICONTROL Campos personalizados]</li>  
+     <li>[!UICONTROL Horas]</li> 
+     <li>[!UICONTROL Tasas de facturación]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Plantillas]</li>
+
+<p><b>NOTA</b></p>
+  <p>Esta no es una lista extensa. </p>
+
+</ul> <p>Para obtener más información, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Explicación de los objetos en [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipos de objetos]</td> 

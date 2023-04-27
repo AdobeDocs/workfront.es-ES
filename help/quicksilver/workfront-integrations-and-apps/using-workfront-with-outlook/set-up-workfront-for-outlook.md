@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion ofrece una integración con Outlook. Este ar
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ Al configurar el cliente, el usuario debe seleccionar uno de los siguientes tipo
 
 Los requisitos del servidor de correo se cumplen de forma predeterminada al conectarse a [!DNL Office 365] o [!DNL Outlook.com]. Sin embargo, si está conectado a una instalación local de [!DNL Exchange Server], se aplican los siguientes requisitos:
 
-* Apoyamos [!DNL Exchange 2016 On-Premise]
+* Apoyamos a todos [!DNL Exchange On-Premise] servidores
 * [!DNL Exchange Web Services] (EWS) debe estar habilitado y estar expuesto a Internet.
 * El servidor debe tener un certificado de autenticación válido para que el servidor emita tokens de identidad válidos. Nuevas instalaciones de [!DNL Exchange Server] incluir un certificado de autenticación predeterminado.
 
-   Para obtener más información, consulte [Certificados digitales y cifrado en [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) y [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * Para acceder a la [!DNL Workfront] complemento de [[!DNL Office] Tienda](https://store.office.com/), los servidores de acceso del cliente deben poder comunicarse con  [https://store.office.com](https://store.office.com/).
 

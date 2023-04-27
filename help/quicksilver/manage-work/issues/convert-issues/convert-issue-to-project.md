@@ -6,9 +6,9 @@ description: Convertir un problema en un proyecto en Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ Puede convertir un problema en un proyecto en blanco o convertir un problema en 
 
          >[!TIP]
          >
-         >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para su uso con problemas y proyectos, toda la información guardada en el formulario se conserva al realizar la conversión.
-         >
+         >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para su uso con problemas y proyectos, toda la información guardada en el formulario se conserva cuando realiza la conversión si los campos existen tanto en el problema como en los formularios personalizados del proyecto.
+         >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema, así como al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si hay una incompatibilidad, un mensaje le alerta para que realice ajustes. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en la sección [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto al problema, el valor del campo del problema se utiliza para el nuevo proyecto. Sin embargo, si el campo personalizado está vacío en el problema, se utiliza el valor de la plantilla.
 
    1. Haga clic en [!UICONTROL **Convertir en proyecto**].

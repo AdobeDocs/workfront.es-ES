@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calcular los costes en el planificador de recursos
-description: '(Alina: ***Vinculado a la planificación en el artículo Planificador de recursos, Explicación de las áreas del Planificador de recursos. - no mueva/cambie/elimine)'
-author: Alina
+description: Puede presupuestar los recursos en el planificador de recursos de Adobe Workfront utilizando los valores de Coste, en lugar de los valores de Horas o FTE. Los valores de coste no están disponibles para la vista**Ver por usuario** en el Planificador de recursos.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Puede presupuestar los recursos en el planificador de recursos de Adobe Workfront utilizando los valores de Coste, en lugar de los valores de Horas o FTE. Los valores de coste no están disponibles para la variable **Ver por usuario** en el Planificador de recursos.
 
@@ -70,7 +72,7 @@ Para mostrar la información Disponible, Planificado y Presupuestado por Coste e
 1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
 1. Haga clic en **Recurso**.
-1. Vaya a .
+1. Vaya al Planificador de recursos.
 1. (Condicional) Seleccione **Ver por proyecto** o **Ver por función**.\
    De forma predeterminada **Ver por proyecto** está seleccionado.\
    La información de asignación y disponibilidad se muestra en Horas.

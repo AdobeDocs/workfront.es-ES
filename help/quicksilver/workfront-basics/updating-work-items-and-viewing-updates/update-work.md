@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '2945'
+source-wordcount: '2949'
 ht-degree: 1%
 
 ---
@@ -223,7 +223,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
 
 1. Haga clic en **Submit** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-menu.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
+1. Edite la información del comentario, agregue o elimine imágenes o elimine cualquiera de los usuarios etiquetados.
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

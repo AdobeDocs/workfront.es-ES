@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todos los objetivos que puede ver en lo
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Esto abre la lista de objetivos.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Opcional) Para editar un comentario, haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del icono &quot;Me gusta&quot; y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
+1. Edite la información del comentario, agregue o elimine imágenes o elimine cualquiera de los usuarios etiquetados.
 Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
