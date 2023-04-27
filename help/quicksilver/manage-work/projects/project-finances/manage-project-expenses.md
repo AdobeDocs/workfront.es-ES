@@ -6,10 +6,10 @@ description: El proceso para crear y administrar gastos es el mismo para los gas
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -52,10 +52,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Vaya al proyecto en el que desea introducir gastos.\
    Si desea añadir gastos a una tarea, vaya a una tarea en su lugar. 
-1. Haga clic en **Show**** Más** y, a continuación, haga clic en **Gastos.**
-1. Haga clic en **Agregar un gasto.**
-El 
-**Agregar un gasto** se muestra.
+1. Haga clic en **Mostrar más** y haga clic en **Gastos**.
+1. Haga clic en **Agregar un gasto** .
+La variable **Agregar un gasto** se muestra.
 1. Actualice lo siguiente:
 
    * **Descripción:** Descripción del gasto.
@@ -76,12 +75,12 @@ El
 
 1. Seleccione un **Formulario personalizado** y especifique la información adicional necesaria. Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo aparecen los formularios personalizados activos. Para obtener información sobre la creación de formularios personalizados, consulte el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Haga clic en **Guarde los cambios.**
+1. Haga clic en **Guardar cambios**.
 
 ## Eliminar gastos
 
 1. Vaya al proyecto en el que desea eliminar los gastos.
-1. Haga clic en **Mostrar****Más** y haga clic en **Gastos.**
+1. Haga clic en **Mostrar más** y haga clic en **Gastos**.
 1. Seleccione los gastos que desea eliminar y haga clic en **Eliminar** ![Eliminar](assets/delete.png).
 
-1. Haga clic en **Sí, Eliminarlo** para confirmar la eliminación. 
+1. Haga clic en **Sí, Eliminarlo** para confirmar la eliminación.

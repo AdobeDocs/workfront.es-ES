@@ -6,7 +6,7 @@ description: Administrar información en el área de finanzas del proyecto
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ Para editar información en la subficha Finanzas del proyecto:
       <td>Especifique el presupuesto de este proyecto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Costo fijo</strong> </td> 
+      <td role="rowheader">Costo fijo</td> 
       <td>Especifique el coste fijo para este proyecto. Esto no debe incluir ningún costo laboral o de gastos.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Ingresos fijos</strong> </td> 
+      <td role="rowheader">Ingresos fijos</td> 
       <td> <p>Especifique los ingresos fijos de este proyecto. Esto no debe incluir los ingresos procedentes de registros de facturación facturados a socios o terceros.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Divisa del proyecto</td> 
       <td> <p>Especifique una moneda para este proyecto si es diferente de la moneda predeterminada del sistema. El administrador de Workfront define la moneda predeterminada del sistema. Para obtener más información sobre la configuración de las tasas de cambio en Workfront, consulte el artículo <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tipos de cambio</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar***Cambios**.
+1. Haga clic en **Guardar cambios**.
