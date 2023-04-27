@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
+source-git-commit: c57f437108fa70030973e227eb84882477ca386c
 workflow-type: tm+mt
-source-wordcount: '12923'
+source-wordcount: '12928'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión 23.3 {#release-23-3}
          * [Información general sobre la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Actualizaciones de aspecto durante el lapso de tiempo de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
          * [semana de actividad de la versión 23.3 del 10 de abril de 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
          * [semana de actividad de la versión 23.3 del 17 de abril de 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+         * [semana de actividad de la versión 23.3 del 24 de abril de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+         * [Actualizaciones de aspecto durante el lapso de tiempo de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versión 23.2 {#release-23-2}
          * [Resumen de la versión 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Mejoras del administrador](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)

@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en Agile](#agile-enhancements)
+* [Mejoras en la integración](#integration-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en Agile
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtros simples agregados a la plantilla de tablero dinámico</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Los filtros de la plantilla de tablero dinámico se han simplificado para permitirle crear un tablero más rápido.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 27 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versión de producción para la inclusión anticipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Plantilla de tablero dinámico</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Plantilla de tablero dinámico</a></p>
                         <p>Ahora hay disponible una nueva plantilla, el tablero dinámico, para los tableros independientes. Esta plantilla no está disponible para tableros dentro de un flujo de trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                 <p>Versión de producción para la inclusión anticipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
                                 <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migración de tarjetas Kanban de equipos ágiles a tableros</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migración de tarjetas Kanban de equipos ágiles a tableros</a></p>
                         <p>Un nuevo <b>Agregar a tableros</b> en las tarjetas Kanban del equipo ágil le permite agregar todas las tarjetas del tablero Kanban a un tablero de Workfront. Puede elegir crear un tablero de Workfront nuevo o agregar las tarjetas a un tablero existente.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                 <p>Versión de producción para la inclusión anticipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
                                 <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Se ha añadido la navegación izquierda a los detalles de las tarjetas en los tableros</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Se ha añadido la navegación izquierda a los detalles de las tarjetas en los tableros</a></p>
                         <p>A medida que se añaden más opciones de campo a las tarjetas en los tableros de Workfront, los detalles de las tarjetas se han ampliado. Un nuevo panel de navegación a la izquierda de los detalles de la tarjeta le permite seleccionar una sección y desplazarse automáticamente a ese grupo de campos.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versión de producción para la inclusión anticipada: 27 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
+                                 <p>Versión de producción para la inclusión anticipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en Producción a través de la opción de inclusión de la función inicial para Workfront Boards.</span></p>
                                 <p>Versión de producción para todos los clientes: Con la versión 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Mejoras en la integración
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Ajuste de la configuración de la plantilla de flujo de trabajo de prueba automatizada mediante Adobe Workfront para Creative Cloud</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>Ahora puede ajustar la configuración de plantilla de flujo de trabajo automatizada existente directamente en el Creative Cloud.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 27 de abril de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: 27 de abril de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Otras mejoras
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Los perfiles sin avatares ahora muestran las iniciales del usuario</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Los perfiles sin avatares ahora muestran las iniciales del usuario</a></p>
                         <p>Con el fin de facilitar la búsqueda de usuarios específicos en listas grandes, los perfiles sin avatares personalizados ahora muestran las iniciales del usuario en un fondo de color en listas e informes preexistentes. Se trata de un cambio cosmético menor y no se aplica si ya se está utilizando una foto de avatar o si el usuario está desactivado.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versión preliminar: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Versión de producción: con la versión 23.3</span></p>
+                                <p><span class="preview">Versión de producción: 4 de mayo de 2023</span></p>
                             </li>
                         </ul>
                     </td>
