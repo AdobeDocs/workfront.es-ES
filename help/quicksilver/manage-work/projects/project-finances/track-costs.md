@@ -7,9 +7,9 @@ description: Puede realizar un seguimiento de los costes de los proyectos, las t
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>El costo real de los gastos del proyecto se calcula de la siguiente manera:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Estos costes no se duplican en el cálculo de Coste real. Por ejemplo, si un costo fijo forma parte del costo real del proyecto, no se agrega por separado al costo real.
+
+>[!NOTE]
+>
 >Al iniciar sesión en un proyecto, existen los siguientes escenarios al calcular el costo laboral real del proyecto:
 >
 >* De forma predeterminada, Workfront utiliza la tasa Costo por hora del usuario para calcular Coste laboral real.
 >* Si el usuario que registra la hora no está asociado con ningún coste, Workfront utiliza la tasa Costo por hora de la función principal del usuario.
 >* Si el administrador de Workfront ha habilitado la variable **Asignar roles de trabajo a las entradas de hora manualmente** en el área Preferencias de hojas de horas y horas , y el usuario que inicia sesión en el proyecto selecciona una función diferente para asociarla a esta hora, el costo real del proyecto se calcula en función de la función especificada cuando se registraron las horas. Para obtener información sobre cómo habilitar el tiempo de registro para una función de trabajo específica, consulte el artículo [Configuración de las preferencias de horas y horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Cómo calcula Workfront los tipos de coste para las tareas {#how-workfront-calculates-cost-types-for-tasks}
