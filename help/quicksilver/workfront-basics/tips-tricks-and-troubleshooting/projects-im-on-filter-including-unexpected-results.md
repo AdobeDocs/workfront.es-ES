@@ -5,7 +5,7 @@ title: Proyectos en los que estoy activado, incluidos resultados inesperados
 description: Lea este artículo para solucionar los problemas del filtro Proyectos en los que estoy incluido, incluyendo resultados inesperados.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ La variable [!UICONTROL **Proyectos en los que estoy**] filtro incluye proyectos
 
 1. Marque la [!UICONTROL **Detalles del proyecto**] para cada proyecto inesperado incluido en el filtro y elimine su nombre de todos los campos.
 
-O
+   O
 
 1. Intente usar un filtro similar, como [!UICONTROL **Proyectos de los que soy propietario**], que solo incluye proyectos que se le hayan asignado específicamente.
 
