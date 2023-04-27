@@ -6,9 +6,9 @@ description: Puede cargar los tableros de arte como documentos para una revisió
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
 1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
 1. Active la variable **[!UICONTROL Creación de una prueba]** alternar.
-1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Opcional) Escriba un nombre para la prueba en la **[!UICONTROL Nombre de la prueba]** cuadro de texto.
 1. En el **[!UICONTROL Aprobaciones de prueba]** , seleccione **[!UICONTROL Básico]**.
 1. (Opcional) Añada aprobadores.
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Opcional) Escriba un nombre para la prueba en la **[!UICONTROL Nombre de la prueba]** cuadro de texto.
+1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
+
 1. (Opcional) Seleccione **[!UICONTROL Agregar archivo externo]** para agregar un archivo desde el equipo.
 1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
 
    ![](assets/plugin-files-350x307.png)\
    El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
+
 
 ## Cargar una prueba automatizada
 
@@ -93,26 +92,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
 
 1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
-1. Active la variable **[!UICONTROL Creación de una prueba]** alterne y elija la opción **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Active la variable **[!UICONTROL Creación de una prueba]** alternar.
+1. (Opcional) Escriba un nombre para la prueba en la **[!UICONTROL Nombre de la prueba]** cuadro de texto.
 1. En el **[!UICONTROL Aprobaciones de prueba]** , seleccione **[!UICONTROL Automatizado]**.
 1. (Opcional) En la **[!UICONTROL Plantilla de flujo de trabajo]** , escriba el nombre de una plantilla de flujo de trabajo de prueba.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> Si hay campos obligatorios en blanco en la plantilla de flujo de trabajo, la configuración de prueba automatizada se abre automáticamente y debe rellenar esos campos para cargar la prueba.
+
 
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Opcional) Escriba un nombre para la prueba en la **[!UICONTROL Nombre de la prueba]** cuadro de texto.
+1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
 1. (Opcional) Seleccione **[!UICONTROL Agregar archivo externo]** para agregar un archivo desde el equipo.
-1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
-
-   ![](assets/plugin-files-350x307.png)\
-   El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
-
+1. Haga clic en **[!UICONTROL Cargar]**y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
+El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
 
 ## Cargar una nueva versión de prueba
 
@@ -126,15 +125,13 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png)en la barra de navegación.
 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del complemento.
-1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-1. Active la variable **[!UICONTROL Creación de una prueba]** alterne y elija la opción **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. Active la variable **[!UICONTROL Creación de una prueba]** alternar.
 
 1. En el *[!UICONTROL *Aprobaciones de prueba]** , elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
 
 1. Agregar **[!UICONTROL Revisores]** o **[!UICONTROL Plantilla de flujo de trabajo]** en función del tipo de aprobación seleccionado en el paso 7.
 
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
+1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
 1. Haga clic en **[!UICONTROL Cargar]**y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
 El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.

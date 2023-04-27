@@ -7,9 +7,9 @@ description: Complemento de Adobe Workfront para aplicaciones de Creative Cloud
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48333c6d56a102e8f96887dd13f0c799f3233f80
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Puede usar la variable [!DNL Adobe Workfront] para [!DNL Creative Cloud] complem
 * Cargar archivos
 * Ver proyectos y tareas
 * y más
+
+[Vea un vídeo con información general sobre la funcionalidad disponible en la [!DNL Adobe Workfront] para [!DNL Creative Cloud] plugin](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## Instalación y uso del complemento
 

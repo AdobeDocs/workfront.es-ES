@@ -6,10 +6,10 @@ description: Puede cargar las mesas de trabajo como pruebas directamente en Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -99,6 +99,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Puede crear una prueba interactiva para las mesas de trabajo con la variable [!D
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ Puede crear una prueba interactiva para las mesas de trabajo con la variable [!D
 
    >[!IMPORTANT]
    >
-   >Los usuarios deben tener acceso al [!UICONTROL Visor de prueba de escritorio] para revisar y aprobar pruebas interactivas. Para obtener más información, consulte [Instale el [!UICONTROL Visor de prueba de escritorio]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Los usuarios deben tener acceso al [!UICONTROL Visor de prueba de escritorio] para revisar y aprobar pruebas interactivas. Para obtener más información, consulte [[!UICONTROL Instalación de Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Cargar una nueva versión de prueba
 
@@ -229,6 +233,8 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Elija el formato de exportación en la **[!UICONTROL Tipo de recurso]** menú desplegable.
 

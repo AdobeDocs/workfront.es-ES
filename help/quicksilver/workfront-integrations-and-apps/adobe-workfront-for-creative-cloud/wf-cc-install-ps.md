@@ -6,9 +6,9 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</td> 
+   <td><p>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</p><p>Para obtener más información, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de asistencia al Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

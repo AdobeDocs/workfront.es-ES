@@ -6,9 +6,9 @@ description: Puede instalar el complemento Adobe Workfront for XD desde Adobe Ma
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</td> 
+   <td><p>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</p><p>Para obtener más información, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de asistencia al Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
