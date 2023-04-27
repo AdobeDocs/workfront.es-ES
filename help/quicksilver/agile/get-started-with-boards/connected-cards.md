@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </table>
 
    Utilice el panel de navegación de la izquierda para desplazarse entre grupos de campos en los detalles de la tarjeta.
-
-   >[!NOTE]
-   >
-   >El panel de navegación izquierdo y la capacidad de agregar vínculos en los que se puede hacer clic en el campo Descripción solo están disponibles a través de la opción de inclusión de funciones anteriores para los tableros de Workfront.
 
 1. Haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 El objeto conectado, los usuarios asignados, las etiquetas, la fecha de vencimiento, el contador de la lista de comprobación, las horas estimadas y el estado se muestran en la tarjeta.
