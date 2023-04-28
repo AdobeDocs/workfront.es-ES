@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: El equilibrador de carga de trabajo
-description: Workload Balancer es una herramienta de programación de recursos que eventualmente reemplazará a las herramientas de programación de recursos actuales que están en desuso.
+description: El equilibrador de carga de trabajo es una herramienta de programación de recursos que le permite asignar elementos de trabajo a sus recursos.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # El equilibrador de carga de trabajo
-
->[!IMPORTANT]
->
->Workload Balancer es una herramienta de programación de recursos que sustituye a las herramientas de programación que están actualmente en desuso.
->
->Para obtener más información sobre cómo quitar las herramientas de programación de recursos y reemplazarlas por el equilibrador de carga de trabajo, consulte [Obsolescencia de las herramientas de programación de recursos en Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Le recomendamos que utilice el equilibrador de carga de trabajo para programar sus recursos.
 
 Para obtener información sobre qué es el equilibrador de carga de trabajo, cómo navegarlo y cómo asignar trabajo mediante él, consulte los siguientes artículos:
 

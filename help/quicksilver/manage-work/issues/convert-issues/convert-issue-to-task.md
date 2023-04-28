@@ -6,9 +6,9 @@ description: Si se debe trabajar más para completar un problema después de que
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >Si un formulario personalizado de varios objetos adjunto al problema está configurado para su uso con problemas y tareas, el formulario se adjunta de forma predeterminada. Toda la información guardada en el formulario de problemas se conserva para la tarea cuando realiza la conversión.
-   >
-   >Si el proyecto de destino tiene formularios predeterminados definidos en el campo Forms personalizado predeterminado de tarea al editar el proyecto, esos formularios de tareas también se agregan a la nueva tarea. Los campos personalizados que sean comunes entre el problema original y los campos de los formularios de tareas predeterminados se rellenarán previamente con información de los campos de problema.
+   >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para su uso con problemas y tareas, toda la información guardada en el formulario se conserva al realizar la conversión si los campos existen tanto en el problema como en los formularios personalizados de la tarea.
+   >* Si un formulario personalizado de varios objetos con un campo calculado se adjunta al problema, así como a la tarea, el problema y la tarea deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si hay una incompatibilidad, un mensaje le alerta para que realice ajustes. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en la sección [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Si el proyecto de destino tiene formularios predeterminados definidos en el campo Forms personalizado predeterminado de tarea al editar el proyecto, esos formularios de tareas también se agregan a la nueva tarea. Los campos personalizados que sean comunes entre el problema original y los campos de los formularios de tareas predeterminados se rellenarán previamente con información de los campos de problema.
+
+
 
 1. Haga clic en [!UICONTROL **Convertir en tarea**].
 

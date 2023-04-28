@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Las siguientes funciones se eliminarán con la versión 2.4 a Producción:
 >
 >La obsolescencia del planificador de recursos se ha pospuesto hasta poco después de la versión 2.4.
 
-El equilibrador de carga de trabajo está reemplazando al programador de recursos. Para obtener más información sobre la obsolescencia y cómo puede prepararse para utilizar el equilibrador de carga de trabajo, consulte los siguientes recursos:
-
-* [Obsolescencia de las herramientas de programación de recursos en Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migración de la programación de recursos al equilibrador de carga de trabajo](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+El equilibrador de carga de trabajo está reemplazando al programador de recursos.
 
 * Integración de zoom
 

@@ -7,9 +7,9 @@ description: Se están eliminando varias funciones del producto Adobe Workfront.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Se están eliminando varias funciones del producto Adobe Workfront. A continuaci
    <td>Ya no es compatible con la versión 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Horario de recursos</p> <p>Workload Balancer ofrece una experiencia mejorada en la programación de recursos.</p> <p>Para obtener información más detallada sobre el equilibrador de carga de trabajo y las comparaciones de funciones con las herramientas de programación de recursos, consulte <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Obsolescencia de las herramientas de programación de recursos en Adobe Workfront</a>.</p> </td> 
+   <td> <p>Horario de recursos</p> <p>Workload Balancer ofrece una experiencia mejorada en la programación de recursos.</p> <p>Para obtener información más detallada sobre el equilibrador de carga de trabajo, consulte <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Información general del equilibrador de carga de trabajo</a>.</p> </td> 
    <td> </td> 
    <td> <p>Ya no es compatible el 9 de noviembre de 2020 (con la versión 20.4)</p> <p>--</p> <p>Se ha eliminado de la plataforma Workfront después del primer semestre de 2022</p> </td> 
   </tr> 

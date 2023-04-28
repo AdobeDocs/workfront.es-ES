@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Antes de esta mejora, solo podía asignar un usuario a un elemento de trabajo ma
 Las nuevas asignaciones masivas también incluyen nuevas funciones de filtrado por Proyecto y Estado de la tarea, además de Nombre.
 
 Para obtener más información, consulte [Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Para obtener información sobre la desaprobación de las herramientas de programación, consulte [Obsolescencia de las herramientas de programación de recursos en Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Anular moneda al administrar funciones de trabajo
 

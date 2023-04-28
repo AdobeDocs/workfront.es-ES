@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Para obtener información sobre la asignación de elementos de trabajo en el equ
 ## Nueva opción predeterminada para el equilibrador de carga de trabajo
 
 Como parte de nuestro esfuerzo por eliminar la programación y hacer que la herramienta de asignación de recursos principal de Workload Balancer Workfront sea la predeterminada para todos los usuarios nuevos. Actualmente, Scheduling es la opción predeterminada. Este cambio se aplica a todas las áreas en las que puede acceder a Programación desde las que se incluye el área Recursos (en la nueva experiencia de Adobe Workfront) o el área Personas (en Adobe Workfront Classic), así como al nivel de proyecto y equipo.
-
-Para obtener información sobre la obsolescencia de la programación, consulte [Obsolescencia de las herramientas de programación de recursos en Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Nueva experiencia de filtro en el equilibrador de carga de trabajo
 
