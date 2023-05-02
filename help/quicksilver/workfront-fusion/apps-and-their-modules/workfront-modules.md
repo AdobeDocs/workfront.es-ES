@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Mediante filtros de suscripción de eventos, los usuarios de Fusion pueden crear
 
 Esto es diferente a configurar un filtro en la variable [!DNL Workfront Fusion] escenario. Sin un filtro de suscripción de evento, el vínculo web recibe todos los eventos relacionados con el tipo de objeto seleccionado. La mayoría de estos eventos serían irrelevantes para el escenario y deben filtrarse para que el escenario pueda continuar.
 
+Los siguientes operadores están disponibles en el filtro Workfront > Watch events :
+
+* Es igual a
+* No es igual a
+* Bueno que
+* Less than
+* Bueno que o igual a
+* Less than or equal to
+* Contiene
+* Existe
+* No existe
+* Cambiado
+
 >[!NOTE]
+>
+> * La variable `Exists`, `Does not exist`y `Changed` no requieren ningún valor y el campo de valor está ausente de estas opciones.
+> * La variable `Changed` operador ignora el campo Estado .
+
+
+>[!IMPORTANT]
 >
 >No se pueden editar filtros en [!DNL Workfront] webhooks. Para configurar diferentes filtros para [!DNL Workfront] suscripciones a eventos, elimine el weblink actual y cree uno nuevo.
 
