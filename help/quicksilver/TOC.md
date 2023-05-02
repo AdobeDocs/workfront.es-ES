@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 1%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 1%
       * Informes beta del lienzo {#reporting-canvas-beta}
          * [Resumen del lienzo de informes beta](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [Reporting Canvas beta: actividad de versión](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Nueva experiencia de comentarios beta {#new-commenting-experience-beta}
+         * [Nueva información de experiencia beta de comentarios](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Nueva experiencia de comentarios](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [Nueva actividad de versión de experiencia beta de comentarios](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administración y configuración {#administration-and-setup}
    * [Administración y configuración](administration-and-setup/administration-and-setup.md)
    * Introducción a la administración {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 1%
       * [Etiquetar otros en actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Ver todas las actualizaciones en un informe de Nota](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Información general sobre el botón Trabajar en él y Hecho](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Nueva experiencia de comentarios](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Trabajar con formularios personalizados {#work-with-custom-forms}
       * [Trabajar con formularios personalizados](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Adición de un formulario personalizado a un objeto](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
