@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Etiquetar otros en actualizaciones
 description: Al proporcionar comentarios de actualización en un objeto de Adobe Workfront, todos los usuarios del proyecto pueden ver la información enviada. Sin embargo, es posible que a veces los usuarios que no están en el proyecto se beneficien de ver esta información. En lugar de incluir a esos usuarios en el proyecto, puede etiquetarlos en la actualización para compartirlos con ellos. Los usuarios etiquetados reciben una notificación de evento.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
->Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Puede acceder al nuevo diseño para los siguientes objetos:
+>Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, al activar el comentario Beta.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:
@@ -48,13 +49,7 @@ En lugar de incluir a esos usuarios en el objeto asignándolos o haciendo que se
 
 >[!NOTE]
 >
->Se debe activar una notificación de evento para que un usuario reciba la notificación por correo electrónico. Los administradores pueden activar notificaciones para todo el sistema o para un grupo de nivel superior. Un usuario también puede habilitar y deshabilitar notificaciones de eventos individuales en su propio perfil de usuario. Para obtener más información, consulte lo siguiente:
->
->* [Configurar notificaciones de eventos para todos los miembros del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [Ver y configurar notificaciones de eventos para un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>El usuario debe activar una notificación personal en su perfil para que pueda recibir la notificación por correo electrónico. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obtener información sobre cómo agregar actualizaciones a objetos de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

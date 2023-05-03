@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,9 +23,10 @@ ht-degree: 4%
 >[!NOTE]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
->Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Puede acceder al nuevo diseño para los siguientes objetos:
+>Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, al activar el comentario Beta.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:

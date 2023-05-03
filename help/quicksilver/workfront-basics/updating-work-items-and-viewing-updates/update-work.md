@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
->Para obtener más información sobre la nueva experiencia de actualización, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Puede acceder al nuevo diseño para los siguientes objetos:
+>Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, al activar el comentario Beta.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones de los problemas y no está disponible para las siguientes áreas:
@@ -135,7 +136,7 @@ Añadir una actualización a un elemento de trabajo varía en función de la ver
 1. Vaya al elemento de trabajo para el que desea proporcionar una actualización (como un proyecto, una tarea o un problema).
 1. Haga clic en el **Actualizaciones** para obtener más información.
 1. Haga clic en **Iniciar una nueva actualización,** a continuación, escriba la actualización.
-1. (Opcional) Use texto enriquecido o agregue emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; en este artículo
+1. (Opcional) Use texto enriquecido o agregue emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) sección de este artículo
 1. (Opcional) Actualice cualquiera de la siguiente información sobre el elemento de trabajo:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ La variable **Comentarios** está seleccionada de forma predeterminada.
    * Lista numerada
    * Agregar datos adjuntos <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Para obtener más información, consulte la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; en este artículo. <!--remove this list, above, when we get to parity for Rich Text-->
+   Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) en este artículo. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ Puede editar su comentario en un plazo de 15 desde su envío. Se agrega un indic
    >No puede agregar un comentario a una actualización del sistema.
 
 
-## Usar texto enriquecido en una actualización de Workfront
+## Usar texto enriquecido en una actualización de Workfront{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
 
    O
 
-   Haga clic en el **Agregar datos adjuntos** icono ![](assets/add-image-paperclip-icon.png) y busque la imagen en el equipo, cuando use la experiencia de comentarios Beta.
+   Haga clic en el **Agregar datos adjuntos** icono ![](assets/add-image-paperclip-icon.png) y busque la imagen en el equipo, cuando use la experiencia de comentarios Beta. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* El administrador de Workfront debe habilitar la adición de imágenes para poder ver el icono Imagen .
+   >* El administrador de Workfront debe activar la adición de imágenes en la sección Preferencias de actualización de fuentes del área de interfaz de Workfront para poder ver los iconos Imagen o Añadir datos adjuntos . Para obtener más información, consulte [Configuración de preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* El tamaño máximo del archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
-   >* Las imágenes solo son accesibles desde la ficha Actualizaciones de un objeto y no están disponibles en la ficha Documentos.
+   >* Las imágenes son accesibles desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos .
+   >* <!--In the current commenting experience,--> Cuando elimina un comentario que contiene una imagen, la imagen permanece en el área Documentos pero ya no está visible en la sección Actualizaciones .
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Puede enviar una actualización con una imagen sin texto.
 
 1. Haga clic en **Actualizar**  o **Submit**, al utilizar la experiencia beta de comentarios.
@@ -392,7 +396,7 @@ Ningún usuario de Workfront (incluido el administrador de Workfront) puede elim
 
    >[!NOTE]
    >
-   >Al eliminar una actualización con una imagen adjunta, se eliminan el comentario y la imagen.
+   >Al eliminar una actualización con una imagen adjunta, se eliminan el comentario y la imagen. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) en este artículo.
 
    Cuando el comentario que elimina tiene respuestas asociadas, hay una indicación de que el comentario se eliminó con el nombre del usuario que lo eliminó.
 

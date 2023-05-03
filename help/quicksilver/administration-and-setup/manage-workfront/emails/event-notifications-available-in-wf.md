@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 28%
 
 ---
@@ -220,11 +220,8 @@ Consulte también [Notificaciones: Solicitudes que he formulado](../../../workfr
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Agregar documento de solicitud al autor del problema</p> </td> 
-   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento del problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola. <!-- BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Información general de la ficha Detalles de cola de un proyecto</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>Activo</p> </td> 
+   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento del problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola.</p> </td> 
+   <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -234,6 +231,11 @@ Consulte también [Notificaciones: Solicitudes que he formulado](../../../workfr
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Comunicación
 
@@ -268,10 +270,8 @@ Consulte también [Notificaciones: Comunicación](../../../workfront-basics/usin
   <tr> 
    <td> <p>Usuario</p> </td> 
    <td>Actualización dirigida al usuario</td> 
-   <td> <p>Alguien me incluye en una actualización dirigida.</p> <p>Una actualización dirigida se produce cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar otros en actualizaciones</a>.</p> <p>En este caso, el usuario incluido en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente si el usuario tiene derechos de acceso al objeto&lt;!&gt;— BORRADO EN FLARE: y no es el mismo usuario que introduce la actualización
-
-    -->. &lt;/p> &lt;p>Esta notificación de evento está activada de forma predeterminada y no se puede desactivar.&lt;/p> &lt;/td>
-<td> <p>Activo</p> </td> 
+   <td> <p>Alguien me incluye en una actualización dirigida.</p> <p>Una actualización dirigida se produce cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar otros en actualizaciones</a>.</p> <p>En este caso, el usuario incluido en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente si el usuario tiene derechos de acceso al objeto y si lo mantiene habilitado en su perfil.  </p> <p>Esta notificación de evento está activada de forma predeterminada y no se puede desactivar.</p> </td> 
+   <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Equipo</p> </td> 
@@ -308,6 +308,10 @@ Consulte también [Notificaciones: Comunicación](../../../workfront-basics/usin
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## Información de aprobación
 
@@ -429,11 +433,8 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Agregar documento de solicitud a persona a la que se asignó el problema</p> </td> 
-   <td> <p>Cuando se suba o actualice un documento en una solicitud que se me haya asignado.</p> <p>El destinatario del problema recibe una notificación por correo electrónico cuando se cargan o cambian documentos en un problema que han añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el destinatario del mismo.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola.<!-- BORRADO EN FLARE: Para obtener más información sobre la publicación de un proyecto como cola de solicitud de ayuda, consulte 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Información general de la ficha Detalles de cola de un proyecto</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>Activo</p> </td> 
+   <td> <p>Cuando se suba o actualice un documento en una solicitud que se me haya asignado.</p> <p>El destinatario del problema recibe una notificación por correo electrónico cuando se cargan o cambian documentos en un problema que han añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el destinatario del mismo.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y si el proyecto tiene habilitado "Publicar como cola de solicitud de ayuda" en la ficha Configuración de cola.</p> </td> 
+   <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarea</p> </td> 
@@ -461,6 +462,11 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Información sobre proyectos en los que estoy
 
@@ -739,12 +745,7 @@ Consulte también [Notificaciones: Información diversa](../../../workfront-basi
    <td> </td> 
    <td> <p>Notificación de error</p> </td> 
    <td> <p>Se ha encontrado un error que necesita su atención.</p> <p>Se genera una notificación por correo electrónico después de que Workfront lo intente y no se conecte a una cuenta POP. Después de 25 intentos, Workfront deshabilita la conexión con la cuenta POP para conservar los recursos y envía una notificación. </p> <p>La notificación por correo electrónico se envía al propietario del proyecto, si el correo electrónico POP está asociado a una cola de solicitudes, o a los administradores de Workfront, si la cuenta POP está asociada a la función "Correo entrante" en Configuración de correo electrónico.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ Consulte también [Notificaciones: Información diversa](../../../workfront-basi
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Delegación
 
