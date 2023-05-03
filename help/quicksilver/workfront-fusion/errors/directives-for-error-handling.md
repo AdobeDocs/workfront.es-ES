@@ -8,9 +8,9 @@ description: Este artículo describe las directivas que puede utilizar para la g
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 >[!NOTE]
 >
->Actualmente, las directivas de gestión de errores no pueden utilizarse fuera del ámbito de una ruta de gestión de errores y [!DNL Workfront Fusion] actualmente no ofrece un módulo Throw que le permita generar (lanzar) errores fácilmente y condicionalmente, aunque se puede utilizar una solución para imitar su funcionalidad. Para obtener más información, consulte [Ruta del controlador de errores](../../workfront-fusion/errors/error-handling.md#error) en el artículo [Gestión de errores en Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Consulte también [Solución para el lanzamiento](../../workfront-fusion/errors/throw.md#workarou) en el artículo [Gestión de errores de emisión en Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* Actualmente, las directivas de gestión de errores no se pueden usar fuera de una ruta de gestión de errores.
+   >
+   >   Para obtener más información, consulte [Ruta del controlador de errores](../../workfront-fusion/errors/error-handling.md#error) en el artículo [Gestión de errores en Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] actualmente no ofrece un módulo Throw que le permita generar (lanzar) errores fácilmente y condicionalmente, aunque se puede utilizar una solución para imitar su funcionalidad.
+   >
+   >   Para obtener más información, consulte [Solución para el lanzamiento](../../workfront-fusion/errors/throw.md#workaround-for-throw) en el artículo [Gestión de errores de emisión en Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+
 
 ## Salto {#break}
 
-Cuando el [!DNL Break] , se crea un registro en la variable [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) carpeta que almacena el estado de la ejecución del escenario junto con los datos de los módulos anteriores. Para cada paquete de datos que causa el error, se crea un registro independiente.
+Cuando el [!DNL Break] , se crea un registro en la carpeta Ejecuciones incompletas . Este registro almacena el estado de la ejecución del escenario, junto con los datos de los módulos anteriores. El registro hace referencia al módulo en el que se originó el error y contiene información sobre qué datos recibió el módulo como entrada. Para cada paquete de datos que causa el error, se crea un registro independiente.
 
-El registro hace referencia al módulo en el que se originó el error y contiene información sobre qué datos recibió el módulo como entrada. Para obtener más información, consulte [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Para obtener más información, consulte [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-En este caso, puede resolver el error manualmente actualizando el escenario (si es necesario) y ejecutándolo una vez.
+### Resolver errores resultantes de la directiva Break
 
-Por otro lado, al habilitar la variable [!UICONTROL Finalización de la ejecución automática] en la configuración de directiva Break , se puede configurar para procesar automáticamente una ejecución incompleta ejecutando de nuevo el escenario después del número especificado de minutos.
+Puede resolver el error manualmente actualizando el escenario (si es necesario) y ejecutándolo una vez.
+
+También puede configurar el escenario para que procese automáticamente una ejecución incompleta ejecutando de nuevo el escenario. Para configurar el módulo para que procese ejecuciones incompletas:
+
+1. Dentro del módulo Break, active la variable [!UICONTROL **Finalización de la ejecución automática**] .
+1. En el **Número de intentos** , introduzca o asigne el número máximo de intentos que desea que el módulo vuelva a intentar la ejecución
+
+   Este número debe estar entre 1 y 100.
+1. En el **Intervalo entre intentos** , introduzca o asigne el número de minutos entre cada intento de reintento.
 
 Con esta opción habilitada, cuando se produce un error, se recupera la ejecución incompleta (después del tiempo especificado en la variable [!UICONTROL Intervalo entre intentos] ) y se ejecuta con los datos de entrada originales. Esto se repetirá hasta que la ejecución del módulo se complete sin error o hasta que se alcance el número de intentos especificado.
 
@@ -101,12 +115,13 @@ Con esta opción habilitada, cuando se produce un error, se recupera la ejecuci�
 >
 >Si falla el intento de reintento inicial, el intervalo entre reintentos aumenta exponencialmente cada otro intento.
 
+
 Cuando se activa &quot;Completar ejecución automáticamente&quot;, la ejecución del escenario se marca como &quot;Correcto&quot; porque el reintento automático del controlador de error Break está gestionando el problema automáticamente. En este caso, los usuarios no reciben un correo electrónico sobre la ejecución fallida.
 
 Cuando se desactiva &quot;Ejecutar automáticamente&quot;, la ejecución se marca como &quot;Advertencia&quot;.
 
-![](assets/break-directive-350x241.png)
+Hay algunas excepciones en que las ejecuciones se almacenan en Ejecuciones incompletas y, con algunos tipos de error, el reintento automático de una ejecución de escenario no es posible.
 
-Sin embargo, hay algunas excepciones a que las ejecuciones se almacenen en Ejecuciones incompletas y, con algunos tipos de error, el reintento automático de una ejecución de escenario no es posible. Para obtener más información, consulte [Permitir el almacenamiento de ejecuciones incompletas](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) en el artículo [El panel de configuración de escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Para obtener más información, consulte [Permitir el almacenamiento de ejecuciones incompletas](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) en el artículo [El panel de configuración de escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 Para obtener más información, consulte [Gestión de errores avanzada en Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md).

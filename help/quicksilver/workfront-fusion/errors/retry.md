@@ -7,7 +7,7 @@ description: En algunos casos, es útil volver a ejecutar un módulo que falla u
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 * El intervalo mínimo de reintentos es de un minuto.
 * Si el módulo está procesando varios paquetes y falla el procesamiento de un paquete, la ejecución parcial (solo el paquete que causó el error) se mueve a la carpeta de ejecuciones incompletas y está programada para reintentos según la variable [!UICONTROL Salto] configuración de directiva. Sin embargo, la ejecución actual continúa y el módulo continúa procesando los paquetes posteriores. Puede habilitar el &quot;[!UICONTROL Procesamiento secuencial]&quot; en la [!UICONTROL Configuración del escenario] para evitar que el escenario se ejecute de nuevo hasta que la ejecución almacenada en la carpeta de ejecuciones incompletas se haya resuelto correctamente.
 
-Para obtener más información sobre las ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Para obtener más información sobre las ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Utilice la variable [!UICONTROL Repetidor] módulo
 
-1. Emplee el **[!UICONTROL Repetidor]** y establezca su [!UICONTROL Repetidas] al número máximo de intentos.
+1. Emplee el **[!UICONTROL Repetidor]** y establezca su **[!UICONTROL Repetidas]** al número máximo de intentos.
 1. Vincule el módulo que potencialmente falla al **[!UICONTROL Repetidor]** módulo.
 1. Adjuntar una ruta del controlador de errores a este módulo (consulte [Gestión de errores en [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Vincule el **[!UICONTROL Herramientas] > [!UICONTROL Sueño]** a la ruta del controlador de errores y establezca su **[!UICONTROL Retraso]** al número de segundos entre los intentos.
@@ -98,7 +98,7 @@ Para obtener más información sobre las ejecuciones incompletas, consulte [Ver 
 >
 >![](assets/http-make-request-350x116.png)
 >
->Si el resultado del módulo potencialmente defectuoso es demasiado complejo para almacenarlo en una variable simple, puede emplear un almacén de datos para almacenar/recuperar el resultado. El almacén de datos solo contendría un registro. La clave del registro puede ser, por ejemplo, `Result`.
+>Si el resultado del módulo potencialmente defectuoso es demasiado complejo para almacenarlo en una variable simple, puede utilizar un almacén de datos para almacenar/recuperar el resultado. El almacén de datos solo contendría un registro. La clave del registro puede ser, por ejemplo, `Result`.
 >
 >Para obtener más información sobre los almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 

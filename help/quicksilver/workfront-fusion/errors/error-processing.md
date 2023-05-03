@@ -8,9 +8,9 @@ description: A veces se puede producir un error durante la ejecución de un esce
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ El error de conexión es uno de los errores más comunes causados por la falta d
 * Si el error se produce en el primer módulo, la ejecución del escenario finaliza con un mensaje de advertencia. [!DNL Workfront Fusion] a continuación, intenta volver a ejecutar el escenario en intervalos de tiempo crecientes (estos se explican a continuación). Si todos los intentos fallan, [!DNL Workfront Fusion] desactiva el escenario.
 * Si el error de conexión se produce en otro módulo que no sea el primero, los pasos siguientes dependen de la variable [Permitir el almacenamiento de ejecuciones incompletas](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) en la configuración avanzada del escenario:
 
-   * Si esta opción está habilitada, la ejecución del escenario se mueve a la variable [!UICONTROL Ejecuciones incompletas] carpeta donde [!DNL Workfront Fusion] intenta volver a ejecutar el escenario repetidamente a intervalos de tiempo crecientes. Si todos los intentos fallan, la ejecución permanecerá en la variable [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) en espera de la resolución manual del usuario.
-   * Si la opción está desactivada, la ejecución del escenario termina con un error seguido de una fase de reversión. [!DNL Workfront Fusion] a continuación, intenta volver a ejecutar el escenario en intervalos de tiempo crecientes. Si todos los intentos fallan, [!DNL Workfront Fusion] desactiva el escenario.
+   * Si esta opción está habilitada, la ejecución del escenario se mueve a la variable [!UICONTROL Ejecuciones incompletas] carpeta donde [!DNL Workfront Fusion] intenta volver a ejecutar el escenario repetidamente a intervalos de tiempo crecientes. Si todos los intentos fallan, la ejecución permanecerá en la carpeta Ejecuciones incompletas a la espera de la resolución manual del usuario.
+
+      Para obtener más información sobre las ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * Si esta opción está desactivada, la ejecución del escenario termina con un error seguido de una fase de reversión. [!DNL Workfront Fusion] a continuación, intenta volver a ejecutar el escenario en intervalos de tiempo crecientes. Si todos los intentos fallan, [!DNL Workfront Fusion] desactiva el escenario.
 
 ### Aumento de intervalos de tiempo
 
@@ -80,17 +82,19 @@ La razón principal para utilizar los intervalos de tiempo crecientes en [!DNL W
 >
 >**Ejemplo:**
 >
->Un escenario contiene el [!DNL Google Sheets] déclencheur [!UICONTROL Filas de observación]. [!DNL Google Sheets] no está disponible durante 30 minutos debido al mantenimiento cuando [!DNL Workfront Fusion] inicia el escenario, por lo que no puede recuperar filas nuevas. El escenario se detiene y vuelve a intentarlo en 10 minutos. Como el servicio sigue no disponible en este periodo de tiempo, [!DNL Workfront Fusion] sigue sin poder obtener información sobre filas nuevas. La siguiente ejecución del escenario está programada en 1 hora. [!DNL Google Sheets] está disponible de nuevo en este plazo y el escenario se ejecuta correctamente.
+>Un escenario contiene el [!DNL Google Sheets] déclencheur [!UICONTROL Filas de observación]. [!DNL Google Sheets] no está disponible durante 30 minutos debido al mantenimiento cuando [!DNL Workfront Fusion] inicia el escenario, por lo que no puede recuperar filas nuevas. El escenario se detiene y vuelve a intentarlo en 10 minutos. Porque [!DNL Google Sheets] sigue sin estar disponible, [!DNL Workfront Fusion] sigue sin poder obtener información sobre filas nuevas. La siguiente ejecución del escenario está programada en 1 hora. [!DNL Google Sheets] está disponible de nuevo en este momento y el escenario se ejecuta correctamente.
 
 ## Error de datos
 
 `DataError`
 
-Se genera un error de datos cuando un elemento está asignado incorrectamente y no pasa la validación realizada en la variable [!DNL Workfront Fusion] o del lado del servicio de terceros que se está utilizando. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se genera un error de datos cuando un elemento está asignado incorrectamente y no pasa la validación realizada en la variable [!DNL Workfront Fusion] o del lado del servicio de terceros que se está utilizando.
 
 Si se produce este error, el escenario, hasta donde se produjo un error en el módulo, se mueve a la carpeta de ejecuciones incompletas, donde puede solucionar el problema. Sin embargo, el escenario no se detiene y continúa ejecutándose según su programación. Para detener la ejecución del escenario cuando aparece el error de datos, active la opción de procesamiento secuencial en el panel de configuración del escenario.
 
 Si no ha habilitado la variable [!UICONTROL Permitir el almacenamiento de ejecuciones incompletas] en la configuración del escenario, la ejecución del escenario termina con el error y se realiza una reversión.
+
+Para obtener más información sobre asignación, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 Para obtener información sobre ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ If [!DNL Workfront Fusion] intenta insertar el mismo paquete dos veces en un ser
 
 `InvalidAccessTokenError`
 
-Se produce un error de token de acceso no válido cuando [!DNL Workfront Fusion] no puede acceder a su cuenta registrada con un servicio de terceros. Esto ocurre principalmente cuando se revocan los derechos de acceso para [!DNL Workfront Fusion] en la administración de un servicio determinado pero los escenarios relacionados siguen funcionando según lo programado.
+Se produce un error de token de acceso no válido cuando [!DNL Workfront Fusion] no puede acceder a su cuenta registrada con un servicio de terceros. Esto suele ocurrir cuando se revocan los derechos de acceso para [!DNL Workfront Fusion] en la administración de un servicio determinado, pero los escenarios relacionados siguen funcionando según la programación.
 
 Si se produce este error, la ejecución de un escenario se detiene inmediatamente. El resto del escenario que comienza desde el módulo en el que se produjo el error se mueve a la carpeta de ejecuciones incompletas.
 
@@ -118,7 +122,9 @@ Para obtener información sobre ejecuciones incompletas, consulte [Ver y resolve
 
 `RateLimitError`
 
-Si se supera un límite establecido por un servicio determinado, se genera un error de límite de velocidad. Si se produce este error, [!DNL Workfront Fusion] funciona del mismo modo que para el error de conexión. Para obtener más información, consulte [Error de conexión](#connection-error).
+Si se supera un límite establecido por un servicio determinado, se genera un error de límite de velocidad. Si se produce este error, [!DNL Workfront Fusion] funciona del mismo modo que para el error de conexión.
+
+Para obtener más información, consulte [Error de conexión](#connection-error).
 
 ## Error de datos incompletos
 
@@ -126,11 +132,15 @@ Si se supera un límite establecido por un servicio determinado, se genera un er
 
 Un error de datos incompleto solo se produce con déclencheur. Este error se genera si un déclencheur no descarga los datos necesarios de un servicio determinado.
 
-Si un escenario termina con la variable `IncompleteDataError`, su comportamiento futuro dependerá de su configuración de [!UICONTROL Número máximo de errores consecutivos]. Para obtener más información, consulte [Número de errores consecutivos](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) en el artículo [El panel de configuración de escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Si un escenario termina con la variable `IncompleteDataError`, su comportamiento futuro dependerá de su configuración de [!UICONTROL Número máximo de errores consecutivos].
+
+Para obtener más información, consulte [Número de errores consecutivos](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) en el artículo [El panel de configuración de escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**Ejemplo:** Un escenario tiene la variable [!DNL Workfront] déclencheur [!UICONTROL Registro de Watch] configurado para buscar documentos. El escenario se ejecuta mientras se carga un documento grande, como un vídeo largo. Porque [!UICONTROL Workfront Fusion] intenta descargar el vídeo mientras todavía se está cargando en Workfront, el escenario termina con el `IncompleteDataError`.
+>**Ejemplo:**
+>
+>Un escenario tiene la variable [!DNL Workfront] déclencheur [!UICONTROL Registro de Watch] configurado para buscar documentos. El escenario se ejecuta mientras se carga un documento grande, como un vídeo largo. Porque [!UICONTROL Workfront Fusion] intenta descargar el vídeo mientras todavía se está cargando en Workfront, el escenario termina con el `IncompleteDataError`.
 
 ## Error de tiempo de ejecución
 
