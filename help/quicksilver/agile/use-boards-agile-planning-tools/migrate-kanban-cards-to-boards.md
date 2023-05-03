@@ -5,24 +5,22 @@ title: Migración de tarjetas Kanban de equipos ágiles a tableros de Workfront
 description: Puede migrar los elementos de trabajo de un tablero Kanban de equipo ágil a un tablero Workfront nuevo o existente.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Migración de tarjetas Kanban de equipos ágiles a tableros de Workfront
 
+{{highlighted-preview-article-level}}
+
 Puede migrar los elementos de trabajo de un tablero Kanban de equipo ágil a un tablero Workfront nuevo o existente. Al ejecutar la migración, todas las tarjetas del tablero Kanban se copian en el tablero Workfront. No se le permite elegir tarjetas específicas.
 
 La colocación de tarjetas en el tablero de Workfront se basa en políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado &quot;En curso&quot; a una columna específica. Para obtener más información sobre las directivas de columna, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Si no hay directivas o las tarjetas no coinciden con las directivas, las tarjetas se colocan en la columna situada más a la izquierda del tablero. En este momento, las tarjetas de la columna Backlog en el tablero preexistente no se agregan al tablero de Workfront.
 
 Las tarjetas no se eliminan del tablero Kanban del equipo ágil y los cambios de estado de las tarjetas se sincronizarán con ambos tableros. Puede mantener ambos tableros activos hasta que esté preparado para cambiar a los tableros de Workfront.
-
->[!NOTE]
->
->Esta función solo está disponible a través de la opción de inclusión de las funciones iniciales para Workfront Board.
 
 ## Requisitos de acceso
 
