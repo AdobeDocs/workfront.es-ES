@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # Edición del perfil de un usuario
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Formularios personalizados</td> 
-      <td>Asocie un formulario personalizado de usuario existente a este usuario. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo aparecen los formularios personalizados activos. Para obtener información sobre la creación de formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</td> 
+      <td><p>Asocie un formulario personalizado de usuario existente a este usuario. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo aparecen los formularios personalizados activos. Los campos a los que no se tiene acceso para editar no se muestran en un formulario personalizado individual.</p> <p>Para obtener información sobre la creación de formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Comentario</td> 
-      <td> <p>Escriba el comentario que desea enviar a los usuarios y al área Actualizaciones de sus perfiles de usuario.</p> </td> 
+      <td>Escriba el comentario que desea enviar a los usuarios y al área Actualizaciones de sus perfiles de usuario.</td> 
      </tr> 
     </tbody> 
    </table>
