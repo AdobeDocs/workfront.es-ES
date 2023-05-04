@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
    >* El administrador de Workfront debe activar la adición de imágenes en la sección Preferencias de actualización de fuentes del área de interfaz de Workfront para poder ver los iconos Imagen o Añadir datos adjuntos . Para obtener más información, consulte [Configuración de preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* El tamaño máximo del archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
    >* Las imágenes son accesibles desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos .
-   >* <!--In the current commenting experience,--> Cuando elimina un comentario que contiene una imagen, la imagen permanece en el área Documentos pero ya no está visible en la sección Actualizaciones .
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Puede enviar una actualización con una imagen sin texto.
+   >* Al eliminar un comentario que contiene una imagen, existen las siguientes situaciones en función de la experiencia que elija:
+      >
+      >     * En la experiencia de comentarios actual, la imagen permanece en el área Documentos, pero ya no es visible en la sección Actualizaciones .
+      >     * En la nueva experiencia de comentarios, la imagen se elimina de la sección Actualizaciones y del área Documentos . La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
+   >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.
+
 
 1. Haga clic en **Actualizar**  o **Submit**, al utilizar la experiencia beta de comentarios.
 
