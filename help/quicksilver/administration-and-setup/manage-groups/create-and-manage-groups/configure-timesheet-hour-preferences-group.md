@@ -5,30 +5,32 @@ keywords: grupo,preferencias,tarea,grupos,problema,desbloquear
 navigation-topic: create-and-manage-groups
 title: Configuración de las preferencias de horas y horas de un grupo
 description: A nivel del sistema, un administrador de Adobe Workfront puede desbloquear las secciones de preferencias de horas y horas Preferencias generales y cumplimentar hojas de horas previamente con. Esto permite a los administradores de grupos configurar las opciones de esas secciones de forma independiente para sus propios grupos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 5%
+source-wordcount: '1368'
+ht-degree: 6%
 
 ---
 
 # Configuración de las preferencias de horas y horas de un grupo
 
+{{highlighted-preview}}
+
 Un administrador de Adobe Workfront puede desbloquear las siguientes secciones de las preferencias de horario y horario a nivel del sistema para que los administradores de grupo puedan configurarlas de forma independiente para sus propios grupos:
 
 * Preferencias generales
-* Rellenar de forma previa las hojas de horas con
+* <span class="preview">Dónde pueden registrar el tiempo los usuarios</span>
+* Rellenar partes de horas previamente
 
 Si hay algún grupo por encima del grupo que administra, sus administradores también pueden hacerlo por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 Las siguientes secciones de la página Preferencias de parte de horas y horas solo se pueden configurar a nivel del sistema y no se pueden desbloquear para grupos:
 
-* Tiempo de registro
-* Preferencias de eliminación de proyecto, tarea o problema
+* Proyectos, tareas y problemas eliminados
 
 Para obtener información sobre cómo un administrador de Workfront desbloquea un parte de horas y una preferencia de hora, consulte la sección [Desbloquear preferencias de horas y horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configuración de las preferencias de horas y horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Tenga en cuenta la siguiente información sobre la configuración de un parte de
     </tbody> 
    </table>
 
-1. En el **Rellenar partes de horas previamente con** , configure cualquiera de las siguientes opciones:
+1. <span class="preview">En el **Dónde los usuarios pueden registrar la hora** , configure cualquiera de las siguientes opciones:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar tiempo directamente en los proyectos</span></td> 
+      <td><span class="preview">Permite a los usuarios iniciar sesión en el proyecto (tanto en la ficha Actualizaciones como en el parte de horas). Si desea restringir el tiempo de grabación de los usuarios en el nivel de proyecto, deje esta opción sin marcar.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar tiempo en proyectos completos</span></td>
+      <td><span class="preview">Permite a los usuarios registrar la hora en un proyecto que se haya marcado como completado. Si esta opción está desactivada, los usuarios no pueden registrar la hora del trabajo que han completado en los proyectos en el estado Completar .</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar tiempo en proyectos inactivos</span></td> 
+      <td><span class="preview">Cuando esta opción está habilitada, los usuarios pueden iniciar sesión durante horas en los proyectos con estado de Muerta.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Esta preferencia se aplica en función de la configuración de las preferencias del grupo de inicio del usuario. Si esta configuración está habilitada en las preferencias del grupo de inicio del usuario, podrá registrar el tiempo directamente en los proyectos, incluidos los proyectos completados o muertos, independientemente de si las preferencias de grupo del proyecto lo permiten o no.
+
+1. En el **Rellenar partes de horas previamente** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 

@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si est
     </tbody> 
    </table>
 
-1. En el **[!UICONTROL Tiempo de registro]** , configure cualquiera de las siguientes opciones:
+1. En el **[!UICONTROL Dónde los usuarios pueden registrar la hora]** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si est
     </tr>
    </table>
 
-1. En el **[!UICONTROL Rellenar partes de horas previamente con]**&#x200B; sección, configure cualquiera de las siguientes opciones:
+1. En el **[!UICONTROL Rellenado previo de partes de horas]** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si est
     </tbody> 
    </table>
 
-1. En el **[!UICONTROL Preferencias de eliminación de proyectos, tareas o problemas]** especifique lo siguiente:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. En el **[!UICONTROL Proyectos, tareas y problemas eliminados]** especifique lo siguiente:
 
    <table style="table-layout:auto"> 
     <col> 
