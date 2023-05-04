@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras en la integración](#integration-enhancements)
 * [Otras mejoras](#other-enhancements)
 
+### Mejoras en el administrador
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Control de nivel de grupo disponible para el horario y la preferencia por hora de parte de horas "Donde los usuarios pueden registrar la hora"</a> <span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <p>El administrador del sistema ahora puede bloquear y desbloquear el parte de horas y la preferencia de hora "Donde los usuarios pueden registrar la hora". Cuando esta preferencia está desbloqueada, los administradores del grupo pueden configurar los ajustes "Dónde los usuarios pueden registrar la hora" por separado para cada grupo.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 4 de mayo de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: Con la versión 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Mejoras en Agile
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtros simples agregados a la plantilla de tablero dinámico</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtros simples agregados a la plantilla de tablero dinámico</a></p>
                         <p>Los filtros de la plantilla de tablero dinámico se han simplificado para permitirle crear un tablero más rápido.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
