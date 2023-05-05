@@ -6,9 +6,9 @@ description: Puede cargar las mesas de trabajo como pruebas directamente en Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >Para seleccionar más de una mesa de trabajo, haga clic y arrastre el ratón sobre las mesas de trabajo que desee.
+   >* Las mesas de trabajo aparecerán en la prueba en el orden en que se seleccionaron. La primera mesa de trabajo seleccionada será la primera página de la prueba, etc.
+   >* Para seleccionar rápidamente más de una mesa de trabajo, haga clic y arrastre el ratón sobre las mesas de trabajo que desee. Esto no permite controlar el orden de las mesas de trabajo en la prueba.
+
 
 1. Habilitar **[!UICONTROL Crear una prueba]**.
 
