@@ -7,7 +7,7 @@ description: Como administrador de proyectos, puede utilizar las tasas de factur
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Workfront puede rastrear automáticamente los ingresos planeados cuando se crean
 
 También puede rastrear automáticamente los ingresos reales cuando las horas reales se registran en las tareas, problemas y en el proyecto.
 
-En la tabla siguiente se muestran los tipos de ingresos asociados con tareas, problemas y proyectos.
+La tabla siguiente muestra los tipos de ingresos asociados con tareas, problemas y proyectos.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +106,7 @@ En la tabla siguiente se muestran los tipos de ingresos asociados con tareas, pr
  <tbody> 
   <tr> 
    <td role="rowheader">Ingresos planificados</td> 
-   <td> <p>Para las tareas, estos son los ingresos asociados con las horas planificadas de las tareas. Las horas previstas de todas las tareas se resumen en las horas previstas del proyecto para contribuir al cálculo de las horas previstas del proyecto. </p> <p>Para obtener más información sobre las horas programadas en Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Información general sobre las horas planificadas</a>. </p> <p>Workfront calcula los ingresos previstos para tareas y proyectos mediante las siguientes fórmulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Para las tareas, estos son los ingresos asociados con las horas planificadas de las tareas. Las horas previstas de todas las tareas se resumen en las horas previstas del proyecto para contribuir al cálculo de las horas previstas del proyecto. </p> <p>Para obtener más información sobre las horas programadas en Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Información general sobre las horas planificadas</a>. </p> <p>Workfront calcula los ingresos previstos para tareas y proyectos mediante las siguientes fórmulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>NOTA</b>
 
 <p>Los ingresos planeados del proyecto que se muestran en el área Detalles del proyecto y en los informes del proyecto difieren de los ingresos planeados que se muestran en el informe Utilización. </p> <p>Los ingresos planeados del área Detalles del proyecto reflejan los ingresos de la tarea asociados con la tarea Horario planificado, así como los ingresos fijos del proyecto. En el Informe de uso, los ingresos planeados muestran los ingresos planeados asociados únicamente con las horas planificadas de las asignaciones de tareas del proyecto. </p> 
@@ -120,7 +120,7 @@ En la tabla siguiente se muestran los tipos de ingresos asociados con tareas, pr
   </tr> 
   <tr> 
    <td role="rowheader">Ingresos reales*</td> 
-   <td> <p>Asociado con las horas reales de tareas, problemas y proyectos. </p> <p>Por lo general, Workfront calcula los ingresos reales mediante esta fórmula:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Para obtener información sobre los cálculos de ingresos reales en el Informe de uso, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Ver información de utilización de recursos </a>. </p> <p><b>SUGERENCIA</b>
+   <td> <p>Asociado con las horas reales de tareas, problemas y proyectos. </p> <p>Por lo general, Workfront calcula los ingresos reales mediante esta fórmula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Para obtener información sobre los cálculos de ingresos reales en el Informe de uso, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Ver información de utilización de recursos </a>. </p> <p><b>SUGERENCIA</b>
 
 No puede ver los ingresos reales en el nivel de problema, pero los ingresos asociados con las horas reales en los problemas contribuyen a los ingresos reales del proyecto. </p> </td>
 </tr> 
