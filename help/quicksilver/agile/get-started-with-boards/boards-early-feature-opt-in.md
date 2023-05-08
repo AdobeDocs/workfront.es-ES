@@ -6,9 +6,9 @@ title: Inclusión anticipada de [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información sobre [!DNL Workfront Boards] inclusión de funciones anticipadas.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
+source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   </tr>
   <tr>
    <td>Migración de tarjetas Kanban heredadas a tableros</td>
-   <td>Esta función estará disponible en Producción el 4 de mayo de 2023 y no forma parte de la inclusión inicial de la función.</td>
+   <td>Esta función estará disponible en Producción el 18 de mayo de 2023 y no forma parte de la inclusión inicial de la función.</td>
   </tr>
   <tr>
    <td>Crear tableros dinámicos</td>
@@ -171,6 +171,10 @@ La siguiente tabla describe las principales funciones de los tableros junto con 
   <tr>
    <td>Usar la navegación izquierda en los detalles de la tarjeta</td>
    <td>Liberado parcialmente</td>
+  </tr>
+  <tr>
+   <td>Utilice filtros simplificados en la columna de admisión</td>
+   <td>Planificados</td>
   </tr>
  </tbody> 
 </table>
