@@ -7,10 +7,10 @@ description: Un objeto resuelto es un problema cuya resolución está vinculada 
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -139,7 +139,7 @@ Los siguientes estados predeterminados para las tareas déclencheur los siguient
 |---|---|
 | Nuevo | Nuevo |
 | En curso | En curso |
-| Finalizado | Cerrado |
+| Completar | Cerrado |
 
 Los siguientes estados predeterminados para proyectos déclencheur los siguientes cambios en los estados predeterminados para los problemas, cuando el problema se establece como un objeto resuelto de un proyecto. Algunos estados de proyecto no déclencheur los cambios en el estado de los problemas. Los problemas permanecen en el estado en el que estaban antes de que el proyecto se convirtiera en uno de estos estados:
 
@@ -169,7 +169,7 @@ Cuando cambia el estado de la tarea o del proyecto a un estado personalizado, el
 
 Puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto resuelto) se cambian al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para el problema y los estados de proyecto o tarea.
 
-Por ejemplo, cree un estado personalizado de proyecto denominado &quot;Iniciado&quot; con el código de tres letras &quot;LCD&quot;, que equivale a &quot;Actual&quot;. Además, cree un problema con el estado personalizado llamado &quot;Lanzamiento del proyecto&quot;, también con el código de letra &quot;LCD&quot; que equivale a &quot;En curso&quot;. Cuando marque el proyecto como &quot;Iniciado&quot;, el problema cambiará automáticamente el estado a &quot;Lanzado del proyecto&quot;. Si los estados de problema &quot;Automatically****set issue&quot; (Configurar automáticamente*****) para que coincidan con el objeto resoluble mediante la configuración de claves de estado no estaban activados, el estado del problema cambiaría a &quot;In Progress&quot; (el estado predeterminado).
+Por ejemplo, cree un estado personalizado de proyecto denominado &quot;Iniciado&quot; con el código de tres letras &quot;LCD&quot;, que equivale a &quot;Actual&quot;. Además, cree un problema con el estado personalizado llamado &quot;Lanzamiento del proyecto&quot;, también con el código de letra &quot;LCD&quot; que equivale a &quot;En curso&quot;. Cuando marque el proyecto como &quot;Iniciado&quot;, el problema cambiará automáticamente el estado a &quot;Lanzado del proyecto&quot;. Si el estado &quot;Actualizar automáticamente el estado del problema resuelto cuando el estado del objeto resuelto cambia&quot; no estuviera habilitado, el estado del problema cambiaría a &quot;En curso&quot; en su lugar (el estado predeterminado).
 
 Para obtener más información sobre la creación de un estado personalizado, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 

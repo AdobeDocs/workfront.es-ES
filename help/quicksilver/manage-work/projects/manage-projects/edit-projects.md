@@ -6,16 +6,16 @@ description: Puede editar un proyecto en Adobe Workfront tantas veces como sea n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Editar proyectos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -225,7 +225,7 @@ Algunos ajustes mencionados en este artículo pueden modificarse del estado pred
       <td> <p> <p>Este es solo un indicador visual que le permite priorizar sus proyectos.</p> <p>Según las preferencias de proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre las prioridades de edición, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a></p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dirección URL</strong> </td> 
+      <td role="rowheader"><strong>URL</strong> </td> 
       <td> <p>Especifique un vínculo web relacionado con información sobre este proyecto.</p> </td> 
      </tr> 
      <tr> 
@@ -467,7 +467,7 @@ Para editar campos en el área Finanzas:
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Horario</strong> </td> 
+       <td role="rowheader"><strong>Programación</strong> </td> 
        <td> <p>Seleccione una programación para el proyecto. Debe ser la misma programación asignada a la mayoría de las personas que trabajan en el proyecto. Debe crear una programación para poder asignarla a un proyecto o a un usuario. Si no ha creado programas personalizados en su sistema, se selecciona la opción Programación predeterminada.</p> <p>Para obtener más información sobre la creación de programaciones, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>. </p> </td> 
        </tr> 
        <tr> 
@@ -690,6 +690,8 @@ De forma predeterminada, los campos siguientes se incluyen en el encabezado del 
 * Estado
 * Tome decisiones de aprobación si está configurado como aprobador en un proceso de aprobación actual
 
+<div class="preview">
+
 ## Editar proyectos de forma masiva
 
 Puede editar proyectos de forma masiva y actualizar la información de todos los proyectos seleccionados al mismo tiempo.
@@ -793,7 +795,7 @@ Para obtener más información sobre la edición del área de acceso, consulte l
 1. (Opcional) Haga clic en **Cancelar** en la parte inferior del **Editar proyectos** para eliminar todos los cambios realizados en todos los proyectos.
 1. Haga clic en **Guardar**.
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
