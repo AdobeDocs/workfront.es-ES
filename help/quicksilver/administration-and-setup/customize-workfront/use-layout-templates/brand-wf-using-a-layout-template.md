@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Brand Adobe Workfront mediante una plantilla de diseño
+
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta página solo se aplica a organizaciones que aún no están integradas en [!DNL Adobe Experience Cloud].
+>
+> Si su organización se ha incorporado a [!DNL Adobe Experience Cloud], la marca no está disponible.
 
 Puede utilizar una plantilla de diseño para personalizar los logotipos en el área de navegación superior y en el menú principal para determinados grupos, equipos, funciones de trabajo y usuarios. Esto resulta especialmente útil para los grupos de una organización grande que tienen su propia marca.
 
@@ -23,7 +29,7 @@ Para obtener información sobre plantillas de diseño para grupos, consulte [Cre
 
 >[!NOTE]
 >
->Un administrador de Workfront puede realizar las mismas personalizaciones de marca para toda la organización a nivel del sistema, tal como se explica en [Marca la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Sin embargo, la promoción de la marca en una plantilla de diseño anula la promoción de la marca a nivel del sistema. >
+>Un administrador de Workfront puede realizar las mismas personalizaciones de marca para toda la organización a nivel del sistema, tal como se explica en [Marca la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Sin embargo, la promoción de la marca en una plantilla de diseño anula la promoción de la marca a nivel del sistema.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

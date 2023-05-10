@@ -5,9 +5,9 @@ title: Glosario de [!DNL Adobe Workfront] terminología
 description: La variable [!DNL Adobe Workfront] el glosario enumera los términos más utilizados en Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>El proceso de personalización [!DNL Workfront] para dar a la interfaz un aspecto que refleje su empresa utilizando sus colores y logotipos.</td> 
+   <td><p>El proceso de personalización [!DNL Workfront] para dar a la interfaz un aspecto que refleje su empresa utilizando sus colores y logotipos.</p><p><strong>NOTA</strong><br>Si su organización se ha incorporado a [!DNL Adobe Experience Cloud], la marca no está disponible.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rutas de exploración]</td> 

@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Cerrar sesión [!DNL Adobe Workfront]
 description: Por motivos de seguridad, es importante cerrar la sesión de [!DNL Adobe Workfront] regularmente. De forma predeterminada, [!DNL Workfront] cierra la sesión de los usuarios automáticamente tras 8 horas de inactividad.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ Por motivos de seguridad, es importante cerrar la sesión de [!DNL Adobe Workfro
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta página solo se aplica a organizaciones que aún no están integradas en [!DNL Adobe Experience Cloud].
+>
+> Si su organización se ha incorporado a [!DNL Adobe Experience Cloud], cierre la sesión haciendo clic en su imagen de perfil en la barra de navegación superior y seleccionando [!UICONTROL **Cerrar sesión**] del menú . Para obtener más información, consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Requisitos de acceso
 
