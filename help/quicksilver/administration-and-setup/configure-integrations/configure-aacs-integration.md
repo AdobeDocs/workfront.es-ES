@@ -5,9 +5,9 @@ title: Integraciones de Adobe Experience Manager Assets
 description: Puede conectar su trabajo con las siguientes integraciones de Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ Puede asignar [!DNL Workfront] datos de objeto a campos de medios de recurso [!D
 >
 >Los metadatos solo se pueden asignar en una dirección: from [!DNL Workfront] a [!DNL Experience Manager]. Metadatos de los documentos vinculados a [!DNL Workfront] from [!DNL Experience Manager] no se puede transferir a [!DNL Workfront].
 
-
-
 ### Configuración de campos de metadatos
 
+Antes de empezar a asignar campos de metadatos, debe configurar los campos de metadatos tanto en Workfront como en Experience Manager Assets.
+
+Para configurar los campos de metadatos:
+
 1. Configurar un esquema de metadatos en [!DNL Experience Manager Assets] tal como se explica en [Configuración de la asignación de metadatos de recursos entre Adobes [!DNL Workfront] y [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Configure los campos de formulario personalizados en Workfront. [!DNL Workfront] tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados, tal como se explica en [Crear o editar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Expandir para ver más información sobre los campos admitidos de Workfront y Experience Manager Assets**
 
-### Assets
+**Etiquetas de Experience Manager Assets**
+
+Puede asignar cualquier campo admitido de Workfront a una etiqueta en Experience Manager Assets. Para ello, debe asegurarse de que los valores de las etiquetas en Experience Manager Assets coinciden con Workfront.
+
+* Las etiquetas y los valores de los campos de Workfront deben coincidir exactamente en ortografía y formato.
+* Los valores de campo de Workfront asignados a etiquetas de recursos de experience Manager deben estar todos en minúsculas, incluso si la etiqueta de Experience Manager Assets parece tener letras mayúsculas.
+* Los valores de campo de Workfront no deben incluir espacios.
+* El valor del campo en Workfront también debe incluir la estructura de carpetas de la etiqueta Experience Manager Assets.
+* Para asignar varios campos de texto de una sola línea a etiquetas, introduzca una lista separada por comas de los valores de las etiquetas en el lado Workfront de la asignación de metadatos y `xcm:keywords` en el lado de Experience Manager Assets. Cada valor de campo se asigna a una etiqueta independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por coma.
+* Puede asignar valores de los campos desplegable, botón de opción o casilla de verificación introduciendo una lista separada por comas de los valores disponibles en ese campo.
+
+
+>[!INFO]
+>
+>**Ejemplo**: Para que coincida con la etiqueta que se muestra en la estructura de carpetas, el valor del campo en Workfront sería `landscapes:trees/spruce`. Observe las letras minúsculas en el valor del campo Workfront.
+>
+>Si desea que la etiqueta sea el elemento de la izquierda en el árbol de etiquetas, debe ir seguida de dos puntos. En este ejemplo, para asignar a la etiqueta de paisajes, el valor de campo en Workfront sería `landscapes:`.
+>
+>![Estructura de carpetas en AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Después de crear las etiquetas en Experience Manager Assets, estas aparecerán en el menú desplegable Etiquetas de la sección Metadatos . Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en la lista desplegable de campos Experience Manager Assets del área de asignación de metadatos.
+
+Para obtener más información sobre las etiquetas en Experience Manager Assets, incluido cómo crear y administrar las etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Campos de esquema de metadatos personalizados de Experience Manager Assets**
+
+Puede asignar campos Workfront integrados y personalizados a campos de esquema de metadatos personalizados en Experience Manager Assets.
+
+Los campos de metadatos personalizados creados en Experience Manager Assets se organizan en su propia sección del área de configuración de metadatos.
+
+![sección de metadatos personalizados](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Campos Workfront**
+
+Puede asignar campos Workfront integrados y personalizados a Experience Manager Assets. Los siguientes valores de campo deben coincidir tanto en mayúsculas como en ortografía entre Workfront y Experience Manager Assets:
+
+* Campos desplegables
+* Campos de selección múltiple
+
+>[!TIP]
+>
+> Para comprobar si los valores de los campos coinciden exactamente, vaya a
+>
+> * Configuración > Forms personalizado en Workfront o el campo del objeto
+> * Recursos > esquemas de metadatos en Experience Manager Assets
+
+
++++
+
+### Asignación de metadatos para recursos
 
 Los mapas de metadatos cuando se inserta un recurso [!DNL Workfront] por primera vez. Los documentos con los campos integrados o personalizados se asignan automáticamente a los campos especificados la primera vez que se envía un recurso a [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Esta integración no admite metadatos personalizados de [!DNL Adobe Experience Manager].
 
 Para asignar metadatos para los recursos:
 
@@ -125,13 +180,15 @@ Para asignar metadatos para los recursos:
    >[!NOTE]
    >
    >Puede asignar una sola [!DNL Workfront] campo a varios [!UICONTROL Experience Manager Assets] campos. No se pueden asignar varios [!DNL Workfront] campos a un único [!DNL Experience Manager Assets] campo .
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. En el [!DNL Experience Manager Assets] , busque en las categorías previamente rellenadas o escriba al menos dos letras en el campo de búsqueda para acceder a categorías adicionales.
 1. Repita los pasos 2 y 3 según sea necesario.
    ![campos de metadatos](assets/asset-metadata.png)
 1. Haga clic en [!UICONTROL Guardar] o pase al [Carpetas](#folders) en este artículo.
 
-### Carpetas
+### Asignación de metadatos para carpetas
 
 Cuando los usuarios crean una carpeta vinculada en un proyecto, los datos de proyecto, portafolio y programa asociados se asignan a campos de metadatos de carpeta en [!DNL Experience Manager Assets].
 

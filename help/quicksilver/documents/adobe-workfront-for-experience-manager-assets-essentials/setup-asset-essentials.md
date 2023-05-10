@@ -6,10 +6,10 @@ description: Conecte su trabajo con su contenido en Experience Manager Assets Es
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -109,6 +109,23 @@ Antes de empezar, debe
 * Configure un esquema de metadatos en Experience Manager Assets Essentials tal como se explica en [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Opcional) Configure los campos de formulario personalizados en Workfront. Workfront tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados. Para obtener más información, consulte [Crear o editar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Campos admitidos de Workfront y Experience Manager Assets**
+
+**Palabra clave AEM**
+
+Puede asignar cualquier campo compatible con Workfront a una palabra clave en Experience Manager Assets Essentials.
+
+Para vincular un campo a una palabra clave, seleccione `dc:subject` en la lista desplegable de campos Experience Manager Assets del área de asignación de metadatos.
+
+Para asignar varios campos de texto de una sola línea a palabras clave, introduzca una lista separada por comas de los valores de palabra clave en el lado Workfront de la asignación de metadatos y `dc:subject` en el lado de Experience Manager Assets. Cada valor de campo se asigna a una palabra clave independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por coma.
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Assets
 
@@ -119,6 +136,8 @@ Los metadatos se asignan cuando un recurso se inserta desde Workfront por primer
    >
    >Puede asignar un solo campo de Workfront a varios campos de Experience Manager Assets. No se pueden asignar varios campos de Workfront a un único campo de Experience Manager Assets.
 1. En el **Experience Manager** , seleccione un campo Experience Manager Assets .
+
+   Para asignar un campo de Workfront a una etiqueta de Experience Manager Assets, seleccione `dc:subject`.
 1. Repita los pasos 1 y 2 según sea necesario.
    ![habilitar metadatos](assets/metadata-assets-essentials.png)
 1. Haga clic en **Guardar** o pase al [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) en este artículo.

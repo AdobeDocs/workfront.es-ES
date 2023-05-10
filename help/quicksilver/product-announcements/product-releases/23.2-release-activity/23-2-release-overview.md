@@ -4,13 +4,13 @@ description: Información general sobre la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # Resumen de la versión 23.2
 
@@ -52,6 +52,22 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignación de valores de campo de Workfront a etiquetas en Experience Manager Assets</a>
+                        <p>Ahora puede clasificar y buscar recursos rápidamente en función de los datos de Workfront.  Puede asignar estos datos como parte de la configuración de metadatos en la integración de Workfront para Experience Manager Assets .</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: N/D<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versión de producción: 30 de marzo de 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
