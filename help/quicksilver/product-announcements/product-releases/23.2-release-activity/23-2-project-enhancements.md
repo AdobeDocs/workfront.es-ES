@@ -4,7 +4,8 @@ description: 23.2 Mejoras del proyecto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -13,52 +14,52 @@ ht-degree: 0%
 
 # 23.2 Mejoras del proyecto
 
-Esta página describe todas las mejoras del proyecto realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
+En esta página se describen todas las mejoras realizadas en el proyecto con la versión 23.2 del entorno de vista previa. Estas mejoras estarán disponibles en el entorno Producción con la versión 23.2.
 
-Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de versión 23.2, consulte [Resumen de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Nueva experiencia al editar proyectos por lotes
+## Nueva experiencia al editar proyectos de forma masiva
 
 >[!NOTE]
 >
->A partir del 23 de marzo, este se lanzará a producción en un despliegue gradual que se completará el 11 de mayo de 2023.
+>A partir del 23 de marzo, se lanzará a producción en un lanzamiento gradual que se completará a partir del 11 de mayo de 2023.
 
-Como parte de la actualización del aspecto de la experiencia de Workfront, hemos rediseñado la casilla Editar proyectos al editar varios proyectos al mismo tiempo de forma masiva. Puede acceder a la nueva casilla Editar proyectos al seleccionar varios proyectos al mismo tiempo en una lista de proyectos.
+Como parte de la actualización del aspecto de la experiencia de Workfront, hemos rediseñado el cuadro Editar proyectos al editar varios proyectos al mismo tiempo, de forma masiva. Puede acceder al nuevo cuadro Editar proyectos al seleccionar varios proyectos al mismo tiempo en una lista de proyectos.
 
-Además de una apariencia y presentación actualizadas de la interfaz, los siguientes cambios también están disponibles en la casilla Editar proyectos:
+Además del aspecto actualizado de la interfaz, también están disponibles los siguientes cambios en el cuadro Editar proyectos :
 
 * Puede personalizar la plantilla de diseño y reflejar esas personalizaciones en la página Detalles de un proyecto, así como en los cuadros Editar proyecto (al editar un proyecto) y Editar proyectos (al editar varios proyectos).
 
-* Borrar indicadores cuando los valores de cada campo sean diferentes entre los proyectos seleccionados: se muestra un indicador &quot;Varios valores&quot; para los campos cuyos valores no coinciden entre los proyectos seleccionados.
+* Borre los indicadores cuando los valores de cada campo son diferentes entre los proyectos seleccionados: se muestra un indicador &quot;Varios valores&quot; para campos cuyos valores no coinciden entre los proyectos seleccionados.
 
-* Indicación de los formularios personalizados que ya están adjuntos a los proyectos seleccionados y el número de proyectos que ya tienen un determinado formulario adjunto.
+* Indicación de qué formularios personalizados ya están adjuntos a los proyectos seleccionados y el número de proyectos que ya tienen un determinado formulario adjunto.
 
-* Se ha eliminado la funcionalidad de comentarios de la casilla Editar proyectos.
+* Hemos eliminado la funcionalidad de comentarios del cuadro Editar proyectos .
 
-* Hemos eliminado la opción Recalcular informes de valoración al editar proyectos por lotes.
+* Hemos eliminado la opción Volver a calcular informes de valoración cuando se editan proyectos de forma masiva.
 
 Para obtener más información, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Ver una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
-## La experiencia de filtrado mejorada suele estar disponible en Adobe Workfront
+## La experiencia de filtrado mejorada está disponible en general en Adobe Workfront
 
-En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [Notas de la versión de actualizaciones de aspecto y funcionamiento de 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, disponible para todos los clientes en la versión 23.2.
+En agosto de 2022 se publicó una actualización a la experiencia de filtro en versión beta pública en listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [Notas de la versión de las actualizaciones de aspecto y funcionamiento de 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible para el público general y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El lanzamiento gradual de Producción también comenzará el 2 de marzo, con disponibilidad para todos los clientes en la versión 23.2.
 
-Puede seguir accediendo a los filtros heredados en las listas activándolos en el panel de filtros. Los filtros heredados quedarán obsoletos en las listas en el futuro, pero permanecerán disponibles en los informes porque el generador de filtros estándar no está disponible en los informes.
+Puede seguir accediendo a los filtros heredados de las listas activándolos en el panel de filtros. En el futuro, los filtros heredados quedarán obsoletos en las listas, pero permanecerán disponibles en los informes porque el generador de filtros estándar no está disponible en los informes.
 
-Para obtener más información sobre los filtros mejorados y una demostración en vídeo, consulte la [nota de la versión beta pública de filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información sobre los filtros mejorados y una demostración de vídeo, consulte la [filtros versión beta pública](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-Para obtener más información, consulte [Creación o edición de filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obtener más información, consulte [Crear o editar filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Copiar horas presupuestadas al copiar un proyecto
 
 >[!NOTE]
 >
->Versión preliminar: 16 de febrero de 2023; versión de producción planificada: 2 de marzo de 2023
+>Versión de vista previa: 16 de febrero de 2023; Versión de producción planificada: 2 de marzo de 2023
 
-Ahora tiene la opción de copiar las horas presupuestadas en el área de Presupuestación de recursos del caso comercial o del Planificador de recursos al copiar un proyecto. Antes de esta mejora, las horas presupuestadas para el proyecto no se transferían al proyecto copiado.
+Ahora, tiene la opción de copiar las horas presupuestadas en el área de Presupuestación de Recursos del Caso de Negocio o el Planificador de Recursos cuando copia un proyecto. Antes de esta mejora, las horas presupuestadas para el proyecto no se transferían al proyecto copiado.
 
 Para obtener más información, consulte [Copiar un proyecto](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Ver una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3415713/){target=_blank}

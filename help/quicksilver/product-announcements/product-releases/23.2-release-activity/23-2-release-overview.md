@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ En lugar de un seminario web sobre versiones, le invitamos a registrarse para el
                                 <p>Versión de vista previa: 9 de marzo de 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Versión de producción: A partir del 23 de marzo, se lanzará a producción en un lanzamiento gradual que se completará el 11 de mayo de 2023</span></p>
+                                 <p><span class="preview">Versión de producción: A partir del 23 de marzo, se lanzará a producción en un lanzamiento gradual que se completará a partir del 11 de mayo de 2023</span></p>
                             </li>
                         </ul>
                     </td>
