@@ -9,7 +9,7 @@ description: Puede utilizar TLS mutuos en los módulos HTTP de Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: d54a6072524274cf77ee0ca7b7cfa24987c97782
+source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -92,10 +92,10 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
    >   * Tenga en cuenta la fecha de caducidad y configure un recordatorio para que cargue el certificado en el servicio web.
    >   * Marque esta página para encontrar fácilmente los nuevos certificados.
 >
-* Son certificados mTLS no comodín.
->
+>* Son certificados mTLS no comodín.
 
-* [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+
+* [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Descargar [!DNL Workfront Fusion] Certificado UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
    Para uso en la UE
