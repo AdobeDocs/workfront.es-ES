@@ -6,9 +6,9 @@ description: En el [!UICONTROL tableros] tablero, puede crear un tablero nuevo o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       Todos los objetos aparecen en el tablero como tarjetas conectadas.
 
       La variable [!UICONTROL **Tarjetas agregadas**] El contador muestra cuántas tarjetas estarán en el tablero. Por ejemplo, si selecciona un proyecto con 100 tareas y problemas, el contador muestra 100. Si agrega una asignación de usuario y esa persona está asignada a 5 tareas en el proyecto, el contador muestra 5.
+
+   1. (Opcional) Seleccione [!UICONTROL **Incluir trabajo completado**] para incluir tarjetas completadas en el tablero.
+
+      >[!NOTE]
+      >
+      >Si esta opción no está seleccionada, cuando las tarjetas de otros estados se marquen como completas, se &quot;quitarán&quot; el tablero y ya no se mostrarán.
 
    1. (Opcional) Haga clic en [!UICONTROL **Usar filtros avanzados**] para mostrar opciones de filtro adicionales.
 

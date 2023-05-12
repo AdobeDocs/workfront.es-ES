@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Crear una columna de admisión
+## Creación de una columna de admisión mediante filtros simples
+
+>[!NOTE]
+>
+>Los filtros simples solo están disponibles a través de la opción de inclusión de las funciones iniciales para los tableros de Adobe Workfront.
 
 1. Haga clic en el **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Expandir **[!UICONTROL Consejo]**.
 1. Activar **[!UICONTROL Ingesta dinámica de elementos a bordo]**.
 
-   ![Crear columna de admisión](assets/create-intake-column2.png)
+   ![Opciones de filtro simple de la columna de entrada](assets/intake-column-simple-filters.png)
 
    La columna de admisión se añade a la izquierda del tablero. Permanecerá en blanco hasta que se le apliquen filtros.
 
+1. (Opcional) Busque y seleccione [!DNL Workfront] [!UICONTROL **Proyectos**].
+1. (Opcional) Busque y seleccione un usuario o equipo [!UICONTROL **Asignaciones**].
+1. Select [!UICONTROL **Incluir trabajo completado**] para mostrar las tareas y los problemas con un estado de finalización en la columna de admisión.
+
+   >[!NOTE]
+   >
+   >Si esta opción no está seleccionada, cuando las tarjetas de otros estados se marquen como completas, se &quot;quitarán&quot; el tablero y ya no se mostrarán.
+
+1. Haga clic en [!UICONTROL **Aplicar**].
+
+   Todos los objetos aparecen como tarjetas conectadas en la columna de admisión del tablero.
+
+   ![Columna de entrada](assets/intake-column-added3.png)
+
+## Creación de una columna de admisión mediante filtros avanzados
+
+1. Haga clic en el **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **[!UICONTROL Tableros]**.
+1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
+1. Haga clic en **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar .
+1. Expandir **[!UICONTROL Consejo]**.
+1. Activar **[!UICONTROL Ingesta dinámica de elementos a bordo]**.
+
+   La columna de admisión se añade a la izquierda del tablero. Permanecerá en blanco hasta que se le apliquen filtros.
+
+1. Haga clic en [!UICONTROL **Usar filtros avanzados**].
 1. Haga clic en **[!UICONTROL Fuentes de filtro]** y seleccione **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]**.
+
+   ![Opciones de filtro avanzado de la columna de entrada](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Columna de entrada](assets/intake-column-added3.png)
 
-   Las tarjetas de la columna de admisión no se pueden editar hasta que se mueven a otras columnas de la placa. Puede hacer clic en la tarjeta para abrirla en una vista de solo lectura o hacer clic en ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir la tarea o el problema en una nueva pestaña del navegador.
-
-   Puede reordenar manualmente los elementos de la columna de admisión.
-
-   Los iconos de la parte superior derecha de la columna de admisión muestran cuántas tarjetas hay actualmente en la columna y cuántos filtros se aplican.
-
    >[!NOTE]
    >
    >Puede actualizar los filtros en cualquier momento abriendo el panel Configurar , haciendo clic en **[!UICONTROL Fuentes de filtro]** y seleccionando **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]**.
+
+## Utilice la columna de admisión
+
+Las tarjetas de la columna de admisión no se pueden editar hasta que se mueven a otras columnas de la placa. Puede hacer clic en la tarjeta para abrirla en una vista de solo lectura o hacer clic en ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir la tarea o el problema en una nueva pestaña del navegador.
+
+
+Puede reordenar manualmente los elementos de la columna de admisión.
+
+Los iconos de la parte superior derecha de la columna de admisión muestran cuántas tarjetas hay actualmente en la columna y cuántos filtros se aplican.
 
 1. (Opcional) Para buscar un elemento en la columna de admisión, haga clic en ![Icono de búsqueda](assets/search-icon.png) en la columna .
 1. (Opcional) Para mover una tarjeta de la columna de admisión a otra columna, arrastre y suelte la tarjeta en la posición en la que desea que aparezca.
