@@ -6,9 +6,9 @@ description: Puede añadir documentos a proyectos, tareas o problemas en las sig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ El sitio de Workfront evita que los virus y otro contenido malicioso entren al s
 
 ### Cómo detecta Workfront los archivos dañados {#how-workfront-detects-corrupted-files}
 
-Workfront busca virus cuando se carga un documento. Si intenta cargar un documento dañado, Workfront interrumpe el proceso de carga y aparece un mensaje que indica que el archivo está dañado. También recibirá una notificación por correo electrónico cuando Workfront detecte contenido potencialmente malintencionado y el archivo esté programado para su eliminación.\
-Todos los archivos dañados se eliminan en las 24 horas siguientes a la detección, a menos que los elimine manualmente. Si elimina un archivo dañado, Workfront rastrea esta acción como una actualización. Si permite que Workfront lo elimine, no se registrarán actualizaciones.
+El análisis de documentos solo está habilitado para su organización si se solicita.
+
+Si la digitalización de documentos está habilitada, los archivos menores de 25 MB se analizan cuando se cargan. Los archivos de más de 25 MB no se analizan.
+
+Si Workfront detecta un documento dañado, Workfront interrumpe el proceso de carga y aparece un mensaje que indica que el archivo está dañado. También recibirá una notificación por correo electrónico cuando Workfront detecte contenido potencialmente malintencionado y el archivo esté programado para su eliminación.
+
+Los archivos dañados se eliminan en un plazo de 24 horas tras la detección, a menos que los elimine manualmente. Si elimina un archivo dañado, Workfront rastrea esta acción como una actualización. Si permite que Workfront lo elimine, no se registrarán actualizaciones.
 
 ### Restricciones de nombre de archivo {#file-name-restrictions}
 
