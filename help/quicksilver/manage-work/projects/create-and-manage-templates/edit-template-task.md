@@ -7,9 +7,9 @@ description: Después de crear una plantilla, puede editar información sobre la
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -122,7 +122,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
       <td>Añada información adicional sobre la tarea de plantilla.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dirección URL</strong> </td> 
+      <td role="rowheader"><strong>URL</strong> </td> 
       <td>Especifique un vínculo web relacionado con la información sobre la tarea de plantilla.</td> 
      </tr> 
      <tr> 
@@ -152,7 +152,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Horas planificadas</strong> </td> 
-      <td> <p>Especifique la cantidad de horas planificadas para la tarea futura en el proyecto creado con esta plantilla. Este es el tiempo real que tardarían los asignadores de la tarea en completarla. Solo puede especificar la cantidad de horas planificadas para una tarea cuando la variable<strong>Tipo de duración</strong> está configurado como <strong>Asignación calculada</strong>. </p> </td> 
+      <td> <p>Especifique el número de horas planificadas para la tarea futura en el proyecto creado con esta plantilla. Este es el tiempo real que tardarían los asignadores de la tarea en completarla. Solo puede especificar el número de horas planificadas para una tarea cuando la variable<strong>Tipo de duración</strong> está configurado como <strong>Asignación calculada</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Esfuerzo de trabajo </td> 
@@ -276,6 +276,14 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Hito</p></strong> </td> 
+      <td> <p>Elija un hito para asociarlo a la tarea de plantilla seleccionada.</p>
+
+   <p><b>IMPORTANTE</b></p>
+   <p>Debe asociar una ruta de hito con una plantilla para que este campo se muestre. Para obtener más información, consulte <a href="../create-and-manage-templates/edit-templates.md">Editar plantillas de proyecto</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Modo de seguimiento</strong> </td> 
       <td> <p>Especifique cómo se rastreará el estado de progreso de la tarea futura. </p> <p>Seleccione entre las siguientes opciones:</p> 
@@ -348,7 +356,7 @@ Puede definir formularios personalizados predeterminados para que se adjunten au
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Seleccione el formulario personalizado o los formularios que desea asociar con la tarea de plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Puede agregar hasta diez formularios personalizados a una tarea de plantilla. Los formularios se añaden automáticamente a las tareas creadas a partir de la plantilla.
+1. Seleccione el formulario personalizado o los formularios que desea asociar con la tarea de plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Se pueden agregar hasta diez formularios personalizados a una tarea de plantilla. Los formularios se añaden automáticamente a las tareas creadas a partir de la plantilla.
 1. (Condicional y opcional) Si ha adjunto un formulario personalizado a la tarea de plantilla, edite los campos del formulario. Debe especificar todos los campos obligatorios para poder guardar la tarea de plantilla.
 
    >[!NOTE]

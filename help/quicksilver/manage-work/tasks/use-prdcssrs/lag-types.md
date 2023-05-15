@@ -7,9 +7,9 @@ description: El retraso es la cantidad de tiempo que debe transcurrir después d
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ La siguiente tabla ilustra los tipos de retraso y cómo indicar la cantidad de t
   </tr> 
   <tr> 
    <td> <p>Porcentaje (p o pe)</p> </td> 
-   <td> <p>El retraso se expresa como un porcentaje del tiempo estimado para completar la tarea predecesora. </p> <p>Por ejemplo, si hay una dependencia de finalización-inicio con un retraso del 20 % entre una tarea predecesora de 10 días, el sistema calculará cuántos días es el 20 % de la duración de la tarea predecesores y la utilizará como retraso. En este caso, tardarían 2 días desde la finalización de la tarea. </p> <p>Nota: El límite máximo de retraso para el porcentaje es del 2000%.</p> </td> 
+   <td> <p>El retraso se expresa como un porcentaje del tiempo estimado para completar la tarea predecesora. </p> <p>Por ejemplo, si hay una dependencia de finalización-inicio con un retraso del 20 % en una tarea predecesora de 10 días, el sistema calculará cuántos días representan el 20 % de la duración de la tarea predecesores y la utilizará como retraso. En este caso, tardarían 2 días desde la finalización de la tarea. </p>
+
+<p><b>NOTA</b></p> El límite máximo de retraso para el porcentaje es del 2000%.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Día de la semana (w) </p> </td> 
@@ -177,7 +179,17 @@ La siguiente tabla ilustra los tipos de retraso y cómo indicar la cantidad de t
      <li>Jueves=5</li> 
      <li>Viernes=6</li> 
      <li>Sábado=7</li> 
-    </ul> <p>Si desea indicar que la Fecha de inicio planeada del sucesor debe corresponder a un martes de la semana actual y que el martes es anterior a la Fecha de finalización planeada del predecesor, debe codificar el sucesor con la siguiente fórmula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Nota: Si el martes se pasa para la semana de la fecha de finalización prevista del predecesor, la fecha de inicio prevista de la tarea sucesora es el primer día laborable disponible de esa semana. </p> <p>Si desea indicar que el retraso debe corresponder a un sábado de la semana en curso y que el sábado es posterior a la fecha de finalización prevista del predecesor, codificaría el sucesor con la fórmula siguiente:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Si sábado es un día no laborable, el siguiente día disponible después del sábado (para indicar un retraso positivo) se selecciona como Fecha de inicio planeada del sucesor. </p> <p>Para indicar semanas pasadas o futuras, puede agregar un número delante del número de día para el tipo de retraso. </p> <p>Por ejemplo, para indicar el lunes de hace 10 semanas, puede utilizar este código para indicar el predecesor de su sucesor:</p> <p><code>4fs-102w</code> </p> <p>10 indica hace 10 semanas y 2 es el número asignado a lunes. </p> </td> 
+    </ul> <p>Si desea indicar que la Fecha de inicio planeada del sucesor debe corresponder a un martes de la semana actual y que el martes es anterior a la Fecha de finalización planeada del predecesor, debe codificar el sucesor con la siguiente fórmula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>NOTA</b></p>
+
+Si el martes se pasa para la semana de la fecha de finalización prevista del predecesor, la fecha de inicio prevista de la tarea sucesora es el primer día laborable disponible de esa semana. </p> <p>Si desea indicar que el retraso debe corresponder a un sábado de la semana en curso y que el sábado es posterior a la fecha de finalización prevista del predecesor, codificaría el sucesor con la fórmula siguiente:</p> <p>4fs+7w</code> </p> <p>Si sábado es un día no laborable, el siguiente día disponible después del sábado (para indicar un retraso positivo) se selecciona como Fecha de inicio planeada del sucesor. </p>
+
+<p>Esto no se aplica a las excepciones de programación. Si una fecha es también una excepción de programación y la Fecha de inicio del sucesor se calcula para ese día, el sistema intenta encontrar la fecha disponible más cercana, que es el día de la semana especificado en la expresión predecesora.</p>
+
+<p>Por ejemplo, si se calcula que la fecha de inicio es un martes determinado y que ese día es una excepción de programación y el retraso del predecesor es positivo, entonces elegirá el martes siguiente (si también es un día laborable) como la fecha de inicio del sucesor. Si el retraso es negativo, el sistema elige el martes anterior como fecha de inicio.</p>
+
+<p>Para indicar semanas pasadas o futuras, puede agregar un número delante del número de día para el tipo de retraso. </p> <p>Por ejemplo, para indicar el lunes de hace 10 semanas, puede utilizar este código para indicar el predecesor de su sucesor:</p> <p><code>4fs-102w</code> </p> <p>10 indica hace 10 semanas y 2 es el número asignado a lunes. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Día de la semana distinto de cero (k)</p> </td> 
