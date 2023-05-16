@@ -6,7 +6,7 @@ description: Puede ver el número de decisiones de prueba y documento tomadas po
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Para ver el número de decisiones de un usuario:
 
 1. Abra el **Vistas** y, a continuación, elija el **Licencias** vista.
 
-1. Buscar la columna **Aprobaciones este mes** para ver el número de decisiones que ha tomado cada usuario en el mes.
+1. Buscar la columna **Decisiones este mes** para ver el número de decisiones que ha tomado cada usuario en el mes.
