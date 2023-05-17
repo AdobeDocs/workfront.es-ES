@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de admisión al tablero que 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    La columna de admisión se añade a la izquierda del tablero. Permanecerá en blanco hasta que se le apliquen filtros.
 
 1. Haga clic en [!UICONTROL **Usar filtros avanzados**].
-1. Haga clic en **[!UICONTROL Fuentes de filtro]** y seleccione **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]**.
+1. Haga clic en **[!UICONTROL Agregar fuentes de filtro]** y seleccione **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]**.
 
    ![Opciones de filtro avanzado de la columna de entrada](assets/intake-column-advanced-filters1.png)
 
