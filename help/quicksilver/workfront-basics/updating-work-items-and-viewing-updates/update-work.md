@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
 1. Vaya al área Actualizaciones y empiece a escribir un comentario.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquier atributo de la variable **Texto enriquecido** mientras escribe.
 
-   | **Atributo** | **Botón de barra de herramientas** | **Teclas de acceso directo de Mac** | **Teclas de acceso directo de PC** |
+   | **Atributo** | **Botón Barra de herramientas** | **Teclas de acceso directo de Mac** | **Teclas de acceso directo de Windows** |
    |---|---|---|---|
    | Negrita | ![mceclip10.png](assets/mceclip10.png) | función + b | Ctrl + B |
    | Cursiva | ![mceclip9.png](assets/mceclip9.png) | función + i | Ctrl + I |
    | Subrayado | ![mceclip8.png](assets/mceclip8.png) | Alt + u | Ctrl + U |
-   | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl + K |
+   | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : CTRL+K</br> <br><span class="preview">En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Metro+V</span></br> | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : Ctrl + K</br> <br><span class="preview">En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Ctrl + V</span></br> |
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | Ctrl + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | Ctrl + Mayús + 7 | Ctrl + Mayús + 7 |
    | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | Ctrl + Mayús + 9 | Ctrl + Mayús + 9 |
 
    Para detener el formato de texto, anule la selección del atributo en la **Texto enriquecido** barra de herramientas.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
