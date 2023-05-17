@@ -5,9 +5,9 @@ title: "Nueva actividad de versión beta de la experiencia de comentarios"
 description: Revise la actividad de lanzamiento semanal para la nueva experiencia Beta de comentarios de Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '552'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ Las siguientes secciones enumeran las funciones que se han agregado después de 
 
 ## Semana del 15 de mayo de 2023
 
-### Experiencia mejorada al añadir hipervínculos a comentarios (título)
+### Experiencia mejorada al añadir hipervínculos a comentarios
 
 Ahora puede agregar hipervínculos a comentarios mediante las siguientes teclas de método abreviado:
 
