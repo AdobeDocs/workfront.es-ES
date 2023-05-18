@@ -6,9 +6,9 @@ description: Puede añadir una actualización en un objeto de Adobe Workfront (p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Puede mejorar las actualizaciones mediante el uso de texto enriquecido o agregá
    | Negrita | ![mceclip10.png](assets/mceclip10.png) | función + b | Ctrl + B |
    | Cursiva | ![mceclip9.png](assets/mceclip9.png) | función + i | Ctrl + I |
    | Subrayado | ![mceclip8.png](assets/mceclip8.png) | Alt + u | Ctrl + U |
-   | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : CTRL+K</br> <br><span class="preview">En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Metro+V</span></br> | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : Ctrl + K</br> <br><span class="preview">En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Ctrl + V</span></br> |
+   | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : CTRL+K</br> <br>En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Metro+V</br> | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos : Ctrl + K</br> <br>En la experiencia de comentarios beta, para pegar un vínculo sobre el texto seleccionado: Ctrl + V</br> |
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | Ctrl + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | Ctrl + Mayús + 7 | Ctrl + Mayús + 7 |
    | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | Ctrl + Mayús + 9 | Ctrl + Mayús + 9 |

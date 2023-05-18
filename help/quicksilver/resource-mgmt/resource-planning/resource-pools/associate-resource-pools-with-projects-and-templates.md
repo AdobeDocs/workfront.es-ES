@@ -6,7 +6,7 @@ description: Los grupos de recursos son colecciones de usuarios que ayudan a adm
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Para asociar grupos de recursos con varios proyectos en masa:
    >
    >* Cuando edita plantillas de forma masiva, solo aparecen en este campo los grupos de recursos comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen grupos de recursos compartidos, este campo está vacío. Los grupos de recursos que especifique aquí sobrescriben los grupos de recursos individuales de los proyectos o plantillas.
    >
-   >* Cuando edita proyectos de forma masiva, aparece un indicador &quot;Valores múltiples&quot; si los proyectos seleccionados tienen grupos de recursos diferentes. Si agrega grupos de recursos de forma masiva para proyectos, todos los grupos se agregan al proyecto seleccionado, sobrescribiendo los grupos de recursos originales.</span>
+   >* Cuando edita proyectos de forma masiva, aparece un indicador &quot;Valores múltiples&quot; si los proyectos seleccionados tienen grupos de recursos diferentes. Si agrega grupos de recursos de forma masiva para proyectos, todos los grupos se agregan al proyecto seleccionado, sobrescribiendo los grupos de recursos originales.
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Haga clic en **Guardar cambios**.\
    Cuando los grupos de recursos están asociados a sus proyectos o plantillas, puede presupuestar las asignaciones de usuario para sus proyectos dentro del Planificador de recursos.\

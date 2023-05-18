@@ -6,16 +6,16 @@ description: Puede editar un proyecto en Adobe Workfront tantas veces como sea n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7310'
+ht-degree: 2%
 
 ---
 
 # Editar proyectos
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Está disponible para todos los clientes del entorno de vista previa y para un grupo selecto de clientes del entorno de producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ De forma predeterminada, los campos siguientes se incluyen en el encabezado del 
 * Estado
 * Tome decisiones de aprobación si está configurado como aprobador en un proceso de aprobación actual
 
-<div class="preview">
-
 ## Editar proyectos de forma masiva
 
 Puede editar proyectos de forma masiva y actualizar la información de todos los proyectos seleccionados al mismo tiempo.
@@ -795,7 +793,6 @@ Para obtener más información sobre la edición del área de acceso, consulte l
 1. (Opcional) Haga clic en **Cancelar** en la parte inferior del **Editar proyectos** para eliminar todos los cambios realizados en todos los proyectos.
 1. Haga clic en **Guardar**.
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
