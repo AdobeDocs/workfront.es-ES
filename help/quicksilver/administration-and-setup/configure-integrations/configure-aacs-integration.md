@@ -5,14 +5,16 @@ title: Integraciones de Adobe Experience Manager Assets
 description: Puede conectar su trabajo con las siguientes integraciones de Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de espacio aislado de vista previa.</span>
 
 Puede conectar su trabajo con su contenido en [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ Un [!DNL Experience Manager] campos asignados a [!DNL Workfront] los campos port
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## Configuración de flujos de trabajo (opcional)
 
 Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Como administrador de Workfront, puede configurar los flujos de trabajo en Workfront y, a continuación, asignarlos a las plantillas de proyecto. Cuando se crea un proyecto con una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
@@ -237,6 +241,8 @@ Los valores de flujo de trabajo predeterminados que se establecen en la integrac
    ![Navegación de carpetas vinculadas](assets/select-folder-aem-integration.png)
 1. Active la variable **Anexar Portfolio y nombres de programa** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
 1. Haga clic en **Guardar** o pase al [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) en este artículo.
+
+</div>
 
 <!--Courtney end here-->
 
