@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,14 @@ Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas pa
 
 Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Versiones recientes
+## Versiones de fusión en 2023
 
 ### Mayo de 2023
 
+* [Actividad de la versión de Workfront Fusion: Semana del 15 de mayo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 1 de mayo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
-### 2023 de abril
+### Abril de 2023
 
 * [Actividad de la versión de Workfront Fusion: Semana del 17 de abril de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
@@ -35,6 +36,10 @@ Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Work
 
 * [Actividad de la versión de Workfront Fusion: Semana del 20 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 6 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## Versiones de fusión en 2022
+
++++**Haga clic para abrir**
 
 ### Diciembre de 2022
 
@@ -72,7 +77,7 @@ Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Work
 * [Actividad de la versión de Workfront Fusion: Semana del 9 de mayo de 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
 
 
-### 2022 de abril
+### Abril de 2022
 
 * [Actividad de la versión de Workfront Fusion: Semana del 25 de abril de 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 18 de abril de 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
@@ -91,6 +96,8 @@ Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Work
 ### Enero de 2022
 
 * [Actividad de la versión de Workfront Fusion: Semana del 3 de enero de 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## Versiones de fusión en 2021
 
@@ -132,7 +139,7 @@ Para obtener información sobre el uso de Workfront Fusion, consulte [Adobe Work
 * [Actividad de la versión de Workfront Fusion: Semana del 10 de mayo de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 3 de mayo de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
-### 2021 de abril
+### Abril de 2021
 
 * [Actividad de la versión de Workfront Fusion: Semana del 26 de abril de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 19 de abril de 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
