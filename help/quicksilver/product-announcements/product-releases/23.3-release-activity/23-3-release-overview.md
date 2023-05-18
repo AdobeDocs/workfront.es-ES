@@ -4,9 +4,9 @@ description: Información general sobre la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Control de nivel de grupo disponible para el horario y la preferencia por hora de parte de horas "Donde los usuarios pueden registrar la hora"</a> <span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Control de nivel de grupo disponible para el horario y la preferencia por hora de parte de horas "Donde los usuarios pueden registrar la hora"</a></p>
                         <p>El administrador del sistema ahora puede bloquear y desbloquear el parte de horas y la preferencia de hora "Donde los usuarios pueden registrar la hora". Cuando esta preferencia está desbloqueada, los administradores del grupo pueden configurar los ajustes "Dónde los usuarios pueden registrar la hora" por separado para cada grupo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponibles en las columnas de admisión a bordo</a><span style="color: #ff0000;"> Novedades de Vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponibles en las columnas de admisión a bordo</a></p>
                         <p>Se han agregado filtros simplificados a la configuración de la columna de admisión para permitirle definir la columna de admisión más rápidamente. Los filtros disponibles son proyectos y asignaciones de Workfront por equipo o usuario. Si lo prefiere, puede cambiar a los filtros avanzados.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Asignación de valores de campo de Workfront a etiquetas en Experience Manager Assets</a><span style="color: #ff0000;"> Novedades en Producción!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Crear automáticamente carpetas vinculadas a Adobe Experience Manager Assets al crear un proyecto</a><span style="color: #ff0000;"> Novedades en Producción!</span></p>
+                        <p>Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Adobe Experience Manager Assets. Cuando la integración se agrega a una plantilla de proyecto, cualquier proyecto creado a partir de la plantilla creará automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada. </p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 11 de mayo de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: 18 de mayo de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Asignación de valores de campo de Workfront a etiquetas en Experience Manager Assets</a></p>
                         <p>Ahora puede clasificar y buscar recursos rápidamente en función de los datos de Workfront. Puede asignar estos datos como parte de la configuración de metadatos en la integración de Workfront para Experience Manager Assets .</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Asignación de campos de Workfront a campos de metadatos de Experience Manager Assets personalizados</a><span style="color: #ff0000;"> Novedades en Producción!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Asignación de campos de Workfront a campos de metadatos de Experience Manager Assets personalizados</a></p>
                         <p>Con la integración nativa, ahora puede asignar campos nativos e integrados de Workfront a campos de esquema de metadatos personalizados en Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
