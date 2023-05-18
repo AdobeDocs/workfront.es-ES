@@ -5,9 +5,9 @@ title: Integraciones de Adobe Experience Manager Assets
 description: Puede conectar su trabajo con las siguientes integraciones de Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ Un [!DNL Experience Manager] campos asignados a [!DNL Workfront] los campos port
 >Los usuarios deben tener acceso de escritura en [!DNL Experience Manager] para los recursos que residen en el objeto para que los metadatos se sincronicen cuando se actualicen.
 
 1. Active la variable **[!UICONTROL Metadatos del objeto de sincronización]** campo .
-1. Haga clic en Guardar o continúe con el [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) en este artículo.
+1. Haga clic en **Guardar** o pase al [Configuración de flujos de trabajo (opcional)](#set-up-workflows-optional) en este artículo.
+
+<!--Courtney start here-->
+
+## Configuración de flujos de trabajo (opcional)
+
+Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Como administrador de Workfront, puede configurar los flujos de trabajo en Workfront y, a continuación, asignarlos a las plantillas de proyecto. Cuando se crea un proyecto con una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
+
+Los valores de flujo de trabajo predeterminados que se establecen en la integración se pueden sobrescribir en los niveles Plantilla de proyecto y Proyecto .
+
+### Configuración de un flujo de trabajo para la creación de carpetas vinculadas de Adobe Experience Manager
+
+1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
+1. Elija una ruta de carpeta para indicar dónde desea asociar todas las carpetas vinculadas con esta integración.
+   ![Navegación de carpetas vinculadas](assets/select-folder-aem-integration.png)
+1. Active la variable **Anexar Portfolio y nombres de programa** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
+1. Haga clic en **Guardar** o pase al [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) en este artículo.
+
+<!--Courtney end here-->
 
 ## Configuración de carpetas vinculadas (opcional)
 
