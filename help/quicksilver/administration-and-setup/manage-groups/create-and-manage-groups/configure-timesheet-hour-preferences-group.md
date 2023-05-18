@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 6%
@@ -18,12 +18,10 @@ ht-degree: 6%
 
 # Configuración de las preferencias de horas y horas de un grupo
 
-{{highlighted-preview}}
-
 Un administrador de Adobe Workfront puede desbloquear las siguientes secciones de las preferencias de horario y horario a nivel del sistema para que los administradores de grupo puedan configurarlas de forma independiente para sus propios grupos:
 
 * Preferencias generales
-* <span class="preview">Dónde pueden registrar el tiempo los usuarios</span>
+* Dónde pueden registrar el tiempo los usuarios
 * Rellenar partes de horas previamente
 
 Si hay algún grupo por encima del grupo que administra, sus administradores también pueden hacerlo por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
@@ -136,23 +134,23 @@ Tenga en cuenta la siguiente información sobre la configuración de un parte de
     </tbody> 
    </table>
 
-1. <span class="preview">En el **Dónde los usuarios pueden registrar la hora** , configure cualquiera de las siguientes opciones:</span>
+1. En el **Dónde los usuarios pueden registrar la hora** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar tiempo directamente en los proyectos</span></td> 
-      <td><span class="preview">Permite a los usuarios iniciar sesión en el proyecto (tanto en la ficha Actualizaciones como en el parte de horas). Si desea restringir el tiempo de grabación de los usuarios en el nivel de proyecto, deje esta opción sin marcar.</span></td>
+      <td role="rowheader">Registrar tiempo directamente en los proyectos</td> 
+      <td>Permite a los usuarios iniciar sesión en el proyecto (tanto en la ficha Actualizaciones como en el parte de horas). Si desea restringir el tiempo de grabación de los usuarios en el nivel de proyecto, deje esta opción sin marcar.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar tiempo en proyectos completos</span></td>
-      <td><span class="preview">Permite a los usuarios registrar la hora en un proyecto que se haya marcado como completado. Si esta opción está desactivada, los usuarios no pueden registrar la hora del trabajo que han completado en los proyectos en el estado Completar .</span></td>
+      <td role="rowheader">Registrar tiempo en proyectos completos</td>
+      <td>Permite a los usuarios registrar la hora en un proyecto que se haya marcado como completado. Si esta opción está desactivada, los usuarios no pueden registrar la hora del trabajo que han completado en los proyectos en el estado Completar .</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar tiempo en proyectos inactivos</span></td> 
-      <td><span class="preview">Cuando esta opción está habilitada, los usuarios pueden iniciar sesión durante horas en los proyectos con estado de Muerta.</span></td>
+      <td role="rowheader">Registrar tiempo en proyectos inactivos</td> 
+      <td>Cuando esta opción está habilitada, los usuarios pueden iniciar sesión durante horas en los proyectos con estado de Muerta.</td>
      </tr>
     </tbody>
    </table>
