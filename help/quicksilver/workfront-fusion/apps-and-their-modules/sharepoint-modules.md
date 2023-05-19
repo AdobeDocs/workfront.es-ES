@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ Este módulo de acción copia un elemento existente en una lista de SharePoint.
    <td> <p>Seleccione cómo desea identificar el sitio y la lista que contienen el elemento que desea copiar.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL ID del elemento]</strong> en los campos que aparecen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Seleccionar de la lista que sigue]</strong> </p> <p>En el campo Copiar tipo de elemento , seleccione si va a mover un campo o una carpeta.  Seleccione el sitio que contiene el elemento que desea copiar, luego seleccione la lista y luego seleccione el elemento. </p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccionar de la lista que sigue]</strong> </p> <p>En el campo Tipo de elemento , seleccione si va a mover un campo o una carpeta.  Seleccione el sitio que contiene el elemento que desea copiar, luego seleccione la lista y luego seleccione el elemento. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destino]</td> 
-   <td>  </td> 
+   <td> Introduzca o asigne el ID de la carpeta en la que desea copiar el elemento. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nuevo nombre]</td> 
@@ -367,12 +367,12 @@ Este módulo de acción copia un elemento existente en una lista de SharePoint.
    <td> <p>Seleccione cómo desea identificar el sitio y la lista que contienen el elemento que desea mover.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL List ID]</strong>y <strong>[!UICONTROL ID del elemento]</strong> en los campos que aparecen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Seleccionar de la lista que sigue]</strong> </p> <p>En el campo Copiar tipo de elemento , seleccione si va a mover un campo o una carpeta. Seleccione el sitio que contiene el elemento que desea copiar, luego seleccione la lista y luego seleccione el elemento. </p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccionar de la lista que sigue]</strong> </p> <p>En el campo Tipo de elemento , seleccione si va a mover un campo o una carpeta. Seleccione el sitio que contiene el elemento que desea copiar, luego seleccione la lista y luego seleccione el elemento. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destino]</td> 
-   <td>  </td> 
+   <td> Introduzca o asigne el ID de la carpeta a la que desea mover el elemento. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nuevo nombre]</td> 
@@ -643,6 +643,33 @@ Este módulo de acción busca sitios según el parámetro que especifique.
 </table>
 
 ### Otro
+
+#### Obtener cambios
+
+Este módulo recupera las adiciones, actualizaciones y eliminaciones realizadas en la carpeta SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL SharePoint] cuenta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Introducir ID de sitio, unidad y carpeta]</td> 
+   <td> <p>Seleccione cómo desea identificar el sitio y la lista que contienen el elemento que desea actualizar.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Entrar manualmente]</strong> </p> <p>Introduzca o asigne la variable <strong>[!UICONTROL ID del sitio]</strong>, <strong>[!UICONTROL ID de unidad]</strong>y <strong>[!UICONTROL Folder ID]</strong> en los campos que aparecen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleccionar de la lista]</strong> </p> <p>Seleccione el sitio que contiene el elemento que desea actualizar, luego seleccione la unidad y luego seleccione la carpeta. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> El token identifica desde qué punto el módulo debe comenzar a recuperar los cambios.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Realizar una llamada de API]
 
