@@ -6,15 +6,15 @@ title: Temas generales de API
 description: Temas generales de API
 author: Becky
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 3%
+source-wordcount: '49'
+ht-degree: 4%
 
 ---
 
 
-# API General
+# General de API
 
 Esta sección contiene los siguientes artículos:
 
@@ -22,10 +22,9 @@ Esta sección contiene los siguientes artículos:
 * [Explorador de API](../../wf-api/general/api-explorer.md)
 * [Uso del Explorador de API](../../wf-api/general/using-api-explorer.md)
 * [Campos de texto enriquecido en la API de Adobe Workfront](../../wf-api/general/rich-text-field-api.md)
-* [Foro de desarrolladores de API de Adobe Workfront](../../wf-api/general/api-developer-forum.md)
-* [Ejemplos de secuencias de comandos de API](../../wf-api/general/api-example-scripts.md)
-* [Uso de la API para sincronizar datos para programas y servicios](../../wf-api/general/api-sync-data.md)
-* [Desactivar un usuario a través de la API](../../wf-api/general/deactivate-user-api.md)
+* [Scripts de ejemplo de API](../../wf-api/general/api-example-scripts.md)
+* [Uso de la API para sincronizar datos de programas y servicios](../../wf-api/general/api-sync-data.md)
+* [Desactivar un usuario mediante la API](../../wf-api/general/deactivate-user-api.md)
 <!--
 * [Projects API](../../wf-api/general/projects-api.md)
 -->
