@@ -1,32 +1,32 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: vista,grupo,evento,notificaciones,configurar,habilitar,desactivar
+keywords: ver, grupo, evento, notificaciones, configurar, habilitar, deshabilitar
 navigation-topic: create-and-manage-groups
-title: Ver y configurar notificaciones de eventos para un grupo
-description: Como administrador de grupos, puede ver las notificaciones de eventos activadas para un grupo que administra. Además, si un administrador de Adobe Workfront desbloquea una notificación de evento, puede configurarla para un grupo de nivel superior que administra. La configuración de una notificación de evento consiste en activarla o desactivarla.
-author: Caroline
+title: Visualización y configuración de notificaciones de eventos para un grupo
+description: Como administrador de grupo, puede ver las notificaciones de eventos activadas para un grupo que administra. Además, si un administrador de Adobe Workfront desbloquea una notificación de eventos, puede configurarla para un grupo de nivel superior que administre. La configuración de una notificación de eventos consiste en activarla o desactivarla.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 306d6493ff0413d5814f4aed8ab44fb897f3568d
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# Ver y configurar notificaciones de eventos para un grupo
+# Visualización y configuración de notificaciones de eventos para un grupo
 
-Como administrador de grupos, puede ver las notificaciones de eventos activadas para un grupo que administra.
+Como administrador de grupo, puede ver las notificaciones de eventos activadas para un grupo que administra.
 
-Además, si un administrador de Adobe Workfront desbloquea una notificación de evento, puede configurarla para un grupo de nivel superior que administra. La configuración de una notificación de evento consiste en activarla o desactivarla.
+Además, si un administrador de Adobe Workfront desbloquea una notificación de eventos, puede configurarla para un grupo de nivel superior que administre. La configuración de una notificación de eventos consiste en activarla o desactivarla.
 
-Un administrador de Workfront también puede hacerlo para cualquier grupo.
+Un administrador de Workfront también puede hacer esto para cualquier grupo.
 
-La configuración de una notificación de evento para un grupo afecta a los usuarios para los que dicho grupo, o uno de sus subgrupos, sea su grupo de inicio. En sus perfiles de usuario, estos usuarios ven las notificaciones de eventos activadas para su grupo principal en lugar de las notificaciones de eventos activadas en todo el sistema.
+La configuración de una notificación de eventos para un grupo afecta a los usuarios para los que ese grupo, o uno de sus subgrupos, es su grupo de inicio. En sus perfiles de usuario, estos usuarios ven las notificaciones de eventos activadas para su grupo de inicio en lugar de las notificaciones de eventos activadas en todo el sistema.
 
-Para obtener información sobre cómo un administrador de Workfront desbloquea una notificación de evento, consulte [Desbloquear o bloquear la configuración de las notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Para obtener información sobre cómo un administrador de Workfront desbloquea una notificación de eventos, consulte [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 Para obtener información sobre la configuración de notificación predeterminada para un evento, consulte [Notificaciones de eventos disponibles en Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -39,39 +39,39 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan de Workfront</a>*</td> 
-   <td> <p>Pro o superior</p> </td> 
+   <td role="rowheader">plan Workfront*</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Licencia de Adobe Workfront</a>*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o administrador de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
+&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
-## Ver y configurar las notificaciones de eventos de un grupo
+## Visualización y configuración de las notificaciones de eventos de un grupo
 
-1. (Condicional y opcional) Si es administrador de Workfront y ya está en la página Notificaciones de correo electrónico (Configuración > Correo electrónico > Notificaciones), puede hacer lo siguiente y luego pasar al paso 6: Eliminar **Notificaciones de eventos del sistema** en el cuadro situado encima de la lista, empiece a escribir el nombre del grupo en el cuadro y, a continuación, haga clic en él cuando aparezca.
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. (Condicional y opcional) Si es administrador de Workfront y ya se encuentra en la página Notificaciones por correo electrónico (Configuración > Correo electrónico > Notificaciones), puede hacer lo siguiente y pasar al paso 6: Eliminar **Notificaciones de eventos del sistema** en el cuadro situado encima de la lista, empiece a escribir el nombre del grupo en el cuadro y, a continuación, haga clic en él cuando aparezca.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo de nivel superior.
-1. En el menú de la izquierda, haga clic en **Notificaciones de eventos**.
+1. En el menú izquierdo, haga clic en **Notificaciones de eventos**.
 
-   En la lista que se muestra, la variable **Activo** a la izquierda muestra qué notificaciones están activas (azul) e inactivas (gris) para el grupo.
+   En la lista que se muestra, la variable **Activo** La columna de la izquierda muestra qué notificaciones están activas (azul) e inactivas (gris) para el grupo.
 
-1. Para activar o desactivar una notificación de evento desbloqueado: Haga clic en el botón de la sección <strong>Activo</strong> columna para activar <img src="assets/email-notification-enabled-unlocked.png"> o desactivar <img src="assets/email-notification-disabled-unlocked.png"> es así.
+1. Para activar o desactivar una notificación de evento desbloqueado: haga clic en el botón del <strong>Activo</strong> columna para activar <img src="assets/email-notification-enabled-unlocked.png"> o desactivar <img src="assets/email-notification-disabled-unlocked.png"> it.
 
    >[!INFO]
    >
-   >**Ejemplo:** Puede configurar las dos principales notificaciones de evento de grupo de marketing que se muestran a continuación y que se han desbloqueado para grupos.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Si aparece un botón en la sección <strong>Activo</strong> la columna es gris y está atenuada <img src="assets/email-notification-disabled-locked.png">, la notificación de evento está desactivada para todos los usuarios y los administradores de grupo no pueden activarla o editar su línea de asunto del correo electrónico
-   >* Si aparece un botón en la sección <strong>Activo</strong> la columna es gris y no está atenuada <img src="assets/email-notification-disabled-unlocked.png">, la notificación del evento es <strong>desactivado para todos los usuarios y</strong> los administradores del grupo pueden activarlo para sus grupos.
-   >* Si aparece un botón en la sección <strong>Activo</strong> la columna es azul y atenuada <img src="assets/email-notification-enabled-locked.png">, la notificación de evento se activa para todos los usuarios y los administradores de grupos no pueden desactivarla ni editar la línea de asunto de su correo electrónico para sus grupos.
-   >* Si aparece un botón en la sección <strong>Activo</strong> la columna es azul y no atenuada <img src="assets/email-notification-enabled-unlocked.png">, la notificación del evento es <strong>activada para todos los usuarios y</strong> los administradores del grupo pueden desactivarlo para sus grupos.
+   >**Ejemplo:** Puede configurar las dos notificaciones de eventos de grupos de marketing principales que se muestran a continuación y que se han desbloqueado para grupos.</p> <p> <img src="assets/configure-group-event-notifications.png">
+   >* Si aparece un botón en <strong>Activo</strong> columna gris y atenuada <img src="assets/email-notification-disabled-locked.png">, la notificación de eventos se desactiva para todos los usuarios y los administradores de grupos no pueden activarla ni editar la línea de asunto de su correo electrónico
+   >* Si aparece un botón en <strong>Activo</strong> la columna es gris y no está atenuada <img src="assets/email-notification-disabled-unlocked.png">, la notificación de eventos es <strong>desactivado para todos los usuarios y</strong> los administradores de grupos pueden activarlo para sus grupos.
+   >* Si aparece un botón en <strong>Activo</strong> la columna está en azul y atenuada <img src="assets/email-notification-enabled-locked.png">Además, la notificación de eventos se activa para todos los usuarios y los administradores de grupos no pueden desactivarla ni editar la línea de asunto de correo electrónico para sus grupos.
+   >* Si aparece un botón en <strong>Activo</strong> la columna es azul y no está atenuada <img src="assets/email-notification-enabled-unlocked.png">, la notificación de eventos es <strong>activado para todos los usuarios y</strong> los administradores de grupos pueden desactivarlo para sus grupos.
 
 
 <!--
