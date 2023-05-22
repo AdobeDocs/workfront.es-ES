@@ -3,34 +3,34 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Actividad de la versión de Workfront Fusion: Semana del 17 de agosto de 2020'
-description: En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 17 de agosto de 2020.
+title: "Actividad de la versión de Workfront Fusion: Semana del 17 de agosto de 2020"
+description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 17 de agosto de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: d3fc3169-b23e-49ea-aafd-136761278ef6
 hidefromtoc: true
-source-git-commit: ''
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
 
 ---
 
-# Actividad de la versión de Workfront Fusion: semana del 17 de agosto de 2020
+# Actividad de la versión de Workfront Fusion: Semana del 17 de agosto de 2020
 
-En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 17 de agosto de 2020.
+Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 17 de agosto de 2020.
 
-Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
-## Los módulos y conectores de SharePoint ya están disponibles
+## Ya están disponibles el conector y los módulos de SharePoint
 
-Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de SharePoint. Con los módulos de SharePoint, puede realizar acciones en su cuenta de SharePoint como crear elementos, leer documentos o descargar archivos.
+Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de SharePoint. Con los módulos de SharePoint, puede realizar acciones en su cuenta de SharePoint, como crear elementos, leer documentos o descargar archivos.
 
-Para obtener información sobre los módulos de SharePoint disponibles, consulte [Módulos de SharePoint](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
+Para obtener información sobre los módulos SharePoint disponibles, consulte [Módulos de SharePoint](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
 
-**Versión de vista previa**
+**Previsualizar versión**
 
 * N/D
 
