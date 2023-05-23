@@ -2,26 +2,26 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Agrupación: proyectos por fecha de entrada'''
-description: En esta agrupación de proyecto personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
+title: "Agrupación: proyectos por fecha de entrada"
+description: En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Agrupación: proyectos por fecha de entrada
 
-En esta agrupación de proyecto personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
+En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
 
-Cada grupo muestra proyectos con una fecha de entrada dentro de:
+Cada agrupación muestra los proyectos con una fecha de entrada en:
 
 * Los últimos 30 días
-* de 30 a 60 días
+* 30 a 60 días
 * 60 días o más
 
 ## Requisitos de acceso
@@ -33,38 +33,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Solicitud para modificar una agrupación </p>
+   <p>Plan para modificar un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una agrupación</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Agrupar proyectos por fecha de entrada
 
 Para aplicar esta agrupación:
 
 1. Vaya a un informe de proyecto existente o cree un nuevo informe de proyecto.\
-   Para obtener más información sobre la creación de informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información sobre cómo crear un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. En el **Agrupación** , haga clic en **Agregar agrupación**.
+1. Desde el **Agrupación** pestaña, haga clic en **Agregar agrupación**.
 
-1. Haga clic en **Cambiar al modo de texto**.
-1. Elimine el texto de la sección **Agrupar su informe** .
-1. Reemplace el texto por el siguiente código:
+1. Clic **Cambiar a modo de texto**.
+1. Elimine el texto de la **Agrupar el informe** área.
+1. Reemplace el texto con el siguiente código:
 
    ```
    group.0.linkedname=direct<br>
@@ -86,4 +89,4 @@ Para aplicar esta agrupación:
    textmode=true
    ```
 
-1. Haga clic en **Guardar + Cerrar**.
+1. Clic **Guardar + Cerrar**.

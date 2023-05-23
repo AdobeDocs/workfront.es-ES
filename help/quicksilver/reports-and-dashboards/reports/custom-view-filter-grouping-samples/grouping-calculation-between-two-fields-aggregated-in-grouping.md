@@ -8,9 +8,9 @@ description: Puede utilizar el modo de texto en una columna para mostrar un cál
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Solicitud para modificar una agrupación </p>
+   <p>Plan para modificar un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una agrupación</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 

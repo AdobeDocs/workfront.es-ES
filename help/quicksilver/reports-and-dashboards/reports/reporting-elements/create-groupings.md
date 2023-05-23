@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Crear agrupaciones en Adobe Workfront
-description: Puede crear una agrupación personalizada desde cero o personalizar una existente.
+title: Creación de agrupaciones en Adobe Workfront
+description: Puede crear una agrupación personalizada desde cero o personalizar una agrupación existente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Crear agrupaciones en Adobe Workfront
+# Creación de agrupaciones en Adobe Workfront
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
 -->
 
-Los resultados de un informe o una lista se pueden organizar con una agrupación. Los grupos categorizan la información en función de una información en particular.
+Los resultados de un informe o una lista se pueden organizar con una agrupación. Las agrupaciones clasifican la información en función de un fragmento de información concreto.
 
-Puede crear una agrupación personalizada desde cero o personalizar una existente. Siga los pasos a continuación para crear una agrupación desde cero.
+Puede crear una agrupación personalizada desde cero o personalizar una agrupación existente. Siga los pasos a continuación para crear una agrupación desde cero.
 
 ## Requisitos de acceso
 
@@ -32,42 +32,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Solicitud o superior </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y grupos</p> <p>Editar acceso a informes, tableros y calendarios para crear una agrupación en un informe</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Edite el acceso a Informes, Paneles y Calendarios para crear una agrupación en un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en un informe para editar una agrupación en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para editar una agrupación en un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Crear una agrupación
+## Creación de una agrupación
 
 1. Vaya al informe o a la lista donde desee crear la agrupación personalizada.
-1. Haga clic en el **Agrupación** icono .
+1. Haga clic en **Agrupación** icono .
 
-   ![Seleccionar nuevo grupo](assets/newgrouping-nwe-standard-350x304.png)
+   ![Seleccionar nueva agrupación](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Haga clic en **Nuevo grupo**.
+1. Clic **Nueva agrupación**.
 Generador de interfaces para crear los lanzamientos de agrupación.
 
-1. En el **Vista previa de grupo** , haga clic en **Agregar agrupación** para definir cómo desea que se organice la información del informe. A continuación se muestra una vista previa del aspecto que tiene la agrupación en el informe.
+1. En el **Previsualización de agrupación** , haga clic en **Agregar agrupación** para definir cómo desea que se organice la información en el informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
 
-1. Empiece escribiendo el nombre del campo que representa la forma en que desea organizar la información en el informe y haga clic en él cuando aparezca en la lista desplegable.
-1. (Opcional y condicional) Al crear una agrupación en una lista actualizada, seleccione **Contraer esta agrupación de forma predeterminada** si desea que los resultados de la agrupación se muestren contraídos en lugar de expandidos. Esta configuración está desactivada de forma predeterminada y los resultados de la agrupación siempre se muestran en la lista ampliada.
+1. Comience a escribir el nombre del campo que representa la forma en que desea organizar la información en el informe y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
+1. (Opcional y condicional) Al crear una agrupación en una lista actualizada, seleccione **Contraer esta agrupación de forma predeterminada** si desea que los resultados de la agrupación se muestren contraídos en lugar de expandidos. Esta configuración está deshabilitada de forma predeterminada y los resultados de la agrupación siempre se muestran en la lista expandida.
 
-   Para obtener información sobre listas actualizadas y heredadas, consulte la sección [La diferencia entre las listas actualizadas y las listas heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Para obtener información sobre listas actualizadas y heredadas, consulte la sección [La diferencia entre las listas actualizadas y las heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -75,20 +75,20 @@ Generador de interfaces para crear los lanzamientos de agrupación.
 
    >[!TIP]
    >
-   >* Cuando ajusta las agrupaciones manualmente al ver una lista, Workfront recuerda su preferencia manual hasta que cierre la sesión. Cuando vuelve a iniciar sesión, la lista se muestra según esta configuración.
+   >* Cuando ajusta manualmente las agrupaciones al ver una lista, Workfront recuerda su preferencia manual hasta que cierre la sesión. Cuando vuelva a iniciar sesión, la lista se mostrará según esta configuración.
    >* Los resultados de una agrupación siempre se muestran expandidos después de acceder a ellos desde un elemento de gráfico o en una lista heredada. En estos casos, se ignora esta configuración.
 
 
 1. Repita los pasos 4, 5 y 6 para definir agrupaciones adicionales.\
-   Puede definir hasta tres agrupaciones para organizar la información. Puede organizar aún más la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   Puede definir hasta tres agrupaciones para organizar la información. Puede organizar aún más la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Haga clic en **Guardar agrupación**.
+1. Clic **Guardar agrupación**.
 
 ## Información adicional
 
 Consulte también:
 
-* [Información general sobre las agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [Elementos de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Editar agrupaciones existentes](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 

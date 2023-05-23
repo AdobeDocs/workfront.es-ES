@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Agrupación: Patrocinador del proyecto durante horas'
-description: Esta agrupación de horas organiza las horas por el patrocinador del proyecto donde se registran las horas. La interfaz estándar del creador de informes para agrupaciones de horas no proporciona una asignación al campo Patrocinador del proyecto . Debe utilizar la interfaz de modo de texto para acceder a este campo.
+title: "Agrupación: patrocinador del proyecto para horas"
+description: Este grupo de horas organiza las horas por el patrocinador del proyecto en el que se registran. La interfaz estándar del Report Builder para las agrupaciones de horas no proporciona una asignación al campo Patrocinador de proyecto. Debe utilizar la interfaz del modo Texto para acceder a este campo.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Agrupación: Patrocinador del proyecto durante horas
+# Agrupación: patrocinador del proyecto por horas
 
-Esta agrupación de horas organiza las horas por el patrocinador del proyecto donde se registran las horas. La interfaz estándar del creador de informes para agrupaciones de horas no proporciona una asignación al campo Patrocinador del proyecto . Debe utilizar la interfaz de modo de texto para acceder a este campo.
+Este grupo de horas organiza las horas por el patrocinador del proyecto en el que se registran. La interfaz estándar del Report Builder para las agrupaciones de horas no proporciona una asignación al campo Patrocinador de proyecto. Debe utilizar la interfaz del modo Texto para acceder a este campo.
 
-![hour_report_agrupado_por_patrocinador.png](assets/hour-report-grouped-by-sponsor-350x39.png)
+![hour_report_agrupados_por_patrocinador.png](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## Requisitos de acceso
 
@@ -29,38 +29,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Solicitud para modificar una agrupación </p>
+   <p>Plan para modificar un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una agrupación</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Agrupar por el patrocinador del proyecto durante horas
+## Agrupar por patrocinador del proyecto durante horas
 
 Para aplicar esta agrupación:
 
 1. Ir a una lista de horas.
-1. En el **Agrupación** menú desplegable, seleccione **Nuevo grupo**.
+1. Desde el **Agrupación** menú desplegable, seleccione **Nueva agrupación**.
 
-1. Haga clic en **Cambiar al modo de texto**.
-1. Elimine el texto de la sección **Agrupar su informe** .
+1. Clic **Cambiar a modo de texto**.
+1. Elimine el texto de la **Agrupar el informe** área.
 
-1. Reemplace el texto por el siguiente código:
+1. Reemplace el texto con el siguiente código:
 
    <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=HTML<br>textmode=true<br></pre>
 
-1. Haga clic en **Guardar agrupación**.
+1. Clic **Guardar agrupación**.

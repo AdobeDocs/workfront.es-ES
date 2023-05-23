@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: tiempo de espera personal del usuario'
-description: 'Ver: tiempo de espera personal del usuario'
+title: "Ver: tiempo libre personal del usuario"
+description: "Ver: tiempo libre personal del usuario"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '284'
+ht-degree: 3%
 
 ---
 
-# Ver: tiempo personal del usuario desactivado
+# Ver: tiempo libre personal del usuario
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-Puede crear un informe de tiempo de espera para capturar la información sobre el tiempo de espera de los usuarios.
+Puede crear un informe de días libres para capturar la información de los días libres de los usuarios.
 
 ## Requisitos de acceso
 
@@ -31,54 +31,57 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Solicitud para modificar una vista </p>
+   <p>Plan para modificar un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Ver el tiempo de espera personal del usuario
+## Ver tiempo libre personal del usuario
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Informes > Nuevo informe**.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Informes > Nuevo informe**.
 
-1. En el menú desplegable, seleccione **Tiempo desactivado**.
-1. Haga clic en **Guardar + Cerrar**.
+1. En el menú desplegable, seleccione **Tiempo libre**.
+1. Clic **Guardar + Cerrar**.
 
    El informe muestra los siguientes campos en la vista de forma predeterminada:
 
-   | Usuario | Nombre del usuario que indicó el tiempo de espera en su perfil. |
+   | Usuario | El nombre del usuario que indicó el tiempo libre en su perfil. |
    |---|---|
-   | Fecha de inicio | La fecha de inicio del período de tiempo indicado por el usuario. |
-   | Fecha de finalización | Fecha final del período de tiempo que indicó el usuario. |
+   | Fecha de inicio | La fecha de inicio del período de tiempo libre indicado por el usuario. |
+   | Fecha de finalización | La fecha final del período de tiempo libre indicado por el usuario. |
 
    {style="table-layout:auto"}
 
-1. (Opcional) Termine de crear el informe editando cualquiera de las fichas siguientes:
+1. (Opcional) Termine de crear el informe editando cualquiera de las siguientes pestañas:
 
    * Columnas (vista)
    * Agrupaciones
    * Filtros
    * Gráfico
 
-   Para obtener información sobre la creación de informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >
-   >Se recomienda añadir una agrupación para el objeto Usuario, para facilitar la lectura del informe.
+   >Se recomienda agregar una agrupación para el objeto User con el fin de facilitar la lectura del informe.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>
