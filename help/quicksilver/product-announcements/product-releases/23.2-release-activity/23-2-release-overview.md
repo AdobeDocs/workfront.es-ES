@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -85,10 +85,11 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 9 de marzo de 2023<br /></p>
+                                <p>Versión de vista previa: 9 de marzo de 2023</p>
                             </li>
                             <li>
-                                 <p>Versión de producción: con la versión 23.2</p>
+                                 <p>Versión de producción: con la versión 23.2<br />
+                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se desactivó temporalmente en Previsualización y producción el 24 de mayo de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -479,7 +480,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Inicio de sesión biométrico y colecciones de tableros en la aplicación móvil</span></a>
-                        </span></a><p>El inicio de sesión biométrico es ahora una opción para iniciar sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán utilizar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, en una actualización posterior se incluirán varias mejoras en la experiencia general de inicio de sesión.</p>
+                        </span></a><p>El inicio de sesión biométrico es ahora una opción para iniciar sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán utilizar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, en una actualización posterior se incorporarán varias mejoras de aspecto y funcionamiento en la experiencia general de inicio de sesión.</p>
                         <p>Las colecciones de tableros ahora también son compatibles con la aplicación móvil, lo que permite a los usuarios móviles ver cualquier colección a la que tengan acceso en la versión de escritorio desde su lista de tableros móviles.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>

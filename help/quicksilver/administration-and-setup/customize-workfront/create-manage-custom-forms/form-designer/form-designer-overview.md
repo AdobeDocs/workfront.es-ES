@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---
 
 # Información general del diseñador de formularios
+
+>[!IMPORTANT]
+>
+>El diseñador de formularios se deshabilitó temporalmente el 24 de mayo de 2023. Puede utilizar el generador de formularios heredados para crear y editar sus formularios personalizados. Consulte [Crear o editar un formulario personalizado con el generador de formularios heredado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Puede utilizar el nuevo diseñador de formularios para diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 
