@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2749'
 ht-degree: 0%
 
 ---
@@ -656,7 +656,7 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la [Página Actualizaciones de versión de formación](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funcionalidad que se eliminará pronto de Workfront
 
