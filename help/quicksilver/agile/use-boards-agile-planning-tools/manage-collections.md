@@ -7,10 +7,10 @@ description: Un flujo de trabajo es un grupo configurable de tableros y tarjetas
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ Las personas y los equipos deben agregarse al flujo de trabajo como miembros par
 
    Este es el mismo proceso que agregar miembros a un tablero. Para obtener más información, consulte [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Añadir fuentes a un flujo de trabajo
+
+Una fuente determina de dónde provienen las tarjetas del flujo de trabajo.
+
+{{step1-to-boards}}
+
+1. Haga clic en [!UICONTROL **Fuentes**] icono ![Icono Fuentes](assets/sources-icon.png) para definir un origen para importar tarjetas en el flujo de trabajo. En este momento, la única fuente disponible es [!DNL Adobe Workfront].
+1. Agregue filtros para importar tareas y problemas de Workfront como tarjetas.
+
+   Añadir filtros para fuentes de flujo de trabajo es lo mismo que añadir filtros avanzados para una columna de entrada en un panel básico o en un panel Kanban. Para obtener más información, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Configuración de un flujo de trabajo
 
 {{step1-to-boards}}
 
 1. En el tablero, haga clic en [!UICONTROL **Ver flujo de trabajo**] para abrir un flujo de trabajo.
 1. Clic [!UICONTROL **Configurar**] para abrir [!UICONTROL Configurar flujo de trabajo] panel.
-1. (Opcional) Escriba una descripción del flujo de trabajo. Esta descripción se muestra en el panel.
-1. (Opcional) Añada etiquetas al flujo de trabajo. Para obtener más información, consulte [Añadir etiquetas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Opcional) Expandir [!UICONTROL **Workstream**] y escriba una descripción del flujo de trabajo. Esta descripción se muestra en el panel.
+1. (Opcional) Expandir [!UICONTROL **Iteraciones**] para definir un proceso de iteración para este flujo de trabajo.
 
    El número total de tarjetas, el número de tarjetas señaladas y el número de iteraciones se muestran en la sección Lista de tarjetas. Clic [!UICONTROL **Ver lista**] para abrir la lista y agregar tarjetas. Para obtener más información, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Si se ha definido una iteración, se muestran su fecha de inicio, el número de tarjetas y el número de puntos. Clic [!UICONTROL **Ver tablero de iteraciones**] para abrir el tablero. Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Si ya se ha definido una iteración, se muestran su fecha de inicio, el número de tarjetas y el número de puntos. Clic [!UICONTROL **Ver tablero**] para abrir el tablero de iteraciones. Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Clic [!UICONTROL **Añadir origen**] para definir un origen para importar tarjetas en el flujo de trabajo. En este momento, la única fuente disponible es [!DNL Adobe Workfront].
-1. Agregue filtros para importar tareas y problemas de Workfront como tarjetas.
-
-   Añadir filtros para orígenes de flujo de trabajo es lo mismo que añadir filtros para una columna de entrada en un panel básico o en un panel Kanban. Para obtener más información, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Opcional) Expandir [!UICONTROL **Etiquetas**] para añadir etiquetas al flujo de trabajo. Busque una etiqueta o escriba un nuevo nombre de etiqueta en el cuadro de búsqueda y pulse Intro para crearla.
