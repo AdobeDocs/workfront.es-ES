@@ -1,12 +1,12 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Sección Mi trabajo de la aplicación móvil
-description: La variable [!UICONTROL Mi trabajo] de la sección [!UICONTROL Página principal] muestra sus tareas, problemas, proyectos, aprobaciones, solicitudes y partes de horas.
-author: Lisa
+title: Sección Mi trabajo en la aplicación móvil
+description: El [!UICONTROL Mi trabajo] de la sección [!UICONTROL Inicio] muestra sus tareas, problemas, proyectos, aprobaciones, solicitudes y hojas de horas.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!UICONTROL Mi trabajo] en la aplicación móvil
 
-La variable [!UICONTROL Mi trabajo] de la sección [!UICONTROL Página principal] muestra sus tareas, problemas, proyectos, aprobaciones, solicitudes y partes de horas.
+El [!UICONTROL Mi trabajo] de la sección [!UICONTROL Inicio] muestra sus tareas, problemas, proyectos, aprobaciones, solicitudes y hojas de horas.
 
 >[!NOTE]
 >
@@ -23,17 +23,17 @@ La variable [!UICONTROL Mi trabajo] de la sección [!UICONTROL Página principal
 
 ![](assets/home-myworksection-338x379.png)
 
-## Personalice el [!UICONTROL Mi trabajo] sección
+## Personalización de [!UICONTROL Mi trabajo] sección
 
-Puede elegir los elementos de menú que desea mostrar en [!UICONTROL Mi trabajo] y cambiar el orden de los elementos.
+Puede elegir en qué elementos de menú se mostrarán [!UICONTROL Mi trabajo] y cambie el orden del artículo.
 
-1. En el menú flotante, pulse la foto o las iniciales para acceder al perfil.
-1. Desplácese hasta el **[!UICONTROL Configuración]** toque y sección **[!UICONTROL Configuración]**.
-1. En el **[!UICONTROL Configuración]** , seleccione y arrastre los elementos de menú para que estén en el orden correcto para la [!UICONTROL Página principal] .
-1. Pulse el icono de alternancia azul para ocultar cualquier elemento de menú que no desee mostrar. Toque el icono de alternancia gris para volver a mostrar el elemento.
+1. En el menú flotante, toque su foto o iniciales para acceder a su perfil.
+1. Desplácese hasta **[!UICONTROL Configuración]** y pulse **[!UICONTROL Configuración]**.
+1. En el **[!UICONTROL Configuración]** , seleccione y arrastre los elementos de menú para que estén en el orden correcto para la [!UICONTROL Inicio] área.
+1. Pulse el icono de alternancia azul para ocultar los elementos de menú que no desee mostrar. Pulse el icono de alternancia gris para volver a mostrar el elemento.
 
    >[!NOTE]
    >
-   >La variable [!UICONTROL Tareas y problemas] el elemento de menú siempre se muestra y no se puede ocultar.
+   >El [!UICONTROL Tareas y problemas] el elemento de menú siempre se muestra y no se puede ocultar.
 
    ![](assets/mobile-settings-338x366.png)

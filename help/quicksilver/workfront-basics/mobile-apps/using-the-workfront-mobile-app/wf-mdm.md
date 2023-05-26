@@ -2,12 +2,12 @@
 content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Adobe Workfront para administración de dispositivos móviles (MDM)
-description: 'Adobe [!DNL Workfront] se ha asociado con algunas plataformas de administración de dispositivos móviles (MDM) para ofrecer a las organizaciones una experiencia móvil más segura y controlada. La aplicación móvil de Workfront está disponible en las siguientes plataformas de administración de dispositivos móviles: EDIT ME.'
-author: Lisa
+title: Adobe Workfront para la administración de dispositivos móviles (MDM)
+description: 'Adobe [!DNL Workfront] se ha asociado con algunas plataformas de administración de dispositivos móviles (MDM) para proporcionar a las organizaciones una experiencia móvil más segura y controlada. La aplicación móvil de Workfront está disponible en las siguientes plataformas de administración de dispositivos móviles: EDITAR.'
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)
 
-Adobe [!DNL Workfront] se ha asociado con algunos [!DNL Mobile Device Management] (MDM) para ofrecer a las organizaciones una experiencia móvil más segura y controlada. La variable [!DNL Workfront] la aplicación móvil está disponible en las siguientes plataformas de administración de dispositivos móviles:
+Adobe [!DNL Workfront] se ha asociado con algunos [!DNL Mobile Device Management] (MDM) para proporcionar a las organizaciones una experiencia móvil más segura y controlada. El [!DNL Workfront] la aplicación móvil está disponible en las siguientes plataformas de administración de dispositivos móviles:
 
 ## MobileIron
 
-Consulte [!DNL MobileIron]la documentación de ayuda de para instalar el [!DNL Workfront] aplicación móvil desde su plataforma:
+Consulte [!DNL MobileIron]Documentación de ayuda de para instalar el [!DNL Workfront] aplicación móvil desde su plataforma:
 
 * iOS
 * Android
 
-Para obtener información sobre cómo configurar [!DNL Workfront] para [!DNL MobileIron], consulte [Configurar [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Para obtener información sobre la configuración [!DNL Workfront] para [!DNL MobileIron], consulte [Configurar [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
