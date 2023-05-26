@@ -2,41 +2,41 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: http-modules
-title: Utilizar TLS mutuo en módulos HTTP en Adobe Workfront Fusion
-description: Puede utilizar TLS mutuos en los módulos HTTP de Adobe Workfront Fusion, lo que permite que ambas partes de la transacción de información verifiquen la identidad del otro.
+title: Uso de TLS mutuo en módulos HTTP en Adobe Workfront Fusion
+description: Puede utilizar TLS mutuo en los módulos HTTP de Adobe Workfront Fusion, lo que permite que ambas partes de la transacción de información comprueben la identidad del otro.
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
+source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-# Utilizar TLS mutuo en módulos HTTP en [!DNL Adobe Workfront Fusion]
+# Usar TLS mutuo en módulos HTTP en [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
 >Adobe Workfront Fusion requiere un [!DNL Adobe Workfront Fusion] además de una licencia de Adobe Workfront.
 
-## Resumen de TLS mutuo
+## Información general de TLS mutuo
 
-Cuando envíe datos a través de Internet, es importante asegurarse de que se dirija a la ubicación correcta o que provenga de ella y de que solo el destinatario deseado pueda leerlos. Con TLS habilitado, el cliente (equipo que solicita información) utiliza certificados para verificar la identidad del servidor (equipo que proporciona información). Esto hace conexiones HTTP seguras.
+Al enviar datos a través de Internet, es importante asegurarse de que vayan a o vengan de la ubicación correcta y de que solo el destinatario deseado pueda leerlos. Con TLS habilitado, el cliente (equipo que solicita información) utiliza certificados para comprobar la identidad del servidor (equipo que proporciona información). Esto hace que las conexiones HTTP sean seguras.
 
-TLS mutuo permite que esta confirmación de identidad funcione en ambos sentidos. Cuando el servidor envía su certificado para verificar su identidad al cliente, también solicita el certificado del cliente. Esto garantiza que el servidor no envíe información a un sitio o usuario que pueda usarla incorrectamente.
+TLS mutuo permite que esta confirmación de identidad funcione en ambos sentidos. Cuando el servidor envía su certificado para comprobar su identidad al cliente, también solicita el certificado del cliente. Esto garantiza que el servidor no envíe información a un sitio o usuario que pueda hacer un uso indebido de ella.
 
 >[!INFO]
 >
 >**Ejemplo:**
 >
->* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Bueno Bank, no a un sitio web que pueda utilizar o vender su información bancaria. También quieren asegurarse de que la información de sus cuentas bancarias esté cifrada.
+>* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Bueno banco, no un sitio web que podría hacer un mal uso o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
    >
-   >   Cuando el navegador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para verificar su identidad. El certificado lo proporciona una autoridad de certificación como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
+   >   Cuando el explorador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para comprobar su identidad. El certificado lo proporciona una entidad emisora de certificados como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
 >
->* **TLS mutuo**: MySoftware.com es un cliente de software que necesita información de la API MyGreatBank.com. MyGreatBank permite que sólo los clientes de confianza se conecten a sus servidores. Por lo tanto, además del TLS normal que verifica la identidad de MyGreatBank.com, el proceso TLS/autoridad de certificación también verifica la solicitud de MySoftware.com.
+>* **TLS mutuo**: MySoftware.com es un cliente de software que necesita información de la API de MyGreatBank.com. MyGreatBank solo permite a los clientes de confianza conectarse a sus servidores. Por lo tanto, además del TLS normal que verifica la identidad de MyGreatBank.com, el proceso de autoridad de TLS/certificados también verifica la solicitud de MySoftware.com.
 
 
 ## Requisitos de acceso
@@ -53,15 +53,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion para automatización e integración del trabajo] </p> </td> 
+   <td> <p>[!UICONTROL Workfront Fusion para automatización e integración de trabajo] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,26 +70,26 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 &#42;&#42;Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Proporcionando su [!DNL Workfront Fusion] certificado público
+## Proporcionar su [!DNL Workfront Fusion] certificado público
 
 
-Cuando se conecta a un servicio web con una solicitud HTTP, el servicio web suele requerir un [!DNL Workfront Fusion] certificado público de verificación. Esto permite que el servicio web compare el certificado presentado en la solicitud HTTP con el certificado del archivo, como una forma de garantizar que el certificado se encuentra en la lista de permitidos del servicio web.
+Cuando se conecta a un servicio web con una solicitud HTTP, el servicio web suele requerir un [!DNL Workfront Fusion] certificado público de verificación. Esto permite al servicio web comparar el certificado presentado en la solicitud HTTP con el que está archivado, como una forma de asegurarse de que el certificado esté en la lista de permitidos del servicio web.
 
-Para obtener instrucciones sobre cómo cargar la variable [!DNL Adobe Workfront Fusion] certificado público de un servicio web, consulte la documentación del servicio web.
+Para obtener instrucciones sobre cómo cargar [!DNL Adobe Workfront Fusion] certificado público a un servicio web, consulte la documentación del servicio web.
 
 >[!NOTE]
 >
->Es posible que deba proporcionar otra información además del certificado. Para obtener información sobre lo que requiere un servicio web, consulte la documentación de API del servicio web.
+>Es posible que deba proporcionar otra información además del certificado. Para obtener información sobre lo que requiere un servicio web, consulte la documentación de la API del servicio web.
 
 Puede utilizar los siguientes vínculos para descargar los certificados públicos de Workfront Fusion:
 
-### Certificados para el 25 de mayo de 2023 - 9 de junio de 2024
+### Certificados para el 25 de mayo de 2023 al 9 de junio de 2024
 
 >[!IMPORTANT]
 >
->* Estos [!DNL Workfront Fusion] los certificados públicos expiran el 9 de junio de 2024. Cuando caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
+>* Estos [!DNL Workfront Fusion] los certificados públicos caducan el 9 de junio de 2024. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
    >
-   >   * Tenga en cuenta la fecha de caducidad y configure un recordatorio para que cargue el certificado en el servicio web.
+   >   * Tome nota de la fecha de caducidad y configure un recordatorio para que usted mismo cargue el certificado en su servicio web.
    >   * Marque esta página para encontrar fácilmente los nuevos certificados.
 >
 >* Son certificados mTLS no comodín.
@@ -100,29 +100,32 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 
    Para uso en la UE
 
-### Certificados para el 14 de noviembre de 2022 - 15 de julio de 2023
+<!--
+
+### Certificates for November 14, 2022 - July 15, 2023
 
 >[!IMPORTANT]
 >
->* Estos [!DNL Workfront Fusion] los certificados públicos expiran el 15 de julio de 2023.
->* Son certificados mTLS comodín.
+>* These [!DNL Workfront Fusion] public certificates expire on July 15, 2023.
+>* These are wildcard mTLS certificates.
 
+* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
+* [Download [!DNL Workfront Fusion] EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
-* [Descargar [!DNL Workfront Fusion] Certificado 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
-* [Descargar [!DNL Workfront Fusion] Certificado UE 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
+   For use in the EU 
 
-   Para uso en la UE
+   -->
 
-## Habilitar TLS mutuo en [!DNL Workfront Fusion] Módulos HTTP
+## Habilitación de TLS mutuo en [!DNL Workfront Fusion] Módulos HTTP
 
-Todo [!DNL Workfront Fusion] [!UICONTROL HTTP] los módulos de solicitud tienen la opción de habilitar TLS mutuo.
+Todo [!DNL Workfront Fusion] [!UICONTROL HTTP] Los módulos de solicitud de tienen la opción de habilitar TLS mutuo.
 
-Para habilitar el TLS mutuo en una [!UICONTROL HTTP] módulo de solicitud:
+Para habilitar TLS mutuo en un [!UICONTROL HTTP] módulo de solicitud:
 
-1. Agregue un [!UICONTROL HTTP] al escenario.
-1. Empiece a configurar el módulo.
+1. Añadir un [!UICONTROL HTTP] módulo de solicitud de a su escenario.
+1. Comience a configurar el módulo.
 
-   Para obtener instrucciones sobre cómo configurar un [!UICONTROL HTTP] módulo de solicitud, consulte el artículo correspondiente en [[!UICONTROL HTTP] módulos](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   Para obtener instrucciones sobre la configuración de un [!UICONTROL HTTP] módulo de solicitud, consulte el artículo correspondiente en [[!UICONTROL HTTP] módulos](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-1. Habilitar **[!UICONTROL Mostrar configuración avanzada]** cerca de la parte inferior del módulo.
-1. Habilitar **[!UICONTROL Usar TLS mutuo]**.
+1. Activar **[!UICONTROL Mostrar configuración avanzada]** cerca de la parte inferior del módulo.
+1. Activar **[!UICONTROL Usar TLS mutuo]**.
