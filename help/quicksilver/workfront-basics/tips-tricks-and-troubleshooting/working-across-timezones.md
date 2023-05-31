@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza zonas horarias para calcular campos de hora para objetos y horas en otras áreas, como correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Puede ayudar a los usuarios a trabajar con mayor facilidad en varias zonas horar
 
    Para obtener instrucciones sobre cómo asignar una programación a un proyecto o a un usuario, consulte [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!DNL Workload Balancer], consulte [Administrar asignaciones de usuarios en [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Administrar asignaciones de usuarios en [!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Uso de campos de tiempo calculado en un formulario personalizado {#use-calculated-time-fields-in-a-custom-form}

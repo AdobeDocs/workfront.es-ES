@@ -2,14 +2,14 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Planificador de escenario de Adobe Workfront
-description: Lista de artículos que describen la funcionalidad del planificador de escenarios de Workfront.
+title: Planificador de escenarios de Adobe Workfront
+description: Una lista de artículos que describen la funcionalidad del Planificador de escenarios de Workfront.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [La variable [!DNL Scenario Planner] información general](../scenario-planner/scenario-planner-overview.md)
-* [Introducción a [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
-* [Acceso necesario para usar la variable [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
-* [Información general sobre los planes de la sección [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
-* [Cree y edite planes en el [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
-* [Cree y compare escenarios de plan en la variable [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
-* [Eliminar planes en el [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
-* [Información general sobre las iniciativas de [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
-* [Cree y edite iniciativas en la [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
-* [Copiar iniciativas en la [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
-* [Actualizar las prioridades de la iniciativa en el [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)
-* [Elimine iniciativas en [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
-* [Resolver conflictos de iniciativa en el [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
-* [Importar proyectos a planes en el [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
-* [Solicitar acceso a un plan en la [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [El [!DNL Scenario Planner] descripción general](../scenario-planner/scenario-planner-overview.md)
+* [Introducción a la [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
+* [Acceso necesario para utilizar [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
+* [Información general sobre planes en [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
+* [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
+* [Cree y compare escenarios de plan en la [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
+* [Eliminar planes en la [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
+* [Resumen de las iniciativas en [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
+* [Cree y edite iniciativas en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
+* [Copiar iniciativas en [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
+* [Actualizar prioridades de iniciativa en [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)
+* [Eliminar iniciativas en la [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
+* [Resolución de conflictos de iniciativas en [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
+* [Proyectos importados a planes en [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
+* [Solicite acceso a un plan en el [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
 * [Compartir un plan en [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
-* [Actualice o cree proyectos publicando iniciativas en el [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-* [Visión general de la conciliación de las asignaciones de recursos entre proyectos e iniciativas](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
+* [Actualice o cree proyectos publicando iniciativas en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
+* [Resumen de la conciliación de asignaciones de recursos entre proyectos e iniciativas](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Mostrar la asignación de funciones para proyectos e iniciativas en la lista de tareas](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Mostrar la asignación de funciones para proyectos e iniciativas en el [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Mostrar la asignación de funciones para proyectos e iniciativas en [!UICONTROL Distribuidor de cargas de trabajo]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

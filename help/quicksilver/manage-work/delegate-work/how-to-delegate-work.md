@@ -2,12 +2,12 @@
 filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegar tareas y problemas
-description: Puede delegar temporalmente el trabajo al que está asignado mientras está fuera de la oficina. En este artículo se describe cómo delegar tareas y emitir asignaciones.
+description: Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Este artículo describe cómo delegar asignaciones de tareas y problemas.
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -20,27 +20,27 @@ ht-degree: 1%
 I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
-Puede delegar temporalmente el trabajo al que está asignado mientras está fuera de la oficina.
+Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina.
 
-Puede delegar tareas y asignaciones de emisión o delegar aprobaciones. En este artículo se describe cómo delegar tareas y emitir asignaciones.
+Puede delegar tareas y asignaciones de problemas o puede delegar aprobaciones. Este artículo describe cómo delegar asignaciones de tareas y problemas.
 
-Para obtener información general sobre la delegación de trabajo, consulte [Resumen del trabajo de los delegados](../../manage-work/delegate-work/delegate-work-overview.md).
+Para obtener información general sobre la delegación de trabajo, consulte [Resumen del trabajo delegado](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## Requisitos de acceso
 
 >[!IMPORTANT]
 >
->* Los usuarios que seleccione como delegados reciben los mismos permisos que sus permisos en las tareas y problemas que delega en ellos.
+>* Los usuarios que seleccione como delegados reciben los mismos permisos que sus permisos en las tareas y problemas que delegue en ellos.
 >* Los permisos deben funcionar dentro de sus niveles de acceso y, a veces, sus niveles de acceso pueden ser inferiores a los suyos.
 
    >
    >   
-   >   Por ejemplo, si un usuario solo tiene acceso de vista a tareas en su nivel de acceso y tiene permisos de administración en las tareas que delega en ellas, recibirá permisos de administración para las tareas que delegue en ellas. Sin embargo, no podrán realizar las mismas acciones que usted en las tareas delegadas. Deben solicitar el acceso de edición a Tareas al administrador del sistema para poder actualizar las tareas en su ausencia.
+   >   Por ejemplo, si un usuario solo tiene acceso de Vista a las tareas de su nivel de acceso y tiene permisos de Administración en las tareas que delega en él, recibirá permisos de Administración en las tareas que delega en él. Sin embargo, no podrán realizar las mismas acciones que usted en las tareas delegadas. Deben solicitar al administrador del sistema acceso de edición de tareas para poder actualizar las tareas en su ausencia.
    >
    >   
    >   Para obtener información sobre cómo un usuario puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
->* Para los elementos que se asignan después de que la delegación ya se haya iniciado, puede tardar hasta una hora después de que se haya asignado el elemento [!DNL Workfront] para compartir los elementos recién asignados con el delegado.
+>* Para los elementos que se asignan después de que la delegación ya haya comenzado, puede tardar hasta una hora después de que se haya asignado el elemento [!DNL Workfront] para compartir los elementos recién asignados con el delegado.
 
 
 
@@ -60,17 +60,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 >[!NOTE]
 >
->Aunque se le puede asignar para que funcione cuando tiene una licencia de Solicitud, no puede delegar su trabajo a otros. [!DNL Workfront] no recomienda asignar trabajo a usuarios de revisión o solicitud.
+>Aunque se le puede asignar un trabajo cuando tiene una licencia de solicitud, no puede delegar su trabajo a otros. [!DNL Workfront] no recomienda asignar trabajo a los usuarios de revisión o solicitud.
 
 </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y problemas Si todavía no tiene acceso, consulte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Tareas y Problemas Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores a las tareas o problemas a los que está asignado</p> 
-    <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver los permisos o niveles superiores de las tareas o problemas que tiene asignados</p> 
+    <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,61 +83,61 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Antes de realizar las actividades descritas en este artículo, debe asegurarse de lo siguiente:
+Antes de poder realizar las actividades descritas en este artículo, debe asegurarse de lo siguiente:
 
-* Su [!DNL Workfront] o el administrador del grupo habilitó la variable [!UICONTROL Permitir que los usuarios eliminen tareas y problemas con las horas registradas] en la [!UICONTROL Configuración] del área [!DNL Workfront] instancia.
+* Su [!DNL Workfront] o el administrador del grupo habilitó el [!UICONTROL Permitir que los usuarios eliminen tareas y problemas con las horas registradas] configuración en la [!UICONTROL Configurar] área de su [!DNL Workfront] ejemplo.
 
-   Para obtener más información, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+   Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-## Delegación de tareas y problemas a otro usuario
+## Delegar tareas y problemas a otro usuario
 
-Antes de delegar su trabajo en otros, le recomendamos que se ponga en contacto con ellos y les informe de que serán designados delegados en sus temas de trabajo. Pida su aprobación verbal antes de delegar el trabajo para asegurarse de que tienen el tiempo necesario para completar el trabajo mientras usted está fuera de la oficina.
+Antes de delegar el trabajo a otros, le recomendamos que se ponga en contacto con ellos y les informe de que serán designados como delegados en sus elementos de trabajo. Pida su aprobación verbal antes de delegar el trabajo para asegurarse de que tengan el tiempo necesario para completar el trabajo mientras está fuera de la oficina.
 
-Para obtener información general sobre la delegación de tareas y problemas, consulte [Resumen de tareas y problemas delegados](delegate-work.md).
+Para obtener información general sobre la delegación de tareas y problemas, consulte [Información general sobre tareas y problemas delegados](delegate-work.md).
 
-Para delegar las tareas y los problemas a otros:
+Para delegar sus tareas y problemas a otros:
 
-1. Vaya a la [!UICONTROL **Página principal**] área y haga clic en [!UICONTROL **Delegar**] en la parte superior del [!UICONTROL **Lista de trabajo**].
+1. Vaya a la [!UICONTROL **Inicio**] y haga clic en [!UICONTROL **Delegar**] en la parte superior del [!UICONTROL **Lista de trabajos**].
 
    ![](assets/delegate-button-in-home.png)
 
-1. En el [!UICONTROL **Delegación de tareas y problemas**] , actualice lo siguiente:
+1. En el [!UICONTROL **Delegar tareas y problemas**] pestaña, actualice lo siguiente:
 
-   * [!UICONTROL **Delegación de tareas y problemas en**]: Empiece a escribir el nombre de un usuario al que desea delegar sus tareas y problemas y, a continuación, selecciónelo cuando aparezca en la lista. Solo puede seleccionar un usuario.\
+   * [!UICONTROL **Delegar sus tareas y problemas a**]: Empiece a escribir el nombre del usuario al que desea delegar sus tareas y problemas y, a continuación, selecciónelo cuando se muestre en la lista. Solo puede seleccionar un usuario.\
 
-      El usuario que seleccione como delegado recibe los mismos permisos que sus permisos en las tareas y problemas que delega en ellos. Para obtener más información, consulte [Resumen del problema y la tarea delegada](delegate-work-overview.md).
+      El usuario que seleccione como delegado recibe los mismos permisos que sus permisos en las tareas y problemas que delegue en ellos. Para obtener más información, consulte [Delegar tarea y descripción general del problema](delegate-work-overview.md).
 
-   * [!UICONTROL **Fecha de inicio**]: Seleccione una fecha del calendario en la que debe comenzar la delegación de los elementos de trabajo.
-
-      >[!TIP]
-      >
-      >La fecha de inicio no puede ser anterior.
-
-   * [!UICONTROL **Sin fecha de finalización**]: Seleccione esta opción si no desea especificar la fecha de finalización de la delegación.
-
-   * [!UICONTROL **Fecha final**]: Seleccione una fecha del calendario en la que se debe detener la delegación.
+   * [!UICONTROL **Fecha de inicio**]: seleccione en el calendario la fecha en la que debe comenzar la delegación de los elementos de trabajo.
 
       >[!TIP]
       >
-      >Al no seleccionar una fecha de finalización, la delegación solo se habilita para el día actual.
+      >La fecha de inicio no puede ser una fecha pasada.
+
+   * [!UICONTROL **Sin fecha de finalización**]: seleccione esta opción si no desea especificar la fecha de finalización de la delegación.
+
+   * [!UICONTROL **Fecha de finalización**]: seleccione en el calendario una fecha en la que la delegación deba detenerse.
+
+      >[!TIP]
+      >
+      >Al no seleccionar una Fecha de finalización, la delegación solo se puede delegar para el día actual.
 
       ![](assets/delegate-box-expanded-in-home.png)
 
 1. Haga clic en [!UICONTROL **Guardar**].
 
-   Las siguientes cosas suceden:
+   Suceden las siguientes cosas:
 
-   * El trabajo se delega al usuario especificado. Se delega cualquier tarea incompleta o problema que tenga fechas dentro del lapso de tiempo seleccionado (incluidos los recién asignados, después de habilitar la delegación).
+   * El trabajo se ha delegado al usuario especificado. Se delegarán todas las tareas o problemas incompletos que tengan fechas dentro del lapso de tiempo seleccionado (incluidos los recién asignados, después de habilitar la delegación).
    >[!TIP]
    >
-   >   Los elementos de trabajo completados que tengan fechas dentro del marco temporal de la delegación no se delegan.
+   >   Los elementos de trabajo completados que tienen fechas dentro del lapso de tiempo de la delegación no se delegan.
 
 
    * Recibirá un mensaje en la esquina superior derecha de la pantalla para confirmar que ha habilitado la delegación de su trabajo a otro usuario. El nombre del usuario delegado se muestra en el mensaje de confirmación.
 
-   * Una indicación de que las tareas y los problemas se delegan a otros usuarios se muestra en la mayoría de las áreas en las que puede ver asignaciones en [!DNL Workfront]. Para obtener más información sobre las áreas que no incluyen los nombres de los delegados, consulte [Resumen del problema y la tarea delegada](delegate-work-overview.md).
+   * Se muestra una indicación de que las tareas y los problemas se han delegado a otros usuarios en la mayoría de las áreas donde puede ver asignaciones en [!DNL Workfront]. Para obtener más información sobre las áreas que no incluyen los nombres de los delegados, consulte [Delegar tarea y descripción general del problema](delegate-work-overview.md).
 
-   * La variable [!UICONTROL **Delegar**] en el [!UICONTROL Página principal] cambios de área a [!UICONTROL **Editar delegación**] indicar que existe una delegación.
+   * El [!UICONTROL **Delegar**] botón en el [!UICONTROL Inicio] cambios de área en [!UICONTROL **Editar delegación**] para indicar que hay una delegación en el lugar.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -147,9 +147,9 @@ Para delegar las tareas y los problemas a otros:
 
    ![](assets/work-delegated-button-in-home.png)
 
-   * Si las notificaciones de eventos y las notificaciones personales están activadas, también recibirá una confirmación por correo electrónico de su delegación.
+   * Si las notificaciones de eventos y las notificaciones personales están habilitadas, también recibirá una confirmación de su delegación por correo electrónico.
 
-   * El usuario que ha seleccionado como delegado recibe un correo electrónico sobre la delegación si sus notificaciones de evento están habilitadas.
+   * El usuario que ha seleccionado como delegado recibe un correo electrónico sobre la delegación si las notificaciones de eventos están habilitadas.
 
       Para obtener información sobre cómo activar las notificaciones personales por correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -159,16 +159,16 @@ Para delegar las tareas y los problemas a otros:
 
 ## Editar o detener delegación
 
-Puede dejar que una delegación caduque si ha seleccionado una fecha de finalización o puede detenerla manualmente. También puede modificar el lapso de tiempo de la delegación si las fechas de la delegación han cambiado.
+Puede permitir que una delegación caduque si ha seleccionado una fecha de finalización o puede detenerla manualmente. También puede modificar el lapso de tiempo de la delegación si las fechas de la delegación han cambiado.
 
-1. Vaya a la [!UICONTROL Página principal] área y haga clic en [!UICONTROL Editar delegación] en la esquina superior derecha de la lista de trabajo.
-1. En el [!UICONTROL Delegación de tareas y problemas] , realice una de las siguientes acciones:
-   * Modifique el [!UICONTROL **Fecha de inicio**] o [!UICONTROL **Fecha final**]
-   * Haga clic en [!UICONTROL **Detener delegación**]
+1. Vaya a la [!UICONTROL Inicio] y haga clic en [!UICONTROL Editar delegación] en la esquina superior derecha de la Lista de trabajos.
+1. En el [!UICONTROL Delegar tareas y problemas] pestaña, realice una de las siguientes acciones:
+   * Modifique la [!UICONTROL **Fecha de inicio**] o el [!UICONTROL **Fecha de finalización**]
+   * Clic [!UICONTROL **Detener delegación**]
 
    >[!TIP]
    >
-   >    Solo puede editar la fecha de finalización de una delegación si esta ya se ha iniciado.
+   >    Solo puede editar la fecha de finalización de una delegación si esta ya ha comenzado.
 
    ![](assets/stop-delegation-screen-in-home.png)
 
@@ -176,73 +176,73 @@ Puede dejar que una delegación caduque si ha seleccionado una fecha de finaliza
 
    O
 
-   Haga clic en [!UICONTROL **Detener delegación**] en el cuadro de confirmación para confirmar la parada de la delegación.
+   Clic [!UICONTROL **Detener delegación**] en el cuadro de confirmación para confirmar la detención de la delegación.
 
-   La delegación actualizó las fechas o se detuvo y los usuarios delegados se eliminaron de sus tareas y problemas. Sus permisos para las tareas y los problemas siguen en vigor.
+   La delegación ha actualizado las fechas o se ha detenido y los usuarios delegados se han eliminado de sus tareas y problemas. Sus permisos para las tareas y problemas siguen vigentes.
 
 
-## Localizar información de delegados y trabajo delegado
+## Localizar trabajo delegado e información de delegado
 
 <!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
-Cuando se delegan tareas y problemas, hay varias áreas en [!DNL Workfront] donde puede ver el trabajo delegado o quiénes son los delegados.
+Cuando se delegan tareas y problemas, existen varias áreas en [!DNL Workfront] donde puede ver el trabajo delegado o quiénes son los delegados.
 
-* [Localizar delegados en el cuadro Asignaciones](#locate-delegates-in-the-assignments-box)
-* [Localizar trabajo delegado en [!UICONTROL Página principal]](#locate-delegated-work-in-home)
+* [Busque delegados en la casilla Asignaciones](#locate-delegates-in-the-assignments-box)
+* [Localizar trabajo delegado en [!UICONTROL Inicio]](#locate-delegated-work-in-home)
 
 
-### Busque delegados en la [!UICONTROL Asignaciones] box
+### Busque delegados en la [!UICONTROL Asignaciones] caja
 
-Cuando el administrador del sistema o del grupo habilita la delegación de trabajo en el sistema, la variable [!UICONTROL Asignaciones] muestra las fichas siguientes en todas partes donde puede acceder a ellas:
+Cuando el administrador del sistema o del grupo habilita la delegación de trabajo en el sistema, la variable [!UICONTROL Asignaciones] El cuadro muestra las siguientes fichas en todas las partes a las que se puede acceder:
 
-* [!UICONTROL **Asignaciones**]: Los usuarios asignados a la tarea o al problema se muestran aquí.
-* [!UICONTROL **Delegaciones**]: Los usuarios designados como delegados por los usuarios asignados en la tarea o el problema se muestran aquí.
+* [!UICONTROL **Asignaciones**]: los usuarios asignados a la tarea o al problema se muestran aquí.
+* [!UICONTROL **Delegaciones**]: aquí se muestran los usuarios designados como delegados por los usuarios asignados a la tarea o al problema.
 
-Puede acceder al [!UICONTROL Asignaciones] en las siguientes áreas:
+Puede acceder a las [!UICONTROL Asignaciones] en las áreas siguientes:
 
-* Encabezado de tarea o problema
+* El encabezado de la tarea o del problema
 
    ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   La variable [!UICONTROL Asignaciones] en el encabezado de la tarea o problema cambia a [!UICONTROL Funciones y delegaciones].
+   El [!UICONTROL Asignaciones] del encabezado de tarea o problema cambia a [!UICONTROL Asignaciones y delegaciones].
 
-* La variable [!DNL Workload Balancer] al asignar manualmente tareas o problemas
+* El [!UICONTROL Distribuidor de cargas de trabajo] al asignar manualmente tareas o problemas
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
-> No puede ver delegados en la [!UICONTROL Asignaciones] de una tarea o problema Cuadro de edición.
+> No puede ver delegados en [!UICONTROL Asignaciones] de una tarea o problema Cuadro de edición.
 
-Si se delega una tarea o un problema y [!UICONTROL Delegaciones] está vacía, puede darse una de las siguientes situaciones:
+Si se delega una tarea o un problema y la variable [!UICONTROL Delegaciones] subpestaña está vacía, puede darse una de las siguientes situaciones:
 
-* No está asignado a la tarea o al problema.
+* No se le ha asignado la tarea o el problema.
 * Las fechas de la tarea o del problema están fuera del lapso de tiempo de delegación.
 
 >[!TIP]
 >
->El horario planificado o real de las tareas y problemas delegados no se tiene en cuenta en las herramientas de administración de recursos, como el [!DNL Workload Balancer] o [!DNL Resource Planner] para los usuarios delegados. Las horas permanecen asociadas únicamente con el usuario asignado.
+>Las horas planificadas o reales para tareas y problemas delegados no se tienen en cuenta en las herramientas de administración de recursos, como la variable [!UICONTROL Distribuidor de cargas de trabajo] o el [!DNL Resource Planner] para los usuarios delegados. Las horas permanecen asociadas únicamente al usuario asignado.
 
-### Localizar trabajo delegado en [!UICONTROL Página principal]
+### Localizar trabajo delegado en [!UICONTROL Inicio]
 
-1. Vaya a la [!UICONTROL **Página principal**] , haga clic en el menú desplegable de filtro y seleccione una o varias de las siguientes opciones:
+1. Vaya a la [!UICONTROL **Inicio**] , luego haga clic en el menú desplegable filter y seleccione una o más de las siguientes opciones:
    * [!UICONTROL **Delegado**]: para ver las tareas y los problemas delegados por usted o por usted.
-   * [!UICONTROL **Delegado a mí**]: para ver las tareas y los problemas delegados por otro usuario.
+   * [!UICONTROL **Se me ha delegado**]: para ver las tareas y los problemas delegados por otro usuario.
    * [!UICONTROL **Delegado por mí**]: para ver las tareas y los problemas delegados por usted a otros usuarios.
 
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
-1. Haga clic en el [!UICONTROL ordenar] menú desplegable para ordenar la lista según los siguientes criterios:
+1. Haga clic en [!UICONTROL clasificación] menú desplegable para ordenar la lista según los siguientes criterios:
    * [!UICONTROL Finalización planificada]. Esta es la opción de ordenación predeterminada.
    * [!UICONTROL Inicio planificado]
    * [!UICONTROL Fecha de confirmación]
    * [!UICONTROL Proyecto]
    * [!UICONTROL Mi prioridad]
-1. Expanda las agrupaciones en el [!UICONTROL **Lista de trabajo**] para ver los elementos de trabajo delegados. Existen los siguientes escenarios:
-   * Para los elementos que delegó en otros, el nombre del delegado se muestra en la sección [!UICONTROL **Lista de trabajo**] , así como el [!UICONTROL **Funciones y delegaciones**] a la derecha.
+1. Expanda las agrupaciones en la [!UICONTROL **Lista de trabajos**] para ver los elementos de trabajo delegados. Existen los siguientes escenarios:
+   * Para los elementos que ha delegado en otros, el nombre del delegado se muestra en el [!UICONTROL **Lista de trabajos**] así como el [!UICONTROL **Asignaciones y delegaciones**] a la derecha.
 
-   * Para los elementos delegados en su lugar, el nombre del usuario asignado se muestra en la sección [!UICONTROL **Lista de trabajo**] , así como el **[!UICONTROL Funciones y delegaciones]** a la derecha.
+   * Para los elementos delegados en usted, el nombre del usuario asignado aparece en la [!UICONTROL **Lista de trabajos**] así como el **[!UICONTROL Asignaciones y delegaciones]** a la derecha.
    >[!TIP]
    >
-   >    Si la delegación está configurada para que comience en una fecha posterior a la fecha de hoy, la fecha de inicio de la delegación también se muestra en la [!UICONTROL Lista de trabajo]. Los elementos delegados se muestran en la agrupación que seleccione para la variable [!UICONTROL Lista de trabajo], según el tipo de agrupación. Por ejemplo, si se agrupa por [!UICONTROL Fecha de finalización planeada], los elementos delegados se muestran en la agrupación que coincide con sus fechas de finalización planificadas.
+   >    Si la delegación está configurada para comenzar en una fecha posterior a la fecha actual, la fecha de inicio de la delegación también se muestra en la [!UICONTROL Lista de trabajos]. Los elementos delegados se muestran en la agrupación seleccionada para el [!UICONTROL Lista de trabajos], según el tipo de agrupación. Por ejemplo, si agrupa por [!UICONTROL Fecha planificada de finalización], los elementos delegados se muestran en la agrupación que coincide con las fechas de finalización planificadas.
