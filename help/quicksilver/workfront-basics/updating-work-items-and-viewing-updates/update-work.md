@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <!--<span class="preview">projects, tasks, and documents</span>,--> al habilitar la versión beta de comentarios.
+> * Problemas, <span class="preview">proyectos, tareas y documentos</span>, al habilitar la versión beta de comentarios.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
    >
@@ -193,7 +193,7 @@ La adición de una actualización a un elemento de trabajo difiere según la ver
 El **Comentarios** está seleccionada de forma predeterminada.
 1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 1. (Opcional) Para agregar un vínculo URL a fuentes de información adicionales:
 
    1. Haga clic en la actualización en la que desee insertar un vínculo.
-   1. En el **Texto enriquecido** , haga clic en **Hipervínculo** icono. ![](assets/link-icon.png)
+   1. En el **Texto enriquecido** , haga clic en **Hipervínculo** icono ![](assets/link-icon.png).
 
    1. En el **Crear vínculo** cuadro que aparece, debajo de **URL**, escriba o pegue la dirección URL del origen al que desea vincular.
 
