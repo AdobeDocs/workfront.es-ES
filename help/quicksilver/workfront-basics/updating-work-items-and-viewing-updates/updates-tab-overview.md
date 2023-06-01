@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <span class="preview">proyectos, tareas y documentos</span> al habilitar la versión beta de comentarios.
+> * Problemas, <span class="preview">proyectos</span>, <span class="preview">tasks</span>, y <span class="preview">documentos</span>, al habilitar la versión beta de comentarios.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
    >
@@ -131,7 +131,7 @@ Por ejemplo, cuando se agrega una actualización a una tarea, la actualización 
 
 >[!NOTE]
 >
->Al habilitar la nueva experiencia de comentarios beta, los comentarios se muestran en los siguientes objetos de mayor clasificación y en los entornos siguientes:
+>Al habilitar la nueva experiencia de comentarios beta, se muestran comentarios en los siguientes objetos de mayor clasificación:
 >
 >* Problemas
 >* <span class="preview">Proyectos</span>

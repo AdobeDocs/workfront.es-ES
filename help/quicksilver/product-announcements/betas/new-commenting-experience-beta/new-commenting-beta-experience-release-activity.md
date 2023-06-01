@@ -6,7 +6,7 @@ description: Revise la actividad de lanzamiento semanal de la nueva experiencia 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ Las siguientes secciones enumeran las funciones que se han añadido después de 
 
 ## Semana del 29 de mayo de 2023
 
-### Nuevo comentario Experiencia beta para proyectos, tareas y problemas
+### Nueva experiencia de comentarios beta para proyectos, tareas y documentos
 
 La nueva experiencia de comentarios beta ya está disponible para proyectos, tareas y documentos. Antes de esta actualización, la experiencia de los comentarios beta solo estaba disponible para problemas y objetivos.
 

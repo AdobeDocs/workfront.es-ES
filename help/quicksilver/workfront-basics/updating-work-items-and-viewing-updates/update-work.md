@@ -6,7 +6,7 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '3176'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <span class="preview">proyectos, tareas y documentos</span>, al habilitar la versión beta de comentarios.
+> * Problemas, <span class="preview">proyectos</span>, <span class="preview">tasks</span>, y <span class="preview">documentos</span>, al habilitar la versión beta de comentarios.
    >
    >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
    >
