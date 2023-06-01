@@ -6,7 +6,7 @@ description: Cuando alguien agrega o responde a una actualización de un objeto 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 0%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
-   >
-   >     Esta opción está disponible al habilitar la experiencia de comentarios beta.\
-   >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
-   >
-   >     * Página de inicio
-   >     * Panel de resumen en listas
-   >     * Panel de resumen en plantillas de horas
 >
-> * Metas
-
-   >
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* Problemas, <span class="preview">proyectos, tareas y documentos</span>.
+>
+>  Esta opción está disponible al habilitar la experiencia de comentarios beta.
+>
+>  Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>
+>  * Página de inicio
+>  * Panel de resumen en listas
+>  * Panel de resumen en plantillas de horas
+>
+>* Metas
+>
+>  La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Cuando alguien responde a un comentario o a una actualización del sistema de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto.
 
@@ -100,6 +100,7 @@ Responder a un comentario o una respuesta depende de la experiencia y del objeto
    Puede ver los usuarios que participan activamente en la conversación o que están etiquetados en cada respuesta en la parte superior de ese hilo de actualización. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** situado junto a la actualización o respuesta que desee citar y, a continuación, haga clic en **Citar respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
 1. (Opcional) Use formato, emojis, incluya vínculos o imágenes como se explica en la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; del artículo [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Clic **Responder** para guardar la respuesta.
