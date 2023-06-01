@@ -2,9 +2,9 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 1%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 1%
       * [Delegar solicitud de aprobación](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Asociar un proceso de aprobación nuevo o existente con el trabajo](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recuperar aprobaciones enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * Revisiones y aprobaciones de documentos {#document-reviews-and-approvals}
+      * [Revisiones y aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * Administrar aprobaciones de documentos {#manage-document-approvals}
+         * [Administrar aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Crear una aprobación de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Agregar revisores o aprobadores adicionales a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Quitar aprobadores o revisores de un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * Revisar y aprobar documentos {#review-and-approve-documents}
+         * [Revisar y aprobar documentos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [Revisar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Aprobar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Revisión {#proofing}
       * [Revisión](review-and-approve-work/proofing/proofing.md)
       * Resumen de revisión {#proofing-overview}
