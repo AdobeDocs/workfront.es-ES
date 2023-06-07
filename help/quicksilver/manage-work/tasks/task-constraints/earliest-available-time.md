@@ -2,23 +2,23 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Hora disponible más temprana'''
-description: El Tiempo Disponible Más Temprano es una Restricción de Tareas que programa una tarea para que comience lo antes posible después de considerar cualquier relación predecesora.
+title: "Información general sobre la restricción de tarea: Lo más temprano disponible"
+description: La hora disponible más temprana es una delimitación de tarea que programa una tarea para que comience en el momento disponible más temprano después de considerar cualquier relación de predecesoras.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Hora disponible más temprana
+# Información general sobre la restricción de tarea: Lo más temprano disponible
 
-El Tiempo Disponible Más Temprano es una Restricción de Tareas que programa una tarea para que comience lo antes posible después de considerar cualquier relación predecesora.
+La hora disponible más temprana es una delimitación de tarea que programa una tarea para que comience en el momento disponible más temprano después de considerar cualquier relación de predecesoras.
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, consulte [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,28 +52,32 @@ Para obtener información sobre cómo actualizar la restricción de tareas en un
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## La diferencia entre la hora más temprana disponible y lo antes posible
+## La diferencia entre Lo antes posible y Lo antes posible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-La restricción Tiempo disponible más temprano difiere de la restricción Lo antes posible cuando existen todos los criterios siguientes:
+La restricción Lo antes posible difiere de la restricción Lo antes posible cuando existen todos los criterios siguientes:
 
-* El proyecto está programado a partir de su finalización
-* Las tareas del proyecto tienen una relación predecesora
+* El proyecto está programado desde la finalización
+* Las tareas del proyecto tienen una relación de predecesoras
 * La tarea predecesora tiene una restricción de tarea flexible
 
 En esta situación:
 
-* **Hora más temprana disponible:** El uso de la restricción de Tiempo disponible más temprano en la tarea sucesora da prioridad a la restricción flexible del predecesor.
+* **Lo más temprano disponible:** El uso de la restricción de tiempo disponible más temprano en la tarea sucesora da prioridad a la restricción flexible de la predecesora.
 
-   **Ejemplo:** La tarea A es la predecesora de la tarea B. La tarea B tiene la restricción de tiempo disponible más temprana y la tarea A tiene la restricción lo más tarde posible. En este caso, la tarea B está programada lo más cerca posible de la finalización del proyecto.
+   **EJEMPLO**
 
-   ![Restricción de tiempo disponible más temprana cuando la tarea tiene las fechas cercanas a la fecha de finalización del proyecto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+   La Tarea A es la predecesora de la Tarea B. La Tarea B tiene la restricción de la primera hora disponible y la Tarea A tiene la restricción de la mayor demora posible. En este caso, la Tarea B se programa lo más cerca posible de la finalización del proyecto.
 
-* **Lo Antes Posible:** En este escenario, el uso de la restricción Tan pronto como sea posible en la tarea sucesora da prioridad a la tarea sucesora.
+   ![Lo más temprano disponible Restricción de tiempo cuando la tarea tiene las fechas cercanas a la fecha de finalización del proyecto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-   **Ejemplo:**  La tarea A es la predecesora de la tarea B. La tarea B tiene la restricción Lo antes posible y la tarea A tiene la restricción Lo más tarde posible. En este caso, la tarea B está programada lo más cerca posible del inicio del proyecto.
+* **Lo antes posible:** En este escenario, el uso de la restricción Lo antes posible en la tarea sucesora da prioridad a la tarea sucesora.
 
-   ![Restricción tan pronto como sea posible cuando la tarea tiene las fechas cercanas a la Fecha de inicio del proyecto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+   **EJEMPLO**
+
+   La Tarea A es la predecesora de la Tarea B. La Tarea B tiene la restricción Lo antes posible y la Tarea A tiene la restricción Lo más tarde posible. En este caso, la Tarea B se programa lo más cerca posible del comienzo del proyecto.
+
+   ![Delimitación Lo antes posible cuando la tarea tiene las fechas próximas a la fecha de inicio del proyecto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
