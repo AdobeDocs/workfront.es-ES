@@ -1,18 +1,18 @@
 ---
-title: Exportar un informe en un lienzo de informes
-description: Exportar un informe en un lienzo de informes
+title: Exportación de un informe en el lienzo de informes
+description: Exportación de un informe en el lienzo de informes
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
 
 ---
 
-# Exportar un informe en un lienzo de informes
+# Exportación de un informe en el lienzo de informes
 
 Puede exportar un informe completo (o un bloque específico) a un formato de archivo que se ajuste a sus necesidades. Puede exportar a:
 
@@ -23,12 +23,12 @@ Puede exportar un informe completo (o un bloque específico) a un formato de arc
 
 ## Requisitos previos
 
-Antes de comenzar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Reporting Canvas beta: información general](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Resumen de Lienzo de informes beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## Exportar un informe
+## Exportación de informes
 
-1. Vaya al informe que desea exportar.
-1. En el encabezado del informe, haga clic en la **Más** icono ![](assets/more-icon-27x15.png), haga clic en **Exportar** y, a continuación, seleccione el formato de archivo que desee crear.
+1. Desplácese hasta el informe que desee exportar.
+1. En el encabezado del informe, haga clic en **Más** icono ![](assets/more-icon-27x15.png), haga clic en **Exportar**, a continuación, seleccione el formato de archivo que desee crear.
 
    >[!NOTE]
    >
