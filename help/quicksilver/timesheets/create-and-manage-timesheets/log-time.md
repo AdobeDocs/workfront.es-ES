@@ -6,9 +6,9 @@ description: Puede registrar el tiempo de los elementos de trabajo en&nbsp;Adobe
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
 
 * Puede registrar tiempo para proyectos, tareas o problemas, o bien puede registrar tiempo directamente en su hoja de horas.
 
-   Para obtener información sobre la creación de plantillas de horas, consulte [Crear hoja de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Para obtener información sobre la creación de plantillas de horas, consulte [Crear hoja de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Todas las herramientas que se registran a lo largo del tiempo y que no son la plantilla de horas aparecen en la plantilla correspondiente al período de tiempo correspondiente.
 * Las tareas y los problemas de un proyecto que no es actual no se rellenan previamente en una plantilla de horas.
@@ -108,6 +108,9 @@ Puede registrar el tiempo en las siguientes áreas de Workfront:
 * [aplicación móvil](#mobile-app)
 
 ### Hoja de horas {#timesheet}
+
+
+#### Registrar tiempo en una hoja de horas {#log-time-on-a-timesheet}
 
 Puede registrar horas generales u horas específicas del proyecto en una hoja de horas.
 
@@ -169,12 +172,11 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >
    >   Cuando utilice un teclado QWERTY estándar y después de hacer clic en el nombre de un proyecto en la plantilla de horas, pulse el siguiente conjunto de teclas para contraer o expandir el proyecto:
    >   * Para expandir el proyecto y mostrar sus elementos de trabajo:
-      >     * Mayús + Alt + flecha arriba para equipos con Windows
-      >     * Mayús + Opción + flecha arriba para equipos Mac
+   >     * Mayús + Alt + flecha arriba para equipos con Windows
+   >     * Mayús + Opción + flecha arriba para equipos Mac
    >   * Para contraer el proyecto y ocultar sus elementos de trabajo:
-      >     * Mayús + Alt + flecha abajo para equipos Windows
-      >     * Mayús + Opción + Flecha abajo para equipos Mac.
-
+   >     * Mayús + Alt + flecha abajo para equipos Windows
+   >     * Mayús + Opción + Flecha abajo para equipos Mac.
 
 
 1. (Opcional) Para fijar manualmente un elemento que se muestra automáticamente en la plantilla de horas, pase el ratón sobre el nombre del elemento y haga clic en **clavija** icono ![](assets/empty-pin-icon.png).
@@ -185,26 +187,7 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >   * Opción + P para equipos Windows y Mac.
 
 
-
 1. (Opcional) Haga clic en el icono de búsqueda ![](assets/search-icon.png) y empiece a escribir una palabra clave para encontrar un proyecto, una tarea o un problema en la hoja de horas.
-
-1. (Opcional) Puede quitar un elemento (proyecto, tarea o problema) de la plantilla de horas si lo agregó manualmente (tal como se describe en los pasos 3-6) y si todavía no ha registrado tiempo en él desanclándolo. <!--ensure this stays accurate-->
-
-   No puede eliminar automáticamente los elementos que se incluyen en la plantilla de horas según las preferencias de plantilla de horas del sistema o grupo de Workfront configurado para rellenar previamente las plantillas de horas (como se describe en [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-   Para eliminar un elemento de la plantilla de horas que se añadió manualmente:
-
-   1. Asegúrese de que no se registra ninguna hora en el elemento.
-   1. Haga clic en **abrir** icono ![Anclar un elemento](assets/pin-icon.png) situado junto al elemento para desanclar el elemento de la plantilla de horas.
-
-   >[!TIP]
-   >
-   >   Cuando utilice un teclado QWERTY estándar después de hacer clic en un elemento de la plantilla de horas, pulse el siguiente conjunto de teclas para desanclar un elemento:
-   >   * Opción + P para equipos Windows y Mac.
-
-
-
-   El elemento se quita de la plantilla de horas después de actualizar la página.
 
 1. (Condicional) Si el administrador de su grupo o Workfront ha habilitado la variable **Asignar roles a entradas de horas manualmente** Para configurar, seleccione una función del menú desplegable. La función especificada cuando se le asigna al elemento de trabajo se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -220,7 +203,6 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >   Según el sistema operativo o el navegador y cuando utilice un teclado QWERTY estándar, pulse el siguiente conjunto de teclas para añadir otra fila:
    >   * Ctrl + Opción + + para equipos con Windows
    >   * Cmd + Opción + + para equipos Mac
-
 
    Los tipos de horas están disponibles según lo que se haya definido en los niveles de sistema, proyecto y usuario, tal como se describe en [Definir tipos de horas y disponibilidad para hojas de horas](define-hour-types-and-availability.md).
 
@@ -241,7 +223,6 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >   * Cmd + Opción + - para equipos Mac
 
 
-
 1. Especifique la cantidad de tiempo que desea registrar en un día determinado en la sección de cronología de la plantilla de horas y, a continuación, haga clic fuera del cuadro de hora para guardar la entrada de hora. Las horas se guardan automáticamente. La fila para la que se registra el tiempo se resalta en azul claro y el cuadro de entrada de hora se resalta en azul oscuro.
 
    ![Registrar cuadro de tiempo en hoja de horas](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
@@ -253,12 +234,13 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >Debe guardar la plantilla de horas manualmente en caso de que se produzca alguna de las siguientes situaciones:
    >
    >* La función de trabajo asociada con el tiempo que ha registrado anteriormente ha cambiado y la **Asignar roles a entradas de horas manualmente** se ha desactivado la configuración. Si se registra tiempo para nuevas fechas, se asociará con un rol diferente.
-      >   
-      >   Si la función ha cambiado y la variable **Asignar roles a entradas de horas manualmente** La configuración está habilitada, puede registrar tiempo o actualizar la función y los cambios se guardan automáticamente.
+   >   
+   >   Si la función ha cambiado y la variable **Asignar roles a entradas de horas manualmente** La configuración está habilitada, puede registrar tiempo o actualizar la función y los cambios se guardan automáticamente.
    >
    >* La función de trabajo asignada a una tarea o problema es diferente a la función de trabajo con la que el propietario de la plantilla de horas registra el tiempo <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
    >La plantilla de horas volverá a ahorrar tiempo automáticamente cuando no haya entradas en conflicto entre las dos funciones.
+   >
 
 1. (Opcional) Especifique la cantidad de horas extra en el campo Horas extra del encabezado de la plantilla de horas.
 
@@ -275,7 +257,6 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >   Cuando utilice un teclado QWERTY estándar después de hacer clic en el cuadro de entrada de horas, pulse el siguiente conjunto de teclas para abrir el cuadro de comentarios:
    >   * Mayús + F2 para equipos Windows y Mac.
 
-
 1. Clic **Listo** para guardar el comentario.
 
    >[!TIP]
@@ -283,7 +264,6 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    >   Cuando utilice un teclado QWERTY estándar, desde dentro del cuadro de comentarios, pulse el siguiente conjunto de teclas para guardar el comentario:
    >   * Ctrl + Entrar para equipos con Windows.
    >   * Cmd + Devolución para equipos Mac.
-
 
 
 1. (Opcional) Haga clic en **Mostrar comentarios** en la barra de herramientas para mostrar comentarios de entrada de horas en el elemento de trabajo.
@@ -317,6 +297,7 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
    * **Rechazar**: Esta opción se muestra cuando usted es un aprobador de hojas de horas y la hoja de horas se le ha enviado para su aprobación. Al hacer clic en él, se cambia el estado de la plantilla de horas a Rechazado y esta permanece abierta.
 
    * **Aprobar**: Esta opción se muestra cuando usted es un aprobador de hojas de horas y la hoja de horas se le ha enviado para su aprobación. Al hacer clic en él, se cambia el estado de la plantilla de horas a Aprobado y se cierra la plantilla.
+
    >[!TIP]
    >
    >Las opciones Rechazar y Aprobar también se muestran en la plantilla de horas cuando usted es administrador del sistema y la plantilla de horas está asociada a un aprobador.
@@ -325,6 +306,33 @@ Puede registrar horas generales u horas específicas del proyecto en una hoja de
 
    * **Volver a abrir**: Esta opción está disponible para hojas de horas que ya ha cerrado y que no tienen aprobadores, o para hojas de horas que ya se han aprobado. Vuelva a abrir la hoja de horas para modificar las entradas de horas.
    * **Recordar**: esta opción está disponible para hojas de horas que se han enviado para su aprobación, pero que aún no se han aprobado ni rechazado. Clic **Recordar** para volver a abrir la plantilla de horas y modificar las entradas de horas.
+
+#### Eliminar un elemento de la plantilla de horas
+
+Puede quitar una entrada de horas o un elemento (proyecto, tarea o problema) de una plantilla de horas.
+
+Para eliminar una entrada de hora de una plantilla de horas:
+
+1. Vaya a la plantilla de horas y busque la entrada de horas que desea eliminar.
+1. Sustituya las horas introducidas por 0 o elimine las horas y sustitúyalas por 0 y, a continuación, pulse Intro.
+
+   Las horas se eliminan y la plantilla de horas se guarda automáticamente.
+
+Puede quitar un elemento (proyecto, tarea o problema) de la plantilla de horas desanclándolo, si aún no ha registrado tiempo para él y si lo agregó manualmente (como se describe en los pasos 4-8 de la [Registrar tiempo en una hoja de horas](#log-time-on-a-timesheet) en este artículo). <!--ensure this stays accurate-->
+
+No puede eliminar automáticamente los elementos que se incluyen en la plantilla de horas según las preferencias de plantilla de horas del sistema o grupo de Workfront configurado para rellenar previamente las plantillas de horas (como se describe en [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Los elementos dejan de rellenar previamente la plantilla de horas cuando las fechas de los elementos están fuera del lapso de tiempo de la plantilla de horas.
+
+Para eliminar un elemento de la plantilla de horas que se añadió manualmente:
+
+1. Asegúrese de que no se registra ninguna hora en el elemento.
+1. Haga clic en **abrir** icono ![Anclar un elemento](assets/pin-icon.png) situado junto al elemento para desanclar el elemento de la plantilla de horas.
+
+   >[!TIP]
+   >
+   >   Cuando utilice un teclado QWERTY estándar después de hacer clic en un elemento de la plantilla de horas, pulse el siguiente conjunto de teclas para desanclar un elemento:
+   > * Opción + P para equipos Windows y Mac.
+
+   El elemento se quita de la plantilla de horas después de actualizar la página.
 
 ### Página de inicio {#home}
 
@@ -365,11 +373,11 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
 
 * Licencia de trabajo o planificación.
 * Aportar o permisos superiores al proyecto, tarea o problema con acceso a Registrar horas.\
-   Para obtener más información sobre la concesión de permisos en proyectos, consulte [Uso compartido de un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  Para obtener más información sobre la concesión de permisos en proyectos, consulte [Uso compartido de un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* El administrador de Workfront debe habilitar la configuración Registrar tiempo directamente en proyectos en [!UICONTROL **Hoja de horas y horas** ]> [!UICONTROL **Preferencias**], si desea registrar el tiempo directamente en un proyecto.
+* El administrador de Workfront debe habilitar la configuración Registrar tiempo directamente en proyectos en [!UICONTROL **Hoja de horas y horas**]> [!UICONTROL **Preferencias**], si desea registrar el tiempo directamente en un proyecto.
 
-   Para obtener más información sobre cómo permitir que los usuarios registren horas directamente en los proyectos, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Para obtener más información sobre cómo permitir que los usuarios registren horas directamente en los proyectos, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o problema:
 
@@ -391,7 +399,7 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
 
    * **Tipo de hora**: seleccione un Tipo de hora en el menú desplegable, si es diferente del que se muestra de forma predeterminada.
 
-      Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información sobre la configuración de tipos de horas, consulte [Definir tipos de horas y disponibilidad para hojas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información sobre la configuración de tipos de horas, consulte [Definir tipos de horas y disponibilidad para hojas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rol**: (Condicional) Si el administrador del grupo o de Workfront ha habilitado la variable **Asignar roles a entradas de horas manualmente** configuración, seleccione una **Rol** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le ha asignado una Función en el objeto, la Función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -422,16 +430,16 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 1. Especifique la siguiente información:
 
    * **Propietario:** Su nombre se muestra en este campo de forma predeterminada.\
-      Si registra las horas de otro usuario, especifique su nombre.
+     Si registra las horas de otro usuario, especifique su nombre.
 
    * **Horas**: introduzca el número de horas para el proyecto, la tarea o el problema.
    * **Tipo de hora**: seleccione un Tipo de hora en el menú desplegable, si es diferente del que se muestra de forma predeterminada.
 
-      Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información sobre la configuración de tipos de horas, consulte [Definir tipos de horas y disponibilidad para hojas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información sobre la configuración de tipos de horas, consulte [Definir tipos de horas y disponibilidad para hojas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rol**: (Condicional) Si el administrador del grupo o de Workfront ha habilitado la variable **Asignar roles a entradas de horas manualmente** configuración, seleccione una **Rol** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le ha asignado una Función en el objeto, la Función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
 1. Clic **Registrar horas**.
 

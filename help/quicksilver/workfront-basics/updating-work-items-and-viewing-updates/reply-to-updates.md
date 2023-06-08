@@ -6,7 +6,7 @@ description: Cuando alguien agrega o responde a una actualización de un objeto 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 >
 >* Problemas, <span class="preview">proyectos, tareas y documentos</span>.
 >
->  Esta opción está disponible al habilitar la experiencia de comentarios beta.
+>     Esta opción está disponible al habilitar la experiencia de comentarios beta.
 >
->  Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
 >
->  * Página de inicio
->  * Panel de resumen en listas
->  * Panel de resumen en plantillas de horas
+>     * Página de inicio
+>     * Panel de resumen en listas
+>     * Panel de resumen en plantillas de horas
 >
 >* Metas
 >

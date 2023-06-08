@@ -6,9 +6,9 @@ description: Puede organizar el tipo de problemas o solicitudes que se registran
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Licencia de Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Resumen de licencias</a>*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Administración de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
@@ -50,15 +52,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Antes de empezar, debe
+Antes de empezar, debe hacer lo siguiente:
 
 * Tener o crear un proyecto
 
-   Para obtener información sobre la creación de proyectos, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+  Para obtener información sobre la creación de proyectos, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Consideraciones sobre los tipos de solicitud
 
-* Puede especificar el tipo de problemas o solicitudes que se pueden registrar en un proyecto al configurar el **Detalles de cola** para el proyecto.
+* Puede especificar el tipo de problemas o solicitudes que se pueden registrar en un proyecto al configurar el **Detalles de cola** para el proyecto.
 * No es necesario habilitar el proyecto para que sea una cola de solicitudes y poder definir los tipos de solicitudes de un proyecto. Cualquier problema registrado para un proyecto puede etiquetarse con un tipo de solicitud diferente.
 * Si agrega Temas de colas al proyecto, debe definir Tipos de solicitudes en cada tema de la cola para mostrarlo al agregar un nuevo problema o solicitud. Para obtener más información, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
