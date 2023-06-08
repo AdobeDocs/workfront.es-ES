@@ -3,24 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Impedir la suplantación y añadir [!DNL Adobe Workfront] Registros SPF
-description: Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros SPF en el cortafuegos. Debe trabajar con su equipo de TI para agregar registros SPF.
+title: Evite la suplantación y añada [!DNL Adobe Workfront] Registros de SPF
+description: Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros de SPF en el cortafuegos. Debe trabajar con su equipo de TI para añadir registros SPF.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# Impedir la suplantación y añadir [!DNL Adobe Workfront] Registros SPF
+# Evite la suplantación y añada [!DNL Adobe Workfront] Registros de SPF
 
 ## Problema
 
-Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros SPF en el cortafuegos. Debe trabajar con su equipo de TI para agregar registros SPF.
+Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros de SPF en el cortafuegos. Debe trabajar con su equipo de TI para añadir registros SPF.
 
 ## Requisitos de acceso
 
@@ -40,36 +40,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser [!DNL Workfront] administrador. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser un [!DNL Workfront] administrador. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Solución
 
-Si ya ha añadido las direcciones IP a la lista de permitidos para su entorno de producción, tal como se describe en [Configurar la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) y los usuarios siguen sin recibir correos electrónicos:
+Si ya agregó las direcciones IP a la lista de permitidos para el entorno de producción como se describe en [Configuración de la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) y los usuarios de siguen sin recibir correos electrónicos:
 
-1. Agregue el siguiente registro SPF a su cortafuegos:
+1. Añada el siguiente registro SPF al cortafuegos:
 
    *spf.workfront.com*
 
-   Esto agrega automáticamente todo [!DNL Workfront] Direcciones IP a la lista de permitidos en el cortafuegos y permite que todos los filtros de correo no deseado (que utilizan registros SPF) validen [!DNL Workfront] como remitentes válidos para su dominio.
+   Esto agrega automáticamente todo [!DNL Workfront] Direcciones IP a su lista de permitidos en su cortafuegos y permite que todos los filtros de spam (que utilizan registros SPF) validen [!DNL Workfront] como remitentes válidos para su dominio.
 
    >[!NOTE]
    >
-   > Un registro SPF es un registro TXT que forma parte de un archivo de zona DNS. No se admite la modificación del archivo de zona DNS.
+   > Un registro SPF es un registro TXT que forma parte de un archivo de zona DNS. No admitimos la modificación del archivo de zona DNS.
 
-1. Debe especificar qué tipo de registro SPF debe configurarse. Estos son los tipos válidos de registros SPF:
+1. Debe especificar qué tipo de registro SPF se debe configurar. Estos son los tipos válidos de registros SPF:
 
-   * todos (https://dmarcian.com/spf-syntax-table/#all)
+   * todo (https://dmarcian.com/spf-syntax-table/#all)
    * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
    * ip6 (https://dmarcian.com/spf-syntax-table/#ip6)
    * a (https://dmarcian.com/spf-syntax-table/#a)
    * mx (https://dmarcian.com/spf-syntax-table/#mx)
    * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
    * existe (https://dmarcian.com/spf-syntax-table/#exists)
-   * incluir (https://dmarcian.com/spf-syntax-table/#include)
+   * include (https://dmarcian.com/spf-syntax-table/#include)
 
-   Por ejemplo, &quot;v=spf1 un mx incluye: [spf.workfront.com](http://spf.workfront.com/) -all&quot;
+   Por ejemplo, &quot;v=spf1 a mx include: spf.workfront.com -all&quot;
 
-Si no puede agregar registros SPF al cortafuegos debido a la directiva de la empresa, trabaje con su [!DNL Workfront] Representante de apoyo.
+Si no puede añadir registros SPF al cortafuegos debido a la directiva de la empresa, colabore con su [!DNL Workfront] Representante de asistencia.

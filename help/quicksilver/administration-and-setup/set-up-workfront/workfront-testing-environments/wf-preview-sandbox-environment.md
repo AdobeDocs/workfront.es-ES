@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,7 @@ Para acceder a la zona protegida de vista previa:
 
 #### Acceder a la vista previa de espacio aislado para cuentas en el clúster 1, 2, 3 y 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-Históricamente, se accedía a la Vista previa de espacio aislado accediendo a [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-Esta URL ya no es compatible y no se ha redirigido a la nueva URL para el entorno de vista previa de espacio aislado. La nueva dirección URL correcta para la zona protegida de vista previa es: [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+La URL de la zona protegida de vista previa es: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ Esta URL ya no es compatible y no se ha redirigido a la nueva URL para el entorn
 
 Para iniciar sesión en la zona protegida de vista previa con una dirección URL:
 
-1. Vaya a esta dirección URL: [[!DNL https]://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. Vaya a esta dirección URL: `https://companyname.preview.workfront.com/`.
 
    Si es cliente de EMEA y su cuenta se encuentra en el clúster 4, consulte la sección [Acceso a la Vista Previa de la Zona Protegida para Cuentas en el Cluster 4 (Cuentas EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) en este artículo.
 
