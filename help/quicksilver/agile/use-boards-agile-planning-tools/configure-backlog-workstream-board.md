@@ -2,20 +2,26 @@
 filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
-title: Configuración del trabajo pendiente en un tablero de flujos de trabajo
-description: Puede elegir mostrar una columna de trabajo pendiente en un tablero en un flujo de trabajo y definir una consulta para las tarjetas que se arrastran al trabajo acumulado del tablero desde la lista de tarjetas del flujo de trabajo.
+title: Configurar el registro de pendientes en una placa de flujo de trabajo
+description: Puede elegir mostrar una columna de registro de pendientes en un tablero de un flujo de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas del flujo de trabajo.
 author: Lisa
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
+source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Configuración del trabajo pendiente en un tablero de flujos de trabajo
+# Configurar el registro de pendientes en una placa de flujo de trabajo
 
-Puede elegir mostrar una columna de trabajo pendiente en un tablero en un flujo de trabajo y definir una consulta para las tarjetas que se arrastran al trabajo acumulado del tablero desde la lista de tarjetas del flujo de trabajo. Estas opciones no están disponibles en tableros independientes. Para obtener información sobre cómo agregar una columna de admisión a un tablero independiente, consulte [Agregar una columna de admisión a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Puede elegir mostrar una columna de registro de pendientes en un tablero de un flujo de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas del flujo de trabajo.
+
+>[!NOTE]
+>
+>Si agrega una tarjeta nueva en la columna de registro de pendientes que no coincide con los criterios de consulta, la tarjeta desaparecerá del registro de asuntos pendientes cuando se actualice el tablero y solo estará disponible en la lista de tarjetas. Puede cambiar la consulta en cualquier momento para ajustar qué tarjetas aparecen en la columna de registro de pendientes.
+
+La columna de registro de pendientes y la consulta no están disponibles en tableros independientes. Para obtener información sobre cómo añadir una columna de entrada a un tablero independiente, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisitos de acceso
 
@@ -40,43 +46,43 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Configuración del trabajo pendiente en un tablero de flujos de trabajo
+## Configurar el registro de pendientes en una placa de flujo de trabajo
 
 {{step1-to-boards}}
 
 1. Abra el flujo de trabajo en el que desee trabajar. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
 1. Haga clic en cualquier tablero del flujo de trabajo para abrirlo.
-1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar .
-1. Activar [!UICONTROL **Incluir una columna de trabajo pendiente en este tablero**].
+1. Clic [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
+1. Activar [!UICONTROL **Incluir una columna de registro de pendientes en este tablero**].
 
-   La columna de trabajo atrasado se agrega a la izquierda del tablero. Permanecerá en blanco hasta que se le aplique una consulta.
+   La columna de registro de pendientes se agrega a la izquierda del tablero. Permanece en blanco hasta que se le aplica una consulta.
 
-1. Expandir [!UICONTROL **Consulta de atrasos**].
+1. Expandir [!UICONTROL **Consulta de trabajo pendiente**].
 
    >[!NOTE]
    >
-   >Es posible que ya se haya aplicado una consulta predeterminada al registro acumulado, que muestra todos los elementos de trabajo de la lista de tarjetas que no pertenecen a una iteración y que no están en estado Complete .
+   >Es posible que ya se haya aplicado una consulta predeterminada al registro de pendientes, que muestre todos los elementos de trabajo de la lista de tarjetas que tienen un estado y el estado no es Completo.
 
-1. Haga clic en [!UICONTROL **Añadir condición**] y haga clic en el campo &quot;vacío&quot;.
+1. Clic [!UICONTROL **Añadir condición**] y haga clic en el campo &quot;empty&quot;.
 1. Seleccione el campo por el que desea realizar la consulta.
 
-   Los campos entre los que puede elegir son los campos predeterminados de una tarjeta.
+   Los campos que puede elegir son los campos predeterminados de una tarjeta.
 
 1. Seleccione el modificador de consulta.
 
-   Las opciones del modificador dependen de los campos a los que se puedan aplicar. Por ejemplo, el campo &quot;nombre&quot; no tiene &quot;bueno que&quot; o &quot;menor que&quot; como opciones modificadoras porque esos modificadores solo se aplican a los números.
+   Las opciones del modificador dependen de los campos a los que se puedan aplicar. Por ejemplo, el campo &quot;nombre&quot; no tiene como modificadores &quot;bueno que&quot; o &quot;menor que&quot; porque estos modificadores sólo se aplican a números.
 
-1. Seleccione el valor .
+1. Seleccione el valor.
 
-   El valor no está disponible cuando se usa &quot;existe&quot; o &quot;no existe&quot; como modificador.
+   El valor no está disponible cuando se utiliza &quot;existe&quot; o &quot;no existe&quot; como modificador.
 
-   Por ejemplo, si elige &quot;Fecha de vencimiento&quot; y &quot;existe&quot;, el registro de atrasos mostrará tarjetas con fechas de vencimiento asignadas. Las tarjetas sin fecha de vencimiento no se arrastrarán al registro acumulado.
+   Por ejemplo, si elige &quot;Fecha de vencimiento&quot; y &quot;existe&quot;, el registro de pendientes mostrará las tarjetas con fechas de vencimiento asignadas. Las tarjetas que no tengan fecha de vencimiento no se incluirán en el registro de pendientes.
 
 1. (Opcional) Haga clic en [!UICONTROL **Añadir condición**] para agregar otra condición a la consulta.
 
    ![Consulta de Registro de asuntos pendientes](assets/backlog-query-wrkstrm-board.png)
 
-1. (Opcional) Haga clic en [!UICONTROL **Crear grupo**] para añadir un grupo de condiciones conectadas a la primera condición con un operador OR.
-1. Haga clic en [!UICONTROL **Guardar consulta**].
+1. (Opcional) Haga clic en [!UICONTROL **Crear grupo**] para agregar un grupo de condiciones conectadas a la primera condición con un operador OR.
+1. Clic [!UICONTROL **Guardar consulta**].
 
-   La consulta se aplica y las tarjetas que cumplen los criterios aparecen en la columna de &quot;backlog&quot;.
+   La consulta se aplica y las tarjetas que cumplen los criterios aparecen en la columna registro de pendientes.
