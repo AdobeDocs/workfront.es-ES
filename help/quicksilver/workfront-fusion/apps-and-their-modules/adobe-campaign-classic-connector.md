@@ -2,14 +2,14 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Adobe Campaign Classic
-description: Con la variable [!DNL Adobe Campaign Classic] , puede iniciar un [!DNL Adobe Workfront Fusion] escenario basado en los eventos del [!DNL Adobe Campaign Classic] cuenta, cree, lea o actualice acuerdos y otros registros, busque registros usando los criterios establecidos y cargue documentos.
+description: Con el [!DNL Adobe Campaign Classic] módulos, puede iniciar un [!DNL Adobe Workfront Fusion] según los eventos de su [!DNL Adobe Campaign Classic] crear, leer o actualizar acuerdos y otros registros, buscar registros con los criterios definidos y cargar documentos.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 482725764ede6b2700985fa67dc2cb9f92d3bb12
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # [!DNL Adobe Campaign Classic] módulos
 
-Con la variable [!DNL Adobe Campaign Classic] , puede iniciar un [!DNL Adobe Workfront Fusion] escenario basado en los eventos del [!DNL Adobe Campaign Classic] cuenta, cree, lea o actualice registros, busque registros con los criterios establecidos y realice llamadas API personalizadas.
+Con el [!DNL Adobe Campaign Classic] módulos, puede iniciar un [!DNL Adobe Workfront Fusion] según los eventos de su [!DNL Adobe Campaign Classic] Cuenta de, crear, leer o actualizar registros, buscar registros con los criterios establecidos y realizar llamadas de API personalizadas.
 
 ## Requisitos de acceso
 
@@ -34,15 +34,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,18 +51,18 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connect [!DNL Adobe Campaign Classic] a [!DNL Adobe Workfront Fusion]
+## Connect [!DNL Adobe Campaign Classic] hasta [!DNL Adobe Workfront Fusion]
 
-1. En cualquier [!DNL Adobe Campaign Classic] módulo, haga clic en **[!UICONTROL Agregar]** junto a la variable [!UICONTROL Conexión] campo .
-1. Introduzca la dirección URL base que utiliza para conectarse a su [!DNL Adobe Campaign Classic] instancia.
+1. En cualquier [!DNL Adobe Campaign Classic] , haga clic en **[!UICONTROL Añadir]** junto al [!UICONTROL Conexión] field.
+1. Introduzca la URL base que utiliza para conectarse a su [!DNL Adobe Campaign Classic] ejemplo.
 1. Introduzca su nombre de usuario y contraseña.
-1. Haga clic en **[!UICONTROL Continuar]** para crear la conexión y volver al módulo .
+1. Clic **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
 
 ## [!DNL Adobe Campaign Classic] módulos y sus campos
 
-Al configurar [!DNL Adobe Campaign Classic] módulos, [!DNL Workfront Fusion] muestra los campos que se enumeran a continuación. Además de estos, se incluyen [!DNL Adobe Campaign Classic] pueden mostrarse los campos, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Adobe Campaign Classic] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Adobe Campaign Classic] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón de asignación encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -72,7 +72,7 @@ Si ve el botón de asignación encima de un campo o función, puede utilizarlo p
 
 ### Déclencheur
 
-#### [!UICONTROL Registros de Watch]
+#### [!UICONTROL Ver registros]
 
 Este módulo de déclencheur programado inicia un escenario cuando cambia un registro.
 
@@ -81,19 +81,19 @@ Este módulo de déclencheur programado inicia un escenario cuando cambia un reg
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtro]</td> 
-   <td>Seleccione si desea buscar registros nuevos, registros actualizados o ambos.</td> 
+   <td>Seleccione si desea inspeccionar registros nuevos, registros actualizados o ambos.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
-   <td>Seleccione el recurso que desea buscar.</td> 
+   <td>Seleccione el recurso que desea inspeccionar.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fields para incluir en la salida]</td> 
+   <td role="rowheader">[!UICONTROL Campos que se incluirán en la salida]</td> 
    <td>Seleccione los campos que desea incluir en la salida del módulo.</td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Este módulo de déclencheur programado inicia un escenario cuando cambia un reg
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de resultados devueltos]</td> 
-   <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td> 
+   <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,15 +110,15 @@ Este módulo de déclencheur programado inicia un escenario cuando cambia un reg
 
 ### Acciones
 
-* [[!UICONTROL Crear un registro]](#create-a-record)
-* [[!UICONTROL Realizar una llamada API personalizada]](#make-a-custom-api-call)
-* [[!UICONTROL Eliminar un registro]](#delete-record)
+* [[!UICONTROL Creación de un registro]](#create-a-record)
+* [[!UICONTROL Realizar una llamada de API personalizada]](#make-a-custom-api-call)
+* [[!UICONTROL Eliminación de un registro]](#delete-record)
 * [[!UICONTROL Realizar una acción]](#perform-an-action)
 * [[!UICONTROL Leer un registro]](#-read-a-record)
 * [[!UICONTROL Suscribirse o cancelar la suscripción]](#subscribe-or-unsubscribe)
-* [[!UICONTROL Actualizar un registro]](#update-record)
+* [[!UICONTROL Actualización de un registro]](#update-record)
 
-#### [!UICONTROL Crear un registro]
+#### [!UICONTROL Creación de un registro]
 
 Este módulo de acción crea un nuevo registro en [!DNL Adobe Campaign Classic].
 
@@ -127,15 +127,15 @@ Este módulo de acción crea un nuevo registro en [!DNL Adobe Campaign Classic].
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
    <td>Seleccione el tipo de [!DNL Adobe Campaign Classic] registro que desea crear.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fields] </td> 
+   <td role="rowheader">[!UICONTROL Campos] </td> 
    <td>Seleccione los campos para los que desea establecer valores cuando se cree el registro y, a continuación, rellene los valores de esos campos. Los campos varían según el tipo de registro seleccionado.</td> 
   </tr> 
   <tr> 
@@ -145,23 +145,23 @@ Este módulo de acción crea un nuevo registro en [!DNL Adobe Campaign Classic].
  </tbody> 
 </table>
 
-#### [!UICONTROL Realizar una llamada API personalizada]
+#### [!UICONTROL Realizar una llamada de API personalizada]
 
-Este módulo realiza una llamada API personalizada a la variable [!DNL Adobe Campaign Classic] API
+Este módulo realiza una llamada de API personalizada a [!DNL Adobe Campaign Classic] API
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Action]</td>
+      <td role="rowheader">[!UICONTROL Acción]</td>
       <td><p>Seleccione la acción que desea que realice la llamada de API.</p>
       <p>[!UICONTROL Ejecutar consulta]</p>
-      <p>[!UICONTROL Escritura]</p>
+      <p>[!UICONTROL Write]</p>
       <p>[!UICONTROL Obtener entidad si es más reciente]</p>
       <p>[!UICONTROL Seleccionar todo]</p>
       <p>[!UICONTROL Push event]</p>
@@ -172,26 +172,26 @@ Este módulo realiza una llamada API personalizada a la variable [!DNL Adobe Cam
       <td>
         <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p>
         <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] agrega automáticamente el encabezado del token [!UICONTROL x-security].</p>
+        <p>[!DNL Workfront Fusion] agrega automáticamente el encabezado de token de [!UICONTROL x-security].</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL XML Body]</td>
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en XML, sin el elemento de sesión. </td>     </tr>
+      <td role="rowheader">Cuerpo XML de [!UICONTROL]</td>
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en XML, sin el elemento session. </td>     </tr>
   </tbody>
 </table>
 
 #### [!UICONTROL Eliminar registro]
 
-Este módulo de acción elimina un registro único de [!DNL Adobe Campaign Classic].
+Este módulo de acción elimina un único registro de [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
@@ -207,7 +207,7 @@ Este módulo de acción elimina un registro único de [!DNL Adobe Campaign Class
 
 #### [!UICONTROL Realizar una acción]
 
-Este módulo de acción realiza una acción seleccionada en un objeto de [!DNL Adobe Campaign Classic] API.
+Este módulo de acción realiza una acción seleccionada en un objeto del [!DNL Adobe Campaign Classic] API.
 
 Para obtener información sobre acciones y campos específicos, consulte [[!DNL Adobe Campaign] - Documentación de API](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -216,17 +216,17 @@ Para obtener información sobre acciones y campos específicos, consulte [[!DNL 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Action]</td> 
+   <td role="rowheader">[!UICONTROL Acción]</td> 
    <td><p>Seleccione la acción que se realizará en el objeto.</p>
    <ul>
    <li><p><b>[!DNL List]</b></p><p> Para ver los campos disponibles, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Buscar]</a> en este artículo. </p></li>
      <li><p><b>[!UICONTROL Get]</b></p><p> Para ver los campos disponibles, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Buscar]</a> en este artículo. </p></li> 
    <li><p><b>[!UICONTROL Crear]</b></p><p> Para ver los campos disponibles, consulte <a href="#create-a-record" class="MCXref xref" >[!UICONTROL Crear un registro]</a> en este artículo. </p></li>
-   <li><p><b>[!UICONTROL Update]</b></p><p> Para ver los campos disponibles, consulte <a href="#update-record" class="MCXref xref" >[!UICONTROL Actualizar un registro]</a> en este artículo. </p></li>
+   <li><p><b>[!UICONTROL Actualización]</b></p><p> Para ver los campos disponibles, consulte <a href="#update-record" class="MCXref xref" >[!UICONTROL Actualizar un registro]</a> en este artículo. </p></li>
    <li><p><b>[!UICONTROL Eliminar]</b></p><p> Para ver los campos disponibles, consulte <a href="#delete-record" class="MCXref xref" >[!UICONTROL Eliminar un registro]</a> en este artículo. </p></li>
    </ul>
    </td>
@@ -243,8 +243,8 @@ Este módulo de acción lee un registro de [!DNL Adobe Campaign Classic].
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
@@ -252,10 +252,10 @@ Este módulo de acción lee un registro de [!DNL Adobe Campaign Classic].
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
-   <td>Introduzca la asignación del ID del registro que desea leer.</td> 
+   <td>Introduzca del mapa el ID del registro que desea leer.</td> 
   </tr> 
  <tr> 
-   <td role="rowheader">[!UICONTROL Fields para incluir en la salida] </td> 
+   <td role="rowheader">[!UICONTROL Campos que se incluirán en la salida] </td> 
    <td>Seleccione los campos que desea incluir en la salida del módulo.</td> 
   </tr> 
   <tr> 
@@ -275,35 +275,35 @@ Este módulo de acción suscribe o cancela la suscripción de un usuario a un se
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Suscribirse o cancelar la suscripción]</td> 
    <td>Seleccione si desea suscribirse o darse de baja del servicio informativo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Service name]</td> 
-   <td>Seleccione el servicio al que desee suscribirse o cancelar la suscripción.</td> 
+   <td role="rowheader">[!UICONTROL Nombre de servicio]</td> 
+   <td>Seleccione el servicio al que desea suscribirse o cancelar la suscripción.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dirección de correo electrónico del destinatario] </td> 
-   <td>Introduzca o asigne la dirección de correo electrónico del usuario al que desea suscribirse o darse de baja del servicio informativo.</td> 
+   <td>Introduzca o asigne la dirección de correo electrónico del usuario al que desea suscribirse o cancelar la suscripción al servicio informativo.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Actualizar registro]
 
-Este módulo de acción actualiza un registro único de [!DNL Adobe Campaign Classic].
+Este módulo de acción actualiza un único registro en [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
@@ -311,11 +311,11 @@ Este módulo de acción actualiza un registro único de [!DNL Adobe Campaign Cla
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
-   <td>Introduzca la asignación del ID del registro que desea actualizar.</td> 
+   <td>Introduzca del mapa el ID del registro que desea actualizar.</td> 
   </tr> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Fields] </td> 
-   <td>Seleccione los campos para los que desea actualizar los valores y rellene los valores de dichos campos. Los campos varían según el tipo de registro seleccionado.</td> 
+   <td role="rowheader">[!UICONTROL Campos] </td> 
+   <td>Seleccione los campos para los que desea actualizar los valores y rellene los valores de esos campos. Los campos varían según el tipo de registro seleccionado.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos personalizados]</td> 
@@ -326,7 +326,7 @@ Este módulo de acción actualiza un registro único de [!DNL Adobe Campaign Cla
 
 ### Búsquedas
 
-#### [!UICONTROL Buscar]
+#### [!UICONTROL Búsqueda]
 
 Este módulo de búsqueda devuelve registros basados en los criterios especificados.
 
@@ -335,8 +335,8 @@ Este módulo de búsqueda devuelve registros basados en los criterios especifica
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Para obtener instrucciones sobre la creación de una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Crear una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td>
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign Classic], consulte <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Cree una conexión con [!DNL Adobe Campaign Classic]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
@@ -344,7 +344,7 @@ Este módulo de búsqueda devuelve registros basados en los criterios especifica
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Límite] </td> 
-   <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td> 
+   <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td> 
   </tr> 
  </tbody> 
 </table>
