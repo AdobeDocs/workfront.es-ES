@@ -6,10 +6,10 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,22 +27,20 @@ ht-degree: 1%
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
-   >
-   >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
-   >
-   >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
-   >
-   >     * Página de inicio
-   >     * Panel de resumen en listas
-   >     * Panel de resumen en plantillas de horas
+>
+>     Esta opción está disponible al habilitar la experiencia de comentarios beta.
+>
+>     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>
+>     * Página de inicio
+>     * Panel de resumen en listas
+>     * Panel de resumen en plantillas de horas
 >
 > * Metas
-
-   >
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Puede agregar comentarios a la mayoría de los objetos de Adobe Workfront en la sección Actualizaciones. Para obtener más información sobre los objetos que muestran la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ El **Comentarios** está seleccionada de forma predeterminada.
    >
    >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se agreguen al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
+1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
+   * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
+   * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice cualquiera de las siguientes opciones de la **Texto enriquecido** barra de herramientas para mejorar el texto:
 
@@ -235,7 +236,6 @@ Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un
    >
    >* Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
    >* La marca de fecha que aparece junto al comentario es la fecha del comentario original, no la fecha de la última edición.
-
 
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos 4-7 anteriores. <!--(**************insure this stays accurate***********)-->. Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Actualizaciones, haga clic en **Ver** dentro del azul **titular de nuevos comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
@@ -296,7 +296,6 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Si su organización utiliza Workfront con Internet Explorer, cualquier texto con formato pegado en una actualización perderá su formato de texto enriquecido y se mostrará como texto sin formato. Puede cambiar el formato del texto mediante los atributos de la barra de herramientas Texto enriquecido.
    >* El formato de texto enriquecido no está disponible para las actualizaciones realizadas en el área Plantillas de horas ni para los objetos Nota y Última condición visualizados en un informe.
 
-
 1. (Opcional) Si desea incluir texto de actualizaciones anteriores o de otras fuentes y distinguirlo de su propia actualización, puede marcarlo como una cita en bloque. Haga clic en **Cita en bloque** icono ![](assets/block-quote-small.png) y escriba el texto que desee citar. El texto citado se muestra marcado con una línea gris vertical. Haga clic en **Cita en bloque** para volver al formato normal.
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Un emoji no admitido se representa mediante una caja negra o blanca.
    >* Windows 7 solo admite emojis en blanco y negro.
    >* Los emojis que se aplican a una actualización realizada por correo electrónico no se muestran en la actualización cuando se ven en el área de Actualizaciones.
-
 
 1. (Opcional) Para agregar un vínculo URL a fuentes de información adicionales:
 
@@ -338,11 +336,10 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos.
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, existen los siguientes escenarios en función de la experiencia que elija:
-      >
-      >     * En la experiencia actual de comentarios, la imagen permanece en el área de Documentos, pero ya no está visible en la sección de Actualizaciones.
-      >     * En la nueva experiencia de comentarios, la imagen se elimina de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
+   >
+   >     * En la experiencia actual de comentarios, la imagen permanece en el área de Documentos, pero ya no está visible en la sección de Actualizaciones.
+   >     * En la nueva experiencia de comentarios, la imagen se elimina de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
    >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.
-
 
 1. Clic **Actualizar**  o **Enviar**, al utilizar la experiencia de comentarios beta.
 
@@ -449,11 +446,11 @@ La sección Actualizaciones de un objeto de Workfront muestra dos tipos de infor
 
 * **Actualizaciones de usuarios:** Las actualizaciones de usuario son comentarios que usted y otros usuarios del sistema escriben.
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **Actualizaciones del sistema:** El sistema actualiza el registro eliminando recursos, añadiendo o eliminando versiones, adjuntando o eliminando una solicitud de aprobación, así como cualquier edición o cambio realizado en los documentos del objeto.
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 Según la licencia de Workfront, las actualizaciones del sistema podrían habilitarse de forma predeterminada. Los administradores de Workfront pueden determinar qué se rastrea en las actualizaciones del sistema, como se explica en [Actualizaciones rastreadas por el sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). También puede filtrar las actualizaciones del sistema o las actividades para ver solo las actualizaciones del usuario de todos los objetos.
 

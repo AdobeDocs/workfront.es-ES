@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Se abrirá la lista de metas.
    >
    >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se agreguen al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
+1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
+   * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
+   * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 1. (Opcional) Para agregar formato de texto enriquecido a la actualización, a un hipervínculo o a una imagen, utilice las opciones de la barra de herramientas Texto enriquecido o los iconos adyacentes. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Seleccione el **Privado para mi compañía** alterne para que el comentario solo sea visible para las personas de la compañía.
@@ -170,13 +173,12 @@ Puede editar su comentario en un plazo de 15 minutos a partir del envío. Se agr
    >
    > * La marca de fecha es la fecha del comentario original y no la fecha de la última actualización.
 
-
    1. (Opcional) Haga clic en **Más** menú ![](assets/more-icon.png)A continuación, haga clic en cualquiera de las siguientes opciones para copiar información de un comentario en el portapapeles:
 
       * **Copiar vínculo** para copiar el vínculo de una actualización, sin las respuestas.
       * **Copiar el texto del cuerpo** para copiar el texto de una actualización.
 
-         Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y haga clic en **Eliminar** para eliminar un comentario que ha agregado. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 5 al 9 anteriores. <!--insure this stays accurate-->
