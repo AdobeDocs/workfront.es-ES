@@ -3,26 +3,26 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Actividad de la versión de Workfront Fusion: Semana del 1 de febrero de 2021"'
-description: En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 1 de febrero de 2021.
+title: "Actividad de la versión de Workfront Fusion: Semana del 1 de febrero de 2021"
+description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 1 de febrero de 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Actividad de la versión de Workfront Fusion: semana del 1 de febrero de 2021
+# Actividad de la versión de Workfront Fusion: Semana del 1 de febrero de 2021
 
-En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 1 de febrero de 2021.
+Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 1 de febrero de 2021.
 
-Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -32,36 +32,40 @@ Para obtener una lista de las correcciones de errores recientes en Workfront Fus
 </div>
 -->
 
-## Ya están disponibles los módulos y el conector MariaDB
+## Ya están disponibles el conector y los módulos MariaDB
 
-Ahora puede usar Workfront Fusion para conectarse a su cuenta de MariaDB.
+Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de MariaDB.
 
 Con los módulos MariaDB, puede:
 
-* Ejecutar una consulta
-* Seleccionar filas de una tabla
+* Ejecución de una consulta
+* Selección de filas de una tabla
 
 Para obtener más información, consulte [Módulos MariaDB](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
-## Los módulos y conectores de Marketo ya están disponibles
+## Ya están disponibles el conector y los módulos de Marketo
 
-* Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de Marketo. Con el conector Marketo, puede
-* Déclencheur un escenario cuando se crea o actualiza un registro.
+* Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de Marketo. Con el conector de Marketo, puede
+* Almacenar en déclencheur un escenario cuando se crea o actualiza un registro.
 * Crear, leer o actualizar registros
-* Cargar o descargar archivos
+* Carga o descarga de archivos
 * Enumerar o buscar registros de un tipo determinado
-* Agregar posibles clientes a una lista o eliminarlos de ella
+* Agregar o quitar posibles clientes de una lista
 * Programar una campaña
 * Copiar un programa
-* Realizar una llamada API personalizada
+* Realizar una llamada de API personalizada
 
 Para obtener más información, consulte [Módulos de Marketo](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
-## Los módulos y conectores de Intacct ya están disponibles
+<!--
 
-Ahora puede utilizar Workfront Fusion 2.0 para conectarse a su cuenta de Intacct. Con los módulos Intacct puede:
+## Intacct connector and modules now available
 
-* Buscar recursos en función de los criterios especificados
-* Realice una llamada API personalizada.
+You can now use Workfront Fusion 2.0 to connect to your Intacct account. With the Intacct modules, you can:
 
-Para obtener más información, consulte [Módulos Intacct](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+* Search assets based on criteria you specify
+* Perform a custom API call.
+
+For more information see [Intacct modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+
+-->
