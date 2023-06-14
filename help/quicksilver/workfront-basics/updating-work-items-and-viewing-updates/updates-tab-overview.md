@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
-   >
-   >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
-   >
-   >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
-   >
-   >     * Página de inicio
-   >     * Panel de resumen en listas
-   >     * Panel de resumen en plantillas de horas
 >
-> * Metas
-
-   >
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Esta opción está disponible al habilitar la experiencia de comentarios beta.
+>
+>     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>
+>     * Página de inicio
+>     * Panel de resumen en listas
+>     * Panel de resumen en plantillas de horas
+>
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios realizan sobre el objeto o las actualizaciones del sistema que realizan un seguimiento de los cambios en el objeto.
 
@@ -124,6 +122,13 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 
