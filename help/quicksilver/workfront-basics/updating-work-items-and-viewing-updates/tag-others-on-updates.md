@@ -6,7 +6,7 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
 > * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
-   >
-   >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
-   >     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
-   >
-   >     * Página de inicio
-   >     * Panel de resumen en listas
-   >     * Panel de resumen en plantillas de horas
 >
-> * Metas
-
-   >
-   >   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Esta opción está disponible al habilitar la experiencia de comentarios beta.
+>
+>     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>
+>     * Página de inicio
+>     * Panel de resumen en listas
+>     * Panel de resumen en plantillas de horas
+>
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Puede etiquetar a los usuarios al realizar una actualización de un objeto si desea llamar su atención sobre un objeto que podrían no seguir de otra manera.
@@ -51,6 +50,7 @@ En lugar de incluir a esos usuarios en el objeto asignándolos a él o haciendo 
 >[!NOTE]
 >
 >El usuario debe habilitar una notificación personal en su perfil para poder recibir la notificación por correo electrónico. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Para obtener información sobre cómo agregar actualizaciones a objetos de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ Puede etiquetar a otros en las actualizaciones en la experiencia beta de comenta
    >
    >* Esta opción solo se muestra cuando el usuario está asociado a una Empresa.
    >* Los usuarios etiquetados fuera de la empresa podrían seguir recibiendo una notificación en la aplicación o un correo electrónico, aunque no vean los comentarios privados en la pestaña Actualizaciones. Se recomienda no etiquetar a los usuarios externos en una actualización si no desea compartir la información con ellos.
-
 
 1. (Opcional) Para agregar varios usuarios y equipos, repita el paso 2. <!--insure this stays accurate-->
 

@@ -6,9 +6,9 @@ description: Actualmente se está desarrollando una actualización de la experie
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,22 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </tr>
   <tr>
  <tr>
-   <td>Texto enriquecido (comillas y emojis)
+   <td>Texto enriquecido (citas de bloque)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> SEGUNDO TRIMESTRE DE 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Citar comentarios
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
   </tr>
   <tr>
-
-<td>Reaccionar a los comentarios (Me gusta) 
+   <td>Reaccionar a los comentarios (Me gusta) 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ La nueva experiencia de comentarios es compatible actualmente con los siguientes
 * Al habilitar la experiencia Beta en la sección Actualizaciones:
 
    * Problemas, <span class="preview">proyectos, tareas y documentos</span>
-   Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * De forma predeterminada, como experiencia de comentarios principal:
 
    * Metas
-   >[!NOTE]
-   >
-   >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   Para obtener más información sobre la administración de actualizaciones para los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  Para obtener más información sobre la administración de actualizaciones para los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Para habilitar la nueva experiencia de comentarios beta:

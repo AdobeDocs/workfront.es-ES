@@ -6,9 +6,9 @@ description: Revise la actividad de lanzamiento semanal de la nueva experiencia 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ Para obtener información general sobre la nueva experiencia de comentarios beta
 
 Las siguientes secciones enumeran las funciones que se han añadido después de la versión original, empezando por las que se han lanzado más recientemente.
 
-## Semana del 13 de junio de 2023
+## Semana del 12 de junio de 2023
+
+### Nueva experiencia de comentarios beta para tarjetas en el área de Tableros
+
+La nueva experiencia de comentarios beta ya está disponible para tarjetas en el área de Tableros. Para obtener más información, consulte [Información general de la versión 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Vista previa: 15 de junio de 2023
+
+Lanzamiento de producción para la inclusión temprana: 22 de junio de 2023
+
+Producción para todos los clientes: con la versión 23.3
+
+### Añadir citas de bloque a un comentario
+
+Ahora puede agregar comillas de bloque a un comentario mediante la opción de barra de herramientas Texto enriquecido en la nueva experiencia de comentario beta.
+
+Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Vista previa: 14 de junio de 2023
+
+Producción: 15 de junio de 2023
 
 ### Experiencia mejorada al editar comentarios
 

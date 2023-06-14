@@ -6,7 +6,7 @@ description: Cuando alguien agrega o responde a una actualización de un objeto 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -26,8 +26,7 @@ ht-degree: 0%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
->
->* Problemas, <span class="preview">proyectos, tareas y documentos</span>.
+> * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
 >
 >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
 >
@@ -37,11 +36,11 @@ ht-degree: 0%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
->* Metas
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->  La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->  Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Cuando alguien responde a un comentario o a una actualización del sistema de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto.
 

@@ -6,10 +6,10 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3211'
+ht-degree: 1%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
-> * Metas
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   La nueva experiencia de comentarios es la predeterminada para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos: ⌘+K</br> <br>En la experiencia beta de comentarios, para pegar un vínculo sobre el texto seleccionado: ⌘+V</br> | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos: Ctrl + K</br> <br>En la experiencia beta de comentarios, para pegar un vínculo sobre el texto seleccionado: Ctrl+V</br> |
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Mayús + 7 | Ctrl + Mayús + 7 |
-   | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | ⌘ + Mayús + 9 | Ctrl + Mayús + 9 |
+   | Cita en bloqueo | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘ + Mayús + 9 | Ctrl + Mayús + 9 |
 
    Para detener el formato del texto, anule la selección del atributo en la **Texto enriquecido** barra de herramientas.
 
