@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
-> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
 >
->   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentarios es la única experiencia para objetivos <span class="preview">y tarjetas</span>. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Puede agregar comentarios a la mayoría de los objetos de Adobe Workfront en la sección Actualizaciones. Para obtener más información sobre los objetos que muestran la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ La adición de una actualización a un elemento de trabajo difiere según la ver
 
 >[!NOTE]
 >
->La siguiente funcionalidad está disponible para todos los objetos excepto para los objetivos. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>La siguiente funcionalidad está disponible para todos los objetos, excepto para los objetivos y las tarjetas. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Vaya al elemento de trabajo para el que desea proporcionar una actualización (como un proyecto, tarea o problema).
 1. Haga clic en **Actualizaciones** sección.
@@ -283,7 +285,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos: ⌘+K</br> <br>En la experiencia beta de comentarios, para pegar un vínculo sobre el texto seleccionado: ⌘+V</br> | <br>Para abrir el cuadro Crear vínculos o Agregar vínculos: Ctrl + K</br> <br>En la experiencia beta de comentarios, para pegar un vínculo sobre el texto seleccionado: Ctrl+V</br> |
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Mayús + 7 | Ctrl + Mayús + 7 |
-   | Cita en bloqueo | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘ + Mayús + 9 | Ctrl + Mayús + 9 |
+   | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | ⌘ + Mayús + 9 | Ctrl + Mayús + 9 |
 
    Para detener el formato del texto, anule la selección del atributo en la **Texto enriquecido** barra de herramientas.
 
@@ -346,20 +348,17 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 
 ## Copiar información de actualización
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Existen varias formas de copiar una actualización. Después de copiar un vínculo, puede compartirlo con otras personas para dirigirlas a la actualización.
+
+La copia de una actualización varía en función de la experiencia de comentario que utilice.
+
+### Copiar una actualización en la experiencia actual de comentarios
 
 * [Copiar la actualización](#copy-the-update)
 * [Copiar el vínculo del hilo](#copy-the-thread-link)
 * [Copiar el vínculo de actualización](#copy-the-update-link)
 
-### Copiar la actualización {#copy-the-update}
+#### Copiar la actualización {#copy-the-update}
 
 Esta opción copia el texto de una actualización específica en el portapapeles.
 
@@ -368,24 +367,47 @@ Esta opción copia el texto de una actualización específica en el portapapeles
 
    ![Seleccione Copiar texto del cuerpo](assets/update-stream-copy-body-text-350x152.png)
 
-### Copiar el vínculo del hilo {#copy-the-thread-link}
+#### Copiar el vínculo del hilo {#copy-the-thread-link}
 
 Esta opción copia el enlace del hilo completo en el portapapeles para que pueda compartir el hilo con otros usuarios.
 
 1. Vaya al hilo de actualización que desee copiar.
 
-1. Haga clic en **Más** y haga clic en **Copiar vínculo del hilo** o **Copiar vínculo**, al usar la experiencia Beta.
+1. Haga clic en **Más** y haga clic en **Copiar vínculo del hilo**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copiar el vínculo de actualización {#copy-the-update-link}
+#### Copiar el vínculo de actualización {#copy-the-update-link}
 
 Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
 
 1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** junto a la actualización individual y haga clic en **Copiar vínculo de actualización** o **Copiar vínculo**, al usar la experiencia Beta.
+1. Haga clic en **Más** junto a la actualización individual y haga clic en **Copiar vínculo de actualización**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copiar una actualización en la nueva experiencia de comentarios
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copiar vínculo](#copy-link)
+* [Copiar el texto del cuerpo](#copy-body-text)
+
+#### Copiar vínculo
+
+Esta opción copia el comentario o el vínculo de subproceso en el portapapeles para que pueda compartir el comentario o todo el subproceso con otros usuarios.
+
+1. Vaya a la actualización cuyo vínculo desee copiar.
+
+1. Haga clic en **Más** y haga clic en **Copiar vínculo**.
+
+#### Copiar el texto del cuerpo
+
+Esta opción copia el texto de una actualización específica en el portapapeles.
+
+1. Vaya a la actualización o respuesta que desee copiar.
+1. Haga clic en **Más** y haga clic en **Copiar el texto del cuerpo**.
 
 ## Eliminar una actualización o respuesta
 

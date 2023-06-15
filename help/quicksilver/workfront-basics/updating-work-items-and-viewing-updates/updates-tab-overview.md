@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
-> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
 >
->   La nueva experiencia de comentarios es la predeterminada para los objetivos <!--<span class="preview">and cards</span>-->. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentarios es la única experiencia para objetivos <span class="preview">y tarjetas</span>. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios realizan sobre el objeto o las actualizaciones del sistema que realizan un seguimiento de los cambios en el objeto.
 
@@ -84,7 +84,7 @@ La sección Actualizaciones se muestra para los siguientes objetos:
      <li>Plantillas</li> 
      <li>Tareas de plantilla</li> 
      <li>Plantillas de horas</li> 
-     <li>Usuarios</li> 
+     <li>Usuarios</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ La sección Actualizaciones muestra información en las siguientes pestañas de 
 * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Actualmente, puede agregar comentarios y responder a actualizaciones utilizando la experiencia de comentarios beta en los siguientes objetos:
+Actualmente, puede agregar comentarios y responder a actualizaciones utilizando la nueva experiencia de comentarios en los siguientes objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
    <td> 
     <ul> 
      <li><p>Metas</p>
-     <p>Esta es la experiencia predeterminada para los objetivos</p>
+     <li><span class="preview">Tarjetas en el área de Tableros</span></li>
+      Esta es la única experiencia para los objetivos <span class="preview">y tarjetas</span>.
      </li> 
      <li><span class="preview">Proyectos</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Problemas</li> 
@@ -123,12 +124,10 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 

@@ -6,9 +6,9 @@ description: Actualmente se está desarrollando una actualización de la experie
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ La nueva experiencia de comentarios incluye mejoras y cambios en el flujo de act
 Entre las mejoras incluidas en la nueva experiencia de comentarios están las siguientes:
 
 * Rendimiento y experiencia de usuario mejorados
-* Separación de los comentarios del usuario de las actualizaciones de actividad del sistema.
+* Separación de los comentarios del usuario de las actualizaciones de actividad del sistema
 * Indicador de tiempo real cuando se añaden nuevos comentarios a un objeto
-* Edición de comentarios después de enviarlos.
+* Edición de comentarios después de enviarlos
 
 Se han eliminado las siguientes funciones de la nueva experiencia:
 
-* Comentario sobre una actualización del sistema.
+* Comentario sobre una actualización del sistema
+* Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
+* Editar formulario personalizado
 
 La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de comentarios, así como su disponibilidad en áreas en las que son compatibles:
 
@@ -295,7 +297,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </tr>
 </table>
 
-## Nueva actividad de comentario en la versión de la experiencia beta
+## Cronología de versiones
 
-Para obtener más información sobre las funciones lanzadas recientemente, consulte [Nueva actividad de la versión de la experiencia beta de comentarios](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Para obtener información sobre las funciones lanzadas recientemente a la nueva experiencia de comentarios, así como una cronología de la versión, consulte [Nueva actividad de la versión de la experiencia beta de comentarios](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Busque la nueva experiencia de comentarios
 
@@ -423,21 +425,18 @@ La nueva experiencia de comentarios es compatible actualmente con los siguientes
 
 * Al habilitar la experiencia Beta en la sección Actualizaciones:
 
-   * Problemas, <span class="preview">proyectos, tareas y documentos</span>
+   * Problemas, <span class="preview">proyectos, tareas, artículos y documentos</span>
 
   Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * De forma predeterminada, como experiencia de comentarios principal:
 
-   * Metas
+   * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
 
   >[!NOTE]
   >
   >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  Para obtener más información sobre la administración de actualizaciones para los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 Para habilitar la nueva experiencia de comentarios beta:
 
