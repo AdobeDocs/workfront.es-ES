@@ -2,7 +2,7 @@
 user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 feature-set: Workfront
-source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
+source-git-commit: a392ea004c8ab4a2d52bbdb650e21a2f182b8202
 workflow-type: tm+mt
 source-wordcount: '13078'
 ht-degree: 1%
@@ -1727,9 +1727,9 @@ ht-degree: 1%
       * [Recuperar aprobaciones enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Revisiones y aprobaciones de documentos {#document-reviews-and-approvals}
       * [Revisiones y aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * Administrar aprobaciones de documentos {#manage-document-approvals}
          * [Administrar aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-         * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [Crear una aprobación de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Agregar revisores o aprobadores adicionales a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Quitar aprobadores o revisores de un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

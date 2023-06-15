@@ -5,7 +5,7 @@ title: Aprobar un documento
 description: Si se le asigna como aprobador de un documento, puede tomar su decisión de aprobación de varias formas.
 author: Nolan
 feature: Work Management
-source-git-commit: 369a8564f44524d1abed57553435ce69c7c5e170
+source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -64,7 +64,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](../assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
 
-
 1. Clic **Filtros** en la parte superior izquierda de la página y asegúrese de que **Aprobaciones** está marcada.
 
    Todos los elementos de trabajo que requieren su aprobación se muestran en la lista.
@@ -82,6 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       * **Aprobar** indica que no se necesitan cambios para esta versión del documento y que se da la aprobación.
 
       * **Aprobar con cambios** indica que aún se requieren algunos cambios pequeños en el documento, pero la aprobación se da con la condición de que se realicen dichos cambios. Si selecciona esta opción, aparecerá una ventana que contiene un cuadro de texto denominado **Pasos siguientes** donde puede especificar qué cambios son necesarios para que se apruebe el documento. Puede introducir esa información y hacer clic en **Añadir mensaje**, o puede hacer clic en **Omitir** para enviar la decisión de aprobación sin información adicional.
+
    * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
 
    Tenga en cuenta lo siguiente cuando visualice aprobaciones de documentos en Inicio:
@@ -90,8 +90,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Después de tomar una decisión sobre una aprobación, esta permanece en la pestaña Mis aprobaciones con el texto &quot;Decisión tomada&quot; hasta que haga clic en **Actualizar** o hasta que actualice la página del explorador.
 
-
-
 ## Aprobar un documento desde la página de documento
 
 1. Vaya a la página del documento haciendo clic en su nombre.
@@ -99,8 +97,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Seleccione la versión del documento que está pendiente de aprobación en el menú desplegable de versión situado junto al nombre del documento. La última versión se selecciona de forma predeterminada.
 
    Si la versión seleccionada actualmente del documento tiene una aprobación pendiente, los botones de decisión de aprobación se muestran en la esquina superior derecha de la página; si otras versiones del documento tienen aprobaciones pendientes para usted, el menú desplegable de la versión muestra un punto rojo.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Haga clic en una de las dos opciones de aprobación siguientes en la esquina superior derecha de la página:
@@ -110,8 +109,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       * **Aprobar** indica que no se necesitan cambios para esta versión del documento y que se da la aprobación.
 
       * **Aprobar con cambios** indica que aún se requieren algunos cambios pequeños en el documento, pero la aprobación se da con la condición de que se realicen dichos cambios. Si selecciona esta opción, aparecerá una ventana que contiene un cuadro de texto denominado **Pasos siguientes** donde puede especificar qué cambios son necesarios para que se apruebe el documento. Puede introducir esa información y hacer clic en **Añadir mensaje**, o puede hacer clic en **Omitir** para enviar la decisión de aprobación sin información adicional.
-   * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
 
+   * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
 
 ## Aprobar un documento desde el panel Resumen del documento
 
@@ -122,8 +121,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Seleccione la versión del documento que desee revisar en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
    Si la versión seleccionada actualmente del documento tiene una aprobación pendiente, los botones de decisión de aprobación se muestran en la esquina superior derecha del panel Resumen del documento; si otras versiones del documento tienen aprobaciones pendientes para usted, el menú desplegable de la versión muestra un punto rojo.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Haga clic en una de las dos opciones de aprobación siguientes en la esquina superior derecha del panel Resumen del documento:
@@ -133,4 +133,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       * **Aprobar** indica que no se necesitan cambios para esta versión del documento y que se da la aprobación.
 
       * **Aprobar con cambios** indica que aún se requieren algunos cambios pequeños en el documento, pero la aprobación se da con la condición de que se realicen dichos cambios. Si selecciona esta opción, aparecerá una ventana que contiene un cuadro de texto denominado **Pasos siguientes** donde puede especificar qué cambios son necesarios para que se apruebe el documento. Puede introducir esa información y hacer clic en **Añadir mensaje**, o puede hacer clic en **Omitir** para enviar la decisión de aprobación sin información adicional.
+
    * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
