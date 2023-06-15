@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >   La nueva experiencia de comentarios es la única experiencia para objetivos <span class="preview">y tarjetas</span>. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
+>     Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios realizan sobre el objeto o las actualizaciones del sistema que realizan un seguimiento de los cambios en el objeto.
 
