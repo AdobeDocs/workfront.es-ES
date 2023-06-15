@@ -6,9 +6,9 @@ description: Puede crear paneles de lienzo que integren visualizaciones del lien
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Se puede habilitar una nueva opción Paneles de lienzo en el panel izquierdo de 
 1. Haga clic en el icono Menú principal ![](assets/main-menu-icon.png), luego haga clic en **Paneles**.
 
 1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+## Uso de paneles de lienzo
+
+### Crear nuevo panel de lienzo
+
+1. Abra los paneles de lienzo como se describe en **Abrir paneles de lienzo** arriba.
+
+1. Clic **+ Nuevo panel**
+
+1. Clic **Sin título** en la esquina superior izquierda para introducir un nombre para el tablero.
+
+1. Clic **Listo** en la esquina superior derecha para guardar el nuevo panel o empiece a añadir widgets como se describe en **Añadir un informe a un panel de lienzo** más abajo.
+
+### Añadir un informe a un panel de lienzo
+
+1. Abra los paneles de lienzo como se describe en **Abrir paneles de lienzo** arriba.
+
+1. Haga clic en el tablero al que desee agregar un informe desde la lista de tableros.
+
+1. Clic **Administrar widgets** en la esquina superior derecha, haga clic en **Añadir widget**.
+
+1. Pase el ratón sobre el tipo de widget de informe que desee añadir y luego haga clic en la casilla de verificación que aparece.
+
+1. Cuando haya seleccionado todos los widgets que desee añadir, haga clic en **Añadir** en la esquina superior derecha.
+
+1. Los widgets seleccionados aparecerán en el panel. Clic **Configuración** en el centro de un widget para elegir qué informe se mostrará.
+
+1. Empiece a escribir el nombre del informe que desea mostrar en la **Buscar informe** field. Cuando vea el informe en la lista, haga clic en el botón **Informe de lista** o **Informe de gráfico** junto a su nombre para mostrar la información de ese informe en el formato elegido.
+
+>[!WARNING]
+> Aunque actualmente es posible agregar varios widgets que muestren información del mismo informe, se recomienda mostrar cada informe solo una vez, ya que puede afectar al rendimiento del tablero.
+
+### Edición de un widget en un panel de lienzo
+
+1. Abra los paneles de lienzo como se describe en **Abrir paneles de lienzo** arriba.
+
+1. Haga clic en el tablero que desee editar de la lista de tableros.
+
+1. (Opcional) Para cambiar el tamaño de un widget, arrastre y suelte el **Redimensionar** en la esquina inferior izquierda del widget al tamaño que desee.
+
+1. (Opcional) Para cambiar la posición de un widget, arrastre el espacio en blanco que lo rodea y arrástrelo a la posición relativa que desee en el panel.
