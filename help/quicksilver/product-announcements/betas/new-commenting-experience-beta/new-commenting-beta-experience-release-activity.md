@@ -6,9 +6,9 @@ description: Revise la actividad de lanzamiento semanal de la nueva experiencia 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ A continuación se muestra una cronología planificada para el lanzamiento de la
    * Nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como única experiencia)
 * Con la versión 23.4 (principios de octubre de 2023)
    * Nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como única experiencia)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Finales de 2023:
-   * Elimine la experiencia heredada de los objetos que aún la tienen.
-   * Los siguientes objetos tienen la nueva experiencia de comentarios como la única experiencia: proyectos, tareas, problemas, historias, documentos, plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas, objetivos, tarjetas.
+   * Los siguientes objetos tienen la nueva experiencia de comentarios como experiencia predeterminada: proyectos, tareas, problemas, historias, documentos, plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas, objetivos, tarjetas. La experiencia de comentarios heredada se mantendrá como una opción.
 
   >[!NOTE]
   >
