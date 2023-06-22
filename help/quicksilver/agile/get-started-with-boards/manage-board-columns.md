@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite.
 
 La configuración de columna incluye directivas, que le permiten definir opciones para lo que sucede con una tarjeta cuando se mueve a esa columna.
+
+Para obtener información sobre cómo ordenar las tarjetas en las columnas, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Requisitos de acceso
 
