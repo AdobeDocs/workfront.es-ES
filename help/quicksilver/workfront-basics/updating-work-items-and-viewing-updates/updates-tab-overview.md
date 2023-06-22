@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ La sección Actualizaciones se muestra para los siguientes objetos:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Historias</li> 
+     <li>Historias*</li> 
      <li>Tareas</li> 
      <li>Plantillas</li> 
      <li>Tareas de plantilla</li> 
@@ -89,10 +89,13 @@ La sección Actualizaciones se muestra para los siguientes objetos:
   </tr> 
  </tbody> 
 </table>
+*Las historias son tareas. Toda la información relacionada con las tareas también está disponible para las historias.
 
 ### Información general sobre la sección Actualizaciones en la experiencia de comentarios beta
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
 
@@ -109,7 +112,7 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
    <td> 
     <ul> 
      <li><p>Metas</p>
-     <li><span class="preview">Tarjetas en el área de Tableros</span></li>
+     <li><span class="preview">Tarjetas en el área de Tableros*</span></li>
       Esta es la única experiencia para los objetivos <span class="preview">y tarjetas</span>.
      </li> 
      <li><span class="preview">Proyectos</span></li>
@@ -124,10 +127,7 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
+*Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 

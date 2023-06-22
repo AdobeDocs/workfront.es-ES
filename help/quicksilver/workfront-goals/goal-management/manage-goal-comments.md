@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Puede editar su comentario en un plazo de 15 minutos a partir del envío. Se agr
         Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha de un comentario y haga clic en **Eliminar** para eliminar un comentario que ha agregado. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 5 al 9 anteriores. <!--insure this stays accurate-->
+1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 5 al 9 anteriores. Para obtener más información sobre cómo responder a las actualizaciones, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Actualizaciones, haga clic en **Ver** dentro del azul **titular de nuevos comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
