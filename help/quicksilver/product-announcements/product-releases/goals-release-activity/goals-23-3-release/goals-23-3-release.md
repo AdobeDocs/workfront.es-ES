@@ -2,23 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Objetivos de Adobe Workfront con la versión 23.3
-description: Esta página proporciona información sobre la funcionalidad para los objetivos de Adobe Workfront en la nueva experiencia de Adobe Workfront que se está publicando en el entorno Producción con la versión 23.3.
+title: Adobe Workfront Goals con la versión 23.3
+description: Esta página proporciona información sobre la funcionalidad para los objetivos de Adobe Workfront en la nueva experiencia de Adobe Workfront que se lanzará al entorno de producción con la versión 23.3.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: af605e10362c780ea82c2ea73d2aaf9d78ec4498
+exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
+# Adobe Workfront Goals con la versión 23.3
 
-# Objetivos de Adobe Workfront con la versión 23.3
+Esta página proporciona información sobre la funcionalidad para los objetivos de Adobe Workfront que se lanza al entorno de producción dentro del periodo de tiempo de la versión 23.3.
 
-Esta página proporciona información sobre la funcionalidad para los objetivos de Adobe Workfront que se va a lanzar al entorno Producción dentro del marco de tiempo de versión 23.3.
-
-Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de versión 23.3, consulte [Información general sobre la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -36,15 +36,15 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Actualizaciones de las mejoras de la sección</a></p>
-                        <p>Las mejoras en la sección Actualizaciones de los objetivos están disponibles dentro del intervalo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno Producción poco después de su publicación en Vista previa.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Actualiza las mejoras de sección</a></p>
+                        <p>Las mejoras en la sección de actualizaciones de los objetivos están disponibles dentro del periodo de tiempo de la versión 23.3, al mismo tiempo que las actualizaciones que se están publicando en la nueva experiencia de comentarios beta. Estas mejoras estarán disponibles en el entorno de producción poco después de su lanzamiento en Vista previa.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: a lo largo del intervalo de tiempo de la versión 23.3<br /></p>
+                                <p>Versión de vista previa: durante todo el periodo de tiempo de la versión 23.3<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versión de producción: con la versión 23.3, a menos que se especifique lo contrario</span></p>
