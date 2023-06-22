@@ -6,16 +6,16 @@ description: Actualmente se está desarrollando una actualización de la experie
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Nueva experiencia de comentarios
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible para todos los clientes en el entorno de vista previa.</span>
 
 Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de objetos seleccionados.
 
@@ -432,7 +432,7 @@ La nueva experiencia de comentarios es compatible actualmente con los siguientes
 
 * De forma predeterminada, como experiencia de comentarios principal:
 
-   * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
+   * Metas, tarjetas en el área Tableros
 
   >[!NOTE]
   >

@@ -6,7 +6,7 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -37,9 +37,9 @@ ht-degree: 0%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
-> * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
+> * Metas, tarjetas en el área Tableros
 >
->   La nueva experiencia de comentarios es la única experiencia para objetivos <span class="preview">y tarjetas</span>. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentar es la única experiencia para los goles y las cartas. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 

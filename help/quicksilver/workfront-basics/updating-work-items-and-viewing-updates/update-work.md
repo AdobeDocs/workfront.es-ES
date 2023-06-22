@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3416'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible para todos los clientes en el entorno de vista previa.</span>
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * Panel de resumen en listas
 >     * Panel de resumen en plantillas de horas
 >
-> * Objetivos, <span class="preview">tarjetas en el área Tableros</span>
+> * Metas, tarjetas en el área Tableros
 >
->   La nueva experiencia de comentarios es la única experiencia para objetivos <span class="preview">y tarjetas</span>. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nueva experiencia de comentar es la única experiencia para los goles y las cartas. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
