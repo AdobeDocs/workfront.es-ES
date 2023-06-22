@@ -6,16 +6,14 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
 
 # Usar tarjetas conectadas en tableros
-
-{{highlighted-preview}}
 
 Puede agregar una tarjeta en el tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -146,13 +144,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td>Consulte "Registrar horas en una tarjeta conectada", a continuación.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comentarios]</strong></span> </td>
-      <td><span class="preview"><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero. Los usuarios etiquetados en tarjetas conectadas recibirán notificaciones por correo electrónico.</p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
-      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL Comentarios]</strong></td>
+      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero. Los usuarios etiquetados en tarjetas conectadas recibirán notificaciones por correo electrónico.</p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
+      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p><p><strong>NOTA:</strong> Los comentarios en las tarjetas solo están disponibles a través de la inclusión de funciones anticipada para tableros de Workfront.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Actividad del sistema]</strong></span> </td> 
-      <td><span class="preview"><p>Si tiene <strong>Actividad del sistema</strong> habilitada como sección de tarjeta, la actividad se muestra en esta área.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar los campos que se muestran en una tarjeta</a> y <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Actualizaciones rastreadas por el sistema</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL Actividad del sistema]</strong></td> 
+      <td><p>Si tiene <strong>Actividad del sistema</strong> habilitada como sección de tarjeta, la actividad se muestra en esta área.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar los campos que se muestran en una tarjeta</a> y <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Actualizaciones rastreadas por el sistema</a>.</p><p><strong>NOTA:</strong> La actividad del sistema solo está disponible a través de la inclusión de funciones anticipada para placas Workfront.</p></td>
      </tr>     
     </tbody> 
    </table>

@@ -6,16 +6,14 @@ description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Añadir una tarjeta ad hoc a un tablero
-
-{{highlighted-preview}}
 
 Puede añadir rápidamente una tarjeta a un tablero y asignarla a un miembro del tablero. La tarjeta puede representar una tarea, un problema, una persona, un grupo o cualquier tipo de elemento que desee incluir en el tablero.
 
@@ -100,18 +98,18 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
       <td> <p>Clic <strong>[!UICONTROL Agregar elemento de lista de comprobación]</strong>. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p> <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información sobre los elementos de la lista de comprobación, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de listas de comprobación en tarjetas</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comentarios]</strong></span> </td>
-      <td><span class="preview"><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
+      <td role="rowheader"><strong>[!UICONTROL Comentarios]</strong></td>
+      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
       </p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
-      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.</p></span></td>
+      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p><p><strong>NOTA:</strong> Los comentarios en las tarjetas solo están disponibles a través de la inclusión de funciones anticipada para tableros de Workfront.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Imagen de muestra en el entorno de producción:
+   Imagen de muestra en el entorno de producción cuando no se utiliza la inclusión de funciones anticipada:
    ![Detalles de la tarjeta ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   Imagen de muestra en el entorno de producción cuando se habilita la opción de inclusión de funciones anticipada:
    ![Detalles de la tarjeta ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Utilice el panel de navegación izquierdo para desplazarse entre secciones de campos de los detalles de la tarjeta.
