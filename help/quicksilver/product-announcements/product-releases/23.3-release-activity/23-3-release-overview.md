@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordenar por columnas del tablero</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordenar por columnas del tablero</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
                         <p>Se ha añadido la capacidad de ordenar las tarjetas en las columnas de un tablero. Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>

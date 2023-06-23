@@ -3,7 +3,7 @@ title: 23.3 Mejoras de Financial Management
 description: 23.3 Mejoras de Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Además, los conjuntos de funciones del puesto con fecha en vigor ya están disp
 
 Una nueva función, las tarjetas de tarifas, le permite definir varias tarifas de facturación por rol, según la ubicación. Una tarifa de facturación para un rol y una ubicación también puede incluir fechas en vigor. Se pueden adjuntar tarjetas de tarifas a los proyectos para aplicar toda la información de tarifas a la vez para el rol y la ubicación específicos. Los roles basados en la ubicación también se pueden asignar a tareas con la posibilidad de anular sus tasas en el nivel de asignación.
 
-Todas estas funciones se lanzarán a la versión de vista previa en julio de 2023 y la documentación actualizada del usuario estará disponible en ese momento.
+Todas estas funciones se lanzarán a la versión de vista previa el 29 de julio de 2023 y la documentación actualizada del usuario estará disponible en ese momento.
