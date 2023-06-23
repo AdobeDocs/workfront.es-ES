@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión 23.3 se aproxime a su versión de producción planificada.
 
-El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede [regístrese aquí para unirse al seminario web](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede [regístrese aquí para unirse al seminario web](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaban a Producción antes de la fecha de lanzamiento de la versión 23.3) se resaltan en amarillo.</span>
 
