@@ -3,9 +3,9 @@ title: 23.3 Mejoras de Agile
 description: 23.3 Mejoras de Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Esta página describe todas las mejoras de Agile realizadas con la versión 23.3 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## La Vista de Agile de un proyecto muestra un panel kanban
 
@@ -28,24 +30,6 @@ Mientras está en el tablero, puede optar por cambiar a la vista de Agile hereda
 
 La documentación del proyecto actualizado Agile View estará disponible con su versión para previsualizarla.
 
-## El modo oscuro ya está disponible en los tableros de Adobe Workfront
-
-Ahora puede mostrar todos los tableros y flujos de trabajo en modo oscuro. La nueva configuración está disponible a través de las preferencias del panel Tableros.
-
->[!NOTE]
->
->Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, puede habilitar el formato de tema oscuro para todos los Adobe Experience Cloud a través del menú de preferencias (la imagen de perfil) y no verá una opción de modo oscuro independiente para los paneles de Workfront.
-
-Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de Tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Mejoras en las iteraciones del flujo de trabajo en los paneles de Adobe Workfront
-
-Hemos agregado la capacidad de agregar metas a una iteración, sin tener que enumerar las metas en una tarjeta. Los objetivos se añaden en formato de lista de comprobación y se pueden marcar como completados. El área de métricas en la parte superior derecha de la iteración muestra cuántos objetivos existen y cuántos se han completado.
-
-Además, la columna Iteración siguiente está ahora disponible en tableros de iteraciones. Cuando se coloca una tarjeta en esta columna, se lleva automáticamente a la siguiente iteración y no vuelve al registro de pendientes. En la siguiente iteración, la tarjeta aparece en la columna que corresponde a su estado.
-
-Para obtener más información sobre ambas funciones, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Ordenar por columnas del tablero
 
 Se ha añadido la capacidad de ordenar las tarjetas en las columnas de un tablero. Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.
@@ -56,6 +40,24 @@ La opción &quot;orden del usuario&quot; devuelve las tarjetas en el orden en qu
 
 Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## El modo oscuro ya está disponible en los tableros de Adobe Workfront
+
+Ahora puede mostrar todos los tableros y flujos de trabajo en modo oscuro. La nueva configuración está disponible a través de las preferencias del panel Tableros.
+
+>[!NOTE]
+>
+>Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, puede habilitar el formato de tema oscuro para todos los Adobe Experience Cloud a través del menú de preferencias (la imagen de perfil) y no verá una opción de modo oscuro independiente para los paneles de Workfront.
+
+Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de Tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Objetivos disponibles en las iteraciones del flujo de trabajo en los paneles de Adobe Workfront
+
+Hemos agregado la capacidad de agregar metas a una iteración, sin tener que enumerar las metas en una tarjeta. Los objetivos se añaden en formato de lista de comprobación y se pueden marcar como completados. El área de métricas en la parte superior derecha de la iteración muestra cuántos objetivos existen y cuántos se han completado.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Agregar comentarios a tarjetas en tableros
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/
 Ahora puede agregar comentarios a las tarjetas ad hoc y conectadas en los tableros y etiquetar a otros usuarios en los comentarios. Los comentarios están disponibles en los detalles de la tarjeta. La función de comentarios de los tableros utiliza la nueva experiencia de comentarios de Adobe Workfront.
 
 Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Mejoras en el administrador de etiquetas de tableros
 
