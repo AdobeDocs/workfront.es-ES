@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Página de inicio
-description: Revise estas áreas para comprender el área principal de Adobe Workfront.
+description: Revise estas áreas para comprender el área de Inicio en Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 192b73f4-5995-43ae-b5a5-2b2f856c696d
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1ed70b2814404d55bcd75f11c8d2614aa6eb80bc
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
@@ -17,4 +17,5 @@ ht-degree: 8%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Utilice la variable [!UICONTROL Página principal] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Nuevo inicio](../../workfront-basics/using-home/new-home/new-home.md)
+* [Utilice el [!UICONTROL Inicio] área](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
