@@ -3,9 +3,9 @@ title: 23.3 Mejoras de Agile
 description: 23.3 Mejoras de Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ La opción &quot;orden del usuario&quot; devuelve las tarjetas en el orden en qu
 
 Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## El modo oscuro ya está disponible en los tableros de Adobe Workfront
 
 Ahora puede mostrar todos los tableros y flujos de trabajo en modo oscuro. La nueva configuración está disponible a través de las preferencias del panel Tableros.
@@ -54,7 +56,7 @@ Para obtener más información, consulte [Notificaciones y preferencias por corr
 
 Hemos agregado la capacidad de agregar metas a una iteración, sin tener que enumerar las metas en una tarjeta. Los objetivos se añaden en formato de lista de comprobación y se pueden marcar como completados. El área de métricas en la parte superior derecha de la iteración muestra cuántos objetivos existen y cuántos se han completado.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Además, la columna Iteración siguiente está ahora disponible en tableros de iteraciones. Cuando se coloca una tarjeta en esta columna, se lleva automáticamente a la siguiente iteración y no vuelve al registro de pendientes. En la siguiente iteración, la tarjeta aparece en la columna que corresponde a su estado.
 
 Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

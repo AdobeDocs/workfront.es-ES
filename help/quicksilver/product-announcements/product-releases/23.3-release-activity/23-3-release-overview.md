@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El modo oscuro ya está disponible en los tableros de Adobe Workfront</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El modo oscuro ya está disponible en los tableros de Adobe Workfront</a></p>
                         <p>Ahora puede mostrar todos los tableros y flujos de trabajo en modo oscuro. La nueva configuración está disponible a través de las preferencias del panel Tableros.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 22 de junio de 2023</p>
+                                <p>Versión preliminar: 22 de junio de 2023<span style="color: #ff0000;"> Esta función se ha eliminado de la vista previa y no se lanzará con la versión 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión 23.3</p>
+                                <p>Versión de producción para todos los clientes: N/D</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Objetivos disponibles en las iteraciones del flujo de trabajo en los paneles de Adobe Workfront</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Objetivos disponibles en las iteraciones del flujo de trabajo en los paneles de Adobe Workfront</a></p>
                         <p>Hemos agregado la capacidad de agregar metas a una iteración, sin tener que enumerar las metas en una tarjeta. Los objetivos se añaden en formato de lista de comprobación y se pueden marcar como completados. El área de métricas en la parte superior derecha de la iteración muestra cuántos objetivos existen y cuántos se han completado.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 22 de junio de 2023</p>
+                                <p>Versión preliminar: 22 de junio de 2023<span style="color: #ff0000;"> Esta función se ha eliminado de la vista previa y no se lanzará con la versión 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión 23.3</p>
+                                <p>Versión de producción para todos los clientes: N/D</p>
                             </li>
                         </ul>
                     </td>
