@@ -6,16 +6,14 @@ title: Notificaciones y preferencias por correo electrónico de Tableros
 description: Tableros de Adobe Workfront le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Notificaciones y preferencias por correo electrónico de Tableros
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de sus tableros qué correos electrónicos desea recibir.
 
@@ -59,19 +57,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Las preferencias que establezca para los correos electrónicos se aplican a todos los tableros.
 
+<!--
+
 <div class="preview">
 
-## Establecer la preferencia de modo oscuro
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, puede habilitar el formato de tema oscuro para todos los Adobe Experience Cloud a través del menú de preferencias (la imagen de perfil) y no verá una opción de modo oscuro independiente para los paneles de Workfront. Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Clic [!UICONTROL **Preferencias**] en el tablero de mandos.
-1. En el área Temáticas, habilite o deshabilite el modo Oscuro.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   La preferencia definida para el modo oscuro se aplica a todos los tableros, flujos de trabajo y tableros.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->
