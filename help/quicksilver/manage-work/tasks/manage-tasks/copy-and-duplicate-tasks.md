@@ -2,24 +2,55 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Copiar y duplicar tareas
-description: Puede copiar una tarea de un proyecto en otro o duplicarla dentro del mismo proyecto.
+description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea dentro del mismo proyecto.
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
 
 # Copiar y duplicar tareas
 
-Puede copiar una tarea de un proyecto en otro o duplicarla dentro del mismo proyecto.
+Puede copiar una tarea de un proyecto a otro o duplicar una tarea dentro del mismo proyecto.
 
 Puede copiar o duplicar una o varias tareas o tareas principales a la vez.
 
 ## Requisitos de acceso
+
+<!-- drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -28,7 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -37,62 +68,67 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y proyectos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acceso a Tareas y Proyectos</p> <p><b>NOTA</b>
+
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en una tarea </p> <p>Contribute o permisos superiores para el proyecto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos para una tarea </p> <p>Aportar o permisos superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Consideraciones para copiar tareas
 
-Tenga en cuenta lo siguiente al copiar una tarea:
+Al copiar una tarea, tenga en cuenta lo siguiente:
 
 * Los problemas no se copian con la tarea.
 * Los hitos se transfieren a la tarea copiada y se eliminan de la tarea original.
+* Al copiar una tarea de un proyecto a otro, es posible que se recalculen las fechas de las tareas. Para volver a calcular se tendrá en cuenta la programación que utiliza el nuevo proyecto y la información de Programar a partir del proyecto.
 
 Puede copiar una tarea en las siguientes áreas de la aplicación web de Adobe Workfront:
 
-* En el nivel de tarea, desde el **Más icono** ![](assets/qs-more-menu-19x7.png) a la derecha del nombre de la tarea.
+* En el nivel de tarea, desde el **Icono Más** ![](assets/qs-more-menu-19x7.png) a la derecha del nombre de la tarea.
 
-   Para obtener más información, consulte la [Copiar una tarea en el nivel de tarea](#copy-a-task-at-the-task-level) en este artículo.
+  Para obtener más información, consulte [Copiar una tarea en el nivel de tarea](#copy-a-task-at-the-task-level) de este artículo.
 
-* En una lista de tareas, realizando una de las siguientes acciones:
+* En una lista de tareas, siga uno de estos procedimientos:
 
    * Haga clic con el botón derecho en el nombre de una tarea.
-   * Seleccione la tarea (o tareas) y expanda el **Más** icono ![](assets/more-icon-task-list.png) en la parte superior de la lista de tareas.
+   * Seleccione la tarea (o tareas) y expanda el **Más** icono ![](assets/more-icon-task-list.png) al principio de la lista de tareas.
    * Seleccione una tarea y expanda el **Más** icono ![](assets/more-icon-task-list.png) junto al nombre de la tarea.
 
-      Esta opción no está disponible al seleccionar varias tareas.
-   Para obtener más información, consulte la [Copiar tareas en una lista](#copy-tasks-in-a-list) en este artículo.
+     Esta opción no está disponible cuando se seleccionan varias tareas.
+
+  Para obtener más información, consulte [Copiar tareas en una lista](#copy-tasks-in-a-list) de este artículo.
 
 ## Copiar tareas en una lista {#copy-tasks-in-a-list}
 
-1. Vaya al proyecto que contiene la tarea o tareas que desea copiar.
+1. Vaya al proyecto que contiene las tareas que desea copiar.
 
    O
 
-   Vaya a un informe de tareas.
+   Ir a un informe de tareas.
 
-1. Haga clic en **Tareas** en el panel izquierdo.
-1. Haga clic en el **Menú del modo Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , luego **Autoguardar**.
+1. Clic **Tareas** en el panel izquierdo.
+1. Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , entonces **Autoguardar**.
 
    >[!IMPORTANT]
    >
-   >Puede copiar tareas en una lista solo cuando guarde automáticamente los cambios. Para obtener información sobre cómo guardar opciones al editar tareas, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   >Solo puede copiar tareas en una lista cuando guarda automáticamente los cambios. Para obtener información sobre cómo guardar opciones al editar tareas, consulte [Edición de tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Seleccione la tarea o tareas que desee copiar y realice una de las siguientes acciones:
 
-   * Haga clic en el **Más menú** en la parte superior de la lista de tareas, haga clic en **Copiar en**.
-   * Haga clic con el botón derecho en las tareas seleccionadas y, a continuación, haga clic en **Copiar en**.
-   * Al seleccionar una tarea, haga clic en el botón **Más** menú ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Copiar en**.
+   * Haga clic en **Menú Más** en la parte superior de la lista de tareas y haga clic en **Copiar a**.
+   * Haga clic con el botón derecho en las tareas seleccionadas y luego haga clic en **Copiar a**.
+   * Al seleccionar una tarea, haga clic en **Más** menú ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y haga clic en **Copiar a**.
+
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
-1. Continúe copiando la tarea, tal como se describe en la sección [Copiar una tarea en el nivel de tarea](#copy-a-task-at-the-task-level) a partir del paso 4.
+1. Siga copiando la tarea, tal como se describe en la sección [Copiar una tarea en el nivel de tarea](#copy-a-task-at-the-task-level) a partir del paso 4.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -102,25 +138,25 @@ Puede copiar una tarea en las siguientes áreas de la aplicación web de Adobe W
 
 ## Copiar una tarea en el nivel de tarea {#copy-a-task-at-the-task-level}
 
-Además de copiar tareas en una lista de tareas, también puede copiar una tarea después de abrirla. 
+Además de copiar tareas en una lista de tareas, también puede copiar una tarea después de haberla abierto. 
 
 1. Busque una tarea en el sistema de Workfront.
 1. Haga clic en el nombre de la tarea para abrirla. 
-1. Haga clic en el **Más** menú desplegable ![](assets/qs-more-menu.png) junto al nombre de la tarea y, a continuación, haga clic en **Copiar** **a**.
+1. Haga clic en **Más** menú desplegable ![](assets/qs-more-menu.png) junto al nombre de la tarea y haga clic en **Copiar** **hasta**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
-   Aparece el cuadro Copiar tarea .
+   Se muestra el cuadro Copiar tarea.
 
-1. (Opcional) Actualice el **Nombre de la tarea**.
+1. (Opcional) Actualice el **Nombre de tarea**.
 
    >[!TIP]
    >
-   >Este campo está atenuado y no se puede editar al seleccionar para copiar varias tareas en una lista. Puede situarse sobre el campo Nombre de la tarea y se mostrará una lista de todas las tareas seleccionadas.
+   >Este campo aparece atenuado y no se puede editar al seleccionar copiar varias tareas en una lista. Puede pasar el ratón sobre el campo Nombre de tarea y se mostrará una lista de todas las tareas seleccionadas.
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Escriba el nombre del **Proyecto de destino** donde desea copiar la tarea en la **Seleccionar proyecto de destino** campo . 
+1. Escriba el nombre del **Proyecto de destino** donde desee copiar la tarea en el **Seleccionar proyecto de destino** field. 
 
    >[!TIP]
    >
@@ -128,24 +164,24 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
    >* También puede empezar a escribir el número de referencia o introducir el ID del proyecto. Esto puede ayudarle a distinguir entre proyectos con nombres idénticos.
    >* En la lista solo se muestran 100 proyectos.
 
+   El nombre del proyecto actual se muestra de forma predeterminada. Si desea copiar la tarea dentro del mismo proyecto, deje este campo sin cambiar.
 
-   El nombre del proyecto actual se muestra de forma predeterminada. Si desea copiar la tarea dentro del mismo proyecto, deje este campo sin cambios.
-
-1. (Condicional) Haga clic en **acceso de solicitud** para solicitar acceso al proyecto, si no tiene acceso al proyecto seleccionado.
+1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso al proyecto, en caso de que no tenga acceso al proyecto seleccionado.
 1. (Condicional) Continúe copiando la tarea en el proyecto de destino seleccionado sin solicitar acceso si tiene acceso para agregar tareas a una de las tareas del proyecto de destino.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Se muestran mensajes similares si el proyecto seleccionado está pendiente de aprobación, completado o muerto, cuando el administrador de Workfront evita agregar tareas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Se muestran mensajes similares si el proyecto seleccionado está en aprobación pendiente, completado o muerto, cuando el administrador de Workfront impide añadir tareas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Haga clic en **Opciones** en el panel izquierdo, anule la selección de los atributos de tarea que no desea copiar con la tarea. Todas las opciones están seleccionadas de forma predeterminada.
+1. Clic **Opciones** en el panel izquierdo, anule la selección de los atributos de tarea que no desee copiar con la tarea. Todas las opciones están seleccionadas de forma predeterminada.
 
    >[!TIP]
-   Seleccionar y anular la selección **Seleccionar todo** anula la selección de todas las opciones.
+   >
+   Seleccionar y anular selección **Seleccionar todo** anula la selección de todas las opciones.
 
-   Anule la selección de las siguientes opciones para no transferirlas a la tarea copiada. La tabla siguiente describe lo que sucede cuando se anula la selección de las opciones:
+   Anule la selección de las siguientes opciones para no transferirlas a la tarea copiada. En la tabla siguiente se describe lo que sucede cuando no se seleccionan las opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -153,11 +189,11 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
     <tbody> 
      <tr> 
       <td role="rowheader">Restricción</td> 
-      <td> <p>La restricción de tareas se establece en Lo antes posible o lo más tarde posible, según la configuración del modo de programación del proyecto.</p> <p> Cuando se selecciona, la restricción actual de la tarea se transfiere a la tarea copiada. </p> <p>Nota: Cuando se mueve o copia una tarea con restricciones de fecha específica a otro proyecto y las fechas de restricción de la tarea están fuera de las fechas del nuevo proyecto, se ajusta la restricción de tareas a Tan pronto como sea posible o tan tarde como sea posible o a las fechas de inicio o finalización planificadas de los proyectos. Algunos ejemplos de restricciones de fechas específicas son Debe comenzar el, Debe finalizar el, Iniciar antes del, Iniciar antes del, Iniciar antes del, etc. Para obtener información sobre las restricciones de tareas y cómo pueden verse afectadas las restricciones de tareas o las fechas del proyecto, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a> y busque una restricción específica.</p> </td> 
+      <td> <p>La restricción de tarea se establece en Lo antes posible o Lo más tarde posible según la configuración del modo de programación del proyecto.</p> <p> Cuando se selecciona, la restricción actual de la tarea se transfiere a la tarea copiada. </p> <p>Nota: Al mover o copiar una tarea con delimitaciones específicas de fecha a otro proyecto y las fechas de delimitación de la tarea están fuera de las fechas del nuevo proyecto, la delimitación de tarea cambia a Lo antes posible o Lo más tarde posible, o se ajustan las fechas planificadas de inicio o finalización de los proyectos. Algunos ejemplos de restricciones específicas de fecha son Debe comenzar el, Debe finalizar el, No comenzar antes del, No comenzar después del, etc. Para obtener información sobre las delimitaciones de tareas y cómo pueden verse afectadas las delimitaciones de tareas o las fechas de proyectos, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre restricciones de tarea</a> y busque una restricción específica.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
-      <td> <p>Todas las asignaciones se eliminan de la tarea. </p> </td> 
+      <td> <p>Todas las asignaciones se quitan de la tarea. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Proceso de aprobación</td> 
@@ -165,23 +201,23 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
      </tr> 
      <tr> 
       <td role="rowheader">Progreso</td> 
-      <td>El estado de la tarea es New. De lo contrario, la tarea copiada mantiene el estado de la tarea existente.</td> 
+      <td>El estado de la tarea es Nuevo. De lo contrario, la tarea copiada mantiene el estado de la tarea existente.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Información financiera</td> 
       <td>Se elimina la información financiera de la tarea.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Todos los predecesores</td> 
-      <td> <p>Esto significa que las dependencias no se transfieren a las tareas copiadas. </p> <p>Cuando se selecciona, se conservan los predecesores dentro del grupo de tareas copiadas, mientras que otros se eliminan.</p> </td> 
+      <td role="rowheader">Todas las predecesoras</td> 
+      <td> <p>Esto significa que las dependencias no se transferirán a las tareas copiadas. </p> <p>Si se selecciona, se conservan las tareas predecesoras dentro del grupo de tareas copiadas y se eliminan otras.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td> <p>Los documentos adjuntos a la tarea no se transfieren a la tarea copiada. Esto incluye versiones, pruebas y documentos vinculados.</p> <p>Esto no incluye aprobaciones de documentos. Las aprobaciones de documento nunca se pueden copiar cuando se copia una tarea.</p> </td> 
+      <td> <p>Los documentos adjuntos a la tarea no se transfieren a la tarea copiada. Esto incluye versiones, pruebas y documentos vinculados.</p> <p>Esto no incluye las aprobaciones de documentos. Las aprobaciones de documentos nunca se pueden copiar cuando se copia una tarea.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notificaciones de recordatorio</td> 
-      <td>Los recordatorios de tareas no se transfieren a la tarea copiada. </td> 
+      <td>Los recordatorios de la tarea no se transfieren a la tarea copiada. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gastos</td> 
@@ -189,83 +225,86 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
      </tr> 
      <tr> 
       <td role="rowheader">Permisos</td> 
-      <td>Workfront elimina los nombres de todas las entidades que aparecen en la lista Compartir de la tarea. </td> 
+      <td>Workfront quita los nombres de todas las entidades que se muestran en la lista de uso compartido de la tarea. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datos personalizados</td> 
-      <td> <p>Los valores de los campos personalizados se borran y los formularios personalizados se transfieren a la tarea copiada. </p> <p>Cuando se selecciona, tanto los formularios como los valores de los campos personalizados se transfieren a la tarea copiada. </p> </td> 
+      <td> <p>Los valores de los campos personalizados se borran y los formularios personalizados se transfieren a la tarea copiada. </p> <p>Cuando se seleccionan, tanto los formularios como los valores de los campos personalizados se transfieren a la tarea copiada. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1.  (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea en el proyecto de destino que desea que sea la principal de la tarea copiada.
+1.  (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea en el proyecto de destino en la que desea convertirse en el elemento principal de la tarea copiada.
 
    >[!TIP]
-   Al seleccionar para copiar varias tareas de una lista, todas las tareas seleccionadas se convierten en las secundarias del elemento principal seleccionado.
+   >
+   Al seleccionar copiar varias tareas en una lista, todas las tareas seleccionadas se convierten en los hijos del padre seleccionado.
 
-   Seleccione un elemento principal realizando una de las siguientes acciones:
+   Seleccione un padre mediante una de las siguientes acciones:
 
-   * En la lista de tareas, seleccione uno de los elementos principales del plan de proyecto.
+   * En la lista de tareas, seleccione uno de los elementos primarios del plan del proyecto.
    * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea principal por su nombre.
+
    La tarea debe aparecer en la lista.
 
    ![Seleccionar tarea principal al mover una tarea con funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Seleccione el botón de opción para el elemento principal, una vez lo haya encontrado. 
+1. Seleccione el botón de opción del elemento principal, una vez encontrado. 
 
    Si no selecciona una tarea principal, las tareas se copian como tareas principales en lugar de como subtareas y se colocan al final de la lista de tareas en el proyecto de destino. 
 
-1. Haga clic en **Copiar tarea**
+1. Clic **Copiar tarea**
 
    O
 
-   Haga clic en **Copiar tareas** cuando seleccione varias tareas en una lista.
-Las tareas copiadas están ahora en el proyecto especificado y son subtareas de la tarea principal seleccionada o las últimas tareas del proyecto.
+   Clic **Copiar tareas** cuando selecciona varias tareas en una lista.
+Las tareas copiadas ahora se encuentran en el proyecto especificado y son subtareas de la tarea principal seleccionada o de las últimas tareas del proyecto.
 
 ## Duplicar tareas
 
-Puede duplicar rápidamente una tarea en una lista de tareas si necesita una tarea idéntica en el mismo proyecto.
+Puede duplicar rápidamente una tarea en una lista de tareas, si necesita una tarea idéntica en el mismo proyecto.
 
-* [Consideraciones sobre la duplicación de tareas](#considerations-for-duplicating-tasks)
+* [Consideraciones para duplicar tareas](#considerations-for-duplicating-tasks)
 * [Duplicar tareas](#duplicate-tasks)
 
-### Consideraciones sobre la duplicación de tareas {#considerations-for-duplicating-tasks}
+### Consideraciones para duplicar tareas {#considerations-for-duplicating-tasks}
 
-* Puede duplicar una tarea en una lista de tareas solo cuando la lista se ordena por número de tarea.
+* Puede duplicar una tarea en una lista de tareas solo cuando la lista está ordenada por número de tarea.
 
 * La nueva tarea tendrá el mismo nombre que la tarea original.
-* No se puede seleccionar qué información está duplicada en la nueva tarea. De forma predeterminada, casi toda la información de la tarea original se transfiere a la tarea duplicada, incluida la relación principal.
-* Los siguientes elementos no se transfieren a la nueva tarea:
+* No puede seleccionar qué información está duplicada en la nueva tarea. Casi toda la información de la tarea original se transferirá a la tarea duplicada, incluida la relación principal, de forma predeterminada.
+* Los elementos siguientes no se transfieren a la nueva tarea:
 
    * Horas registradas
    * Notas
    * Problemas
-   * Solo los predecesores que están en el mismo grupo de tareas copiadas se copian también con las tareas sucesoras.
+   * Solo las tareas predecesoras que están en el mismo grupo de tareas copiadas también se copian con sus tareas sucesoras.
 
-      **Ejemplo:** Por ejemplo, si copia la Tarea 2 y su predecesor, Tarea 1, al mismo tiempo, tendrá una copia de la Tarea 2 y una copia de la Tarea 1. La copia de la tarea 1 será la predecesora de la copia de la tarea 2. Pero si copia solo la Tarea 2 sin copiar su predecesor, entonces su copia no tendrá predecesor.
+     **Ejemplo:** Por ejemplo, si copia la Tarea 2 y su predecesora, la Tarea 1, al mismo tiempo, tendrá una copia de la Tarea 2 y una copia de la Tarea 1. La copia de la Tarea 1 será la predecesora de la copia de la Tarea 2. Pero si copia sólo la Tarea 2 sin copiar su predecesora, su copia no tendrá predecesora.
 
-* Cuando se duplica una tarea principal, todas las tareas secundarias también se duplican, incluso cuando las tareas secundarias no están seleccionadas.
+* Al duplicar una tarea principal, también se duplican todas las tareas secundarias, incluso cuando no están seleccionadas las tareas secundarias.
 * Puede duplicar varias tareas al mismo tiempo.
 
-   Sin embargo, no puede duplicar varias tareas que no sean secuenciales al mismo tiempo.
+  Sin embargo, no puede duplicar varias tareas que no sean secuenciales al mismo tiempo.
 
 * Los hitos se mueven a la nueva tarea y se eliminan de la tarea original.
 
 ### Duplicar tareas
 
 1. Vaya al proyecto que contiene la tarea o tareas que desea duplicar.
-1. Haga clic en **Tareas** en el panel izquierdo.
+1. Clic **Tareas** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
 
-   * (Condicional) Haga clic en el **Menú del modo Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autoguardar**, seleccione las tareas que desee duplicar y, a continuación, haga clic en el botón **Más menú** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autoguardar**, seleccione las tareas que desee duplicar y, a continuación, haga clic en **Menú Más** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
-      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Haga clic en el **Menú del modo Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardar manualmente** > **Estándar** o **Planificación de la cronología** y, a continuación, haga lo siguiente:
+   * (Condicional) Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardado manual** > **Standard** o **Planificación de calendario**, luego haga lo siguiente:
 
       1. Seleccione la tarea o tareas que desee duplicar y haga clic en **Duplicar**.
       1. (Opcional) Haga clic en **Deshacer** para invertir los cambios y no duplicar las tareas.
-      1. (Opcional y condicional) Haga clic en **Rehacer** si ha hecho clic anteriormente **Deshacer**, para conservar los cambios y duplicar las tareas.
+      1. (Opcional y condicional) Haga clic en **Rehacer** si ha hecho clic anteriormente en **Deshacer**, para conservar los cambios y duplicar las tareas.
 
-      1. Haga clic en **Guardar** para guardar los cambios.
-   1. Editar tareas en una lista
+      1. Clic **Guardar** para guardar los cambios.
+
+   1. Edición de tareas en una lista

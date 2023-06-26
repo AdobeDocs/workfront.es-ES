@@ -6,7 +6,7 @@ description: El botón Listo puede establecer automáticamente el estado de una 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -22,7 +22,7 @@ El [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o
 Los usuarios con determinados permisos pueden configurar [!UICONTROL Listo] para reflejar ciertos estados del sistema. Existen tres formas diferentes de [!UICONTROL Listo] El botón funciona para problemas en [!DNL Workfront]:
 
 * Si el usuario tiene un asignado [!UICONTROL Equipo de inicio], a [!DNL Workfront] o un usuario con un [!UICONTROL Plan] La licencia puede configurar el [!UICONTROL Listo] para reflejar ciertos estados de los integrantes del equipo. Consulte [Configure las variables [!UICONTROL Listo] botón para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
-* Si el usuario no tiene un [!UICONTROL Equipo de inicio], pero tienen[!UICONTROL Otros equipos] en su perfil, Workfront busca la configuración del [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y el estado asociado a cualquiera de los equipos se utiliza para el problema.
+* Si el usuario no tiene un [!UICONTROL Equipo de inicio], pero tienen [!UICONTROL Otros equipos] en su perfil, Workfront busca la configuración del [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y el estado asociado a cualquiera de los equipos se utiliza para el problema.
 * Si el usuario no tiene un [!UICONTROL Equipo de inicio] asignado, el [!UICONTROL Listo] para problemas está vinculado a un problema generado por el sistema [!UICONTROL Resuelto] estado que tiene el código de tres letras [!UICONTROL RLV]. No hay opciones de configuración disponibles en este escenario. El [!UICONTROL Listo] El botón toma automáticamente este estado como valor predeterminado.
 * Si la variable [!UICONTROL Resuelto] ([!UICONTROL RLV]) se elimina y el usuario marca el problema como [!UICONTROL Listo] no tiene [!UICONTROL Equipo de inicio], el estado de problema predeterminado está vinculado al que esté establecido como predeterminado para [!UICONTROL Cerrado] para el grupo asignado al proyecto al que pertenece el problema. El administrador de Workfront puede establecer una configuración predeterminada para todo el sistema para el grupo. Consulte [Configure las variables [!UICONTROL Listo] cuando el botón [!UICONTROL Resuelto] se ha eliminado el estado](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) en este artículo.
 
