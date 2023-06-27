@@ -1,17 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Carga de documentos desde Illustrator
-description: Puede cargar los tableros de arte como documentos para una revisión y aprobación rápidas o simplemente para almacenarlos en Adobe Workfront.
+title: Cargar documentos desde Illustrator
+description: Puede cargar sus tableros de arte como documentos para una revisión y aprobación rápidas o simplemente para almacenarlos en Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
 
 # Cargar documentos desde [!DNL Illustrator]
 
@@ -35,15 +35,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> -->
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</td> 
+   <td>Debe tener un [!DNL Adobe Creative Cloud] licencia además de una [!DNL Workfront] licencia.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a [!UICONTROL Documents]</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos de [!UICONTROL]</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso o superior al objeto en el que desea cargar un documento.</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Permite ver el acceso o superior al objeto donde desea cargar un documento.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,24 +52,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-* Debe instalar el [!DNL Adobe Workfront for design and video] antes de cargar documentos desde [!DNL Illustrator].
+* Debe instalar el [!DNL Adobe Workfront for design and video] para poder cargar documentos desde [!DNL Illustrator].
 
-   Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
-## Cargar documentos a [!DNL Illustrator]
+## Cargar documentos en [!DNL Illustrator]
 
-1. Haga clic en el **[!UICONTROL Menú]** en la esquina superior derecha y, a continuación, seleccione **[!UICONTROL Lista de trabajo]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en **[!UICONTROL Menú]** en la esquina superior derecha, y luego seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Vaya al elemento de trabajo en el que desea cargar un documento.
-1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
+1. Vaya al elemento de trabajo donde desea cargar un documento.
+1. Haga clic en **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
 
-1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
-1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
+1. Clic **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
+1. (Opcional) Escriba un comentario en la **[!UICONTROL Actualizaciones]** área.
 1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-1. Abra el **[!UICONTROL Definir configuración de archivo de exportación]** a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
+1. Abra el **[!UICONTROL Establecer configuración de exportar archivo]** y configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
 
    ![](assets/file-export-settings.png)
-1. Haga clic en **[!UICONTROL Cargar]**.
-El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
+1. Clic **[!UICONTROL Cargar]**.
+El documento aparece en la [!UICONTROL Documentos] en el complemento y en la aplicación de escritorio.
+
+>[!NOTE]
+>
+>Si el documento se exporta como un documento de texto, es posible que tenga que restablecer las preferencias en [!DNL Adobe Illustrator].
+>
+>1. Entrada [!DNL Illustrator], haga clic en **[!UICONTROL Editar]** y seleccione **[!UICONTROL Preferencias]**.
+>1. Seleccionar **[!UICONTROL General]**.
+>1. Clic **[!UICONTROL Restablecer preferencias]**.
+>1. Cerrar y reiniciar [!DNL Illustrator].
