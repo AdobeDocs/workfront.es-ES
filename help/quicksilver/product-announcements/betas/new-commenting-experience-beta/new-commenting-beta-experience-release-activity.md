@@ -6,9 +6,9 @@ description: Revise la actividad de lanzamiento semanal de la nueva experiencia 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Para obtener información general sobre la nueva experiencia de comentarios, inc
 >
 >La nueva experiencia de comentarios se lanzó en versión beta con la versión 23.2. Para obtener más información sobre la versión original, consulte [Información general de la versión 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Las funciones de comentarios que se lanzan a la experiencia beta para objetos de Workfront también se lanzan a la sección Actualizaciones de un objeto de objetivo en Workfront Goals.
+>Las funciones de comentarios que se lanzan a la experiencia beta para objetos de Workfront también se lanzan a la sección Actualizaciones de los siguientes objetos como la única experiencia de comentarios:
+>* Metas
+>* Tarjetas en el área Tableros.
 
 ## Cronología de versiones
 

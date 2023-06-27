@@ -6,9 +6,9 @@ description: Actualmente se está desarrollando una actualización de la experie
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 * Comentario sobre una actualización del sistema
 * Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
 * Editar formulario personalizado
+
+>[!NOTE]
+>
+>Los objetos que se enumeran a continuación solo tienen disponibles los comentarios y las actualizaciones del sistema del año pasado (a partir de junio de 2022) al habilitar la experiencia beta.
+>
+>* Problemas
+>* <span class="preview">Proyectos</span>
+>* <span class="preview">Tareas</span>
+>* <span class="preview">Documentos</span>
+>
+>Puede ver los comentarios y las actualizaciones del sistema anteriores a junio de 2022 cuando consulte la sección Actualizaciones en la experiencia actual.
+
 
 La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de comentarios, así como su disponibilidad en áreas en las que son compatibles:
 
