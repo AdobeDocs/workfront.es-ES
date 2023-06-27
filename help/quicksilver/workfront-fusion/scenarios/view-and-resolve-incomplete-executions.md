@@ -3,26 +3,26 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]
-description: La variable [!UICONTROL Ejecuciones incompletas] carpeta almacena ejecuciones de escenario que no se completaron correctamente debido a un error. Cada ejecución incompleta almacenada se puede resolver de forma manual o automática.
+description: El [!UICONTROL Ejecuciones incompletas] La carpeta almacena ejecuciones de escenarios que no se finalizaron correctamente debido a un error. Cada ejecución incompleta almacenada se puede resolver manualmente o automáticamente.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]
 
-La variable [!UICONTROL Ejecuciones incompletas] carpeta almacena ejecuciones de escenario que no se completaron correctamente debido a un error. Cada ejecución incompleta almacenada se puede resolver de forma manual o automática.
+El [!UICONTROL Ejecuciones incompletas] La carpeta almacena ejecuciones de escenarios que no se finalizaron correctamente debido a un error. Cada ejecución incompleta almacenada se puede resolver manualmente o automáticamente.
 
 >[!NOTE]
 >
->De forma predeterminada, el almacenamiento de ejecuciones incompletas está deshabilitado. Para habilitarlo, habilite la variable [!UICONTROL Permitir el almacenamiento de ejecuciones incompletas] en la configuración avanzada del escenario.
+>De forma predeterminada, el almacenamiento de ejecuciones incompletas está deshabilitado. Para habilitarlo, habilite la variable [!UICONTROL Permitir almacenar ejecuciones incompletas] en la configuración avanzada del escenario.
 >
->Para obtener más información sobre la configuración de escenarios, consulte [El panel de configuración de escenario de [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>Para obtener más información sobre la configuración de escenarios, consulte [El panel de configuración de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Requisitos de acceso
 
@@ -38,15 +38,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo] </p>  </td>  
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+  <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +65,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Ver ejecuciones incompletas
 
-Si un módulo encuentra un error durante su operación, se agrega una nueva ejecución incompleta a la carpeta de ejecuciones incompletas. Cada ejecución incompleta contiene el modelo del escenario y todos los paquetes que se pueden asignar al módulo fallido. La lista de ejecuciones incompletas se puede abrir haciendo clic en el [!UICONTROL Ejecuciones incompletas] en la página de detalles del escenario:
+Si un módulo encuentra un error durante su operación, se agrega una nueva ejecución incompleta a la carpeta Ejecuciones incompletas. Cada ejecución incompleta contiene el modelo del escenario y todos los paquetes que se pueden asignar al módulo fallido. La lista de ejecuciones incompletas se puede abrir haciendo clic en el icono [!UICONTROL Ejecuciones incompletas] en la página de detalles del escenario:
 
 ![](assets/incomplete-executions-tab-350x102.png)
 
@@ -69,20 +77,20 @@ Para obtener más información, consulte [Errores que resultan en ejecuciones in
 >
 >`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
 >
->Para obtener más información, consulte [Habilitar la pérdida de datos](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) en [El panel de configuración de escenario de [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>Para obtener más información, consulte [Habilitar la pérdida de datos](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [El panel de configuración de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-## Resolución de ejecuciones incompletas
+## Resolver ejecuciones incompletas
 
-Cuando se almacena una nueva ejecución incompleta, se puede resolver de la siguiente manera:
+Cuando se almacena una nueva ejecución incompleta, puede resolverla de la siguiente manera:
 
-1. Haga clic en el **[!UICONTROL Ejecuciones incompletas]** pestaña .
+1. Haga clic en **[!UICONTROL Ejecuciones incompletas]** pestaña.
 1. Busque la ejecución incompleta que desee resolver y haga clic en **[!UICONTROL Detalle]**.
 
 
-   Si desea ver el registro de todas las operaciones del módulo antes de intentar resolver la ejecución incompleta, puede resolver la ejecución incompleta desde la [!UICONTROL Historial] carpeta:
+   Si desea ver el registro de todas las operaciones del módulo antes de intentar resolver la ejecución incompleta, puede resolverla desde el [!UICONTROL Historial] carpeta:
 
-1. Haga clic en el **[!UICONTROL Historial]** pestaña .
-1. Busque el registro de ejecución fallido del escenario y haga clic en **[!UICONTROL Detalles]**.
+1. Haga clic en **[!UICONTROL Historial]** pestaña.
+1. Busque el registro de ejecuciones fallidas del escenario y haga clic en **[!UICONTROL Detalles]**.
 1. Abra el registro del módulo donde se muestran todas las operaciones del módulo.
 1. Busque la operación fallida y haga clic en **[!UICONTROL Resolver]**:
 
@@ -90,25 +98,25 @@ Cuando se almacena una nueva ejecución incompleta, se puede resolver de la sigu
 
 ## Opciones relacionadas con ejecuciones incompletas
 
-Las siguientes opciones de la sección [!UICONTROL Configuración del escenario] determine si se almacenan las ejecuciones incompletas y cómo se almacenan:
+Las siguientes opciones de la [!UICONTROL Configuración de escenarios] panel para determinar si las ejecuciones incompletas se almacenan y cómo:
 
-* Permitir el almacenamiento de ejecuciones incompletas
+* Permitir almacenar ejecuciones incompletas
 * Procesamiento secuencial
 * Habilitar la pérdida de datos
 
-Para obtener más información sobre estas opciones, consulte [El panel de configuración de escenario de [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Para obtener más información sobre estas opciones, consulte [El panel de configuración de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Errores que resultan en ejecuciones incompletas
 
-Existen varias categorías de errores que resultan en el almacenamiento de ejecuciones incompletas. Entre ellas cabe mencionar:
+Existen varias categorías de errores que resultan en el almacenamiento de ejecuciones incompletas. Estos pueden incluir:
 
-* Errores de validación derivados de datos incompletos o erróneos, principalmente debido a la falta de un elemento que se espera para procesar correctamente todos los datos que pasan por un módulo.
-* Errores que se producen cuando el destino final no está disponible debido a un error de conexión temporal o a largo plazo (por ejemplo, durante la conexión con un servidor FTP remoto o de correo electrónico).
+* Errores de validación derivados de datos incompletos o erróneos, principalmente debido a la falta de un elemento que se espera para procesar correctamente todos los datos que pasan a través de un módulo.
+* Errores que se producen por la no disponibilidad del destino final debido a un error de conexión temporal o a largo plazo (por ejemplo, durante la conexión al correo electrónico o al servidor FTP remoto).
 
 Si se produce un error en el primer módulo del escenario, la ejecución se detiene inmediatamente y no se almacena ninguna ejecución incompleta.
 
-Si se produce un error en cualquier otro módulo y no hay ninguna ruta de controlador de error adjunta, se produce una de las siguientes situaciones:
+Si se produce un error en cualquier otro módulo y no hay ninguna ruta de tratamiento de errores asociada, se producirá una de las siguientes situaciones:
 
-* Si el tipo de error es `ConnectionError`, `RateLimitError`, `OutOfSpaceError` o `ModuleTimeoutError`, se almacena un registro de ejecución incompleto con reintento automático.
-* Si el tipo de error es `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError`o `MaxResultsExceededError`, se almacena un registro de ejecución incompleto sin reintento automático.
-* Si el tipo de error es cualquier cosa que no sea lo anterior, la ejecución falla.
+* Si el tipo de error es `ConnectionError`, `RateLimitError`, `OutOfSpaceError` o `ModuleTimeoutError`, se almacenará un registro de ejecución incompleto con reintento automático.
+* Si el tipo de error es `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError`, o `MaxResultsExceededError`, se almacenará un registro de ejecución incompleto sin reintento automático.
+* Si el tipo de error no es el anterior, la ejecución falla.

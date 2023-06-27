@@ -1,20 +1,20 @@
 ---
-title: Cifrado
-description: Los módulos del cifrado de Adobe Workfront Fusion le permiten cifrar cualquier dato de texto. Actualmente son compatibles con el cifrado de mensajes a través de AES256 y PGP (OpenPGP).
+title: Cifrador
+description: Los módulos de Adobe Workfront Fusion Encryptor le permiten cifrar cualquier dato de texto. Actualmente admiten el cifrado de mensajes mediante AES256 y PGP (OpenPGP).
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Cifrado
+# Cifrador
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Cifrado] los módulos permiten cifrar cualquier dato de texto. Actualmente admiten el cifrado de mensajes a través de AES256 y PGP ([!UICONTROL OpenPGP]).
+[!DNL Adobe Workfront Fusion] [!UICONTROL Cifrador] Los módulos de le permiten cifrar cualquier dato de texto. Actualmente admiten el cifrado de mensajes mediante AES256 y PGP ([!UICONTROL OpenPGP]).
 
 ## Requisitos de acceso
 
@@ -30,15 +30,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p>   <p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,17 +55,17 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Encriptado y descifrado de mensajes con PGP
+## Cifrado y descifrado de mensajes mediante PGP
 
 Al cifrar y descifrar mediante PGP, es necesario utilizar un llavero y crear una clave privada o pública (o ambas).
 
-Para obtener más información sobre claves públicas y privadas, consulte [Términos básicos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Para obtener más información sobre las cadenas de claves, consulte [Claves en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
+Para obtener más información sobre las claves públicas y privadas, consulte [Términos básicos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Para obtener más información sobre los llaveros, consulte [Claves en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## [!UICONTROL Cifrado] módulos y sus campos
+## [!UICONTROL Cifrador] módulos y sus campos
 
-Al configurar [!UICONTROL Cifrado] , se muestran los campos siguientes. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!UICONTROL Cifrador] módulos, se muestran los campos siguientes. Un título en negrita en un módulo indica un campo obligatorio.
 
-### Codificar un mensaje PGP
+### Cifrado de un mensaje PGP
 
 Este módulo le permite cifrar un mensaje utilizando claves públicas y privadas.
 
@@ -72,12 +80,12 @@ Este módulo le permite cifrar un mensaje utilizando claves públicas y privadas
     </tr>
     <tr>
         <td>[!UICONTROL Mensaje]</td>
-        <td>Introduzca el mensaje que desea cifrar.</td>
+        <td>Escriba el mensaje que desea cifrar.</td>
     </tr>
 
-### Descifrar un mensaje PGP
+### Descifrado de un mensaje PGP
 
-Este módulo le permite descifrar un mensaje con claves públicas y privadas.
+Este módulo le permite descifrar un mensaje utilizando claves públicas y privadas.
 
 <table style="table-layout:auto">
     <tr>
@@ -90,6 +98,6 @@ Este módulo le permite descifrar un mensaje con claves públicas y privadas.
     </tr>
     <tr>
         <td>[!UICONTROL Mensaje]</td>
-        <td>Asigne el mensaje que desee descifrar.</td>
+        <td>Asigne el mensaje que desea descifrar.</td>
     </tr>
 </table>

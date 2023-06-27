@@ -8,9 +8,9 @@ description: Los siguientes tokens para el formato de fecha y hora están dispon
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '365'
 ht-degree: 6%
 
 ---
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +65,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th>Token </th> 
-   <th>Salida </th> 
+   <th>Output </th> 
    <th> <p>Descripción</p> </th> 
   </tr> 
  </thead> 
@@ -65,17 +73,17 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>YY </code> </td> 
    <td><code>70 71 ... 29 30</code> </td> 
-   <td> <p> Año de 2 dígitos</p> </td> 
+   <td> <p> El año expresado con 2 dígitos</p> </td> 
   </tr> 
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>1970 1971 ... 2029 2030 </code> </td> 
-   <td> <p>Año de 4 dígitos</p> </td> 
+   <td> <p>El año expresado con 4 dígitos</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>1970 1971 ... 9999 +10000 +10001</code> </td> 
-   <td> <p>[!UICONTROL Año con cualquier número de dígitos y signo]</p> </td> 
+   <td> <p>[!UICONTROL Year con cualquier número de dígitos y signo]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
@@ -105,7 +113,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>MMM</code> </td> 
    <td><code>Jan Feb ... Nov Dec</code></td> 
-   <td> <p> Abreviación de mes</p> </td> 
+   <td> <p> Abreviatura del mes</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMMM</code> </td> 
@@ -145,7 +153,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  </tbody> 
 </table>
 
-## Tokens de año, semana y día laborable de la semana
+## Tokens de semana, año, semana y día de la semana
 
 <table style="table-layout:auto"> 
  <col> 
@@ -154,7 +162,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th>Token </th> 
-   <th>Salida </th> 
+   <th>Output </th> 
    <th> <p>Descripción</p> </th> 
   </tr> 
  </thead> 
@@ -172,12 +180,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>dd </code> </td> 
    <td><code>Su Mo ... Fr Sa </code> </td> 
-   <td> <p>Abreviación de día</p> </td> 
+   <td> <p>Abreviatura de día</p> </td> 
   </tr> 
   <tr> 
    <td><code>ddd</code> </td> 
    <td><code>Sun Mon ... Fri Sat </code> </td> 
-   <td> <p> Abreviación de día</p> </td> 
+   <td> <p> Abreviatura de día</p> </td> 
   </tr> 
   <tr> 
    <td><code>dddd </code> </td> 
@@ -222,12 +230,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>gg</code></td> 
    <td><code>70 71 ... 29 30 </code> </td> 
-   <td> <p>Año de la semana</p> </td> 
+   <td> <p>Semana del año</p> </td> 
   </tr> 
   <tr> 
    <td><code>gggg </code> </td> 
    <td><code>1970 1971 ... 2029 2030</code> </td> 
-   <td> <p> Año de la semana</p> </td> 
+   <td> <p> Semana del año</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
@@ -251,7 +259,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> <p>Token </p> </th> 
-   <th>Salida </th> 
+   <th>Output </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -259,12 +267,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>H</code> </td> 
    <td><code>0 1 ... 22 23</code></td> 
-   <td> <p>Hora de 24 horas</p> </td> 
+   <td> <p>24 horas</p> </td> 
   </tr> 
   <tr> 
    <td><code>HH</code> </td> 
    <td><code>00 01 ... 22 23</code></td> 
-   <td> <p> 24 horas con cero a la izquierda</p> </td> 
+   <td> <p> Tiempo de 24 horas con cero a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>h</code> </td> 
@@ -274,27 +282,27 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>hh </code> </td> 
    <td><code>01 02 ... 11 12</code> </td> 
-   <td> <p> 12 horas de tiempo con cero a la izquierda</p> </td> 
+   <td> <p> Tiempo de 12 horas con cero a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>k</code> </td> 
    <td><code>1 2 ... 23 24</code></td> 
-   <td> <p> Hora de 24 horas</p> </td> 
+   <td> <p> 24 horas</p> </td> 
   </tr> 
   <tr> 
    <td><code>kk</code></td> 
    <td><code>01 02 ... 23 24</code> </td> 
-   <td> <p> 24 horas con cero a la izquierda</p> </td> 
+   <td> <p> Tiempo de 24 horas con cero a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>Meridiem posterior o anterior (mayúsculas)</p> </td> 
+   <td> <p>Post o ante meridiem (mayúsculas)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> Meridiem posterior o ante (minúsculas)</p> </td> 
+   <td> <p> Méridiem post o ante (minúscula)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 
@@ -304,12 +312,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p>[!UICONTROL Minutos con] precedencia cero</p> </td> 
+   <td> <p>[!UICONTROL Minutos con] cero a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 
    <td><code>0 1 ... 58 59</code> </td> 
-   <td> <p> Segundos</p> </td> 
+   <td> <p> Seconds</p> </td> 
   </tr> 
   <tr> 
    <td><code>ss</code> </td> 
@@ -319,22 +327,22 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>S</code> </td> 
    <td><code>0 1 ... 8 9 </code> </td> 
-   <td> <p> Segundos fraccionados</p> </td> 
+   <td> <p> Segundos fraccionarios</p> </td> 
   </tr> 
   <tr> 
    <td><code>SS</code> </td> 
    <td><code>00 01 ... 98 99</code> </td> 
-   <td> <p> Segundos fraccionados con cero a la izquierda</p> </td> 
+   <td> <p> Segundos fraccionarios con cero a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSS</code> </td> 
    <td><code>000 001 ... 998 999</code> </td> 
-   <td> <p> Segundos fraccionados con dos ceros a la izquierda</p> </td> 
+   <td> <p> Segundos fraccionarios con dos ceros a la izquierda</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSSS ... SSSSSSSSS</code> </td> 
    <td><code>000[0..] 001[0..] ... 998[0..] 999[0..] </code> </td> 
-   <td> <p> Segundos fraccionados</p> </td> 
+   <td> <p> Segundos fraccionarios</p> </td> 
   </tr> 
   <tr> 
    <td><code>Z</code> </td> 
@@ -349,12 +357,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>X</code> </td> 
    <td><code>1360013296</code> </td> 
-   <td> <p> Marca de tiempo Unix</p> </td> 
+   <td> <p> Unix Timestamp</p> </td> 
   </tr> 
   <tr> 
    <td><code>x</code> </td> 
    <td><code>1360013296123</code></td> 
-   <td> <p> Marca de tiempo de milisegundos de Unix</p> </td> 
+   <td> <p> Marca de tiempo Unix en milisegundos</p> </td> 
   </tr> 
  </tbody> 
 </table>

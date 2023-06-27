@@ -9,9 +9,9 @@ description: Puede utilizar TLS mutuo en los módulos HTTP de Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ TLS mutuo permite que esta confirmación de identidad funcione en ambos sentidos
 >**Ejemplo:**
 >
 >* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Bueno banco, no un sitio web que podría hacer un mal uso o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
-   >
-   >   Cuando el explorador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para comprobar su identidad. El certificado lo proporciona una entidad emisora de certificados como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
+>
+>   Cuando el explorador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para comprobar su identidad. El certificado lo proporciona una entidad emisora de certificados como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
 >
 >* **TLS mutuo**: MySoftware.com es un cliente de software que necesita información de la API de MyGreatBank.com. MyGreatBank solo permite a los clientes de confianza conectarse a sus servidores. Por lo tanto, además del TLS normal que verifica la identidad de MyGreatBank.com, el proceso de autoridad de TLS/certificados también verifica la solicitud de MySoftware.com.
-
 
 ## Requisitos de acceso
 
@@ -57,11 +56,19 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion para automatización e integración de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 >[!IMPORTANT]
 >
 >* Estos [!DNL Workfront Fusion] los certificados públicos caducan el 9 de junio de 2024. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
-   >
-   >   * Tome nota de la fecha de caducidad y configure un recordatorio para que usted mismo cargue el certificado en su servicio web.
-   >   * Marque esta página para encontrar fácilmente los nuevos certificados.
+>
+>   * Tome nota de la fecha de caducidad y configure un recordatorio para que usted mismo cargue el certificado en su servicio web.
+>   * Marque esta página para encontrar fácilmente los nuevos certificados.
 >
 >* Son certificados mTLS no comodín.
-
 
 * [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Descargar [!DNL Workfront Fusion] Certificado UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   Para uso en la UE
+  Para uso en la UE
 
 <!--
 

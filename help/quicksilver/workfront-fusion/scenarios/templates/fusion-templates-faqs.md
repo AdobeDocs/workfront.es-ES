@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Preguntas frecuentes sobre las plantillas de Adobe Workfront Fusion
-description: Este artículo aborda preguntas comunes sobre [!DNL Adobe Workfront Fusion scenario] plantillas.
+title: Preguntas frecuentes sobre plantillas de Adobe Workfront Fusion
+description: Este artículo aborda preguntas comunes acerca de [!DNL Adobe Workfront Fusion scenario] plantillas.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] preguntas más frecuentes sobre plantillas
+# [!DNL Adobe Workfront Fusion] preguntas frecuentes sobre plantillas
 
 ## Requisitos de acceso
 
@@ -30,15 +30,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo] </p>  </td>  
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+  <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,24 +59,24 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 **Respuesta**:
 
-La plantilla guardada se comparte automáticamente con los integrantes del equipo. Si desea compartirlo con usuarios que no sean miembros de su equipo, debe publicarlo. A continuación, puede compartirla con un vínculo o solicitar al administrador que haga pública la plantilla.
+La plantilla guardada se comparte automáticamente con los integrantes del equipo. Si desea compartirlo con usuarios que no sean miembros de su equipo, debe publicarlo. A continuación, puede compartirla con un vínculo o pedir al administrador que haga pública la plantilla.
 
-Para obtener más información, consulte [Publicar y compartir [!DNL Adobe Workfront Fusion templates]](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+Para obtener más información, consulte [Publicación y uso compartido [!DNL Adobe Workfront Fusion templates]](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
 
-## ¿Cómo puedo editar o eliminar una plantilla pública?
-
-**Respuesta**:
-
-Consulte [Ver, editar y eliminar [!DNL Adobe Workfront Fusion] plantillas](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
-
-## No encuentro una plantilla pública que creé originalmente. ¿Qué puedo hacer?
+## ¿Cómo se puede editar o eliminar una plantilla pública?
 
 **Respuesta**:
 
-Póngase en contacto directamente con el administrador. Es posible que el administrador haya cambiado el nombre de la plantilla creada antes de la aprobación.
+Consulte [Ver, editar y eliminar [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
+
+## No puedo encontrar una plantilla pública que haya creado originalmente. ¿Qué puedo hacer?
+
+**Respuesta**:
+
+Póngase directamente en contacto con el administrador. Es posible que el administrador haya cambiado el nombre de la plantilla que ha creado antes de la aprobación.
 
 ## ¿Cuánto tiempo se tarda en aprobar y hacer pública una plantilla?
 
 **Respuesta**:
 
-No existen reglas estrictas sobre el tiempo de aprobación. El administrador debe aprobar la plantilla. No se notifica al administrador de la recepción de la plantilla para revisarla por correo electrónico. Si la aprobación es urgente, póngase en contacto con el administrador directamente.
+No existen reglas estrictas sobre el tiempo de aprobación. El administrador debe aprobar su plantilla. No se notifica al administrador acerca de la recepción de la plantilla para que la revise por correo electrónico. Si la aprobación es urgente, póngase en contacto directamente con el administrador.

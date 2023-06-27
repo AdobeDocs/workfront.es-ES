@@ -3,14 +3,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connect [!DNL Adobe Workfront Fusion] a cualquier servicio web
-description: If [!DNL Adobe Workfront Fusion] no ofrece una aplicación para el servicio web que desea utilizar en su situación, puede conectarse al servicio web mediante [!DNL Workfront Fusion] Los módulos HTTP y Webhooks, tal como se describe en este artículo.
+description: If [!DNL Adobe Workfront Fusion] no ofrece una aplicación para el servicio web que desee utilizar en su escenario; puede conectarse al servicio web mediante [!DNL Workfront Fusion] Módulos HTTP y Webhooks, tal como se describe en este artículo.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b2a7d85-e20e-4836-8418-3463d284194e
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 1%
 
 ---
 
@@ -30,15 +30,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +55,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-If [!DNL Adobe Workfront Fusion] no ofrece una aplicación para el servicio web que desea utilizar en su situación, puede conectarse al servicio web mediante [!DNL Workfront Fusion] Los módulos HTTP y Webhooks, tal como se explica en los siguientes artículos:
+If [!DNL Adobe Workfront Fusion] no ofrece una aplicación para el servicio web que desee utilizar en su escenario; puede conectarse al servicio web mediante [!DNL Workfront Fusion] Módulos HTTP y Webhooks, tal como se explica en los siguientes artículos:
 
-* [Connect [!DNL Adobe Workfront Fusion] a un servicio web que utiliza la autorización de tokens de API](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
-* [Recibir un enlace web desde un servicio web](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
+* [Connect [!DNL Adobe Workfront Fusion] a un servicio web que utiliza la autorización de token de API](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
+* [Recibir un webhook de un servicio web](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)

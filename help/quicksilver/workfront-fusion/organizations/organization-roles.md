@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Funciones de organización en [!DNL Adobe Workfront Fusion]
-description: Este artículo incluye información sobre el acceso y los permisos de las funciones en [!DNL Adobe] Workfront Fusion.
+description: Este artículo incluye información sobre el acceso y los permisos de las funciones de [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Este artículo describe el acceso y la funcionalidad disponibles para las difere
 
 >[!NOTE]
 >
->Las funciones de organización están separadas de las funciones de equipo de [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de equipo, consulte [Funciones del equipo](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>Las funciones de organización son independientes de las funciones de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de equipo, consulte [Roles del equipo](../organizations/organizations-and-teams.md#team-roles-team-roles).
 
 ## Requisitos de acceso
 
@@ -41,21 +41,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
    <tr> 
     <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>Workfront Fusion para automatización e integración del trabajo,</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> 
-     <p>Debe ser [!DNL Workfront Fusion] administrador de su organización.</p>
-     <p>Debe ser [!DNL Workfront Fusion] administrador de su equipo.</p>
+     <p>Debe ser un [!DNL Workfront Fusion] administrador de su organización.</p>
+     <p>Debe ser un [!DNL Workfront Fusion] administrador de su equipo.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -79,12 +87,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p>[!UICONTROL Propietario]</p> </th> 
    <th> <p>[!UICONTROL Admin]</p> </th> 
    <th> <p>[!UICONTROL Miembro]</p> </th> 
-   <th> <p>[!UICONTROL Accountant]</p> </th> 
+   <th> <p>[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Eliminar organizaciones</p> </td> 
+   <td> <p>Eliminación de organizaciones</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -144,7 +152,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -156,14 +164,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Enumerar ejecuciones incompletas</p> </td> 
+   <td> <p style="text-align: left;">Lista de ejecuciones incompletas</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar escenarios</p> </td> 
+   <td> <p style="text-align: left;">Adición de escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -184,14 +192,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Historial de ejecución del escenario de navegación</p> </td> 
+   <td> <p style="text-align: left;">Examinar historial de ejecución de escenario</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Notificaciones del escenario</p> </td> 
+   <td> <p style="text-align: left;">Notificaciones de escenario</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -205,14 +213,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Situaciones de lista</p> </td> 
+   <td> <p style="text-align: left;">Enumerar escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Editar programador de escenario</p> </td> 
+   <td> <p style="text-align: left;">Editar planificador de escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -263,19 +271,19 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Añadir conexiones</p> </td> 
+   <td> <p style="text-align: left;">Agregar conexiones</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminar conexiones</p> </td> 
+   <td> <p style="text-align: left;">Eliminación de conexiones</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -289,7 +297,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Enumerar conexiones</p> </td> 
+   <td> <p style="text-align: left;">Enumeración de conexiones</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -298,7 +306,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  </tbody> 
 </table>
 
-## Enlaces web
+## Webhooks
 
 <table style="table-layout:auto"> 
  <col> 
@@ -312,33 +320,33 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar vínculos web</p> </td> 
+   <td> <p style="text-align: left;">Añadir webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminar vínculos web</p> </td> 
+   <td> <p style="text-align: left;">Eliminar webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Editar enlaces web</p> </td> 
+   <td> <p style="text-align: left;">Editar webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Lista de vínculos web</p> </td> 
+   <td> <p style="text-align: left;">Enumerar webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -361,7 +369,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -422,28 +430,28 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Añadir estructuras de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminar estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Eliminación de estructuras de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Editar estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Edición de estructuras de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Enumerar estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Enumeración de estructuras de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -466,7 +474,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -515,12 +523,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar claves</p> </td> 
+   <td> <p style="text-align: left;">Añadir claves</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 

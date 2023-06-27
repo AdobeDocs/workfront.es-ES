@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Variables matemáticas en [!DNL Adobe Workfront Fusion]
-description: Las siguientes variables matemáticas están disponibles en la [!DNL Adobe Workfront Fusion mapping] panel.
+description: Las siguientes variables matemáticas están disponibles en la variable [!DNL Adobe Workfront Fusion mapping] panel.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +58,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## [!UICONTROL random]
 
-Devuelve un número pseudoaleatorio de coma flotante en el intervalo [`0`,`1`] (incluido `0`, pero no `1`).
+Devuelve un número pseudoaleatorio de coma flotante del intervalo [`0`,`1`] (incluido de `0`, pero no `1`).
 
-Utilice la fórmula siguiente para generar un número pseudo aleatorio entero en el rango [`min`,`max`] (ambos incluidos `min` y `max`):
+Utilice la siguiente fórmula para generar un número pseudoaleatorio entero en el rango [`min`,`max`] (incluido de ambos `min` y `max`):
 
 ![](assets/math-variable-random-350x61.png)
 

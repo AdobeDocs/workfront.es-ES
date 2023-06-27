@@ -8,10 +8,10 @@ description: Los siguientes tokens para el análisis de fecha y hora están disp
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 7%
+source-wordcount: '278'
+ht-degree: 6%
 
 ---
 
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,22 +73,22 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>2014 </code> </td> 
-   <td> <p>Año de 4 o 2 dígitos</p> </td> 
+   <td> <p>El año expresado con 4 o 2 dígitos</p> </td> 
   </tr> 
   <tr> 
    <td><code>YY</code></td> 
    <td><code>14</code></td> 
-   <td> <p>Año de 2 dígitos</p> </td> 
+   <td> <p>El año expresado con 2 dígitos</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL Año con cualquier número de dígitos y signo]</p> </td> 
+   <td> <p>[!UICONTROL Year con cualquier número de dígitos y signo]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> Trimestre del año. Establece el mes como el primer mes del trimestre.</p> </td> 
+   <td> <p> Trimestre del año. Establece de mes a primer mes del trimestre.</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
@@ -110,17 +118,17 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>X</code> </td> 
    <td><code>1410715640.579</code> </td> 
-   <td> <p> Marca de tiempo Unix</p> </td> 
+   <td> <p> Unix timestamp</p> </td> 
   </tr> 
   <tr> 
    <td><code>x</code> </td> 
    <td><code>1410715640579</code> </td> 
-   <td> <p> Marca de tiempo de Unix ms</p> </td> 
+   <td> <p> Unix ms timestamp</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Tokens de año, semana y día laborable de la semana
+## Tokens de semana, año, semana y día de la semana
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,22 +150,22 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> Año de la semana ISO 4 dígitos</p> </td> 
+   <td> <p> Semana anual con 4 dígitos ISO</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>14</code> </td> 
-   <td> <p> Año de la semana ISO 2 dígitos</p> </td> 
+   <td> <p> Semana anual con 2 dígitos en ISO</p> </td> 
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
    <td><code>1..53</code></td> 
-   <td> <p> Semana del año ISO</p> </td> 
+   <td> <p> Semana ISO del año</p> </td> 
   </tr> 
   <tr> 
    <td><code>E</code> </td> 
    <td><code>1..7</code> </td> 
-   <td> <p> Día de la semana ISO</p> </td> 
+   <td> <p> ISO día de la semana</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,17 +192,17 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>h hh</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> Horas (12 horas, hora usada con A.)</p> </td> 
+   <td> <p> Horas (tiempo de 12 horas utilizado con un A.)</p> </td> 
   </tr> 
   <tr> 
    <td><code>k kk</code> </td> 
    <td><code>1..24</code> </td> 
-   <td> <p> Horas (24 horas, hora del 1 al 24)</p> </td> 
+   <td> <p> Horas (24 horas del 1 al 24)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Meridiem posterior o anterior (tenga en cuenta que el carácter a p también se considera válido)</p> </td> 
+   <td> <p> Post o ante meridiem (tenga en cuenta que el carácter a p también se considera válido)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -204,12 +212,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td><code>s ss</code> </td> 
    <td><code>0..59</code> </td> 
-   <td> <p> Segundos</p> </td> 
+   <td> <p> Seconds</p> </td> 
   </tr> 
   <tr> 
    <td><code>S SS SSS</code> </td> 
    <td><code>0..999</code> </td> 
-   <td> <p> Segundos fraccionados</p> </td> 
+   <td> <p> Segundos fraccionarios</p> </td> 
   </tr> 
   <tr> 
    <td><code>Z ZZ</code> </td> 

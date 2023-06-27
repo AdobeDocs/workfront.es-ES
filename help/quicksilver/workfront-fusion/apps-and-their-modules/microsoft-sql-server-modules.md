@@ -2,23 +2,23 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Microsoft SQL Server
-description: Puede usar [!DNL Adobe Workfront Fusion] para conectarse a Microsoft SQL Server.
+description: Puede utilizar [!DNL Adobe Workfront Fusion] para conectarse a Microsoft SQL Server.
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
 # [!DNL Microsoft SQL Server] módulos
 
-Puede usar [!DNL Adobe Workfront Fusion] para conectarse a [!UICONTROL Microsoft SQL Server].
+Puede utilizar [!DNL Adobe Workfront Fusion] para conectarse a [!UICONTROL Microsoft SQL Server].
 
 ## Requisitos de acceso
 
@@ -34,15 +34,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,32 +59,32 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Uso [!DNL Microsoft SQL Server] módulos
+## Uso de [!DNL Microsoft SQL Server] módulos
 
-Puede ejecutar la lógica personalizada directamente en el servidor de la base de datos mediante procedimientos almacenados. [!DNL Adobe Workfront Fusion] carga la interfaz de parámetros de entrada/salida y el conjunto de registros de forma dinámica, de modo que cada parámetro o valor se pueda asignar individualmente. Antes de empezar a configurar el escenario, asegúrese de que la cuenta que está utilizando para conectarse a la base de datos tenga acceso de lectura a `INFORMATION_SCHEMA.ROUTINES` y `INFORMATION_SCHEMA.PARAMETERS` vistas.
+Puede ejecutar la lógica personalizada directamente en el servidor de base de datos mediante procedimientos almacenados. [!DNL Adobe Workfront Fusion] carga dinámicamente la interfaz de parámetros de entrada/salida y el juego de registros para que cada parámetro o valor se pueda asignar individualmente. Antes de comenzar a configurar el escenario, asegúrese de que la cuenta que está utilizando para conectarse a la base de datos tiene acceso de lectura a `INFORMATION_SCHEMA.ROUTINES` y `INFORMATION_SCHEMA.PARAMETERS` vistas.
 
-When [!DNL Fusion] establece la conexión con la variable [!DNL SQL server] destino, la variable [!DNL Fusion] el usuario identifica el host (el nombre de dominio o la dirección IP donde se aloja el servidor) y el puerto. [!DNL Fusion] puede conectarse a cualquier host y puerto disponibles.
+Cuándo [!DNL Fusion] establece la conexión con [!DNL SQL server] destino, el [!DNL Fusion] El usuario identifica el host (el nombre de dominio o la dirección IP donde está alojado el servidor) y el puerto. [!DNL Fusion] puede conectarse a cualquier host y puerto disponible.
 
-Para obtener información sobre las direcciones IP específicas que utiliza [!DNL Workfront Fusion], consulte [Direcciones IP para acceder [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+Para obtener información acerca de las direcciones IP específicas que utiliza [!DNL Workfront Fusion], consulte [Direcciones IP para acceder a [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-Para obtener más información sobre la creación de un procedimiento almacenado, consulte la [!DNL Microsoft SQL Server] documentación.
+Para obtener más información acerca de cómo crear un procedimiento almacenado, vea la [!DNL Microsoft SQL Server] documentación.
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] no admite varios conjuntos de registros. Solo se procesa el primero.
+>[!DNL Workfront Fusion] no admite varios conjuntos de registros. Solo se procesa la primera.
 
-## Solución de problemas de error [!UICONTROL ER_LOCK_WAIT_TIMEOUT: Se ha superado el tiempo de espera de bloqueo; intente reiniciar la transacción]
+## Error de resolución de problemas [!UICONTROL ER_LOCK_WAIT_TIMEOUT: Se ha superado el tiempo de espera de bloqueo; intente reiniciar la transacción]
 
-Este error se produce cuando se modifican los mismos datos mediante varios módulos. Está causado por transacciones SQL.
+Este error se produce cuando se modifican los mismos datos utilizando varios módulos. Se debe a transacciones SQL.
 
-Cuando se ejecuta cualquier módulo SQL, se inicia una transacción. La transacción finaliza después de que el escenario se ejecute completamente.
+Cuando se ejecuta cualquier módulo SQL, inicia una transacción. La transacción finaliza después de que el escenario se ejecute completamente.
 
-Si otro módulo intenta acceder a los mismos datos, tiene que esperar hasta que finalice la transacción anterior. Dado que la primera transacción finaliza una vez finalizado el escenario, la segunda transacción nunca puede comenzar.
+Si otro módulo intenta acceder a los mismos datos, debe esperar hasta que finalice la transacción anterior. Dado que la primera transacción finalizará después de que finalice el escenario, la segunda transacción nunca puede comenzar.
 
 ### Solución:
 
-Active la confirmación automática. La confirmación automática finaliza (confirma) cada transacción inmediatamente después de que se haya realizado la ejecución del módulo.
+Active la confirmación automática. La confirmación automática finaliza (confirma) todas las transacciones inmediatamente después de que se haya completado la ejecución del módulo.
 
-1. Haga clic en el [!UICONTROL Configuración del escenario] icono ![](assets/scenario-settings-icon.png)en la parte inferior de la pantalla.
-1. Haga clic en el **[!UICONTROL Compromiso automático]** casilla de verificación.
-1. Haga clic en **[!UICONTROL OK]** para guardar la configuración del escenario.
+1. Haga clic en [!UICONTROL Configuración de escenarios] icono ![](assets/scenario-settings-icon.png)en la parte inferior de la pantalla.
+1. Haga clic en **[!UICONTROL Confirmación automática]** casilla de verificación
+1. Clic **[!UICONTROL OK]** para guardar la configuración del escenario.

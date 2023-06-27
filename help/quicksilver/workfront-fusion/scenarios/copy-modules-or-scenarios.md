@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Copiar módulos o escenarios en [!DNL Adobe Workfront Fusion]
-description: Copiar módulos o escenarios en [!DNL Adobe Workfront Fusion]
+title: Copia de módulos o escenarios en [!DNL Adobe Workfront Fusion]
+description: Copia de módulos o escenarios en [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
-# Copiar módulos o escenarios en [!DNL Adobe Workfront Fusion]
+# Copia de módulos o escenarios en [!DNL Adobe Workfront Fusion]
 
-Puede copiar módulos, grupos de módulos o escenarios completos en [!DNL Adobe Workfront Fusion]. Esta capacidad le permite reutilizar escenarios o partes de escenarios sin tener que crearlos de nuevo
+Puede copiar módulos, grupos de módulos o escenarios completos en [!DNL Adobe Workfront Fusion]. Esta capacidad le permite reutilizar escenarios o partes de escenarios sin tener que volver a crearlos
 
 ## Requisitos de acceso
 
@@ -32,15 +32,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo] </p>  </td>    </tr> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+  <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -51,13 +59,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Debe añadir módulos a un escenario para poder copiarlos.
+Debe agregar módulos a un escenario para poder copiarlos.
 
 ## Copiar un módulo o un grupo de módulos
 
 Al copiar un módulo, la copia conserva todos los valores de campo y la configuración del módulo original.
 
-Puede pegar el módulo o los módulos en otra área del mismo escenario o en un escenario diferente.
+Puede pegar el módulo o módulos en otra área del mismo escenario o en otro escenario diferente.
 
 Tenga en cuenta lo siguiente al pegar módulos en un escenario diferente.
 
@@ -76,67 +84,67 @@ Copiar un grupo de módulos es similar a copiar un solo módulo.
 
    >[!NOTE]
    >
-   >Para seleccionar más de un módulo, mantenga presionada la tecla [!UICONTROL shift] y haciendo clic en los módulos que desea copiar. Al copiar un grupo de módulos, también se copia cualquier línea de conexión, filtro o lógica de enrutamiento entre ellos.
+   >Para seleccionar más de un módulo, mantenga pulsada la tecla [!UICONTROL desplazar] y haciendo clic en los módulos que desea copiar. Al copiar un grupo de módulos también se copian las líneas de conexión, los filtros o la lógica de enrutamiento entre ellos.
 
-1. Select **[!UICONTROL Módulo Copiar]**.
-1. Mueva el cursor al área del escenario en el que desea la copia del escenario.
+1. Seleccionar **[!UICONTROL Copiar módulo]**.
+1. Mueva el cursor al área del escenario donde desee copiar el escenario.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Pegar]**.
-1. Para conectar los módulos pegados al escenario, arrástrelos a la ubicación adecuada del escenario.
+1. Conecte los módulos pegados al escenario arrastrándolos a la ubicación adecuada en el escenario.
 
    También puede utilizar métodos abreviados del teclado para copiar y pegar.
 
-## Copiar un escenario mediante la clonación
+## Copia de un escenario mediante clonación
 
-Al clonar un escenario, se crea una copia del mismo, que luego se puede editar.
+Al clonar un escenario, se crea una copia del mismo que se puede editar a continuación.
 
 1. Abra la página de detalles del escenario:
 
-   1. Haga clic en el **[!UICONTROL Situación]** en el panel izquierdo y, a continuación, haga clic en un escenario en el que desee obtener más información.
+   1. Haga clic en **[!UICONTROL Escenario]** en el panel izquierdo y, a continuación, haga clic en un escenario en el que desee obtener detalles.
 
       O
 
-      Si está trabajando en el escenario en la variable [El editor de escenarios de [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
+      Si está trabajando en el escenario en [El editor de escenarios en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
 
-1. Clic con el botón derecho **[!UICONTROL Opciones]** en la parte superior derecha de la página.
-1. Select **[!UICONTROL Clonar]**.
-1. (Opcional) Introduzca un nombre para el nuevo escenario.
-1. (Opcional) Active **[!UICONTROL Mantenga los estados de cualquier módulo nuevo igual que los que se están duplicando]** para garantizar que el escenario copiado también incluya información sobre los registros más recientes procesados por el escenario original.
-1. Haga clic en **[!UICONTROL Guardar]** para crear el escenario.
+1. Clic derecho **[!UICONTROL Opciones]** en la parte superior derecha de la página.
+1. Seleccionar **[!UICONTROL Clonar]**.
+1. (Opcional) Escriba un nombre para el nuevo escenario.
+1. (Opcional) Habilitar **[!UICONTROL Mantenga los estados de los módulos nuevos igual que los que se duplican]** para asegurarse de que el escenario copiado también incluya información sobre los registros más recientes procesados por el escenario original.
+1. Clic **[!UICONTROL Guardar]** para crear el escenario.
 
-## Copiar un escenario utilizando modelos
+## Copiar un escenario mediante modelos
 
-Los modelos de escenario representan los valores de organización, asignación y campo de un escenario determinado en un momento dado. Puede exportar un modelo de escenario a un archivo JSON del equipo y luego importarlo al crear un nuevo escenario. Los escenarios importados desde un modelo de escenario se pueden editar.
+Los modelos de escenario representan la organización, la asignación y los valores de campo de un escenario determinado en un momento determinado. Puede exportar un modelo de escenario a un archivo JSON de su equipo y, a continuación, importarlo al crear un nuevo escenario. Los escenarios importados de un modelo de escenario se pueden editar.
 
 Un modelo de escenario representa todo el escenario. Si desea copiar solo ciertos módulos de un escenario, consulte [Copiar un módulo o un grupo de módulos](#copy-a-module-or-a-group-of-modules) en este artículo.
 
 >[!NOTE]
 >
->Para obtener información sobre los modelos en el contexto de [!DNL Adobe Workfront], consulte [Información general sobre modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
+>Para obtener información sobre modelos en el contexto de [!DNL Adobe Workfront], consulte [Información general de modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
 
-### Exportación de un modelo de escenario
+### Exportar un modelo de escenario
 
-1. En el escenario, haga clic en el botón **[!UICONTROL Más]** en el área de configuración del escenario.
-1. Haga clic en **[!UICONTROL Modelo de exportación]**.
+1. En el escenario, haga clic en **[!UICONTROL Más]** en el área de configuración del escenario.
+1. Clic **[!UICONTROL Exportar modelo]**.
 
-   Se crea un archivo JSON y se descarga a su equipo. Puede encontrar este archivo en su [!DNL Downloads] carpeta.
+   Se crea un archivo JSON y se descarga en el equipo. Puede localizar este archivo en su [!DNL Downloads] carpeta.
 
 ### Importar un modelo
 
 >[!IMPORTANT]
 >
->Si importa un modelo a un escenario existente, el modelo de escenario reemplaza al escenario existente. No se puede adjuntar un modelo a un escenario existente.
+>Si importa un modelo a un escenario existente, el modelo de escenario reemplazará al escenario existente. No se puede anexar un modelo a un escenario existente.
 
 1. Empiece a crear un nuevo escenario.
-1. En el escenario, haga clic en el botón **[!UICONTROL Más]** en el área de configuración del escenario.
-1. Haga clic en **[!UICONTROL Modelo de importación]**.
+1. En el escenario, haga clic en **[!UICONTROL Más]** en el área de configuración del escenario.
+1. Clic **[!UICONTROL Importar modelo]**.
 1. En el cuadro de diálogo que aparece, haga clic en **[!UICONTROL Examinar]**
-1. Vaya al modelo que desea importar y haga clic en **[!UICONTROL Apertura]**.
+1. Vaya al modelo que desee importar y haga clic en **[!UICONTROL Abrir]**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   Se crea un archivo JSON y se descarga a su equipo. Puede encontrar este archivo en su [!UICONTROL Descargas] carpeta.
+   Se crea un archivo JSON y se descarga en el equipo. Puede localizar este archivo en su [!UICONTROL Descargas] carpeta.
 
 ## Copiar y reutilizar escenarios mediante plantillas
 
-Puede crear plantillas como punto de partida para su [!DNL Workfront Fusion] escenarios. Al crear un escenario a partir de una plantilla, puede modificarlo sin modificar la plantilla. Los valores de campo no se guardan en plantillas.
+Puede crear plantillas como punto de partida para su [!DNL Workfront Fusion] escenarios. Cuando crea un escenario a partir de una plantilla, puede modificarlo sin modificarla. Los valores de campo no se guardan en las plantillas.
 
-Para obtener más información sobre la creación y el uso de plantillas, consulte [Plantillas de escenario](../../workfront-fusion/scenarios/templates/fusion-templates.md).
+Para obtener más información sobre la creación y el uso de las plantillas, consulte [Plantillas de escenario](../../workfront-fusion/scenarios/templates/fusion-templates.md).

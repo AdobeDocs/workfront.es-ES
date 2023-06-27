@@ -4,22 +4,22 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Módulos de bibliotecas de Adobe Creative Cloud
-description: Con la variable [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Módulos de bibliotecas , puede iniciar un escenario cuando se cree o actualice un elemento o biblioteca. También puede cargar, recuperar, archivar o enumerar elementos, o realizar una llamada a la función [!DNL Adobe Creative Cloud Libraries] API.
+title: Módulos de bibliotecas Adobe Creative Cloud
+description: Con el [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Módulos de bibliotecas, puede iniciar un escenario cuando se cree o actualice un elemento o biblioteca. También puede cargar, recuperar, archivar o enumerar elementos, o realizar una llamada al [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 0%
+source-wordcount: '1241'
+ht-degree: 1%
 
 ---
 
-# Módulos de bibliotecas de Adobe Creative Cloud
+# Módulos de bibliotecas Adobe Creative Cloud
 
-Con la variable [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] , puede iniciar un escenario cuando se cree o actualice un elemento o biblioteca. También puede cargar, recuperar, archivar o enumerar elementos, o realizar una llamada a la función [!DNL Adobe Creative Cloud Libraries] API.
+Con el [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] módulos, puede iniciar un escenario cuando se cree o actualice un elemento o biblioteca. También puede cargar, recuperar, archivar o enumerar elementos, o realizar una llamada al [!DNL Adobe Creative Cloud Libraries] API.
 
-Si necesita instrucciones para crear un escenario, consulte [Crear un escenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -40,18 +40,24 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
       <td>
-        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo]</p>
-      </td>
+      <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td>
+      <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td>
     </tr>
   </tbody>
 </table>
@@ -65,11 +71,11 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar [!DNL Adobe Creative Cloud Libraries] módulos, debe tener un [!UICONTROL Adobe Creative Cloud] cuenta.
 
-## [!UICONTROL Bibliotecas de Adobe Creative Cloud] módulos y sus campos
+## [!UICONTROL Bibliotecas Adobe Creative Cloud] módulos y sus campos
 
-Al configurar [!UICONTROL Bibliotecas de Adobe Creative Cloud] módulos, [!DNL Workfront Fusion] muestra los campos que se enumeran a continuación. Además de estos, se incluyen [!DNL Adobe Creative Cloud Libraries] pueden mostrarse los campos, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!UICONTROL Bibliotecas Adobe Creative Cloud] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Adobe Creative Cloud Libraries] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón de asignación encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -105,15 +111,15 @@ Este módulo de acción archiva un elemento de una biblioteca.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
       <td >Seleccione la biblioteca que contiene el elemento que desea archivar.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Element ID]</td>
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Id. elemento]</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Seleccione el elemento que desea archivar.</td>
     </tr>
   </tbody>
@@ -128,15 +134,15 @@ Este módulo de acción devuelve un solo elemento de una biblioteca.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
       <td >Seleccione la biblioteca que contiene el elemento que desea recuperar.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Element ID]</td>
+      <td role="rowheader">[!UICONTROL Id. elemento]</td>
       <td>Introduzca o asigne el ID del elemento que desea recuperar.</td>
     </tr>
     <tr>
@@ -147,7 +153,7 @@ Este módulo de acción devuelve un solo elemento de una biblioteca.
           <li>
             <p><b>[!UICONTROL Predeterminado]</b>
             </p>
-            <p>Datos básicos</p>
+            <p>Datos base</p>
           </li>
           <li>
             <p><b>[!UICONTROL Detalles]</b>
@@ -157,7 +163,7 @@ Este módulo de acción devuelve un solo elemento de una biblioteca.
           <li>
             <p><b>[!UICONTROL Representaciones]</b>
             </p>
-            <p>Una lista plana de recursos asociados al elemento de biblioteca</p>
+            <p>Una lista aplanada de recursos asociados al elemento de biblioteca</p>
           </li>
         </ul>
       </td>
@@ -174,19 +180,19 @@ Este módulo de acción recupera una lista de elementos de una biblioteca.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Seleccione la biblioteca desde la que desea enumerar los elementos.</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
+      <td >Seleccione la biblioteca de la que desee enumerar los elementos.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Order by]</td>
+      <td role="rowheader">[!UICONTROL Ordenar por]</td>
       <td>Seleccione si desea ordenar los resultados por nombre o por la última fecha de modificación del elemento.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Type]</td>
+      <td role="rowheader">[!UICONTROL Tipo]</td>
       <td >Introduzca un tipo MIME para limitar los resultados a los elementos identificados con el tipo MIME especificado. Ejemplo: <code>string</code>.</td>
     </tr>
     <tr>
@@ -197,7 +203,7 @@ Este módulo de acción recupera una lista de elementos de una biblioteca.
           <li>
             <p><b>[!UICONTROL Predeterminado]</b>
             </p>
-            <p>Datos básicos</p>
+            <p>Datos base</p>
           </li>
           <li>
             <p><b>[!UICONTROL Detalles]</b>
@@ -207,33 +213,33 @@ Este módulo de acción recupera una lista de elementos de una biblioteca.
           <li>
             <p><b>[!UICONTROL Representaciones]</b>
             </p>
-            <p>Una lista plana de recursos asociados al elemento de biblioteca</p>
+            <p>Una lista aplanada de recursos asociados al elemento de biblioteca</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Límite]</td>
-      <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td>
+      <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td>
     </tr>
   </tbody>
 </table>
 
 #### [!UICONTROL Cargar un elemento]
 
-Este módulo de acción carga un pequeño recurso de archivo en una biblioteca existente. El tamaño máximo del archivo es de 1 GB.
+Este módulo de acción carga un recurso de archivo pequeño en una biblioteca existente. El tamaño máximo de archivo es de 1 GB.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Seleccione la biblioteca desde la que desea enumerar los elementos.</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
+      <td >Seleccione la biblioteca de la que desee enumerar los elementos.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Modo de invocación]</td>
@@ -241,24 +247,24 @@ Este módulo de acción carga un pequeño recurso de archivo en una biblioteca e
         <p>Seleccione el modo de procesamiento con el que invocar este proceso de solicitud.</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL sync]</b>
+            <p><b>[!UICONTROL sinc]</b>
             </p>
             <p>La llamada de API se procesa sincrónicamente. La respuesta se envía cuando se completa el procesamiento (a menos que se agote el tiempo de espera de la llamada).</p>
           </li>
           <li>
-            <p><b>[!UICONTROL async]</b>
+            <p><b>[!UICONTROL asincrónico]</b>
             </p>
-            <p>La respuesta del monitor asíncrono se devuelve inmediatamente y el procesamiento de la solicitud se produce de forma asíncrona. La llamada es responsable de sondear el extremo hasta la finalización.</p>
+            <p>La respuesta del monitor asincrónico se devuelve inmediatamente y el procesamiento de la solicitud se produce asincrónicamente. La llamada es responsable de sondear el extremo hasta la finalización.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL sync,async]</b> (Predeterminado)</p>
-            <p>Se intenta procesar la solicitud de forma sincrónica. Cuando el procesamiento supera los 5000 ms, se devuelve la respuesta del monitor asíncrono. La dirección URL del monitor debe sondearse hasta que se complete la solicitud.</p>
+            <p><b>[!UICONTROL sinc,async]</b> (Predeterminado)</p>
+            <p>Se intenta el procesamiento sincrónico de la solicitud. Cuando el procesamiento se extiende más allá de 5000 ms, se devuelve la respuesta asincrónica del monitor. Se debe sondear la dirección URL del monitor hasta que se complete la solicitud.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Tipo File]</td>
+      <td role="rowheader">[!UICONTROL Type File]</td>
       <td >Introduzca o asigne el tipo MIME del archivo cargado.</td>
     </tr>
     <tr>
@@ -270,7 +276,7 @@ Este módulo de acción carga un pequeño recurso de archivo en una biblioteca e
   </tbody>
 </table>
 
-#### [!UICONTROL Ver nuevo elemento en la biblioteca]
+#### [!UICONTROL Ver el nuevo elemento en la biblioteca]
 
 Este módulo de déclencheur inicia un escenario cuando se agrega un elemento a una biblioteca.
 
@@ -279,16 +285,16 @@ Este módulo de déclencheur inicia un escenario cuando se agrega un elemento a 
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Seleccione la biblioteca que desea ver para los elementos actualizados.</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
+      <td >Seleccione la biblioteca que desee inspeccionar para ver si hay elementos actualizados.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Límite]</td>
-      <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td>
+      <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td>
     </tr>
   </tbody>
 </table>
@@ -303,16 +309,16 @@ Este módulo de déclencheur inicia un escenario cuando se actualiza un elemento
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Seleccione la biblioteca que desea ver para los elementos nuevos.</td>
+      <td role="rowheader">[!UICONTROL ID de biblioteca]</td>
+      <td >Seleccione la biblioteca que desee inspeccionar en busca de nuevos elementos.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Límite]</td>
-      <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td>
+      <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td>
     </tr>
   </tbody>
 </table>
@@ -326,19 +332,19 @@ Este módulo de déclencheur inicia un escenario cuando se actualiza un elemento
 
 #### [!UICONTROL Ver nuevas bibliotecas]
 
-Este módulo de déclencheur inicia un escenario cuando se crea una biblioteca nueva.
+Este módulo de déclencheur inicia un escenario cuando se crea una nueva biblioteca.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Límite]</td>
-      <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td>
+      <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td>
     </tr>
   </tbody>
 </table>
@@ -352,12 +358,12 @@ Este módulo de déclencheur inicia un escenario cuando se actualiza una bibliot
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Para obtener instrucciones sobre cómo conectar su [!DNL Adobe Creative Cloud] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td>Para obtener instrucciones acerca de cómo conectar su [!DNL Adobe Creative Cloud] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Límite]</td>
-      <td>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</td>
+      <td>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</td>
     </tr>
   </tbody>
 </table>
@@ -366,31 +372,31 @@ Este módulo de déclencheur inicia un escenario cuando se actualiza una bibliot
 
 #### [!UICONTROL Realizar una llamada de API]
 
-Este módulo realiza una llamada API personalizada a la variable [!DNL Adobe Creative Cloud Libraries] API.
+Este módulo realiza una llamada de API personalizada a [!DNL Adobe Creative Cloud Libraries] API.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Adobe Creative Cloud a Workfront Fusion, consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con Adobe Workfront Fusion: instrucciones básicas.</a></p>
+      <td role="rowheader">[!UICONTROL Conexión]</td>
+      <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Adobe Creative Cloud a Workfront Fusion, consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión a Adobe Workfront Fusion: instrucciones básicas.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Especifique una ruta relativa a <code>https://cc-libraries.adobe.io/api</code>.</p>
+        <p>Introduzca una ruta relativa a <code>https://cc-libraries.adobe.io/api</code>.</p>
     <p>Por ejemplo <code>/v1/libraries</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL API version]</td>
       <td>
-        <p>Seleccione la versión del [!DNL Adobe Analytics] API a la que desea conectarse.</p>
+        <p>Seleccione la versión de [!DNL Adobe Analytics] API a la que desea conectarse.</p>
       </td>
     </tr>    <tr>
       <td role="rowheader">[!UICONTROL Método]</td>
-      <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada a la API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Encabezados]</td>
@@ -408,8 +414,8 @@ Este módulo realiza una llamada API personalizada a la variable [!DNL Adobe Cre
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Al utilizar afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera de la afirmación condicional.</p> 
+      <td role="rowheader">[!UICONTROL Cuerpo]</td>
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

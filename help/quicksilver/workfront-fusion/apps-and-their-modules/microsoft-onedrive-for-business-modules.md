@@ -2,25 +2,25 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
-title: Módulos Microsoft OneDrive para la Empresa
-description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft OneDrive for Business], así como conectarlo a varias aplicaciones y servicios de terceros.
+title: Módulos de Microsoft OneDrive para la Empresa
+description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft OneDrive for Business], así como conectarlo a múltiples aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft OneDrive for Business] módulos
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft OneDrive for Business], así como conectarlo a varias aplicaciones y servicios de terceros.
+En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft OneDrive for Business], así como conectarlo a múltiples aplicaciones y servicios de terceros.
 
-Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -38,15 +38,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,13 +67,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar [!DNL Microsoft OneDrive for Business] con [!DNL Adobe Workfront Fusion], necesitará un [!DNL Microsoft] cuenta.
 
-Para obtener instrucciones sobre cómo conectar su [!DNL OneDrive for Business] cuenta para [!DNL Workfront Fusion], consulte [Crear una conexión con el Adobe [!DNL Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive for Business] cuenta a [!DNL Workfront Fusion], consulte [Creación de una conexión con el Adobe [!DNL Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL Microsoft OneDrive for Business] módulos y sus campos
 
-Al configurar [!DNL Microsoft OneDrive for Business] módulos, [!DNL Workfront Fusion] muestra los campos que se enumeran a continuación. Además de estos, se incluyen [!DNL Microsoft OneDrive for Business] pueden mostrarse los campos, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Microsoft OneDrive for Business] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Microsoft OneDrive for Business] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón de asignación encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -74,10 +82,10 @@ Si ve el botón de asignación encima de un campo o función, puede utilizarlo p
 
 ### Déclencheur
 
-* [[!UICONTROL Archivos de Watch]](#watch-files)
+* [[!UICONTROL Ver archivos]](#watch-files)
 * [[!UICONTROL Ver carpetas]](#watch-folders)
 
-#### [!UICONTROL Archivos de Watch]
+#### [!UICONTROL Ver archivos]
 
 Este módulo de déclencheur se activa cuando se agrega o actualiza un nuevo archivo en una carpeta que se está viendo.
 
@@ -86,55 +94,55 @@ Este módulo de déclencheur se activa cuando se agrega o actualiza un nuevo arc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de unidad]</p> </td> 
-   <td> <p>Seleccione la unidad que desee ver.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Id. de unidad]</p> </td> 
+   <td> <p>Seleccione la unidad que desea ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Seleccione la carpeta que desee ver. En un escenario, solo puede monitorizar una carpeta.</p> <p>Sugerencia: Para realizar un seguimiento de varias carpetas, cree un escenario independiente para cada una de ellas.</p> </td> 
+   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td> <p> Seleccione la carpeta que desee ver. Dentro de un escenario, solo puede monitorizar una carpeta.</p> <p>Sugerencia: Para realizar un seguimiento de varias carpetas, cree un escenario independiente para cada una de ellas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Quiero ver]</p> </td> 
-   <td> <p>Seleccione si desea ver archivos nuevos y todos los cambios, o solo archivos nuevos.</p> </td> 
+   <td> <p>Seleccione si desea inspeccionar los nuevos archivos y todos los cambios o sólo los nuevos archivos.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de filas devueltas]</td> 
-   <td> <p> Establezca el número máximo de resultados que [!DNL Workfront Fusion] funcionará con durante un ciclo.</p> </td> 
+   <td> <p> Establezca el número máximo de resultados que [!DNL Workfront Fusion] trabajará con durante un ciclo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Ver carpetas]
 
-Este módulo de déclencheur se activa cuando se añade una carpeta nueva a la carpeta que se está viendo.
+Este módulo de déclencheur se activa cuando se agrega una nueva carpeta a la carpeta que se está viendo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de unidad]</p> </td> 
-   <td> <p>Seleccione la unidad que desee ver.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Id. de unidad]</p> </td> 
+   <td> <p>Seleccione la unidad que desea ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Seleccione la carpeta que desee ver. En un escenario, solo puede monitorizar una carpeta.</p> <p>Sugerencia: Para realizar un seguimiento de varias carpetas, cree un escenario independiente para cada una de ellas.</p> </td> 
+   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td> <p> Seleccione la carpeta que desee ver. Dentro de un escenario, solo puede monitorizar una carpeta.</p> <p>Sugerencia: Para realizar un seguimiento de varias carpetas, cree un escenario independiente para cada una de ellas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Quiero ver]</p> </td> 
-   <td> <p>Seleccione si desea ver las nuevas carpetas y todos los cambios, o solo las nuevas carpetas.</p> </td> 
+   <td> <p>Seleccione si desea ver las carpetas nuevas y todos los cambios o solo las carpetas nuevas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de filas devueltas]</td> 
-   <td> <p> Establezca el número máximo de resultados que [!DNL Workfront Fusion] funcionará con durante un ciclo.</p> </td> 
+   <td> <p> Establezca el número máximo de resultados que [!DNL Workfront Fusion] trabajará con durante un ciclo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,11 +150,11 @@ Este módulo de déclencheur se activa cuando se añade una carpeta nueva a la c
 ### Acciones
 
 * [[!UICONTROL Cargar un archivo]](#upload-a-file)
-* [[!UICONTROL Eliminar un archivo]](#delete-a-file)
+* [[!UICONTROL Eliminación de un archivo]](#delete-a-file)
 * [[!UICONTROL Obtener un archivo]](#get-a-file)
 * [[!UICONTROL Crear una carpeta]](#create-a-folder)
 * [[!UICONTROL Eliminar una carpeta]](#delete-a-folder)
-* [[!UICONTROL Obtener un vínculo de uso compartido]](#get-a-sharing-link)
+* [[!UICONTROL Obtener un vínculo para compartir]](#get-a-sharing-link)
 
 #### [!UICONTROL Cargar un archivo]
 
@@ -158,17 +166,17 @@ Este módulo de acción carga un archivo binario o de texto en una carpeta espec
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Conexión] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de unidad]</td> 
-   <td> <p>Seleccione la unidad en la que desee cargar un archivo.</p> </td> 
+   <td>[!UICONTROL Id. de unidad]</td> 
+   <td> <p>Seleccione la unidad en la que desea cargar un archivo.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL Carpeta] </td> 
    <td> <p>Seleccione la carpeta dentro de la unidad.</p> </td> 
    <td> </td> 
   </tr> 
@@ -178,11 +186,11 @@ Este módulo de acción carga un archivo binario o de texto en una carpeta espec
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Si el archivo con el mismo nombre existe]</td> 
+   <td>[!UICONTROL Si existe el archivo con el mismo nombre]</td> 
    <td> <p> Seleccione lo que desea hacer si ya existe un archivo con el mismo nombre que el archivo que está intentando cargar.</p> 
     <ul> 
      <li>[!UICONTROL Reemplazar el archivo existente]</li> 
-     <li>[!UICONTROL Cambiar el nombre del nuevo archivo]</li> 
+     <li>[!UICONTROL Cambiar nombre del nuevo archivo]</li> 
      <li>[!UICONTROL Finalizar con un error]</li> 
     </ul> </td> 
    <td> </td> 
@@ -190,7 +198,7 @@ Este módulo de acción carga un archivo binario o de texto en una carpeta espec
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminar un archivo]
+#### [!UICONTROL Eliminación de un archivo]
 
 Este módulo de acción mueve el archivo especificado a la papelera de reciclaje.
 
@@ -200,17 +208,17 @@ Este módulo de acción mueve el archivo especificado a la papelera de reciclaje
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Conexión] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de unidad]</td> 
+   <td>[!UICONTROL Id. de unidad]</td> 
    <td> <p>Seleccione la unidad desde la que desea eliminar un archivo.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File ID]</td> 
+   <td>[!UICONTROL ID de archivo]</td> 
    <td> <p>Introduzca el ID del archivo que desea eliminar. </p> </td> 
    <td> </td> 
   </tr> 
@@ -219,7 +227,7 @@ Este módulo de acción mueve el archivo especificado a la papelera de reciclaje
 
 #### [!UICONTROL Obtener un archivo]
 
-Este módulo de acción recupera el archivo con el ID dado.
+Este módulo de acción recupera el archivo con la ID proporcionada.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,17 +235,17 @@ Este módulo de acción recupera el archivo con el ID dado.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Conexión] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de unidad]</td> 
+   <td>[!UICONTROL Id. de unidad]</td> 
    <td> <p>Seleccione la unidad desde la que desea recuperar un archivo.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File ID]</td> 
+   <td>[!UICONTROL ID de archivo]</td> 
    <td> <p>Introduzca el ID del archivo que desea recuperar. </p> </td> 
    <td> </td> 
   </tr> 
@@ -254,22 +262,22 @@ Crea una carpeta dentro de la carpeta principal especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>[!UICONTROL Connection]</strong> </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td><strong>[!UICONTROL Conexión]</strong> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL ID de unidad]</strong> </td> 
+   <td><strong>[!UICONTROL Id. de unidad]</strong> </td> 
    <td> <p>Seleccione la unidad en la que desea crear una carpeta nueva.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Folder]</strong> </td> 
+   <td><strong>[!UICONTROL Carpeta]</strong> </td> 
    <td> <p>Seleccione la carpeta en la que desea crear una nueva carpeta.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Folder name]</strong> </td> 
+   <td><strong>[!UICONTROL Nombre de carpeta]</strong> </td> 
    <td>Introduzca o asigne un nombre para la nueva carpeta.</td> 
    <td> </td> 
   </tr> 
@@ -284,24 +292,24 @@ Crea una carpeta dentro de la carpeta principal especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Conexión] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de unidad]</td> 
+   <td>[!UICONTROL Id. de unidad]</td> 
    <td> <p>Seleccione la unidad desde la que desea eliminar un archivo.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder ID]</td> 
+   <td>[!UICONTROL Identificador de carpeta]</td> 
    <td> <p>Introduzca o asigne el ID de la carpeta que desea eliminar. </p> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtener un vínculo de uso compartido]
+#### [!UICONTROL Obtener un vínculo para compartir]
 
 Este módulo recupera un vínculo que puede compartir para dar acceso al archivo especificado.
 
@@ -311,28 +319,28 @@ Este módulo recupera un vínculo que puede compartir para dar acceso al archivo
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Office 365] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Conexión] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de unidad]</td> 
-   <td> <p>Seleccione la unidad en la que desee cargar un archivo.</p> </td> 
+   <td>[!UICONTROL Id. de unidad]</td> 
+   <td> <p>Seleccione la unidad en la que desea cargar un archivo.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Enter]</td> 
-   <td> <p>Seleccione si desea elegir un archivo utilizando el ID de archivo o la ruta de archivo. Introduzca el ID de archivo o la ruta de acceso en el campo que aparece.</p> </td> 
+   <td>[!UICONTROL Entrar]</td> 
+   <td> <p>Seleccione si desea elegir un archivo utilizando el ID de archivo o la ruta de acceso del archivo. Introduzca el ID de archivo o la ruta en el campo que aparece.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Tipo de permiso]</p> </td> 
-   <td> <p>Seleccione si desea que las personas que reciben el vínculo tengan permisos de lectura/escritura o solo lectura.</p> </td> 
+   <td> <p>Seleccione si desea que las personas que reciban el vínculo tengan permisos de lectura y escritura o de sólo lectura.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ámbito]</td> 
-   <td> <p> Seleccione si desea que el archivo sea accesible para cualquier persona que tenga el vínculo o accesible solo para los miembros de su organización.</p> </td> 
+   <td> <p> Seleccione si desea que cualquier persona que tenga el vínculo o que solo sea accesible para los miembros de su organización pueda acceder al archivo.</p> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

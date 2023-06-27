@@ -2,25 +2,25 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
-title: Módulos de caja
-description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan Box, así como conectarlos a varias aplicaciones y servicios de terceros. supervisa una carpeta especificada para comprobar los cambios en el archivo, modificar y eliminar archivos existentes o cargar nuevos archivos a una carpeta.
+title: Módulos de cuadro
+description: En un [!DNL Adobe Workfront Fusion] En este escenario, se pueden automatizar los flujos de trabajo que utilizan Box y conectarlo a varias aplicaciones y servicios de terceros. supervisa una carpeta especificada para comprobar si hay cambios en el archivo, modificar o eliminar archivos existentes, o cargar nuevos archivos en una carpeta.
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
 
-# Módulos de caja
+# Módulos de cuadro
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Box], así como conectarlo a varias aplicaciones y servicios de terceros. supervisa una carpeta especificada para comprobar los cambios en el archivo, modificar y eliminar archivos existentes o cargar nuevos archivos a una carpeta.
+En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Box], así como conectarlo a múltiples aplicaciones y servicios de terceros. supervisa una carpeta especificada para comprobar si hay cambios en el archivo, modificar o eliminar archivos existentes, o cargar nuevos archivos en una carpeta.
 
-Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
@@ -36,15 +36,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,16 +67,16 @@ Para usar [!DNL Box] módulos, debe tener un [!DNL Box] cuenta.
 
 ## [!DNL Box] módulos y sus campos
 
-Al configurar [!DNL Box] módulos, [!DNL Workfront Fusion] muestra los campos que se enumeran a continuación. Además de estos, se incluyen [!DNL Box] pueden mostrarse los campos, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Box] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Box] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón de asignación encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Déclencheur
 
 * [[!UICONTROL Nuevo evento]](#new-event)
-* [[!UICONTROL Archivos de Watch]](#watch-files)
+* [[!UICONTROL Ver archivos]](#watch-files)
 
 #### [!UICONTROL Nuevo evento]
 
@@ -79,17 +87,17 @@ Este módulo de déclencheur instantáneo inicia un escenario cuando se agrega, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Weblock]</td> 
-   <td> <p>Seleccione el vínculo web que desea utilizar para ver los mensajes salientes. Para añadir un vínculo web, haga clic en <strong>[!UICONTROL Agregar]</strong> e introduzca el nombre y la conexión del vínculo web.</p> <p> Para obtener instrucciones sobre cómo conectar su cuenta de [!UICONTROL Box] a [!UICONTROL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!UICONTROL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Seleccione el webhook que desee utilizar para ver los mensajes salientes. Para añadir un webhook, haga clic en <strong>[!UICONTROL Agregar]</strong> e introduzca el nombre y la conexión del webhook.</p> <p> Para obtener instrucciones sobre cómo conectar su cuenta de [!UICONTROL Box] a [!UICONTROL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!UICONTROL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Número máximo de eventos devueltos]</p> </td> 
-   <td> <p>Introduzca el número más alto de eventos que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</p> </td> 
+   <td> <p>Introduzca el número máximo de eventos que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Archivos de Watch]
+#### [!UICONTROL Ver archivos]
 
 Este módulo de déclencheur inicia un escenario cuando se agrega un nuevo archivo o se actualiza un archivo existente en una carpeta que se está viendo.
 
@@ -98,18 +106,18 @@ Este módulo de déclencheur inicia un escenario cuando se agrega un nuevo archi
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Box] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Box] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   <tr> 
-   <td role="rowheader">Watch</td> 
-   <td> <p>Seleccione el tipo de archivos que desea ver.</p> 
+   <td role="rowheader">Ver</td> 
+   <td> <p>Seleccione el tipo de archivos que desea inspeccionar.</p> 
     <ul> 
      <li> <p><strong>Solo archivos nuevos</strong> </p> <p>El escenario se iniciará cuando se añada un nuevo archivo.</p> </li> 
-     <li> <p><strong>Nuevos archivos y todos los cambios</strong> </p> <p>El escenario se inicia cuando se agrega un archivo, o cuando se modifica el contenido del archivo o un atributo de archivo (como su nombre).</p> </li> 
+     <li> <p><strong>Nuevos archivos y todos los cambios</strong> </p> <p>El escenario se inicia cuando se agrega un archivo, o cuando se modifica el contenido o un atributo de archivo (como su nombre).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Número máximo de archivos descargados</p> </td> 
-   <td> <p>Introduzca el número más alto de archivos que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</p> </td> 
+   <td> <p>Introduzca el número máximo de archivos que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,27 +125,27 @@ Este módulo de déclencheur inicia un escenario cuando se agrega un nuevo archi
 ### Acciones
 
 * [[!UICONTROL Cargar] un archivo](#upload-a-file)
-* [[!UICONTROL Actualizar un archivo]](#update-a-file)
-* [[!UICONTROL Eliminar un archivo]](#delete-a-file)
+* [[!UICONTROL Actualización de un archivo]](#update-a-file)
+* [[!UICONTROL Eliminación de un archivo]](#delete-a-file)
 * [[!UICONTROL Obtener un archivo]](#get-a-file)
 
 #### [!UICONTROL Cargar un archivo]
 
 Este módulo de acción carga un archivo.
 
-El archivo se especifica. También puede proporcionar un nuevo nombre de archivo para el archivo.
+Usted especifica el archivo. También puede proporcionar un nuevo nombre de archivo para el archivo.
 
-El módulo devuelve el ID del archivo y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Box] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Box] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo de origen]</td> 
@@ -150,30 +158,29 @@ Al configurar este módulo, se muestran los campos siguientes:
 >
 >Si este módulo no se ejecuta correctamente, tenga en cuenta lo siguiente:
 >
->* El tamaño del archivo puede superar el límite máximo de tamaño de archivo para su [!DNL Box] o puede que haya usado todo su [!DNL Box] cuota de almacenamiento de la cuenta. Para obtener más espacio de almacenamiento, elimine los archivos existentes de [!DNL Box] o actualice su [!DNL Box] cuenta.
->* [!DNL Box] no carga más de un archivo con el mismo nombre en una sola carpeta. Si la carpeta de destino contiene un archivo con el mismo nombre que el archivo que se está cargando, la ejecución del escenario termina con un error. Para evitarlo, cambie el nombre del archivo . Si desea actualizar el archivo, utilice la variable **[!UICONTROL Actualizar un archivo]** módulo.
+>* El tamaño del archivo puede superar el límite máximo de tamaño para su [!DNL Box] plan, o es posible que haya utilizado todos sus [!DNL Box] cuota de almacenamiento de la cuenta. Para obtener más espacio de almacenamiento, elimine los archivos existentes de [!DNL Box] o actualice su [!DNL Box] cuenta.
+>* [!DNL Box] no carga más de un archivo con el mismo nombre en una sola carpeta. Si la carpeta de destino contiene un archivo con el mismo nombre que el archivo que se está cargando, la ejecución del escenario finaliza con un error. Para evitarlo, cambie el nombre del archivo. Si desea actualizar el archivo, utilice el **[!UICONTROL Actualización de un archivo]** módulo.
 
-
-#### [!UICONTROL Actualizar un archivo]
+#### [!UICONTROL Actualización de un archivo]
 
 Este módulo de acción actualiza un archivo.
 
 Especifique el ID del archivo.
 
-El módulo devuelve el ID del archivo y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Box] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Box] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Introduzca o asigne el ID exclusivo del archivo que desea que actualice el módulo.</td> 
+   <td role="rowheader">[!UICONTROL ID de archivo]</td> 
+   <td>Introduzca o asigne el ID único del archivo que desea que actualice el módulo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo de origen]</td> 
@@ -182,26 +189,26 @@ Al configurar este módulo, se muestran los campos siguientes:
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminar un archivo]
+#### [!UICONTROL Eliminación de un archivo]
 
 Este módulo de acción elimina un archivo.
 
 Especifique el ID del archivo.
 
-El módulo devuelve el ID del archivo y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Box] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Box] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Introduzca o asigne el ID exclusivo del archivo que desea que actualice el módulo.</td> 
+   <td role="rowheader">[!UICONTROL ID de archivo]</td> 
+   <td>Introduzca o asigne el ID único del archivo que desea que actualice el módulo.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,24 +219,24 @@ Este módulo de acción descarga un archivo.
 
 Especifique el ID del archivo.
 
-El módulo devuelve el ID del archivo y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
 >[!NOTE]
 >
->Este módulo es útil para proporcionar archivos a módulos posteriores.
+>Este módulo es útil para proporcionar archivos a módulos subsiguientes.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su [!DNL Box] cuenta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Box] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Introduzca o asigne el ID exclusivo del archivo que desea que actualice el módulo.</td> 
+   <td role="rowheader">[!UICONTROL ID de archivo]</td> 
+   <td>Introduzca o asigne el ID único del archivo que desea que actualice el módulo.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: connections-annd-webhooks
-title: Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas
-description: Muchas [!DNL Adobe Workfront Fusion] Los conectores no requieren una configuración personalizada al crear una conexión. Este artículo describe el proceso predeterminado de creación de la conexión.
+title: Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas
+description: Muchos [!DNL Adobe Workfront Fusion] Los conectores de no requieren una configuración personalizada al crear una conexión. Este artículo describe el proceso de creación de conexiones predeterminado.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
-# Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas
+# Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas
 
 ## Requisitos de acceso
 
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,12 +60,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para crear una conexión dentro de un [!DNL Workfront Fusion] módulo:
 
-1. Haga clic en **[!UICONTROL Agregar]** junto a la variable [!UICONTROL Conexión] para abrir el **[!UICONTROL Crear una conexión]** panel.
-1. (Opcional) Cambiar el valor predeterminado **[!UICONTROL Nombre de la conexión]**.
+1. Clic **[!UICONTROL Añadir]** junto al [!UICONTROL Conexión] para abrir el **[!UICONTROL Crear una conexión]** panel.
+1. (Opcional) Cambiar el valor predeterminado **[!UICONTROL Nombre de conexión]**.
 1. (Condicional) Si la aplicación requiere una configuración de conexión avanzada, como un ID, una clave o [!UICONTROL secreto], introduzca esa información.
 
-   Es posible que tenga que hacer clic en **[!UICONTROL Mostrar configuración avanzada]** para mostrar los campos en los que puede introducir este tipo de información.
+   Es posible que tenga que hacer clic en **[!UICONTROL Mostrar configuración avanzada]** para mostrar los campos donde puede introducir este tipo de información.
 
-1. Haga clic en **[!UICONTROL Continuar]**.
-1. En la ventana de inicio de sesión que se muestra, introduzca sus credenciales para iniciar sesión en la aplicación si aún no lo ha hecho.
-1. (Condicional) Si **[!UICONTROL Permitir]** , examine las acciones que puede realizar el conector y, a continuación, haga clic en el botón para conectar la aplicación a [!DNL Workfront Fusion].
+1. Clic **[!UICONTROL Continuar]**.
+1. En la ventana de inicio de sesión que aparece, introduzca sus credenciales para iniciar sesión en la aplicación si aún no lo ha hecho.
+1. (Condicional) Si **[!UICONTROL Permitir]** , examine las acciones que podrá realizar el conector y haga clic en el botón para conectar la aplicación [!DNL Workfront Fusion].

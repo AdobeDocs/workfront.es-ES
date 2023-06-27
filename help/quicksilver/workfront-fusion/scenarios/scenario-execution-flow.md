@@ -3,14 +3,14 @@ content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Flujo de ejecución de escenario en Adobe Workfront Fusion
+title: Flujo de ejecución de escenarios en Adobe Workfront Fusion
 description: Este artículo explica cómo se ejecuta un escenario y cómo fluyen los datos a través de él. También explica dónde puede encontrar información sobre los datos procesados y cómo leerlos.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo] </p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,28 +58,28 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Flujo de ejecución del escenario
+## Flujo de ejecución de escenario
 
-Una vez configurado y activado correctamente un escenario, se ejecuta según su programación definida.
+Una vez que un escenario se configura correctamente y se activa, se ejecuta según su programación definida.
 
-A medida que comienza el escenario, el primer módulo responde a un evento que se ha configurado para observar. Si devuelve paquetes (datos), se transfieren al siguiente módulo y el escenario continúa, pasando los paquetes a través de cada módulo sucesivo, uno por uno.
+Cuando comienza el escenario, el primer módulo responde a un evento que se ha configurado para inspeccionar. Si devuelve algún paquete (datos), pasa al siguiente módulo y el escenario continúa, pasando los paquetes a través de cada módulo sucesivo, uno a uno.
 
-Si los paquetes se procesan correctamente en todos los módulos, el escenario se marca como un éxito en el área de detalles del escenario, tal como se explica en [Detalles del escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
+Si los paquetes se procesan correctamente en todos los módulos, el escenario se marca como un éxito en el área de detalles del escenario, como se explica en [Detalles del escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
 
-* Para obtener más información sobre la configuración de un escenario, consulte [Configuración básica de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md).
-* Para obtener más información sobre la activación de un escenario, consulte [Activar o desactivar un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+* Para obtener más información sobre la configuración de un escenario, consulte [Configuración básica de escenarios en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md).
+* Para obtener más información sobre la activación de un escenario, consulte [Activación o desactivación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 * Para obtener más información sobre cómo programar un escenario, consulte [Programar un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 * Para obtener más información sobre los módulos, consulte [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
 
-### Ejemplo: [!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]
+### Ejemplo: [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]
 
 >[!INFO]
 >
->**Ejemplo:** En un escenario que observa solicitudes entrantes en [!DNL Workfront] y luego los convierte en [!DNL Workfront] proyectos, los datos fluirían de la siguiente manera.
+>**Ejemplo:** En un escenario que observa las solicitudes entrantes en [!DNL Workfront] y, a continuación, los convierte a [!DNL Workfront] proyectos, los datos fluirían de la siguiente manera.
 >
->El primer paso del escenario, realizado por el primer módulo, es observar las solicitudes. Cada solicitud que ingresa se considera un paquete. Si el módulo se ejecuta sin encontrar ningún paquete, el escenario finaliza después del primer módulo.
+>El primer paso del escenario, realizado por el primer módulo, es inspeccionar las solicitudes. Cada solicitud que se incluye se considera un paquete. Si el módulo se ejecuta sin encontrar ningún paquete, el escenario finaliza después del primer módulo.
 >
->Si el primer módulo devuelve un paquete, el paquete pasa por el resto del escenario. En este ejemplo, el resto del escenario consta del segundo y último módulo, que convierte la solicitud en un proyecto.
+>Si el primer módulo devuelve un paquete, este pasará por el resto del escenario. En este ejemplo, el resto del escenario está formado por el segundo y el último módulo, que convierten la solicitud en un proyecto.
 >
 >?![](assets/example-execution-flow-wf-only-350x157.png)
 
@@ -79,39 +87,39 @@ Si los paquetes se procesan correctamente en todos los módulos, el escenario se
 
 >[!INFO]
 >
->**Ejemplo:** En una situación en la que se descargan documentos de [!DNL Adobe Workfront] y los envía a una carpeta de [!DNL Dropbox], los datos fluirían de la siguiente manera.
+>**Ejemplo:** En un escenario que descarga documentos de [!DNL Adobe Workfront] y los envía a una carpeta en [!DNL Dropbox], los datos fluirían de la siguiente manera.
 >
->El primer paso del escenario, realizado por el primer módulo, es buscar paquetes (documentos). En este ejemplo, el módulo observa los paquetes de [!DNL Workfront]. Si no devuelve un paquete, el escenario finaliza después del primer módulo.
+>El primer paso del escenario, realizado por el primer módulo, es inspeccionar los paquetes (documentos). En este ejemplo, el módulo observa los paquetes en [!DNL Workfront]. Si no devuelve un paquete, el escenario finaliza después del primer módulo.
 >
->Si se devuelve un paquete, el paquete pasa por el resto del escenario. En este ejemplo, el resto del escenario consiste en el segundo y último módulo, que carga el paquete en el [!DNL Dropbox] carpeta.
+>Si se devuelve un paquete, este pasa por el resto del escenario. En este ejemplo, el resto del escenario consiste en el segundo y último módulo, que carga el paquete en [!DNL Dropbox] carpeta.
 >
 >![](assets/example-wf-dropbox-scen-execution-flow-350x202.png)
 >
->Si el primer módulo devuelve varios paquetes, el primer paquete se carga en [!DNL Dropbox] antes de que se cargue el segundo paquete. A continuación, se carga el segundo paquete, luego el tercero, etc.
+>Si el primer módulo devuelve varios paquetes, el primer paquete se carga en [!DNL Dropbox] antes de cargar el segundo paquete. Luego se carga el segundo paquete, luego el tercero, etc.
 
 ## Información sobre paquetes procesados
 
-Para cada módulo, el paquete pasa por un proceso de 4 pasos antes de pasar al siguiente módulo o alcanzar su destino final. El proceso de 4 pasos es Inicialización, Operación, Confirmación/Reversión y Finalización. Esto se denomina procesamiento de transacciones y ayuda a explicar cómo se procesaron los datos en un módulo.
+Para cada módulo, el paquete pasa por un proceso de 4 pasos antes de pasar al siguiente módulo o llegar a su destino final. El proceso de 4 pasos es Inicialización, Operación, Confirmar/Revertir y Finalización. Esto se denomina procesamiento de transacciones y ayuda a explicar cómo se procesaron los datos en un módulo.
 
-Una vez finalizada la ejecución de un escenario, cada módulo muestra un icono con el número de operaciones realizadas. Puede hacer clic en este icono para mostrar la información detallada sobre los paquetes procesados, en el formato descrito anteriormente. Puede ver qué configuración de módulos se usó y qué paquetes fueron devueltos por cada módulo.
+Una vez finalizada la ejecución de un escenario, cada módulo muestra un icono con el número de operaciones realizadas. Puede hacer clic en este icono para mostrar la información detallada sobre los paquetes procesados, en el formato descrito anteriormente. Puede ver qué configuración de módulos se utilizó y qué paquetes devolvió cada módulo.
 
 ![](assets/info-processed-bundles-350x396.png)
 
 Un módulo recibió información de entrada como:
 
 * Imagen convertida
-* Carpeta seleccionada en la que se cargará la imagen
-* Nombre original del [!DNL Facebook] image
+* Carpeta seleccionada donde se cargará la imagen
+* Nombre original de [!DNL Facebook] imagen
 
-Tras el procesamiento, el módulo devolvió esta información de salida:
+Después del procesamiento, el módulo devolvió esta información de salida:
 
 * ID de imagen asignado por [!DNL Dropbox]
-* Ruta completa donde [!DNL Dropbox] [!DNL Workfront Fusion] cargado el archivo
+* Ruta completa en la que [!DNL Dropbox] [!DNL Workfront Fusion] subió el archivo
 
-La información anterior se captura para cada paquete por separado, como se indica en los cuadros desplegables [!UICONTROL Operación 1] y [!UICONTROL Operación 2] en la imagen.
+La información anterior se captura para cada paquete por separado, tal como indican los cuadros desplegables [!UICONTROL Operación 1] y [!UICONTROL Operación 2] en la imagen.
 
-Para obtener más información sobre el procesamiento de transacciones, consulte [Ejecución del escenario, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Para obtener más información sobre el procesamiento de transacciones, consulte [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Error al ejecutar un escenario
 
-Podría producirse un error durante la ejecución del escenario. Por ejemplo, si elimina la variable [!DNL Dropbox] carpeta que ha establecido como carpeta de destino en la configuración del módulo, el escenario termina con un mensaje de error. Para obtener más información sobre cómo gestionar errores, consulte [Error de procesamiento en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Se puede producir un error durante la ejecución del escenario. Por ejemplo, si elimina el [!DNL Dropbox] carpeta que ha establecido como carpeta de destino en la configuración del módulo, el escenario termina con un mensaje de error. Para obtener más información sobre cómo gestionar errores, consulte [Error de procesamiento en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).

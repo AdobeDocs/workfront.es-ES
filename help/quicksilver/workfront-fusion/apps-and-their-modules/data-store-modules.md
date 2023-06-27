@@ -3,25 +3,25 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Módulos de almacenamiento de datos
-description: Un [!DNL Adobe Workfront Fusion] el almacén de datos, similar a una base de datos o a una tabla sencilla, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios o ejecuciones de escenarios individuales. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
+title: Módulos de almacén de datos
+description: Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Almacén de datos] módulos
 
-Un [!DNL Adobe Workfront Fusion] el almacén de datos, similar a una base de datos o a una tabla sencilla, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios o ejecuciones de escenarios individuales. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
+Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 
-Los módulos del almacén de datos le permiten agregar, reemplazar, actualizar, recuperar, eliminar, buscar o contar registros en su [!DNL Adobe Workfront Fusion] almacén de datos.
+Los módulos del almacén de datos permiten agregar, reemplazar, actualizar, recuperar, eliminar, buscar o contar registros en su [!DNL Adobe Workfront Fusion] almacén de datos.
 
-Para obtener información sobre la creación, edición y solución de problemas de almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Para obtener información sobre la creación, edición y solución de problemas con los almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 ## Requisitos de acceso
 
@@ -37,15 +37,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p></td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,13 +70,13 @@ Para obtener información sobre la creación de almacenes de datos, consulte [Al
 
 ## [!UICONTROL Almacén de datos] módulos y sus campos
 
-Al configurar los módulos del almacén de datos, [!DNL Workfront Fusion] muestra los campos que se enumeran a continuación. Junto con estos, podrían mostrarse campos adicionales del almacén de datos, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar los módulos del almacén de datos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto a estos, pueden mostrarse campos de almacén de datos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón de asignación encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Todo [!UICONTROL Almacén de datos] son módulos de tipo Action .
+Todo [!UICONTROL Almacén de datos] Los módulos de son módulos de tipo Acción.
 
 * [Agregar o reemplazar un registro](#addreplace-a-record)
 * [Actualizar un registro](#update-a-record)
@@ -76,30 +84,30 @@ Todo [!UICONTROL Almacén de datos] son módulos de tipo Action .
 * [Comprobar la existencia de un registro](#check-the-existence-of-a-record)
 * [Eliminar un registro](#delete-a-record)
 * [Eliminar todos los registros](#delete-all-records)
-* [Registros de búsqueda](#search-records)
-* [Recuento de registros](#count-records)
+* [Buscar registros](#search-records)
+* [Contar registros](#count-records)
 
 ### [!UICONTROL Agregar o reemplazar un registro]
 
 Este módulo de acción agrega o reemplaza un registro.
 
-Se especifica el almacén de datos y la clave del registro.
+Especifique el almacén de datos y la clave del registro.
 
-El módulo devuelve el ID del registro y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del registro y cualquier campo asociado, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
 >[!NOTE]
 >
->El módulo genera un error al intentar añadir el registro que ya se encuentra en el almacén de datos con el mismo nombre y la variable [!UICONTROL Sobrescribir un registro existente] está desactivada.
+>El módulo genera un error cuando intenta agregar el registro que ya está en el almacén de datos con el mismo nombre y el [!UICONTROL Sobrescribir un registro existente] La opción está desactivada.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> Seleccione o agregue el almacén de datos donde desea crear un registro. </p> </td> 
+   <td>[!UICONTROL Almacén de datos]</td> 
+   <td> <p> Seleccione o agregue el almacén de datos en el que desea crear un registro. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -110,7 +118,7 @@ Al configurar este módulo, se muestran los campos siguientes:
    <td> <p>Active esta opción para sobrescribir el registro. El registro que desea sobrescribir debe especificarse en el campo Clave anterior.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record] </td> 
+   <td>[!UICONTROL Registro] </td> 
    <td> <p>Introduzca los valores deseados en los campos del registro.</p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +128,19 @@ Al configurar este módulo, se muestran los campos siguientes:
 
 Este módulo de acción actualiza un registro.
 
-Se especifica el almacén de datos y la clave del registro.
+Especifique el almacén de datos y la clave del registro.
 
-El módulo devuelve el ID del registro y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del registro y cualquier campo asociado, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> Seleccione o agregue el almacén de datos donde desea crear un registro. </p> </td> 
+   <td>[!UICONTROL Almacén de datos]</td> 
+   <td> <p> Seleccione o agregue el almacén de datos en el que desea crear un registro. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -140,11 +148,11 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>[!UICONTROL Insertar registro que falta] </td> 
-   <td> <p>Active esta opción para crear un nuevo registro si el registro con la clave especificada no existe.</p> </td> 
+   <td> <p>Active esta opción para crear un nuevo registro si el registro con la clave especificada no existe todavía.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record]</td> 
-   <td> <p> Introduzca los valores deseados en los campos del registro que desea actualizar.</p> </td> 
+   <td>[!UICONTROL Registro]</td> 
+   <td> <p> Introduzca los valores deseados en los campos del registro que desee actualizar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,16 +161,16 @@ Al configurar este módulo, se muestran los campos siguientes:
 
 Este módulo de acción recupera un registro.
 
-Se especifica el almacén de datos y la clave del registro.
+Especifique el almacén de datos y la clave del registro.
 
-El módulo devuelve el ID del registro y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del registro y cualquier campo asociado, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store]</td> 
+   <td>[!UICONTROL Almacén de datos]</td> 
    <td> <p> Seleccione el almacén de datos desde el que desea recuperar un registro</p> </td> 
   </tr> 
   <tr> 
@@ -176,15 +184,15 @@ El módulo devuelve el ID del registro y los campos asociados, junto con los cam
 
 Este módulo de acción especifica si existe un registro en particular.
 
-Se especifica el almacén de datos y la clave del registro.
+Especifique el almacén de datos y la clave del registro.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
-   <td> <p>Seleccione el almacén de datos que desea comprobar para comprobar la existencia del registro.</p> </td> 
+   <td>[!UICONTROL Almacén de datos] </td> 
+   <td> <p>Seleccione el almacén de datos en el que desea comprobar la existencia del registro.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -197,17 +205,17 @@ Se especifica el almacén de datos y la clave del registro.
 
 Este módulo de acción elimina un registro.
 
-Se especifica el almacén de datos y la clave del registro.
+Especifique el almacén de datos y la clave del registro.
 
-El módulo devuelve el ID del registro y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del registro y cualquier campo asociado, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
-   <td> <p>Seleccione el almacén de datos que desea comprobar para comprobar la existencia del registro.</p> </td> 
+   <td>[!UICONTROL Almacén de datos] </td> 
+   <td> <p>Seleccione el almacén de datos en el que desea comprobar la existencia del registro.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -218,35 +226,35 @@ El módulo devuelve el ID del registro y los campos asociados, junto con los cam
 
 ### [!UICONTROL Eliminar todos los registros]
 
-Este módulo de acción elimina todos los registros de un almacén de datos en particular.
+Este módulo de acción elimina todos los registros de un almacén de datos concreto.
 
-El almacén de datos se especifica.
+Usted especifica el almacén de datos.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
-   <td> <p>Seleccione el almacén de datos desde el que desea eliminar todos los registros.</p> </td> 
+   <td>[!UICONTROL Almacén de datos] </td> 
+   <td> <p>Seleccione el almacén de datos del que desea eliminar todos los registros.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Registros de búsqueda]
+### [!UICONTROL Buscar registros]
 
 Este módulo de búsqueda busca registros en un objeto del almacén de datos que coincidan con la consulta de búsqueda especificada.
 
-Puede asignar esta información en módulos posteriores en el escenario.
+Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store]</td> 
+   <td>[!UICONTROL Almacén de datos]</td> 
    <td> <p> Seleccione el almacén de datos que desea buscar.</p> </td> 
   </tr> 
   <tr> 
@@ -254,34 +262,34 @@ Al configurar este módulo, se muestran los campos siguientes:
    <td> <p>Establezca el filtro para la búsqueda.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Sort]</p> </td> 
-   <td> <p style="font-weight: normal;">Para cada campo por el que desee ordenar, rellene los siguientes campos:</p> <p style="font-weight: bold;">[!UICONTROL Key]</p> <p>Seleccione el nombre de columna por el que desea ordenar los resultados.</p> <p style="font-weight: bold;">[!UICONTROL Order]</p> <p>Seleccione si desea ordenar los resultados en orden ascendente o descendente.</p> </td> 
+   <td> <p>[!UICONTROL Ordenar]</p> </td> 
+   <td> <p style="font-weight: normal;">Para cada campo por el que desee ordenar, rellene los campos siguientes:</p> <p style="font-weight: bold;">[!UICONTROL Key]</p> <p>Seleccione el nombre de columna por el que desea ordenar los resultados.</p> <p style="font-weight: bold;">[!UICONTROL Pedido]</p> <p>Seleccione si desea ordenar los resultados en orden ascendente o descendente.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Límite]</td> 
-   <td> <p> Configurar el número máximo de resultados de búsqueda [!DNL Workfront Fusion] vuelve durante un ciclo de ejecución.</p> </td> 
+   <td> <p> Establecer el número máximo de resultados de búsqueda [!DNL Workfront Fusion] devuelve durante un ciclo de ejecución.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Continúe con la ejecución de la ruta aunque el módulo no devuelva ningún resultado]</td> 
-   <td> <p> Si está habilitado, la ruta de la que forma parte este módulo continúa procesándose aunque este módulo no devuelva ningún resultado.</p> </td> 
+   <td>[!UICONTROL Continuar la ejecución de la ruta aunque el módulo no devuelva resultados]</td> 
+   <td> <p> Si está habilitado, la ruta de la que forma parte este módulo continúa procesándose aunque no devuelva resultados.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Recuento de registros]
+### [!UICONTROL Contar registros]
 
-Este módulo de acción enumera los registros de un almacén de datos.
+Este módulo de acción numera los registros de un almacén de datos.
 
-El almacén de datos se especifica.
+Usted especifica el almacén de datos.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
+   <td>[!UICONTROL Almacén de datos] </td> 
    <td> <p>Seleccione el almacén de datos que contiene los registros que desea contar.</p> </td> 
   </tr> 
  </tbody> 

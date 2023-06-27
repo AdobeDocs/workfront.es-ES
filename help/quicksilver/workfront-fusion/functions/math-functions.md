@@ -8,10 +8,10 @@ description: Las siguientes funciones matemáticas están disponibles en el pane
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,28 +56,27 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL average ([matriz de valores]) average(value1; [value2], ...)]
+## [!UICONTROL media ([matriz de valores]) average(valor1; [value2], ...)]
 
-Devuelve el valor medio de los valores numéricos de una matriz específica o el valor medio de los valores numéricos introducidos individualmente.
+Devuelve el valor promedio de los valores numéricos de una matriz específica o el valor promedio de los valores numéricos introducidos individualmente.
 
 ## [!UICONTROL ceil (número)]
 
-Devuelve el menor entero bueno o igual que un número especificado.
+Devuelve el menor entero que sea bueno o igual a un número especificado.
 
 >[!INFO]
 >
 >**Ejemplos:**
 >
 >* `ceil(` `1.2` `)`
-   >
-   >   Devuelve 2
+>
+>   Devuelve 2
 >
 >* `ceil(` `4` `)`
-   >
-   >   Devuelve 4
+>
+>   Devuelve 4
 
-
-## [!UICONTROL suelo (número)]
+## [!UICONTROL floor (número)]
 
 Devuelve el mayor entero que sea menor o igual que un número especificado.
 
@@ -78,21 +85,20 @@ Devuelve el mayor entero que sea menor o igual que un número especificado.
 >**Ejemplos:**
 >
 >* `floor(` `1.2` `)`
-   >
-   >   Devuelve 1
+>
+>   Devuelve 1
 >
 >* `floor(` `1.9` `)`
-   >
-   >   Devuelve 1
+>
+>   Devuelve 1
 >
 >* `floor(` `4` `)`
-   >
-   >   Devuelve 4
-
+>
+>   Devuelve 4
 
 ## [!UICONTROL formatNumber (número; decimalPOINTS; [decimalSeparator]; [milesSeparator])]
 
-Devuelve un número en el formato solicitado. De forma predeterminada, el punto decimal es una coma (,) y el separador de miles es un punto (.).
+Devuelve un número en formato solicitado. De forma predeterminada, el punto decimal es una coma (,) y el separador de miles es un punto (.).
 
 >[!INFO]
 >
@@ -100,15 +106,15 @@ Devuelve un número en el formato solicitado. De forma predeterminada, el punto 
 >
 >`formatNumber( 123456789 ; 3 ; , ; . )`
 >
->Devuelve 123.456.789.000
+>Devuelve 123 456 789 000
 
-## [!UICONTROL max ([matriz de valores]), max(value1;value2; ...]
+## [!UICONTROL max ([matriz de valores]), max(valor1;valor2; ...)]
 
 Devuelve el número mayor de una matriz especificada o el número mayor entre los números introducidos individualmente.
 
-## [!UICONTROL min ([matriz de valores]), min(value1; value2; ...]
+## [!UICONTROL min ([matriz de valores]), min(valor1; valor2; ...)]
 
-Devuelve el número más pequeño de una matriz especificada o el número más pequeño entre los números introducidos individualmente.
+Devuelve el menor número de una matriz especificada o el menor número entre los números introducidos individualmente.
 
 ## [!UICONTROL parseNumber (número; separador decimal)]
 
@@ -123,22 +129,21 @@ Redondea un valor numérico al entero más cercano.
 >**Ejemplos:**
 >
 >* `round(` `1.2` `)`
-   >
-   >   Devuelve 1
+>
+>   Devuelve 1
 >
 >* `round(` `1.5` `)`
-   >
-   >   Devuelve 2
+>
+>   Devuelve 2
 >
 >* `round(` `1.7` `)`
-   >
-   >   Devuelve 2
+>
+>   Devuelve 2
 > 
 >* `round(` `2` `)`
-   >
-   >   Devuelve 2
+>
+>   Devuelve 2
 
+## [!UICONTROL sum ([matriz de valores]), sum(valor1; valor2; ...)]
 
-## [!UICONTROL sum ([matriz de valores]), sum(value1; value2; ...]
-
-Devuelve la suma de los valores de una matriz especificada o la suma de números introducidos individualmente.
+Devuelve la suma de los valores de una matriz especificada o la suma de los números introducidos individualmente.

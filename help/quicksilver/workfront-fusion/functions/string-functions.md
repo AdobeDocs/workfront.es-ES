@@ -8,9 +8,9 @@ description: Las siguientes funciones de cadena están disponibles en el panel d
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '774'
 ht-degree: 3%
 
 ---
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para la automatización del trabajo]</p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,17 +65,16 @@ Quita todos los caracteres que no sean ascii de una cadena de texto.
 >**Ejemplos:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   Devuelve: [!DNL Workfront]
+>
+>   Devuelve: [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   Devuelve: [!UICONTROL escrz]
-
+>
+>   Devuelve: [!UICONTROL escrz]
 
 ## [!UICONTROL base64 (texto)]
 
-Transforma el texto a base64.
+Transforma el texto en base64.
 
 >[!INFO]
 >
@@ -77,9 +84,9 @@ Transforma el texto a base64.
 >
 >Devuelve: d29ya2Zyb250==
 
-## [!UICONTROL mayúsculas (texto)]
+## [!UICONTROL poner en mayúsculas (texto)]
 
-Convierte el primer carácter de una cadena de texto en mayúsculas.
+Convierte el primer carácter de una cadena de texto a mayúsculas.
 
 >[!INFO]
 >
@@ -98,32 +105,31 @@ Comprueba si el texto contiene la cadena de búsqueda.
 >**Ejemplos:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   Devuelve: [!UICONTROL true]
+>
+>   Devuelve: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   Devuelve: [!UICONTROL false]
-
+>
+>   Devuelve: [!UICONTROL false]
 
 ## [!UICONTROL decodeURL (texto)]
 
-Descodifica los caracteres especiales de una dirección URL para texto.
+Descodifica los caracteres especiales de una dirección URL en texto.
 
 >[!INFO]
 >
 >**Ejemplo:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Devuelve: [!UICONTROL Automatice el flujo de trabajo]
+>Devuelve: [!UICONTROL Automatización del flujo de trabajo]
 
 ## [!UICONTROL encodeURL (texto)]
 
-Codifica caracteres especiales en algún texto a una dirección URL válida.
+Codifica caracteres especiales de algún texto en una dirección URL válida.
 
 ## [!UICONTROL escapeHTML (texto)]
 
-Omite todas las etiquetas HTML del texto.
+Omite todas las etiquetas de HTML del texto.
 
 >[!INFO]
 >
@@ -133,9 +139,9 @@ Omite todas las etiquetas HTML del texto.
 >
 > Devuelve: `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(text)]
+## [!UICONTROL escapeMarkdown(texto)]
 
-Omite todas las etiquetas de Markdown del texto.
+Excluye todas las etiquetas Markdown del texto.
 
 >[!INFO]
 >
@@ -147,28 +153,27 @@ Omite todas las etiquetas de Markdown del texto.
 
 ## [!DNL indexOf (string; value; [start])]
 
-Devuelve la posición de la primera incidencia de un valor especificado en una cadena. Este método devuelve &#39;-1&#39; si el valor que se busca no está presente. El valor inicial indica dónde en la cadena debe comenzar la búsqueda.
+Devuelve la posición de la primera aparición de un valor especificado en una cadena. Este método devuelve &#39;-1&#39; si el valor que se busca no está allí. El valor de inicio indica en qué punto de la cadena debe comenzar la búsqueda.
 
 >[!INFO]
 >
 >**Ejemplos:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   Devuelve: 1
+>
+>   Devuelve: 1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   Devuelve: -1
+>
+>   Devuelve: -1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   Devuelve: 6
+>
+>   Devuelve: 6
 
+## [!UICONTROL longitud (texto o búfer)]
 
-## [!UICONTROL length (text o buffer)]
-
-Devuelve la longitud de la cadena de texto (número de caracteres) o el búfer binario (tamaño del búfer en bytes).
+Devuelve la longitud de la cadena de texto (número de caracteres) o del búfer binario (tamaño del búfer en bytes).
 
 >[!INFO]
 >
@@ -180,7 +185,7 @@ Devuelve la longitud de la cadena de texto (número de caracteres) o el búfer b
 
 ## [!UICONTROL lower (texto)]
 
-Convierte todos los caracteres alfabéticos de una cadena de texto en minúsculas.
+Convierte a minúsculas todos los caracteres alfabéticos de una cadena de texto.
 
 >[!INFO]
 >
@@ -212,7 +217,7 @@ Reemplaza la cadena de búsqueda por la nueva cadena.
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Devuelve: [!UICONTROL Hola, mundo]
+>Devuelve: [!UICONTROL Hola mundo]
 
 Expresiones regulares (incluidas en `/.../`) se puede usar como cadena de búsqueda con una combinación de indicadores (como `g`, `i`, `m`) anexado:
 
@@ -227,7 +232,7 @@ Expresiones regulares (incluidas en `/.../`) se puede usar como cadena de búsqu
 La cadena de reemplazo puede incluir los siguientes patrones de reemplazo especiales:
 
 * `$&` Inserta la subcadena coincidente.
-* `$n` Cuando n es un entero positivo menor que 100, inserta la cadena de subcoincidencia enésima entre paréntesis. Esto está indexado en 1.
+* `$n` Donde n es un entero positivo menor que 100, inserta la cadena de subcoincidencia nth entre paréntesis. Esto está indexado por 1.
 
 >[!INFO]
 >
@@ -235,125 +240,151 @@ La cadena de reemplazo puede incluir los siguientes patrones de reemplazo especi
 >
 >![](assets/variable-value-350x63.png)
 >
->Devuelve: Número de teléfono `+420777111222`
->>![](assets/variable-value---2-350x55.png)
+>Devuelve: número de teléfono `+420777111222`
+>>
+>![](assets/variable-value---2-350x55.png)
+>
 >Devuelve: Número de teléfono: `+420777111222`
 
 >[!CAUTION]
-No utilice grupos de captura con nombres como `/ is (?<number>\d+)/` en el argumento de cadena de reemplazo. Al hacerlo, se produce un error.
+>
+>No utilice grupos de captura con nombre como `/ is (?<number>\d+)/` en el argumento de cadena de reemplazo. Al hacerlo, se produce un error.
 
 Para obtener más información sobre las expresiones regulares, consulte [Analizador de texto](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
-## [!UICONTROL sha1 (texto; [encoding]; [key])]
+## [!UICONTROL sha1 (texto; [codificación]; [key])]
 
-Calcula el hash sha1 de una cadena. Si se especifica el argumento clave, se devuelve hash sha1 HMAC en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.
-
->[!INFO]
-**Ejemplo:**
-`sha1( workfront )`
-Devuelve: b2b30b8ae1f9e5b40fbb0696eabdbfd8d0c087f
-
-## [!UICONTROL sha256 (texto; [encoding]; [key])]
-
-Calcula el hash sha256 de una cadena. Si se especifica el argumento clave, se devuelve hash sha256 HMAC en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.>
+Calcula el hash sha1 de una cadena. Si se especifica el argumento clave, se devuelve un hash HMAC sha1 en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.
 
 >[!INFO]
-**Ejemplo:**
-`sha256( workfront )`
-Devuelve: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bc
+>
+>**Ejemplo:**
+>
+>`sha1( workfront )`
+>
+>Devuelve: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
+
+## [!UICONTROL sha256 (texto; [codificación]; [key])]
+
+Calcula el hash sha256 de una cadena. Si se especifica el argumento clave, se devuelve un hash sha256 HMAC en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.>
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`sha256( workfront )`
+>
+>Devuelve: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
 ## [!UICONTROL sha512 (texto; [codificación de salida]; [key]; [codificación de claves])]
 
-Calcula el hash sha512 de una cadena. Si se especifica el argumento clave, se devuelve hash sha512 HMAC en su lugar.
+Calcula el hash sha512 de una cadena. Si se especifica el argumento clave, se devuelve un hash HMAC sha512 en su lugar.
 
 Codificaciones compatibles:
 
-* &quot;[!UICONTROL hex]&quot; (predeterminado)
+* &quot;[!UICONTROL hechizar]&quot; (predeterminado)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
-Codificaciones de claves compatibles:
+Codificaciones de clave compatibles:
 
-* &quot;[!UICONTROL text]&quot; (predeterminado)
-* &quot;[!UICONTROL hex]&quot;
+* &quot;[!UICONTROL texto]&quot; (predeterminado)
+* &quot;[!UICONTROL hechizar]&quot;
 * &quot;[!UICONTROL base64]&quot; o &quot;[!UICONTROL binario]&quot;
 
-Al usar &quot;[!UICONTROL binario]&quot; clave, una clave debe ser un búfer, no una cadena.
+Al usar &quot;[!UICONTROL binario]&quot;, una clave debe ser un búfer, no una cadena.
 
 >[!INFO]
-**Ejemplo:**
-`sha512(workfront)`
-Devuelve: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b 85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
+>
+>**Ejemplo:**
+>
+>`sha512(workfront)`
+>
+>Devuelve: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb11 9
 
-## [!UICONTROL dividido (texto; separador)]
+## [!UICONTROL split (texto; separador)]
 
-Divide una cadena en una matriz de cadenas separándola en subcadenas.
-
->[!INFO]
-**Ejemplo:**
-`split( John, George, Paul ; , )`
-
-## [!UICONTROL inicial (texto)]
-
-Capitaliza la primera letra de cada palabra y baja mayúsculas de todas las demás letras.
+Divide una cadena en una matriz de cadenas separando la cadena en subcadenas.
 
 >[!INFO]
-**Ejemplo:**
-`startcase( hello WORLD )`
-Devuelve: [!UICONTROL Hello World]
+>
+>**Ejemplo:**
+>
+>`split( John, George, Paul ; , )`
 
-## [!UICONTROL StripHTML (texto)]
+## [!UICONTROL startcase (texto)]
+
+Pone en mayúscula la primera letra de cada palabra y en minúsculas todas las demás letras.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>`startcase( hello WORLD )`
+>
+>Devuelve: [!UICONTROL Hello World]
+
+## [!UICONTROL stripHTML (texto)]
 
 Quita todas las etiquetas de HTML del texto.
 
 >[!INFO]
-**Ejemplo:**
-`stripHTML( <b>Hello</b> )`
-Devuelve: Hello
+>
+>**Ejemplo:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Devuelve: Hola
 
-## [!UICONTROL subcadena (texto; start;end)]
+## [!UICONTROL subcadena (texto; inicio;fin)]
 
-Devuelve una parte de una cadena de texto entre la posición &quot;inicio&quot; y la posición &quot;final&quot;.
+Devuelve una parte de una cadena de texto entre la posición &quot;inicio&quot; y &quot;final&quot;.
 
 >[!INFO]
-**Ejemplos:**
-* `substring( Hello ; 0 ; 3)`
-
-   Devuelve: Talón
-* `substring( Hello ; 1 ; 3 )`
-
-   Devuelve: el
-
+>
+>**Ejemplos:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Devuelve: Ayuda
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Devuelve: el
 
 ## [!UICONTROL toBinary (valor)]
 
 Convierte cualquier valor en datos binarios.
 
-También se puede especificar la codificación como segundo argumento para aplicar conversiones binarias de hex o base64 a datos binarios.
+También puede especificar la codificación como un segundo argumento para aplicar conversiones binarias de hex o base64 a datos binarios.
 
 >[!INFO]
-**Ejemplos:**
-* `toBinary( Workfront )`
-
-   Devuelve: 67 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   Devuelve: 67 6f 72 6b 66 72 6f 6e 74
-
+>
+>**Ejemplos:**
+>
+>* `toBinary( Workfront )`
+>
+>   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString (valor)]
 
 Convierte cualquier valor en una cadena.
 
-## [!UICONTROL trim (texto)]
+## [!UICONTROL recortar (texto)]
 
 Elimina los caracteres de espacio al principio o al final del texto.
 
 ## [!UICONTROL upper (texto)]
 
-Convierte todos los caracteres alfabéticos de una cadena de texto en mayúsculas.
+Convierte todos los caracteres alfabéticos de una cadena de texto a mayúsculas.
 
 >[!INFO]
-**Ejemplo:**
-`upper( Hello )`
-Devuelve: [!UICONTROL HOLA]
+>
+>**Ejemplo:**
+>
+>`upper( Hello )`
+>
+>Devuelve: [!UICONTROL HOLA]

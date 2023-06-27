@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Coerción de tipo en Adobe Workfront Fusion
+title: Coerción de tipos en Adobe Workfront Fusion
 description: Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situaciones en las que recibe valores en formatos de datos esperados e inesperados.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
 
-# Coerción de tipo en [!DNL Adobe Workfront Fusion]
+# Coerción de tipos en [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acceso
 
@@ -31,15 +31,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p>  </td> 
+   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>O</p>
+   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>
+   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>O</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,8 +79,8 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   </tr> 
   <tr> 
    <td>matriz </td> 
-   <td>other </td> 
-   <td> <p>Si el valor recibido no es del tipo de matriz, [!DNL Workfront Fusion] creará una matriz y el primer elemento (y el único) será el valor recibido.</p> </td> 
+   <td>otro </td> 
+   <td> <p>Si el valor recibido no es del tipo matriz, [!DNL Workfront Fusion] creará una matriz y el primer elemento (y el único) será el valor recibido.</p> </td> 
   </tr> 
   <tr> 
    <td>booleano </td> 
@@ -81,47 +89,47 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   </tr> 
   <tr> 
    <td>booleano </td> 
-   <td>number </td> 
-   <td> <p>El valor se convierte en Sí lógico, incluso si el valor es 0.</p> </td> 
+   <td>número </td> 
+   <td> <p>El valor se convierte en lógico Sí, incluso si el valor es 0.</p> </td> 
   </tr> 
   <tr> 
    <td>booleano </td> 
-   <td>text </td> 
-   <td> <p>Si el valor es igual a false o si el valor está vacío, se convierte en No lógico. Si no es así, se convierte en Sí lógico.</p> </td> 
+   <td>texto </td> 
+   <td> <p>Si el valor es igual a falso o el valor está vacío, se convierte en el valor lógico No. Si no es así, se convierte en un Sí lógico.</p> </td> 
   </tr> 
   <tr> 
    <td>booleano </td> 
-   <td>other </td> 
-   <td> <p>El valor se convierte en Sí lógico siempre que exista el valor recibido (no es nulo).</p> </td> 
+   <td>otro </td> 
+   <td> <p>El valor se convierte en lógico Sí siempre que exista el valor recibido (no es nulo).</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
-   <td>buffer </td> 
-   <td> <p>El valor se entrega sin cambios solo si la página de códigos se ajusta a lo esperado. Si la página de códigos es diferente, [!DNL Workfront Fusion] intentará convertir el valor recibido a la página de códigos solicitada. Si no se admite esta conversión, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
+   <td>amortiguador </td> 
+   <td>amortiguador </td> 
+   <td> <p>El valor se entrega sin cambios solo si la página de códigos cumple lo esperado. Si la página de códigos es diferente, [!DNL Workfront Fusion] intentará convertir el valor recibido en la página de códigos solicitada. Si no se admite esta conversión, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
+   <td>amortiguador </td> 
    <td>booleano </td> 
-   <td> <p>El valor se convierte en texto (true/false) y, a continuación, en datos binarios siguiendo los pasos mencionados anteriormente para la conversión a texto.</p> </td> 
+   <td> <p>El valor se convierte en texto (true/false) y, a continuación, en datos binarios, siguiendo los pasos mencionados anteriormente para la conversión a texto.</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
-   <td>date </td> 
-   <td> <p>El valor se convierte a texto ISO 8601 y, a continuación, a datos binarios siguiendo los pasos mencionados para convertir a texto.</p> </td> 
+   <td>amortiguador </td> 
+   <td>fecha </td> 
+   <td> <p>El valor se convierte a texto ISO 8601 y, a continuación, a datos binarios siguiendo los pasos mencionados para la conversión a texto.</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
-   <td>number </td> 
-   <td> <p>El valor se convierte en texto y, a continuación, en datos binarios siguiendo los pasos mencionados anteriormente para la conversión a texto.</p> </td> 
+   <td>amortiguador </td> 
+   <td>número </td> 
+   <td> <p>El valor se convierte en texto y, a continuación, en datos binarios, siguiendo los pasos mencionados anteriormente para la conversión a texto.</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
-   <td>text </td> 
+   <td>amortiguador </td> 
+   <td>texto </td> 
    <td> <p>El valor se convierte en datos binarios y se codifica según lo esperado. Si no se especifica la codificación esperada, se utilizará la codificación utf8.</p> </td> 
   </tr> 
   <tr> 
-   <td>buffer </td> 
-   <td>other </td> 
+   <td>amortiguador </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
   <tr> 
@@ -131,72 +139,72 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   </tr> 
   <tr> 
    <td>colección </td> 
-   <td>other </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>date </td> 
-   <td>date </td> 
+   <td>fecha </td> 
+   <td>fecha </td> 
    <td> <p>El valor se entrega sin cambios.</p> </td> 
   </tr> 
   <tr> 
-   <td>date </td> 
-   <td>text </td> 
-   <td> <p>[!DNL Workfront Fusion] intentará convertir el texto a una fecha. Si la conversión falla, devolverá un error de validación. La fecha debe contener día, mes y año. La fecha puede contener zona horaria y horaria. La zona horaria predeterminada se basa en su configuración. Ejemplos:</p> <p><code>2016-06-20T17:26:44.356Z</code> </p> <p><code>2016-06-20 19:26:44 GMT+02:00</code> </p> <p><code>2016-06-20 19:26+0200</code> </p> <p><code>2016-06-20 17:26:44</code> </p> <p><code>2016-06-20</code> </p> <p><code>2016/06/20 17:26:44</code> </p> <p><code>2016/06/20 19:26:44+02:00</code> </p> <p><code>2016/06/20 17:26</code> </p> <p><code>2016/06/20 5:26 PM</code> </p> <p><code>2016/06/20</code> </p> <p><code>06/20/2016 17:26:44</code> </p> <p><code>06/20/2016 19:26:44+02:00</code> </p> <p><code>06/20/2016 17:26</code> </p> <p><code>06/20/2016 5:26 PM</code> </p> <p><code>06/20/2016</code> </p> <p><code>20.6.2016 17:26:44</code> </p> <p><code>20.6.2016 19:26:44+02:00</code> </p> <p><code>20.6.2016 17:26</code> </p> <p><code>20.6.2016</code> </p> </td> 
+   <td>fecha </td> 
+   <td>texto </td> 
+   <td> <p>[!DNL Workfront Fusion] intentará convertir el texto en una fecha. Si la conversión falla, devolverá un error de validación. La fecha debe incluir día, mes y año. La fecha puede contener hora y zona horaria. La zona horaria predeterminada depende de la configuración. Ejemplos:</p> <p><code>2016-06-20T17:26:44.356Z</code> </p> <p><code>2016-06-20 19:26:44 GMT+02:00</code> </p> <p><code>2016-06-20 19:26+0200</code> </p> <p><code>2016-06-20 17:26:44</code> </p> <p><code>2016-06-20</code> </p> <p><code>2016/06/20 17:26:44</code> </p> <p><code>2016/06/20 19:26:44+02:00</code> </p> <p><code>2016/06/20 17:26</code> </p> <p><code>2016/06/20 5:26 PM</code> </p> <p><code>2016/06/20</code> </p> <p><code>06/20/2016 17:26:44</code> </p> <p><code>06/20/2016 19:26:44+02:00</code> </p> <p><code>06/20/2016 17:26</code> </p> <p><code>06/20/2016 5:26 PM</code> </p> <p><code>06/20/2016</code> </p> <p><code>20.6.2016 17:26:44</code> </p> <p><code>20.6.2016 19:26:44+02:00</code> </p> <p><code>20.6.2016 17:26</code> </p> <p><code>20.6.2016</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>date </td> 
-   <td>other </td> 
+   <td>fecha </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>number </td> 
-   <td>number </td> 
+   <td>número </td> 
+   <td>número </td> 
    <td> <p>El valor se entrega sin cambios.</p> </td> 
   </tr> 
   <tr> 
-   <td>number </td> 
-   <td>text </td> 
+   <td>número </td> 
+   <td>texto </td> 
    <td> <p>[!DNL Workfront Fusion] intentará convertir el texto en un número. Si la conversión falla, devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>number </td> 
-   <td>other </td> 
+   <td>número </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
-   <td>text </td> 
+   <td>texto </td> 
+   <td>texto </td> 
    <td> <p>El valor se entrega sin cambios.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
+   <td>texto </td> 
    <td>matriz </td> 
-   <td> <p>Si la matriz dada admite la conversión a texto, el valor se convertirá. Si no, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
+   <td> <p>Si la matriz dada admite la conversión a texto, el valor se convertirá. Si no es así, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
+   <td>texto </td> 
    <td>booleano </td> 
-   <td> <p>El valor se convierte en texto (verdadero/falso).</p> </td> 
+   <td> <p>El valor se convierte en texto (true/false).</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
-   <td>buffer </td> 
-   <td> <p>Si se especifica la codificación de texto para los datos binarios, el valor se convertirá a texto. Si no, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
+   <td>texto </td> 
+   <td>amortiguador </td> 
+   <td> <p>Si se especifica la codificación de texto para los datos binarios, el valor se convertirá en texto. Si no es así, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
-   <td>date </td> 
-   <td> <p>El valor se convierte al texto ISO 8601.</p> </td> 
+   <td>texto </td> 
+   <td>fecha </td> 
+   <td> <p>El valor se convierte a texto ISO 8601.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
-   <td>number </td> 
+   <td>texto </td> 
+   <td>número </td> 
    <td> <p>El valor se convierte en texto.</p> </td> 
   </tr> 
   <tr> 
-   <td>text </td> 
-   <td>other </td> 
+   <td>texto </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
   <tr> 
@@ -206,12 +214,12 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   </tr> 
   <tr> 
    <td>hora </td> 
-   <td>text </td> 
-   <td> <p>[!DNL Workfront Fusion] intentará convertir el tiempo a las horas:minutes:formato de segundos. Si la conversión falla, devolverá un error de validación.</p> </td> 
+   <td>texto </td> 
+   <td> <p>[!DNL Workfront Fusion] intentará convertir el tiempo en horas:minutes:formato de segundos. Si la conversión falla, devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
    <td>hora </td> 
-   <td>other </td> 
+   <td>otro </td> 
    <td> <p>[!DNL Workfront Fusion] devuelve un error de validación.</p> </td> 
   </tr> 
  </tbody> 
