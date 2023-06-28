@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede [regístrese aquí para unirse al seminario web](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaban a Producción antes de la fecha de lanzamiento de la versión 23.3) se resaltan en amarillo.</span>
+
+>[!IMPORTANT]
+>
+>La versión 23.3 incluye la opción de mover su organización a versiones mensuales. Por lo tanto, Workfront está cambiando el esquema de numeración de versiones para tener en cuenta las versiones mensuales y trimestrales.
+>
+>* Si está en la **versión rápida (mensual)** seguimiento, la versión posterior a la 23.3 será **23,8**, en agosto de 2023.
+> * Si está en la **trimestral** pista de lanzamiento, la versión posterior a la 23.3 será **23,10**, en octubre de 2023.
+> 
+> Las versiones trimestrales incluirán la funcionalidad de tres versiones mensuales. Por ejemplo, la versión trimestral 23.10 incluirá la funcionalidad lanzada en las versiones mensuales 23.8, 23.9 y 23.10.
+>|Versión mensual|Versión trimestral|
+>|----|----|
+>|<ul><li>23.8 (agosto de 2023)</li><li>23.9 (septiembre de 2023)</li><li>23.10 (octubre de 2023)</li></ul>| <ul><li>23.10 (octubre de 2023)</li></ul>|
+>|<ul><li>23.11 (noviembre de 2023)</li><li>23.12 (diciembre de 2023)</li><li>24.1 (enero de 2024)</li></ul>| <ul><li>24.1 (enero de 2024)</li></ul>|
 
 ## Mejoras de Adobe Workfront
 
@@ -353,6 +366,22 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva integración de G Suite ya disponible</a></p> 
+                        <p>Una nueva integración de G Suite ya está disponible en Google Marketplace. La nueva integración se autentica con OAuth2 y reemplaza la integración anterior.</p><p>La integración anterior de G Suite ya no se utiliza y se desinstalará automáticamente.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: N/D</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: 27 de junio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Las integraciones de Adobe Creative Cloud ahora admiten varios usuarios asignados</a></p> 

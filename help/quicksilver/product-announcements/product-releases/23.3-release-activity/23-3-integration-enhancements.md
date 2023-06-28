@@ -3,9 +3,9 @@ title: 23.3 Mejoras en la integración
 description: 23.3 Mejoras en la integración
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,16 @@ ht-degree: 0%
 Esta página describe todas las mejoras de integración realizadas con la versión 23.3 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Nueva integración de G Suite ya disponible
+
+Una nueva integración de G Suite ya está disponible en Google Marketplace. La nueva integración se autentica con OAuth2 y reemplaza la integración anterior.
+
+La integración anterior de G Suite ya no se utiliza y se desinstalará automáticamente.
+
+Para obtener instrucciones sobre cómo instalar la nueva integración, consulte [Instalar [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+Para obtener más información sobre Workfront para G Suite, consulte [Workfront para G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## Las integraciones de Adobe Creative Cloud ahora admiten varios usuarios asignados
 
