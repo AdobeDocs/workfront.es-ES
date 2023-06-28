@@ -80,25 +80,25 @@ El [!UICONTROL JABÓN] El módulo está actualmente en fase beta y no admite:
 ><complexType name="ArrayOfFloat">
 >
 >   
-  <complexContent>
+>  <complexContent>
 >
 >      
-     <restriction base="soapenc:Array">
+>     <restriction base="soapenc:Array">
 >
 >         
-        <attribute ref="soapenc:arrayType"
+>        <attribute ref="soapenc:arrayType"
 >
 >            
-           wsdl:arrayType="xsd:integer[]"/>
+>           wsdl:arrayType="xsd:integer[]"/>
 >
 >      
-     </restriction>
+>     </restriction>
 >
 >   
-  </complexContent>
+>  </complexContent>
 >
 >
-</complexType>
+></complexType>
 >```
 
 Incluye el `soapenc:Array`, `soapenc:arrayType` y `wsdl:arrayType` referencias, que aún no son compatibles con [!UICONTROL Workfront Fusion].
