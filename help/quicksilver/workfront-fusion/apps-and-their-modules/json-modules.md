@@ -238,27 +238,27 @@ Este módulo de acción transforma un objeto en una cadena json.
 >
 1. Connect [!UICONTROL JSON] > [!UICONTROL Crear JSON] después del módulo [!UICONTROL Agregador de matrices] módulo. La configuración del módulo requiere una estructura de datos que describa el formato JSON. Clic **[!UICONTROL Añadir]** para abrir la Configuración de la estructura de datos. La forma más sencilla de crear esta estructura de datos es generarla automáticamente a partir de una muestra JSON. Clic **[!UICONTROL Generador]** y pegue la muestra JSON en el **[!UICONTROL Datos de muestra]** campo:
 >
-**Ejemplo:**
+>**Ejemplo:**
 >   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Haga clic en **[!UICONTROL Guardar]**. El [!UICONTROL Especificación] El campo de la estructura de datos ahora contiene la estructura generada.
 1. Cambie el nombre de la estructura de datos a algo más específico y haga clic en **[!UICONTROL Guardar]**. Un campo correspondiente al atributo de matriz raíz aparece como un campo asignable en la configuración del módulo JSON.
