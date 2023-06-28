@@ -3,7 +3,7 @@ title: 23.3 Otras mejoras
 description: 23.3 Otras mejoras
 author: Lisa
 feature: Product Announcements
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -30,7 +30,7 @@ La nueva página de inicio será la experiencia predeterminada para todos los us
 
 Para obtener más información, consulte [Introducción a la nueva página de inicio en Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3420860/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Nueva experiencia de comentarios para objetos adicionales
 

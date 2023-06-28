@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Puede filtrar rápidamente toda la información de la página Inicio para mostra
 
 Para los usuarios que prefieren la experiencia de Inicio existente, se puede desactivar la opción Nuevo Inicio.
 
+
 **Para volver a la experiencia de Inicio actual:**
 
 1. Navegue hasta su página de inicio, ya sea haciendo clic en el icono de Adobe Workfront ![Icono de Adobe Workfront](../new-home/assets/home-icon-30x29.png) en la parte superior de la pantalla si Inicio está configurado como página de aterrizaje o haciendo clic en el icono del menú principal ![Icono del menú principal](../new-home/assets/main-menu-icon-left-nav.png) luego, haciendo clic en **Inicio**.
@@ -97,3 +98,7 @@ Para los usuarios que prefieren la experiencia de Inicio existente, se puede des
    ![Volver al botón Inicio actual](../new-home/assets/go-back-to-current-home-button.png)
 
 1. En la ventana de confirmación que aparece, puede elegir realizar una breve encuesta sobre su experiencia con Nueva página de inicio o hacer clic en **Volver a la página de inicio actual** para finalizar su decisión y volver a la experiencia de Inicio actual.
+
+>[!NOTE]
+>
+> Los administradores del sistema pueden deshabilitar el Nuevo inicio como predeterminado para sus usuarios. Para obtener información sobre cómo cambiar la experiencia de Inicio predeterminada para los usuarios de un sistema, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
