@@ -144,12 +144,9 @@ Especifique parámetros y valores en formato JSON.
 >```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
->
 >"token":"123459evz8aepwtxydndydgyumbfx",
 >
->
 >"message":"Hello World!",
->
 >
 >"title":"The Push Notification"}
 >```
