@@ -3,14 +3,14 @@ product-area: workfront-integrations;projects
 keywords: google,doc,documento,hoja,diapositiva
 navigation-topic: workfront-for-g-suite
 title: Ver [!DNL Adobe Workfront] actualizaciones de objetos de G Suite
-description: Sin salir de G Suite, puede ver actualizaciones y respuestas a actualizaciones en una [!DNL Adobe Workfront] objeto.
+description: Sin salir de G Suite, puede ver las actualizaciones y las respuestas a las actualizaciones en un [!DNL Adobe Workfront] objeto.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
+>La versión más reciente del complemento de Adobe Workfront para Google se publicó el 26 de junio de 2023.
 
 Sin salir [!DNL G Suite], puede ver actualizaciones y respuestas a actualizaciones en un [!DNL Adobe Workfront] objeto.
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -45,18 +45,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Para poder ver las actualizaciones de objetos en [!DNL G Suite], debe
+Antes de poder ver las actualizaciones de objetos en [!DNL G Suite], debe
 
 * Instalar [!DNL Workfront for G suite]\
    Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Ver actualizaciones de objetos en [!DNL G Suite]
 
-1. Ver el objeto en [!DNL G Suite] tal como se describe en [Ver y administrar [!DNL Adobe Workfront] detalles del objeto de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-1. Haga clic en el **[!UICONTROL Actualizaciones]** pestaña .
-1. Utilice la opción que aparece, determinada por las actualizaciones ya agregadas al objeto:
+1. Ver el objeto en [!DNL G Suite] como se describe en [Ver y administrar [!DNL Adobe Workfront] detalles de objeto de [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+1. Haga clic en **[!UICONTROL Actualizaciones]** pestaña.
+1. Utilice la opción que aparece, que viene determinada por las actualizaciones ya añadidas al objeto:
 
    * Si la actualización tiene comentarios, haga clic en **[!UICONTROL Mostrar comentarios]** para ver el hilo de comentarios.
-   * Si desea añadir la primera respuesta a la actualización, haga clic en **[!UICONTROL Responder]** y luego escriba el comentario.
+   * Si desea añadir la primera respuesta a la actualización, haga clic en **[!UICONTROL Responder]** y, a continuación, escriba el comentario.
 
-1. Para volver a la **[!UICONTROL Actualizaciones]** , haga clic en **[!UICONTROL Ver todas las actualizaciones]**.
+1. Para volver a la **[!UICONTROL Actualizaciones]** pestaña, haga clic en **[!UICONTROL Ver todas las actualizaciones]**.

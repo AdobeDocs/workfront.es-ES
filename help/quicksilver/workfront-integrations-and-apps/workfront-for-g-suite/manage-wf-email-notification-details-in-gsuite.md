@@ -3,28 +3,28 @@ product-area: workfront-integrations
 keywords: google,doc,documento,hoja,diapositiva
 navigation-topic: workfront-for-g-suite
 title: Administrar [!DNL Adobe Workfront] detalles de notificación de G Suite
-description: En G Suite, al abrir un Adobe de correo electrónico de notificación [!DNL Workfront] se ha enviado, puede ver los detalles del elemento de trabajo asociado y responder sin salir de la bandeja de entrada. Si hay acciones disponibles, como aprobar una solicitud, puede realizar dichas acciones directamente desde Workfront para G Suite.
+description: En G Suite, cuando abre un Adobe de correo electrónico de notificación [!DNL Workfront] ha enviado, puede ver los detalles del elemento de trabajo asociado y responder sin salir de la Bandeja de entrada. Si hay acciones disponibles, como aprobar una solicitud, puede realizarlas directamente desde Workfront for G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# Administrar [!DNL Adobe Workfront] detalles de notificaciones de [!DNL G Suite]
+# Administrar [!DNL Adobe Workfront] detalles de notificación de [!DNL G Suite]
 
 >[!NOTE]
 >
->Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
+>La versión más reciente del complemento de Adobe Workfront para Google se publicó el 26 de junio de 2023.
 
-En [!DNL G Suite], al abrir un correo electrónico de notificación [!DNL Adobe Workfront] se ha enviado, puede ver los detalles del elemento de trabajo asociado y responder sin dejar su [!UICONTROL Bandeja de entrada]. Si hay acciones disponibles, como aprobar una solicitud, puede realizar dichas acciones directamente desde [!DNL Workfront for G Suite].
+Entrada [!DNL G Suite], al abrir un correo electrónico de notificación [!DNL Adobe Workfront] ha enviado, puede ver los detalles del elemento de trabajo asociado y responder sin salir de su [!UICONTROL Bandeja de entrada]. Si hay acciones disponibles, como aprobar una solicitud, puede realizar esas acciones directamente desde [!DNL Workfront for G Suite].
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] admite casi todos los tipos de notificación por correo electrónico desde los que puede recibir [!DNL Workfront] (unos 120 tipos diferentes). [!UICONTROL Resumen diario] correos electrónicos enviados desde [!DNL Workfront] no aparecen en [!DNL Workfront for G Suite]. Para obtener información sobre la variable [!DNL Workfront] tipos de notificación de correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] admite casi todos los tipos de notificaciones por correo electrónico que puede recibir de [!DNL Workfront] (unos 120 tipos diferentes). [!UICONTROL Resumen diario] correos electrónicos enviados desde [!DNL Workfront] no aparecen en [!DNL Workfront for G Suite]. Para obtener más información sobre [!DNL Workfront] tipos de notificación por correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -49,20 +49,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Antes de administrar los detalles de las notificaciones desde [!DNL G Suite], debe
+Antes de poder administrar los detalles de notificación de [!DNL G Suite], debe
 
 * Instalar [!DNL Workfront for G suite]\
    Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Administrar [!DNL Adobe Workfront] detalles de notificaciones de [!DNL G Suite]
+## Administrar [!DNL Adobe Workfront] detalles de notificación de [!DNL G Suite]
 
-1. Si la variable [!DNL Workfront for G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
-1. En [!DNL G Suite], abra un [!DNL Workfront] correo electrónico de notificación.
-1. Haga clic en **[!UICONTROL Ver todas las actualizaciones]** si se muestra cerca de la parte superior del panel.
-1. Haga clic en **[!UICONTROL Detalles]**.
-1. Haga clic en las opciones disponibles.
+1. Si la variable [!DNL Workfront for G Suite] no se muestra, haga clic en el [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos, en el extremo derecho de la página.
+1. Entrada [!DNL G Suite], abra una [!DNL Workfront] correo electrónico de notificación.
+1. Clic **[!UICONTROL Ver todas las actualizaciones]** si se muestra cerca de la parte superior del panel.
+1. Clic **[!UICONTROL Detalles]**.
+1. Haga clic en cualquier opción disponible.
 
-   Las opciones que se pueden mostrar están relacionadas con el tipo de notificación de correo electrónico que ha abierto. Por ejemplo, si se trata de una notificación por correo electrónico en la que se le pide que apruebe una tarea, verá **[!UICONTROL Aprobar]** y **[!UICONTROL Rechazar]** en lugar de opciones como **[!UICONTROL Trabajar en él]** o **[!UICONTROL Listo]**:
+   Las opciones que se pueden mostrar están relacionadas con el tipo de notificación por correo electrónico que ha abierto. Por ejemplo, si es una notificación por correo electrónico que le solicita que apruebe una tarea, verá lo siguiente **[!UICONTROL Aprobar]** y **[!UICONTROL Rechazar]** en lugar de opciones como **[!UICONTROL Trabajar en ello]** o **[!UICONTROL Listo]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,27 +76,27 @@ Antes de administrar los detalles de las notificaciones desde [!DNL G Suite], de
     <tbody> 
      <tr> 
       <td>Tarea o problema</td> 
-      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Grant]</strong> acceso a él, <strong>[!UICONTROL Ignorar]</strong> una solicitud de acceso a ella, <strong>[!UICONTROL Trabajar en él]</strong>o haga clic en una opción para indicar que <strong>[!UICONTROL Listo]</strong> con</td> 
+      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Conceder]</strong> acceso a él, <strong>[!UICONTROL Omitir]</strong> una solicitud de acceso, <strong>[!UICONTROL Trabajar en ello]</strong>o haga clic en una opción para indicar que está <strong>[!UICONTROL Listo]</strong> con él</td> 
      </tr> 
      <tr> 
       <td>Proyecto</td> 
-      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Grant]</strong> acceso a él, o <strong>[!UICONTROL Ignorar]</strong> una solicitud de acceso a ella</td> 
+      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Conceder]</strong> acceso a él, o <strong>[!UICONTROL Omitir]</strong> una solicitud de acceso</td> 
      </tr> 
      <tr> 
       <td>Documento</td> 
-      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Grant]</strong> acceso a él, o <strong>[!UICONTROL Ignorar]</strong> una solicitud de acceso a ella</td> 
+      <td><strong>[!UICONTROL Aprobar]</strong> it, <strong>[!UICONTROL Rechazar]</strong> it, <strong>[!UICONTROL Conceder]</strong> acceso a él, o <strong>[!UICONTROL Omitir]</strong> una solicitud de acceso</td> 
      </tr> 
      <tr> 
       <td>Actualizar </td> 
-      <td> <p>Ver cualquier parte de la lista completa de actualizaciones para el elemento, de modo que tenga el contexto que necesita <strong>[!UICONTROL Post]</strong> una actualización nueva o una <strong>[!UICONTROL Respuesta]</strong>. Puede hacer clic en <strong>[!UICONTROL Notificar]</strong> para alertar a usuarios concretos sobre su respuesta. </p> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a un [!DNL Adobe Workfront] actualizar notificación desde [!DNL G Suite]</a>.</p> </td> 
+      <td> <p>Permite ver cualquier parte de la lista completa de actualizaciones del elemento para que tenga el contexto necesario <strong>[!UICONTROL Post]</strong> una nueva actualización o un <strong>[!UICONTROL Responder]</strong>. Puede hacer clic en <strong>[!UICONTROL Notificar]</strong> para alertar a usuarios concretos sobre su respuesta. </p> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a un [!DNL Adobe Workfront] actualizar notificación desde [!DNL G Suite]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Solicitud de aprobación</td> 
-      <td><strong>[!UICONTROL Aprobar]</strong> o <strong>[!UICONTROL Rechazar]</strong> (puede cambiar de opinión haciendo clic en la otra opción), descargarla, ver a su propietario o ver su número de referencia</td> 
+      <td><strong>[!UICONTROL Aprobar]</strong> o <strong>[!UICONTROL Rechazar]</strong> Haga clic en él (puede cambiar de opinión haciendo clic en la otra opción), descárguelo, vea su propietario o vea su número de referencia</td> 
      </tr> 
      <tr> 
       <td>Un cambio en el estado de un proyecto</td> 
-      <td> Vea toda la información actual sobre el proyecto, incluidos los formularios personalizados. </td> 
+      <td> Permite ver toda la información actual sobre el proyecto, incluidos los formularios personalizados. </td> 
      </tr> 
     </tbody> 
    </table>

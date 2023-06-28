@@ -2,14 +2,14 @@
 product-area: workfront-integrations
 keywords: google,doc,documento,hoja,diapositiva
 navigation-topic: workfront-for-g-suite
-title: Responder a un [!DNL Adobe Workfront] actualizar notificación de G Suite
-description: Cuando reciba una notificación sobre una actualización en [!DNL Adobe] [!DNL Workfront], puede publicar rápidamente una respuesta de Workfront para G Suite.
+title: Responder a un [!DNL Adobe Workfront] notificación de actualización de G Suite
+description: Cuando recibe una notificación sobre una actualización en [!DNL Adobe] [!DNL Workfront], puede publicar rápidamente una respuesta de Workfront para G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
+>La versión más reciente del complemento de Adobe Workfront para Google se publicó el 26 de junio de 2023.
 
-Cuando reciba una notificación sobre una actualización en [!DNL Adobe Workfront], puede enviar rápidamente una respuesta desde [!DNL Workfront for G Suite].
+Cuando recibe una notificación sobre una actualización en [!DNL Adobe Workfront], puede publicar rápidamente una respuesta de [!DNL Workfront for G Suite].
 
 ## Requisitos de acceso
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -50,12 +50,12 @@ Antes de crear un [!DNL Workfront] tarea en [!DNL G Suite], debe
 * Instalar [!DNL Workfront for G suite]\
    Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Responder a una notificación de actualización desde [!DNL G Suite]
+## Responder a una notificación de actualización de [!DNL G Suite]
 
-1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
+1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra, haga clic en el [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos, en el extremo derecho de la página.
 1. Abra el [!DNL Workfront] notificación por correo electrónico que contiene la actualización.
-1. Cerca de la parte inferior del [!UICONTROL Workfront para G Suite] panel, haga clic en **[!UICONTROL Publicar un comentario]** y, a continuación, escriba su respuesta.
-1. (Opcional) Para notificar su respuesta a usuarios concretos, haga clic en **[!DNL Notify people and teams]**, empiece a escribir un nombre y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. Cerca de la parte inferior del [!UICONTROL Workfront para G Suite] , haga clic en **[!UICONTROL Publicar un comentario]** y, a continuación, escriba su respuesta.
+1. (Opcional) Para notificar la respuesta a determinados usuarios, haga clic en **[!DNL Notify people and teams]**, empiece a escribir un nombre y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    Puede repetir este paso para cualquier otro nombre que desee agregar.
 

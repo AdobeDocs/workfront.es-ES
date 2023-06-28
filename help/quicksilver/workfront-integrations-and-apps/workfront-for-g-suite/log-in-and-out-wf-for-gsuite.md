@@ -2,23 +2,23 @@
 product-area: workfront-integrations;user-management
 keywords: google,doc,documento,hoja,diapositiva
 navigation-topic: workfront-for-g-suite
-title: Iniciar sesión y salir de [!DNL Adobe Workfront] para G Suite
-description: Este artículo describe cómo iniciar o salir del [!DNL Adobe Workfront for] Integración de grupos G.
+title: Iniciar y cerrar sesión en [!DNL Adobe Workfront] para G Suite
+description: Este artículo describe cómo iniciar y cerrar sesión en [!DNL Adobe Workfront for] Integración de G suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# Iniciar sesión y salir de [!DNL Adobe Workfront for G Suite]
+# Iniciar y cerrar sesión en [!DNL Adobe Workfront for G Suite]
 
 >[!NOTE]
 >
->Hay un [problema conocido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versión actual de [!DNL Workfront for G Suite] no funciona como se esperaba. Estamos trabajando en una nueva versión y esperamos que se publique en el [!DNL Google Marketplace] en un futuro próximo.
+>La versión más reciente del complemento de Adobe Workfront para Google se publicó el 26 de junio de 2023.
 
 ## Requisitos de acceso
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -43,33 +43,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Antes de iniciar o cerrar sesión [!DNL Workfront for G Suite], debe
+Antes de iniciar o cerrar sesión en [!DNL Workfront for G Suite], debe
 
 * Instalar [!DNL Workfront for G suite]\
    Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Iniciar sesión [!DNL Adobe Workfront for G Suite]
+## Iniciar sesión en [!DNL Adobe Workfront for G Suite]
 
-1. Haga clic en el [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de [!DNL Gmail], [!DNL Google Calendar]o [!DNL Google Drive].
+1. Haga clic en [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de [!DNL Gmail], [!DNL Google Calendar], o [!DNL Google Drive].
 
-   Si acaba de instalar la variable [!DNL Workfront for G Suite] y no puede ver este icono, intente actualizar la página del explorador.
+   Si acaba de instalar el [!DNL Workfront for G Suite] y no puede ver este icono, intente actualizar la página del explorador.
 
-1. Haga clic en **[!UICONTROL Iniciar sesión]** en el [!DNL Workfront for G Suite] complemento.
+1. Clic **[!UICONTROL Iniciar sesión]** en el [!DNL Workfront for G Suite] complemento de.
 1. Escriba su [!DNL Workfront] dirección de dominio, como *companyname.my.workfront.com*.
 1. Siga las indicaciones para iniciar sesión en [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] conecta con [!DNL G Suite] con OAuth 2.0, un estándar seguro utilizado por la mayoría de las integraciones basadas en web para la autenticación y autorización de los usuarios.
-   >* Cuando se le pida que introduzca la variable [dominio o host] de su [!DNL Workfront] cuenta, escríbala con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de la empresa suele ser el nombre de la empresa.
+   >* [!DNL Workfront] se conecta a [!DNL G Suite] uso de OAuth 2.0, un estándar seguro utilizado por la mayoría de las integraciones basadas en la web para la autenticación y autorización de usuarios.
+   >* Cuando se le pida que introduzca el [dominio o host] de su [!DNL Workfront] , escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
 
 
+## Cerrar sesión de [!DNL Workfront for G Suite]
 
-## Cerrar sesión [!DNL Workfront for G Suite]
+1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra, haga clic en el [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos, en el extremo derecho de la página.
+1. Haga clic en **[!UICONTROL Más acciones]** en la parte superior del [!DNL Workfront for G Suite] panel.
 
-1. Si la variable [!UICONTROL Workfront para G Suite] no se muestra el panel, haga clic en el botón [!DNL Workfront] icono ![](assets/wf-lion-icon.png) en el [!DNL G Suite] barra lateral de complementos en el extremo derecho de la página.
-1. Haga clic en el **[!UICONTROL Más acciones]** en la parte superior del [!DNL Workfront for G Suite] panel.
+1. Clic **[!UICONTROL Cerrar sesión]** en el menú que aparece.
 
-1. Haga clic en **[!UICONTROL Cerrar sesión]** en el menú que aparece.
-
-   Esto no le saca de la sesión [!DNL G Suite].
+   Esto no le cierra la sesión de [!DNL G Suite].
