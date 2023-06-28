@@ -4,7 +4,7 @@ description: Actualizaciones de aspecto durante el periodo de tiempo de la versi
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles con la versión 23.3, co
 
 >[!NOTE]
 >
->Versión de vista previa planificada: 28 de junio de 2023; versión de producción planificada: 13 de julio de 2023
+>Versión de vista previa planificada: 29 de junio de 2023; versión de producción planificada: 13 de julio de 2023
 
 Hemos realizado mejoras en la interfaz de la lista de Solicitudes enviadas.
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Copiar y enviar solicitudes](/help/qui
 
 >[!NOTE]
 >
->Versión de vista previa planificada: 5 de julio de 2023; versión de producción planificada: con la versión 23.3
+>Versión de vista previa planificada: 6 de julio de 2023; versión de producción planificada: con la versión 23.3
 
 Hemos actualizado el cuadro Nuevo problema que se muestra al enviar un problema nuevo a un proyecto. Ahora, la interfaz coincide con el cuadro Nueva solicitud que se muestra al enviar una nueva solicitud a una cola de solicitudes.
 

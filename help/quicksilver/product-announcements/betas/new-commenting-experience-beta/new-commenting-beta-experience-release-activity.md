@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1500'
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,9 @@ Ahora, tiene la capacidad de copiar el contenido de un comentario y agregarlo co
 
 Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentación se actualizará en el momento de la publicación.
 
-Versión de vista previa y producción planificadas: 29 de junio de 2023
+Vista previa: 28 de junio de 2023
+
+Versión de producción planificada: 29 de junio de 2023
 
 #### Nueva interfaz para registrar el tiempo
 
