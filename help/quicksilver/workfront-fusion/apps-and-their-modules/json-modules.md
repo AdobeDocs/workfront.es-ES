@@ -88,7 +88,7 @@ Si el campo de cadena JSON contiene una colección `{ ... }`, El resultado es un
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si el campo de cadena JSON contiene una matriz `[ ... ]`, el resultado es una se
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
