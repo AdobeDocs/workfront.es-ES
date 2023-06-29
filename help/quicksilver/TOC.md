@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
+source-git-commit: da2ecac5d362e20e3068f9c865bc37633f79da58
 workflow-type: tm+mt
-source-wordcount: '13106'
-ht-degree: 1%
+source-wordcount: '13113'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,7 @@ ht-degree: 1%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de la versión de Adobe Workfront Fusion {#fusion-release}
          * [Actividad de la versión de Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Actividad de la versión de Workfront Fusion: Semana del 26 de junio de 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-29.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 12 de junio de 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 15 de mayo de 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 1 de mayo de 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
@@ -401,13 +402,13 @@ ht-degree: 1%
          * [Hoja de horas y preferencias de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [Administrar tipos de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [Creación de una programación](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * Configuración organizativa {#organization-setup}
-         * [Configuración organizativa](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
+      * Configuración de la organización {#organization-setup}
+         * [Configuración de la organización](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Administrar compañías](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Administrar suscripciones a compañías](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Desactivar o reactivar una compañía](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Función del puesto](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-         * [Crear y administrar roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+         * [Crear y administrar funciones de trabajo](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [Eliminar funciones del puesto](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Desactivar funciones del puesto](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Anular tarifas de facturación de rol](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
@@ -421,7 +422,7 @@ ht-degree: 1%
          * [Previsualizar entorno de espacio aislado](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Entorno de espacio aislado de actualización personalizado](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
    * Agregar usuarios {#add-users}
-      * [Adición de usuarios a Workfront](administration-and-setup/add-users/add-users.md)
+      * [Agregar usuarios a Workfront](administration-and-setup/add-users/add-users.md)
       * Crear y administrar usuarios {#create-manage-users}
          * [Administrar usuarios](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Agregar usuarios](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -635,7 +636,7 @@ ht-degree: 1%
          * [Actualización de metadatos de SAML 2.0 en el IDP al utilizar autenticación mejorada](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
       * Tasas de cambio {#exchange-rates}
          * [Tasas de cambio](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-         * [Configurar tasas de cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
+         * [Configuración de tipos de cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
       * Administrar elementos eliminados {#manage-deleted-items}
          * [Administrar elementos eliminados](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Restaurar elementos eliminados](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
@@ -685,7 +686,7 @@ ht-degree: 1%
          * [Ver y administrar miembros de subgrupos](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
       * Agrupar funciones {#group-roles}
          * [Agrupar funciones](administration-and-setup/manage-groups/group-roles/group-roles.md)
-         * [Administradores de grupo](administration-and-setup/manage-groups/group-roles/group-administrators.md)
+         * [Administradores de grupos](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Asignar un administrador de grupo](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Funcionalidades de administrador de grupos](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Información general de Business Leader](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
@@ -724,7 +725,7 @@ ht-degree: 1%
       * [Configurar integraciones de documentos](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Deshabilitar integraciones de documentos](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configuración de la integración de SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-      * [Configurar asignación de metadatos](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Configuración de la asignación de metadatos](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Creación de aplicaciones de OAuth2 para integraciones de Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Ver y administrar aplicaciones OAuth2 personalizadas](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configuración de la integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -947,7 +948,7 @@ ht-degree: 1%
       * [Crear o editar un tablero](agile/get-started-with-boards/create-edit-board.md)
       * [Eliminar o archivar un tablero](agile/get-started-with-boards/delete-archive-board.md)
       * [Agregar o quitar miembros de un tablero](agile/get-started-with-boards/add-members-to-board.md)
-      * [Administrar columnas del tablero](agile/get-started-with-boards/manage-board-columns.md)
+      * [Administrar columnas de tablero](agile/get-started-with-boards/manage-board-columns.md)
       * [Añadir una tarjeta ad hoc a un tablero](agile/get-started-with-boards/add-card-to-board.md)
       * [Usar tarjetas conectadas en tableros](agile/get-started-with-boards/connected-cards.md)
       * [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -973,7 +974,7 @@ ht-degree: 1%
    * [Información general de Agile](agile/agile-overview.md)
    * Introducción a Agile en Adobe Workfront {#agile-in-workfront}
       * [Introducción a Agile en Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Crear un equipo Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Crear un equipo ágil](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configurar Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configurar Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kanban en un equipo ágil {#kanban}
@@ -1159,7 +1160,7 @@ ht-degree: 1%
       * Crear y administrar plantillas de proyecto {#create-and-manage-project-templates}
          * [Crear y administrar plantillas de proyecto](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Resumen de plantilla de proyecto](manage-work/projects/create-and-manage-templates/project-template-overview.md)
-         * [Creación de una plantilla de proyecto](manage-work/projects/create-and-manage-templates/create-template.md)
+         * [Crear una plantilla de proyecto](manage-work/projects/create-and-manage-templates/create-template.md)
          * [Crear plantillas de proyecto a partir de ejemplos](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
          * [Examinar el catálogo de modelos y solicitar la instalación de modelos](administration-and-setup/blueprints/browse-catalog.md)
          * [Copiar una plantilla de proyecto](manage-work/projects/create-and-manage-templates/copy-template.md)
@@ -1436,8 +1437,8 @@ ht-degree: 1%
    * Sugerencias, trucos y solución de problemas para equipos y grupos {#tips-tricks-people-teams-groups}
       * [Sugerencias, trucos y solución de problemas para equipos y grupos](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [El nombre de usuario ya está en uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Informes {#reporting}
-   * [Informes](reports-and-dashboards/reports-and-dashboards-overview.md)
+* Creación de informes {#reporting}
+   * [Creación de informes](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Lienzo de informes {#reporting-canvas}
       * [Lienzo de informes](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * Administración de informes {#manage-reports}
@@ -1483,7 +1484,7 @@ ht-degree: 1%
          * [Utilice comodines basados en fecha para generalizar informes](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Utilice comodines basados en usuarios para generalizar informes](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Compartir un filtro, una vista o una agrupación](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-         * [Eliminación de filtros, vistas y agrupaciones](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+         * [Quitar filtros, vistas y agrupaciones](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [Uso de la vista de Hito](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [Modificar el ancho y el orden de las columnas](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
       * Uso de informes integrados {#built-in-reports}
@@ -1668,8 +1669,8 @@ ht-degree: 1%
       * [Vea la visualización Actividad por equipo en el análisis mejorado](enhanced-analytics/activity-by-team-overview.md)
       * [Vea la visualización de la capacidad de los recursos en el análisis mejorado](enhanced-analytics/resource-capacity-overview.md)
       * [Vea la visualización de la capacidad Equipo en el análisis mejorado](enhanced-analytics/team-capacity-overview.md)
-* Administración de recursos {#manage-resources}
-   * [Administración de recursos](resource-mgmt/manage-resources.md)
+* Administrar recursos {#manage-resources}
+   * [Administrar recursos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Introducción a la administración de recursos](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
@@ -1782,8 +1783,8 @@ ht-degree: 1%
             * [Visualización de la actividad de una prueba en Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [Usar el informe de aprobación de pruebas](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Acceso a Workfront Proof desde Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * Administrar versiones de revisión {#manage-proof-versions}
-            * [Administrar versiones de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+         * Administrar versiones de prueba {#manage-proof-versions}
+            * [Administrar versiones de prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Crear una nueva versión de una revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Ver versiones de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Ver y administrar detalles de la versión de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
@@ -1819,8 +1820,8 @@ ht-degree: 1%
          * [Preguntas frecuentes - Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Revisión de pruebas en Adobe Workfront {#review-proofs-in-workfront}
          * [Revisión de pruebas en Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * Revisión de una revisión {#review-a-proof}
-            * [Revisión de una revisión](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+         * Revisión de una prueba {#review-a-proof}
+            * [Revisión de una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Visualización de contenido en una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Medir un área dentro de una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Cambiar la unidad de medida de la cronología en una prueba de vídeo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1872,7 +1873,7 @@ ht-degree: 1%
       * [Definir tipos de horas y disponibilidad para hojas de horas](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Crear hoja de horas de un solo uso](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Editar información de hoja de horas](timesheets/create-and-manage-timesheets/edit-timesheets.md)
-      * [Registrar tiempo](timesheets/create-and-manage-timesheets/log-time.md)
+      * [Hora de registro](timesheets/create-and-manage-timesheets/log-time.md)
       * [Enviar hoja de horas para su aprobación](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
       * [Aprobar una hoja de horas](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
       * [Ver las horas totales en la hoja de horas](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
@@ -2145,7 +2146,7 @@ ht-degree: 1%
       * [Módulos SFTP](workfront-fusion/apps-and-their-modules/sftp.md)
       * [Módulos de SharePoint](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
       * [Módulos de Slack](workfront-fusion/apps-and-their-modules/slack-modules.md)
-      * [módulo SOAP](workfront-fusion/apps-and-their-modules/soap-module.md)
+      * [Módulo SOAP](workfront-fusion/apps-and-their-modules/soap-module.md)
       * [Módulos Split.io](workfront-fusion/apps-and-their-modules/split-io-modules.md)
       * [Analizador de texto](workfront-fusion/apps-and-their-modules/text-parser.md)
       * [Herramientas](workfront-fusion/apps-and-their-modules/tools-modules.md)
@@ -2228,8 +2229,8 @@ ht-degree: 1%
       * [Información general sobre Adobe Workfront para Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Instalación de Adobe Workfront para Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Acceso a Adobe Workfront desde Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-      * [Busque y comparta elementos de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [Crear tareas de Adobe Workfront a partir de Microsofts Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [Buscar y compartir elementos de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+      * [Crear tareas de Adobe Workfront a partir de Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Envío de solicitudes de Adobe Workfront desde Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Administración de notificaciones de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront para Salesforce {#workfront-for-salesforce}

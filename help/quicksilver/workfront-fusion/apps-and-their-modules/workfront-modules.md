@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -885,7 +885,7 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Versión de documento</td> 
+   <td>Versión del documento</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> </td> 
@@ -991,6 +991,12 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Aprobación de revisión</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Tiempo reservado* </td> 
@@ -1168,7 +1174,7 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Versión de documento</td> 
+   <td>Versión del documento</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1512,7 +1518,7 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Versión de documento</td> 
+   <td>Versión del documento</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -1722,3 +1728,4 @@ Para obtener más información sobre las suscripciones a eventos, consulte [Preg
 Para obtener más información sobre los webhooks, consulte [Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Para obtener más información sobre los filtros en escenarios, consulte [Adición de un filtro a un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
