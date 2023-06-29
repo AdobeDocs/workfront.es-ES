@@ -3,101 +3,101 @@ content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Seguimiento de costes
-description: Puede realizar un seguimiento de los costes de los proyectos, las tareas y los problemas en Adobe Workfront.
-author: Alina
+description: Puede realizar un seguimiento de los costos de los proyectos, las tareas y los problemas en Adobe Workfront.
+author: Alina, Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2472'
 ht-degree: 1%
 
 ---
 
 # Seguimiento de costes
 
-Puede realizar un seguimiento de los costes de los proyectos, las tareas y los problemas en Adobe Workfront.
+{{highlighted-preview}}
 
-## Cómo calcula Workfront los costes
+Puede realizar un seguimiento de los costos de los proyectos, las tareas y los problemas en Adobe Workfront.
 
-Para realizar un seguimiento de los costes, debe asociar usuarios y funciones de trabajo con tasas de coste por hora.
+## Cálculo de costes de Workfront
 
-Las tasas de coste por hora son cantidades de costes por unidad de trabajo asociadas con funciones de trabajo o usuarios. Al multiplicar las tasas por las horas dedicadas al trabajo, se generan costes para sus proyectos, tareas o problemas.
+Para realizar un seguimiento de los costes, debe asociar los usuarios y las funciones del puesto a las tasas de coste por hora.
+
+Las tasas de coste por hora son cantidades de costes por unidad de trabajo asociados con roles o usuarios. Multiplicar las tasas por las horas invertidas en el trabajo genera costos para sus proyectos, tareas o problemas.
 
 Existen los siguientes escenarios:
 
-* Si el tipo de coste de las tareas es Usuario por hora, la tasa por hora del usuario calcula los costes de la tarea y del proyecto.
+* Si el Tipo de costo de las tareas es Usuario por hora, la tarifa por hora del usuario calcula los costos de la tarea y del proyecto.
 
-   Para obtener información sobre cómo asociar usuarios con tasas de coste, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obtener información sobre cómo asociar usuarios con tasas de coste, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Si el tipo de coste de las tareas es Función por hora, la tasa horaria de la función de trabajo calcula los costes de la tarea y del proyecto.
+* Si el tipo de coste de las tareas es Rol por hora, la tasa por hora de la función de trabajo calcula los costes de la tarea y del proyecto.
 
-   Para obtener información sobre cómo asociar funciones de trabajo con tasas de coste, consulte [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obtener información sobre la asociación de funciones con tasas de coste, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* Workfront calcula solamente el costo real para problemas y problemas que no tienen un tipo de costo. Para obtener más información, consulte la sección [Cómo realiza Workfront el seguimiento de los costes de los problemas](#how-workfront-tracks-costs-for-issues) en este artículo.
+* Workfront calcula solamente el coste real de los problemas y los problemas que no tienen un tipo de coste. Para obtener más información, consulte la sección [Cómo Workfront rastrea los costes de los problemas](#how-workfront-tracks-costs-for-issues) en este artículo.
 
 >[!TIP]
 >
->No puede anular las tasas de coste de los proyectos. Una vez establecida la tasa de costo por hora en una función de usuario o de trabajo, esa tasa calcula todos los costos del sistema.
+>No se pueden anular las tasas de costo de los proyectos. Una vez establecida la tarifa de coste por hora de un usuario o rol, esa tarifa calcula todos los costes del sistema.
 
 ## Índices de rendimiento de costes de Workfront
 
-Workfront calcula una serie de índices de rendimiento de costes para los proyectos, de modo que se pueda realizar un seguimiento de los proyectos para lograr una mayor rentabilidad.\
+Workfront calcula una serie de índices de rendimiento de costes para los proyectos, de modo que se pueda realizar un seguimiento de los proyectos para comprobar su rentabilidad.\
 Para obtener más información sobre el cálculo de índices de rendimiento de costes, consulte:
 
-* [Calcular el índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
-* [Calcular el Índice de Rendimiento del Programa de Costes (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
-* [Calcular el índice de rendimiento de la programación (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
+* [Calcular índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
+* [Calcular índice de rendimiento de horario de costes (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
+* [Calcular índice de rendimiento del horario (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
 
-## Cómo realiza Workfront el seguimiento de los costes de las tareas y los proyectos
+## Cómo Workfront realiza un seguimiento de los costos de tareas y proyectos
 
-* [Cómo realiza Workfront el seguimiento de los costes](#how-workfront-tracks-costs)
-* [Cómo calcula Workfront los costes previstos, presupuestados y reales](#how-workfront-calculates-planned-budgeted-and-actual-costs)
-* [Cómo calcula Workfront los tipos de coste para las tareas](#how-workfront-calculates-cost-types-for-tasks)
+* [Cómo Workfront rastrea los costes](#how-workfront-tracks-costs)
+* [Cómo calcula Workfront los costes planificados, presupuestados y reales](#how-workfront-calculates-planned-budgeted-and-actual-costs)
+* [Cómo calcula Workfront los tipos de coste de las tareas](#how-workfront-calculates-cost-types-for-tasks)
 
-### Cómo realiza Workfront el seguimiento de los costes  {#how-workfront-tracks-costs}
+### Cómo Workfront rastrea los costes  {#how-workfront-tracks-costs}
 
-Puede rastrear varios tipos de Costes para tareas y proyectos en Workfront. Los costes generales se calculan mediante la fórmula siguiente:
+Puede realizar un seguimiento de varios tipos de costos para tareas y proyectos en Workfront. Los costes totales se calculan mediante la fórmula siguiente:
 
-```
-Costs = Labor Costs + Expense Costs
-```
+`Costs = Labor Costs + Expense Costs`
 
-* **Costes laborales** están asociados a las horas en tareas y proyectos y a las tasas de Costo por hora de los recursos asociados con tareas. En general, Workfront calcula los siguientes costes laborales:
+* **Costes laborales** están asociados a las horas de las tareas y proyectos y a las tasas de costo por hora de los recursos asociados a las tareas. Por lo general, Workfront calcula los siguientes costes laborales:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td>Costes laborales planificados</td> 
-     <td> <p>Se calculan mediante la fórmula siguiente:</p><pre>Costes Laborales Planificados = Horario Planificado * Tasa de Coste por Hora</pre> </td> 
+     <td>Costos laborales planificados</td> 
+     <td> <p>Se calculan mediante la fórmula siguiente:</p><code>Planned Labor Costs = Planned Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
-     <td>Costes laborales presupuestados</td> 
-     <td> <p>Se calculan mediante la fórmula siguiente:</p><pre>Costes laborales presupuestados = Horas presupuestadas * Tasa de costo por hora</pre> </td> 
+     <td>Costos laborales presupuestados</td> 
+     <td> <p>Se calculan mediante la fórmula siguiente:</p><code>Budgeted Labor Costs = Budgeted Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
-     <td>Costes laborales reales</td> 
-     <td> <p>Se calculan mediante la fórmula siguiente:</p><pre>Costes laborales reales = Horas reales * Tasa de costo por hora</pre> </td> 
+     <td>Costos laborales reales</td> 
+     <td> <p>Se calculan mediante la fórmula siguiente:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
     </tr> 
    </tbody> 
   </table>
 
-   Para obtener más información, consulte la [Cómo calcula Workfront los costes previstos, presupuestados y reales](#how-workfront-calculates-planned-budgeted-and-actual-costs) en este artículo.
+  Para obtener más información, consulte la [Cómo calcula Workfront los costes planificados, presupuestados y reales](#how-workfront-calculates-planned-budgeted-and-actual-costs) de este artículo.
 
-* **Gastos** están asociados con Gastos en proyectos y tareas.\
-   Al crear un proyecto, puede definir los gastos planificados para todo el proyecto. Además, puede asociar gastos con tareas nuevas o existentes. Para obtener más información, consulte [Administrar los gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* **Costos de gastos** están asociados con Gastos en proyectos y tareas.\
+  Al crear un proyecto, puede establecer los gastos planeados para todo el proyecto. Además, puede asociar gastos con tareas nuevas o existentes. Para obtener más información, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* **Costes fijos** se definen como una cantidad fija de coste para un proyecto. Esto forma parte del Costo planeado del proyecto que representa la cantidad de dinero que necesita para completar el proyecto.
+* **Costes fijos** se definen como una cantidad fija de costos para un proyecto. Esto es parte del costo planificado del proyecto que representa la cantidad de dinero que usted necesita para completar el proyecto.
 
-   >[!TIP]
-   >
-   >Al adjuntar una plantilla a un proyecto, el coste fijo de una plantilla se agrega al coste fijo del proyecto. Para obtener más información, consulte [Descripción general de cómo adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
+  >[!TIP]
+  >
+  >Al adjuntar una plantilla a un proyecto, el costo fijo de una plantilla se agrega al costo fijo del proyecto. Para obtener más información, consulte [Información general sobre cómo adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
-### Cómo calcula Workfront los costes previstos, presupuestados y reales {#how-workfront-calculates-planned-budgeted-and-actual-costs}
+### Cómo calcula Workfront los costes planificados, presupuestados y reales {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
-Workfront calcula el coste planeado y el coste real de cada tarea individual de un proyecto. Workfront utiliza estos cálculos para tareas individuales a fin de calcular el coste planeado y el coste real del proyecto.
+Workfront calcula el costo planificado y el costo real de cada tarea individual de un proyecto. Workfront utiliza estos cálculos para tareas individuales a fin de calcular el costo planificado y el costo real del proyecto.
 
 * [Costo planificado](#planned-cost)
 * [Costo presupuestado](#budgeted-cost)
@@ -105,82 +105,78 @@ Workfront calcula el coste planeado y el coste real de cada tarea individual de 
 
 #### Costo planificado {#planned-cost}
 
-El costo planeado de un proyecto es el costo asociado con el trabajo planificado (horas planificadas) en el proyecto.
+El costo planificado de un proyecto es el costo asociado con el trabajo planificado (horas planificadas) en el proyecto.
 
-El coste planificado de un proyecto se calcula mediante la fórmula siguiente:
+El costo planificado de un proyecto se calcula mediante la siguiente fórmula:
 
-```
-Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
-```
+`Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project`
 
-Por ejemplo, tiene los siguientes gastos en la pestaña Expenses de una tarea: un gasto de marketing de 100 $ y un gasto administrativo de 50 $. En la pestaña Finanzas, seleccione el tipo de coste Usuario por hora . Un usuario se asigna a la tarea y la tasa por hora del usuario es de 15 $. El usuario tiene asignado trabajar 5 horas en esta tarea. En la pestaña Gastos del proyecto, tiene un costo planificado de 100 $ para un gasto denominado Consultoría. También tiene un costo fijo de 200 $ para el proyecto.
+Por ejemplo, tiene los siguientes gastos en la pestaña Gastos de una tarea: un gasto de marketing de 100 $ y un gasto administrativo de 50 $. En la pestaña Finanzas, seleccione el tipo de coste por hora Usuario. Se asigna un usuario a la tarea y la tarifa por hora del usuario es de 15 $. Se asigna al usuario 5 horas de trabajo en esta tarea. En la pestaña Gastos del proyecto, tiene un costo planificado de 100 $ para un gasto llamado Consultoría. También tiene un Costo fijo de $200 para el proyecto.
 
-El costo planeado del proyecto se calcula de la siguiente manera:
+El costo planificado del proyecto se calcula de la siguiente manera:
 
-```
-$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525
-```
+`$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525`
+
+<span class="preview">La tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</span>
 
 #### Costo presupuestado {#budgeted-cost}
 
 El costo presupuestado de un proyecto es el costo asociado con el trabajo presupuestado (horas presupuestadas) en el proyecto.
 
-El coste presupuestado del proyecto es el mismo que el coste previsto del proyecto si se cumplen las dos condiciones siguientes:
+El costo presupuestado del proyecto es el mismo que el costo planificado del proyecto si se cumplen las dos condiciones siguientes:
 
-* Las horas planificadas de las tareas del proyecto coinciden con las horas presupuestadas (en el planificador de recursos)
-* La tarea Tipo de facturación es Función por hora.
+* Las horas planificadas de las tareas del proyecto coinciden con las horas presupuestadas (en el Planificador de recursos)
+* El tipo de facturación de la tarea es Rol por hora.
 
 El coste presupuestado del proyecto se calcula mediante la fórmula siguiente si se cumplen las siguientes condiciones:
 
-* Las horas previstas de las tareas del proyecto no coinciden con las horas presupuestadas (en el planificador de recursos)
-* El tipo de facturación de las tareas es Función por hora.
+* Las horas planificadas de las tareas del proyecto no coinciden con las horas presupuestadas (en el Planificador de recursos)
+* El tipo de facturación de las tareas es Rol por hora.
 
 Cuando se cumplen las condiciones anteriores, Workfront calcula el coste presupuestado del proyecto mediante la fórmula siguiente:
-<pre>Coste de proyecto presupuestado = Coste de trabajo presupuestado + Coste de gastos presupuestado de todas las tareas + Coste de gastos presupuestado del proyecto</pre>
+
+`Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project`
 
 #### Costo real {#actual-cost}
 
 El costo real de un proyecto es el costo asociado con el trabajo real (horas registradas) del proyecto.
 
-El costo real se calcula mediante la fórmula siguiente:
+El coste real se calcula mediante la fórmula siguiente:
 
-```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
-```
+`Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project`
 
-Por ejemplo, tiene los siguientes gastos en la pestaña Expenses de una tarea: un gasto de marketing con un costo real de 110 dólares y un gasto administrativo con un costo real de 40 dólares. Seleccione el tipo de coste Función por hora y asigne la función de trabajo Consultor a la tarea. La tasa de la función de trabajo del consultor es de 15 $ por hora y hay 6 horas registradas en la tarea para la función de trabajo del consultor. Hay un gasto de consultoría asociado al proyecto (en la pestaña Gastos ), con un costo real de 100 $ y un usuario con una tasa de costo por hora de 20 $ en sus registros de perfil de usuario de 10 horas en el proyecto. También tiene un costo fijo de 200 $ para el proyecto.
+Por ejemplo, tiene los gastos siguientes en la ficha Gastos de una tarea: un gasto de marketing con un costo real de 110 $ y un gasto administrativo con un costo real de 40 $. Seleccione el tipo de coste Rol por hora y asigne el rol Consultor a la tarea. La tarifa de la función de consultor es de 15 $ por hora y hay 6 horas registradas en la tarea para la función de consultor. Hay un gasto de consultoría asociado al proyecto (en la pestaña Gastos), con un costo real de 100 dólares y un usuario con una tasa de costo por hora de 20 dólares en sus registros de perfil de usuario 10 horas en el proyecto. También tiene un Costo fijo de $200 para el proyecto.
 
 El costo real del proyecto se calcula de la siguiente manera:
 
-```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740
-```
+`$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740`
+
+<span class="preview">La tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</span>
 
 >[!NOTE]
 >
->El costo real de los gastos del proyecto se calcula de la siguiente manera:
+>El costo de gasto real del proyecto se calcula de la siguiente manera:
 >`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
->Estos costes no se duplican en el cálculo de Coste real. Por ejemplo, si un costo fijo forma parte del costo real del proyecto, no se agrega por separado al costo real.
+>Estos costes no se duplican en el cálculo de costes reales. Por ejemplo, si un costo fijo es parte del costo de gasto real del proyecto, no se agrega por separado al costo real.
 
 >[!NOTE]
 >
->Al iniciar sesión en un proyecto, existen los siguientes escenarios al calcular el costo laboral real del proyecto:
+>Al registrar el tiempo en un proyecto, existen los siguientes escenarios al calcular el costo de mano de obra real del proyecto:
 >
->* De forma predeterminada, Workfront utiliza la tasa Costo por hora del usuario para calcular Coste laboral real.
->* Si el usuario que registra la hora no está asociado con ningún coste, Workfront utiliza la tasa Costo por hora de la función principal del usuario.
->* Si el administrador de Workfront ha habilitado la variable **Asignar roles de trabajo a las entradas de hora manualmente** en el área Preferencias de hojas de horas y horas , y el usuario que inicia sesión en el proyecto selecciona una función diferente para asociarla a esta hora, el costo real del proyecto se calcula en función de la función especificada cuando se registraron las horas. Para obtener información sobre cómo habilitar el tiempo de registro para una función de trabajo específica, consulte el artículo [Configuración de las preferencias de horas y horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* De forma predeterminada, Workfront utiliza la tarifa Costo por hora del usuario para calcular el Costo de mano de obra real.
+>* Si el usuario que registra la hora no está asociado a ningún coste, Workfront utiliza la tasa de coste por hora de la función principal del usuario.
+>* Si el administrador de Workfront ha activado la **Asignar roles a entradas de horas manualmente** Si se establece en el área Preferencias de horas y hojas de horas y el usuario que registra el tiempo en el proyecto selecciona una función diferente para asociarla a esta hora, el costo real del proyecto se calcula según la función especificada cuando se registraron las horas. Para obtener información sobre cómo habilitar el registro del tiempo de un rol específico, consulte el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
+### Cómo calcula Workfront los tipos de coste de las tareas {#how-workfront-calculates-cost-types-for-tasks}
 
-### Cómo calcula Workfront los tipos de coste para las tareas {#how-workfront-calculates-cost-types-for-tasks}
+El costo planificado y real de las tareas y sus costos de mano de obra están determinados por el tipo de costo de cada tarea.
 
-El coste previsto y real de las tareas y sus costes laborales están determinados por el tipo de coste de cada tarea.
-
-Puede configurar el tipo de coste para tareas individuales dentro del proyecto. Cada tipo de coste afecta a los valores Costo planeado y Costo real .
+Puede configurar el Tipo de costo para tareas individuales dentro del proyecto. Cada tipo de coste afecta a los valores de Coste planificado y Coste real.
 
 Para obtener información sobre cómo modificar el tipo de coste de una tarea, consulte [Actualizar tipo de costo de tarea](../../../manage-work/tasks/task-information/update-task-cost-type.md).
 
-La siguiente tabla describe la tarea disponible Tipos de costo en Workfront:
+En la tabla siguiente se describen los tipos de coste de tarea disponibles en Workfront:
 
 <table border="1" cellspacing="15"> 
  <col> 
@@ -194,23 +190,24 @@ La siguiente tabla describe la tarea disponible Tipos de costo en Workfront:
  <tbody> 
   <tr> 
    <td> <p>Usuario por hora</p> </td> 
-   <td> <p>Este es el tipo de coste predeterminado al crear una tarea.</p> <p><strong>Coste planificado</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Cuando el Coste Laboral Planificado se calcule por:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Nota:   <p>Considere los siguientes impactos: usar el tipo de coste por hora de usuario y calcular el coste planeado:</p> 
+   <td> <p>Éste es el tipo de costo predeterminado al crear una tarea.</p> <p><strong>Costo planificado</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Donde el costo laboral planificado se calcula por:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Nota: <p>Tenga en cuenta los siguientes impactos de utilizar el tipo de coste por hora de usuario y calcular el coste planificado:</p> 
      <ul> 
-      <li>Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de Coste planificado en función del porcentaje de la tarea asignada a cada recurso.</li> 
-      <li>El valor del campo Costo planeado puede variar según se vea el Costo planeado desde la propia tarea o desde el informe de uso.<br><strong>Al ver el coste planeado desde la propia tarea:</strong> El campo Costo planeado tiene en cuenta el campo Costo/Hr establecido en el nivel Función de trabajo (cuando el campo Costo/Hr no se ha configurado en el nivel de usuario).<br><strong>Al consultar Costo planeado desde el informe de uso del proyecto:</strong> El campo Costo planeado no tiene en cuenta el campo Costo/Hr establecido en el nivel Función de trabajo. En su lugar, si desea que el informe de utilización tenga en cuenta el campo Costo/Hora establecido en el nivel Función de Trabajo, debe establecer el Tipo de Coste en la tarea en Función por hora. </li> 
-     </ul> </p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Donde el Coste de Trabajo Real se calcula mediante:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Por ejemplo, un usuario tiene una tasa de costo por hora de 20 dólares en su perfil. Cuando se registran 5 horas para una tarea, el Coste de trabajo real es de 100 dólares para esa tarea. Si el usuario no tiene asociada una tasa de costo por hora, el costo real calcula en función de la tasa de costo por hora de su función de trabajo principal. Si no tienen una función de trabajo o la tasa de costo por hora de su función de trabajo no está definida, entonces el costo real de la tarea es cero. </p> <p>Nota: Los costes reales se calculan en función de la tasa Costo por hora para el usuario que está registrando la hora, independientemente de quién esté asignado a la tarea. </p> </td> 
+      <li>Si asigna varios recursos a una tarea, Workfront ajusta los cálculos del costo planificado en función del porcentaje de la tarea asignada a cada recurso.</li>
+      <li><span class="preview">Para tasas de costo efectivas por fecha, el costo de mano de obra planificada es la suma de los costos planificados de cada período de tiempo cubierto en la tarea.</span></li>
+      <li>El valor del campo Costo planificado puede variar dependiendo de si ve el costo planificado desde la propia tarea o desde el informe de utilización.<br><strong>Al ver el costo planificado desde la propia tarea:</strong> El campo Costo planificado tiene en cuenta el campo Costo/hora establecido en el nivel de rol (cuando el campo Costo/hora no se ha establecido en el nivel de usuario).<br><strong>Al consultar el Coste Planificado desde el Informe de Utilización del proyecto:</strong> El campo Costo planificado no tiene en cuenta el campo Costo/hora establecido en el nivel de rol. En su lugar, si desea que el informe Utilización tenga en cuenta el campo Coste/Hora establecido en el nivel de Rol, debe establecer el Tipo de coste de la tarea en Rol por hora. </li> 
+     </ul> </p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>donde el coste laboral real se calcula por:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Por ejemplo, un usuario tiene una tasa de coste por hora de 20 $ en su perfil. Cuando registran 5 horas para una tarea, el costo de mano de obra real es de 100 $ para esa tarea. Si el usuario no tiene asociada una tarifa de coste por hora, el coste real se calcula según la tarifa de coste por hora de su rol principal. Si no tienen un rol o la tasa de costo por hora de su rol no está definida, el costo real de la tarea es cero. </p> <p>Nota: Los costes reales se calculan según la tasa de coste por hora del usuario que registra el tiempo, independientemente de quién esté asignado a la tarea. <span class="preview">Además, la tarifa por hora de facturación en la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Rol por hora</p> </td> 
-   <td> <p><strong>Coste planificado</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Donde el Coste Laboral Planificado de la Tarea se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de horas planificadas en función del porcentaje de la tarea asignada a cada recurso.</p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Donde el Coste de Trabajo Real de la Tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por ejemplo, una tarea se asigna a una función de trabajo o a un usuario con una función de trabajo cuya tasa de costo por hora es de 20 dólares. Cuando un usuario registra 5 horas para una tarea, el Coste de trabajo real es de 100 dólares para esa tarea. Si el usuario asignado a la tarea no tiene una función de trabajo asociada a él en la tarea, el coste real calcula en función de la tasa de coste por hora de su función de trabajo principal. Si no tienen una función de trabajo o la tasa de costo por hora de su función de trabajo no está definida, entonces el costo real de la tarea es cero. </p> <p>Nota:   <p> La tarea Hora real de una función por hora calcula en función de las funciones de trabajo de los usuarios asociados con la tarea, no de las funciones asociadas con el usuario que está registrando la hora.</p> <p>Si el administrador de Workfront ha habilitado la variable <strong>Asignar roles de trabajo a las entradas de hora manualmente</strong> en el área Preferencias de hojas de horas y horas , y el usuario que inicia sesión en la tarea selecciona una función diferente para asociarla a esta hora, la tarea Costo real de una función por hora calcula en función de la función especificada cuando se registraron las horas. Para obtener información sobre cómo habilitar el tiempo de registro para una función de trabajo específica, consulte el artículo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configuración de las preferencias de horas y horas</a>.</p> </p> </td> 
+   <td> <p>Rol por hora</p> </td>
+   <td> <p><strong>Costo planificado</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>donde el costo de mano de obra planificado para la tarea se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de las horas planificadas en función del porcentaje de la tarea asignada a cada recurso. <span class="preview">Además, la tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</span></p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>donde el costo de mano de obra real de la tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por ejemplo, una tarea se asigna a un rol o a un usuario con un rol para el cual la tasa de costo por hora es de $20. Cuando un usuario registra 5 horas para una tarea, el costo de mano de obra real es de 100 $ para esa tarea. Si el usuario asignado a la tarea no tiene una función de trabajo asociada a él en la tarea, el coste real se calcula según la tasa de coste por hora de su rol principal. Si no tienen un rol o la tasa de costo por hora de su rol no está definida, el costo real de la tarea es cero. </p> <p>Nota:   <p> La tarea Horas reales de un rol por hora se calcula en función de los roles de los usuarios asociados con la tarea, no en función de los roles asociados con el usuario que está registrando la hora. <span class="preview">Además, la tarifa por hora de facturación en la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p> <p>Si el administrador de Workfront ha activado la <strong>Asignar roles a entradas de horas manualmente</strong> Cuando se establece en el área Preferencias de horas y hojas de horas, y el usuario registra el tiempo de la tarea y selecciona una función diferente para asociarla a esta hora, la tarea por horas Costo real de una función calcula según la función especificada cuando se registraron las horas. Para obtener información sobre cómo habilitar el registro del tiempo de un rol específico, consulte el artículo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferencias de horas y hojas de horas</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fijo por hora</p> </td> 
-   <td> <p><strong>Coste planificado</strong> se calcula mediante la fórmula siguiente:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Donde el Coste de Trabajo de Tareas se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Fixed Hourly Cost of the Task</code> </p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Task Labor Cost + Task Planned Expense Cost</code> </p> <p>Donde el Coste de Trabajo de Tarea Real se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Fixed Hourly Cost of the Task</code> </p> <p>Este tipo de coste no tiene en cuenta usuarios individuales ni funciones de trabajo.</p> </td> 
+   <td> <p><strong>Costo planificado</strong> se calcula mediante la fórmula siguiente:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>donde el costo de mano de obra de la tarea se calcula por:</p> <p><code>Task Planned Labor Cost = Planned Hours * Fixed Hourly Cost of the Task</code> </p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Task Labor Cost + Task Planned Expense Cost</code> </p> <p>Donde el costo de mano de obra de la tarea real se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Fixed Hourly Cost of the Task</code> </p> <p>Este tipo de coste no tiene en cuenta los usuarios individuales ni las funciones del puesto.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Sin costo</p> </td> 
-   <td> <p>Este tipo de coste no afecta a los costes. Si una tarea principal tiene este Tipo de Coste, las subtareas con otro Tipo de Coste calculan según sus Tipos de Coste individuales y el Coste de la tarea principal se ve afectado en consecuencia. </p> <p>Cuando un usuario sin acceso a datos financieros o un usuario sin permisos financieros en una plantilla crea un proyecto a partir de esa plantilla, este es el tipo de coste predeterminado para las tareas del proyecto.</p> <p>Para obtener información sobre el acceso a los datos financieros, consulte el artículo <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concesión de acceso a datos financieros</a>.</p> <p>Para obtener información sobre los permisos financieros en objetos, consulte el artículo <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartir permisos financieros en un objeto</a>.</p> <p>Para obtener información sobre la creación de proyectos a partir de plantillas, consulte el artículo <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Creación de un proyecto mediante una plantilla</a>.</p> </td> 
+   <td> <p>Este tipo de coste no afecta a los costes. Si una tarea principal tiene este tipo de costo, las subtareas con otro tipo de costo calculan según sus tipos de costo individuales y el costo de la tarea principal se ve afectado en consecuencia. </p> <p>Cuando un usuario sin acceso a datos financieros o un usuario sin permisos financieros en una plantilla crea un proyecto a partir de esa plantilla, este es el tipo de coste predeterminado para las tareas del proyecto.</p> <p>Para obtener información sobre el acceso a los datos financieros, consulte el artículo <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concesión de acceso a los datos financieros</a>.</p> <p>Para obtener información sobre los permisos financieros en objetos, consulte el artículo <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartir permisos financieros en un objeto</a>.</p> <p>Para obtener información sobre la creación de proyectos a partir de plantillas, consulte el artículo <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Creación de un proyecto con una plantilla</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,16 +225,16 @@ La siguiente tabla describe la tarea disponible Tipos de costo en Workfront:
 </div>
 -->
 
-## Cómo realiza Workfront el seguimiento de los costes de los problemas {#how-workfront-tracks-costs-for-issues}
+## Cómo Workfront rastrea los costes de los problemas {#how-workfront-tracks-costs-for-issues}
 
-Los problemas no tienen ni afectan a los siguientes tipos de costes en un proyecto:
+Los problemas no tienen los siguientes tipos de costos en un proyecto y no los afectan:
 
 * Costo planificado
 * Costo presupuestado
 
 Sin embargo, los problemas pueden tener un **Costo real** que también afecta al coste real del proyecto.
 
-La siguiente tabla explica cómo se calcula el costo real para los problemas, según el tipo de asignación en el problema:
+En la tabla siguiente se explica cómo se calcula el costo real de los problemas, según el tipo de asignación del problema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -250,15 +247,15 @@ La siguiente tabla explica cómo se calcula el costo real para los problemas, se
  <tbody> 
   <tr> 
    <td> <p>Asignación de usuarios</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>La tasa de coste por hora del usuario que está registrando la hora se tiene en cuenta aquí, independientemente de quién esté asignado al problema. </p> <p>Si el usuario que registra la hora no tiene una tasa de costo por hora en su perfil, la tasa Costo por hora de su rol de trabajo principal calcula el costo real del problema. Si el usuario que está registrando la hora no tiene ninguna función en su perfil o ninguna tasa asociada a él, las horas reales se calculan utilizando la tasa Costo por hora de la función de trabajo principal del usuario asignado principal en el problema. Si esa función no tiene ninguna tasa definida, el costo real del problema es cero. </p> </td> 
+   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>La tasa de costo por hora del usuario que registra la hora se tiene en cuenta aquí, independientemente de quién esté asignado al problema. </p> <p>Si el usuario que registra el tiempo no tiene una tasa de costo por hora en su perfil, la tasa de costo por hora de su rol principal calcula el costo real del problema. Si el usuario que registra la hora no tiene ninguna función en su perfil o no tiene ninguna tasa asociada a él, las horas reales se calculan utilizando la tasa de coste por hora de la función de trabajo principal de la persona asignada principal en el problema. Si esa función no tiene definida ninguna tasa, el costo real del problema es cero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Asignación de funciones</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>La tasa de coste por hora del usuario que registra el tiempo del problema se tiene en cuenta aquí, independientemente de la función que se asigne al problema. </p> <p>Si el usuario que registra la hora no tiene asociada una tasa de costo por hora, la tasa de costo por hora de su función principal calcula el costo real del problema.<br>Si el usuario que está registrando la hora no tiene ninguna función en su perfil o ninguna tasa asociada a él, el coste real del problema es cero. </p> </td> 
+   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>La tasa de costo por hora del usuario que registra el tiempo en el problema se tiene en cuenta aquí, independientemente de la función que se asigne al problema. </p> <p>Si el usuario que registra el tiempo no tiene asociada una tasa de costo por hora, la tasa de costo por hora de su rol principal calcula el costo real del problema.<br>Si el usuario que registra la hora no tiene ninguna función en su perfil o no tiene ninguna tasa asociada, el coste real del problema es cero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Sin asignación</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Si el usuario que registra la hora no tiene una tasa de costo por hora asociada con su perfil, la tasa Costo por hora de su rol de trabajo principal calcula el costo real del problema. </p> <p>Si el usuario que está registrando la hora no tiene ninguna función de trabajo asociada con su perfil o su función de trabajo principal no tiene definida una tasa de coste por hora, el coste real del problema es cero. </p> </td> 
+   <td colspan="3"> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Si el usuario que registra el tiempo no tiene una tasa de costo por hora asociada a su perfil, la tasa de costo por hora de su rol principal calcula el costo real del problema. </p> <p>Si el usuario que registra el tiempo no tiene ninguna función de trabajo asociada a su perfil o la función de trabajo principal no tiene definida una tasa de coste por hora, el coste real del problema es cero. </p> </td> 
   </tr> 
   <!--<tr data-mc-conditions=""> 
    <td colspan="4"> 

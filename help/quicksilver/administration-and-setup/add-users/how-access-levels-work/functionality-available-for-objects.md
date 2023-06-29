@@ -4,24 +4,26 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Funcionalidad disponible para cada tipo de objeto para nuevos niveles de acceso
-description: En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
+title: Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso
+description: En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1253'
 ht-degree: 12%
 
 ---
 
-# Funcionalidad disponible para cada tipo de objeto para nuevos niveles de acceso
+# Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso
 
-En las tablas siguientes se muestra la funcionalidad disponible para cada tipo de objeto en los distintos niveles de acceso.
+{{highlighted-preview}}
 
-También indica las acciones que los administradores de Workfront pueden deshabilitar o habilitar mediante un nivel de acceso.
+En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
+
+También indica qué acciones pueden deshabilitar o habilitar los administradores de Workfront mediante un nivel de acceso.
 
 ## Proyectos
 
@@ -36,25 +38,25 @@ También indica las acciones que los administradores de Workfront pueden deshabi
 | Agregar un formulario personalizado | ✓ |   |   |   |
 | Actualizar campos personalizados | ✓ |   |   |   |
 | Agregar un proceso de aprobación | ✓ |   |   |   |
-| Aprobar un proyecto | ✓ | ✓ |   |   |
+| Aprobación de un proyecto | ✓ | ✓ |   |   |
 | Agregar documento | ✓ | ✓ |   |   |
-| Añadir problema | ✓ | ✓ |   |   |
+| Agregar problema | ✓ | ✓ |   |   |
 | Añadir  tareas | ✓ |   |   |   |
-| Enviar actualizaciones/comentarios | ✓ | ✓ |   |   |
+| Proporcionar actualizaciones/comentarios | ✓ | ✓ |   |   |
 | Cambiar estado | ✓ |   |   |   |
-| Horas de registro | ✓ | ✓ |   |   |
+| Registrar horas | ✓ | ✓ |   |   |
 | Editar asignaciones | ✓ |   |   |   |
-| Administrar una línea de base | ✓ |   |   |   |
-| Gestión de riesgos | ✓ |   |   |   |
+| Administrar una línea base | ✓ |   |   |   |
+| Administrar riesgos | ✓ |   |   |   |
 | Administrar finanzas | ✓ |   |   |   |
-| Añadir/editar gastos | ✓ |   |   |   |
+| Agregar o editar gastos | ✓ |   |   |   |
 | Adjuntar plantillas | ✓ |   |   |   |
 | Guardar como plantilla | ✓ |   |   |   |
 | Agregar o editar un caso empresarial | ✓ |   |   |   |
 | Editar detalles del proyecto | ✓ |   |   |   |
 | Editar plantilla | ✓ |   |   |   |
 | Exportar a MS Project | ✓ | ✓ |   |   |
-| Volver a calcular finanzas/cronograma | ✓ |   |   |   |
+| Recalcular finanzas/cronología | ✓ |   |   |   |
 | Establecer propiedades de cola | ✓ |   |   |   |
 
 {style="table-layout:auto"}
@@ -70,22 +72,22 @@ También indica las acciones que los administradores de Workfront pueden deshabi
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
 | Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Agregar predecesores | ✓ |   |   |   |
+| Agregar predecesoras | ✓ |   |   |   |
 | Añadir  problemas | ✓ | ✓ |   |   |
-| Editar una tarea (sin estado) | ✓ |   |   |   |
-| Cambiar el estado de una tarea | ✓ |   |   |   |
+| Editar una tarea (excluido el estado) | ✓ |   |   |   |
+| Cambiar estado de tarea | ✓ |   |   |   |
 | Agregar documentos | ✓ | ✓ |   |   |
 | Copiar una tarea | ✓ |   |   |   |
 | Mover una tarea | ✓ |   |   |   |
-| Horas de registro | ✓ | ✓ |   |   |
+| Registrar horas | ✓ | ✓ |   |   |
 | Aceptar una asignación | ✓ |   |   |   |
-| Realizar una asignación | ✓ | ✓ |   |   |
+| Realización de una asignación | ✓ | ✓ |   |   |
 | Adjuntar un formulario personalizado | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
 | Creación de un proceso de aprobación | ✓ |   |   |   |
 | Aprobar una tarea | ✓ | ✓ |   |   |
 | Editar finanzas | ✓ |   |   |   |
-| Añadir/editar gastos | ✓ |   |   |   |
+| Agregar o editar gastos | ✓ |   |   |   |
 | Ver finanzas | ✓ | ✓ |   |   |
 | Añadir actualizaciones/comentarios | ✓ | ✓ |   |   |
 
@@ -110,12 +112,12 @@ También indica las acciones que los administradores de Workfront pueden deshabi
 | Agregar documentos | ✓ | ✓ | ✓ |   |
 | Copiar problemas | ✓ | ✓ | ✓ |   |
 | Mover problemas | ✓ | ✓ | ✓ |   |
-| Horas de registro | ✓ |   |   |   |
-| Convertir un problema en un proyecto | ✓ |   |   |   |
-| Convertir un problema en una tarea a | ✓ |   |   |   |
+| Registrar horas | ✓ |   |   |   |
+| Conversión de un problema en un proyecto | ✓ |   |   |   |
+| Convertir un problema en una tarea | ✓ |   |   |   |
 | Aceptar asignaciones | ✓ |   |   |   |
 | Realización de asignaciones | ✓ |   |   |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
+| Agregar actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
@@ -123,7 +125,7 @@ También indica las acciones que los administradores de Workfront pueden deshabi
 
 ## Portafolios
 
-Solo los usuarios con una licencia Standard pueden tener acceso completo a los portafolios.
+Solo los usuarios con una licencia Standard pueden tener acceso completo a las carteras.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |--------------------------|----------|--------|-------------|---------------|
@@ -135,11 +137,11 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los p
 | Editar detalles | ✓ |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
-| Agregar y eliminar proyectos | ✓ |   |   |   |
+| Agregar y quitar proyectos | ✓ |   |   |   |
 | Aprobar proyectos | ✓ |   |   |   |
-| Optimización del Portfolio | ✓ |   |   |   |
+| optimización del Portfolio | ✓ |   |   |   |
 | Agregar documentos | ✓ | ✓ |   |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ |   |   |
+| Agregar actualizaciones y comentarios | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -159,11 +161,11 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los p
 | Editar detalles | ✓ |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
-| Agregar y eliminar proyectos | ✓ |   |   |   |
+| Agregar y quitar proyectos | ✓ |   |   |   |
 | Aprobar proyectos | ✓ |   |   |   |
 | Optimización de portafolio | ✓ |   |   |   |
 | Agregar documentos | ✓ | ✓ |   |   |
-| Agregar actualizaciones y comentarios | ✓ | ✓ |   |   |
+| Agregar Agregar actualizaciones y comentarios | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -171,7 +173,7 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los p
 
 ## Informes, tableros y calendarios
 
-Los usuarios con una licencia estándar pueden tener acceso completo a los informes. Todos los demás niveles de acceso tienen acceso de vista a los informes.
+Los usuarios con una licencia estándar pueden tener acceso completo a los informes. Todos los demás niveles de acceso tienen acceso de visualización a los informes.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |--------------------------------------|----------|--------|-------------|---------------|
@@ -213,28 +215,28 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |--------------------------------|----------|--------|-------------|---------------|
 | Crear | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Eliminación (documentos y carpetas) | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Eliminar (documentos y carpetas) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir públicamente (externamente) | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
 | Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar detalles | ✓ | ✓ | ✓ |   |
 | Descargar | ✓ | ✓ | ✓ | ✓ |
-| Cierre de compra | ✓ | ✓ | ✓ |   |
-| Agregar aprobadores | ✓ | ✓ | ✓ |   |
+| Finalizar compra | ✓ | ✓ | ✓ |   |
+| Añadir aprobadores | ✓ | ✓ | ✓ |   |
 | Aprobar documentos | ✓ | ✓ | ✓ | ✓ |
 | Adjuntar formularios personalizados | ✓ | ✓ | ✓ |   |
 | Editar campos personalizados | ✓ | ✓ | ✓ |   |
 | Mover a (objeto) | ✓ | ✓ | ✓ |   |
 | Enviar a (integración) | ✓ | ✓ | ✓ |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
+| Agregar actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
 | Cargar nueva versión | ✓ | ✓ | ✓ |   |
 | Eliminar una versión | ✓ | ✓ | ✓ |   |
 | Vista previa | ✓ | ✓ | ✓ | ✓ |
 |  Proof | ✓ | ✓ | ✓ | ✓ |
-| Generar prueba | ✓ |   |   |   |
-| Eliminar prueba | ✓ | ✓ | ✓ |   |
-| Agregar/eliminar&#42;&#42; | ✓ | ✓ | ✓ |   |
+| Generar revisión | ✓ |   |   |   |
+| Eliminar revisión | ✓ | ✓ | ✓ |   |
+| Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Cambiar nombre&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Vínculo (con integración) | ✓ | ✓ | ✓ |   |
 | Desvincular (con integración) | ✓ | ✓ | ✓ |   |
@@ -250,7 +252,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Crear | ✓* |   |   |   |
 | Eliminar | ✓* |   |   |   |
 | Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario | ✓* |   |   |   |
-| Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario de un grupo que administre | ✓* |   |   |   |
+| Edite, elimine, desactive, inicie sesión como o restablezca la contraseña de cualquier usuario de un grupo que administre | ✓* |   |   |   |
 | Ver usuarios | ✓ | ✓ | ✓ |   |
 | Ver información de contacto | ✓ | ✓ | ✓ |   |
 
@@ -266,8 +268,8 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Crear | ✓* |   |   |   |
 | Eliminar | ✓* |   |   |   |
-| Editar equipos en los que se encuentran | ✓* |   |   |   |
-| Editar equipos en grupos que administran | ✓* |   |   |   |
+| Editar los equipos en los que están | ✓* |   |   |   |
+| Editar los equipos de los grupos que administran | ✓* |   |   |   |
 | Ver todos los equipos | ✓ | ✓ | ✓ |   |
 | Ver equipos asociados a sus grupos | ✓ | ✓ | ✓ |   |
 
@@ -297,18 +299,19 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los d
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Editar facturación de funciones y tasas de coste | ✓&#42; |   |   |   |
-| Editar la facturación y las tasas de coste de los usuarios | ✓&#42; |   |   |   |
-| Ver facturación de funciones y tasas de coste | ✓&#42; |   |   |   |
-| Ver la facturación y las tasas de coste de los usuarios | ✓&#42; |   |   |   |
+| Editar tarifas de facturación y de costo de rol | ✓&#42; |   |   |   |
+| Editar tarifas de facturación y de costo de usuario | ✓&#42; |   |   |   |
+| Ver tarifas de facturación y de costo de rol | ✓&#42; |   |   |   |
+| Ver tarifas de facturación y de costo de usuario | ✓&#42; |   |   |   |
 | Administrar registros de facturación | ✓ |   |   |   |
 | Administrar gastos | ✓ |   |   |   |
 | Ver datos financieros | ✓&#42; | ✓&#42; |   |   |
+| <span class="preview">Administrar tarjetas de tarifa</span> | ✓ |   |   |   |
 | Ver información por costo en las herramientas de planificación de recursos | ✓ |   |   |   |
-| Recursos presupuestarios en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
+| Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
 | Ver la asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ |   |   |
-| Crear riesgos en proyectos | ✓ |   |   |   |
-| Ver riesgos en proyectos | ✓ | ✓ |   |   |
+| Crear riesgos en los proyectos | ✓ |   |   |   |
+| Ver riesgos en los proyectos | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -316,69 +319,69 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los d
 
 ## Administración de recursos
 
-Solo los usuarios con una licencia Standard pueden tener acceso completo a la administración de recursos. Otros tipos de licencia pueden tener acceso limitado o no disponible a Resource Management en Workfront.
+Solo los usuarios con una licencia estándar pueden tener acceso completo a la administración de recursos. Otros tipos de licencia pueden tener acceso limitado o nulo a la administración de recursos en Workfront.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar prioridades y horas presupuestadas en el Planificador | ✓&#42; |   |   |   |
-| Crear, editar y eliminar grupos de recursos&#42;&#42; | ✓&#42; |   |   |   |
+| Crear, editar y eliminar conjuntos de recursos&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
-| Ver las prioridades del proyecto en el planificador de recursos | ✓&#42; |   |   |   |
+| Ver las prioridades del proyecto en el Planificador de recursos | ✓&#42; |   |   |   |
 | Ver la asignación de recursos en las herramientas de planificación de recursos | ✓&#42; | ✓&#42; |   |   |
-| Ver grupos de recursos | ✓&#42; | ✓&#42; |   |   |
-| Recursos presupuestarios en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
-| Adjuntar grupos de recursos a proyectos, plantillas y usuarios | ✓ |   |   |   |
+| Ver conjuntos de recursos | ✓&#42; | ✓&#42; |   |   |
+| Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
+| Adjuntar conjuntos de recursos a proyectos, plantillas y usuarios | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
 
-&#42;&#42;Requiere acceso adicional a Datos financieros y permisos para las finanzas de los proyectos. Si concede acceso a la Administración de Recursos a un usuario de Planificador que no tenga acceso a Datos Financieros, el usuario podrá seguir viendo las asignaciones por hora en el Planificador de Recursos, pero no podrá cambiar a la vista Costes ni ver el Caso de Negocio. Para obtener más información, consulte [Concesión de acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requiere acceso adicional a datos financieros y permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario de Planificador que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso comercial. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requiere permiso para contribuir al objeto, con la opción para que las asignaciones estén habilitadas en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre cómo compartir permisos en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requiere permiso para contribuir al objeto, con la opción Asignar asignaciones habilitada en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Área de Planificador de escenario
+## Área del planificador de escenarios
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Crear/editar planes e iniciativas existentes | ✓ | ✓ |   |   |
-| Agregar o editar información de funciones de trabajo en planes e iniciativas&#42; | ✓ | ✓ |   |   |
-| Agregar o editar información de costo sobre planes e iniciativas&#42; | ✓ | ✓ |   |   |
+| Adición o edición de información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ |   |   |
+| Agregar o editar información de costos sobre planes e iniciativas&#42; | ✓ | ✓ |   |   |
 | Eliminar planes e iniciativas | ✓ | ✓ |   |   |
 | Ver escenarios en el menú principal | ✓ | ✓ |   |   |
-| Ver planes e iniciativas que el usuario creó&#42; | ✓ | ✓ |   |   |
+| Ver los planes e iniciativas que ha creado el usuario&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Los usuarios pueden ver un plan que otro usuario creó solo si se comparte con ellos un vínculo al plan.
+>Los usuarios pueden ver un plan que otro usuario haya creado solamente si se comparte con ellos un vínculo al plan.
 
-&#42; Para que los usuarios puedan ver los datos financieros en un plan o iniciativa, necesitan acceder a los Datos Financieros. Para obtener más información, consulte [Concesión de acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Para que los usuarios puedan ver los datos financieros en un plan o iniciativa, necesitan tener acceso a los Datos financieros. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Área de objetivos de Workfront
+## Área Objetivos de Workfront
 
 <!-- ask Alina about this section -->
 
 | Acciones | Vista | Editar |
 |---|---|---|
 | Crear |   | ✓ |
-| Editar / eliminar todos los objetivos |   | ✓ |
-| Ver objetivos en el menú principal | ✓ | ✓ |
-| Ver el área de objetivos desde un vínculo compartido | ✓ | ✓ |
-| Ver todos los objetivos del sistema | ✓ | ✓ |
-| Activar/desactivar/cerrar todos los objetivos |   | ✓ |
+| Editar/eliminar todas las metas |   | ✓ |
+| Ver metas en el menú principal | ✓ | ✓ |
+| Ver el área Objetivos desde un vínculo compartido | ✓ | ✓ |
+| Ver todas las metas del sistema | ✓ | ✓ |
+| Activar/ desactivar/ cerrar todas las metas |   | ✓ |
 | Crear/editar/eliminar actividades |   | ✓ |
 | Crear/editar/eliminar resultados |   | ✓ |
-| Agregar un objetivo alineado |   | ✓ |
-| Actualizar el progreso de un resultado o actividad |   | ✓ |
-| Propietario de un objetivo, resultado o actividad | ✓ | ✓ |
-| Comentar en un objetivo | ✓ | ✓ |
-| Copiar objetivos |   | ✓ |
-| Ver la sección Lista de objetivos en el panel izquierdo | ✓ | ✓ |
-| Ver la sección Gráficos en el panel izquierdo | ✓ | ✓ |
-| Ver la sección Alineación de objetivo en el panel izquierdo | ✓ | ✓ |
-| Ver la sección Pulso en el panel izquierdo | ✓ | ✓ |
-| Ver el área Registro en el panel izquierdo |   | ✓ |
-| Ver el área Configuración en el panel izquierdo | ✓ | ✓ |
-| Imprimir una lista de objetivos | ✓ | ✓ |
+| Añadir una meta alineada |   | ✓ |
+| Actualización del progreso de un resultado o una actividad |   | ✓ |
+| Poseer un objetivo, resultado o actividad | ✓ | ✓ |
+| Comentario sobre una meta | ✓ | ✓ |
+| Copiar metas |   | ✓ |
+| Vea la sección Lista de metas en el panel izquierdo | ✓ | ✓ |
+| Vea la sección Gráficos en el panel izquierdo | ✓ | ✓ |
+| Vea la sección Alineación de objetivos en el panel izquierdo | ✓ | ✓ |
+| Vea la sección Impulso en el panel izquierdo | ✓ | ✓ |
+| Vea el área de protección en el panel izquierdo |   | ✓ |
+| Vea el área Configuración en el panel izquierdo | ✓ | ✓ |
+| Imprimir una lista de metas | ✓ | ✓ |

@@ -1,34 +1,35 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Asignación de tareas
-description: Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a más de un recurso a la vez.
+title: Asignar tareas
+description: Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
 
-# Asignación de tareas
+# Asignar tareas
 
-Puede asignar tareas a usuarios, funciones de trabajo o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a más de un recurso a la vez.
+{{highlighted-preview}}
+
+Puede asignar tareas a usuarios, roles o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
 >[!TIP]
 >
->Puede asignar varios usuarios, funciones de trabajo o equipos. Solo puede asignar usuarios activos, funciones de trabajo y equipos.
+>Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
 >
->Si se asignó un usuario, una función de trabajo o un equipo antes de desactivarlos, se asignarán al elemento de trabajo. En este caso, se recomienda lo siguiente:
+>Si se asignó un usuario, un rol o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
 >
->* Reasigne el elemento de trabajo a los recursos activos.
->* Asocie a los usuarios de un equipo desactivado con un equipo activo y reasigne el elemento de trabajo al equipo activo.
+>* Reasignar el elemento de trabajo a los recursos activos.
+>* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 >
 
-
-El número de usuarios asignados a una tarea y la programación de la tarea El propietario puede modificar las fechas planificadas de una tarea, lo que supone cambiar la cronología del proyecto. Para obtener información sobre el impacto de asignar varios usuarios a una tarea, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+El número de usuarios asignados a una tarea y la programación de la tarea El propietario puede modificar las fechas planificadas de una tarea, lo que resulta en cambiar la cronología del proyecto. Para obtener información sobre el impacto de asignar varios usuarios a una tarea, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 Además de este artículo, le recomendamos que lea los siguientes artículos para obtener más información sobre la asignación de tareas:
 
@@ -38,11 +39,11 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 * [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [Información general sobre el plan de un proyecto](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [Descripción general de la tarea Fecha de finalización planificada](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Establecer la fecha de finalización prevista del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Información general sobre la planificación de un proyecto](../../../manage-work/projects/planning-a-project/plan-project.md)
+* [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Establecer la fecha planificada de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acceso
 
@@ -85,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -94,52 +95,52 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos y tareas</p> <p>Ver o acceso superior a Usuarios</p> <p><b>NOTA</b>
+   <td> <p>Editar acceso a Proyectos y tareas</p> <p>Acceso de visualización o superior a los usuarios</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Contribute o permisos superiores para tareas</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Aportar o permisos superiores a las tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Consideraciones para varias asignaciones a funciones de trabajo, equipos y usuarios
+## Consideraciones para varias asignaciones a roles de trabajo, equipos y usuarios
 
 Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo:
 
-* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre cómo asociar usuarios con funciones de trabajo, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre la asociación de usuarios con funciones del puesto, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Si asigna más de un usuario a una tarea o problema, el primer usuario que seleccione se designa automáticamente como propietario de la tarea o problema.
+* Si asigna más de un usuario a una tarea o un problema, el primer usuario que seleccione se designa automáticamente como el propietario de la tarea o el problema.
 Para obtener instrucciones sobre cómo cambiar esto, consulte la información sobre la opción Convertir en principal en el artículo [Crear asignaciones avanzadas](create-advanced-assignments.md).
 
-* Un equipo no puede ser un usuario asignado principal en una tarea o problema. Solo se puede designar un usuario o una función de trabajo como Principal en una tarea o problema.
+* Un equipo no puede ser un usuario asignado principal de una tarea o un problema. Solo se puede designar a un usuario o un rol como principal en una tarea o un problema.
 
 <!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
 You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
-* Las tareas y los problemas de un proyecto se pueden asignar primero a uno o varios equipos o funciones de trabajo. Cuando el proyecto esté listo para iniciarse, es posible que también tenga que asignarse a los usuarios:
+* Las tareas y los problemas de un proyecto pueden asignarse primero a uno o varios equipos o roles. Cuando el proyecto esté listo para iniciarse, es posible que también deban asignarse a los usuarios:
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
   <tr>
    <td>Equipos</td>
-   <td>Si asigna una tarea a un equipo y también asigna un usuario, la tarea permanece asignada al equipo y al usuario, aunque el usuario no sea miembro del equipo.</td>
+   <td>Si asigna una tarea a un equipo y también asigna un usuario, la tarea permanece asignada al equipo y al usuario, incluso si el usuario no es miembro del equipo.</td>
   </tr>
   <tr>
    <td>Roles</td>
-   <td><p>Si asigna una tarea o un problema a una o varias funciones y, a continuación, también asigna un usuario, decide qué rol de trabajo se asociará al usuario adicional (si lo hay) según las siguientes reglas:</p>
+   <td><p>Si asigna una tarea o un problema a una o varias funciones y, a continuación, también asigna un usuario, decide qué función de trabajo asociar al usuario adicional (si corresponde) según las siguientes reglas:</p>
      <ul>
-      <li>Si solo hay una función de trabajo asignada y coincide con la función principal del usuario (configurada en su perfil), la tarea o el problema solo se asigna a ese usuario.</li>
-      <li>Si se asignan varias funciones y al menos una de ellas coincide con las demás funciones del usuario, la tarea o el problema se asignan al usuario (la función se selecciona aleatoriamente si hay varias coincidencias), junto con las funciones adicionales que se asignen</li>
-      <li>Si se asigna al menos una función de trabajo y no hay coincidencias con las funciones de trabajo del usuario, la tarea o el problema se asignan tanto a la función o las funciones como al usuario.</li>
+      <li>Si solo hay una función de trabajo asignada y coincide con la función principal del usuario (configurada en su perfil), la tarea o el problema se asignan únicamente a ese usuario.</li>
+      <li>Si se asignan varios roles y al menos uno de ellos coincide con uno de los otros roles del usuario, la tarea o el problema se asignan al usuario (el rol se selecciona aleatoriamente si hay varias coincidencias), junto con cualquier rol adicional asignado</li>
+      <li>Si hay al menos una función asignada y no coinciden las funciones del usuario, la tarea o el problema se asignan a la función o las funciones y al usuario.</li>
      </ul>
-   <p>Para obtener información sobre la función principal y otras funciones de un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a>.</p>
+   <p>Para obtener información sobre la función principal de un usuario y otras funciones, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -162,70 +163,73 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Asignar una sola tarea
 
 1. Vaya a la tarea que desee asignar.
-1. Haga clic en **Asignar a** en el **Asignaciones** en el encabezado de la tarea o problema.
+1. Clic **Asignar a** en el **Asignaciones** en el encabezado de la tarea o el problema.
 
    O
 
-   Haga clic en el nombre de las asignaciones si la tarea o el problema ya están asignados.
+   Haga clic en el nombre de las asignaciones si la tarea o el problema ya está asignado.
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Realice una de las siguientes acciones:
 
-   * Comience a escribir el nombre de un usuario, función o equipo que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Comience a escribir el nombre del usuario, rol o equipo que desea asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
 
-      >[!TIP]
-      >
-      >Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función de trabajo para verla a medida que los agrega.
+     >[!TIP]
+     >
+     >Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+     >
+     ><span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione el sistema/rol predeterminado para utilizar la tarifa de facturación predeterminada para la asignación o seleccione un rol de tarjeta de tarifas para utilizar la tarifa de facturación de la tarjeta de tarifas. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Haga clic en uno de los nombres de la sección **Asignaciones sugeridas** , si se muestra esta lista. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Haga clic en uno de los nombres de la **Asignaciones sugeridas** , si se muestra esta lista. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-   * Haga clic en **Avanzadas**
+   * Clic **Avanzadas**
 
-      Para obtener información sobre cómo realizar asignaciones avanzadas, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Para obtener información sobre cómo realizar asignaciones avanzadas, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Haga clic en **Guardar**.
-1. (Opcional y condicional) Haga clic en el botón **Icono X** junto al nombre de la asignación en el panel derecho de la tarea para quitar una asignación, si ha hecho clic en **Avanzadas**.
+1. (Opcional y condicional) Haga clic en **Icono X** situado junto al nombre de la asignación en el panel derecho de la tarea para quitar una asignación, si ha hecho clic en **Avanzadas**.
 
 ## Asignar una tarea a una lista
 
-Puede asignar tareas en una lista o un informe cuando cualquiera de los campos de asignaciones esté visible en la vista de la lista. Esta es una forma más rápida de asignar tareas. Este artículo describe cómo modificar asignaciones para una tarea de una lista. Para obtener información sobre la modificación de varias asignaciones para varias tareas de una lista, consulte [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Puede asignar tareas en una lista o un informe cuando cualquiera de los campos de asignación esté visible en la vista de la lista. Es una forma más rápida de asignar tareas. Este artículo describe cómo modificar asignaciones para una tarea de una lista. Para obtener información sobre cómo modificar varias asignaciones para varias tareas de una lista, consulte [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-Según el campo visible en la vista, puede asignar las siguientes entidades a la tarea:
+Según el campo que esté visible en la vista, puede asignar las siguientes entidades a la tarea:
 
 | Campo | Entidades asignadas |
 |---|---|
 | **Asignar a** | Asignar un usuario |
 | **Asignado** | Asignar un usuario |
-| **Asignaciones** | Asignar usuarios, funciones de trabajo o equipos |
+| **Asignaciones** | Asignar usuarios, roles o equipos |
 
 Para asignar tareas en una lista:
 
 1. Vaya a una lista de tareas que tenga los campos Asignado a, Asignado o Asignaciones en la vista.
-1. (Opcional) Haga clic en el **Autoguardar** menú desplegable y seleccione entre las siguientes opciones:
+1. (Opcional) Haga clic en **Autoguardar** y seleccione una de las siguientes opciones:
 
-   | Opción | Descripción de la opción |
+   | Opción | Descripción de opción |
    |---|---| 
-   | Autoguardar | Los cambios realizados en las tareas se guardan automáticamente y no se pueden revertir |
+   | Autoguardar | Los cambios que realice en las tareas se guardan automáticamente y no puede revertirlos |
    | Guardado manual | Debe guardar manualmente los cambios. Puede revertir los cambios antes de guardarlos. |
-   | Planificación de calendario | Debe guardar manualmente los cambios. Puede revertir los cambios antes de guardarlos. Guardar los cambios y todas las dependencias del proyecto es más rápido que seleccionar Guardar manualmente. |
+   | Planificación de calendario | Debe guardar manualmente los cambios. Puede revertir los cambios antes de guardarlos. Guardar los cambios y todas las dependencias del proyecto es más rápido que al seleccionar Guardar de forma manual. |
 
-   Para obtener más información sobre cómo guardar tareas mientras las edita en una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   Para obtener más información sobre cómo guardar tareas a medida que las edita en una lista, consulte [Edición de tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Para asignar tareas, realice una de las siguientes acciones:
 
-   * Haga clic dentro del **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desea asignar a la tarea y, a continuación, haga clic en él cuando aparezca en la lista.
-   * Haga clic dentro del **Asignaciones** y empiece a escribir el nombre de un usuario, función de trabajo o equipo activo que desea asignar a la tarea y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Haga clic dentro de **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desee asignar a la tarea y, a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro de **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar a la tarea y, a continuación, haga clic en él cuando se muestre en la lista.
 
-      >[!TIP]
-      >Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función de trabajo para verla a medida que los agrega.
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+     >
+     ><span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione el sistema/rol predeterminado para utilizar la tarifa de facturación predeterminada para la asignación o seleccione un rol de tarjeta de tarifas para utilizar la tarifa de facturación de la tarjeta de tarifas. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
-1. (Condicional) Cuando esté visible en la variable **Asignaciones** , haga clic en el botón **People** en la esquina superior derecha del cuadro asignaciones para abrir **Asignaciones avanzadas** y cree asignaciones avanzadas.
+
+1. (Condicional) Cuando está visible en el **Asignaciones** , haga clic en el **People** en la esquina superior derecha del cuadro asignaciones para abrir el **Asignaciones avanzadas** y cree asignaciones avanzadas.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
@@ -234,49 +238,53 @@ Para asignar tareas en una lista:
    Para obtener más información, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   No se pueden realizar asignaciones avanzadas desde los campos Asignado a o Asignado .
+   >
+   >No puede realizar asignaciones avanzadas desde los campos Asignado a o Asignado.
 
-1. Después de agregar los usuarios asignados a la tarea, pulse Intro o haga clic en cualquier lugar de la página para guardar los cambios si ha seleccionado Guardar automáticamente. De lo contrario, haga clic en **Guardar**.
+1. Después de agregar los usuarios asignados a la tarea, pulse Intro o haga clic en cualquier lugar de la página para guardar los cambios si selecciona Guardar automáticamente. De lo contrario, haga clic en **Guardar**.
 
 ## Asignar varias tareas a un usuario
 
-1. Vaya a la lista de tareas que desea asignar de forma masiva.
-1. (Condicional) Asegúrese de que la variable **Autoguardar** está seleccionada si se encuentra en una lista de tareas de un proyecto.
+1. Vaya a una lista de tareas que desee asignar de forma masiva.
+1. (Condicional) Asegúrese de que la variable **Autoguardar** está seleccionada si está en una lista de tareas bajo un proyecto.
 
    >[!IMPORTANT]
-   No puede editar tareas de forma masiva al guardar tareas manualmente en un proyecto.
+   >
+   >No puede editar las tareas de forma masiva al guardar las tareas manualmente en un proyecto.
 
 1. Seleccione varias tareas en la lista de tareas.
-1. Haga clic en **Editar**.
+1. Clic **Editar**.
 
-   La variable **Editar tareas** se abre.
+   El **Editar tareas** se abre el cuadro de diálogo.
 
-1. En el **Asignaciones** seleccione el **Usuario asignado** , empiece a escribir el nombre de un usuario, función de trabajo o equipo que desee asignar a todas las tareas.
+1. En el **Asignaciones** , seleccione la **Asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todas las tareas.
 
    >[!IMPORTANT]
-   Si alguna de las tareas ya está asignada, los recursos que indique aquí se añaden a las tareas en lugar de reemplazar los recursos existentes en las tareas.
+   >
+   >Si alguna de las tareas ya está asignada, los recursos que indique aquí se agregan a las tareas en lugar de reemplazar los recursos existentes en las tareas.
 
-1. (Opcional) Seleccione el botón de opción en la **Propietario de la tarea** para indicar qué recurso es el usuario asignado principal o el propietario de la tarea, cuando asigna más de un recurso a la tarea. Esto no está disponible para equipos.
-1. (Condicional) Especifique la variable **Asignación %** para cada recurso asignado a la tarea si todas las tareas seleccionadas tienen un tipo de duración de esfuerzo determinado o asignación calculada. Esto indica cuánto tiempo deberían dedicar estos recursos a completar la tarea. Esto solo está disponible para usuarios y funciones de trabajo.
+1. (Opcional) Seleccione el botón de opción en la **Propietario de tarea** para indicar qué recurso es el principal asignado o el propietario de la tarea, cuando asigna más de un recurso a la tarea. Esto no está disponible para equipos.
+1. (Condicional) Especifique el **% de asignación** para cada recurso asignado a la tarea si todas las tareas seleccionadas tienen un tipo de duración de asignación por esfuerzo o calculada. Esto indica la cantidad de tiempo que estos recursos deben dedicar a completar la tarea. Esto solo está disponible para usuarios y funciones del puesto.
 
    O
 
-   Especifique la cantidad de **Horas** para cada recurso asignado a la tarea si todas las tareas seleccionadas tienen un Tipo de duración simple. El total de horas para todos los recursos debe ser igual al número de horas planificadas para la tarea.
+   Especifique la cantidad de **Horas** para cada recurso asignado a la tarea si todas las tareas seleccionadas tienen un tipo de duración sencillo. El total de todas las horas de todos los recursos debe ser igual al número de horas planificadas para la tarea.
 
    >[!IMPORTANT]
-   No puede especificar el porcentaje de asignación ni el número de horas por recurso si las tareas seleccionadas tienen diferentes tipos de duración o si las tareas seleccionadas tienen diferentes tipos de duración.
+   >
+   >No puede especificar el porcentaje de asignación ni el número de horas por recurso si las tareas seleccionadas tienen diferentes tipos de duración o si las tareas seleccionadas tienen diferentes tipos de duración.
 
    Para obtener información sobre el tipo de duración de las tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Opcional) Seleccione una función que el usuario deba cumplir en la tarea desde la **Elegir una función** menú desplegable en la **Función del usuario asignado** cuando asigne usuarios a tareas. Si no selecciona una función, Workfront selecciona automáticamente la función principal del usuario.
+1. (Opcional) Seleccione un rol que el usuario deba cumplir en la tarea desde el **Elegir un rol** menú desplegable en el **Rol de asignado** cuando asigna usuarios a tareas. Si no selecciona ninguna función, Workfront selecciona automáticamente la función principal del usuario.
 
-1. (Opcional) Si desea eliminar los asignadores existentes de todas las tareas, realice una de las siguientes acciones:
+1. (Opcional) Si desea quitar los usuarios asignados existentes de todas las tareas, realice una de las siguientes acciones:
 
-   1. Comience a escribir el nombre de un usuario, función o equipo que desee quitar de la tarea, selecciónelo cuando aparezca en la lista y haga clic en **Eliminar usuario asignado** para eliminar más usuarios asignados.
-   1. Haga clic en **Eliminar todos los asignados existentes** para quitar todos los usuarios asignados de todas las tareas seleccionadas.
+   1. Empiece a escribir el nombre del usuario, rol o equipo que desea quitar de la tarea, selecciónelo cuando aparezca en la lista y haga clic en **Quitar persona asignada** para eliminar más usuarios asignados.
+   1. Clic **Quitar todas las personas asignadas actualmente** para quitar todas las personas asignadas de todas las tareas seleccionadas.
 
-1. Haga clic en **Guardar cambios**.
-1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en la lista de tareas, haga clic dentro de una de estas columnas para una tarea y, a continuación, haga clic en el botón **Icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
+1. Clic **Guardar cambios**.
+1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en **Icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
