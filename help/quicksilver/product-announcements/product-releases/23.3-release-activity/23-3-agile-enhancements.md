@@ -3,9 +3,9 @@ title: 23.3 Mejoras de Agile
 description: 23.3 Mejoras de Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La vista Agile de un proyecto ahora incluye funcionalidad adicional para filtrar
 
 Mientras está en el tablero, puede optar por cambiar a la vista de Agile heredada.
 
-La documentación del proyecto actualizado Agile View estará disponible con su versión para previsualizarla.
+Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Ordenar por columnas del tablero
 

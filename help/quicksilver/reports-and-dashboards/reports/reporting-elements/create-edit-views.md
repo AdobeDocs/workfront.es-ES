@@ -6,14 +6,16 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Creación o edición de vistas en Adobe Workfront
+
+{{highlighted-preview}}
 
 Puede personalizar el tipo de información que se muestra en la pantalla mediante las vistas. Puede utilizar varios tipos de vistas en Adobe Workfront.
 
@@ -72,12 +74,12 @@ Puede crear una nueva vista estándar o personalizar una vista estándar existen
    * Ajuste el orden en que aparecen las columnas arrastrando el título de la columna a una nueva ubicación.
 
       * (Opcional) En el **Configuración de columna** , haga clic en el **Resumir esta columna por** y, a continuación, seleccione una de las opciones disponibles para resumir la información. Al elegir esta opción, la información de la columna se agrega a las agrupaciones del informe.\
-         Para los campos de fecha, puede resumir los valores mediante las siguientes opciones:
+        Para los campos de fecha, puede resumir los valores mediante las siguientes opciones:
 
          * Máximo
          * Mínimo
 
-         Para los campos de número y moneda, puede resumir los valores mediante las siguientes opciones:
+        Para los campos de número y moneda, puede resumir los valores mediante las siguientes opciones:
 
          * Cuenta
          * Suma
@@ -85,20 +87,21 @@ Puede crear una nueva vista estándar o personalizar una vista estándar existen
          * Máximo
          * Mínimo
 
-         >[!NOTE]
-         >
-         >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en agrupaciones:
-         >   
-         >   * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
-         >   * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
-         >   * Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes.
+        >[!NOTE]
+        >
+        >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en agrupaciones:
+        >   
+        >   * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
+        >   * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
+        >   * Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes.
+        >   
+        >
 
-
-         Para obtener más información sobre el uso de agrupaciones en un informe, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Para obtener más información sobre el uso de agrupaciones en un informe, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Opcional) Haga clic en **Opciones avanzadas** para especificar la siguiente información para la columna:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ Puede crear una nueva vista estándar o personalizar una vista estándar existen
          </tbody> 
         </table>
 
-         Para obtener más información sobre el formato condicional de vistas en los informes, consulte el artículo [Uso del formato condicional en el modo Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Para obtener más información sobre el formato condicional de vistas en los informes, consulte el artículo [Uso del formato condicional en el modo Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Condicional) Si hizo clic en **Opciones avanzadas**, haga clic en **Listo**.
 
@@ -147,14 +148,18 @@ Puede crear una nueva vista de Agile o personalizar una vista de Agile existente
 
 Para obtener más información sobre las vistas de Agile, consulte el artículo [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Este procedimiento solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
 
 Para crear o personalizar una vista de Agile:
 
 1. Ir a la lista de tareas de un proyecto.
-1. Haga clic en **Guión gráfico de Agile** icono ![](assets/agile-storyboard-nwe.png).
+1. Haga clic en **Guión gráfico de Agile** icono ![Icono de guión gráfico de Agile](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">O</span>
+
+   <span class="preview">Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png)y haga clic en **Usar Agile heredado** en la vista del tablero.</span>
 
 1. (Condicional) Para personalizar una vista de Agile existente:
 
@@ -239,7 +244,7 @@ Para crear o personalizar una vista de Agile:
 
    * Nombre de la historia con un vínculo directamente a la tarea
    * El nombre del proyecto con un vínculo directamente al proyecto\
-      Este vínculo solo se muestra cuando se utiliza la vista Agile en una iteración; no se muestra cuando se utiliza una vista Agile en un proyecto.
+     Este vínculo solo se muestra cuando se utiliza la vista Agile en una iteración; no se muestra cuando se utiliza una vista Agile en un proyecto.
    * Descripción de la tarea
    * Compromisos actuales
    * Vea y edite el porcentaje completado ajustando el porcentaje completado en sí o ajustando el número de puntos u horas que se han completado
