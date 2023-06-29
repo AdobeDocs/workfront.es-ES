@@ -6,16 +6,16 @@ description: Obtenga información sobre las áreas de Adobe Workfront en las que
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # Localizar solicitudes enviadas
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 Puede localizar los siguientes tipos de solicitudes que usted u otra persona ha enviado, o solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
@@ -62,7 +62,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 Para localizar solicitudes que usted u otros usuarios hayan enviado:
 
 1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Clic **Enviado** en el panel izquierdo para ver todas las solicitudes enviadas.
+1. Clic **Enviado** en el panel izquierdo para ver todas las solicitudes enviadas.
 
    Puede ver hasta 2000 solicitudes y es posible que se muestren en varias páginas.
 
@@ -70,44 +70,43 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado:
    >
    >No puede personalizar las columnas en la lista de solicitudes enviadas.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Las siguientes columnas se muestran de forma predeterminada:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>Nombre de la solicitud.</p> <p>Haga clic en el nombre de una solicitud para abrirla. </p> <p><b>SUGERENCIA</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Nombre</td> 
+         <td> <p>Nombre de la solicitud.</p> <p>Haga clic en el nombre de una solicitud para abrirla. </p> <p><b>SUGERENCIA</b>
 
    Si el problema no se conservó cuando se convirtió en una tarea o en un proyecto, el nombre del problema aparece atenuado y ya no se puede hacer clic en él. Para obtener información sobre la conversión de problemas, consulte <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Información general sobre la conversión de problemas en Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Se ha convertido a</td> 
-      <td> <p>Nombre del objeto de resolución, que puede ser una tarea o un proyecto al que se convirtió la solicitud. </p> <p>Haga clic en el nombre de la tarea o proyecto para abrirlos. </p> <p>Si la solicitud no se ha convertido, este campo está vacío. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ruta</td> 
-      <td>Nombre de la cola de solicitudes, grupos de temas y temas de colas en los que se envió originalmente la solicitud. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Estado</td> 
-      <td>El estado actual de la solicitud o del objeto de resolución (tarea o proyecto)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Fecha de entrada</td> 
-      <td>La fecha en la que se envió la solicitud o la fecha en la que se creó el objeto de resolución si la solicitud se eliminó al convertirse. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Fecha de última actualización</td> 
-      <td> <p>La fecha en la que se actualizó la solicitud por última vez.</p> <p>La lista de Solicitudes enviadas se ordena por este campo de forma predeterminada. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Se ha convertido a</td> 
+         <td> <p>Nombre del objeto de resolución, que puede ser una tarea o un proyecto al que se convirtió la solicitud. </p> <p>Haga clic en el nombre de la tarea o proyecto para abrirlos. </p> <p>Si la solicitud no se ha convertido, este campo está vacío. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Ruta</td> 
+         <td>Nombre de la cola de solicitudes, grupos de temas y temas de colas en los que se envió originalmente la solicitud. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Estado</td> 
+         <td>El estado actual de la solicitud o del objeto de resolución (tarea o proyecto)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Fecha de entrada</td> 
+         <td>La fecha en la que se envió la solicitud o la fecha en la que se creó el objeto de resolución si la solicitud se eliminó al convertirse. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Fecha de última actualización</td> 
+         <td> <p>La fecha en la que se actualizó la solicitud por última vez.</p> <p>La lista de Solicitudes enviadas se ordena por este campo de forma predeterminada. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Opcional) Haga clic en el encabezado de una columna para ordenarla.
 
