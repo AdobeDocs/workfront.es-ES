@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ Hemos rediseñado la interfaz para registrar el tiempo desde el área de Actuali
 
 Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentación se actualizará en el momento de la publicación.
 
-Versión de vista previa planificada: 29 de junio de 2023
+Versión de vista previa planificada para proyectos, tareas y problemas: 5 de julio de 2023
 
-Versión de producción planificada: con la versión 23.3
+Versión de producción planificada para problemas: 6 de julio de 2023
+
+Versión de producción planificada para proyectos y tareas: con la versión 23.3
 
 #### Añadir emojis a una actualización
 
@@ -188,7 +190,7 @@ Puede registrar el tiempo de los problemas, tareas y proyectos desde el área de
 
 Vista previa: 1 de junio de 2023
 
-Producción: por anunciar
+Producción: con la versión 23.3
 
 ### Semana del 15 de mayo de 2023
 
