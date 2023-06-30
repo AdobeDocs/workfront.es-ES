@@ -3,9 +3,9 @@ title: 23.3 Mejoras del administrador
 description: 23.3 Mejoras del administrador
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para permitirle recibir nuevas funciones y actualizaciones de productos de Workf
 
 Anteriormente, las funciones y características de se lanzaban en un ciclo trimestral para todos los clientes.
 
-La documentación que contiene más información estará disponible en la versión 23.3.
+Para obtener más información, consulte [Habilitar o deshabilitar el proceso de liberación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Control de nivel de grupo disponible para hoja de horas y preferencias de hora &quot;Donde los usuarios pueden registrar las horas&quot;
 
