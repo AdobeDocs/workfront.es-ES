@@ -6,9 +6,9 @@ description: Puede asignar tareas a usuarios, funciones o equipos para indicar q
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Asignar tareas
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa el 30 de junio de 2023.
 
 Puede asignar tareas a usuarios, roles o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -283,7 +287,7 @@ Para asignar tareas en una lista:
    1. Empiece a escribir el nombre del usuario, rol o equipo que desea quitar de la tarea, selecciónelo cuando aparezca en la lista y haga clic en **Quitar persona asignada** para eliminar más usuarios asignados.
    1. Clic **Quitar todas las personas asignadas actualmente** para quitar todas las personas asignadas de todas las tareas seleccionadas.
 
-1. Clic **Guardar cambios**.
+1. Haga clic en **Guardar cambios**.
 1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en **Icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
 <!--

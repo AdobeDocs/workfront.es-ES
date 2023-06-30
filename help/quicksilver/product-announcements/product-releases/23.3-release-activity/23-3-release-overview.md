@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La Vista de Agile de un proyecto muestra un panel kanban</a><span style="color: #ff0000;"> ¡Muy pronto!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La Vista de Agile de un proyecto muestra un panel kanban</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
                         <p>La vista Agile de un proyecto ahora incluye funcionalidad adicional para filtrar, agrupar y ordenar el trabajo en un panel Kanban. El nuevo diseño flexible de la vista incluye una función de búsqueda sólida y la capacidad de agregar nuevas tareas al proyecto directamente desde el tablero.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -332,7 +332,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Coste efectivo por fecha y tarifas de facturación</a><span style="color: #ff0000;"> ¡Muy pronto!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Coste efectivo por fecha y tarifas de facturación</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p>
                         <p>Ya están disponibles las tarifas de facturación y los costes efectivos por fecha en los objetos de empresa, usuario y rol de Workfront. Cuando se aplican tasas efectivas por fecha a un proyecto y las horas se registran en las tareas del proyecto, los costos e ingresos se calculan usando las tasas especificadas para cada período de tiempo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -342,7 +342,8 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                             </li>
                             <li>
                                 <p>Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3</p>
-                                <p>Versión de producción para todos los clientes: con la versión 23.4</p>
+                                <p>Versión de producción para todos los clientes: con la versión 23.4<br>
+                                <span style="color: #ff0000;"> La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa el 30 de junio de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
