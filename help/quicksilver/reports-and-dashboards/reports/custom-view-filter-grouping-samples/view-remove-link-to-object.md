@@ -7,9 +7,9 @@ description: De forma predeterminada, algunos objetos que se muestran en una vis
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,22 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 1. Clic **Cambiar a modo de texto**.
 1. Pase el ratón sobre el área de modo de texto y haga clic en **Haga clic para editar el texto**.
 1. Elimine el texto que encuentre en la **Modo de texto** y reemplácelo por el siguiente código:
-
    <pre>displayname=Nombre de tarea<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
    >Puede utilizar un código similar para otros objetos si ajusta lo siguiente:
    >
-   >   
-   >   
-   >   * Reemplace el **valuefield** línea del código con **valueexpression** y mantenga el mismo nombre incluido entre llaves después del signo igual.
-   >   
-   >   
+   >* Reemplace el **valuefield** línea del código con **valueexpression** y mantenga el mismo nombre incluido entre llaves después del signo igual.
+   >* Eliminar todas las líneas que comienzan con `link.` del texto original de la columna. Por ejemplo, elimine todas las líneas siguientes:
    >
-   >   
-   >   
-   >   * Elimine todas las líneas que comienzan por >
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >        from the original text of the column. For example, eliminate all the following lines:
-   >        <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
-
-
 
 1. Clic **Guardar**, entonces **Guardar vista**.

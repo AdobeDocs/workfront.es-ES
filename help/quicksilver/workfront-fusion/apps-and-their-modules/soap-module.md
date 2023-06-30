@@ -4,19 +4,19 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
-title: módulo SOAP
+title: Módulo SOAP
 description: Puede utilizar el módulo SOAP para conectarse a las API de SOAP en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
 
 ---
 
-# [!UICONTROL JABÓN] módulo
+# [!UICONTROL Módulo SOAP]
 
 Puede usar el complemento [!UICONTROL JABÓN] módulo al que conectarse [!UICONTROL JABÓN] API en [!UICONTROL Adobe Workfront Fusion].
 
@@ -78,26 +78,12 @@ El [!UICONTROL JABÓN] El módulo está actualmente en fase beta y no admite:
 >
 >```
 ><complexType name="ArrayOfFloat">
->
->   
->  <complexContent>
->
->      
->     <restriction base="soapenc:Array">
->
->         
->        <attribute ref="soapenc:arrayType"
->
->            
->           wsdl:arrayType="xsd:integer[]"/>
->
->      
->     </restriction>
->
->   
->  </complexContent>
->
->
+>     <complexContent>
+>           <restriction base="soapenc:Array">
+>                 <attribute ref="soapenc:arrayType"
+>                       wsdl:arrayType="xsd:integer[]"/>
+>           </restriction>
+>     </complexContent>
 ></complexType>
 >```
 
