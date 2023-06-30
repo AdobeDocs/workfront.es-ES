@@ -7,9 +7,9 @@ description: El entorno de vista previa se actualiza una vez a la semana con nue
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ El entorno de vista previa se actualiza una vez a la semana con nuevas funciones
 
 ### Características del producto
 
-Normalmente, las funciones de la vista previa están disponibles en el entorno de producción con la próxima versión trimestral. Sin embargo, en algunos casos, las funciones están disponibles en el entorno de producción fuera de una versión trimestral. Estos cambios permanecen en la Vista previa durante un mínimo de 2 semanas para proporcionarle el tiempo adecuado para familiarizarse con los cambios. Estos cambios también se comunican a través del Centro de anuncios en el momento en que se añaden a la Vista previa.
+
+Adobe Workfront tiene dos modelos para lanzar nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funciones trimestralmente o con una programación de versiones más rápida.
+
+Normalmente, las funciones de la vista previa estarán disponibles en el entorno de producción en la próxima versión. Sin embargo, en algunos casos, las funciones están disponibles en el entorno de producción fuera de una versión programada. Estos cambios permanecen en la Vista previa durante un mínimo de 2 semanas para proporcionarle el tiempo adecuado para familiarizarse con los cambios. Estos cambios también se comunican a través del Centro de anuncios en el momento en que se añaden a la Vista previa.
+
+Para obtener más información sobre los procesos de publicación trimestrales y rápidos, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Actualizaciones de mantenimiento
 
 Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno de producción cada semana. Consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) para ver lo que se ha corregido recientemente.
 
-## Funciones eliminadas de una versión trimestral
+## Funciones eliminadas de un lanzamiento programado
 
-Todas las funciones asociadas con una versión trimestral determinada están disponibles para probarse en la vista previa durante un mínimo de 2 a 4 semanas antes de la versión final en producción. Si las funciones de se eliminan de la versión trimestral antes de este tiempo, se realizan las siguientes acciones para informar a los clientes:
+Todas las funciones asociadas con una versión determinada (mensual o trimestral) están disponibles para probarse en la vista previa durante un mínimo de 2 a 4 semanas antes de la versión final en producción. Si las funciones de se eliminan del lanzamiento programado antes de esta hora, se realizan las siguientes acciones para informar a los clientes de:
 
-* Las notas de la versión trimestrales (que se encuentran en la [Versiones de productos](../../product-announcements/product-releases/product-releases.md) ) para indicar que se ha eliminado la función.
+* Las notas de la versión de la versión programada (que se encuentran en la [Versiones de productos](../../product-announcements/product-releases/product-releases.md) ) para indicar que se ha eliminado la función.
 
-Si las funciones se eliminan de la versión trimestral después de que todas las funciones estén disponibles para probarse en la vista previa, se realizan las siguientes acciones para informar a los clientes:
+Si las funciones se eliminan del lanzamiento programado después de que todas las funciones estén disponibles para probarse en la vista previa, se realizan las siguientes acciones para informar a los clientes:
 
-* Las notas de la versión trimestrales (que se encuentran en la [Versiones de productos](../../product-announcements/product-releases/product-releases.md) ) para indicar que se ha eliminado la función.
+* Las notas de la versión (que se encuentran en la [Versiones de productos](../../product-announcements/product-releases/product-releases.md) ) para indicar que se ha eliminado la función.
 * Se agrega una publicación a la comunidad de Workfront que indica que se ha eliminado la función.
 * Se envía un mensaje a todos los clientes a través del Centro de anuncios en el que se indica que la función se ha eliminado. (El Centro de anuncios es el centro de notificaciones en la aplicación de Workfront. Para obtener más información, consulte [Envío de anuncios](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Si se encuentra con algo en el sistema que no coincide con la documentación de 
 
 ## Notas de versión
 
-Utilice las notas de la versión de la próxima versión trimestral para ver qué nuevas funciones están disponibles en Vista previa y cuándo se lanzarán al entorno de producción.
+Utilice las notas de la versión de la próxima versión programada para ver qué nuevas funciones están disponibles en Vista previa y cuándo se lanzarán al entorno de producción.
 
-Para ver las notas de la próxima versión trimestral, consulte [Versiones de productos](../../product-announcements/product-releases/product-releases.md)A continuación, haga clic en el vínculo para acceder a la página de información general sobre la próxima versión.
+Para ver las notas de la próxima versión programada, consulte [Versiones de productos](../../product-announcements/product-releases/product-releases.md)A continuación, haga clic en el vínculo para acceder a la página de información general sobre la próxima versión.
 
 Las notas de la versión proporcionan una tabla con una lista de funciones en la columna izquierda, con una breve descripción de cada función. Puede hacer clic en un vínculo de la función para ver un vídeo de demostración de la nueva función y acceder a la documentación sobre esta. En la columna derecha, verá la siguiente información para cada función:
 
