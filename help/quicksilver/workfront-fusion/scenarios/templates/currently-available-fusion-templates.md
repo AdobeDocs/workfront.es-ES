@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Estas plantillas recuperan información de un servicio web y la llevan a Workfro
 ### APILayer > Workfront - Actualización del tipo de cambio diario (EUR)
 
 Esta plantilla crea un escenario que automatiza la actualización de un tipo de cambio en un momento determinado. Este escenario extrae la tasa de euros (EUR) a dólares estadounidenses (USD) de una API de APIlayers.com y actualiza la tasa en Workfront.
+
+## Plantillas Workfront-Marketo
+
+Estas plantillas admiten la integración de Workfront y Marketo.
+
+>[!NOTE]
+>
+> Debe tener una licencia de integración y automatización de trabajo de Workfront Fusion para utilizar las plantillas de esta sección.
+
+### Aprobar el borrador del correo electrónico del Marketo Engage con flujos de trabajo de aprobación de Workfront
+
+Esto forma parte de la integración de revisión y aprobación entre Workfront y Marketo Engage. Esta plantilla detecta si se ha aprobado una prueba de correo electrónico en Workfront y, a continuación, actualiza el correo electrónico correspondiente en Marketo Engage como aprobado.
+
+### Admisión de solicitudes de campañas de marketing en Workfront y automatización de la creación de campañas en Marketo Engage
+
+Este escenario proporciona una forma programática de crear campañas de correo electrónico y seminarios web en Marketo Engage a partir de una solicitud realizada en Workfront. Gracias a la automatización para crear, organizar y configurar campañas, los equipos pueden mejorar la eficacia.
+
+### Revise en Workfront una revisión por correo electrónico del borrador del correo electrónico del Marketo Engage
+
+Esta plantilla detecta si una tarea de Workfront se ha establecido en un estado listo para revisión y, a continuación, exporta el borrador de correo electrónico del Marketo Engage para guardarlo como una prueba en Workfront.
 
 ## Plantillas Workfront-Anaplan
 
