@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 * Comentario sobre una actualización del sistema
 * Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
 * Editar formulario personalizado
+* La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>Texto enriquecido (emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>Texto enriquecido (citas de bloque)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
   </tr>
   <tr>
-   <td>Quitar personas del hilo 
+   <td>Etiquetar automáticamente todos los participantes del hilo
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -286,7 +302,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
   </tr>
   <tr>
-   <td>Registrar tiempo 
+   <td>Hora de registro 
    </td>
    <td>✓ 
    </td>
@@ -299,35 +315,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Editar formulario personalizado 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Capacidad para editar el estado, la condición y la fecha de confirmación al comentar 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Copiar el enlace del hilo 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>SEGUNDO TRIMESTRE DE 2023 
    </td>
@@ -411,9 +399,50 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Editar formulario personalizado 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Capacidad para editar el estado, la condición y la fecha de confirmación al comentar 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Responder a las actualizaciones del sistema 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Mostrar "en nombre de" al agregar comentarios con la sesión de otro usuario
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
 
 ## Cronología de versiones
 
-Para obtener información sobre las funciones lanzadas recientemente a la nueva experiencia de comentarios, así como una cronología de la versión, consulte [Nueva actividad de la versión de la experiencia beta de comentarios](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Para obtener información sobre las funciones lanzadas recientemente a la nueva experiencia de comentarios, así como una cronología de la versión, consulte [Nueva actividad de comentario en la versión de la experiencia beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Busque la nueva experiencia de comentarios
 

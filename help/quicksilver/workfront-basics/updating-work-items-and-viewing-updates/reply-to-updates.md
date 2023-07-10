@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 1%
 
 ---
 
@@ -84,6 +84,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Responder a una actualización o una respuesta
+
+Puede responder a un comentario en el hilo de un objeto que pueda ver, o puede iniciar sesión como Workfront o administrador de grupo y responder a un comentario en nombre de otro usuario. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Responder a un comentario o una respuesta depende de la experiencia y del objeto que seleccione.
 
@@ -172,6 +174,6 @@ Para añadir una actualización a un correo electrónico de Workfront:
 1. En la aplicación de correo electrónico, abra el correo electrónico de Workfront al que desee responder y, a continuación, abra una ventana de correo electrónico de respuesta.
 1. Escriba la actualización.\
    Los archivos adjuntos no están permitidos y ningún formato de texto enriquecido aplicado a una actualización en un correo electrónico no se muestra en la actualización cuando se ve en la pestaña Actualizaciones.
-1. Clic **Enviar**.
+1. Haga clic en **Enviar**.
 
    La actualización se agregará al subproceso de comunicaciones del objeto.

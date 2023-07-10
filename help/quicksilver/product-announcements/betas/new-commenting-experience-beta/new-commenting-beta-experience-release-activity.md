@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,9 @@ Para obtener información general sobre la nueva experiencia de comentarios, inc
 
 Estamos planeando lanzar la nueva experiencia de comentarios de forma iterativa. Esto afectará a los objetos seleccionados con cada versión. Un pequeño conjunto de características podría ser lanzado al principio y más características se agregarán a los objetos restantes con el tiempo.
 
-Para obtener información sobre los objetos de Workfront que muestran la sección Actualizaciones, consulte   [Información general de la sección Actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Para obtener información sobre los objetos de Workfront que muestran la sección Actualizaciones, consulte   [Información general de la sección Actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-A continuación se muestra una cronología planificada para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción:
+A continuación se muestra una cronología planificada con hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguiremos mejorando la experiencia de los comentarios con mejoras menores. Para obtener más información sobre todas las funciones lanzadas, consulte la [Funciones publicadas](#released-features) de este artículo.
 
 * Con la versión 23.2 de (6 de abril de 2023):
    * Comentando experiencia beta sobre problemas
@@ -51,24 +51,41 @@ A continuación se muestra una cronología planificada para el lanzamiento de la
 * Finales de 2023:
    * La experiencia de comentarios heredada se mantendrá como una opción para los siguientes objetos: proyectos, tareas, problemas y documentos.
 
-     Las plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y plantillas de horas, objetivos y tarjetas tienen la nueva experiencia de comentarios como única opción.
-
   >[!NOTE]
   >
   >    Las iteraciones seguirán teniendo la experiencia de comentarios heredada.
 
-La siguiente sección contiene una lista de las funciones que se han añadido después de la versión original, empezando por las que se han lanzado más recientemente.
-
 ## Funciones publicadas
 
-La siguiente información hace referencia a la actividad de lanzamiento semanal de las funciones incluidas en la nueva experiencia de comentarios beta. La página enumera las nuevas funciones que se agregan y los problemas que se resuelven para la nueva experiencia de comentarios.
+La siguiente sección contiene una lista de las funciones que se han añadido después de la versión original, empezando por las que se han lanzado más recientemente.
 
+La siguiente información hace referencia a la actividad de lanzamiento semanal de las funciones incluidas en la nueva experiencia de comentarios beta. Este artículo enumera las nuevas funciones que se agregan y los problemas que se resuelven para la nueva experiencia de comentarios.
 
 ### Funciones publicadas después del 19 de junio de 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 Las funciones enumeradas en esta sección están planificadas para su lanzamiento poco después de la semana del 19 de junio de 2023.
+
+#### Etiquetar automáticamente todos los participantes del hilo
+
+El propietario de un comentario ahora se etiqueta automáticamente en un subproceso. Antes de esta actualización, solo los usuarios etiquetados mediante las etiquetas &quot;@name&quot; o agregándolos a la sección &quot;Etiquetar personas o equipos&quot; que se muestra en la lista de usuarios etiquetados. Con esto, ahora puede eliminar del hilo al propietario de un comentario, si es necesario, aunque no se haya etiquetado manualmente antes.
+
+Versión de vista previa planificada: 12 de julio de 2023
+
+Versión de producción planificada: 13 de julio de 2023
+
+#### Nueva interfaz para registrar el tiempo
+
+Hemos rediseñado la interfaz para registrar el tiempo desde el área de Actualizaciones en la nueva experiencia de comentarios.
+
+Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentación se actualizará en el momento de la publicación.
+
+Versión de vista previa de proyectos, tareas y problemas: 5 de julio de 2023
+
+Versión de producción para problemas: 6 de julio de 2023
+
+Versión de producción planificada para proyectos y tareas: con la versión 23.3
 
 #### Citar contenido de comentario en una nueva respuesta
 
@@ -80,27 +97,13 @@ Vista previa: 28 de junio de 2023
 
 Versión de producción: 29 de junio de 2023
 
-#### Nueva interfaz para registrar el tiempo
-
-Hemos rediseñado la interfaz para registrar el tiempo desde el área de Actualizaciones en la nueva experiencia de comentarios.
-
-Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentación se actualizará en el momento de la publicación.
-
-Versión de vista previa planificada para proyectos, tareas y problemas: 5 de julio de 2023
-
-Versión de producción planificada para problemas: 6 de julio de 2023
-
-Versión de producción planificada para proyectos y tareas: con la versión 23.3
-
 #### Añadir emojis a una actualización
 
 Ahora puede agregar emojis a un comentario utilizando una opción de barra de herramientas Texto enriquecido en la nueva experiencia de comentario.
 
 Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentación se actualizará en el momento de la publicación.
 
-Vista previa: pendiente de anuncio (durante la versión 23.3)
-
-Producción: por anunciar. Antes de la versión 23.3.
+Previsualización y producción: Se anunciará (durante o poco después de la versión 23.3)
 
 #### Nueva experiencia de comentarios para objetos adicionales
 
