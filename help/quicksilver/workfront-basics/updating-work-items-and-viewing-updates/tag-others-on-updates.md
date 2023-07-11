@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
 ### Etiquetar a otros en las actualizaciones de la sección Actualizaciones actuales
 
+Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
+
 1. Comience a actualizar un elemento de trabajo como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. En el **Notificar** , empiece a escribir el nombre del usuario o equipo que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
@@ -134,9 +136,19 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
 ### Etiquete otras actualizaciones en la experiencia beta de comentarios
 
-Puede etiquetar a otros en las actualizaciones en la experiencia beta de comentarios. También puede quitar usuarios etiquetados por error cuando edite un comentario.
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. Comience a actualizar un elemento de trabajo como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+Puede etiquetar manualmente a otros en las actualizaciones en la experiencia de comentarios beta. También puede quitar usuarios etiquetados por error cuando edite o responda a un comentario.
+
+1. Comience a actualizar un elemento de trabajo como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. En el **Etiquetar personas o equipos** , empiece a escribir el nombre del usuario o equipo que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    O

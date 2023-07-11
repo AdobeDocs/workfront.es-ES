@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1591'
 ht-degree: 3%
 
 ---
@@ -81,11 +81,9 @@ Hemos rediseñado la interfaz para registrar el tiempo desde el área de Actuali
 
 Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentación se actualizará en el momento de la publicación.
 
-Versión de vista previa de proyectos, tareas y problemas: 5 de julio de 2023
+Versión de vista previa: 5 de julio de 2023
 
-Versión de producción para problemas: 6 de julio de 2023
-
-Versión de producción planificada para proyectos y tareas: con la versión 23.3
+Versión de producción: con la versión 23.3
 
 #### Citar contenido de comentario en una nueva respuesta
 
