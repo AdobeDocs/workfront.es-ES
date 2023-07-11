@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Crear y administrar roles
+title: Crear y administrar funciones de trabajo
 description: Como un [!DNL Adobe Workfront] administrador o un usuario con acceso administrativo a los roles, puede crear roles que se pueden asignar a usuarios y eliminar los roles predeterminados que no sean relevantes para su organización.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
 
-# Crear y administrar roles
+# Crear y administrar funciones de trabajo
 
 {{highlighted-preview}}
 
@@ -83,11 +83,11 @@ Debe tener lo siguiente:
      <tr> 
       <td role="rowheader">[!UICONTROL Costo/ hora.]</td> 
       <td><p>tarifa de coste por hora del rol. Este valor calcula los costos planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los costos planificados y reales de los proyectos. Introduzca la tasa utilizando la [!UICONTROL Moneda base].</p> 
-      <p><span class="preview">Para tasas de costo efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor del coste/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tasa de coste no tendrá una fecha de inicio y la última tasa de coste no tendrá una fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tasa de coste no tiene una fecha de finalización y agrega una segunda tasa de coste con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tasa de coste para que no haya espacios.</span></p></td> 
+      <p><span class="preview">Para tasas de costo efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor del coste/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tasa de coste no tendrá una fecha de inicio y la última tasa de coste no tendrá una fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tasa de coste no tiene una fecha de finalización y agrega una segunda tasa de coste con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tasa de coste para que no haya espacios.</span></p> <p><span class="preview">Sugerencia: Al editar un rol existente, puede seleccionar <strong>Ordenar por fecha de inicio</strong> para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas. </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Lista/ hora] </td> 
-      <td><p>tarifa de facturación por hora de la función del puesto. Este valor calcula los ingresos planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca la tasa utilizando la [!UICONTROL Moneda base].</p> <p><span class="preview">Para tarifas de facturación efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor de facturación/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tarifa de facturación no tendrá fecha de inicio y la última tarifa de facturación no tendrá fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de facturación no tiene una fecha de finalización y agrega una segunda con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tarifa de facturación para que no haya espacios.</span></p> </td> 
+      <td><p>tarifa de facturación por hora de la función del puesto. Este valor calcula los ingresos planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca la tasa utilizando la [!UICONTROL Moneda base].</p> <p><span class="preview">Para tarifas de facturación efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor de facturación/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tarifa de facturación no tendrá fecha de inicio y la última tarifa de facturación no tendrá fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de facturación no tiene una fecha de finalización y agrega una segunda con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tarifa de facturación para que no haya espacios.</span></p> <p><span class="preview">Sugerencia: Al editar un rol existente, puede seleccionar <strong>Ordenar por fecha de inicio</strong> para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Anular moneda]</span> </td> 
