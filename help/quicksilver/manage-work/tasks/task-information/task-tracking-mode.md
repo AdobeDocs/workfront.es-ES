@@ -2,23 +2,23 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Información general sobre el modo de seguimiento de tareas
-description: Puede ajustar la configuración Modo de seguimiento de una tarea al crear o editar una tarea para controlar cómo y cuándo se muestran los indicadores de estado de progreso de una tarea. Adobe Workfront muestra los indicadores de estado de progreso al configurar determinadas opciones de configuración para realizar el seguimiento del progreso en las tareas.
+title: Información general del modo de seguimiento de tareas
+description: Puede ajustar la configuración Modo de seguimiento de una tarea al crear o editar una tarea para controlar cómo y cuándo se muestran los indicadores de estado de progreso de una tarea. Adobe Workfront muestra indicadores de estado de progreso al configurar ciertas opciones para el seguimiento del progreso de las tareas.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
 
-# Información general sobre el modo de seguimiento de tareas
+# Información general del modo de seguimiento de tareas
 
-Puede ajustar la configuración Modo de seguimiento de una tarea al crear o editar una tarea para controlar cómo y cuándo se muestran los indicadores de estado de progreso de una tarea. Adobe Workfront muestra los indicadores de estado de progreso al configurar determinadas opciones de configuración para realizar el seguimiento del progreso en las tareas.
+Puede ajustar la configuración Modo de seguimiento de una tarea al crear o editar una tarea para controlar cómo y cuándo se muestran los indicadores de estado de progreso de una tarea. Adobe Workfront muestra indicadores de estado de progreso al configurar ciertas opciones para el seguimiento del progreso de las tareas.
 
-Para obtener más información sobre el estado de progreso de las tareas, consulte [Información general sobre el estado de progreso de la tarea](../../../manage-work/tasks/task-information/task-progress-status.md).
+Para obtener más información sobre el estado de progreso de las tareas, consulte [Resumen del estado de progreso de tareas](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -36,9 +36,9 @@ Para obtener más información sobre el estado de progreso de las tareas, consul
 
 ## Opciones del modo de seguimiento {#tracking-mode-options}
 
-Como propietario de una tarea o administrador de proyectos, puede seleccionar cómo Workfront indica el estado del progreso en cada tarea. Para obtener información sobre cómo configurar el modo de seguimiento en las tareas, consulte [Configurar el modo de seguimiento para tareas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+Como propietario de una tarea o jefe de proyecto, puede seleccionar la forma en que Workfront indica el estado de progreso de cada tarea. Para obtener información sobre cómo establecer el modo de seguimiento en sus tareas, consulte [Establecer el modo de seguimiento para las tareas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
-Puede seleccionar entre las siguientes opciones:
+Puede seleccionar las siguientes opciones:
 
 * [El usuario debe actualizar](#user-must-update)
 * [Asumir a tiempo](#assume-on-time)
@@ -48,31 +48,31 @@ Puede seleccionar entre las siguientes opciones:
 
 ### El usuario debe actualizar {#user-must-update}
 
-Cuando se selecciona esta opción, Workfront utiliza el porcentaje de horas completas y reales de la tarea registrado para determinar el estado de progreso de la tarea. Esta es la opción predeterminada.
+Si se selecciona esta opción, Workfront utiliza el porcentaje completado y las horas reales registradas de la tarea para determinar el estado de progreso de la tarea. Esta es la opción predeterminada.
 
 ### Asumir a tiempo {#assume-on-time}
 
-Workfront supone que una tarea se completará a tiempo independientemente del estado de finalización actual. Si no es así, Workfront asume automáticamente una fecha de finalización prevista del siguiente día laborable. Debe indicar cuándo se completa la tarea. Utilice esta opción cuando los usuarios no actualicen regularmente sus tareas.
+Workfront supone que una tarea se completará a tiempo independientemente del estado actual de finalización. Si no es así, Workfront supone automáticamente una fecha planificada de finalización del siguiente día laborable. Aún debe indicar cuándo se completa la tarea. Utilice esta opción cuando los usuarios no actualicen con regularidad sus tareas.
 
 ### Ignorar advertencias tardías {#ignore-late-warnings}
 
-El estado de progreso de una tarea pasa a estar en tiempo de activación hasta que llegue a ser tarde. Por ejemplo, si programa una tarea para que dure 10 días y el día en que se va a completar, la tarea muestra un porcentaje de finalización del 60 %, Workfront actualiza la fecha de finalización prevista añadiendo cuatro días y el estado de progreso de la tarea pasa a ser tarde.
+El estado de progreso de una tarea será A tiempo hasta que se haga Tarde. Por ejemplo, si programa una tarea para que dure 10 días y en el día en que se debe completar la tarea muestra un porcentaje completado del 60 %, Workfront actualiza la fecha proyectada de finalización añadiendo cuatro días y el estado de progreso de la tarea pasa a ser Late.
 
 ### Completar automáticamente {#auto-complete}
 
-Workfront asume que las tareas se completarán como están programadas y las marca como completas en sus fechas de vencimiento o de finalización planificadas. Hasta entonces, Workfront utiliza el porcentaje completado y las horas reales registradas para determinar el estado de progreso. Sin embargo, independientemente del estado de progreso antes de la fecha de finalización programada, Workfront sigue marcando la tarea finalizada.
+Workfront supone que las tareas se completarán según lo programado y las marca como completadas en sus fechas de vencimiento o planificadas de finalización. Hasta entonces, Workfront utiliza el porcentaje completado y las horas reales registradas para determinar el estado del progreso. Sin embargo, independientemente del estado del progreso antes de la fecha programada de finalización, Workfront sigue marcando la tarea como completada.
 
 Existen las siguientes excepciones:
 
-* Si la tarea tiene predecesores incompletos, no se completará automáticamente hasta que se hayan completado todos sus predecesores.
-* Si la tarea tiene una restricción de Fecha fija, la tarea siempre se completa en la Fecha de finalización planeada, independientemente de si se han completado sus predecesores.
+* Si la tarea tiene predecesoras incompletas, no se completará automáticamente hasta que se completen todas sus predecesoras. Se deben aplicar las predecesoras.
+* Si la tarea tiene una delimitación de Fecha fija, la tarea siempre se completa en la Fecha planificada de finalización, independientemente de si se han completado sus predecesoras.
 
 >[!IMPORTANT]
 >
->Si selecciona que las tareas se completen automáticamente, la tarea se completará cuando se vuelva a calcular la hora del proyecto. Si el tipo de actualización del proyecto está definido como automático o automático y en cambio, la línea de tiempo del proyecto se calcula diariamente. Para obtener información sobre los nuevos cálculos de cronología en los proyectos, consulte [Volver a calcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Si selecciona que las tareas se completen automáticamente, la tarea se completará cuando se recalcule la hora del proyecto. Si el Tipo de actualización del proyecto se establece en Automática o Automática y al cambiar, la cronología del proyecto se calcula diariamente. Para obtener información sobre los cálculos de escala de tiempo en proyectos, consulte [Recalcular escalas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->La hora de la fecha de finalización real es la medianoche del día en que la línea de tiempo se calcula automáticamente. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema, tal como la define el administrador de Workfront en la sección Información del cliente de Configuración. Para obtener información sobre la configuración de la zona horaria del sistema, consulte [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>La hora de la fecha real de finalización es la medianoche del día en que se calcula automáticamente la escala de tiempo. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema, tal como la defina el administrador de Workfront en la sección Información del cliente de Configuración. Para obtener información sobre cómo establecer la zona horaria del sistema, consulte [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecesora {#predecessor}
 
-Workfront calcula la fecha de finalización prevista de una tarea según su relación predecesora. El estado de progreso de una tarea se determina en función de esta estimación. Por ejemplo, la tarea B tiene una duración de 1 día y está programada para completarse dos días después de su predecesora, la tarea A, que debería tardar cinco días. A continuación, un usuario actualiza la tarea B al 50 % completado, pero el predecesor, la tarea A, aún no se ha iniciado. Workfront programa la tarea dependiente B para su finalización seis días después de la fecha de inicio de la tarea predecesora, lo que permite 5 días para la tarea A y 1 día para la tarea B.
+Workfront calcula la fecha proyectada de finalización de una tarea según su relación de predecesora. El estado de progreso de una tarea se determina según esta estimación. Por ejemplo, la Tarea B tiene una Duración de 1 Día y está programada para completarse dos días después de su predecesora, la Tarea A, que debería tardar cinco días. Un usuario actualiza la Tarea B al 50% completada, pero la predecesora, la Tarea A, aún no se ha iniciado. Workfront programa la tarea dependiente B para su finalización seis días después de la fecha de inicio de la tarea predecesora, lo que permite 5 días para la Tarea A y 1 día para la Tarea B.
