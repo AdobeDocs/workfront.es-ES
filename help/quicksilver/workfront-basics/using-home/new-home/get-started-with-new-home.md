@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Los widgets son la base del nuevo inicio. Al agregar widgets a la página de ini
     Muestra los problemas que se le han asignado en una tabla con filtros, vistas y agrupaciones personalizables, así como un botón para crear directamente un nuevo problema.
 
 * **Mis solicitudes**\
-    Muestra todas las solicitudes que tiene asignadas, un filtro que sólo permite mostrar las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
+    Muestra todas las solicitudes enviadas, un filtro para mostrar sólo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
 
 * **Solicitudes de equipo**\
     Muestra todas las solicitudes pendientes de los equipos en los que está ordenado por equipo, así como los botones para asignar directamente una solicitud a un usuario o para trabajar en ella usted mismo.
