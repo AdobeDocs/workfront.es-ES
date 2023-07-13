@@ -2,19 +2,20 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Descripción general de la fecha de inicio prevista del proyecto
-description: Descripción general de la fecha de inicio prevista del proyecto
+title: Descripción general de la fecha planificada de inicio del proyecto
+description: Descripción general de la fecha planificada de inicio del proyecto
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# Descripción general de la fecha de inicio prevista del proyecto
+# Descripción general de la fecha planificada de inicio del proyecto
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,15 +25,19 @@ ht-degree: 0%
 </div>
 -->
 
-Las fechas de inicio y finalización previstas de un proyecto dependen de las fechas de las tareas del proyecto. En este artículo se describe la fecha de inicio prevista de un proyecto. Para obtener información sobre la tarea Fecha de inicio planificada, consulte [Descripción general de la tarea Fecha de inicio planificada](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Las fechas de inicio y finalización planificadas de un proyecto dependen de las fechas de las tareas del proyecto. Este artículo describe la fecha planificada de inicio de un proyecto. Para obtener información sobre la fecha planificada de inicio de la tarea, consulte [Información general sobre la fecha planificada de inicio de la tarea](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
-La fecha de inicio planeada de un proyecto se puede establecer de forma manual o automática, en función de si se programa el proyecto desde la fecha de inicio o desde la fecha de finalización.
+La fecha planificada de inicio de un proyecto se puede establecer de forma manual o automática, en función de si se programa el proyecto desde la fecha de inicio o desde la fecha de finalización.
 
-## Establecer manualmente la fecha de inicio prevista de un proyecto
+## Establecer manualmente la fecha planificada de inicio de un proyecto
 
-Debe establecer manualmente la fecha de inicio planeada de un proyecto cuando lo programe desde la fecha de inicio.
+Debe establecer manualmente la fecha planificada de inicio de un proyecto al programar el proyecto a partir de la fecha de inicio.
 
-Para obtener información sobre la configuración de la fecha de inicio prevista del proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+>[!NOTE]
+>
+>Cuando se establece manualmente la fecha planificada de inicio de un proyecto, Workfront calcula automáticamente la fecha planificada de finalización del proyecto en función de la duración de todas las tareas.
+
+Para obtener información sobre cómo establecer la fecha planificada de inicio del proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -49,29 +54,29 @@ Para obtener información sobre la configuración de la fecha de inicio prevista
 </ol>
 -->
 
-## Establecer automáticamente la fecha de inicio planeada de un proyecto
+## Establecer automáticamente la fecha planificada de inicio de un proyecto
 
-La fecha de inicio prevista de un proyecto se establece automáticamente al crear el proyecto de las siguientes maneras:
+La fecha planificada de inicio de un proyecto se establece automáticamente al crear el proyecto de las siguientes maneras:
 
-* desde cero y cuando programa el proyecto desde la fecha de finalización.
+* desde cero y al programar el proyecto desde la fecha de finalización.
 
-   Adobe Workfront calcula automáticamente la fecha de inicio planeada en función de la fecha seleccionada para la fecha de finalización y las duraciones de todas las tareas del proyecto.
+  Adobe Workfront calcula automáticamente la fecha planificada de inicio en función de la fecha seleccionada para la fecha de finalización y las duraciones de todas las tareas del proyecto.
 
-   Para obtener información sobre cómo crear un proyecto desde cero, consulte [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+  Para obtener información sobre cómo crear un proyecto desde cero, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
-* impórtelos desde Microsoft Project.
+* Importarlo desde Microsoft Project.
 
-   La fecha de inicio planeada es la fecha de inicio del proyecto en el proyecto de Microsoft.
+  La fecha planificada de inicio es la fecha de inicio del proyecto en Microsoft Project.
 
-   Para obtener información sobre la importación de un proyecto desde Microsoft Project, consulte [Importar un proyecto desde un proyecto de Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Para obtener información sobre cómo importar un proyecto desde un proyecto de Microsoft, consulte [Importar un proyecto desde Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* impórtelos con Workfront Kick-Starts, cuando sea administrador de Workfront.
+* Importarlo mediante KickStarts de Workfront, cuando sea administrador de Workfront.
 
-   La fecha de inicio planeada siempre coincide con la hora y la fecha del equipo, a menos que especifique lo contrario en el campo setPlannedStartDate de la hoja Proyecto del archivo de inicio.
+  La Fecha planificada de inicio siempre coincide con la hora y la fecha del equipo, a menos que especifique lo contrario en el campo setPlannedStartDate de la hoja Proyecto del archivo de KickStart.
 
-   Para obtener información sobre la importación de datos mediante el inicio, consulte [Importar datos en Adobe Workfront mediante una plantilla de inicio rápido](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obtener información sobre la importación de datos mediante kick-starts, consulte [Importación de datos en Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Para obtener información sobre la importación de proyectos mediante la introducción, consulte [Caso Kick-Starts : preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Para obtener información sobre la importación de proyectos mediante kick-starts, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -88,11 +93,11 @@ La fecha de inicio prevista de un proyecto se establece automáticamente al crea
 </div>
 -->
 
-## Fecha de inicio prevista de una tarea
+## Fecha planificada de inicio de una tarea
 
-Puede especificar la Fecha de inicio planeada de una tarea o dejarla en manos de Workfront para calcularla según ciertos criterios.
+Puede especificar la fecha planificada de inicio de una tarea o dejar que Workfront la calcule en función de determinados criterios.
 
-Para obtener información sobre la fecha de inicio planeada de una tarea, consulte [Descripción general de la tarea Fecha de inicio planificada](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Para obtener información sobre la fecha planificada de inicio de una tarea, consulte [Información general sobre la fecha planificada de inicio de la tarea](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

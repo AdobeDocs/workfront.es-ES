@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3497'
 ht-degree: 1%
 
 ---
@@ -42,21 +42,34 @@ ht-degree: 1%
 >
 >     Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
-Puede agregar comentarios a la mayoría de los objetos de Adobe Workfront en la sección Actualizaciones. Para obtener más información sobre los objetos que muestran la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Puede agregar una actualización a un objeto de Workfront (proyecto, tarea o problema) para comunicar el progreso del objeto, a medida que comenta sobre el objeto. Los usuarios asignados o suscritos al objeto pueden ver la actualización. También puede etiquetar usuarios para que llamen su atención sobre la actualización. Los usuarios etiquetados reciben una notificación en la aplicación y un correo electrónico sobre su actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+## Consideraciones acerca de la actualización del trabajo
 
-Puede agregar un comentario a un objeto que pueda ver, o bien puede iniciar sesión como Workfront o administrador de grupo y agregar un comentario en nombre de otro usuario. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Puede agregar comentarios a la mayoría de los objetos de Adobe Workfront en la sección Actualizaciones. Para obtener más información sobre los objetos que muestran la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-En la información de esta página se describe cómo puede realizar comentarios sobre los objetos de Workfront y cómo actualizar proyectos, tareas y problemas. Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). Debe tener una licencia adicional para acceder a los objetivos de Workfront.
+* Puede agregar una actualización a un objeto de Workfront (proyecto, tarea o problema) para comunicar el progreso del objeto, a medida que comenta sobre el objeto. Los usuarios asignados o suscritos al objeto pueden ver la actualización.
 
+* Puede etiquetar a los usuarios para que presten atención a la actualización. Los usuarios etiquetados reciben una notificación en la aplicación y un correo electrónico sobre su actualización.
 
-Puede agregar una actualización a proyectos, tareas y problemas desde las siguientes áreas de Workfront:
+  >[!TIP]
+  >
+  >   <span class="preview">En la nueva experiencia de comentarios, los propietarios de comentarios se etiquetan automáticamente. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* Desde un objeto de Workfront, en la sección Actualizaciones
-* Desde el área de Inicio (para tareas y problemas)
-* Desde el panel Resumen en una lista de objetos (para tareas y problemas)
-* En la hoja de horas (para tareas y problemas)
+* Puede agregar un comentario a un objeto que pueda ver, o bien puede iniciar sesión como Workfront o administrador de grupo y agregar un comentario en nombre de otro usuario. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* Puede agregar una actualización a proyectos, tareas y problemas desde las siguientes áreas de Workfront:
+
+   * Desde un objeto de Workfront, en la sección Actualizaciones
+   * Desde el área de Inicio (para tareas y problemas)
+   * Desde el panel Resumen en una lista de objetos (para tareas y problemas)
+   * En la hoja de horas (para tareas y problemas)
+
+En la información de esta página se describe cómo puede realizar comentarios sobre los objetos de Workfront y cómo actualizar proyectos, tareas y problemas.
+
+Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). Debe tener una licencia adicional para acceder a los objetivos de Workfront.
+
+Para obtener información sobre cómo comentar tarjetas en el área Tableros, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Requisitos de acceso
 
@@ -395,7 +408,7 @@ Esta opción copia un vínculo de actualización específico en el portapapeles.
 
 Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
 
 * [Copiar vínculo](#copy-link)
 * [Copiar el texto del cuerpo](#copy-body-text)

@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # Copiar y enviar solicitudes
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva.
 
@@ -122,11 +122,11 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 1. (Condicional) Si la sección Enviada no se muestra de forma predeterminada, haga clic en **Enviado** en el panel izquierdo.
 1. Busque la solicitud que desea copiar y enviar como nueva y realice una de las siguientes acciones:
 
-   * Selecciónelo y haga clic en <span class="preview"> **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> en la esquina superior izquierda de la lista Solicitudes enviadas.
+   * Selecciónelo y haga clic en **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) en la esquina superior izquierda de la lista Solicitudes enviadas.
 
    >[!TIP]
    >
-   > <span class="preview">Si no ha seleccionado una solicitud primero, el icono Copiar aparece atenuado.</span>
+   > Si no ha seleccionado una solicitud primero, el icono Copiar aparece atenuado.
 
    * Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la solicitud y haga clic en **Copiar y enviar como nuevo**
 

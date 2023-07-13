@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Localizar solicitudes enviadas
 description: Obtenga información sobre las áreas de Adobe Workfront en las que puede localizar solicitudes que usted u otra persona haya enviado o solicitudes que nunca haya enviado y que se hayan guardado como borradores.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Localizar solicitudes enviadas
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Puede localizar los siguientes tipos de solicitudes que usted u otra persona ha enviado, o solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
@@ -70,7 +72,7 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado:
    >
    >No puede personalizar las columnas en la lista de solicitudes enviadas.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Las siguientes columnas se muestran de forma predeterminada:

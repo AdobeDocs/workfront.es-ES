@@ -2,14 +2,15 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Copiar un proyecto
-description: Puede copiar un proyecto en lugar de crearlo desde cero. Solo puede copiar un proyecto a la vez. No puede copiar proyectos de forma masiva.
+description: Puede copiar un proyecto en lugar de crear uno desde cero. Solo se puede copiar un proyecto a la vez. No puede copiar proyectos de forma masiva.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 5%
+source-wordcount: '764'
+ht-degree: 4%
 
 ---
 
@@ -19,18 +20,18 @@ ht-degree: 5%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-Puede copiar un proyecto en lugar de crearlo desde cero. Solo puede copiar un proyecto a la vez. No puede copiar proyectos de forma masiva.
+Puede copiar un proyecto en lugar de crear uno desde cero. Solo se puede copiar un proyecto a la vez. No puede copiar proyectos de forma masiva.
 
 >[!IMPORTANT]
 >
->Los siguientes elementos nunca se copian de un proyecto existente a uno nuevo:
+>Los siguientes elementos nunca se copian de un proyecto existente en uno nuevo:
 >
 >* Problemas
 >* Tarifas de facturación
 >* Registros de facturación
 >* Notas
 >* Horas
->* Premisores entre proyectos
+>* Predecesoras entre proyectos
 >* Horas presupuestadas
 >
 >Los siguientes elementos siempre se copian de un proyecto existente a uno nuevo:
@@ -41,9 +42,9 @@ Puede copiar un proyecto en lugar de crearlo desde cero. Solo puede copiar un pr
 >* Información de configuración de cola
 >* Portfolio y programa
 >* Tarjeta de puntuación
->* Información predeterminada de tarea (Proceso de aprobación predeterminado de tarea, Forms personalizado predeterminado de tarea)
+>* Información predeterminada de la tarea (Proceso de aprobación predeterminado de la tarea, Forms personalizado predeterminado de la tarea)
 >
-
+> Las fechas de las tareas originales de los proyectos se copian en el nuevo proyecto. Debe cambiar la fecha de inicio o finalización del proyecto (según su modo de programación) para actualizar las fechas de las tareas. Las restricciones de tareas pueden impedir que se cambien las fechas del proyecto.
 
 ## Requisitos de acceso
 
@@ -83,7 +84,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>plan de Adobe Workfront*</p> </td> 
+   <td> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -92,36 +93,36 @@ Debe tener lo siguiente:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>Editar acceso a Proyectos con capacidad de Crear <span>y Copiar</span> proyectos</p> <p><b>NOTA</b>
+   <td> <p>Editar acceso a Proyectos con capacidad de Creación <span>y Copiar</span> proyectos</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permisos de objeto</strong> </p> </td> 
-   <td> <p>Ver permisos o superiores del proyecto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Copiar un solo proyecto
 
-Al copiar un proyecto también se copia parte de la información del proyecto original al nuevo proyecto. También puede especificar qué elementos no se deben copiar en el nuevo proyecto durante el proceso de copia.
+Al copiar un proyecto también se copia parte de la información del proyecto original en el nuevo proyecto. También puede especificar qué elementos no deben copiarse al nuevo proyecto durante el proceso de copia.
 
 Para copiar un proyecto:
 
-1. Vaya al proyecto que desea copiar y haga clic en el **Más** icono ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto
+1. Vaya al proyecto que desee copiar y haga clic en **Más** icono ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe, seleccione un proyecto y, a continuación, haga clic en el **Más** icono ![](assets/qs-more-menu.png) en la parte superior de la lista.
+   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. A continuación, haga clic en **Más** icono ![](assets/qs-more-menu.png) al principio de la lista.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Haga clic en **Copiar**.
+1. Clic **Copiar**.
 
 1. Actualice el nombre del nuevo proyecto.
 
@@ -133,7 +134,7 @@ Para copiar un proyecto:
 
    De forma predeterminada, la variable **Estado** coincide con el del proyecto original.
 
-1. (Opcional) Anule la selección de los elementos que no desee copiar en el nuevo proyecto. En la tabla siguiente se describe lo que sucede al anular la selección de los elementos:
+1. (Opcional) Anule la selección de los elementos que no quiera copiar en el nuevo proyecto. En la tabla siguiente se describe lo que sucede cuando se anula la selección de los elementos:
 
 
    <table style="table-layout:auto"> 
@@ -144,19 +145,19 @@ Para copiar un proyecto:
       <td role="rowheader">Seleccionar todo</td> 
       <td> <p>Selecciona todas las opciones y borra todos los campos y objetos enumerados del nuevo proyecto.</p> <p><b>SUGERENCIA</b>
 
-   Anulación de selección <strong>Seleccionar todo</strong> anula la selección de todos los elementos. </p> </td>
+   Anulando selección <strong>Seleccionar todo</strong> anula la selección de todos los elementos. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
-      <td>Elimina todas las asignaciones de proyecto y tarea</td> 
+      <td>Quita todas las asignaciones de proyectos y tareas</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progreso</td> 
-      <td>Elimina el progreso de todas las tareas y se muestran como Nuevas. </td> 
+      <td>Quita el progreso de todas las tareas y se mostrarán como Nuevas. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datos personalizados</td> 
-      <td> <p>Quita la información del formulario personalizado del proyecto, así como la información de los formularios personalizados asociados con los siguientes elementos:</p> 
+      <td> <p>Quita la información del formulario personalizado del proyecto, así como la información de los formularios personalizados asociados a los siguientes elementos:</p> 
        <ul> 
         <li>Tareas</li> 
         <li>Gastos</li> 
@@ -167,31 +168,31 @@ Para copiar un proyecto:
    </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td> <p>Quita todo lo que aparece en la ficha documentos, incluidas las versiones de documentos, los documentos vinculados y las carpetas.</p> <p>De forma predeterminada, las pruebas y aprobaciones del documento no se pueden copiar en otro proyecto. </p> </td> 
+      <td> <p>Quita todo lo que hay en la ficha de documentos, incluidas las versiones de los documentos, los documentos vinculados y las carpetas.</p> <p>De forma predeterminada, las revisiones y aprobaciones de documentos no se pueden copiar en otro proyecto. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Todos los predecesores</td> 
-      <td> <p>Elimina todas las relaciones predecesoras entre las tareas del proyecto. </p> <p><b>SUGERENCIA</b>
+      <td role="rowheader">Todas las predecesoras</td> 
+      <td> <p>Quita todas las relaciones de predecesoras entre las tareas del proyecto. </p> <p><b>SUGERENCIA</b>
 
-   Los predecesores entre proyectos nunca se transfieren al nuevo proyecto, independientemente de si está seleccionado o no. </p> </td>
+   Las tareas predecesoras entre proyectos nunca se transfieren al nuevo proyecto, independientemente de si está seleccionado o no. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Horas presupuestadas</td> 
-      <td> <p>Quita las horas presupuestadas en el área de planificación de recursos del caso empresarial del proyecto del proyecto copiado.</p>
+      <td> <p>Quita del proyecto copiado las horas presupuestadas en el área de Planificación de recursos del caso comercial del proyecto.</p>
 
 <b>NOTA</b>
 
-Las horas presupuestadas con el planificador de escenarios nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa del planificador de escenarios. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de presupuesto en el caso empresarial con el planificador de escenarios</a>
+Las horas presupuestadas con el Scenario Planner nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa del Scenario Planner. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Presupuestar recursos en el caso empresarial con el Scenario Planner</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Información financiera</td> 
-      <td> <p>Quita la información en las siguientes áreas: </p> 
+      <td> <p>Quita la información de las áreas siguientes: </p> 
        <ul> 
         <li>Subpestaña Finanzas del proyecto</li> 
-        <li> Beneficios planificados en el caso empresarial</li> 
+        <li> Beneficio planificado en el caso comercial</li> 
         <li>Información financiera de todas las tareas<br></li> 
-       </ul> <p>Para obtener más información sobre la subpestaña Finanzas del proyecto, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área de finanzas del proyecto</a>.</p> </td> 
+       </ul> <p>Para obtener más información sobre la subpestaña Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área de finanzas del proyecto</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Proceso de aprobación</td> 
@@ -199,21 +200,21 @@ Las horas presupuestadas con el planificador de escenarios nunca se copian en el
      </tr> 
      <tr> 
       <td role="rowheader">Notificaciones de recordatorio</td> 
-      <td> Elimina las Notificaciones de recordatorio asociadas con las tareas o el proyecto. </td> 
+      <td> Quita las notificaciones de recordatorio asociadas con las tareas o el proyecto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gastos</td> 
-      <td>Elimina los gastos asociados con las tareas o el proyecto. </td> 
+      <td>Quita los gastos asociados con las tareas o el proyecto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permisos</td> 
-      <td> Elimina los permisos de todos los usuarios de las tareas o del proyecto.</td> 
+      <td> Quita los permisos a todos los usuarios de las tareas o del proyecto.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Copiar** para crear una copia del proyecto.
+1. Clic **Copiar** para crear una copia del proyecto.
 
    Esto crea un nuevo proyecto similar al proyecto que ha copiado.
 
-   Puede empezar a realizar cambios en el nuevo proyecto copiado, como revisar asignaciones de tareas o ajustar líneas de tiempo.
+   Puede empezar a realizar cambios en el nuevo proyecto copiado, como revisar asignaciones de tareas o ajustar escalas de tiempo.

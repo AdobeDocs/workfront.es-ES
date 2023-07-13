@@ -4,11 +4,13 @@ navigation-topic: create-and-manage-request-queues
 title: Crear una cola de solicitudes
 description: Puede configurar una Cola de solicitudes en la que los usuarios puedan introducir solicitudes ocasionales que no estén planificadas para trabajar en un proyecto.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
+source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2571'
 ht-degree: 2%
 
 ---
@@ -129,48 +131,47 @@ Para crear una cola de solicitudes:
 1. Especifique la siguiente información:
 
    * **Publicar como cola de solicitud de ayuda:** Seleccione esta opción para identificar este proyecto como cola de solicitudes. Todos los problemas entrantes se consideran solicitudes.\
-      Cuando esta opción no está seleccionada, el proyecto se comporta como un proyecto estándar en Workfront y todos los problemas entrantes son problemas.
+     Cuando esta opción no está seleccionada, el proyecto se comporta como un proyecto estándar en Workfront y todos los problemas entrantes son problemas.
 
    * **Quién puede agregar solicitudes a esta cola:** Seleccione los usuarios que tienen acceso para agregar solicitudes a esta cola. Puede permitir que los siguientes grupos de personas vean la cola de solicitudes en su área de solicitudes de la barra de navegación global:
 
-      | Quién puede introducir solicitudes | Descripción |
-      |---|---|
-      | Cualquiera | Cualquier usuario de Workfront con una cuenta activa puede ver esta cola de solicitudes y agregarle solicitudes |
-      | Personas con acceso de visualización en este proyecto | Los usuarios con permisos de Vista en el proyecto pueden ver y agregar solicitudes a esta cola |
-      | Personas en la compañía de este proyecto | Los usuarios que pertenecen a la compañía asociada con este proyecto pueden ver y agregar solicitudes a esta cola. Si hay una empresa asociada al proyecto, el nombre de la empresa se muestra entre paréntesis después de esta configuración. |
-      | Personas en el grupo de este proyecto | Los usuarios que pertenecen al grupo asociado a este proyecto pueden ver y agregar solicitudes a esta cola. Si hay un grupo asociado con el proyecto, el nombre del grupo se muestra entre paréntesis después de esta configuración. |
+     | Quién puede introducir solicitudes | Descripción |
+     |---|---|
+     | Cualquiera | Cualquier usuario de Workfront con una cuenta activa puede ver esta cola de solicitudes y agregarle solicitudes |
+     | Personas con acceso de visualización en este proyecto | Los usuarios con permisos de Vista en el proyecto pueden ver y agregar solicitudes a esta cola |
+     | Personas en la compañía de este proyecto | Los usuarios que pertenecen a la compañía asociada con este proyecto pueden ver y agregar solicitudes a esta cola. Si hay una empresa asociada al proyecto, el nombre de la empresa se muestra entre paréntesis después de esta configuración. |
+     | Personas en el grupo de este proyecto | Los usuarios que pertenecen al grupo asociado a este proyecto pueden ver y agregar solicitudes a esta cola. Si hay un grupo asociado con el proyecto, el nombre del grupo se muestra entre paréntesis después de esta configuración. |
 
-      {style="table-layout:auto"}
+     {style="table-layout:auto"}
 
    * **Compartir con estos vínculos:** Las siguientes opciones permiten proporcionar acceso directo a la cola de solicitudes y a los formularios asociados a ella a los usuarios fuera de Workfront o a los usuarios de Workfront que utilizan una página externa. Para obtener información sobre cómo incrustar una cola de solicitudes en un panel como página externa, consulte [Incrustar una cola de solicitudes en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
-      Los usuarios ya deben tener derechos de acceso a la cola de solicitudes para obtener acceso directo. El uso de cualquiera de las opciones descritas aquí no concede acceso automáticamente a los usuarios.
+     Los usuarios ya deben tener derechos de acceso a la cola de solicitudes para obtener acceso directo. El uso de cualquiera de las opciones descritas aquí no concede acceso automáticamente a los usuarios.
 
-      >[!TIP]
-      >
-      >Los usuarios deben iniciar sesión en Workfront antes de obtener acceso a la cola de solicitudes cuando acceden a la página Cola de solicitudes desde otra aplicación.
+     >[!TIP]
+     >
+     >Los usuarios deben iniciar sesión en Workfront antes de obtener acceso a la cola de solicitudes cuando acceden a la página Cola de solicitudes desde otra aplicación.
 
       * **URL de acceso directo:** Cuando un usuario accede a esta URL desde un explorador, se le redirige directamente a la sección Nueva solicitud del área de Solicitudes y esta solicitud se selecciona de forma predeterminada para él.
 
-         ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+        ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
-         >[!NOTE]
-         >
-         >Puede mostrar una cola de solicitudes en un panel como una página externa. En este caso, la cola de solicitudes está preseleccionada, pero puede seleccionar cualquier otra cola de solicitudes del campo Tipo de solicitud. Los usuarios de pueden cambiar el Tipo de solicitud. También se muestran los componentes de navegación de las solicitudes.
+        >[!NOTE]
+        >
+        >Puede mostrar una cola de solicitudes en un panel como una página externa. En este caso, la cola de solicitudes está preseleccionada, pero puede seleccionar cualquier otra cola de solicitudes del campo Tipo de solicitud. Los usuarios de pueden cambiar el Tipo de solicitud. También se muestran los componentes de navegación de las solicitudes.
 
       * **Código incrustado:** Utilice este código de HTML para incrustar el formulario de la cola de solicitudes como un iframe en cualquier página de HTML.\
-         Si los usuarios no están autenticados en Workfront cuando ven la página donde está incrustado el código, se muestra el cuadro de diálogo de inicio de sesión de Workfront. Cuando los usuarios inician sesión, se muestra el formulario Cola de solicitudes.
+        Si los usuarios no están autenticados en Workfront cuando ven la página donde está incrustado el código, se muestra el cuadro de diálogo de inicio de sesión de Workfront. Cuando los usuarios inician sesión, se muestra el formulario Cola de solicitudes.
 
-         ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+        >[!NOTE]
+        >
+        Al mostrar una Cola de solicitudes en un iframe, solo se muestra el formulario de solicitud, el nombre de la solicitud aparece preseleccionado y atenuado. El usuario no puede cambiar el tipo de solicitud. Los componentes de navegación del área de Solicitudes no se muestran.
 
-         >[!NOTE]
-         Al mostrar una Cola de solicitudes en un iframe, solo se muestra el formulario de solicitud, el nombre de la solicitud aparece preseleccionado y atenuado. El usuario no puede cambiar el tipo de solicitud. Los componentes de navegación del área de Solicitudes no se muestran.
+        Para que el formulario de cola de solicitudes se muestre al utilizar este código incrustado, debe habilitar la configuración &quot;Permitir incrustación de Workfront en un iframe&quot; en la configuración del sistema. Para obtener más información sobre cómo habilitar la incrustación de Workfront en un iframe, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Si esta configuración no está habilitada, el iframe se muestra en blanco.
 
-         Para que el formulario de cola de solicitudes se muestre al utilizar este código incrustado, debe habilitar la configuración &quot;Permitir incrustación de Workfront en un iframe&quot; en la configuración del sistema. Para obtener más información sobre cómo habilitar la incrustación de Workfront en un iframe, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Si esta configuración no está habilitada, el iframe se muestra en blanco.
+        Puede ajustar varios aspectos de cómo se muestra el formulario incrustado de la siguiente manera:
 
-         Puede ajustar varios aspectos de cómo se muestra el formulario incrustado de la siguiente manera:
-
-         <table border="1" cellspacing="15"> 
+        <table border="1" cellspacing="15"> 
          <col> 
          <col> 
          <thead> 
@@ -198,24 +199,27 @@ Para crear una cola de solicitudes:
           </tr> 
          </tbody> 
         </table>
+
    * **Tipos de solicitudes:** Seleccione una de las opciones predeterminadas siguientes.
 
-      El administrador de Workfront puede cambiar el nombre de los tipos de solicitud predeterminados. Para obtener más información sobre cómo cambiar el nombre de los tipos de solicitud, consulte [Personalizar tipos de problemas predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+     El administrador de Workfront puede cambiar el nombre de los tipos de solicitud predeterminados. Para obtener más información sobre cómo cambiar el nombre de los tipos de solicitud, consulte [Personalizar tipos de problemas predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Cambiar orden
+      * Informe de errores
+      * Solicitud de cambio
       * Problema
-      * Solicitudes
-      * Riesgo
+      * Solicitud
 
-         Este campo es obligatorio y debe seleccionar al menos una opción.
-      >[!NOTE]
-      Los tipos de solicitud se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información sobre cómo configurar el área Detalles de cola de un proyecto, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+        Este campo es obligatorio y debe seleccionar al menos una opción.
 
-      Cada tipo seleccionado aquí estará disponible en el formulario (puede seleccionar más de uno). Seleccionar más de un tipo puede ayudar a organizar las solicitudes que se reciben.\
-      Por ejemplo, si utiliza el formulario en una cola de solicitudes para un proyecto de TI, pueden aparecer en la cola los siguientes tipos de solicitudes: hardware, software, correcciones de errores y problemas.
+     >[!NOTE]
+     >
+     Los tipos de solicitud se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información sobre cómo configurar el área Detalles de cola de un proyecto, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+     Cada tipo seleccionado aquí estará disponible en el formulario (puede seleccionar más de uno). Seleccionar más de un tipo puede ayudar a organizar las solicitudes que se reciben.\
+     Por ejemplo, si utiliza el formulario en una cola de solicitudes para un proyecto de TI, pueden aparecer en la cola los siguientes tipos de solicitudes: hardware, software, correcciones de errores y problemas.
 
    * **Duración predeterminada:** La duración predeterminada es el tiempo que se tarda normalmente en completar un problema. Esto se convierte en el valor predeterminado para todos los problemas entrantes y se puede modificar manualmente. La duración suele establecerse en horas, días o semanas. La duración predeterminada de un problema es la misma que las horas planificadas para el mismo. La fecha planificada de finalización del problema se calcula según este campo.\
-      El valor predeterminado para la duración del problema es de 1 día u 8 horas. Si el administrador de Workfront establece las horas típicas por día laborable en menos de 8 horas, la duración predeterminada de los problemas sigue siendo de 8 horas. Por ejemplo, si el valor de Horas habituales por día laborable es de 7 horas, el valor de Duración predeterminada para los problemas es de 1,14 días u 8 horas. Para obtener más información sobre cómo configurar el sistema Horas habituales por día laborable, consulte la sección &quot;Cálculos de cronología&quot; en el artículo [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     El valor predeterminado para la duración del problema es de 1 día u 8 horas. Si el administrador de Workfront establece las horas típicas por día laborable en menos de 8 horas, la duración predeterminada de los problemas sigue siendo de 8 horas. Por ejemplo, si el valor de Horas habituales por día laborable es de 7 horas, el valor de Duración predeterminada para los problemas es de 1,14 días u 8 horas. Para obtener más información sobre cómo configurar el sistema Horas habituales por día laborable, consulte la sección &quot;Cálculos de cronología&quot; en el artículo [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **Las personas de la misma compañía heredarán los mismos permisos en todas las solicitudes.:** Cuando se seleccionan, todas las solicitudes enviadas a la cola son visibles para los usuarios de la misma compañía. Los usuarios pueden ver estas solicitudes en la sección Todas las solicitudes , ubicada dentro del área Solicitudes. En el momento en que esta configuración está habilitada o deshabilitada, afecta a todas las solicitudes futuras; no afecta de forma retroactiva a la información.
    * **Cuando alguien realice una solicitud, conceder automáticamente:** Cuando un usuario realiza una solicitud a la cola de solicitudes, se le concede automáticamente el nivel de permiso que elija para acceder a esa solicitud. Seleccione entre los siguientes niveles de permisos:
@@ -223,37 +227,42 @@ Para crear una cola de solicitudes:
       * **Vista**
       * **Aportar**. Esta es la selección predeterminada.
       * **Administrar**
-      Para obtener información sobre el modelo de permisos de Workfront, consulte [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
-      Al establecer permisos aquí se ahorra tiempo, en lugar de tener que conceder permisos para cada solicitud entrante individual. Elegir esta opción afecta a todas las solicitudes futuras, pero no tiene un impacto retroactivo en las solicitudes existentes.
+
+     Para obtener información sobre el modelo de permisos de Workfront, consulte [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
+     Al establecer permisos aquí se ahorra tiempo, en lugar de tener que conceder permisos para cada solicitud entrante individual. Elegir esta opción afecta a todas las solicitudes futuras, pero no tiene un impacto retroactivo en las solicitudes existentes.
 
    * **Aprobación predeterminada**: Asocie un proceso de aprobación a esta cola de solicitudes. En este menú desplegable solo están visibles los procesos de aprobación de problemas. Todos los problemas enviados a esta cola se asociarán con este proceso de aprobación. El administrador de Workfront debe definir los procesos de aprobación en el nivel de sistema antes de poder asociarlos a colas de solicitudes. Los usuarios con acceso administrativo a los procesos de aprobación también pueden crear procesos de aprobación específicos del grupo.
 
-      >[!IMPORTANT]
-      Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo adjunto a los problemas existentes se convierte en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte [Cómo afectan los cambios en los procesos de aprobación y de grupo a los procesos de aprobación asignados](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >[!IMPORTANT]
+     >
+     Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo adjunto a los problemas existentes se convierte en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte [Cómo afectan los cambios en los procesos de aprobación y de grupo a los procesos de aprobación asignados](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
-      Si tiene varios temas de colas asociados a una cola de solicitudes, le recomendamos que asocie procesos de aprobación a los temas de colas. Para obtener más información sobre la creación de temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     Si tiene varios temas de colas asociados a una cola de solicitudes, le recomendamos que asocie procesos de aprobación a los temas de colas. Para obtener más información sobre la creación de temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-      Tenga en cuenta lo siguiente al agregar procesos de aprobación a las colas de solicitud:
+     Tenga en cuenta lo siguiente al agregar procesos de aprobación a las colas de solicitud:
 
       * En la lista solo se muestran los procesos de aprobación activos.
       * Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.
+
    * **Ruta predeterminada**: Asociar una regla de enrutamiento a esta cola de solicitudes. Utilice Reglas de enrutamiento para asignar automáticamente los nuevos problemas enviados a una cola de solicitudes al recurso correcto (usuario, rol o equipo) y al proyecto correcto. Todos los problemas enviados a esta cola se asociarán con esta regla de enrutamiento. Debe configurar las reglas de enrutamiento para poder asociarlas a la cola de solicitudes.\
-      Si tiene varios temas de colas asociados a una cola de solicitudes, le recomendamos que asocie las reglas de enrutamiento a los temas de colas. Para obtener más información sobre la creación de reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+     Si tiene varios temas de colas asociados a una cola de solicitudes, le recomendamos que asocie las reglas de enrutamiento a los temas de colas. Para obtener más información sobre la creación de reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
    * **Nuevos campos de problema:** En la sección Mostrar los siguientes campos seleccionados a todos los usuarios, seleccione los campos que desee que sean visibles para todos los usuarios que envíen una solicitud al proyecto o que agreguen un problema al proyecto o a las tareas.
 
-      >[!TIP]
-      Nuevos campos de problema seleccionados en la sección Detalles de cola también están asociados a cualquier problema nuevo agregado al proyecto o a las tareas de la sección Problemas.
+     >[!TIP]
+     >
+     Nuevos campos de problema seleccionados en la sección Detalles de cola también están asociados a cualquier problema nuevo agregado al proyecto o a las tareas de la sección Problemas.
 
-      Al habilitar cualquiera de los campos Asignado a, Rol de trabajo o Equipo, siempre se les cambia el nombre a Asignaciones en el formulario de solicitud, pero solo puede especificar el tipo de asignación seleccionada aquí.
+     Al habilitar cualquiera de los campos Asignado a, Rol de trabajo o Equipo, siempre se les cambia el nombre a Asignaciones en el formulario de solicitud, pero solo puede especificar el tipo de asignación seleccionada aquí.
 
-      >[!NOTE]
-      Si ha seleccionado Asignado a en el área Detalles de Cola, solo puede introducir usuarios en el campo Asignaciones del formulario de solicitud. En este caso, no puede introducir funciones ni un equipo.
+     >[!NOTE]
+     >
+     Si ha seleccionado Asignado a en el área Detalles de Cola, solo puede introducir usuarios en el campo Asignaciones del formulario de solicitud. En este caso, no puede introducir funciones ni un equipo.
 
 
    * **Documentos**: si selecciona mostrar la sección Documentos en el nuevo formulario de solicitud, seleccione dónde se debe colocar la sección de carga de documentos. Seleccione una de las siguientes opciones:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -268,27 +277,26 @@ Para crear una cola de solicitudes:
       </tbody> 
      </table>
 
-      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
+     ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
    * **Mostrar todos los campos seleccionados y no seleccionados a:** Seleccione qué usuarios desea ver todos los campos del formulario. Las siguientes opciones controlan el acceso a los campos del formulario.
 
-      | Qué usuarios pueden ver todos los campos del formulario de solicitud | Descripción |
-      |---|---| 
-      | Todos los usuarios (licencias de planificación) | Todos los usuarios que tengan una licencia de planificación pueden ver los campos seleccionados y los no seleccionados. |
-      | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia de planificación que también tengan derechos de visualización sobre este proyecto pueden ver los campos seleccionados y los no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto pueden ver solo los campos seleccionados. |
-      | Ningún usuario | Ningún usuario puede ver los campos no seleccionados. Todos los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
+     | Qué usuarios pueden ver todos los campos del formulario de solicitud | Descripción |
+     |---|---| 
+     | Todos los usuarios (licencias de planificación) | Todos los usuarios que tengan una licencia de planificación pueden ver los campos seleccionados y los no seleccionados. |
+     | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia de planificación que también tengan derechos de visualización sobre este proyecto pueden ver los campos seleccionados y los no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto pueden ver solo los campos seleccionados. |
+     | Ningún usuario | Ningún usuario puede ver los campos no seleccionados. Todos los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
 
    * **Forms personalizado**: seleccione un formulario personalizado para asociarlo a la cola de solicitudes. En este menú desplegable solo está disponible la opción Problema con Forms personalizado. Todos los problemas enviados a la cola de solicitudes tendrán los formularios seleccionados asociados a ellos.\
-      Si tiene varios temas de la cola asociados a una cola de solicitudes, le recomendamos que asocie formularios personalizados a los temas de la cola en su lugar. Para obtener más información sobre la creación de subsecciones para la cola de solicitudes, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     Si tiene varios temas de la cola asociados a una cola de solicitudes, le recomendamos que asocie formularios personalizados a los temas de la cola en su lugar. Para obtener más información sobre la creación de subsecciones para la cola de solicitudes, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-      Si tiene varios formularios personalizados asociados a la cola de solicitudes, arrastre y suelte los formularios para ordenarlos en el orden deseado, en la **Reordenar Forms** sección.
+     ![](assets/custom-forms-on-queue-details.png)
 
-      >[!TIP]
-      Los formularios personalizados agregados a la sección Detalles de cola también están asociados con cualquier problema nuevo agregado al proyecto o a las tareas de la sección Problemas.
+     Si tiene varios formularios personalizados asociados a la cola de solicitudes, arrastre y suelte los formularios para ordenarlos en el orden deseado, en la **Reordenar Forms** sección.
 
-
-
-
+     >[!TIP]
+     >
+     Los formularios personalizados agregados a la sección Detalles de cola también están asociados con cualquier problema nuevo agregado al proyecto o a las tareas de la sección Problemas.
 
 1. Continúe seleccionando información para la configuración en **Configuración de cola de correo electrónico** , para permitir que los usuarios envíen solicitudes por correo electrónico al proyecto de cola de solicitudes.
 
