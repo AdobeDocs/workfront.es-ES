@@ -1,25 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Programación de versiones y asistencia de API
-description: Programación de versiones y asistencia de API
+title: Versiones de API y programación de asistencia
+description: Versiones de API y programación de asistencia
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 11%
 
 ---
 
-# Programación de versiones y asistencia de API
+# Versiones de API y programación de asistencia
 
 
 
-Adobe Workfront publica regularmente nuevas versiones de API, normalmente dos veces al año. Las versiones de API son compatibles durante los 3 años posteriores al lanzamiento. Ya no se admiten las versiones de API anteriores a 3 años.
+Adobe Workfront publica regularmente nuevas versiones de la API, generalmente dos veces al año. Las versiones de API son compatibles durante 3 años después del lanzamiento. Ya no se admiten las versiones de API anteriores a 3 años.
 
-La tabla siguiente muestra la programación de versiones y asistencia para la API de Workfront.
+La siguiente tabla muestra la programación de versiones y soporte de la API de Workfront.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,11 +29,11 @@ La tabla siguiente muestra la programación de versiones y asistencia para la AP
   <tr> 
    <th><strong>Versión</strong> </th> 
    <th><strong>Versión</strong> </th> 
-   <th><strong>*No admitido</strong> </th> 
+   <th><strong>*No compatible</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
+   <td>16</td> 
    <td> <p>Abril de 2023</p> <p>(con la versión 23.2)</p> </td> 
    <td> <p>**durante 2026</p> <p>(con la versión 26.2)</p> </td> 
   </tr> 
@@ -125,7 +125,7 @@ La tabla siguiente muestra la programación de versiones y asistencia para la AP
  </tbody> 
 </table>
 
-&#42;Workfront no solucionará los problemas relacionados con las versiones no compatibles de la API.
+&#42;Workfront no solucionará los problemas relacionados con versiones no compatibles de la API.
 
 &#42;&#42;Fechas sujetas a cambios.
 
