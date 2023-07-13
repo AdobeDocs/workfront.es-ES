@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                             <li>
                                 <p>Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3</p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.4<br>
-                                <span style="color: #ff0000;"> La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa el 30 de junio de 2023.</span></p>
+                                <span style="color: #ff0000;"> La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
