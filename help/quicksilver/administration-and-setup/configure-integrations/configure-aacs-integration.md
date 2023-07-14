@@ -5,7 +5,7 @@ title: Integraciones de Adobe Experience Manager Assets
 description: Puede conectar su trabajo con las siguientes integraciones de recursos de Adobe Experience Manager.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]di
 * Seguimiento de metadatos para recursos y carpetas
 * Sincronizar metadatos de proyecto entre [!DNL Workfront] y [!DNL Experience Manager Assets]
 
-También puede conectar varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.
+>[!NOTE]
+>
+>También puede conectar varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.
 
 ## Requisitos de acceso
 
@@ -165,7 +167,6 @@ Puede asignar campos de Workfront integrados y personalizados a Experience Manag
 > * Configuración > Forms personalizado en Workfront o el campo en el objeto
 > * Recursos > Esquemas de metadatos en Experience Manager Assets
 
-
 +++
 
 ### Asignar metadatos a los recursos
@@ -181,7 +182,6 @@ Para asignar metadatos a los recursos:
    >
    >Puede asignar un solo [!DNL Workfront] campo a múltiple [!UICONTROL Experience Manager Assets] campos. No se pueden asignar varios [!DNL Workfront] campos a un único [!DNL Experience Manager Assets] field.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. En el [!DNL Experience Manager Assets] , busque en las categorías previamente completadas o escriba al menos dos letras en el campo de búsqueda para acceder a categorías adicionales.
 1. Repita los pasos 2 y 3 según sea necesario.
