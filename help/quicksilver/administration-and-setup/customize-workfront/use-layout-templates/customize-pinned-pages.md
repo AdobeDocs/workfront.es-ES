@@ -1,31 +1,33 @@
 ---
-title: Personalización de páginas ancladas mediante una plantilla de diseño
+title: Personalización de páginas ancladas con una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: En una plantilla de diseño, puede fijar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a ellas mediante el menú principal o los paneles.
-author: Caroline
+description: En una plantilla de diseño, puede fijar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Pueden ser páginas a las que se accede mediante el menú principal o paneles.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-# Personalización de páginas ancladas mediante una plantilla de diseño
+# Personalización de páginas ancladas con una plantilla de diseño
 
-En una plantilla de diseño, puede fijar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a estas páginas a través del menú principal ![](assets/main-menu-icon.png) o tableros.
+En una plantilla de diseño, puede fijar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a estas páginas a través del menú principal ![](assets/main-menu-icon.png) o paneles.
 
-Los pines que los usuarios hayan agregado por su cuenta se muestran a la derecha de los pines agregados en la plantilla de diseño.
+Todos los anclajes que los usuarios hayan añadido por su cuenta se mostrarán a la derecha de los anclajes que agregue en la plantilla de diseño.
 
-Para obtener más información sobre cómo fijar páginas, consulte [Anclar páginas para personalizar el espacio de trabajo](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+Para obtener más información sobre cómo anclar páginas, consulte [Anclar páginas para personalizar el espacio de trabajo](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 Para obtener más información sobre las plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -45,34 +47,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Para realizar estos pasos a nivel de sistema, necesita el nivel de acceso del administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de dicho grupo.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
+Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Incrustar páginas mediante una plantilla de diseño
+## Anclar páginas mediante una plantilla de diseño
 
-1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En **Área de navegación superior**, haga clic en **Añadir nuevo pin**.
+1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. En **Área de navegación superior**, haga clic en **Añadir pin nuevo**.
 
 1. En el menú desplegable que aparece, realice una de las acciones siguientes:
 
    * Haga clic en un elemento del menú principal.
 
-      >[!IMPORTANT]
-      >
-      >Para ver las áreas Escenarios y Objetivos se necesitan licencias adicionales. Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre los objetivos de Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) o para obtener información sobre el planificador de escenarios de Workfront, consulte [Información general del planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >Para ver las áreas de Escenarios y Objetivos se requieren licencias adicionales. Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md) o para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
-   * Haga clic en **Agregar un tablero** y, a continuación, escriba un **Título de sección personalizado** y añada el tablero.
+   * Clic **Agregar un panel** y, a continuación, escriba un **Título de sección personalizada** y agregue el tablero.
 
 1. Repita el paso anterior para fijar cualquier otra página.
 
-1. (Opcional) Para cambiar el nombre de un pin, pase el ratón sobre él, haga clic en la flecha situada junto al nombre del pin y seleccione **Cambiar nombre de pin**. Escriba el nuevo nombre del pin y haga clic en el icono de marca de verificación o pulse Intro.
+1. (Opcional) Para cambiar el nombre de un pin, pase el ratón sobre él, haga clic en la flecha situada junto al nombre del pin y seleccione **Cambiar nombre de anclaje**. Escriba el nuevo nombre del pin y haga clic en el icono de marca de verificación o pulse Intro.
 
-   Después de hacer clic en la marca de verificación o pulsar Intro, aparece una pequeña ventana emergente durante varios segundos, lo que permite deshacer el cambio del nombre del pin antes de guardarlo.
+   Una pequeña ventana emergente aparece durante varios segundos después de hacer clic en la marca de verificación o pulsar Intro, lo que le permite deshacer el cambio de nombre del pin antes de guardarlo.
 
-1. Continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño.
 
    O
 
@@ -80,4 +82,4 @@ Para realizarlos para un grupo, debe ser administrador de dicho grupo.</p> <p><b
 
    >[!TIP]
    >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso, siga modificando la plantilla más adelante.
+   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y, a continuación, continúe modificando la plantilla más adelante.

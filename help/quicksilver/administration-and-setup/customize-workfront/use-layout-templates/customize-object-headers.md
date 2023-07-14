@@ -3,30 +3,33 @@ title: Personalización de encabezados de objeto mediante una plantilla de dise�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Como administrador de Adobe Workfront o de grupo , puede utilizar una plantilla de diseño para configurar los campos que los usuarios ven en el encabezado del objeto cuando abren la página de un objeto.
-author: Caroline
+description: Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar los campos que ven los usuarios en el encabezado del objeto cuando abren la página de un objeto.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Personalización de encabezados de objeto mediante una plantilla de diseño
 
-Como administrador de Adobe Workfront o de grupo, puede utilizar una plantilla de diseño para configurar los campos que los usuarios ven en el encabezado del objeto cuando abren la página de un objeto.
+Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar los campos que ven los usuarios en el encabezado del objeto cuando abren la página de un objeto.
 
 >[!IMPORTANT]
 >
->La personalización de encabezados de objeto está disponible actualmente para proyectos, tareas y problemas.
-
-
-Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+>Actualmente, la personalización de encabezados de objeto está disponible para proyectos, tareas y problemas.
 
 ![](assets/object-header-fields.png)
+
+Para obtener información sobre la creación de plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -49,52 +52,51 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr>
    <td><strong>Configuraciones de nivel de acceso</strong>
    </td>
-   <td>Debe ser administrador de Workfront o de grupo.
+   <td>Debe ser administrador de Workfront o de un grupo.
 <p>
    </td>
   </tr>
 </table>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Personalizar encabezados de objeto
 
-1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Creación y administración de plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En el **Personalización de lo que ven los usuarios** menú desplegable, seleccione **Proyectos**, **Tareas** o **Problemas**.
+1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. En el **Personalizar lo que ven los usuarios** menú desplegable, seleccione **Proyectos**, **Tareas** o **Problemas**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
 1. En el [!UICONTROL Campos de encabezado] , pase el ratón sobre los campos mostrados y realice una de las siguientes acciones:
-   * Haga clic en el **x** icono para quitar un campo
+   * Haga clic en **x** icono para quitar un campo
 
-      O
+     O
 
-   * Haga clic y mantenga presionada la tecla **take** para arrastrar y soltar el campo en una nueva ubicación.
+   * Haga clic y mantenga presionado el botón **agarrar** para arrastrar y soltar el campo en una nueva ubicación.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
    ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
-1. Puede tener hasta cinco campos en el encabezado de un objeto.
-Si ya tiene cinco campos seleccionados, debe quitar un campo antes de agregar uno nuevo.
-1. En el **Añadir campo** , empiece a escribir el nombre de un campo Workfront no editable que desee agregar y, a continuación, selecciónelo cuando aparezca en la lista. El campo se agrega a la derecha inmediata del cuadro Agregar campo y se muestra como el primer campo en la esquina superior izquierda del encabezado del objeto.
+1. Se pueden incluir hasta cinco campos en el encabezado de un objeto.
+Si ya tiene cinco campos seleccionados, debe quitar un campo para poder agregar uno nuevo.
+1. En el **Añadir campo** , empiece a escribir el nombre de un campo de Workfront no editable que desee agregar y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Agregar campo y se muestra como el primer campo en la esquina superior izquierda del encabezado del objeto.
 
    >[!TIP]
    >
-   >* Solo se pueden añadir campos que se muestren en el área Información general de la sección Detalles del objeto y que no se puedan editar. Los campos no editables son campos que los usuarios no pueden editar manualmente. Workfront los calcula automáticamente.
+   >* Solo puede añadir campos que se muestren en el área de Información general de la sección Detalles del objeto y que no se puedan editar. Los campos no editables son campos que los usuarios no pueden editar manualmente. Workfront los calcula automáticamente.
    >
    >* Puede agregar campos editables que ya formen parte de los encabezados predeterminados (por ejemplo, Propietario del proyecto, Estado, Porcentaje completado, Asignaciones).
    >
-   >* Cuando agrega el campo &quot;Resuelto por&quot; al encabezado de un problema, el campo cambia a &quot;Resolver problema, tarea o proyecto&quot;, cuando hay un objeto de resolución asociado al problema.
-
+   >* Cuando agrega el campo &quot;Resuelto por&quot; al encabezado de un problema, el campo cambia a &quot;Resolviendo problema, tarea o proyecto&quot;, cuando hay un objeto de resolución asociado al problema.
 
 
    ![](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Opcional) Arrastre y suelte los campos añadidos en un orden diferente.
+1. (Opcional) Arrastre y suelte los campos agregados en un orden diferente.
 
-1. Continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño.
 
    O
 
@@ -102,4 +104,4 @@ Si ya tiene cinco campos seleccionados, debe quitar un campo antes de agregar un
 
    >[!TIP]
    >
-   >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más tarde.
+   >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y seguir modificando la plantilla más adelante.

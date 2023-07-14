@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Este artículo describe cómo crear una cola de solicitudes a partir de un proye
 ## Crear una cola de solicitudes
 
 Al configurar un proyecto como Cola de solicitudes, el estado del proyecto debe ser Actual para que se muestre en el área Solicitudes de Workfront.
+
+>[!TIP]
+>
+>Es posible que el administrador de su Workfront o de su grupo le asigne una plantilla de diseño personalizada que no incluya algunas de las secciones descritas en los pasos siguientes.
+
 
 Para crear una cola de solicitudes:
 

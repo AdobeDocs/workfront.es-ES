@@ -5,9 +5,9 @@ title: Glosario de [!DNL Adobe Workfront] terminología
 description: El [!DNL Adobe Workfront] En el glosario se enumeran los términos más utilizados en Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Alineación estratégica]</td> 
    <td>Medir y alinear los objetivos de la compañía en portafolios y programas.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Se utiliza en las columnas del informe al utilizar la interfaz de modo de texto. </p>
+   <p>El <code>[!UICONTROL stretch]</code> se utiliza para identificar qué columnas ocupan espacio adicional que la vista no necesita. La anchura de la interfaz de usuario del espacio de trabajo de un usuario típico es de unos 850 píxeles. Esto significa que si tiene una vista con cuatro columnas (150 píxeles cada una), esa vista ocupará 600 de 850 píxeles. Hay 250 píxeles adicionales en la interfaz de usuario que se añadirán a las columnas que tengan un porcentaje de ampliación proporcionado. </p>
+   <p>La ampliación de una columna se impone cuando se utiliza la línea de código adicional: <code>[!UICONTROL usewidths=true]</code> para al menos una de las columnas de la vista. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Suscriptores]</td> 
    <td> <p>Usuarios que se suscriben a Proyectos, Tareas o Problemas.</p> <p>Cuando se utiliza este campo en un informe, se muestra una lista de suscriptores, cada uno de los cuales está separado por una coma.</p> <p>Para obtener más información, consulte el artículo <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Suscribirse a elementos en [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Vistas de este año]</td> 
    <td>En una lista de informes, muestra el número de veces que se ha visto el informe durante este año.<br>Para obtener más información sobre el uso de la información en las listas de informes, consulte el artículo <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Ver uso del informe</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> En un informe, cuando se utiliza la interfaz [!UICONTROL Text Mode], la línea de código en la que se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo, aunque según el tipo de campo y el formato, puede que desee realizar ajustes.
+Debe utilizar el adicional <code>[!UICONTROL usewidths=true]</code> línea de código para exigir el ancho especificado para la columna. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>En un informe de proyecto, tarea o problema, el uso de la siguiente instrucción en modo de texto muestra las horas planificadas del proyecto, tarea o problema:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Para obtener información sobre el uso del modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Resumen de sintaxis de modo de texto</a>. </p> 
    <p><b>SUGERENCIA</b> 
    <p>En un informe de problemas, al agregar uno de los campos [!UICONTROL Horas planificadas], se agrega el campo <code>work </code>al informe. </p> </td> 
@@ -2396,7 +2416,10 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>En un informe de proyecto, tarea o problema, el uso de la siguiente instrucción en modo de texto muestra el número de horas planificadas del proyecto, tarea o problema seguido de la palabra "Horas":</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Para obtener información sobre el uso del modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Resumen de sintaxis de modo de texto</a>. </p> </td> 
   </tr> 
  </tbody> 

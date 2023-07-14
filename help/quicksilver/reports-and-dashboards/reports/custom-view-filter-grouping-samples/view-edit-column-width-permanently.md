@@ -7,9 +7,9 @@ description: Puede modificar temporalmente el ancho de las columnas arrastrando 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 >[!IMPORTANT]
 >
 >Si modifica manualmente la anchura de una columna como se describe en la sección &quot;Modificación temporal de la anchura y el orden de las columnas&quot; del artículo [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) después de modificar permanentemente el ancho de la columna, el ancho de la columna se conserva según el cambio de tamaño manual y el ancho de la columna se actualiza según los pasos siguientes. Puede ver la columna según el ancho definido en los pasos siguientes después de borrar la caché o iniciar sesión desde otro explorador.
+>
+>Para obtener información adicional sobre cómo personalizar el ancho de las columnas al utilizar la interfaz del Modo de texto, consulte las definiciones de &quot;ancho&quot; y &quot;ampliación&quot; en la [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ir a una lista de objetos.
 1. Desde el **Ver** , haga clic en **Nueva vista**.
@@ -79,3 +81,5 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    Para el **anchura** , especifique cualquier número (en píxeles) que represente el ancho que desea que muestre la columna en la vista.
 
 1. Clic **Guardar**, entonces **Guardar vista**.
+
+
