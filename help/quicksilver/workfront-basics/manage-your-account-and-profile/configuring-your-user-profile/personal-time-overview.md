@@ -7,9 +7,9 @@ description: Adobe Workfront no está diseñado para replicar o reemplazar sus s
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configuración del tiempo libre personal en [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O bien (si está disponible), haga clic en la imagen de perfil en el área de navegación superior y, a continuación, haga clic en **[!UICONTROL Perfil de Workfront]**.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Tiempo libre]**.
 1. Seleccione la fecha que desee para sus vacaciones personales.
 1. Seleccionar **[!UICONTROL Todo el día]**, si se toma un día libre completo.\

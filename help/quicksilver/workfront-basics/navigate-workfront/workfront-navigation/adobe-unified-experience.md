@@ -6,9 +6,9 @@ description: Acceso [!DNL Workfront] a través de Adobe Experience Cloud le ofre
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
+source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ Su contraseña no se administra en [!DNL Workfront].
 
 Si su organización utiliza una aplicación independiente para administrar contraseñas, deberá cambiar la contraseña a través de ese proveedor.
 
-Si administra la contraseña [!DNL Adobe], puede [cambiar la contraseña en su cuenta de Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+Si administra la contraseña [!DNL Adobe], puede cambiar la contraseña en su cuenta de Adobe.
+
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
