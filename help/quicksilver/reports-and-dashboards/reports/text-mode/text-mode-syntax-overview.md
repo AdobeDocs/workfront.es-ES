@@ -5,10 +5,11 @@ title: Resumen de sintaxis de modo de texto
 description: Puede utilizar la interfaz de modo de texto para crear vistas, filtros, agrupaciones y peticiones de datos personalizadas más complejos en listas e informes. Con el modo de texto, puede acceder a campos y sus atributos que no están disponibles en la interfaz del modo estándar.
 author: Nolan
 feature: Reports and Dashboards
+role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -37,25 +38,22 @@ Las siguientes son directrices comunes al crear cualquier elemento de lista o in
    * Puede mostrar en una vista un objeto que esté a tres objetos del objeto de informe o lista.
    * No se puede hacer referencia a objetos que estén más de 2 objetos lejos del objeto principal en una agrupación, filtro o petición de datos personalizada.
 
-   **Ejemplo:** Puede mostrar el nombre o el GUID del Propietario del Portfolio en una vista de tareas:
+  **Ejemplo:** Puede mostrar el nombre o el GUID del Propietario del Portfolio en una vista de tareas:
 
-   ```
-   valuefield=project:portfolio:ownerID
-   ```
 
-   No se puede agrupar, filtrar ni preguntar al Propietario del Portfolio en una vista de tareas:
+  `valuefield=project:portfolio:ownerID`
 
-   ```
-   project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
-   ```
+  No se puede agrupar, filtrar ni preguntar al Propietario del Portfolio en una vista de tareas:
 
-   En estos ejemplos, el ID de propietario del Portfolio está a tres objetos del objeto de la lista.
+  `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-   Para obtener información sobre la jerarquía de objetos en Workfront, consulte:
+
+  En estos ejemplos, el ID de propietario del Portfolio está a tres objetos del objeto de la lista.
+
+  Para obtener información sobre la jerarquía de objetos en Workfront, consulte:
 
    * [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [Explorador de API](../../../wf-api/general/api-explorer.md)
-
 
 * Utilice caracteres comodín siempre que sea posible para que los informes y las listas sean más dinámicos y evitar duplicarlos para distintos usuarios y líneas de tiempo similares.
 
@@ -63,9 +61,7 @@ Las siguientes son directrices comunes al crear cualquier elemento de lista o in
 
 Cuando se hace referencia a campos de Workfront o a sus atributos en el modo de texto, Workfront requiere que escriba sus nombres en minúscula. En este caso, los campos de un solo nombre se escriben en minúsculas. Los campos compuestos se escriben según el siguiente patrón:
 
-```
-camelCaseSyntax
-```
+`camelCaseSyntax`
 
 >[!IMPORTANT]
 >
@@ -79,11 +75,7 @@ Las características de la caja de camello son:
 
 **Ejemplo:** Para hacer referencia a la fecha real de finalización de un proyecto, el nombre del campo que utilizaría al crear elementos de informes de modo de texto es
 
-```
-actualCompletionDate
-```
-
-.
+`actualCompletionDate`
 
 ## Sintaxis del modo de texto para varios elementos de informes
 
@@ -91,14 +83,14 @@ Existen las siguientes similitudes entre la sintaxis de los conjuntos de element
 
 * Las líneas de código y sintaxis son similares para vistas y agrupaciones.
 
-   Para obtener información sobre las líneas clave de los códigos para vistas y agrupaciones al crearlos en modo texto, consulte:
+  Para obtener información sobre las líneas clave de los códigos para vistas y agrupaciones al crearlos en modo texto, consulte:
 
    * [Edición de una vista mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Editar modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Las líneas de código y sintaxis son similares para los filtros y las peticiones de datos personalizadas.
 
-   Para obtener más información, consulte:
+  Para obtener más información, consulte:
 
    * [Edición de un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -112,22 +104,17 @@ Para obtener información sobre la creación de vistas y agrupaciones, consulte 
 * [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-La línea de código más importante para una vista o una agrupación es la línea que identifica el objeto al que se hace referencia en la columna o la agrupación de la vista. Dependiendo de si este campo es una referencia directa a un campo de base de datos de Workfront o un cálculo entre varios campos, la línea de código puede comenzar por
+La línea de código más importante para una vista o una agrupación es la línea que identifica el objeto al que se hace referencia en la columna o la agrupación de la vista. Dependiendo de si este campo es una referencia directa a un campo de base de datos de Workfront o un cálculo entre varios campos, la línea de código puede comenzar por `valuefield` o `valueexpression`
 
-```
-valuefield
-```
+En la tabla siguiente se enumeran las líneas de códigos más comunes de una vista o agrupación:
 
-o
-
-```
-valueexpression
-```
-
-.
-
-* [Resumen de sintaxis de campo de valor para vistas y agrupaciones](#valuefield-syntax-overview-for-views-and-groupings)
-* [Resumen de sintaxis de expresiones de valor para vistas y agrupaciones](#valueexpression-syntax-overview-for-views-and-groupings)
+| Línea de código | Descripción |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| `valuefield` | Identifica el objeto al que se hace referencia en la columna de la vista o en la agrupación. Es una referencia directa al objeto al que se hace referencia. |
+| `valueexpression` | Identifica el objeto al que se hace referencia en la columna de la vista o en la agrupación. Es un cálculo entre varios campos. |
+| `valueformat` | Identifica el formato en el que Workfront devuelve el valor especificado en el campo de valor o en las líneas de expresión de valor. |
+| `width` | Identifica el ancho de una columna en píxeles. |
+| `stretch` | Identifica qué columnas ocupan espacio adicional que la vista no necesita. |
 
 >[!TIP]
 >
@@ -135,93 +122,48 @@ valueexpression
 >
 >  Para agrupar por nombre de proyecto en una lista de proyectos o un informe, utilice la línea siguiente para la agrupación de primer nivel:
 >
+>  `group.0.valuefield=name`
 >  
-```>
->  group.0.valuefield=name
->  ```>
->* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
+>* Si edita varias columnas en una vista de la misma columna (como en el caso de las columnas compartidas), recuerde que cada línea de código de cada columna comienza con el número de columna.
 >
->  
-Use the following format to identify the first column of a view: 
+>  Utilice el siguiente formato para identificar la primera columna de una vista:
 >
+>  `column.0.valuefield=name`
 >  
-```>
->  column.0.valuefield=name
->  ```>
->  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
+>  Para obtener información sobre cómo compartir columnas, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
+#### `Valuefield` información general sobre sintaxis para vistas y agrupaciones
 
-
-```
-Valuefield
-```
-
-información general sobre sintaxis para vistas y agrupaciones {#valuefield-syntax-overview-for-views-and-groupings}
-
-```
-Valuefield=
-```
-
-es una línea clave de código en vistas y agrupaciones que identifica el objeto al que hace referencia directamente.
+`Valuefield=` es una línea clave de código en vistas y agrupaciones que identifica el objeto al que hace referencia directamente.
 
 La sintaxis para hacer referencia directamente a los campos es idéntica para las agrupaciones y las vistas.
 
-Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las siguientes reglas
-
-```
-valuefield
-```
-
-línea:
+Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las siguientes reglas `valuefield` línea:
 
 * Utilice camel case para hacer referencia directamente a los campos.
 
-   **Ejemplo:** Para hacer referencia a la fecha real de finalización de la tarea en una vista de tareas, utilice la línea siguiente:
+  **Ejemplo:** Para hacer referencia a la fecha real de finalización de la tarea en una vista de tareas, utilice la línea siguiente:
 
-   ```
-   valuefield=actualCompletionDate
-   ```
+  `valuefield=actualCompletionDate`
 
 * Utilice mayúsculas y minúsculas y dos puntos para separar campos relacionados entre sí para el mismo objeto.
 
-   **Ejemplo:** Para hacer referencia a la fecha planificada de finalización del proyecto en una vista de tareas, utilice la línea siguiente:
+  **Ejemplo:** Para hacer referencia a la fecha planificada de finalización del proyecto en una vista de tareas, utilice la línea siguiente:
 
-   ```
-   valuefield=project:plannedCompletionDate
-   ```
+  `valuefield=project:plannedCompletionDate`
 
-   Para obtener información sobre cómo se hacen referencia los objetos entre sí en la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
+  Para obtener información sobre cómo se hacen referencia los objetos entre sí en la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
 
 * Al hacer referencia a un campo personalizado, utilice el nombre del campo exactamente como aparece en la interfaz.
 
-   **Ejemplo:** Para hacer referencia a un campo personalizado de proyecto denominado Detalles adicionales en una vista de tareas, utilice la línea siguiente:
+  **Ejemplo:** Para hacer referencia a un campo personalizado de proyecto denominado Detalles adicionales en una vista de tareas, utilice la línea siguiente:
 
-   ```
-   valuefield=project:Additional Details
-   ```
+  `valuefield=project:Additional Details`
 
- 
+#### `Valueexpression` información general sobre sintaxis para vistas y agrupaciones
 
-```
-Valueexpression
-```
-
-información general sobre sintaxis para vistas y agrupaciones {#valueexpression-syntax-overview-for-views-and-groupings}
-
-Puede reemplazar el
-
-```
-valuefield=
-```
-
-línea de código con
-
-```
-valueexpression=
-```
-
-al crear vistas y agrupaciones en modo de texto cuando desea hacer referencia a un cálculo entre 2 o más campos.
+Puede reemplazar el `valuefield=` línea de código con `valueexpression=` al crear vistas y agrupaciones en modo de texto cuando desea hacer referencia a un cálculo entre 2 o más campos.
 
 >[!TIP]
 >
@@ -231,44 +173,28 @@ al crear vistas y agrupaciones en modo de texto cuando desea hacer referencia a 
 
 Crear una agrupación calculada es similar a crear una columna calculada en una vista.
 
-Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las siguientes reglas
-
-```
-valueexpression
-```
-
-línea:
+Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las siguientes reglas `valueexpression` línea:
 
 * Utilice camel case para hacer referencia a los campos directamente y encerrar cada campo entre llaves.
 
-   **Ejemplo:** Para mostrar el campo Nombre de tarea en una columna de tarea con
+  **Ejemplo:** Para mostrar el campo Nombre de tarea en una columna de tarea con `valueexpression`, utilice la línea siguiente:
 
-   ```
-   valueexpression
-   ```
+  `valueexpression={name}`
 
-   , utilice la línea siguiente:
-
-   ```
-   valueexpression={name}
-   ```
 
 * Utilice mayúsculas y minúsculas y puntos para separar campos relacionados entre sí.
 
-   **Ejemplo:** Para mostrar el nombre de un proyecto concatenado con el nombre de la tarea en un informe de tareas, utilice las siguientes líneas:
+  **Ejemplo:** Para mostrar el nombre de un proyecto concatenado con el nombre de la tarea en un informe de tareas, utilice las siguientes líneas:
 
    * En una vista:
 
-      ```
-      valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
+     `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
    * En una agrupación:
 
-      ```
-      group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
-   Para obtener información sobre cómo se hacen referencia los objetos entre sí en la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
+     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+
+  Para obtener información sobre cómo se hacen referencia los objetos entre sí en la base de datos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
 
 * Al hacer referencia a un campo personalizado, utilice las siguientes reglas:
 
@@ -277,63 +203,51 @@ línea:
    * Escriba el campo entre llaves.
    * Separe los campos relacionados con el objeto por puntos.
 
-   **Ejemplo:** Para mostrar el campo personalizado del proyecto Detalles adicionales en una vista de tareas en una línea de expresión de valor, utilice la línea siguiente:
+  **Ejemplo:** Para mostrar el campo personalizado del proyecto Detalles adicionales en una vista de tareas en una línea de expresión de valor, utilice la línea siguiente:
 
-   ```
-   valueexpression={project}.{DE:Additional Details}
-   ```
+  `valueexpression={project}.{DE:Additional Details}`
 
-* Puede utilizar un comodín en una
+* Puede utilizar un comodín en una `valueexpression` pero no en un `valuefield` línea.
 
-   ```
-   valueexpression
-   ```
+  Para obtener información sobre los caracteres comodín, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-   pero no en un
 
-   ```
-   valuefield
-   ```
+#### `Valueformat` información general sobre vistas y agrupaciones
 
-   línea.
+La segunda línea de código más importante de una vista o agrupación es la siguiente `valueformat=` línea. Esto indica a Workfront en qué formato debe devolver el valor especificado en la variable
+`valuefield` o líneas de expresión de valor. Aunque puede utilizar varios formatos para `valueformat` líneas, recomendamos que siempre utilice el siguiente valor al utilizar
+`valueexpression`:
 
-   Para obtener información sobre los caracteres comodín, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`valueformat=HTML`
 
-```
-Valueformat
-```
+Para obtener información adicional `valueformats` Consulte también los artículos siguientes:
 
-descripción general
+* [Formato de fechas en informes de modo de texto](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formato de números, moneda y valores de porcentaje en los informes de modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-La segunda línea de código más importante de una vista o agrupación es la siguiente
+#### `width` información general sobre vistas
 
-```
-valueformat=
-```
+`width=` es la línea de código donde se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo, aunque según el tipo de campo y el formato, puede que desee realizar ajustes.
 
-línea. Esto indica a Workfront en qué formato debe devolver el valor especificado en la variable
+Debe utilizar el adicional `usewidths=true` línea de código para exigir el ancho especificado para la columna.
 
-```
-valuefield
-```
+**Ejemplo:** Para mostrar una columna con una anchura de 80 píxeles, utilice las líneas siguientes:
 
-o líneas de expresión de valor. Aunque puede utilizar varios formatos para
+`width=80`
 
-```
-valueformat
-```
+`usewidths=true`
 
-líneas, recomendamos que siempre utilice el siguiente valor al utilizar
+#### `stretch` información general sobre vistas
 
-```
-valueexpression
-```
+El `stretch` se utiliza para identificar qué columnas ocupan espacio adicional que la vista no necesita. La anchura de la interfaz de usuario del espacio de trabajo de un usuario típico es de unos 850 píxeles. Esto significa que si tiene una vista con cuatro columnas (150 píxeles cada una), esa vista ocupará 600 de 850 píxeles. Hay 250 píxeles adicionales en la interfaz de usuario que se añadirán a las columnas que tengan un porcentaje de ampliación proporcionado.
 
-:
+La ampliación de una columna se impone cuando se utiliza la línea de código adicional: `usewidths=true` para al menos una de las columnas de la vista.
 
-```
-valueformat=HTML
-```
+**Ejemplo:** Para indicar que una columna podría utilizar un 70% del espacio vacío en una vista, utilice las líneas siguientes:
+
+`stretch=70`
+
+`usewidths=true`
 
 ### Sintaxis para filtros y peticiones de datos personalizadas
 
@@ -355,20 +269,20 @@ Puede utilizar los siguientes elementos para crear filtros y mensajes personaliz
 * Una línea de código que hace referencia al objeto de la instrucción de filtro. Utilice mayúsculas y minúsculas para el objeto de filtro.
 * Línea de código que hace referencia al objeto de filtro y al modificador del valor del objeto de filtro. Utilice mayúsculas y minúsculas para el objeto de filtro de esta línea.
 
-   >[!TIP]
-   >
-   >Cuando se hace referencia a rangos, esto requiere 2 líneas de modificador.
+  >[!TIP]
+  >
+  >Cuando se hace referencia a rangos, esto requiere 2 líneas de modificador.
 
 * Un conector de instrucciones que conecta varias instrucciones de filtro:
 
    * Y
 
-      Este es el conector predeterminado entre instrucciones de filtro.
+     Este es el conector predeterminado entre instrucciones de filtro.
 
    * O
 
-      >[!TIP]
-      >
-      >Los conectores de instrucciones distinguen entre mayúsculas y minúsculas y siempre están en mayúsculas. &quot;AND&quot; se puede omitir en el modo de texto.
+     >[!TIP]
+     >
+     >Los conectores de instrucciones distinguen entre mayúsculas y minúsculas y siempre están en mayúsculas. &quot;AND&quot; se puede omitir en el modo de texto.
 
 * Comodines para hacer que los filtros sean más dinámicos y personalizarlos para el momento actual o para el usuario que ha iniciado sesión. Para obtener información sobre los caracteres comodín, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

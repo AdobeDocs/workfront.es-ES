@@ -7,9 +7,9 @@ description: Puede combinar la información que se muestra en varias columnas in
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,10 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 * Puede combinar dos columnas adyacentes y mostrar la información de cada columna separadas por un salto de línea, o puede combinar la información en dos columnas adyacentes sin separador entre la información de cada columna.
 * Puede combinar la información de más de dos columnas aplicando la misma sintaxis descrita en este artículo a una columna ya compartida y a una adyacente.
-* El
-
-   ```
-   valueformat=HTML
-   ```
-
-   La línea es obligatoria en una columna compartida. De lo contrario, las columnas no contienen información (estarán en blanco) cuando el informe se exporte desde Adobe Workfront.
+* El `valueformat=HTML` La línea es obligatoria en una columna compartida. De lo contrario, las columnas no contienen información (estarán en blanco) cuando el informe se exporte desde Adobe Workfront.
 * Es posible que no se admita el formato condicional en las columnas combinadas.
 
-   Existen las siguientes excepciones:
+  Existen las siguientes excepciones:
 
    * Al ver información en Workfront, se conserva el formato de la primera columna y el de todas las demás columnas si las columnas que componen una columna combinada tienen un formato diferente entre sí,.
    * Al exportar la vista a un archivo de PDF, el formato condicional se aplica a la primera columna de una columna combinada.
@@ -73,80 +67,47 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 * Si exporta una lista con columnas compartidas a un formato de Excel o Delimitado por tabuladores, estas columnas se separan en el archivo exportado.
 
+* Cuando una o ambas columnas muestran un `tile` Campo de tipo, se introduce automáticamente un salto de línea forzado en la columna combinada. Por ejemplo, los campos de texto con formato son `tile` escriba campos. En este caso, hay un código de línea de `type=tile` al ver las columnas en modo texto.
+
 ## Combinar datos de dos columnas sin un salto de línea
 
 Puede combinar los datos de varias columnas independientes para mostrarlos en una columna sin saltos ni espacios entre los valores de cada columna.
 
 >[!TIP]
 >
->Este método se recomienda cuando se combinan dos columnas que nunca pueden mostrar un valor para el mismo registro al mismo tiempo. Por ejemplo, en un informe de elemento de trabajo, las columnas Nombre de problema y Nombre de tarea se pueden combinar sin un salto de línea entre ellas, porque un elemento de trabajo nunca puede tener un Nombre de problema y un Nombre de tarea al mismo tiempo. Un elemento de trabajo puede ser un problema o una tarea en Workfront.
+>Este método se recomienda cuando se combinan dos columnas que nunca pueden mostrar un valor para el mismo registro al mismo tiempo. Por ejemplo, en un informe de elemento de trabajo, las columnas Nombre de problema y Nombre de tarea se pueden combinar sin un salto de línea entre ellas, porque un elemento de trabajo nunca puede tener un Nombre de problema y un Nombre de tarea al mismo tiempo. Un elemento de trabajo puede ser un problema o una tarea en Workfront.
 
 Para ello:
 
 1. Con el modo de texto de una vista, agregue el siguiente texto a la primera columna que desee combinar:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.` y las líneas de texto que contienen información sobre la segunda columna con `column.1.` .
 
-   ```
-   column.0.
-   ```
-
-   y las líneas de texto que contienen información sobre la segunda columna con
-
-   ```
-   column.1.
-   ```
-
-   .\
-   Debe anteponer el número de columna de la primera columna al número de esa columna. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta
-
-   ```
-   column.0.
-   ```
-
-   .
+   Debe anteponer el número de columna de la primera columna al número de esa columna. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
    Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir de cada columna.
 
    **Ejemplo:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, empezando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
+   `column.2.valuefield=plannedStartDate`
 
-   ```
-   column.2.valueformat=atDate
-   ```
+   `column.2.valueformat=atDate`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valuefield=owner:name
-   ```
+   `column.3.valuefield=owner:name`
 
-   ```
-   column.3.valueformat=HTML
-   ```
+   `column.3.valueformat=HTML`
 
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
+![](assets/shared-column-no-line-breaks-350x142.png)
 
 1. Clic **Guardar**, entonces **Guardar vista**.
 
@@ -157,140 +118,74 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
 1. Agregue una tercera columna entre las dos columnas que desee combinar.
 
    >[!TIP]
-   * Las columnas que desee combinar deben ser adyacentes entre sí.
-   * Debe hacer clic en la primera columna que desee combinar.
-
+   >
+   >* Las columnas que desee combinar deben ser adyacentes entre sí.
+   >* Debe hacer clic en la primera columna que desee combinar.
 
 1. Clic **Cambiar a modo de texto** y agregue el siguiente código en la columna central que agregó en el paso 1:
 
-   ```
-   value=<br>
-   ```
+   `value=<br>`
 
-   ```
-   valueformat=HTML
-   ```
+   `valueformat=HTML`
 
-   ```
-   width=1
-   ```
+   `width=1`
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
+
 
 1. Añada el siguiente texto a la primera columna:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.`, la columna con la que se comparte información `column.1.`y las líneas de texto que contienen información sobre la segunda columna con `column.2.`.
 
-   ```
-   column.0.
-   ```
-
-   , la columna con la que se comparte información
-
-   ```
-   column.1.
-   ```
-
-   y las líneas de texto que contienen información sobre la segunda columna con
-
-   ```
-   column.2.
-   ```
-
-   . Si la columna combinada está en el centro de la vista, las columnas se numeran según su lugar en la vista. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta
-
-   ```
-   column.0.
-   ```
-
-   .
+   Si la columna combinada está en el centro de la vista, las columnas se numeran según su lugar en la vista. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
    Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir.
 
    **Ejemplo:** A continuación se muestra el código de modo de texto de una columna compartida que contiene el nombre del proyecto, la fecha planificada de inicio y el nombre del propietario del proyecto con un salto de línea. La columna compartida es la segunda columna de una vista de proyecto.
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.displayname=Project_StartDate_Owner`
 
-   ```
-   column.1.textmode=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.textmode=true`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.2.value=<br>
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.2.width=1
-   ```
+   `column.2.value=<br>`
 
-   ```
-   column.2.valueformat=HTML
-   ```
+   `column.2.width=1`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.valueformat=HTML`
 
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valueformat=atDate
-   ```
+   `column.3.valuefield=plannedStartDate`
 
-   ```
-   column.3.sharecol=true
-   ```
+   `column.3.valueformat=atDate`
 
-   ```
-   column.4.value=<br>
-   ```
+   `column.3.sharecol=true`
 
-   ```
-   column.4.width=1
-   ```
+   `column.4.value=<br>`
 
-   ```
-   column.4.valueformat=HTML
-   ```
+   `column.4.width=1`
 
-   ```
-   column.4.sharecol=true
-   ```
+   `column.4.valueformat=HTML`
 
-   ```
-   column.5.textmode=true
-   ```
+   `column.4.sharecol=true`
 
-   ```
-   column.5.valuefield=owner:name
-   ```
+   `column.5.textmode=true`
 
-   ```
-   column.5.valueformat=HTML
-   ```
+   `column.5.valuefield=owner:name`
 
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
+   `column.5.valueformat=HTML`
+
+
+   ![](assets/shared-column-with-line-breaks-350x199.png)
+
 
 1. Clic **Guardar**, entonces **Guardar vista**.
