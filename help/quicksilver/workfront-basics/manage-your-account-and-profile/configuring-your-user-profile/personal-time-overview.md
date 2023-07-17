@@ -7,9 +7,9 @@ description: Adobe Workfront no está diseñado para replicar o reemplazar sus s
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Las herramientas de administración de recursos también utilizan su tiempo libr
 >* [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Requisitos de acceso
 
@@ -63,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configuración del tiempo libre personal en [!DNL Workfront]
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en su nombre de usuario junto a su imagen de perfil.
+1. {#step1-click-profile-pic}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Tiempo libre]**.
 1. Seleccione la fecha que desee para sus vacaciones personales.
@@ -71,4 +70,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Déjela sin seleccionar si se toma menos de un día libre completo e indique las horas de inicio y finalización de su tiempo libre.
 
 1. Haga clic en **[!UICONTROL Guardar]**.\
-   Su tiempo libre ahora es visible a través de la [!DNL Workfront] en herramientas de programación como la Cuadrícula de recursos. Cuando se le asigna trabajo durante este tiempo, aparece un aviso que informa al usuario de que ha programado tiempo libre.
+   Su tiempo libre ahora es visible a través de la [!DNL Workfront] en las herramientas de administración de recursos como el Planificador de recursos y el Distribuidor de cargas de trabajo. Cuando se le asigna trabajo durante este tiempo, aparece un aviso que informa al usuario de que ha programado tiempo libre.
