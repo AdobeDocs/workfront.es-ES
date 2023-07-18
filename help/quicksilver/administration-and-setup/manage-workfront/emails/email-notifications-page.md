@@ -8,7 +8,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: dfb0ab35929413ee3189ded32b87f7ed9a379d91
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -25,5 +25,5 @@ Como administrador de Adobe Workfront, puede configurar las notificaciones de ev
 
 Estos vínculos llevan al área de usuario de los artículos de ayuda de las notificaciones de Adobe Workfront.
 
-* Para obtener información general sobre las notificaciones, consulte [Notificaciones de Adobe Workfront](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md)
-* Para obtener información sobre cómo configurar las notificaciones propias en el perfil, consulte [Activar o desactivar sus propias notificaciones de eventos](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+* Para obtener información general sobre las notificaciones, consulte [Notificaciones de Adobe Workfront](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
+* Para obtener información sobre cómo configurar las notificaciones propias en el perfil, consulte [Activar o desactivar sus propias notificaciones de eventos](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
