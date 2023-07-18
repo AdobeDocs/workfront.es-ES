@@ -7,7 +7,7 @@ description: Información general sobre el cálculo de horas y FTE para usuarios
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ En función de cómo se configure esta opción, la disponibilidad de los usuario
      Para obtener más información sobre las programaciones, incluido el Horario predeterminado, consulte [Creación de una programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * El **ETC disponibles** para el usuario en el Planificador de recursos es el mismo que el FTE de usuario especificado en la configuración de usuario.
-Por ejemplo, si el valor de FTE del usuario es 0,5 en la configuración de usuario, el valor de FTE disponible del usuario es 0,5 en el Planificador de recursos. Para obtener más información sobre el valor del valor de FTE del usuario tal como aparece en la configuración del usuario, consulte [Edición del perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Por ejemplo, si el valor de FTE del usuario es 0,5 en la configuración de usuario, el valor de FTE disponible del usuario es 0,5 en el Planificador de recursos. Para obtener más información sobre el valor del valor de FTE del usuario tal como aparece en la configuración del usuario, consulte [Edición del perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **El horario del usuario**: el Horario del usuario se utiliza para determinar la disponibilidad del usuario en el Planificador de recursos. Se ignora el valor de FTE del usuario. En este caso:
 
    * El **Horas disponibles** en el Planificador de recursos son las mismas horas que las del horario del usuario.
 
-  Por ejemplo, si el Horario del usuario tiene 40 horas a la semana disponibles para trabajar, el usuario estará disponible para trabajar 40 horas a la semana en el Planificador de recursos.
+     Por ejemplo, si el Horario del usuario tiene 40 horas a la semana disponibles para trabajar, el usuario estará disponible para trabajar 40 horas a la semana en el Planificador de recursos.
 
    * El **ETC disponibles** en el Planificador de recursos se calcula mediante la fórmula siguiente:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Por ejemplo, si el Horario del usuario tiene 20 horas disponibles para trabajar y el Horario predeterminado en Workfront tiene 40 horas disponibles para trabajar, el valor de FTE del usuario es 0,5.
+     Por ejemplo, si el Horario del usuario tiene 20 horas disponibles para trabajar y el Horario predeterminado en Workfront tiene 40 horas disponibles para trabajar, el valor de FTE del usuario es 0,5.
 
-  Para obtener más información sobre las programaciones, incluido el Horario predeterminado, consulte [Creación de una programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Para obtener más información sobre las programaciones, incluido el Horario predeterminado, consulte [Creación de una programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
