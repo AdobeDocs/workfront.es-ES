@@ -6,9 +6,9 @@ description: Puede editar información sobre las tareas que ha creado o para las
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duración por resolicitud</td> 
-      <td> <p>Esto solo se muestra en el elemento principal de las tareas recurrentes. Muestra la duración de cada tarea recurrente. Para obtener información sobre la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creación de tareas recurrentes</a>. </p> <p> <b>NOTA</b>
+      <td> <p>Esto solo se muestra en el elemento principal de las tareas recurrentes. Muestra la duración de cada tarea recurrente, tal como se definió cuando se creó la tarea. Para obtener información sobre la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creación de tareas recurrentes</a>. </p> <p> <b>NOTA</b>
 
    Las duraciones modificadas en tareas recurrentes individuales no muestran el valor indicado en este campo. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
    </tr> 
    <tr> 
    <td role="rowheader">Horas planificadas</td> 
-   <td> <p>Especifique la cantidad de horas planificadas para la tarea, en horas. Es la cantidad de tiempo real que tardarían los usuarios asignados de la tarea en completarla. Sólo puede especificar la cantidad de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración y el tipo de duración de la tarea</a>.</p> </td> 
+   <td> <p>Especifique la cantidad de horas planificadas para la tarea, en horas. Es la cantidad de tiempo real que tardarían los usuarios asignados de la tarea en completarla. Sólo puede especificar la cantidad de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración y el tipo de duración de la tarea</a>.</p> 
+   <b>NOTA</b>
+   <p>
+   Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información sobre la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creación de tareas recurrentes</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Asignación</td> 

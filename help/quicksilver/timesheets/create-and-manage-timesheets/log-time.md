@@ -6,9 +6,9 @@ description: Puede registrar el tiempo de los elementos de trabajo en&nbsp;Adobe
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. La hora que registre se mostrará en la hoja de horas.
 
@@ -361,13 +361,13 @@ Puede registrar el tiempo específico de un proyecto, tarea o problema en las si
 
 #### Sección de Actualizaciones{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> Puede registrar el tiempo de los problemas, <span class="preview">proyectos y tareas</span> al habilitar la nueva experiencia de comentarios beta en la sección Actualizaciones.
+> Existen ligeras diferencias en el aspecto de la interfaz de usuario entre la sección de actualizaciones actual y la nueva. La información de esta sección hace referencia a la funcionalidad tal como se muestra en la nueva experiencia de comentarios.
 >
->Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Para obtener más información sobre la nueva sección Actualizaciones, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o problema, debe tener lo siguiente:
 
@@ -383,9 +383,9 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
 
 1. Vaya a un proyecto, tarea o problema.
 1. En el panel izquierdo, seleccione **Actualizaciones**.
-1. Clic **Hora de registro**.
+1. Clic **Hora de registro**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">Aparece el cuadro de diálogo Registrar tiempo. </span>
+   Aparece el cuadro de diálogo Registrar tiempo.
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
    >   
    >   Hay una indicación en la esquina superior derecha del cuadro Escribir días de cuántas horas se incluyen en un día.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Especifique la siguiente información:
 

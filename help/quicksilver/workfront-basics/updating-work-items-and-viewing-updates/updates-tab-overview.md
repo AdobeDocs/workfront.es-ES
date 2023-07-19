@@ -7,10 +7,10 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible para todos los clientes en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
+> * Problemas, proyectos, tareas y documentos.
 >
 >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
 >
@@ -115,13 +115,13 @@ Actualmente, puede agregar comentarios y responder a actualizaciones utilizando 
      <li>Tarjetas en el área de Tableros*</li>
       Esta es la única experiencia para los goles y las tarjetas.
      </li> 
-     <li><span class="preview">Proyectos</span></li>
+     <li>Proyectos</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Problemas</li> 
-     <li><span class="preview">Tareas</span></li>
-     <li><span class="preview">Documentos</span></li>
+     <li>Tareas</li>
+     <li>Documentos</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ Por ejemplo, cuando se agrega una actualización a una tarea, la actualización 
 
 >[!NOTE]
 >
->Al habilitar la nueva experiencia de comentarios beta, se muestran comentarios en los siguientes objetos de mayor clasificación:
+>Al habilitar la nueva experiencia de comentarios, los comentarios se muestran en los siguientes objetos de mayor clasificación:
 >
 >* Problemas
->* <span class="preview">Proyectos</span>
->* <span class="preview">Tareas</span>
+>* Proyectos
+>* Tareas
 >
 >Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Para obtener más información, consulte [Iniciar sesión como otro usuario](../
 
 Cualquier comentario hecho en nombre de otro usuario se indica en el comentario.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">Al utilizar la nueva experiencia de comentarios, el comentario se agrega como el usuario que ha iniciado sesión como otro usuario y no hay indicación de que esté agregando un comentario en nombre de otra persona.
+>Al utilizar la nueva experiencia de comentarios, el comentario se agrega como el usuario que ha iniciado sesión como otro usuario y no hay indicación de que esté agregando un comentario en nombre de otra persona.
 >
->Por ejemplo, si un administrador de Workfront inicia sesión como otro usuario, el usuario asociado con el comentario es el administrador de Workfront. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Por ejemplo, si un administrador de Workfront inicia sesión como otro usuario, el usuario asociado con el comentario es el administrador de Workfront. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 Un administrador de grupo puede realizar comentarios en nombre de otra persona, pero no puede eliminar ese comentario. Solo un administrador de Adobe Workfront puede eliminar un comentario que haya realizado en nombre de otro usuario.
