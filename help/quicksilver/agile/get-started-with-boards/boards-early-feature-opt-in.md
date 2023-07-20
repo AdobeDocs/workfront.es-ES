@@ -6,9 +6,9 @@ title: Inclusión anticipada de funciones para [!DNL Adobe Workfront] Tableros
 description: Lea este artículo para obtener más información [!DNL Workfront Boards] inclusión de funciones anticipada.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
   </tr>
   <tr>
    <td>Definir notificaciones de correo electrónico para tableros</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Migración de tarjetas Kanban heredadas a tableros</td>
@@ -166,19 +166,19 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
   </tr>
   <tr>
    <td>Creación de tableros dinámicos</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Usar navegación izquierda en los detalles de la tarjeta</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Utilizar filtros simplificados en la columna de entrada</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Use comentarios en tarjetas ad hoc y conectadas</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
  </tbody> 
 </table>

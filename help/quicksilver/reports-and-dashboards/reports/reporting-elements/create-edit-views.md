@@ -6,16 +6,14 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Creación o edición de vistas en Adobe Workfront
-
-{{highlighted-preview}}
 
 Puede personalizar el tipo de información que se muestra en la pantalla mediante las vistas. Puede utilizar varios tipos de vistas en Adobe Workfront.
 
@@ -150,16 +148,12 @@ Para obtener más información sobre las vistas de Agile, consulte el artículo 
 
 >[!NOTE]
 >
-><span class="preview">Este procedimiento solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
+>Este procedimiento solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
 Para crear o personalizar una vista de Agile:
 
 1. Ir a la lista de tareas de un proyecto.
-1. Haga clic en **Guión gráfico de Agile** icono ![Icono de guión gráfico de Agile](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">O</span>
-
-   <span class="preview">Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png)y haga clic en **Usar Agile heredado** en la vista del tablero.</span>
+1. Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png)y haga clic en **Usar Agile heredado** en la vista del tablero.
 
 1. (Condicional) Para personalizar una vista de Agile existente:
 
@@ -255,4 +249,4 @@ Para crear o personalizar una vista de Agile:
 1. Haga clic en **Guardar**.\
    Su acceso dicta cómo se guarda la vista. Si creó la vista originalmente, puede guardar los cambios; de lo contrario, se le pedirá que guarde una versión. Tenga en cuenta que los cambios que realice en la vista afectan a los usuarios con los que se ha compartido la vista.
 
-1. (Opcional) Haga clic en **Vista de lista** icono ![](assets/list-view-in-agile-view-for-tasks.png) para volver a la lista de tareas.
+1. (Opcional) Haga clic en **Lista** para volver a la lista de tareas.

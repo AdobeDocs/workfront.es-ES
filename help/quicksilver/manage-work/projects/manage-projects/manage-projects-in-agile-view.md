@@ -6,16 +6,14 @@ description: Planes requeridos, tipos de licencia y acceso a los permisos de tip
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Administrar un proyecto en la vista de Agile
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 >[!NOTE]
 >
-><span class="preview">Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
+>Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
 * [Funcionalidad Agile en un proyecto](#agile-functionality-in-a-project)
 * [Diferencias entre utilizar la vista de Agile en un proyecto y en una iteración](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 ## Ver un proyecto en la vista de Agile
 
 1. Vaya al proyecto que desee ver en una vista Agile.
-1. Haga clic en **Agile** icono ![Icono de Agile](assets/agile-icon-nwe.png).
+1. Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">O</span>
-
-   <span class="preview">Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png).</span>
-
-   El proyecto se muestra en la vista Agile predeterminada.
-
-   <span class="preview">En el entorno de vista previa, la vista del tablero se muestra de forma predeterminada.</span>
+   La vista de tablero del proyecto se muestra de forma predeterminada.
 
    ![Vista de tablero del proyecto](assets/project-agile-board-view.png)
 
-   (Solo vista Agile heredada) Si anteriormente vio el proyecto en una vista Agile personalizada, el proyecto se muestra en esa vista en lugar de en la vista Agile predeterminada.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Opcional) Haga clic en **Configurar** para definir las opciones de las columnas y las tarjetas.</span>
+1. (Opcional) Haga clic en **Configurar** para definir las opciones de las columnas y las tarjetas.
 
-   <span class="preview">Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) y [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Tenga en cuenta que no puede definir directivas de columna en la vista de tablero de un proyecto.</span>
+   Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) y [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Tenga en cuenta que no puede definir directivas de columna en la vista de tablero de un proyecto.
 
-1. <span class="preview">(Opcional) Haga clic en **Usar Agile heredado** para utilizar la vista heredada de agile en lugar de la vista de tablero.</span>
+1. (Opcional) Haga clic en **Usar Agile heredado** para utilizar la vista heredada de agile en lugar de la vista de tablero.
 
 1. (Opcional: solo vista Agile heredada) Si ha creado una vista Agile personalizada, o si otro usuario ha creado una vista Agile personalizada y la ha compartido con usted, puede verla en lugar de la vista Agile predeterminada.
 
@@ -200,14 +192,13 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 
    Para agregar estados a la vista Agile, cree una nueva vista Agile o personalice una vista Agile existente, tal como se describe en la sección &quot;Crear o personalizar una vista Agile&quot; del artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Opcional) Para volver a la vista de lista, haga clic en **Lista** icono.\
-   ![Icono de lista](assets/list-icon.png)
+1. (Opcional) Para volver a la vista de lista, haga clic en **Lista** icono.
 
 ## Creación y personalización de vistas de Agile {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
+>Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
 Al igual que con las vistas estándar en Workfront, puede personalizar las vistas Agile existentes o crear nuevas vistas Agile desde cero. A diferencia de las vistas estándar, no puede crear nuevas vistas de Agile basadas en las vistas de Agile existentes.
 
@@ -217,7 +208,7 @@ Para obtener más información sobre la creación y personalización de vistas d
 
 >[!NOTE]
 >
-><span class="preview">Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
+>Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
 Para obtener información sobre cómo compartir una vista Agile, consulte [Compartir un filtro, una vista o una agrupación](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Para obtener información sobre cómo compartir una vista Agile, consulte [Compa
 
 >[!NOTE]
 >
-><span class="preview">Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.</span>
+>Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
 Para obtener información sobre cómo eliminar una vista, consulte la sección &quot;Eliminar una vista&quot; en el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

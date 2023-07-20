@@ -6,7 +6,7 @@ description: Puede filtrar un tablero para mostrar solo determinadas tarjetas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtrar y buscar en un tablero
-
-{{highlighted-preview}}
 
 Puede filtrar un tablero para mostrar:
 
@@ -26,7 +24,7 @@ Puede filtrar un tablero para mostrar:
 * Tarjetas archivadas
 * Tarjetas conectadas a un proyecto específico
 
-<span class="preview">Al ordenar el tablero, se ordenan todas las tarjetas de las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.</span>
+Al ordenar el tablero, se ordenan todas las tarjetas de las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.
 
 La búsqueda también le ayuda a localizar una tarjeta específica en el tablero.
 
@@ -110,8 +108,6 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 
    ![Filtrar por conexión](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Ordenar en un tablero
 
 Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.
@@ -130,8 +126,6 @@ Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede
    Cuando se aplica una ordenación distinta de la predeterminada, se muestra un indicador en el icono de ordenación ![Orden aplicado](assets/sort-applied-boards.png).
 
    ![Ordenar por columnas en un tablero](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Buscar en un tablero
 
