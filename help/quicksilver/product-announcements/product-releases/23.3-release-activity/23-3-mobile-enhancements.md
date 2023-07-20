@@ -3,16 +3,16 @@ title: 23.3 Mejoras de Mobile
 description: 23.3 Mejoras de Mobile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 23.3 Mejoras de Mobile
 
-Esta página describe todas las mejoras móviles realizadas con la versión 23.3 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3.
+Esta página describe todas las mejoras realizadas en Mobile con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

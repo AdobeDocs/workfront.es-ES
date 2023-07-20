@@ -4,20 +4,18 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # Información general de la versión 23.3
 
-Esta página proporciona información sobre la funcionalidad que se incluye en la versión 23.3 programada para la semana del 17 de julio de 2023.
+Esta página proporciona información sobre la funcionalidad incluida en la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
 
-Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión 23.3 se aproxime a su versión de producción planificada.
-
-El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede [regístrese aquí para unirse al seminario web](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístrese en el seminario web para ver una grabación bajo demanda aquí](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaban a Producción antes de la fecha de lanzamiento de la versión 23.3) se resaltan en amarillo.</span>
 
@@ -116,7 +114,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La Vista de Agile de un proyecto muestra un panel kanban</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La Vista de Agile de un proyecto muestra un panel kanban</a></p>
                         <p>La vista Agile de un proyecto ahora incluye funcionalidad adicional para filtrar, agrupar y ordenar el trabajo en un panel Kanban. El nuevo diseño flexible de la vista incluye una función de búsqueda sólida y la capacidad de agregar nuevas tareas al proyecto directamente desde el tablero.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -132,7 +130,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordenar por columnas del tablero</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordenar por columnas del tablero</a></p>
                         <p>Se ha añadido la capacidad de ordenar las tarjetas en las columnas de un tablero. Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -189,7 +187,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión preliminar: 15 de junio de 2023</p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 22 de junio de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión temprana: 22 de junio de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión de vista previa: 10 de mayo de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 10 de mayo de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión temprana: 10 de mayo de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión de vista previa: 27 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión de vista previa: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión de vista previa: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</span></p></s>
+                                 <s><p>Lanzamiento de producción para la inclusión temprana: 28 de abril de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Versión de producción para todos los clientes: 18 de mayo de 2023</span></p>
@@ -308,7 +306,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                                 <p>Versión preliminar: 13 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 13 de abril de 2023 <span style="color: #ff0000;"> Esta función solo está disponible en producción mediante la inclusión de funciones anticipada para tableros de Workfront.</p>
+                                 <p>Lanzamiento de producción para la inclusión temprana: 13 de abril de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Coste efectivo por fecha y tarifas de facturación</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Coste efectivo por fecha y tarifas de facturación</a></p>
                         <p>Ya están disponibles las tarifas de facturación y los costes efectivos por fecha en los objetos de empresa, usuario y rol de Workfront. Cuando se aplican tasas efectivas por fecha a un proyecto y las horas se registran en las tareas del proyecto, los costos e ingresos se calculan usando las tasas especificadas para cada período de tiempo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -346,7 +344,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                             <li>
                                 <p>Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3</p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.4<br>
-                                <span style="color: #ff0000;"> La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.</span></p>
+                                La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ El seminario web de la versión 23.3 se celebrará el 29 de junio de 2023. Puede
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de inicio</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de inicio</a></p>
                         <p>Para permitir mejor a los usuarios de todos los tipos utilizar Workfront para sus necesidades específicas, Home ha recibido una actualización importante. La experiencia Nueva página de inicio ofrece personalización visual y de contenido para su página de inicio, lo que proporciona la flexibilidad para mostrar solo la información que sea más relevante para su trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
