@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 5%
@@ -20,8 +20,6 @@ ht-degree: 5%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
-
-{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -70,8 +68,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">Habilitar proceso de revisión rápido</span></p> </td> 
-      <td><span class="preview">Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de liberación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activar o desactivar las versiones rápidas para su organización</a>.</span></p></td> 
+      <td role="rowheader"> <p>Habilitar proceso de revisión rápido</p> </td> 
+      <td>Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de liberación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activar o desactivar las versiones rápidas para su organización</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir incrustación de <strong>Workfront</strong> en un iframe</p> </td> 
