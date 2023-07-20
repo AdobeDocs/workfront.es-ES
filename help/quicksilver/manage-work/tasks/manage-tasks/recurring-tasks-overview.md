@@ -6,12 +6,13 @@ navigation-topic: manage-tasks
 title: Información general sobre tareas recurrentes
 description: Información general sobre tareas recurrentes
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,11 +61,11 @@ Tenga en cuenta lo siguiente al crear tareas recurrentes en Workfront:
 
       * Sencilla
       * Condicionada por el esfuerzo
-* La duración y las horas planificadas indicadas para una nueva tarea recurrente son la duración y las horas planificadas de cada periodicidad. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las recurrencias.
+* La Duración y las Horas planificadas indicadas para una nueva tarea recurrente son la Duración y las Horas planificadas de cada ocurrencia. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las ocurrencias.
 
 ## Consideraciones para editar tareas recurrentes
 
-Es posible que algunos cambios que realice en una tarea principal de periodicidad no se actualicen en todas las periodicidades existentes. Las tareas secundarias que muestran progreso o que se han actualizado individualmente no se actualizarán cuando actualice el principal. Workfront considera que una tarea muestra el progreso en las siguientes situaciones:
+Es posible que algunos cambios que realice en una tarea principal recurrente no se actualicen en todas las repeticiones existentes. Las tareas secundarias que muestran progreso o que se han actualizado individualmente no se actualizarán cuando actualice el principal. Workfront considera que una tarea muestra el progreso en las siguientes situaciones:
 
 * El estado se actualiza y la tarea deja de ser New
 * El porcentaje completado de la tarea es mayor que cero
@@ -75,7 +76,7 @@ La siguiente tabla ilustra si los cambios realizados en el déclencheur principa
 | Campos actualizados en la tarea principal | Las actualizaciones se transfieren a elementos secundarios sin editar o elementos secundarios sin progreso registrado |
 |---|---|
 | Frecuencia de periodicidad* | ✔ |
-| Asignaciones&#42;&#42; | ✔ |
+| Asignaciones | ✔ |
 | Nombre | ✔ |
 | Descripción | ✔ |
 | Prioridad | ✔ |

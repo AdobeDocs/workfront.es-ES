@@ -5,8 +5,9 @@ title: Información sobre la nueva experiencia de comentarios beta
 description: Actualmente lanzamos una nueva experiencia de comentarios en la sección Actualizaciones de la mayoría de los objetos de Adobe Workfront. Los siguientes artículos documentan las funciones disponibles actualmente en para la nueva experiencia.
 author: Alina
 feature: Product Announcements
+role: User, Admin
 exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

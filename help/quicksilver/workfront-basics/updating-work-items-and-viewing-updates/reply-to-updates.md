@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible para todos los clientes en el entorno de vista previa.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 1%
 >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, <span class="preview">proyectos, tareas y documentos</span>.
+> * Problemas, proyectos, tareas y documentos.
 >
 >     Esta opción está disponible al habilitar la experiencia de comentarios beta.
 >
@@ -115,7 +115,7 @@ Para obtener información sobre las funciones disponibles para la nueva experien
 
 1. Vaya al objeto al que desea agregar una respuesta.
 1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder.
-1. <span class="preview">(Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** situado junto a la actualización o respuesta que desee citar y, a continuación, haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.</span>
+1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** situado junto a la actualización o respuesta que desee citar y, a continuación, haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
 1. Clic **Responder**.
 
    Puede ver los usuarios que participan activamente en la conversación en la parte inferior de la **Nuevo comentario** y puede agregar más, o eliminar los que ya no son relevantes. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

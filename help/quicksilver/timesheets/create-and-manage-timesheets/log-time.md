@@ -5,8 +5,9 @@ title: Hora de registro
 description: Puede registrar el tiempo de los elementos de trabajo en&nbsp;Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. La hora que registre se mostrará en la hoja de horas.
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3337'
 ht-degree: 0%

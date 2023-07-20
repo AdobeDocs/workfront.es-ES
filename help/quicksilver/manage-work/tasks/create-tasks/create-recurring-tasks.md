@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: Creación de tareas recurrentes
 description: Puede crear tareas recurrentes para las tareas que tenga que repetir como parte de un solo proyecto.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >   La duración y las horas planificadas indicadas para una nueva tarea recurrente son la duración y las horas planificadas de cada periodicidad. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las recurrencias.
+   >   La Duración y las Horas planificadas indicadas para una nueva tarea recurrente son la Duración y las Horas planificadas de cada ocurrencia. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las ocurrencias.
 
 1. Clic **Información general** en el panel izquierdo.
 1. Desplácese hacia abajo hasta el **Horario de periodicidad** , luego seleccione la **Convertir esta tarea en recurrente** opción.
