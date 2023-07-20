@@ -6,9 +6,9 @@ description: El gráfico Gantt de lista de tareas muestra detalles sobre las tar
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
 
 1. Haga clic en **[!UICONTROL Gráfico Gantt]** icono.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Haga clic en el icono Diagrama de Gantt](assets/click-gantt-chart-icon.png)
 
    Todos los cambios se guardan automáticamente cuando la variable **[!UICONTROL Autoguardar]** La opción está activada. Está activada de forma predeterminada.
 
@@ -87,7 +87,8 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >   
    >   * [!DNL Mac]: uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
    >   * [!DNL Windows]: uso [!UICONTROL Ctrl + Z] para deshacer y [!UICONTROL Ctrl + Y] para rehacer.
-
+   >   
+   >
 
 1. Clic **[!UICONTROL Guardar]** en la esquina superior derecha de la [!UICONTROL Gráfico Gantt].
 
@@ -118,7 +119,8 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >   
    >   * [!DNL Mac]: uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
    >   * [!DNL Windows]: [!UICONTROL Utilizar Ctrl + Z] para deshacer y [!UICONTROL Ctrl + Y] para rehacer.
-
+   >   
+   >
 
 1. Haga clic en **[!UICONTROL Guardar]** .
 
@@ -152,7 +154,6 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >   * [!UICONTROL Lo más tarde posible]
    >   * [!UICONTROL Lo más temprano disponible]
    >   * [!UICONTROL Lo más tarde posible]
-
    >   
    >   
    >En algunos casos, las relaciones de predecesoras pueden impedir que las tareas comiencen antes y no se permite el movimiento de tareas.
@@ -167,7 +168,8 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >   
    >   * [!DNL Mac]: uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
    >   * [!DNL Windows]: uso [!UICONTROL Ctrl + Z] para deshacer y [!UICONTROL Ctrl + Y] para rehacer.
-
+   >   
+   >
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -189,6 +191,7 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. (Opcional y condicional) Si ha seleccionado guardar los cambios manualmente, haga clic en **[!UICONTROL Deshacer]** o&#x200B;**[!UICONTROL Rehacer]** iconos si desea cancelar o duplicar cualquiera de los cambios.
 
@@ -200,7 +203,8 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
    >   
    >   * [!DNL Mac]: uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
    >   * [!DNL Windows]: uso [!UICONTROL Ctrl + Z] para deshacer y [!UICONTROL Ctrl + Y] para rehacer.
-
+   >   
+   >
 
 1. Clic **[!UICONTROL Guardar]** en la esquina superior derecha de la [!UICONTROL Gráfico Gantt].
 

@@ -6,9 +6,9 @@ description: Sólo puede crear tareas en un proyecto una vez creado el proyecto.
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Para obtener información sobre la creación de tareas personales que no están 
 
 Este artículo describe cómo crear tareas desde cero. También puede crear tareas de las siguientes maneras:
 
-* Copiando o duplicando tareas existentes. Para obtener más información, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Al mover tareas de un proyecto a otro. Para obtener más información, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Copiando o duplicando tareas existentes. Para obtener más información, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Al mover tareas de un proyecto a otro. Para obtener más información, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisitos de acceso
 
@@ -89,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Condicional) Si está viendo la lista de tareas en una vista Agile, haga clic en **Vista de lista** icono ![](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
 1. (Opcional) Haga clic en **Modo de planificación** icono ![](assets/nwe-plan-mode-icon-task-list.png) y seleccione **Guardado manual** y, a continuación, seleccione **Standard** o **Planificación de calendario**. Esto deshabilita la **Autoguardar** que está activada de forma predeterminada.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Seleccione Guardar manualmente](assets/manual-save-option.png)
 
    >[!TIP]
    >
