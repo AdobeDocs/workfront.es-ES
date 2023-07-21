@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
 
    >[!TIP]
    >
-   >Para identificar al usuario correcto cuando hay usuarios con nombres similares o idénticos, observe el avatar, la función principal del usuario o su dirección de correo electrónico. Los usuarios deben estar asociados con al menos una función del trabajo para verla a medida que los etiqueta en una actualización.
+   >Para identificar al usuario correcto cuando hay usuarios con nombres similares o idénticos, observe el avatar, la función principal del usuario o su dirección de correo electrónico.
+   >
+   >Los usuarios deben estar asociados con al menos una función del trabajo para verla a medida que los etiqueta en una actualización.
+   >
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
@@ -156,8 +160,12 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    Escriba el símbolo @ en la **Escribir un comentario** , empiece a escribir el nombre del usuario o equipo que desee incluir en la actualización y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
-   >
-   >Para identificar al usuario correcto cuando hay usuarios con nombres similares o idénticos, observe el avatar, la función principal del usuario o su dirección de correo electrónico. Los usuarios deben estar asociados con al menos una función del trabajo para verla a medida que los etiqueta en una actualización.
+   > 
+   >Para identificar al usuario correcto cuando hay usuarios con nombres similares o idénticos, observe el avatar, la función principal del usuario o su dirección de correo electrónico.
+   > 
+   >Los usuarios deben estar asociados con al menos una función del trabajo para verla a medida que los etiqueta en una actualización.
+   > 
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-others-unified-commenting.png)
 

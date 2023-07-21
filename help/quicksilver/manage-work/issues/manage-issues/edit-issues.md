@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2493'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
 1. Considere la posibilidad de especificar información en cualquiera de las siguientes secciones:
 
-   * [Nombre de problema](#issue-name)
+   * [Nombre del problema](#issue-name)
    * [Información general](#overview)
    * [Asignaciones](#assignments)
    * [Formularios personalizados](#Custom%C2%A0F)
@@ -125,7 +125,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    >
    >La mayoría de los campos enumerados en las secciones siguientes también están accesibles desde el cuadro Nuevo problema al crear un problema. Las secciones en las que se encuentran los campos no coinciden con el cuadro Nuevo problema. Para obtener información sobre la creación de problemas, consulte [Crear problemas](../../issues/manage-issues/create-issues.md).
 
-### Nombre de problema {#issue-name}
+### Nombre del problema {#issue-name}
 
 1. Comience a editar un problema como se ha descrito anteriormente.
 1. Clic **Nombre de problema**.
@@ -201,7 +201,8 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    <b>SUGERENCIA</b>
 
-   Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+   <p>Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.</p>
+      <p> Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Concesión de acceso a los usuarios</a>.</p>
 
 
    </td> 

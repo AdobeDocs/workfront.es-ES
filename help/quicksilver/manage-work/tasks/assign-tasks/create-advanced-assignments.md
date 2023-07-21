@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: Crear asignaciones avanzadas
 description: Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -107,7 +108,9 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    >* Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
    >
    >
-   >* Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+   >* Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
+   >Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* <span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione el sistema/rol predeterminado para utilizar la tasa de facturación predeterminada para la asignación o seleccione un rol de tarjeta de tarifa para anular la tasa en el nivel de asignación. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
