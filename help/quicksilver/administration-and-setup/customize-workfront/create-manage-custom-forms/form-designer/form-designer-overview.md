@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Aunque todavía no puede agregar lógica de visualización u omisión al diseña
 
 Los iconos de un campo en el diseñador de formularios indican que se aplica lógica al campo.
 
-El **D** en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de visualización (si se realiza una selección específica en el formulario, se muestra este campo). El **D** en la parte inferior derecha significa que el campo se utiliza para definir la lógica de visualización (una selección o valor específico de este campo mostrará el campo de destino).
+El ![Mostrar lógica para el campo de destino](assets/display-logic-bottom-left.png) en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de visualización (si se realiza una selección específica en el formulario, se muestra este campo). El ![Definir icono de lógica de visualización](assets/display-logic-bottom-right.png) en la parte inferior derecha significa que el campo se utiliza para definir la lógica de visualización (una selección o valor específico de este campo mostrará el campo de destino).
 
-El **S** en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de omisión (si se realiza una selección específica en el formulario, este se salta este campo). El **S** en la parte inferior derecha significa que el campo se utiliza para definir la lógica de omisión (una selección o valor específico de este campo omitirá otros campos e irá directamente al campo de destino).
+El ![Omitir lógica para campo de destino](assets/skip-logic-bottom-left.png) en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de omisión (si se realiza una selección específica en el formulario, este se salta este campo). El ![Definir icono de lógica de omisión](assets/skip-logic-bottom-right.png) en la parte inferior derecha significa que el campo se utiliza para definir la lógica de omisión (una selección o valor específico de este campo omitirá otros campos e irá directamente al campo de destino).
+
+![Iconos lógicos](assets/logic-icons-3.png)
 
 Al seleccionar un campo con lógica aplicada, se muestran las reglas lógicas existentes en la configuración del campo.
 
