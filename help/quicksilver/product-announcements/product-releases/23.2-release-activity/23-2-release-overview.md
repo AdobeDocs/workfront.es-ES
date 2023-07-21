@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                             </li>
                             <li>
                                  <p>Versión de producción: con la versión 23.2<br />
-                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se desactivó temporalmente en Previsualización y producción el 24 de mayo de 2023.</span></p>
+                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se desactivó temporalmente en Previsualización y producción del 24 de mayo al 21 de julio de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambiar nombre de anclajes en plantilla de diseño</span></a>
-                        </span></a><p>Ahora puede cambiar el nombre de los anclajes en una plantilla de diseño para que tenga más sentido para los usuarios, en lugar de utilizar el nombre predeterminado para la página anclada. Los anclajes que crean los administradores se muestran para todos los usuarios asignados a la plantilla de diseño y los usuarios no pueden cambiarles el nombre.</p>
+                        <p>Ahora puede cambiar el nombre de los anclajes en una plantilla de diseño para que tenga más sentido para los usuarios, en lugar de utilizar el nombre predeterminado para la página anclada. Los anclajes que crean los administradores se muestran para todos los usuarios asignados a la plantilla de diseño y los usuarios no pueden cambiarles el nombre.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Inicio de sesión biométrico y colecciones de tableros en la aplicación móvil</span></a>
-                        </span></a><p>El inicio de sesión biométrico es ahora una opción para iniciar sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán utilizar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, en una actualización posterior se incorporarán varias mejoras de aspecto y funcionamiento en la experiencia general de inicio de sesión.</p>
+                        <p>El inicio de sesión biométrico es ahora una opción para iniciar sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán utilizar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, en una actualización posterior se incorporarán varias mejoras de aspecto y funcionamiento en la experiencia general de inicio de sesión.</p>
                         <p>Las colecciones de tableros ahora también son compatibles con la aplicación móvil, lo que permite a los usuarios móviles ver cualquier colección a la que tengan acceso en la versión de escritorio desde su lista de tableros móviles.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -592,7 +592,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para su uso en el</span></a>
-                        </span></a><p>En el complemento Adobe Workfront XD para la, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.</p>
+                        <p>En el complemento Adobe Workfront XD para la, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

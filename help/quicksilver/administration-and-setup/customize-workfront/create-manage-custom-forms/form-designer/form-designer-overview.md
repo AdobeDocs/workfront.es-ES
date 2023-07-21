@@ -4,22 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # Información general del diseñador de formularios
-
->[!IMPORTANT]
->
->El diseñador de formularios se deshabilitó temporalmente el 24 de mayo de 2023. Puede utilizar el generador de formularios heredados para crear y editar sus formularios personalizados. Consulte [Crear o editar un formulario personalizado con el generador de formularios heredado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Puede utilizar el nuevo diseñador de formularios para diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 
@@ -31,7 +27,7 @@ El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo l
 
 Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y del creador de formularios heredados. Puede utilizar este botón para cambiar entre el generador heredado y el nuevo diseñador.
 
-![](assets/switch-views.png)
+![Cambiar al nuevo diseñador de formularios](assets/switch-views.png)
 
 ## Nueva funcionalidad disponible con el diseñador de formularios
 
@@ -43,9 +39,9 @@ Con el nuevo diseñador de formularios, hemos agregado la capacidad de
 
 * **Utilizar una sección predeterminada**: Si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se puede ver una sección Predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada.
 
-   >[!NOTE]
-   >
-   >La sección predeterminada no es visible dentro de los objetos una vez que el formulario está adjunto al objeto.
+  >[!NOTE]
+  >
+  >La sección predeterminada no es visible dentro de los objetos una vez que el formulario está adjunto al objeto.
 
 ## Funcionalidad próximamente
 
@@ -59,6 +55,20 @@ Los siguientes elementos no están disponibles actualmente en el diseñador de f
 >
 >Las configuraciones existentes para la lógica y los filtros de escritura anticipada no se verán afectadas al trabajar con el nuevo diseñador de formularios.
 
+### Lógica de visualización/omisión
+
+Aunque todavía no puede agregar lógica de visualización u omisión al diseñar un nuevo formulario personalizado, puede ver la lógica de visualización u omisión existente en los formularios creados en el generador de formularios heredados.
+
+Los iconos de un campo en el diseñador de formularios indican que se aplica lógica al campo.
+
+El **D** en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de visualización (si se realiza una selección específica en el formulario, se muestra este campo). El **D** en la parte inferior derecha significa que el campo se utiliza para definir la lógica de visualización (una selección o valor específico de este campo mostrará el campo de destino).
+
+El **S** en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de omisión (si se realiza una selección específica en el formulario, este se salta este campo). El **S** en la parte inferior derecha significa que el campo se utiliza para definir la lógica de omisión (una selección o valor específico de este campo omitirá otros campos e irá directamente al campo de destino).
+
+Al seleccionar un campo con lógica aplicada, se muestran las reglas lógicas existentes en la configuración del campo.
+
+![Reglas lógicas](assets/form-designer-view-only-logic.png)
+
 ## Funcionalidad quitada del diseñador de formularios
 
 Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
@@ -69,11 +79,12 @@ Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
    * La configuración de formulario ya está disponible en la parte superior del lienzo
 
    * Pestaña principal Compartir formularios y subpestaña Compartir campos
-   >[!NOTE]
-   >
-   >Puede controlar el uso compartido de formularios y campos desde la pestaña Configuración > Forms personalizado > Forms o Campos.
+
+  >[!NOTE]
+  >
+  >Puede controlar el uso compartido de formularios y campos desde la pestaña Configuración > Forms personalizado > Forms o Campos.
 
 * Seguir cambios de los campos en las fuentes de actualización
-   >[!NOTE]
-   >
-   >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes
+  >[!NOTE]
+  >
+  >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes

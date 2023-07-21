@@ -3,9 +3,9 @@ title: 23.3 Mejoras del administrador
 description: 23.3 Mejoras del administrador
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ El administrador del sistema ahora puede bloquear y desbloquear la plantilla de 
 Para obtener más información, consulte [Configurar preferencias de horas y hojas de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) y [Configurar las preferencias de horas y hojas de horas de un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## Mostrar la lógica y omitir los indicadores lógicos y las reglas mostrados en la versión beta de Forms Designer
+
+La versión beta pública del diseñador de formularios se volvió a habilitar en Vista previa y producción el 21 de julio de 2023. El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.
+Además, cuando se abre un formulario personalizado en la versión beta de Forms Designer que contiene lógica de visualización u omisión creada en el generador de formularios heredado, ahora se puede ver la lógica:
+
+* Los iconos de un campo en el lienzo del diseñador de formularios indican que la lógica está configurada en ese campo o que el campo se utiliza en reglas lógicas configuradas en otros campos.
+* Al seleccionar un campo con lógica aplicada, se muestran las reglas lógicas existentes en la configuración del campo.
+
+La edición de la lógica existente y la adición de una nueva lógica a un formulario personalizado aún no están disponibles en la versión beta de Forms Designer, pero están planificadas para el futuro.
+
+Para obtener más información, consulte [Información general del diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
