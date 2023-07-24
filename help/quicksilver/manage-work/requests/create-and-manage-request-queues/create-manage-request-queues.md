@@ -2,29 +2,31 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Crear y administrar colas de solicitud
-description: Obtenga información sobre la creación y administración de colas de solicitud en Adobe Workfront en los siguientes artículos.
+title: Crear y administrar colas de solicitudes
+description: Puede crear colas de solicitudes en Adobe Workfront para capturar el trabajo no planificado de su organización. En los siguientes artículos se describe cómo configurar proyectos para que funcionen como colas de solicitudes.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-# Crear y administrar colas de solicitud
+# Crear y administrar colas de solicitudes
 
 Esta sección contiene los siguientes artículos:
 
-* [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [Definir tipos de solicitud para un proyecto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Proporcionar acceso a colas de solicitud](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Definición de tipos de solicitud para un proyecto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+* [Proporcionar acceso a las colas de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
   -->

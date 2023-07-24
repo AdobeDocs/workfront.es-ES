@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Crear temas de cola
 description: Los temas de colas funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, rol, equipo o para colocarlo en un proyecto. Los temas de colas definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ Debe tener lo siguiente:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de solicitud</strong> </td> 
-      <td> <p>Elija el tipo de solicitudes que almacena este tema de cola. Las opciones visibles se definen en la variable <strong>Detalles de cola</strong> del proyecto. Este campo es obligatorio. </p> <p>Nota: Los tipos de solicitud se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información sobre cómo configurar el área Detalles de cola de un proyecto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p> 
-       <ul> 
-        <li>Informe de errores</li> 
-        <li>Solicitud de cambio</li> 
-        <li>Problema</li> 
-        <li>Solicitud</li> 
-       </ul> <p>Es posible que el administrador de Workfront haya cambiado el nombre de algunas de estas opciones. </p> </td> 
-     </tr> 
+      <td> <p>Elija el tipo de solicitudes que almacena este tema de cola. Las opciones visibles se definen en la variable <strong>Detalles de cola</strong> del proyecto. Este campo es obligatorio. </p>
+
+   <p><b>NOTA</b>:
+
+   Los tipos se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información sobre cómo configurar el área Detalles de cola de un proyecto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p>
+   <ul>
+   <li>Informe de errores</li>
+   <li>Solicitud de cambio</li>
+   <li>Problema</li>
+   <li>Solicitud</li>
+   </ul> <p>Es posible que el administrador de Workfront haya cambiado el nombre de algunas de estas opciones. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 

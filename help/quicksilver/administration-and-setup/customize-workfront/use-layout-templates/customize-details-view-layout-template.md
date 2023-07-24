@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,12 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 Los cambios que realice en la vista Detalles de un objeto también determinan la disponibilidad y el orden de los campos que ven los usuarios en las áreas siguientes:
 
-* Cuadros &quot;Nuevo objeto&quot;, como Nueva tarea y Nuevo problema
+<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
+* "New object" boxes, such as New Task and New Issue
 
   ![](assets/new-task-dialog.png)
+
+-->
 
 * Pantallas &quot;Editar objeto&quot;, como Editar tarea, Editar problema y Editar proyecto
 
