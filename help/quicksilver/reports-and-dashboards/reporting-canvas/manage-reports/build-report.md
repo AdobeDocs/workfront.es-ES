@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Historia</td> 
-       <td> <p>Añada texto que dé contexto a la información del informe.</p> <p>Para obtener más información, consulte [vínculo final].</p> </td> 
+       <td> <p>Añada texto que dé contexto a la información del informe.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Contenido web</td> 
@@ -61,7 +61,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Filtro de lienzo</td> 
-       <td> <p>Agregue un filtro que permita a los usuarios ver diferentes aspectos de un informe. Este filtro se aplica a todos los datos del informe.</p> <p>Para obtener más información, consulte [vínculo final].</p> </td> 
+       <td> <p>Agregue un filtro que permita a los usuarios ver diferentes aspectos de un informe. Este filtro se aplica a todos los datos del informe.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
      </tr> 
      <tr> 
       <td role="rowheader">Marcar como favorito el informe</td> 
-      <td>Después de salir del panel de edición, haga clic en <strong>Estrella</strong> icono [icono] junto al nombre del informe para añadirlo a su lista de informes favoritos.</td> 
+      <td>Después de salir del panel de edición, haga clic en <strong>Estrella</strong> junto al nombre del informe para añadirlo a su lista de informes favoritos.</td> 
      </tr> 
     </tbody> 
    </table>
