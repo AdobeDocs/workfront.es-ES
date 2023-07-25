@@ -6,14 +6,20 @@ description: Siga estas sugerencias para actualizar sin problemas su organizaci�
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Prepárese para una [!DNL Adobe Workfront] lanzamiento programado
+
+>[!NOTE]
+>
+>Workfront ofrece dos modelos para la publicación de nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funciones trimestralmente o con una programación de versiones más rápida. El proceso de preparación para una versión es similar, independientemente del modelo que utilice su organización.
+>
+>Para ver una explicación detallada de los dos modelos de versión, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] publica actualizaciones principales en el entorno de producción de forma regular. As a [!DNL Workfront] administrador, tiene la oportunidad de asegurarse de que su organización tiene una transición sin problemas a cada nueva versión de [!DNL Workfront] producto.
 
@@ -50,7 +56,7 @@ Le recomendamos que tenga en cuenta algunas o todas las acciones siguientes que 
 
 Las notas de la versión de una función determinada se publican cuando esta se dirige a su [!UICONTROL Previsualizar zona protegida] entorno. De este modo, puede conocer y explorar la funcionalidad antes de que forme parte del entorno de producción.
 
-Cada versión tiene una página de información general de la versión con breves descripciones de cada función y vínculos a notas más detalladas que contienen información adicional y vídeos de demostración. Estas notas detalladas se organizan por semana a medida que se producen las versiones de vista previa y, a continuación, se reorganizan por área más cercana a la fecha real de lanzamiento de Producción.
+Cada versión tiene una página de información general de la versión con breves descripciones de cada función y vínculos a notas más detalladas que contienen información adicional y vídeos de demostración. Estas notas detalladas se organizan por semana a medida que se producen las versiones de vista previa y, a continuación, se reorganizan por área más cerca de la fecha real de lanzamiento trimestral de Producción.
 
 Recomendamos encarecidamente ver los vídeos de demostración disponibles en las notas de la versión. Esto puede resultar especialmente útil para ver la función en acción o para echar un vistazo rápido al contexto de la función si no tiene tiempo.
 
@@ -78,7 +84,7 @@ As a [!DNL Workfront] administrador, recibirá un mensaje del Centro de anuncios
 
 ### Explore la [!UICONTROL Previsualizar zona protegida] entorno
 
-El [!UICONTROL Previsualizar zona protegida] entorno de, también conocido como [!UICONTROL Previsualizar] , sirve como entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno de producción. [!UICONTROL Workfront] lanza nuevas funciones y funcionalidades para el entorno de vista previa mucho antes de que se publiquen en el entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
+El [!UICONTROL Previsualizar zona protegida] entorno de, también conocido como [!UICONTROL Previsualizar] , sirve como entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno de producción. [!UICONTROL Workfront] normalmente lanza nuevas funciones y funcionalidades para el entorno de vista previa al menos dos semanas antes de que se lancen al entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
 
 >[!TIP]
 >
