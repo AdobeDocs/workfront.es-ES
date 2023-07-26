@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3590'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Requisitos previos
+
+Para crear un servidor a servidor OAuth, debe agregar la API de servicios de Adobe PDF a la consola de desarrolladores de Adobe. Al agregar la API, seleccione la opción Servidor a servidor OAuth.
+
+Para obtener instrucciones, consulte [Agregar una API al proyecto mediante OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) En la documentación para desarrolladores de Adobe.
+
 ## Cree una conexión con [!DNL Adobe PDF Services]
 
 Para crear una conexión para su [!DNL Adobe PDF Services] módulos:
@@ -111,19 +117,19 @@ Para crear una conexión para su [!DNL Adobe PDF Services] módulos:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID de cliente]</td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].</td>
+          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].<p>Para obtener instrucciones sobre cómo localizar las credenciales, consulte <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credenciales</a> en la documentación para desarrolladores de Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL Secreto de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+          <td>Introduzca su [!DNL Adobe] [!UICONTROL Secreto de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].<p>Para obtener instrucciones sobre cómo localizar las credenciales, consulte <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credenciales</a> en la documentación para desarrolladores de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID de cuenta técnica] (solo JWT)</td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de cuenta técnica]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de cuenta técnica]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].<p>Para obtener instrucciones sobre cómo localizar las credenciales, consulte <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credenciales</a> en la documentación para desarrolladores de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (solo JWT)</td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de organización]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de organización]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].<p>Para obtener instrucciones sobre cómo localizar las credenciales, consulte <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credenciales</a> en la documentación para desarrolladores de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL MetaÁmbitos] (solo JWT)</td>
