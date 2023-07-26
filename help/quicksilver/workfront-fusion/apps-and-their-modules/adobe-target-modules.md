@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Módulos de Adobe Target
 description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] Los módulos de le permiten crear, leer, actualizar o eliminar registros, enumerar todos los registros de un tipo determinado, buscar registros basados en los criterios especificados o realizar una llamada de API personalizada a [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%

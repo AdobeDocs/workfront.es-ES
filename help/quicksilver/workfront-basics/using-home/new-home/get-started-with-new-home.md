@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%

@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Módulos Figma
 description: Con el [!DNL Adobe Workfront Fusion] Módulos Figma, puede recuperar listas de comentarios, archivos, versiones de archivos o proyectos. También puede publicar un comentario o hacer una llamada a la API de Figma.
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Coloque los campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados
 description: Puede cambiar la posición de los campos y widgets personalizados en un formulario personalizado.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* Puede usar el complemento **Previsualizar** en la esquina inferior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
 >* Los campos de texto descriptivo no pueden compartir una fila.
 >* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
-
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
 1. Clic **Aplicar**.

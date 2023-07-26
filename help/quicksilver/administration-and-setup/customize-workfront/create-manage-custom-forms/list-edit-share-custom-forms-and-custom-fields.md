@@ -2,7 +2,9 @@
 title: Mostrar y editar formularios personalizados y widgets agregados a formularios personalizados
 description: Cuando vea una lista de los formularios personalizados de su organización y los campos personalizados y widgets que se les han agregado, puede utilizar las opciones de la barra de herramientas para editar sus propiedades, limitar con quién se comparten, copiarlos y eliminarlos. También puede ver otra información en las columnas que se muestran, como los tipos de objeto con los que está asociado cada formulario personalizado.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -76,7 +78,6 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    * [Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configuración del uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Eliminar un campo o widget personalizado del sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-
 
 1. Seleccione el **Secciones** pestaña y, a continuación, asegúrese de que **Grupo de parámetros** está seleccionado como **Ver** para la lista..
 

@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Módulos de bibliotecas Adobe Creative Cloud
 description: Con el [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Módulos de bibliotecas, puede iniciar un escenario cuando se cree o actualice un elemento o biblioteca. También puede cargar, recuperar, archivar o enumerar elementos, o realizar una llamada al [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

@@ -5,24 +5,24 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Cuando el trabajo definido en un elemento de trabajo se vuelve demasiado grande, puede convertirlo en un elemento de trabajo más grande.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # Transferir datos de formulario personalizados al convertir un objeto
 
-Según las necesidades comerciales de su organización, el trabajo definido en una tarea o un problema podría llegar a ser demasiado grande para administrarlo dentro de la tarea o del problema. En este caso, puede convertirlos en un elemento de trabajo más grande:
+Según las necesidades comerciales de su organización, el trabajo definido en una tarea o un problema puede llegar a ser demasiado grande para administrarlo dentro de la tarea o el problema. En este caso, puede convertirlos en un elemento de trabajo más grande:
 
 * Puede convertir problemas en tareas o en proyectos
 * Puede convertir tareas en proyectos
 
-Para transferir datos de formulario personalizados de un problema a una tarea o un proyecto, debe completar las dos tareas de este artículo, en el orden siguiente.
+Para transferir datos de formulario personalizados de un problema a una tarea o un proyecto, debe completar las dos tareas de este artículo en el orden siguiente.
 
 Para obtener más información, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) o [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -35,7 +35,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -49,35 +49,35 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Primero: Agregar objetos adicionales al formulario personalizado
+## Primero: agregar objetos adicionales al formulario personalizado
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **Forms personalizado**.
+1. Clic **Forms personalizado**.
 1. Busque el formulario que necesita y haga clic en **Editar**.
-1. En la parte superior del formulario, añada el objeto al que planee convertir la tarea o el problema.
+1. En la parte superior del formulario, agregue el objeto al que planea convertir la tarea o el problema.
    >[!INFO]
    >
    >**Ejemplo**: Si desea transferir los datos de formulario personalizados a un proyecto, seleccione Proyecto.
 
-1. Haga clic en **Aplicar** en la parte inferior del formulario.
+1. Clic **Aplicar** en la parte inferior del formulario.
 
-1. Continúe con [Segundo: Convertir el problema o la tarea y transferir los datos de formulario personalizados](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Continúe en a [Segundo: Convierta el problema o la tarea y transfiera los datos del formulario personalizado](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
-## Segundo: Convertir el problema o la tarea y transferir los datos de formulario personalizados {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## Segundo: Convierta el problema o la tarea y transfiera los datos del formulario personalizado {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Agregue objetos adicionales al formulario personalizado sobre el problema o la tarea que está convirtiendo, tal como se explica en la sección [Primero: Agregar objetos adicionales al formulario personalizado](#first-add-additonal-objects-to-the-custom-form) en este artículo.
-1. Convertir el problema o la tarea mediante la variable **Forms personalizado** en el cuadro que aparece para seleccionar el formulario personalizado que necesita. Para obtener instrucciones, consulte los siguientes artículos:
+1. Agregue objetos adicionales al formulario personalizado sobre el problema o la tarea que está convirtiendo, tal como se explica en la sección [Primero: agregar objetos adicionales al formulario personalizado](#first-add-additonal-objects-to-the-custom-form) en este artículo.
+1. Convertir el problema o la tarea mediante **Forms personalizado** en el cuadro que aparece para seleccionar el formulario personalizado que necesita. Para obtener instrucciones, consulte los siguientes artículos:
 
-   * [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Conversión de un problema en una tarea en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Conversión de una tarea en un proyecto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. En el **Convertir a (tipo de objeto)** que se muestra, haga clic en el botón **Añadir Forms** menú desplegable y seleccione el formulario que ha copiado en la sección anterior.
+1. En el **Convertir a (tipo de objeto)** que aparece, haga clic en el **Añadir Forms** y seleccione el formulario que ha copiado en la sección anterior.
 
-   La información capturada en los campos personalizados del problema se transfiere ahora al formulario personalizado de la tarea.
+   La información capturada en los campos personalizados del problema ahora se transfiere al formulario personalizado de la tarea.
 
 
 <!--

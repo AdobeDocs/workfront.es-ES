@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Previsualizar y completar un formulario personalizado con el generador de formularios heredado
 description: Cuando haya terminado de crear o editar un formulario personalizado, puede obtener una vista previa para ver el aspecto que tendrá para los usuarios y, a continuación, guardarlo y cerrarlo.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%

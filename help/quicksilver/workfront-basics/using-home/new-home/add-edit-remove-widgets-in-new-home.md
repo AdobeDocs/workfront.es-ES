@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: Agregar, editar o quitar widgets en la nueva página de inicio
 description: Puede elegir entre una serie de widgets para personalizar el contenido que aparece en la página de inicio. Estos widgets se pueden cambiar de tamaño y organizar en la página de inicio.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%

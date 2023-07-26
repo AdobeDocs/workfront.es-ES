@@ -3,24 +3,25 @@ filename: microsoft-word-templates-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de plantilla de Microsoft Word
-description: En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de trabajo que utilizan plantillas de Microsoft Word, así como conectarlos a varias aplicaciones y servicios de terceros.
+description: En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de trabajo que utilizan plantillas de Word de Microsoft, así como conectarlos a varias aplicaciones y servicios de terceros.
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Microsoft Word Template] módulos
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft Word Templates], así como conectarlo a varias aplicaciones y servicios de terceros.
+En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Microsoft Word Templates], así como conectarlo a múltiples aplicaciones y servicios de terceros.
 
-Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -38,15 +39,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
@@ -65,13 +66,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Para usar [!DNL Miscrosoft Word Templates] con [!DNL Adobe Workfront Fusion], es necesario tener un [!DNL Office 365] cuenta. Puede crear una en www.office.com.
+Para utilizar [!DNL Miscrosoft Word Templates] con [!DNL Adobe Workfront Fusion], es necesario tener un [!DNL Office 365] cuenta. Puede crear uno en www.office.com.
 
-## Uso [!DNL Microsoft Word Templates] módulos
+## Uso de [!DNL Microsoft Word Templates] módulos
 
-Puede usar un [!DNL Microsoft Word Template] para combinar datos de varios servicios web en un [!DNL Microsoft Word] documento.
+Puede usar un [!DNL Microsoft Word Template] para combinar datos de varios servicios web en una [!DNL Microsoft Word] documento.
 
-Por ejemplo, puede usar esta [!DNL Microsoft Word] plantilla:
+Por ejemplo, puede usar esto [!DNL Microsoft Word] plantilla:
 
 ![](assets/word-template-before-filled-350x62.png)
 
@@ -81,7 +82,7 @@ Para crear este documento:
 
 ## Acerca de las etiquetas de valor
 
-A [!DNL Microsoft Word] plantilla es normal [!DNL Microsoft Word] documento (archivo .docx) con etiquetas especiales en su texto que determinan dónde y cómo combinar o rellenar los datos. Existen tres tipos de etiquetas:
+A [!DNL Microsoft Word] La plantilla es una plantilla normal [!DNL Microsoft Word] documento (archivo .docx) con etiquetas especiales en el texto que determinan dónde y cómo combinar o rellenar datos. Existen tres tipos de etiquetas:
 
 * [Etiqueta de valor simple](#simple-value-tag)
 * [Etiqueta de condición](#condition-tag)
@@ -89,17 +90,17 @@ A [!DNL Microsoft Word] plantilla es normal [!DNL Microsoft Word] documento (arc
 
 ### Etiqueta de valor simple {#simple-value-tag}
 
-Una etiqueta de valor simple se reemplaza simplemente por un valor correspondiente. El nombre de la etiqueta corresponde a la variable [!UICONTROL Clave] valor del campo, que se coloca dentro de llaves dobles; por ejemplo,
+Una etiqueta de valor simple se sustituye simplemente por un valor correspondiente. El nombre de la etiqueta corresponde a la etiqueta [!UICONTROL Clave] el valor del campo, que se coloca entre llaves dobles; por ejemplo,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
-**Ejemplo:** Para crear un documento que diga &quot;¡Hola, Petr!&quot;, puede usar un [!DNL Microsoft Word Template] para crear la siguiente plantilla:
+**Ejemplo:** Para crear un documento que diga &quot;¡Hola, Petr!&quot;, podría usar un [!DNL Microsoft Word Template] para crear la siguiente plantilla:
 
-<pre>&gt; ¡Hola &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hola {{name}}!</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 
@@ -107,29 +108,28 @@ Para ello, debe configurar el módulo de la siguiente manera:
 
 ### Etiqueta de condición {#condition-tag}
 
-Puede utilizar una etiqueta de condición para ajustar el texto que solo debe procesarse cuando se cumplen determinadas condiciones. Para ajustar el texto, colóquelo entre las etiquetas de condición de apertura y cierre, como &quot;hasPhone&quot;, si la condición es si los datos incluyen o no un número de teléfono. El nombre de una etiqueta de apertura va precedido de un signo de almohadilla #, el nombre de una etiqueta de cierre va precedido de una barra diagonal /, como se muestra en el ejemplo siguiente.
+Puede utilizar una etiqueta de condición para ajustar el texto que se debe representar solo cuando se cumplen determinadas condiciones. Para ajustar el texto, colóquelo entre las etiquetas de condición de apertura y cierre, como &quot;hasPhone&quot; si la condición es si los datos incluyen o no un número de teléfono. El nombre de una etiqueta de apertura va precedido del signo hash # y el nombre de una etiqueta de cierre va precedido de una barra diagonal /, como se muestra en el ejemplo siguiente.
 
-**Ejemplo:** Para producir un documento que incluya el número de teléfono de un cliente si los datos de entrada incluyen un número de teléfono, pero no una dirección de correo electrónico, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
-<pre>> &#123;&#123;#hasPhone&#125;&#125;Teléfono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;Correo electrónico: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Para ello, debe configurar el módulo de la siguiente manera:
+**Ejemplo:** Para generar un documento que incluya el número de teléfono de un cliente si los datos de entrada incluyen un número de teléfono pero ninguna dirección de correo electrónico, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
+<pre>&gt; {{#hasPhone}}Teléfono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Correo electrónico: {{email}} {{/hasEmail}}</pre>Para ello, debe configurar el módulo de la siguiente manera:
 
 ![](assets/word-template-conditional-350x501.png)
 
-En el documento, el número de teléfono aparecerá de la siguiente manera:
+En el documento, el número de teléfono aparecería de la siguiente manera:
 <pre>&gt; Teléfono: 4445551234</pre>
 
 ### Etiqueta de bucle {#loop-tag}
 
-Puede utilizar una etiqueta de bucle, también conocida como etiqueta de sección, para repetir una sección de texto. Ajuste el texto colocándolo entre las etiquetas de bucle de apertura y cierre. El nombre de una etiqueta de apertura va precedido de un signo de almohadilla #; el nombre de una etiqueta de cierre va precedido de una barra diagonal /.
+Puede utilizar una etiqueta de bucle, también conocida como etiqueta de sección, para repetir una sección de texto. Ajuste el texto colocándolo entre las etiquetas de bucle de apertura y cierre. El nombre de una etiqueta de apertura va precedido del signo de almohadilla #; el nombre de una etiqueta de cierre va precedido de una barra diagonal /.
 
-* [Etiqueta Bucle con Relleno de un módulo de documento](#loop-tag-with-fill-out-a-document-module)
+* [Etiqueta de bucle con Rellenar un módulo de documento](#loop-tag-with-fill-out-a-document-module)
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
-   <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+#### Etiqueta de bucle con Rellenar un módulo de documento {#loop-tag-with-fill-out-a-document-module}
 
-#### Etiqueta Bucle con Relleno de un módulo de documento {#loop-tag-with-fill-out-a-document-module}
+**Ejemplo:** Para generar un documento que incluya el nombre y el número de teléfono de cada contacto en una lista de clientes, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
 
-**Ejemplo:** Para producir un documento que enumere el nombre y el número de teléfono de cada contacto en una lista de clientes, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
-
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>>     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 
@@ -168,14 +168,14 @@ The module would create the following document:
 
 ## [!DNL Microsoft Word Template] módulos
 
-Estos módulos no requieren una conexión.
+Estos módulos no requieren conexión.
 
 * [Rellenar un documento](#fill-out-a-document)
 * [Rellenar un documento con un lote de datos](#fill-a-document-with-a-batch-of-data)
 
 ### [!UICONTROL Rellenar un documento] {#fill-out-a-document}
 
-Este módulo de transformador permite rellenar un documento con los datos especificados. Se puede utilizar con etiquetas de valores simples, etiquetas condicionales o de bucle.
+Este módulo transformador permite rellenar un documento con los datos especificados. Se puede utilizar con etiquetas de valores simples, etiquetas condicionales o etiquetas de bucle.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -183,11 +183,11 @@ Este módulo de transformador permite rellenar un documento con los datos especi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Delimitador de inicio del texto que se va a reemplazar]</td> 
-   <td> <p>Introduzca los caracteres que desea marcar el principio del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>[[</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Introduzca los caracteres que desea marcar al principio del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>[[</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Delimitador final del texto que se va a reemplazar]</p> </td> 
-   <td> <p>Introduzca los caracteres que desea marcar el final del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>]]</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Introduzca los caracteres que desea que marquen el final del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>]]</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo de origen]</td> 
@@ -198,21 +198,21 @@ Este módulo de transformador permite rellenar un documento con los datos especi
    <td>Introduzca un nombre de archivo (incluida la extensión) para el archivo de salida de destino.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fuente de datos]</td> 
-   <td> <p>Seleccione una opción para indicar si los datos que está utilizando proceden de un formulario o de una recopilación de datos sin procesar (datos de equipo sin procesar).</p> </td> 
+   <td role="rowheader">[!UICONTROL Origen de datos]</td> 
+   <td> <p>Seleccione una opción para indicar si los datos que está utilizando proceden de un formulario o de una recopilación de datos sin procesar (datos de equipo no procesados).</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
-   <td> <p>Debe ser una matriz de colecciones donde:</p> 
+   <td role="rowheader">[!UICONTROL Valores]</td> 
+   <td> <p>Debe ser una matriz de colecciones, donde:</p> 
     <ul> 
      <li>Cada colección corresponde a una entrada de datos y contiene un elemento <code>entry</code></li> 
      <li>Elemento <code>entry </code>contiene una colección de <code>key </code>y <code>value</code></li> 
      <li>Elemento <code>key </code>contiene el nombre de la etiqueta</li> 
-     <li>item <code>value </code>contiene el valor de la etiqueta</li> 
+     <li>artículo <code>value </code>contiene el valor de la etiqueta</li> 
     </ul> 
-    <p>Para añadir una entrada:</p>
+    <p>Para agregar una entrada:</p>
     <ol> 
-     <li> Haga clic en <b>[!UICONTROL Agregar elemento]</b>. </li> 
+     <li> Clic <b>[!UICONTROL Agregar elemento]</b>. </li> 
      <li>Seleccione el tipo de valor de la entrada.</li> 
      <li>Añada el nombre y el valor. Para obtener más información, consulte el ejemplo del tipo de valor elegido en este artículo. 
       <ul> 
@@ -227,9 +227,9 @@ Este módulo de transformador permite rellenar un documento con los datos especi
 
 ### [!UICONTROL Rellenar un documento con un lote de datos] {#fill-a-document-with-a-batch-of-data}
 
-Este módulo de agregador resulta útil si las entradas de datos se incluyen en paquetes independientes. Con este módulo, puede configurar fácilmente la estructura necesaria para el campo Valor y asignar elementos a cada elemento de valor. A diferencia del módulo Fill out a document , el campo Values del módulo Fill a document with a batch of data permite una sola entrada que contenga variables.
+Este módulo de agregador es útil si las entradas de datos se incluyen como paquetes independientes. Con este módulo, puede configurar fácilmente la estructura necesaria para el campo Valor y asignar elementos a cada elemento de valor. A diferencia del módulo Rellenar un documento, el campo Valores del módulo Rellenar un documento con un lote de datos solo permite una única entrada que contenga variables.
 
-También puede utilizar este módulo si las entradas de datos vienen como una matriz, utilizando la variable *Iterador* para transformar el contenido de la matriz en una serie de paquetes.
+También puede utilizar este módulo si las entradas de datos se proporcionan como una matriz, utilizando *Iterador* para transformar el contenido de la matriz en una serie de paquetes.
 
 Los valores reales se crean y rellenan para cada paquete entrante. La plantilla se genera después de procesar todos los paquetes de entrada.
 
@@ -240,23 +240,23 @@ Este módulo de agregador es especialmente útil para crear listas o informes.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td role="rowheader">[!UICONTROL Módulo de origen]</td> 
    <td>Seleccione el módulo que es el origen del texto.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Delimitador de inicio del texto que se va a reemplazar]</td> 
-   <td> <p>Introduzca los caracteres que desea marcar el principio del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>[[</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Introduzca los caracteres que desea marcar al principio del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>[[</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Delimitador final del texto que se va a reemplazar]</p> </td> 
-   <td> <p>Introduzca los caracteres que desea marcar el final del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>]]</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Introduzca los caracteres que desea que marquen el final del texto que se va a reemplazar. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Entrar <code>]]</code> si desea reemplazar un texto similar a este: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by]</td> 
-   <td> Defina una expresión que contenga uno o más elementos asignados. Los datos agregados se separan en Grupos con el mismo valor de expresión. Cada grupo genera como un paquete separado que contiene una clave con la expresión evaluada y el texto agregado. Al hacerlo, puede utilizar la clave como filtro en los módulos siguientes.</td> 
+   <td role="rowheader">[!UICONTROL Agrupar por]</td> 
+   <td> Defina una expresión que contenga uno o varios elementos asignados. Los datos agregados se separan en Grupos con el mismo valor de expresión. Cada grupo genera como un paquete independiente que contiene una clave con la expresión evaluada y el texto agregado. Al hacerlo, puede utilizar la clave como filtro en módulos posteriores.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Detenga el procesamiento después de una agregación vacía]</td> 
+   <td role="rowheader">[!UICONTROL Detener procesamiento después de una agregación vacía]</td> 
    <td>Active esta opción para detener el procesamiento cuando una agregación no contenga paquetes.</td> 
   </tr> 
   <tr> 
@@ -268,21 +268,21 @@ Este módulo de agregador es especialmente útil para crear listas o informes.
    <td>Introduzca un nombre de archivo (incluida la extensión) para el archivo de salida de destino.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fuente de datos]</td> 
-   <td> <p>Seleccione una opción para indicar si los datos que está utilizando proceden de un formulario o de una recopilación de datos sin procesar (datos de equipo sin procesar).</p> </td> 
+   <td role="rowheader">[!UICONTROL Origen de datos]</td> 
+   <td> <p>Seleccione una opción para indicar si los datos que está utilizando proceden de un formulario o de una recopilación de datos sin procesar (datos de equipo no procesados).</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
-   <td> <p>Debe ser una matriz de colecciones donde:</p> 
+   <td role="rowheader">[!UICONTROL Valores]</td> 
+   <td> <p>Debe ser una matriz de colecciones, donde:</p> 
     <ul> 
      <li>Cada colección corresponde a una entrada de datos y contiene un elemento <code>entry</code></li> 
      <li>Elemento <code>entry </code>contiene una colección de <code>key </code>y <code>value</code></li> 
      <li>Elemento <code>key </code>contiene el nombre de la etiqueta</li> 
-     <li>item <code>value </code>contiene el valor de la etiqueta</li> 
+     <li>artículo <code>value </code>contiene el valor de la etiqueta</li> 
     </ul> 
-    <p>Para añadir una entrada:</p>
+    <p>Para agregar una entrada:</p>
     <ol> 
-     <li> Haga clic en <b>[!UICONTROL Agregar elemento]</b>. </li> 
+     <li> Clic <b>[!UICONTROL Agregar elemento]</b>. </li> 
      <li>Seleccione el tipo de valor de la entrada.</li> 
      <li>Añada el nombre y el valor. Para obtener más información, consulte el ejemplo del tipo de valor elegido en este artículo. 
       <ul> 
@@ -294,4 +294,3 @@ Este módulo de agregador es especialmente útil para crear listas o informes.
   </tr> 
  </tbody> 
 </table>
-

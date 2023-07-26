@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede decidir qué secciones de un formulario personalizado se deben mostrar o omitir en función de las opciones que realice un usuario al rellenarlo.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 * Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, lista desplegable o casillas de verificación) antes de él en el formulario.
 
-   Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * No se puede agregar lógica de omisión a un widget o salto de sección. Solo puede agregarlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
 
@@ -70,10 +70,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 La mejor manera de aprender a agregar lógica de visualización y omisión a un formulario personalizado es a través del ejemplo práctico que se explica en las dos secciones siguientes:
 
-* [Mostrar lógica](#display-logic)
+* [Lógica de visualización](#display-logic)
 * [Omitir lógica](#skip-logic)
 
-### Mostrar lógica {#display-logic}
+### Lógica de visualización {#display-logic}
 
 1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
@@ -105,7 +105,7 @@ La mejor manera de aprender a agregar lógica de visualización y omisión a un 
 1. En el cuadro que aparece, con la etiqueta **Lógica de visualización** Abra la pestaña, configure la lógica para cuando el **Otras investigaciones** aparecerá en el formulario al hacer clic en **Campo de problema** en la primera lista desplegable, **Investigación necesaria** en la segunda lista desplegable, y **Seleccionado** en la tercera lista desplegable.
 1. Clic **Guardar** para cerrar el **Lógica de campo** y haga clic en **Listo** en el **Configuración de campo** área.
 
-   Ahora, cuando alguien selecciona **Investigación necesaria** en el **Campo de problema** desplegable, la variable **Otras investigaciones** se mostrará el campo.
+   Ahora, cuando alguien selecciona **Investigación necesaria** en el **Campo de problema** desplegable, la variable **Otras investigaciones** El campo se mostrará.
 
 1. Clic **Previsualizar** para asegurarse de que la lógica aparece del modo que desea en el formulario.
 1. Clic **Finalizar previsualización** cuando descubra que la lógica funciona según lo esperado.

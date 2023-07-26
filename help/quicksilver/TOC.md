@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5c47b09550c54b7ea4f8319bb42e93572e06324b
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '13127'
+source-wordcount: '13125'
 ht-degree: 2%
 
 ---
@@ -310,7 +310,7 @@ ht-degree: 2%
             * [Actividad de la versión beta 2 de 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-2-release-activity.md)
             * [Actividad de la versión beta 3 de 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-3-release-activity.md)
             * [Actividad de la versión beta 4 de 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-4-release-activity.md)
-            * [Actividad de la versión final de la versión beta 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-final-release-activity.md)
+            * [Actividad de la versión final de la beta 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-final-release-activity.md)
          * Versión 2017.3 {#release-17-3}
             * [Actividad de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md)
             * [información general sobre la actividad de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md)
@@ -1807,7 +1807,7 @@ ht-degree: 2%
             * [Eliminar fechas límite de revisores individuales](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Administración de pruebas automatizadas {#manage-automated-proofs}
             * [Administración de pruebas automatizadas](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
-            * [Ver las fases del flujo de trabajo automatizado en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+            * [Visualización de las fases del flujo de trabajo automatizado en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Visualización de las fases activas en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Crear o editar un flujo de trabajo automatizado para una revisión existente](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
             * [Editar etapas de prueba y revisores](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
@@ -2583,7 +2583,6 @@ ht-degree: 2%
       * [Información general](proofhq-api/general/overview.md)
       * [Ejemplos de código](proofhq-api/general/code-samples.md)
       * [Preguntas frecuentes sobre API SOAP](proofhq-api/general/soap-api-faqs.md)
-* [Archivo oculto](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

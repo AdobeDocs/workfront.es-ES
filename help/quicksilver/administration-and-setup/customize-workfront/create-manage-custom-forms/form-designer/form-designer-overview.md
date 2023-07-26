@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%

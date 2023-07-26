@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Módulos de Workday
 description: En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de trabajo que utilizan [!DNL Workday], así como conectarlo a múltiples aplicaciones y servicios de terceros.
 author: Becky
+feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 2%

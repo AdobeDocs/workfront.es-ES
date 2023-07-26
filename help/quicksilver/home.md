@@ -1,11 +1,12 @@
 ---
 title: '[!DNL Adobe Workfront] documentación'
 description: Documentación para [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -15,13 +16,13 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 Utilice los siguientes documentos, tutoriales y recursos adicionales de Adobe Workfront para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 
-Las siguientes secciones le dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
+Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las audiencias a las que se dirigen:
 
 ## Administradores
 
 ### Introducción para administradores de Workfront
 
-Empiece a aprender más sobre la administración de Adobe Workfront.
+Empiece a aprender a administrar Adobe Workfront.
 
 Consulte [Introducción a la administración de Adobe Workfront](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
 
@@ -35,31 +36,31 @@ Consulte [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-f
 
 ### Conceptos básicos para los usuarios
 
-Empiece a utilizar Workfront dominando los conceptos básicos.
+Empiece a usar Workfront dominando los conceptos básicos.
 
 Consulte [Conceptos básicos de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
 
 ### Agile en Workfront
 
-La funcionalidad ágil de Workfront permite a los equipos completar pequeñas cantidades de trabajo manejables en una cadencia coherente.
+La funcionalidad Agile de Workfront permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente.
 
 Consulte [Información general de Agile](/help/quicksilver/agile/agile-overview.md).
 
-### Informes del modo de texto
+### Informes de modo de texto
 
 Si no puede averiguar cómo crear el informe que necesita en Workfront, la solución que busca podría encontrarse en el modo Texto.
 
-Consulte [Recursos de modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+Consulte [Recursos del modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
-### El equilibrador de carga de trabajo
+### Distribuidor de cargas de trabajo
 
-Utilice el equilibrador de carga de trabajo como alternativa a la programación de recursos en Workfront.
+Utilice el Distribuidor de cargas de trabajo como alternativa a la programación de recursos en Workfront.
 
-Consulte [El equilibrador de carga de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Consulte [Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Información de la versión de Workfront
 
-Conozca todos los detalles sobre las novedades de Workfront.
+Descubra todos los detalles sobre las novedades de Workfront.
 
 Consulte [Versiones de productos de Workfront](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
@@ -75,4 +76,4 @@ Consulte [Conceptos básicos de API](/help/quicksilver/wf-api/general/api-basics
 
 Puede ver todos los objetos disponibles a través de la API de Adobe Workfront en el explorador de API.
 
-Consulte la [Explorador de la API de Workfront en developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
+Consulte la [Explorador de API de Workfront en developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).

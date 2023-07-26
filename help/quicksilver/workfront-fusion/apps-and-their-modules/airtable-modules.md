@@ -3,23 +3,24 @@ filename: airtable-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: conector
 navigation-topic: apps-and-their-modules
-title: Módulos de aire
-description: Adobe Workfront Fusion requiere una licencia de Adobe Workfront Fusion además de una licencia de Adobe Workfront.
+title: Módulos airtables
+description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1863'
+ht-degree: 2%
 
 ---
 
-# Módulos de aire
+# Módulos airtables
 
 
-Con la variable [!DNL Airtable] conector para [!DNL Adobe Workfront Fusion], puede iniciar un escenario basado en los eventos del [!DNL Airtable] cuenta, crea, carga y actualiza registros, busca registros y realiza llamadas API personalizadas a la API de tabla de reenvío.
+Con el [!DNL Airtable] conector para [!DNL Adobe Workfront Fusion], puede iniciar un escenario basado en eventos en su [!DNL Airtable] Crear, cargar y actualizar registros, buscar registros y realizar llamadas de API personalizadas a la API de Airtable.
 
 ## Requisitos de acceso
 
@@ -35,15 +36,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para integración y automatización de trabajo] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar las funciones descritas en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,47 +55,47 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Debe tener una cuenta Airtable para utilizar la funcionalidad de este artículo.
+Debe tener una cuenta de Airtable para utilizar la funcionalidad de este artículo.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
 
-## Conexión de la tabla de aire a Workfront Fusion {#connect-airtable-to-workfront-fusion}
+## Conectar Airtable a Workfront Fusion {#connect-airtable-to-workfront-fusion}
 
 <!--
 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Abra Workfront Fusion y **Crear una conexión** del módulo deseado.
+1. Abra Workfront Fusion y el **Crear una conexión** del módulo deseado.
 1. Introduzca un nombre para la conexión.
-1. (Opcional) Haga clic en Mostrar configuración avanzada e introduzca su ID de cliente de tabla dinámica y Secreto de cliente.
-1. Haga clic en el **Continuar** para crear la conexión y volver al módulo.
+1. (Opcional) Haga clic en Mostrar configuración avanzada e introduzca su ID de cliente de Airtable y Secreto de cliente.
+1. Haga clic en **Continuar** para crear la conexión y volver al módulo.
 
-## Módulos de aire y sus campos
+## Módulos aerotransportables y sus campos
 
 ### Registros
 
 * [Crear un registro](#create-a-record)
 * [Eliminar un registro](#delete-a-record)
 * [Obtener un registro](#get-a-record)
-* [Registros de búsqueda](#search-records)
+* [Buscar registros](#search-records)
 * [Actualizar un registro](#update-a-record)
 * [Actualizar un registro](#upsert-a-record)
-* [Registros de Watch](#watch-records)
-* [Respuestas de Watch](#watch-responses)
+* [Ver registros](#watch-records)
+* [Respuestas de observación](#watch-responses)
 * [Realizar una llamada de API](#make-an-api-call)
 
 #### Crear un registro {#create-a-record}
 
 Este módulo de acción crea un nuevo registro.
 
-Especifique los datos que desee en el registro y dónde desea que se almacenen.
+Especifique los datos que desea en el registro y dónde desea que se almacenen.
 
-El módulo devuelve todos los campos estándar asociados con el registro, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve cualquier campo estándar asociado con el registro, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +103,7 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -141,7 +142,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>Vínculos inteligentes</td> 
-   <td> <p>Active esta opción para introducir nombres en lugar de ID de registro en campos que se vinculan a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay coincidencia.</p> </td> 
+   <td> <p>Active esta opción para introducir nombres en lugar de ID de registro en campos que se vinculan a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay ninguna coincidencia.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,9 +153,9 @@ Este módulo de acción elimina un registro en particular.
 
 Especifique el ID y las ubicaciones del registro.
 
-El módulo devuelve el ID del registro y los campos asociados, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve el ID del registro y cualquier campo asociado, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,7 +163,7 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -174,14 +175,14 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>ID de registro</td> 
-   <td> <p>Introduzca o asigne el ID de tabla aérea único del registro que desea que elimine el módulo. Puede recuperar el ID, por ejemplo, utilizando el módulo Buscar registros .</p> </td> 
+   <td> <p>Introduzca o asigne el ID único de Airtable del registro que desea que elimine el módulo. Puede recuperar el ID, por ejemplo, mediante el módulo Buscar registros.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Obtener un registro {#get-a-record}
 
-Este módulo de acción recupera los detalles del registro.
+Este módulo de acción recupera detalles de registro.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,7 +190,7 @@ Este módulo de acción recupera los detalles del registro.
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -197,22 +198,22 @@ Este módulo de acción recupera los detalles del registro.
   </tr> 
   <tr> 
    <td>Tabla</td> 
-   <td> <p> Seleccione la tabla que contiene el registro para el que desea recuperar detalles.</p> </td> 
+   <td> <p> Seleccione la tabla que contiene el registro cuyos detalles desea recuperar.</p> </td> 
   </tr> 
   <tr> 
    <td>ID de registro</td> 
-   <td> <p> Introduzca o asigne el ID del registro para el que desea recuperar los detalles.</p> </td> 
+   <td> <p> Introduzca o asigne el ID del registro cuyos detalles desea recuperar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Registros de búsqueda {#search-records}
+#### Buscar registros {#search-records}
 
-Este módulo de búsqueda busca registros en un objeto de la tabla dinámica que coincidan con la consulta de búsqueda especificada.
+Este módulo de búsqueda busca registros en un objeto de Airtable que coincidan con la consulta de búsqueda especificada.
 
-Puede asignar esta información en módulos posteriores en el escenario.
+Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -220,11 +221,11 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
-   <td> <p>Seleccione la base que desee buscar registros.</p> </td> 
+   <td> <p>Seleccione la base en la que desea buscar registros.</p> </td> 
   </tr> 
   <tr> 
    <td>Tabla </td> 
@@ -232,7 +233,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td> <p>Fórmula</p> </td> 
-   <td> <p>Fórmula utilizada para filtrar registros. La fórmula se evalúa para cada registro y si el resultado no es <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>o <code>#Error!</code> el registro se incluye en la respuesta.</p> <p>Si se combina con la variable <code>view</code>, solo se devuelven los registros de esa vista que satisfacen la fórmula.</p> <p>Por ejemplo, para incluir solo registros donde Name no esté vacío, pase:<code> NOT({Name} = '')</code></p> <p>Para obtener más información, busque información sobre referencias de campo de fórmula en la documentación de soporte de tabla de aire.</p> </td> 
+   <td> <p>Fórmula utilizada para filtrar registros. La fórmula se evalúa para cada registro y si el resultado no es <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, o <code>#Error!</code> el registro se incluye en la respuesta.</p> <p>Si se combina con <code>view</code>, solo se devuelven los registros de esa vista que cumplan la fórmula.</p> <p>Por ejemplo, para incluir solo registros en los que Name no esté vacío, pase:<code> NOT({Name} = '')</code></p> <p>Para obtener más información, busque información sobre las referencias de los campos de fórmula en la documentación de soporte de Airtable.</p> </td> 
   </tr> 
   <tr> 
    <td>Ordenar </td> 
@@ -240,24 +241,24 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>Vista </td> 
-   <td> <p>Seleccione la vista que desee buscar para registros.</p> </td> 
+   <td> <p>Seleccione la vista en la que desee buscar registros.</p> </td> 
   </tr> 
   <tr> 
    <td>Límite</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución del escenario.</p> </td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Actualizar un registro {#update-a-record}
 
-Este módulo de acción actualiza un registro en particular.
+Este módulo de acción actualiza un registro determinado.
 
 Especifique el ID del registro y los nuevos datos que desea que contenga.
 
-El módulo devuelve todos los campos estándar asociados con el registro, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve cualquier campo estándar asociado con el registro, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -265,7 +266,7 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -277,7 +278,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>ID de registro </td> 
-   <td> <p>Introduzca o asigne el ID de tabla aérea único del registro que desea que actualice el módulo. Puede recuperar el ID, por ejemplo, utilizando el módulo Buscar registros .</p> </td> 
+   <td> <p>Introduzca o asigne el ID único de Airtable del registro que desea que actualice el módulo. Puede recuperar el ID, por ejemplo, mediante el módulo Buscar registros.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Registro</p> </td> 
@@ -308,20 +309,20 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>Vínculos inteligentes</td> 
-   <td> <p>Introduzca nombres en lugar de ID de registro en campos que se vinculan a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay coincidencia.</p> </td> 
+   <td> <p>Escriba nombres en lugar de identificadores de registro en campos que se vinculen a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay ninguna coincidencia.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Actualizar un registro
+#### Actualización de un registro
 
-Este módulo de acción actualiza o inserta un registro en particular.
+Este módulo de acción actualiza o inserta un registro determinado.
 
 Especifique el ID del registro y los nuevos datos que desea que contenga.
 
-El módulo devuelve todos los campos estándar asociados con el registro, junto con los campos y valores personalizados a los que accede la conexión. Puede asignar esta información en módulos posteriores en el escenario.
+El módulo devuelve cualquier campo estándar asociado con el registro, junto con cualquier campo y valor personalizados a los que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -329,7 +330,7 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -341,7 +342,7 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>ID de registro </td> 
-   <td> <p>Si va a actualizar un registro, introduzca o asigne el ID de tabla de lanzamiento único del registro que desea que actualice el módulo. Puede recuperar el ID, por ejemplo, utilizando el módulo Buscar registros .</p> </td> 
+   <td> <p>Si está actualizando un registro, introduzca o asigne el ID único de Airtable del registro que desea que actualice el módulo. Puede recuperar el ID, por ejemplo, mediante el módulo Buscar registros.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Registro</p> </td> 
@@ -372,18 +373,18 @@ Al configurar este módulo, se muestran los campos siguientes:
   </tr> 
   <tr> 
    <td>Vínculos inteligentes</td> 
-   <td> <p>Introduzca nombres en lugar de ID de registro en campos que se vinculan a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay coincidencia.</p> </td> 
+   <td> <p>Escriba nombres en lugar de identificadores de registro en campos que se vinculen a otra tabla. El registro se crea automáticamente en la tabla vinculada si no hay ninguna coincidencia.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Registros de Watch {#watch-records}
+#### Ver registros {#watch-records}
 
 Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un registro en la tabla especificada.
 
 >[!NOTE]
 >
->Para utilizar este módulo, el campo Hora de creación o Hora de última modificación debe crearse en la tabla.
+>Para utilizar este módulo, se debe crear en la tabla el campo Hora de creación o Hora de la última modificación.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -391,23 +392,23 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un r
  <tbody> 
   <tr> 
    <td>Conexión </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
-   <td> <p>Seleccione la base que desee ver para los registros nuevos.</p> </td> 
+   <td> <p>Seleccione la base que desee inspeccionar para buscar nuevos registros.</p> </td> 
   </tr> 
   <tr> 
    <td>Tabla </td> 
-   <td> <p>Seleccione la tabla que desee ver para los registros nuevos.</p> </td> 
+   <td> <p>Seleccione la tabla que desee inspeccionar para buscar nuevos registros.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Configuración del déclencheur</p> </td> 
-   <td> <p>Campo de déclencheur</p> <p>A <code>Created Time</code> o <code>Last Modified Time</code> campo que se utiliza para ordenar registros. Si no tiene un <code>Created Time</code> o <code>Last Modified Time</code> en el esquema, debe crear uno. </p> <p>Campo Etiqueta</p> <p>Campo que se utiliza como etiqueta para un registro, por ejemplo, en el cuadro de diálogo Elegir dónde iniciar.</p> </td> 
+   <td> <p>configuración de déclencheur</p> </td> 
+   <td> <p>campo de déclencheur</p> <p>A <code>Created Time</code> o <code>Last Modified Time</code> que se utiliza para ordenar registros. Si no tiene un <code>Created Time</code> o <code>Last Modified Time</code> en el esquema, debe crear uno. </p> <p>Campo de etiqueta</p> <p>Campo que se utiliza como etiqueta para un registro, por ejemplo, en el cuadro de diálogo Elegir por dónde empezar.</p> </td> 
   </tr> 
   <tr> 
    <td>Límite</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo vea durante cada ciclo de ejecución del escenario.</p> </td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo vea durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
   <tr> 
    <td>Vista</td> 
@@ -415,48 +416,48 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un r
   </tr> 
   <tr> 
    <td> <p>Fórmula</p> </td> 
-   <td> <p>Fórmula utilizada para filtrar registros. La fórmula se evalúa para cada registro y si el resultado no es <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>o <code>#Error!</code> el registro se incluye en la respuesta.</p> <p>Si se combina con la variable <code>view</code>, solo se devuelven los registros de esa vista que satisfacen la fórmula.</p> <p>Por ejemplo, para incluir solo registros donde Name no esté vacío, pase:<code> NOT({Name} = '')</code></p> <p>Para obtener más información, consulte la información sobre referencias de campo de fórmula en la documentación de soporte de tabla de aterrizaje.</p> </td> 
+   <td> <p>Fórmula utilizada para filtrar registros. La fórmula se evalúa para cada registro y si el resultado no es <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, o <code>#Error!</code> el registro se incluye en la respuesta.</p> <p>Si se combina con <code>view</code>, solo se devuelven los registros de esa vista que cumplan la fórmula.</p> <p>Por ejemplo, para incluir solo registros en los que Name no esté vacío, pase:<code> NOT({Name} = '')</code></p> <p>Para obtener más información, consulte la información sobre las referencias de los campos de fórmula en la documentación de soporte de Airtable.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Respuestas de Watch
+#### Respuestas de observación
 
 Este módulo de déclencheur inicia un escenario cuando se envía un formulario.
 
 >[!NOTE]
 >
->Esta funcionalidad solo está disponible para Airtable Pro Plan de pago.
+>Esta funcionalidad solo está disponible para el plan Airtable Pro de pago.
 
-La URL del enlace web debe generarse en Workfront Fusion y agregarse a la configuración del formulario en la tabla de aterrizaje.
+La URL del webhook debe generarse en Workfront Fusion y luego agregarse a la configuración del formulario en Airtable.
 
-1. Añada el módulo Watch New Responses al escenario de Workfront Fusion .
-1. Genere y copie la URL del enlace web.
+1. Añada el módulo Ver nuevas respuestas a su escenario de Workfront Fusion.
+1. Genere y copie la URL del webhook.
 
-   Para obtener instrucciones, consulte [Déclencheur instantáneos (enlaces web) en Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   Para obtener instrucciones, consulte [Déclencheur instantáneos (webhooks) en Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
 1. Inicie sesión en su cuenta de Airtable.
-1. Abra la Base y la tabla que desee utilizar para el formulario y cree una vista Formulario.
-1. Defina el formulario como sea necesario, desplácese hacia abajo en el formulario y active la opción Redireccionar a dirección URL después de enviar el formulario .
-1. Introduzca la URL de Weblock generada en el paso 2 del cuadro de diálogo mostrado y añada ?record_id={record_id} justo después de la URL de weblock para incluir el ID de registro en la salida del módulo y, a continuación, haga clic en Guardar. La URL resultante, por ejemplo, tendrá este aspecto:
-1. Vuelva al escenario de Workfront Fusion y ejecute el módulo Watch Responses solo para cargar campos de la tabla de aire y poder asignar esos campos a los demás módulos.
-1. Envíe el formulario en Airtable donde la opción Redireccionar a URL después de enviar el formulario está habilitada y se ha añadido la URL de Weblock (paso 6 anterior).
+1. Abra Base y la tabla que desee utilizar para el formulario y cree una vista Formulario.
+1. Configure el formulario según sea necesario, desplácese hacia abajo por el formulario y habilite la opción Redirigir a URL después de enviar el formulario.
+1. Introduzca la URL del webhook generada en el paso 2 en el cuadro de diálogo mostrado y añada el ?record_id={record_id} justo después de la URL del webhook para incluir el ID de registro en la salida del módulo, haga clic en Guardar. La dirección URL resultante, por ejemplo, tendrá este aspecto:
+1. Vuelva al escenario de Workfront Fusion y ejecute el módulo Observar respuestas solo para cargar campos de Airtable y poder asignar esos campos a los demás módulos.
+1. Envíe el formulario en Airtable donde la opción Redirigir a URL después de enviar el formulario está habilitada y se agregó la URL de webhook (paso 6 anterior).
 
-   El módulo Respuestas de Watch se activa y se cargan los datos deseados.
+   El módulo Observar respuestas se activa y se cargan los datos deseados.
 
-1. Añada el módulo Airtable > Get a Record justo después del módulo Airtable > Watch Responses y asigne el record_id al campo Record ID .
+1. Agregue el módulo Airtable > Obtener un registro justo después del módulo Airtable > Observar respuestas y asigne el record_id al campo ID de registro.
 
-Ahora, cada vez que se envía el formulario, se activa el módulo Watch Responses del escenario de Workfront Fusion y el módulo Get a Record devuelve los detalles del formulario enviado.
+Ahora, cada vez que se envía el formulario, se activa el módulo Observar respuestas en el escenario de Workfront Fusion y el módulo Obtener un registro devuelve los detalles del formulario enviado.
 
 #### Realizar una llamada de API
 
 #### Llamada de API personalizada
 
-Este módulo de acción le permite realizar una llamada autenticada personalizada al [!DNL Airtable] API. De este modo, puede crear una automatización del flujo de datos que no se pueda lograr con la otra [!DNL Airtable] módulos.
+Este módulo de acción le permite realizar una llamada autenticada personalizada a [!DNL Airtable] API. De este modo, se puede crear una automatización del flujo de datos que el otro no puede realizar [!DNL Airtable] módulos.
 
-La acción se basa en el tipo de entidad (tipo de objeto Allocadia) que especifique.
+La acción se basa en el tipo de entidad (tipo de objeto Allocadia) especificado.
 
-Al configurar este módulo, se muestran los campos siguientes:
+Al configurar este módulo, se muestran los campos siguientes.
 
 <table style="table-layout:auto">
  <col> 
@@ -464,27 +465,27 @@ Al configurar este módulo, se muestran los campos siguientes:
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Conexión</p> </td> 
-   <td> <p>Para obtener instrucciones sobre la conexión de la cuenta de la tabla aérea a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conexión de la tabla de aire a Workfront Fusion</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de Airtable a Workfront Fusion, consulte <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Conectar Airtable a Workfront Fusion</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Especifique una ruta relativa a <code>https://api.airtable.com/}</code>. Ejemplo: <code>v0/{base}/{table}</code> </td> 
+   <td>Introduzca una ruta relativa a <code>https://api.airtable.com/}</code>. Ejemplo: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Método</td> 
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada a la API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Encabezados</td> 
-   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] añade los encabezados de autorización por usted.</p> </td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] agrega los encabezados de autorización automáticamente.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cadena de consulta</td> 
-   <td> <p>Añadir la consulta para la llamada de API en forma de Clave y Valor</p> </td> 
+   <td> <p>Añada la consulta para la llamada de API en forma de clave y valor</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cuerpo</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Al utilizar afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera de la afirmación condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

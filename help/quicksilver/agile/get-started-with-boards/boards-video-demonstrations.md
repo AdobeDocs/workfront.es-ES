@@ -3,9 +3,11 @@ filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
 title: Demostraciones en vídeo de Adobe Workfront Boards
-description: Estos vídeos le presentarán los diferentes tipos de tableros disponibles en Adobe Workfront y mostrarán ejemplos de cómo puede utilizar los tableros en su trabajo diario.
+description: En estos vídeos se describen los distintos tipos de tableros disponibles en Adobe Workfront y se muestran ejemplos de cómo puede utilizar los tableros en su trabajo diario.
 author: Lisa
-source-git-commit: 0ad01e55046c34ca042524f77a0ac3d7cd274826
+feature: Agile
+exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -14,44 +16,44 @@ ht-degree: 1%
 
 # Demostraciones en vídeo de Adobe Workfront Boards
 
-Estos vídeos le presentarán los diferentes tipos de tableros disponibles en Adobe Workfront y mostrarán ejemplos de cómo puede utilizar los tableros en su trabajo diario.
+En estos vídeos se describen los distintos tipos de tableros disponibles en Adobe Workfront y se muestran ejemplos de cómo puede utilizar los tableros en su trabajo diario.
 
 ## Tipos de tableros
 
 ### Tablero básico
 
-Un tablero básico, o simple, le permite empezar a usar tableros rápidamente para hacer un seguimiento del trabajo. Las columnas predeterminadas se incluyen en la plantilla y puede agregar tarjetas y asignar trabajo.
+Un tablero básico, o simple, le permite empezar rápidamente a usar tableros para rastrear el trabajo. La plantilla incluye columnas predeterminadas y puede agregar tarjetas y asignar trabajo.
 
-[Vea una demostración en vídeo de un tablero básico.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[Vea un vídeo de demostración de un tablero básico.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Tablero Kanban
 
-Un panel kanban puede contener un registro pendiente, o una columna de admisión, que esté configurada con filtros para llevar las tareas y los problemas de Workfront al tablero.
+Un panel kanban puede contener un registro de asuntos pendientes, o una columna de entrada, que se configura con filtros para incorporar tareas y problemas de Workfront al panel.
 
-[Vea una demostración en vídeo de un panel kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[Vea un vídeo de demostración de un panel Kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
-### Tarjeta móvil
+### Tablero móvil
 
-Los tableros están disponibles en la aplicación móvil de Adobe Workfront. Al actualizar tarjetas en la aplicación móvil, esas actualizaciones se sincronizan con Workfront.
+Los tableros están disponibles en la aplicación móvil de Adobe Workfront. Al actualizar las tarjetas en la aplicación móvil, esas actualizaciones se sincronizan con Workfront.
 
-[Vea una demostración en vídeo de un tablero móvil.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Vea un vídeo de demostración de una placa móvil.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
-## Ejemplos de uso de tableros
+## Ejemplos del uso de tableros
 
-### El tablero muestra &quot;mis tareas&quot;
+### Tablero que muestra &quot;mis tareas&quot;
 
-Puede utilizar la columna de admisión para ver las tareas que se le han asignado en un solo lugar. A medida que se asignan nuevas tareas en Workfront, se añaden automáticamente a la columna de admisión.
+Puede utilizar la columna de entrada para ver las tareas que se le han asignado en un solo lugar. A medida que se asignan nuevas tareas en Workfront, se añaden automáticamente a la columna de entrada.
 
-[Vea una demostración en vídeo de un tablero &quot;mis tareas&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Vea un vídeo de demostración de un tablero &quot;mis tareas&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
-### Tablero de planificación
+### Consejo de planificación
 
-Los tableros pueden ayudarle a planificar su propio trabajo o el de su equipo durante un período de tiempo.
+Los tableros pueden ayudarle a planificar el trabajo para usted o para su equipo durante un período de tiempo.
 
-[Vea una demostración en vídeo de un tablero de planificación.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[Vea un vídeo de demostración de un tablero de planificación.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
-### Gestión de trabajo híbrido
+### Administración de trabajo híbrido
 
-Es posible que algunos equipos prefieran trabajar en un tablero, mientras que otros prefieren las vistas del proyecto de Workfront. Como las tarjetas conectadas en un tablero se sincronizan con las tareas y los problemas de Workfront, siempre puede ver los detalles más actuales independientemente de la vista que utilice.
+Es posible que algunos equipos prefieran trabajar en un tablero, mientras que otros prefieran las vistas de proyecto de Workfront. Dado que las tarjetas conectadas en un tablero están sincronizadas con las tareas y problemas de Workfront, siempre puede ver los detalles más actuales independientemente de la vista que utilice.
 
-[Vea una demostración en vídeo de la administración de trabajo híbrido.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[Vea un vídeo de demostración de la administración de trabajo híbrido.](https://video.tv.adobe.com/v/3416381/){target=_blank}

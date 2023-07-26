@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Ver todos los formularios personalizados que utilizan un widget o campo personalizado en particular
-description: Puede averiguar qué formularios personalizados están utilizando un campo o una utilidad personalizados que desea cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o la utilidad.
+title: Ver todos los formularios personalizados que utilizan un campo o widget personalizado en particular
+description: Puede averiguar qué formularios personalizados utilizan un campo o widget personalizado que desee cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o el widget.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
 
 ---
 
-# Ver todos los formularios personalizados que utilizan un widget o campo personalizado en particular
+# Ver todos los formularios personalizados que utilizan un campo o widget personalizado en particular
 
-Puede averiguar qué formularios personalizados están utilizando un campo o una utilidad personalizados que desea cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o la utilidad.
+Puede averiguar qué formularios personalizados utilizan un campo o widget personalizado que desee cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o el widget.
 
-Para obtener información sobre los campos personalizados y las utilidades de los formularios personalizados, consulte [Añadir un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -44,12 +44,12 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o configuraciones de nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Averigüe qué formularios personalizados utilizan un widget o campo personalizado concreto
+## Descubra qué formularios personalizados utilizan un campo o widget personalizado en particular
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Abra el **Campos** , busque el campo o la utilidad en la pestaña **Nombre** y, a continuación, consulte la **Forms** para ver qué formularios personalizados utilizan el campo o la utilidad.
-1. (Opcional) Haga clic en el nombre de cualquiera de esos formularios personalizados para ir al formulario y tenga en cuenta los cambios que necesite realizar si modifica el campo o la utilidad.
+1. Abra el **Campos** , busque el campo o widget en la pestaña **Nombre** y, a continuación, vea la columna **Forms** para ver qué formularios personalizados utilizan el campo o el widget.
+1. (Opcional) Haga clic en el nombre de cualquiera de esos formularios personalizados para ir al formulario y tener en cuenta los cambios que puede necesitar realizar si modifica el campo o el widget.

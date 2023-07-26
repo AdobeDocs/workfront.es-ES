@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Configurar el registro de pendientes en una placa de flujo de trabajo
 description: Puede elegir mostrar una columna de registro de pendientes en un tablero de un flujo de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas del flujo de trabajo.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
