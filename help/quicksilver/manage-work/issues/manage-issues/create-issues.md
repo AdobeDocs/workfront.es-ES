@@ -8,16 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
 
 # Crear problemas
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa.</span>
 
 <!--remove Preview and Prod references when this comes to Prod-->
 
@@ -81,12 +81,9 @@ Para obtener información sobre cómo crear problemas enviándolos a una cola de
 
 Después de definir los campos de un formulario de nuevo problema en el proyecto, puede empezar a crear problemas.
 
-<!--
-Creating issues differs depending on which environment you choose to create the issue. 
+La creación de problemas difiere según el entorno en el que decida crear el problema.
 
-### Create issues on a task or project using the New Issue button in the Production environment
-
--->
+### Cree problemas en una tarea o proyecto con el botón Nuevo problema del entorno de producción
 
 Para crear un problema en una tarea o un proyecto:
 
@@ -141,69 +138,65 @@ Para crear un problema en una tarea o un proyecto:
 
 Los problemas se pueden asignar a varios usuarios, funciones del puesto o a un equipo. Para obtener más información sobre la asignación y administración de solicitudes, consulte [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: 
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
 
 <div class="preview">
 
-### Create issues on a task or project using the New Issue button in the Preview environment
+### Crear problemas en una tarea o proyecto mediante el botón Nuevo problema del entorno de vista previa
 
-To create an issue on a task or a project:
+Para crear un problema en una tarea o un proyecto:
 
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
+1. Vaya a un proyecto en el que desee crear el problema.
+1. (Opcional) Si desea registrar el problema de una tarea, vaya a **Tareas** y, a continuación, haga clic en el nombre de una tarea.
+1. Haga clic en **Problemas** sección.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Click **New Issue**.
-   The New issue box displays.
+1. Clic **Nuevo problema**.
+Se muestra el cuadro Nuevo problema.
 
-      ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Condicional) Si el creador del proyecto creó temas de la cola o grupos de temas en el proyecto, se agregarán al formulario de nuevo problema. Especifique el **Grupo de temas** o el **Tema de cola** de su nuevo problema. Los grupos de temas y los temas de colas tienen nombres personalizados según su entorno.\
+   Para obtener más información sobre la creación de grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obtener más información sobre la creación de temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
+   * Si solo hay un tema de la cola definido en el proyecto, se muestra automáticamente.
+   * Si el grupo de temas no tiene ningún tema de cola o grupo de temas debajo, no hay nada disponible en la lista desplegable Grupo de temas.
 
-1. Add the issue name in the **Subject** field, then add a **Description**.
+1. Añada el nombre del problema en la **Asunto** y, a continuación, añada un **Descripción**.
 
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
+1. (Condicional) Si el creador del proyecto permite el **Tipo de solicitud** para mostrar en el formulario Nuevo problema, seleccione el tipo de problema de entre las siguientes opciones:
 
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
+   * Informe de errores
+   * Solicitud de cambio
+   * Problema
+   * Solicitud\
+     Según la configuración dada por el administrador de Workfront a sus Preferencias del proyecto, los nombres de los tipos de problemas podrían ser diferentes para usted.
 
    >[!TIP]
    >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >Los tipos de solicitud deben habilitarse en Detalles de cola y al crear el tema de cola para que se muestre como una selección en el formulario Nuevo problema. Para obtener más información, consulte los siguientes artículos:
+   >* [Crear una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Crear temas de cola](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Continue specifying the fields available in the **New issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Siga especificando los campos disponibles en la **Nuevo problema** formulario. Para obtener más información sobre los campos disponibles al introducir un problema nuevo, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >Not all the issue-related fields are available in the New issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
+   >No todos los campos relacionados con el problema están disponibles en el formulario Nuevo problema. El creador del proyecto habilita los campos disponibles al crear un problema cuando definen el área Detalles de cola del proyecto. Para obtener más información, consulte [Crear una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New issue** form, after the default Workfront fields.
+1. (Condicional) Si los temas de la cola están asociados a un formulario personalizado, ese formulario personalizado se mostrará en la **Nuevo problema** formulario.\
+   O\
+   Si el proyecto está asociado con un formulario personalizado de problema mediante el área Detalles de la cola, el formulario se muestra en la variable **Nuevo problema** , después de los campos predeterminados de Workfront.
 
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click **Submit**. 
+1. Clic **Enviar**.
 
-   Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Los problemas se pueden asignar a varios usuarios, funciones del puesto o a un equipo. Para obtener más información sobre la asignación y administración de solicitudes, consulte [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 </div>
--->
-
-
-
 
 ## Crear problemas en línea de una tarea o proyecto
 
