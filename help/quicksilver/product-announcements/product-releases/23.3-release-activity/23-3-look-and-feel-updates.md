@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el periodo de tiempo de la versi
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para ver una lista de todos los cambios disponibles con la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Mejoras de interfaz para listas de solicitudes
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Copiar y enviar solicitudes](/help/qui
 
 >[!NOTE]
 >
->Versión de vista previa planificada: por anunciar; versión de producción planificada: por anunciar.
+>Versión de vista previa planificada: 27 de julio de 2023; producción planificada para versión rápida: con la versión 23.8. Producción planificada para la versión trimestral: con la versión de 23.10
 >
 >Originalmente, esta función estaba planificada para su lanzamiento con la versión 23.3 y se retrasó más tarde.
 

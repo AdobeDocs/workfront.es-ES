@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
 workflow-type: tm+mt
-source-wordcount: '13125'
+source-wordcount: '13135'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [Resumen de versiones del producto](product-announcements/product-releases/product-releases.md)
       * [Programación y proceso de la versión de Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Versión del cuarto trimestre de 2023 {#release-23-q4}
+         * [Información general sobre la versión 2023 del cuarto trimestre](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
+         * [Semana de la versión del 24 de julio de 2023 (cuarto trimestre)](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
       * Versión 23.3 {#release-23-3}
          * [Información general de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Mejoras del administrador](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
@@ -1248,8 +1251,8 @@ ht-degree: 2%
          * [Diferenciar entre fechas proyectadas y estimadas](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Información general sobre la duración original de la tarea y las horas planificadas originales](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Diferencia entre la duración planificada y la duración de las tareas](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * Creación de tareas {#create-tasks}
-         * [Creación de tareas](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+      * Crear tareas {#create-tasks}
+         * [Crear tareas](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Información general sobre Crear tareas](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Creación de tareas en un proyecto](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Creación de subtareas](manage-work/tasks/create-tasks/create-subtasks.md)
