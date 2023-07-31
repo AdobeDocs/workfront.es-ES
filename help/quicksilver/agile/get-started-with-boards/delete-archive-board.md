@@ -3,10 +3,11 @@ filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Eliminar o archivar un tablero
-description: Puede eliminar o archivar un tablero en Workfront. Al eliminar un tablero, éste se elimina permanentemente de Workfront, mientras que al archivar un tablero se conservan todas las tarjetas y se pueden restaurar posteriormente.
+description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tablero lo elimina permanentemente de Workfront, mientras que archivar un tablero retiene todas las tarjetas y permite restaurarlo más adelante.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Eliminar o archivar un tablero
 
-Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se elimina de [!DNL Workfront], mientras que el archivado de un tablero conserva todas las tarjetas y permite restaurarlas posteriormente. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de flujos de trabajo.
+Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero, se elimina permanentemente de [!DNL Workfront], mientras que archivar una placa retiene todas las tarjetas y permite restaurarla más adelante. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de flujos de trabajo.
 
 ## Requisitos de acceso
 
@@ -42,34 +43,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Eliminar un tablero
 
-Cuando elimina un tablero, se elimina permanentemente de [!DNL Workfront] y no se pueden restaurar. Todas las tarjetas del tablero también se eliminan junto con el tablero.
+Al eliminar un tablero, se elimina de forma permanente de [!DNL Workfront] y no se puede restaurar. Todas las tarjetas del tablero también se eliminan junto con el tablero.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
 1. En el tablero, seleccione el tablero que desea abrir.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Eliminar]**. A continuación, haga clic en **[!UICONTROL Eliminar tablero]** en el mensaje de confirmación.
+1. Haga clic en **[!UICONTROL Más]** menú ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Eliminar]**. A continuación, haga clic en **[!UICONTROL Eliminar tablero]** en el mensaje de confirmación.
 
    >[!NOTE]
    >
-   >Solo puede eliminar tableros que haya creado, no tableros a los que se haya agregado.
+   >Solo puede eliminar los tableros que haya creado, no los tableros a los que se le haya añadido.
 
-   ![Menú Más tableros](assets/boards-board-more-menu.png)
+   ![Menú Más del tablero](assets/boards-board-more-menu.png)
 
 ## Archivar un tablero
 
 Los tableros archivados conservan todas las tarjetas y asignaciones. Cualquier usuario puede archivar o restaurar un tablero en cualquier momento.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
 1. En el tablero, seleccione el tablero que desea abrir.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Archivo]**.
+1. Haga clic en **[!UICONTROL Más]** menú ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Archivar]**.
 
-   ![Menú Más tableros](assets/boards-board-more-menu.png)
+   ![Menú Más del tablero](assets/boards-board-more-menu.png)
 
 ## Restaurar un tablero
 
-Un tablero archivado se puede restaurar en cualquier momento. Cualquier usuario puede restaurar un tablero archivado.
+Se puede restaurar una placa archivada en cualquier momento. Cualquier usuario puede restaurar un tablero archivado.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
-1. En el tablero, haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) y seleccione **[!UICONTROL Tableros archivados]**.
-1. Busque el tablero que desea restaurar, haga clic en el botón **[!UICONTROL Más]** menú ![Más menú](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Restaurar]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. En el panel, haga clic en el icono de filtro ![Filtrar](assets/filter-icon-spectrum-25x25.png) y seleccione **[!UICONTROL Tableros archivados]**.
+1. Busque el tablero que desea restaurar y haga clic en **[!UICONTROL Más]** menú ![Menú Más](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Restaurar]**.
 
    ![Restaurar tablero](assets/boards-dashboard-restore.png)

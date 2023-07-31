@@ -3,20 +3,34 @@ title: 23.3 Mejoras de Financial Management
 description: 23.3 Mejoras de Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 23.3 Mejoras de Financial Management
 
-Esta página describe todas las mejoras realizadas en Financial Management con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
+Esta página describe todas las mejoras realizadas en Financial Management con la versión 23.3. Estas mejoras estaban disponibles con la versión 23.3 de los días 20 y 21 de julio de 2023.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Coste efectivo por fecha y tarifas de facturación
+
+
+>[!IMPORTANT]
+>
+>Esta función estará disponible en las siguientes fechas:
+>
+>* Versión preliminar: 29 de junio de 2023
+>
+>* Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3
+>
+>* Versión de producción para todos los clientes: Versión de producción para todos los clientes: con la versión de 23.10 (octubre de 2023)
+>
+>La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.
+
 
 Ya están disponibles las tarifas de facturación y los costes efectivos por fecha en los objetos de empresa, usuario y rol de Workfront. Cuando se aplican tasas efectivas por fecha a un proyecto y las horas se registran en las tareas del proyecto, los costos e ingresos se calculan usando las tasas especificadas para cada período de tiempo.
 
