@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístr
                             </li>
                             <li>
                                 <p>Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3</p>
-                                <p>Versión de producción para todos los clientes: con la versión 23.4<br>
+                                <p>Versión de producción para todos los clientes: con la versión de 23.10 (octubre de 2023)<br>
                                 La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.</p>
                             </li>
                         </ul>
@@ -588,7 +588,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístr
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva funcionalidad de prueba en la aplicación móvil de Workfront</a> </p>
-                        <p>Con la obsolescencia de la aplicación independiente Workfront Proof en la versión 23.4, se han añadido funciones de revisión a la aplicación móvil principal de Workfront para permitir que continúe la revisión en dispositivos móviles.</p>
+                        <p>Con la obsolescencia de la aplicación independiente Workfront Proof en la versión 23.10 (octubre de 2023), la aplicación móvil principal de Workfront ha tenido funciones de corrección añadidas para permitir que continúen las pruebas en dispositivos móviles.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -648,7 +648,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístr
                             </li>
                             <li>
                                 <p>Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3 </p>
-                                <p>Versión de producción para todos los clientes: con la versión 23.4</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 23.10 (octubre de 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -777,11 +777,11 @@ Explore las últimas actualizaciones realizadas en los programas de aprendizaje,
 
 Las siguientes funciones se eliminarán pronto de Workfront:
 
-#### Obsolescencia de la aplicación móvil Proof con 23.4
+#### Obsolescencia de la aplicación móvil Proof con la versión 23.10 (octubre de 2023)
 
-La aplicación móvil Proof quedará obsoleta oficialmente con la versión 23.4. La aplicación móvil de Workfront general se ha mejorado con nuevas funciones de corrección (consulte la nota de la versión en Mejoras de Workfront Mobile para obtener más información), y se recomienda a los usuarios que empiecen a utilizarla para revisar el trabajo lo antes posible.
+La aplicación móvil Proof quedará obsoleta oficialmente con la versión 23.10 (octubre de 2023). La aplicación móvil de Workfront general se ha mejorado con nuevas funciones de corrección (consulte la nota de la versión en Mejoras de Workfront Mobile para obtener más información), y se recomienda a los usuarios que empiecen a utilizarla para revisar el trabajo lo antes posible.
 
-Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de sesión de Workfront. Los usuarios e invitados externos pueden seguir utilizando la aplicación Proof para trabajos de revisión; sin embargo, ya no es compatible y no estará disponible con la versión 23.4.
+Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de sesión de Workfront. Los usuarios e invitados externos pueden seguir utilizando la aplicación Proof para trabajos de revisión; sin embargo, ya no es compatible y no estará disponible con la versión de 23.10 (octubre de 2023).
 
 
 <!-- HTML you might need
