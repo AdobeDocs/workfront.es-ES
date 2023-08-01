@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,8 +53,13 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
     <ul> 
-     <li> <p>Permisos de contribución para editar una tarea en el área Detalles de la tarea </p> </li> 
-     <li> <p>Administre permisos a una tarea para editarla en el cuadro Editar tarea</p> </li> 
+     <li> <p>Permisos de contribución para editar la siguiente información en el área Detalles de la tarea: </p>
+     <ul>
+     <li>Descripción</li>
+     <li>Estado</li>
+     </ul>  
+      </li> 
+     <li> <p>Administre permisos a una tarea para editar toda la información del área Detalles y del cuadro Editar tarea</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Aportar o permisos superiores al proyecto</p> </li> 
@@ -103,7 +108,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 1. Clic **Proyectos** A continuación, haga clic en el nombre de un proyecto para abrirlo.
 1. Clic **Tareas** en el panel izquierdo.
 1. Haga clic en la tarea que desee editar.
-1. (Condicional) Para editar información limitada sobre una tarea, como usuario con permisos de Contribuir a la tarea, haga clic en **Detalles de tarea** en el panel izquierdo.
+1. (Condicional) Para editar información limitada sobre una tarea, haga clic en **Detalles de tarea** en el panel izquierdo.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 

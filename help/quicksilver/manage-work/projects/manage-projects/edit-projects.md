@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '7336'
+source-wordcount: '7315'
 ht-degree: 2%
 
 ---
@@ -57,10 +57,8 @@ Puede editar un proyecto en Adobe Workfront con la frecuencia necesaria. Le reco
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,10 +85,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
-    <ul> 
-     <li> <p>Permisos de contribución para editar un proyecto en el área Detalles del proyecto </p> </li> 
-     <li> <p>Administre permisos a un proyecto para editarlo en el cuadro Editar proyecto</p> </li> 
-    </ul> <p> Para obtener información sobre los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+    <p>Administración de permisos en un proyecto </p> 
+    <p> Para obtener información sobre los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
