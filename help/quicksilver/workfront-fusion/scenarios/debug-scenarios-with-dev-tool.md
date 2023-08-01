@@ -7,16 +7,20 @@ description: La herramienta de desarrollo de Adobe Workfront Fusion le permite c
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 0%
+source-wordcount: '1687'
+ht-degree: 2%
 
 ---
 
 # Depurar escenarios con [!DNL Adobe Workfront Fusion] DevTool
 
 El [!DNL Adobe Workfront Fusion] DevTool le permite comprender y solucionar problemas de escenarios. DevTool agrega un panel adicional a [!DNL Chrome Developer Tools]. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool no está disponible para las organizaciones que acceden a Fusion a través de Unified Shell de Adobe.
 
 ## Requisitos de acceso
 
@@ -288,7 +292,7 @@ Copia la configuración del filtro del módulo de origen al módulo de destino.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conservar configuración de ruta de reserva]</p> </td> 
-   <td> <p>El filtro de origen se establece como ruta de reserva. Active esta opción para establecer también que el filtro de destino se establezca como ruta de reserva.</p> </td> 
+   <td> <p>El filtro de origen se establece como ruta de reserva. Active esta opción para establecer también que el filtro de destino se establece como ruta de reserva.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,6 +436,6 @@ Resalta los módulos de la aplicación especificada en su escenario.
 
 #### [!UICONTROL Migrar GS]
 
-Esta herramienta está diseñada especialmente para actualizar [!DNL Google Sheets] Módulos (heredados) a la última versión [!DNL Google Sheets] versión. Agrega una nueva versión del módulo justo después de la versión heredada del módulo en la ruta del escenario.
+Esta herramienta está diseñada especialmente para actualizar [!DNL Google Sheets] Módulos (heredados) a la última versión [!DNL Google Sheets] versión. Añade una nueva versión del módulo justo después de la versión heredada del módulo en la ruta del escenario.
 
 Este módulo no requiere que establezca ningún parámetro.
