@@ -7,9 +7,9 @@ description: En estos vídeos se describen los distintos tipos de tableros dispo
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Un tablero básico, o simple, le permite empezar rápidamente a usar tableros pa
 Un panel kanban puede contener un registro de asuntos pendientes, o una columna de entrada, que se configura con filtros para incorporar tareas y problemas de Workfront al panel.
 
 [Vea un vídeo de demostración de un panel Kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Tablero dinámico
+
+Un tablero dinámico le permite rellenar automáticamente un tablero con tarjetas basadas en un proyecto de Workfront. Mediante filtros, las tarjetas se añaden a las columnas en función de su estado.
+
+[Vea un vídeo de demostración de un tablero dinámico.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Tablero móvil
 
