@@ -6,7 +6,7 @@ description: Planes requeridos, tipos de licencia y acceso a los permisos de tip
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 
 ## Ver un proyecto en la vista de Agile
 
-1. Vaya al proyecto que desee ver en una vista Agile, en la lista de tareas <span class="preview">o la lista de problemas</span>.
+1. <span class="preview">Vaya al proyecto que desee ver en una vista Agile, en la lista de tareas o en la lista de problemas.</span>
 1. Haga clic en **Tablero** icono ![Icono de tablero](assets/board-icon-for-agile-view.png).
 
    La vista de tablero del proyecto se muestra de forma predeterminada.
