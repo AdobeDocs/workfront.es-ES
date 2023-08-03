@@ -7,9 +7,9 @@ description: Lea este artículo para obtener más información [!DNL Workfront B
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
   <tr>
    <td>Use comentarios en tarjetas ad hoc y conectadas</td>
    <td>Publicado</td>
+  </tr>
+  <tr>
+   <td>Ver documentos en tarjetas conectadas</td>
+   <td>Liberado parcialmente</td>
   </tr>
  </tbody> 
 </table>

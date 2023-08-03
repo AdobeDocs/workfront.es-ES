@@ -6,14 +6,16 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # Usar tarjetas conectadas en tableros
+
+{{preview-and-fast-release}}
 
 Puede agregar una tarjeta en el tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -138,6 +140,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de comprobación]</strong> </td> 
       <td> <p>Clic <strong>[!UICONTROL Agregar elemento de lista de comprobación]</strong>. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p> <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información sobre los elementos de la lista de comprobación, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de listas de comprobación en tarjetas</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
+      <td><span class="preview"><p>Pase el ratón sobre la miniatura del documento y haga clic en <strong>Previsualizar</strong> para ver el archivo en el explorador o <strong>Descargar</strong> para descargar el archivo en el equipo.</p></span>
+      <span class="preview"><p><strong>NOTA:</strong> En este momento, se debe cargar un documento en la tarea de Workfront para que esté disponible en la tarjeta conectada.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Horas]</strong></td>

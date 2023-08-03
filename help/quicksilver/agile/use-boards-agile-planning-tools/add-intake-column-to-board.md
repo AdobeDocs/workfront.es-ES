@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,17 @@ La columna de entrada no está disponible en un tablero dinámico.
 
 La columna de entrada no está disponible en tableros que formen parte de un flujo de trabajo. En su lugar, puede configurar una columna de registro de pendientes para extraer las tarjetas de la lista de tarjetas. Para obtener información sobre cómo añadir una columna de registro de pendientes a un tablero de un flujo de trabajo, consulte [Configurar el registro de pendientes en una placa de flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-La columna de admisión está limitada a 300 tareas y 300 problemas. Se ordenan por la prioridad definida en los elementos. Para obtener información sobre la prioridad, consulte [Actualizar prioridad de tareas](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) y [Actualizar prioridad del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+La columna de admisión está limitada a 300 tareas y 300 problemas. El orden predeterminado de los elementos de la columna de entrada es el siguiente:
+
+Tareas:
+
+* Pedido principal: Nombre del proyecto
+* Orden secundario: estructura de desglose de trabajo
+
+Problemas:
+
+* Pedido principal: Nombre del proyecto
+* Pedido secundario: Número de referencia
 
 Para obtener más información sobre las columnas, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
