@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b2c6f5d4bc189eb8158f02a126aec8e9cb87d28e
+source-git-commit: cac061ccfe297c2b85f7c376779db17a4eda916b
 workflow-type: tm+mt
-source-wordcount: '13141'
+source-wordcount: '13146'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 2%
       * Versión del cuarto trimestre de 2023 {#release-23-q4}
          * [Información general sobre la versión 2023 del cuarto trimestre](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Semana de la versión del 24 de julio de 2023 (cuarto trimestre)](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
+         * [Semana de la versión del 31 de julio de 2023 (cuarto trimestre)](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
       * Versión 23.3 {#release-23-3}
          * [Información general de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Mejoras del administrador](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)

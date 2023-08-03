@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 ## Mejoras de Adobe Workfront
 
-* Mejoras del proyecto
+* [Mejoras de tableros](#boards-enhancements)
+* [Mejoras del proyecto](#project-enhancements)
+
+### Mejoras de tableros
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponibles en tarjetas conectadas como de solo lectura</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p><p>Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver documentos como imágenes y PDF. Puede obtener una vista previa de un documento en el explorador o descargarlo en el equipo. </p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 3 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Producción para tableros acceso anticipado: 10 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">La vista de tablero de un proyecto ya está disponible para los problemas</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p><p>Ahora puede acceder a la vista del tablero de una lista de problemas del proyecto. El panel Kanban puede ayudarle a realizar un seguimiento del progreso de los problemas de una manera más visual que verlos en la lista. </p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 3 de agosto de 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Mejoras del proyecto
 
