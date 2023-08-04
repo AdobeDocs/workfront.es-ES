@@ -8,10 +8,10 @@ description: Las funciones de organización y equipos de Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 0%
+source-wordcount: '1133'
+ht-degree: 1%
 
 ---
 
@@ -146,6 +146,8 @@ Un usuario tiene una de las siguientes funciones en cada uno de sus equipos:
 * **[!UICONTROL Monitorización del equipo]**: La [!UICONTROL control] permite a los usuarios acceder a la información de ejecución de los escenarios, pero no pueden diseñarlos ni cambiar su estado &quot;Activo&quot;.
 * **[!UICONTROL Operador de equipo]**: La [!UICONTROL operador] permite a los usuarios ver los datos de ejecución y cambiar el estado &quot;Activo&quot; de los escenarios.
 * **[!UICONTROL Miembro restringido del equipo]**: la funcionalidad de esta función no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
+
+Para obtener información sobre las tareas específicas disponibles para los roles de equipo, consulte[Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Administración de equipo
 

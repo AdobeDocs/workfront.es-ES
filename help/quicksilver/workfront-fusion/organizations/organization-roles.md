@@ -8,20 +8,20 @@ description: Este artículo incluye información sobre el acceso y los permisos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
-# Funciones de organización en [!DNL Adobe Workfront Fusion]
+# Funciones de organización y equipo en [!DNL Adobe Workfront Fusion]
 
-Este artículo describe el acceso y la funcionalidad disponibles para las diferentes funciones de organización en [!DNL Workfront Fusion].
+Este artículo describe el acceso y la funcionalidad disponibles para los diferentes roles de equipo y organización en [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Las funciones de organización son independientes de las funciones de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de equipo, consulte [Roles del equipo](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>Las funciones de organización son independientes de las funciones de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de organización y equipo, consulte [Organizaciones y equipos](../organizations/organizations-and-teams.md).
 
 ## Requisitos de acceso
 
@@ -92,6 +92,20 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  </thead> 
  <tbody> 
   <tr> 
+   <td> <p>Acceder a todos los equipos</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Instalar aplicación para la organización</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td> <p>Eliminación de organizaciones</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -135,10 +149,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
     <td> </td> 
    </tr>
   --> 
- </tbody> 
+  <tr> 
+   <td> <p>Agregar equipo</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Escenarios
+
+## Roles de equipo
+
+### Escenarios
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,10 +174,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -168,7 +193,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Adición de escenarios</p> </td> 
@@ -188,7 +213,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> <p style="text-align: left;">Editar escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -196,68 +221,68 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Notificaciones de escenario</p> </td> 
+   <td> <p style="text-align: left;">Recibir notificaciones de escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Restablecer estadísticas</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Enumerar escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Editar planificador de escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Activar escenarios</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> <p style="text-align: left;">Escenarios de inicio</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Desactivar escenarios</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> <p style="text-align: left;">Detener escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Ejecutar escenarios manualmente</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Ver escenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-  </tr> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   </tr> 
  </tbody> 
 </table>
 
-## Conexiones
+### Conexiones
 
 <table style="table-layout:auto">
  <col> 
@@ -268,10 +293,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,12 +326,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Webhooks
+### Webhooks
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,10 +342,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,12 +375,12 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Almacenes de datos
+### Almacenes de datos
 
 <table style="table-layout:auto"> 
  <col> 
@@ -366,10 +391,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -399,19 +424,19 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Examinar almacenes de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Estructuras de datos
+### Estructuras de datos
 
 <table style="table-layout:auto">
  <col> 
@@ -422,10 +447,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">hy0</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -454,13 +479,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> <p style="text-align: left;">Enumeración de estructuras de datos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Dispositivos
+### Dispositivos
 
 <table style="table-layout:auto"> 
  <col> 
@@ -471,10 +496,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -503,13 +528,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> <p style="text-align: left;">Enumerar dispositivos</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Claves
+### Claves
 
 <table style="table-layout:auto">
  <col> 
@@ -520,10 +545,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Propietario]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Contable]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -552,8 +577,117 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> <p style="text-align: left;">Claves de lista</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### Plantillas
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Añadir plantillas</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Eliminar plantillas</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Editar plantillas</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Enumerar plantillas</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Ver plantillas</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Equipos
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Agregar equipos</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Eliminar equipos</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Adición y edición de un usuario del equipo</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Ver equipos</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
