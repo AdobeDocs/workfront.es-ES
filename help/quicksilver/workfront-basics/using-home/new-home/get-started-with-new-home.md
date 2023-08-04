@@ -5,10 +5,10 @@ title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ Los widgets son la base del nuevo inicio. Al agregar widgets a la página de ini
 * **Tareas pendientes**\
     Este widget único le permite agregar elementos de texto a una lista de comprobación personal que puede editar libremente.
 
-De forma predeterminada, la página de inicio se rellena con algunos widgets específicos basados en el tipo de licencia. La siguiente tabla describe qué widgets ven los usuarios de cada tipo de licencia cuando acceden por primera vez a la página de inicio nueva.
+  >[!NOTE]
+  >
+  >Debe tener permiso para crear tareas pendientes en el widget de tareas pendientes.
 
-| **Tipo de licencia heredada** | **Widgets predeterminados** | **Tipo de licencia actual** | **Widgets predeterminados** |
-|---|---|---|---|
-| Plan | Mis proyectos, menciones, tareas pendientes | Estándar | Mis proyectos, Mi trabajo, Menciones, Tareas pendientes |
-| Trabajo | Mi trabajo, menciones, tareas pendientes | Ligero | Mi trabajo, Esperando mi aprobación, tareas pendientes |
-| Revisar | Mi trabajo, menciones, tareas pendientes | Colaborador | Mi trabajo, menciones, tareas pendientes |
-| Limitado | Mis proyectos, Esperando mi aprobación, tareas pendientes | Externo | Esperando mi aprobación, tareas pendientes |
-| Colaborador | Mi trabajo, menciones, tareas pendientes |  |  |
-| Externo | Esperando mi aprobación, tareas pendientes |  |  |
+De forma predeterminada, la página de inicio se rellena con algunos widgets específicos basados en el tipo de licencia. Las siguientes tablas describen qué widgets ven los usuarios de cada tipo de licencia cuando acceden por primera vez a la página de inicio nueva.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo de licencia actual</b></td>
+        <td><b>Widgets predeterminados</b></td>
+    </tr>
+    <tr>
+        <td>Estándar</td>
+        <td>Mis proyectos, Mi trabajo, Menciones, Tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Ligero</td>
+        <td>Mi trabajo, Esperando mi aprobación, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Colaborador</td>
+        <td>Mi trabajo, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Esperando mi aprobación, tareas pendientes</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo de licencia heredada</b></td>
+        <td><b>Widgets predeterminados</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mis proyectos, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Trabajo</td>
+        <td>Mi trabajo, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Revisar</td>
+        <td>Mi trabajo, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Limitado</td>
+        <td>Mis proyectos, Esperando mi aprobación, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Colaborador</td>
+        <td>Mi trabajo, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Esperando mi aprobación, tareas pendientes</td>
+    </tr>
+</table>
 
 Para obtener información sobre cómo añadir, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
