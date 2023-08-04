@@ -3,16 +3,16 @@ title: 23.3 Mejoras de Financial Management
 description: 23.3 Mejoras de Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 23.3 Mejoras de Financial Management
 
-Esta página describe todas las mejoras realizadas en Financial Management con la versión 23.3. Estas mejoras estaban disponibles con la versión 23.3 de los días 20 y 21 de julio de 2023.
+Esta página describe todas las mejoras realizadas en Financial Management con la versión 23.3.
 
 Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
