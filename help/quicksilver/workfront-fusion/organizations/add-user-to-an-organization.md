@@ -7,9 +7,9 @@ description: Puede añadir usuarios a organizaciones en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -105,4 +105,4 @@ Para añadir un usuario a la organización:
 >
 >   <p>Para obtener instrucciones sobre cómo agregar un usuario a una organización que se ha incorporado al [!DNL Adobe Business Platform], consulte <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Añada un usuario a una organización que se haya incorporado al [!DNL Adobe Business Platform]</a></p>
 
-El usuario recibe un correo electrónico de invitación en el que puede aceptar la invitación haciendo clic en un [!UICONTROL Aceptar el rol] botón.
+El usuario recibe un correo electrónico de invitación en el que puede aceptar la invitación.
