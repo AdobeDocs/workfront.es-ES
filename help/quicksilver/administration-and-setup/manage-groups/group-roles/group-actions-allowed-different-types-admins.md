@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
+source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
@@ -36,13 +36,7 @@ Esta tabla enumera las actividades de administración disponibles para:
    <th>Administrador de subgrupos (las acciones se limitan a los grupos que administra el administrador)</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>Inscribir a miembros en la nueva experiencia de Adobe Workfront</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>Restablecer contraseña de usuario</td> 
    <td>✓ </td> 
