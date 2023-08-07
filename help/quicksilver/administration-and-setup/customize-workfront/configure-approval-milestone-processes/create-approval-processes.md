@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 2%
@@ -16,6 +16,8 @@ ht-degree: 2%
 ---
 
 # Crear un proceso de aprobación para elementos de trabajo
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 Puede crear un proceso de aprobación que los usuarios puedan adjuntar a un elemento de trabajo (proyecto, tarea, problema, plantilla o tarea de plantilla), un documento o una prueba. Un proceso de aprobación garantiza que los usuarios asignados al objeto revisen ciertos cambios antes de que el objeto progrese en el sistema.
 
@@ -71,6 +73,10 @@ Debe tener lo siguiente:
    O
 
    Si está creando un proceso de aprobación de nivel de grupo, haga clic en **Grupos** ![](assets/groups-icon.png), haga clic en el nombre del grupo y, a continuación, haga clic en **Aprobaciones**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Haga clic en **Aprobaciones de proyecto**, **Aprobaciones de tarea**, o **Aprobaciones de problema** , según el tipo de proceso de aprobación que desee crear.
 
@@ -149,7 +155,7 @@ Debe tener lo siguiente:
        <li> <p>Cuando asigna una aprobación a un rol y la variable <b>No se requiere que el aprobador esté en el equipo del proyecto (para procesos de aprobación que incluyen un rol)</b> está deshabilitada, pero no hay funciones en el equipo del proyecto que coincidan con la función en la aprobación, la aprobación se reasignará al propietario del proyecto. Para obtener información sobre la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>.</p> </li> 
        </ul> 
        <ul> 
-       <li> <p>Cuando asigna una aprobación al Propietario del proyecto y no se designa a nadie como propietario de un proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección Información del cliente del área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar la información básica del sistema</a>.  </p> </li> 
+       <li> <p>Cuando asigna una aprobación al Propietario del proyecto y no se designa a nadie como propietario del proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección Información del cliente del área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar la información básica del sistema</a>.  </p> </li> 
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Puede repetir este proceso para agregar varios aprobadores a la fase. Una sola fase puede incluir una combinación de usuarios, equipos y funciones de trabajo como aprobadores. No hay límite en el número de aprobadores que puede añadir a una fase.</p> <p><b>IMPORTANTE</b>:  <p>Cuando asigna roles como aprobadores, todos los usuarios asociados a ese rol que también están en el equipo del proyecto pueden tomar una decisión sobre la aprobación. </p> <p>Cuando asigna un equipo como aprobador, cualquier usuario de ese equipo puede tomar una decisión sobre la aprobación. </p> <p>Para obtener más información sobre el equipo del proyecto, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Información general del equipo del proyecto</a>. Para obtener más información sobre la aprobación de trabajo, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo </a>.</p> </p> </td> 
      </tr> 
      <tr> 
