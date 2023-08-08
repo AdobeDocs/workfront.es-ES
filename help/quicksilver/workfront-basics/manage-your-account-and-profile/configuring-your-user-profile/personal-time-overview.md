@@ -7,9 +7,9 @@ description: Adobe Workfront no está diseñado para replicar o reemplazar sus s
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O bien (si está disponible), haga clic en la imagen de perfil en el área de navegación superior y, a continuación, haga clic en **[!UICONTROL Perfil de Workfront]**.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Tiempo libre]**.
 1. Seleccione la fecha que desee para sus vacaciones personales.
-1. Seleccionar **[!UICONTROL Todo el día]**, si se toma un día libre completo.\
+
+   ![Calendario personal de tiempo libre](assets/personal-time-off-calendar.png)
+
+1. Seleccionar **[!UICONTROL Todo el día]**, si se toma un día libre completo.
+
    Déjela sin seleccionar si se toma menos de un día libre completo e indique las horas de inicio y finalización de su tiempo libre.
 
-1. Haga clic en **[!UICONTROL Guardar]**.\
+1. Haga clic en **[!UICONTROL Guardar]**.
+
    Su tiempo libre ahora es visible a través de la [!DNL Workfront] en las herramientas de administración de recursos como el Planificador de recursos y el Distribuidor de cargas de trabajo. Cuando se le asigna trabajo durante este tiempo, aparece un aviso que informa al usuario de que ha programado tiempo libre.

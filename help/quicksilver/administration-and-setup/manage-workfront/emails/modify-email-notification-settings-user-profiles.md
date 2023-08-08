@@ -9,7 +9,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -22,7 +22,10 @@ Si es administrador de Adobe Workfront o tiene un nivel de acceso de Planificado
 
 Cuando establece la configuración de las notificaciones de forma masiva, solo puede cambiar la configuración que los usuarios seleccionados tienen en común.
 
-También puede configurar las notificaciones por correo electrónico para un usuario a la vez, incluido su propio perfil. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>También puede configurar las notificaciones por correo electrónico para un usuario a la vez, incluido su propio perfil. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## Requisitos de acceso
 
