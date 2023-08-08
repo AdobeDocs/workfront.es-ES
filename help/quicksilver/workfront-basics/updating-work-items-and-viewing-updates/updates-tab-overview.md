@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -51,83 +51,99 @@ La información de la sección Actualizaciones está organizada de forma diferen
 
 ### Información general de la sección Actualizaciones actuales
 
-La sección Actualizaciones de un objeto muestra hasta 200 de las actualizaciones más recientes realizadas en los últimos 90 días.
+* La sección Actualizaciones de un objeto muestra hasta 200 de las actualizaciones más recientes realizadas en los últimos 90 días.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-La sección Actualizaciones actuales muestra la siguiente información:
+* La sección Actualizaciones se muestra para los siguientes objetos:
 
-* Comentarios de los usuarios y respuestas a dichos comentarios.
-* Actualizaciones del sistema, que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documentos</li> 
+      <li>Metas</li> 
+      <li>Problemas</li> 
+      <li>Iteraciones</li> 
+      <li>Proyectos</li> 
+      <li>Programas</li> 
+      <li>Portafolios</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Historias*</li> 
+      <li>Tareas</li> 
+      <li>Plantillas</li> 
+      <li>Tareas de plantilla</li> 
+      <li>Plantillas de horas</li> 
+      <li>Usuarios</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-La sección Actualizaciones se muestra para los siguientes objetos:
+  *Las historias son tareas. Toda la información relacionada con las tareas también está disponible para las historias.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documentos</li> 
-     <li>Metas</li> 
-     <li>Problemas</li> 
-     <li>Iteraciones</li> 
-     <li>Proyectos</li> 
-     <li>Programas</li> 
-     <li>Portafolios</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Historias*</li> 
-     <li>Tareas</li> 
-     <li>Plantillas</li> 
-     <li>Tareas de plantilla</li> 
-     <li>Plantillas de horas</li> 
-     <li>Usuarios</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Las historias son tareas. Toda la información relacionada con las tareas también está disponible para las historias.
+* La sección Actualizaciones actuales muestra la siguiente información:
+
+   * Actualizaciones de usuarios: comentarios realizados por los usuarios y respuestas a dichos comentarios.
+   * Actualizaciones del sistema: mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* Los objetos siguientes no registran las actualizaciones del sistema:
+
+   * Equipo
+   * Plantilla
+   * Tarea de plantilla
 
 ### Información general sobre la sección Actualizaciones en la experiencia de comentarios beta
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
-* **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
 
-Actualmente, puede agregar comentarios y responder a actualizaciones utilizando la nueva experiencia de comentarios en los siguientes objetos:
+   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Metas</p>
-     <li>Tarjetas en el área de Tableros*</li>
-      Esta es la única experiencia para los goles y las tarjetas.
-     </li> 
-     <li>Proyectos</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Problemas</li> 
-     <li>Tareas</li>
-     <li>Documentos</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Actualmente, puede agregar comentarios y responder a actualizaciones utilizando la nueva experiencia de comentarios en los siguientes objetos:
 
-*Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Metas</p>
+        <li>Tarjetas en el área de Tableros*</li>
+          Esta es la única experiencia para los goles y las tarjetas.
+        </li> 
+        <li>Proyectos</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Problemas</li> 
+        <li>Tareas</li>
+        <li>Documentos</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *Puede agregar y ver actualizaciones a las tarjetas en las áreas de Tablero cuando habilite las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 
