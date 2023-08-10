@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ El **Comentarios** está seleccionada de forma predeterminada.
    >El indicador &quot;Nuevo&quot; solo se muestra cuando el usuario que ha introducido una nueva actualización, así como el usuario que está introduciendo una actualización, están utilizando la nueva experiencia de comentarios.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Haga clic en **Agregar archivo adjunto** icono ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> para añadir una imagen al comentario. La imagen debe guardarse en el equipo para poder adjuntarla. <!--**************** this might be renamed to "Add image")-->
-
 1. Clic **Enviar** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del icono Like y, a continuación, haga clic en **Editar**.
 1. Edite la información del comentario, añada o elimine imágenes, o bien elimine cualquiera de los usuarios etiquetados.
@@ -301,7 +299,6 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Mayús + 7 | Ctrl + Mayús + 7 |
    | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | ⌘ + Mayús + 9 | Ctrl + Mayús + 9 |
-   | Emoji | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    Para detener el formato del texto, anule la selección del atributo en la **Texto enriquecido** barra de herramientas.
 
@@ -345,7 +342,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 
    O
 
-   Haga clic en **Agregar archivo adjunto** icono ![](assets/add-image-paperclip-icon.png) y busque la imagen en el equipo, al usar la experiencia de comentarios beta. <!--the name of the icon and the icon for it might change-->
+   Haga clic en **Agregar archivo adjunto** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo, al usar la experiencia de comentarios beta. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

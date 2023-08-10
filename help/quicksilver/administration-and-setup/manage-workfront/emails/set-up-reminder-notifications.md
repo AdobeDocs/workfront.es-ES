@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 ---
 
 # Configurar notificaciones de recordatorio
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Las notificaciones de recordatorio envían correos electrónicos a los destinatarios en función de criterios específicos. Como administrador de Adobe Workfront o usuario con un nivel de acceso de Planificador y acceso administrativo a las notificaciones de recordatorio, puede asociar manualmente las notificaciones de recordatorio a sus elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas.
 
@@ -68,9 +66,8 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
 
 1. Clic **Correo electrónico** > **Notificaciones** > **Notificaciones de recordatorio**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Clic **Nueva notificación de recordatorio**.
 
 1. En la lista desplegable, haga clic en el tipo de objeto que desee asociar a la notificación de recordatorio.
