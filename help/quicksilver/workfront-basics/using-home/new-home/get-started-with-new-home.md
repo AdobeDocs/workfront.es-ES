@@ -5,10 +5,10 @@ title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ New Home está diseñado para ser altamente personalizable, lo que le permite se
 
 ### Widgets
 
-Los widgets son la base del nuevo inicio. Al agregar widgets a la página de inicio, puede elegir el tipo de información que se muestra para satisfacer mejor sus necesidades laborales. Algunos widgets solo están disponibles para tipos de licencia específicos, ya que los objetos que rastrean solo están disponibles para esas licencias. A continuación se muestran los diez widgets disponibles actualmente para elegir, así como un resumen de la información que muestran:
+Los widgets son la base del nuevo inicio. Al agregar widgets a la página de inicio, puede elegir el tipo de información que se muestra para satisfacer mejor sus necesidades laborales. Algunos widgets solo están disponibles para tipos de licencia específicos, ya que los objetos que rastrean solo están disponibles para esas licencias. Para obtener información sobre cómo añadir, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+A continuación se muestran los diez widgets disponibles actualmente para elegir, así como un resumen de la información que muestran:
 
 * **Mi trabajo**\
     Este widget, que es un buen lugar de partida para gestionar una gran variedad de tareas, muestra todas sus tareas asignadas, incidencias y solicitudes en un solo lugar.
@@ -50,7 +52,7 @@ Los widgets son la base del nuevo inicio. Al agregar widgets a la página de ini
     Muestra todas las aprobaciones de su organización en una tabla con columnas personalizables, así como una barra de búsqueda que le permite buscar aprobaciones específicas.
 
 * **Menciones**\
-    Muestra los hilos de comentarios recientes que contienen @ menciones de usted en Workfront, así como un botón de respuesta que le permite redactar una respuesta dentro del widget.
+    Muestra los hilos de comentarios recientes que contienen @ menciones de usted en Workfront, así como un botón de respuesta que le permite redactar una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
 
 * **Tareas pendientes**\
     Este widget único le permite agregar elementos de texto a una lista de comprobación personal que puede editar libremente.
@@ -114,8 +116,6 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
         <td>Esperando mi aprobación, tareas pendientes</td>
     </tr>
 </table>
-
-Para obtener información sobre cómo añadir, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Personalización de fondo
 
