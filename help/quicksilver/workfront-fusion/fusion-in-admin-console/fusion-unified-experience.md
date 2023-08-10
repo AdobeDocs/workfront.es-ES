@@ -7,10 +7,10 @@ description: El acceso a Workfront Fusion a través de Adobe Experience Cloud le
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
@@ -102,4 +102,11 @@ Este menú le permite:
 * Establecer **[!UICONTROL Preferencias]** para [!DNL Adobe Experience Cloud], incluidas las preferencias de idioma principal y secundario.
 * Acceda a su **[!UICONTROL [!DNL Workfront Fusion]Perfil]**. Una vez que esté en el perfil, haga clic en **[!UICONTROL Más]** menú ![](assets/more-icon.png) y seleccione **[!UICONTROL Editar]**. Para obtener más información sobre el perfil, consulte [Configurar mis ajustes](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Cerrar sesión]** de Adobe Experience Cloud.
+
+
+## Acceso a las notificaciones
+
+Puede encontrar las notificaciones y los anuncios en el área Notificaciones de Unified Shell.
+
+Para ver las notificaciones, haga clic en el icono Notificaciones ![Icono de notificaciones](assets/notifications-icon.png) cerca de la esquina superior derecha de la pantalla. Un punto rojo en el icono Notificaciones indica que tiene notificaciones o anuncios sin leer.
 
