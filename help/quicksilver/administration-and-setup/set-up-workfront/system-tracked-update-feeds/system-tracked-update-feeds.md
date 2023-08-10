@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,15 @@ El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
      Debe tener una licencia adicional para tener acceso a [!UICONTROL Metas] área. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Tarjeta] en un tablero
 
-     Para obtener más información sobre actualizaciones de tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     Para obtener más información sobre actualizaciones de tarjetas, consulte [Usar tarjetas conectadas en tableros](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] no realiza el seguimiento de ninguna actualización del sistema para los siguientes objetos:
 
    * [!UICONTROL Equipo]
    * [!UICONTROL Plantilla]
    * [!UICONTROL Tarea de plantilla]
+   * Ad hoc [!UICONTROL Tarjeta]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL Documento]
    * [!UICONTROL Hoja de horas]
    * [!UICONTROL Iteración]
+   * [!UICONTROL Meta]
+
 
