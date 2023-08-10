@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
+source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 * [Mejoras de tableros](#boards-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
+* [Otras mejoras](#other-enhancements)
 
 ### Mejoras de tableros
 
@@ -61,7 +62,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponibles en tarjetas conectadas como de solo lectura</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p><p>Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver documentos como imágenes y PDF. Puede obtener una vista previa de un documento en el explorador o descargarlo en el equipo. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponibles en tarjetas conectadas como de solo lectura</a></p><p>Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver documentos como imágenes y PDF. Puede obtener una vista previa de un documento en el explorador o descargarlo en el equipo. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -92,7 +93,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">La vista de tablero de un proyecto ya está disponible para los problemas</a><span style="color: #ff0000;"> Novedades en la vista previa</span> </p><p>Ahora puede acceder a la vista del tablero de una lista de problemas del proyecto. El panel Kanban puede ayudarle a realizar un seguimiento del progreso de los problemas de una manera más visual que verlos en la lista. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">La vista de tablero de un proyecto ya está disponible para los problemas</a></p><p>Ahora puede acceder a la vista del tablero de una lista de problemas del proyecto. El panel Kanban puede ayudarle a realizar un seguimiento del progreso de los problemas de una manera más visual que verlos en la lista. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -149,11 +150,65 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
            </tbody>
         </table>
 
+### Otras mejoras
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2023</a></p><p>En el cuarto trimestre de 2023 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: Durante el cuarto trimestre de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: revise las notas de la versión para fechas específicas</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ## Anuncios
 
 ### Mejoras de Workfront Fusion
 
-No hay actualizaciones de Workfront Fusion en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la del calendario de versiones del cuarto trimestre de 2023. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Mejoras de Workfront Scenario Planner
 

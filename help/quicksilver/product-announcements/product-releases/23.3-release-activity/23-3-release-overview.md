@@ -4,9 +4,9 @@ description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístr
                                 <p>Versión de vista previa: durante todo el periodo de tiempo de la versión 23.3</p>
                             </li>
                             <li>
-                                <p><span class="preview">Un mínimo de 2 semanas después del lanzamiento a Vista previa (a menos que se especifique lo contrario)</span></p>
+                                <p><span class="preview">Versión de producción: un mínimo de 2 semanas después del lanzamiento a Vista previa (a menos que se especifique lo contrario)</span></p>
                             </li>
                         </ul>
                     </td>
