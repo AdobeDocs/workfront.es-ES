@@ -6,7 +6,7 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -15,10 +15,27 @@ ht-degree: 0%
 
 # Etiquetar a otros en las actualizaciones
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -98,6 +115,8 @@ El etiquetado de otros en una actualización difiere según la experiencia y el 
 
 ### Etiquetar a otros en las actualizaciones de la sección Actualizaciones actuales
 
+<!--change "current" to "legacy" at the October 26, 2023 release-->
+
 Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
 
 1. Comience a actualizar un elemento de trabajo como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -138,7 +157,7 @@ Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### Etiquete otras actualizaciones en la experiencia beta de comentarios
+### Etiquete otras personas en las actualizaciones de la nueva experiencia de comentarios
 
 Puede etiquetar a otros en las actualizaciones de la nueva experiencia de comentarios de las siguientes maneras:
 
@@ -186,10 +205,15 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    A los usuarios incluidos en la actualización se les concede automáticamente el permiso Ver al objeto y pueden ver y responder a las actualizaciones realizadas en el objeto.
 
    Puede ver quién ha sido etiquetado en cada respuesta bajo el texto de la actualización, en el área Miembros. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto.
+
+   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
+
 1. (Opcional) Haga clic en el número de **Miembros** incluido en la actualización para mostrar una lista de entidades con las que se comparte la actualización introducida.
+
+   <!--update screen shot for August 17-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del icono Like y, a continuación, haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y haga clic en **Enviar**. Solo puede editar un comentario 15 minutos después de haberlo introducido. Solo puede editar los comentarios que ha añadido.
+1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del icono Like <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->, luego haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y haga clic en **Enviar**. Solo puede editar un comentario 15 minutos después de haberlo introducido. Solo puede editar los comentarios que ha añadido.
