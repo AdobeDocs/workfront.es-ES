@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -89,7 +91,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
       <td> <p>El campo por el que está filtrando existe y se le ha dado un valor.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>Es menor que</strong> </td> 
       <td> <p>Esto busca todos los resultados con un valor menor que el introducido, sin incluir el valor introducido.</p> </td> 
      </tr> 
      <tr> 
@@ -97,12 +99,12 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
       <td> <p>Esto busca todos los resultados con un valor menor o igual que el valor introducido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Es Bueno que</strong> </td> 
-      <td> <p>Esto busca todos los resultados con un valor bueno al valor introducido, sin incluir el valor introducido.</p> </td> 
+      <td role="rowheader"><strong>Es mayor que</strong> </td> 
+      <td> <p>Esto busca todos los resultados con un valor mayor que el valor introducido, sin incluir el valor introducido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Es Bueno que o igual a</strong> </td> 
-      <td> <p>Esto busca todos los resultados con valores buenos o iguales al valor introducido.</p> </td> 
+      <td role="rowheader"><strong>Es Mayor O Igual Que</strong> </td> 
+      <td> <p>Esto busca todos los resultados con valores mayores o iguales al valor introducido.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Entre</strong> </td> 

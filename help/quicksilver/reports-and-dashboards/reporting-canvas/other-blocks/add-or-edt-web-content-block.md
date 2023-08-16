@@ -6,7 +6,9 @@ description: Los bloques de contenido web permiten mostrar información de sitio
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -62,7 +64,6 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
    >   * domo.com
    >   * looker.com
 
-
    Aparece una advertencia debajo de la dirección URL introducida si no se puede incrustar. Estas advertencias incluyen:
 
    | Nombre de advertencia | Motivo |
@@ -72,7 +73,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 
    {style="table-layout:auto"}
 
-1. (Opcional) Haga clic en **Pasar parámetros** active esta opción para abrir una lista de parámetros de pase disponibles.
+1. (Opcional) Haga clic en **Pasar parámetros** active esta opción para abrir una lista de los parámetros de pase disponibles.
 
    >[!WARNING]
    >

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 7%
@@ -53,7 +55,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
    | LEN | Mida la longitud (en número de caracteres) de un campo de argumento. | Número |
    | ROUND | Devuelve un número redondeado basado en la precisión seleccionada. | Número |
    | FLOOR | Devuelve el número entero más cercano, redondeado hacia abajo. | Número |
-   | NÚMERO | Devuelve el menor entero bueno menor que el valor de un argumento numérico (idéntico a una función Floor). | Número |
+   | NÚMERO | Devuelve el mayor entero menor que el valor de un argumento numérico (idéntico a una función Floor). | Número |
    | CADENA | Convierte el contenido de un campo de argumento en una cadena | Cadena |
    | SUBSTR | Cree una nueva cadena a partir de una cadena mayor, que contenga los caracteres entre un número de índice (Inicio) y otro (Final). | Cadena |
    | LEFT | Cree una nueva cadena a partir de una cadena más grande, que contenga caracteres que empiecen por el extremo izquierdo y que cuenten a la derecha un número de caracteres (longitud). | Cadena |

@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +39,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
    >   * Si exporta un informe que contiene varias tablas a un formato XLSX, el archivo exportado contiene una hoja independiente para cada tabla.
    >   * Si exporta un informe que contiene varias tablas a un formato CSV, el resultado exportado es una carpeta comprimida que contiene un archivo independiente para cada tabla.
    >   * Si exporta una tabla que contiene filas agrupadas a un formato CSV, el archivo CSV incluye todas las filas, pero no se muestran en grupos.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

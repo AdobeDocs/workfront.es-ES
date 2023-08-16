@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -95,7 +97,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
    * Para agregar otro grupo, arrastre otro campo desde el panel lateral.
    * Para mostrar las filas de un grupo contraído de forma predeterminada, haga clic en **Menú Más** icono ![](assets/more-icon.png) junto al grupo y haga clic en **Contraer grupo**.
 
-      Cada grupo se puede configurar individualmente para que se muestre con filas contraídas o expandidas. De forma predeterminada, todas las filas agrupadas están contraídas.
+     Cada grupo se puede configurar individualmente para que se muestre con filas contraídas o expandidas. De forma predeterminada, todas las filas agrupadas están contraídas.
 
    * Para mostrar un recuento en la fila del grupo, haga clic en **Menú Más** icono ![](assets/more-icon-27x15.png) junto al grupo y haga clic en **Mostrar recuento**.
    * Para quitar un grupo, haga clic en **Menú Más** icono ![](assets/more-icon.png) junto al grupo y haga clic en **Quitar grupo**.
