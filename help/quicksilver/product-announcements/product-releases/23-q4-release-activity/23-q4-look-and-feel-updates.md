@@ -4,7 +4,7 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del cu
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ Para obtener una lista de todos los cambios disponibles con la versión del cuar
 
 Hemos actualizado las pestañas de Notificaciones por correo electrónico, Notificaciones de recordatorio y Plantillas de correo electrónico en el área Configuración > Correo electrónico > Notificaciones a un diseño más moderno y coherente con otras áreas de Workfront.
 
-Para obtener más información, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Para obtener más información, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
