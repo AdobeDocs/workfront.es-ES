@@ -8,60 +8,32 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # Responder a las actualizaciones
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>\
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Resumen de la versión del cuarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
-
--->
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
+>Según el entorno y los objetos desde los que acceda a la experiencia de comentario, es posible que vea diferentes funcionalidades en la sección Actualizaciones.
 >
->Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Puede acceder a la nueva experiencia para los siguientes objetos:
-> * Problemas, proyectos, tareas y documentos.
+>La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
 >
->     Esta opción está disponible al habilitar la experiencia de comentarios beta.
->
->     Esta funcionalidad solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
->
->     * Página de inicio
->     * Panel de resumen en listas
->     * Panel de resumen en plantillas de horas
->
-> * Metas, tarjetas en el área Tableros
->
->   La nueva experiencia de comentar es la única experiencia para los goles y las cartas. Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->     Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
-
+> * Página de inicio
+> * Panel de resumen en listas
+> * Panel de resumen en plantillas de horas
 
 Cuando alguien responde a un comentario o a una actualización del sistema de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto.
 
@@ -133,16 +105,22 @@ Para obtener información sobre las funciones disponibles en la nueva experienci
 
 1. Vaya al objeto al que desea agregar una respuesta.
 1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder.
-1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** junto a la actualización o respuesta que desee citar <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->, luego haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
+1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** menú <span class="preview">en la esquina superior derecha del comentario al que desea responder</span>, luego haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
 1. Clic **Responder**.
 
-   Puede ver los usuarios que participan activamente en la conversación en la parte inferior de la **Nuevo comentario** y puede agregar más, o eliminar los que ya no son relevantes. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   ![](assets/reply-to-update-empty-box.png)
+
+   Puede ver los usuarios que participan activamente en la conversación en la parte inferior de la **Añadir respuesta...** y puede agregar más, o eliminar los que ya no son relevantes. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">Para agregar respuestas adicionales a una respuesta existente, puede empezar a escribir en el **Añadir respuesta...** o haga clic en **Responder** sobre el comentario original. Su respuesta se añade al final del hilo. </span>
 
 1. Empiece a escribir la respuesta y utilice las opciones adicionales de la barra de herramientas Texto enriquecido. Para obtener información sobre el uso de texto enriquecido u otras funciones de actualización, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Clic **Enviar** para guardar la respuesta.
 
-1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) junto a la actualización <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> para ver más opciones para administrar la respuesta. Para obtener más información, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) <span class="preview">en la esquina superior derecha del comentario al que desea responder</span> para ver más opciones para administrar la respuesta. Para obtener más información, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## Responder a una actualización desde una notificación por correo electrónico

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3409'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>\
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Resumen de la versión del cuarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. La hora que registre se mostrará en la hoja de horas.
 
@@ -105,7 +108,7 @@ Puede registrar el tiempo en las siguientes áreas de Workfront:
 * [Página de inicio](#home)
 * [Proyecto, tarea o problema](#project-task-or-issue)
 * [Panel de resumen](#summary-panel)
-* [Tableros ](#boards)
+* [Tableros](#boards)
 * [aplicación móvil](#mobile-app)
 
 ### Hoja de horas {#timesheet}
@@ -362,7 +365,7 @@ Puede registrar el tiempo específico de un proyecto, tarea o problema en las si
 
 #### Sección de Actualizaciones{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
@@ -394,7 +397,7 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
    >   
    >   Hay una indicación en la esquina superior derecha del cuadro Escribir días de cuántas horas se incluyen en un día.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Especifique la siguiente información:
 
@@ -451,7 +454,7 @@ Para obtener más información, consulte [Resumen, descripción general](../../w
 
 ![](assets/summary-hour-log.png)
 
-### Tableros  {#boards}
+### Tableros {#boards}
 
 Puede registrar el tiempo en las tarjetas conectadas en un tablero de Workfront. Este es el mismo proceso que registrar el tiempo de una tarea o un problema, y las horas registradas en la tarjeta se guardan en la tarea o el problema conectado.
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

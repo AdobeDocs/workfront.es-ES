@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,9 @@ Este modelo contiene la configuración de estructuras organizativas para ampliar
 
 **[!UICONTROL Configuración de organización de tecnología de información]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de tecnología de la información.
+
+**[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
+Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
 
 **[!UICONTROL Ejecución de campaña integrada]**
 El [!UICONTROL Ejecución de campaña integrada] modelo contiene una sola plantilla de proyecto que organiza el trabajo distribuido en varios equipos para ejecutar una campaña multicanal.

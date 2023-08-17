@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Agregar una actualización a un documento
-description: Puede añadir o responder a las actualizaciones de un documento para comunicarse con los colaboradores y crear una pista de auditoría. Para obtener información sobre cómo agregar actualizaciones a elementos de trabajo, consulte Actualizar trabajo.
+title: Añadir una actualización a un documento
+description: Puede añadir o responder a las actualizaciones de un documento para comunicarse con los colaboradores y crear una pista de auditoría. Para obtener información sobre cómo agregar actualizaciones a elementos de trabajo, vea Actualizar el trabajo.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-# Agregar una actualización a un documento
+# Añadir una actualización a un documento
 
 Puede añadir o responder a las actualizaciones de un documento para comunicarse con los colaboradores y crear una pista de auditoría. Para obtener información sobre cómo agregar actualizaciones a elementos de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -26,7 +26,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -35,38 +35,32 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Ver acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Agregar o responder a una actualización de un documento
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al objeto que contiene el documento y seleccione **Documentos** en el panel izquierdo.
+1. Busque el documento que necesita y realice una de las siguientes acciones:
+
+   * Haga clic en el documento de la lista y, a continuación, en **Abrir resumen** icono ![](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha, haga clic en **Iniciar una nueva actualización** o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener más información sobre el Resumen, consulte [Resumen de la información general sobre documentos](../../documents/managing-documents/summary-for-documents.md).
+   * Pase el ratón sobre el documento y haga clic **Detalles del documento**, entonces **Actualizaciones** en el panel izquierdo.
+Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   Las actualizaciones y respuestas se añaden al documento y a los objetos de mayor clasificación. Para obtener más información, consulte [Información general de la sección Actualización](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+
+## Agregar una respuesta a un comentario de revisión de un documento
+
+En el área de Actualizaciones, cuando responde a un comentario que alguien hizo mientras revisaba un documento, se inicia el visor de revisiones para que pueda escribir la respuesta allí con el contexto que necesite. Su respuesta se mostrará tanto en el visor de revisiones como en el área de Actualizaciones del documento.
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. En el resumen, en **Actualizaciones**, haga clic en **Iniciar una nueva actualización**. Para obtener información sobre el resumen, consulte [Resumen de los documentos](../../documents/managing-documents/summary-for-documents.md).
+1. Clic **Responder en la prueba**, escriba el comentario en el visor de pruebas que se inicia y haga clic en **Responder**.
 
-   O
-
-   En un comentario existente, haga clic en **Responder**. a continuación, haga clic en **Escriba una respuesta**.
-
-1. Escriba su comentario o respuesta.
-1. (Opcional) Si desea etiquetar a un usuario para que les notifique sobre su comentario o respuesta, empiece a escribir el nombre del usuario en el **Notificar** y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.
-1. (Opcional) Para solicitar la aprobación del documento, haga clic en **Solicitar aprobación.**
-
-1. (Opcional) Active **Privado para mi empresa** si desea evitar que los usuarios externos a la empresa vean la actualización.
-1. Haga clic en **Actualizar** si ha añadido una actualización nueva, o haga clic en **Responder** si ha respondido a una actualización.
-
-## Agregar una respuesta a un comentario de prueba para un documento
-
-En el área Actualizaciones, cuando responde a un comentario que alguien hizo al probar un documento, el visor de pruebas se inicia para que pueda escribir su respuesta allí con el contexto que necesite. La respuesta se muestra tanto en el visor de pruebas como en el área Actualizaciones del documento.
-
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque el documento que necesita.
-
-1. Haga clic en **Responder en la prueba**, escriba el comentario en el visor de pruebas que se inicia y, a continuación, haga clic en **Responder**.
-
-   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de pruebas, consulte [Comentar en una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de pruebas, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).

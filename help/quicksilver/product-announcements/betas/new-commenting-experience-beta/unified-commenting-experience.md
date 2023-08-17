@@ -7,20 +7,19 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 1%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
 # Nueva experiencia de comentarios
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>\
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Resumen de la versión del cuarto trimestre de 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de objetos seleccionados.
 
@@ -473,83 +472,97 @@ Para obtener información sobre las funciones lanzadas recientemente a la nueva 
 
 ## Busque la nueva experiencia de comentarios
 
-La nueva experiencia de comentarios es compatible actualmente con los siguientes objetos:
+Los nuevos entornos de comentarios están disponibles actualmente para los siguientes objetos y entornos:
 
-<!--replace the first bullet with this on August 17: 
+* En el entorno de producción para todos los clientes:
 
-<span class="preview">
+   * Al habilitar la experiencia Beta en la sección Actualizaciones de
 
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+      * Problemas, proyectos, tareas y documentos
 
-   * Project
-   * Task
-   * Issue
-   * Document
+     Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+   * De forma predeterminada, como la única experiencia de comentarios para
 
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+      * Metas, cartas en un tablero
 
-</span>
+     >[!NOTE]
+     >
+     >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+* <span class="preview"> En el entorno de vista previa para todos los clientes </span>
 
-* Al habilitar la experiencia Beta en la sección Actualizaciones de
+  <span class="preview">
 
-   * Problemas, proyectos, tareas y documentos
+   * De forma predeterminada, al habilitar la experiencia de comentarios New en la sección Updates para los objetos siguientes:
 
-  Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * Proyecto
+      * Tarea
+      * Problema
+      * Documento
 
-<!--replace the second bullet with this on August 17: 
+     >[!TIP]
+     >
+     >La opción Nueva experiencia de comentarios está activada de forma predeterminada para estos objetos. Puede desmarcar la opción Nuevos comentarios para mostrar la experiencia de comentarios heredada.
 
-<span class="preview">
+     Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* By default, as the only commenting experience for the following objects:  
+  </span>
 
-  * Goal
+  <span class="preview">
+
+   * De forma predeterminada, como la única experiencia de comentarios para los siguientes objetos:
+
+      * Meta
+
+        >[!NOTE]
+        >
+        >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * Tarjeta en un tablero
+      * Equipo
+      * Plantilla
+      * Tarea de plantilla
+      * Hoja de horas
+      * Programar
+      * Portafolio
+      * Usuario
+
+     >[!TIP]
+     >
+     >No hay opción de habilitar la nueva experiencia de comentarios para iteraciones. Solo la experiencia de comentarios heredada está disponible para iteraciones.
+
+  </span>
+
+<!--before August 17: 
+
+The new commenting experience is currently supported for the following objects:
+
+
+* When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+* By default, as the only commenting experience for
+
+    * Goals, cards on a board
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
 
 -->
 
-* De forma predeterminada, como la única experiencia de comentarios para
+Según el entorno en el que acceda a la experiencia de comentario, puede realizar una de las siguientes acciones:
 
-   * Metas, cartas en un tablero
+* Habilitar la experiencia de comentarios beta en el entorno de producción
+* <span class="preview">Habilitar la experiencia de comentarios heredada en el entorno de vista previa </span>
 
-  >[!NOTE]
-  >
-  >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--display on August 17: 
-
-Depending on the environment you access the commenting experience you can do one of the following: 
-
-* Enable the commenting experience Beta in the Production environment
-* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
--->
-
-Para habilitar la experiencia de comentarios beta:
+Para habilitar la experiencia de comentarios beta en el entorno de producción:
 
 1. Vaya a un objeto para el que desee activar la nueva experiencia de comentarios y haga clic en **Actualizaciones** en el panel izquierdo.
-1. Habilite la **Comentando beta** en la esquina superior derecha del área de Actualizaciones.
+1. Haga clic en **Comentando beta** alterne en la esquina superior derecha del área Actualizaciones para habilitarlo.
 1. Clic **Aceptar** en el cuadro Acuerdo beta. Esto habilita la nueva experiencia de comentarios para el objeto seleccionado.
 1. Empiece a escribir una actualización en **Comentarios** pestaña. La pestaña Comentarios debe ser la pestaña predeterminada cuando se abra la nueva experiencia
 
@@ -557,20 +570,19 @@ Para habilitar la experiencia de comentarios beta:
 
    Haga clic en  **Actividad del sistema** para ver las actualizaciones de actividad generadas por Workfront.
 
-   Para obtener más información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<!--make this available for August 17: 
-
 <span class="preview">
 
-To disable the new commenting experience and display the legacy experience: 
+Para deshabilitar la nueva experiencia de comentarios y mostrar la experiencia heredada en el entorno de vista previa:
 
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
+1. Vaya a un proyecto, tarea, problema o documento y haga clic en **Actualizaciones** en el panel izquierdo.
+1. Haga clic en **Nuevos comentarios** alterne en la esquina superior derecha del área de Actualizaciones para anular la selección de la opción y desactivar la nueva experiencia.
 
-1. Start typing an update in the space provided. 
+Esto cambia el área de Actualizaciones al flujo de comentarios heredado.
+
+1. Empiece a escribir una actualización en **Comentarios** pestaña. La pestaña Comentarios debe ser la pestaña predeterminada cuando se abra la nueva experiencia
+
+   O
+
+   Haga clic en  **Actividad del sistema** para ver las actualizaciones de actividad generadas por Workfront.
+
 </span>
-
--->
