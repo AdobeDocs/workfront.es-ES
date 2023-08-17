@@ -1,8 +1,8 @@
 ---
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 3%
+source-wordcount: '1669'
+ht-degree: 2%
 
 ---
 # Fragmentos
@@ -22,6 +22,14 @@ ht-degree: 3%
 ## Vista previa y versión rápida en el cuarto trimestre de 2023 {#preview-and-fast-release}
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la versión actual, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## Nivel de artículo: vista previa y versión rápida en el cuarto trimestre de 2023 {#article-preview-and-fast-release}
+
+<span class="preview">La información de esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 

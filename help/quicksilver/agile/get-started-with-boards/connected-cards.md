@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Cuando se actualiza cualquiera de los siguientes detalles de la tarjeta en una u
 * [!UICONTROL Estado]
 * [!UICONTROL Fecha de finalización planificada]
 * [!UICONTROL Estimación] / [!UICONTROL Puntos de la historia]
+* <span class="preview">[!UICONTROL Documentos]</span>
 
 >[!NOTE]
+>
 >Una sola tarea o problema conectado solo se puede agregar una vez por tablero. La misma tarea o problema se puede conectar a varios tableros.
 
 ## Requisitos de acceso
@@ -143,8 +145,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
-      <td><span class="preview"><p>Pase el ratón sobre la miniatura del documento y haga clic en <strong>Previsualizar</strong> para ver el archivo en el explorador o <strong>Descargar</strong> para descargar el archivo en el equipo.</p></span>
-      <span class="preview"><p><strong>NOTA:</strong> En este momento, se debe cargar un documento en la tarea de Workfront para que esté disponible en la tarjeta conectada.</p></span></td>
+      <td><span class="preview">Para un documento existente, pase el ratón sobre la miniatura del documento y haga clic en <strong>Previsualizar</strong> para ver el archivo en el explorador o <strong>Descargar</strong> para descargar el archivo en el equipo. Para ver un documento nuevo, consulte <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Agregar documentos en tarjetas</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Horas]</strong></td>
