@@ -5,10 +5,10 @@ title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Ligero</td>
-        <td>Mi trabajo, Esperando mi aprobación, tareas pendientes</td>
+        <td>Mi trabajo, esperando mi aprobación</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Mi trabajo, menciones, tareas pendientes</td>
+        <td>Mi trabajo, menciones</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación, tareas pendientes</td>
+        <td>Esperando mi aprobación</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Revisar</td>
-        <td>Mi trabajo, menciones, tareas pendientes</td>
+        <td>Mi trabajo, menciones</td>
     </tr>
     <tr>
         <td>Limitado</td>
-        <td>Mis proyectos, Esperando mi aprobación, tareas pendientes</td>
+        <td>Mis proyectos, esperando mi aprobación</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Mi trabajo, menciones, tareas pendientes</td>
+        <td>Mi trabajo, menciones</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación, tareas pendientes</td>
+        <td>Esperando mi aprobación</td>
     </tr>
 </table>
 
