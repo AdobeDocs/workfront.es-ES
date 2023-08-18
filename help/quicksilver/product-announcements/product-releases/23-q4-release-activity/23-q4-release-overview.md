@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 17 de agosto de 2023<br /></p>
+                                <p>Versión de vista previa: 21 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Producción para tableros Acceso anticipado: 24 de agosto de 2023</p>
+                                <p>Producción para tableros acceso anticipado: por determinar</p>
                             </li>
                             <li>
-                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                                <p>Producción para lanzamiento rápido: por determinar</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión de 23.10</p>
