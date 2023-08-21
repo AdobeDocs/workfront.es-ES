@@ -3,7 +3,7 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 3 de agosto de 2023<br /></p>
+                                <p>Versión preliminar: 3 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Producción para tableros acceso anticipado: 10 de agosto de 2023</p>
@@ -88,7 +88,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 3 de agosto de 2023<br /></p>
+                                <p>Versión preliminar: 3 de agosto de 2023</p>
                             </li>
                              <li>
                                 <p>Producción para una versión rápida: con la versión 23.8</p>
@@ -105,10 +105,10 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 21 de agosto de 2023<br /></p>
+                                <p>Versión de vista previa: 21 de agosto de 2023</p>
                             </li>
                             <li>
-                                <p>Producción para tableros acceso anticipado: por determinar</p>
+                                <p>Producción para tableros Acceso anticipado: 24 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Producción para lanzamiento rápido: por determinar</p>
