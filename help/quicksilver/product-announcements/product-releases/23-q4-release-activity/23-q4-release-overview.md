@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión de 23.10 (a menos que se especifique lo contrario)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de filtro para Nuevo inicio</a> </p>
+                        <p>Ahora hay nuevas opciones de filtro disponibles para el widget Mi trabajo en Nueva página de inicio. Las opciones incluyen filtros para tipos de objeto (tareas, problemas y solicitudes) y estados (no listo, listo para iniciar, trabajando en y completado).</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Compatibilidad con terminología personalizada para el nuevo inicio</a> </p>
+                        <p>Para satisfacer mejor las necesidades únicas de las organizaciones, la nueva página de inicio ahora utiliza terminología personalizada para los objetos tal como se definen en las plantillas de diseño de una instancia. Por ejemplo, si los objetos de "Proyecto" se han vuelto a etiquetar como "Campañas" en la instancia de Workfront, el widget Mis proyectos se mostrará como Mis campañas en la nueva página de inicio.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Se ha eliminado el botón Probar nueva página de inicio en las cuentas que tienen deshabilitada la nueva página de inicio</a> </p>
+                        <p>El botón Probar nueva página de inicio ya no está presente en las cuentas en las que se ha deshabilitado la nueva página de inicio. El administrador del sistema debe volver a habilitar la nueva página de inicio para que los usuarios individuales puedan utilizar el botón para probar la nueva página de inicio.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
                             </li>
                         </ul>
                     </td>
