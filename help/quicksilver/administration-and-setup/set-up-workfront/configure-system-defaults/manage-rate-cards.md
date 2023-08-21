@@ -7,9 +7,9 @@ description: Las tarjetas de tarifas le permiten definir varias tarifas de factu
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Valorar tarjetas**].
-1. Clic [!UICONTROL **Nueva tarjeta de tarifa**], luego ingrese el nombre y la descripción de la tarjeta de tarifas en la lista.
-1. Para agregar tarifas de facturación, haga clic en el nombre de la tarjeta de tarifas en la lista.
-1. En la pantalla de la tarjeta, haga clic en [!UICONTROL **Nueva tarifa de facturación**].
-1. En el cuadro de diálogo Nueva tarifa de facturación, seleccione una [!UICONTROL **Rol**] para definir tarifas de facturación para.
+1. Clic [!UICONTROL **Nueva tarjeta de tarifa**], luego escriba un nombre para la tarjeta de tarifa en la [!UICONTROL **Tarjeta de tarifa**] , para reemplazar &quot;Tarjeta Tarifa sin título&quot;.
+1. En la pantalla de la tarjeta, haga clic en [!UICONTROL **Agregar rol**].
+1. En el cuadro de diálogo, seleccione una [!UICONTROL **Rol**] para definir tarifas de facturación para.
 
-   La tarifa de facturación predeterminada muestra la tarifa en el nivel del sistema para este rol.
+   La tarifa de facturación predeterminada muestra la tarifa en el nivel del sistema para este rol, si se ha definido uno.
 
    ![Cuadro de diálogo Nueva tarifa de facturación](assets/location-rate-for-rate-card.png)
 
@@ -79,23 +78,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      La tarifa de facturación 1 no tendrá una fecha de inicio y la última tarifa de facturación no tendrá una fecha de finalización. Algunas fechas se añaden automáticamente. Por ejemplo, si la Tarifa de facturación 1 no tiene una fecha de finalización y agrega la Tarifa de facturación 2 con una fecha de inicio del 1 de mayo de 2023, se agrega la fecha de finalización del 30 de abril de 2023 a la Tarifa de facturación 1 para que no existan lagunas.
 
 1. Haga clic en [!UICONTROL **Guardar**].
-1. (Opcional) Para agregar otra tasa de facturación, ya sea para el mismo rol en otra ubicación o para un rol separado, haga clic en [!UICONTROL **Nueva tarifa de facturación**].
+1. (Opcional) Para agregar otra tasa de facturación, ya sea para el mismo rol en otra ubicación o para un rol separado, haga clic en [!UICONTROL **Agregar rol**].
+1. (Opcional) Para editar una tarifa de facturación, seleccione la tarifa en la tarjeta de tarifas y haga clic en **Editar** icono.
 
 ## Copiar una tarjeta de tarifas
 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Valorar tarjetas**].
-1. Seleccione la casilla de verificación situada junto a la tarjeta de tarifa en la lista y haga clic en **Copiar** icono ![Icono Copiar](assets/copy-icon.png).
+1. Seleccione la casilla de verificación situada junto a la tarjeta de tarifa de la lista y haga clic en **Copiar** icono ![Icono Copiar](assets/copy-icon.png).
 
    Se ha añadido una tarjeta de tarifa duplicada. Haga clic en el nombre de la tarjeta de tarifa en la lista para cambiar su nombre.
 
-## Eliminar una tarjeta de tarifa
+## Eliminar una tarjeta de tarifa completa
 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Valorar tarjetas**].
-1. Seleccione la casilla de verificación situada junto a la tarjeta de tarifa en la lista y haga clic en **Eliminar** icono ![Icono Eliminar](assets/delete.png).
+1. Seleccione la casilla de verificación situada junto a la tarjeta de tarifa de la lista y haga clic en **Eliminar** icono ![Icono Eliminar](assets/delete.png).
 
    >[!NOTE]
    >

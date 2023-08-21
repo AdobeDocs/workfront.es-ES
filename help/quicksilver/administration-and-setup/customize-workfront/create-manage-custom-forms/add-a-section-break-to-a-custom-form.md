@@ -7,9 +7,9 @@ description: Puede agrupar los campos y widgets personalizados en un formulario 
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader"> <p>Conceder acceso</p> </td> 
       <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo. 
        <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden ver valores de campo</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Ver</strong>: vea los permisos del objeto</li>
           <li><p><b>Edición limitada</b>: (disponible solo si el objeto es un proyecto, una tarea, un problema o un usuario):</p> 
           <p>Permite a los usuarios contribuir al objeto si se trata de un proyecto, una tarea o un problema.</p>
           <p>Permite a los usuarios editar el perfil o poseer el permiso de perfil para el objeto si es un usuario.</p></li> 
