@@ -7,9 +7,9 @@ description: Puede crear nuevas plantillas de escenario en [!DNL Adobe] Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Puede crear una plantilla en un proceso similar a la creación de un escenario. 
 
 >[!NOTE]
 >
->Al guardar la plantilla, se hace visible para todos los integrantes del equipo. Si desea que la plantilla sea accesible fuera del equipo, debe publicarla y, a continuación, utilizar un vínculo compartido, o bien pedir al administrador que apruebe y publique la plantilla.
+>Al guardar la plantilla, se hace visible para todos los integrantes del equipo. Si desea que la plantilla sea accesible fuera del equipo, debe enviar una solicitud para que se apruebe y publique. La solicitud llega a Adobe Workfront para su aprobación y, una vez aprobada, otras personas externas al equipo pueden acceder a ella.
 
 ### Creación de una plantilla a partir de un escenario
 
