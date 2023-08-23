@@ -6,9 +6,9 @@ description: Puede personalizar los campos que se muestran en una tarjeta deshab
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,7 @@ Los campos personalizados están disponibles en las tarjetas conectadas. Solo so
    ![Valor de campo personalizado y etiqueta](assets/save-custom-field-value-label.png)
 
    El campo personalizado se añade a la lista de campos disponibles y se activa de forma predeterminada. Puede deshabilitar el campo personalizado siguiendo los pasos de la [Configuración de tarjetas](customize-fields-on-card.md#configure-cards) en la sección anterior, edite el campo o elimínelo de todas las tarjetas.
+
+>[!NOTE]
+>
+>Si posteriormente cambia el nombre del campo personalizado en Workfront, debe editar la etiqueta del campo en el panel Configuración para que coincida o el campo no se mostrará en las tarjetas.
