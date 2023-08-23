@@ -7,9 +7,9 @@ description: Puede editar información sobre un formulario personalizado despué
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ La edición de información en un formulario personalizado adjunto a un objeto e
 
    Cuando alguien cambia datos en otro objeto al que se hace referencia mediante campos personalizados calculados en su objeto, los cambios no se reflejan automáticamente en su objeto. Para obtener información sobre la actualización manual de todos los campos personalizados calculados en el objeto, consulte [Volver a calcular todos los campos personalizados calculados para un objeto](#recalculate-all-calculated-custom-fields-for-an-object) en este artículo.
 
-   <span class="preview">Cuando se modifican los campos dependientes de la página, los campos calculados del formulario personalizado se vuelven a calcular dinámicamente en tiempo real. Puede ver los resultados actualizados sin guardar el formulario. Esto se aplica a los campos calculados en los formularios predeterminados y a los formularios personalizados.</span>
+   <span class="preview">Cuando se modifican los campos dependientes de la página, los campos calculados del formulario personalizado se vuelven a calcular dinámicamente en tiempo real. Puede ver el nuevo valor de campo calculado sin guardar el formulario, pero en realidad no se aplica al formulario y al objeto hasta que no guarda los cambios. Esto se aplica a los campos calculados en los formularios predeterminados y a los formularios personalizados.</span>
 
    También puede actualizar manualmente todos los campos personalizados calculados para un objeto al editar el objeto de forma masiva junto con otros objetos de una lista. Para obtener instrucciones, consulte [Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) en este artículo.
 
