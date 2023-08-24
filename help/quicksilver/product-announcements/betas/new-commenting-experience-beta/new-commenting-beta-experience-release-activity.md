@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ A continuación se muestra una cronología planificada con hitos clave para el l
 La siguiente sección contiene una lista de las funciones que se han añadido después de la versión original de 23.2, empezando por las que se han lanzado más recientemente.
 
 La siguiente información hace referencia a la actividad de lanzamiento semanal de las funciones incluidas en la nueva experiencia de comentarios beta. Este artículo enumera las nuevas funciones que se agregan y los problemas que se resuelven para la nueva experiencia de comentarios.
+
+### Semana del 21 de agosto de 2023
+
+#### Cambiar el formato de marca de hora en la ficha Comentarios
+
+Hemos actualizado el formato de marca de tiempo de los comentarios del usuario en la pestaña Comentarios del nuevo flujo de comentarios. Como parte de este cambio, los comentarios del año actual ya no muestran el año en la marca de tiempo. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
+
+Los cambios no afectan a las actualizaciones del sistema en la ficha Actividad del sistema.
+
+Previsualización y producción: 24 de agosto de 2023
 
 ### Semana del 14 de agosto de 2023
 

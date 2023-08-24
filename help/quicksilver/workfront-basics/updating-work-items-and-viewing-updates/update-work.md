@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -267,7 +267,7 @@ Para obtener información sobre las funciones disponibles para la nueva experien
 1. Clic **Enviar** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en **Más** menú ![](assets/more-menu.png)  <span class="preview">en la esquina superior derecha del comentario</span>, luego haga clic en **Editar**.
 1. Edite la información del comentario, añada o elimine imágenes, o bien elimine cualquiera de los usuarios etiquetados.
-Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se actualizó el comentario.
+Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se introdujo el comentario.
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un
    >
    >* Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
    >* La marca de fecha que aparece junto al comentario es la fecha del comentario original, no la fecha de la última edición.
+   >* Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
 
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 4 al 8 anteriores. <!--(**************insure this stays accurate***********)--> Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
