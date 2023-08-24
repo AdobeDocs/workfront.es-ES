@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,27 @@ Para obtener instrucciones sobre cómo vincular documentos a través del nuevo [
 >* A [!DNL SharePoint] La integración de puede conectarse a un único [!DNL SharePoint] ejemplo. Por lo tanto, un usuario puede configurar una integración para uno [!DNL SharePoint], pero no puede configurar una integración en un segundo [!DNL SharePoint], incluso si tienen permisos de y documentos en el segundo [!DNL SharePoint].
 >
 >* Un usuario tiene acceso a los mismos sitios, colecciones, carpetas, subcarpetas y archivos a través del [!DNL Workfront] [!DNL SharePoint] integración, tal como lo hacen en su [!DNL SharePoint] cuenta.
+
+### Vincular documentos de SharePoint
+
+Para obtener instrucciones sobre cómo vincular documentos de SharePoint a través del nuevo [!DNL SharePoint] integración, consulte [Vincular un documento externo a [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Envío de documentos a SharePoint
+
+Para enviar un documento a SharePoint:
+
+1. Haga clic en **Enviar a** icono ![Enviar a](assets/send-to-icon.png) y seleccione SharePoint (Graph API).
+1. (Opcional) Busque en la barra de búsqueda el sitio o la carpeta a los que desea enviar el documento.
+1. Seleccione el sitio o la carpeta en la lista.
+
+   * Los sitios están marcados con ![Icono del sitio](assets/site-icon.png).
+
+   * Las carpetas están marcadas con ![Icono de carpeta](assets/folder-icon.png).
+
+   * Los archivos no están marcados con un icono.
+
+1. Haga clic en **Guardar**.
+
 
 ## Información de seguridad, acceso y autorización para [!DNL SharePoint] integración
 
