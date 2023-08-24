@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Administrar columnas del tablero
+title: Administrar columnas de tablero
 description: Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
 
-# Administrar columnas del tablero
+# Administrar columnas de tablero
 
 Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite.
 
@@ -135,10 +135,10 @@ Si utiliza el límite de trabajo en curso en una columna, no se agrega un contad
 
       * **[!UICONTROL Agregar a usuarios asignados]:** Las personas asignadas que seleccione se agregarán a la lista existente de personas asignadas en una tarjeta cuando se mueva a esta columna.
       * **[!UICONTROL Anular asignados]:** Los usuarios asignados que seleccione anularán todos los demás usuarios asignados y se convertirán en los únicos usuarios asignados de una tarjeta cuando se mueva a esta columna.
-   1. Seleccione los usuarios asignados de la lista desplegable. Solo los miembros del tablero están disponibles para elegir. Para obtener más información, consulte [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Clic [!UICONTROL **Agregar asignación**] y busque un usuario. Seleccione los usuarios asignados en los resultados de búsqueda. Todos los usuarios y equipos de Workfront están disponibles para elegir.
 
       ![Usuarios asignados para la columna](assets/boards-column-assignees.png)
-
 
 1. (Opcional) Establezca un valor para las etiquetas de tarjeta:
 
@@ -147,10 +147,10 @@ Si utiliza el límite de trabajo en curso en una columna, no se agrega un contad
 
       * **[!UICONTROL Agregar en etiquetas]:** Las etiquetas que seleccione se añadirán a la lista de etiquetas existente en una tarjeta cuando se mueva a esta columna.
       * **[!UICONTROL Anular etiquetas]:** Las etiquetas que seleccione anularán todas las demás etiquetas y se convertirán en las únicas etiquetas de una tarjeta cuando se mueva a esta columna.
+
    1. Seleccione las etiquetas de la lista desplegable. Solo las etiquetas ya creadas en [!UICONTROL Administrador de etiquetas] están disponibles para elegir. Para obtener información sobre cómo añadir nuevas etiquetas, consulte [Añadir etiquetas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Etiquetas para la columna](assets/boards-column-tags.png)
-
 
 1. Habilite la **[!UICONTROL Límite de trabajo en curso]** directiva para limitar el número de tarjetas que se pueden agregar a la columna. A continuación, escriba el número de límite en la **[!UICONTROL Establecer límite]** field.
 

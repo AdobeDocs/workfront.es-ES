@@ -6,9 +6,9 @@ description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
       <td>Escriba el número estimado de horas para completar la tarjeta. Esto es solo una entrada manual.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Asignados]</strong> </td> 
-      <td> <p>Para asignar la tarjeta, empiece a escribir un nombre en el campo de búsqueda y, a continuación, selecciónela cuando se muestre en la lista. Puede agregar personas y equipos, así como asignar más de una persona o equipo a una tarjeta.</p> <p>Los usuarios asignados deben ser miembros del tablero o no aparecerán en la lista de selección. Cuando un equipo es miembro del tablero, se puede asignar a cada uno de los integrantes del equipo a la tarjeta.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Asignaciones]</strong> </td> 
+      <td>Para asignar la tarjeta, haga clic en <strong>[!UICONTROL Agregar asignación]</strong> y empiece a escribir un nombre en el campo de búsqueda. A continuación, selecciónelo cuando se muestre en la lista de resultados. Puede agregar personas y equipos, así como asignar más de una persona o equipo a una tarjeta.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Etiquetas]</strong></td> 

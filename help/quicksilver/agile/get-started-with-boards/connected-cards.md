@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    La tarjeta se agrega en la parte inferior de la columna situada más a la izquierda. Los conectados [!DNL Workfront] y sus usuarios asignados se muestran en la tarjeta.
 
-   >[!NOTE]
-   >
-   >Si hay un usuario asignado en [!DNL Workfront] la tarea o el problema no es un miembro del tablero, no se han asignado a la tarjeta.
-
    ![Tarjeta conectada](assets/boards-connected-card-first-added.png)
 
 1. Clic ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir [!DNL Workfront] tarea o problema en una nueva pestaña del explorador.
@@ -124,9 +120,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td><p>Número de horas que se completará la tarjeta.</p><p>Al cambiar la estimación, también se cambia el valor de los puntos de la historia del [!DNL Workfront] objeto.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Asignados]</strong></td>
-      <td><p>Para asignar más personas o un equipo a la tarjeta, empiece a escribir un nombre en el campo de búsqueda y, a continuación, selecciónelo cuando se muestre en la lista. Puede agregar individuos y equipos. Solo se permite una asignación de equipo en una tarjeta conectada.</p>
-      <p>Los usuarios asignados deben ser miembros del tablero o no aparecerán en la lista de selección. Cuando un equipo es miembro del tablero, se puede asignar a cada uno de los integrantes del equipo a la tarjeta.</p>
+      <td role="rowheader"><strong>[!UICONTROL Asignaciones]</strong></td>
+      <td><p>Para asignar más personas o un equipo a la tarjeta, haga clic en <strong>[!UICONTROL Agregar asignación]</strong> y empiece a escribir un nombre en el campo de búsqueda. A continuación, selecciónelo cuando se muestre en la lista de resultados. Puede agregar individuos y equipos. Solo se permite una asignación de equipo en una tarjeta conectada.</p>
       <p>Las personas asignadas que seleccione también se asignan a la tarea o al problema en [!DNL Workfront].</p></td>
      </tr>
      <tr>

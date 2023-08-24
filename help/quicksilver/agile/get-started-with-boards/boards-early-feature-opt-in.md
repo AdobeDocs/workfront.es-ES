@@ -7,9 +7,9 @@ description: Lea este artículo para obtener más información [!DNL Workfront B
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Solo [!DNL Workfront] los administradores pueden adherirse a las primeras funcio
 
 ### ¿Cómo sé si mi organización ha elegido las funciones iniciales?
 
-Cuando su [!DNL Workfront] El administrador de ha activado las funciones iniciales de los tableros, verá un [!UICONTROL Inclusión en la función anticipada] Botón habilitado en la parte superior de la pantalla del panel. Haga clic en el botón para ver qué funciones están habilitadas.
+Póngase en contacto con su [!DNL Workfront] para averiguar si han habilitado las primeras funciones de los tableros.
 
 ### ¿Pueden habilitarse las funciones anticipadas solo para determinados usuarios?
 
