@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -120,6 +120,11 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
 1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Solicitudes**.
 1. (Condicional) Si la sección Enviada no se muestra de forma predeterminada, haga clic en **Enviado** en el panel izquierdo.
+
+   >[!TIP]
+   >
+   >   Es posible que el Workfront o el administrador del grupo personalicen la plantilla de diseño y eliminen áreas del menú principal o del panel izquierdo del entorno. En este caso, es posible que no estén disponibles para usted.
+
 1. Busque la solicitud que desea copiar y enviar como nueva y realice una de las siguientes acciones:
 
    * Selecciónelo y haga clic en **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) en la esquina superior izquierda de la lista Solicitudes enviadas.

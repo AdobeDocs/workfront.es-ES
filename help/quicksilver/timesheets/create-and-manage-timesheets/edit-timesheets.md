@@ -6,10 +6,10 @@ description: Como usuario con acceso administrativo a las plantillas de horas, p
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 2%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -111,6 +111,16 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
      <tr> 
       <td role="rowheader"><strong>Fecha de finalización</strong> </td> 
       <td> Fecha de finalización de la plantilla de horas.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Estado</strong> </td> 
+      <td> Este es el estado de la hoja de horas.
+      Las siguientes son posibles opciones de estado de hoja de horas: 
+      <ul><li><b>Abrir</b>: la plantilla de horas está abierta y las entradas de horas se pueden editar.</li>
+      <li><b>Enviado</b>: la hoja de horas se envía para su aprobación a los aprobadores designados.</li>
+      <li><b>Rechazado</b>: la plantilla de horas no fue aprobada por los aprobadores y ahora está disponible de nuevo para que el usuario edite las entradas de tiempo.</li>
+      <li><b>Cerrado</b>: la plantilla de horas la cierra el usuario o el aprobador la aprueba y, como resultado, ahora se cierra. No se puede añadir tiempo a una hoja de horas cerrada.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprobadores</strong> </td> 
@@ -127,4 +137,4 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
     </tbody> 
    </table>
 
-1. Haga clic en Guardar.
+1. Haga clic en **Guardar**.

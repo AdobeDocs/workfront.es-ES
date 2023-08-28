@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Etiquetar a otros en las actualizaciones
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>\
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
 
 Puede etiquetar a otros en las actualizaciones de la nueva experiencia de comentarios de las siguientes maneras:
 
-* **Automáticamente**: Cuando un usuario agrega un comentario o una respuesta, se etiquetan automáticamente y se añaden al área de Etiquetar personas o equipos del cuadro de comentarios.
+* **Automáticamente**: Cuando un usuario inicia un hilo de conversación, añade un comentario o añade una respuesta, se etiquetan automáticamente y se añaden al área de Etiquetar personas o equipos del cuadro de comentarios. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Cuando el hilo se inicia en la experiencia anterior de comentarios, los participantes del hilo no se etiquetan automáticamente.
+
 * **Manualmente**: Cuando agrega manualmente un usuario al área de Etiquetar personas del cuadro de comentarios.
 
 También puede quitar usuarios etiquetados por error cuando edite o responda a un comentario.
@@ -213,3 +220,10 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) <span class="preview">en la esquina superior derecha del comentario</span>, luego haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y haga clic en **Enviar**. Solo puede editar un comentario 15 minutos después de haberlo introducido. Solo puede editar los comentarios que ha añadido.
+
+   >[!TIP]
+   >
+   >Cuando se utiliza la experiencia de comentarios heredada para agregar comentarios y respuestas, las personas que utilizan la nueva experiencia de comentarios no pueden eliminar manualmente los propietarios de comentarios que no estén etiquetados específicamente.
+
+
+
