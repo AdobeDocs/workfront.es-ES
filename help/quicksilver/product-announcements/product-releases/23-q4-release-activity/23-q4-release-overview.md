@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Producción para tableros Acceso anticipado: 24 de agosto de 2023</p>
                             </li>
                             <li>
-                                <p>Producción para lanzamiento rápido: por determinar</p>
+                                <p>Producción para versión rápida: N/D</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión de 23.10</p>
@@ -110,7 +110,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Producción para tableros acceso anticipado: 10 de agosto de 2023</p>
                             </li>
                             <li>
-                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                                <p>Producción para versión rápida: N/D</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión de 23.10</p>
@@ -128,7 +128,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 3 de agosto de 2023</p>
                             </li>
                              <li>
-                                <p>Producción para una versión rápida: con la versión 23.8</p>
+                                <p>Producción para versión rápida: N/D</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión de 23.10</p>
