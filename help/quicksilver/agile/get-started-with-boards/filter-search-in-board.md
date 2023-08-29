@@ -6,9 +6,9 @@ description: Puede filtrar un tablero para mostrar solo determinadas tarjetas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Al ordenar el tablero, se ordenan todas las tarjetas de las columnas. No puede o
 
 La búsqueda también le ayuda a localizar una tarjeta específica en el tablero.
 
-Cuando se aplican filtros, se muestra un indicador en el tablero ![Filtro aplicado al tablero](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Borrar todo]** para eliminar todos los filtros del tablero, y haga clic en **[!UICONTROL Ocultar filtros]** para cerrar el panel de filtro.
+Cuando se aplican filtros, se muestra un indicador en el tablero ![Filtro aplicado al tablero](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Borrar todo]** para eliminar todos los filtros del tablero y haga clic en el icono contraer para cerrar el panel de filtros.
 
-![Panel Filtro](assets/boards-all-filters-collapsed-1022.png)
+![Panel Filtro](assets/boards-all-filters-collapsed-0823.png)
 
 ## Requisitos de acceso
 
