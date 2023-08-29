@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
@@ -496,6 +496,14 @@ Al configurar este módulo, se muestran los campos siguientes.
 </table>
 
 Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede utilizar este módulo en [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>Se recomienda la siguiente configuración de escenario para evitar la posibilidad de que no se eliminen registros debido a operaciones asincrónicas.
+>
+>1. Eliminar el registro sincrónicamente.
+>1. Añada la administración de errores al módulo Eliminar registro para ignorar el error causado por el tiempo de espera de 40 segundos.
+
 
 +++
 
@@ -1685,9 +1693,9 @@ Los siguientes operadores están disponibles en el filtro Workfront > Ver evento
 
 * Es igual a
 * No es igual a
-* Bueno que
+* Mayor que
 * Menor que
-* Bueno que o igual a
+* Mayor o igual que
 * Menor o igual que
 * Contiene
 * Existe
