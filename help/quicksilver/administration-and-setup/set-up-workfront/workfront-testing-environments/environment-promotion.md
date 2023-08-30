@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
+source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 2%
+source-wordcount: '2334'
+ht-degree: 3%
 
 ---
 
@@ -103,7 +103,7 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 | Objeto promocionable | Subobjetos promotables incluidos |
 | --- | --- |
 | Grupo (GROUP) | Grupo <br>Subgrupos (hasta 5 niveles)<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-| Rol (ROLE) | Rol |
+| Rol (ROLE) | Función |
 | Equipo (EQUIPO) | Equipo<br>Grupo |
 | Empresa (CMPY) | Compañía<br>Tasa de anulación<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Parámetro <br>Lógica de visualización de categoría<br>Grupo |
 | Portfolio (PUERTO) | Portfolio<br>Programa<br>Grupo<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
@@ -126,7 +126,7 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 
 La API autentica cada solicitud para garantizar que el cliente tenga acceso para ver o modificar un objeto solicitado.
 
-La autenticación se realiza pasando un ID de sesión o una clave de API, que se pueden proporcionar mediante uno de los métodos siguientes:
+La autenticación se realiza pasando un ID de sesión o una clave de API, que se pueden proporcionar mediante el siguiente método:
 
 ### Autenticación de encabezado de solicitud
 
@@ -192,7 +192,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+O
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -288,9 +295,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -349,9 +362,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -418,9 +437,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -531,7 +556,12 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -658,7 +688,14 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+O
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -735,9 +772,15 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -804,7 +847,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+O
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -856,7 +906,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+O
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -904,9 +961,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -995,9 +1058,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+O
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
