@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -839,7 +839,7 @@ Actualmente no se admite una actualización `action` en las capacidades alpha de
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### Encabezados
@@ -891,14 +891,14 @@ Esta llamada inicia un intento de instalación de un paquete promocional en el e
 
 #### Opciones
 
-Si un `translationmap` no se proporciona en el cuerpo del POST, el proceso iniciará automáticamente el `/translationmap` llamada. El `translationmap` que se devuelva se utilizará tal cual, sin oportunidad de revisarlo ni realizar ajustes en él.
+Si un `translationmap` no se proporciona en el cuerpo del POST, el proceso iniciará automáticamente el `/prepare-installation` llamada. El `translationmap` que se devuelva se utilizará tal cual, sin oportunidad de revisarlo ni realizar ajustes en él.
 
 Si un `translationmap` se proporciona en el cuerpo del POST, el proceso de instalación utilizará la asignación proporcionada. Esto ofrece al usuario que realiza la instalación la oportunidad de revisar y realizar los ajustes necesarios antes de ejecutar un intento de instalación.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### Encabezados
@@ -954,7 +954,7 @@ Los resultados incluyen eventos de instalación de todos los entornos en los que
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Encabezados
