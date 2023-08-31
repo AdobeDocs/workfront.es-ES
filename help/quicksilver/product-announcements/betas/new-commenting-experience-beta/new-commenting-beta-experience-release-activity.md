@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # Nueva actividad de lanzamiento de experiencia de comentarios
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ Hemos actualizado el formato de marca de tiempo de los comentarios del usuario e
 
 Los cambios no afectan a las actualizaciones del sistema en la ficha Actividad del sistema.
 
-Previsualización y producción: 24 de agosto de 2023
+Vista previa y producción para todos los clientes: 24 de agosto de 2023
 
 ### Semana del 14 de agosto de 2023
 
 [Vea una demostración en vídeo de todas las funciones lanzadas durante la semana del 14 de agosto de 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nueva experiencia de comentarios para objetos adicionales
+
+[!BADGE En producción para la versión rápida]{type=Positive}
 
 La nueva experiencia de comentarios estará disponible para los siguientes objetos, poco después de la versión 23.3 de Producción: tareas de plantilla, plantillas, plantillas de horas, equipos, usuarios, programas y portafolios.
 
@@ -98,6 +102,8 @@ Versión de producción para versión rápida: con la versión 23.8 (31 de agost
 Versión de producción para todos los clientes: con la versión de 23.10 (octubre de 2023)
 
 #### Nueva actualización de diseño para la nueva secuencia de comentarios
+
+[!BADGE En producción para la versión rápida]{type=Positive}
 
 Hemos rediseñado el nuevo flujo de comentarios para darle una apariencia más actualizada. Algunas de las mejoras son las siguientes:
 
@@ -122,6 +128,8 @@ Producción para lanzamiento rápido: con la versión 23.8 (31 de agosto de 2023
 Producción para versión trimestral: con la versión de 23.10 (octubre de 2023)
 
 #### La nueva experiencia de comentarios es la experiencia predeterminada para proyectos, tareas, problemas y documentos
+
+[!BADGE En producción para la versión rápida]{type=Positive}
 
 Estamos convirtiendo la nueva experiencia de comentarios en la experiencia predeterminada para los siguientes objetos: proyectos, tareas, problemas y documentos.  La experiencia de comentarios heredada seguirá siendo una opción alternativa al acceder a estos objetos.
 
