@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13214'
 ht-degree: 2%
 
 ---
@@ -528,7 +528,7 @@ ht-degree: 2%
          * [Acceso administrativo para plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Asignar usuarios a plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Copiar una plantilla de diseño](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Eliminar las plantillas de diseño clásicas mediante una llamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Elimine las plantillas de diseño del tipo Clásico mediante una llamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formularios personalizados {#custom-forms}
          * [Formularios personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Información general sobre formularios personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -1099,6 +1099,7 @@ ht-degree: 2%
          * [Enviar un documento a Experience Manager Assets o a los Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Revisión de un recurso vinculado para Experience Manager Assets o Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Cree una carpeta vinculada a Experience Manager Assets o a Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Desvincular o eliminar recursos y carpetas de Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Uso de flujos de trabajo en la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Resolución de problemas de integración de Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migración desde los conectores heredados o mejorados {#migrate-from-legacy-enhanced-connectors}
