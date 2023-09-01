@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
+source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 24 de agosto<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span>
+                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,7 +183,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 24 de agosto<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span>
+                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -418,10 +418,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 17 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Producción para una versión rápida: con la versión 23.8</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span></p>
                             </li>
                         </ul>
                     </td>
