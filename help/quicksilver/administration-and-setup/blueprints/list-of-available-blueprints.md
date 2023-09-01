@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ El [!UICONTROL Iniciativa estratégica interna general] modelo contiene una plan
 **[!UICONTROL Configuración de la organización de recursos humanos]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un departamento de recursos humanos.
 
-[!BADGE Nuevo!]{type=Informative}**[!UICONTROL Configuración de organización de tecnología de información]**
+**[!UICONTROL Configuración de organización de tecnología de información]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de tecnología de la información.
 
-**[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
+[!BADGE Nuevo!]{type=Informative}**[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
 Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
 
 **[!UICONTROL Ejecución de campaña integrada]**
