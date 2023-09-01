@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Para ver las plantillas disponibles, haga clic en **Plantillas** icono ![](asset
 
 Estas plantillas automatizan los procesos y flujos de trabajo de Workfront.
 
-### Workfront: copiar datos de campo y Forms personalizados de programa en nuevos proyectos asociados
+### [!BADGE Nuevo!]{type=Informative}
 
 Esta automatización observa nuevos proyectos en programas con formularios personalizados. A continuación, agrega esos formularios y campos personalizados de programa a los nuevos proyectos.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Esta automatización observa nuevos proyectos en portafolios con formularios personalizados. A continuación, agrega esos formularios y campos personalizados de portafolio a los nuevos proyectos.
 
 ### Workfront - Convertir problema aprobado en proyecto
 
@@ -54,7 +58,7 @@ Esta plantilla captura una línea de base del proyecto tras cualquier cambio de 
 
 Esta plantilla registra una línea de base de proyecto semanalmente todos los lunes a las 6 a. m. ET en los proyectos filtrados por portafolio y crea una actualización en el flujo de actualización para el registro.
 
-### Buscar plantillas de proyecto no utilizadas en tiempo de póliza y notificar
+### [!BADGE Nuevo!]{type=Informative}
 
 Una vez al mes, revise las plantillas de proyecto con su propia directiva con esta plantilla fácil de administrar que notifica a los usuarios correspondientes de las plantillas que infringen la directiva.
 

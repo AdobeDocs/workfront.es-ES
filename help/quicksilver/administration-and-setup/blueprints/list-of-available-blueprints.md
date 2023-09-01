@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ El [!UICONTROL Iniciativa estratégica interna general] modelo contiene una plan
 **[!UICONTROL Configuración de la organización de recursos humanos]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un departamento de recursos humanos.
 
-**[!UICONTROL Configuración de organización de tecnología de información]**
+[!BADGE Nuevo!]{type=Informative}**[!UICONTROL Configuración de organización de tecnología de información]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de tecnología de la información.
 
 **[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
@@ -78,6 +78,10 @@ Este modelo contiene una plantilla para el [!DNL Workfront professional services
 
 **[!UICONTROL Nueva preparación para la contratación]**
 Este modelo contiene una plantilla para el [!DNL Workfront] La organización de servicios profesionales ha utilizado durante años los compromisos de implementación con los equipos de Recursos Humanos para animar a los especialistas en Recursos Humanos y a los directores de contratación a completar las actividades esenciales para que el primer día de un nuevo empleado sea notable.
+
+[!BADGE Nuevo!]{type=Informative}**Descarga | Panel de usuario saliente**
+
+Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para que un usuario se traslade a una función o grupo nuevo para reasignar su trabajo.
 
 **[!UICONTROL Posterior a la implementación: nuevo despliegue de caso de uso]**
 Este modelo contiene una sola plantilla que organiza el trabajo que un [!DNL Workfront] El cliente deberá completar para administrar la expansión a los siguientes procesos después de su implementación inicial.
@@ -100,6 +104,10 @@ Este modelo contiene la configuración de estructuras organizativas para ampliar
 **[!UICONTROL Seguimiento del proceso de contratación]**
 Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas empresariales a realizar un seguimiento del progreso de las solicitudes de plantilla. Está diseñado para admitir un nivel de madurez gestionado.
 
+[!BADGE Nuevo!]{type=Informative}**Preparación de administración de recursos**
+
+Utilice esta plantilla de proyecto y el informe de usuarios para asegurarse de que dispone de la configuración y la información correctas necesarias para generar datos precisos de administración de recursos.
+
 **[!UICONTROL Autoevaluación del control de riesgos: planificación clave de la mitigación de riesgos]**
 [!UICONTROL Autoevaluación del control de riesgos] (RSCA) define un proceso para identificar riesgos y medir los controles que tiene establecidos para mitigarlos. Esta plantilla formaliza el proceso para que evalúe nuevos riesgos, para asegurarse de que se establecen los controles adecuados y para asegurarse de que sabe cómo medir y documentar la eficacia del control.
 
@@ -117,6 +125,14 @@ Este modelo contiene una plantilla para el [!DNL Workfront] la organización de 
 
 **[!UICONTROL Tablero de mantenimiento del administrador del sistema]**
 Este modelo contiene un solo tablero para ayudar a los administradores del sistema a mantener y limpiar el sistema periódicamente de otros desorden que puedan acumularse con el tiempo.
+
+[!BADGE Nuevo!]{type=Informative}**Realización de valores | Tablero de valor principal**
+
+Este modelo contiene un solo tablero con 21 informes que le ayudarán a medir el valor de Workfront. Estos informes le ayudan a traducir los beneficios de la centralización del trabajo y la administración de los procesos de trabajo en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
+
+[!BADGE Nuevo!]{type=Informative}**Realización de valores | Revisar y aprobar panel**
+
+Este modelo contiene un solo tablero con 7 informes que le ayudarán a descubrir el valor de Workfront. Estos informes le ayudan a traducir los valores de Revisión y Aprobación del trabajo en beneficios mensurables que puede seguir con el tiempo para obtener mejores resultados.
 
 **[!UICONTROL Producción de recursos de vídeo] (Integrado)**
 El [!UICONTROL Producción de recursos de vídeo] contiene una plantilla que organiza el proceso de trabajo para un proceso de producción de vídeo estándar. La plantilla proporciona un proceso ligero para la creación original de recursos de vídeo para un equipo que depende de procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
