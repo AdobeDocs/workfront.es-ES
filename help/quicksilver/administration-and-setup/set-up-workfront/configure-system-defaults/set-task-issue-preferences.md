@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de ingresos]</td> 
-   <td> <p>Calcula las estimaciones de ingresos planificadas y reales de una tarea. Si la variable <strong>[!UICONTROL Tipo de ingresos]</strong> se establece en<strong>[!UICONTROL No facturable]</strong>Sin embargo, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos en el nivel de proyecto.</p> </td> 
+   <td> <p>Calcula las estimaciones de ingresos planificadas y reales de una tarea. Si la variable <strong>[!UICONTROL Tipo de ingresos]</strong> se establece en <strong>[!UICONTROL No facturable]</strong>Sin embargo, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos en el nivel de proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de costo]</td> 
@@ -118,7 +118,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso a la tarea]</strong>: otorga al contacto principal (creador del problema) acceso a la tarea para revisar la tarea, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones de la tarea.</li> 
+     <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso a la tarea]</strong>: otorga al contacto principal (creador del problema) acceso de visualización a la tarea para revisar la tarea, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones de la tarea.</li> 
      <li> <p><strong>[!UICONTROL Permitir cambiar esta configuración durante la conversión]</strong>: permite al usuario que está convirtiendo el problema cambiar estas opciones durante la conversión de un problema a una tarea.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso al proyecto]</strong>: otorga al contacto principal (creador del problema) acceso al proyecto para revisar el proyecto, mantenerse informado de su progreso y hacer comentarios en la sección Actualizaciones del proyecto.</li> 
+     <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso al proyecto]</strong>: otorga al contacto principal (creador del problema) acceso de visualización al proyecto para revisar el proyecto, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones del proyecto.</li> 
      <li><strong>[!UICONTROL Permitir cambiar esta configuración durante la conversión]</strong>: permite al usuario que está convirtiendo el problema cambiar las opciones enumeradas durante la conversión de un problema a un proyecto.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Cuando se asigna a alguien a una tarea]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: define el permiso predeterminado que un usuario tiene para acceder a la tarea a la que está asignado. Para obtener más información sobre los permisos de tareas, consulte<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</li> 
+     <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: define el permiso predeterminado que un usuario tiene para acceder a la tarea a la que está asignado. Para obtener más información sobre los permisos de tareas, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</li> 
      <li> <p><strong>[!UICONTROL También concederles ... acceso al proyecto]</strong>: define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene asignada una tarea. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Cuando se asigna a alguien a un problema]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: define el permiso predeterminado que un usuario tiene para acceder a la tarea a la que está asignado. Para obtener más información sobre los permisos de tareas, consulte<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</li> 
+     <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: define el permiso predeterminado que un usuario tiene para acceder a la tarea a la que está asignado. Para obtener más información sobre los permisos de tareas, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</li> 
      <li> <p><strong>[!UICONTROL También concederles ... acceso al proyecto]</strong>: define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene asignada una tarea. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
     </ul> </td> 
   </tr> 
