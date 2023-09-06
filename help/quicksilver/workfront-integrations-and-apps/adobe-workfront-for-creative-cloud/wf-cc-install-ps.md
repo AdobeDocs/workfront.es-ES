@@ -6,7 +6,7 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
