@@ -4,9 +4,9 @@ description: El [!DNL Adobe Workfront Fusion] Los módulos CRM de HubSpot le per
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -730,6 +730,19 @@ Elimina un ticket existente por su ID.
 ### [!UICONTROL Realizar una llamada de API]
 
 Permite realizar una llamada de API personalizada.
+
+>[!NOTE]
+>
+>Los siguientes extremos quedaron obsoletos en la API de HubSpot el 31 de agosto de 2023 y ya no se pueden utilizar en los módulos Fusion.
+>
+>* Enumeración de eventos de contenido
+>* Enumerar eventos sociales
+>* Enumerar eventos de tarea de calendario
+>* Enumerar todos los eventos de calendario
+>* Crear tarea de calendario
+>* Obtener tarea de calendario por identificador
+>* Actualizar tarea de calendario
+>* Eliminar una tarea de calendario
 
 <table style="table-layout:auto"> 
  <col> 
