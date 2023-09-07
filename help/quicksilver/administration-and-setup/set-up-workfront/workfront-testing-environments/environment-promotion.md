@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ El segundo paso utiliza el `objectCollections` matriz proporcionada en el cuerpo
 >
 >Cada elemento de la matriz contiene un `objCode` que corresponde al código de objeto documentado en el Explorador de API de Workfront.
 >
->Cada elemento también contiene un `entities` colección. Se espera el `ID` y `name` claves para estar presentes.
+>Cada elemento también contiene un `entities` colección. Se espera el `ID` field. También puede aceptar un `name` para que sea más fácil saber qué `ID` representa.
 >
 >Para obtener la lista de códigos de objeto permitidos que se van a solicitar en la `objectCollections` , consulte la [Objetos compatibles para la promoción del entorno](#supported-objects-for-environment-promotion) de este artículo.
 
