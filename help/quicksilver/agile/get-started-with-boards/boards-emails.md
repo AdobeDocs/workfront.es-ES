@@ -7,9 +7,9 @@ description: Tableros de Adobe Workfront le envía un correo electrónico cuando
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Notificaciones y preferencias por correo electrónico de Tableros
 
 [!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de sus tableros qué correos electrónicos desea recibir.
+
+También recibirá un correo electrónico cuando esté etiquetado en un comentario en una tarjeta conectada, según la configuración de las notificaciones por correo electrónico. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
 
 ## Requisitos de acceso
 
