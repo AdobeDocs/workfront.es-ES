@@ -7,9 +7,9 @@ description: Retardo es la cantidad de tiempo que debe transcurrir después de l
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ La siguiente tabla ilustra los tipos de retardo y cómo indicar la cantidad de t
 <p><b>NOTA</b></p> El límite de retardo máximo para el porcentaje es de 2000 %.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Día de la semana (w) </p> </td> 
+   <td> <p>Día de la semana (w o we) </p> </td> 
    <td> <p>El retraso entre dos tareas se mide indicando los días de la semana de la semana que contiene la fecha planificada de finalización de la tarea predecesora.</p> <p>Para este tipo de retardo, cada día de la semana está asociado con un número:</p> 
     <ul> 
      <li>Domingo=1</li> 
@@ -187,7 +187,7 @@ Si se calcula que la fecha de inicio de la tarea sucesora es un martes determina
 <p>Para indicar semanas pasadas o futuras, puede agregar un número delante del número de día para el tipo de retardo. </p> <p>Por ejemplo, para indicar el lunes de hace 10 semanas, puede utilizar este código para indicar el predecesor del sucesor:</p> <p><code>4fs-102w</code> </p> <p>10 indica que fue hace 10 semanas y 2 es el número asignado al lunes. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Día de la semana distinto de cero (k)</p> </td> 
+   <td> <p>Día de la semana distinto de cero (k o ke)</p> </td> 
    <td> <p>El retraso entre dos tareas se mide de forma idéntica al tipo de retraso Día de la semana, excepto si la hora del predecesor termina el mismo día de la semana especificada. El tiempo de retardo se calcula entonces a la semana adyacente (+/-). </p> <p>En este caso, el tiempo de retardo nunca puede ser 0.</p> </td> 
   </tr> 
  </tbody> 
