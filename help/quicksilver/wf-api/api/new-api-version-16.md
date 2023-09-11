@@ -6,7 +6,7 @@ description: Adobe Workfront publicó la versión 16 de la API el 6 de abril de 
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Novedades de la versión 16 de la API
 
-Adobe Workfront publicó la versión 16 de la API el 6 de abril de 2022. La versión 16 de la API incorpora los siguientes cambios con respecto a la versión 15.
+Adobe Workfront publicó la versión 16 de la API el 6 de abril de 2023. La versión 16 de la API incorpora los siguientes cambios con respecto a la versión 15.
 
 ## Recursos añadidos
 
