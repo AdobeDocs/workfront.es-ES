@@ -6,9 +6,9 @@ description: Crear elementos de trabajo desde el área de Inicio
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTA</b></p> 
+   <p>Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -72,6 +73,9 @@ Puede crear una tarea personal que solo esté disponible para usted en el [!UICO
 >
 >* A diferencia de las tareas de proyecto normales, las tareas personales tienen un conjunto limitado de campos visibles en la interfaz de Workfront y no influyen en la cronología ni en el progreso de ningún proyecto. Reasignar una tarea personal a otro usuario agrega todos los campos de tarea a una tarea personal, pero la tarea permanece en el proyecto personal del usuario que creó la tarea.
 >
+>
+>* Las tareas personales solo se muestran en las hojas de horas cuando se han registrado horas o cuando están ancladas en la hoja de horas. Solo puede anclar una tarea personal a una plantilla de horas cuando hay horas registradas para la tarea. Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Le recomendamos que cree un proyecto y le transfiera cualquier tarea personal si desea que las tareas personales formen parte del flujo de trabajo normal.
 >
 > ![[!UICONTROL Proyecto para tareas personales]](assets/createworkitems-personal--project-350x105.png)
