@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Información general de modelos
+
+Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso comunes en Workfront. Puede descargar e instalar un modelo y, a continuación, configurar los objetos para su caso de uso específico.
+
+>[!INFO]
+>
+>Ejemplos:
+>
+>* **Configuración de la organización de recursos humanos**
+>
+>   Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un departamento de recursos humanos.
+>
+>* **Agregar lista de comprobación de TI de nuevo empleado**
+>
+>   Este modelo contiene una plantilla para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una nueva experiencia positiva para los empleados y a un camino más rápido hacia la productividad.
+>
+>* **Lista de comprobación de conceptos básicos de instancias heredadas**
+>
+>    Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
+>
+>Para revisar los modelos actuales, consulte [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto, tableros y estructuras organizativas listos para usar. Otros usuarios pueden examinar el catálogo y solicitar la instalación de un modelo. Para obtener más información, consulte [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../administration-and-setup/blueprints/browse-catalog.md).
 
