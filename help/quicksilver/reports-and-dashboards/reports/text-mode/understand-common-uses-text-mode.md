@@ -6,9 +6,9 @@ description: Descripción general de los usos comunes del modo Texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Este artículo describe solo algunos ejemplos comunes de dónde es más probable
 * [Ejemplos de vista personalizada, filtro y agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Datos personalizados calculados en informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
+Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, consulte la sección Más información del sitio de Adobe Experience League.
+
 <!--this link is outdated: 
 
 For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
@@ -39,16 +41,16 @@ Le recomendamos que utilice el Report Builder y el Generador de listas para crea
 Puede utilizar el modo de texto cuando desee lograr lo siguiente en Workfront:
 
 * Cree campos personalizados calculados personalizados en un formulario personalizado.\
-   Para obtener más información sobre los campos personalizados calculados, consulte la [Uso del modo Texto en campos personalizados calculados](#use-text-mode-in-calculated-custom-fields) de este artículo.
+  Para obtener más información sobre los campos personalizados calculados, consulte la [Uso del modo Texto en campos personalizados calculados](#use-text-mode-in-calculated-custom-fields) de este artículo.
 * Mejore los filtros, las vistas y las agrupaciones más allá de lo que sea posible en Report Builder. Para obtener información sobre el uso del modo de texto para filtros, vistas y agrupaciones, consulte las secciones siguientes de este artículo:
 
    * [Uso del modo Texto en las vistas](#use-text-mode-in-views)
    * [Uso del modo Texto en los filtros](#use-text-mode-in-filters)
    * [Uso del modo Texto en agrupaciones](#use-text-mode-in-groupings)
 
-* Cree mensajes personalizados. Solo puede crear mensajes personalizados con el modo Texto.
+* Crear mensajes personalizados. Solo puede crear mensajes personalizados con el modo Texto.
 
-   Para obtener información sobre la creación de indicadores personalizados, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Para obtener información sobre la creación de indicadores personalizados, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Uso del modo Texto en campos personalizados calculados {#use-text-mode-in-calculated-custom-fields}
 

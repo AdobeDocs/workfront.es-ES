@@ -7,10 +7,10 @@ description: La fecha de transferencia es la fecha en la que una tarea está dis
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront utiliza las siguientes reglas para calcular la fecha de transferencia 
 
 * **Cuando la tarea no tiene predecesora y**:
 
-   * **La fecha planificada de inicio se encuentra en el pasado**: la fecha de entrega es la misma que la fecha planificada de inicio del proyecto.
-   * **La fecha planificada de inicio es futura (cualquier fecha posterior a la fecha actual)**: la fecha de entrega es la misma que la fecha de inicio planificada de la tarea.
+   * **La fecha planificada de inicio se encuentra en el pasado**: la fecha de transferencia es la misma que la fecha de inicio planificada del proyecto si la tarea no tiene establecida una restricción forzada. Para los casos en los que las tareas tienen restricciones forzadas, consulte la sección &quot;Cuando la tarea tiene una restricción forzada para las fechas planificadas&quot; a continuación.
+   * **La fecha planificada de inicio es futura (cualquier fecha posterior a la fecha actual)**: la fecha de transferencia es la misma que la fecha de inicio planificada de la tarea si esta no tiene establecida una restricción forzada. Para los casos en los que las tareas tienen restricciones forzadas, consulte la sección &quot;Cuando la tarea tiene una restricción forzada para las fechas planificadas&quot; a continuación.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront utiliza las siguientes reglas para calcular la fecha de transferencia 
 
   Existen los siguientes escenarios:
 
-   * Cuando la tarea tiene una delimitación Debe comenzar el o No comenzar antes del, la fecha de transferencia es la fecha de delimitación, a menos que haya una fecha de inicio real en la tarea. Si hay una fecha de inicio real en la tarea, la fecha de transferencia es la fecha de finalización real de la predecesora.
-   * Cuando la tarea tiene una delimitación de Debe finalizar el o No comenzar después del, la fecha de transferencia es siempre la fecha de finalización real de la predecesora, independientemente de si hay o no una fecha de inicio real en la tarea.
-   * Cuando la tarea tiene una delimitación de Fechas fijas, la fecha de transferencia es la fecha planificada de inicio de la tarea, independientemente de si tiene una predecesora o no e independientemente de si la predecesora se ha completado o no.
+   * **Cuando la tarea tiene una restricción de Debe comenzar el o No comenzar antes del**: si la fecha de delimitación de la tarea es anterior y no hay una fecha de inicio real en la tarea (la tarea aún no ha comenzado), la fecha de transferencia es la fecha más cercana posible en la que se puede comenzar a trabajar en la tarea. Si la tarea se ha iniciado, la fecha de entrega es igual a la fecha de inicio del proyecto.
+   * **Cuando la tarea tiene una delimitación de Debe finalizar el o No comenzar después del**: si la fecha de restricción de la tarea es futura y no hay una fecha de inicio real en la tarea (la tarea aún no ha comenzado), la fecha de transferencia es la fecha de inicio planificada de la tarea. Si la tarea tiene como fecha de inicio real, la fecha de entrega es la fecha de inicio del proyecto.
+   * **Cuando la tarea tiene una restricción de Fechas fijas**: la fecha de transferencia es la fecha planificada de inicio de la tarea, independientemente de si tiene una predecesora o no e independientemente de si la predecesora se ha completado o no.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## Localizar la fecha de entrega
 

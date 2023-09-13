@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Introducción al modo de texto
-description: Introducción al modo de texto
+description: Puede crear un informe o una lista en Adobe Workfront utilizando el estándar o la interfaz de modo de texto al crear los elementos que conforman el informe o la lista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 Puede crear un informe o una lista en Adobe Workfront utilizando el estándar o la interfaz de modo de texto al crear los elementos que conforman el informe o la lista. La interfaz estándar permite hacer referencia a campos y sus atributos que están disponibles en la interfaz de Workfront. Con el modo de texto puede hacer referencia a campos y atributos que pueden no estar disponibles en el modo estándar, pero que están disponibles en la base de datos de Workfront.
 
+Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, consulte la sección Más información del sitio de Adobe Experience League.
+
 ## Consideraciones antes de utilizar el modo de texto
 
 >[!TIP]
@@ -39,13 +41,13 @@ Puede crear un informe o una lista en Adobe Workfront utilizando el estándar o 
 * Se recomienda utilizar el modo estándar para garantizar que los informes que cree permanezcan intactos cuando se actualice el software de Workfront. Aunque el modo de texto le permite crear vistas, filtros y agrupaciones más complejos, también es más complicado de mantener y no se garantiza cuando se actualiza el software de Workfront.
 * Le recomendamos que siempre intente crear todos los elementos de creación de informes en la interfaz estándar y cambie al generador de modo de texto solo para algunos ajustes.
 
-   >[!TIP]
-   >
-   >El uso del generador estándar le proporciona bloques de creación y patrones de código importantes que puede utilizar al modificar el código en modo de texto.
+  >[!TIP]
+  >
+  >El uso del generador estándar le proporciona bloques de creación y patrones de código importantes que puede utilizar al modificar el código en modo de texto.
 
 * Hay un conjunto de reglas y una sintaxis única que debe utilizar para generar correctamente informes y listas en modo de texto. Antes de comenzar, asegúrese de estar familiarizado con la sintaxis de Workfront para el modo de texto.
 
-   Para obtener información sobre la sintaxis y las reglas para utilizar el modo de texto, consulte [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Para obtener información sobre la sintaxis y las reglas para utilizar el modo de texto, consulte [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Después de personalizar un elemento de creación de informes en el modo de texto, es posible que no pueda volver al modo estándar (en una vista) o que se elimine el código del elemento que ha creado (en filtros y agrupaciones). Esto se debe a que no todos los campos compatibles con el modo de texto son compatibles con el modo estándar.
 

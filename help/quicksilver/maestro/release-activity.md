@@ -3,9 +3,9 @@ title: Actividad de versión de Adobe Maestro
 description: Utilizar Maestro para crear objetos, campos y espacios de trabajo personalizados.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Ahora puede seleccionar un icono personalizado para un tipo de registro y un col
 
 Previsualización y producción: 13 de julio de 2023
 
-Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de registro Maestro. Puede utilizar el tipo de campo Casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
+Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de registro Maestro. Puede utilizar un campo de tipo casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
 
 ## Semana del 26 de junio de 2023
 

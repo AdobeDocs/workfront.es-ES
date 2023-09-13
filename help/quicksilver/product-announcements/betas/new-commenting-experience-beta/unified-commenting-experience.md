@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 
 >[!NOTE]
 >
->Los objetos que se enumeran a continuación solo tienen disponibles los comentarios y las actualizaciones del sistema del año pasado (a partir de junio de 2022) al habilitar la experiencia beta.
+>Los objetos que se enumeran a continuación solo tienen los comentarios y las actualizaciones del sistema a partir del 1 de enero de 2019 disponibles en la nueva experiencia de comentarios.
 >
->Puede ver los comentarios y las actualizaciones del sistema de estos objetos anteriores a junio de 2022 cuando consulte la sección Actualizaciones en la experiencia actual:
+>Puede ver los comentarios y las actualizaciones del sistema de estos objetos anteriores al 1 de enero de 2019 cuando consulte la sección Actualizaciones en la experiencia actual:
 >
 >* Problemas
 >* Proyectos

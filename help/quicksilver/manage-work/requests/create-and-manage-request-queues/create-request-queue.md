@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 -->
 
 Puede configurar una Cola de solicitudes en la que los usuarios puedan introducir solicitudes ocasionales que no estén planificadas para trabajar en un proyecto. Por ejemplo, se puede configurar una cola de solicitudes del servicio de asistencia para capturar todas las solicitudes de usuarios que llegan a un departamento de TI.
+
+Este artículo describe cómo crear una cola de solicitudes en la que los usuarios pueden enviar solicitudes. Para obtener información sobre cómo enviar una nueva solicitud a una cola de solicitudes, consulte [Copiar y enviar solicitudes](../create-requests/copy-and-submit-requests.md).
 
 ## Requisitos de acceso
 
@@ -230,7 +232,7 @@ Para crear una cola de solicitudes:
    * **Cuando alguien realice una solicitud, conceder automáticamente:** Cuando un usuario realiza una solicitud a la cola de solicitudes, se le concede automáticamente el nivel de permiso que elija para acceder a esa solicitud. Seleccione entre los siguientes niveles de permisos:
 
       * **Vista**
-      * **Aportar**. Esta es la selección predeterminada.
+      * **Contribuir**. Esta es la selección predeterminada.
       * **Administrar**
 
      Para obtener información sobre el modelo de permisos de Workfront, consulte [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\

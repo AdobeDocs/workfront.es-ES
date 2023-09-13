@@ -6,9 +6,9 @@ description: La comprensión de cómo crear informes le ayuda a proporcionar acc
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 La comprensión de cómo crear informes le ayuda a proporcionar acceso a la información que su organización necesita en Adobe Workfront. Puede utilizar cualquiera de los informes integrados disponibles en Workfront o puede crear sus propios informes desde cero.
 
-Para obtener más información sobre los informes integrados, consulte [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Para obtener información sobre cómo crear un informe copiándolo, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Para obtener más información sobre los informes integrados, consulte [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Para obtener información sobre cómo crear un informe copiándolo, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Para obtener más información sobre la creación y administración de informes, incluidas clases, vídeos y tutoriales, consulte la sección Más información en el sitio de Adobe Experience League.
 
 ## Requisitos de acceso
 
@@ -149,7 +153,6 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
    >* Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
    >* Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes.
 
-
    Para obtener más información sobre el uso de agrupaciones en un informe, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Opcional) Haga clic en **Opciones avanzadas** para especificar la siguiente información para la columna:
@@ -205,7 +208,6 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
    >
    >* Cuando ajusta manualmente las agrupaciones al ver una lista, Workfront recuerda su preferencia manual hasta que cierre la sesión. Cuando vuelva a iniciar sesión, la lista se mostrará según esta configuración.
    >* Los resultados de una agrupación siempre se muestran expandidos después de acceder a ellos desde un elemento de gráfico.
-
 
 1. (Opcional) Puede optar por crear una agrupación de matriz para mostrar los resultados en formato de cuadrícula.
 
