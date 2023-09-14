@@ -3,9 +3,9 @@ title: Administrar la vista de cronología
 description: Puede mostrar registros en una vista de escala de tiempo al acceder a la página de tipo de registro en Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: bac066b90c7fd69ffd423988c4cf736c16807f2b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ role: User
 
 >[!IMPORTANT]
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta cerrado que está abierto a un número limitado de clientes.
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >

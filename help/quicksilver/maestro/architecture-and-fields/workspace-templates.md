@@ -3,9 +3,9 @@ title: Lista de plantillas de Workspace
 description: Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Maestro incluye un conjunto de plantillas para empezar a trabajar con los tipos de registros básicos, taxonomías y campos cuando esté creando el espacio de trabajo.
 hide: true
 hidefromtoc: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 >[!IMPORTANT]
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta cerrado que está abierto a un número limitado de clientes.
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >
