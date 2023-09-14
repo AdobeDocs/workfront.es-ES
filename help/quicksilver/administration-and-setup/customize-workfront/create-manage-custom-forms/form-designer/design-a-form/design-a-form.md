@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # Diseñar un formulario con el diseñador de formularios
+
+{{preview-and-fast-release}}
 
 Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -491,6 +493,90 @@ Para agregar campos de fecha de escritura anticipada:
    o
 
    Clic **Guardar y cerrar**.
+
+<div class="preview">
+
+### Adición de campos de búsqueda externos
+
+Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una de estas opciones en la lista desplegable.
+
+Para añadir una búsqueda externa:
+
+1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
+1. En el lado derecho de la pantalla, configure las opciones del campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etiqueta</td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nombre</td> 
+      <td> <p>(Obligatorio) Así es como el sistema identifica el campo personalizado.</p> <p>Cuando configure el campo personalizado por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
+      <p><b>IMPORTANTE</b>:   
+      <ul> 
+      <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
+      <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
+      <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></li>
+      </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Agregar un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
+     </tr> 
+      <td role="rowheader">Instrucciones</td> 
+      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el ratón sobre el icono del signo de interrogación para ver la información del objeto que contiene la información que escriba aquí.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Formato</td>
+      <td><p>Seleccione el tipo de datos que se capturarán en el campo personalizado.</p>
+      <p><strong>NOTA:</strong></p>
+      <ul><li>Puede cambiar el tipo de formato después de guardar el formulario, con una limitación: todos los valores existentes en los objetos deben poder convertirse al nuevo tipo. (Por ejemplo, si el tipo de formato es Texto y un objeto almacena el valor "abc", no se puede convertir el campo y aparecerá un error que indica que el sistema no puede convertir "abc" en número/moneda.) Si tiene intención de utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato de número o de moneda.</li>
+      <li>Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL de API básica</td> 
+      <td><p>Escriba o pegue la dirección URL de la API.</p><p>La dirección URL de la API debe devolver un contenido JSON de las opciones que desee mostrar en la lista desplegable. Puede utilizar la Ruta de JSON para seleccionar los valores específicos de las opciones desplegables de JSON que se van a devolver.</p><p>Al introducir la URL de la API, puede, opcionalmente, pasar los siguientes valores en la URL:</p>
+      <ul><li>$$query: representa el texto de búsqueda que el usuario final escribe en el campo y le permite implementar filtros de consulta para los usuarios finales. (El usuario buscará el valor en la lista desplegable).</li>
+      <li>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo de Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</li></ul>
+      <p><strong>NOTA:</strong> Revise la documentación de la API con la que está trabajando para las consultas específicas que puede definir.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Método HTTP</td> 
+      <td>Seleccionar <strong>Obtener</strong>, <strong>Publicar</strong>, o <strong>Put</strong> para el método.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Ruta de JSON</td>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la dirección URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON con este formato:</br>
+      <pre>
+      { data: { { name: "USA"}, { name: "Canada"} } }
+      </pre>
+      </p>
+      <p>a continuación, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables.</p> <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de escribir la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Encabezados</td>
+      <td>Clic <strong>Añadir encabezado</strong>y escriba o pegue el par clave-valor necesario para la autenticación con la API.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+
+   o
+
+   Clic **Guardar y cerrar**.
+
+>[!NOTE]
+>
+>Limitaciones técnicas de la llamada a la API externa:
+>
+>* Número máximo de opciones: 200 (solo se muestran las 200 primeras opciones del archivo JSON devuelto)
+>* Tiempo de espera: 3 segundos
+>* Número de reintentos: 3
+>* Duración de espera entre reintentos: 500 ms
+>* Estados de respuesta esperados: 2xx
+
+</div>
 
 ### Agregar imágenes, PDF y vídeos
 
