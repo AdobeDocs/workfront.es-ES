@@ -6,9 +6,9 @@ description: Las siguientes notificaciones le avisan sobre las actividades que s
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 901605917347297a1ee077f00905b03427582650
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2088'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Las siguientes notificaciones le avisan sobre las actividades que se producen en un elemento de trabajo asignado a usted.
 
-Para obtener información sobre cómo configurar qué notificaciones recibe, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener información sobre cómo configurar qué notificaciones recibe, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Consulte también [Notificaciones de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -51,7 +51,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   </tr> 
   -->
   <tr> 
-   <td> <p><strong>Se aprueba o rechaza una tarea que finalizo</strong> </p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se aprueba o rechaza la tarea.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Completo]: &lt;task name=""&gt; el &lt;project name=""&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>Se ha aprobado o rechazado una tarea que he finalizado</strong> </p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se aprueba o rechaza la tarea.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Completo]: &lt;task name=""&gt; el &lt;project name=""&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> Nombre de tarea<br>Nombre de proyecto<br>Número de referencia de tarea<br>Nombre del usuario que concedió la aprobación<br>Estado de nueva tarea<br>Fecha y hora en que se aprobó o rechazó la tarea<br>Estado de la tarea anterior<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>* Número total de tareas aprobadas o rechazadas<br>*Nombre de tarea<br>* Nombre del usuario que aprobó o rechazó la tarea<br>*Decisión de aprobación ([!UICONTROL Aprobado]/ [!UICONTROL Rechazado])<br>*Fecha del resumen diario<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
@@ -78,7 +78,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    </tr>
   --> 
   <tr> 
-   <td> <p><strong>Al finalizar todas mis tareas predecesoras</strong> </p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico de cada predecesora que se complete.</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Completo]: &lt;task name=""&gt;</em><br></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>Se han completado todas mis tareas predecesoras</strong> </p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico de cada predecesora que se complete.</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Completo]: &lt;task name=""&gt;</em><br></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> Nombre de tarea<br>Proyecto de tarea<br>Número de referencia de tarea<br>Nombre del usuario que completó la tarea predecesora<br>Estado de la tarea predecesora<br>Fecha y hora en que se completó la tarea predecesora<br>Estado anterior de la tarea predecesora<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>* Número total de tareas completadas<br>*Nombre de tarea<br>*Nombre del usuario que completó la tarea<br>*Fecha del resumen diario </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr>

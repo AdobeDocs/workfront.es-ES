@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # Agregar lógica de visualización y saltar lógica a un formulario personalizado con el generador de formularios heredado
 
 Puede decidir qué secciones de un formulario personalizado se deben mostrar o omitir en función de las opciones que realice un usuario al rellenarlo.
+
+>[!NOTE]
+>
+>La lógica solo se aplica dentro de un formulario y no se puede basar en selecciones de un formulario diferente.
 
 ## Requisitos de acceso
 

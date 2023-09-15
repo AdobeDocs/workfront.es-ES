@@ -1,27 +1,28 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Activar o desactivar sus propias notificaciones de eventos
-description: El administrador de Adobe Workfront configura las notificaciones de eventos que los usuarios reciben cuando se producen eventos en Workfront.
+keywords: modificar,correo electrónico,notificación,configuración
+title: Modificar sus propias notificaciones por correo electrónico
+description: Este artículo describe cómo administrar las notificaciones por correo electrónico en el perfil de usuario.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# Activar o desactivar sus propias notificaciones de eventos
+# Modificar sus propias notificaciones por correo electrónico
 
-Su Adobe [!DNL Workfront] administrator configura las notificaciones de eventos que reciben los usuarios cuando se producen eventos en Workfront (tal como se describe en ). [[!UICONTROL Configurar evento] notificaciones para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Su Adobe [!DNL Workfront] El administrador configura las notificaciones por correo electrónico que reciben los usuarios cuando se producen eventos en Workfront (como se describe en ). [[!UICONTROL Configurar evento] notificaciones para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-El administrador del grupo también puede configurar qué notificaciones de eventos están activadas para usted y los usuarios de su grupo de inicio. Si su [!UICONTROL Grupo de inicio] Si es un subgrupo, recibirá las notificaciones de eventos activadas para el grupo de nivel superior sobre el grupo.
+El administrador del grupo también puede configurar qué notificaciones están activadas para usted y los usuarios de su [!UICONTROL Grupo de inicio]. Si su [!UICONTROL Grupo de inicio] es un subgrupo y recibe las notificaciones activadas para el grupo de nivel superior sobre el grupo.
 
 Puede personalizarlo aún más configurando las notificaciones que recibe. También puede elegir si desea recibir notificaciones cuando se produzcan eventos o en un correo electrónico de resumen diario.
 
-Para obtener información sobre las notificaciones por correo electrónico, consulte [[!DNL Adobe Workfront] notificaciones](../../workfront-basics/using-notifications/wf-notifications.md).
+Para obtener más información sobre las notificaciones por correo electrónico, consulte [[!DNL Adobe Workfront] notificaciones](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
@@ -54,9 +55,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Ver y modificar la configuración de las notificaciones por correo electrónico
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en su nombre de usuario junto a su imagen de perfil.
+{{step1-click-profile-pic}}
 
-1. Haga clic en **[!UICONTROL Más]** icono ![](assets/more-icon.png) , luego haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en **[!UICONTROL Más]** icono ![](assets/more-icon.png) junto a su nombre y haga clic en **[!UICONTROL Editar]**.
 
 1. En el **[!UICONTROL Editar persona]** que se muestra, vaya al **[!UICONTROL Notificaciones]** sección.
 

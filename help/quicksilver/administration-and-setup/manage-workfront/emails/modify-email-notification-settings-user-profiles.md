@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: modificar,correo electrónico,notificación,configuración,masiva,edición masiva,configurar,varios,usuarios
 navigation-topic: emails-administration
 title: Modificar la configuración de las notificaciones por correo electrónico en los perfiles de los usuarios
-description: Si es administrador de Adobe Workfront o tiene un nivel de acceso de Planificador que le permite editar la configuración de otros usuarios, puede definir la configuración de notificaciones para varios usuarios a la vez. Esto incluye especificar si los usuarios reciben notificaciones cuando se producen eventos o en un correo electrónico de resumen diario, como se describe en las notificaciones de Adobe Workfront. Para obtener información sobre el nivel de acceso necesario para editar usuarios, consulte Conceder acceso a usuarios.
-author: Lisa, Caroline
+description: Este artículo proporciona información para los administradores de grupos o Workfront sobre cómo pueden actualizar las notificaciones de correo electrónico de otros usuarios.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Cuando establece la configuración de las notificaciones de forma masiva, solo p
 
 >[!NOTE]
 >
->También puede configurar las notificaciones por correo electrónico para un usuario a la vez, incluido su propio perfil. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>También puede configurar las notificaciones por correo electrónico para un usuario a la vez, incluido su propio perfil. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Requisitos de acceso

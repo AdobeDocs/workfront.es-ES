@@ -6,9 +6,9 @@ description: Su [!DNL Adobe Workfront] El perfil contiene información sobre ust
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -356,7 +356,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
 
 ### [!UICONTROL Notificaciones]
 
-Especifique las notificaciones que desea recibir de [!DNL Workfront]. Para obtener más información sobre la configuración de notificaciones, consulte [Activar o desactivar sus propias notificaciones de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Especifique las notificaciones que desea recibir de [!DNL Workfront]. Para obtener más información sobre la configuración de notificaciones, consulte [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Acceso]
 
@@ -459,7 +459,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Programar desactivación]</strong></td> 
-   <td>Marque esta casilla si desea programar la desactivación de su cuenta después de un periodo de tiempo. En el <p><strong>[!UICONTROL Fecha programada de desactivación]</strong> Cuando aparezca, especifique la fecha después de la cual se desactivará su cuenta. Para obtener información sobre la desactivación de usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>. </p><p>Puede editar los campos de desactivación de su cuenta si dispone de una licencia de planificación o si es el [!DNL Workfront] administrador. </p></td> 
+   <td>Marque esta casilla si desea programar la desactivación de su cuenta después de un período de tiempo. En el <p><strong>[!UICONTROL Fecha programada de desactivación]</strong> Cuando aparezca, especifique la fecha después de la cual se desactivará su cuenta. Para obtener información sobre la desactivación de usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>. </p><p>Puede editar los campos de desactivación de su cuenta si dispone de una licencia de planificación o si es el [!DNL Workfront] administrador. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Función principal]</strong></td> 

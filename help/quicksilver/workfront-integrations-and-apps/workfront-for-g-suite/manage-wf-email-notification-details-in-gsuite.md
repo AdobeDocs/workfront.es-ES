@@ -7,9 +7,9 @@ description: En G Suite, cuando abre un Adobe de correo electrónico de notifica
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Entrada [!DNL G Suite], al abrir un correo electrónico de notificación [!DNL A
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] admite casi todos los tipos de notificaciones por correo electrónico que puede recibir de [!DNL Workfront] (unos 120 tipos diferentes). [!UICONTROL Resumen diario] correos electrónicos enviados desde [!DNL Workfront] no aparecen en [!DNL Workfront for G Suite]. Para obtener más información sobre [!DNL Workfront] tipos de notificación por correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] admite casi todos los tipos de notificaciones por correo electrónico que puede recibir de [!DNL Workfront] (unos 120 tipos diferentes). [!UICONTROL Resumen diario] correos electrónicos enviados desde [!DNL Workfront] no aparecen en [!DNL Workfront for G Suite]. Para obtener más información sobre [!DNL Workfront] tipos de notificación por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Requisitos de acceso
 

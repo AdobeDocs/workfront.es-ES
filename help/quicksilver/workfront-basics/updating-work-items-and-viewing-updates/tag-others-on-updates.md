@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ En lugar de incluir a esos usuarios en el objeto asignándolos a él o haciendo 
 
 >[!NOTE]
 >
->El usuario debe habilitar una notificación personal en su perfil para poder recibir la notificación por correo electrónico. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>El usuario debe habilitar una notificación personal en su perfil para poder recibir la notificación por correo electrónico. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 Para obtener información sobre cómo agregar actualizaciones a objetos de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -150,7 +150,7 @@ Puede etiquetar usuarios manualmente en la sección Actualizaciones actuales.
 
    >[!NOTE]
    >
-   >Todos los usuarios y miembros del equipo enumerados en el campo Notificar reciben una notificación en la aplicación sobre la actualización y podrían recibir un correo electrónico, según la configuración de sus notificaciones por correo electrónico. Los usuarios que se etiquetan en un comentario o respuesta reciben una notificación para ese comentario o respuesta y pueden ver su nombre en el campo Notificar para el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Todos los usuarios y miembros del equipo enumerados en el campo Notificar reciben una notificación en la aplicación sobre la actualización y podrían recibir un correo electrónico, según la configuración de sus notificaciones por correo electrónico. Los usuarios que se etiquetan en un comentario o respuesta reciben una notificación para ese comentario o respuesta y pueden ver su nombre en el campo Notificar para el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. Clic **Actualizar**.\
    A los usuarios incluidos en la actualización se les concede automáticamente el permiso Ver al objeto y pueden ver y responder a las actualizaciones realizadas en el objeto.
@@ -208,7 +208,7 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    >[!NOTE]
    >
-   >Todos los usuarios y miembros del equipo enumerados en el campo &quot;Etiquetar personas o equipos&quot; reciben una notificación en la aplicación para la actualización y pueden recibir un correo electrónico, según la configuración de su notificación por correo electrónico. Los usuarios que se etiquetan a sí mismos en un comentario o respuesta reciben una notificación por ese comentario o respuesta y pueden ver su nombre en la lista como miembro del hilo durante el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar a sí mismos. Para obtener más información, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Todos los usuarios y miembros del equipo enumerados en el campo &quot;Etiquetar personas o equipos&quot; reciben una notificación en la aplicación para la actualización y pueden recibir un correo electrónico, según la configuración de su notificación por correo electrónico. Los usuarios que se etiquetan a sí mismos en un comentario o respuesta reciben una notificación por ese comentario o respuesta y pueden ver su nombre en la lista como miembro del hilo durante el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar a sí mismos. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. Clic **Enviar**.\
    A los usuarios incluidos en la actualización se les concede automáticamente el permiso Ver al objeto y pueden ver y responder a las actualizaciones realizadas en el objeto.

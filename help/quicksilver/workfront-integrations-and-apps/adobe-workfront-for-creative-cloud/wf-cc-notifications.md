@@ -5,9 +5,9 @@ title: Ver y administrar [!DNL Adobe Workfront] notificaciones en Adobe Creative
 description: Puede recibir notificaciones en Adobe Creative Cloud desde [!DNL Adobe Workfront] acerca de los elementos que necesita aprobar, las asignaciones que se le han asignado o los comentarios y cambios realizados en los elementos con los que está asociado.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Las notificaciones están disponibles en las siguientes aplicaciones de Adobe Cr
 
 {{cc-install-prereq}}
 
-* Ha habilitado las notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo activar las notificaciones instantáneas, consulte [Activar o desactivar sus propias notificaciones de eventos](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Ha habilitado las notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo activar las notificaciones instantáneas, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Ver y administrar [!DNL Workfront] notificaciones en Adobe Creative Cloud
 

@@ -6,9 +6,9 @@ description: Adobe Workfront envía notificaciones por correo electrónico, noti
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 [!DNL Workfront] envía una serie de notificaciones por correo electrónico para alertar a los usuarios sobre la actividad en Workfront y proporcionar información y vínculos útiles.
 
-Para cambiar las preferencias de las notificaciones por correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para cambiar las preferencias de las notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ El estado predeterminado muestra qué notificaciones (diarias, instantáneas o a
 
 Para obtener una lista completa de las notificaciones de eventos e información sobre cómo se habilitan y configuran en el nivel del sistema, del grupo o del usuario, consulte [Notificaciones de eventos disponibles en [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Para obtener información sobre cómo elegir qué notificaciones de eventos desea recibir, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener información sobre cómo elegir qué notificaciones de eventos desea recibir, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -85,13 +85,13 @@ Correos electrónicos de resumen diario para [!UICONTROL Comunicación] se selec
 
 La información se resume para el objeto donde se produjo la comunicación y se muestra un número total de mensajes de comunicación para cada objeto.
 
-Para obtener más información sobre la configuración de notificaciones por correo electrónico, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener más información sobre la configuración de notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obtener instrucciones sobre cómo comentar [!UICONTROL Comunicación] correos electrónicos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para obtener más información acerca de [!UICONTROL Comunicación] correos electrónicos, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener más información acerca de [!UICONTROL Comunicación] correos electrónicos, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Para obtener más información sobre cómo activar las notificaciones de resumen diario, consulte [Activar o desactivar sus propias notificaciones de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener más información sobre cómo activar las notificaciones de resumen diario, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Recordatorios automáticos
 
