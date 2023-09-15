@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,7 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 * Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
 * Editar formulario personalizado
 * La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre.
+* La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.
 
 >[!NOTE]
 >
