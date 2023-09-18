@@ -7,7 +7,7 @@ description: Puede crear un gráfico de un informe mediante un campo personaliza
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
    >[!NOTE]
    >
    >Esta opción se ha eliminado de la edición de proyectos por lotes.  Puede seguir recalculando expresiones para proyectos por lotes haciendo clic en el **Más** icono ![](assets/more-icon-45x33.png) en la parte superior de una lista de proyectos, **Recalcular expresiones**.
-
 
 1. Vaya al informe donde desee agregar el gráfico para el campo calculado que hace referencia al campo personalizado de selección múltiple.
 1. Clic **Acciones de informe**, entonces **Editar**.
