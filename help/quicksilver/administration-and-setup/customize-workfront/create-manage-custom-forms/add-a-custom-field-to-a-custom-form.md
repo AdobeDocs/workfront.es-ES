@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Los campos que permiten selecciones múltiples, como la casilla de verificación y la lista desplegable, son difíciles de representar en gráficos y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
 
 1. En el **Configuración de campo** pestaña, configure las opciones disponibles para el tipo de campo personalizado que está añadiendo:
 

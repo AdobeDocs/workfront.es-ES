@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Para agregar un campo de texto:
 
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos de texto y arrástrelo a una sección del lienzo:
 
-   * Texto de línea única:
+   * Texto de línea única
    * Texto de párrafo
    * Campo de texto con formato
    * Texto descriptivo
@@ -254,6 +254,10 @@ Puede agregar botones de opción, casillas de verificación y listas desplegable
 * **Desplegable**: Proporciona una lista de opciones desplegables.
 
 +++
+
+>[!NOTE]
+>
+>Los campos que permiten múltiples selecciones, como el Grupo de casillas de verificación, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
 
 Para agregar botones de opción y casillas de verificación:
 
@@ -545,7 +549,7 @@ Para añadir una búsqueda externa:
       <td>Seleccionar <strong>Obtener</strong>, <strong>Publicar</strong>, o <strong>Put</strong> para el método.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Ruta de JSON</td>
+      <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la dirección URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON con este formato:</br>
       <pre>
       { data: { { name: "USA"}, { name: "Canada"} } }
@@ -568,13 +572,14 @@ Para añadir una búsqueda externa:
 
 >[!NOTE]
 >
->Limitaciones técnicas de la llamada a la API externa:
+>Los siguientes elementos son limitaciones técnicas de la llamada a la API externa:
 >
 >* Número máximo de opciones: 200 (solo se muestran las 200 primeras opciones del archivo JSON devuelto)
 >* Tiempo de espera: 3 segundos
 >* Número de reintentos: 3
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
+>* El usuario puede ver el valor seleccionado (y editar el valor) en las listas e informes de Workfront, pero no verá el menú desplegable con opciones procedentes de la API externa.
 
 </div>
 
