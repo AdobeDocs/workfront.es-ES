@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ Puede agregar botones de opción, casillas de verificación y listas desplegable
 
 >[!NOTE]
 >
->Los campos que permiten múltiples selecciones, como el Grupo de casillas de verificación, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
+>Los campos que permiten varias selecciones, como el Grupo de casillas de verificación y la Lista desplegable, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
 
 Para agregar botones de opción y casillas de verificación:
 
@@ -328,7 +328,7 @@ Para agregar botones de opción y casillas de verificación:
     </tr> 
     <tr> 
      <td role="rowheader">Tipo de presentación</td> 
-    <td>Cambiar entre botones de opción, grupos de casillas de verificación o listas desplegables para el campo.</td> 
+    <td>Cambie entre botones de opción, grupos de casillas de verificación, desplegables o desplegables de selección múltiple para el campo.</td> 
     <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
@@ -559,7 +559,7 @@ Para añadir una búsqueda externa:
      </tr>
      <tr> 
       <td role="rowheader">Encabezados</td>
-      <td>Clic <strong>Añadir encabezado</strong>y escriba o pegue el par clave-valor necesario para la autenticación con la API.</td>
+      <td><p>Clic <strong>Añadir encabezado</strong>y escriba o pegue el par clave-valor necesario para la autenticación con la API.</p><p><strong>NOTA:</strong> Los campos Encabezado no son un lugar seguro para almacenar credenciales y debe tener cuidado con lo que escribe y guarda.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Para añadir una búsqueda externa:
 >* Número de reintentos: 3
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
->* El usuario puede ver el valor seleccionado (y editar el valor) en las listas e informes de Workfront, pero no verá el menú desplegable con opciones procedentes de la API externa.
+>* Los usuarios pueden ver el valor seleccionado (y editar el valor) en las listas e informes de Workfront, pero no verán el menú desplegable con opciones procedentes de la API externa.
 
 </div>
 
