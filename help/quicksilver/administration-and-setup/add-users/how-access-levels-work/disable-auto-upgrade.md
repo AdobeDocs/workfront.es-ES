@@ -9,13 +9,13 @@ description: Todos los usuarios deben tener un nivel de acceso para iniciar sesi
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # Desactive la opción de actualización automática para usuarios no pagados en el nuevo plan de licencias
 
@@ -57,6 +57,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. Desplácese hacia abajo hasta [!UICONTROL **Preferencias**].
+1. Expandir [!UICONTROL **Sistema**] en el panel de navegación izquierdo, haga clic en [!UICONTROL **Preferencias**].
 1. En el [!UICONTROL **Preferencias generales**] , marque la [!UICONTROL **Deshabilitar la actualización automática en los niveles de acceso**] cuadro.
 1. Haga clic en [!UICONTROL **Guardar**].

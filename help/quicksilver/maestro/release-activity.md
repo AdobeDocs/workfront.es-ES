@@ -3,9 +3,9 @@ title: Actividad de versión de Adobe Maestro
 description: Utilizar Maestro para crear objetos, campos y espacios de trabajo personalizados.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más r
 En esta sección se enumeran las funciones y revisiones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro el 22 de mayo de 2023.
 
 Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
+
+## Semana del 18 de septiembre de 2023
+
+### Reordenar filas
+
+Vista previa y producción: 20 de septiembre de 2023
+
+Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro.
 
 ## Semana del 4 de septiembre de 2023
 
