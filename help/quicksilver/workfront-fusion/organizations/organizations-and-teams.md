@@ -8,9 +8,9 @@ description: Las funciones de organización y equipos de Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -164,6 +164,12 @@ Para crear un equipo:
 1. Introduzca un nombre para el nuevo equipo y haga clic en **Añadir**.
 
 #### Establecer opciones de notificación del equipo
+
+>[!NOTE]
+>
+>Si accede a [!DNL Fusion] a través de [!DNL Adobe Experience Cloud], las notificaciones se gestionan en el [!DNL Experience Cloud] centro de notificaciones.
+>
+>Para obtener más información, consulte [Acceso a las notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Las opciones de notificación por correo electrónico se establecen en el nivel de equipo.
 
