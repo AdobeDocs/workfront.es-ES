@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 5%
 
 ---
@@ -111,7 +111,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Los usuarios del sistema verán de forma predeterminada la experiencia Nueva página de inicio </td> 
-      <td>Permite especificar si los usuarios verán la experiencia Nueva página de inicio de forma predeterminada. En cualquier caso, los usuarios pueden optar por habilitar o deshabilitar el Nuevo Inicio de forma individual. Esta opción está habilitada de forma predeterminada.</td> 
+      <td>Permite especificar si los usuarios verán la experiencia Nueva página de inicio de forma predeterminada. Cuando está habilitado, los usuarios pueden optar por habilitar o deshabilitar el Nuevo inicio de forma individual. Cuando está desactivado, los usuarios no tendrán la opción de usar Nuevo inicio. Esta opción está habilitada de forma predeterminada.</td> 
      </tr> 
     </tbody> 
    </table>
