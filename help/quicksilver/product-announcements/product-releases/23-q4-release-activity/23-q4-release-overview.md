@@ -3,9 +3,9 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 >| Versión mensual | Versión trimestral |
 >|----|----|
 >| <ul><li>23.8 (31 de agosto de 2023)</li><li>23.9 (28 de septiembre de 2023)</li><li>23.10 (26 de octubre de 2023)</li></ul> | <ul><li>23.10 (semana del 26 de octubre de 2023)</li></ul> |
+
+El seminario web de la versión 23.10 se celebrará el 5 de octubre de 2023. Puede [regístrese aquí para unirse al seminario web](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaron a Producción antes de la fecha de lanzamiento del cuarto trimestre de 2023) se resaltan en amarillo.</span>
 
