@@ -3,7 +3,8 @@ title: Registra información
 description: Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos. En los siguientes artículos se describe cómo crear y administrar registros en Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

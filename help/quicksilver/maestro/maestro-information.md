@@ -3,7 +3,8 @@ title: Información de Adobe Maestro
 description: Como líder de operaciones de marketing, puede utilizar Adobe Maestro para organizar el trabajo en todo el ciclo de vida de marketing para todos los equipos. Los artículos de esta sección describen cómo puede configurar Maestro y cómo puede empezar a utilizar sus capacidades como parte de las operaciones de administración de campañas.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

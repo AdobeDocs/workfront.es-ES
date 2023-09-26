@@ -3,7 +3,8 @@ title: Información general sobre los tipos de registros y las taxonomías
 description: Los tipos de registro son los componentes básicos de un área de trabajo de Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%

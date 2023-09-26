@@ -3,7 +3,8 @@ title: Información de arquitectura
 description: En los siguientes artículos se describe cómo configurar la arquitectura de Adobe Maestro. Como parte de esta configuración, aprenderá a crear espacios de trabajo, tipos de registros y campos personalizados para asignar los flujos de trabajo que desea administrar en Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

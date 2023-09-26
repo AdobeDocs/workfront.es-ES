@@ -3,7 +3,8 @@ title: Introducción a Adobe Maestro
 description: Adobe Maestro es una nueva oferta de Adobe Workfront. Puede crear espacios de trabajo totalmente personalizables para definir flujos de trabajo que satisfagan las necesidades de cada unidad organizativa de la empresa.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 1%

@@ -3,7 +3,8 @@ title: Creación de espacios de trabajo
 description: Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

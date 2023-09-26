@@ -3,7 +3,8 @@ title: Creación de campos
 description: En Adobe Maestro, puede crear campos personalizados para cada tipo de tipo de registro operativo o taxonomía. A continuación, puede asociar el campo con los registros de Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 2%

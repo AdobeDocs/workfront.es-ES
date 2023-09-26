@@ -3,7 +3,8 @@ title: Creación de tipos de registros
 description: Los tipos de registro son los tipos de objeto de Adobe Maestro. En Maestro, puede crear tipos de registros personalizados que ilustren los elementos de trabajo necesarios en el ciclo de vida de su organización.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1396'
 ht-degree: 1%

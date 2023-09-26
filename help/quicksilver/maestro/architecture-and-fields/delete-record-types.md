@@ -3,7 +3,8 @@ title: Eliminar tipos de registros
 description: Puede eliminar tipos de registros operativos o tipos de registros de taxonomía cuando ya no sean relevantes.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
