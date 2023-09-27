@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
+source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ Debe tener lo siguiente:
      <tr> 
       <td role="rowheader">[!UICONTROL Nombre]</td> 
       <td> <p>Indique un nombre para el rol. Este es el nombre que se muestra en todas partes en [!DNL Workfront] donde aparece el campo [!UICONTROL Job Role]. </p> <p>Sugerencia: El nombre de un rol puede contener hasta 255 caracteres. Sin embargo, los nombres más largos pueden truncarse en determinadas áreas de [!DNL Workfront]. </p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">[!UICONTROL Descripción]</td> 
+      <td>Escriba una descripción para la función que indique lo que tiene de único. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Está Activo]</span> </td> 
@@ -71,50 +75,44 @@ Debe tener lo siguiente:
         <li> <p>Seleccionar <b>[!UICONTROL Sí]</b> si desea que la función esté activa y disponible en todas partes en [!DNL Workfront] para asociarse a usuarios, elementos de trabajo, etc. </p> </li> 
         <li> <p>Seleccionar <b>[!UICONTROL No]</b>, si desea que la función se desactive y no esté disponible para asignar a usuarios, elementos de trabajo, etc. </p> </li> 
        </ul> <p><span>Para obtener información sobre la desactivación de funciones, consulte</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Desactivar funciones del puesto</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Descripción]</td> 
-      <td>Escriba una descripción para la función que indique lo que tiene de único. </td> 
-     </tr> 
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Moneda base]</span> </td> 
       <td> <p><span>Ésta es la [!UICONTROL Base Currency], tal como la estableció el administrador de Workfront en el área [!UICONTROL Setup]. Para obtener más información, consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a> .</p> <p>Sugerencia: <span>No puede editar la [!UICONTROL Base Currency] en el nivel de rol. Este campo aparece atenuado y sirve como recordatorio de cuál es la divisa base del sistema.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Costo/ hora.]</td> 
+      <td role="rowheader">[!UICONTROL Tasa de costo]</td> 
       <td><p>tarifa de coste por hora del rol. Este valor calcula los costos planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los costos planificados y reales de los proyectos. Introduzca la tasa utilizando la [!UICONTROL Moneda base].</p> 
       <p><span class="preview">Para tasas de costo efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor del coste/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tasa de coste no tendrá una fecha de inicio y la última tasa de coste no tendrá una fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tasa de coste no tiene una fecha de finalización y agrega una segunda tasa de coste con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tasa de coste para que no haya espacios.</span></p> <p><span class="preview">Sugerencia: Al editar un rol existente, puede seleccionar <strong>Ordenar por fecha de inicio</strong> para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas. </span></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Lista/ hora] </td> 
+      <td role="rowheader">[!UICONTROL Tarifa de facturación] </td> 
       <td><p>tarifa de facturación por hora de la función del puesto. Este valor calcula los ingresos planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca la tasa utilizando la [!UICONTROL Moneda base].</p> <p><span class="preview">Para tarifas de facturación efectivas por fecha, haga clic en <strong>[!UICONTROL Agregar velocidad]</strong>. Introduzca el valor de facturación/hora para el período de tiempo y asigne una [!UICONTROL Fecha de inicio] y una [!UICONTROL Fecha de finalización] según sea necesario. La primera tarifa de facturación no tendrá fecha de inicio y la última tarifa de facturación no tendrá fecha de finalización.</span></p> <p><span class="preview">Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de facturación no tiene una fecha de finalización y agrega una segunda con una fecha de inicio del 1 de mayo de 2023, se agrega una fecha de finalización del 30 de abril de 2023 a la primera tarifa de facturación para que no haya espacios.</span></p> <p><span class="preview">Sugerencia: Al editar un rol existente, puede seleccionar <strong>Ordenar por fecha de inicio</strong> para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Anular moneda]</span> </td> 
-      <td> 
-       <div> 
+      <td>
         <p>Seleccione una divisa asociada a este rol. Esta es la moneda que [!DNL Workfront] utiliza para calcular los costes e ingresos asociados con este rol. </p> 
-        <p><span>Es distinto a la [!UICONTROL Moneda base] configurada por su [!DNL Workfront] administrador en el área de [!UICONTROL Setup] y puede ser diferente a la moneda asociada a un proyecto.</span> </p> 
+        <p><span>Esto es diferente a la [!UICONTROL Moneda base] configurada por su [!DNL Workfront] administrador en el área de [!UICONTROL Setup] y puede ser diferente a la moneda asociada a un proyecto.</span> </p> 
         <p>Sugerencia: En este campo solo están disponibles las monedas disponibles en el área [!UICONTROL Exchange Rates] del sistema.</p> 
-       </div> <p><span>Para obtener información acerca de cómo configurar la [!UICONTROL Base Currency] en [!DNL Workfront], consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p> <p><span>Para obtener información sobre cómo cambiar la moneda de un proyecto, consulte</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Cambiar la divisa del proyecto</a>.</p> </td> 
+       <p><span>Para obtener información acerca de cómo configurar la [!UICONTROL Base Currency] en [!DNL Workfront], consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p> <p><span>Para obtener información sobre cómo cambiar la moneda de un proyecto, consulte</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Cambiar la divisa del proyecto</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Anular coste/ hora de la moneda]</span> </td> 
-      <td> 
-       <div> 
+      <td role="rowheader"><span>[!UICONTROL Anular tasa de costo de moneda]</span> </td> 
+      <td>
         <p>tarifa de coste por hora de la función con la [!UICONTROL Anular moneda] seleccionada. [!DNL Workfront] utiliza este valor para calcular los costos planificados y reales de las tareas y problemas asociados con el rol. </p> 
-        <p><span>Introduzca la tasa en la [!UICONTROL Moneda de anulación] especificada arriba. Esto también actualiza la tarifa Costo/ Hora para este rol cuando se usa la [!UICONTROL Moneda base].</span> </p> 
+        <p><span>Introduzca la tasa en la [!UICONTROL Moneda de anulación] especificada arriba. Esto también actualiza la Tasa de costo para este rol cuando se usa la [!UICONTROL Moneda base].</span> </p> 
         <p>Para obtener información acerca de cómo [!DNL Workfront] calcula el coste; consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> 
-       </div> <p>Sugerencia: al actualizar un rol existente que ya tiene asociada una tarifa de coste/hora, [!DNL Workfront] calcula la tasa de [!UICONTROL Anular moneda] en función de la tasa de conversión del sistema. Si actualiza [!UICONTROL Anular costo de moneda/ hora], el rol Costo/ hora también se actualiza automáticamente.</p> </td> 
+       <p>Sugerencia: al actualizar un rol existente que ya tiene asociada una tasa de coste, [!DNL Workfront] calcula la tasa de [!UICONTROL Anular moneda] en función de la tasa de conversión del sistema. Si actualiza la [!UICONTROL Anular tasa de coste de divisa], la tasa de coste de la función también se actualiza automáticamente.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Anular facturación/hora de moneda]</span> </td> 
-      <td> 
-       <div> 
-        <p>Es la tarifa de facturación por hora del rol usando la [!UICONTROL Anular moneda] seleccionada. [!DNL Workfront] utiliza este valor para calcular los ingresos planificados y reales de las tareas y problemas asociados con el rol. </p> 
-        <p><span>Introduzca la tasa en la [!UICONTROL Moneda de anulación] especificada arriba. Esto también actualiza la tarifa Facturación/ Hora para este rol cuando se usa la [!UICONTROL Moneda base].</span> </p> 
-        <p>Para obtener información acerca de cómo [!DNL Workfront] calcula los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Resumen de facturación e ingresos</a>.</p> 
-       </div> <p>Sugerencia: al actualizar un rol existente que ya tiene asociada una tarifa de facturación/hora, [!DNL Workfront] calcula la tasa de anulación de moneda en función de la tasa de conversión del sistema. Si actualiza Anular facturación/hora de moneda, la facturación/hora del rol también se actualiza automáticamente. </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Anular tarifa de facturación de moneda]</span> </td> 
+      <td>
+        <p>Es la tarifa de facturación por hora del rol usando la [!UICONTROL Anular moneda] seleccionada. [!DNL Workfront] utiliza este valor para calcular los ingresos planificados y reales de las tareas y problemas asociados con el rol. </p>
+        <p><span>Introduzca la tasa en la [!UICONTROL Moneda de anulación] especificada arriba. Esto también actualiza la tarifa de facturación para este rol cuando se usa la [!UICONTROL Moneda base].</span> </p>
+        <p>Para obtener información acerca de cómo [!DNL Workfront] calcula los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Resumen de facturación e ingresos</a>.</p>
+        <p>Sugerencia: al actualizar un rol existente que ya tiene asociada una tarifa de facturación, [!DNL Workfront] calcula la tasa de anulación de moneda en función de la tasa de conversión del sistema. Si actualiza la tarifa de facturación de anulación de divisa, la tarifa de facturación de la función de puesto también se actualiza automáticamente. </p>
+       </td>
      </tr> 
     </tbody> 
    </table>
