@@ -4,13 +4,13 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del cu
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2023
 
@@ -27,3 +27,13 @@ Para obtener una lista de todos los cambios disponibles con la versión del cuar
 Hemos actualizado las pestañas de Notificaciones por correo electrónico, Notificaciones de recordatorio y Plantillas de correo electrónico en el área Configuración > Correo electrónico > Notificaciones a un diseño más moderno y coherente con otras áreas de Workfront.
 
 Para obtener más información, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## Actualizaciones de aspecto y funcionamiento para las pantallas de funciones del puesto
+
+>[!NOTE]
+>
+>Versión de vista previa: 21 de septiembre de 2023; versión de producción para todos los clientes: cuando se publican las tarjetas de tarifas y otras actualizaciones de la administración financiera
+
+Hemos actualizado las pantallas Nuevo rol y Editar rol a un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para obtener más información, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
