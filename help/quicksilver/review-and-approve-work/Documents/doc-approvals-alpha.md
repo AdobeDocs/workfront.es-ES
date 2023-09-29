@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para participar en esta versión de Alpha, asegúrese de que el equipo del produ
 En esta 5ª versión de Alpha tenemos:
 
 * Se ha mejorado la lista que muestra aprobadores y revisores
-* Se ha agregado la capacidad de aprobación a los aprobadores que aún no han tomado una decisión de aprobación
+* Se ha añadido la capacidad de recordar a los aprobadores que aún no han tomado una decisión de aprobación
 * Se agregó la capacidad de ver miembros individuales del equipo en la lista de aprobación
 * Se ha añadido la capacidad de añadir aprobadores externos
 * Se ha mejorado la vista para que los aprobadores externos puedan obtener una vista previa, descargar y realizar comentarios sobre un documento
