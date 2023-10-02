@@ -7,9 +7,9 @@ description: Puede agrupar las tarjetas en un tablero por usuario asignado o por
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Puede agrupar las tarjetas en un tablero por usuario asignado o por etiqueta. Al
 
 >[!NOTE]
 >
->Las tarjetas de la columna de entrada no se incluyen en un grupo. Para obtener información sobre la columna de entrada, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Las tarjetas de la columna de entrada no se incluyen en un grupo y la columna de entrada se oculta cuando se aplica un grupo. Para obtener información sobre la columna de entrada, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisitos de acceso
 
