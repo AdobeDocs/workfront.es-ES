@@ -5,13 +5,13 @@ title: Introducción a la nueva página de inicio en Adobe Workfront
 description: La nueva página de inicio es una nueva y potente función para administrar su trabajo.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Introducción a la nueva página de inicio en Adobe Workfront
 
@@ -131,24 +131,9 @@ Puede añadir un toque personal a su página de inicio seleccionando un banner c
 
 1. En el **Fondo** de la sección **Personalizar** Cuando aparezca, haga clic en el color que desee seleccionar para el fondo de su página de inicio. También puede hacer clic en **Ninguno** para quitar el fondo.
 
-### Filtrar por intervalo de tiempo
-
-Puede filtrar rápidamente toda la información de la página Inicio para mostrar la información del objeto en tres intervalos de tiempo específicos: Día, Semana o Mes. Además, en la parte superior de la página Inicio se muestra un resumen del número de tareas que ha vencido y las que ha completado dentro del intervalo.
-
-**Para cambiar el intervalo de tiempo de la página de inicio:**
-
-1. Navegue hasta su página de inicio, ya sea haciendo clic en el icono de Adobe Workfront ![Icono de Adobe Workfront](../new-home/assets/home-icon-30x29.png) en la parte superior de la pantalla si Inicio está configurado como página de aterrizaje o haciendo clic en el icono del menú principal ![Icono del menú principal](../new-home/assets/main-menu-icon-left-nav.png) luego, haciendo clic en **Inicio**.
-
-1. Haga clic en el filtro de intervalo de tiempo en la esquina superior izquierda de la página principal. De forma predeterminada, el filtro se establece en **Mi semana**.
-
-   ![Menú desplegable de filtro de intervalo de tiempo](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Haga clic en **Día**, **Semana**, o **Mes** para filtrar la página Inicio de modo que sólo muestre información sobre los objetos que vencen en ese lapso de tiempo.
-
 ## Volver a la experiencia de inicio actual
 
 Para los usuarios que prefieren la experiencia de Inicio existente, se puede desactivar la opción Nuevo Inicio.
-
 
 **Para volver a la experiencia de Inicio actual:**
 
