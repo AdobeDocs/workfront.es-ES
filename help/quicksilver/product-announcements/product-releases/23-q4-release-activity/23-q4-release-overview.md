@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ El seminario web de la versión 23.10 se celebrará el 5 de octubre de 2023. Pue
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Los campos calculados en formularios personalizados ahora pueden utilizar el comodín $$USER</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>El comodín $$USER ya está disponible en los campos personalizados calculados y en los campos de búsqueda externos del nuevo diseñador de formularios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 5 de octubre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.10</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Añadir opciones de valor de una API externa a un formulario personalizado</a></p>
