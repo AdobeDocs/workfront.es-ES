@@ -6,9 +6,9 @@ description: Puede filtrar un tablero para mostrar solo determinadas tarjetas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
 1. Acceda al tablero.
+1. Clic [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
+1. Expandir [!UICONTROL **Tarjetas**].
+1. Activar [!UICONTROL **Mostrar tarjetas archivadas en el tablero**].
 1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Tarjetas archivadas] y seleccione. **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.
 
    El filtro muestra el número de tarjetas archivadas.
 
-   ![Filtrar tarjetas archivadas](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtrar tarjetas archivadas](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >El [!UICONTROL Tarjetas archivadas] La sección no está disponible en el filtro si no ha activado la configuración para mostrar tarjetas archivadas.
 
 1. Seleccionar **[!UICONTROL Tarjetas archivadas]** de nuevo para desactivar la opción y mostrar solo las tarjetas activas.
 
