@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Estas plantillas automatizan los procesos y flujos de trabajo de Workfront.
 
 ### [!BADGE Nuevo!]{type=Informative}
 
-Esta automatización observa nuevos proyectos en programas con formularios personalizados. A continuación, agrega esos formularios y campos personalizados de programa a los nuevos proyectos.
+Esta automatización crea nuevos proyectos en Workfront en función del nombre, el Portfolio, el estado, la fecha planificada de inicio y los detalles de la plantilla que especifique en un CSV.
 
 ### [!BADGE Nuevo!]{type=Informative}
+
+Utilice esta plantilla para aplicar una actualización de nota de 30 días en sus solicitudes. Las solicitudes que no se actualicen en 30 días obtienen su estado cambiado y cerrado a los 60 días.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Esta automatización actualiza los proyectos al estado Completado que tiene todas las tareas a 1005 completadas. Los proyectos con problemas pendientes o tareas pendientes o aprobaciones de proyecto recibirán una actualización y, cuando se resuelvan, los proyectos pasarán al estado Completado.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Utilice este escenario para automatizar la advertencia y el cierre de proyectos que cumplen la directiva de proyectos obsoletos de su organización.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Utilice esta plantilla para copiar notas y respuestas de un problema o solicitud en un proyecto o tarea ya convertidos.
+
+### Workfront: copiar datos de campo y Forms personalizados de programa en nuevos proyectos asociados
+
+Esta automatización observa nuevos proyectos en programas con formularios personalizados. A continuación, agrega esos formularios y campos personalizados de programa a los nuevos proyectos.
+
+### Workfront: copiar datos de campo y Forms personalizados del Portfolio a nuevos proyectos asociados
 
 Esta automatización observa nuevos proyectos en portafolios con formularios personalizados. A continuación, agrega esos formularios y campos personalizados de portafolio a los nuevos proyectos.
 
@@ -58,7 +78,7 @@ Esta plantilla captura una línea de base del proyecto tras cualquier cambio de 
 
 Esta plantilla registra una línea de base de proyecto semanalmente todos los lunes a las 6 a. m. ET en los proyectos filtrados por portafolio y crea una actualización en el flujo de actualización para el registro.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Buscar plantillas de proyecto no utilizadas en tiempo de póliza y notificar
 
 Una vez al mes, revise las plantillas de proyecto con su propia directiva con esta plantilla fácil de administrar que notifica a los usuarios correspondientes de las plantillas que infringen la directiva.
 
@@ -81,6 +101,10 @@ Estas plantillas recuperan información de un servicio web y la llevan a Workfro
 >[!NOTE]
 >
 > Debe tener una licencia de integración y automatización de trabajo de Workfront Fusion para utilizar las plantillas de esta sección.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Establezca la Autorización JWT para una API de cliente.
 
 ### APILayer > Workfront - Actualización del tipo de cambio diario (EUR)
 
@@ -105,6 +129,19 @@ Este escenario proporciona una forma programática de crear campañas de correo 
 ### Revise en Workfront una revisión por correo electrónico del borrador del correo electrónico del Marketo Engage
 
 Esta plantilla detecta si una tarea de Workfront se ha establecido en un estado listo para revisión y, a continuación, exporta el borrador de correo electrónico del Marketo Engage para guardarlo como una prueba en Workfront.
+
+## Plantillas Workfront-SharePoint
+
+Estas plantillas conectan Workfront y SharePoint.
+
+>[!NOTE]
+>
+> Debe tener una licencia de integración y automatización de trabajo de Workfront Fusion para utilizar las plantillas de esta sección.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Esta plantilla le permite ver si hay un cambio en una carpeta de SharePoint.
+
 
 ## Plantillas Workfront-Anaplan
 
@@ -131,3 +168,6 @@ Para obtener más información sobre la integración de Workfront y Anaplan, con
 
 * [Crear un [!DNL Anaplan] elemento de lista de un [!DNL Adobe Workfront] solicitud de campaña](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Aplicar un [!DNL Anaplan] asignación presupuestaria a un [!DNL Adobe Workfront] solicitud de campaña o proyecto de campaña](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
