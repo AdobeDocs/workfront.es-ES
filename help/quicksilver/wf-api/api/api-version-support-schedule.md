@@ -6,10 +6,10 @@ description: Versiones de API y programación de asistencia
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
+source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 10%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 
 
 Adobe Workfront publica regularmente nuevas versiones de la API, generalmente dos veces al año. Las versiones de API son compatibles durante 3 años después del lanzamiento. Ya no se admiten las versiones de API anteriores a 3 años.
+
+Para obtener más información sobre la identificación y el uso de versiones de API, consulte [Especificar una versión de API en las integraciones](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 La siguiente tabla muestra la programación de versiones y soporte de la API de Workfront.
 
