@@ -5,7 +5,7 @@ description: Una vez completado y enviado el caso empresarial para una solicitud
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Tenga en cuenta lo siguiente al aprobar un caso empresarial de un proyecto:
 * Debe ir manualmente a los proyectos individuales que necesitan la aprobación de su caso empresarial para ver que están pendientes de aprobación. No hay ningún mecanismo de notificación de Workfront que alerte a alguien de que debe aprobar el caso empresarial de un proyecto.
 * Puede encontrar los proyectos que esperan la aprobación del caso empresarial creando un informe del proyecto o accediendo al portafolio con el que están asociados. 
 
-   Para obtener más información sobre los Portfolio, consulte el artículo [Información general sobre el Portfolio en Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Para obtener más información sobre los Portfolio, consulte el artículo [Información general sobre el Portfolio en Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Aprobar el caso comercial creando un informe de proyecto
 
@@ -108,13 +108,13 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
    para mostrar dónde se le designa como administrador de Portfolio. 
 
-1. Clic **Guardar + Cerrar**.
+1. Haga clic en **Guardar + Cerrar**.
 
    Observe que todos los proyectos del informe se encuentran en el estado de **Solicitado**.
 
 1. Haga clic en el nombre de un proyecto en el informe para abrirlo.
 1. Clic **Caso comercial** en el panel izquierdo.
-1. Clic **Aprobar** o **Rechazar** en el área Resumen del caso empresarial para aprobar o rechazar el caso empresarial. 
+1. Clic **Aprobar** o **Rechazar** en el área Resumen del caso empresarial para aprobar o rechazar el caso empresarial.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 

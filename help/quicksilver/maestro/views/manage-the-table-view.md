@@ -4,13 +4,13 @@ description: Puede mostrar los registros y sus campos en una vista de tabla al t
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 5%
+source-wordcount: '1659'
+ht-degree: 4%
 
 ---
-
 
 # Administrar la vista de tabla
 
@@ -127,7 +127,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página Detalles de los registros del tipo de registro seleccionado.
 
-1. Para reordenar las columnas de la tabla, siga uno de estos procedimientos:
+1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
    * Coja el encabezado de la columna y arrástrela y suéltela en la posición deseada. La columna que ha movido aparece brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
 
@@ -145,24 +145,45 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >
    >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
 
-1. Para aumentar el ancho de las columnas, haga clic y arrastre las líneas de separación de columnas y suéltelas en el lugar deseado.
+1. Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del nombre del registro para reordenar las filas.
+
+   >[!NOTE]
+   >
+   >No puede reordenar filas si aplica al menos una ordenación a la vista de tabla.
+
+1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
    >[!TIP]
    >
    >Los cambios que realice en el ancho y el orden de las columnas son permanentes y visibles para todos los usuarios que tengan acceso al tipo de registro.
 
-1. Para ocultar una columna, pase el ratón sobre el encabezado de la columna, haga clic en la flecha hacia abajo y, a continuación, haga clic en **Ocultar campo**
+1. Pase el ratón sobre el encabezado de la columna, haga clic en la flecha hacia abajo y luego haga clic en **Ocultar campo**
 
    O
 
-   Clic **Campos** en la barra de herramientas de la tabla y desactive la opción asociada a los campos que desea ocultar.
+   Clic **Campos** en la barra de herramientas de la tabla, deshabilite la opción asociada a los campos (o columnas) que desee ocultar.
 
    >[!TIP]
    >
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
 
 
-1. Desde el **Campos** , active la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
+1. Haga clic en **Campos** configurar y habilitar la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
+
+1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
+
+   1. Haga clic en **búsqueda** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta se resalta en azul.
+
+      Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
+
+      No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
+
+   1. Haga clic en **X** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
+
 
 ### Agregar filas (o registros) {#add-rows}
 
@@ -388,12 +409,11 @@ Para ordenar <!--ungrouped (add this when sorting for groupings will be availabl
 
 1. Haga clic fuera de **Ordenar registros por** para cerrarlo.
 
+   ![](assets/sorting-in-table-view.png)
+
    La información mostrada en la tabla se ordena según los criterios seleccionados.
 
    Los campos seleccionados para la ordenación muestran un icono de ordenación seguido de un número que indica el orden en que se aplica la ordenación.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

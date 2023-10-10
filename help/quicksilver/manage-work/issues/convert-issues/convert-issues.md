@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ Para obtener información sobre la conversión de problemas en proyectos, consul
 
 * Al convertir un problema en una tarea o un proyecto, el problema se elimina del área de Inicio del usuario asignado al problema.
 
-* Al convertir un problema en un proyecto mediante una plantilla, la mayoría de la información de la plantilla se transfiere al nuevo proyecto. Sin embargo, parte de la información del problema también se puede transferir al nuevo proyecto. Para obtener más información, consulte la [Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) de este artículo.
+* Al convertir un problema, los permisos de los problemas originales no se transfieren al objeto convertido (tarea o proyecto).
+
+* Al convertir un problema en un proyecto mediante una plantilla, la mayoría de la información de la plantilla se transfiere al nuevo proyecto. Sin embargo, parte de la información del problema también se puede transferir al nuevo proyecto. Para obtener más información, consulte la [Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) de este artículo.
 * Al convertir un problema, no todos los documentos o su información se mueven al nuevo objeto al que se convierte el problema. Los siguientes elementos se incluyen al convertir un problema que tiene documentos o vínculos a documentos adjuntos:
 
    * Documento
@@ -110,12 +112,17 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   </tr> 
   <tr> 
    <td>Grupo</td> 
-   <td>Transferencias de la plantilla. Si no hay ningún grupo en la plantilla, se establece en el grupo del proyecto al que pertenece el problema.</td> 
+   <td><p> Existen los siguientes escenarios:</p>
+     <ul><li>Si se especifica un grupo durante la conversión, este se convierte en el grupo del proyecto</li>
+     <li>Si convierte a un proyecto mediante una plantilla y hay un grupo en la plantilla, y durante la conversión no especifica ningún grupo, el grupo de la plantilla se convierte en el grupo del nuevo proyecto</li>
+      <li> Si no hay ningún grupo en la plantilla y no especifica ningún grupo durante la conversión, el grupo del proyecto del problema original se convierte en el grupo del nuevo proyecto</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Compañía</td> 
-   <td>Transferencias de la plantilla. De lo contrario, este campo está vacío.</td> 
-  </tr> 
+   <td>Compañía</td>    
+   <td>  Transferencias de la plantilla. De lo contrario, este campo está vacío.</td>
+
+</tr> 
   <tr> 
    <td>Propietario del proyecto</td> 
    <td>Transfiere desde el campo Propietario de la plantilla en la plantilla. De lo contrario, se establece en el usuario que ha iniciado sesión y que está realizando la conversión. </td> 

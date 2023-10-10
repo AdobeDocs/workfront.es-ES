@@ -7,9 +7,9 @@ description: Puede combinar la información que se muestra en varias columnas in
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Para ello:
 
    `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.` y las líneas de texto que contienen información sobre la segunda columna con `column.1.` .
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede a cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.` y las líneas de texto que contienen información sobre la segunda columna con `column.1.` .
 
    Debe anteponer el número de columna de la primera columna al número de esa columna. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
@@ -133,11 +133,11 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    `sharecol=true`
 
 
-1. Añada el siguiente texto a la primera columna:
+1. Haga clic en la primera columna y luego en **Cambiar a modo de texto** A continuación, añada el siguiente texto a la columna:
 
    `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.`, la columna con la que se comparte información `column.1.`y las líneas de texto que contienen información sobre la segunda columna con `column.2.`.
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede a cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.`, la columna con la que se comparte información `column.1.`y las líneas de texto que contienen información sobre la segunda columna con `column.2.`.
 
    Si la columna combinada está en el centro de la vista, las columnas se numeran según su lugar en la vista. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 

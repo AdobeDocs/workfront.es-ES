@@ -4,13 +4,13 @@ description: Adobe Maestro es una nueva oferta de Adobe Workfront. Puede crear e
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Introducción a Adobe Maestro
 
@@ -358,6 +358,7 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Ordenar agrupaciones en la vista de cronología |                               | ✓ |                  |
 | Conectar espacios de trabajo |                               | ✓ |                  |
 | Conectar registros y taxonomías de Maestro | ✓ |
+| Buscar registros en la vista de tabla | ✓ |   |
 | Conectar registros de Maestro a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
 | Registrar página de detalles | ✓ |                                  |                  |
 | Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-

@@ -6,13 +6,13 @@ description: Este artículo contiene una lista de las preguntas más frecuentes 
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # Nuevas preguntas frecuentes sobre la experiencia de comentarios
 
@@ -24,7 +24,7 @@ Para obtener más información sobre la nueva experiencia de comentarios, consul
 
 Actualmente solo se admiten archivos adjuntos de imagen a los comentarios. Si desea ver otros tipos de archivos, envíe una solicitud de laboratorio de innovación para que podamos comprender cuán necesaria es la función.
 
-## ¿Agregará nuevamente la capacidad de editar el estado, la condición o la fecha planificada de finalización de un elemento de trabajo en la nueva experiencia de comentarios?
+## ¿Volverá a añadir la capacidad de editar el estado, la condición, la fecha de compromiso o la fecha planificada de finalización de un elemento de trabajo en la nueva experiencia de comentarios?
 
 No planeamos recuperar la capacidad de realizar estas acciones, ya que están disponibles en el encabezado y en las áreas de detalles del objeto. Entendemos que le pedimos que cambie el patrón de uso de la secuencia de comentarios, pero lo hacemos para mantener la experiencia de comentarios con su propósito directo de comunicación y colaboración.
 

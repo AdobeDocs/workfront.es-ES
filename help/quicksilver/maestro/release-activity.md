@@ -4,13 +4,13 @@ description: Utilizar Maestro para crear objetos, campos y espacios de trabajo p
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Actividad de versión de Adobe Maestro
 
@@ -34,13 +34,21 @@ En esta sección se enumeran las funciones y revisiones que se han publicado tra
 
 Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
 
+## Semana del 9 de octubre de 2023
+
+### Buscar en la vista de tabla
+
+Vista previa y producción: 9 de octubre de 2023
+
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales en cualquier campo visible en la pantalla para encontrar un registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
+
 ## Semana del 18 de septiembre de 2023
 
 ### Reordenar filas
 
 Vista previa y producción: 20 de septiembre de 2023
 
-Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro.
+Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
 ## Semana del 4 de septiembre de 2023
 
