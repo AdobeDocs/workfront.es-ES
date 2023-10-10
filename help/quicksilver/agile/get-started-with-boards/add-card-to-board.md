@@ -6,9 +6,9 @@ description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clic **[!UICONTROL Añadir tarjeta] > [!UICONTROL Nueva tarjeta]**.
+
+   El [!UICONTROL Detalles de tarjeta] aparece el cuadro.
+
+   >[!NOTE]
+   >
+   >Si hace clic fuera del campo Nombre, la tarjeta ad hoc se guardará automáticamente como &quot;Sin título&quot; en la parte inferior de la columna situada más a la izquierda. Para salir sin guardar la tarjeta, debe hacer clic en [!UICONTROL **Cancelar**] sin hacer clic en ninguna otra parte del [!UICONTROL Detalles de tarjeta] cuadro.
+
 1. En el **[!UICONTROL Detalles de tarjeta]** , añada la siguiente información:
 
    <table style="table-layout:auto"> 
