@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -315,12 +315,17 @@ Cada fila de la hoja corresponde a un objeto único.
 
    * Si el objeto que está importando ya existe en el sistema Workfront (y ha escrito **FALSE** en el **isNew** ), el ID debe ser el GUID alfanumérico que existe en Workfront para ese objeto.
 
+     ![ID de muestra para un grupo](assets/kick-start-group-example.png)
+
+   * Al importar un proyecto, debe indicar un ID de grupo.
+
+      * Si el grupo ya existe en Workfront, debe agregar su ID único a la variable **setGroupID** para el proyecto.
+      * Si el grupo no existe en Workfront, puede agregar la variable **Grupo Grupo** en el archivo de importación, configure el **isNew** field a **VERDADERO** en la hoja Grupo e indique un ID numérico para el nuevo grupo en la **ID** columna. El **setGroupID** el campo del nuevo proyecto debe coincidir con el numérico **ID** para el nuevo grupo.
+
      **Ejemplo:** Para un proyecto, el valor mostrado en la variable **setGroupID** debe ser una de las siguientes:
 
       * GUID de un grupo existente en su instancia de Workfront
       * El valor (número) de la columna ID en la variable **Grupo Grupo** si va a crear un nuevo grupo durante la importación
-
-        ![ID de muestra para un grupo](assets/kick-start-group-example.png)
 
 1. Introduzca valores para los campos obligatorios y cualquier otro campo que desee rellenar durante la importación.
 1. (Opcional) Para agregar datos personalizados:

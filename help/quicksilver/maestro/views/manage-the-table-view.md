@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >
    >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
 
-1. Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del nombre del registro para reordenar las filas.
-
-   >[!NOTE]
-   >
-   >No puede reordenar filas si aplica al menos una ordenación a la vista de tabla.
-
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Las filas de una vista de tabla de Maestro muestran registros individuales del t
 
 Puede tener hasta 10.000 registros (o filas) para un tipo de registro en Maestro.
 
-Agregar filas a una vista de tabla de Maestro es idéntico a crear registros en una tabla.
+1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
+1. Empiece a agregar registros (o filas), tal como se describe en el artículo [Creación de registros](../records/create-records.md).
 
-Para obtener más información, consulte [Creación de registros](../records/create-records.md).
+   Los registros que agregue en la vista de tabla se guardan inmediatamente y son visibles para todos los usuarios que tengan acceso a Maestro. <!--this will change with permissions-->
+
+1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del nombre del registro para reordenar las filas.
+
+   >[!NOTE]
+   >
+   >No puede reordenar filas si aplica al menos una ordenación a la vista de tabla.
 
 <!-- this is not possible right now:
 
