@@ -6,9 +6,9 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '692'
 ht-degree: 3%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 3%
 # Crear o editar un tablero
 
 Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o editar uno existente.
-
-Para añadir una placa a un flujo de trabajo, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acceso
 
@@ -43,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Crear nuevo tablero
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
-1. Para crear un tablero independiente, haga clic en **[!UICONTROL Añadir tablero]** en el [!UICONTROL Tableros] área. Para añadir una placa a un flujo de trabajo, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Clic **[!UICONTROL Añadir tablero]**.
 
 1. Seleccione una plantilla para el tablero.
 

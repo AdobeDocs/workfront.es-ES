@@ -6,14 +6,18 @@ description: Puede agregar cualquier tarea o problema a un tablero de Adobe Work
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Agregar tareas o problemas existentes a un [!DNL Adobe Workfront] tablero o flujo de trabajo
+
+>[!IMPORTANT]
+>
+>Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
 
 Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DNL Adobe Workfront] desde una vista de lista o informe, o desde los detalles del objeto.
 

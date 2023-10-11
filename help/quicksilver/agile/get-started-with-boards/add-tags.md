@@ -6,16 +6,20 @@ description: Puede agregar etiquetas a las tarjetas para mostrar visualmente que
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # Añadir etiquetas
 
-Puede agregar etiquetas a las tarjetas para mostrar visualmente que son similares. A continuación, puede filtrar por esas etiquetas para mostrar tarjetas relacionadas. Las etiquetas de tablero no se comparten entre tableros, pero las etiquetas de flujo de trabajo están disponibles en todos los tableros de un flujo de trabajo.
+Puede agregar etiquetas a las tarjetas para mostrar visualmente que son similares. A continuación, puede filtrar por esas etiquetas para mostrar tarjetas relacionadas.
+
+>[!NOTE]
+>
+>Las etiquetas no se comparten entre tableros.
 
 ## Requisitos de acceso
 
@@ -57,6 +61,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    ![Administrador de etiquetas](assets/tag-manager-2023.png)
 
 ## Creación de etiquetas para un flujo de trabajo
+
+>[!IMPORTANT]
+>
+>Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
+
+Las etiquetas de flujo de trabajo están disponibles para todos los tableros de un flujo de trabajo.
 
 {{step1-to-boards}}
 

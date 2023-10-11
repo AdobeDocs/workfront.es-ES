@@ -7,10 +7,10 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +22,17 @@ Solo se permite una columna de entrada en un tablero, que siempre aparece como l
 
 La columna de entrada no está disponible en un tablero dinámico.
 
-La columna de entrada no está disponible en tableros que formen parte de un flujo de trabajo. En su lugar, puede configurar una columna de registro de pendientes para extraer las tarjetas de la lista de tarjetas. Para obtener información sobre cómo añadir una columna de registro de pendientes a un tablero de un flujo de trabajo, consulte [Configurar el registro de pendientes en una placa de flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 La columna de admisión está limitada a 300 tareas y 300 problemas. El orden predeterminado de los elementos de la columna de entrada es el siguiente:
 
 Tareas:
 
-* Pedido principal: Nombre del proyecto
-* Orden secundario: estructura de desglose de trabajo
+* Orden principal: nombre del proyecto
+* Orden secundario: estructura del desglose de trabajo
 
 Problemas:
 
-* Pedido principal: Nombre del proyecto
-* Pedido secundario: Número de referencia
+* Orden principal: nombre del proyecto
+* Orden secundario: número de referencia
 
 Para obtener más información sobre las columnas, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

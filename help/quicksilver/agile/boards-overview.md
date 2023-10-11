@@ -7,9 +7,9 @@ description: Los tableros de Adobe Workfront son herramientas flexibles que perm
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Con los tableros, puede:
 * Configurar columnas para mostrar un estado o una categoría
 * Personalice los flujos de trabajo con tarjetas abiertas (tarjetas ad hoc o tarjetas conectadas a [!DNL Workfront] tareas y problemas)
 * Organizar y administrar el trabajo de un equipo en un solo lugar
-* Utilice flujos de trabajo para agrupar datos (como tableros y tarjetas) y colaborar en el trabajo
-* Utilice herramientas de planificación ágil, como una columna de entrada para los paneles Kanban, así como una lista de tarjetas y una planificación de iteraciones
+* Utilizar herramientas de planificación ágil, como una columna de entrada para los paneles Kanban
 
 Para obtener información sobre cómo utilizar las funciones básicas de tableros, consulte [Introducción a tableros en [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Para obtener información sobre las herramientas de planificación Agile en los tableros, consulte [Información general sobre herramientas de planificación Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 

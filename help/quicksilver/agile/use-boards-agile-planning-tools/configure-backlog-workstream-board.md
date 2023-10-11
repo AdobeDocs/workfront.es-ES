@@ -7,14 +7,18 @@ description: Puede elegir mostrar una columna de registro de pendientes en un ta
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Configurar el registro de pendientes en una placa de flujo de trabajo
+
+>[!IMPORTANT]
+>
+>Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
 
 Puede elegir mostrar una columna de registro de pendientes en un tablero de un flujo de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas del flujo de trabajo.
 
@@ -71,7 +75,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Seleccione el modificador de consulta.
 
-   Las opciones del modificador dependen de los campos a los que se puedan aplicar. Por ejemplo, el campo &quot;nombre&quot; no tiene como modificadores &quot;bueno que&quot; o &quot;menor que&quot; porque estos modificadores sólo se aplican a números.
+   Las opciones del modificador dependen de los campos a los que se puedan aplicar. Por ejemplo, el campo &quot;nombre&quot; no tiene como modificadores &quot;mayor que&quot; o &quot;menor que&quot; porque estos modificadores sólo se aplican a números.
 
 1. Seleccione el valor.
 

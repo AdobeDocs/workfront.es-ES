@@ -7,16 +7,16 @@ description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tabl
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
 # Eliminar o archivar un tablero
 
-Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero, se elimina permanentemente de [!DNL Workfront], mientras que archivar una placa retiene todas las tarjetas y permite restaurarla más adelante. Estas opciones se aplican tanto a tableros independientes como a tableros que forman parte de flujos de trabajo.
+Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero, se elimina permanentemente de [!DNL Workfront], mientras que archivar una placa retiene todas las tarjetas y permite restaurarla más adelante.
 
 ## Requisitos de acceso
 

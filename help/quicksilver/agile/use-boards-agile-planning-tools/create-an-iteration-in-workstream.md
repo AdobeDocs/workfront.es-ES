@@ -7,14 +7,18 @@ description: Una iteración es una cantidad de tiempo establecida reservada para
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # Creación de una iteración en un flujo de trabajo
+
+>[!IMPORTANT]
+>
+>Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
 
 Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos Agile pueden referirse a una iteración como un sprint.
 
