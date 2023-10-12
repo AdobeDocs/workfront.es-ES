@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 2%
 
 ---
@@ -531,7 +531,7 @@ ht-degree: 2%
          * [Acceso administrativo para plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Asignar usuarios a plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Copiar una plantilla de diseño](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Elimine las plantillas de diseño del tipo Clásico mediante una llamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Elimine las plantillas de diseño de la experiencia clásica mediante una llamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formularios personalizados {#custom-forms}
          * [Formularios personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Información general sobre formularios personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -824,7 +824,7 @@ ht-degree: 2%
       * [Comprender la navegación para un usuario con licencia de revisión](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Información general sobre las fechas del proyecto, la tarea y el problema en Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Página de inicio {#home}
-      * [Página de inicio](workfront-basics/using-home/home.md)
+      * [Inicio](workfront-basics/using-home/home.md)
       * Nuevo inicio {#new-home}
          * [Nuevo inicio](workfront-basics/using-home/new-home/new-home.md)
          * [Introducción a la nueva página de inicio](workfront-basics/using-home/new-home/get-started-with-new-home.md)
@@ -971,6 +971,7 @@ ht-degree: 2%
       * [Usar tarjetas conectadas en tableros](agile/get-started-with-boards/connected-cards.md)
       * [Agregar tareas o problemas existentes a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Administrar tarjetas](agile/get-started-with-boards/move-board-items.md)
+      * [Administración de subtareas en tableros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [Agregar documentos en tarjetas](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)

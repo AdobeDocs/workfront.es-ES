@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td><p>Cualquier campo personalizado que agregue se mostrará en esta área.</p>
       <p>Para obtener más información, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar los campos que se muestran en una tarjeta</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtarea]</strong></span></td>
+      <td><span class="preview"><p>Cualquier subtarea existente para la tarea aparecerá en esta sección. Clic <strong>[!UICONTROL Agregar subtarea]</strong> para agregar una nueva subtarea.</p>
+      <p>El contador de la parte superior de la sección muestra el número de subtareas completadas y el número total de subtareas.</p>
+      <p>Para obtener más información sobre las subtareas, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Administración de subtareas en tableros</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Lista de comprobación]</strong> </td> 
-      <td> <p>Clic <strong>[!UICONTROL Agregar elemento de lista de comprobación]</strong>. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p> <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información sobre los elementos de la lista de comprobación, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de listas de comprobación en tarjetas</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Lista de comprobación]</strong></td>
+      <td><p>Clic <strong>[!UICONTROL Agregar elemento de lista de comprobación]</strong>. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p>
+      <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información sobre los elementos de la lista de comprobación, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de listas de comprobación en tarjetas</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
