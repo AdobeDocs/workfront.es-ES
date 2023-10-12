@@ -3,9 +3,10 @@ title: 23.3 Mejoras de Financial Management
 description: 23.3 Mejoras de Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Para ver una lista de todos los cambios disponibles en este punto del ciclo de l
 >
 >* Lanzamiento de producción para los clientes de lanzamiento rápido: Se anunciará después del lanzamiento de producción 23.3
 >
->* Versión de producción para todos los clientes: Versión de producción para todos los clientes: con la versión de 23.10 (octubre de 2023)
+>* Versión de producción para todos los clientes: Versión de producción para todos los clientes: Por anunciar
 >
 >La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.
 

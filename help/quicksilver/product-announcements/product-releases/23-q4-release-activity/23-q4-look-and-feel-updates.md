@@ -4,10 +4,10 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del cu
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo del cuarto trimestre de 2023.
 
 Para obtener una lista de todos los cambios disponibles con la versión del cuarto trimestre de 2023, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indicador de asignaciones ajustadas manualmente en el Distribuidor de cargas de trabajo
+
+>[!NOTE]
+>
+>Versión de vista previa: 12 de octubre de 2023; versión de producción para todos los clientes: por determinar
+
+Para proporcionar más claridad sobre los ajustes manuales o el contorneado en el Distribuidor de cargas de trabajo, las asignaciones horarias ajustadas manualmente ahora muestran un icono de lápiz.
+
+Para obtener más información, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nuevas actualizaciones de aspecto y funcionamiento de las pestañas del área de notificaciones de configuración
 
