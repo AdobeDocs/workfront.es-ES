@@ -4,13 +4,13 @@ description: Puede editar la información de los registros en Adobe Maestro. Deb
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Puede editar los registros que usted u otro usuario hayan creado. <!--will change with access levels-->
 * Si los registros editados están vinculados a otros registros, la nueva información de los registros que está editando se reflejará en los registros vinculados.
 * No puede editar registros de forma masiva. <!--this will probably change-->
-
+* No se pueden editar campos vinculados desde otros registros.
 
 ## Edición de registros
 
@@ -145,6 +145,11 @@ Puede editar un registro desde las siguientes áreas:
    >* Los campos vinculados no se pueden editar. La información de estos campos se rellena automáticamente a partir de los registros vinculados. Para obtener más información, consulte [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
    >
    >* Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

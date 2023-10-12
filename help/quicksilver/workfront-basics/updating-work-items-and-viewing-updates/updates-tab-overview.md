@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -33,7 +33,7 @@ ht-degree: 4%
 >
 >La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
 >
-> * Página de inicio
+> * Inicio
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 
@@ -327,7 +327,7 @@ Para obtener más información, consulte [Iniciar sesión como otro usuario](../
 
 Cualquier comentario hecho en nombre de otro usuario se indica en el comentario.
 
-<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+<!--remove the note below when we release this back to the new commenting-->
 
 >[!NOTE]
 >

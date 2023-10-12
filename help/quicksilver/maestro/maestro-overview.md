@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 1%
@@ -366,6 +366,12 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Envío de solicitudes |                               |                                  | ✓ |
 | Informe creativo |                               |                                  | ✓ |
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
+<!--
+Add another row for Rich text formatting:
+
+
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+-->
 
 ## Actividad de versión de Maestro
 
