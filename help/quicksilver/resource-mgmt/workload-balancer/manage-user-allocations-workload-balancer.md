@@ -6,7 +6,7 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo
+
+{{highlighted-preview}}
 
 Como Administrador de recursos, puede asignar trabajo a los usuarios y administrar sus asignaciones diarias, semanales o mensuales desde el Distribuidor de cargas de trabajo para asegurarse de que se les asigna una cantidad de horas que se ajusta a sus programaciones disponibles.
 
@@ -256,7 +258,7 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 
 >[!TIP]
 >
->Aparece un icono de lápiz a la derecha del nombre del elemento de trabajo para indicar que se ajustó manualmente.
+><span class="preview">Aparece un icono de lápiz a la derecha del nombre del elemento de trabajo para indicar que se ajustó manualmente.</span>
 
 ![Icono de horas ajustadas manualmente](assets/icon-for-manually-adjusted-hours.png)
 

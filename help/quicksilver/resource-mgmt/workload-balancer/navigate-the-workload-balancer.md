@@ -6,9 +6,9 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Tenga en cuenta lo siguiente al ver el Distribuidor de cargas de trabajo:
 
   >[!NOTE]
   >
-  >* Los elementos de trabajo asignados a un rol o a un equipo, y también asignados a un usuario que es el principal asignado, no se muestran en el área de Trabajo no asignado.
-  >* Los elementos de trabajo asignados a un usuario y a un rol, donde el rol está seleccionado como el principal asignado del elemento, no se muestran en el área de Trabajo no asignado.
+  >* Los elementos de trabajo asignados a un rol o a un equipo, y también asignados a un usuario que es el principal asignado, se muestran en el área de Trabajo no asignado y bajo el nombre del usuario asignado en el área de Trabajo asignado.
+  >* Los elementos de trabajo asignados a un usuario y a un rol, donde el rol está seleccionado como el principal asignado del elemento, se muestran en el área de Trabajo no asignado.
   >* Los elementos de trabajo asignados a más de un usuario se muestran con todos los nombres de usuarios asignados en el área Trabajo asignado.
+
+  Para obtener más información, consulte &quot;Áreas de asignación en el Distribuidor de cargas de trabajo&quot; en [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Cuando un proyecto no tiene tareas durante un período de tiempo, la barra en el nivel de proyecto se vuelve de color atenuado.
 
