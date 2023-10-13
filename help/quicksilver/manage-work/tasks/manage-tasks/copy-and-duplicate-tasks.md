@@ -6,9 +6,9 @@ description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea d
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -85,9 +85,14 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 Al copiar una tarea, tenga en cuenta lo siguiente:
 
-* Los problemas no se copian con la tarea.
 * Los hitos se transfieren a la tarea copiada y se eliminan de la tarea original.
 * Al copiar una tarea de un proyecto a otro, es posible que se recalculen las fechas de las tareas. Para volver a calcular se tendrá en cuenta la programación que utiliza el nuevo proyecto y la información de Programar a partir del proyecto.
+* Las subtareas se transfieren a la nueva tarea.
+* Los formularios personalizados se copian con la tarea. La información de los campos personalizados se transfiere a las tareas copiadas únicamente cuando selecciona copiar Datos personalizados al copiar la tarea.
+* Tiene la oportunidad de seleccionar copiar algunos elementos asociados con la tarea a la tarea copiada durante el proceso de copia. Sin embargo, de forma predeterminada, los siguientes objetos no se transfieren a la tarea copiada:
+   * Problemas
+   * Horas registradas
+   * Comentarios del usuario <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Puede copiar una tarea en las siguientes áreas de la aplicación web de Adobe Workfront:
 

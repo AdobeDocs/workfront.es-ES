@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3606'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
 >
-> * Página de inicio
+> * Inicio
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 
@@ -268,7 +268,12 @@ Para obtener información sobre las funciones disponibles para la nueva experien
 1. Clic **Enviar** para agregar la actualización al objeto Workfront.
 1. (Opcional) Para editar un comentario, haga clic en **Más** menú ![](assets/more-menu.png)  <span class="preview">en la esquina superior derecha del comentario</span>, luego haga clic en **Editar**.
 1. Edite la información del comentario, añada o elimine imágenes, o bien elimine cualquiera de los usuarios etiquetados.
-Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se introdujo el comentario.
+Solo puede editar su comentario en un plazo de 15 días desde el momento en que lo envía. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se introdujo el comentario.
+
+   >[!TIP]
+   >
+   >Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
+
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -276,7 +281,8 @@ Puede editar su comentario en un plazo de 15 días desde el envío. Se agrega un
    >
    >* Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
    >* La marca de fecha que aparece junto al comentario es la fecha del comentario original, no la fecha de la última edición.
-   >* Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
+   >* Cuando publica un comentario en nombre de otro usuario (cuando inicia sesión como otro usuario como Workfront o administrador de grupo), no puede editar el comentario si ha iniciado sesión como el otro usuario. Solo puede editar el comentario después de cerrar la sesión como usuario y volver a iniciarla como usuario.
+
 
 1. (Opcional) Haga clic en **Responder** para responder a un comentario existente, siga los pasos del 4 al 8 anteriores. <!--(**************insure this stays accurate***********)--> Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

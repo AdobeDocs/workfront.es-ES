@@ -5,13 +5,13 @@ title: Copiar y mover tareas de plantilla
 description: Puede copiar o mover una tarea de plantilla a la misma plantilla o a otra plantilla.
 author: Alina
 feature: Work Management
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2138'
 ht-degree: 3%
 
 ---
-
 
 # Copiar y mover tareas de plantilla
 
@@ -53,6 +53,12 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 Al copiar una tarea de plantilla, tenga en cuenta lo siguiente:
 
 * Los hitos no se transfieren a la tarea de plantilla copiada o desplazada.
+
+* Las subtareas se transfieren a la nueva tarea de plantilla.
+* Los formularios personalizados se copian con la tarea de plantilla. La información de los campos personalizados se transfiere a la nueva tarea de plantilla solo cuando selecciona copiar Datos personalizados.
+* Puede seleccionar copiar algunos elementos asociados con la tarea de plantilla en la tarea copiada durante el proceso de copia. Sin embargo, de forma predeterminada, los siguientes objetos no se transfieren a la tarea copiada:
+
+   * Comentarios del usuario
 
 * Puede copiar una tarea de plantilla en las siguientes áreas de la aplicación web de Adobe Workfront:
 
@@ -193,7 +199,7 @@ Además de copiar tareas de plantilla, también puede mover una tarea de plantil
 1. Realice una de las siguientes acciones:
    * Haga clic en el nombre de una tarea de plantilla para abrirla.
    * Seleccione una o varias tareas de plantilla en la lista.
-1. (Condicional) Haga clic en **Más** menú ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea, haga clic en **Mover a** o **Mover**, dependiendo de desde dónde acceda a la opción Mover.
+1. (Condicional) Haga clic en **Más** menú ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea, haga clic en **Mover a** o **Mover**, según desde dónde acceda a la opción Mover.
 Se abrirá el cuadro Mover tarea de plantilla.
    ![](assets/move-template-task-box-unshimmed.png)
 
@@ -218,7 +224,6 @@ Se abrirá el cuadro Mover tarea de plantilla.
    >
    >* La sección Opciones solo está disponible después de seleccionar una plantilla de destino.
    >* Anulando selección **Seleccionar todo** anula la selección de todas las opciones.
-
 
    Anule la selección de las siguientes opciones para no transferir la información a la tarea de plantilla desplazada. En la tabla siguiente se describe lo que sucede cuando no se seleccionan las opciones:
 
@@ -317,5 +322,3 @@ Se abrirá el cuadro Mover tarea de plantilla.
 1. Clic **Mover tarea de plantilla**.
 
    Las tareas de plantilla movidas ahora se encuentran en la plantilla especificada y son subtareas de la tarea de plantilla principal seleccionada o las últimas tareas de plantilla de la plantilla.
-
-
