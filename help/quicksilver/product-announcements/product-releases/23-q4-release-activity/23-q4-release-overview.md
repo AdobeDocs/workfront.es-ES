@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Botón Delegar trabajo para widgets de proyecto, tarea y problema</a> <span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>Característica que se solicita con frecuencia en la página principal antigua, ahora hemos agregado un botón delegado a los widgets Mi trabajo, Mis tareas y Mis problemas para que pueda delegar fácilmente el trabajo cuando esté fuera de la oficina.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 12 de octubre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para una versión rápida: con la versión 23.10</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión de 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de tableros para nueva página de inicio</a> <span style="color: #ff0000;"> Novedades en la vista previa</span></p>
