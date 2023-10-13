@@ -4,7 +4,7 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 0%
@@ -131,7 +131,7 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los tableros de Adobe Workfront</a></p><span style="color: #ff0000;"> Novedades en la vista previa</span><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los tableros de Adobe Workfront</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

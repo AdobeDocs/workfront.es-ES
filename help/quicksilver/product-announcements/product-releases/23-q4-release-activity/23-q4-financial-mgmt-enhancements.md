@@ -3,9 +3,9 @@ title: Mejoras de gestión financiera del cuarto trimestre de 2023
 description: Mejoras de gestión financiera del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,5 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 Ya están disponibles las tarifas de facturación y los costes efectivos por fecha en los objetos de empresa, usuario y rol de Workfront. Cuando se aplican tasas efectivas por fecha a un proyecto y las horas se registran en las tareas del proyecto, los costos e ingresos se calculan usando las tasas especificadas para cada período de tiempo.
 
 Para obtener más información, consulte [Edición del perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), y [Resumen de facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3424915/){target=_blank}
