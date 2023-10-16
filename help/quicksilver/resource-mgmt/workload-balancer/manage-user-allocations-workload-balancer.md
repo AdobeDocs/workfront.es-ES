@@ -6,9 +6,9 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Debe tener lo siguiente:
 
 Las asignaciones de usuarios son cantidades de horas que indican el tiempo que un usuario debe pasar en un día, día de la semana, semana o mes determinados para completar el elemento de trabajo. Se incluyen en las horas planificadas del elemento de trabajo.
 
-Este artículo describe cómo actualizar las asignaciones por horas diarias, semanales o mensuales para los usuarios asignados a tareas o problemas. Para obtener información sobre la administración de asignaciones generales para usuarios y roles de trabajo para tareas, consulte [Administrar horas de asignación de usuarios y funciones en las tareas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+Este artículo describe cómo actualizar las asignaciones por horas diarias, semanales o mensuales para los usuarios asignados a tareas o problemas. Para obtener información sobre la administración de asignaciones generales para usuarios y roles de trabajo para tareas, consulte [Administrar horas de asignación de usuarios y funciones en las tareas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Resumen de asignación de usuarios](#user-allocation-overview)
 * [Criterios que restablecen las asignaciones de usuario](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Tenga en cuenta lo siguiente al localizar asignaciones diarias, semanales o mens
 >
 >Workfront calcula la asignación de las dos horas durante los dos días de la duración mediante la fórmula siguiente:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Para nuestro ejemplo, las horas de asignación diarias para cada día son:
 >   
@@ -107,8 +104,6 @@ Tenga en cuenta lo siguiente al localizar asignaciones diarias, semanales o mens
 >  (2 / 13) * 8 = 1,23 horas de asignación para el segundo día
 >
 >  En los cálculos anteriores, 13 es el total de horas disponibles para la tarea: 5 + 8 = 13
-
-
 
 * Dos usuarios con zonas horarias o programas diferentes a los de los usuarios asignados pueden hacer que las cantidades asignadas aparezcan de forma diferente para dos usuarios que vean los mismos elementos de trabajo.
 
@@ -178,7 +173,7 @@ Tenga en cuenta lo siguiente al ver las horas planificadas en el Distribuidor de
 Como parte de la asignación de trabajo a los usuarios, puede modificar las asignaciones de usuarios en el Distribuidor de cargas de trabajo para garantizar que nunca se sobreasignen o para garantizar un equilibrio preciso de horas entre los recursos. Para obtener información sobre cómo identificar si un usuario está sobreasignado, consulte la sección [Resumen de asignación de usuarios](#user-allocation-overview) en este artículo.
 
 1. Asegúrese de que tiene tareas y problemas asignados a los usuarios. Para obtener información sobre la asignación de trabajo a los usuarios en el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-1. Vaya al Distribuidor de cargas de trabajo
+1. Vaya al Distribuidor de cargas de trabajo.
 1. (Opcional) Haga clic en **Semana** o **Mes** para administrar asignaciones semanales o mensuales para los usuarios.
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
@@ -199,9 +194,9 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 
 1. (Opcional) Haga clic en **Configuración** icono ![](assets/gear-icon-settings.png) y seleccione cualquiera de las siguientes opciones:
 
-   1. **Incluir las horas de los problemas**. Esto le permite administrar las asignaciones de problemas además de las asignaciones de tareas.
-   1. **Mostrar trabajo finalizado** . Esto muestra los elementos que se han completado y que están programados durante la cronología para la que administra las asignaciones.
-   1. **Mostrar el tiempo restante** opción. Cambia el número total de horas de cada usuario (en la línea de usuario). Con esta configuración habilitada, el Distribuidor de cargas de trabajo muestra las horas que cada usuario tiene disponibles para trabajar en lugar del número de horas que se le asignan.
+   1. **Incluir las horas de los problemas**. Esto le permite administrar las asignaciones de problemas además de las asignaciones de tareas.
+   1. **Mostrar trabajo finalizado**. Esto muestra los elementos que se han completado y que están programados durante la cronología para la que administra las asignaciones.
+   1. **Mostrar el tiempo restante**. Cambia el número total de horas de cada usuario (en la línea de usuario). Con esta configuración habilitada, el Distribuidor de cargas de trabajo muestra las horas que cada usuario tiene disponibles para trabajar en lugar del número de horas que se le asignan.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
       >[!NOTE]
       >
       >El administrador de Workfront decide qué programación utilizar en el sistema para calcular la capacidad del usuario en el área de Administración de recursos de la configuración. Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Haga clic en **Más** menú ![](assets/qs-more-menu.png) para un elemento de trabajo, haga clic en **Editar asignaciones**.
 
