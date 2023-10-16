@@ -6,9 +6,9 @@ description: Puede copiar o mover una tarea de plantilla a la misma plantilla o 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -52,22 +52,23 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 Al copiar una tarea de plantilla, tenga en cuenta lo siguiente:
 
-* Los hitos no se transfieren a la tarea de plantilla copiada o desplazada.
+* La siguiente información se transfiere a la tarea desplazada de forma predeterminada:
 
-* Las subtareas se transfieren a la nueva tarea de plantilla.
-* Los formularios personalizados se copian con la tarea de plantilla. La información de los campos personalizados se transfiere a la nueva tarea de plantilla solo cuando selecciona copiar Datos personalizados.
+   * Formularios personalizados e información de campos personalizados.
+   * Subtareas.
+
+* La siguiente información no se transfiere a la tarea desplazada o copiada:
+
+   * Los hitos no se transfieren a la tarea de plantilla copiada o desplazada.
+
 * Puede seleccionar copiar algunos elementos asociados con la tarea de plantilla en la tarea copiada durante el proceso de copia. Sin embargo, de forma predeterminada, los siguientes objetos no se transfieren a la tarea copiada:
 
    * Comentarios del usuario
-
-* Puede copiar una tarea de plantilla en las siguientes áreas de la aplicación web de Adobe Workfront:
-
-   * En el nivel de tarea de plantilla, desde el **Icono Más** ![](assets/more-icon.png) a la derecha del nombre de la tarea de plantilla.
-
-   * En una lista de tareas de plantilla.
-* Puede copiar o mover las tareas de plantilla de una en una, o seleccionar varias tareas de plantilla.
+* Los formularios personalizados se copian con la tarea de plantilla. La información de los campos personalizados se transfiere a la nueva tarea de plantilla solo cuando selecciona copiar Datos personalizados.
 
 ## Copiar tareas de plantilla
+
+Puede copiar una sola tarea de plantilla o copiar varias tareas de plantilla de forma masiva.
 
 1. Vaya a la plantilla que contiene la tarea de plantilla o las tareas de plantilla que desea copiar.
 1. Clic **Tareas de plantilla** en el panel izquierdo.
@@ -165,7 +166,6 @@ Se abrirá el cuadro Copiar tarea de plantilla.
     </tbody> 
    </table>
 
-(PREGUNTA SOBRE LA ÚLTIMA FILA: LA TAREA DE PLANTILLA NO PARECE TENER &quot;USO COMPARTIDO&quot;)
 
 1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla copiada.
 
@@ -191,8 +191,7 @@ Se abrirá el cuadro Copiar tarea de plantilla.
 
 ## Mover tareas de plantilla
 
-Además de copiar tareas de plantilla, también puede mover una tarea de plantilla a otra tarea de plantilla de la misma plantilla o a otra plantilla.
-
+Puede mover una tarea de plantilla a otra tarea de plantilla de la misma plantilla o a otra plantilla. Puede mover una o varias tareas de plantilla de forma masiva.
 
 1. Vaya a la plantilla que contiene la tarea de plantilla o las tareas de plantilla que desea mover.
 1. Clic **Tareas de plantilla** en el panel izquierdo.
@@ -300,7 +299,6 @@ Se abrirá el cuadro Mover tarea de plantilla.
     </tbody> 
    </table>
 
-(PREGUNTA SOBRE LA ÚLTIMA FILA: LA TAREA DE PLANTILLA NO PARECE TENER &quot;USO COMPARTIDO&quot;)
 
 1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla desplazada.
 
