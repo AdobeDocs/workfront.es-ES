@@ -4,19 +4,21 @@ description: Obtenga información sobre cómo conceder acceso y compartir inform
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Conceder acceso a Adobe Maestro
 
 >[!IMPORTANT]
+>
+>Adobe Maestro es una nueva oferta de Adobe Workfront.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro es una nueva oferta de Adobe Workfront. Para obtener más información, consulte [Introducción a Maestro](../maestro-overview.md).
 
 Actualmente, todos los usuarios de su organización pueden tener acceso a Maestro si se cumple el siguiente requisito previo:
 
@@ -50,9 +50,9 @@ Una vez que su organización se haya inscrito en el programa beta de Maestro, pu
 
 Para compartir el área de Maestro mediante una plantilla de diseño:
 
-1. Inicie sesión en Workfront como administrador del sistema.
+1. Iniciar sesión en **Workfront** como administrador del sistema.
 
-1. Agregue el icono Maestro al menú principal mediante una plantilla de diseño.
+1. Añada el **Maestro** icono ![](assets/maestro-icon.png) a la **Menú principal** uso de un **Plantilla de diseño**.
 
    Para obtener más información, consulte [Personalización del menú principal mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Para compartir el área de Maestro mediante una plantilla de diseño:
    Todos los usuarios asignados a la plantilla ahora pueden acceder a Maestro en su menú principal.
 
    Los usuarios pueden empezar a crear espacios de trabajo, tipos de registros, registros y campos.
-
-
-

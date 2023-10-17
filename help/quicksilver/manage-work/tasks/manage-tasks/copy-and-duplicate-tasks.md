@@ -6,9 +6,9 @@ description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea d
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ Al copiar una tarea, tenga en cuenta lo siguiente:
    Ir a un informe de tareas.
 
 1. (Condicional) Haga clic en **Tareas** en el panel izquierdo, si ha abierto el proyecto que contiene las tareas.
-1. Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , entonces **Autoguardar**.
+1. Haga clic en **Modo de planificación** icono ![](assets/qs-list-mode-or-save-mode-icon-small.png), y asegúrese de que las variables **Autoguardar** La opción está activada.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,18 +229,18 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
 1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea en el proyecto de destino en la que desea convertirse en el elemento principal de la tarea copiada.
 
->[!TIP]
->
->Al seleccionar copiar varias tareas en una lista, todas las tareas seleccionadas se convierten en los hijos del padre seleccionado.
+   >[!TIP]
+   >
+   >Al seleccionar copiar varias tareas en una lista, todas las tareas seleccionadas se convierten en los hijos del padre seleccionado.
 
-Seleccione un padre mediante una de las siguientes acciones:
+   Seleccione un padre mediante una de las siguientes acciones:
 
-* En la lista de tareas, seleccione uno de los elementos primarios del plan del proyecto.
-* Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea principal por su nombre.
+   * En la lista de tareas, seleccione uno de los elementos primarios del plan del proyecto.
+   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea principal por su nombre.
 
-La tarea debe aparecer en la lista.
+   La tarea se muestra en la lista.
 
-![Seleccionar tarea principal al mover una tarea con funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccionar tarea principal al mover una tarea con funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Seleccione el botón de opción del elemento principal, una vez encontrado.
 
@@ -287,11 +289,11 @@ Puede duplicar rápidamente una tarea en una lista de tareas, si necesita una ta
 1. Clic **Tareas** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
 
-   * (Condicional) Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autoguardar**, seleccione las tareas que desee duplicar y, a continuación, haga clic en **Menú Más** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Haga clic en **Modo de planificación** icono ![](assets/qs-list-mode-or-save-mode-icon-small.png) y asegúrese de que **Autoguardar** está activada, seleccione las tareas que desee duplicar y, a continuación, haga clic en **Menú Más** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Haga clic en **Menú del modo de planificación** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardado manual** > **Standard** o **Planificación de calendario**, luego haga lo siguiente:
+   * (Condicional) Haga clic en **Modo de planificación** icono ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardado manual** > **Standard** o **Planificación de calendario**, luego haga lo siguiente:
 
       1. Seleccione la tarea o tareas que desee duplicar y haga clic en **Duplicar**.
       1. (Opcional) Haga clic en **Deshacer** para invertir los cambios y no duplicar las tareas.

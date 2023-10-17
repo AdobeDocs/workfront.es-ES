@@ -4,13 +4,13 @@ description: Como líder de operaciones de marketing, puede utilizar Adobe Maest
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Información de Adobe Maestro
 
@@ -53,8 +53,8 @@ Acceda a los siguientes artículos para obtener una descripción general de Adob
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Vea un vídeo de demostración de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Introducción a Maestro](maestro-overview.md): Información general de alto nivel sobre Adobe Maestro, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Maestro aquí.
-* [Actividad de versión](../maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
+* [Introducción a Adobe Maestro](maestro-overview.md): Información general de alto nivel sobre Adobe Maestro, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Maestro aquí.
+* [Actividad de versión de Adobe Maestro](../maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
 
 ## Arquitectura y funcionalidad de Maestro
 
@@ -64,4 +64,3 @@ Las secciones siguientes contienen artículos en los que se describen detalladam
 * [Información de arquitectura](../maestro/architecture-and-fields/architecture-and-fields-information.md): Información detallada sobre la arquitectura de Adobe Maestro, con instrucciones paso a paso sobre cómo crear y administrar espacios de trabajo, tipos de registros y campos.
 * [Registra información](../maestro/records/records-information.md): Información detallada e instrucciones paso a paso sobre cómo crear y administrar registros.
 * [Información de vistas](../maestro/views/views-information.md): Información detallada sobre las vistas de Maestro y cómo administrarlas.
-

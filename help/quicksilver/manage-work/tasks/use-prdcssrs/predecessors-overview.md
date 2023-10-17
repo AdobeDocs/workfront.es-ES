@@ -2,136 +2,136 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Descripción general de las predecesoras de tareas
-description: Un predecesor es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias predecesoras.
+title: Información general sobre predecesoras de tareas
+description: Una tarea predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
-# Descripción general de las predecesoras de tareas
+# Información general sobre predecesoras de tareas
 
 <!-- 
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Un predecesor es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias predecesoras. Para comprender las dependencias predecesoras, consulte [Descripción general de los tipos de dependencia de tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Una tarea predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras. Para comprender las dependencias de predecesoras, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-## Información general sobre los predecesores
+## Información general sobre predecesoras
 
-Comprender la funcionalidad del predecesor es importante para comprender las cronologías de sus proyectos.
+Es importante comprender la funcionalidad de predecesoras para comprender las escalas de tiempo de los proyectos.
 
-Existen relaciones de predecesor entre tareas tanto dentro de un único proyecto como entre varios proyectos.
+Las relaciones de predecesoras entre tareas existen tanto dentro de un único proyecto como entre varios proyectos.
 
-En el caso de la dependencia de varios proyectos, puede establecer predecesores entre proyectos.
+En el caso de dependencia entre proyectos, puede establecer predecesoras entre proyectos.
 
-Tanto si las tareas predecesoras como las sucesoras pertenecen al mismo proyecto o a dos proyectos diferentes, las dependencias y las líneas de tiempo se calculan del mismo modo.
+Tanto si las tareas predecesoras como sucesoras pertenecen al mismo proyecto o a dos proyectos diferentes, las dependencias y las escalas de tiempo se calculan del mismo modo.
 
-En cuanto a los predecesores, la cronología del proyecto se ve afectada por lo siguiente:
+En el caso de las tareas predecesoras, la cronología del proyecto se ve afectada por lo siguiente:
 
-* Dependencia del predecesor
-* Valor y tipo de registro\
-   Para obtener más información sobre dependencia y etiquetas, consulte [Ejemplos de valores predecesores en una lista de tareas](#examples-of-predecessor-values-in-a-task-list).
+* Dependencia de predecesora
+* Valor de retardo y tipo\
+  Para obtener más información sobre la dependencia y los retardos, consulte [Ejemplos de valores de predecesoras en una lista de tareas](#examples-of-predecessor-values-in-a-task-list).
 
-Por ejemplo, si la tarea A es la predecesora de la tarea B en una relación de finalización-inicio y la tarea B tiene una restricción de tareas de Tan pronto como sea posible, Workfront asigna la tarea B a una fecha de inicio planificada inmediatamente después de la fecha de finalización planificada de la tarea A, independientemente de si la predecesora se aplica o no.
+Por ejemplo, si la tarea A es la predecesora de la tarea B en una relación fin-comienzo y la tarea B tiene una delimitación de tarea de Lo antes posible, Workfront asigna a la tarea B una fecha de comienzo planificada inmediatamente después de la fecha de finalización planificada de la tarea A, independientemente de si la predecesora se aplica o no.
 
-Para comprender las relaciones predecesoras, debe comprender:
+Para comprender las relaciones de predecesoras, debe comprender lo siguiente:
 
-* **Tipos de dependencia:** Los predecesores están vinculados por varios tipos de dependencia. Para obtener más información sobre los tipos de dependencia, consulte [Descripción general de los tipos de dependencia de tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **Tipos de dependencias:** Las predecesoras están vinculadas por varios tipos de dependencias. Para obtener más información sobre los tipos de dependencia, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Ejecución de un predecesor:** Al aplicar un predecesor, la tarea sucesora no puede comenzar hasta que se complete el predecesor. La tarea sucesora se muestra como comenzando inmediatamente después de que finalice el predecesor.
+* **Aplicar un predecesor:** Al aplicar una tarea predecesora, la tarea sucesora no puede comenzar hasta que la predecesora finalice. La tarea sucesora se muestra como iniciándose inmediatamente después de que finalice la predecesora.
 
-   Workfront no permite que se marque como In Progress o Complete hasta que se complete el predecesor. Sin embargo, Workfront permite que se informe de horas sobre la tarea.\
-   Para obtener más información sobre cómo aplicar predecesores, consulte [Aplicar predecesores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea predecesora. Sin embargo, Workfront permite que se informe de las horas de la tarea.\
+  Para obtener más información sobre cómo aplicar predecesoras, consulte [Forzar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-* **Etiquetas:** Puede crear etiquetas en las dependencias que creen un retraso que debe producirse tras la finalización de una tarea predecesora y antes de que pueda comenzar la tarea sucesora. Los retrasos afectan a la cronología del proyecto.
+* **Desfases:** Puede crear retardos en las dependencias que crean un retraso que debe producirse después de la finalización de una tarea predecesora y antes de que pueda comenzar la tarea sucesora. Los retrasos afectan a la cronología del proyecto.
 
-   Para comprender los tipos de retraso, consulte [Descripción general de los tipos de retraso](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Para comprender los tipos de retardo, consulte [Información general sobre los tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-## Crear relaciones predecesoras
+## Crear relaciones de predecesoras
 
-Para crear predecesores, consulte cualquiera de los siguientes artículos:
+Para crear predecesoras, consulte cualquiera de los siguientes artículos:
 
-* Para establecer predecesores con la ficha Predecesores de la tarea, consulte [Crear una relación predecesora con el área Predecesoras](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-* Para establecer predecesores en una lista de tareas, consulte [Crear una relación predecesora en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
-* Para establecer relaciones predecesoras encadenando tareas, consulte [Crear relaciones de predecesor encadenando tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
-* Para establecer predecesores entre proyectos, consulte [Crear predecesores entre proyectos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+* Para establecer predecesoras mediante la ficha Predecesoras de la tarea, consulte [Cree una relación de predecesoras mediante el área Predecesoras](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Para establecer predecesoras en una lista de tareas, consulte [Crear una relación de predecesoras en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+* Para establecer relaciones de predecesoras encadenando tareas, consulte [Crear relaciones de predecesoras encadenando tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+* Para establecer predecesoras entre proyectos, consulte [Crear predecesoras entre proyectos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
-## Localización de los predecesores de una tarea {#locate-the-predecessors-of-a-task}
+## Busque las tareas predecesoras de una tarea {#locate-the-predecessors-of-a-task}
 
-Para buscar los predecesores de una tarea, realice una de las siguientes acciones:
-
-* Vaya al proyecto en el que está trabajando y haga lo siguiente:
-
-   1. Busque la tarea para la que desea buscar los predecesores y haga clic en la tarea.
-   1. Haga clic en **Predecesores** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, luego **Predecesores**.
-   1. El nombre del proyecto en el que se encuentra el predecesor se muestra en la **Proyecto** para abrir el Navegador.
-
-      El número de la variable **#** muestra el número de tarea predecesor. Por ejemplo, &quot;6&quot; significa la sexta tarea del proyecto.
-
-      ![Sección Predecesoras de la tarea](assets/predecessors-area-with-task-header.png)
+Para buscar las tareas predecesoras de una tarea, realice una de las siguientes acciones:
 
 * Vaya al proyecto en el que está trabajando y haga lo siguiente:
 
-   1. Haga clic en el **Tareas** pestaña .
-   1. Elija la **Vista estándar** en la parte superior de la lista de tareas.
-   1. La variable **Predecesores** muestra los números de la tarea predecesora.
+   1. Busque la tarea para la que desea buscar las predecesoras y haga clic en la tarea.
+   1. Clic **Predecesoras** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Predecesoras**.
+   1. El nombre del proyecto en el que se encuentra el predecesor se muestra en el **Proyecto** columna.
 
-      Para un predecesor de varios proyectos, la columna Predecesores muestra el número de referencia del proyecto al que pertenece el predecesor y el número de la tarea, separados por dos puntos.
+      El número del **#** muestra el número de tarea predecesora. Por ejemplo, &quot;6&quot; significa la sexta tarea del proyecto.
 
-      El icono predecesor se vuelve verde cuando la tarea predecesora se marca como completada. Esto indica que la tarea dependiente está lista para funcionar.
+      ![Sección de predecesoras de la tarea](assets/predecessors-area-with-task-header.png)
+
+* Vaya al proyecto en el que está trabajando y haga lo siguiente:
+
+   1. Haga clic en **Tareas** pestaña.
+   1. Elija la **Vista estándar** al principio de la lista de tareas.
+   1. El **Predecesoras** muestra los números de las tareas predecesoras.
+
+      Para una tarea predecesora entre proyectos, la columna Predecesoras muestra el número de referencia del proyecto al que pertenece la tarea predecesora y el número de la tarea, separados por dos puntos.
+
+      El icono del predecesor se vuelve verde cuando la tarea del predecesor se marca como completada. Esto indica que la tarea dependiente está lista para trabajar.
 
       Pase el ratón sobre este valor para obtener más información sobre el predecesor, el proyecto y las fechas.
 
-      ![Detalles del predecesor](assets/predecessor-details-in-task-list.png)
+      ![Detalles de la predecesora](assets/predecessor-details-in-task-list.png)
 
-## Ejemplos de valores predecesores en una lista de tareas {#examples-of-predecessor-values-in-a-task-list}
+## Ejemplos de valores de predecesoras en una lista de tareas {#examples-of-predecessor-values-in-a-task-list}
 
-Cuando vea predecesores en una lista de tareas, es posible que vea cualquiera de los siguientes tipos de predecesores con sus respectivos tipos de dependencias e importes de retraso:
+Cuando vea predecesoras en una lista de tareas, puede que vea cualquiera de los siguientes tipos de predecesoras con sus respectivos tipos de dependencia y cantidades de retardo:
 
-* **1fs -** El número de tarea predecesora es 1. El tipo de dependencia es Finish-Start. En la cronología del proyecto, esta tarea está programada para iniciarse inmediatamente después de que finalice la tarea 1. A pesar de esto, puede seguir siendo marcado como In Progress o Complete.
-* **1 -** El número de tarea predecesora es 1. Esto es igual que **1fs**, porque **fs** es la relación predecesora predeterminada en Workfront.
+* **1fs -** El número de tarea predecesora es 1. El tipo de dependencia es Fin-Inicio. En la escala de tiempo del proyecto, esta tarea está programada para iniciarse inmediatamente después de que finalice la tarea 1. A pesar de esto, aún puede marcarse como En curso o Completado.
+* **1 -** El número de tarea predecesora es 1. Esto es lo mismo que **1fs**, porque **fs** es la relación de predecesora predeterminada en Workfront.
 
-* **1fse -** El número de tarea predecesora es 1. El tipo de dependencia es Finish-Start-Enforced. En la cronología del proyecto, esta tarea se muestra como comenzando inmediatamente después de finalizar la tarea 1. Workfront no permite que se marque como In Progress o Complete hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de horas sobre la tarea.
-* **1fs+3d -** El número de tarea predecesora es 1. El tipo de dependencia es Finish-Start con un tiempo de retraso de 3 días. En la línea de tiempo del proyecto, esta tarea se muestra como comenzando 3 días laborables después de que la tarea 1 haya finalizado.
-* **1fs-3d -** El número de tarea predecesora es 1. El tipo de dependencia es Finish-Start con un tiempo de retraso de 3 días. En la cronología del proyecto, esta tarea se muestra como 3 días laborables antes de que finalice la tarea predecesora.
-* **1fs+3de** -El número de tarea predecesora es 1. El tipo de dependencia es Finish-Start-Enforced con un tiempo de retraso de 3 días. En la línea de tiempo del proyecto, esta tarea se muestra como comenzando 3 días laborables después de que la tarea 1 haya finalizado. Workfront no permite que se marque como In Progress o Complete hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de horas sobre la tarea.
+* **1fse -** El número de tarea predecesora es 1. El tipo de dependencia es Fin-Comienzo-Aplicado. En la escala de tiempo del proyecto, esta tarea se muestra como si comenzara inmediatamente después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
+* **1fs+3d -** El número de tarea predecesora es 1. El tipo de dependencia es Fin-Comienzo con un tiempo de retardo de 3 días. En la escala de tiempo del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1.
+* **1fs-3d -** El número de tarea predecesora es 1. El tipo de dependencia es Fin-Comienzo con un tiempo de retardo de 3 días. En la escala de tiempo del proyecto, esta tarea se muestra como el comienzo de 3 días laborables antes de que finalice la tarea predecesora.
+* **1fs+3de** -El número de tarea predecesora es 1. El tipo de dependencia es Fin-Comienzo-Aplicado con un tiempo de retardo de 3 días. En la escala de tiempo del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completa hasta que se complete la Tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
 
-   >[!NOTE]
-   >
-   >El valor forzado (**e**) debe agregarse al registro, no al predecesor.
+  >[!NOTE]
+  >
+  >El valor obligatorio (**e**) se debe agregar al retardo, no al predecesor.
 
-* **4515:2** El número de tarea predecesora es 2. - Es una dependencia de tipo Fin a Inicio, no forzada, con el predecesor del proyecto con número de referencia **4515**; el número de tarea predecesora es **2**.
+* **4515:2** El número de tarea predecesora es 2. - Es una dependencia de tipo Fin a comienzo, no forzada, con el predecesor en el proyecto con número de referencia **4515**.
 
-## Ver información de predecesor
+## Ver información de predecesoras
 
-Puede ver la información del predecesor en las siguientes áreas de Workfront. Esto incluye información sobre los predecesores entre proyectos:
+Puede ver la información de predecesoras en las siguientes áreas de Workfront. Esto incluye información sobre las tareas predecesoras entre proyectos:
 
-* En el nivel de tarea, en la sección Predecesores .
+* En el nivel de tarea, en la sección Predecesoras.
 
-   Para obtener información sobre la visualización de la información predecesora en la sección Predecesores , consulte la sección [Localización de los predecesores de una tarea](#locate-the-predecessors-of-a-task) en este artículo.
+  Para obtener información acerca de cómo ver la información de predecesoras en la sección Predecesoras, vea la sección [Busque las tareas predecesoras de una tarea](#locate-the-predecessors-of-a-task) en este artículo.
 
-* En el diagrama de Gantt.
+* En el gráfico Gantt.
 
-   Para obtener información sobre cómo mostrar los predecesores en el diagrama de Gantt, consulte [Configurar cómo se muestra la información en el diagrama de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  Para obtener información acerca de cómo mostrar predecesoras en el gráfico Gantt, consulte [Configurar cómo se muestra la información en el gráfico Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 * En una lista de tareas.
 
-   Para ver información sobre los predecesores de las tareas en una lista de tareas, puede realizar una de las siguientes acciones:
+  Para ver información sobre las tareas predecesoras de las tareas en una lista de tareas, puede realizar una de las siguientes acciones:
 
-   * Aplique la vista estándar integrada en una lista de tareas.
+   * Aplicar la vista estándar integrada en una lista de tareas.
 
-      Para obtener información sobre la visualización de la información predecesora en la vista Estándar, consulte la sección [Localización de los predecesores de una tarea](#locate-the-predecessors-of-a-task) en este artículo.
+     Para obtener información acerca de cómo ver la información de predecesoras en la vista Estándar, vea la sección [Busque las tareas predecesoras de una tarea](#locate-the-predecessors-of-a-task) en este artículo.
 
-   * Cree una vista de tarea o un informe y añada la columna Predecesores a esa vista.
+   * Cree una vista de tareas o un informe y agregue la columna Predecesoras a esa vista.
 
-      Para obtener más información sobre la creación de una vista personalizada para las tareas con información de predecesor, consulte [Ver: detalles del predecesor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     Para obtener más información sobre la creación de una vista personalizada para tareas con información de predecesoras, consulte [Ver: detalles de predecesoras](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * En el encabezado de la tarea al acceder a la tarea.
 
-   ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![](assets/qs-predecessor-info-in-task-header-350x141.png)

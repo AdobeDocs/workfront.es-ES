@@ -6,9 +6,9 @@ description: Puede copiar o mover una tarea de plantilla a la misma plantilla o 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 3%
 
 ---
@@ -50,21 +50,33 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Consideraciones para copiar o mover tareas de plantilla
 
-Al copiar una tarea de plantilla, tenga en cuenta lo siguiente:
+Tenga en cuenta lo siguiente al copiar tareas de plantilla:
+
+* La siguiente información no se transfiere a la tarea copiada:
+
+   * Hitos
+
+* Puede seleccionar copiar algunos elementos asociados con la tarea de plantilla en la tarea copiada durante el proceso de copia. Sin embargo, de forma predeterminada, los siguientes objetos no se transfieren a la tarea copiada:
+
+   * Comentarios del usuario
+
+* Los formularios personalizados se copian con la tarea de plantilla al copiar una tarea de plantilla. La información de los campos personalizados se transfiere a la nueva tarea de plantilla solo cuando selecciona copiar Datos personalizados.
+
+* Los siguientes elementos se transfieren a la tarea de plantilla copiada de forma predeterminada:
+
+   * Subtareas
+
+Tenga en cuenta lo siguiente al mover tareas de plantilla:
 
 * La siguiente información se transfiere a la tarea desplazada de forma predeterminada:
 
    * Formularios personalizados e información de campos personalizados.
    * Subtareas.
+   * Comentarios del usuario.
 
-* La siguiente información no se transfiere a la tarea desplazada o copiada:
+* La siguiente información no se transfiere a la tarea desplazada:
 
-   * Los hitos no se transfieren a la tarea de plantilla copiada o desplazada.
-
-* Puede seleccionar copiar algunos elementos asociados con la tarea de plantilla en la tarea copiada durante el proceso de copia. Sin embargo, de forma predeterminada, los siguientes objetos no se transfieren a la tarea copiada:
-
-   * Comentarios del usuario
-* Los formularios personalizados se copian con la tarea de plantilla. La información de los campos personalizados se transfiere a la nueva tarea de plantilla solo cuando selecciona copiar Datos personalizados.
+   * Hitos.
 
 ## Copiar tareas de plantilla
 
