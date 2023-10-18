@@ -6,9 +6,9 @@ description: Puede mover tareas a diferentes proyectos o a diferentes tareas pri
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Tenga en cuenta lo siguiente al mover una tarea:
 
 Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
-* Los hitos se transfieren a la tarea copiada y se eliminan de la tarea original.
+* Hitos
 
 ## Mover tareas a una lista
 

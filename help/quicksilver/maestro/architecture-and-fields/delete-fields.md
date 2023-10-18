@@ -4,19 +4,21 @@ description: En Adobe Maestro, puede eliminar los campos personalizados que ya n
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Eliminar campos
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -35,6 +37,9 @@ Puede eliminar los campos de Maestro que ya no sean relevantes.
 * Puede eliminar los campos que haya creado o los creados por otros usuarios. <!--this will change with access levels/ permissions-->
 * Los campos sólo se pueden eliminar en la tabla de tipo de registro.
 * La información almacenada en el campo se elimina y no se puede recuperar.
+* Cuando se elimina un campo de registro vinculado, todos los campos de búsqueda vinculados también se eliminan del tipo de registro desde el que se establece el vínculo. Los campos de registro vinculados de los tipos de registro a los que está vinculado no se eliminan.
+
+  Para obtener más información, consulte [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisitos de acceso

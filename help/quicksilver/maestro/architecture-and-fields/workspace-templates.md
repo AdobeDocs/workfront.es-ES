@@ -4,13 +4,13 @@ description: Un área de trabajo es un conjunto de tipos de registros operativos
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Lista de plantillas de Workspace
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -154,5 +156,3 @@ A continuación se indican las plantillas de área de trabajo de Maestro y el n�
       * **Equipo de productos**: 3 campos
       * **Solicitudes de función**: 8 campos y 1 campo vinculado
       * **Industria**: 1 campo y 1 campo vinculado
-
-

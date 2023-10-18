@@ -4,19 +4,21 @@ description: Los tipos de registro son los componentes básicos de un área de t
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Información general sobre los tipos de registros y las taxonomías
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >

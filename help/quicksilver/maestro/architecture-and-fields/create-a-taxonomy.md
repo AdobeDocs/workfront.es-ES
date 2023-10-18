@@ -4,19 +4,21 @@ description: Las taxonomías son un tipo de tipos de registros reutilizables que
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Crear tipos de registros de taxonomía
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >

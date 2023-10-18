@@ -4,13 +4,13 @@ description: Después de crear conexiones entre tipos de registros, puede conect
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Conectar registros
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -276,15 +278,3 @@ Después de crear una conexión entre un tipo de registro Maestro y un tipo de o
    >  Los campos que agregue o quite en la página de tipo de registro de objeto de Workfront no se agregarán ni quitarán del tipo de registro de Maestro que vincula al tipo de objeto de Workfront. Los campos sólo están visibles en la página de sólo lectura de tipo de registro de Workfront, por lo que puede revisarlos en Maestro.
 
 1. (Opcional) En el menú desplegable Vista de la página de tipo de registro de objeto de Workfront, elija la vista Cronología para mostrar los objetos vinculados de Workfront en la vista Cronología.
-
-
-
-
-
-
-
-
-
-
-
-

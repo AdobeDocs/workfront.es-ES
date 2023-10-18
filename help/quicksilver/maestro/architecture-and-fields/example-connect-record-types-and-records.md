@@ -4,17 +4,19 @@ description: Este artículo describe un ejemplo de cómo crear una conexión ent
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Ejemplo de conexión de tipos y registros
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -193,6 +195,3 @@ Para ello:
    >    Los campos que agregue al registro de Workfront Project Maestro sólo se agregan en la página de Workfront Project y no a la página de tipo de registro de Campaign, como campos vinculados. Debe agregar los campos de proyecto desde el campo de objeto conectado Información del proyecto del tipo de registro Campaña para verlos en las campañas.
 
 1. (Opcional y condicional) Si ha seleccionado mostrar al menos dos campos de fecha para los proyectos, haga clic en **Ver** menú desplegable en la tabla de tipo de registro de Workfront Project y, a continuación, **Crear vista** > **Cronología** > **Crear** para crear una vista de cronología y mostrar los proyectos en una cronología.
-
-
-

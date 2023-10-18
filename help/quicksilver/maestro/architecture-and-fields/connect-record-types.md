@@ -4,13 +4,13 @@ description: Una manera de indicar cómo se relacionan los tipos de registros in
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
+>
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
@@ -42,6 +44,7 @@ Puede conectar lo siguiente:
 
 * Tipos de registros operativos de Maestro
 * Tipos de registros operativos de Maestro a tipos de registros de taxonomía
+* Tipos de taxonomía de Maestro a tipos de registros operativos
 * Tipos de registros operativos de Maestro y tipos de objetos de otras aplicaciones.
 
 De este modo, puede mostrar campos del registro vinculado o del tipo de objeto de otro registro Maestro.
@@ -250,18 +253,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Un campo de registro vinculado en el tipo de registro al que está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
-     Por ejemplo, si vincula el tipo de registro &quot;Producto&quot; desde el tipo de registro &quot;Campaña&quot; y asigna al campo conectado de la campaña el nombre &quot;Producto vinculado&quot;, se crea un campo vinculado &quot;Campaña&quot; para el tipo de registro Producto.
+     Por ejemplo, si vincula el tipo de registro &quot;Producto&quot; desde el tipo de registro &quot;Campaña&quot; y asigna al campo conectado de la campaña el nombre &quot;Producto vinculado&quot;, se crea un campo de registro vinculado &quot;Campaña&quot; para el tipo de registro Producto.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >El campo de registro vinculado que muestra el tipo de registro desde el que está vinculando no se agrega a los tipos de registro cuando conecta un tipo de registro con lo siguiente: <!--is this temporary for taxonomies??-->
-     >        
-     >   * Una taxonomía.
-     >   * Un tipo de objeto de otra aplicación.
-
-1. (Opcional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la lista desplegable a la derecha del campo de registro vinculado y, a continuación, haga clic en una de las siguientes opciones:
+1. (Opcional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 
    * **Editar campo**: solo puede actualizar el **Nombre** y el **Descripción** información del campo.
    * **Editar campos de búsqueda**: agregue o quite cualquiera de los campos del registro vinculado.
@@ -270,11 +264,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Para añadir o quitar campos, siga las instrucciones de los pasos 7-12 anteriores. <!--ensure these step numbers stay accurate-->
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada en el encabezado del registro o los campos vinculados y, a continuación, haga clic en **Eliminar**.
+1. (Opcional) Haga clic en la flecha hacia abajo en el encabezado del campo de registro vinculado desde el tipo de registro desde el que está vinculando y, a continuación, haga clic en **Eliminar**.
 
-   El campo de registro y cualquier campo de búsqueda adicional se eliminan, y los campos y su información no se pueden recuperar.
+   El campo de registro y cualquier campo de búsqueda vinculado adicional se eliminan, y los campos y su información no se pueden recuperar.
 
    >[!TIP]
    >
-   >    El campo de registro vinculado del registro vinculado desde el registro original no se elimina. <!-- is this still accurate?! -->
-
+   >    El campo de registro vinculado del tipo de registro al que está vinculando no se elimina. <!-- is this still accurate?! -->

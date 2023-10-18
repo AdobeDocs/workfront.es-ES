@@ -6,7 +6,7 @@ description: Puede copiar o mover una tarea de plantilla a la misma plantilla o 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 3%
@@ -70,9 +70,9 @@ Tenga en cuenta lo siguiente al mover tareas de plantilla:
 
 * La siguiente información se transfiere a la tarea desplazada de forma predeterminada:
 
-   * Formularios personalizados e información de campos personalizados.
-   * Subtareas.
-   * Comentarios del usuario.
+   * Formularios personalizados e información de campos personalizados
+   * Subtareas
+   * Comentarios del usuario
 
 * La siguiente información no se transfiere a la tarea desplazada:
 

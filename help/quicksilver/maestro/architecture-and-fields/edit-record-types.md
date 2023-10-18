@@ -4,13 +4,13 @@ description: Puede editar los tipos de registro una vez guardados. Los tipos de 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Editar tipos de registros
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -123,4 +125,3 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    También puede cambiar el nombre de un tipo de registro en el encabezado de la página del tipo de registro.
-

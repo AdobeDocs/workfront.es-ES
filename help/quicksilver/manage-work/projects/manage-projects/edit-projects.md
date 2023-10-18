@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -457,7 +457,7 @@ Para editar campos en el área Finanzas:
        <td> <p>Controla la manera en que las tareas principales se marcan como Completadas. Seleccione entre las siguientes opciones: 
        <ul> 
        <li><strong>Automático</strong>: las tareas principales se marcan como Completadas y actualizan el porcentaje completado automáticamente, a medida que se completan las tareas secundarias y se actualiza el porcentaje completado de las tareas secundarias. </li> 
-       <li><strong>Manual</strong>: Debe actualizar manualmente el porcentaje completado y el estado de las tareas principales, independientemente de los cambios realizados en las tareas secundarias.</li> 
+       <li><strong>Manual</strong>: Debe actualizar manualmente el porcentaje completado y el estado de las tareas principales, independientemente de los cambios realizados en las tareas secundarias. Esto le permite marcar una tarea principal como completada incluso cuando las subtareas están incompletas. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 

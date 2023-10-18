@@ -4,13 +4,13 @@ description: Puede mostrar registros en una vista de escala de tiempo al acceder
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
-
 
 # Administrar la vista de cronología
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
@@ -261,5 +263,3 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 1. Haga clic en **Guardar**.
 
    Los registros se muestran en la vista de escala de tiempo con las especificaciones seleccionadas.
-
-

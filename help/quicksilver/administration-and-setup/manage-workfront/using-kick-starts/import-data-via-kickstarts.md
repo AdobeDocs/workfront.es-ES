@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>:</p> 
+   <p> Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Después de rellenar la plantilla de Excel con los datos, puede cargar sus datos
 
 La importación de KickStart admite los siguientes tipos de archivo:
 
-* Excel basado en XML (&#42;.xlsx)
-* Excel heredado (&#42;.xls)
-* Comprimido (&#42;ZIP) archivo xlsx o xls
+* Excel basado en XML (.xlsx)
+* Excel heredado (.xls)
+* Archivo comprimido (.ZIP) (que contiene solo archivos .xlsx o .xls)
 
   >[!NOTE]
   >
-  >Debe utilizar un archivo ZIP al importar hojas de cálculo de Excel que hagan referencia a informes, documentos o avatares, o bien ver, filtrar o agrupar archivos de propiedades. Al utilizar un archivo de importación comprimido, la variable &#42;El archivo ZIP debe tener el mismo nombre que &#42;.xlsx o &#42;.xls y todo el contenido debe estar en el mismo nivel de estructura de archivos (sin carpetas).
-
+  >Debe utilizar un archivo .ZIP al importar hojas de cálculo de Excel que hagan referencia a los objetos siguientes:
+  >
+  >* Informes
+  >* Documentos
+  >* Avatares
+  >* Ver, filtrar o agrupar archivos de propiedades.
+  >
+  >Al utilizar un archivo de importación comprimido, el archivo .ZIP debe tener el mismo nombre que el archivo .xlsx o .xls y todos los archivos deben tener el mismo nivel de estructura (sin carpetas).
 
 Para importar los datos de la hoja de cálculo de plantillas en Workfront:
 

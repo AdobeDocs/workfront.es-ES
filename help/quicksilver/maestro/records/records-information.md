@@ -4,13 +4,13 @@ description: Después de crear tipos de registros en Adobe Maestro, puede crear 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -27,6 +27,8 @@ hide: yes
 # Registra información
 
 >[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
 >
 >En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
 >
