@@ -3,9 +3,9 @@ title: Mejoras en el hogar del cuarto trimestre de 2023
 description: Mejoras en el hogar del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ En una nueva adición importante a las opciones de administración de trabajo di
 
 Para obtener más información sobre los widgets disponibles en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nueva página de aterrizaje de colaborador predeterminada: Nueva página de inicio
+## Nueva página de aterrizaje predeterminada del colaborador: Nueva página de inicio
 
-La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la Nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Tenga en cuenta que si un diseño con una página de inicio personalizada la utiliza actualmente una cuenta de colaborador, seguirá siendo su página de inicio.
+La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Tenga en cuenta que si un diseño con una página de inicio personalizada la utiliza actualmente una cuenta de colaborador, seguirá siendo su página de inicio.
 
 Para obtener más información sobre el uso de la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

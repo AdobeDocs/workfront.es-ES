@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -325,8 +325,8 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva página de aterrizaje de colaborador predeterminada: Nueva página de inicio</a> <span style="color: #ff0000;"> Novedades en la vista previa</span> </p>
-                        <p>La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva página de aterrizaje predeterminada del colaborador: Nueva página de inicio</a> <span style="color: #ff0000;"> Novedades en la vista previa</span> </p>
+                        <p>La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Plantillas de correo electrónico actualizadas</a> <span style="color: #ff0000;"> Novedades en la vista previa</span></p>
-                        <p>Como inicio de una nueva iniciativa para actualizar nuestros correos electrónicos de notificación de eventos, hemos actualizado dos de los más utilizados: la aprobación de documentos y el uso compartido de objetos.</p>
-                    </td>
-                    <td><p><b>Disponible en estas fechas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versión de vista previa: 12 de octubre de 2023</p>
-                            </li>
-                            <li>
-                                <p>Producción para una versión rápida: con la versión 23.10</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: con la versión de 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambios en el menú principal del colaborador</a> <span style="color: #ff0000;"> Novedades en la vista previa</span></p>
-                        <p>Para informar mejor a los colaboradores de las funciones disponibles con un tipo de licencia de Workfront de pago, ahora pueden ver todas las opciones disponibles en el menú principal.</p>
+                        <p>Para informar mejor a los colaboradores/solicitantes de las funciones disponibles con un tipo de licencia de Workfront de pago, ahora pueden ver todas las opciones disponibles en el menú principal.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
