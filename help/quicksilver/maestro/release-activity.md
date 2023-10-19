@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Vista previa y producción: 16 de octubre de 2023
 
 Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página Detalles de un registro. Para obtener más información, consulte [Edición de registros](../maestro/records/edit-records.md).
 
+
+### Registrar y agrupar códigos de color para la vista Cronología
+
+Vista previa y producción: 19 de octubre de 2023
+
+Ahora puede codificar con colores las barras de registro y las agrupaciones en la vista Línea de tiempo.
+
+Las siguientes son opciones para los colores que puede elegir mostrar para las barras de registros y agrupaciones en la vista Línea de tiempo:
+
+* Las agrupaciones pueden coincidir con los colores siguientes:
+
+   * Gris (valor predeterminado)
+
+   * El color del campo por el que se agrupa
+
+* Las barras pueden coincidir con los colores siguientes:
+
+   * El color del tipo de registro
+
+   * El color de un campo que seleccione
+
+   * El color de la agrupación
+
+   * Sin color (valor predeterminado)
+
+Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
+
+Para obtener más información, consulte [Administrar la vista de cronología](../maestro/views/manage-the-timeline-view.md).
 
 ## Semana del 9 de octubre de 2023
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 1. Clic **Iniciar sesión.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Cuando inicia sesión como otro usuario, la fecha del último inicio de sesión 
 Cuando inicia sesión en Workfront como otro usuario y realiza una acción, Workfront indica claramente que cualquier acción que realice la realizará usted en nombre del usuario con el que ha iniciado sesión.
 
 Por ejemplo, si comenta un elemento mientras está conectado como otro usuario, una instrucción indica que usted hizo el comentario en nombre del usuario.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Al utilizar la nueva experiencia de comentarios, el comentario se agrega como el usuario que ha iniciado sesión como otro usuario y no hay indicación de que esté agregando un comentario en nombre de otra persona.
->
->Por ejemplo, si un administrador de Workfront inicia sesión como otro usuario, el usuario asociado con el comentario es el administrador de Workfront. Para obtener más información, consulte [Nueva experiencia de comentarios](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Ver información de auditoría {#view-audit-information}
 

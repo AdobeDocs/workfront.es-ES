@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 1%
+source-wordcount: '1432'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +156,7 @@ Para administrar una vista de cronología:
 
 ### Añadir filtros
 
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
+Puede reducir la cantidad de información que se muestra en la pantalla mediante filtros.
 
 Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
@@ -166,13 +166,13 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
 * Los filtros son exclusivos de la vista seleccionada. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes filtros aplicados. Dos usuarios que ven la misma vista de cronología ven el mismo filtro que se aplica actualmente.
 
-* No puede asignar nombres a los filtros que genere y aplique a una vista de cronología.
+* No puede asignar un nombre a los filtros que genere para una vista de cronología.
 
-* Al eliminar los filtros, se eliminan de todos los usuarios que tienen acceso al mismo tipo de registro que usted y que utilizan la misma vista que utiliza.
+* Al eliminar los filtros, se eliminan de todos los que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
 
-Añadir filtros en la vista de cronología es idéntico a añadir filtros en la vista de tabla.
+* Añadir filtros en la vista de cronología es idéntico a añadir filtros en la vista de tabla.
 
-Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](../views/manage-the-table-view.md).
+  Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](../views/manage-the-table-view.md).
 
 ### Agregar agrupación
 
@@ -180,45 +180,49 @@ Para obtener más información, consulte la sección &quot;Agregar filtros&quot;
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 Puede agrupar registros por información similar al aplicar una agrupación a una vista.
 
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
-* Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Puede aplicar tres niveles de agrupación en una vista Maestro. Los registros se agrupan en el orden de agrupaciones que seleccione.
 * Puede aplicar hasta 4 niveles de agrupación al utilizar la API.
+* Las agrupaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de cronología ven la misma agrupación que se aplica actualmente.
+
+* No puede asignar nombres a las agrupaciones que genere para una vista de cronología.
+
+* Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 
 Para agregar una agrupación:
 
-1. Cree una vista de cronología, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
-1. Clic **Agrupación**.
+1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
+1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente** y busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
    >[!TIP]
    >
    >No se pueden seleccionar campos vinculados.
 
-   La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación. El número de elementos de una agrupación se muestra en la línea de agrupación.
+   La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
 
-   El número de agrupaciones aplicadas se muestra a la izquierda del icono Agrupación en la esquina superior derecha de la barra de herramientas.
+   El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Haga clic en **x** a la derecha de una agrupación para eliminar la agrupación
+1. (Opcional) Haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
 
    O
 
-   Clic **Borrar todo** para quitar todas las agrupaciones.
+   Clic **Borrar todo** para eliminar todos los campos.
 
 1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Editar la configuración de vista de cronología {#edit-the-timeline-view-settings}
 
-Actualice la configuración de vista de escala de tiempo para indicar qué información se muestra en la sección de escala de tiempo de la vista.
+Actualice la configuración de vista de escala de tiempo para indicar qué información se muestra en la sección de escala de tiempo de la vista y cómo.
 
-1. Cree una vista de cronología, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
+1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
 1. Clic **Configuración**.
 1. Clic **Fecha y hora** en el panel izquierdo, seleccione una **Fecha de inicio** y un **Fecha de finalización** para mostrar en la cronología. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la fecha Start y finalizan en la fecha correspondiente a End date.
 
    >[!NOTE]
    >
-   >    Los registros que no tienen valores para las fechas Start o End o que tienen una fecha Start posterior a End no se muestran en la vista de escala de tiempo.
+   >Los registros que no tienen valores para las fechas Start o End o que tienen una fecha Start posterior a End no se muestran en la vista de escala de tiempo.
 
+1. Clic **Estilo de barra** en el panel izquierdo, para indicar qué campos desea mostrar en las barras de registros.
 
-1. Clic **Registrar detalles** para indicar qué campos desea mostrar en los tableros de registros.
-
-   El campo Name está seleccionado de forma predeterminada.
+   El campo Name está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
 
 1. Clic **Añadir campo** para agregar hasta 4 campos a las barras de registros.
 1. Haga clic dentro de **Campos de búsqueda** y haga clic en el campo que desee añadir.
@@ -259,6 +262,41 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
    A la derecha aparece una vista previa del aspecto que tendrán las barras en la cronología.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Clic **Color** en el panel izquierdo, para personalizar los colores de los registros y las agrupaciones en la cronología.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Condicional y opcional) Si ha agregado una agrupación a la vista de escala de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la vista de escala de tiempo **Definir color de agrupación** sección:
+
+   * **Predeterminado (gris)**: el color de las agrupaciones se establece en gris. Esta es la opción predeterminada.
+   * **Valores de campo**: El color de las agrupaciones coincide con el color del campo por el que se agrupa.
+Puede hacer coincidir el color de las agrupaciones solo con campos con opciones codificadas por colores.
+
+   Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
+
+   Si agrupa por campos sin opciones codificadas por colores, el color de agrupación permanece gris.
+
+   >[!TIP]
+   >
+   >Si no ha agregado agrupaciones a la vista de cronología, esta sección no se muestra.
+
+1. En el **Establecer color de registro** , seleccione entre las siguientes opciones para definir un color para los registros:
+
+   * **Tipo de registro**: El color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
+   * **Valores de campo**: El color de los registros coincide con el color de un campo especificado. Continúe con el paso 10. <!--ensure this stays accurate-->
+   * **Agrupación**: El color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de escala de tiempo.
+   * **Ninguno**: los registros se muestran en una barra blanca.
+
+1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo de la **Hacer coincidir el color del registro con** menú desplegable.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   En el menú desplegable solo se muestran los campos con opciones codificadas por colores.
+
+   Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
+
+   Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
 1. Haga clic en **Guardar**.
 

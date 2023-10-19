@@ -5,9 +5,9 @@ title: Glosario de [!DNL Adobe Workfront] terminología
 description: El [!DNL Adobe Workfront] En el glosario se enumeran los términos más utilizados en Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '19720'
+source-wordcount: '19729'
 ht-degree: 0%
 
 ---
@@ -818,7 +818,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Participación]</td> 
-   <td>El [!UICONTROL Indicador de rendimiento del trabajo] (WPI) que indica cuándo disminuye el compromiso y la confianza en la tarea, proyecto, equipo u organización. Esto indica que es necesario actuar para revivir esa creencia y ese compromiso. WPI se mediría haciendo preguntas simples, "¿Entendió lo que se esperaba de usted? ¿El trabajo que se le ha asignado ha marcado una diferencia en la organización? ¿Hiciste un trabajo bueno?"</td> 
+   <td>El [!UICONTROL Indicador de rendimiento del trabajo] (WPI) que indica cuándo disminuye el compromiso y la confianza en la tarea, proyecto, equipo u organización. Esto indica que es necesario actuar para revivir esa creencia y ese compromiso. WPI se mediría haciendo preguntas simples, "¿Entendió lo que se esperaba de usted? ¿El trabajo que se le ha asignado ha marcado una diferencia en la organización? ¿Hiciste un gran trabajo?"</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
@@ -987,7 +987,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Agrupación]</td> 
-   <td> <p>Elemento de creación de informes que se utiliza para categorizar la información de una lista según un criterio común.</p> <p>Para obtener más información, consulte la sección "[!UICONTROL Groupings]" en el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> </td> 
+   <td> <p>Elemento de informe que se utiliza para categorizar la información de una lista según un criterio común.</p> <p>Para obtener más información, consulte la sección "[!UICONTROL Groupings]" en el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fecha de transferencia]</td> 
@@ -1538,7 +1538,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
     </ul> 
     <ul> 
      <li> <p>Para proyectos, [!DNL Workfront] calcula las horas planificadas agregando todas las horas planificadas de todas las tareas del proyecto. </p> </li> 
-    </ul> <p><b>SUGERENCIA</b></p> <p>También puede mostrar [!UICONTROL Horas planificadas] en informes de [!UICONTROL proyecto], [!UICONTROL tarea] o [!UICONTROL problemas] utilizando el modo de texto y haciendo referencia a campos adicionales. Para obtener más información, consulte el "<code>work</code>", "[!UICONTROL Work]" y "<code>workRequiredExpression</code>" en esta tabla. </p> </td> 
+    </ul> <p><b>SUGERENCIA</b></p> <p>También puede mostrar las [!UICONTROL Horas planificadas] en los informes de [!UICONTROL proyecto], [!UICONTROL tarea] o [!UICONTROL problemas] utilizando el modo de texto y haciendo referencia a campos adicionales. Para obtener más información, consulte el "<code>work</code>", "[!UICONTROL Work]" y "<code>workRequiredExpression</code>" en esta tabla. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo de mano de obra planificado]</td> 
@@ -2039,7 +2039,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
      <li>[!UICONTROL Verificado completo]</li> 
      <li>[!UICONTROL Reabierto]</li> 
     </ul> <p>Para obtener más información sobre los estados de problemas, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceso a la lista de estados de problemas del sistema</a>.</p> 
-    <p>Para los objetivos estratégicos, el [!UICONTROL Estado] es un ajuste en el objetivo que indica si el objetivo es:</p> 
+    <p>Para los objetivos estratégicos, el [!UICONTROL Estado] es una configuración del objetivo que indica si el objetivo es:</p> 
      <ul> 
       <li>[!UICONTROL Activo]</li> 
       <li>[!UICONTROL Borrador]</li> 
@@ -2078,7 +2078,8 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actualización de estado]</td> 
-   <td> <p>Este campo muestra la actualización de estado más reciente proporcionada por los usuarios en el campo "[!UICONTROL Update Status]". Los comentarios realizados en las actualizaciones de estado no se muestran en la columna [!UICONTROL Actualización de estado].</p> <p>Para mostrar los estados '[!UICONTROL New],' '[!UICONTROL In Process],' y '[!UICONTROL Complete]', utilice la columna [!UICONTROL Status].</p> <p>Los comentarios realizados en las actualizaciones de estado no se muestran en la columna [!UICONTROL Actualización de estado].</p> <p>Para obtener más información sobre los estados, consulte el artículo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Actualizar estado de la tarea</a>.</p> </td> 
+   <td> <p>Este campo muestra la actualización de estado más reciente proporcionada por los propietarios de objetos en el campo "[!UICONTROL Update Status]". En el caso de los proyectos, esto significa comentarios realizados por el Propietario del proyecto y, en el de las tareas y problemas, significa comentarios realizados por los usuarios asignados.</p> 
+   <p> Los comentarios realizados en las actualizaciones de estado no se muestran en la columna [!UICONTROL Actualización de estado].</p> <p>Para mostrar los estados '[!UICONTROL New],' '[!UICONTROL In Process],' y '[!UICONTROL Complete]', utilice la columna [!UICONTROL Status].</p> <p>Para obtener más información sobre los estados, consulte el artículo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Actualizar estado de la tarea</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Estados]</td> 
@@ -2403,7 +2404,7 @@ Debe utilizar el adicional <code>[!UICONTROL usewidths=true]</code> línea de c�
    <p>El sistema utiliza este número para calcular la disponibilidad del usuario para el trabajo real relacionado con el proyecto. </p>
    <p> Las excepciones de horario y los días libres también pueden afectar a la capacidad del usuario. </p>
    <p>Para obtener más información sobre la creación de programaciones en Workfront, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creación de una programación</a>. </p>
-    <p>Workfront calcula la disponibilidad de un usuario en función de las preferencias de Administración de recursos del área de [!UICONTROL Setup]. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurar preferencias de administración de recursos</a>. </p> 
+    <p>Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de [!UICONTROL Setup]. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurar preferencias de administración de recursos</a>. </p> 
    <p>Puede actualizar el [!UICONTROL Tiempo de trabajo] de un usuario cuando edite o cree el usuario. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edición del perfil de un usuario</a></p> 
    <b>SUGERENCIA</b> 
    <p>Establezca el valor de [!UICONTROL Tiempo de trabajo] en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a tiempo completo.</p> 

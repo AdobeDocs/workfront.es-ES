@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Actualmente se está desarrollando una actualización de la experiencia de comen
 
 La nueva experiencia de comentarios estará disponible lentamente para todos los objetos con una sección de Actualizaciones en Workfront y, posteriormente, se ampliará a otras aplicaciones de Adobe Experience Cloud.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Funciones
@@ -50,7 +47,7 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 * Comentario sobre una actualización del sistema
 * Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
 * Editar formulario personalizado
-* La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre se eliminó originalmente. Se ha restablecido el 19 de octubre de 2023.
 * La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Resolver comentarios 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>T3, 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Buscar en comentarios 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>T3, 2023 
+   <td>1º trimestre de 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Copiar y pegar imágenes en un comentario
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1º trimestre de 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Editar formulario personalizado 
    </td>
@@ -456,7 +455,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
