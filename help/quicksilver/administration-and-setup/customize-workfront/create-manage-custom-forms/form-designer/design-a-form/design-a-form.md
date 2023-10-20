@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ Para agregar campos de fecha de escritura anticipada:
 
 ### Adición de campos de búsqueda externos
 
-Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una de estas opciones en la lista desplegable.
+Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable.
 
 Para añadir una búsqueda externa:
 
@@ -540,7 +540,8 @@ Para añadir una búsqueda externa:
      <tr> 
       <td role="rowheader">URL de API básica</td> 
       <td><p>Escriba o pegue la dirección URL de la API.</p><p>La dirección URL de la API debe devolver un contenido JSON de las opciones que desee mostrar en la lista desplegable. Puede utilizar la Ruta de JSON para seleccionar los valores específicos de las opciones desplegables de JSON que se van a devolver.</p><p>Al introducir la URL de la API, puede, opcionalmente, pasar los siguientes valores en la URL:</p>
-      <ul><li>$$query: representa el texto de búsqueda que el usuario final escribe en el campo y le permite implementar filtros de consulta para los usuarios finales. (El usuario buscará el valor en la lista desplegable).</li>
+      <ul><li>$$QUERY: representa el texto de búsqueda que el usuario final escribe en el campo y le permite implementar el filtrado de consultas para los usuarios finales. (El usuario buscará el valor en la lista desplegable).</li>
+      <li>$$HOST: representa el host actual de Workfront y se puede utilizar para hacer llamadas de la API /search a la API de Workfront. Cuando se utiliza este comodín, se administra la autenticación y los usuarios no necesitan enviar encabezados de autenticación. (Por ejemplo, los usuarios pueden buscar tareas utilizando la URL base "$$HOST/attask/api/task/search" y permitirá buscar tareas y seleccionar valores de una lista devuelta de tareas).</li>
       <li>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo de Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</li></ul>
       <p><strong>NOTA:</strong> Revise la documentación de la API con la que está trabajando para las consultas específicas que puede definir.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Encabezados</td>
       <td><p>Clic <strong>Añadir encabezado</strong>y escriba o pegue el par clave-valor necesario para la autenticación con la API.</p><p><strong>NOTA:</strong> Los campos Encabezado no son un lugar seguro para almacenar credenciales y debe tener cuidado con lo que escribe y guarda.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Lista desplegable de selección múltiple</td>
+      <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
+     </tr>       
     </tbody>
    </table>
 
