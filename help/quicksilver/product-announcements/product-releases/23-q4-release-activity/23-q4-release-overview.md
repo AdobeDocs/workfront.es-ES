@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en tiempo real en la lista de tareas</a> </p>
+                        <p>[!BADGE en producción]{type=Informative}</p>
+                        <p>Las listas de tareas ahora se actualizan en tiempo real. Los cambios realizados en una tarea se actualizan en la lista de tareas, de modo que un usuario que vea la lista de tareas pueda ver el cambio sin actualizar la página.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: N/D<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: Despliegue gradual, completado el 19 de octubre de 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
