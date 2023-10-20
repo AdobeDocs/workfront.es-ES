@@ -3,9 +3,9 @@ title: Mejoras en el hogar del cuarto trimestre de 2023
 description: Mejoras en el hogar del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Característica que se solicita con frecuencia en la página principal antigua, ahora hemos agregado un botón delegado a los widgets Mi trabajo, Mis tareas y Mis problemas para que pueda delegar fácilmente el trabajo cuando esté fuera de la oficina. En el menú delegado, que funciona de forma idéntica a como lo hacía antes de Nueva página de inicio, puede seleccionar a quién y durante cuánto tiempo desea delegar sus historias y problemas. Tenga en cuenta que la delegación de trabajo debe estar habilitada en el entorno de Workfront para que aparezca el botón.
 
-Para obtener más información sobre cómo delegar en Workfront, consulte [Administrar delegación de tareas y problemas](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Para obtener más información sobre cómo delegar en Workfront, consulte [Administrar delegación de tareas y problemas](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Nuevo widget de tableros para nueva página de inicio
 
@@ -30,7 +30,7 @@ Para obtener más información sobre los widgets disponibles en la nueva página
 
 ## Nueva página de aterrizaje predeterminada del colaborador: Nueva página de inicio
 
-La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Tenga en cuenta que si un diseño con una página de inicio personalizada la utiliza actualmente una cuenta de colaborador, seguirá siendo su página de inicio.
+La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Los widgets predeterminados para los colaboradores son: Solicitudes, Menciones, Problemas y Tableros. Tenga en cuenta que si una cuenta de colaborador está utilizando un diseño con una página de inicio personalizada, seguirá siendo su página de inicio.
 
 Para obtener más información sobre el uso de la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
