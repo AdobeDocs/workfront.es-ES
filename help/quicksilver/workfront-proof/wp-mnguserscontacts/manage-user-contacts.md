@@ -6,8 +6,9 @@ title: Administración de usuarios y contactos en [!DNL Workfront Proof]
 description: 'Esta sección contiene las siguientes subsecciones: EDITAR.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b0ff2ed5-4724-4d67-aa83-6dff583aeb36
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 21%
@@ -18,7 +19,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene las siguientes subsecciones:
 

@@ -4,14 +4,15 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Administrar Adobe Workfront
-description: Como administrador de Workfront, puede configurar la prueba de la funcionalidad de Workfront, los informes, los correos electrónicos, la seguridad, los tipos de cambio, los elementos eliminados y los diagnósticos.
+description: Como administrador de Workfront, puede configurar la revisión de la funcionalidad de Workfront, los informes, los correos electrónicos, la seguridad, los tipos de cambio, los elementos eliminados y los diagnósticos.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
@@ -19,8 +20,8 @@ ht-degree: 13%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Configuración de la funcionalidad de pruebas](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-* [Configurar informes](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
+* [Configuración de la funcionalidad de revisión](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [Configuración de informes](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [Correos electrónicos](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Seguridad](../../administration-and-setup/manage-workfront/security/security.md)
 * [Tasas de cambio](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)

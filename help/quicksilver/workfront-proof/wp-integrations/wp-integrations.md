@@ -7,8 +7,9 @@ title: Integraciones de Workfront Proof
 description: 'Esta sección contiene las siguientes subsecciones: EDITAR.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 25%
@@ -19,7 +20,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene las siguientes subsecciones:
 

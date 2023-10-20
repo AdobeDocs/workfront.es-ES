@@ -1,32 +1,33 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: Crear y administrar partes de horas en Adobe Workfront
-description: Puede crear hojas de horas en Adobe Workfront y realizar un seguimiento del tiempo que emplea en completar el trabajo. Obtenga más información sobre la creación, edición y administración de hojas de horas en los siguientes artículos.
+title: Creación y administración de plantillas de horas en Adobe Workfront
+description: Puede crear plantillas de horas en Adobe Workfront y realizar un seguimiento del tiempo empleado en completar el trabajo. Consulte los siguientes artículos para obtener más información sobre la creación, edición y administración de plantillas de horas.
 author: Alina
 feature: Timesheets
+recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 028b6ee8921750b3807934fcadd24b24781e5c34
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Crear y administrar partes de horas en Adobe Workfront
+# Creación y administración de plantillas de horas en Adobe Workfront
 
 Esta sección contiene los siguientes artículos:
 
-* [Crear, editar y asignar perfiles de parte de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [Definir tipos de hora y disponibilidad para hojas de hora](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
-* [Crear un parte de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
+* [Crear, editar y asignar perfiles de hojas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+* [Definir tipos de horas y disponibilidad para hojas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [Crear hoja de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
 * [Editar información de hoja de horas](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
-* [Tiempo de registro](../../timesheets/create-and-manage-timesheets/log-time.md)
-* [Enviar un parte de horas para su aprobación](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
-* [Aprobar un parte de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
-* [Ver las horas totales en el parte de horas](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
-* [Ver y administrar comentarios en un parte de horas](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
-* [Eliminar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
-* [Eliminar partes de horas en Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
-* [Generar hojas de hora manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-* [Exportación de una lista de partes de horas](../../timesheets/create-and-manage-timesheets/export-timesheets.md)
+* [Hora de registro](../../timesheets/create-and-manage-timesheets/log-time.md)
+* [Enviar hoja de horas para su aprobación](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
+* [Aprobar una hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
+* [Ver las horas totales en la hoja de horas](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
+* [Ver y administrar comentarios en una hoja de horas](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
+* [Eliminar perfiles de hojas de horas](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
+* [Eliminación de plantillas de horas en Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
+* [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [Exportación de una lista de plantillas de horas](../../timesheets/create-and-manage-timesheets/export-timesheets.md)

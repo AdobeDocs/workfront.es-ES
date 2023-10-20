@@ -3,9 +3,10 @@ filename: _outlook-365-add-in
 content-type: release-notes
 navigation-topic: announcements
 title: Complemento de Outlook 365
-description: 'Esta sección contiene los siguientes artículos: EDITAR.'
+recommendations: noDisplay, noCatalog
+description: Los siguientes artículos están disponibles en esta sección.
 author: Luke
-source-git-commit: 87a26e459d2b943cac7a123b7c7c53323d257d93
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 0%

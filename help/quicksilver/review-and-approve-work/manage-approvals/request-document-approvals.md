@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: approvals
 title: Solicitar aprobaciones de documentos
-description: Puede solicitar la aprobación de los administradores u otros usuarios para un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a personas que no tengan cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en Configuración de preferencias de seguridad del sistema.
+description: Puede solicitar la aprobación de los administradores u otros usuarios de un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a usuarios sin cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en Configuración de las preferencias de seguridad del sistema.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Solicitar aprobaciones de documentos
 
-Puede solicitar la aprobación de los administradores u otros usuarios para un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a personas que no tengan cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en [Configuración de las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Puede solicitar la aprobación de los administradores u otros usuarios de un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a personas sin cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en [Configurar las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Requisitos de acceso
 
@@ -26,7 +26,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -35,57 +35,57 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver o acceder más a Proyectos, Tareas, Problemas, Plantillas, Portfolio, Programas, Informes, Tableros y Calendarios, Documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Plantillas, Portfolio, Programas, Informes, Tableros y Calendarios, Documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar el acceso al objeto asociado con la solicitud de acceso o aprobación </p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar el acceso al objeto asociado con el acceso de solicitud o la aprobación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Solicitar la aprobación de un documento
+## Solicitar aprobación de documento
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Desplácese hacia abajo hasta el **Aprobaciones** del Resumen y comience a escribir en la sección **Agregar aprobador** cuadro de texto. Puede agregar usuarios de Workfront por nombre o usuarios externos por correo electrónico.
+1. Desplácese hacia abajo hasta el **Aprobaciones** de la sección Resumen y empiece a escribir en el **Agregar aprobador** cuadro de texto. Puede agregar usuarios de Workfront por nombre o usuarios externos por correo electrónico.
 
-1. Si el administrador de Adobe Workfront ha habilitado la capacidad de colaborar con personas que no usan Workfront, tal como se describe en [Configuración de las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), puede escribir sus direcciones de correo electrónico para incluirlas.
+1. Si el administrador de Adobe Workfront ha habilitado la capacidad de colaborar con personas que no utilizan Workfront, tal como se describe en [Configurar las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), puede escribir sus direcciones de correo electrónico para incluirlas.
 
-   No se puede solicitar la aprobación de equipos o grupos.
+   No se puede solicitar la aprobación a equipos o grupos.
 
-1. Repita el paso anterior para añadir otros aprobadores.
+1. Repita el paso anterior para agregar otros aprobadores.
 
-## Volver a enviar una aprobación en una nueva versión
+## Volver a enviar una aprobación para una nueva versión
 
-Las decisiones de aprobación de documentos no se restablecen automáticamente al cargar una nueva versión. Por ejemplo, si el documento está aprobado con cambios, la decisión mostrará &quot;cambios&quot; como decisión, incluso si carga una nueva versión con los cambios especificados. Puede borrar la decisión sobre una nueva versión si vuelve a enviar la aprobación manualmente.
+Las decisiones de aprobación de documentos no se restablecen automáticamente al cargar una nueva versión. Por ejemplo, si el documento se aprueba con cambios, la decisión mostrará &quot;cambios&quot; como la decisión, aunque cargue una nueva versión con los cambios especificados. Puede borrar la decisión sobre una nueva versión si vuelve a enviar manualmente la aprobación.
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Desplácese hacia abajo hasta el **Aprobaciones** en Resumen, haga clic en el icono Más y, a continuación, haga clic en Volver a enviar .
+1. Desplácese hacia abajo hasta el **Aprobaciones** En la sección Resumen, haga clic en el icono Más y, a continuación, haga clic en Volver a enviar.
 
    ![](assets/nwe-resubmit-approval-350x149.png)
 
 ## Eliminar una solicitud de aprobación de documento
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Desplácese hacia abajo hasta el **Aprobaciones** en el Resumen y, a continuación, haga clic en la **Más** en línea con el nombre del aprobador y seleccione **Eliminar**.
+1. Desplácese hacia abajo hasta el **Aprobaciones** de la sección Resumen y, a continuación, haga clic en **Más** en línea con el nombre del aprobador y seleccione **Eliminar**.
 
-   La solicitud de aprobación se elimina y el aprobador recibe una notificación de que ya no es necesaria su aprobación. También se elimina su acceso compartido relacionado con la aprobación.
+   La solicitud de aprobación se elimina y el aprobador recibe una notificación que le informa de que ya no necesita su aprobación. También se elimina su acceso compartido relacionado con la aprobación.
 
 ## Enviar un recordatorio a un aprobador
 
-Puede enviar un mensaje para recordar a un aprobador que está esperando sus comentarios.
+Puede enviar un mensaje para recordar a un aprobador del documento que está esperando sus comentarios.
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Desplácese hacia abajo hasta el **Aprobaciones** en el Resumen y, a continuación, haga clic en la **Más** en línea con el nombre del aprobador y seleccione **Recordar**.
+1. Desplácese hacia abajo hasta el **Aprobaciones** de la sección Resumen y, a continuación, haga clic en **Más** en línea con el nombre del aprobador y seleccione **Recordar**.
 
    El aprobador recibe una notificación que le informa de que la aprobación sigue pendiente. También pueden recibir un recordatorio por correo electrónico si lo tienen habilitado.

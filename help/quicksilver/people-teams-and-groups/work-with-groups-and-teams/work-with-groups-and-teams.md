@@ -6,8 +6,9 @@ title: Trabajar con grupos y equipos
 description: Lea estos artículos para aprender a trabajar con grupos y equipos en Workfront.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%
@@ -18,4 +19,4 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Grupos frente a equipos en [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [Grupos vs. equipos en [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

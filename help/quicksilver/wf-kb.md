@@ -1,16 +1,17 @@
 ---
 filename: wf-kb
-title: Base de conocimientos de Workfront
+title: base de conocimiento de Workfront
+recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 17%
+ht-degree: 48%
 
 ---
 
 
-# Base de conocimientos de Workfront
+# base de conocimiento de Workfront
 
 * [Administración y configuración](administration-and-setup/administration-and-setup.md)
 * [Conceptos básicos de Adobe Workfront](workfront-basics/workfront-basics.md)
@@ -20,9 +21,9 @@ ht-degree: 17%
 * [Administrar trabajo](manage-work/manage-work.md)
 * [Revisar y aprobar el trabajo](review-and-approve-work/review-and-approve-work.md)
 * [Documentos](documents/documents-overview.md)
-* [Informes](reports-and-dashboards/reports-and-dashboards-overview.md)
+* [Creación de informes](reports-and-dashboards/reports-and-dashboards-overview.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
@@ -30,6 +31,6 @@ ht-degree: 17%
 * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Revisión de Workfront](workfront-proof/workfront-proof.md)
-* [Anuncios del producto](product-announcements/product-announcements.md)
+* [Anuncios de productos](product-announcements/product-announcements.md)
 
 .

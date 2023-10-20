@@ -2,12 +2,13 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Resultados y actividades en los objetivos de Adobe Workfront
-description: Los resultados y las actividades son indicadores de progreso para un objetivo en los objetivos de Adobe Workfront. Obtenga más información sobre los resultados y las actividades en los siguientes artículos.
+title: Resultados y actividades en Adobe Workfront Goals
+description: Los resultados y las actividades son indicadores de progreso para un objetivo en los Objetivos de la Adobe Workfront. Consulte los siguientes artículos para obtener más información sobre los resultados y las actividades.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 ---
 
 
-# Resultados y actividades en los objetivos de Adobe Workfront
+# Resultados y actividades en Adobe Workfront Goals
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:
 
@@ -43,20 +44,20 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 >
->* Un Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
->* Licencia de Adobe Workfront para objetivos además de una licencia de Workfront.
+>* A Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
+>* Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
->  Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront para objetivos.
+>  Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 >
->Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Para registrar el progreso en los objetivos de Workfront, debe asociar los indicadores de progreso a los objetivos. Además de los resultados y las actividades, también puede asociar proyectos u objetivos secundarios a un objetivo para registrar el progreso.
+Para registrar el progreso en las Metas de Workfront, debe asociar los indicadores de progreso a las metas. Además de los resultados y las actividades, también puede asociar proyectos o metas secundarias a una meta para registrar el progreso.
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción a resultados y actividades en objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Agregar actividades a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Agregar resultados a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Agregar proyectos a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [Editar resultados y actividades en objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
-* [Eliminar resultados, actividades y proyectos de los objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+* [Introducción a resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Editar resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Eliminar resultados, actividades y proyectos de las metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

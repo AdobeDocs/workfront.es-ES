@@ -3,24 +3,25 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: Funciones de grupo
-description: El administrador de Workfront concede a los grupos el acceso a las áreas de Workfront en las que necesitan trabajar y comunicarse. Cada grupo puede mantener su información de Workfront, como usuarios, plantillas, formularios personalizados y proyectos separados de los de otros departamentos. Se requiere al menos un administrador de grupo para cada grupo. Pueden existir hasta 14 niveles de subgrupos bajo un grupo.
+title: Agrupar funciones
+description: El administrador de Workfront concede a los grupos acceso a las áreas de Workfront donde necesitan trabajar y comunicarse. A continuación, cada grupo puede mantener su información de Workfront, como usuarios, plantillas y formularios y proyectos personalizados, separada de la de otros departamentos. Se requiere al menos un administrador de grupo para cada grupo. Pueden existir hasta 14 niveles de subgrupos en un grupo.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Funciones de grupo
+# Agrupar funciones
 
 Esta sección contiene los siguientes artículos:
 
-* [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
+* [Administradores de grupos](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
 * [Asignar un usuario como administrador de grupo](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
 * [Acciones permitidas para diferentes tipos de administradores](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)

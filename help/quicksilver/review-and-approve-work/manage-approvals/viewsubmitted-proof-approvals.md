@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: Ver aprobaciones de pruebas enviadas
-description: Las aprobaciones de prueba solo se muestran en el área principal si el entorno de Adobe Workfront está integrado con una cuenta de Workfront Proof Premium. Si no puede utilizar pruebas como se explica aquí, póngase en contacto con el administrador de Workfront.
+description: Las aprobaciones de revisión se muestran en el área de Inicio solo si el entorno de Adobe Workfront está integrado con una cuenta de Workfront Proof Premium. Si no puede utilizar la revisión como se describe aquí, póngase en contacto con su administrador de Workfront.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ver aprobaciones de pruebas enviadas
 
-Las aprobaciones de prueba solo se muestran en el área principal si el entorno de Adobe Workfront está integrado con una cuenta de Workfront Proof Premium. Si no puede utilizar pruebas como se explica aquí, póngase en contacto con el administrador de Workfront.
+Las aprobaciones de revisión se muestran en el área de Inicio solo si el entorno de Adobe Workfront está integrado con una cuenta de Workfront Proof Premium. Si no puede utilizar la revisión como se describe aquí, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos de acceso
 
@@ -26,7 +26,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -35,42 +35,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver o acceder más a Proyectos, Tareas, Problemas, Plantillas, Portfolio, Programas, Informes, Tableros y Calendarios, Documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Plantillas, Portfolio, Programas, Informes, Tableros y Calendarios, Documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o acceder más al objeto asociado con el acceso o la aprobación de la solicitud </p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior al objeto asociado con el acceso de solicitud o la aprobación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Ver aprobaciones de pruebas enviadas
 
-1. Haga clic en el **Página principal** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
    >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
    >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada por una página diferente. En este caso, haga clic en el botón **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Página principal**.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
 
+1. En el **Lista de trabajos** , vaya a la sección **Aprobaciones que he enviado** agrupación.
 
-1. En el **Lista de trabajo** , vaya a la **Aprobaciones enviadas** agrupación.
+1. Haga clic en **Proof** aprobación en la Lista de trabajos.
 
-1. Haga clic en **Prueba** aprobación en la lista de trabajo.
-
-   Esto abre la aprobación de la prueba a la derecha de la lista Trabajo.
+   Esto abre la aprobación de la prueba a la derecha de la Lista de trabajos.
 
    >[!NOTE]
    >
-   > Si envía una aprobación a un usuario de pruebas invitado, la aprobación no se muestra en Inicio.
+   > Si envía una aprobación a un usuario de revisión invitado, la aprobación no se muestra en Inicio.
 
    ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
-1. (Opcional) Haga clic en **Vaya a Prueba** en la esquina superior derecha del panel derecho para iniciar el visor de pruebas.
+1. (Opcional) Haga clic en **Ir a la revisión** en la esquina superior derecha del panel derecho para iniciar el visor de pruebas.
 
    <!--
    <note type="note">

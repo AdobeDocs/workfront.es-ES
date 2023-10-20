@@ -6,8 +6,9 @@ title: Sugerencias, trucos y solución de problemas para informes
 description: 'Esta sección contiene los siguientes artículos: EDITARME.'
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

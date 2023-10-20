@@ -6,8 +6,9 @@ title: Datos personalizados calculados en informes
 description: 'Esta sección contiene los siguientes artículos: EDITARME.'
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -25,4 +26,4 @@ Esta sección contiene los siguientes artículos:
 * [Ejemplo del campo personalizado calculado: mostrar el administrador del creador de un problema en el formulario personalizado del problema](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [Ejemplo del campo personalizado calculado: mostrar una marca de tiempo de estado en un formulario personalizado](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
 * [Ejemplo de campo personalizado calculado: mostrar el historial de edición de un campo](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
+  <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

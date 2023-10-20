@@ -7,8 +7,9 @@ description: Como administrador de Adobe Workfront, puede otorgar a los usuarios
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -19,8 +20,8 @@ ht-degree: 0%
 
 Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para ver o editar objetos asignándoles un nivel de acceso. Los artículos siguientes explican cómo funcionan los niveles de acceso.
 
-* [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [Información general sobre licencias](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Resumen de licencias](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
 * [Niveles de acceso integrados en Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [Cómo funcionan juntos los niveles de acceso y los permisos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [Enumerar los niveles de acceso y las licencias de los usuarios](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
@@ -30,4 +31,4 @@ Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para 
 ## Consulte también
 
 * Para obtener información sobre cómo crear niveles de acceso, consulte [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Para obtener información sobre cómo los usuarios pueden compartir objetos entre sí, concediendo permisos de visualización y edición en esos objetos, consulte [Concesión y solicitud de permisos para objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Para obtener información sobre cómo los usuarios pueden compartir objetos entre sí y conceder permisos de Vista y Edición en esos objetos, consulte [Concesión y solicitud de permisos a objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).

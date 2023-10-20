@@ -8,11 +8,12 @@ title: Aplicaciones y sus módulos
 description: Actualmente, Adobe Workfront Fusion ofrece conectores específicos para las aplicaciones de esta lista. Si la aplicación con la que desea trabajar no está en esta lista, puede conectarse a ella mediante los módulos HTTP, SOAP o JSON.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 27%
 >
 >Adobe Workfront Fusion puede conectarse a casi cualquier servicio web. No se limita solo a las aplicaciones de esta lista. Si la aplicación con la que desea trabajar no está en esta lista, puede utilizar los siguientes módulos para conectarse directamente al servicio web:
 >
->* [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
->* [[!UICONTROL JABÓN] módulo](../../workfront-fusion/apps-and-their-modules/soap-module.md)
->* [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+>* [Módulos HTTP](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+>* [Módulo SOAP](../../workfront-fusion/apps-and-their-modules/soap-module.md)
+>* [Módulos JSON](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
 
 ## Aplicaciones de Workfront Fusion y sus módulos
@@ -87,7 +88,7 @@ Esta sección contiene los siguientes artículos:
 * [[!DNL Google Sheets] módulos](../../workfront-fusion/apps-and-their-modules/google-sheets-modules.md)
 * [[!DNL Google Slides] módulos](../../workfront-fusion/apps-and-their-modules/google-slides-modules.md)
 * [[!DNL Google Team Drive] módulos](../../workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
-* [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+* [Módulos HTTP](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] módulos](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [Módulos de imagen](../../workfront-fusion/apps-and-their-modules/image-module.md)
 
@@ -96,7 +97,7 @@ Esta sección contiene los siguientes artículos:
   -->
 
 * [[!DNL Jira] Módulos de software](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
-* [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [[!UICONTROL Módulos JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
@@ -125,7 +126,7 @@ Esta sección contiene los siguientes artículos:
 * [[!UICONTROL SFTP] módulos](../../workfront-fusion/apps-and-their-modules/sftp.md)
 * [[!DNL SharePoint] módulos](../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
 * [[!DNL Slack] módulos](../../workfront-fusion/apps-and-their-modules/slack-modules.md)
-* [[!UICONTROL JABÓN] módulo](../../workfront-fusion/apps-and-their-modules/soap-module.md)
+* [Módulo SOAP](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 * [[!DNL Split.io] módulos](../../workfront-fusion/apps-and-their-modules/split-io-modules.md)
 * [[!UICONTROL Analizador de texto]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL Herramientas]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)

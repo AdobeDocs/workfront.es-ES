@@ -5,8 +5,9 @@ title: Utilice el [!DNL Adobe Workfront] aplicación móvil
 description: Acelere la participación y optimice el trabajo para equipos e individuos en su organización a través de [!DNL Adobe Workfront's] aplicación móvil, disponible en cualquier dispositivo iOS o Android.
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -37,7 +38,7 @@ En la aplicación móvil, puede completar elementos de trabajo y ver informació
 
 >[!NOTE]
 >
->El [!DNL Adobe Workfront] la aplicación móvil está reemplazando a [!DNL Workfront Proof] La aplicación de, que ya no es compatible y se eliminará completamente con la versión 23.10 en octubre. [!DNL Workfront] Los clientes de ahora deben utilizar [!DNL Adobe Workfront] aplicación móvil para realizar revisiones y aprobaciones de pruebas.
+>El [!DNL Adobe Workfront] la aplicación móvil está reemplazando a [!DNL Workfront Proof] La aplicación de, que ya no es compatible y se eliminará por completo con la versión 23.10 en octubre. [!DNL Workfront] Los clientes de ahora deben utilizar [!DNL Adobe Workfront] aplicación móvil para realizar revisiones y aprobaciones de pruebas.
 
 Para obtener más información sobre [!DNL Adobe Workfront] para aplicaciones móviles, consulte los siguientes artículos:
 

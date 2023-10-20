@@ -2,12 +2,13 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: Informes
-description: Revise estas áreas para comprender mejor los informes en Adobe Workfront.
+title: Creación de informes
+description: Revise estas áreas para comprender mejor los informes de Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 28%

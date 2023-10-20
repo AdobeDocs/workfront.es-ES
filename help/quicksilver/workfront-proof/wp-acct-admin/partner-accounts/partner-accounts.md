@@ -7,19 +7,20 @@ title: Cuentas de socio en [!DNL Workfront Proof]
 description: Esta sección contiene los siguientes artículos sobre las cuentas de socio en [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8283908e-1ef1-4914-9b67-b934d2de60ca
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-# Cuentas de socio en [!DNL Workfront] Prueba
+# Cuentas de socio en [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 

@@ -6,11 +6,12 @@ title: Información general sobre elementos de informes
 description: 'Todos los informes y listas de Adobe Workfront son una combinación de tres elementos esenciales: vistas, filtros y agrupaciones.'
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +47,6 @@ Esta sección contiene los siguientes artículos:
 * [Utilice comodines basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
 * [Utilice comodines basados en usuarios para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
 * [Compartir un filtro, una vista o una agrupación](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-* [Eliminación de filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [Quitar filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Uso de la vista de Hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

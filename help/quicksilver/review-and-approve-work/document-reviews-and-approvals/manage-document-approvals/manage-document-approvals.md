@@ -5,14 +5,15 @@ navigation-topic: projects-navigation-topic
 title: Crear aprobaciones de documento
 description: Esta sección contiene artículos sobre la administración de aprobaciones de documentos en Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+exl-id: 31eb7de4-aa45-4d97-bd00-7040936e15dc
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # Administrar aprobaciones de documentos
 
