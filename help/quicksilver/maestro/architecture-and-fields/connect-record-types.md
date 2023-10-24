@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Para añadir o quitar campos, siga las instrucciones de los pasos 7-12 anteriores. <!--ensure these step numbers stay accurate-->
+   Para agregar o quitar campos de búsqueda, siga las instrucciones de los pasos 7-12 anteriores. <!--ensure these step numbers stay accurate-->
 
 1. (Opcional) Haga clic en la flecha hacia abajo en el encabezado del campo de registro vinculado desde el tipo de registro desde el que está vinculando y, a continuación, haga clic en **Eliminar**.
 

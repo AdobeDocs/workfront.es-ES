@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    * Coja el encabezado de la columna y arrástrela y suéltela en la posición deseada. La columna que ha movido aparece brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
 
-   * Clic **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera de **Visibilidad de campos y cuadro de orden** para cerrarlo.
+   * Clic **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera de **Visibilidad y orden de los campos** para cerrarlo.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,14 +157,14 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    O
 
-   Clic **Campos** en la barra de herramientas de la tabla, deshabilite la opción asociada a los campos (o columnas) que desee ocultar.
+   Clic **Campos** en la barra de herramientas de la tabla, deshabilite la opción asociada a los campos (o columnas) que desee ocultar. El **Visibilidad y orden de los campos** aparece el cuadro.
 
    >[!TIP]
    >
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
 
 
-1. Haga clic en **Campos** configurar y habilitar la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
+1. Haga clic en **Campos** y active la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
