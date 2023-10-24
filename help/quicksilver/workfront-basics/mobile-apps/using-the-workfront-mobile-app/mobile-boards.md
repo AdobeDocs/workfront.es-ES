@@ -6,9 +6,9 @@ description: En el [!DNL Workfront] aplicación móvil, puede ver todos los tabl
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ En el [!DNL Workfront] aplicación móvil, puede ver todos los tableros que ha c
 Cualquier cambio que realice en las columnas y tarjetas del tablero en la aplicación también se reflejará en la versión de escritorio del tablero.
 
 Para proporcionar comentarios sobre los tableros móviles, seleccione **[!UICONTROL Enviar]** ![Enviar comentarios](assets/mobile-send-feedback-icon.png) en la parte superior de cualquier tablero y siga las indicaciones.
+
+>[!NOTE]
+>
+>En este momento, la aplicación móvil admite todo tipo de tableros **excepto** Paneles de proceso de iteración.
 
 ## Ver y filtrar la lista de tableros
 

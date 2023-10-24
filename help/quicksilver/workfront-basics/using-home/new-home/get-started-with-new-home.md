@@ -6,10 +6,10 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
     Muestra todas las aprobaciones de su organización en una tabla con columnas personalizables, así como una barra de búsqueda que le permite buscar aprobaciones específicas.
 
 * **Menciones**\
-    Muestra los hilos de comentarios recientes que contienen @ menciones de usted en Workfront, así como un botón de respuesta que le permite redactar una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
+    Muestra hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones, así como un botón de respuesta que le permite componer una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
 
 * **Tareas pendientes**\
     Este widget único le permite agregar elementos de texto a una lista de comprobación personal que puede editar libremente.
@@ -78,7 +78,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Mi trabajo, menciones</td>
+        <td>Mis solicitudes, menciones, esperando mi aprobación, tableros</td>
     </tr>
     <tr>
         <td>Externo</td>
@@ -104,11 +104,11 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
         <td>Mi trabajo, menciones</td>
     </tr>
     <tr>
-        <td>Limitado</td>
+        <td>Solicitud</td>
         <td>Mis proyectos, esperando mi aprobación</td>
     </tr>
     <tr>
-        <td>Colaborador</td>
+        <td>Contribuir</td>
         <td>Mi trabajo, menciones</td>
     </tr>
     <tr>
