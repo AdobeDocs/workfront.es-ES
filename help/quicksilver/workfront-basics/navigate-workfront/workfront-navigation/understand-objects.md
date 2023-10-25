@@ -5,9 +5,9 @@ title: Explicación de los objetos en [!DNL Adobe Workfront]
 description: Explicación de los objetos en [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ Puede crear informes sobre los siguientes objetos al usar Report Builder en [!DN
 * [!UICONTROL Delegación de usuario]
 
   Puede informar sobre los usuarios que se han delegado para realizar las tareas y los problemas de otros mientras están fuera de la oficina. Este informe muestra el usuario que está fuera de la oficina, así como el usuario que cumple con sus obligaciones mientras está fuera.
+
 * [!UICONTROL Decisiones de los usuarios]
+
+  Puede crear informes sobre cuántas decisiones han tomado los usuarios en las pruebas y los documentos en el mes actual.
+
 * [!UICONTROL Vista]
 * [!UICONTROL Elemento de trabajo] (esto produce un informe para tareas y problemas)
