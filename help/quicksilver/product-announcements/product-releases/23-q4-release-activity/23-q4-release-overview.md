@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisiones de pruebas y documentos disponibles para los clientes del modelo de licencia heredado</a></p>
+                        <p>Los clientes heredados que aún no han realizado la transición al nuevo modelo de licencia de Adobe Workfront ahora pueden ver en un solo informe los datos con el número de decisiones de prueba/documento por usuario al mes. Estos datos están disponibles cuando se ejecuta un informe de decisiones de usuarios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 12 de octubre de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 12 de octubre de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos calculados en formularios personalizados ahora pueden utilizar el comodín $$USER</a></p>
@@ -494,7 +510,7 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -502,7 +518,7 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                                 <p>Versión de vista previa: 24 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Producción para todos los clientes: 31 de agosto de 2023</span></p>
+                                <p><span class="preview">Producción para todos los clientes: después de la versión de 23.10</span></p>
                             </li>
                         </ul>
                     </td>
