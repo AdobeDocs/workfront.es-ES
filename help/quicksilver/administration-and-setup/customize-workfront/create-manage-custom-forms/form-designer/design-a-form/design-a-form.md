@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # Diseñar un formulario con el diseñador de formularios
-
-{{preview-and-fast-release}}
 
 Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -498,8 +496,6 @@ Para agregar campos de fecha de escritura anticipada:
 
    Clic **Guardar y cerrar**.
 
-<div class="preview">
-
 ### Adición de campos de búsqueda externos
 
 Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable.
@@ -590,8 +586,6 @@ Para añadir una búsqueda externa:
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
 >* Los usuarios pueden ver el valor seleccionado (y editar el valor) en las listas e informes de Workfront, pero no verán el menú desplegable con opciones procedentes de la API externa.
-
-</div>
 
 ### Agregar imágenes, PDF y vídeos
 
