@@ -6,16 +6,14 @@ description: Anular Tarifas de facturación a nivel de proyecto con Tarifas de f
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 1%
 
 ---
 
 # Anular Tarifas de facturación a nivel de proyecto con Tarifas de facturación a nivel de compañía
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -66,7 +64,7 @@ Cuando un usuario recalcula manualmente las finanzas en el proyecto, se aplican 
    >
    >Al habilitar esta opción, se anulan los cálculos de ingresos históricos a menos que se marquen como facturados. Puede conservar los cálculos de ingresos históricos creando un registro de facturación. Para obtener más información, consulte el artículo [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. Clic **Guardar cambios**.
+1. Haga clic en **Guardar cambios**.
 
 ## Actualizar las tarifas de facturación a nivel de compañía y aplicarlas a un proyecto
 
@@ -80,17 +78,9 @@ Después de habilitar la opción de anulación de tarifas de facturación en la 
 1. Clic **Compañías**.
 1. Haga clic en el nombre de la empresa asociada al proyecto para el que habilitó la anulación de tarifas de facturación en la empresa.
 1. Clic **Tarifas de facturación** en el panel izquierdo.
-1. En el entorno Producción, introduzca la nueva tasa de facturación para un rol existente en la **Tarifa de facturación de empresa** y, a continuación, pulse Intro.
+1. Actualice el **Tarifa de facturación de empresa** y las fechas de inicio y finalización de un rol existente y, a continuación, pulse Intro.
 
-   O
-
-   <div class="preview">
-
-   En el entorno de vista previa, actualice el **Tarifa de facturación de empresa** y las fechas de inicio y finalización de un rol existente y, a continuación, pulse Intro.
-
-   Para añadir una nueva tarifa de facturación de empresa con fecha en vigor, seleccione una tarifa de facturación para la función del puesto y haga clic en Editar. Para obtener más información sobre las tarifas de facturación efectiva de la empresa por fecha, consulte [Anular las tarifas de facturación de funciones en el nivel de compañía](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Para agregar una nueva tarifa de facturación de empresa con fecha en vigor, seleccione una tarifa de facturación para el rol y haga clic en **Editar**. Para obtener más información sobre las tarifas de facturación efectiva de la empresa por fecha, consulte [Anular las tarifas de facturación de funciones en el nivel de compañía](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Para actualizar las tarifas de compañía de uno o más proyectos, realice una de las siguientes acciones:
 
@@ -100,7 +90,7 @@ Después de habilitar la opción de anulación de tarifas de facturación en la 
    1. Seleccione la casilla de verificación en línea con los proyectos que desee actualizar.
    1. Clic **Editar**.
    1. En la sección Configuración, habilite la variable **Recalcular Costes E Ingresos** opción.
-   1. Clic **Guardar cambios**.
+   1. Haga clic en **Guardar cambios**.
 
    * Proyecto único:
 

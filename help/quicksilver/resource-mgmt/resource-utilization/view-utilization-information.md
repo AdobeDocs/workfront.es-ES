@@ -6,7 +6,7 @@ description: Puede ver la utilización de los recursos mediante el informe Utili
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '7854'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Ver información de utilización de recursos
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
@@ -230,11 +228,11 @@ Las horas planificadas aparecen en el informe Utilización en cualquiera de las 
   </tr> 
   <tr> 
    <td><strong>Desviación presupuestada (para horas)</strong> </td> 
-   <td> <p>Total de horas presupuestadas menos el total de horas reales en los proyectos incluidos. Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de horas presupuestadas es bueno que el de las horas reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de horas presupuestadas es menor que las horas reales.</p> <p> <img src="assets/utilization-variance-budgeted-350x96.png" style="width: 350;height: 96;"> </p> </td> 
+   <td> <p>Total de horas presupuestadas menos el total de horas reales en los proyectos incluidos. Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de horas presupuestadas es mayor que las horas reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de horas presupuestadas es menor que las horas reales.</p> <p> <img src="assets/utilization-variance-budgeted-350x96.png" style="width: 350;height: 96;"> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Desviación planificada (para horas)</strong> </td> 
-   <td> <p>Total de horas planificadas menos el total de horas reales en los proyectos incluidos. Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de horas planificadas son buenas a las horas reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de horas planificadas es menor que las horas reales.</p> </td> 
+   <td> <p>Total de horas planificadas menos el total de horas reales en los proyectos incluidos. Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de horas planificadas es mayor que las horas reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de horas planificadas es menor que las horas reales.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,7 +268,7 @@ La siguiente información está disponible en el informe Utilización al realiza
   </tr> 
   <tr> 
    <td scope="col"><strong>Costo planificado</strong> </td> 
-   <td scope="col"> <p>Costo total planificado de los proyectos incluidos. Puede ver el costo total planificado para la vida general de los proyectos incluidos o puede ver el costo total planificado solamente para el intervalo de fechas especificado (puede especificar una semana o mes individual).</p> <p><span class="preview">Tenga en cuenta que para las vistas de semana, mes y trimestre, los costes planificados se calculan como un promedio del periodo elegido cuando las tasas de coste de los roles de trabajo o usuarios son efectivas por fecha.</span></p><p>Para obtener información sobre cómo se calcula el costo planificado del proyecto, consulte la sección "Cómo calcula Workfront los costos planificados, presupuestados y reales" en el artículo <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> </td> 
+   <td scope="col"> <p>Costo total planificado de los proyectos incluidos. Puede ver el costo total planificado para la vida general de los proyectos incluidos o puede ver el costo total planificado solamente para el intervalo de fechas especificado (puede especificar una semana o mes individual).</p> <p>Tenga en cuenta que para las vistas de semana, mes y trimestre, los costes planificados se calculan como un promedio del periodo elegido cuando las tasas de coste de los roles de trabajo o usuarios son efectivas por fecha.</p><p>Para obtener información sobre cómo se calcula el costo planificado del proyecto, consulte la sección "Cómo calcula Workfront los costos planificados, presupuestados y reales" en el artículo <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Costo real</strong> </td> 
@@ -278,11 +276,11 @@ La siguiente información está disponible en el informe Utilización al realiza
   </tr> 
   <tr> 
    <td><strong>Desviación presupuestada (de costo)</strong> </td> 
-   <td scope="col"> <p>Costo presupuestado total menos el costo real total de los proyectos incluidos. Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el costo presupuestado total es bueno que el costo real.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el costo presupuestado total es menor que el costo real.</p> </td> 
+   <td scope="col"> <p>Costo presupuestado total menos el costo real total de los proyectos incluidos. Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el costo presupuestado total es mayor que el costo real.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el costo presupuestado total es menor que el costo real.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Desviación planificada (de costo)</strong> </td> 
-   <td> <p>Costo total planificado menos el costo real total de los proyectos incluidos. Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el costo total planificado es bueno que el costo real.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el costo total planificado es menor que el costo real.</p> </td> 
+   <td> <p>Costo total planificado menos el costo real total de los proyectos incluidos. Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el costo total planificado es mayor que el costo real.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el costo total planificado es menor que el costo real.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,7 +323,7 @@ Para obtener información sobre los campos específicos y cómo los calcula Work
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos planificados para tareas de ingresos fijos dividiendo los ingresos fijos equitativamente por el número de horas planificadas en la tarea. </p> <p>Por ejemplo, una tarea tiene unos ingresos de 200 dólares. Si hay 4 horas planificadas en la tarea, cada hora sería 50 $. Se distribuye en los niveles de usuario y rol. Esta distribución es exclusiva del informe Utilización.</p> <p><b>NOTA</b>
 
-Si tiene una tarea de ingresos fijos y no hay horas planificadas para la tarea, los ingresos no se muestran en el informe de utilización porque no hay forma de distribuirlos entre las horas. Si tiene horas planificadas en tareas con ingresos fijos y sin asignaciones, los ingresos se muestran como ingresos sin asignar. </p> <p><strong>Rol por hora:</strong> Los ingresos de la tarea se calculan a partir de la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas planificadas asociadas a ese rol. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por hora de rol = SUMA(Horas planificadas de la función en todas las tareas) * Tasa de facturación de rol</code></p><p><span class="preview"><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p>   <p><strong>Usuario por hora:</strong> Los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas asociadas con ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por hora por usuario = SUMA(Horas planificadas de los usuarios en todas las tareas) * Tasa de facturación del usuario</code> </p> <p><span class="preview"><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p> <p><b>Rol por hora o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
+Si tiene una tarea de ingresos fijos y no hay horas planificadas para la tarea, los ingresos no se muestran en el informe de utilización porque no hay forma de distribuirlos entre las horas. Si tiene horas planificadas en tareas con ingresos fijos y sin asignaciones, los ingresos se muestran como ingresos sin asignar. </p> <p><strong>Rol por hora:</strong> Los ingresos de la tarea se calculan a partir de la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas planificadas asociadas a ese rol. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por hora de rol = SUMA(Horas planificadas de la función en todas las tareas) * Tasa de facturación de rol</code></p><p><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p>   <p><strong>Usuario por hora:</strong> Los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas asociadas con ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por hora por usuario = SUMA(Horas planificadas de los usuarios en todas las tareas) * Tasa de facturación del usuario</code> </p> <p><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p> <p><b>Rol por hora o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos planificados dividiendo los ingresos fijos de forma uniforme por el número de horas planificadas de la tarea. </p> <p>Se dan los siguientes casos: </p>
 <ul>
@@ -351,7 +349,7 @@ A diferencia de otras áreas de Workfront, si los ingresos planificados superan 
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los Ingresos reales dividiendo uniformemente los Ingresos fijos por el número de horas registradas en la tarea. </p> <p> </p> <p>Por ejemplo, una tarea tiene unos ingresos reales de 200 $. Si hay 4 horas reales en la tarea, cada hora sería 50 $. Se distribuye en los niveles de usuario y rol. Esta distribución es exclusiva del informe Utilización.</p> <p><b>NOTA</b>
 
-Si tiene una tarea de ingresos fijos y no hay horas reales en la tarea, los ingresos reales no se muestran en el informe de utilización porque no hay forma de distribuir las horas. </p> <p><strong>Rol por hora:</strong> Los ingresos de la tarea se calculan mediante la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas reales.</p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos reales por hora de rol = SUMA(Horas reales de rol en todas las tareas) * Tasa de facturación de rol</code> </p> <p><span class="preview"><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p> <p><strong>Usuario por hora:</strong> Los ingresos de la tarea se calculan utilizando la tasa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea desde ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos reales por hora de usuario = SUMA(Horas reales de los usuarios en todas las tareas) * Tarifa de facturación de usuario</code></p> <p><span class="preview"><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</span></p> <p><b>Rol o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
+Si tiene una tarea de ingresos fijos y no hay horas reales en la tarea, los ingresos reales no se muestran en el informe de utilización porque no hay forma de distribuir las horas. </p> <p><strong>Rol por hora:</strong> Los ingresos de la tarea se calculan mediante la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas reales.</p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos reales por hora de rol = SUMA(Horas reales de rol en todas las tareas) * Tasa de facturación de rol</code> </p> <p><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p> <p><strong>Usuario por hora:</strong> Los ingresos de la tarea se calculan utilizando la tasa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea desde ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos reales por hora de usuario = SUMA(Horas reales de los usuarios en todas las tareas) * Tarifa de facturación de usuario</code></p> <p><b>NOTA:</b> La tarifa por hora de facturación de la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p> <p><b>Rol o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los Ingresos reales dividiendo uniformemente los Ingresos fijos por el número de horas registradas en la tarea. </p> <p>Se dan los siguientes casos: </p>
 <ul>
@@ -377,11 +375,11 @@ Si el usuario no está asociado a un rol o si la facturación por hora del rol p
 </tr> 
   <tr> 
    <td><strong>Desviación presupuestada (para ingresos)</strong> </td> 
-   <td> <p>Ingresos reales totales menos ingresos presupuestados en los proyectos incluidos.<br>Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de ingresos presupuestados es bueno que el de ingresos reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de ingresos presupuestados es menor que los ingresos reales.</p> </td> 
+   <td> <p>Ingresos reales totales menos ingresos presupuestados en los proyectos incluidos.<br>Puede ver la desviación presupuestada total para la vida general de los proyectos incluidos o puede ver la desviación presupuestada total sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).</p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de ingresos presupuestados es mayor que los ingresos reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de ingresos presupuestados es menor que los ingresos reales.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Desviación planificada (para ingresos)</strong> </td> 
-   <td> <p>Ingresos reales totales menos los ingresos planificados totales en los proyectos incluidos.<br>Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de ingresos planificados es bueno respecto a los ingresos reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de ingresos planificados es menor que los ingresos reales.</p> </td> 
+   <td> <p>Ingresos reales totales menos los ingresos planificados totales en los proyectos incluidos.<br>Puede consultar la desviación total planificada para la vida útil total de los proyectos incluidos o puede consultar la desviación total planificada sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos). </p> <p>Si el valor es positivo, se muestra en verde. Esto indica que el total de ingresos planificados es mayor que los ingresos reales.</p> <p>Si el valor es negativo, se muestra en rojo. Esto indica que el total de ingresos planificados es menor que los ingresos reales.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -449,7 +447,7 @@ Si los ingresos reales son iguales a 0, el margen se muestra como 0. </p> </td>
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
 
-## Realice un seguimiento del progreso, los costes y los ingresos con el informe Utilización {#track-progress-cost-and-revenue-with-the-utilization-report}
+## Siga el progreso, el coste y los ingresos con el informe de utilización {#track-progress-cost-and-revenue-with-the-utilization-report}
 
 Puede realizar un seguimiento del progreso o el coste de un proyecto, programa o portafolio.
 
