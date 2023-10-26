@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # Actualizaciones rastreadas por el sistema
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] registra la actividad que tiene lugar en ciertos objetos mediante el registro de información de estado en el [!UICONTROL Actualizaciones] área.
 
@@ -32,6 +34,8 @@ El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 
   Para obtener más información sobre las fuentes de actualización del sistema y cómo habilitarlas, consulte [Configurar actualizaciones del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 
 ## Consideraciones sobre las actualizaciones rastreadas por el sistema
 
-* Las actualizaciones rastreadas por el sistema no están disponibles para todos los objetos que tienen el área de Actualizaciones. El [!UICONTROL Actualizaciones] está disponible para los siguientes objetos:
+Las actualizaciones rastreadas por el sistema no están disponibles para todos los objetos que tienen el área de Actualizaciones.
+
+* El [!UICONTROL Actualizaciones] está disponible para los siguientes objetos:
 
    * [!UICONTROL Proyecto]
    * [!UICONTROL Tarea]
@@ -64,12 +70,13 @@ El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 
      Para obtener más información sobre actualizaciones de tarjetas, consulte [Usar tarjetas conectadas en tableros](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] no realiza el seguimiento de ninguna actualización del sistema para los siguientes objetos:
+* [!DNL Workfront] no realiza el seguimiento de las actualizaciones del sistema para los objetos siguientes:
 
    * [!UICONTROL Equipo]
    * [!UICONTROL Plantilla]
    * [!UICONTROL Tarea de plantilla]
    * Ad hoc [!UICONTROL Tarjeta]
+   * [!UICONTROL Iteraciones]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Los usuarios pueden ver las actualizaciones del sistema de forma predeterminada o pueden optar por no mostrarlas.
+* Las siguientes son diferencias entre la nueva experiencia de comentarios y la experiencia de comentarios heredada:
 
-  Para obtener información acerca de cómo deshabilitar la visualización de actualizaciones del sistema, consulte la sección [Habilitar o deshabilitar actualizaciones del sistema](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) en el artículo [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Al utilizar la nueva experiencia de comentarios, las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en la pestaña Actividad del sistema.
 
-  >[!NOTE]
-  >
-  >Actualmente estamos rediseñando la experiencia de comentarios y la [!UICONTROL Actualizaciones] área en [!DNL Workfront].
-  >
-  > No puede ocultar las actualizaciones del sistema al utilizar la nueva experiencia de comentarios.
-  > 
-  >Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * Al utilizar la experiencia de comentarios heredada, las actualizaciones del sistema y del usuario se muestran en una fuente continua.
+
+   * Al utilizar la experiencia de comentarios heredada, los usuarios pueden ver las actualizaciones del sistema de forma predeterminada o pueden optar por no mostrarlas. No es posible deshabilitar las actualizaciones del sistema al utilizar la nueva experiencia de comentarios.
+
+     Para obtener información acerca de cómo deshabilitar la visualización de actualizaciones del sistema, consulte la sección [Habilitar o deshabilitar actualizaciones del sistema](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) en el artículo [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront registra las actualizaciones rastreadas por el sistema para los siguientes objetos, pero no hay opción para deshabilitar la visualización:
 

@@ -7,31 +7,32 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 5%
+source-wordcount: '1156'
+ht-degree: 4%
 
 ---
 
+
 # Información general de la sección Actualizaciones
 
-<!--take "Beta" references out when we remove the beta-->
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>\
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Resumen de la versión del cuarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
 >[!IMPORTANT]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
 >
->Según el entorno y los objetos desde los que acceda a la experiencia de comentario, es posible que vea diferentes funcionalidades en la sección Actualizaciones.
+>Según los objetos para los que acceda a la experiencia de comentarios, es posible que vea la siguiente funcionalidad para la sección Actualizaciones:
+>* La nueva experiencia
+>* La experiencia heredada
+>* La nueva experiencia y la experiencia heredada
+>
+>Este artículo contiene información sobre las versiones nuevas y heredadas de la sección Actualizaciones.
 >
 >Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones y no para las áreas siguientes:
+>La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de objetos de Workfront y no está disponible al acceder a los objetos desde las áreas siguientes:
 >
 > * Inicio
 > * Panel de resumen en listas
@@ -43,188 +44,96 @@ ht-degree: 5%
 >
 >Iterations display the legacy commenting experience.-->
 
-<!--old note, removed with August 2023: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the new commenting experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
-
-The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
-
--->
 
 ## Información general de la sección Actualizaciones
 
-* La sección Actualizaciones de un objeto muestra hasta 200 de las actualizaciones más recientes realizadas en los últimos 90 días.
+La sección Actualizaciones de un objeto muestra las actualizaciones del sistema y hasta 200 de las actualizaciones más recientes realizadas por los usuarios en los últimos 90 días.
 
-  ![](assets/updates-tab-before-unified-experience-for-issues.png)
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* La sección Actualizaciones se muestra para los siguientes objetos:
+En función de los objetos para los que acceda a la experiencia de comentarios, es posible que encuentre la siguiente experiencia en la sección Actualizaciones:
 
-  <table style="table-layout:auto"> 
-  <col> 
-  <col> 
-  <tbody> 
-    <tr> 
-    <td> 
-      <ul> 
-      <li>Documentos</li> 
-      <li>Metas</li> 
-      <li>Problemas</li> 
-      <li>Iteraciones</li> 
-      <li>Proyectos</li> 
-      <li>Programas</li> 
-      <li>Portafolios</li> 
-      </ul> </td> 
-    <td> 
-      <ul> 
-      <li>Historias*</li> 
-      <li>Tareas</li> 
-      <li>Plantillas</li> 
-      <li>Tareas de plantilla</li> 
-      <li>Plantillas de horas</li> 
-      <li>Usuarios</li>
-      <li>Tarjetas en un tablero</li>
-      </ul> </td> 
-    </tr> 
-  </tbody> 
-  </table>
+* Experiencia de comentarios nueva y heredada para los siguientes objetos:
 
-  *Las historias son tareas. Toda la información relacionada con las tareas también está disponible para las historias.
+   * Proyecto
+   * Tarea (incluye Historias)
+   * Problema
+   * Documento
 
-La información de la sección Actualizaciones está organizada de forma diferente, según el entorno desde el que acceda a ella.
+     >[!TIP]
+     >
+     >Utilice la opción Nuevos comentarios para mostrar la nueva experiencia de comentarios (cuando la active) o la experiencia de comentarios heredada (cuando la desactive). La nueva experiencia de comentarios es la predeterminada. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+* Solo la nueva experiencia de comentarios para los objetos enumerados a continuación. No hay opción para habilitar la experiencia de comentarios heredada para estos objetos:
+
+   * Meta
+
+     >[!NOTE]
+     >
+     >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   * Tarjeta en un tablero
+   * Equipo
+   * Plantilla
+   * Tarea de plantilla
+   * Hoja de horas
+   * Programar
+   * Portafolio
+   * Usuario
+
+* Solo la experiencia de comentarios heredada para los siguientes objetos:
+
+   * Iteraciones
+
+     No hay opción de habilitar la nueva experiencia de comentarios para iteraciones.
+
+### Información general sobre la sección Actualizaciones en la nueva experiencia de comentarios
+
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
+
+>[!NOTE]
+>
+>La nueva experiencia de comentarios no está disponible para iteraciones.
 
 
-### Información general de la sección Actualizaciones actuales
+* La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
 
-<!--October 26 - replace current with legacy-->
 
-* La sección Actualizaciones actuales muestra la siguiente información:
+   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-   * **Actualizaciones de usuarios**: Comentarios de los usuarios y respuestas a dichos comentarios.
-   * **Actualizaciones del sistema**: mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Los objetos siguientes no registran las actualizaciones del sistema:
+* Los objetos siguientes no tienen una ficha Actividad del sistema:
 
    * Equipo
    * Plantilla
    * Tarea de plantilla
-
-### Información general sobre la sección Actualizaciones en la nueva experiencia de comentarios
-
-Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
-
-* La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
-
-   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-      * Los objetos siguientes no tienen una ficha Actividad del sistema:
-
-         * Equipo
-         * Plantilla
-         * Tarea de plantilla
-         * Tarjeta ad hoc
-
-* Actualmente, puede agregar comentarios y responder a actualizaciones utilizando la nueva experiencia de comentarios en los siguientes objetos:
+   * Tarjeta ad hoc
 
 
-   * Proyectos
-   * Tareas (e historias)
-   * Problemas
-   * Documentos
-   * Metas
+### Información general sobre la sección Actualizaciones heredadas
 
-  >[!NOTE]
-  >
-  >Debe tener una licencia adicional para acceder a los objetivos de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+<!--when we remove legacy, make this section an "Iterations-only" section-->
 
-   * Tarjetas en un tablero
+![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-  >[!NOTE]
-  >
-  > Puede agregar y ver actualizaciones a las tarjetas en el área de Tableros al habilitar las secciones Comentarios y Actividad del sistema en una tarjeta. Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
+La sección Actualizaciones heredadas muestra la siguiente información:
 
+* **Actualizaciones de usuarios**: Comentarios de los usuarios y respuestas a dichos comentarios.
+* **Actualizaciones del sistema**: mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <span class="preview">
+Los objetos siguientes no registran las actualizaciones del sistema:
 
-   * Plantillas
-   * Tareas de plantilla
-   * Plantillas de horas
-   * Usuarios
-   * Portafolios
-   * Programas
+* Equipo
+* Plantilla
+* Tarea de plantilla
+* Iteraciones
 
-  >[!NOTE]
-  >
-  >    No puede mostrar la nueva experiencia de comentarios para iteraciones.
-
-  </span>
-
-<!--hidden in August 2023 and replaced by the list above: 
-
-  <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td> 
-        <ul> 
-        <li><p>Goals</p>
-        <li>Cards in the Boards area*</li>
-          This is the only experience for goals and cards.
-        </li> 
-        <li>Projects</li>
-        </ul> </td> 
-      <td> 
-        <ul> 
-        <li>Issues</li> 
-        <li>Tasks</li>
-        <li>Documents</li>
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
-
-  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
-  -->
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 
-Los comentarios o las respuestas realizados a las actualizaciones sobre determinados objetos también aparecen en la sección Actualizaciones de los objetos de mayor clasificación.
+Los comentarios, las respuestas o las actualizaciones del sistema de ciertos objetos también aparecen en la sección Actualizaciones de los objetos de mayor clasificación.
 
 Por ejemplo, cuando se agrega una actualización a una tarea, la actualización aparece en la sección Actualizaciones de la tarea y en la sección Actualizaciones del proyecto que contiene la tarea.
-
->[!NOTE]
->
->Al habilitar la nueva experiencia de comentarios, los comentarios se muestran en los siguientes objetos de mayor clasificación:
->
->* Problemas
->* Proyectos
->* Tareas
->
->Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 En la tabla siguiente se muestran los objetos cuyos comentarios también aparecen en los objetos de mayor clasificación:
 
@@ -263,7 +172,7 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
    <td>Equipo</td> 
   </tr> 
   <tr> 
-   <td>Hoja de horas</td> 
+   <td>Hoja de horas*</td> 
    <td>Usuario, equipo</td> 
   </tr> 
   <tr> 
@@ -275,16 +184,23 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
    <td>Iteración, equipo</td> 
   </tr> 
   <tr> 
-   <td>Iteración</td> 
+   <td>Iteración*</td> 
    <td>Equipo</td> 
   </tr>
 
 <tr> 
-   <td>Metas</td> 
-   <td>Resultado, actividad</td> 
+   <td>Resultado</td> 
+   <td>Meta</td> 
+  </tr> 
+  <tr> 
+   <td>Actividad</td> 
+   <td>Meta</td> 
   </tr> 
  </tbody> 
 </table>
+* No están disponibles para la nueva experiencia de comentarios.
+
+<br>
 
 >[!NOTE]
 >
@@ -294,26 +210,32 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
 >
 > No es posible responder a las actualizaciones del sistema en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+</br>
+
 ## Limitaciones de la sección Actualizaciones
 
 Existen algunas limitaciones en la sección Actualizaciones de un equipo y al introducir actualizaciones en nombre de otros usuarios.
 
 ### Limitaciones para usuarios y equipos
 
-No puede agregar nuevos comentarios en la sección Actualizaciones de un equipo.
+Tenga en cuenta lo siguiente al ver las actualizaciones para usuarios y equipos:
 
-<span class="preview">Puede agregar una respuesta a una actualización que vea en un equipo. La respuesta se muestra en la sección Actualizaciones del equipo, así como en la sección Actualizaciones del objeto al que pertenece. </span>
+* No puede agregar nuevos comentarios en la sección Actualizaciones de un equipo.
 
-La sección Actualizaciones para equipos se rellena con actualizaciones introducidas en los siguientes objetos:
+* Puede agregar una respuesta a una actualización que vea en un equipo. La respuesta se muestra en la sección Actualizaciones del equipo, así como en la sección Actualizaciones del objeto al que pertenece.
 
-* Usuarios
-* Plantillas de horas
-* Historias
-* Iteraciones
+* La sección Actualizaciones para equipos se rellena con actualizaciones introducidas en los siguientes objetos:
 
-En la sección Actualizaciones para usuarios y equipos, puede ver las actualizaciones introducidas en los últimos 90 días.
+   * Usuarios
+   * Plantillas de horas*
+   * Historias
+   * Iteraciones*
 
-Si desea ver todas las actualizaciones realizadas en un usuario o equipo, más allá del límite de 90 días, puede crear un informe para notas. El informe no debe tener un filtro de tiempo que muestre todas las actualizaciones realizadas para usuarios o equipos. Para obtener más información, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  * No están disponibles para la nueva experiencia de comentarios.
+
+* En la sección Actualizaciones para usuarios y equipos, puede ver las actualizaciones introducidas en los últimos 90 días.
+
+  Si desea ver todas las actualizaciones realizadas en un usuario o equipo, más allá del límite de 90 días, puede crear un informe para notas. El informe no debe tener un filtro de tiempo que muestre todas las actualizaciones realizadas para usuarios o equipos. Para obtener más información, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Limitaciones al introducir comentarios en nombre de otro usuario
 
@@ -327,7 +249,7 @@ Considerar lo siguiente al iniciar sesión como otro usuario y agregar comentari
 
 * Un administrador de grupo puede realizar comentarios en nombre de otra persona, pero no puede eliminar ese comentario. Solo un administrador de Adobe Workfront puede eliminar un comentario que haya realizado en nombre de otro usuario.
 
-* Un administrador de grupo o Workfront solo puede editar un comentario que haya agregado en nombre de otro usuario cuando cierra la sesión como usuario y vuelve a iniciarla como si fuera él mismo.
+* Un administrador de grupo o Workfront solo puede editar un comentario que haya agregado en nombre de otro usuario cuando cierra la sesión como usuario y vuelve a iniciarla como si fuera él mismo. No pueden eliminar un comentario en nombre de otro usuario.
 
 ## Ver actualizaciones del sistema en elementos de trabajo con el informe Entrada de diario
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configurar actualizaciones del sistema
 description: Workfront genera actualizaciones automáticas del sistema en el [!UICONTROL Actualizaciones] para registrar los cambios que los usuarios realizan en el objeto. As a [!DNL Workfront] administrador, puede configurar qué campos de objeto y acciones [!DNL Workfront] rastrea para registrar las actualizaciones del sistema.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * Cambios que los usuarios realizan en un campo de objeto
 * Acciones que los usuarios realizan en un objeto
 
-Estas actualizaciones del sistema incluyen el cambio realizado, el nombre del usuario que realizó el cambio y la hora y fecha del cambio.
+Estas actualizaciones del sistema incluyen el siguiente tipo de información:
+
+* El cambio que se realizó
+* El nombre del usuario que realizó el cambio
+* Fecha y hora del cambio
 
 Para obtener más información sobre las actualizaciones del sistema, consulte [Actualizaciones rastreadas por el sistema](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
