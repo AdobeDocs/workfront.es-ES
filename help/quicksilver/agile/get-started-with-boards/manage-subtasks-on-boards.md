@@ -5,7 +5,7 @@ title: Administración de subtareas en tableros
 description: El uso de subtareas en tarjetas permite establecer una relación principal-secundario entre tareas y crear una jerarquía de trabajo.
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Administración de subtareas en tableros
-
-{{highlighted-preview-article-level}}
 
 El uso de subtareas en tarjetas permite establecer una relación principal-secundario entre tareas y crear una jerarquía de trabajo. Una subtarea que agregue a una tarjeta de un tablero de Workfront también se agregará a la tarea en el proyecto de Workfront. Para obtener más información sobre las subtareas y tareas en el nivel de proyecto, consulte [Creación de subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

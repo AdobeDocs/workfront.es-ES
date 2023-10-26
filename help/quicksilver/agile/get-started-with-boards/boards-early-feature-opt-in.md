@@ -7,9 +7,9 @@ description: Lea este artículo para obtener más información [!DNL Workfront B
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
   </tr>
   <tr>
    <td>Ver documentos en tarjetas conectadas</td>
-   <td>Liberado parcialmente</td>
+   <td>Publicado</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Inclusión en las primeras funciones
