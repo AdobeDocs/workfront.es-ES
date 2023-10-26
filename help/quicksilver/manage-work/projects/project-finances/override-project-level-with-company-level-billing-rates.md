@@ -6,7 +6,7 @@ description: Anular Tarifas de facturación a nivel de proyecto con Tarifas de f
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -86,11 +86,11 @@ Después de habilitar la opción de anulación de tarifas de facturación en la 
 
    * Varios proyectos:
 
-   1. Ir a una lista de proyectos.
-   1. Seleccione la casilla de verificación en línea con los proyectos que desee actualizar.
-   1. Clic **Editar**.
-   1. En la sección Configuración, habilite la variable **Recalcular Costes E Ingresos** opción.
-   1. Haga clic en **Guardar cambios**.
+      1. Ir a una lista de proyectos.
+      1. Seleccione la casilla de verificación en línea con los proyectos que desee actualizar.
+      1. Clic **Editar**.
+      1. En la sección Configuración, habilite la variable **Recalcular Costes E Ingresos** opción.
+      1. Haga clic en **Guardar cambios**.
 
    * Proyecto único:
 
