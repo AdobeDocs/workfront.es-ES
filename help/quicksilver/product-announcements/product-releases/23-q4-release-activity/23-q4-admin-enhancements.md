@@ -3,16 +3,16 @@ title: Mejoras del administrador del cuarto trimestre de 2023
 description: Mejoras del administrador del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # Mejoras del administrador del cuarto trimestre de 2023
 
-Esta página describe todas las mejoras de administrador realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.10.
+Esta página describe todas las mejoras de administrador realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10 de.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
