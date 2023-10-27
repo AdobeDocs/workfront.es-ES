@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Cada fila de la hoja corresponde a un objeto único.
 1. Complete la celda de la **isNew** columna:
 
    * Si el objeto que está importando es nuevo, escriba **VERDADERO** para importar los datos de la fila.
-   * Si el objeto ya está en Workfront, escriba **FALSE** para ignorar la fila.
+   * Si el objeto ya está en Workfront, **FALSE** debe estar en la columna para omitir la fila.
+
+      * Los registros que ya existen en Workfront no se actualizan.
+      * Si ha descargado una plantilla con datos, los objetos existentes ya están marcados con **FALSE**.
+      * Si ha descargado una plantilla en blanco, no es necesario agregar nuevas filas para los objetos existentes.
 
 1. Complete la celda de la **ID** de una de las siguientes maneras:
 
-   * Si el objeto que está importando es nuevo (y ha escrito **VERDADERO** en el **isNew** ), especifique cualquier número para el ID. Este número debe ser único en la hoja de cálculo.
+   * Si el objeto que está importando es nuevo (y ha escrito **VERDADERO** en el **isNew** columna ), escriba cualquier número para el ID. Este número debe ser único en la hoja de cálculo.
 
-   * Si el objeto que está importando ya existe en el sistema Workfront (y ha escrito **FALSE** en el **isNew** ), el ID debe ser el GUID alfanumérico que existe en Workfront para ese objeto.
+   * Si el objeto ya existe en Workfront (y **FALSE** está en **isNew** ), el ID debe ser el GUID alfanumérico que existe en Workfront para ese objeto.
+
+      * Los registros que ya existen en Workfront no se actualizan.
+      * Si ha descargado una plantilla con datos, los objetos existentes ya contienen el GUID como ID.
+      * Se puede importar un objeto nuevo basado en uno existente cambiando **FALSE** hasta **VERDADERO** en el **isNew** , cambiando el ID y realizando los ajustes de datos necesarios antes de la importación.
 
      ![ID de muestra para un grupo](assets/kick-start-group-example.png)
 
