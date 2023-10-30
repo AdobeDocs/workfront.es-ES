@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 1. Clic **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla para agregar una nueva fila a la tabla.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    Presione CTRL+Intro para agregar un nuevo registro en una fila nueva.
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Empiece a escribir información en la nueva fila sobre el nuevo registro.
 

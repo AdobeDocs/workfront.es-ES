@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -151,4 +151,4 @@ Puede editar un registro desde las siguientes áreas:
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente.
+1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. Un indicador Guardado aparece brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
