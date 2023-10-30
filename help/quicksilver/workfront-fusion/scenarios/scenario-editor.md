@@ -7,10 +7,10 @@ description: El editor de escenarios permite crear y editar escenarios en una in
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 0%
+source-wordcount: '867'
+ht-degree: 1%
 
 ---
 
@@ -160,6 +160,11 @@ Las siguientes acciones están disponibles en el editor de escenarios:
    <tr> 
      <td role="rowheader">Prueba y ejecución del escenario</td>   
      <td>Clic <strong>[!UICONTROL Ejecutar una vez]</strong> para comprobar que el escenario se ejecuta como espera antes de activarlo. Una vez activado, el escenario se ejecutará según su programación. Si todo no funciona como se espera, puede visitar nuestra sección de gestión de errores para aprender a gestionar los errores.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Utilizar Devtool para depurar el escenario</td>   
+     <td>Para obtener más información, consulte <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Depurar escenarios con [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>
