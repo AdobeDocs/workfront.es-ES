@@ -6,9 +6,9 @@ description: Puede agregar documentos a las tarjetas conectadas en los paneles d
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En la tarjeta, busque [!UICONTROL Documentos] área. Clic ![Icono de lista](assets/docs-list-icon.png) para ver todos los documentos de una lista, o haga clic en ![Icono de Galería](assets/docs-gallery-icon.png) para ver los documentos en una galería.
 1. Pase el ratón sobre la miniatura del documento y haga clic en [!UICONTROL **Previsualizar**] para ver el archivo en el explorador o [!UICONTROL **Descargar**] para descargar el archivo en el equipo.
+
+   >[!NOTE]
+   >
+   >Los PDF no muestran una imagen en miniatura.
