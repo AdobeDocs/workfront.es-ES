@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -111,7 +111,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Los usuarios del sistema verán de forma predeterminada la experiencia Nueva página de inicio </td> 
-      <td>Permite especificar si los usuarios verán la experiencia Nueva página de inicio de forma predeterminada. Cuando se habilita, los usuarios verán la experiencia Nueva página de inicio de forma predeterminada, pero aún pueden optar por habilitar o deshabilitar la Nueva página de inicio de forma individual. <b>Cuando está desactivado, los usuarios no tendrán la opción de usar Nuevo inicio.</b> Esta opción está habilitada de forma predeterminada.</td> 
+      <td>Permite especificar si los usuarios verán la experiencia Nueva página de inicio de forma predeterminada. Cuando se habilita, los usuarios verán la experiencia Nueva página de inicio de forma predeterminada, pero aún pueden optar por habilitar o deshabilitar la Nueva página de inicio de forma individual. Cuando está desactivado, los usuarios no verán el banner que les permite cambiar a la nueva página de inicio; sin embargo, aún pueden navegar a su nueva página de inicio introduciendo manualmente <code>/home/workspaces</code> al final de su URL de instancia. Esta opción está habilitada de forma predeterminada.</td> 
      </tr> 
     </tbody> 
    </table>
