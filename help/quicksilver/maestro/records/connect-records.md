@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Después de crear una conexión entre un tipo de registro Maestro y un tipo de o
    >
    >  Los campos que agregue o quite en la página de tipo de registro de objeto de Workfront no se agregarán ni quitarán del tipo de registro de Maestro que vincula al tipo de objeto de Workfront. Los campos sólo están visibles en la página de sólo lectura de tipo de registro de Workfront, por lo que puede revisarlos en Maestro.
 
-1. (Opcional) En el menú desplegable Vista de la página de tipo de registro de objeto de Workfront, elija la vista Cronología para mostrar los objetos vinculados de Workfront en la vista Cronología.
+1. (Opcional y condicional) Si ha añadido al menos dos campos de fecha al objeto Workfront, haga clic en **Ver** menú desplegable en la página tipo de registro de objeto de Workfront y seleccione **Cronología** vista. Los objetos vinculados de Workfront se muestran en la vista de cronología.

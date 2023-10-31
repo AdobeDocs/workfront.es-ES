@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más r
 En esta sección se enumeran las funciones y revisiones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro el 22 de mayo de 2023.
 
 Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
+
+## Semana del 30 de octubre de 2023
+
+### Nuevos tipos de campos para campos de usuario y fecha para capturar quién creó o modificó por última vez un registro o en qué fecha
+
+Vista previa y producción: 30 de octubre de 2023
+
+Hemos introducido los siguientes tipos de campos para los registros de Maestro:
+
+* Creado por
+
+* Fecha de creación
+
+* Última modificación realizada por
+
+* Fecha de la última modificación
+
+Los valores de campo de los campos creados a partir de estos tipos de campo son de solo lectura y capturan el nombre del usuario que creó o modificó por última vez un registro, o la fecha en la que se creó o modificó por última vez el registro.
+
+Para obtener más información, consulte [Creación de campos](../maestro/architecture-and-fields/create-fields.md).
+
+### Desplazarse a objetos de Workfront desde un registro de Maestro
+
+Vista previa y producción: 31 de octubre de 2023
+
+Ahora puede abrir las páginas de objetos de Workfront desde las áreas siguientes de Maestro:
+
+* La vista de tabla de registros de objetos de Workfront vinculados de solo lectura
+
+* La página Detalles del registro de objetos de Workfront de solo lectura
+
+Para obtener más información, consulte [Conectar registros](../maestro/records/connect-records.md).
 
 ## Semana del 16 de octubre de 2023
 
