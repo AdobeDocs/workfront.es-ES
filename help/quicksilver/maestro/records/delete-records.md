@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Si los registros eliminados están vinculados a otros registros, los registros vinculados no se eliminan, pero también se elimina la información del registro eliminado.
 * No puede eliminar registros de forma masiva. <!--this will probably change-->
 * No se pueden eliminar registros de la vista de escala de tiempo.
+* No se puede eliminar un tipo de registro vinculado desde otra aplicación. Por ejemplo, si vincula un registro de Maestro a un objeto de Workfront, no podrá eliminar el objeto de Workfront de la página de registro de objetos de Workfront.
 
 ## Eliminación de registros
 

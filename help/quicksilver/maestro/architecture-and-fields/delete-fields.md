@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,8 @@ Puede eliminar los campos de Maestro que ya no sean relevantes.
 
 ## Consideraciones acerca de la eliminación de campos Maestro:
 
-* Puede eliminar los campos que haya creado o los creados por otros usuarios. <!--this will change with access levels/ permissions-->
+* Puede eliminar los campos que haya creado o los campos creados por otros usuarios o por el sistema. <!--this will change with access levels/ permissions-->
+* No se puede eliminar el campo Nombre de un registro. <!--change this to say you can't delete the field selected to be the primary-->
 * Los campos sólo se pueden eliminar en la tabla de tipo de registro.
 * La información almacenada en el campo se elimina y no se puede recuperar.
 * Cuando se elimina un campo de registro vinculado, todos los campos de búsqueda vinculados también se eliminan del tipo de registro desde el que se establece el vínculo. Los campos de registro vinculados de los tipos de registro a los que está vinculado no se eliminan.

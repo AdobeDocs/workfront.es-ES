@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '3484'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre los campos de Maestro
 
-* Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla.
+* Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla. Todos los campos asociados a un tipo de registro también se muestran en la página Detalles de cada registro de ese tipo.
 
   Para obtener información sobre la administración de columnas de tabla (o campos de registro), consulte [Administrar la vista de tabla](../views/manage-the-table-view.md).
 
@@ -189,6 +189,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * [Divisa](#currency)
    * [Casilla de verificación](#checkbox)
    * [Personas](#people)
+   * [Creado por](#created-by)
+   * [Fecha de creación](#created-date)
+   * [Última modificación realizada por](#last-modified-by)
+   * [Fecha de la última modificación](#last-modified-date)
 
    >[!IMPORTANT]
    >
@@ -209,7 +213,7 @@ Los campos de texto de una sola línea capturan información alfanumérica limit
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre el encabezado de columna del campo en una tabla.
 1. Haga clic en **Crear**.
 
-   El nuevo campo de una sola línea se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de una sola línea se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 
 ### Párrafo {#paragraph}
@@ -232,7 +236,7 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 1. Haga clic en **Crear**.
 
-   El nuevo campo de párrafo se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de párrafo se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 
 ### Selección múltiple {#multi-select}
@@ -255,7 +259,7 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 1. Haga clic en la muestra de color a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
 1. Haga clic en **Crear**.
 
-   El nuevo campo de selección múltiple se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de selección múltiple se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Selección única {#single-select}
 
@@ -277,7 +281,7 @@ Los campos de selección única capturan información adicional en cualquier for
 1. Haga clic en la muestra de color a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
 1. Haga clic en **Crear**.
 
-   El nuevo campo de selección única se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de selección única se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Fecha {#date}
 
@@ -291,7 +295,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 1. Añada la siguiente información en la **Nuevo campo** pestaña:
    * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Formato de fecha**: Tipo de formato de fecha que desea mostrar en este campo.
+   * **Formato de fecha**: Tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
 
      Seleccione entre los siguientes formatos:
       * **Configuración regional**: coincide con la configuración regional del explorador.
@@ -299,7 +303,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
       * **Largo**: 16 de mayo de 2023
       * **Europeo**: 05/16/2023
       * **ISO**: 16-05-2023
-   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada.
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--update this setting name - submitted bug for it to be changed-->
 
      Seleccione entre las siguientes opciones:
 
@@ -308,7 +312,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 
 1. Haga clic en **Crear**.
 
-   El nuevo campo de fecha se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de fecha se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Número {#number}
 
@@ -330,7 +334,7 @@ Los tipos de campos de número capturan información en formato numérico.
 
 1. Haga clic en **Crear**.
 
-   El nuevo campo de número se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de número se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Porcentaje {#percentage}
 
@@ -352,7 +356,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 
 1. Haga clic en **Crear**.
 
-   El nuevo campo de porcentaje se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de porcentaje se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Divisa {#currency}
 
@@ -375,7 +379,7 @@ Los tipos de campo Moneda capturan información en un formato de número precedi
 
 1. Haga clic en **Crear**.
 
-   El nuevo campo de moneda se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de moneda se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Casilla de verificación
 
@@ -390,7 +394,7 @@ Puede utilizar el tipo de campo Casilla de verificación para agregar una sola o
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 1. Haga clic en **Crear**.
 
-   El nuevo campo de casilla de verificación se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de casilla de verificación se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
 
 ### Personas
 
@@ -411,7 +415,109 @@ Puede utilizar el tipo de campo Personas para agregar un usuario <!--, job role,
 
 1. Haga clic en **Crear**.
 
-   El nuevo campo de tipo Personas se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros. El campo también se muestra en la página Detalles de un registro.
+   El nuevo campo de tipo Personas se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
+
+### Creado por
+
+Puede utilizar el tipo de campo Creado por para agregar el usuario que creó el registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con el nombre del usuario que había iniciado sesión cuando se creó el registro.
+
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Creado por** tipo de campo.
+
+   ![](assets/created-by-field-type.png)
+
+1. Añada la siguiente información en la **Nuevo campo** pestaña:
+
+   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo Creado por tipo se agrega como una columna al tipo de registro y sus valores se rellenan previamente con el nombre del usuario que creó cada registro.
+
+
+### Fecha de creación
+
+Puede utilizar el tipo de campo Fecha de creación para agregar la fecha en la que se creó un registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con la fecha (y opcionalmente con la hora) en que se creó el registro.
+
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fecha de creación** tipo de campo.
+
+   ![](assets/created-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Añada la siguiente información en la **Nuevo campo** pestaña:
+
+   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Formato de fecha**: Seleccione entre los siguientes formatos:
+
+      * **Configuración regional**: coincide con la configuración regional del explorador.
+      * **Standard**: 16/05/2023
+      * **Largo**: 16 de mayo de 2023
+      * **Europeo**: 05/16/2023
+      * **ISO**: 16-05-2023
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
+
+     Seleccione entre las siguientes opciones:
+
+      * **24 horas**: Por ejemplo: 18:00
+      * **12 h**: Por ejemplo: 18:00
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo de tipo Fecha de creación se agrega como una columna al tipo de registro y sus valores se rellenan previamente con la fecha (o fecha y hora) en que se creó el registro.
+
+
+### Última modificación realizada por
+
+Puede utilizar el tipo de campo Última modificación realizada por para agregar a un registro al usuario que modificó el registro por última vez. Este es un campo de solo lectura y se rellena automáticamente con el nombre del usuario que inició sesión cuando se actualizó el registro por última vez.
+
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Última modificación de:** tipo de campo.
+
+   ![](assets/last-modified-by-field-type.png)
+
+1. Añada la siguiente información en la **Nuevo campo** pestaña:
+
+   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo Última modificación por tipo se agrega como una columna al tipo de registro y sus valores se rellenan previamente con el nombre del usuario que modificó cada registro por última vez.
+
+
+### Fecha de la última modificación
+
+Puede utilizar el tipo de campo Fecha de la última modificación para agregar la fecha en la que se modificó por última vez un registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con la fecha (y opcionalmente con la hora) en que se modificó el registro por última vez.
+
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fecha de creación** tipo de campo.
+
+   ![](assets/last-modified-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Añada la siguiente información en la **Nuevo campo** pestaña:
+
+   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Formato de fecha**: Seleccione entre los siguientes formatos:
+
+      * **Configuración regional**: coincide con la configuración regional del explorador.
+      * **Standard**: 16/05/2023
+      * **Largo**: 16 de mayo de 2023
+      * **Europeo**: 05/16/2023
+      * **ISO**: 16-05-2023
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
+
+     Seleccione entre las siguientes opciones:
+
+      * **24 horas**: Por ejemplo: 18:00
+      * **12 h**: Por ejemplo: 18:00
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo de tipo Fecha de la última modificación se agrega como una columna al tipo de registro y sus valores se rellenan previamente con la fecha (o fecha y hora) en que se modificó por última vez el registro.
+
 
 ## Crear campos vinculando tipos de registro
 
