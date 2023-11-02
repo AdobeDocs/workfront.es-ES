@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Ahora puede abrir las páginas de objetos de Workfront desde las áreas siguient
 * La página Detalles del registro de objetos de Workfront de solo lectura
 
 Para obtener más información, consulte [Conectar registros](../maestro/records/connect-records.md).
+
+### Se ha mejorado la navegación en la vista de tabla
+
+Previsualización y producción: 2 de noviembre de 2023
+
+Hemos mejorado la navegación en la vista de tabla de una página de tipo de registro.
+
+A continuación se indican algunas de las mejoras:
+
+* Utilice la tecla TAB del teclado para desplazarse por las columnas y filas de la tabla
+
+* Agregue un nuevo registro desde cualquier posición de columna. Antes de esta mejora, solo podía agregar un registro desde la primera columna.
+
+* Utilice la combinación de teclado Mayús + Intro para agregar un nuevo registro (o fila) en la tabla.
+
+Para obtener más información, consulte [Creación de registros](../maestro/records/connect-records.md).
 
 ## Semana del 16 de octubre de 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla.
 
-1. Clic **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla para agregar una nueva fila a la tabla.
+1. Para añadir nuevos registros, haga clic en **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla
+
+   O
+
+   Clic **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    Presione CTRL+Intro para agregar un nuevo registro en una fila nueva.
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Empiece a escribir información en la nueva fila sobre el nuevo registro.
 
