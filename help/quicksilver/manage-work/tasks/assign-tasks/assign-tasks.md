@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1953'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 1%
 # Asignar tareas
 
 {{highlighted-preview}}
-
->[!IMPORTANT]
->
->La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa el 30 de junio de 2023.
 
 Puede asignar tareas a usuarios, roles o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -141,7 +137,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    <td>Roles</td>
    <td><p>Si asigna una tarea o un problema a una o varias funciones y, a continuación, también asigna un usuario, decide qué función de trabajo asociar al usuario adicional (si corresponde) según las siguientes reglas:</p>
      <ul>
-      <li>Si solo hay una función de trabajo asignada y coincide con la función principal del usuario (configurada en su perfil), la tarea o el problema se asignan únicamente a ese usuario.</li>
+      <li>Si solo hay una función de trabajo asignada y coincide con la función principal del usuario (configurada en su perfil), la tarea o el problema se asigna únicamente a ese usuario.</li>
       <li>Si se asignan varios roles y al menos uno de ellos coincide con uno de los otros roles del usuario, la tarea o el problema se asignan al usuario (el rol se selecciona aleatoriamente si hay varias coincidencias), junto con cualquier rol adicional asignado</li>
       <li>Si hay al menos una función asignada y no coinciden las funciones del usuario, la tarea o el problema se asignan a la función o las funciones y al usuario.</li>
      </ul>
