@@ -6,9 +6,9 @@ description: Puede solicitar un documento en cualquier objeto que admita Documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,6 @@ Debe tener lo siguiente:
    El usuario recibe una notificación por correo electrónico si esta preferencia está habilitada, así como una notificación dentro de la aplicación. Para obtener más información sobre las notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Puede hacer clic en el vínculo que se encuentra en la notificación por correo electrónico y, a continuación, cargar el documento. O puede hacer clic en la notificación en la aplicación. Cada opción le redirige a la página de perfil del usuario, donde puede cargar el documento solicitado.
-
-   También puede responder directamente al correo electrónico y adjuntar los documentos solicitados (si está configurado para admitir respuestas por correo electrónico).
 
 1. Una vez cargado el documento, la persona que lo solicitó podrá acceder al documento en su dirección personal **Documentos** área.
 
