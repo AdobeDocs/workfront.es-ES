@@ -9,7 +9,7 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -197,19 +197,19 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>Continuar a <a href="#AB%C2%A0Activ" class="MCXref xref" >Campos de actividad AB</a>.</p>
+          <p>Continuar a <a href="#ab-activity-fields" class="MCXref xref" >Campos de actividad AB</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT Activity]</p>
-          <p>Continuar a <a href="#XT" class="MCXref xref" >Campos de actividad XT</a>.</p>
+          <p>Continuar a <a href="#xt-activity-fields" class="MCXref xref" >Campos de actividad XT</a>.</p>
         </li>
         <li>
           <p>Oferta de [!UICONTROL]</p>
-          <p>Continuar a <a href="#Offer" class="MCXref xref" >Campos de oferta</a>.</p>
+          <p>Continuar a <a href="#offer-fields" class="MCXref xref" >Campos de oferta</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>Continuar a <a href="#Audience" class="MCXref xref" >Campos de audiencia</a>.</p>
+          <p>Continuar a <a href="#audience-fields" class="MCXref xref" >Campos de audiencia</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] URL base]</td>
@@ -710,7 +710,7 @@ Este módulo de acción elimina una sola actividad AB, actividad XT, oferta o au
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -733,7 +733,7 @@ Este módulo de acción recupera datos de una sola actividad, oferta, audiencia,
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -756,7 +756,7 @@ Este módulo de acción actualiza una actividad, oferta o audiencia.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -766,12 +766,12 @@ Este módulo de acción actualiza una actividad, oferta o audiencia.
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>Consulte las descripciones de los campos en <a href="#AB%C2%A0Activ" class="MCXref xref" >Campos de actividad AB</a> bajo <a href="#Create2" class="MCXref xref" >Creación de un registro</a>.</p>
+            <p>Consulte las descripciones de los campos en <a href="#ab-activity-fields" class="MCXref xref" >Campos de actividad AB</a> bajo <a href="#create-a-record" class="MCXref xref" >Creación de un registro</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT Activity]</b>
             </p>
-            <p>Consulte las descripciones de los campos en <a href="#XT" class="MCXref xref" >Campos de actividad XT</a> bajo <a href="#Create2" class="MCXref xref" >Creación de un registro</a>.</p>
+            <p>Consulte las descripciones de los campos en <a href="#xt-activity-fields" class="MCXref xref" >Campos de actividad XT</a> bajo <a href="#create-a-record" class="MCXref xref" >Creación de un registro</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Otra actividad]</b>
@@ -781,12 +781,12 @@ Este módulo de acción actualiza una actividad, oferta o audiencia.
           <li>
             <p><b>Oferta de [!UICONTROL]</b>
             </p>
-            <p>Consulte las descripciones de los campos en <a href="#Offer" class="MCXref xref" >Campos de oferta</a> bajo <a href="#Create2" class="MCXref xref" >Creación de un registro</a>.</p>
+            <p>Consulte las descripciones de los campos en <a href="#offer-fields" class="MCXref xref" >Campos de oferta</a> bajo <a href="#create-a-record" class="MCXref xref" >Creación de un registro</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>Consulte las descripciones de los campos en <a href="#Audience" class="MCXref xref" >Campos de audiencia</a> bajo <a href="#Create2" class="MCXref xref" >Creación de un registro</a>.</p>
+            <p>Consulte las descripciones de los campos en <a href="#audience-fields" class="MCXref xref" >Campos de audiencia</a> bajo <a href="#create-a-record" class="MCXref xref" >Creación de un registro</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ Este módulo de búsqueda recupera una lista de registros del tipo seleccionado.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -852,7 +852,7 @@ Este módulo de búsqueda busca Actividades, Ofertas o Audiencias en función de
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#Create" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
