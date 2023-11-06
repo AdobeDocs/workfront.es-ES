@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -415,55 +415,6 @@ Existen varias formas de copiar una actualización. Después de copiar un víncu
 
 La copia de una actualización varía en función de la experiencia de comentario que utilice.
 
-### Copiar una actualización en la experiencia de comentarios heredada
-
-<!--remove legacy when removed from the UI-->
-
-* [Copiar la actualización](#copy-the-update)
-* [Copiar el vínculo del hilo](#copy-the-thread-link)
-* [Copiar el vínculo de actualización](#copy-the-update-link)
-* [Citar respuesta](#quote-reply)
-
-#### Copiar la actualización {#copy-the-update}
-
-Esta opción copia el texto de una actualización específica en el portapapeles.
-
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** y haga clic en **Copiar el texto del cuerpo**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copiar el vínculo del hilo {#copy-the-thread-link}
-
-Esta opción copia el enlace del hilo completo en el portapapeles para que pueda compartir el hilo con otros usuarios.
-
-1. Vaya al hilo de actualización que desee copiar.
-
-1. Haga clic en **Más** y haga clic en **Copiar vínculo del hilo**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copiar el vínculo de actualización {#copy-the-update-link}
-
-Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
-
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** junto a la actualización individual y haga clic en **Copiar vínculo de actualización**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Citar respuesta
-
-La opción Citar respuesta copia el comentario original en una nueva respuesta como una cita de bloque.
-
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** y haga clic en **Citar respuesta**.
-
-   Se abre un nuevo cuadro de comentarios y la respuesta citada se incluye en el nuevo comentario y se marca como una cita de bloque.
-
-1. Siga añadiendo la actualización y haga clic en **Responder** para añadir el comentario.
-
 ### Copiar una actualización en la nueva experiencia de comentarios
 
 Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ La opción Copiar vínculo copia el comentario o el vínculo de subproceso en el
 
 1. Haga clic en **Más** y haga clic en **Copiar vínculo**.
 
+1. Pegue el vínculo copiado en el paso anterior en un correo electrónico u otra aplicación para compartirlo con otros usuarios. El vínculo compartido abre el comentario desde el que compartió el vínculo.
+
+   >[!TIP]
+   >
+   >Cuando comparte el vínculo de una conversación sobre un objeto secundario desde un objeto de mayor clasificación, el vínculo abre el subproceso en el área Actualizaciones del objeto de mayor clasificación.
+   >
+   >Por ejemplo, si copia el vínculo de un comentario de tarea desde el área de Actualizaciones del proyecto, el comentario abre la página del proyecto.
+
 #### Copiar el texto del cuerpo
 
 La opción Copiar texto del cuerpo copia el texto de una actualización específica en el portapapeles.
@@ -507,6 +466,64 @@ La opción Respuesta de oferta copia el comentario original en una nueva respues
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Siga añadiendo la actualización y haga clic en **Enviar** para añadir el comentario.
+
+### Copiar una actualización en la experiencia de comentarios heredada
+
+<!--remove legacy when removed from the UI-->
+
+* [Copiar la actualización](#copy-the-update)
+* [Copiar el vínculo del hilo](#copy-the-thread-link)
+* [Copiar el vínculo de actualización](#copy-the-update-link)
+* [Citar respuesta](#quote-reply)
+
+  >[!TIP]
+  >
+  >Cuando copia y comparte el vínculo de una conversación sobre un objeto secundario desde un objeto de mayor clasificación, el vínculo abre el subproceso en el área Actualizaciones del objeto secundario.
+  >
+  >Por ejemplo, si copia el vínculo de un comentario de tarea desde el área de Actualizaciones del proyecto, el comentario abre la página de la tarea.
+
+#### Copiar la actualización {#copy-the-update}
+
+Esta opción copia el texto de una actualización específica en el portapapeles.
+
+1. Vaya a la actualización o respuesta que desee copiar.
+1. Haga clic en **Más** y haga clic en **Copiar el texto del cuerpo**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Copiar el vínculo del hilo {#copy-the-thread-link}
+
+Esta opción copia el enlace del hilo completo en el portapapeles para que pueda compartir el hilo con otros usuarios.
+
+1. Vaya al hilo de actualización que desee copiar.
+
+1. Haga clic en **Más** y haga clic en **Copiar vínculo del hilo**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Pegue el vínculo copiado en el paso anterior en un correo electrónico u otra aplicación para compartirlo con otros usuarios. El vínculo compartido abre el comentario desde el que compartió el vínculo.
+
+#### Copiar el vínculo de actualización {#copy-the-update-link}
+
+Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
+
+1. Vaya a la actualización o respuesta que desee copiar.
+1. Haga clic en **Más** junto a la actualización individual y haga clic en **Copiar vínculo de actualización**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Pegue el vínculo copiado en el paso anterior en un correo electrónico u otra aplicación para compartirlo con otros usuarios. El vínculo compartido abre el comentario desde el que compartió el vínculo.
+
+#### Citar respuesta
+
+La opción Citar respuesta copia el comentario original en una nueva respuesta como una cita de bloque.
+
+1. Vaya a la actualización o respuesta que desee copiar.
+1. Haga clic en **Más** y haga clic en **Citar respuesta**.
+
+   Se abre un nuevo cuadro de comentarios y la respuesta citada se incluye en el nuevo comentario y se marca como una cita de bloque.
+
+1. Siga añadiendo la actualización y haga clic en **Responder** para añadir el comentario.
 
 ## Eliminar una actualización o respuesta
 
