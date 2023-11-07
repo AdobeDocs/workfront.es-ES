@@ -7,7 +7,7 @@ description: La asignación es el proceso de asignar los resultados de un módul
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Para obtener más información, consulte [Configuración de un módulo en [!DNL 
 
 Puede asignar varios elementos a un campo, combinarlos con literales (valores fijos) y emplear Operadores y funciones para crear fórmulas complejas:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Puede encontrar las funciones y operadores en el panel de asignación en una de sus pestañas.
 
