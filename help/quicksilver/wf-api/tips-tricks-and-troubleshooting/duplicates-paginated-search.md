@@ -5,8 +5,9 @@ title: Duplicados devueltos durante una búsqueda paginada grande
 description: Duplicados devueltos durante una búsqueda paginada grande
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 ## Problema
 
-Al realizar una búsqueda paginada grande en la API de un objeto, el cliente recibe entradas duplicadas y registros que faltan.
+Al realizar una búsqueda paginada de gran tamaño en la API para un objeto, el cliente recibe entradas duplicadas y registros faltantes.
 
 ## Solución
 
-Cuando el pedido no se define formalmente, dependemos del orden de las filas devueltas por la base de datos de Oracle, que no garantiza ningún orden determinístico. Por ejemplo, dos llamadas consecutivas con la misma consulta podrían devolver filas en un orden diferente. Del mismo modo, al realizar la paginación, las filas pueden asignarse aleatoriamente a &quot;páginas&quot; diferentes, lo que da lugar a duplicados. La solución más sencilla puede ser agregar clasificación por ID:
+Cuando el orden no está definido formalmente, nos basamos en el orden de las filas devueltas por la base de datos de Oracle, lo que no garantiza ningún orden determinista. Por ejemplo, dos llamadas consecutivas con la misma consulta podrían devolver filas en un orden diferente. Del mismo modo, al realizar la paginación, las filas pueden asignarse aleatoriamente a distintas &quot;páginas&quot;, lo que provoca duplicados. La solución más sencilla es agregar la ordenación por ID:
 
 ```
 &ID_Sort=asc

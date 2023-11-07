@@ -1,23 +1,24 @@
 ---
 content-type: api
 navigation-topic: wf-api
-title: Obtener la API de tiempo disponible de los usuarios
-description: Obtener la API de tiempo disponible de los usuarios
+title: Obtener los usuarios disponibles API de tiempo
+description: Obtener los usuarios disponibles API de tiempo
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# API de tiempo disponible para usuarios
+# API de tiempo de usuarios disponible
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 
-El punto final de tiempo disponible para los usuarios recupera los datos en el tiempo disponible para el usuario. Esto permite integraciones para la agregación de datos según los atributos del usuario y los intervalos de tiempo.
+El punto final de tiempo de los usuarios disponibles recupera los datos en el tiempo disponible del usuario. Esto permite realizar integraciones para agregar datos de acuerdo con los atributos del usuario y los intervalos de tiempo.
 
 ## Solicitud de ejemplo
 
@@ -31,7 +32,7 @@ El punto final de tiempo disponible para los usuarios recupera los datos en el t
 
 * **toDate**: datetime. cadena. Requerido. Ejemplo `"2022-07-20T23:59:59"`.
 
-## Ejemplo de respuesta:
+## Respuesta de ejemplo:
 
 ```
 {
@@ -75,4 +76,4 @@ El punto final de tiempo disponible para los usuarios recupera los datos en el t
 ## Parámetros de respuesta
 
 * **AVL**: Horas disponibles reales. Matriz de números.
-* **PAVL**: Horario disponible puro para la programación que no incluye días no laborables o tiempo libre del usuario. Cadena.
+* **PAVL**: Horas puramente disponibles para la programación que no incluyen días no laborables o días libres del usuario. Cadena.

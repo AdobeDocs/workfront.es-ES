@@ -5,8 +5,9 @@ title: Flujo de código de autorización para aplicaciones OAuth 2 personalizada
 description: Flujo de código de autorización para aplicaciones OAuth 2 personalizadas
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -14,38 +15,38 @@ ht-degree: 0%
 ---
 
 
-# Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo de código de autorización
+# Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización
 
 Para integrarse con Workfront y permitir que la aplicación cliente se comunique con Workfront en nombre del usuario, debe:
 
 * Creación de una aplicación OAuth2
 * Configuración de la aplicación de terceros
 * Vínculo a la página Autorizar para los usuarios
-* Configurar el flujo de código de autorización: Los usuarios inician sesión en la instancia de Workfront y consienten en permitir que la aplicación cliente se conecte a Workfront en su nombre. Como resultado, obtiene un código de autorización que intercambiará con los tokens de acceso y actualización.
-* Configurar el flujo de token de actualización: En este flujo, utilice el token de actualización para obtener un nuevo token de acceso cuando caduque el antiguo.
+* Configurar flujo de código de autorización: los usuarios inician sesión en la instancia de Workfront y aceptan permitir que la aplicación cliente se conecte a Workfront en su nombre. Como resultado, se obtiene un código de autorización que se intercambia con tokens de acceso y actualización.
+* Configurar flujo de token de actualización: en este flujo se utiliza el token de actualización para obtener un nuevo token de acceso cuando el anterior ha caducado.
 
 ## Crear una aplicación OAuth2
 
-Para obtener instrucciones sobre la creación de la aplicación OAuth2, consulte [Crear una aplicación OAuth2 con credenciales de usuario (flujo de código de autorización)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) en [Creación de aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Para obtener instrucciones sobre la creación de la aplicación OAuth2, consulte [Crear una aplicación OAuth2 con credenciales de usuario (flujo de código de autorización)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 ## Vínculo a la página Autorizar para los usuarios
 
-Los usuarios deben iniciar sesión para autorizar esta integración en su propia cuenta. La página para que autoricen tiene un formato específico, descrito aquí. Utilice esta información para determinar la dirección de la página de autorización de la aplicación y proporcionar a los usuarios esta dirección o un vínculo a ella.
+Los usuarios deben iniciar sesión para autorizar esta integración en su propia cuenta. La página para que autoricen tiene un formato específico, que se describe aquí. Utilice esta información para determinar la dirección de la página de autorización de la aplicación y proporcione a los usuarios esta dirección o un vínculo a ella.
 
-* La dirección URL completa del dominio de su organización. Ejemplo:
+* Dirección URL completa del dominio de la organización. Ejemplo:
 
-   ```
-   https://myorganization.my.workfront.com
-   ```
+  ```
+  https://myorganization.my.workfront.com
+  ```
 
 
 * `client_id`: Este es el ID de cliente generado al crear la aplicación OAuth2 en Workfront.
 
-* `redirect_uri`: Esta es la URL de redireccionamiento que introdujo al crear la aplicación. Los usuarios serán dirigidos a esta página después de que autoricen la aplicación para su cuenta.
+* `redirect_uri`: Esta es la URL de redireccionamiento que introdujo al crear la aplicación. Los usuarios serán dirigidos a esta página una vez que hayan autorizado la aplicación para su cuenta.
 
 * `response_type`: Debe tener el valor `code`.
 
-Por lo tanto, la dirección URL de la página de autorización es:
+Por lo tanto, la URL de la página de autorización es:
 
 ```
 https://<URL of your organization's domain>/integrations/oauth2/authorize?client_id=<Your ClientID>&redirect_uri=<Your redirect URL>&response_type=code
@@ -53,7 +54,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 >[!NOTE]
 >
->Se recomienda crear un botón u otro vínculo en el que los usuarios puedan hacer clic para que se le dirija a esta página.
+>Se recomienda crear un botón u otro vínculo en el que los usuarios puedan hacer clic para que se les dirija a esta página.
 
 ## Configuración de la aplicación de terceros
 
@@ -68,7 +69,7 @@ La aplicación de terceros puede requerir configuración. La siguiente tabla con
    <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">URL del token</td> 
+   <td role="rowheader">URL de token</td> 
    <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 
@@ -78,31 +79,31 @@ La aplicación de terceros puede requerir configuración. La siguiente tabla con
  </tbody> 
 </table>
 
-## Configurar el flujo de código de autorización
+## Configurar flujo de código de autorización
 
 ![](assets/oauth-2-authorization-code-flow-350x194.png)
 
-Para iniciar sesión de los usuarios con OAuth2, siga este proceso:
+Para iniciar sesión con OAuth2, siga este proceso:
 
-1. Cuando el usuario abre la página de autorización, redirige a la página de inicio de sesión de Workfront para que pueda iniciar sesión en Workfront. Si el usuario tiene una configuración SSO, se abrirá la página de inicio de sesión del proveedor de identidad.
+1. Cuando el usuario abre la página de autorización, redirige a la página de inicio de sesión de Workfront para que pueda iniciar sesión en Workfront. Si el usuario tiene una configuración de SSO, se abrirá la página de inicio de sesión del proveedor de identidad.
 
-   Si el usuario ya ha iniciado sesión en Workfront en el mismo explorador o inicia sesión correctamente en Workfront, se redirige al usuario a la pantalla de consentimiento:
+   Si el usuario ya ha iniciado sesión en Workfront en el mismo explorador, o si inicia sesión correctamente en Workfront, se redirige al usuario a la pantalla de consentimiento:
 
    ![](assets/consent-screen-350x227.png)
 
-1. Si el usuario Permite el acceso, la página se redirige al `redirect_url`. El redireccionamiento debe incluir los siguientes parámetros de consulta:
+1. Si el usuario permite el acceso, la página se redirige al `redirect_url`. El redireccionamiento debe incluir los siguientes parámetros de consulta:
 
-* `code`: El código de autorización necesario para obtener el token de acceso/actualización.
-* `domain`: El dominio de su organización. Ejemplo: en `myorganization.my.workfront.com`, el dominio es `myorganization`.
+* `code`: el código de autorización necesario para obtener el token de acceso/actualización.
+* `domain`: dominio de su organización. Ejemplo: en `myorganization.my.workfront.com`, el dominio es `myorganization`.
 * `lane`: el carril de la solicitud. Ejemplo: en `myorganization.preview.workfront.com`, el carril es `preview`.
 
-   >[!IMPORTANT]
-   >
-   >La variable `code` solo es válido durante 2 minutos. Por lo tanto, debe obtener los tokens de actualización y acceso dentro de ese tiempo.
+  >[!IMPORTANT]
+  >
+  >El `code` solo es válido durante 2 minutos. Por lo tanto, debe obtener los tokens de actualización y acceso en ese plazo de tiempo.
 
-1. Cuando tenga un código, puede solicitar la actualización y el acceso a los tokens enviando el código junto con las credenciales de la aplicación del cliente a la variable `/integrations/oauth2/api/v1/token` punto final.
+1. Cuando tenga un código, puede solicitar tokens de actualización y acceso enviando el código junto con las credenciales de la aplicación del cliente a `/integrations/oauth2/api/v1/token` punto final.
 
-   La dirección URL de solicitud de token completa es
+   La URL completa de la solicitud de token es
 
    ```
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
@@ -138,9 +139,9 @@ Para iniciar sesión de los usuarios con OAuth2, siga este proceso:
 
    >[!IMPORTANT]
    >
-   > El secreto del cliente se generó al registrar la aplicación en Workfront. Debe almacenarla en un lugar seguro, ya que no se puede recuperar si se pierde.
+   > El secreto de cliente se generó al registrar la aplicación en Workfront. Debe almacenarlo en un lugar seguro, ya que no se puede recuperar si se pierde.
 
-   Cuando todos los parámetros pasados son correctos, el extremo de token devuelve la siguiente carga útil:
+   Cuando todos los parámetros pasados son correctos, el extremo del token devuelve la siguiente carga útil:
 
    ```
    {
@@ -152,13 +153,13 @@ Para iniciar sesión de los usuarios con OAuth2, siga este proceso:
    }
    ```
 
-   El token de acceso es el mismo que ```sessionID```y caduca del mismo modo que la ```sessionID```
+   El token de acceso es el mismo que ```sessionID```y caduca del mismo modo que la versión normal ```sessionID```
 
    >[!IMPORTANT]
    >
-   > Almacene el token de actualización en un lugar seguro. Necesitará que obtenga un nuevo token de actualización cuando caduque el antiguo. Workfront no almacena el token de actualización.
+   > Almacene el token de actualización en un lugar seguro. Lo necesitará para obtener un nuevo token de actualización cuando el anterior haya caducado. Workfront no almacena el token de actualización.
 
-1. Ahora, cuando tiene un token de acceso, puede realizar llamadas de API a Workfront
+1. Ahora, cuando tenga un token de acceso, podrá realizar llamadas de API a Workfront
 
    ```
    curl --request GET 'https://<workfront host>/attask/api/v14.0/proj/search \
@@ -169,7 +170,7 @@ Para iniciar sesión de los usuarios con OAuth2, siga este proceso:
 
 ![](assets/refresh-access-token-flow-350x142.png)
 
-Para actualizar el access_token de nuevo necesitamos hacer una llamada &quot;POST&quot; al extremo del token. Esta vez enviamos datos de formulario diferentes de la siguiente manera:
+Para actualizar el access_token de nuevo necesitamos hacer una llamada de &quot;POST&quot; al punto final del token. Esta vez, se envía un formulario de datos diferente de la siguiente manera:
 
 ```
 curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
@@ -191,7 +192,7 @@ curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/toke
 --data-urlencode 'client_secret=<client_secret>'
 ```
 
-Devuelve el siguiente resultado:
+Devolverá el siguiente resultado:
 
 ```
 {
@@ -203,4 +204,4 @@ Devuelve el siguiente resultado:
 }
 ```
 
-Y de nuevo, el token de acceso es el `sessionID` que se puede utilizar para realizar una solicitud de API a Workfront.
+Y de nuevo el token de acceso es el `sessionID` que se puede utilizar para realizar una solicitud de API a Workfront.

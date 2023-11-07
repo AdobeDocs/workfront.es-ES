@@ -2,35 +2,36 @@
 filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
-title: Filtrar mensajes de suscripción de evento
-description: Filtrar mensajes de suscripción de evento
+title: Filtrado de mensajes de suscripción de eventos
+description: Filtrado de mensajes de suscripción de eventos
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
 
 ---
 
-# Filtrar mensajes de suscripción de evento
+# Filtrado de mensajes de suscripción de eventos
 
-Puede crear componentes de procesamiento intermedios que le ayuden a filtrar y procesar solo los mensajes de suscripción de evento que necesite su empresa.
+Puede crear componentes de procesamiento intermedios que le ayuden a filtrar y procesar únicamente los mensajes de suscripción de evento que su empresa necesita.
 
 Para obtener más información sobre las suscripciones a eventos, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md).
 
 ## Filtrado de mensajes de eventos
 
-Esta sección contiene fragmentos de código de filtrado que puede implementar para reducir la carga de los mensajes de suscripción de eventos.  Para ayudar a mostrar las diferencias en la sintaxis de los distintos idiomas, estos fragmentos ilustran el mismo conjunto de filtros escritos en los siguientes idiomas:
+Esta sección contiene fragmentos de código de filtrado que puede implementar para reducir la carga de los mensajes de suscripción de eventos.  Para ayudar a mostrar las diferencias en la sintaxis de varios lenguajes, estos fragmentos ilustran el mismo conjunto de filtros escritos en los siguientes lenguajes:
 
-Puede ver ejemplos de filtrado en [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), donde puede ver las diferencias en la sintaxis de cada idioma y los medios de interacción con el SDK de AWS. Estos ejemplos se escriben como AWS Lambdas, que es un método común para utilizar componentes de filtrado y procesamiento intermedios.
+Puede ver ejemplos de filtrado en [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), donde puede ver las diferencias en la sintaxis de cada lenguaje y los medios de interacción con el SDK de AWS. Estos ejemplos se escriben como Lambdas de AWS, un método común para emplear componentes de filtrado y procesamiento intermedios.
 
-Los siguientes fragmentos de código están casi listos para la implementación y se pueden utilizar como punto de partida para ayudarle a escribir sus propios componentes de procesamiento, más complejos y con filtros.
+Los siguientes fragmentos de código están casi listos para la implementación y pueden utilizarse como punto de partida para ayudarle a escribir sus propios filtros y componentes de procesamiento más complejos.
 
 ### Java
 
-El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en función del ID de grupo del proyecto, tal como se hace en [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+El siguiente ejemplo de Java muestra cómo filtrar las cargas útiles del proyecto en función del ID de grupo del proyecto, como se hace en [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. Establezca el ID de grupo que está buscando y créelo como una constante estática.
 
@@ -38,9 +39,9 @@ El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en fu
    private static final String DESIRED_GROUP_ID = "VaqTTVaB0UcbPu4n6824WIYYIV953Mg3";
    ```
 
-   En este ejemplo, el método handleRequest , que es un nombre de método estándar de AWS Lambda, toma un tipo Map como su primer parámetro, que es el contenido del mensaje de suscripción de evento.\
-   El segundo parámetro que toma es el contexto de la solicitud de proxy Lambda actual.\
-   El objeto Context se utiliza para obtener un registrador Lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
+   En este ejemplo, el método handleRequest, que es un nombre de método estándar de AWS Lambda, toma un tipo Map como primer parámetro, que es el contenido del mensaje de suscripción de evento.\
+   El segundo parámetro que toma es el contexto de la solicitud actual de proxy Lambda.\
+   El objeto Context se utiliza para obtener un registrador lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -49,7 +50,7 @@ El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en fu
    }
    ```
 
-2. Al invocar el método handleRequest , obtenga el atributo &quot;newState&quot; del mensaje de suscripción de evento, que representa el estado actualizado del recurso.
+2. Al invocar el método handleRequest, obtenga el atributo &quot;newState&quot; del mensaje de suscripción de evento, que representa el estado actualizado del recurso.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -60,11 +61,11 @@ El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en fu
    }
    ```
 
-   Para obtener más información sobre el nuevo formato State, consulte [Formato de mensaje de salida para suscripciones de evento](../../wf-api/api/message-format-event-subs.md).
+   Para obtener más información sobre el formato newState, consulte [Formato de mensaje saliente para suscripciones a eventos](../../wf-api/api/message-format-event-subs.md).
 
-3. Después de analizar el mapa &quot;newState&quot; del mensaje, asegúrese de que el ID de grupo del objeto coincide con el ID de grupo que identificó en el paso 1.
+3. Después de analizar el mapa &quot;newState&quot; a partir del mensaje, asegúrese de que el ID de grupo del objeto coincida con el ID de grupo identificado en el paso 1.
 
-4. (Condicional) Si los ID **no** coincide, suelte el mensaje para que se devuelva una respuesta vacía.
+4. (Condicional) Si los ID **no** Para buscar coincidencias, suelte el mensaje para que se devuelva una respuesta vacía.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -82,7 +83,7 @@ El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en fu
 
    >[!NOTE]
    >
-   >Devolver una respuesta vacía y exitosa es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
+   >Devolver una respuesta vacía y correcta es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
 
 5. Procese el mensaje.
 
@@ -106,17 +107,17 @@ El siguiente ejemplo de Java muestra cómo filtrar las cargas del proyecto en fu
    }
    ```
 
-   El SDK de AWS se utiliza para invocar a otro Lambda, responsable de enviar el mensaje filtrado a nuestro punto final deseado.
+   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.
 
-   El propósito de pasar la responsabilidad de enviar el mensaje a otra Lambda es evitar un tiempo de espera de la solicitud de envío proveniente del servicio de suscripción de eventos. Actualmente, el tiempo de espera permitido para la entrega se establece en cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio de suscripción de evento agotará el tiempo de espera y caerá en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del periodo de espera.
+   El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera permitido para la entrega se establece en cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.
 
-   Para obtener más información sobre la administración de la entrega de mensajes, consulte [Mejora del envío de mensajes al aceptar tiempos de espera](#improving-message-delivery-while-accommodating-timeouts).
+   Para obtener más información sobre la administración de la entrega de mensajes, consulte [Mejora De La Entrega De Mensajes Al Adaptarse A Los Tiempos De Espera](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
-La principal diferencia entre los ejemplos de Java y Python es que en el ejemplo de Java el mensaje de suscripción de evento se recibe como el primer parámetro, y en el ejemplo de Python el primer parámetro es un &quot;evento&quot; de proxy Lambda, que contiene el mensaje de suscripción de evento junto con información sobre la solicitud de proxy de AWS Lambda.
+La principal diferencia entre los ejemplos de Java y Python es que en el ejemplo de Java el mensaje de suscripción de evento se recibe como el primer parámetro y en el ejemplo de Python el primer parámetro es un &quot;evento&quot; de proxy Lambda, que contiene el mensaje de suscripción de evento junto con información sobre la solicitud de proxy Lambda de AWS.
 
-El siguiente ejemplo de Python muestra cómo filtrar las cargas del proyecto en función del ID de grupo del proyecto, tal como se hace en  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+El siguiente ejemplo en Python muestra cómo filtrar las cargas útiles del proyecto en función del ID de grupo del proyecto, como se hace en  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Establezca el ID de grupo que está buscando y créelo como una constante estática.
 
@@ -124,16 +125,16 @@ El siguiente ejemplo de Python muestra cómo filtrar las cargas del proyecto en 
    DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3'
    ```
 
-   El primer parámetro es el &quot;evento&quot; del proxy Lambda, que contiene el mensaje de suscripción de evento y alguna información adicional que debe analizarse.\
+   El primer parámetro es el &quot;evento&quot; del proxy Lambda, que contiene el mensaje de suscripción de evento y cierta información adicional que debe analizarse.\
    El segundo parámetro es el contexto de la solicitud de proxy Lambda actual.\
-   En este ejemplo, el objeto Context se utiliza para obtener un registrador Lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
+   En este ejemplo, el objeto Context se utiliza para obtener un registrador lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
 
    ```
    def project_group_filter_handler(event, context):
        ...
    ```
 
-1. Analice el mensaje desde el evento.
+1. Analice el mensaje del evento.
 
    ```
    event_subscription_message = json.loads(event['body'])
@@ -146,9 +147,9 @@ El siguiente ejemplo de Python muestra cómo filtrar las cargas del proyecto en 
    new_state = json.loads(event_subscription_message['newState'])
    ```
 
-   Para obtener más información sobre el nuevo formato State, consulte [Formato de mensaje de salida para suscripciones de evento](../../wf-api/api/message-format-event-subs.md).
+   Para obtener más información sobre el formato newState, consulte [Formato de mensaje saliente para suscripciones a eventos](../../wf-api/api/message-format-event-subs.md).
 
-1. Después de analizar el mapa &quot;newState&quot; del mensaje, asegúrese de que el ID de grupo del objeto coincide con el ID de grupo que identificó en el paso 1.
+1. Después de analizar el mapa &quot;newState&quot; a partir del mensaje, asegúrese de que el ID de grupo del objeto coincida con el ID de grupo identificado en el paso 1.
 
 1. (Condicional) Si los ID no coinciden, suelte el mensaje para que se devuelva una respuesta vacía.
 
@@ -164,7 +165,7 @@ El siguiente ejemplo de Python muestra cómo filtrar las cargas del proyecto en 
 
    >[!NOTE]
    >
-   >Devolver una respuesta vacía y exitosa es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
+   >Devolver una respuesta vacía y correcta es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
 
 1. Procese el mensaje.
 
@@ -178,16 +179,16 @@ El siguiente ejemplo de Python muestra cómo filtrar las cargas del proyecto en 
       )
    ```
 
-   El SDK de AWS se utiliza para invocar a otro Lambda, responsable de enviar el mensaje filtrado a nuestro punto final deseado.
+   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.
 
-   El propósito de pasar la responsabilidad de enviar el mensaje a otra Lambda es evitar un tiempo de espera de la solicitud de envío proveniente del servicio de suscripción de eventos. Actualmente, el tiempo de espera para la entrega se establece en cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio de suscripción de evento agotará el tiempo de espera y caerá en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del periodo de espera.
+   El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera de la entrega es de cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.
 
 
 ### Node.js
 
-El ejemplo Node.js del filtrado de ID de grupo de proyectos es similar a los ejemplos de Java y Python. Como en el ejemplo de Python, el primer parámetro es un evento proxy de Lambda y el segundo parámetro es el contexto de Lambda.
+El ejemplo de Node.js de filtrado de ID de grupo de proyectos es similar a los ejemplos de Java y Python. Al igual que con el ejemplo de Python, el primer parámetro es un evento de proxy Lambda y el segundo parámetro es el contexto Lambda.
 
-El siguiente ejemplo en Node.js muestra cómo filtrar las cargas del proyecto en función del ID de grupo del proyecto, tal como se hace en  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+El siguiente ejemplo en Node.js muestra cómo filtrar las cargas útiles del proyecto en función del ID de grupo del proyecto, como se hace en  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Establezca el ID de grupo que está buscando y créelo como una constante estática.
 
@@ -195,9 +196,9 @@ El siguiente ejemplo en Node.js muestra cómo filtrar las cargas del proyecto en
    const DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3';
    ```
 
-   El primer parámetro es el &quot;evento&quot; del proxy Lambda, que contiene el mensaje de suscripción de evento y alguna información adicional que debe analizarse.\
+   El primer parámetro es el &quot;evento&quot; del proxy Lambda, que contiene el mensaje de suscripción de evento y cierta información adicional que debe analizarse.\
    El segundo parámetro es el contexto de la solicitud de proxy Lambda actual.\
-   En este ejemplo, el objeto Context se utiliza para obtener un registrador Lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
+   En este ejemplo, el objeto Context se utiliza para obtener un registrador lambda, que se utiliza para escribir un mensaje en CloudWatchLogs.
 
    ```
    exports.myProjectGroupFilterHandler = function (event, context) {
@@ -205,22 +206,22 @@ El siguiente ejemplo en Node.js muestra cómo filtrar las cargas del proyecto en
    }
    ```
 
-2. Analice el mensaje desde el evento.
+2. Analice el mensaje del evento.
 
    ```
    let eventSubscriptionMessage = JSON.parse(event.body);
    ```
 
-3. Obtenga el projectGroupID del atributo &quot;newState&quot; del mensaje de suscripción de evento y, a continuación, haga coincidir con el ID de grupo del grupo que identificó en el paso 1.
+3. Obtenga projectGroupID del atributo &quot;newState&quot; del mensaje de suscripción de evento y, a continuación, compárelo con el ID de grupo del grupo identificado en el paso 1.
 
    ```
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 
    ```
 
-   Para obtener más información sobre el nuevo formato State, consulte [Formato de mensaje de salida para suscripciones de evento](../../wf-api/api/message-format-event-subs.md).
+   Para obtener más información sobre el formato newState, consulte [Formato de mensaje saliente para suscripciones a eventos](../../wf-api/api/message-format-event-subs.md).
 
 4. (Condicional) Si los ID no coinciden, suelte el mensaje para que se devuelva una respuesta vacía.\
-   El siguiente ejemplo muestra ID de grupo coincidentes:
+   El siguiente ejemplo muestra los ID de grupo coincidentes:
 
    ```
    if (projectGroupId === DESIRED_GROUP_ID) {
@@ -234,7 +235,7 @@ El siguiente ejemplo en Node.js muestra cómo filtrar las cargas del proyecto en
 
    >[!NOTE]
    >
-   >Devolver una respuesta vacía y exitosa es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
+   >Devolver una respuesta vacía y correcta es crucial. Cualquier cosa que no sea una respuesta de 200 niveles se considera un envío fallido.
 
 5. Procese el mensaje.
 
@@ -258,44 +259,44 @@ El siguiente ejemplo en Node.js muestra cómo filtrar las cargas del proyecto en
    }
    ```
 
-   El SDK de AWS se utiliza para invocar a otro Lambda, responsable de enviar el mensaje filtrado a nuestro punto final deseado.\
-   El propósito de pasar la responsabilidad de enviar el mensaje a otra Lambda es evitar un tiempo de espera de la solicitud de envío proveniente del servicio de suscripción de eventos. Actualmente, el tiempo de espera para la entrega se establece en cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio de suscripción de evento agotará el tiempo de espera y caerá en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del periodo de espera.\
-   Para obtener más información sobre la administración de la entrega de mensajes, consulte [Mejora del envío de mensajes al aceptar tiempos de espera](#improving-message-delivery-while-accommodating-timeouts).
+   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.\
+   El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera de la entrega es de cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.\
+   Para obtener más información sobre la administración de la entrega de mensajes, consulte [Mejora De La Entrega De Mensajes Al Adaptarse A Los Tiempos De Espera](#improving-message-delivery-while-accommodating-timeouts).
 
-## Mejora del envío de mensajes al aceptar tiempos de espera
+## Mejora De La Entrega De Mensajes Al Adaptarse A Los Tiempos De Espera
 
-El servicio de suscripción de eventos tiene un tiempo de espera estricto **cinco segundos** para todas las solicitudes de envío. En el caso de que el envío de un mensaje supere el tiempo permitido, el servicio de suscripción de evento inicia un ciclo de reintentos para ese mensaje.
+El servicio Suscripción a eventos tiene un tiempo de espera estricto de **cinco segundos** para todas las solicitudes de envío. En el caso de que el envío de un mensaje supere el tiempo permitido, el servicio de suscripción a eventos inicia un ciclo de reintentos para ese mensaje.
 
-Por ejemplo, se crea un filtro de ID de grupo de proyectos similar a uno de los ejemplos encontrados en [Filtrado de mensajes de eventos](#filtering-event-messages) e incluye una búsqueda en la base de datos para determinar si el mensaje es necesario. Es posible que la búsqueda de la base de datos junto con el tiempo necesario para el procesamiento necesario y para que Lambda se inicie en frío puedan tardar más de cinco segundos, lo que provoca que el servicio de suscripción de eventos vuelva a intentar enviar el mensaje.
+Por ejemplo, se genera un filtro de ID de grupo de proyectos similar a uno de los ejemplos encontrados en [Filtrado de mensajes de eventos](#filtering-event-messages) e incluye una búsqueda en la base de datos para determinar si el mensaje es necesario. Es posible que la búsqueda de la base de datos junto con el tiempo necesario para el procesamiento necesario y para que Lambda se inicie en frío pueda tardar más de cinco segundos, lo que provoca que el servicio Suscripción de evento vuelva a intentar enviar el mensaje.
 
-Puede evitar un reintento si separa las partes del proceso que requieren mucho tiempo de la lógica responsable de determinar si el mensaje es uno que desea procesar y enviar. Al hacerlo, puede aceptar el mensaje y enviar una respuesta de 200 niveles al servicio de suscripción de eventos, mientras continúa procesando o filtrando el mensaje en segundo plano de forma asíncrona (consulte el paso 5 de [Java](#java) por ejemplo).
+Puede evitar un reintento separando las partes del proceso que consumen tiempo de la lógica que es responsable de determinar si el mensaje es uno que desea procesar y enviar. Al hacerlo, puede aceptar el mensaje y enviar una respuesta de 200 niveles al servicio Suscripción de evento, mientras continúa procesando o filtrando asincrónicamente el mensaje en segundo plano (consulte el paso 5 en [Java](#java) por ejemplo).
 
 
-Aunque el procesamiento o filtrado no supere el tiempo de espera de cinco segundos, sigue siendo conveniente separar el primer punto de contacto de filtrado o procesamiento de mensajes de los demás pasos de procesamiento o envío del lado del cliente. De este modo, el envío del mensaje al destino desde el servicio de suscripción de evento tiene un impacto mínimo en el tiempo y el rendimiento para ambas partes.
+Incluso si el procesamiento o el filtrado no superan el tiempo de espera de cinco segundos, sigue siendo ventajoso separar el primer punto de contacto del filtrado o procesamiento de mensajes de los demás pasos de procesamiento o envío del lado del cliente. De este modo, el envío del mensaje al destino desde el servicio de suscripción de evento tiene un impacto mínimo en el tiempo y el rendimiento de ambas partes.
 
-Para obtener más información sobre el mecanismo de reintento, consulte [Reintentos de suscripción de eventos](../../wf-api/api/event-sub-retries.md).
+Para obtener más información sobre el mecanismo de reintentos, consulte [Reintentos de suscripción de evento](../../wf-api/api/event-sub-retries.md).
 
-## Implementación de filtros alojados en una arquitectura sin nube
+## Implementación de filtros alojados en una arquitectura sin nubes
 
-Si no puede aprovechar una arquitectura de nube para el filtrado de suscripciones de eventos, puede seguir utilizando los ejemplos de [Filtrado de mensajes de eventos](#filtering-event-messages) como hojas de ruta sobre cómo implementar sus propios filtros alojados o componentes de procesamiento.
+Si no puede aprovechar una arquitectura de nube para el filtrado de suscripciones a eventos, puede seguir utilizando los ejemplos de [Filtrado de mensajes de eventos](#filtering-event-messages) como hoja de ruta sobre cómo implementar sus propios filtros alojados o componentes de procesamiento.
 
 ### Ajuste de ejemplos de filtrado para servicios independientes
 
-Antes de utilizar los ejemplos de filtrado en un entorno sin nube, haga lo siguiente:
+Antes de usar los ejemplos de filtrado en un entorno sin nubes, haga lo siguiente:
 
-* Omita los fragmentos de los ejemplos específicos de Lambda, como el parámetro Context .
+* Omita las partes específicas de Lambda de los ejemplos, como el parámetro Context.
 
-* Cambie las invocaciones de otros Lambdas en los ejemplos a realizar solicitudes HTTP asincrónicas adicionales a otros filtros o componentes de procesamiento que aloje.
+* Cambie las invocaciones de otros Lambda en los ejemplos para realizar solicitudes HTTP asincrónicas adicionales a otros filtros o componentes de procesamiento que aloje.
 
-* Si hace referencia a los ejemplos de Python y Node.js, sustituya el primer parámetro de evento por el primer parámetro de carga útil mostrado en el ejemplo de Java. Consulte el paso 1 de [Java](#java).
+* Si se hace referencia a los ejemplos de Python y Node.js, sustituya el primer parámetro de evento por el primer parámetro de carga útil que se muestra en el ejemplo de Java. Consulte el paso 1 de [Java](#java).
 
-* Implementar los filtros o procesadores con una API basada en web.
+* Implemente los filtros o procesadores con una API basada en web.
 
 ### Prevención de mensajes de suscripción de eventos perdidos
 
-En ocasiones, en una arquitectura sin color, es posible que los servicios responsables de la recepción de mensajes de suscripción de eventos no estén disponibles. En un evento de este tipo, los mensajes pueden superar el límite de reintentos y perderse, sin necesidad de recuperar la información dentro de los mensajes.
+En ocasiones, en una arquitectura sin nubes, es posible que los servicios responsables de recibir mensajes de suscripción de eventos no estén disponibles. En un evento de este tipo, los mensajes podrían superar el límite de reintentos y perderse, sin forma de recuperar la información dentro de los mensajes.
 
-Le recomendamos que, durante el inicio del servicio, implemente una consulta en la que se solicite el estado más reciente de todos los recursos que podrían haberse incluido en los mensajes perdidos. Como se muestra en el siguiente ejemplo, puede usar los criterios de filtro para consultar los recursos que coincidan con ese criterio y luego procesar su estado actual.
+Le recomendamos que, durante el inicio del servicio, implemente una consulta que solicite el estado más reciente de todos los recursos que puedan haberse incluido en los mensajes omitidos. Como se muestra en el ejemplo siguiente, puede utilizar los criterios de filtro para consultar los recursos que coinciden con esos criterios y, a continuación, procesar su estado actual.
 
 ```
 public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuery(LambdaLogger logger) {
@@ -325,10 +326,10 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
 }
 ```
 
-Al consultar los recursos, se asegura de que los sistemas integradores tengan la versión más actual de los recursos.
+Al consultar los recursos, se asegura de que los sistemas integrados tengan la versión más actual de los recursos.
 
 ### Implementación del procesamiento asincrónico en la entrega de mensajes
 
-Todos los ejemplos de la sección [Filtrado de mensajes de eventos](#filtering-event-messages) pasa la responsabilidad de enviar mensajes filtrados a otra Lambda de AWS. Esto se hace para evitar superar el tiempo de espera de cinco segundos en la solicitud de entrega, que es reforzado por el servicio de suscripción de eventos que emite la solicitud.
+Todos los ejemplos de la [Filtrado de mensajes de eventos](#filtering-event-messages) Esta sección pasa la responsabilidad de enviar mensajes filtrados a otro AWS Lambda. Esto se hace para evitar superar el tiempo de espera de cinco segundos en la solicitud de envío, que aplica el servicio de suscripción de evento que emite la solicitud.
 
-En una arquitectura sin color, es posible que necesite implementar un mecanismo de procesamiento asincrónico similar a como el SDK de AWS permite las llamadas asincrónicas a otros Lambdas de AWS. La mayoría de los lenguajes de programación modernos tienen bibliotecas principales o de terceros que administran el procesamiento asincrónico, lo que le permite aprovechar el estilo asíncrono de procesamiento implementado en nuestros ejemplos.
+En una arquitectura sin nubes, es posible que deba implementar un mecanismo de procesamiento asincrónico similar a cómo el SDK de AWS permite las llamadas asincrónicas a otras Lambdas de AWS. La mayoría de los lenguajes de programación modernos tienen bibliotecas de terceros o principales que administran el procesamiento asincrónico, lo que le permite aprovechar el estilo asincrónico de procesamiento implementado en nuestros ejemplos.

@@ -1,31 +1,32 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novedades de la versión 7 de API
+title: Novedades de la versión 7 de la API
 description: Colecciones
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
-# Novedades de la versión 7 de API
+# Novedades de la versión 7 de la API
 
 ## Nuevos objetos
 
-### Probar Bean
+### Proof Bean
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   | Buscar |
-| killLine |   |   |   |   |   |   |
+| deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -83,7 +84,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Get  </td> 
+   <td>Obtener  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -113,22 +114,22 @@ ht-degree: 50%
 | Identificador |   |   |   |   |   | Agregar |
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   | Cuenta |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -140,15 +141,15 @@ ht-degree: 50%
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
 |   |   |   |   |   |   | Editar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Grupos de usuarios
+### UserGroups
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -156,7 +157,7 @@ ht-degree: 50%
 | isOwner  | usuario  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -169,12 +170,12 @@ ht-degree: 50%
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
 |   |   |   |   |   |   | Editar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
 |   |   |   |   |   |   | Reemplazar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -184,15 +185,15 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | Identificador | cliente | usuarios |   |   |   | Agregar |
 | customerID  | enteredBy  |   |   |   |   | Cuenta |
-| descripción  | lastUpdatedBy  |   |   |   |   | Eliminar |
+| description  | lastUpdatedBy  |   |   |   |   | Eliminar |
 | enteredByID  |   |   |   |   |   | Editar |
-| entryDate  |   |   |   |   |   | Get |
+| entryDate  |   |   |   |   |   | Obtener |
 | extRefID  |   |   |   |   |   | Informe |
 | lastUpdateDate |   |   |   |   |   | Buscar |
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -201,11 +202,11 @@ ht-degree: 50%
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   | Cuenta |
-| articleName  |   |   |   |   |   | Get |
+| articleName  |   |   |   |   |   | Obtener |
 | pageID  |   |   |   |   |   | Informe |
 | url  |   |   |   |   |   | Buscar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,17 +216,17 @@ ht-degree: 50%
 
 ## Objetos actualizados
 
-Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones se han eliminado, los cambios en las ya existentes tienen una nota adjunta después de la tabla
+Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones tienen tachado, los cambios en los objetos existentes tienen una nota adjunta después de la tabla
 
 ### UpdateBean
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles 
+<sup>1</sup> Cambios en valores posibles 
 
  
 
@@ -234,16 +235,16 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Regla de acceso¹
+### AccessRule<sup>1</sup>
 
-¹ Marcados como informes
+<sup>1</sup> Marcado como notificable
 
  
 
@@ -253,11 +254,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Ruta de aprobación¹
+### Ruta de aprobación<sup>1</sup>
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicador portátil eliminado
+<sup>1</sup> Indicador de informe eliminado
 
  
 
@@ -279,11 +280,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validación de fecha agregada
+<sup>1</sup> Validación de fecha añadida
 
-² Se Ha Agregado Un Indicador No Filtrable
+<sup>2</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -291,13 +292,13 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Campo añadido includeIssues
+<sup>1</sup> El campo añadido incluye Problemas
 
  
 
@@ -305,11 +306,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles 
+<sup>1</sup> Cambios en valores posibles 
 
  
 
@@ -319,7 +320,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -339,7 +340,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -350,9 +351,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Se ha cambiado el validador de PRECISION para 8 a 9
+<sup>1</sup> Se ha cambiado el validador de PRECISION de 8 a 9.
 
  
 
@@ -366,7 +367,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en posibles valores
+<sup>1</sup> Cambios en valores posibles
 
  
 
@@ -389,7 +390,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -402,7 +403,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,7 +415,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -424,7 +425,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -446,7 +447,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -454,11 +455,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Tipo cambiado de Int a Double 
+<sup>1</sup> El tipo ha cambiado de Ent a Double 
 
  
 
@@ -490,7 +491,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td> roles</td> 
+   <td> funciones</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
@@ -551,7 +552,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en posibles valores
+<sup>1</sup> Cambios en valores posibles

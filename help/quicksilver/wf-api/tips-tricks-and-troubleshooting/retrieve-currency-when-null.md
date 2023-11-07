@@ -5,14 +5,16 @@ title: Recuperar información de moneda para un proyecto cuando la moneda es nul
 description: Recuperar información de moneda para un proyecto cuando la moneda es nula
 author: Becky
 feature: Workfront API
-source-git-commit: a9af457793e123a60172fe4baf5ae5def472b026
+role: Developer
+exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Recuperar información de moneda para un proyecto cuando la moneda es nula (no está asignada)
+# Recuperar información de moneda para un proyecto cuando la moneda es nula (no asignada)
 
 El objeto de proyecto con el campo de moneda se puede recuperar mediante la siguiente solicitud:
 
@@ -35,7 +37,7 @@ Esto devolverá el siguiente cuerpo de respuesta:
 }
 ```
 
-Si la moneda no está configurada para el proyecto, esta respuesta incluiría una moneda con el valor `null`:
+Si no se establece la moneda para el proyecto, esta respuesta incluiría una moneda con el valor `null`:
 
 ```
 {
@@ -50,11 +52,11 @@ Si la moneda no está configurada para el proyecto, esta respuesta incluiría un
 }
 ```
 
-Si necesita la moneda para el proyecto (por ejemplo, para los cálculos), puede recuperar la moneda predeterminada para el cliente:
+Si necesita la divisa para el proyecto (por ejemplo, para cálculos), puede recuperar la divisa predeterminada para el cliente:
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-La respuesta incluye la moneda que el usuario ha establecido como predeterminada, que sería utilizada por cualquier proyecto para ese cliente que no tenga configurada la moneda:
+La respuesta incluye la moneda que el usuario ha establecido como predeterminada, que se utilizaría en cualquier proyecto para ese cliente que no tenga la moneda configurada:
 
 ```
 {

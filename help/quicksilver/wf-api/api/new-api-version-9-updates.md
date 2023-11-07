@@ -1,39 +1,40 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Actualizaciones de la versión 9 de la API
+title: Actualizaciones a la versión 9 de la API
 description: Recursos actualizados
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 43%
 
 ---
 
-# Actualizaciones de la versión 9 de la API
+# Actualizaciones a la versión 9 de la API
 
 ## Recursos actualizados
 
-Con esta versión de la API de Adobe Workfront se han actualizado los siguientes recursos existentes. Para ver los recursos que son nuevos para la versión 9, puede visitar [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md) y [Novedades de la versión 9 de la API (continuación)](../../wf-api/api/new-api-version-9-continue.md). Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de la versión 9, puede visitar [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md) y [Novedades de la versión 9 de la API (continuación)](../../wf-api/api/new-api-version-9-continue.md). Los cambios realizados en un recurso se indican de la siguiente manera:
 
-* Las adiciones simplemente aparecen en la lista
+* Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
-* Los cambios se indican en la nota después de la tabla
+* Los cambios se registran en la nota después de la tabla
 
 ### AgileWork
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
-| `taskID`<sup>2</sup> |  |  |  |  |  |  |
+| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
+| `taskID`<sup>2</sup> |   |   |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Se ha eliminado el indicador: REPORTABLE\
-² Se ha eliminado el indicador: NOT_GROUPABLE
+<sup>1</sup> Indicador eliminado: INFORMABLE\
+<sup>2</sup> Indicador eliminado: NOT_GROUPABLE
 
 ### Ruta de aprobación
 
@@ -41,148 +42,148 @@ Con esta versión de la API de Adobe Workfront se han actualizado los siguientes
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Asignación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `assignUserToRoleOnTasks`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
+| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Campo añadido: lockToRole
+<sup>1</sup> Campo añadido: lockToRole
 
-### Preferencias de cliente
+### Preferencias del cliente
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en possibleValues
 
 ### Hora
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `days` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `days` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Iteración
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `moveIssues` |  |  |
+|   |   |   |   | `moveIssues` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Plantillas de diseño
+### LayoutTemplates
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `html` |  |  |  |  |  |  |
-| `json` |  |  |  |  |  |  |
-| `richTextNoteID` |  |  |  |  |  |  |
+| `html` |   |   |   |   |   |   |
+| `json` |   |   |   |   |   |   |
+| `richTextNoteID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### OpTask
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `color` | `agileWork` |  |  | `convertToProject` |  |  |
-| `isReady` |  |  |  | `convertToTask` |  |  |
-| `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+| `color` | `agileWork` |   |   | `convertToProject` |   |   |
+| `isReady` |   |   |   | `convertToTask` |   |   |
+| `storyBoardOrder` |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### PresupuestoRecurso
-
-| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
-|---|---|---|---|---|---|---|
-| `ID` |  |  |  |  |  |  |
-
-{style=&quot;table-layout:auto&quot;}
-
-¹ Se ha eliminado el indicador: REPORTABLE
-
-### Horario
+### PresupuestoDeRecursos
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `homeGroupID` | `homeGroup` |  |  |  |  |  |
+| `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+<sup>1</sup> Indicador eliminado: INFORMABLE
+
+### Programación
+
+| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
+|---|---|---|---|---|---|---|
+| `homeGroupID` | `homeGroup` |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### Tarea
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  | `agileWork` |  |  | `convertToProject` |  |  |
-|  |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+|   | `agileWork` |   |   | `convertToProject` |   |   |
+|   |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Equipo
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `includeIssues` |  |  |  |  |  |  |
+| `includeIssues` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Perfil de hoja de horas
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `filtersForObjCode` |  |
+|   |   |   |   |   | `filtersForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `viewsForObjCode` |  |
+|   |   |   |   |   | `viewsForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuario
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `logTimeInDays` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `logTimeInDays` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Trabajo
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder` | `agileWork` |  |  | `getWFHomeObjects` |  |  |
+| `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

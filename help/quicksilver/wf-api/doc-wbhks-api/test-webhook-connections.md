@@ -2,12 +2,13 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Probar conexiones de Weblock
-description: Probar conexiones de Weblock
+title: Prueba de conexiones de webhook
+description: Prueba de conexiones de webhook
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -15,9 +16,9 @@ ht-degree: 0%
 ---
 
 
-# Probar conexiones de Weblock
+# Prueba de conexiones de webhook
 
-Para verificar que la implementación del weblock del documento funciona correctamente, ejecute las pruebas manuales en esta sección. Estos pasos pasan por la interfaz web de Adobe Workfront y llegan indirectamente a los puntos finales de su implementación de weblink.
+Para comprobar que la implementación del webhook de documentos funciona correctamente, ejecute las pruebas manuales en esta sección. Estos pasos pasan por la interfaz web de Adobe Workfront e indirectamente llegan a los extremos de la implementación del webhook.
 
 ## Requisitos previos
 
@@ -27,98 +28,98 @@ Se requieren los siguientes requisitos previos para ejecutar las pruebas:
 
 * Un usuario de Workfront para esta cuenta con derechos de administrador del sistema
 
-* Una instancia de Document Weblock con extremos HTTP a los que se puede acceder desde Workfront
+* Una instancia de Document Webhook con extremos HTTP accesibles para Workfront
 
-Estas pruebas también suponen que la instancia de Document Weblock está registrada. (Puede registrar la instancia en Workfront en Configuración > Documentos > Integraciones personalizadas).
+Estas pruebas también suponen que la instancia de Document Webhook está registrada. (Puede registrar la instancia en Workfront en Configuración > Documentos > Integraciones personalizadas).
 
-**Prueba 1: Aprovisionar el servicio Document Weblock para un usuario**
+**Prueba 1: Aprovisionar el servicio de webhook de documentos para un usuario**
 
-Prueba la URL de autenticación y la URL del extremo del token para los proveedores de Weblock basados en OAuth.
+Prueba la URL de autenticación y la URL de extremo de token para proveedores de webhook basados en OAuth.
 
-1. En Workfront, vaya a la página principal Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
-1. Haga clic en la lista desplegable Add Documents y seleccione el servicio Document Weblock en Add Service.
-1. (Solo servicios de OAuth) Después de completar el paso anterior, verá la carga de la página de autenticación OAuth2 de su servicio en una ventana emergente. (Nota: es posible que se le pida que inicie sesión en su servicio primero). En la página de autenticación, conceda a Workfront acceso a la cuenta del usuario haciendo clic en el botón Confiar o Permitir .
-1. Verifique que su servicio se haya agregado a la lista desplegable Agregar documentos . Si no lo ve inicialmente, intente actualizar el explorador.
+1. En Workfront, vaya a la página principal de Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
+1. Haga clic en el menú desplegable Agregar documentos y seleccione el servicio de webhook de documentos en Agregar servicio.
+1. (Solo servicios de OAuth) Después de completar el paso anterior, verá cómo se carga la página de autenticación OAuth2 del servicio en una ventana emergente. (Nota: es posible que se le pida que inicie sesión en el servicio primero.) En la página de autenticación, conceda acceso a Workfront a la cuenta del usuario haciendo clic en el botón Confiar o Permitir.
+1. Compruebe que el servicio se haya agregado a la lista desplegable Agregar documentos. Si no lo ve al principio, intente actualizar el explorador.
 
-**Prueba 2: Vincular un documento a pruebas de Workfront con los siguientes extremos: /archivos, /metadatos**
+**Prueba 2: Vincular un documento a Workfront Prueba los siguientes extremos: /files, /metadata**
 
-1. En Workfront, vaya a la página principal Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
-1. Seleccione el servicio Document Weblock en Añadir documentos.
-1. Desde el modal, navegue por la estructura de carpetas.
+1. En Workfront, vaya a la página principal de Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
+1. Seleccione el servicio webhook de documentos en Agregar documentos.
+1. En el modal, navegue por la estructura de carpetas.
 1. Compruebe que puede desplazarse por la estructura de carpetas.
 1. Seleccionar y vincular un documento a Workfront
 
-**Prueba 3: Vaya a un documento del sistema de gestión de contenido**
+**Prueba 3: Navegar a un documento en el sistema de administración de contenido**
 
-Prueba los puntos finales siguientes: /metadata (específicamente el viewLink)
+Prueba los siguientes extremos: /metadata (específicamente viewLink)
 
-1. Vinculación de un documento a Workfront
-1. Seleccione el documento y haga clic en el vínculo Open .
+1. Vinculación de documentos a Workfront
+1. Seleccione el documento y haga clic en el vínculo Open.
 1. Compruebe que el documento se abre en una nueva ficha.
 
-**Prueba 4: Vaya a un documento del sistema de administración de contenido (con inicio de sesión)**
+**Prueba 4: Navegar a un documento en el sistema de administración de contenido (con inicio de sesión)**
 
-Prueba los puntos finales siguientes: /metadata (específicamente el viewLink)
+Prueba los siguientes extremos: /metadata (específicamente viewLink)
 
 1. Asegúrese de haber cerrado la sesión del sistema de administración de contenido.
-1. Vincular un documento a Workfront.
-1. Seleccione el documento y haga clic en el vínculo Open .
-1. Compruebe que la pantalla de inicio de sesión del sistema de administración de contenido se carga en una pestaña nueva.
-1. Inicie sesión y verifique que ha accedido al documento.
+1. Vincule un documento a Workfront.
+1. Seleccione el documento y haga clic en el vínculo Open.
+1. Compruebe que la pantalla de inicio de sesión del sistema de administración de contenido se carga en una nueva pestaña.
+1. Inicie sesión y compruebe que ha accedido al documento
 
-**Prueba 5: Descargue el documento desde el sistema de administración de contenido**
+**Prueba 5: descargar el documento desde el sistema de administración de contenido**
 
-Prueba los siguientes puntos finales (específicamente el vínculo de descarga): /metadata 
+Prueba los siguientes extremos (específicamente el vínculo de descarga): /metadata 
 
-1. Vincular un documento a Workfront.
-1. Seleccione el documento y haga clic en el vínculo Descargar .
-1. Compruebe que la descarga comience.
+1. Vincule un documento a Workfront.
+1. Seleccione el documento y haga clic en el vínculo Descargar.
+1. Compruebe que comienza la descarga.
 
 **Prueba 6: Buscar contenido**
 
-Prueba los puntos finales siguientes: /search
+Prueba los siguientes extremos: /search
 
-1. En Workfront, vaya a la página principal Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
-1. Seleccione el servicio Document Weblock en Añadir documentos.
-1. Desde el modal, realice una búsqueda.
-1. Compruebe que los resultados de la búsqueda sean correctos.
+1. En Workfront, vaya a la página principal de Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
+1. Seleccione el servicio webhook de documentos en Agregar documentos.
+1. En el modal, realice una búsqueda.
+1. Compruebe que los resultados de la búsqueda son correctos.
 
-**Prueba 7: Enviar documento desde Workfront al sistema de administración de contenido**
+**Prueba 7: Enviar documento de Workfront al sistema de administración de contenido**
 
-Prueba los puntos finales siguientes: /files, /uploadInit, /upload
+Prueba los siguientes extremos: /files, /uploadInit, /upload
 
-1. En Workfront, vaya a la página principal Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
+1. En Workfront, vaya a la página principal de Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
 1. Cargar un documento a Workfront desde el equipo
-1. Vaya a la página de detalles del documento
-1. En el menú desplegable Acciones de documento , seleccione el servicio de Weblock de documento en Enviar a...
-1. Vaya a la carpeta de destino deseada y haga clic en el botón Save .
-1. Compruebe que el documento se haya cargado en la ubicación correcta del sistema de administración de contenido.
+1. Ir a la página de detalles del documento
+1. En el menú desplegable Acciones de documento, seleccione el servicio Webhook de documentos en Enviar a...
+1. Vaya a la carpeta de destino deseada y haga clic en el botón Save.
+1. Compruebe que el documento se ha cargado en la ubicación correcta del sistema de administración de contenido.
 
 **Prueba 8: Ver miniaturas en Workfront**
 
-Prueba los puntos finales siguientes: /thumbnail
+Prueba los siguientes extremos: /thumbnail
 
-1. Vincular un documento a Workfront.
+1. Vincule un documento a Workfront.
 1. Seleccione el documento en la lista.
 1. Compruebe que la miniatura aparece en el panel derecho.
 
-**Prueba 9: Obtención de los bytes de contenido**
+**Prueba 9: Obtener los bytes de contenido**
 
-Prueba los puntos finales siguientes: /download
+Prueba los siguientes extremos: /download
 
-1. Vincular un documento a Workfront.
+1. Vincule un documento a Workfront.
 1. Vaya a la página de detalles del documento.
-1. Envíe el documento a Workfront seleccionando Acciones de documento > Enviar a... > Workfront. Esto creará una nueva versión del documento en Workfront.
-1. Descargue el documento desde Workfront haciendo clic en el vínculo Descargar .
+1. Envíe el documento a Workfront seleccionando Acciones de documento > Enviar a... > Workfront. Se creará una nueva versión del documento en Workfront.
+1. Descargue el documento desde Workfront haciendo clic en el vínculo Descargar.
 
-**Prueba 10: Actualizar token de acceso (solo proveedores de Weblock de OAuth2)**
+**Prueba 10: Actualizar el token de acceso (solo proveedores de webhook de OAuth2)**
 
-Prueba los puntos finales siguientes: URL del extremo del token
+Prueba los siguientes extremos: URL de extremo de token
 
-1. Aprovisionar un servicio de Document Weblock para un usuario
-1. Invalide el token de acceso del usuario en 1 ) esperando que se agote el tiempo de espera o 2) invalidándolo manualmente en el sistema externo.
-1. Actualice el token de acceso en Workfront. Puede hacerlo, por ejemplo, vinculando un documento a Workfront. Sabdrá que el token de acceso se actualizó correctamente si pudo navegar a un documento y vincularlo.
+1. Aprovisionamiento del servicio Document Webhook para un usuario
+1. Invalide el token de acceso del usuario (1 ) esperando a que se agote el tiempo de espera o (2) invalidándolo manualmente en el sistema externo.
+1. Actualice el token de acceso en Workfront. Para ello, por ejemplo, puede vincular un documento a Workfront. Sabrá que el token de acceso se actualizó correctamente si pudo desplazarse a un documento y vincularlo.
 
 >[!NOTE]
 >
->Actualmente, Send To... no está disponible para documentos vinculados. Workfront lo agregará. Puede probar el extremo /download pulsando el extremo manualmente usando un cliente REST, como Postman. Alternativamente, el extremo /download se puede probar generando una prueba digital. Para habilitarlo, póngase en contacto con Workfront.
+>Actualmente, Enviar a... no está disponible para documentos vinculados. Esto se agregará mediante Workfront. Puede probar el extremo /download presionando el extremo manualmente con un cliente REST, como Postman. Como alternativa, el punto final /download se puede probar generando una prueba digital. Para habilitar la revisión digital, póngase en contacto con Workfront.

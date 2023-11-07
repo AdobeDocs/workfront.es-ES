@@ -5,8 +5,9 @@ title: API de suscripción de evento
 description: API de suscripción de evento
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -76,7 +77,7 @@ Para crear, consultar o eliminar una suscripción de evento, el usuario de Workf
 * Se requiere un nivel de acceso de &quot;Administrador del sistema&quot; para utilizar Suscripciones de eventos.
 * A `sessionID`  se requiere para utilizar la API de suscripciones a eventos
 
-   Para obtener más información, consulte [Autenticación](api-basics.md#authentication) in [Conceptos básicos de API](api-basics.md).
+  Para obtener más información, consulte [Autenticación](api-basics.md#authentication) in [Conceptos básicos de API](api-basics.md).
 
 ## Formación del recurso de suscripción
 
@@ -90,7 +91,7 @@ El recurso de suscripción contiene los campos siguientes.
 
    * **Cadena** - El objCode del objeto al que se está suscribiendo cambia. Los valores posibles de objCode se enumeran en la tabla siguiente.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -204,7 +205,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <thead> 
   <tr> 
    <th> <p>Nombre del encabezado</p> </th> 
-   <th> <p>Valor de encabezado</p> </th> 
+   <th> <p>Valor del encabezado</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -283,7 +284,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <thead> 
   <tr> 
    <th> <p>Nombre del encabezado</p> </th> 
-   <th> <p>Valor de encabezado</p> </th> 
+   <th> <p>Valor del encabezado</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -376,7 +377,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <thead> 
   <tr> 
    <th> <p>Nombre del encabezado</p> </th> 
-   <th> <p>Valor de encabezado</p> </th> 
+   <th> <p>Valor del encabezado</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -419,6 +420,7 @@ El filtrado de suscripción de eventos se puede utilizar para garantizar que sol
 Por ejemplo, un **ACTUALIZACIÓN - TAREA** la suscripción de evento se puede establecer en déclencheur solo cuando la variable **newState** de una carga útil de evento define la variable **taskStatus** as **corriente**.
 
 >[!IMPORTANT]
+>
 Los atributos siguientes se aplican al filtrado de suscripción de evento
 
 * Cuando un campo de filtro tiene un valor no vacío, solo se muestran mensajes con **newState** que contiene las claves de filtro y los valores se envían a la dirección URL suscrita
@@ -475,9 +477,9 @@ Este filtro permite que los mensajes lleguen si el cambio que se ha producido no
 }
 ```
 
-#### gt: bueno que
+#### gt: greater than
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es bueno que el valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es mayor que el valor de `fieldValue`.
 
 ```
 {
@@ -495,9 +497,9 @@ Este filtro permite que los mensajes lleguen si la actualización del especifica
 }
 ```
 
-#### get: bueno que o igual a
+#### get: greater than or equal to
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es bueno o igual al valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es mayor o igual que el valor de `fieldValue`.
 
 ```
 {
@@ -580,6 +582,7 @@ Este filtro permite que los mensajes lleguen si el cambio que se produjo contien
 Este filtro permite que los mensajes lleguen únicamente si el campo especificado (`fieldName`) tiene un valor diferente en oldstate y newstate. Actualizando otros campos además del especificado (`fieldName`) no devolverá ese cambio.
 
 >[!NOTE]
+>
 `fieldValue` en la matriz de filtros a continuación no tiene ningún efecto.
 
 ```
@@ -604,6 +607,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 `oldState` no es posible en CREATE `eventTypes`.
 
 >[!NOTE]
+>
 La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que había antes de realizar una actualización de la tarea.
 Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
 
@@ -670,7 +674,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Nombre del encabezado</p> </th> 
-   <th> <p>Valor de encabezado</p> </th> 
+   <th> <p>Valor del encabezado</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -911,7 +915,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Nombre del encabezado</p> </th> 
-   <th> <p>Valor de encabezado</p> </th> 
+   <th> <p>Valor del encabezado</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

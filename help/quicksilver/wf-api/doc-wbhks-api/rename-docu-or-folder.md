@@ -6,34 +6,35 @@ title: Cambiar el nombre de un documento o carpeta (aún no implementado)
 description: Cambiar el nombre de un documento o carpeta
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
 # Cambiar el nombre de un documento o carpeta (aún no implementado)
 
-Cambia el nombre de un documento o carpeta por el ID dado en el sistema externo.
+Cambia el nombre de un documento o carpeta con el ID proporcionado en el sistema externo.
 
-**Dirección URL**
+**URL**
 
-PUT /cambiar nombre
+PUT /name
 
 ## Parámetros de consulta
 
 | Nombre  | Descripción |
 |---|---|
-| id | El ID de documento o carpeta al que cambiar el nombre |
-| name  | El nuevo nombre del documento o carpeta |
+| id | Identificador de documento o carpeta cuyo nombre se va a cambiar |
+| name  | El nuevo nombre del documento o la carpeta |
 
 
 ## respuesta
 
-Una cadena JSON que indica que se ha realizado correctamente o que se ha producido un error, tal como se especifica en la sección Error Handling a continuación.
+Una cadena JSON que indica éxito o error, como se especifica en la sección Gestión de errores a continuación.
 
 **Ejemplo:** PUT https://www.acme.com/api/rename
 
@@ -47,12 +48,12 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 -------------------------------
 ```
 
-return
+devoluciones
 
 ```
-{status: “success”
+{status: "success"
  }returns
  {
- status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”
+ status: "failure", error: "Folder cannot be renamed because a folder with that name already exists."
  }
 ```

@@ -1,105 +1,106 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Actualizaciones de la versión 8 de la API
-description: 'Con esta versión de la API de Adobe Workfront se han actualizado los siguientes recursos existentes. Para ver los recursos que son nuevos para la versión 8, consulte Novedades de la versión 8 de API. Los cambios realizados en un recurso se indican de la siguiente manera: EDITAR ME.'
+title: Actualizaciones de la versión 8 de API
+description: 'Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, consulte Novedades de la versión 8 de la API. Los cambios realizados en un recurso se indican de la siguiente manera: EDITARME.'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 31%
 
 ---
 
-# Actualizaciones de la versión 8 de la API
+# Actualizaciones de la versión 8 de API
 
 ## Recursos actualizados
 
-Con esta versión de la API de Adobe Workfront se han actualizado los siguientes recursos existentes. Para ver los recursos que son nuevos para la versión 8, consulte [Novedades de la versión 8 de API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, consulte [Novedades de la versión 8 de la API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
 
-* Las adiciones simplemente aparecen en la lista
+* Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
-* Los cambios se indican en la nota después de la tabla
+* Los cambios se registran en la nota después de la tabla
 
 ### AccessRequest
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| acción¹  |   |   |   |   |   |   |
+| acción<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en valores posibles
 
-### Regla de acceso¹ 
+### AccessRule<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| prohibidaActions² |   |   |   |   |   |   |
-| secundarioActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Se ha eliminado el indicador: REPORTABLE\
-² Cambios en los valores posibles
+<sup>1</sup> Indicador eliminado: INFORMABLE\
+<sup>2</sup> Cambios en valores posibles
 
 ### Ruta de aprobación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles\
-#Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>1</sup>Cambios en valores posibles\
+<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
 
 ### Asignación
 
 |   |   |   |   | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|---|---|---|---|
-|   |   |   |   | assignUserToRoleOnTasks | getAssignAstasksForTasks  |   |   |   |   |   |
-|   |   |   |   | swapUsersOnTasks | getUnassignAssignedForTasks |   |   |   |   |   |
+|   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
+|   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Cliente
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
-### Preferencias de cliente
+### Preferencias del cliente
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### DocumentApproval
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marca añadida: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupo
 
@@ -115,17 +116,17 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 |   |   | propietarios |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marca añadida: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### Iteración
 
@@ -133,7 +134,7 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Me gusta
 
@@ -141,85 +142,85 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### OpTask
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iteración |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
-| estimación |   |   |   |   |   |   |
+| tasar |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Portafolio
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Programar
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Proyecto
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### ProofApproval
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| aprobadorID | aprobador |   |   |   |   |   |
+| approverID | aprobador |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| Identificador¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marca añadida: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### QueueDef
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbioredActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Tarifa
 
@@ -229,15 +230,15 @@ Cambios en los valores posibles
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### ReservvedTime
+### TiempoReservado
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tarea
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Equipo
 
@@ -269,7 +270,7 @@ Cambios en los valores posibles
 | teamStoryBoardIssueStatus |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Plantilla
 
@@ -277,27 +278,27 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 Actualizar
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Usuario
 
@@ -307,7 +308,7 @@ Cambios en los valores posibles
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ Cambios en los valores posibles
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles
+<sup>1</sup>Cambios en valores posibles
 
 ### Trabajo
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Cambios en los valores posibles\
-#Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>1</sup>Cambios en valores posibles\
+<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE

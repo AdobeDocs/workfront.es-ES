@@ -1,44 +1,45 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Formato de mensaje de salida para suscripciones de evento
-description: Formato de mensaje de salida para suscripciones de evento
+title: Formato de mensaje saliente para suscripciones a eventos
+description: Formato de mensaje saliente para suscripciones a eventos
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# Formato de mensaje de salida para suscripciones de evento
+# Formato de mensaje saliente para suscripciones a eventos
 
-Con el lanzamiento de Adobe Workfront 2017.3, el formato de los mensajes salientes para las suscripciones de eventos cambiará para permitir un mejor rendimiento y un mejor uso de las suscripciones de eventos para sus integraciones.
+Con el lanzamiento de Adobe Workfront 2017.3, el formato de los mensajes salientes para las suscripciones a eventos cambiará para permitir un rendimiento mejorado y un mejor uso de las suscripciones a eventos para sus integraciones.
 
-## Actualizaciones del formato de mensaje saliente
+## Actualizaciones del formato de mensajes salientes
 
-Se realizarán los siguientes cambios en el formato de mensaje saliente:
+Se realizarán los siguientes cambios en el formato del mensaje saliente:
 
-* Los mensajes salientes incluirán oldState y newState para un recurso de Workfront.
+* Los mensajes salientes incluyen oldState y newState para un recurso de Workfront.
 
-   Estos valores muestran los cambios realizados en un objeto como resultado de un evento en Workfront.
+  Estos valores muestran los cambios realizados en un objeto como resultado de un evento en Workfront.
 
-* El campo de metadatos eventTime se agregará a todos los mensajes salientes.
+* El campo de metadatos eventTime se agrega a todos los mensajes salientes.
 
-   Este campo indicará, en Nanosegundos y EpochSeconds, el tiempo en que se produjo un evento. Utilice eventTime para ordenar eventos procesados por su integración.
+  Este campo indicará, en Nanosegundos y EpochSeconds, la hora en que se produjo un evento. Utilice eventTime para ordenar eventos procesados por la integración.
 
-* Se eliminará el campo al que se hace referencia owner:companyID en el recurso NOTE.
-* Se eliminará el objeto objectOn del recurso DOCU (Document) al que se hace referencia currentVersion.
+* Se eliminará el campo de referencia owner:companyID en el recurso NOTE.
+* Se quitará el objeto currentVersion al que se hace referencia en el recurso DOCU (documento).
 
-Si actualmente utiliza suscripciones de eventos de Workfront, deberá actualizar las integraciones de Workfront antes de la versión 2017.3 para tener en cuenta estos cambios.
+Si actualmente utiliza suscripciones a eventos de Workfront, deberá actualizar las integraciones de Workfront antes de la versión 2017.3 para tener en cuenta estos cambios.
 
 Para obtener más información sobre las suscripciones a eventos, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md).
 
-## Ejemplos de formatos de mensaje antiguos y nuevos
+## Ejemplos de formatos de mensajes antiguos y nuevos
 
-El siguiente mensaje CREATE, de formato antiguo, ya no se utilizará después del lanzamiento de 2017.3:
+El siguiente mensaje CREATE de formato antiguo ya no se utilizará después del lanzamiento de 2017.3:
 
 ```
 {
@@ -72,7 +73,7 @@ El siguiente mensaje CREATE, de formato antiguo, ya no se utilizará después de
 }
 ```
 
-El siguiente mensaje CREATE con formato nuevo se utilizará después del lanzamiento de 2017.3:
+El siguiente mensaje CREATE de formato nuevo se utilizará después de la versión 2017.3:
 
 ```
 {
@@ -110,7 +111,7 @@ El siguiente mensaje CREATE con formato nuevo se utilizará después del lanzami
    "oldState": {}
 ```
 
-El siguiente mensaje UPDATE en formato antiguo ya no se utilizará después de la versión 2017.3:
+El siguiente mensaje UPDATE de formato antiguo ya no se utilizará después del lanzamiento de 2017.3:
 
 ```
 {
@@ -146,7 +147,7 @@ El siguiente mensaje UPDATE en formato antiguo ya no se utilizará después de l
  }
 ```
 
-El siguiente mensaje UPDATE de formato nuevo se utilizará después del lanzamiento de 2017.3:
+El siguiente mensaje de ACTUALIZACIÓN de formato se utilizará después de la versión 2017.3:
 
 ```
 {

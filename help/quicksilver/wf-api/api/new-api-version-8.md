@@ -1,23 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novedades de la versión 8 de API
-description: Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite Actualizaciones de la versión 8 de la API
+title: Novedades de la versión 8 de la API
+description: Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite Actualizaciones de la versión 8 de la API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
-# Novedades de la versión 8 de API
+# Novedades de la versión 8 de la API
 
 ## Nuevos recursos
 
-Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite [Actualizaciones de la versión 8 de la API](../../wf-api/api/new-api-version-8-updates.md)
+Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite [Actualizaciones de la versión 8 de API](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 
@@ -26,7 +27,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | backlogOrder | cliente |   |   | bulkCopy  |   | COPIAR |
 | color | iteración  |   |   |   |   | RECUENTO |
 | customerID | lastUpdatedBy |   |   |   |   | ELIMINAR |
-| estimación | opTask |   |   |   |   | EDITAR |
+| tasar | opTask |   |   |   |   | EDITAR |
 | Identificador | proyecto |   |   |   |   | GET  |
 | isReady | storyboardParent |   |   |   |   | INFORME |
 | iterationID | tarea |   |   |   |   | SEARCH |
@@ -36,8 +37,8 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 | opTaskID |   |   |   |   |   |   |
 | parentStoryBoardOrder |   |   |   |   |   |   |
 | projectID |   |   |   |   |   |   |
-| historyBoardOrder |   |   |   |   |   |   |
-| historyBoardParentID |   |   |   |   |   |   |
+| storyBoardOrder |   |   |   |   |   |   |
+| storyBoardParentID |   |   |   |   |   |   |
 | taskID  |   |   |   |   |   |   |
 | teamID |   |   |   |   |   |   |
 | tipo |   |   |   |   |   |   |
@@ -57,11 +58,11 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 
 {style="table-layout:auto"}
 
-**KanbanBoard**
+**Panel Kanban**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AGREGAR |
+| Identificador |   |   |   |   |   | AÑADIR |
 | name |   |   |   |   |   | RECUENTO |
 |   |   |   |   |   |   | ELIMINAR |
 |   |   |   |   |   |   | EDITAR |
@@ -97,9 +98,9 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| allocateDate |   |   |   |   |   | AGREGAR |
+| allocationDate |   |   |   |   |   | AÑADIR |
 | budgetHours |   |   |   |   |   | RECUENTO |
-| scheduledBudgetedHours |   |   |   |   |   | ELIMINAR |
+| plannedBudgetedHours |   |   |   |   |   | ELIMINAR |
 | projectID |   |   |   |   |   | EDITAR |
 | roleID |   |   |   |   |   | GET |
 | userID |   |   |   |   |   | INFORME |
@@ -111,7 +112,7 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AGREGAR |
+| Identificador |   |   |   |   |   | AÑADIR |
 | name |   |   |   |   |   | RECUENTO |
 |   |   |   |   |   |   | ELIMINAR |
 |   |   |   |   |   |   | EDITAR |
@@ -136,10 +137,10 @@ Esta es una lista de recursos que son nuevos para la versión 9 de la API. Para 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  Identificador |   |   |   | addSubscribers | suscriptores | AGREGAR |
+|  Identificador |   |   |   | addSubscribers | suscriptores | AÑADIR |
 |   |   |   |   | removeSubscribers |   | RECUENTO  |
-|   |   |   |   | suscripciones |   | ELIMINAR |
-|   |   |   |   | cancelar suscripciones |   | GET |
+|   |   |   |   | suscribe |   | ELIMINAR |
+|   |   |   |   | cancela la suscripción |   | GET |
 |   |   |   |   |   |   | INFORME |
 |   |   |   |   |   |   | SEARCH |
 

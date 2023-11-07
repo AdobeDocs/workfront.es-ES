@@ -1,13 +1,14 @@
 ---
 content-type: api
-keywords: API,datos,sincronizar,historial,entrada,objeto
+keywords: API,data,sync,journal,entry,object
 navigation-topic: general-api
-title: Utilice la API para sincronizar datos para programas y servicios
-description: Utilice la API para sincronizar datos para programas y servicios
+title: Utilice la API para sincronizar datos de programas y servicios
+description: Utilice la API para sincronizar datos de programas y servicios
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -15,19 +16,19 @@ ht-degree: 0%
 ---
 
 
-# Uso de la API para sincronizar datos para programas y servicios
+# Uso de la API para sincronizar datos de programas y servicios
 
 Estas son algunas formas comunes de utilizar la API para sincronizar datos para programas y servicios.
 
 ## Actualizaciones casi en tiempo real
 
-Adobe Workfront utiliza &quot;Suscripciones de eventos&quot; (también conocidos como webhooks) para enviar actualizaciones casi en tiempo real sobre objetos y acciones compatibles, a través de la API, a los puntos de conexión deseados. Puede esperar recibir una actualización con respecto a nuevos objetos y acciones en un plazo de 5 segundos, pero las actualizaciones promedio llegan en aproximadamente 1 segundo. Para obtener información adicional sobre qué tipo de objetos son compatibles, qué tipos de acciones se admiten, detalles técnicos y ejemplos de cómo configurar suscripciones de eventos, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md) y [Requisitos de entrega de suscripción de evento](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront utiliza &quot;Suscripciones de eventos&quot; (también denominadas comúnmente &quot;webhooks&quot;) para enviar actualizaciones casi en tiempo real sobre los objetos y las acciones compatibles, a través de la API, a los puntos de conexión deseados. Puede esperar recibir una actualización con respecto a los nuevos objetos y acciones en un plazo de 5 segundos, pero las actualizaciones promedio llegan en aproximadamente 1 segundo. Para obtener información adicional sobre qué tipo de objetos se admiten, qué tipos de acciones se admiten, detalles técnicos y ejemplos sobre cómo configurar suscripciones a eventos, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md) y [Requisitos de envío de suscripción a evento](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## Actualizaciones por lotes
 
-Las actualizaciones por lotes son una forma de configurar el sistema para las actualizaciones mediante solicitudes periódicas a los servidores de Workfront. Existen muchas formas de hacerlo, pero por lo general el proceso consiste en hacer que el servicio realice una solicitud a los servidores de la API de Workfront y en buscar objetos que se hayan creado o modificado desde la última llamada de solicitud. Para obtener información sobre posibles solicitudes llamadas y parámetros útiles, consulte la [Comportamiento del GET](../../wf-api/general/api-basics.md#get-behavior) de la sección [Conceptos básicos de API](../../wf-api/general/api-basics.md) artículo.
+Las actualizaciones por lotes son una forma de configurar el sistema para recibir actualizaciones mediante solicitudes periódicas a los servidores de Workfront. Hay muchas formas de hacerlo, pero generalmente el proceso consiste en hacer que el servicio realice una solicitud a los servidores de la API de Workfront y en buscar objetos que se hayan creado o modificado desde la última llamada de solicitud. Para obtener información sobre posibles solicitudes, llamadas y parámetros útiles, consulte la [Comportamiento de GET](../../wf-api/general/api-basics.md#get-behavior) de la sección [Conceptos básicos de API](../../wf-api/general/api-basics.md) artículo.
 
-Como está configurando su servicio para las actualizaciones por lotes, hay que tener en cuenta algunos aspectos importantes:
+A medida que configura el servicio para actualizaciones por lotes, hay que tener en cuenta algunos aspectos importantes:
 
 ### Fechas de entrada
 
@@ -39,9 +40,9 @@ Las fechas de entrada se almacenan utilizando el formato ISO 8601. Este estánda
  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre> 
 
-Tanto la fecha de creación de un objeto como la última fecha de modificación del objeto se almacenan como &quot;entryDate&quot; y &quot;lastUpdateDate&quot;, respectivamente. Para obtener información detallada sobre los objetos de Workfront, sus campos asociados y nombres de campo, consulte la [Explorador de API](../../wf-api/general/api-explorer.md). Observe que entryDate para cualquier objeto Workfront dado no cambia, ya que lastUpdatedDate cambia cada vez que se modifica el objeto.
+Tanto la fecha en que se crea un objeto como la última fecha en que se modificó se almacenan como &quot;entryDate&quot; y &quot;lastUpdateDate&quot;, respectivamente. Para obtener información detallada sobre los objetos de Workfront, sus campos asociados y los nombres de campo, consulte la [Explorador de API](../../wf-api/general/api-explorer.md). Observe que entryDate de cualquier objeto Workfront dado no cambia, mientras que lastUpdatedDate cambia cada vez que se modifica el objeto.
 
-**Ejemplo:** solicitud de GET para un objeto de problema, utilizando la variable **lastUpdateDate** campo . Esta solicitud devolverá todos los problemas actualizados desde esa fecha especificada.
+**Ejemplo:** solicitud de GET para un objeto de problema, utilizando **lastUpdateDate** field. Esta solicitud devolverá todos los problemas actualizados desde la fecha especificada.
 
 <!-- [Copy](javascript:void(0);) -->
  
@@ -53,9 +54,9 @@ https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,
 
 ### Objeto de entrada de diario
 
-Si le interesa obtener cambios relativos a un campo específico de un objeto, puede consultar el objeto &quot;Entrada de diario&quot;. El objeto Workfront Journal Entry se puede configurar para registrar información sobre campos de objeto específicos cada vez que se modifiquen dichos campos; consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) para obtener más información.
+Si está interesado en obtener cambios con respecto a un campo específico en un objeto, puede consultar el objeto &quot;Entrada de cuaderno&quot;. El objeto Entrada de diario de Workfront se puede configurar para registrar información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) para obtener más información.
 
-Cuando se configura un campo para que se registre como parte del objeto Entrada de diario, se crea una Entrada de diario correspondiente cada vez que se modifica ese campo. A continuación, puede consultar el objeto Entrada de diario mediante una llamada de API similar a la siguiente:
+Cuando se configura un campo para que se registre como parte del objeto de entrada de cuaderno, se creará una entrada de cuaderno correspondiente cada vez que se modifique ese campo. A continuación, puede consultar el objeto Entrada de cuaderno mediante una llamada de API similar a la siguiente:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -63,4 +64,4 @@ Cuando se configura un campo para que se registre como parte del objeto Entrada 
 
 >[!NOTE]
 >
->&quot;entryDate&quot; se utiliza para ver una entrada de diario de un cambio, en lugar de mirar el propio objeto modificado.
+>&quot;entryDate&quot; se utiliza para ver una entrada de diario de un cambio, en lugar de ver el propio objeto modificado.

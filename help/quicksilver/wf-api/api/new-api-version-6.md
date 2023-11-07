@@ -5,11 +5,12 @@ title: Novedades de la versión 6 de la API
 description: Novedades de la versión 6 de la API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 39%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 42%
 | Identificador | cliente |   |   |   |   | Agregar |
 | customerID | proyecto |   |   |   |   | Cuenta |
 | projectID | resourceManager |   |   |   |   | Eliminar |
-| resourceManagerID | plantilla |   |   |   |   | Get |
+| resourceManagerID | plantilla |   |   |   |   | Obtener |
 | templateID |   |   |   |   |   | Informe  |
 |   |   |   |   |   |   | Buscar  |
 
@@ -34,7 +35,7 @@ ht-degree: 42%
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | fileName |   |   |   |   | cargar |   |
-| handle |   |   |   |   |   |   |
+| manipular |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
@@ -45,14 +46,14 @@ ht-degree: 42%
 | Identificador |   |   |   | checkDelete | customLabels | Agregar |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Cuenta |
 |   |   |   |   | removeCustomLabel |   | Eliminar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
 
 
 ## Objetos actualizados
 
-Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones se han eliminado, los cambios en las ya existentes tienen una nota adjunta después de la tabla
+Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones tienen tachado, los cambios en los objetos existentes tienen una nota adjunta después de la tabla
 
 ### Actualizar
 
@@ -60,14 +61,14 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en valores posibles
 
-² El atributo hasFilters ha cambiado a true
+<sup>2</sup> el atributo hasFilters ha cambiado a true
 
  
 
@@ -76,16 +77,16 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Se agregó la validación de fecha
+<sup>1</sup> Validación de fecha agregada
 
-² Se ha añadido el indicador NOT_FILTERABLE
+<sup>2</sup> Indicador NOT_FILTERABLE añadido
 
  
 
@@ -93,9 +94,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 |   | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,15 +106,15 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en posibles valores
+<sup>1</sup> Cambios en valores posibles
 
  
 
-### Ruta de aprobación¹
+### Ruta de aprobación<sup>1</sup>
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -121,18 +122,18 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | approvedStatusLabel |   |   |   |   |   | Cuenta |
 | comentario |   |   |   |   |   | Eliminar |
 | enteredByID |   |   |   |   |   | Editar |
-| entryDate |   |   |   |   |   | Get |
+| entryDate |   |   |   |   |   | Obtener |
 | globalPathID |   |   |   |   |   | Informe |
 | isPrivate |   |   |   |   |   | Buscar |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambiado a Informable
+<sup>1</sup> Se ha cambiado a Informable
 
-² Se ha agregado el validador de longitud máxima
+<sup>2</sup> Se agregó el validador de longitud máxima
 
  
 
@@ -140,14 +141,14 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validación de fecha agregada
+<sup>1</sup> Validación de fecha añadida
 
-² Se Ha Agregado Un Indicador No Filtrable
+<sup>2</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -159,7 +160,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicador no filtrable añadido
+<sup>1</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -179,11 +180,11 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Indicador no filtrable añadido
+<sup>1</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -191,20 +192,20 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ se ha añadido el indicador de campo NO_TIME
+<sup>1</sup> se ha añadido el indicador de campo NO_TIME
 
-### Evento de pérdida 
+### Evento de evolución 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -224,10 +225,10 @@ Enumeración personalizada 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatus |   |
-|   |   |   |   | ispossibleToUnlockStatus | projectGroupStatus |   |
+|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatus |   |
 |   |   |   |   |   | taskGroupStatus |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Documento 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ tarifa de cambio 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| tasa¹ |   |   |   |   |   |   |
+| clasificar<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Se ha cambiado el validador de PRECISION para 8 a 9
+<sup>1</sup> Se ha cambiado el validador de PRECISION de 8 a 9.
 
  
 
@@ -260,7 +261,7 @@ tarifa de cambio 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,29 +269,29 @@ tarifa de cambio 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en posibles valores
+<sup>1</sup> Cambios en valores posibles
 
  
 
-### Optask (Problema)¹ 
+### Optask (Problema)<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTAURABLE
 
-² Se Ha Agregado Un Indicador No Filtrable
+<sup>2</sup> Indicador Not_Filterable Añadido
 
  
 
-### Proyecto¹ 
+### Proyecto<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -298,31 +299,31 @@ tarifa de cambio 
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| trabajo |   |   |   |   |   |   |
+| trabajar |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
 
-² Se Ha Agregado Un Indicador No Filtrable
+<sup>2</sup> Indicador Not_Filterable Añadido
 
  
 
-### Tarea¹
+### Tarea<sup>1</sup>
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired3 |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTAURABLE
 
-² Se agregó el validador AT_DATE_YEAR_BEFORE
+<sup>2</sup> Se ha añadido el validador AT_DATE_YEAR_BEFORE
 
-Se Ha Añadido Un Indicador No Filtrable
+<sup>3</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -333,31 +334,31 @@ Se Ha Añadido Un Indicador No Filtrable
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Plantilla¹ 
+### Plantilla<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
 
-### Tarea de plantilla¹ 
+### Tarea de plantilla<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTAURABLE
 
-² Se Ha Agregado Un Indicador No Filtrable
+<sup>2</sup> Indicador Not_Filterable Añadido
 
  
 
@@ -365,11 +366,11 @@ Se Ha Añadido Un Indicador No Filtrable
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Violadores de MAX_LENGTH
+<sup>1</sup> Violadores de MAX_LENGTH
 
  
 
@@ -377,13 +378,13 @@ Se Ha Añadido Un Indicador No Filtrable
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Valores posibles modificados
+<sup>1</sup> Valores posibles cambiados
 
-² tiene filtros modificados en `[true]`
+<sup>2</sup> tiene filtros Cambiados a `[true]`
 
  
 

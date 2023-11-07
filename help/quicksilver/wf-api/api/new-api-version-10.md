@@ -5,11 +5,12 @@ title: Novedades de la versión 10 de la API
 description: Recursos actualizados
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 46%
+source-wordcount: '472'
+ht-degree: 42%
 
 ---
 
@@ -25,18 +26,18 @@ ht-degree: 46%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | AGREGAR |
+|   |   |   |   |   |   | AÑADIR |
 |   |   |   |   |   |   | RECUENTO |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Entrada de calendario
+### CalendarEntry
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AGREGAR |
+| Identificador |   |   |   |   |   | AÑADIR |
 |   |   |   |   |   |   | RECUENTO  |
 |   |   |   |   |   |   | ELIMINAR  |
 |   |   |   |   |   |   | EDITAR  |
@@ -44,7 +45,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | INFORME  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
@@ -55,13 +56,13 @@ ht-degree: 46%
 |   |   |   |   |   |   | INFORME  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AGREGAR |
+| Identificador |   |   |   |   |   | AÑADIR |
 |   |   |   |   |   |   | RECUENTO |
 |   |   |   |   |   |   | ELIMINAR  |
 |   |   |   |   |   |   | EDITAR  |
@@ -69,7 +70,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | INFORME  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
@@ -78,18 +79,18 @@ ht-degree: 46%
 | customerID | cliente |   |   |   |   |   |
 | groupID | grupo |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
-| usedlicense |   |   |   |   |   |   |
+| usedLicense |   |   |   |   |   |   |
 | límite de trabajo |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| customerID | cliente |   |   |   |   | AGREGAR |
+| customerID | cliente |   |   |   |   | AÑADIR |
 | edTime | usuario |   |   |   |   | RECUENTO |
 | firstDayOfWeek |   |   |   |   |   | ELIMINAR |
 | Identificador |   |   |   |   |   | EDITAR |
@@ -98,13 +99,13 @@ ht-degree: 46%
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Recursos actualizados**
 
-Con esta versión de la API de Workfront se han actualizado los siguientes recursos existentes. Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Workfront. Los cambios realizados en un recurso se indican de la siguiente manera:
 
-* Las adiciones simplemente aparecen en la lista
+* Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
 * Los cambios se enumeran en la nota después de la tabla
 
@@ -112,7 +113,7 @@ Con esta versión de la API de Workfront se han actualizado los siguientes recur
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
@@ -120,20 +121,20 @@ Con esta versión de la API de Workfront se han actualizado los siguientes recur
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Asignación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| assignPercent `¹` |   |   |   |   |   |   |
-| viewByAssignedToUser |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
+| viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`validador agregado LESS_THAN_EQUAL
+`<sup>1</sup>`se ha agregado el validador LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -141,19 +142,19 @@ Con esta versión de la API de Workfront se han actualizado los siguientes recur
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Preferencias de cliente
+### Preferencias del cliente
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -161,36 +162,36 @@ Con esta versión de la API de Workfront se han actualizado los siguientes recur
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Documento
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en possibleValues
 
 Gasto
 
@@ -198,7 +199,7 @@ Gasto
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupo
 
@@ -207,44 +208,44 @@ Gasto
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Cambios en los valores posibles
+<sup>1</sup> Cambios en possibleValues
 
 ### OpTask
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ El tipo cambió de nulo a booleano
+<sup>1</sup> El tipo cambió de nulo a booleano
 
-### Sección del portal
+### SecciónPortal
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Portafolio
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| portafolioNetValue |  |  |  |  |  |  |
-| portafolioRoi |   |   |   |   |   |   |
+| portfolioNetValue |   |   |   |  |  |   |
+| portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Proyecto
 
@@ -255,25 +256,25 @@ Gasto
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| aprobadorDecisión |  |  |  |  |  |  |
+| approverDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tarifa
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Se ha añadido la MONEDA al validador
+<sup>1</sup>se agregó validador de CURRENCY
 
 ### Tarea
 
@@ -283,7 +284,7 @@ Se ha añadido la MONEDA al validador
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,27 +292,27 @@ Se ha añadido la MONEDA al validador
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ validador añadido LESS_THAN
+<sup>1</sup> se ha agregado el validador LESS_THAN
 
-### TeamAssignment
-
-| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
-|---|---|---|---|---|---|---|
-| `masterTaskID` |   |   |   |   |   |   |
-
-{style=&quot;table-layout:auto&quot;}
-
-### TeamTask
+### AsignaciónEquipo
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+### TareaEquipo
+
+| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
+|---|---|---|---|---|---|---|
+| `masterTaskID` |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### Hoja de horas
 
@@ -319,17 +320,17 @@ Se ha añadido la MONEDA al validador
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Actualizar
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 ### Usuario
 
@@ -337,29 +338,29 @@ Se ha añadido la MONEDA al validador
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 ### Trabajo
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ El tipo cambió de nulo a booleano
+<sup>1</sup> El tipo cambió de nulo a booleano
 
 ## Recursos eliminados {#removed-resources}
 
@@ -367,15 +368,15 @@ Se ha añadido la MONEDA al validador
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| allocateDate |   |   |   |   |   | AGREGAR  |
+| allocationDate |   |   |   |   |   | AÑADIR  |
 | budgetHours |   |   |   |   |   | RECUENTO  |
 | Identificador |   |   |   |   |   | ELIMINAR  |
-| scheduledBudgetedHours |   |   |   |   |   | EDITAR  |
+| plannedBudgetedHours |   |   |   |   |   | EDITAR  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | INFORME  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

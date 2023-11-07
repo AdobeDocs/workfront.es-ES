@@ -5,19 +5,20 @@ title: Novedades de la versión 9 de la API (continuación)
 description: Esta lista es la segunda mitad de una lista más grande. La primera mitad se encuentra en Novedades de la versión 9 de la API. Encontrará la lista de actualizaciones de la versión 9 en Actualizaciones de la versión 9 de la API.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 25%
 
 ---
 
 # Novedades de la versión 9 de la API (continuación)
 
-Esta lista es la segunda mitad de una lista más grande. La primera mitad se encuentra en [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md). Encontrará la lista de actualizaciones de la versión 9 en [Actualizaciones de la versión 9 de la API](../../wf-api/api/new-api-version-9-updates.md).
+Esta lista es la segunda mitad de una lista más grande. La primera mitad se encuentra en [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md). Encontrará la lista de actualizaciones de la versión 9 en [Actualizaciones a la versión 9 de la API](../../wf-api/api/new-api-version-9-updates.md).
 
-## Sección del portal
+## SecciónPortal
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -83,7 +84,7 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
@@ -95,7 +96,7 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticsInfo
 
@@ -113,9 +114,9 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Pestaña Portal
+## PortalTab
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -135,9 +136,9 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Sección de pestañas del portal
+## PortalTabSection
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -152,7 +153,7 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
@@ -162,9 +163,9 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## ProgramarInforme
+## Programar informe
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
