@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 2%
 
 ---
@@ -767,6 +767,7 @@ ht-degree: 2%
    * Administración en Adobe Admin Console {#admin-in-admin-console}
       * [Administración de Workfront en Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Preparación para Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Explicación de la migración de productos y usuarios de Workfront a Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Sugerencias, trucos y solución de problemas para la administración y la configuración {#admin-setup-tips}
       * [Sugerencias, trucos y solución de problemas](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Los administradores de grupo deben tener un acceso mayor que los que administran](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 2%
    * [Creación de informes](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Lienzo de informes {#reporting-canvas}
       * [Lienzo de informes](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Administración de informes {#manage-reports}
+      * Administrar informes {#manage-reports}
          * [Información general sobre Administrar informes](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Creación de informes en lienzo de informes](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Exportación de un informe en el lienzo de informes](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
