@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los tableros de Adobe Workfront</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los tableros de Adobe Workfront</a> <span style="color: #ff0000; font-weight: bold;">(No disponible temporalmente a partir del 7 de noviembre de 2023)</span></p><p>[!BADGE en producción ]{type=Informative}</p><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -780,9 +780,9 @@ La aplicación móvil Proof quedará obsoleta oficialmente con la versión 23.10
 
 Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de sesión de Workfront. Los usuarios e invitados externos pueden seguir utilizando la aplicación Proof para trabajos de revisión; sin embargo, ya no es compatible y no estará disponible con la versión 23.10.
 
-#### Flujos de trabajo eliminados para las cuentas que no los utilizan
+#### Secuencias de trabajo eliminados para las cuentas que no se utilizan
 
-En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan flujos de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
+En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan secuencias de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
 
 <!-- HTML you might need
 
