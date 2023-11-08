@@ -1,13 +1,13 @@
 ---
 title: Actividad de versión de Adobe Maestro
-description: Utilizar Maestro para crear objetos, campos y espacios de trabajo personalizados.
+description: Adobe Maestro está disponible actualmente para determinados clientes de Workfront. Revise este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más r
 En esta sección se enumeran las funciones y revisiones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro el 22 de mayo de 2023.
 
 Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
+
+## Semana del 6 de noviembre de 2023
+
+### Agrupación para la vista de tabla
+
+Previsualización y producción: 7 de noviembre de 2023
+
+Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de Maestro <!--checking into this for now: and by four fields when using the API-->.
+
+Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
 ## Semana del 30 de octubre de 2023
 

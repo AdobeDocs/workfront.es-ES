@@ -3,21 +3,21 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Revisar y aprobar el trabajo
-description: 'Esta sección contiene las siguientes subsecciones: EDITAR.'
-author: Courtney
+description: Puede asociar las aprobaciones con el trabajo o con los documentos en Adobe Workfront.
+author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 62%
+source-wordcount: '38'
+ht-degree: 23%
 
 ---
 
 # Revisar y aprobar el trabajo
 
-Esta sección contiene las siguientes subsecciones:
+Los siguientes artículos contienen información sobre la asociación de aprobaciones con trabajo, documentos o pruebas.
 
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
 * [Aprobaciones de trabajo](../review-and-approve-work/manage-approvals/manage-approvals.md)

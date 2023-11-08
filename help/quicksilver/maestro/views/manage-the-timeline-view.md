@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -120,8 +120,6 @@ Tenga en cuenta lo siguiente:
      * Edit record information
 -->
 
-Al crear una vista de escala de tiempo, todos los registros del tipo de registro seleccionado se muestran en una escala de tiempo como barras de forma predeterminada.
-
 Para administrar una vista de cronología:
 
 1. Vaya a la página del tipo de registro cuya cronología desea ver.
@@ -129,7 +127,7 @@ Para administrar una vista de cronología:
 
    ![](assets/timeline-view-example.png)
 
-   Los registros asociados con el tipo de registro seleccionado se muestran en una cronología cronológica en forma de barras.
+   Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan en orden cronológico de forma predeterminada.
 
 1. Realice una de las siguientes acciones para navegar por la cronología:
 
@@ -176,26 +174,22 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
 ### Agregar agrupación
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Puede agrupar registros por información similar al aplicar una agrupación a una vista.
 
+Agregar agrupaciones en la vista de escala de tiempo es similar a agregar agrupaciones a la vista de tabla.
+
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
 * Puede aplicar tres niveles de agrupación en una vista Maestro. Los registros se agrupan en el orden de agrupaciones que seleccione.
 * Puede aplicar hasta 4 niveles de agrupación al utilizar la API.
 * Las agrupaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de cronología ven la misma agrupación que se aplica actualmente.
-
 * No puede asignar nombres a las agrupaciones que genere para una vista de cronología.
-
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 
-Para agregar una agrupación:
+Para agregar una agrupación en la vista de escala de tiempo:
 
 1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
 1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
@@ -218,7 +212,7 @@ Para agregar una agrupación:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
+1. (Opcional) Dentro de **Agrupar registros por** , haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
 
    O
 

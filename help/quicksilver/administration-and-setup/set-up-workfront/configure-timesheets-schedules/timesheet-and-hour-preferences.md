@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Como un [!DNL Adobe Workfront] administrador, puede especificar preferencias para plantillas de horas y horas en [!DNL Workfront] para definir con qué elementos pueden rellenarse previamente las plantillas de horas y con qué elementos pueden registrar los usuarios el tiempo.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Los elementos para los que ha registrado tiempo durante el marco de tiempo de la plantilla de horas se muestran en la plantilla de horas de forma predeterminada, aunque es posible que no cumplan las condiciones descritas en este artículo para rellenar previamente la plantilla de horas.
+>Además de los elementos que rellenan previamente una plantilla de horas según las condiciones descritas en este artículo, los siguientes elementos también se muestran de forma predeterminada en las plantillas de horas:
+>* Elementos para los que ha registrado tiempo durante el lapso de tiempo de la hoja de horas
+>* Elementos anclados a la plantilla de horas
+>* Elementos que busca y agrega manualmente a la hoja de horas. Los elementos agregados manualmente están anclados de forma predeterminada.
 >
->Para obtener información sobre el registro del tiempo, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Cualquier cambio que realice en las hojas de horas afectará a todas las que se creen en el futuro.

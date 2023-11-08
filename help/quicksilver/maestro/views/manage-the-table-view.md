@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 4%
+source-wordcount: '2069'
+ht-degree: 3%
 
 ---
 
@@ -319,45 +319,55 @@ Para agregar un filtro a una vista de tabla:
 
 1. (Opcional) Haga clic en **Filtros**, luego haga clic en **x** para eliminar un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### Agregar agrupaciones {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+Puede agrupar registros por información similar al aplicar una agrupación a una vista.
 
-You can group records by similar information when applying  a grouping to a view.
+Agregar agrupaciones en la vista de tabla es similar a agregar agrupaciones a la vista de escala de tiempo.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Tenga en cuenta lo siguiente:
 
-Consider the following:
+* Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
+* Puede aplicar tres niveles de agrupación en una vista Maestro. Los registros se agrupan en el orden de agrupaciones que seleccione.
+&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
+* Las agrupaciones son únicas para la vista que seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de tabla ven la misma agrupación que se aplica actualmente.
+* No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.
+* Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
+* Puede editar los registros enumerados bajo una agrupación.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+Para agregar una agrupación:
 
-To add a grouping:
+1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
+1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >No se pueden seleccionar campos vinculados.
 
--->
+   La agrupación se aplica automáticamente a la tabla y los registros se muestran bajo la línea de separación de agrupación
+
+1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
+
+   El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (Opcional) Dentro de **Agrupar registros por** , haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
+
+   O
+
+   Clic **Borrar todo** para eliminar todos los campos.
+
+1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
+1. (Opcional) Haga clic en **+ Nuevo &lt; Nombre del tipo de registro >** al final de cualquier agrupación para agregar nuevos registros, actualice la página para agregar el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Agregar un orden {#sort-information}
 
