@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Panel
 * Documento
 * Gasto
+* Campo
 * Hora
 * Problema
 * Nota
 * Portafolio
 * Programar
 * Proyecto
+* Registro
+* Tipo de registro
 * Informe
 * Tarea
 * Plantilla
@@ -122,6 +125,10 @@ El recurso de suscripción contiene los campos siguientes.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Campo</p></td> 
+        <td scope="col"><p>CAMPO</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Hora</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -144,6 +151,14 @@ El recurso de suscripción contiene los campos siguientes.
        <tr> 
         <td scope="col"><p>Proyecto</p></td> 
         <td scope="col"><p>PROYECTO</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Registro</p></td> 
+        <td scope="col"><p>REGISTRO</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Tipo de registro</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Informe</p></td> 
