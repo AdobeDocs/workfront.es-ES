@@ -6,10 +6,10 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 21%
+source-wordcount: '945'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
     Muestra las tareas que tiene asignadas en una tabla con filtros, vistas y agrupaciones personalizables, así como un botón para crear directamente una nueva tarea.
 
 * **Mis problemas**\
-    Muestra los problemas que se le han asignado en una tabla con filtros, vistas y agrupaciones personalizables, así como un botón para crear directamente un nuevo problema.
+    Muestra los problemas que se le han asignado en una tabla con filtros, vistas y agrupaciones personalizables, así como un botón para crear directamente un nuevo problema. Este widget solo incluye problemas cuyos proyectos asociados están configurados en Actual.
 
 * **Mis solicitudes**\
     Muestra todas las solicitudes enviadas, un filtro para mostrar sólo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.

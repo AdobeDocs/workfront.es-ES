@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -109,13 +109,13 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
       <td role="rowheader">Criterios</td> 
       <td> <p>Seleccione los criterios para calificar la notificación de recordatorio para que se programe. Las notificaciones de recordatorio no están programadas a menos que se cumpla la selección de criterios.</p> <p>Las siguientes opciones de criterios están disponibles, según el tipo de objeto seleccionado en el paso 4:</p> 
        <ul> 
-        <li><strong>Incompleto en proyectos actuales:</strong> (Disponible para recordatorios de tareas y problemas) La notificación de recordatorio se programa para enviarse solo cuando el estado del objeto al que está asociada la notificación de recordatorio no es Completo y el estado del proyecto es Actual.</li> 
-        <li><strong>Todo en proyectos actuales:</strong>(Disponible para recordatorios de tareas y problemas) La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto con el que está asociada la notificación de recordatorio es Actual.</li> 
-        <li><strong>Proyectos incompletos:</strong> (Disponible para recordatorios de proyecto) La notificación de recordatorio está programada para enviarse cuando el estado del proyecto sea cualquier cosa menos Completado.</li> 
-        <li><strong>Completar proyectos:</strong> (Disponible para recordatorios de proyectos) La notificación de recordatorio se programa para enviarse cuando el estado del proyecto sea Completo.</li> 
-        <li><strong>Abrir hojas de horas:</strong> (Disponible para recordatorios de plantillas de horas) La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto.</li> 
-        <li><strong>Hojas de horas enviadas:</strong> (Disponible para recordatorios de plantillas de horas) La notificación de recordatorio está programada para enviarse cuando se envía el estado de la plantilla de horas.</li> 
-        <li><strong>Abrir hoja de horas o menos de 40 horas a la semana:</strong> (Disponible para recordatorios de plantillas de horas) La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto o cuando la plantilla de horas tiene menos de 40 horas registradas.</li> 
+        <li><strong>Incompleto en proyectos actuales:</strong> <i>(Disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio se programa para enviarse únicamente cuando el estado del objeto al que está asociada la notificación de recordatorio no sea Completo y el estado del proyecto sea Actual.</li> 
+        <li><strong>Todo en proyectos actuales:</strong> <i>(Disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto al que está asociada la notificación de recordatorio es Actual.</li> 
+        <li><strong>Proyectos incompletos:</strong> <i>(Disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse cuando el estado del proyecto sea cualquier cosa menos Completado.</li> 
+        <li><strong>Todos los proyectos:</strong> <i>(Disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del proyecto.</li> 
+        <li><strong>Abrir hojas de horas:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto.</li> 
+        <li><strong>Hojas de horas enviadas:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando se envía el estado de la plantilla de horas.</li> 
+        <li><strong>Abrir hoja de horas o menos de 40 horas a la semana:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto o cuando la plantilla de horas tiene menos de 40 horas registradas.</li> 
         <li><strong>Plantilla de correo electrónico:</strong> En la lista desplegable, seleccione una plantilla de correo electrónico para adjuntarla al recordatorio.<br>Para obtener información sobre cómo crear una plantilla de correo electrónico, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar plantillas de correo electrónico</a>.</li> 
        </ul> </td> 
      </tr> 
