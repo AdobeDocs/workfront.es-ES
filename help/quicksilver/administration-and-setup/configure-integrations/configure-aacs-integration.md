@@ -5,9 +5,9 @@ title: Configure las variables [!UICONTROL Experience Manager Assets as a Cloud 
 description: Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe 
 
 Los valores de flujo de trabajo predeterminados que establezca en la integración se pueden sobrescribir en los niveles Plantilla de proyecto y Proyecto.
 
-### Configurar un flujo de trabajo para la creación de carpetas vinculadas de Adobe Experience Manager
+Los siguientes flujos de trabajo están disponibles en la integración de Adobe Experience Manager:
+
+* [Crear carpetas vinculadas de Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
+* [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Crear carpetas vinculadas de Adobe Experience Manager
 
 1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
 1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
    ![Navegación de carpetas vinculadas](assets/select-folder-aem-integration.png)
-1. Habilite la **Anexar nombres de Portfolio y programas** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
-1. Clic **Guardar** o continúe con la [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
+1. Habilite la **[!UICONTROL Anexar nombres de Portfolio y programas]** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
+1. Clic **[!UICONTROL Guardar]** o continúe con la [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
+
+### Publicar recursos enviados a Adobe Experience Manager Assets
+
+1. Alternar en **[!UICONTROL Publicar recursos automáticamente]**.
+1. Marque la casilla junto a la ubicación en la que desea publicar los recursos enviados a los recursos de Adobe Experience Manager. Puede activar una o ambas opciones.
+1. (Condicional) Si ha habilitado la opción Brand Portal, seleccione la Brand Portal en la que desea publicar los recursos.
+1. Clic **[!UICONTROL Guardar]** o continúe con la [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
 
 ## Configuración de carpetas vinculadas (opcional)
 

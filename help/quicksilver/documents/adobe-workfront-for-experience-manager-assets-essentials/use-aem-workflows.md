@@ -5,14 +5,17 @@ title: Uso de flujos de trabajo en la integración de Experience Manager Assets 
 description: Uso de flujos de trabajo en la integración de Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Uso de flujos de trabajo en la integración de Experience Manager Assets
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Un administrador de Workfront puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto. Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
 
@@ -41,7 +44,7 @@ Debe tener lo siguiente:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials y se le debe añadir al producto como usuario en el Admin Console.</p><p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager para crear carpetas vinculadas.</p>&gt;
+   <td><p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y se le debe añadir al producto como usuario en el Admin Console.</p><p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -72,7 +75,7 @@ Antes de empezar,
 
 Puede agregar un flujo de trabajo a una plantilla de proyecto. El flujo de trabajo se aplicará a cualquier proyecto creado a partir de la plantilla.
 
-1. <!-- main menu snippet??--> Abra una plantilla haciendo clic en **Plantillas** en el menú principal y, a continuación, seleccione la plantilla en la lista.
+1. Abra una plantilla haciendo clic en **Plantillas** en el menú principal y, a continuación, seleccione la plantilla en la lista.
 1. Clic **Experience Manager Assets** en el panel de navegación izquierdo.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ Puede agregar un flujo de trabajo a una plantilla de proyecto. El flujo de traba
 1. En el **Seleccione un campo Integration for automated workflows**, seleccione la integración con los flujos de trabajo que desee utilizar para los proyectos creados a partir de esta plantilla.
 1. (Opcional) Edite los valores de flujo de trabajo que desee aplicar a los proyectos creados a partir de esta plantilla.
 
-   Por ejemplo, para crear una carpeta vinculada en una ubicación distinta del valor predeterminado, introduzca la ubicación de la carpeta vinculada.
+   Para obtener instrucciones sobre flujos de trabajo específicos, consulte [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project) en este artículo.
 
    Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
 
@@ -113,6 +116,8 @@ Puede agregar un flujo de trabajo al crear un proyecto o agregar un flujo de tra
 1. Al seleccionar una plantilla para el proyecto, seleccione la plantilla que contiene los flujos de trabajo que desea utilizar para este proyecto.
 1. (Opcional) Edite los valores de flujo de trabajo del proyecto, tal como se describe en [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
 
+   Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
+
 ### Edición de valores de flujo de trabajo en un proyecto
 
 Puede editar los valores del flujo de trabajo en el nivel de proyecto. Los valores de flujo de trabajo de nivel de proyecto anulan los valores establecidos en la plantilla de proyecto, que anulan los valores predeterminados establecidos en la integración de Adobe Experience Manager Assets.
@@ -123,19 +128,35 @@ Todos los valores de flujo de trabajo se encuentran en:
 * La sección Adobe Experience Manager de la navegación izquierda.
 
 
-   >[!NOTE]
-   >
-   >Si estas áreas no están visibles, el administrador de Workfront no ha habilitado Flujos de trabajo para su organización.
+  >[!NOTE]
+  >
+  >Si estas áreas no están visibles, el administrador de Workfront no ha habilitado Flujos de trabajo para su organización.
 
 #### Carpetas vinculadas
 
 Para editar el flujo de trabajo de las carpetas vinculadas:
 
-1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
-1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
-1. Haga clic en Guardar si utiliza las ventanas Crear proyecto o Editar proyecto.
+1. Alternar **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee.
+1. (Condicional) Si está habilitando carpetas vinculadas, elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
+1. Clic **[!UICONTROL Guardar]** si está utilizando el [!UICONTROL Crear proyecto] o [!UICONTROL Editar proyecto] ventana.
 
    O
 
-   Si se encuentra en el área de Adobe Experience Manager, los cambios se guardan automáticamente. <!--Do they though?-->
+   Si está en la [!DNL Adobe Experience Manager area], los cambios se guardan automáticamente. <!--Do they though?-->
 
+
+#### Publicación de recursos
+
+<div class="preview">
+
+Para editar el flujo de trabajo para publicar recursos:
+
+1. Alternar **Publicar recursos automáticamente** active o desactive según desee.
+1. (Condicional) Si está habilitando la publicación, seleccione si desea publicarla en el servicio de publicación, en el portal de marca o en ambos.
+1. Clic **[!UICONTROL Guardar]** si está utilizando el [!UICONTROL Crear proyecto] o [!UICONTROL Editar proyecto] ventana.
+
+   O
+
+   Si está en la [!DNL Adobe Experience Manager area], los cambios se guardan automáticamente. <!--Do they though?-->
+
+</div>
