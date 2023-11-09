@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
    <td>Equipo</td> 
   </tr> 
   <tr> 
-   <td>Hoja de horas*</td> 
-   <td>Usuario, equipo</td> 
+   <td>Hoja de horas</td> 
+   <td><p>Usuario, equipo</p>
+   <p><b>NOTA</b></p>
+   <p>Los comentarios de la plantilla de horas se muestran en la sección Actualizaciones del usuario que realiza el comentario y en la sección Actualizaciones de su equipo de inicio.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Tarea de plantilla</td> 
@@ -184,7 +187,7 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
    <td>Iteración, equipo</td> 
   </tr> 
   <tr> 
-   <td>Iteración*</td> 
+   <td>Iteración</td> 
    <td>Equipo</td> 
   </tr>
 
@@ -198,7 +201,7 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
   </tr> 
  </tbody> 
 </table>
-* No están disponibles para la nueva experiencia de comentarios.
+
 
 <br>
 

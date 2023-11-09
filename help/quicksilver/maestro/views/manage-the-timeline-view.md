@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ Para agregar una agrupación en la vista de escala de tiempo:
    Clic **Borrar todo** para eliminar todos los campos.
 
 1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
+1. (Opcional) Haga clic en **Configuración**, entonces **Color** a agrupaciones de código de color. Para obtener más información, consulte la [Editar la configuración de vista de cronología](#edit-the-timeline-view-settings) de este artículo.
 
 <!-- 
 

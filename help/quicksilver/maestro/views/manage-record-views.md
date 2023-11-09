@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
 ## Creación o edición de vistas {#create-or-edit-views}
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->, luego haga clic en **Maestro** ![](assets/maestro-icon.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
 El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture-and-fields/create-workspaces.md).
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture-and-fields/create-record-types.md).
 

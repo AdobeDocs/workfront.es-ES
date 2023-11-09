@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Crear un espacio de trabajo
 
-1. (Condicional) Si no tiene ningún espacio de trabajo en el sistema, haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> luego haga clic en **Maestro** ![](assets/maestro-icon.png).
+1. (Condicional) Si no tiene ningún espacio de trabajo en el sistema, haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
 
    O bien, desde un espacio de trabajo existente, haga clic en el área de trabajo orientada hacia abajo a la derecha del nombre del espacio de trabajo y, a continuación, haga clic en **Crear espacio de trabajo**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Compartir vínculos de registros desde la vista de tabla de tipo de registro
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> luego haga clic en **Maestro**.
+1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro**.
 
    Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en una tarjeta de tipo de registro.
@@ -110,7 +110,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    O
 
-   Pase el ratón sobre el nombre de un registro y haga clic en el menú Más ![](assets/more-menu.png), luego haga clic en **Copiar vínculo**.
+   Pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Copiar vínculo**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
