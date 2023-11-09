@@ -6,16 +6,14 @@ description: Puede enviar documentos desde Workfront a Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Enviar un documento a Experience Manager Assets o a los Assets Essentials
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede enviar documentos desde Workfront a Experience Manager Assets o a Assets Essentials. Los documentos cargados y enviados desde Workfront a los Assets Essentials siguen contando en el almacenamiento general de documentos. Los recursos vinculados desde Assets Essentials no se contabilizan en el almacenamiento general.
 
@@ -116,9 +114,9 @@ Puede mover un documento a una carpeta vinculada en Experience Manager Assets si
 1. Busque el documento que desea mover.
 1. Arrastre y suelte el documento en la carpeta de Experience Manager Assets vinculada a la que desea moverlo.
 
-<div class="preview">Las opciones de documento no están disponibles mientras el documento se está moviendo. Una vez que el documento se ha movido a Experience Manager Assets, ya no estará visible en la lista de documentos de Workfront.
+Las opciones de documento no están disponibles mientras el documento se está moviendo. Una vez que el documento se ha movido a Experience Manager Assets, ya no estará visible en la lista de documentos de Workfront.
 
 >[!NOTE]
 >
 > Las acciones o ediciones que realice en el documento mientras se mueve no aparecerán en el documento en Experience Manager Assets y, por lo tanto, se perderán.
-</div>
+

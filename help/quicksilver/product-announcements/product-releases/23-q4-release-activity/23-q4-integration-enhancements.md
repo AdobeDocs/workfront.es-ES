@@ -4,9 +4,9 @@ description: Mejoras en la integración del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ Hemos realizado algunos cambios en la forma de enviar documentos a las carpetas 
 Para obtener más información, consulte [Vinculación de documentos con la nueva integración de SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Actualizaciones a arrastrar y soltar para integraciones de documentos
-
->[!NOTE]
->
->Esta función aún no se ha lanzado a los entornos de producción.
 
 Se han realizado algunas mejoras en la experiencia del usuario al arrastrar y soltar un archivo en una carpeta vinculada.
 

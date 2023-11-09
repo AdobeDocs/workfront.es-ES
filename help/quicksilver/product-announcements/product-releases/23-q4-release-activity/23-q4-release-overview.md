@@ -4,9 +4,9 @@ description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ El seminario web de la versión 23.10 fue el 5 de octubre de 2023. Puede [regís
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
