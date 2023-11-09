@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Visualización de contenido en una prueba
-description: 'Debe tener el siguiente acceso para realizar los pasos de este artículo: EDITARME.'
+description: Obtenga información sobre cómo ver contenido en una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -139,15 +139,15 @@ Puede ajustar el porcentaje de zoom al ver la prueba. Cuando se visualiza una pr
 
    * Haga clic en **Zoom** y luego haga clic en la prueba para verla en un nivel de zoom más alto, o arrastre por un área de la prueba para ver solo esa área.
 
-      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
    * Haga clic en el porcentaje de zoom actual y luego en un nuevo porcentaje de zoom o haga clic en **Ajustar a anchura**, **Ajustar a altura**, o **Ajustar a página**.
 
-      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Haga clic en **Plus** o **Menos** para aumentar o disminuir el porcentaje de zoom.
 
-      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Si necesita desplazarse a un área concreta de la prueba de vídeo, haga clic en el **Panorámica** y arrastre la prueba según sea necesario.
 

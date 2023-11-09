@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '"Mensaje de error al ejecutar un informe: "Actualmente no ha iniciado sesión".'
-description: 'Debe tener el siguiente acceso para realizar los pasos de este artículo: EDITAR.'
+title: '"Mensaje de error al ejecutar un informe: ''Actualmente no ha iniciado sesión''".'
+description: Obtenga información acerca del mensaje de error "Actualmente no ha iniciado sesión".
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 5%
 
 ---
 
-# Mensaje de error al ejecutar un informe: &quot;Actualmente no ha iniciado sesión.&quot;
+# Mensaje de error al ejecutar un informe: &quot;Actualmente no ha iniciado sesión&quot;.
 
 ## Requisitos de acceso
 
@@ -27,49 +27,49 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, Trabajar</p> </td> 
+   <td> <p>Planificar, Trabajo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Problema
 
-Al ejecutar un informe o mostrarlo en un tablero, se devuelve el siguiente error:\
+Al ejecutar un informe o mostrarlo en un panel, se devuelve el siguiente error:\
 *Intentémoslo de nuevo. Aún no ha iniciado sesión.*
 
 No se muestran resultados en el informe.
 
 ## Causa
 
-El informe está configurado para ejecutarse como usuario desactivado.
+El informe está configurado actualmente para ejecutarse como un usuario desactivado.
 
 ## Solución
 
 Debe tener permisos de administración en el informe para poder cambiar la configuración del informe.\
 Para ajustar el informe y ver los resultados:
 
-1. Vaya al informe .
-1. Haga clic en **Acciones de informe** > **Editar** > **Configuración de informes**.
+1. Vaya al informe.
+1. Clic **Acciones de informe** > **Editar** > **Configuración de informes**.
 
-1. Especifique el nombre de un usuario activo en la variable **Ejecute este informe con los derechos de acceso de:** campo .\
+1. Especifique el nombre de un usuario activo en la variable **Ejecutar este informe con los derechos de acceso de:** field.\
    O\
-   Deje el **Ejecute este informe con los derechos de acceso de:** campo en blanco.
+   Deje el **Ejecutar este informe con los derechos de acceso de:** en blanco.
 
-1. Haga clic en **Listo**.
+1. Clic **Listo**.
 1. Haga clic en **Guardar + Cerrar**.\
    El error no debería aparecer de nuevo al ejecutar este informe.

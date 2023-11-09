@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Vinculación de documentos desde aplicaciones externas
-description: 'Puede vincular documentos y carpetas a Adobe Workfront desde las siguientes fuentes: EDITARME.'
+description: Puede vincular documentos y carpetas a Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---

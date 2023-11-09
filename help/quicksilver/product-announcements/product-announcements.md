@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-announcements
 title: Anuncios de productos
-description: Obtenga información acerca de las próximas versiones de productos, nuestros programas beta actuales o los anuncios.
+description: Más información sobre los anuncios de productos.
 author: Luke
 feature: Product Announcements
 exl-id: 47325ca8-653b-47c9-b84e-e10f1a57cf6f
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 2%
+source-wordcount: '29'
+ht-degree: 3%
 
 ---
 

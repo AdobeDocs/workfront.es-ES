@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Vista: muestra objetos que no están incluidos en la interfaz estándar"
-description: 'Puede mostrar en una vista objetos que no están incluidos en la interfaz de modo estándar. Solo puede hacerlo haciendo referencia a ellos mediante el modo de texto. Puede determinar qué campos se pueden incluir en una vista de cualquiera de las siguientes maneras: EDITARME.'
+description: Puede mostrar en una vista objetos que no están incluidos en la interfaz de modo estándar. Solo puede hacerlo haciendo referencia a ellos mediante el modo de texto.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Puede mostrar en una vista objetos que no están incluidos en la interfaz de mod
 Puede determinar qué campos se pueden incluir en una vista de cualquiera de las siguientes maneras:
 
 * Utilice el [Explorador de API](../../../wf-api/general/api-explorer.md) para descubrir otros objetos a los que se puede hacer referencia mediante el modo de texto.\
-   No todos los campos documentados en el Explorador de API son campos válidos para el modo de texto. Algunos campos solo se pueden registrar a través de la API.
+  No todos los campos documentados en el Explorador de API son campos válidos para el modo de texto. Algunos campos solo se pueden registrar a través de la API.
 
 * Busque el campo ID del objeto en una columna. La mayoría de los objetos que tienen un ID de campo también tienen una columna o un nombre de campo correspondiente al que puede que no se pueda acceder mediante la interfaz de modo estándar.
 
-   Puede utilizar el modo de texto para incluir en una vista el nombre de la columna o del campo en lugar del ID reemplazando el `fieldnameID` con el `fieldname:name`.
+  Puede utilizar el modo de texto para incluir en una vista el nombre de la columna o del campo en lugar del ID reemplazando el `fieldnameID` con el `fieldname:name`.
 
-   Por ejemplo, en la interfaz de modo estándar, la variable **Identificador de propietario del Portfolio** está disponible para una vista de proyecto, pero el campo **Nombre del propietario del Portfolio** el campo no. Puede utilizar el modo de texto para mostrar el **Nombre del propietario del Portfolio** en la columna de una vista.
+  Por ejemplo, en la interfaz de modo estándar, la variable **Identificador de propietario del Portfolio** está disponible para una vista de proyecto, pero el campo **Nombre del propietario del Portfolio** el campo no. Puede utilizar el modo de texto para mostrar el **Nombre del propietario del Portfolio** en la columna de una vista.
 
 ## Requisitos de acceso
 

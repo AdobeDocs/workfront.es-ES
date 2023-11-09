@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Ver: mostrar la información del problema original en las listas de tareas y proyectos'
-description: Puede mostrar la siguiente información del problema original en una vista de listas de tareas y proyectos, después de que el problema se haya convertido en las tareas y proyectos de la lista - EDITAR ME.
+title: "Ver: mostrar la información original del problema en las listas de tareas y proyectos"
+description: Puede mostrar información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-# Ver: mostrar la información del problema original en las listas de tareas y proyectos
+# Ver: mostrar la información original del problema en las listas de tareas y proyectos
 
-Puede mostrar la siguiente información del problema original en una vista de listas de tareas y proyectos, después de que el problema se haya convertido en las tareas y proyectos de la lista:
+Puede mostrar la siguiente información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista:
 
 * Nombre de problema convertido
 * Fecha de entrada de problema convertido
 * Nombre del creador del problema convertido
 
-Para obtener información sobre la creación de una vista con el Creador de informes estándar, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener información sobre cómo crear una vista con Report Builder estándar, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Para obtener más información sobre cómo incluir información adicional sobre proyectos y listas de tareas, consulte también [Ver: detalles de la emisión originaria de tareas y proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Para obtener más información sobre cómo incluir información adicional de problemas en listas de proyectos y tareas, consulte [Ver: detalles del problema de origen para tareas y proyectos.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

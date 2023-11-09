@@ -1,93 +1,93 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Final
-description: Actualmente, la siguiente funcionalidad no está disponible en Preview o Beta, pero se está liberando al entorno de producción en R1 - EDIT ME.
+title: Final R1
+description: Actividad de la versión 2018.3
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# R1 Final
+# Final R1
 
-Actualmente, la siguiente funcionalidad no está disponible en Vista previa o Beta, pero se está liberando al entorno Producción en R1:
+Las siguientes funciones no están disponibles actualmente en versión preliminar o beta, pero se lanzarán al entorno de producción en R1:
 
-## Tome decisiones de aprobación para pruebas desde el área de trabajo (Workfront)
+## Tomar decisiones de aprobación para pruebas desde el área de Mi trabajo (Workfront)
 
-Ahora, cuando un usuario le agrega a una prueba y concede la función Aprobador o la función Revisor y Aprobador (ya sea desde la aplicación ProofHQ independiente o mediante Flujo de trabajo automatizado en Workfront ), la solicitud de aprobación se muestra en la pestaña Aprobaciones de su área de trabajo. A continuación, puede ver la prueba y tomar una decisión de aprobación sobre la prueba directamente desde Workfront.
+Ahora, cuando un usuario le agrega a una prueba y concede la función Aprobador o la función Revisor y aprobador (desde la aplicación independiente ProofHQ o mediante el uso del Flujo de trabajo automatizado en Workfront ), la solicitud de aprobación se muestra en la pestaña Aprobaciones del área Mi trabajo. A continuación, puede ver la prueba y tomar una decisión de aprobación directamente desde Workfront.
 
-Para obtener información sobre cómo agregar usuarios a una prueba mediante el flujo de trabajo automatizado, consulte [Compartir una prueba en Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) en [Compartir una prueba en Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Para obtener información sobre cómo añadir usuarios a una prueba mediante el flujo de trabajo automatizado, consulte [Compartir una revisión en Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Compartir una revisión en Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Para obtener información sobre cómo tomar decisiones de aprobación desde el área Mi trabajo, consulte [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) en [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Para obtener información sobre cómo tomar decisiones de aprobación desde el área Mi trabajo, consulte [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
-## Informe de aprobaciones de prueba dentro de Mi área de trabajo (Workfront)
+## Informe sobre aprobaciones de revisión dentro de mi área de trabajo (Workfront)
 
-Ahora puede crear un informe basado en el objeto Proof Approval. Este informe permite informar sobre las aprobaciones de prueba de las áreas de Mi trabajo de los usuarios en las que aún no se han tomado decisiones.
+Ahora puede crear un informe basado en el objeto Aprobación de pruebas. Este informe permite informar sobre las aprobaciones de prueba desde las áreas de Mi trabajo de los usuarios en las que aún no se han tomado decisiones.
 
-Los informes de aprobación de prueba contienen la siguiente información:
+Los informes de aprobación de pruebas contienen la siguiente información:
 
-* Documento presentado para su aprobación
+* Documento enviado para su aprobación
 * Nombre del aprobador
-* Versión de prueba
+* Versión de revisión
 * Identificador de revisión
-* Fecha de creación de la prueba
+* Fecha de creación de revisión
 
-Puede acceder a esta aprobación al crear un informe basado en un objeto, tal como se describe en [Crear un informe personalizado](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Puede acceder a esta aprobación cuando cree un informe basado en un objeto, como se describe en [Creación de un informe personalizado](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obtener más información sobre el informe de objeto Proof Approvals , consulte la [Explicación de los objetos en Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) en [Explicación de los objetos en Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener más información sobre el informe de objetos de aprobaciones de pruebas, consulte la [Explicación de los objetos en Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) sección en [Explicación de los objetos en Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Generar automáticamente una nueva versión de una prueba de documento mediante Arrastrar y soltar (Workfront)
+## Generar automáticamente una nueva versión de una revisión de documento arrastrando y soltando (Workfront)
 
-Cuando se utiliza el método de arrastrar y soltar para añadir una nueva versión de un documento que requiera pruebas, se genera automáticamente una prueba. La prueba tiene las mismas opciones y flujos de trabajo que la prueba original o la versión anterior.
+Al utilizar el método de arrastrar y soltar para agregar una nueva versión de un documento que requiera revisión, se genera una revisión automáticamente. La prueba tiene las mismas opciones y flujos de trabajo que la prueba original o la versión anterior.
 
-Anteriormente, al añadir una nueva versión del documento, la prueba no se generaba automáticamente en la nueva versión y tenía que volver a generar la prueba para la nueva versión.
+Anteriormente, cuando se agregaba una nueva versión del documento, la revisión no se generaba automáticamente en la nueva versión y había que volver a generar la revisión para la nueva versión.
 
-Cuando se utiliza el menú Más documentos para cargar una nueva versión, no se genera automáticamente una prueba.
+Cuando se utiliza el menú Documentos más para cargar una nueva versión, no se genera una prueba automáticamente.
 
-Para obtener más información, consulte la sección en
+Para obtener más información, consulte la sección de
 
-## Habilitar a todos los usuarios de prueba para acceder a ProofHQ directamente desde la interfaz de Workfront (Workfront)
+## Habilitar todos los usuarios de revisión para acceder a ProofHQ directamente desde la interfaz de Workfront (Workfront)
 
-Ahora puede permitir que todos los usuarios de pruebas de su sistema tengan acceso sin problemas a su cuenta de ProofHQ Premium directamente desde la interfaz de Workfront. Cuando está habilitado, todos los usuarios de pruebas ven un icono ProofHQ en la barra de navegación global que los dirige al sitio ProofHQ.
+Ahora puede permitir que todos los usuarios de revisión de su sistema tengan acceso sin problemas a su cuenta de ProofHQ Premium directamente desde la interfaz de Workfront. Cuando está habilitado, todos los usuarios de revisión ven un icono de ProofHQ en la barra de navegación global que los dirige al sitio de ProofHQ.
 
-Esta opción no está activada de forma predeterminada. Para habilitar esta opción, póngase en contacto con el servicio de asistencia técnica de Workfront y solicite este acceso para todos los usuarios de prueba del sistema.
+Esta opción no está habilitada de forma predeterminada. Para habilitar esta opción, póngase en contacto con el Soporte técnico de Workfront y solicite este acceso para todos los usuarios de revisión del sistema.
 
-Para obtener más información, consulte [Acceso a la prueba de Workfront desde Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) en  [Acceso a la prueba de Workfront desde Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Para obtener más información, consulte [Acceso a Workfront Proof desde Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Acceso a Workfront Proof desde Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-Antes de este cambio, solo el administrador de Workfront podía tener acceso directo al sitio de ProofHQ desde la interfaz de Workfront.
+Antes de este cambio, solamente el administrador de Workfront podía tener acceso directo al sitio de ProofHQ desde la interfaz de Workfront.
 
-## Nueva opción para TLS Secure Connection for Outgoing Mail (Workfront)
+## Nueva opción para la conexión segura de TLS para el correo saliente (Workfront)
 
 Al seleccionar administrar la comunicación de Workfront mediante su propio servidor de correo electrónico, ahora puede habilitar el correo saliente para que utilice una conexión segura TLS.
 
-Antes de esta mejora, solo podía habilitar Correo saliente a través de una conexión segura SSL.
+Antes de esta mejora, solo podía habilitar el correo saliente a través de una conexión segura SSL.
 
 Para obtener más información sobre la configuración del correo saliente, consulte .
 
-## Nuevo campo para administrar correos electrónicos en el entorno de espacio aislado de vista previa
+## Nuevo campo para administrar correos electrónicos en el entorno de vista previa de espacio aislado
 
-Workfront ahora deshabilita todas las comunicaciones por correo electrónico desde el entorno de espacio aislado de vista previa y el entorno de actualización personalizada. Si desea recibir notificaciones por correo electrónico de los entornos de espacio aislado de vista previa o de actualización personalizada, debe habilitar esta funcionalidad en la configuración de usuario.
+Workfront ahora deshabilita todas las comunicaciones por correo electrónico desde el entorno de vista previa de espacio aislado y el entorno de actualización personalizado. Si desea recibir notificaciones por correo electrónico desde los entornos Vista previa de espacio aislado o Actualización personalizada, debe habilitar esta funcionalidad en la configuración de usuario.
 
 Para obtener más información, consulte la siguiente información:
 
-* [Entorno de espacio aislado de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) en [Entorno de espacio aislado de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [Entorno de zona protegida de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Entorno de zona protegida de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Recibir correos electrónicos del Simulador para pruebas de actualización personalizado&quot; en [Entorno de espacio aislado de actualización personalizado de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* &quot;Recepción de correos electrónicos desde la zona protegida de actualización personalizada&quot; en [El entorno de espacio aislado de actualización personalizado de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Outlook para Office 365 (Workfront)
 
-El complemento de Workfront para Outlook 365 ya está disponible. 
+Ya está disponible el complemento de Workfront para Outlook 365. 
 
-Para obtener más información sobre el uso del complemento, consulte [Uso del complemento de Workfront con Outlook para Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
+Para obtener más información sobre el uso del complemento, consulte [Usar el complemento de Workfront con Outlook para Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
 
 ## Buscar en la aplicación móvil (Workfront)
 
-Ahora puede buscar objetos dentro de la aplicación móvil, de forma similar a como lo hace en la aplicación web. La nueva funcionalidad de búsqueda busca primero los elementos de la lista Elementos recientes , así como los objetos que se han descargado previamente en el dispositivo móvil. La lista de elementos recientes es la misma que se ve en la aplicación web.
+Ahora puede buscar objetos dentro de la aplicación móvil, de forma similar a como busca en la aplicación web. La nueva funcionalidad de búsqueda busca primero los elementos de la lista Elementos recientes, así como los objetos que se hayan descargado anteriormente en su dispositivo móvil. La lista de Elementos recientes es la misma lista que se ve en la aplicación web.
 
 >[!NOTE]
 >
@@ -97,55 +97,55 @@ Para obtener más información sobre la aplicación móvil, consulte la sección
 
 ## Ayuda mejorada en la aplicación móvil: Tutorials (Workfront)
 
-A partir de la versión móvil de abril, verá nuevas pantallas de tutoriales que le guiarán en su experiencia móvil. Cuando inicie sesión en la aplicación móvil por primera vez y utilice una función por primera vez, verá un breve tutorial en el que se explica cómo funciona la función. El tutorial se muestra solo una vez, la primera vez que utiliza una función específica.
+A partir del lanzamiento de la versión móvil en abril, verá nuevas pantallas de tutorial que le guiarán a través de su experiencia móvil. Cuando inicie sesión en la aplicación móvil por primera vez y utilice una función por primera vez, verá un breve tutorial que explica cómo funciona la función. El tutorial solo se muestra una vez, la primera vez que utilice una función específica.
 
 Para obtener más información sobre la aplicación móvil, consulte .
 
-## Búsqueda en documentos del PDF (ProofHQ)
+## Buscar en documentos de PDF (ProofHQ)
 
-Ahora puede realizar búsquedas dentro de documentos de PDF, documentos de oficina y páginas web estáticas.
+Ahora puede realizar búsquedas en documentos de PDF, documentos de Office y páginas web estáticas.
 
-Para obtener más información, consulte  [Buscar contenido dentro de una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Para obtener más información, consulte  [Búsqueda de contenido dentro de una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Barra de navegación global actualizada (ProofHQ)
 
-Las cuentas de ProofHQ Premium que están integradas con Workfront ahora ven las siguientes mejoras en la barra de navegación global dentro de ProofHQ:
+Las cuentas de ProofHQ Premium integradas con Workfront ahora ven las siguientes mejoras en la barra de navegación global dentro de ProofHQ:
 
 * Nueva imagen de perfil de usuario 
-* Aspecto actualizado
+* Aspecto y presentación actualizados
 
-## Incluir información adicional en vistas personalizadas (ProofHQ)
+## Incluir información adicional en las vistas personalizadas (ProofHQ)
 
 Ahora puede incluir la siguiente información adicional en las vistas personalizadas:
 
 * **Datos de nivel de destinatario**\
-   Puede configurar vistas personalizadas para incluir las siguientes columnas relacionadas con los datos de nivel de destinatario: Rol, Posición, Alertas de correo electrónico, Mi fecha límite, Fecha de incorporación a la prueba y Búsqueda de destinatarios.\
-   Para obtener más información, consulte [Crear y administrar vistas personalizadas en la prueba de Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Datos de prueba**\
-   Puede configurar vistas personalizadas para incluir las siguientes columnas relacionadas con la prueba de datos: Recuento de comentarios (todas las versiones), Tamaño en disco, Tipo de prueba, Número de archivos por versión, Datos de archivos adjuntos de comentarios (tamaño en disco, nombre de archivo) y Filtrado por subcarpeta.\
-   Para obtener más información, consulte [Crear y administrar vistas personalizadas en la prueba de Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Datos de nivel de fase relacionados con flujos de trabajo automatizados**\
-   Puede configurar vistas personalizadas para incluir las siguientes columnas relacionadas con etapas individuales de flujos de trabajo automatizados: Estado SOCD, Plazos de etapa, Nombre de etapa activo, Nombre de etapa siguiente, Nombre de escenario y Plantilla.\
-   Para obtener más información, consulte [Crear y administrar vistas personalizadas en la prueba de Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Puede configurar las vistas personalizadas para que incluyan las siguientes columnas relacionadas con los datos de nivel de destinatario: función, puesto, alertas de correo electrónico, mi fecha límite, fecha de adición a la prueba y búsqueda de destinatario.\
+  Para obtener más información, consulte [Crear y administrar vistas personalizadas en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Datos de corrección**\
+  Puede configurar las vistas personalizadas para que incluyan las siguientes columnas relacionadas con los datos de revisión: Recuento de comentarios (todas las versiones), Tamaño en disco, Tipo de prueba, Número de archivos por versión, Datos adjuntos del comentario (tamaño en disco, nombre de archivo) y Filtrado por subcarpeta.\
+  Para obtener más información, consulte [Crear y administrar vistas personalizadas en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Datos de nivel de etapa relacionados con flujos de trabajo automatizados**\
+  Puede configurar las vistas personalizadas para que incluyan las siguientes columnas relacionadas con las fases individuales de los flujos de trabajo automatizados: Estado de SOCD, Plazos de fase, Nombre de fase activo, Nombre de fase siguiente, Nombre de fase y Plantilla.\
+  Para obtener más información, consulte [Crear y administrar vistas personalizadas en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
-## Mejoras en los informes de prueba (anteriormente Analytics) (ProofHQ)
+## Mejoras en los informes de revisión (anteriormente Analytics) (ProofHQ)
 
-La función de informes (anteriormente denominada Analytics) contiene las siguientes mejoras:
+La función de creación de informes (anteriormente conocida como Analytics) incluye las siguientes mejoras:
 
 * Nuevos tipos de informes predeterminados:
 
-   * Tiempo de respuesta de la prueba
+   * Tiempo de respuesta de prueba
    * Porcentaje de aprobación tardía
    * Prueba de la primera actividad
    * Número de comentarios y respuestas
 
 * Imprimir informes
-* Aspecto actualizado
+* Aspecto y presentación actualizados
 
-## Ver funcionalidad de ProofHQ en el entorno de vista previa (ProofHQ)
+## Ver la funcionalidad de ProofHQ en el entorno de vista previa (ProofHQ)
 
-La funcionalidad incluida en ProofHQ estará disponible primero para su prueba en el entorno de vista previa antes de su lanzamiento en el entorno de producción.
+La funcionalidad que se lanza a ProofHQ primero estará disponible para probar en el entorno de vista previa antes de lanzarse al entorno de producción.
 
-Este nuevo flujo de trabajo de funcionalidad de lanzamiento a Vista previa antes de la producción le permitirá estar más preparado para futuras actualizaciones de su entorno ProofHQ Production.
+Este nuevo flujo de trabajo de lanzamiento de la funcionalidad a Previsualización antes de Producción le permitirá estar más preparado para futuras actualizaciones de su entorno de producción de ProofHQ.
 
-Para obtener más información sobre el entorno de vista previa de ProofHQ, consulte [Entorno de prueba de espacio aislado de vista previa: prueba de Workfront](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Para obtener más información sobre el entorno de vista previa de ProofHQ, consulte [Previsualizar entorno de prueba de zona protegida - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).

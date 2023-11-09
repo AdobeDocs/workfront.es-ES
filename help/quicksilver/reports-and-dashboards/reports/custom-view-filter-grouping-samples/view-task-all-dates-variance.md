@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Ver: tarea con todas las variaciones de fechas"
-description: 'Esta vista de tareas es similar a la vista "Todas las fechas" proporcionada con su cuenta de Adobe Workfront. Esta vista en particular incluye las columnas Varianza, que calculan la diferencia en días entre las fechas siguientes: EDITARME.'
+description: Esta vista de tareas es similar a la vista "Todas las fechas" proporcionada con su cuenta de Adobe Workfront. Esta vista en particular incluye las columnas Varianza, que calculan la diferencia en días entre fechas.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---

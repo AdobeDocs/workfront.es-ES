@@ -3,11 +3,11 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Vista: vista de proyecto de varias filas"
-description: 'En esta vista de proyecto puede: EDITARME.'
+description: Obtenga información acerca de la vista de proyecto de varias filas en los informes.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -19,21 +19,21 @@ ht-degree: 0%
 En esta vista de proyecto puede:
 
 * Muestra la información del proyecto en formato de varias filas.\
-   La vista utiliza el
+  La vista utiliza el
 
-   ```
-   sharecol=true
-   ```
+  ```
+  sharecol=true
+  ```
 
-   para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre esta etiqueta, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+  para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre esta etiqueta, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 * Utilice una columna de marcador de posición que contenga una etiqueta de salto de línea de HTML (
 
-   ```
-   <br>
-   ```
+  ```
+  <br>
+  ```
 
-   ) para forzar que la descripción se muestre debajo del nombre del proyecto, por ejemplo.
+  ) para forzar que la descripción se muestre debajo del nombre del proyecto, por ejemplo.
 * Muestre el propietario del proyecto entre paréntesis después del nombre del proyecto.
 * Muestre el nombre del proyecto como un vínculo al proyecto.
 
