@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -17,16 +17,16 @@ ht-degree: 6%
 
 # Crear y modificar niveles de acceso personalizados
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. Al trabajar con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que los usuarios conceden cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte
+Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. A medida que trabaja con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que conceden los usuarios cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte
 
-* [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Información general sobre nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Se recomienda dejar los niveles de acceso integrados sin cambios para poder consultarlos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. Puede hacerlo para todos los niveles de acceso excepto para el administrador del sistema y el usuario externo.
+>Le recomendamos encarecidamente que deje los niveles de acceso integrados sin cambios para que pueda hacer referencia a ellos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. Puede hacerlo para cada nivel de acceso, excepto para el administrador del sistema y el usuario externo.
 
 ## Requisitos de acceso
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>Plan actual: Estándar
    <p>o</p>
-   <p>Plan heredado: Plan</p></td> 
+   <p>Plan heredado: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -57,14 +57,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Niveles de acceso** en el panel izquierdo.
-1. Seleccione el nivel de acceso que desea copiar y personalizar y, a continuación, haga clic en **Copiar**.
+1. Clic **Niveles de acceso** en el panel izquierdo.
+1. Seleccione el nivel de acceso que desee copiar y personalizar y, a continuación, haga clic en **Copiar**.
 
    O
 
-   Si está editando un nivel de acceso existente (que ha copiado anteriormente), haga clic en su nombre.
+   Si está editando un nivel de acceso existente (que copió anteriormente), haga clic en su nombre.
 
-1. En el cuadro que aparece, realice una de las acciones siguientes para comenzar a configurar el nivel de acceso personalizado:
+1. En el cuadro que aparece, realice una de las siguientes acciones para comenzar a configurar el nivel de acceso personalizado:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -72,20 +72,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>Escriba un nombre para el nivel de acceso. </p> <p>Si acaba de copiar un nivel de acceso para crear uno nuevo, el nombre predeterminado es Nombre de nivel de acceso (copia), donde Nombre de nivel de acceso es el nivel de acceso que ha copiado.</p> <p><strong>Sugerencia</strong>: Se recomienda incluir el nombre original del nivel de acceso en el nombre de la copia. Por ejemplo, en la empresa ACME, una copia del nivel de acceso estándar podría llamarse ACME Standard.</p> </td> 
+      <td> <p>Escriba un nombre para el nivel de acceso. </p> <p>Si acaba de copiar un nivel de acceso para crear uno nuevo, el nombre predeterminado es Nombre del nivel de acceso (Copiar), donde Nombre del nivel de acceso es el nivel de acceso que ha copiado.</p> <p><strong>Sugerencia</strong>: Se recomienda incluir el nombre original del nivel de acceso en el nombre de la copia. Por ejemplo, en la compañía ACME, una copia del nivel de acceso Estándar podría llamarse ACME Estándar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción </td> 
-      <td>Escriba una descripción para el nivel de acceso. Es útil enumerar aquí a qué puede acceder un usuario con este nivel de acceso.</td> 
+      <td>Escriba una descripción para el nivel de acceso. Es útil enumerar aquí a qué podrá acceder un usuario con este nivel de acceso.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de licencia</td> 
-      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada con el tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Información general sobre nuevas licencias</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Información general sobre licencias</a>.</td> 
+      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada al tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Información general sobre nuevas licencias</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Resumen de licencias</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si **Estándar** o **Plan** se selecciona en la variable **Tipo de licencia** , desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para aquellos que tengan este nivel de acceso.
+1. (Condicional) Si **Standard** o **Plan** está seleccionado en la **Tipo de licencia** , desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para los que tendrán este nivel de acceso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,23 +93,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">Procesos de aprobación</td> 
-      <td>Cree y administre procesos de aprobación para utilizarlos en todo el sistema y para grupos específicos.<p>Sin este acceso, los usuarios solo pueden crear procesos de aprobación específicos en los elementos a los que tienen acceso para administrar.</p></td> 
+      <td>Cree y administre procesos de aprobación para su uso en todo el sistema y para grupos específicos.<p>Sin este acceso, los usuarios solo pueden crear procesos de aprobación ad hoc en los elementos que tienen acceso para administrar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Compañías</td> 
-      <td>Agregue nuevas empresas y edite las existentes en Workfront.<br><p>Sin este acceso, los usuarios solo pueden ver las empresas existentes.</p></td> 
+      <td>Añada empresas nuevas y edite las existentes en Workfront.<br><p>Sin este acceso, los usuarios solo pueden ver las empresas existentes.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Formularios personalizados</td> 
-      <td>Cree y administre todos los formularios personalizados dentro de su grupo. <br><p>Sin este acceso, los usuarios solo pueden adjuntar formularios existentes a los objetos a los que tienen acceso para contribuir o administrar.</p></td> 
+      <td>Cree y administre todos los formularios personalizados de su grupo. <br><p>Sin este acceso, los usuarios solo pueden adjuntar formularios existentes a los objetos a los que tienen acceso para contribuir o administrar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tasas de cambio</td> 
-      <td> <p>Añada nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario puede agregar una moneda existente solo a un proyecto que cree.</p> </td> 
+      <td> <p>Añada una nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario puede agregar una moneda existente solo a un proyecto que cree.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gastos</td> 
-      <td>Ver todos los gastos de los objetos en Workfront.<p>Sin este acceso, el usuario solo puede ver lo siguiente:</p>
+      <td>Vea todos los gastos en objetos en Workfront.<p>Sin este acceso, el usuario solo puede ver lo siguiente:</p>
        <ul>
         <li>Gastos en proyectos, tareas o problemas que administran</li>
         <li>Sus propios gastos</li>
@@ -120,16 +120,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td role="rowheader">Roles</td> 
       <td> <p>Con este acceso, el usuario puede hacer lo siguiente:</p> 
        <ul> 
-        <li>Ver y editar las funciones de trabajo existentes</li> 
-        <li>Añadir nuevas funciones de trabajo</li> 
-        <li>Editar facturación de funciones y tasas de coste</li> 
+        <li>Ver y editar los puestos de trabajo existentes</li> 
+        <li>Agregar nuevos roles</li> 
+        <li>Editar tarifas de facturación y de costo de rol</li> 
        </ul> 
-       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario estándar o planificador con acceso administrativo a funciones de trabajo, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuarios estándar o de planificación con acceso administrativo a funciones de trabajo</a>.</p>
+       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario de Standard o Planner con acceso administrativo a las funciones del puesto, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuarios estándar o planificadores con acceso administrativo a los roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hitos de mi grupo</td> 
-      <td>Vea todas las rutas de hitos del sistema en el menú Rutas de hitos (Milestone Paths) de Configuración. Los usuarios también pueden editar o eliminar cualquier ruta de hito que pertenezca a cualquiera de sus grupos. Los usuarios no pueden administrar (editar o eliminar) rutas de hitos que no estén asignadas a sus grupos.<p>Sin este acceso, los usuarios solo pueden ver las rutas de hitos existentes y aplicarlas a los proyectos a los que tengan acceso para administrarlos.</p></td> 
+      <td>Vea todas las rutas de hitos del sistema en el menú Rutas de hitos de Configuración. Los usuarios también pueden editar o eliminar cualquier ruta de hitos que pertenezca a cualquiera de sus grupos. Los usuarios no pueden administrar (editar o eliminar) las rutas de hitos que no están asignadas a su grupo de grupos.<p>Sin este acceso, los usuarios solo pueden ver las rutas de hitos existentes y aplicarlas a los proyectos a los que tienen acceso para administrar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notificaciones de recordatorio</td> 
@@ -137,22 +137,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Hojas de horas y horas</td> 
-      <td> <p>Los administradores de grupos pueden asignar perfiles de parte de horas a usuarios de los grupos y subgrupos que administran.</p> <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de parte de horas a otros usuarios de los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con una licencia de Standard o Plan pueden ver todas las horas y partes de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas en:</p> 
+      <td> <p>Los administradores de grupos pueden asignar perfiles de hojas de horas a los usuarios en los grupos y subgrupos que administran.</p> <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de hojas de horas a otros usuarios en los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con licencia estándar o de planificación pueden ver todas las horas y hojas de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas de:</p> 
        <ul> 
         <li>Proyectos, tareas o problemas que administran</li> 
-        <li>Su propio parte de horas</li> 
-        <li>Un parte de horas de alguien que les informa</li> 
-        <li>Un parte de horas que aprueban</li> 
+        <li>Su propia hoja de horas</li> 
+        <li>Hoja de horas de un subordinado</li> 
+        <li>Hoja de horas que aprueban</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Establecer restricciones adicionales**, establezca cualquiera de las siguientes restricciones para el nivel de acceso.
+1. Clic **Establecer restricciones adicionales**, y establezca cualquiera de las siguientes restricciones para el nivel de acceso.
 
    >[!IMPORTANT]
    >
-   >Para usuarios externos como proveedores (cualquier persona que no pertenezca a su organización), se recomienda restringir el acceso a tareas, proyectos, actualizaciones, anuncios, otras empresas, equipos y grupos.
+   >Para usuarios externos como proveedores (cualquier persona que no pertenezca a su organización), le recomendamos que restrinja el acceso a tareas, proyectos, actualizaciones, anuncios, otras empresas, equipos y grupos.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -160,15 +160,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nunca dar acceso a todo el proyecto al asignar una tarea o un problema</td> 
-      <td> Evita que los usuarios asignados a tareas o problemas también obtengan permisos para el proyecto principal, incluso si los permisos del proyecto lo permiten.<p>Para obtener más información sobre la configuración de los permisos de un proyecto, consulte la sección <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> en el artículo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.</p></td> 
+      <td> Evita que los usuarios asignados a tareas o problemas también obtengan permisos en el proyecto principal, aunque los permisos del proyecto lo permitan.<p>Para obtener más información sobre cómo configurar los permisos en un proyecto, consulte la sección <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> en el artículo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Nunca heredar el acceso a documentos de proyectos, tareas, problemas, etc.</td> 
-      <td>Evita que los documentos hereden los permisos establecidos en su objeto principal.</td> 
+      <td>Impide que los documentos hereden los permisos establecidos en su objeto principal.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente las actualizaciones en las cuales se les haya incluido en la conversación</td> 
-      <td> <p>Permite a los usuarios ver solo los comentarios en los que se ha incluido su nombre o el nombre de su equipo.</p> <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a elementos en Workfront. Para obtener más información sobre la suscripción a elementos, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Agregar usuarios</a>.</p> </p> </td> 
+      <td> <p>Permite a los usuarios ver solo comentarios donde se ha incluido su nombre o el nombre de su equipo.</p> <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a los elementos de Workfront. Para obtener más información sobre la suscripción a elementos, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adición de usuarios</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que los usuarios eliminen comentarios </td> 
@@ -176,40 +176,40 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente compañías, grupos y equipos a los que pertenecen</td> 
-      <td>Permite a los usuarios ver y compartir artículos únicamente con empresas, grupos y equipos a los que pertenecen.</td> 
+      <td>Permite a los usuarios ver y compartir elementos únicamente con compañías, grupos y equipos a los que pertenecen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir visibilidad de horas planificadas u horas reales</td> 
-      <td>Impide que los usuarios vean los elementos de horas de trabajo planeadas y reales a los que tienen acceso. Sin embargo, pueden ver las horas reales en las que se registran por sí mismos o las horas registradas por alguien que les informa.</td> 
+      <td>Impide que los usuarios vean las horas de trabajo planificadas y reales a las que tienen acceso. Sin embargo, pueden ver las horas reales que registran ellos mismos o las horas que registra alguien que depende de ellos.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que los usuarios eliminen anuncios</td> 
-      <td>Impide que los usuarios eliminen anuncios del Centro de anuncios. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Enviar anuncios</a>.</td> 
+      <td>Impide que los usuarios eliminen anuncios en el Centro de anuncios. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envío de anuncios</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional y opcional) Si el sistema de Workfront está configurado para usuarios que pertenecen a varias empresas, restrinja la visibilidad a otros usuarios en función de la empresa a la que pertenezcan en la sección **Las personas de otras empresas solo deben ver los usuarios de**.
+1. (Condicional y opcional) Si el sistema Workfront está configurado para usuarios que pertenecen a varias empresas, limite la visibilidad a otros usuarios en función de la empresa a la que pertenezcan en la sección **Las personas de otras empresas solo deben ver a los usuarios de**.
 
-   Puede restringir el acceso de los usuarios solo a los usuarios de su propia empresa o de la empresa que designó como empresa principal. Para obtener más información sobre la empresa principal, consulte [Crear y editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Puede restringir el acceso de los usuarios para que solo vean usuarios de su propia compañía o de la compañía que designó como compañía principal. Para obtener más información sobre la empresa principal, consulte [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
-   >Si dos usuarios pertenecen a dos empresas diferentes, pero ambas pueden ver usuarios de la empresa principal, pueden ver el área Actualizaciones asociada con la empresa principal.
+   >Si dos usuarios pertenecen a dos empresas diferentes, pero ambos pueden ver usuarios de la empresa principal, pueden ver el área de Actualizaciones asociada a la empresa principal.
 
-1. (Opcional) Para configurar las opciones de acceso de otros objetos y áreas del nivel de acceso en el que esté trabajando, continúe con uno de los artículos enumerados en [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Concesión de acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Concesión de acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas del nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Haga clic en **Guardar**.
 
-   Una vez creado el nivel de acceso, puede asignarlo a un usuario (a menos que sea un nivel de acceso del administrador del sistema).
+   Una vez creado el nivel de acceso, puede asignarlo a un usuario (a menos que sea un nivel de acceso de administrador del sistema).
 
    Para obtener más información, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
    Para obtener información sobre cómo un administrador de Adobe asigna un nivel de acceso de administrador del sistema a un usuario, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Usuarios estándar o de planificación con acceso administrativo a funciones de trabajo {#planner-users}
+## Usuarios estándar o planificadores con acceso administrativo a los roles {#planner-users}
 
-Si concede acceso administrativo de usuario de Standard o Planner a las funciones de trabajo, la configuración Editar tasas de costes y facturación de funciones se habilita automáticamente para el usuario.
+Si concede a un usuario estándar o planificador acceso administrativo a los roles de trabajo, la configuración Editar tarifas de facturación y de costo de rol se activa automáticamente para el usuario.
 
-Posteriormente, si deshabilita el acceso administrativo a las funciones de trabajo para el usuario, las funciones de trabajo seguirán estando visibles para el usuario porque la opción Editar tasas de costes y facturación de funciones sigue habilitada.
+Posteriormente, si desactiva el acceso administrativo a los roles para el usuario, los roles de trabajo seguirán siendo visibles para el usuario porque la opción Editar tarifas de facturación y de coste del rol seguirá activada.
 
-Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones de trabajo, debe desactivar la configuración de permiso Editar tasas de costes y facturación de funciones del usuario. Para obtener instrucciones, consulte [Concesión de acceso a datos financieros](grant-access-financial.md).
+Si esto sucede y necesita eliminar el acceso del usuario para ver los roles de trabajo, debe deshabilitar la configuración de permiso Editar tarifas de facturación y de costo de rol del usuario. Para obtener instrucciones, consulte [Concesión de acceso a los datos financieros](grant-access-financial.md).
