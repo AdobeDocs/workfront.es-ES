@@ -6,9 +6,9 @@ description: Las siguientes notificaciones le avisan sobre las actividades que s
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se ha encontrado un error que precisa mi atención</strong> </p> <p>El usuario que responde a un comentario por correo electrónico recibe una notificación por correo electrónico cuando no se puede enviar la respuesta.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL No se pudo procesar en] &lt;subject of="" original="" message=""&gt;</em></p> <p>Para obtener información sobre cómo usar el correo electrónico para responder a los comentarios, consulte .<strong></strong></p> </td> 
+   <td> <p><strong>Se ha encontrado un error que precisa mi atención</strong> </p> <p>El usuario que responde a un comentario por correo electrónico recibe una notificación por correo electrónico cuando no se puede enviar la respuesta.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL No se pudo procesar en] &lt;subject of="" original="" message=""&gt;</em></p> <p>Para obtener información sobre cómo utilizar el correo electrónico para responder a los comentarios, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">Responder a notificaciones por correo electrónico</a>.</p> </td>
    <td> </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
