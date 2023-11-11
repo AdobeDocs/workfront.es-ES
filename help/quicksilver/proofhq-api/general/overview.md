@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ La interfaz pública es compatible con SOAP 1.1 y con WSDL. Por lo tanto, todas
 
 ## Versiones de API
 
-A fin de preservar la compatibilidad con las integraciones de cliente existentes, hemos introducido el control de versiones de API desde nuestra versión 12.1. Consulte la  [Actualizaciones de API](http://api.proofhq.com/new-updates) para obtener más información. Si un método o parámetro no tiene información de versión, significa que lo encontrará como parte de nuestra API estándar, consulte la sección &quot;Introducción a la API&quot; a continuación.
+A fin de preservar la compatibilidad con las integraciones de cliente existentes, hemos introducido el control de versiones de API desde nuestra versión 12.1. Consulte la  [Actualizaciones de API](https://api.proofhq.com/new-updates.html) para obtener más información. Si un método o parámetro no tiene información de versión, significa que lo encontrará como parte de nuestra API estándar, consulte la sección &quot;Introducción a la API&quot; a continuación.
 
 ## Introducción a la API
 
@@ -54,6 +54,3 @@ Todas las solicitudes utilizan el siguiente formato de sobre, encabezado y cuerp
     </soapenv:Envelope>
 ```
 
-## Preguntas más frecuentes
-
-Si desea consultar una recopilación de las preguntas más frecuentes, visite [esta](http://api.proofhq.com/faqs) página.

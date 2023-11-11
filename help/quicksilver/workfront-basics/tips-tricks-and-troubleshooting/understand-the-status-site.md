@@ -4,10 +4,10 @@ description: Puede ver el estado de la [!DNL Workfront] la plataforma, incluidos
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Puede ver las actualizaciones de estado en [!DNL Adobe] Sitio de estado.
 
    O
 
-   Tipo [status.adobe.com](http://status.adobe.com/) en el explorador para acceder al sitio de estado.
+   Tipo [status.adobe.com](https://status.adobe.com/es/) en el explorador para acceder al sitio de estado.
 
 1. Seleccionar **[!UICONTROL Experience Cloud]**.
 1. Desplácese hacia abajo y seleccione **[!UICONTROL Adobe Workfront]** de la lista de soluciones.
@@ -41,7 +41,7 @@ Puede ver las actualizaciones de estado en [!DNL Adobe] Sitio de estado.
 
 Para suscribirse al sitio Estado o administrar su suscripción después de haberse suscrito:
 
-1. Ir a [status.adobe.com](http://status.adobe.com/).
+1. Ir a [status.adobe.com](https://status.adobe.com/es/).
 1. En la barra de estado, seleccione **[!UICONTROL Administrar suscripciones]**.
 1. Si ya tiene una cuenta, inicie sesión en ella; de lo contrario, cree una nueva.
 1. Haga clic en **[!UICONTROL Creación de suscripciones]** botón.

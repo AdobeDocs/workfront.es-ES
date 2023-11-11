@@ -9,7 +9,7 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -77,7 +77,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### [!DNL Custom API Call]
 
-Este módulo llama a cualquier módulo disponible [!DNL Quickbase] Punto final de API RESTful documentado en [developer.quickbase.com](http://developer.quickbase.com/).
+Este módulo llama a cualquier módulo disponible [!DNL Quickbase] Punto final de API RESTful documentado en [developer.quickbase.com](https://developer.quickbase.com/).
 
 <table style="table-layout:auto"> 
  <col> 

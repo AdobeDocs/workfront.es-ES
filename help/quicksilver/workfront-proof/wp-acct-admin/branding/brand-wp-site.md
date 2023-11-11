@@ -2,43 +2,43 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marca la variable [!DNL Workfront Proof] site
-description: Como [!DNL Workfront Proof] administrador, puede marcar su [!DNL Workfront Proof] para que usted y sus usuarios tengan una experiencia más personalizada.
+title: Marque el [!DNL Workfront Proof] sitio
+description: As a [!DNL Workfront Proof] administrador, puede asignar una marca a su [!DNL Workfront Proof] para ofrecerle a usted y a sus usuarios una experiencia más personalizada.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
 
 ---
 
-# Marca la variable [!DNL Workfront Proof] site
+# Marque el [!DNL Workfront Proof] sitio
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront] Prueba. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront] Prueba. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Como [!DNL Workfront Proof] administrador, puede marcar su [!DNL Workfront Proof] para que usted y sus usuarios tengan una experiencia más personalizada.
+As a [!DNL Workfront Proof] administrador, puede asignar una marca a su [!DNL Workfront Proof] para ofrecerle a usted y a sus usuarios una experiencia más personalizada.
 
-La marca de cuenta básica está disponible en todos los planes sin coste adicional.
+La marca básica de la cuenta está disponible en todos los planes sin costo adicional.
 
-Para obtener información sobre la promoción avanzada de la marca, que incluye la promoción de la marca en el encabezado, la barra de menús, el tablero y mucho más, consulte [Marca la variable [!DNL Workfront Proof] sitio: avanzado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). La promoción avanzada de la marca solo está disponible en los planes Select y Premium
+Para obtener información sobre la personalización avanzada de marca, que incluye la personalización de marca en el encabezado, la barra de menús, el panel y mucho más, consulte [Marque el [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). La promoción de marca avanzada solo está disponible en los planes Select y Premium
 
-Consulte las secciones siguientes para obtener información sobre cómo aplicar marca a varios aspectos de la variable [!DNL Workfront] Sitio de prueba:
+Consulte las secciones siguientes para obtener información sobre cómo aplicar marca a varios aspectos de la [!DNL Workfront] Sitio de prueba:
 
-## Activación de la marca en la variable [!DNL Workfront Proof] Página de inicio de sesión
+## Activación de la marca en [!DNL Workfront Proof] Página de inicio
 
-Para habilitar la marca en la cuenta:
+Para habilitar la promoción de la marca en su cuenta:
 
 1. Iniciar sesión en [!DNL Workfront Proof] como el [!DNL Workfront Proof] administrador.
-1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la esquina superior derecha del [!DNL Workfront Proof] interfaz.
+1. Clic **[!UICONTROL Configuración de cuenta]** en la esquina superior derecha de la [!DNL Workfront Proof] interfaz.
 
    Para obtener más información sobre las distintas configuraciones de cuenta que puede configurar, consulte [Configuración de la cuenta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Haga clic en el **[!UICONTROL Configuración]** pestaña .
-1. En el **[!UICONTROL Marcas]** , haga clic en **[!UICONTROL Habilitar]**. (1)
+1. Haga clic en **[!UICONTROL Configuración]** pestaña.
+1. En el **[!UICONTROL Marca]** , haga clic en **[!UICONTROL Activar]**. (1)
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
@@ -46,70 +46,70 @@ Para habilitar la marca en la cuenta:
 
    >[!NOTE]
    >
-   >La imagen de marca no aparece en la página de inicio de sesión si accede a través del [!DNL Workfront] Probar la dirección URL de inicio de sesión. Por ejemplo, `https://www.proofhq.com/login`. Solo se muestra si accede a la página de inicio de sesión a través de su subdominio personalizado o su dominio con marca completa. Para acceder a su página de inicio de sesión personalizada, simplemente escriba la dirección URL de su cuenta en el explorador. Por ejemplo, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
+   >La imagen de marca no aparece en la página de inicio de sesión si accede a a través del [!DNL Workfront] URL de inicio de sesión de revisión. Por ejemplo, `https://www.proofhq.com/login`. Solo se muestra si accede a la página de inicio de sesión a través de su subdominio personalizado o su dominio de marca completa. Para acceder a su página de inicio de sesión personalizada, simplemente escriba la URL de su cuenta en el navegador. Por ejemplo, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
 
    ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 
-## Habilitar la personalización en pruebas
+## Activación de la marca en pruebas
 
-Para agregar su propia imagen de marca al [!UICONTROL carga de prueba] de cada prueba creada en su cuenta:
+Para agregar su propia imagen de marca a [!UICONTROL carga prueba] página de cada revisión creada en su cuenta:
 
 1. Iniciar sesión en [!DNL Workfront Proof] como el [!DNL Workfront Proof] administrador.
-1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la esquina superior derecha del [!DNL Workfront Proof] interfaz.
+1. Clic **[!UICONTROL Configuración de cuenta]** en la esquina superior derecha de la [!DNL Workfront Proof] interfaz.
 
    Para obtener más información sobre las distintas configuraciones de cuenta que puede configurar, consulte [Configuración de la cuenta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Haga clic en el **[!UICONTROL Configuración]** pestaña .
-1. En el **[!UICONTROL Marcas]** , haga clic en **[!UICONTROL Configuración]** junto a **[!UICONTROL Promoción de marca de prueba]**. (1)
+1. Haga clic en **[!UICONTROL Configuración]** pestaña.
+1. En el **[!UICONTROL Marca]** , haga clic en **[!UICONTROL Configurar]** junto a **[!UICONTROL Marca de prueba]**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. En el menú desplegable , seleccione **[!UICONTROL Imagen de marca]**.
-Si selecciona **[!UICONTROL Deshabilitar]**, el [!DNL Workfront Proof] aparece en la página de carga de pruebas
+1. En el menú desplegable, seleccione **[!UICONTROL Imagen de marca]**.
+Si selecciona **[!UICONTROL Deshabilitar]**, el [!DNL Workfront Proof] El logotipo de aparece en la página de carga de pruebas
 
 1. Haga clic en **[!UICONTROL Guardar]**. (3)
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 
-1. Haga clic en **[!UICONTROL Editar]** para seleccionar la imagen de marca (4).
+1. Clic **[!UICONTROL Editar]** para seleccionar la imagen de marca (4).
 
-   Puede utilizar JPG, GIF o PNG. Se admite la transparencia. El tamaño de imagen recomendado es de 150 x 300 píxeles. Se cambiará el tamaño de la imagen de las páginas de inicio y cierre de sesión a estas dimensiones.
+   Puede utilizar JPG, GIF o archivos PNG. Se admite la transparencia. El tamaño de imagen recomendado es de 150 x 300 px. Se cambiará el tamaño de la imagen en las páginas de inicio y cierre de sesión a estas dimensiones.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 
 1. Seleccione la imagen que desee cargar. (5)
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   La imagen de marca ahora se muestra en la página de carga de prueba de cada prueba creada en la cuenta.
+   La imagen de marca ahora se muestra en la página de carga de pruebas de todas las pruebas creadas en su cuenta.
 
    ![Proof_loading_page_setup_4.png](assets/proof-loading-page-setup-4-350x97.png)
 
-## Personalizar la marca de notificaciones por correo electrónico
+## Notificaciones de correo electrónico de marca
 
-Puede configurar la imagen de marca para que se incluya en las notificaciones de correo electrónico enviadas a los revisores. Se cambia el tamaño de esta imagen al tamaño máximo de 90x550px.
+Puede configurar la imagen de marca para que se incluya en las notificaciones por correo electrónico enviadas a los revisores. Se ha cambiado el tamaño de esta imagen al tamaño máximo de 90 x 550 px.
 
-Para configurar la marca de correo electrónico:
+Para configurar la personalización de marca del correo electrónico:
 
 1. Iniciar sesión en [!DNL Workfront Proof] como el [!DNL Workfront Proof] administrador.
-1. Haga clic en **[!UICONTROL Configuración de la cuenta]** en la esquina superior derecha del [!DNL Workfront Proof] interfaz.
+1. Clic **[!UICONTROL Configuración de cuenta]** en la esquina superior derecha de la [!DNL Workfront Proof] interfaz.
 
    Para obtener más información sobre las distintas configuraciones de cuenta que puede configurar, consulte [Configuración de la cuenta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Haga clic en el **[!UICONTROL Configuración]** pestaña .
-1. En el **[!UICONTROL Marcas]** , haga clic en **[!UICONTROL Editar]** junto a la imagen de la aplicación Email (1).
+1. Haga clic en **[!UICONTROL Configuración]** pestaña.
+1. En el **[!UICONTROL Marca]** , haga clic en **[!UICONTROL Editar]** junto a la imagen Aplicación de correo electrónico (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Seleccione la imagen que desee utilizar para personalizar la marca de los correos electrónicos. (2)
 
-   Si ya ha configurado una marca de correo electrónico y desea deshabilitarla, haga clic en **[!UICONTROL Borrar]**. (4)
+   Si ya tiene una marca de correo electrónico configurada y desea deshabilitarla, haga clic en **[!UICONTROL Borrar]**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   La imagen aparece ahora en todos los correos electrónicos de notificaciones de prueba. (3)
+   La imagen ahora aparece en todos los correos electrónicos de notificaciones de prueba. (3)
 
-   ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
+   ![Branding_email_notification.png](assets/branding---email-notification-350x195.png)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Sub-Domains</h2>
@@ -131,8 +131,8 @@ Para configurar la marca de correo electrónico:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on how to set up a branded sub-domain, see <a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md" class="MCXref xref">Configure a branded domain in Workfront Proof</a></p>
 -->
 
-## Eliminación de botones y vínculos mediante la API
+## Supresión de botones y vínculos mediante la API
 
-Si crea una prueba a través de la variable [!DNL Workfront Proof] API, puede suprimir botones y vínculos y crear sus propios vínculos personalizados.
+Si crea una prueba mediante la variable [!DNL Workfront Proof] API, puede suprimir botones y vínculos y crear sus propios vínculos personalizados.
 
-Consulte [[!DNL Workfront Proof] API](http://api.proofhq.com/) para obtener más información.
+Consulte [[!DNL Workfront Proof] API](https://api.proofhq.com/) para obtener más información.

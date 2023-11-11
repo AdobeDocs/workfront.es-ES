@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problemas de velocidad en [!DNL Workfront Proof]
-description: Esta página de ayuda puede ayudarle a determinar si existen problemas de velocidad que pueda tener al usar [!DNL Workfront Proof] están relacionados con su ISP o [!DNL Workfront Proof]de la red de entrega de contenido de .
+description: Esta página de ayuda puede ayudarle a determinar si hay algún problema de velocidad que pueda estar experimentando al utilizar [!DNL Workfront Proof] están relacionados con su ISP o [!DNL Workfront Proof]La red de distribución de contenido de.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -19,71 +19,63 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Esta página de ayuda puede ayudarle a determinar si existen problemas de velocidad que pueda tener al usar [!DNL Workfront Proof] están relacionados con su ISP o [!DNL Workfront Proof]de la red de entrega de contenido de .
+Esta página de ayuda puede ayudarle a determinar si hay algún problema de velocidad que pueda estar experimentando al utilizar [!DNL Workfront Proof] están relacionados con su ISP o [!DNL Workfront Proof]La red de distribución de contenido de.
 
-Los problemas de velocidad se deben generalmente a la conexión ISP local o a la configuración de acceso a Internet local (por ejemplo, cuando se utiliza un servidor proxy), por lo que lamentablemente están fuera del control de [!DNL Workfront Proof].
+Los problemas de velocidad generalmente se deben a la conexión del ISP local o a la configuración del acceso local a Internet (por ejemplo, cuando se utiliza un servidor proxy), por lo que lamentablemente están fuera del control de [!DNL Workfront Proof].
 
-Dicho esto, puede seguir algunos pasos para comprobar la velocidad de conexión, lo que permitirá determinar la causa raíz de los problemas que experimenta. Todos estos pasos son igualmente importantes para el proceso de resolución de problemas y le recomendamos que dedique tiempo a recopilar información sobre todos los pasos indicados para garantizar el diagnóstico más preciso del problema.
+Dicho esto, hay algunos pasos que puede seguir para comprobar la velocidad de conexión, lo que permitirá determinar la causa raíz de los problemas que está experimentando. Todos estos pasos son igualmente importantes para el proceso de resolución de problemas y le recomendamos que se tome el tiempo de recopilar información sobre todos los pasos enumerados para garantizar el diagnóstico más preciso del problema.
 
-Una vez recopilados todos los detalles, le recomendamos que consulte con su departamento de TI local para identificar cualquier problema local. Si necesita más ayuda en el asunto, póngase en contacto con nuestro [Equipo de asistencia](https://support.workfront.com/hc/en-us/requests/new).
+Una vez que recopile todos los detalles, le recomendamos que consulte con su departamento de TI local para identificar cualquier problema local.
 
 ## Establecer qué parte del sistema es lenta
 
-Cuando utilice [!DNL Workfront Proof], es posible que esté trabajando con el panel de control, por ejemplo, para administrar el contenido de las carpetas y los usuarios o con el [!DNL Workfront Proof] Visor: realizar una revisión de la prueba, comprobar los comentarios ya realizados, etc.
+Cuando se usa [!DNL Workfront Proof], podría estar trabajando con el Tablero, por ejemplo, administrando el contenido de la carpeta y los usuarios, o con el [!DNL Workfront Proof] Visualizador: realización de una revisión de prueba, comprobación de los comentarios ya realizados, etc.
 
-Determinar qué parte exacta del sistema es lenta es el primer paso para solucionar problemas de velocidad. Al realizar el informe [!DNL Workfront Proof] siendo lento, asegúrese de describir lo siguiente:
+Determinar qué parte exacta del sistema es lenta es el primer paso para solucionar los problemas de velocidad. Cuando se informa [!DNL Workfront Proof] siendo lento, asegúrese de describir lo siguiente:
 
-* ¿Está experimentando lentitud en otras páginas web?
-* ¿Se produce el problema en el panel de control o [!DNL Workfront Proof] ¿Visualizador?
-* ¿Qué parte exacta del sistema es lenta? (p. ej., procesar una nueva prueba o abrir un comentario en [!DNL Workfront Proof] Visor)
+* ¿Está experimentando lentitud en alguna otra página web?
+* ¿Se produce el problema en el panel de control o en [!DNL Workfront Proof] ¿Visor?
+* ¿Qué parte exacta del sistema es lenta? (por ejemplo, procesar una nueva prueba o abrir un comentario en [!DNL Workfront Proof] Viewer)
 
-## Ejecute pruebas de traceroute y ping
+## Ejecutar pruebas de traceroute y ping
 
-Cuando experimenta problemas de rendimiento, es importante ejecutar el comando traceroute para verificar la conexión. Para ello, abra el símbolo del sistema en su sistema (terminal en Mac/Linux) y realice los siguientes pasos:
+Cuando tenga problemas de rendimiento, es importante ejecutar el comando traceroute para comprobar la conexión. Para ello, abra el Símbolo del sistema en su sistema (Terminal en Mac/Linux) y realice los siguientes pasos:
 
-1. Escriba una de las siguientes opciones y luego espere a que se complete la extracción:
+1. Escriba una de las siguientes opciones y espere a que se complete el tracerout:
 
    * Windows: **tracert app.proofhq.com**
    * Mac/Linux: **traceroute app.proofhq.com**
 
-1. Tipo (solo Windows) **ping app.proofhq.com**.
-1. Cuando finalice el ping, haga clic con el botón derecho en el símbolo del sistema y seleccione Todo.
+1. (Solo Windows) Tipo **ping app.proofhq.com**.
+1. Cuando finalice el ping, haga clic con el botón secundario en el símbolo del sistema y seleccione Todo.
 1. Copie y pegue los resultados en la respuesta a su correo electrónico.
-Asegúrese de permitir que el ping y el traceroute terminen antes de enviar los resultados al equipo de asistencia.
+Asegúrese de permitir que traceroute y ping finalicen antes de enviar los resultados al equipo de asistencia.
 
-## Probar la velocidad de conexión con Speedtest.net
+## Prueba de la velocidad de conexión mediante Speedtest.net
 
-1. Haga clic en [here](http://www.speedtest.net/) para acceder a Speedtest.net.
-1. Siga las instrucciones de la base de conocimientos de la prueba de velocidad para probar la velocidad de su conexión a Internet.
-1. Copie y pegue los resultados en un correo electrónico de nuestro equipo de asistencia.
+1. Abra un explorador y vaya a Speedtest.net.
+1. Siga las instrucciones de la base de conocimiento de Speedtest para probar la velocidad de su conexión a Internet.
+1. Copie y pegue los resultados en un correo electrónico con nuestro Equipo de soporte.
 
-## Compruebe la pestaña red en la consola del explorador
+## Compruebe la pestaña de red en la consola del explorador
 
-La consola web disponible en los navegadores modernos recopila información útil sobre cualquier latencia de red, lo que nos ayudará a determinar la causa raíz de los problemas de velocidad que experimenta.
+La consola web disponible en los navegadores modernos recopila información útil sobre cualquier latencia de red, lo que nos resultará útil para determinar la causa raíz de los problemas de velocidad que está experimentando.
 
 Para comprobar los tiempos de carga de una página web:
 
-1. Abra la consola del explorador y la pestaña Red .
+1. Abra la consola del explorador y la pestaña Red (Network).
 1. Vuelva a cargar la página.
-1. Tome capturas de pantalla o registre una proyección de los resultados.
+1. Tome capturas de pantalla o grabe una proyección de los resultados.
 1. Comparta los resultados con el equipo de asistencia.
 
-Asegúrese de que la captura de pantalla muestre todos los datos. Puede expandir la ventana de la consola al tomar una captura de pantalla o desplazarse hacia abajo en un guión.
+Asegúrese de que la captura de pantalla muestre todos los datos; puede expandir la ventana de la consola al realizar una captura de pantalla o desplazarse hacia abajo en una proyección.
 
-Si no sabe cómo abrir la consola en el explorador, consulte estos pasos registrados:
+También puede consultar la documentación del explorador para obtener instrucciones más detalladas.
 
-* [Chrome](http://screencast.com/t/AgQU6JQQ)
-* [Safari](http://screencast.com/t/f31GqQYm0w)
-* [Firefox](http://screencast.com/t/Xg7SscmAi)
-* [Edge](http://www.screencast.com/t/epSwBiaD)
-* [Internet Explorer](http://screencast.com/t/x5Q3eHczbc)
+## Compruebe la conexión en una red y un equipo diferentes
 
-También puede consultar la documentación de su navegador para obtener instrucciones más detalladas.
+Comprobar si experimenta el mismo problema con la velocidad de conexión mediante un dispositivo o una red diferentes es un paso crucial en el proceso de resolución de problemas. Intente cambiar a otro equipo o dispositivo móvil, así como intentar utilizar una red alternativa (por ejemplo, datos móviles).
 
-## Comprobar la conexión en una red y equipo diferentes
-
-La comprobación de si experimenta el mismo problema con la velocidad de conexión mediante un dispositivo o red diferentes es un paso crucial en el proceso de resolución de problemas. Intente cambiar a otro equipo o dispositivo móvil, e intente utilizar una red alternativa (por ejemplo, datos móviles).
-
-Compare la conexión en diferentes combinaciones: usando un equipo diferente en la misma red, usando el mismo equipo en una red diferente y usando la máquina alternativa y la red, y luego compartir los resultados con el equipo de soporte.
+Compare la conexión en diferentes combinaciones: usando un equipo diferente en la misma red, usando el mismo equipo en una red diferente y usando tanto un equipo alternativo como una red, y luego comparta los resultados con el Equipo de soporte.

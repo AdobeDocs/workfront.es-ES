@@ -9,7 +9,7 @@ description: Puede utilizar el módulo SOAP para conectarse a las API de SOAP en
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -68,7 +68,7 @@ El [!UICONTROL JABÓN] El módulo está actualmente en fase beta y no admite:
 * Total de restricciones de dígitos
 * Restricciones de espacio en blanco
 * Varias partes en los mensajes de entrada y salida. Solo se admiten mensajes de una sola parte
-* Elementos de esquema XML personalizados definidos con la ayuda de [[!UICONTROL JABÓN] Codificación](http://schemas.xmlsoap.org) esquemas y elementos.
+* Elementos de esquema XML personalizados definidos con la ayuda de [[!UICONTROL JABÓN] Codificación](https://schemas.xmlsoap.org) esquemas y elementos.
 
 >[!INFO]
 >
