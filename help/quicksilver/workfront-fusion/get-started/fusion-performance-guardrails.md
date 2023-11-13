@@ -1,17 +1,17 @@
 ---
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: escenario,rendimiento
+keywords: escenario, rendimiento
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Protecciones de rendimiento de Adobe Workfront Fusion
-description: Adobe Workfront Fusion requiere una licencia de Adobe Workfront Fusion además de una licencia de Adobe Workfront.
+description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 0%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront license].
 
-La automatización de trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para ofrecer un alto rendimiento. Como los escenarios de larga duración pueden ralentizar el ritmo de su trabajo, hemos diseñado [!DNL Workfront Fusion] con protecciones que preservan el rendimiento y que limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. [!DNL Workfront Fusion] los diseñadores deben conocer estas barreras e incorporarlas en sus prácticas de diseño.
+La automatización del trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para un alto rendimiento. Hemos diseñado escenarios de larga duración que pueden ralentizar el ritmo de su trabajo [!DNL Workfront Fusion] con protecciones que preservan el rendimiento y limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. [!DNL Workfront Fusion] los diseñadores deben tener en cuenta estas barreras e incorporarlas en sus prácticas de diseño.
 
 ## Escenarios
 
 * El tiempo de espera de ejecución del escenario predeterminado es **40 minutos**. Cuando la ejecución alcanza este tiempo de espera, [!DNL Workfront Fusion] interrumpe la ejecución del escenario después del siguiente ciclo u operación, según el escenario. Esto obliga al escenario a detenerse poco después de alcanzar el límite de 40 minutos
-* El tamaño máximo de un modelo de escenario es **5 MB**, pero se recomienda mantener el tamaño del escenario en **3 MB**.
+* El tamaño máximo de un modelo de escenario es **5 MB**, pero recomendamos mantener el tamaño del escenario bajo **3 MB**.
 
-   Los módulos de aplicaciones que crean o actualizan datos con un gran número de campos pueden causar modelos muy grandes.
+  Los módulos de aplicaciones que crean o actualizan datos con una gran cantidad de campos pueden causar modelos muy grandes.
 
-   * Al usar la variable [!DNL Workfront] , asegúrese de seleccionar solo los campos necesarios para los casos de uso de creación o actualización.
+   * Al usar el [!DNL Workfront] , asegúrese de seleccionar solo los campos necesarios para los casos de uso de creación o actualización.
    * Cuando utilice otras aplicaciones, utilice módulos de API personalizados para interactuar con cualquier tipo de registro que tenga un gran número de campos.
 
-* Aunque no hay límite para el número de módulos en un escenario, los escenarios con más de 150 módulos afectan negativamente al rendimiento de su [!DNL Workfront Fusion] sistema. Por este motivo, no se recomienda crear escenarios con más de 150 módulos.
+* Aunque no hay un límite en el número de módulos en un escenario, los escenarios con más de 150 módulos afectan negativamente al rendimiento del [!DNL Workfront Fusion] sistema. Por este motivo, no se recomienda crear escenarios con más de 150 módulos.
 
 ## Operaciones
 
-* El tiempo de espera predeterminado de la operación suele ser **40 segundos**.
+* El tiempo de espera de operación predeterminado suele ser **40 segundos**.
 
 <!--
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
@@ -45,22 +45,27 @@ La automatización de trabajo requiere un procesamiento rápido, por lo que [!DN
 
 ## Archivos
 
-* La capacidad total de procesamiento de archivos de Fusion es **1 GB**. El límite se basa en un coste total de memoria. Cada operación contribuye a ese costo. Si se descarga y carga un solo archivo de 400 MB, el costo total para la capacidad del archivo sería de 800 MB.
+* La capacidad total de procesamiento de archivos de Fusion es **1 GB**. El límite se basa en el coste total de la memoria. Cada operación contribuye a ese coste. Si se descarga y carga un solo archivo de 400 MB, el coste total de la capacidad del archivo sería de 800 MB.
 
 ## Uso de memoria del servidor
 
-* El uso de memoria del servidor para una sola ejecución se limita a **1 GB**.
+* El uso de memoria del servidor para una sola ejecución está limitado a **1 GB**.
 
-   Muchos factores, como archivos grandes o módulos complejos, pueden afectar al uso de la memoria del servidor de maneras que son difíciles de predecir o controlar. Debido a esto, la ejecución del escenario puede superar el límite de 1 GB de memoria, incluso si el escenario sigue todas las demás protecciones de rendimiento. Si se supera el límite de memoria, se produce un error en la ejecución.
+  Muchos factores, como los archivos grandes o los módulos complejos, pueden afectar al uso de la memoria del servidor de formas difíciles de predecir o controlar. Debido a esto, la ejecución del escenario puede superar el límite de memoria de 1 GB, incluso si el escenario sigue todas las demás protecciones de rendimiento. Si se supera el límite de memoria, la ejecución falla.
 
-## Enlaces web
+## Webhooks
 
 * El tamaño máximo predeterminado de una carga útil es **5 MB**.
-* Los Webhooks están limitados a **100 solicitudes por segundo**. Cuando se alcanza este límite, Workfront Fusion envía un error 429 ([!UICONTROL Demasiadas solicitudes]).
-* [!DNL Workfront Fusion] almacena cargas útiles de weblock durante 30 días. El acceso a una carga útil de weblock más de 30 días después de su recepción da como resultado el error &quot;[!UICONTROL No se pudo leer el archivo desde el almacenamiento.]&quot;
-* Los Webhooks se desactivan automáticamente si se aplica cualquiera de las siguientes opciones:
+* Los webhooks están limitados a **100 solicitudes por segundo**. Cuando se alcanza este límite, Workfront Fusion envía un 429 ([!UICONTROL Demasiadas solicitudes]) estado.
+* [!DNL Workfront Fusion] almacena cargas útiles de webhook durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de recibirla provoca el error &quot;[!UICONTROL Error al leer el archivo desde el almacenamiento.]&quot;
+* Los webhooks se desactivan automáticamente si se aplica cualquiera de las siguientes opciones:
 
-   * El enlace web no ha estado conectado a ningún escenario durante más de 5 días
-   * El enlace web solo se utiliza en escenarios inactivos, que han estado inactivos durante más de 30 días.
+   * El webhook no ha estado conectado a ningún escenario durante más de 5 días
+   * El webhook solo se utiliza en escenarios inactivos, que han estado inactivos durante más de 30 días.
 
-* Los enlaces web desactivados se eliminan y no se registran automáticamente si no están conectados a ningún escenario y han estado en estado desactivado durante más de 30 días.
+* Los webhooks desactivados se borran y no se registran automáticamente si no están conectados a ningún escenario y han estado en estado desactivado durante más de 30 días.
+
+## Historial de ejecución
+
+* Los registros de historial de ejecución están limitados a un tamaño de **100 MB**. Si el historial de ejecución supera este tamaño, solo se mostrarán los primeros 100 MB.
+
