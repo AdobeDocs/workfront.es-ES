@@ -8,20 +8,26 @@ description: Adobe Workfront Fusion ofrece dos licencias diferentes que determin
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-# Heredado [!DNL Adobe Workfront Fusion] licencias
+# [!DNL Adobe Workfront Fusion] licencias
+
+[!DNL Workfront Fusion] tiene dos modelos de licencias, un nuevo modelo basado en operaciones y un modelo basado en conectores heredados.
+
+## Modelo de licencia basado en operaciones (Nuevo)
+
+El nuevo [!DNL Workfront Fusion] el modelo de licencias se basa en el número de operaciones que utiliza su organización. En este modelo, todas las organizaciones tienen acceso a la misma funcionalidad.
+
+Para obtener información sobre lo que cuenta como una operación en el nuevo modelo de licencia, consulte [Operaciones en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## Modelo de licencia basado en conectores (heredado)
 
 En el [!DNL Adobe Workfront Fusion] modelo de licencia heredado, [!DNL Fusion] ofrece dos licencias diferentes que determinan la funcionalidad a la que puede acceder. Su organización eligió una de estas licencias cuando realizó la compra [!DNL Workfront Fusion].
-
->[!NOTE]
->
->El nuevo modelo de licencias de Fusion se basa en el número de operaciones que utiliza su organización. En este modelo, todas las organizaciones tienen acceso a la misma funcionalidad.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
