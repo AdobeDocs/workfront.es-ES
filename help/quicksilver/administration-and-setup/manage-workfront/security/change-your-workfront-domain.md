@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
+source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Solicitar un cambio de dominio
 
-1. Haga clic en **Asistencia** en la página Workfront One y, a continuación, empiece a crear un caso de asistencia.
+1. Empiece a crear un vale de soporte en el Experience League.
 1. En el **Descripción** , incluya el nuevo dominio que desee, así como el periodo de tiempo en el que desea que se active el nuevo dominio.
 1. Complete los cuadros del caso de soporte y haga clic en **Enviar**.
 
