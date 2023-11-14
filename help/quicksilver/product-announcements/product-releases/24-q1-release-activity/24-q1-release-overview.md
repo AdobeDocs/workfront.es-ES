@@ -3,7 +3,7 @@ title: Información general sobre la versión del primer trimestre de 2024
 description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 9 de noviembre de 2024, 2024<br /></p>
+                                <p>Versión de vista previa: 9 de noviembre de 2024, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Producción para todos los clientes: 9 de noviembre. 2024</span></p>
+                                <p><span class="preview">Producción para todos los clientes: 9 de noviembre. 2023</span></p>
                             </li>
                         </ul>
                     </td>
