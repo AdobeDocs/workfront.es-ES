@@ -4,9 +4,9 @@ description: Mejoras en los tableros del cuarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtareas ahora disponibles en los tableros de Adobe Workfront
-
->[!NOTE]
->
->Esta función no está disponible temporalmente a partir del 7 de noviembre de 2023. Esta página se actualizará cuando la función esté disponible.
 
 Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.
 

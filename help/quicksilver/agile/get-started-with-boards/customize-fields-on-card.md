@@ -6,9 +6,9 @@ description: Puede personalizar los campos que se muestran en una tarjeta deshab
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Los campos personalizados están disponibles en las tarjetas conectadas. Solo son visibles en la vista de tarjeta completa, no en la vista condensada del tablero.
 
->[!NOTE]
->
->Cuando se agrega un campo personalizado a las tarjetas, los datos de la tarjeta son de solo lectura.
+Los datos de los campos personalizados se pueden editar en la tarjeta, aunque algunos elementos personalizados solo están disponibles para su edición en el campo original y no en la tarjeta.
 
 1. Acceda a un tablero y haga clic en [!UICONTROL **Configurar**] para abrir el panel Configurar.
 1. Expandir [!UICONTROL **Tarjetas**].
