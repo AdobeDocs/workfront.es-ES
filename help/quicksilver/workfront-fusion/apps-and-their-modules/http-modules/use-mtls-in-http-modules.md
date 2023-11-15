@@ -9,7 +9,7 @@ description: Puede utilizar TLS mutuo en los módulos HTTP de Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
@@ -32,7 +32,7 @@ TLS mutuo permite que esta confirmación de identidad funcione en ambos sentidos
 >
 >**Ejemplo:**
 >
->* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Bueno banco, no un sitio web que podría hacer un mal uso o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
+>* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Great Bank, no a un sitio web que podría utilizar indebidamente o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
 >
 >   Cuando el explorador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para comprobar su identidad. El certificado lo proporciona una entidad emisora de certificados como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
 >
@@ -101,7 +101,7 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 >
 >* Son certificados mTLS no comodín.
 
-* [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
 * [Descargar [!DNL Workfront Fusion] Certificado UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   Para uso en la UE
