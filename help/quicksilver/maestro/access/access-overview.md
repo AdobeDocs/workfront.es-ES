@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
 >
->Adobe Maestro es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Para tener acceso a Maestro, debe ser cliente de Workfront.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >
@@ -36,6 +34,8 @@ En la actualidad, todos los usuarios de su organización pueden tener acceso a M
 >[!NOTE]
 >
 >No hay niveles de acceso ni permisos asociados a los usuarios ni a la información de Maestro. Todos los usuarios que tengan activado Maestro en su entorno pueden ver, editar y eliminar toda la información que cualquier otro usuario agregue a Maestro.
+
+## Requisitos de acceso
 
 Debe tener el siguiente acceso para utilizar Adobe Maestro:
 
@@ -71,18 +71,30 @@ Debe tener el siguiente acceso para utilizar Adobe Maestro:
   </tr>
 
 <tr>
-   <td role="rowheader">Nivel de acceso</td>
+   <td role="rowheader"><p>Nivel de acceso</p></td>
    <td> <p>Cualquiera</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
    <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/grant-access.md">Conceder acceso a Adobe Maestro</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+
+<!--
+## Considerations about accessing Adobe Maestro
+
+* There are no access level restrictions for Adobe Maestro. 
+* There are only permissions associated with workspaces in Maestro.
+* Only Workfront administrators can create workspaces. 
+* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+* For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
+
+   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md)
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

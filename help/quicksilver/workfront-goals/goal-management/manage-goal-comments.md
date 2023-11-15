@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Debe tener lo siguiente para poder iniciar:
 
 * Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 
-## Busque la sección Actualizaciones
+## Administrar comentarios de metas
 
 Puede agregar comentarios a los objetivos en la sección Actualizaciones de la página de un objetivo.
 
 Puede responder a un comentario que usted u otras personas agregaron en esta área o marcarlo como me gusta.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Metas**.
 Se abrirá la lista de metas.
 1. Busque la meta a la que desee agregar comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Clic  **Actualizaciones** en el panel izquierdo.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Haga clic en **x** en el campo buscar para borrar los resultados de la búsqueda y volver a la página completa.
 1. Haga clic en **Comentarios** en la esquina superior izquierda del área de Actualizaciones.
 1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 

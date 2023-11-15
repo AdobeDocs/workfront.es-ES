@@ -6,9 +6,9 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ Puede realizar comentarios generales sobre la plantilla de horas.
 
 1. Clic **Plantillas de horas**.
 1. Vaya a la plantilla de horas en la que desea realizar un comentario.
-1. Clic **Actualizaciones** en el panel izquierdo, asegúrese de que **Comentarios** está seleccionada y empiece a introducir una actualización en la **Nuevo comentario** cuadro.
+1. Clic **Actualizaciones** en el panel izquierdo, haga clic en **Comentarios** pestaña.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Introduzca una actualización en la **Nuevo comentario** cuadro.
 1. (Opcional) Agregue personas o equipos a la variable **Etiquetar personas o equipos** para incluir a otros en la actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Opcional) Agregue formato de texto enriquecido al comentario. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Seleccione la **Privado para mi compañía** si desea que solamente personas de su compañía vean la actualización.
