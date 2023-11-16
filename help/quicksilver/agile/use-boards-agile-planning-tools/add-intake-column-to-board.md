@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Generador de filtros](assets/intake-filter-dialog6.png)
 
-   Este ejemplo muestra un filtro para tareas de un proyecto específico que se encuentran en el estado de [!UICONTROL Nuevo] o [!UICONTROL En curso], y se me asignan.
+   Este ejemplo muestra un filtro para tareas de un proyecto específico que se encuentran en el estado de [!UICONTROL Nuevo] o [!UICONTROL En curso].
+
+   >[!NOTE]
+   >
+   >Se recomienda no utilizar el comodín &quot;Yo&quot; (usuario que ha iniciado sesión) en un filtro de tablero, ya que no se garantiza que siempre se muestren tareas o problemas para el usuario que ha iniciado sesión. Una vez configurado el tablero con las tareas y los problemas correctos, puede filtrar el tablero para mostrar los elementos de un usuario asignado específico. Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    Para obtener más información sobre la creación de un filtro, consulte la sección &quot;Creación o edición de un filtro en el generador estándar&quot; en el artículo [Creación o edición de filtros en [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Utilizar la columna de entrada
 
 Las tarjetas de la columna de entrada no se pueden editar hasta que las mueva a otras columnas del tablero. Puede hacer clic en la tarjeta para abrirla en una vista de solo lectura o hacer clic en ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir la tarea o el problema en una nueva pestaña del explorador.
-
 
 Puede reordenar manualmente los elementos de la columna de entrada.
 
