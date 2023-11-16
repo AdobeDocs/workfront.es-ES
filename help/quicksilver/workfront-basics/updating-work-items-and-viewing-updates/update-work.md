@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '3985'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,13 @@ ht-degree: 1%
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. </span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del primer trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -38,7 +39,7 @@ ht-degree: 1%
 >
 >Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de objetos de Workfront y no está disponible al acceder a los objetos desde las áreas siguientes:
+>La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de los objetos de Workfront y no está disponible al acceder a las actualizaciones desde las áreas siguientes:
 >
 > * Inicio
 > * Panel de resumen en listas
@@ -390,13 +391,17 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    1. En **Texto para mostrar**, escriba o pegue el texto del vínculo.
    1. Haga clic en **Guardar**.
 
-1. (Opcional) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo, cuando utilice la nueva experiencia de comentarios.
+1. (Opcional) <span class="preview">Para adjuntar una imagen a la actualización, copie una captura de pantalla del equipo y haga clic en **CTRL + V** para Windows (o **CMD + V** para Mac) para pegarlo en el comentario</span>
+
+   O
+
+   Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo, cuando utilice la nueva experiencia de comentarios.
 
    >[!NOTE]
    >
    >* El administrador de Workfront debe habilitar la adición de imágenes en la sección Actualizar preferencias de fuentes del área de Interfaz de Workfront para que pueda ver los iconos Imagen o Agregar datos adjuntos. Para obtener más información, consulte [Configurar preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* El tamaño máximo de archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
-   >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos.
+   >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos del menú principal.
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, existen los siguientes escenarios en función de la experiencia que elija:
    >
@@ -408,30 +413,28 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 
 1. Clic **Enviar** para agregar su comentario.
 
-<!-- for the search for comments - November 2023 release to Preview: 
-
 <div class="preview">
 
-## Search for an update
+## Buscar una actualización
 
 >[!NOTE]
 >
->This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+>Esta funcionalidad solo está disponible para la pestaña Comentarios en la nueva experiencia de comentario. Esto no está disponible para la pestaña Actividad del sistema de la sección Actualizaciones.
 
-You can search for a comment or a reply in the Updates section of an object. 
+Puede buscar un comentario o una respuesta en la sección Actualizaciones de un objeto.
 
-1. Go to the **Updates** section of an object.
-1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. Vaya a la **Actualizaciones** de un objeto.
+1. Empiece a escribir una palabra clave <!--or a user's name--> en el **Buscar** en la esquina superior derecha de la sección Actualizaciones. <!--You can search for comment owner's names or for users who are tagged on comments. -->
 
    ![](assets/search-field-in-updates-tab.png)
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   La palabra clave <!--or user--> Si ha buscado, se resaltará y los comentarios que lo contengan se mostrarán en la parte superior de la sección Actualizaciones.
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. Haga clic en **x** en el campo buscar para borrar los resultados de la búsqueda y volver a la página completa.
 
 </div>
 
--->
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## Copiar información de actualización
 
