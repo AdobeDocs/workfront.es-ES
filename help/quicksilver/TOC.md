@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
+source-git-commit: 594b8913c77239e1e0545d07010515313a0f6852
 workflow-type: tm+mt
-source-wordcount: '13402'
+source-wordcount: '13414'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 2%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión del primer trimestre de 2024 {#release-24-q1}
          * [Información general sobre la versión del primer trimestre de 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+         * [Mejoras en la administración de documentos del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
          * [Mejoras de integración en el primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+         * [Mejoras en el flujo de actualización y las notificaciones del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Versión del cuarto trimestre de 2023 {#release-23-q4}
          * [Información general sobre la versión 2023 del cuarto trimestre](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Mejoras de administrador en el cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
