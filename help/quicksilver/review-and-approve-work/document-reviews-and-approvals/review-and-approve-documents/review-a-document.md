@@ -6,16 +6,16 @@ description: Como revisor, puede obtener una vista previa de un documento que se
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Revisar un documento
 
-Como revisor, puede obtener una vista previa de un documento que se le haya enviado para su revisión.
+Como revisor, puede ver un documento que se le ha enviado para su revisión. A diferencia de una aprobación, usted no toma una decisión. En su lugar, confirma que ha revisado el recurso.
 
 >[!IMPORTANT]
 >
@@ -70,6 +70,7 @@ Add once functionality is added
    Clic **Descargar** para descargar una copia local del documento en el dispositivo.
 
 1. (Opcional) Una vez que haya revisado el documento, puede dejar un comentario para el solicitante en el **Actualizaciones** sección. Para obtener más información sobre los comentarios, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Para registrar que ha completado la revisión, haga clic en **Revisión completa**.
 
 ## Revisar un documento desde el panel Resumen de documentos
 
@@ -90,3 +91,4 @@ Add once functionality is added
 1. (Opcional) Una vez que haya revisado el documento, puede dejar un comentario para el solicitante en el **Actualizaciones** sección. Para obtener más información sobre los comentarios, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) También puede obtener una vista previa o descargar una versión específica del documento desplazándose hacia abajo hasta el **Versiones** del panel Resumen del documento y, a continuación, haga clic en el icono Más ![](../assets/more-icon.png) junto a la versión que desee revisar y seleccionar **Descargar** o **Previsualizar**.
+1. Para registrar que ha completado la revisión, haga clic en **Revisión completa**.
