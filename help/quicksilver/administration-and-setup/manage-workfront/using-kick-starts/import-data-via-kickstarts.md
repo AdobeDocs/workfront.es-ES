@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Al abrir una de estas pestañas, la fila 2 muestra los campos de cada objeto que
 >
 >  Por ejemplo, en la variable **Proyecto PROJ** , la pestaña **setCondition** y **setConditionType** Los campos de se pueden dejar vacíos, pero la variable **setGroupID** y **setName** Las columnas no pueden.
 >
+>* Algunos campos, como **setResourceRevenue** y **setEnteredByID**, son generados automáticamente por el sistema. Si se introducen datos para estos campos en la hoja de cálculo, el proceso de KickStart los sustituirá al cargar la hoja de cálculo.
 
 ### Importar un registro  {#import-a-record}
 
