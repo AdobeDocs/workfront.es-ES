@@ -8,9 +8,9 @@ author: Nolan
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31eb7de4-aa45-4d97-bd00-7040936e15dc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ Esta sección contiene los siguientes artículos:
 * [Crear una aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [Agregar revisores o aprobadores adicionales a un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Quitar aprobadores o revisores de un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+* [Estado de aprobación del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
