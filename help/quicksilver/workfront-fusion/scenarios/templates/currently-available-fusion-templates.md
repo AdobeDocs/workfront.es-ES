@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Para ver las plantillas disponibles, haga clic en **Plantillas** icono ![](asset
 
 Estas plantillas automatizan los procesos y flujos de trabajo de Workfront.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront - Creación de proyectos desde CSV
 
 Esta automatización crea nuevos proyectos en Workfront en función del nombre, el Portfolio, el estado, la fecha planificada de inicio y los detalles de la plantilla que especifique en un CSV.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront: Solicitudes de limpieza sin notas nuevas en los últimos 30 días
 
 Utilice esta plantilla para aplicar una actualización de nota de 30 días en sus solicitudes. Las solicitudes que no se actualicen en 30 días obtienen su estado cambiado y cerrado a los 60 días.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront: cambie el estado del proyecto a Completo al 100 % completado.
 
 Esta automatización actualiza los proyectos al estado Completado que tiene todas las tareas a 1005 completadas. Los proyectos con problemas pendientes o tareas pendientes o aprobaciones de proyecto recibirán una actualización y, cuando se resuelvan, los proyectos pasarán al estado Completado.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront: Avisar e intentar cerrar proyectos obsoletos
 
 Utilice este escenario para automatizar la advertencia y el cierre de proyectos que cumplen la directiva de proyectos obsoletos de su organización.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront: copie nuevas notas y respuestas de un problema o solicitud de origen a un proyecto o tarea ya convertidos
 
 Utilice esta plantilla para copiar notas y respuestas de un problema o solicitud en un proyecto o tarea ya convertidos.
 
@@ -57,6 +57,10 @@ Esta automatización observa nuevos proyectos en portafolios con formularios per
 ### Workfront - Convertir problema aprobado en proyecto
 
 Esta plantilla convierte los problemas en proyectos. Puede modificarla para que cumpla los estándares de su organización.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+Este escenario flexible copia documentos de problemas o solicitudes en proyectos o tareas convertidos anteriormente.
 
 ### Notificación personalizada basada en el cambio de campo
 
@@ -102,7 +106,7 @@ Estas plantillas recuperan información de un servicio web y la llevan a Workfro
 >
 > Debe tener una licencia de integración y automatización de trabajo de Workfront Fusion para utilizar las plantillas de esta sección.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Establecimiento de una conexión mediante JWT (token web JSON)
 
 Establezca la Autorización JWT para una API de cliente.
 
@@ -138,7 +142,7 @@ Estas plantillas conectan Workfront y SharePoint.
 >
 > Debe tener una licencia de integración y automatización de trabajo de Workfront Fusion para utilizar las plantillas de esta sección.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Ver cambios en la carpeta SharePoint
 
 Esta plantilla le permite ver si hay un cambio en una carpeta de SharePoint.
 
