@@ -6,9 +6,9 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ Los comentarios se muestran debajo del elemento en el que se registraron la entr
 
 ### Comentario sobre la plantilla de horas general {#comment-on-the-overall-timesheet}
 
-Puede realizar comentarios generales sobre la plantilla de horas.
+Puede realizar comentarios generales sobre la plantilla de horas. Comentar la plantilla de horas general es similar a comentar otros objetos.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/lines-main-menu.png) en la esquina superior izquierda o Workfront, si está disponible.
 
 1. Clic **Plantillas de horas**.
 1. Vaya a la plantilla de horas en la que desea realizar un comentario.
 1. Clic **Actualizaciones** en el panel izquierdo, haga clic en **Comentarios** pestaña.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Introduzca una actualización en la **Nuevo comentario** cuadro.
+1. Comience a agregar nuevos comentarios o responda a los existentes, tal como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Agregue personas o equipos a la variable **Etiquetar personas o equipos** para incluir a otros en la actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Opcional) Agregue formato de texto enriquecido al comentario. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Seleccione la **Privado para mi compañía** si desea que solamente personas de su compañía vean la actualización.
 1. Escriba el comentario y haga clic en **Enviar**.
 
-   Su comentario se muestra en la [!UICONTROL Actualizaciones] de la plantilla de horas.
+   Su comentario se muestra en la [!UICONTROL Actualizaciones] de la plantilla de horas, en la pestaña Comentarios.
 
 1. (Opcional) Haga clic en **Actividad del sistema** para revisar las actualizaciones generadas por el sistema.
 
-   Para obtener más información, consulte la sección &quot;Habilitar o deshabilitar las actualizaciones del sistema&quot; en el artículo [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Comentario sobre una entrada de hora individual en una plantilla de horas {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
