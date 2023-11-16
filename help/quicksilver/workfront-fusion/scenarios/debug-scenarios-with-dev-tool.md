@@ -7,9 +7,9 @@ description: La herramienta de desarrollo de Adobe Workfront Fusion le permite c
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1845'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Si utiliza Fusion en el shell unificado de Adobe, puede acceder a la herramienta
 
 >[!NOTE]
 >
->Actualmente, solo la variable **Emisión en directo** de Devtool está disponible para los usuarios de Unified Shell.
+>Actualmente, solo la variable **Emisión en directo** y **Depurador de escenarios** Las áreas de la herramienta de desarrollo están disponibles para los usuarios en la experiencia unificada. El **Herramientas** Esta área no está disponible en la experiencia unificada en este momento.
 
 ### Acceda a la herramienta de desarrollo en el clásico [!DNL Fusion] experiencia
 
@@ -193,6 +193,10 @@ El depurador de escenarios resulta útil para escenarios más complejos. Muestra
 1. Vea los detalles de la solicitud haciendo clic en la operación deseada.
 
 ### Herramientas
+
+>[!NOTE]
+>
+>Actualmente, esta área no está disponible para los usuarios de la experiencia unificada de Adobe.
 
 El [!DNL Workfront Fusion] Devtool incluye herramientas que facilitan la configuración de su escenario.
 
