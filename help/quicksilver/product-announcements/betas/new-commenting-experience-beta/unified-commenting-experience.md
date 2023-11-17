@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # Nueva experiencia de comentarios
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.  </span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del primer trimestre de 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a las funciones que se lanzaron durante la fase beta para la nueva experiencia de comentarios.
+>La información de este artículo hace referencia a las funciones que se han publicado en la nueva experiencia de comentarios.
 >
->El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023.
+>El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023. El programa beta de la nueva experiencia de comentarios se cerró con la versión de octubre de 2023.
 >
->Las funciones lanzadas durante el período beta se han puesto a disposición de todos los clientes a partir de la versión del cuarto trimestre de 2023 (octubre de 2023) y el programa beta se ha cerrado.
+>Las funciones descritas en este artículo se lanzaron a todos los clientes en octubre de 2023, a menos que se especifique lo contrario.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1º trimestre de 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1º trimestre de 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Según los objetos para los que acceda a la experiencia de comentarios, es posib
 
 * Experiencia de comentarios nueva y heredada para los siguientes objetos:
 
-      * Proyecto
-      * Tarea (esto incluye Historias)
-      * Problema
-      * Documento
-      
-      >[!SUGERENCIA]
-      >
-      >Utilice la opción Nuevos comentarios para mostrar la nueva experiencia de comentarios (cuando la active) o la experiencia de comentarios heredada (cuando la desactive), como se describe en esta sección. La nueva experiencia de comentarios es la predeterminada.
-  
+   * Proyecto
+   * Tarea (incluye Historias)
+   * Problema
+   * Documento
+
+  >[!TIP]
+  >
+  >Utilice la opción Comentarios nuevos para mostrar la nueva experiencia de comentarios (cuando la habilite) o la experiencia de comentarios heredada (cuando la deshabilite), como se describe en esta sección. La nueva experiencia de comentarios es la predeterminada.
+
    * Solo la nueva experiencia de comentarios para los objetos enumerados a continuación. No hay opción para habilitar la experiencia de comentarios heredada para estos objetos:
 
       * Meta

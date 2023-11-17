@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,28 @@ ht-degree: 0%
 >
 >Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
 
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+Todos los usuarios de su organización pueden tener acceso a Maestro si se cumplen los siguientes requisitos previos:
 
-Actualmente, todos los usuarios de su organización pueden tener acceso a Maestro si se cumple el siguiente requisito previo:
+<!--the first requisite will be removed when we go to GA-->
 
 * Su organización está inscrita en el programa beta cerrado de Adobe Maestro.
+* Como administrador del sistema, debe agregar el área de Maestro al menú principal mediante una plantilla de diseño.
 
-  Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta.
+  Maestro no se muestra en el menú principal de forma predeterminada para ningún usuario, incluidos los administradores del sistema.
 
+  Para obtener más información, consulte [Personalización del menú principal mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-Para obtener información sobre el acceso que necesita para utilizar Maestro, consulte [Información general sobre el acceso a Adobe Maestro](../access/access-overview.md).
+<!-- take out the note below when we release permissions-->
 
 >[!NOTE]
 >
 >No hay niveles de acceso ni permisos asociados a los usuarios ni a la información de Maestro. Todos los usuarios que tengan activado Maestro en su entorno pueden ver, editar y eliminar toda la información que cualquier otro usuario agregue a Maestro.
 
-## Habilite Maestro para los usuarios de la instancia de Workfront
+## Compartir el área de Maestro en el menú principal con otros usuarios
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-Una vez que su organización se haya inscrito en el programa beta de Maestro, puede agregar el área de Maestro para otros usuarios mediante una plantilla de diseño.
-
-Para compartir el área de Maestro mediante una plantilla de diseño:
+Una vez que su organización se haya inscrito en el programa beta de Maestro, puede agregar el área de Maestro al menú principal de todos los usuarios mediante una plantilla de diseño.
 
 1. Iniciar sesión en **Workfront** como administrador de Workfront.
 
@@ -65,11 +64,16 @@ Para compartir el área de Maestro mediante una plantilla de diseño:
    Los usuarios pueden empezar a crear espacios de trabajo, tipos de registros, registros y campos.
 
 <!--
+
 ## Share permissions to a workspace
+
+Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+
+To share a workspace with others: 
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
-1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
@@ -82,7 +86,7 @@ Para compartir el área de Maestro mediante una plantilla de diseño:
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
 1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
     
     The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
