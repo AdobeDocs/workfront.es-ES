@@ -6,9 +6,9 @@ description: Puede filtrar un tablero para mostrar solo determinadas tarjetas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 
    >[!NOTE]
    >
-   >El [!UICONTROL Tarjetas archivadas] La sección no está disponible en el filtro si no ha activado la configuración para mostrar tarjetas archivadas.
+   >El [!UICONTROL Tarjetas archivadas] La sección no está disponible en el filtro si no ha activado la configuración para mostrar tarjetas archivadas. Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Seleccionar **[!UICONTROL Tarjetas archivadas]** de nuevo para desactivar la opción y mostrar solo las tarjetas activas.
 
