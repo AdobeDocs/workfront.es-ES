@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Puede registrar el tiempo en las siguientes áreas de Workfront:
 
 #### Registrar tiempo en una hoja de horas {#log-time-on-a-timesheet}
 
-Puede registrar horas generales u horas específicas del proyecto en una hoja de horas.
+Puede registrar el tiempo en los siguientes elementos de la plantilla de horas:
+
+* Tareas, problemas y proyectos rellenados previamente que se muestran automáticamente según las preferencias del administrador de Workfront al establecer la plantilla de horas. Para obtener información sobre cómo se rellenan previamente las plantillas de horas, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  En la plantilla de horas solo se rellenan previamente las tareas y problemas que se le hayan asignado. Las tareas y los problemas asignados a sus equipos o funciones no rellenan automáticamente su plantilla de horas.
+
+  Al hacer clic en Trabajar en ello en un elemento asignado a sus equipos, se le asigna el elemento y este se muestra en la plantilla de horas.
+* Tareas, problemas o proyectos que agregue manualmente.
+* Tareas, problemas o proyectos para los que ya ha registrado tiempo en otra parte de Workfront.
+* Tiempo general (vacaciones, formación, gastos generales).
 
 >[!NOTE]
 >
 >Los usuarios revisores asignados a un perfil de plantilla de horas pueden ver el área Plantillas de horas y registrar horas generales. Sin embargo, no pueden registrar horas en ninguna tarea o problema asignado a ellos que aparezca en la hoja de horas.
 
-1. Haga clic en [!UICONTROL **Menú principal**] icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+Para registrar tiempo en una hoja de horas:
+
+1. Haga clic en [!UICONTROL **Menú principal**] icono ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/lines-main-menu.png) en la esquina superior izquierda de Workfront, si está disponible.
 
 1. Clic [!UICONTROL **Plantillas de horas**]. La hoja de horas actual se muestra de forma predeterminada.
    ![Hoja de horas](assets/timesheet-redesigned-nwe.png)
-
-   La plantilla de horas se rellena previamente con los elementos que se le hayan asignado durante el lapso de tiempo de la plantilla. Para obtener información sobre cómo se rellenan previamente las plantillas de horas, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Si no ve un elemento en la plantilla de horas, puede agregarlo.
-
-   >[!NOTE]
-   >
-   >La plantilla de horas solo se rellena previamente con los elementos que tiene asignados. No se rellena previamente con elementos asignados a sus equipos o roles.
-   >
-   >Al hacer clic en Trabajar en ello en un elemento asignado a sus equipos, se le asigna el elemento y este se muestra en la plantilla de horas.
 
 
 1. (Opcional) Haga clic en **pantalla completa** icono ![](assets/full-screen.png) para mostrar la plantilla de horas en modo de pantalla completa, haga clic en **exit-full-screen** ![](assets/exit-full-screen.png) para volver a la plantilla de horas.
