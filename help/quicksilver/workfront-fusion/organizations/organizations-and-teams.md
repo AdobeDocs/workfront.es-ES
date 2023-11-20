@@ -8,9 +8,9 @@ description: Las funciones de organización y equipos de Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 1%
 
 ---
@@ -80,6 +80,8 @@ Un usuario tiene una de las siguientes funciones en una organización:
 * **[!UICONTROL Contable]**: una función de contador solo permite a los usuarios ver la información de licencia en el panel de organización.
 * **[!UICONTROL Desarrollador de aplicaciones]**: la funcionalidad de esta función no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
 
+Para obtener información sobre las acciones específicas disponibles para los usuarios en cada función de organización, consulte [Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Invitación de usuarios a una organización
 
 De forma predeterminada, un propietario de organización (o usuario autorizado) puede invitar a otra persona a unirse a su organización.
@@ -145,7 +147,7 @@ Un usuario tiene una de las siguientes funciones en cada uno de sus equipos:
 * **[!UICONTROL Operador de equipo]**: La [!UICONTROL operador] permite a los usuarios ver los datos de ejecución y cambiar el estado &quot;Activo&quot; de los escenarios.
 * **[!UICONTROL Miembro restringido del equipo]**: la funcionalidad de esta función no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
 
-Para obtener información sobre las tareas específicas disponibles para los roles de equipo, consulte[Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Para obtener información sobre las acciones específicas disponibles para los usuarios en cada función del equipo, consulte [Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Administración de equipo
 
