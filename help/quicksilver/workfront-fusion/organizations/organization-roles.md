@@ -8,9 +8,9 @@ description: Este artículo incluye información sobre el acceso y los permisos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ Este artículo describe el acceso y la funcionalidad disponibles para los difere
 >Las funciones de organización son independientes de las funciones de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de organización y equipo, consulte [Organizaciones y equipos](../organizations/organizations-and-teams.md).
 
 ## Requisitos de acceso
-
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
-
-&lt;## Requisitos de acceso
 
 Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
@@ -106,7 +102,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Eliminación de organizaciones</p> </td> 
+   <td> <p>Eliminar organización</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -122,7 +118,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <td> <p>Administrar usuarios de la organización</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
