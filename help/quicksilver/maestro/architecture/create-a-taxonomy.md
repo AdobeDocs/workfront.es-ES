@@ -1,20 +1,20 @@
 ---
-title: Compartir registros
-description: Puede compartir registros con otros usuarios para aumentar su colaboración.
+title: Crear tipos de registros de taxonomía
+description: Las taxonomías son un tipo de tipos de registros reutilizables que capturan atributos sobre un tipo de registro operativo en Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Compartir registros
+# Crear tipos de registros de taxonomía
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
 
-Para colaborar con otros usuarios, puede compartir registros con otros usuarios.
+Las taxonomías son tipos de registros que capturan atributos sobre tipos de registros operativos en Adobe Maestro.
 
-Puede compartir un registro de Maestro de las siguientes maneras:
+Por ejemplo, Campaign puede ser un tipo de registro operativo. Las siguientes son taxonomías que capturan atributos sobre el tipo de registro de campaña: Región, Audiencia, País.
 
-* Copie el vínculo de la página Detalles de un registro desde el explorador cuando se abra la página.
-
-* Copie un vínculo a la página Detalles del registro cuando visualice registros en la vista de tabla del tipo de registro.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-En este artículo se describe cómo copiar un vínculo a la página Detalles de un registro desde la vista de tabla de un tipo de registro.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Para obtener más información acerca de los tipos de registros de Maestro, vea [Información general sobre los tipos de registros y las taxonomías](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisitos de acceso
 
@@ -52,7 +38,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> producto de Adobe</p> </td>
    <td>
@@ -81,6 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Plantilla de diseño</td>
    <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/grant-access.md">Conceder acceso a Adobe Maestro</a>. </p>  
@@ -90,8 +79,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Compartir vínculos de registros desde la vista de tabla de tipo de registro
+## Consideraciones sobre la creación de taxonomías
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro**.
+* Debe crear un espacio de trabajo para poder crear taxonomías en el espacio de trabajo.
 
-   Se abre el espacio de trabajo al que accedió por última vez.
-1. Haga clic en una tarjeta de tipo de registro.
+  Para obtener información sobre los espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+* Puede crear un tipo de registro de taxonomía realizando una de las siguientes acciones:
+   * Se crean automáticamente al crear un espacio de trabajo con una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+   * Créelas manualmente, desde cero.
+   * Crearlos manualmente pegando información de una lista externa.
 
-   Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
-1. Hacer clic con el botón derecho en una fila de registro
+* Todas las taxonomías recién creadas incluyen los siguientes campos:
 
-   O
+   * Nombre <!--if there won't be any more fields, consider rephrasing this-->
 
-   Pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Copiar vínculo**.
+  Además, puede agregar campos personalizados a las taxonomías. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    Las taxonomías creadas al utilizar una plantilla de espacio de trabajo tienen campos adicionales.
 
-   El vínculo se copia en el portapapeles.
+## Creación de una taxonomía
 
-1. Pegue el vínculo en un correo electrónico o en una ventana de chat para compartirlo con otros usuarios. Cuando los usuarios reciben el vínculo, se abre la página Detalles del registro.
+Crear taxonomías es similar a crear un tipo de registro operativo desde cero o desde una plantilla de espacio de trabajo.
 
-   >[!TIP]
-   >
-   >Los campos del registro en la página Detalles son los mismos campos disponibles en la vista Tabla del registro.
+Para obtener más información, consulte la sección &quot;Crear un tipo de registro desde cero&quot; en el artículo [Creación de tipos de registros](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Para obtener información sobre la creación automática de taxonomías al crear un espacio de trabajo a partir de una plantilla, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).

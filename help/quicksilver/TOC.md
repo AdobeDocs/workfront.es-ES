@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13421'
+source-wordcount: '13428'
 ht-degree: 2%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 2%
    * [Introducción a Adobe Maestro](maestro/maestro-overview.md)
    * [Actividad de versión de Adobe Maestro](maestro/release-activity.md)
    * Arquitectura de Adobe Maestro {#adobe-maestro-architecture}
-      * [Información de arquitectura](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [Creación de espacios de trabajo](maestro/architecture-and-fields/create-workspaces.md)
-      * [Información general sobre los tipos de registros y las taxonomías](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [Creación de tipos de registros operativos](maestro/architecture-and-fields/create-record-types.md)
-      * [Crear tipos de registros de taxonomía](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [Conectar tipos de registros](maestro/architecture-and-fields/connect-record-types.md)
-      * [Creación de campos](maestro/architecture-and-fields/create-fields.md)
-      * [Editar tipos de registros](maestro/architecture-and-fields/edit-record-types.md)
-      * [Editar campos](maestro/architecture-and-fields/edit-fields.md)
-      * [Eliminar espacios de trabajo](maestro/architecture-and-fields/delete-workspaces.md)
-      * [Eliminar tipos de registros](maestro/architecture-and-fields/delete-record-types.md)
-      * [Eliminar campos](maestro/architecture-and-fields/delete-fields.md)
-      * [Ejemplo de conexión de tipos y registros](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [Lista de plantillas de Workspace](maestro/architecture-and-fields/workspace-templates.md)
+      * [Información de arquitectura](maestro/architecture/architecture-information.md)
+      * [Creación de espacios de trabajo](maestro/architecture/create-workspaces.md)
+      * [Información general sobre los tipos de registros y las taxonomías](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Creación de tipos de registros operativos](maestro/architecture/create-record-types.md)
+      * [Crear tipos de registros de taxonomía](maestro/architecture/create-a-taxonomy.md)
+      * [Conectar tipos de registros](maestro/architecture/connect-record-types.md)
+      * [Editar tipos de registros](maestro/architecture/edit-record-types.md)
+      * [Eliminar espacios de trabajo](maestro/architecture/delete-workspaces.md)
+      * [Eliminar tipos de registros](maestro/architecture/delete-record-types.md)
+      * [Ejemplo de conexión de tipos y registros](maestro/architecture/example-connect-record-types-and-records.md)
+      * [Lista de plantillas de Workspace](maestro/architecture/workspace-templates.md)
+   * Campos de Adobe Maestro {#adobe-maestro-fields}
+      * [Información de campos](maestro/fields/fields-information.md)
+      * [Información general de campos](maestro/fields/fields-overview.md)
+      * [Creación de campos](maestro/fields/create-fields.md)
+      * [Editar campos](maestro/fields/edit-fields.md)
+      * [Eliminar campos](maestro/fields/delete-fields.md)
    * Acceso a Adobe Maestro {#adobe-maestro-access}
       * [Acceder a información](maestro/access/access-information.md)
       * [Acceso a información general](maestro/access/access-overview.md)

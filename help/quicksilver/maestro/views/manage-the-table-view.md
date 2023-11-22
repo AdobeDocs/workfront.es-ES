@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2080'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >
@@ -125,7 +125,7 @@ Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro
 Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
-1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](../architecture-and-fields/create-fields.md).
+1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](../fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página Detalles de los registros del tipo de registro seleccionado.
 
@@ -238,7 +238,7 @@ Para agregar un filtro a una vista de tabla:
 
      >[!TIP]
      >
-     > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../architecture-and-fields/create-fields.md).
+     > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Para ordenar <!--ungrouped (add this when sorting for groupings will be availabl
 
    >[!TIP]
    >
-   > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../architecture-and-fields/create-fields.md).
+   > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
 
 1. (Opcional) En el **Ordenar registros por** , haga clic en **x** a la derecha de un campo de clasificación para eliminar la clasificación
 

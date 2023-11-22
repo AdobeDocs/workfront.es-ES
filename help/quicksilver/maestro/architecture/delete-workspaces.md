@@ -1,20 +1,20 @@
 ---
-title: Compartir registros
-description: Puede compartir registros con otros usuarios para aumentar su colaboración.
+title: Eliminar espacios de trabajo
+description: Puede eliminar los espacios de trabajo cuando ya no sean relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Compartir registros
+# Eliminar espacios de trabajo
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
 
-Para colaborar con otros usuarios, puede compartir registros con otros usuarios.
+En Adobe Maestro, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/delete-workspaces.md).
 
-Puede compartir un registro de Maestro de las siguientes maneras:
+Puede eliminar los espacios de trabajo que ya no sean relevantes.
 
-* Copie el vínculo de la página Detalles de un registro desde el explorador cuando se abra la página.
-
-* Copie un vínculo a la página Detalles del registro cuando visualice registros en la vista de tabla del tipo de registro.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-En este artículo se describe cómo copiar un vínculo a la página Detalles de un registro desde la vista de tabla de un tipo de registro.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Se recomienda volver a crear algunos o todos los tipos de registros y taxonomías asociados al espacio de trabajo que desee eliminar en otro espacio de trabajo antes de eliminarlo.
 
 ## Requisitos de acceso
 
@@ -60,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -90,8 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +121,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +129,8 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +143,20 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Compartir vínculos de registros desde la vista de tabla de tipo de registro
+## Consideraciones sobre la eliminación de espacios de trabajo
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro**.
+* Puede eliminar cualquier espacio de trabajo que haya creado usted o cualquier miembro de su organización. <!--this will change with access levels and permissions-->
+* Al eliminar espacios de trabajo, también se eliminan todos los tipos de registros, taxonomías y sus campos. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* Los espacios de trabajo eliminados y la información que contienen no se pueden recuperar.
 
-   Se abre el espacio de trabajo al que accedió por última vez.
-1. Haga clic en una tarjeta de tipo de registro.
+## Eliminar un espacio de trabajo
 
-   Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
 
-   Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
-1. Hacer clic con el botón derecho en una fila de registro
+   Esto abre el último espacio de trabajo al que accedió.
 
-   O
+1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo que desea eliminar.
+1. Haga clic en **Más** menú ![](assets/more-menu.png) junto al nombre del espacio de trabajo y haga clic en **Eliminar**.
+1. Clic **Eliminar** para confirmar.
 
-   Pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Copiar vínculo**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   El vínculo se copia en el portapapeles.
-
-1. Pegue el vínculo en un correo electrónico o en una ventana de chat para compartirlo con otros usuarios. Cuando los usuarios reciben el vínculo, se abre la página Detalles del registro.
-
-   >[!TIP]
-   >
-   >Los campos del registro en la página Detalles son los mismos campos disponibles en la vista Tabla del registro.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   El espacio de trabajo se elimina y no se puede recuperar. También se elimina cualquier tipo de registro, taxonomía, sus registros y los campos asociados a ellos. <!--ensure this is right after closed beta-->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe.
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes.
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >
@@ -42,9 +42,9 @@ Puede conectar los registros de Adobe Maestro entre sí o con objetos de otras a
 
 Primero debe conectar dos tipos de registro o un tipo de registro a un tipo de objeto de otra aplicación y, a continuación, puede utilizar la vista Tabla del tipo de registro para conectar registros entre sí o registros a otros objetos.
 
-Para obtener información sobre cómo conectar tipos de registros entre sí o con tipos de objetos de otras aplicaciones, vea [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
+Para obtener información sobre cómo conectar tipos de registros entre sí o con tipos de objetos de otras aplicaciones, vea [Conectar tipos de registros](../architecture/connect-record-types.md).
 
-Para ver un ejemplo de tipos de registros de conexión, consulte [Ejemplo de conexión de tipos y registros](../architecture-and-fields/example-connect-record-types-and-records.md).
+Para ver un ejemplo de tipos de registros de conexión, consulte [Ejemplo de conexión de tipos y registros](../architecture/example-connect-record-types-and-records.md).
 
 Puede conectar lo siguiente:
 
@@ -113,6 +113,61 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Objetos Workfront. Por ejemplo, primero debe crear proyectos, portafolios, programas, empresas o grupos en Workfront.
    * Espacios de trabajo de Maestro, tipos de registros y registros. Para obtener más información, consulte los siguientes artículos:
 
-      * [Creación de espacios de trabajo](../architecture-and-fields/create-workspaces.md)
-      * [Creación de tipos de registros](../architecture-and-fields/create-record-types.md)
+      * [Creación de espacios de trabajo](../architecture/create-workspaces.md)
+      * [Creación de tipos de registros](../architecture/create-record-types.md)
       * [Creación de registros](../records/create-records.md)
 
-   * Conexiones entre tipos de registro o entre tipos de registro y objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
+   * Conexiones entre tipos de registro o entre tipos de registro y objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md)
 
 ### Conectar registros de Maestro
 
@@ -158,7 +213,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar registros.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
-1. Agregar una conexión a otro tipo de registro u objeto desde el tipo de registro seleccionado. Para obtener más información, consulte [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
+1. Agregar una conexión a otro tipo de registro u objeto desde el tipo de registro seleccionado. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
    Se agrega una nueva columna a la tabla para mostrar el tipo de registro vinculado.
 
@@ -216,7 +271,7 @@ Después de crear una conexión entre un tipo de registro Maestro y un tipo de o
    * Compañía
    * Grupo
 
-   Para obtener más información, consulte [Conectar tipos de registros](../architecture-and-fields/connect-record-types.md).
+   Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
    Se agrega una nueva columna a la tabla para mostrar el tipo de objeto vinculado.
 

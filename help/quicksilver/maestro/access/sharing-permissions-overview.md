@@ -4,9 +4,9 @@ description: Puede compartir o quitar permisos en un área de trabajo de Adobe M
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Información general sobre los permisos de uso compartido en Adobe Maestro
 
@@ -35,7 +37,7 @@ Puede compartir los siguientes objetos en Maestro:
 
 * Espacios de trabajo
 
-  Compartir espacios de trabajo comparte todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
+  Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
 
 ## Consideraciones acerca de compartir objetos en Maestro
 
@@ -54,9 +56,14 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Nivel de permisos</b></p></td> 
+   <td> <p><b>Acciones que puede realizar</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Vista</td> 
-   <td> <p>Puede realizar las siguientes acciones:</p> 
+   <td role="rowheader"><p>Vista</p></td> 
+   <td> 
     <ul> 
      <li>Ver el espacio de trabajo</li> 
      <li>Ver todos los tipos de registros del espacio de trabajo</li> 
@@ -65,8 +72,8 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribuir</td> 
-   <td> <p>Puede realizar las siguientes acciones:</p> 
+   <td role="rowheader"><p>Contribuir</p></td> 
+   <td>  
     <ul> 
      <li>Todas las acciones incluidas con el permiso Ver</li> 
      <li>Adición de registros</li>
@@ -77,8 +84,8 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Administrar</td> 
-   <td> <p>Puede realizar las siguientes acciones:</p> 
+   <td role="rowheader"><p>Administrar</p></td> 
+   <td> 
     <ul> 
      <li>Todas las acciones incluidas con los permisos Ver y Contribuir</li> 
      <li>Editar tipos de registros</li> 
@@ -90,7 +97,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Administradores de Workfront</td> 
+   <td role="rowheader"><p>Administradores de Workfront</p></td> 
    <td> <p>Este no es un permiso de Maestro.</p>
    <p> Todos los administradores de Workfront pueden hacer lo siguiente: </p>
    <ul><li>Creación de espacios de trabajo</li>
@@ -101,13 +108,15 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Compartir un espacio de trabajo
 
-Para obtener información acerca de cómo compartir un área de trabajo de Maestro, vea [Conceder acceso](../access/grant-access.md).
+Para obtener información acerca de cómo compartir un área de trabajo de Maestro, vea [Conceder acceso a Adobe Maestro](../access/grant-access.md).
 
 ## Eliminación de permisos de un espacio de trabajo
 
-Para obtener información acerca de cómo compartir un área de trabajo de Maestro, vea [Conceder acceso](../access/grant-access.md).
+Para obtener información acerca de cómo compartir un área de trabajo de Maestro, vea [Conceder acceso a Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 
