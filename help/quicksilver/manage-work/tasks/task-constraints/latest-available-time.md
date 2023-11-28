@@ -2,34 +2,34 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Última hora disponible'''
-description: El último tiempo disponible (LAT) es un tipo de restricción de tareas en Adobe Workfront.
+title: "Resumen de restricción de tarea: última hora disponible"
+description: Última hora disponible (LAT) es un tipo de restricción de tarea en Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Última hora disponible
+# Información general sobre la restricción de tarea: Última hora disponible
 
-El último tiempo disponible (LAT) es un tipo de restricción de tareas en Adobe Workfront.
+Última hora disponible (LAT) es un tipo de restricción de tarea en Adobe Workfront.
 
-## Usar la restricción de tiempo disponible más reciente
+## Utilizar la última restricción de tarea de tiempo disponible
 
-Puede utilizar la restricción LAT cuando desee programar un inicio de una tarea a más tardar en el momento disponible después de considerar las relaciones predecesor-sucesor en el proyecto.
+Puede utilizar la restricción LAT cuando desee programar una tarea para que comience a la hora más tardía disponible después de considerar las relaciones predecesora-sucesora en el proyecto.
 
-Esta restricción difiere de lo antes posible en que no obligará a los predecesores o sucesores a volver a programarse. En su lugar, solo afecta a la programación de la tarea a la que está asociada, estableciéndola en el último tiempo disponible en función de su relación con otras tareas.
+Esta restricción difiere de Lo antes posible en que no obligará a que se vuelvan a programar predecesoras o sucesoras. En su lugar, solo afectará a la programación de la tarea con la que está asociado, estableciéndola en la última hora disponible en función de su relación con otras tareas.
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, consulte [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -40,35 +40,35 @@ Para obtener información sobre cómo actualizar la restricción de tareas en un
 </div>
 -->
 
-## La diferencia entre la última hora disponible y la más tarde posible
+## La diferencia entre Última hora disponible y Lo más tarde posible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "As Late As Possible"] - inserted snippet in both (Alina)) </p>
 -->
 
-La restricción Última hora disponible difiere de la restricción Lo más tarde posible cuando existen los siguientes criterios:
+La restricción Último tiempo disponible difiere de la restricción Lo más tarde posible cuando existen los siguientes criterios:
 
 * El proyecto está programado desde la fecha de inicio
-* Las tareas del proyecto tienen una relación predecesora
+* Las tareas del proyecto tienen una relación de predecesoras
 * La tarea sucesora tiene una restricción de tarea flexible
 
 En esta situación:
 
-* **Última hora disponible:** El uso de la restricción de tiempo disponible más reciente en la tarea predecesora da prioridad a la restricción flexible del sucesor.
+* **Última hora disponible:** El uso de la restricción de tiempo disponible más reciente en la tarea predecesora da prioridad a la restricción flexible de la tarea sucesora.
 
-   **Ejemplo:** Por ejemplo, la tarea A es la predecesora de la tarea B. La tarea A tiene la última restricción de tiempo disponible y la tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del inicio del proyecto.
+  **Ejemplo:** Por ejemplo, la Tarea A es la predecesora de la Tarea B. La Tarea A tiene la última restricción de tiempo disponible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del comienzo del proyecto.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Tan Tarde Como Sea Posible:** En este escenario, el uso de la restricción Tan tarde como sea posible en la tarea predecesora da prioridad a la tarea predecesora.
+* **Lo más tarde posible:** En este escenario, si se utiliza la restricción Lo más tarde posible en la tarea predecesora, se da prioridad a la tarea predecesora.
 
-   **Ejemplo:** Por ejemplo, la tarea A es la predecesora de la tarea B. La tarea A tiene la restricción Lo más tarde posible y la tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del final del proyecto.
+  **Ejemplo:** Por ejemplo, la Tarea A es predecesora de la Tarea B. La Tarea A tiene la restricción Lo más tarde posible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del final del proyecto.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>
