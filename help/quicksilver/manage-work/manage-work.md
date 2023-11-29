@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Administrar trabajo
-description: Busque artículos sobre la administración del trabajo en Adobe Workfront en las secciones siguientes.
+description: Puede utilizar Adobe Workfront para administrar su trabajo. Para empezar, puede determinar qué objetos de trabajo utiliza para definir el trabajo, según su complejidad y los recursos o el presupuesto que le asigne. En esta sección se describe cómo organizar el trabajo en elementos de trabajo más grandes como proyectos, portafolios o programas, y cómo dividir grandes cantidades de trabajo en elementos de trabajo más manejables como tareas y problemas. Además, puede utilizar el gráfico Gantt para definir una escala de tiempo del trabajo o delegar el trabajo a otros cuando no esté disponible para completarlo.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 30%
+source-wordcount: '218'
+ht-degree: 3%
 
 ---
 
-# Administrar trabajo
+# Administrar información de trabajo
+
+Puede utilizar Adobe Workfront para administrar su trabajo.
+
+Para empezar, puede determinar qué objetos de trabajo utiliza para definir el trabajo, según su complejidad y los recursos o el presupuesto que le asigne.
+
+En esta sección se describe cómo organizar el trabajo en elementos de trabajo más grandes como proyectos, portafolios o programas, y cómo dividir grandes cantidades de trabajo en elementos de trabajo más manejables como tareas y problemas.
+
+Además, puede utilizar el gráfico Gantt para definir una escala de tiempo del trabajo o delegar el trabajo a otros cuando no esté disponible para completarlo.
 
 Esta sección contiene las siguientes subsecciones:
 

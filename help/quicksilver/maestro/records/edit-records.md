@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ Puede editar un registro desde las siguientes áreas:
 
 ### Editar un registro desde la vista de tabla de tipo de registro
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> luego haga clic en **Maestro** ![](assets/maestro-icon.png).
+1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
 
    Se abre el espacio de trabajo al que accedió por última vez.
 
@@ -201,10 +201,38 @@ Puede editar un registro desde las siguientes áreas:
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione un **Tabla** vista. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. Un indicador Guardado aparece brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
+
+   >[!NOTE]
+   >
+   >  No puede editar la información de los siguientes campos, ya que son de solo lectura y Workfront los actualiza automáticamente:
+   >  
+   >  * Campos vinculados que se crean vinculando tipos de registros
+   >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
+
+
+1. (Opcional) Copie un valor existente de un campo, péguelo en un campo del mismo tipo en otro registro y haga clic en **Entrar** en el teclado para guardar los cambios.
+
+   >[!NOTE]
+   >
+   >Tenga en cuenta lo siguiente:
+   >
+   >* No puede copiar información de otro origen que no sea un campo Maestro del mismo tipo que el campo en el que pega la información.
+   >
+   >* No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
+   >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
+   ><ul>
+   >
+   > * Personas
+   >
+   > * Campos del sistema
+   >
+   > * Campos vinculados creados como resultado de la conexión de registros
+
+   <!--take People out of the list above when they release this - this might be coming later-->
