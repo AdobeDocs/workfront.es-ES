@@ -3,13 +3,13 @@ title: Información general sobre la versión del primer trimestre de 2024
 description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Información general sobre la versión del primer trimestre de 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Mejoras de inicio
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se han cambiado para que solo se muestren al pasar el ratón</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 29 de noviembre de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 29 de noviembre de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Mejoras de integración
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nueva experiencia de comentarios captura toda la información de proyectos, tareas, problemas y documentos</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Los proyectos, las tareas, los problemas y los documentos muestran todas las actualizaciones en el área de experiencia de comentarios nueva desde el principio de la instancia de Workfront.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 28 de noviembre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para todos los clientes: 28 de noviembre de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Busque un comentario o un usuario en la sección Actualizaciones</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para buscar rápidamente información en la sección Actualizaciones de un objeto, ahora puede buscar una palabra clave de un comentario o de cualquier usuario asociado a un comentario.</p>

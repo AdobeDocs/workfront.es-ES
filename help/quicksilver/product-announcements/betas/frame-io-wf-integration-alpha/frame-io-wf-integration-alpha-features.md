@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ Para probar la funcionalidad, inicie sesión en la vista previa de Workfront o e
 
 A continuación se proporciona información sobre los casos de uso principales que queremos abordar y las funciones que tenemos planificadas actualmente para hacerlo. <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">Texto resaltado</span> a continuación se hace referencia a las funciones que aún no se han implementado, pero que se incluirán en una versión posterior.
+>
+>Viñetas debajo de a **&quot;Posibles mejoras en futuras versiones&quot;** el encabezado puede incluirse o no en una versión futura, según los comentarios alfa y los planes de desarrollo en evolución.
+>
+
+
 ### Los administradores de Workfront pueden configurar una conexión entre los grupos de Workfront y las cuentas de Frame.io
 
-* _En Workfront, puede conectar un grupo de Workfront a una cuenta de Frame.io_
+* <span class="preview">En Workfront, puede conectar un grupo de Workfront a una cuenta de Frame.io</span>
 
 * Se creará un nuevo equipo de Frame.io dentro de Frame.io que represente al grupo de Workfront conectado
 
@@ -76,19 +84,19 @@ A continuación se proporciona información sobre los casos de uso principales q
 
 * Capacidad para marcar proyectos de Workfront como Frame.io habilitado al asignar un grupo conectado a Frame
 
-* _Mejora: Capacidad para alternar tareas dentro de proyectos de Workfront como tareas de marco, lo que a su vez creará carpetas de tareas dentro de Frame.io_
+* <span class="preview">Mejora: Capacidad para alternar tareas dentro de proyectos de Workfront como tareas de marco, lo que a su vez creará carpetas de tareas dentro de Frame.io</span>
 
 * Cuando el estado de un proyecto de Workfront se establece en Actual, se crea un proyecto conectado correspondiente en Frame, los usuarios asignados de Workfront se añaden al proyecto de Frame y se les envía una notificación por correo electrónico desde Frame.io
 
    * Todos los miembros del proyecto de Workfront (usuarios y equipos) se añadirán como colaboradores al proyecto Frame.io (en la creación del proyecto y más adelante)
 
-   * _Cambio: los usuarios y equipos asignados a tareas de Workfront con Frame habilitado se añadirán como colaboradores al proyecto Frame.io y se les notificará (durante la creación del proyecto y posteriormente)_
+   * <span class="preview">Cambio: los usuarios y equipos asignados a tareas de Workfront con Frame habilitado se añadirán como colaboradores al proyecto Frame.io y se les notificará (durante la creación del proyecto y posteriormente)</span>
 
 * Los documentos (Creative Briefs) añadidos al proyecto y las tareas activadas por Frame se insertarán en el proyecto Frame.io (en la carpeta de trabajo correspondiente) cuando se cree el proyecto (déclencheur: el estado del proyecto se establece en Actual)
 
    * Le recomendamos que limite la cantidad de documentos añadidos a su proyecto antes de activarlos únicamente para sus informes creativos, a fin de evitar enviar varios documentos innecesarios a Frame.io
 
-* _Mejora: Los usuarios/equipos a los que se les haya anulado explícitamente la asignación de una tarea de Workfront habilitada para tramas se eliminarán del proyecto Frame.io_
+* <span class="preview">Mejora: Los usuarios/equipos a los que se les haya anulado explícitamente la asignación de una tarea de Workfront habilitada para tramas se eliminarán del proyecto Frame.io</span>
 
 **Mejoras potenciales en futuras versiones:**
 
@@ -104,9 +112,9 @@ A continuación se proporciona información sobre los casos de uso principales q
 
 * Las cargas de nuevas versiones dentro de Frame.io crearán automáticamente nuevas versiones de documentos dentro de Workfront en los recursos conectados
 
-* _Mejora: Capacidad para marcar las tareas de Workfront a las que se hace referencia como completadas desde Frame.io_
+* <span class="preview">Mejora: Capacidad para marcar las tareas de Workfront a las que se hace referencia como completadas desde Frame.io</span>
 
-* _Mejora: Si se elimina el documento de Workfront conectado, permanece dentro de Frame.io y se puede volver a conectar con la misma tarea de proyecto o con otra_
+* <span class="preview">Mejora: Si se elimina el documento de Workfront conectado, permanece dentro de Frame.io y se puede volver a conectar con la misma tarea de proyecto o con otra</span>
 
 **Mejoras potenciales en futuras versiones:**
 
@@ -118,7 +126,7 @@ A continuación se proporciona información sobre los casos de uso principales q
 
 * Los usuarios y equipos de Workfront se pueden añadir a las nuevas aprobaciones de documentos para los documentos conectados de Frame.io
 
-* _Mejora: Cuando un usuario/equipo deja de compartirse desde un documento con Frame habilitado, también perderá su acceso al recurso en el visor de Frame.io_
+* <span class="preview">Mejora: Cuando un usuario/equipo deja de compartirse desde un documento con Frame habilitado, también perderá su acceso al recurso en el visor de Frame.io</span>
 
 **Mejoras potenciales en futuras versiones:**
 
@@ -134,12 +142,12 @@ A continuación se proporciona información sobre los casos de uso principales q
 
 * Capacidad para aprovechar las capacidades existentes de revisión y comentarios proporcionadas por el visor Frame.io, que se sincronizará con el flujo de actualización de Workfront
 
-* _Capacidad para tomar una nueva decisión de aprobación de documentos desde el visor de Frame.io_
+* <span class="preview">Capacidad para tomar una nueva decisión de aprobación de documentos desde el visor de Frame.io</span>
 
 ### Dentro de Frame.io, se informará a los creativos sobre la decisión general tomada en el recurso Frame.io conectado
 
-* _Mejora: El estado general de aprobación del documento se mostrará en el recurso dentro de Frame.io_
+* <span class="preview">Mejora: El estado general de aprobación del documento se mostrará en el recurso dentro de Frame.io</span>
 
 ### AEM Los coordinadores de proyecto pueden enviar los recursos finales a los
 
-* _AEM Mejora: los documentos conectados en marco, incluidos los metadatos, se pueden enviar a los usuarios mediante el conector de Workfront AEM + Asset CS existente._
+* <span class="preview">AEM Mejora: los documentos conectados en marco, incluidos los metadatos, se pueden enviar a los usuarios mediante el conector de Workfront AEM + Asset CS existente.</span>
