@@ -6,9 +6,9 @@ title: Cambio del formato de las fechas en [!DNL Adobe Workfront]
 description: Para cambiar el formato de fecha de las fechas en [!DNL Adobe Workfront] debe cambiar la configuración de idioma en el explorador.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,39 @@ ht-degree: 0%
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Para cambiar el formato de las fechas en [!DNL Adobe Workfront], como [!UICONTROL Fecha planificada de finalización], [!UICONTROL Fecha real de finalización], o [!UICONTROL Fecha proyectada de finalización], de DD/MM/AAAA a DD/MM/AAAA o viceversa, por ejemplo, debe cambiar la configuración de idioma en su explorador.
+Puede cambiar el formato de fecha de las fechas en [!DNL Adobe Workfront], como [!UICONTROL Fecha planificada de finalización], [!UICONTROL Fecha real de finalización], o [!UICONTROL Fecha proyectada de finalización].
 
-Si el idioma predeterminado del explorador está establecido en *[!UICONTROL Inglés (Estados Unidos)]*, las fechas se mostrarán en formato MM/DD/AAAA.
+Por ejemplo, puede cambiar un formato de fecha de _DD/MM/AAAA_ hasta _DD/MM/AAAA_ o viceversa.
+O bien, puede cambiar el formato de fecha de _DD/MM/AA_ hasta _Lun DD, AAAA_.
 
-Para cambiar la configuración de idioma en [!DNL Chrome] Para cualquier otro explorador, debe modificar la configuración de ese explorador. Los pasos para modificar la configuración de un explorador varían de un explorador a otro. Consulte la información del explorador [!UICONTROL Ayuda], [!UICONTROL Preferencias], o [!UICONTROL Configuración] para aprender a modificar su configuración.
+Puede cambiar los formatos de fecha en Workfront de las siguientes maneras, según los cambios que desee ver y dónde desee ver los cambios.
+
+* Para cambiar todos los formatos de fecha para todas las páginas en [!DNL Workfront] según su ubicación e idioma, debe cambiar la configuración de idioma en el explorador.
+
+  Por ejemplo, si el idioma predeterminado en el explorador está establecido en *[!UICONTROL Inglés (Estados Unidos)]*, las fechas se muestran en los siguientes formatos:
+
+   * DD/MM/AAAA
+   * Lun DD, AAAA
+
+  Para cambiar la configuración de idioma en [!DNL Chrome] Para cualquier otro explorador, debe modificar la configuración de ese explorador. Los pasos para modificar la configuración de un explorador varían de un explorador a otro. Consulte la información del explorador [!UICONTROL Ayuda], [!UICONTROL Preferencias], o [!UICONTROL Configuración] para aprender a modificar su configuración.
+
+* Para cambiar el formato de las fechas sólo en informes y vistas, debe actualizar el [!UICONTROL Formato de campo] configuración en la [!UICONTROL Opciones avanzadas] de una columna, al crear el informe o la vista. Esto no modifica el formato de fecha según la ubicación o el idioma. Modifica el formato de las fechas en el contexto de la misma ubicación o idioma.
+
+  ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
+
+  Para obtener más información, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* Para cambiar el formato de las fechas en todas las notificaciones salientes por correo electrónico para toda la organización, debe actualizar la variable [!UICONTROL Configuración regional de correo electrónico predeterminada] configuración en la [!UICONTROL Información del cliente] área en [!UICONTROL Configurar].
+
+  ![](assets/default-email-locale-field.png)
+
+  Para obtener más información, consulte [Configurar la información básica del sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+
+* Para cambiar el formato de todas las fechas en todas las notificaciones salientes por correo electrónico de un solo usuario, debe actualizar la variable [!UICONTROL Configuración regional de correo electrónico] configuración en la [!UICONTROL Editar persona] , al editar el perfil de un usuario.
+
+  ![](assets/email-locale-for-user-profile-highlighted.png)
+
+  Para obtener más información, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 <!--drafted because we should not document steps for a third-party application
 

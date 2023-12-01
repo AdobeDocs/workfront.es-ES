@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
      ![](assets/table-view-example.png)
 
-   * **Vista Cronología**: Muestra registros que tienen al menos dos campos de fecha en una cronología.
+   * **Vista Cronología**: Muestra registros que tienen al menos dos campos de tipo Fecha en una cronología.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Envío de solicitudes |                               |                                  | ✓ |
 | Informe creativo |                               |                                  | ✓ |
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| Agregar comentarios a registros |                               | ✓ |                 |
+| Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
 
 ## Actividad de versión de Maestro
 
