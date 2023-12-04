@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Desde el área de Inicio (para tareas y problemas)
    * Desde el panel Resumen en una lista de objetos o desde una plantilla de horas (para tareas y problemas)
 
-En la información de esta página se describe cómo puede realizar comentarios sobre los objetos de Workfront y cómo actualizar proyectos, tareas y problemas.
+En la información de esta página se describe cómo se pueden realizar comentarios sobre los objetos de Workfront y cómo se actualizan los proyectos, las tareas y los problemas al agregarles comentarios.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Para obtener información sobre cómo comentar los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). Debe tener una licencia adicional para acceder a los objetivos de Workfront.
 
@@ -156,13 +158,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Solicitud o superior para problemas y documentos; Revisar o superior para todos los demás objetos</p> </td> 
+   <td> <p>Solicitud de problemas y documentos o superior</p>
+   <p> Revisar o superior para todos los demás objetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
    <td> <p>Acceso de visualización o edición para el objeto en el que se encuentra la actualización</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -175,14 +178,29 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Agregar una actualización a un elemento de trabajo
 
+La adición de una actualización a un elemento de trabajo varía en función de la versión de la sección Actualizaciones que utilice.
+
+Puede añadir actualizaciones a los siguientes objetos:
+
+* Proyectos
+* Tareas
+* Problemas
+* Programas
+* Portafolios
+* Plantillas
+* Tareas de plantilla
+* Usuarios
+* Hojas de horas
+* Equipos
+* Metas
+* Tarjetas en el área de Tableros
+* Iteraciones
+
+### Agregar una actualización a un elemento de trabajo en la sección Actualizaciones heredadas
+
 >[!IMPORTANT]
 >
 >La información de esta página describe cómo actualizar proyectos, tareas y problemas.
-
-
-La adición de una actualización a un elemento de trabajo varía en función de la versión de la sección Actualizaciones que utilice.
-
-### Agregar una actualización a un elemento de trabajo en la sección Actualizaciones heredadas
 
 1. Vaya al elemento de trabajo para el que desea proporcionar una actualización (como un proyecto, tarea o problema).
 1. Haga clic en **Actualizaciones** sección.
