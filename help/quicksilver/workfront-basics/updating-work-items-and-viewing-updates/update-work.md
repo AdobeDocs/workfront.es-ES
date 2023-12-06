@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Puede añadir actualizaciones a los siguientes objetos:
 1. Haga clic en **Actualizaciones** sección.
 1. (Condicional) Si está activada, haga clic en el botón **Nuevos comentarios** en la esquina superior derecha de la sección Actualizaciones para desactivarla y activar la experiencia de comentarios heredada.
 1. Clic **Iniciar una nueva actualización,** a continuación, escriba la actualización.
-1. (Opcional) Utilice texto enriquecido o agregue emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
 1. (Opcional) Actualice cualquiera de la siguiente información sobre el elemento de trabajo:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ Puede añadir actualizaciones a los siguientes objetos:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
-1. (Opcional) Utilice texto enriquecido o agregue emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ Puede añadir actualizaciones a los siguientes objetos:
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en un plazo de 15 días desde el momento en que lo envía.
+   >Solo puede editar su comentario en los 15 minutos siguientes al envío.
 
 1. Edite la información del comentario, añada o elimine imágenes, o bien elimine cualquiera de los usuarios etiquetados. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se introdujo el comentario.
 
@@ -407,11 +407,15 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    1. En **Texto para mostrar**, escriba o pegue el texto del vínculo.
    1. Haga clic en **Guardar**.
 
-1. (Opcional) <span class="preview">Para adjuntar una imagen a la actualización, copie una captura de pantalla del equipo y péguela en el comentario </span>
+1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
 
-   O
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo.
+   * <span class="preview">Copie una captura de pantalla del equipo y péguela en el comentario </span>
+   * Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo.
+
 
    >[!NOTE]
    >
