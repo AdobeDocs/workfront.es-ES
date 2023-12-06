@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contactar con Atención al cliente
-description: Como cliente de Adobe Workfront, puede ponerse en contacto con el equipo de Asistencia al cliente de Workfront por teléfono o enviando un ticket en línea.
+description: Como cliente de Adobe Workfront, puede ponerse en contacto con el equipo de Asistencia al cliente de Workfront por teléfono o enviando un ticket en línea. Este artículo incluye instrucciones sobre cómo ponerse en contacto con Atención al cliente y sobre cómo ver y administrar sus casos de asistencia.
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-As a [!DNL Adobe Workfront] cliente, puede ponerse en contacto con el [!DNL Workfront] Equipo de atención al cliente por teléfono o enviando un ticket en línea.
+Como un [!DNL Adobe Workfront] cliente, puede ponerse en contacto con el [!DNL Workfront] Equipo de atención al cliente por teléfono o enviando un ticket en línea.
 
 >[!NOTE]
 >
@@ -36,28 +37,32 @@ Puede contactar con [!DNL Workfront Customer Support] 7 días a la semana, 24 ho
 
 Puede enviar una solicitud de asistencia desde el autoservicio de [!DNL Experience League] portal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Solo los contactos de soporte autorizados (o los clientes con derecho) pueden enviar tickets de soporte en línea.
+>Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar vales de asistencia en línea.
 
 
 1. Desde el [[!DNL Experience League]](https://experienceleague.adobe.com) sitio web, haga clic en **[!UICONTROL Asistencia]**  en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Desde la página de inicio de la asistencia, puede navegar fácilmente a sus casos de asistencia abiertos, registrar un caso nuevo, ver los artículos de asistencia principales o acceder a fuentes de aprendizaje adicionales.
+   El [!UICONTROL Asistencia] se abre la página.
+
+   Desde el [!UICONTROL Asistencia] página principal, puede navegar a los casos de asistencia abiertos, registrar un caso nuevo y ver la parte superior [!UICONTROL Asistencia] artículos o acceder a fuentes de aprendizaje adicionales.
 
 1. Para enviar un caso, seleccione la opción **[!UICONTROL Abrir un caso de asistencia]**, luego haga clic en **[!UICONTROL Firmar] Entrada**.
 
 1. Clic **[!UICONTROL Abrir caso]** en la barra lateral izquierda.
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   El [!UICONTROL creación de casos] se abre una página donde puede introducir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), título del caso y descripción del caso.
+El [!UICONTROL creación de casos] se abre una página donde puede introducir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), título del caso y descripción del caso.
 
-   >[!TIP]
-   >
-   >Sea lo más descriptivo posible al describir el problema que enfrenta para ayudarnos a acelerar el proceso de solución de problemas.
+>[!TIP]
+>
+>Sea lo más descriptivo posible al describir el problema que enfrenta para ayudarnos a acelerar el proceso de solución de problemas.
 
 
 1. Rellene la información de los siguientes campos para proporcionarnos detalles más específicos:
@@ -69,29 +74,30 @@ Puede enviar una solicitud de asistencia desde el autoservicio de [!DNL Experien
 
 1. Cargue los archivos relevantes y haga clic en **[!UICONTROL Enviar caso]**.
 
-   El [!UICONTROL Mis casos] página muestra.
+   El caso se envía, y la [!UICONTROL Mis casos] página muestra.
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. (Opcional) En el **[!UICONTROL Mis casos]** , revise los casos que su organización ha enviado.
-
-   >[!TIP]
-   >
-   >También puede navegar hasta el [!UICONTROL Mis casos] haciendo clic en **[!UICONTROL Mis casos]** en la barra lateral izquierda.
-
-1. En el **[!UICONTROL Mis casos]** , utilice las opciones de la parte superior de la página para filtrar por **Producto ([!DNL Experience Cloud] solución)** o caso **[!UICONTROL Estado]** (Abierta o Cerrada). También puede utilizar la variable [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia.
-
-1. Para ver más detalles sobre un caso, haga clic en **Número de caso** para acceder a él. El [!UICONTROL estuche] ver aperturas.
-
-1. En el [!UICONTROL estuche] vea y revise los últimos comentarios con el propietario del caso asignado y agregue cualquier archivo adjunto o respuesta adicional.
-
-1. Clic **[!UICONTROL Enviar a administración]** en el lado derecho de la página debajo de **[!UICONTROL Detalles del caso]** para escalar el caso.
-
-1. Haga clic en **[!UICONTROL Cerrar caso]** para cerrar el caso.
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de asistencia al cliente.
 
+
+## Ver y administrar sus casos de asistencia
+
+1. Vaya a **[!UICONTROL Mis casos]** página. Esta página se abre cuando envía un caso o puede abrirla haciendo clic en **[!UICONTROL Mis casos]** en el panel de navegación izquierdo.
+
+1. (Opcional) Utilice las opciones de la parte superior de la página para filtrar por **Producto ([!DNL Experience Cloud] solución)** o caso **[!UICONTROL Estado]** ([!UICONTROL Abrir] o Closed). También puede utilizar la variable [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia.
+
+1. (Opcional) Para ver más detalles sobre un caso, haga clic en **Número de caso** para acceder a él.
+
+   Se abre la vista de caso.
+
+1. (Opcional) En la vista de caso, revise los últimos comentarios con el propietario del caso asignado y agregue cualquier archivo adjunto o respuesta adicional.
+
+1. (Opcional) Para escalar el caso, haga clic en **[!UICONTROL Enviar a administración]** en la parte derecha de la página, debajo de **[!UICONTROL Detalles del caso].
+
+1. Haga clic en **[!UICONTROL Cerrar caso]** para cerrar el caso.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
