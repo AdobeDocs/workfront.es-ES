@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -34,9 +34,9 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td>
-   <p>Plan actual: Estándar</p>
+   <p>Nuevo plan: Estándar</p>
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan actual: plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 

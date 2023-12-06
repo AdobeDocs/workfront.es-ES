@@ -9,10 +9,10 @@ description: Todos los usuarios deben tener un nivel de acceso para iniciar sesi
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ Puede desactivar la opción de actualización automática desde el área de conf
 >[!IMPORTANT]
 >
 >Una vez desactivado, cualquier usuario no remunerado que pase el número asignado de decisiones no se actualizará automáticamente.
-
 
 ## Requisitos de acceso
 
@@ -42,9 +41,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan actual: Estándar
+   <td>Nuevo plan: Estándar
    <p>o</p>
-   <p>Plan heredado: plan</p></td> 
+   <p>Plan actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
