@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
+source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
 workflow-type: tm+mt
-source-wordcount: '13779'
+source-wordcount: '13776'
 ht-degree: 1%
 
 ---
@@ -833,7 +833,7 @@ ht-degree: 1%
       * [Anclar páginas para personalizar el espacio de trabajo](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [Creación de secciones personalizadas](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Acceso a la ayuda de Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [Explicación de los objetos en Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] objetos información general](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Comprender la navegación de un usuario con licencia de trabajo](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Comprender la navegación para un usuario con licencia de revisión](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Información general sobre las fechas del proyecto, la tarea y el problema en Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
