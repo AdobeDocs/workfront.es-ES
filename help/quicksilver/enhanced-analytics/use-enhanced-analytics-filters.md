@@ -2,30 +2,30 @@
 title: Aplicar filtros en análisis mejorado
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Los filtros del área de Análisis mejorado le ayudan a centrarse en proyectos específicos o tipos específicos de datos.
+description: Los filtros del área de Análisis mejorado de Adobe Workfront le ayudan a centrarse en proyectos específicos o tipos específicos de datos.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 1%
+source-wordcount: '1508'
+ht-degree: 0%
 
 ---
 
 # Aplicar filtros en análisis mejorado
 
-Los filtros del área de Análisis mejorado le ayudan a centrarse en proyectos específicos o tipos específicos de datos. Los tipos de filtros que utiliza pueden proporcionarle información sobre lo siguiente:
+Los filtros del área de Análisis mejorado de Adobe Workfront le ayudan a centrarse en proyectos específicos o tipos específicos de datos. Los tipos de filtros que utiliza pueden proporcionarle información sobre lo siguiente:
 
 * Proyectos de su propiedad
 * Vistas específicas de portafolios o programas
 * Indicadores de rendimiento clave para un lapso de tiempo específico (semana, trimestre, año fiscal)
 
-Puede añadir y eliminar filtros según sea necesario, y Adobe Workfront conserva los filtros que aplica aunque cierre la sesión.
+Puede añadir y eliminar filtros según sea necesario, y Workfront conserva los filtros que aplica aunque cierre la sesión.
 
 ## Requisitos de acceso
 
-Para completar esta tarea, debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <caption style="text-align: left;">
@@ -35,13 +35,20 @@ Para completar esta tarea, debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">plan de Workfront</a>*</p> </td> 
-   <td>Empresa o superior</td> 
-  </tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td>
+      <p>Nuevo plan: Cualquiera</p>
+      <p>o</p>
+      <p>Plan actual: Business o superior</p></td> 
+  </tr>
   <tr> 
-   <td> <p><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>*</p> </td> 
-   <td> <p>Revisar o superior</p> </td> 
-  </tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td>
+      <p>Nuevo plan: Ligero o superior</p>
+      <p>o</p>
+      <p>Plan actual: revisión o superior</p>
+   </td> 
+  </tr>
   <tr> 
    <td><b>Nivel de acceso*</b> </td> 
    <td> <p>Ver acceso a proyectos</p> <p>También debe tener acceso de Vista a Tareas, Portfolio y Usuarios para ver opciones específicas de filtrado de campos de proyecto.</p> <p>Nota: Si se seleccionan restricciones en la sección Definir restricciones adicionales del cuadro de diálogo Editar nivel de acceso, es posible que no vea toda la información en los filtros o en la página Análisis mejorado después de aplicar el filtro. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
@@ -55,7 +62,7 @@ Para completar esta tarea, debe tener lo siguiente:
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte [Requisitos previos](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para utilizar el análisis mejorado, consulte [Requisitos previos](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) in [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Cambio del filtro de intervalo de fechas {#change-the-date-range-filter}
 
@@ -64,22 +71,23 @@ De forma predeterminada, las visualizaciones del área de Análisis mejorado mue
 >[!TIP]
 >
 >También puede utilizar las teclas del teclado para desplazarse, abrir y seleccionar un intervalo de fechas del widget de calendario.\
->Para obtener más información, consulte la [Métodos abreviados del teclado](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) en el artículo [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+>Para obtener más información, consulte la [Métodos abreviados del teclado](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts) en el artículo [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 Para seleccionar un nuevo intervalo de fechas:
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
-1. En la esquina superior derecha de la pantalla, haga clic en el campo de intervalo de fechas para abrir la vista de calendario.
+{{step1-to-analytics}}
+
+1. En la parte superior derecha, haga clic en el campo de intervalo de fechas para abrir la vista de calendario.
 1. Utilice las flechas situadas encima del calendario para localizar el mes de la fecha de inicio y, a continuación, seleccione la fecha de inicio.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleccionar intervalo de fechas](assets/filters-select-date-range-350x344.png)
 
 1. Utilice las flechas situadas encima del calendario para localizar el mes de la fecha de finalización y, a continuación, seleccione la fecha de finalización.
 1. (Opcional) Para ampliar un intervalo de fechas más pequeño, arrastre el ratón de una fecha específica a otra en una de las visualizaciones.
 
    Todas las visualizaciones de la pantalla se actualizarán para que coincidan con el periodo de tiempo seleccionado, y aparecerá un filtro de periodo de tiempo junto a los filtros existentes. Este filtro no se conserva si cierra la sesión o sale del área de Análisis mejorado.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro de intervalo de tiempo](assets/timeframe-filter-350x220.png)
 
 ## Añadir un filtro
 
@@ -91,7 +99,7 @@ Puede agregar filtros basados en campos de proyecto predeterminados, campos de f
 >Para obtener más información, consulte la [Métodos abreviados del teclado](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) en el artículo [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 * [Agregar un filtro de campo de proyecto](#add-a-project-field-filter)
-* [Agregar un filtro de campo de proyecto](#add-a-project-field-filter)
+* [Agregar un filtro de formulario personalizado de proyecto](#add-a-project-custom-form-filter)
 * [Agregar un filtro de equipo](#add-a-team-filter)
 
 ### Agregar un filtro de campo de proyecto {#add-a-project-field-filter}
@@ -100,36 +108,38 @@ Los filtros de campo de proyecto permiten filtrar los datos de los proyectos y l
 
 Están disponibles los siguientes tipos de filtros de campo de proyecto:
 
-| **Proyecto** | Muestra datos solo de los proyectos seleccionados |
+| Campo | Datos mostrados |
 |---|---|
-| **Programar** | Muestra datos solo de los proyectos de los programas seleccionados |
-| **Portafolio** | Muestra datos solo de los proyectos de los portafolios seleccionados |
+| **Proyecto** | Muestra datos solo para los proyectos seleccionados |
+| **Programa** | Muestra datos solamente para los proyectos en los programas seleccionados |
+| **Portfolio** | Muestra datos solamente para los proyectos en los portafolios seleccionados |
 | **Condición** | Muestra datos solo de los proyectos que han tenido recientemente las condiciones seleccionadas (como destino, en riesgo o con problemas) |
-| **Estado** | Muestra datos solo de los proyectos con los últimos estados seleccionados (completo, actual, en espera, cancelado, etc.) |
-| **Patrocinador** | Muestra datos solamente de los proyectos con los patrocinadores seleccionados |
-| **Propietario del proyecto** | Muestra datos solo de los proyectos con los propietarios de proyecto seleccionados |
+| **Estado** | Muestra datos solamente de los proyectos que han tenido los estados seleccionados más recientemente (completo, actual, en espera, cancelado, etc.) |
+| **Patrocinador** | Muestra datos solamente para los proyectos con los patrocinadores seleccionados |
+| **Propietario del proyecto** | Muestra datos solamente para los proyectos con los propietarios de proyecto seleccionados |
 
-{style="table-layout:auto"}
-
-Los filtros de formulario personalizados funcionan de forma diferente. Para obtener más información, consulte [Agregar un filtro de campo de proyecto](#add-a-project-field-filter).
+Los filtros de formulario personalizados funcionan de forma diferente. Para obtener más información, consulte [Agregar un filtro de formulario personalizado de proyecto](#add-a-project-custom-form-filter).
 
 Para agregar un filtro de campo de proyecto:
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
-1. En la esquina superior izquierda de la pantalla, haga clic en **Añadir filtro**, luego seleccione el tipo de filtro deseado.
+{{step1-to-analytics}}
+
+1. En la parte superior izquierda, haga clic en **Añadir filtro**, luego seleccione el tipo de filtro deseado.
 
    >[!NOTE]
    >
-   >Los distintos tipos de filtro muestran datos diferentes. Solo se puede utilizar un tipo de filtro en un filtro. Una vez seleccionado, no hay ningún tipo de filtro disponible para usar en otro filtro de campo de proyecto.
+   >Los distintos tipos de filtro muestran datos diferentes. Solo se puede utilizar un tipo de filtro en un filtro. Después de seleccionarlo, no hay ningún tipo de filtro disponible para usar en otro filtro de campo de proyecto.
 
-1. Busque los valores para los que desea ver datos introduciendo al menos 3 caracteres de texto en la variable **Buscar** , luego seleccione cada valor que desee incluir en el filtro.
+1. Busque los valores para los que desee ver datos introduciendo al menos tres caracteres de texto en la variable **Buscar** , luego seleccione cada valor que desee incluir en el filtro.
 
    Para seleccionar todos los valores actuales, haga clic en **Seleccionar todo**.
 
-   ![](assets/select-filter-value-350x251.png)
+   ![Seleccionar valor de filtro](assets/select-filter-value-350x251.png)
 
-1. Después de seleccionar todos los valores deseados, haga clic en **Aplicar filtro**.\
-   El recuento de proyectos en la esquina superior derecha de la página se actualiza para reflejar los filtros aplicados.
+1. Después de seleccionar todos los valores deseados, haga clic en **Aplicar filtro**.
+
+   El recuento de proyectos en la parte superior derecha se actualiza para reflejar los filtros aplicados.
+
 1. Repita estos pasos para cada filtro que desee agregar.
 
    A medida que agrega filtros, los datos se muestran en las visualizaciones siguientes para un máximo de 50 proyectos.
@@ -138,52 +148,48 @@ Para agregar un filtro de campo de proyecto:
    >
    >Para ver los datos de más de 50 proyectos que se muestran de forma predeterminada, puede:
    >
+   >   * Utilice las flechas de la parte inferior izquierda para mostrar los 50 proyectos siguientes en esa visualización.\
+   >     ![Flecha de paginación](assets/pagination-350x118.png)
    >   
-   >   
-   >   * Utilice las flechas de la esquina inferior izquierda para mostrar los 50 proyectos siguientes en esa visualización.\
-   >     ![](assets/pagination-350x118.png)
-   >   
-   >   * Utilice el menú desplegable Ordenar por en una visualización para ver los proyectos en un orden diferente.\
-   >     ![](assets/sort-by-menu-350x247.png)
-   >   
-   >   
-   >
+   >   * Utilice el **Ordenar por** en una visualización para ver los proyectos en un orden diferente.\
+   >     ![Ordenar por menú](assets/sort-by-menu-350x247.png)
 
    Para ajustar el intervalo de fecha, consulte [Cambio del filtro de intervalo de fechas](#change-the-date-range-filter).
 
-### Añadir un filtro de formulario personalizado de proyecto
+### Agregar un filtro de formulario personalizado de proyecto
 
-El tipo de filtro Formulario personalizado permite filtrar datos para proyectos y tareas en función de los valores introducidos en los campos de Formulario personalizado de los proyectos. A diferencia de otros tipos de filtros de análisis mejorados, puede agregar más de un filtro de formulario personalizado. Cada filtro de formulario personalizado contiene valores introducidos solo dentro del campo seleccionado en un formulario personalizado específico.
+El tipo de filtro de formulario personalizado permite filtrar los datos de los proyectos y las tareas en función de los valores introducidos en los campos de formulario personalizados de los proyectos. A diferencia de otros tipos de filtros de análisis mejorado, puede agregar más de un filtro de formulario personalizado. Cada filtro de formulario personalizado contiene valores introducidos solo dentro del campo seleccionado en un formulario personalizado específico.
 
-Para agregar un filtro de Formulario personalizado:
+Para agregar un filtro de formulario personalizado:
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
+{{step1-to-analytics}}
+
 1. En la esquina superior izquierda de la pantalla, haga clic en **Añadir filtro**, luego seleccione **Formulario personalizado**.
 
-   ![](assets/select-custom-form-filter-350x271.png)
+   ![Seleccionar filtro de formulario personalizado](assets/select-custom-form-filter-350x271.png)
 
-1. Busque el formulario personalizado que desee introduciendo al menos 3 caracteres de texto en la etiqueta **Buscar** , luego seleccione el formulario personalizado.
+1. Busque el formulario personalizado que desee introduciendo al menos tres caracteres de texto en la etiqueta **Buscar** , luego seleccione el formulario personalizado.
 1. Seleccione el campo que desee y, a continuación, complete una de las siguientes acciones en función del tipo de campo que esté agregando al filtro:
 
    >[!NOTE]
    >
-   >No se pueden agregar a un filtro todos los tipos de campos de formulario personalizado. Actualmente, el análisis mejorado solo admite los tipos de campo enumerados anteriormente.
+   >No todos los tipos de campos corm personalizados se pueden agregar a un filtro. Actualmente, el análisis mejorado solo admite los tipos de campo enumerados a continuación.
 
-   * **Casilla**, **lista desplegable**, o **botón de opción**: seleccione cada valor del campo seleccionado que desee incluir en el filtro o haga clic en **Seleccionar todo** casilla de verificación\
-     ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **Casilla de verificación**, **lista desplegable**, o **botón de opción**: Seleccione cada valor en el campo que desee incluir en el filtro o haga clic en el **Seleccionar todo** casilla de verificación.\
+     ![Valores de casilla de verificación](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **Fecha**: utilice las flechas para desplazarse a un mes específico y, a continuación, seleccione la fecha del campo seleccionado que desee incluir en el filtro.\
-     ![](assets/custom-form-filter-date-350x348.png)
+   * **Fecha**: utilice las flechas para desplazarse a un mes específico y, en el campo, seleccione la fecha que desee incluir en el filtro.\
+     ![Valor de fecha](assets/custom-form-filter-date-350x348.png)
 
-   * **Texto**: introduzca el texto dentro del campo seleccionado que desea incluir en el filtro.\
-     ![](assets/custom-form-filter-text-350x90.png)
+   * **Texto**: introduzca el texto dentro del campo que desea incluir en el filtro.\
+     ![Valor de texto](assets/custom-form-filter-text-350x90.png)
 
-   * **Número**: introduzca el número dentro del campo seleccionado que desea incluir en el filtro.\
-     ![](assets/custom-form-filter-number-350x93.png)
+   * **Número**: introduzca el número dentro del campo que desea incluir en el filtro.\
+     ![Valor numérico](assets/custom-form-filter-number-350x93.png)
 
 1. Después de introducir o seleccionar los valores que desea filtrar, haga clic en **Aplicar filtro**.
 
-   El recuento de proyectos en la esquina superior derecha de la página se actualiza para reflejar los filtros aplicados.
+   El recuento de proyectos en la parte superior derecha se actualiza para reflejar los filtros aplicados.
 
 1. Repita estos pasos para cada filtro que desee agregar.
 
@@ -192,36 +198,31 @@ Para agregar un filtro de Formulario personalizado:
    >[!TIP]
    >
    >Para ver los datos de más de 50 proyectos que se muestran de forma predeterminada, puede:
-   >
+   >  
+   >   * Utilice las flechas de la parte inferior izquierda para mostrar los 50 proyectos siguientes en esa visualización.\
+   >     ![Flechas de paginación](assets/pagination-350x118.png)
    >   
-   >   
-   >   * Utilice las flechas de la esquina inferior izquierda para mostrar los 50 proyectos siguientes en esa visualización.\
-   >     ![](assets/pagination-350x118.png)
-   >   
-   >   * Utilice el menú desplegable Ordenar por en una visualización para ver los proyectos en un orden diferente.\
-   >     ![](assets/sort-by-menu-350x247.png)
-   >   
-   >   
-   >
+   >   * Utilice el **Ordenar por** en una visualización para ver los proyectos en un orden diferente.\
+   >     ![Ordenar por menú](assets/sort-by-menu-350x247.png)
 
    Para ajustar el intervalo de fecha, consulte [Cambio del filtro de intervalo de fechas](#change-the-date-range-filter).
 
 ### Agregar un filtro de equipo {#add-a-team-filter}
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
+{{step1-to-analytics}}
+
 1. En el panel izquierdo, haga clic en **People**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Seleccionar personas](assets/people-area-cropped-qs-350x276.png)
 
-1. En la esquina superior izquierda de la pantalla, haga clic en **Añadir filtro**, luego seleccione la **Equipo** filtro.
-1. Busque los equipos cuyos datos desee ver introduciendo al menos 3 caracteres de texto en la etiqueta **Buscar** , a continuación seleccione cada equipo que desee incluir en el filtro. Para seleccionar todos los equipos, haga clic en **Seleccionar todo**.
+1. En la parte superior izquierda de la pantalla, haga clic en **Añadir filtro**, luego seleccione la **Equipo** filtro.
+1. Busque los equipos cuyos datos desee ver escribiendo al menos tres caracteres de texto en la etiqueta **Buscar** , a continuación seleccione cada equipo que desee incluir en el filtro. Para seleccionar todos los equipos, haga clic en **Seleccionar todo**.
 
-   ![](assets/select-team-value-350x253.png)
+   ![Seleccionar equipos](assets/select-team-value-350x253.png)
 
    >[!NOTE]
    >
    >Todos los equipos se incluyen como opciones de filtro, independientemente del nivel de acceso.
-
 
 1. Después de seleccionar todos los equipos deseados, haga clic en **Aplicar filtro**.
 
@@ -240,15 +241,16 @@ Puede quitar un filtro en cualquier momento. Si elimina un filtro, no se mostrar
 
 Para eliminar un filtro:
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
-1. Si desea eliminar un filtro de trabajo, permanezca en el **Trabajo** área.
+{{step1-to-analytics}}
+
+1. Si desea quitar un campo de proyecto o un filtro de formulario personalizado, permanezca en el **Trabajo** área.
 
    O
 
-   Si desea eliminar un filtro de Personas, seleccione **People** en el panel izquierdo.
+   Si desea quitar un filtro de equipo, seleccione **People** en el panel izquierdo.
 
 1. Busque el filtro deseado y haga clic en **X** para quitarlo.
 
-   ![](assets/remove-filter-350x213.png)
+   ![Eliminar](assets/remove-filter-350x213.png)
 
    El filtro ya no está activo y no se muestra a menos que lo vuelva a añadir.
