@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -217,7 +217,7 @@ Puede editar un registro desde las siguientes áreas:
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
 
-1. (Opcional) Copie un valor existente de un campo, péguelo en un campo del mismo tipo en otro registro y haga clic en **Entrar** en el teclado para guardar los cambios.
+1. (Opcional) Copie uno o varios valores existentes de un campo, péguelos en un campo del mismo tipo en otro registro y haga clic en **Entrar** en el teclado para guardar los cambios.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ Puede editar un registro desde las siguientes áreas:
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
    ><ul>
    >
-   > * Personas
-   >
    > * Campos del sistema
-   >
-   > * Campos vinculados creados como resultado de la conexión de registros
+
 
    <!--take People out of the list above when they release this - this might be coming later-->
