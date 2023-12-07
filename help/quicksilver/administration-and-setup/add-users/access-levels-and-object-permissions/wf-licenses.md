@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration
 keywords: licencia, tipo
 navigation-topic: access-levels
-description: Su organización compró un determinado número de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, proporciona uno de los 4 tipos de licencias de Workfront pagadas a cada usuario cuando le asigna un nivel de acceso.
-author: Courtney
+description: Su organización compró un determinado número de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, proporciona uno de los cinco tipos de licencias de Workfront a cada usuario cuando le asigna un nivel de acceso.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Su organización compró un determinado número de licencias cuando adquirió Ad
 
 ## Cómo se vinculan las licencias y los niveles de acceso
 
-Los 5 tipos de licencias de Workfront permiten diferentes niveles de acceso a Workfront. Cada nivel de acceso se adjunta a una de estas licencias.
+Los cinco tipos de licencias de Workfront permiten diferentes niveles de acceso a Workfront. Cada nivel de acceso se adjunta a una de estas licencias.
 
 Como administrador de Workfront, en lugar de asignar una licencia a un usuario, debe asignarle el nivel de acceso adjunto a dicha licencia.
 

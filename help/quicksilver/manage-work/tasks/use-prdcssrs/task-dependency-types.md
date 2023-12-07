@@ -2,34 +2,39 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: Descripción general de los tipos de dependencia de tareas
-description: Los tipos de dependencia hacen referencia a las relaciones predecesoras entre tareas. Definen cuándo puede comenzar o finalizar la tarea dependiente en función del inicio o final de su predecesor.
+title: Información general sobre los tipos de dependencia entre tareas
+description: Los tipos de dependencias hacen referencia a las relaciones de predecesoras entre tareas. Definen cuándo puede comenzar o finalizar la tarea dependiente en función del comienzo o del fin de su predecesora.
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-# Descripción general de los tipos de dependencia de tareas
+# Información general sobre los tipos de dependencia entre tareas
 
-Los tipos de dependencia hacen referencia a las relaciones predecesoras entre tareas. Definen cuándo puede comenzar o finalizar la tarea dependiente en función del inicio o final de su predecesor.
+Los tipos de dependencias hacen referencia a las relaciones de predecesoras entre tareas. Definen cuándo puede comenzar o finalizar la tarea dependiente en función del comienzo o del fin de su predecesora.
 
 >[!IMPORTANT]
 >
->Adobe Workfront no restringe que las tareas dependientes se inicien o terminen según los tipos de dependencia a menos que se refuercen las relaciones predecesoras. Para obtener información sobre cómo aplicar predecesores, consulte [Aplicar predecesores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+>Adobe Workfront no restringe el inicio o el final de las tareas dependientes en función de los tipos de dependencia a menos que se apliquen las relaciones de predecesoras. Para obtener información acerca de cómo aplicar predecesoras, consulte [Forzar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-Debe especificar el Tipo de dependencia de una relación predecesora cuando establezca esta relación entre las tareas.
+Debe especificar el Tipo de dependencia de una relación predecesora al establecer esta relación entre las tareas.
 
-Para obtener más información sobre las predecesoras, consulte [Descripción general de las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obtener más información sobre predecesoras, consulte [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-Los siguientes son los tipos de dependencia de Workfront:
+Los siguientes son los tipos de dependencias de Workfront:
 
-* **Fin-Inicio (fs)**: La tarea predecesora debe finalizar antes de que pueda iniciarse la tarea dependiente. Es el tipo de dependencia predeterminado, que se usa cuando no se especifica ningún otro tipo de dependencia.
-* **Fin-fin (ff)**: La tarea predecesora debe finalizar antes de que la tarea dependiente pueda finalizar.
-* **Inicio (ss)**: La tarea predecesora debe iniciarse antes de que se pueda iniciar la tarea dependiente. No se puede iniciar la tarea dependiente a menos que el predecesor haya iniciado al menos.
-* **Start-Finish (sf)**: La tarea predecesora debe iniciarse antes de que la tarea dependiente pueda finalizar. Puede iniciar la tarea dependiente antes de que se inicie el predecesor, pero no podrá terminarla a menos que se inicie el predecesor.
-* **Inicio programado (sd)**: Esto programa una tarea como Finish-Start, pero el tipo de aplicación real es Finish-Finish. Cuando se utiliza esto, la tarea dependiente está programada para iniciarse después de completar la tarea predecesora. Sin embargo, la aplicación lo hace para que la tarea dependiente pueda iniciarse en cualquier momento, pero no puede finalizar hasta que la tarea predecesora haya finalizado.
+* **Finalizar-Iniciar (fs)**: la tarea predecesora debe finalizar antes de que pueda iniciarse la tarea dependiente. Es el tipo de dependencia predeterminado que se usa cuando no se especifica ningún otro tipo de dependencia.
+* **Finalizar-Finalizar (ff)**: la tarea predecesora debe finalizar antes de que pueda finalizar la tarea dependiente.
+* **Inicio-Inicio (ss)**: la tarea predecesora debe iniciarse antes de que pueda iniciarse la tarea dependiente. No puede iniciar la tarea dependiente a menos que la predecesora haya comenzado por lo menos.
+* **Inicio-Fin (sf)**: la tarea predecesora debe comenzar antes de que pueda finalizar la tarea dependiente. Puede iniciar la tarea dependiente antes de que comience el predecesor, pero no puede finalizarla a menos que comience el predecesor.
+* **Inicio programado (sd)**: esto programa una tarea como Fin-Comienzo, pero el tipo de aplicación real es Fin-Fin. Cuando se utiliza esta opción, la tarea dependiente se programa para iniciarse una vez completada la tarea predecesora. Sin embargo, la aplicación hace que la tarea dependiente pueda comenzar en cualquier momento, pero no puede finalizar hasta que finalice la tarea predecesora.
+
+>[!NOTE]
+>
+>Las abreviaciones de los tipos de dependencia se utilizan en listas de tareas para definir relaciones de predecesoras. Para obtener más información, consulte [Ejemplos de valores de predecesoras en una lista de tareas](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Información general sobre predecesoras de tareas](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+

@@ -7,9 +7,9 @@ description: Las restricciones de tarea determinan cuándo debe comenzar y final
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ En la tabla siguiente se muestra cada restricción y su abreviatura. Las abrevia
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Información general sobre la restricción de tarea: Lo más tarde posible </a> </p> </td> 
    <td scope="col"> <p>LMTP</p> </td> 
    <td scope="col"> <p>Coloca la hora de finalización de la tarea lo más cerca posible del final del proyecto.</p> 
-   <p>Esta es la restricción predeterminada cuando el modo de programación del proyecto es desde la fecha de finalización y el valor predeterminado del sistema o grupo para la fecha de inicio de una tarea es Basado en la fecha planificada del proyecto. </p>
+   <p>Esta es la delimitación predeterminada cuando el modo de programación del proyecto es desde la fecha de finalización y el valor predeterminado del sistema o grupo para la fecha de inicio de una tarea se establece en Basado en la fecha planificada del proyecto. </p>
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ En la tabla siguiente se muestra cada restricción y su abreviatura. Las abrevia
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Información general sobre la restricción de tarea: Última hora disponible</a> </p> </td> 
    <td scope="col"> <p>LMTP</p> </td> 
-   <td scope="col"> <p>Programe una tarea para que comience en el último tiempo disponible después de considerar las relaciones predecesoras-sucesoras en el proyecto.</p> </td>
+   <td scope="col"> <p>Programa una tarea para que comience en el último tiempo disponible después de considerar las relaciones predecesoras-sucesoras en el proyecto.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Información general sobre la restricción de tarea: No comenzar antes del</a> </p> </td> 
@@ -78,7 +78,7 @@ En la tabla siguiente se muestra cada restricción y su abreviatura. Las abrevia
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Información general sobre la restricción de tarea: No iniciar después del</a> </p> </td> 
    <td scope="col"> <p>NIDD</p> </td> 
    <td scope="col"> <p>Programa una tarea para que comience antes de la fecha especificada.</p> 
-   <p>Esta es la delimitación predeterminada si el modo de programación del proyecto es desde la fecha de finalización y el valor predeterminado del sistema o grupo para la fecha de inicio de una tarea es Hoy. 
+   <p>Esta es la delimitación predeterminada si el modo de programación del proyecto es desde la fecha de finalización y si el sistema o grupo predeterminado para la fecha de inicio de una tarea está establecido en Hoy. 
    </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ En la tabla siguiente se muestra cada restricción y su abreviatura. Las abrevia
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Información general sobre la restricción de tarea: fechas fijas</a> </p> </td> 
    <td> <p>FFJS</p> </td> 
-   <td> <p>Programa una tarea para que comience y termine en una fecha específica.</p> </td> 
+   <td> <p>Programa una tarea para que comience y termine en fechas específicas.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Workfront utiliza dos variables para decidir qué restricción de tarea está se
 
 * El **Fecha de inicio** preferencias configuradas por el administrador de Workfront o de grupo en la **Tareas y problemas** área de **Configurar**.
 
-  Para obtener información sobre las Preferencias de tareas y problemas, consulte la sección &quot;Valores predeterminados de nueva tarea&quot; en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener información sobre las Preferencias de tareas y problemas, consulte la [Valores predeterminados de nueva tarea](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) sección en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 En la tabla siguiente se muestra la delimitación de tareas predeterminada al elegir distintas variables para el proyecto y las nuevas tareas:
 

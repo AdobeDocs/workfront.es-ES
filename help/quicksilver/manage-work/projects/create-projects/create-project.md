@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Crear un proyecto
-description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede crear proyectos desde cero, utilizar una plantilla o convertir problemas o tareas a proyectos.
+description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede crear proyectos desde cero, utilizar una plantilla o convertir problemas o tareas en proyectos.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1247'
 ht-degree: 1%
 
 ---
@@ -62,141 +62,131 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo plan: Estándar</p>
+        <p>o</p>
+        <p>Plan actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso*</td> 
    <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los proyectos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concesión de acceso a proyectos</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los proyectos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concesión de acceso a proyectos</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Cuando crea un proyecto, automáticamente recibe permisos de administración para el proyecto </p> <p> Para obtener información sobre los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Al crear un proyecto, recibirá automáticamente permisos de administración en el proyecto.</p> <p> Para obtener información sobre los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Formas de crear proyectos
 
 Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 
-* Cree un proyecto desde cero sin usar una plantilla. En este artículo se describe cómo crear un proyecto desde cero.
+* Cree un proyecto desde cero sin usar una plantilla. Este artículo describe cómo crear un proyecto desde cero.
 
 * Copie un proyecto existente.\
-   Para obtener más información sobre cómo copiar un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
+  Para obtener más información sobre cómo copiar un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilice una plantilla.\
-   Para obtener más información sobre el uso de una plantilla para crear un nuevo proyecto, consulte [Creación de un proyecto mediante una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Para obtener más información sobre el uso de una plantilla para crear un nuevo proyecto, consulte [Creación de un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-* Importar un proyecto desde Microsoft Project.\
-   Para obtener más información sobre la importación de un proyecto desde MS Project, consulte [Importar un proyecto desde un proyecto de Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+* Importe un proyecto desde Microsoft Project.\
+  Para obtener más información sobre cómo importar un proyecto desde MS Project, consulte [Importar un proyecto desde Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* Importar un proyecto mediante los primeros pasos.
+* Importar un proyecto mediante kick-starts.
 
-   Como administrador de Workfront, puede importar proyectos mediante un inicio.
+  Como administrador de Workfront, puede importar proyectos mediante una &quot;kick-start&quot;.
 
-   Para obtener información sobre la importación de datos mediante el inicio en Workfront, consulte [Importar datos en Adobe Workfront mediante una plantilla de inicio rápido](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
+  Para obtener información sobre la importación de datos mediante kick-starts en Workfront, consulte [Importación de datos en Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Para obtener información sobre la importación de proyectos mediante la introducción, consulte [Caso Kick-Starts : preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
+  Para obtener información sobre la importación de proyectos mediante kick-starts, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publique una iniciativa desde un escenario en el planificador de escenarios de Adobe Workfront. El planificador de escenarios requiere una licencia adicional. Para obtener información sobre el planificador de escenarios de Workfront, consulte [Información general del planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md). Para obtener información sobre la creación de proyectos a partir de iniciativas de publicación, consulte  [Actualizar o crear proyectos publicando iniciativas en el Planificador de escenarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publique una iniciativa desde un escenario en Adobe Workfront Scenario Planner. El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Para obtener información sobre la creación de proyectos a partir de iniciativas de publicación, consulte  [Actualizar o crear proyectos publicando iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Requisitos previos
 
-Antes de empezar, debe asegurarse de que
+Antes de empezar, debe asegurarse de que:
 
-* El administrador del sistema o del grupo habilitó la preferencia &quot;Permitir a los usuarios crear proyectos sin usar una plantilla&quot; en el área Configuración.
+* El administrador del sistema o del grupo habilitó la preferencia &quot;Permitir que los usuarios creen proyectos sin usar una plantilla&quot; en el área de Configuración.
 
-   Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Nueva configuración predeterminada del proyecto
 
-Al crear un proyecto, Workfront le aplica un conjunto de ajustes predeterminados. Por ejemplo, el estado, el grupo o el modo de programación están predefinidos al crear un proyecto.
+Al crear un proyecto, Workfront le aplica un conjunto de configuraciones predeterminadas. Por ejemplo, Estado, Grupo y Modo de programación están preestablecidos al crear un proyecto.
 
 Tenga en cuenta lo siguiente:
 
-* Como administrador de Workfront o de un grupo, puede configurar las opciones predeterminadas de un nuevo proyecto al configurar las preferencias de proyecto para la instancia de Workfront o para un grupo.
+* Como administrador de Workfront o de un grupo, puede establecer la configuración predeterminada para un nuevo proyecto al configurar las Preferencias del proyecto para toda la instancia de Workfront o para un grupo.
 * Workfront aplica la configuración del grupo, si la hay, antes de aplicar las establecidas por el administrador de Workfront.
-* El estado predeterminado de un nuevo proyecto corresponde al estado definido por el administrador de Workfront en el área principal Preferencias del proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias del proyecto de un grupo.
+* El estado predeterminado de un nuevo proyecto corresponde al estado definido por el administrador de Workfront en el área principal Preferencias del proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias del proyecto para un grupo.
 
-   >[!NOTE]
-   >
-   >Se recomienda que el estado predeterminado de un nuevo proyecto sea Planning. A medida que realiza cambios en el nuevo proyecto, esto garantiza que las notificaciones no tengan déclencheur con los usuarios asignados al proyecto.
-   >
-   >Para obtener más información sobre la configuración del estado predeterminado y otros ajustes predeterminados de un nuevo proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configuración de las preferencias de un proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >[!NOTE]
+  >
+  >Se recomienda que el estado predeterminado de un nuevo proyecto sea Planificación. A medida que realiza cambios en el nuevo proyecto, esto garantiza que no se envíen notificaciones a los usuarios asignados al proyecto.
+  >
+  >Para obtener más información sobre la configuración del estado predeterminado y otros ajustes predeterminados para un nuevo proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 * Existen los siguientes escenarios para la forma en que Workfront define el grupo y el estado de un nuevo proyecto:
 
    * Si crea un proyecto desde cero, el grupo del proyecto es su grupo de inicio.
 
-      El estado del proyecto es el estado predeterminado en las preferencias de proyecto de su grupo principal, si existe, o de su instancia de Workfront. Puede cambiar el estado predeterminado al crear el proyecto a cualquier estado disponible para el Grupo del proyecto.
+     El estado del proyecto es el estado predeterminado en las Preferencias del proyecto de su grupo de inicio, si hay uno, o de su instancia de Workfront. Puede cambiar el estado predeterminado al crear el proyecto a cualquier estado disponible para el grupo del proyecto.
 
-   * Si crea un proyecto con una plantilla, la configuración de la plantilla tiene prioridad sobre la configuración establecida por el administrador de Workfront o del grupo.
+   * Si crea un proyecto mediante una plantilla, la configuración de la plantilla tiene prioridad sobre la configuración establecida por el administrador de Workfront o del grupo.
 
-      El Grupo del nuevo proyecto es el Grupo de la plantilla. Si la plantilla no está asociada a un grupo, el grupo del proyecto es el grupo de inicio del usuario que crea el proyecto.
+     El grupo del nuevo proyecto es el grupo de la plantilla. Si la plantilla no está asociada a un grupo, el grupo del proyecto es el grupo de inicio del usuario que crea el proyecto.
 
-      El estado predeterminado de un nuevo proyecto creado a partir de una plantilla se corresponde con el estado definido por el administrador de Workfront en el área principal Preferencias del proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias del proyecto del grupo. Puede cambiar el estado predeterminado al crear un proyecto de una plantilla a cualquiera de los estados del Grupo del proyecto que sea el Grupo de la plantilla o el Grupo Principal del usuario que crea el proyecto.
+     El estado predeterminado de un nuevo proyecto creado a partir de una plantilla corresponde al estado definido por el administrador de Workfront en el área principal Preferencias de proyecto o por un administrador de grupo (o administrador de Workfront) en el área Preferencias de proyecto para el grupo. Puede cambiar el estado predeterminado al crear un proyecto a partir de una plantilla, a cualquiera de los estados del grupo del proyecto que es el grupo de la plantilla o el grupo de inicio del usuario que crea el proyecto.
 
-   * Si crea un proyecto convirtiendo un problema, el grupo de un nuevo proyecto es el grupo del proyecto existente del problema. Si el usuario que convierte el problema no tiene acceso al proyecto del problema o si el proyecto del problema no tiene un grupo, el grupo del nuevo proyecto es el grupo principal del usuario que está convirtiendo el problema.
+   * Si crea un proyecto convirtiendo un problema, el grupo de un nuevo proyecto es el grupo del proyecto existente del problema. Si el usuario que convierte el problema no tiene acceso al proyecto del problema o si el proyecto del problema no tiene un grupo, el grupo del nuevo proyecto es el grupo de inicio del usuario que convierte el problema.
 
-      Los estados del nuevo proyecto coinciden con los estados de grupo del grupo asociado al proyecto que es el Grupo del proyecto original o el Grupo Principal del usuario que está convirtiendo el problema.
+     Los estados del nuevo proyecto coinciden con los estados de grupo del grupo asociado con el proyecto, que es el Grupo del proyecto original o el Grupo de inicio del usuario que convierte el problema.
 
-      Si utiliza una plantilla cuando esté creando el proyecto convirtiendo el problema, consulte el segundo escenario anterior para comprender qué grupo y qué estado Workfront aplica al nuevo proyecto.
+     Si está utilizando una plantilla al crear el proyecto mediante la conversión del problema, consulte el segundo escenario anterior para comprender qué grupo y qué estado aplica Workfront al nuevo proyecto.
 
-## Crear un proyecto desde cero
+## Creación de un proyecto desde cero
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
-   * Vaya a un portafolio y, a continuación, expanda **Nuevo proyecto**.
+   * Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda. Clic **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
+   * Vaya a un portafolio y amplíe **Nuevo proyecto**.
+   * Vaya a un programa y expanda **Nuevo proyecto**.
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-      >[!TIP]
-      >
-      >Cuando crea un proyecto utilizando una plantilla de un portafolio, el campo Portfolio del nuevo proyecto se actualiza para mostrar el portafolio desde el que eligió crear el proyecto. Esto sobrescribe el campo Portfolio de la plantilla, si se especifica.
+   ![Menú Nuevo proyecto](assets/new-project-dropdown-nwe-350x358.png)
 
-   * Vaya a un programa y, a continuación, expanda **Nuevo proyecto**.
-
-      >[!TIP]
-      >
-      >Cuando crea un proyecto utilizando una plantilla de un programa, se actualiza el campo Program de los nuevos proyectos para mostrar el Programa que ha elegido para crear el proyecto. El campo Portfolio de la plantilla se actualiza para mostrar el portafolio del programa desde el que ha elegido crear el proyecto. Esto sobrescribe los campos Programa y Portfolio de la plantilla, si se especifican.
-
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Creación y modificación de los proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
-
-      >[!TIP]
-      >
-      >Cuando se crea un proyecto con una plantilla de un grupo, el grupo desde el que se crea el proyecto se muestra en el campo Grupo del nuevo proyecto solo cuando no se especifica el campo Grupo de la plantilla. Si se especifica el campo Grupo de plantilla, el campo Grupo del nuevo proyecto es el de la plantilla.
-   ![](assets/new-project-dropdown-nwe-350x358.png)
-
-1. Haga clic en **Nuevo proyecto** si desea crear un proyecto desde cero.
+1. Clic **Nuevo proyecto** en el menú para crear un proyecto desde cero.
 1. Escriba un nombre para el proyecto. Pulse Intro para guardar el nombre.
 
-   ![](assets/untitled-project-rename-new-project-nwe-350x127.png)
+   ![Escriba un nombre para el proyecto](assets/rename-untitled-project.png)
 
-   El encabezado de la página del proyecto muestra información general rápida sobre el estado actual y el progreso de un proyecto. La información del encabezado del proyecto cambia a medida que se actualiza la información del proyecto.
+   El encabezado de la página del proyecto muestra una descripción general rápida del estado y el progreso actuales de un proyecto. La información del encabezado del proyecto cambia a medida que se actualiza la información del proyecto.
 
-1. Haga clic en **Empezar a añadir** **Tareas**.
+1. Clic **Comenzar a agregar tareas**.
 
    O
 
-   Haga clic en **Nueva tarea** para agregar tareas al proyecto y asignarles recursos.\
-   Para obtener más información sobre cómo agregar tareas a un proyecto, consulte [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Clic **Nueva tarea** para agregar tareas al proyecto y asignarles recursos.
 
-1. Edite los detalles del proyecto haciendo clic en el botón **Más menú** y luego **Editar** ![](assets/qs-edit-icon.png) junto al nombre del proyecto.
+   Para obtener más información sobre cómo agregar tareas a un proyecto, consulte [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-   La variable **Editar proyecto** se abre.
+1. Edite los detalles del proyecto haciendo clic en **Más** y luego **Editar** ![](assets/qs-edit-icon.png) junto al nombre del proyecto.
+
+   El **Editar proyecto** se abre el cuadro de diálogo.
 
    Para obtener más información sobre cómo editar un proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Opcional) Después de configurar los ajustes del proyecto y agregar las tareas, puede cambiar el estado del proyecto a **Actual**.
+1. (Opcional) Después de configurar el proyecto y agregar las tareas, puede cambiar el estado del proyecto a **Actual**.
 
-   Esto indica que el proyecto ya está listo para iniciarse y que los usuarios asignados a las tareas ahora pueden empezar a trabajar en ellos.
+   Esto indica que el proyecto está listo para iniciarse y que los usuarios asignados a las tareas pueden empezar a trabajar en él.
 
    Para obtener más información sobre los estados de los proyectos, consulte [Acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
