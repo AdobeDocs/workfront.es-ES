@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ Puede registrar la hora específica del proyecto en Inicio.
 Para obtener información general sobre el uso del área de Inicio, consulte las secciones siguientes:
 
 * Para obtener información sobre el uso del área de Inicio heredada, consulte [Uso del área de Inicio](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Para obtener información sobre el uso de la nueva área de Inicio, consulte [Introducción a la nueva página de inicio en Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Para obtener información sobre el uso de la nueva área de Inicio, consulte [Introducción a la nueva página de inicio](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Registrar tiempo en un elemento de trabajo desde la nueva área de Inicio
 
@@ -390,10 +390,10 @@ Para obtener información general sobre el uso del área de Inicio, consulte las
 
 Puede registrar el tiempo específico de un proyecto, tarea o problema en las siguientes secciones:
 
-* Sección de [Actualizaciones](#updates-section)
+* [Actualiza la sección](#updates-section)
 * [Sección Horas](#hours-section)
 
-#### Sección de Actualizaciones{#updates-section}
+#### Actualiza la sección{#updates-section}
 
 Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o problema, debe tener lo siguiente:
 

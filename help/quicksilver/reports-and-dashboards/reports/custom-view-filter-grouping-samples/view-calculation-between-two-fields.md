@@ -7,9 +7,9 @@ description: Puede utilizar el modo de texto en una columna para mostrar un cál
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Por ejemplo, si desea averiguar la cantidad de días de semana que transcurriero
 Por ejemplo, puede calcular la diferencia de días de semana entre la fecha planificada de finalización y la fecha real de finalización de una tarea y mostrar el resultado en una columna.
 
 Puede utilizar otras dos fechas en este cálculo (inicio real, finalización real, inicio proyectado, finalización proyectada, etc.).\
-Para obtener más información sobre las expresiones de datos calculados, consulte [Expresiones de datos calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obtener más información sobre las expresiones de datos calculados, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Requisitos de acceso
 
@@ -67,7 +67,7 @@ Para agregar esta columna a una vista de tareas:
 
 1. Pase el ratón sobre el área de modo de texto y haga clic en **Haga clic para editar el texto**.
 1. Elimine el texto que encuentre en la **Modo de texto** y reemplácelo por el siguiente código:
-   <pre>displayname=Diferencia de días por semana<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
+   <pre>displayname=Diferencia de días por semana<br>textmode=true<br>valueexpression=WEEKDAYDIFF(){plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 
 1. (Opcional) Para agregar los valores mostrados en la vista en una agrupación, siga los pasos descritos en [Grouping: muestra el resultado de agregar varios valores calculados en una agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Clic **Guardar**, entonces **Guardar vista**.

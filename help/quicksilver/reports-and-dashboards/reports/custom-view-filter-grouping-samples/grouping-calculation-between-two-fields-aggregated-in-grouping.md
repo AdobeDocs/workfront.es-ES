@@ -8,7 +8,7 @@ description: Puede utilizar el modo de texto en una columna para mostrar un cál
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Puede utilizar el modo de texto en una columna para mostrar un cálculo entre dos campos en la vista de un informe o una lista. Cada línea muestra el cálculo para cada objeto en el informe o la lista.
 
-Por ejemplo, puede mostrar la diferencia entre las horas reales y las planificadas en una tercera columna denominada Saldo de trabajo para cada tarea de un informe de tareas. Para obtener más información sobre las expresiones de datos calculados, consulte [Expresiones de datos calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Por ejemplo, puede mostrar la diferencia entre las horas reales y las planificadas en una tercera columna denominada Saldo de trabajo para cada tarea de un informe de tareas. Para obtener más información sobre las expresiones de datos calculados, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Puede mostrar el valor agregado de varios elementos de vista calculados en la misma columna de una agrupación agregando un cálculo a la variable `aggregator` línea de la columna que contiene el valor calculado. Por ejemplo, puede agregar (mostrar la suma de) la cantidad de horas de saldo de trabajo de todas las tareas de la agrupación del informe o de la lista de la columna Saldo de trabajo. Este artículo describe cómo hacerlo.
 

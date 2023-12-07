@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza zonas horarias para calcular campos de hora para objetos y horas en otras áreas, como correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Zona horaria de la actividad de su organización [!DNL Workfront] La instancia d
 * Tiempo mostrado en los correos electrónicos generados por [!DNL Workfront]
 * La zona horaria de los usuarios recién añadidos (antes del [!DNL Workfront] configure un huso horario diferente para ellos (en función de dónde trabajen)
 
-   Para obtener más información sobre estos dos ejemplos, consulte [Configurar la información básica del sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  Para obtener más información sobre estos dos ejemplos, consulte [Configurar la información básica del sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Inicio o final de una tarifa de facturación anulada para un proyecto. Para obtener más información, consulte [Anular tarifas de facturación de rol en el nivel de proyecto](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
@@ -51,13 +51,13 @@ La zona horaria del perfil de usuario debe configurarse para la ubicación donde
 -->
 * Horas de un objeto en el que trabaje, como las horas de inicio y finalización
 
-   Si los usuarios de varias zonas horarias están asignados a un objeto, [!DNL Workfront] convierte las horas del objeto para todos los implicados, utilizando la zona horaria configurada en cada perfil de usuario.
+  Si los usuarios de varias zonas horarias están asignados a un objeto, [!DNL Workfront] convierte las horas del objeto para todos los implicados, utilizando la zona horaria configurada en cada perfil de usuario.
 
-   **Ejemplo:** En la zona horaria estándar del Este (EST) en la que trabaja, establece una tarea para que comience a las 4:00 p.m. y la asigna a los usuarios que trabajan en la zona horaria estándar del Pacífico (PST). Para estos usuarios, la hora de inicio se muestra como 1:00 p.m. Si se mostrara a las 4:00 p.m., empezarían a trabajar con tres horas de retraso.
+  **Ejemplo:** En la zona horaria estándar del Este (EST) en la que trabaja, establece una tarea para que comience a las 4:00 p.m. y la asigna a los usuarios que trabajan en la zona horaria estándar del Pacífico (PST). Para estos usuarios, la hora de inicio se muestra como 1:00 p.m. Si se mostrara a las 4:00 p.m., empezarían a trabajar con tres horas de retraso.
 
-   Si el creador del objeto no observa la diferencia entre las zonas horarias de los usuarios asignados y realiza los ajustes necesarios al establecer las horas del objeto, o si los usuarios asignados no notan esa diferencia, puede ser difícil ajustar la temporización correctamente mientras todos colaboran en el objeto.
+  Si el creador del objeto no observa la diferencia entre las zonas horarias de los usuarios asignados y realiza los ajustes necesarios al establecer las horas del objeto, o si los usuarios asignados no notan esa diferencia, puede ser difícil ajustar la temporización correctamente mientras todos colaboran en el objeto.
 
-   **Ejemplo:** Configura una tarea de un día para que comience a las 9:00 AM EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio es a las 6:00 AM. Debido a que no empezarán a trabajar en él hasta las 9:00 su hora (mediodía su hora), la tarea comienza y finaliza con tres horas de retraso.
+  **Ejemplo:** Configura una tarea de un día para que comience a las 9:00 AM EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio es a las 6:00 AM. Debido a que no empezarán a trabajar en él hasta las 9:00 su hora (mediodía su hora), la tarea comienza y finaliza con tres horas de retraso.
 
 Para obtener información sobre la configuración de la zona horaria en el perfil de usuario, consulte [Configurar mis ajustes](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
@@ -78,29 +78,29 @@ Puede ayudar a los usuarios a trabajar con mayor facilidad en varias zonas horar
 * **[!UICONTROL Proyectos]**: el creador de un proyecto puede seleccionar una programación para un proyecto individual. Esto determina la programación de las tareas del proyecto, en función de las horas de trabajo establecidas para las zonas horarias de los usuarios asignados.
 * **[!UICONTROL Usuarios]**: A [!DNL Workfront] administrador (o alguien con [!UICONTROL Editar] acceso a los usuarios) puede seleccionar una programación para cada usuario en el perfil del usuario.
 
-   Esta programación puede ser diferente de una programación de proyecto. Por ejemplo, cuando alguien crea una tarea en el proyecto y aún no le ha asignado a nadie, la tarea utiliza la programación del proyecto. Cuando se asigna un usuario a la tarea, esta utiliza la programación de ese usuario.
+  Esta programación puede ser diferente de una programación de proyecto. Por ejemplo, cuando alguien crea una tarea en el proyecto y aún no le ha asignado a nadie, la tarea utiliza la programación del proyecto. Cuando se asigna un usuario a la tarea, esta utiliza la programación de ese usuario.
 
-   Si se asignan varios usuarios a una tarea, el sistema utiliza una de las siguientes opciones, según se ha configurado en las preferencias de proyecto para todo el sistema:
+  Si se asignan varios usuarios a una tarea, el sistema utiliza una de las siguientes opciones, según se ha configurado en las preferencias de proyecto para todo el sistema:
 
    * Zona horaria de la programación del propietario principal de la tarea
    * Zona horaria de la programación del proyecto.
 
-   Esto puede hacer que las fechas de las tareas cambien.
+  Esto puede hacer que las fechas de las tareas cambien.
 
-   **Ejemplo:** Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es el mediodía EST. Como al usuario de EST le quedan sólo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
+  **Ejemplo:** Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es el mediodía EST. Como al usuario de EST le quedan sólo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
 
-   Para obtener más información sobre [!UICONTROL Preferencias de proyecto] área de [!UICONTROL Configurar], consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obtener más información sobre [!UICONTROL Preferencias de proyecto] área de [!UICONTROL Configurar], consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   Para obtener instrucciones sobre cómo asignar una programación a un proyecto o a un usuario, consulte [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Para obtener instrucciones sobre cómo asignar una programación a un proyecto o a un usuario, consulte [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Administrar asignaciones de usuarios en [!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Para obtener información sobre cómo la zona horaria configurada en la programación afecta a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Administrar asignaciones de usuarios en [!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Uso de campos de tiempo calculado en un formulario personalizado {#use-calculated-time-fields-in-a-custom-form}
 
 Puede utilizar una serie de campos personalizados calculados en un formulario personalizado para mostrar la hora actual de los usuarios de su organización, como una fila de relojes de aeropuerto que muestran la hora en varias ciudades. Puede crear un campo para cada una de las zonas horarias en las que trabajen los usuarios, cada una de las cuales calculará la hora de su zona horaria.
 
-Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), así como la sección [Campos personalizados calculados por fecha y hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) en el artículo [Expresiones de datos calculadas](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), así como la sección [Campos personalizados calculados por fecha y hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) en el artículo [Resumen de las expresiones de datos calculados](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Utilice campos de texto en lugar de campos de fecha en un formulario personalizado {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

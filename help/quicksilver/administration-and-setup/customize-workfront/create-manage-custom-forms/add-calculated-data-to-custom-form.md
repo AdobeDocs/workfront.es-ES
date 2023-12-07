@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
    >
    >En este ejemplo, `SUB` es la expresión y los campos a los que se hace referencia son `actualRevenue` y `actualCost`.
 
-   Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto. Para obtener información sobre las expresiones disponibles, consulte [Expresiones de datos calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto. Para obtener información sobre las expresiones disponibles, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Cada campo debe estar comprendido entre llaves, tal como se explica en la sección [Sintaxis requerida en los campos personalizados calculados](#syntax-required-in-calculated-custom-fields) en este artículo. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.
 
@@ -138,7 +138,7 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
    >
    >Puede realizar cualquiera de las siguientes acciones para obtener ayuda con el cálculo:
    > 
-   >* Pase el ratón sobre una expresión del cálculo para ver una descripción, un ejemplo que muestre cómo se puede utilizar y un vínculo &quot;Más información&quot; para obtener más información en el artículo [Expresiones de datos calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Pase el ratón sobre una expresión del cálculo para ver una descripción, un ejemplo que muestre cómo se puede utilizar y un vínculo &quot;Más información&quot; para obtener más información en el artículo [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Utilice la codificación de color para identificar los componentes que ha añadido. Las expresiones se muestran en azul y los campos en verde.
    >  ![](assets/colors-fields-expressions.jpg)

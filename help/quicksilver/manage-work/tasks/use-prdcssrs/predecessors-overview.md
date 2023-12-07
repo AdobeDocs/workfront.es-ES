@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Información general sobre predecesoras de tareas
-description: Una tarea predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras.
+description: Una predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Una tarea predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras. Para comprender las dependencias de predecesoras, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Una predecesora es la tarea de la que depende otra tarea (denominada tarea sucesora o dependiente). Adobe Workfront admite cinco tipos de dependencias de predecesoras. Para comprender las dependencias de predecesoras, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Información general sobre predecesoras
 
 Es importante comprender la funcionalidad de predecesoras para comprender las escalas de tiempo de los proyectos.
 
-Las relaciones de predecesoras entre tareas existen tanto dentro de un único proyecto como entre varios proyectos.
+Las relaciones de predecesoras de tareas existen tanto entre tareas de un mismo proyecto como entre tareas de distintos proyectos.
 
-En el caso de dependencia entre proyectos, puede establecer predecesoras entre proyectos.
+En el caso de dependencia entre proyectos, puede establecer predecesoras entre proyectos entre tareas de dos proyectos diferentes.
 
-Tanto si las tareas predecesoras como sucesoras pertenecen al mismo proyecto o a dos proyectos diferentes, las dependencias y las escalas de tiempo se calculan del mismo modo.
+Tanto si las tareas predecesoras como sucesoras pertenecen al mismo proyecto o a dos proyectos diferentes, las dependencias y las escalas de tiempo de cada proyecto se calculan de la misma manera.
 
 En el caso de las tareas predecesoras, la cronología del proyecto se ve afectada por lo siguiente:
 
@@ -38,15 +38,19 @@ En el caso de las tareas predecesoras, la cronología del proyecto se ve afectad
 * Valor de retardo y tipo\
   Para obtener más información sobre la dependencia y los retardos, consulte [Ejemplos de valores de predecesoras en una lista de tareas](#examples-of-predecessor-values-in-a-task-list).
 
-Por ejemplo, si la tarea A es la predecesora de la tarea B en una relación fin-comienzo y la tarea B tiene una delimitación de tarea de Lo antes posible, Workfront asigna a la tarea B una fecha de comienzo planificada inmediatamente después de la fecha de finalización planificada de la tarea A, independientemente de si la predecesora se aplica o no.
+  Por ejemplo, si la tarea A es la predecesora de la tarea B en una relación fin-comienzo y la tarea B tiene una delimitación de tarea de Lo antes posible, Workfront asigna a la tarea B una fecha de comienzo planificada inmediatamente después de la fecha de finalización planificada de la tarea A, independientemente de si la predecesora se aplica o no.
 
 Para comprender las relaciones de predecesoras, debe comprender lo siguiente:
 
 * **Tipos de dependencias:** Las predecesoras están vinculadas por varios tipos de dependencias. Para obtener más información sobre los tipos de dependencia, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Aplicar un predecesor:** Al aplicar una tarea predecesora, la tarea sucesora no puede comenzar hasta que la predecesora finalice. La tarea sucesora se muestra como iniciándose inmediatamente después de que finalice la predecesora.
+* **Aplicar un predecesor:** Al aplicar una tarea predecesora, la tarea sucesora no se puede iniciar hasta que la predecesora finalice. La tarea sucesora se muestra como iniciándose inmediatamente después de que finalice la predecesora.
 
-  Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea predecesora. Sin embargo, Workfront permite que se informe de las horas de la tarea.\
+  Cuando la tarea predecesora no se completa (o inicia) y no se aplica, la tarea sucesora puede comenzar, pero la cronología del proyecto se ve afectada por las fechas de las tareas predecesoras y sucesoras.
+
+  Con un predecesor forzado, Workfront no permite que la tarea sucesora se marque como En curso o Completada hasta que se complete el predecesor.
+
+  Sin embargo, Workfront permite que se informe de las horas de la tarea.\
   Para obtener más información sobre cómo aplicar predecesoras, consulte [Forzar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Desfases:** Puede crear retardos en las dependencias que crean un retraso que debe producirse después de la finalización de una tarea predecesora y antes de que pueda comenzar la tarea sucesora. Los retrasos afectan a la cronología del proyecto.
@@ -104,7 +108,7 @@ Cuando vea predecesoras en una lista de tareas, puede que vea cualquiera de los 
 
   >[!NOTE]
   >
-  >El valor obligatorio (**e**) se debe agregar al retardo, no al predecesor.
+  >Debe agregar el valor obligatorio (**e**) al modelo Lag, y no al predecesor.
 
 * **4515:2** El número de tarea predecesora es 2. - Es una dependencia de tipo Fin a comienzo, no forzada, con el predecesor en el proyecto con número de referencia **4515**.
 

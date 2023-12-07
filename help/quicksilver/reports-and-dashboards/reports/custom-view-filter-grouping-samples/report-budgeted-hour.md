@@ -7,9 +7,9 @@ description: "Informe: Hora presupuestada"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    Esto redondea el número de horas presupuestadas al número de decimales que especifique.
 
-   Para obtener información sobre cómo redondear un número en Workfront, consulte el artículo [Expresiones de datos calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obtener información sobre cómo redondear un número en Workfront, consulte el artículo [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Opcional) Haga clic en **Agregar columna** para añadir columnas adicionales.
 1. (Opcional) Para que el informe sea más fácil de leer, le recomendamos que le agregue una agrupación. Sugerimos la siguiente agrupación:
