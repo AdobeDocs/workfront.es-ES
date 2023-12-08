@@ -7,9 +7,9 @@ description: Puede utilizar operadores de condición o modificadores al crear da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -55,27 +55,27 @@ Puede utilizar los siguientes modificadores de condición en Workfront:
   <tr> 
    <td>Igual (no distingue mayúsculas y minúsculas)</td> 
    <td>= </td> 
-   <td> <p>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es igual al segundo campo.</p> <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"En seguimiento","Fuera de seguimiento")</pre> </td> 
+   <td> <p>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es igual al segundo campo.</p> <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>Mayor que </td> 
    <td>&gt; </td> 
-   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es mayor que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</pre></td> 
+   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es mayor que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Mayor o igual que </td> 
    <td>&gt;= </td> 
-   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es mayor o igual que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</pre></td> 
+   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es mayor o igual que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>Menor que </td> 
    <td>&lt; </td> 
-   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es menor que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</pre></td> 
+   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es menor que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Menor o igual que </td> 
    <td>&lt;= </td> 
-   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es menor o igual que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</pre></td> 
+   <td>Utilice este operador para indicar que la condición se cumple cuando el primer campo de la instrucción es menor o igual que el segundo campo. <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que compare la fecha planificada de finalización con la fecha proyectada de finalización de una tarea: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Does not </td> 
@@ -95,12 +95,12 @@ Puede utilizar los siguientes modificadores de condición en Workfront:
   <tr> 
    <td>O </td> 
    <td>|| </td> 
-   <td> <p>Utilice este operador para indicar que la condición se cumple cuando la expresión encuentra el primer o el segundo valor de la instrucción. </p> <p>Por ejemplo, utilice la instrucción siguiente en un campo personalizado calculado para generar una instrucción "IF" que marque los proyectos en los estados Actual o Planificación como "Activo": </p><pre>IF({status}="PLN"||{status}="CUR","Activo","No activo")</pre> </td> 
+   <td> <p>Utilice este operador para indicar que la condición se cumple cuando la expresión encuentra el primer o el segundo valor de la instrucción. </p> <p>Por ejemplo, utilice la instrucción siguiente en un campo personalizado calculado para generar una instrucción "IF" que marque los proyectos en los estados Actual o Planificación como "Activo": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> Y </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Utilice este operador para indicar que la condición se cumple cuando la expresión encuentra un elemento que cumple dos condiciones al mismo tiempo. </p> <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que encuentre proyectos que están en estado Actual y tienen una Condición de Riesgo y los marque como "Mediación necesaria". </p><pre>IF({status}="CUR"&amp;&amp;&amp;{condition}="AR","Mediación necesaria",""))</pre> </td> 
+   <td> <p>Utilice este operador para indicar que la condición se cumple cuando la expresión encuentra un elemento que cumple dos condiciones al mismo tiempo. </p> <p>Por ejemplo, utilice la siguiente instrucción en un campo personalizado calculado para generar una instrucción "IF" que encuentre proyectos que están en estado Actual y tienen una Condición de Riesgo y los marque como "Mediación necesaria". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

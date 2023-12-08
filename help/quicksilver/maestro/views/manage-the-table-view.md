@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2085'
 ht-degree: 3%
 
 ---
@@ -128,6 +128,21 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](../fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página Detalles de los registros del tipo de registro seleccionado.
+
+<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
+
+    (******add screen shot*****)
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
+
+    >[!NOTE]
+    >
+    >    Only fields of the following types can be primary fields: 
+
+        * Single-line text
+        * Number
+        * Formula -->
+
 
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 

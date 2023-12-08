@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ Puede editar un registro desde las siguientes áreas:
 
 1. Clic **Guardar cambios**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Editar un registro desde la vista de tabla de tipo de registro
+### Editar un registro desde la vista de tabla de un tipo de registro
 
 1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ Puede editar un registro desde las siguientes áreas:
    >
    >  No puede editar la información de los siguientes campos, ya que son de solo lectura y Workfront los actualiza automáticamente:
    >  
-   >  * Campos vinculados que se crean vinculando tipos de registros
+   >  * Campos vinculados que se crean conectando tipos de registro. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
 
@@ -225,11 +225,12 @@ Puede editar un registro desde las siguientes áreas:
    >
    >* No puede copiar información de otro origen que no sea un campo Maestro del mismo tipo que el campo en el que pega la información.
    >
-   >* No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
+   >* No se pueden copiar y pegar valores de campo en el área de Detalles de un registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
-   ><ul>
    >
-   > * Campos del sistema
+   >
+   >    * Campos vinculados que se crean conectando tipos de registro. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+   >    * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

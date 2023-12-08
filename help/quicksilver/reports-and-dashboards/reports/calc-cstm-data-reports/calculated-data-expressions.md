@@ -7,7 +7,7 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ Por ejemplo:
 
 * En un campo personalizado, en un formulario personalizado para tareas, debe utilizar lo siguiente para generar el nombre del proyecto principal de la tarea donde se adjunta el formulario personalizado:
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * En una columna personalizada de un informe, utilizaría lo siguiente para agregar una columna personalizada Nombre del proyecto en un informe de tareas:
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   O
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >
