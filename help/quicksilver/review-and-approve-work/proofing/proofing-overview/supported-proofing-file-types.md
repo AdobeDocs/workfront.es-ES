@@ -7,9 +7,9 @@ description: Puede compartir y revisar varios tipos de archivos con los revisore
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
+source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

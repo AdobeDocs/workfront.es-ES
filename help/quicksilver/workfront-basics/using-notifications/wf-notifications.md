@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Notificaciones de Adobe Workfront
+title: Resumen de notificaciones
 description: Adobe Workfront envía notificaciones por correo electrónico, notificaciones en la aplicación y notificaciones en su dispositivo móvil.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] notificaciones
+# Resumen de notificaciones
 
 [!DNL Adobe Workfront] envía notificaciones por correo electrónico, notificaciones en la aplicación y notificaciones en su dispositivo móvil.
 
 ## Notificaciones por correo electrónico
 
-[!DNL Workfront] envía una serie de notificaciones por correo electrónico para alertar a los usuarios sobre la actividad en Workfront y proporcionar información y vínculos útiles.
+[!DNL Workfront] envía notificaciones por correo electrónico para alertar a los usuarios sobre la actividad en Workfront y proporcionar información y vínculos útiles.
 
 Para cambiar las preferencias de las notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ Puede recibir las siguientes notificaciones por correo electrónico de [!DNL Wor
 
 ### Notificaciones de eventos
 
-Las notificaciones de eventos están predefinidas en [!DNL Workfront]. Por lo general, se activan debido a ciertos eventos.
+Las notificaciones de eventos generalmente se activan debido a ciertos eventos predefinidos, como tener una tarea asignada o obtener una respuesta a un comentario que ha realizado.
 
-Una vez que su equipo activa las notificaciones de eventos [!DNL Workfront] administrador o administrador del grupo, puede seleccionar cuáles desea recibir editando su [!UICONTROL Notificaciones] preferencias en el perfil de usuario. También puede elegir si desea recibir notificaciones cuando se produzcan eventos o si desea recibir eventos resumidos en un correo electrónico de resumen diario.
+Después de activar las notificaciones de eventos en su [!DNL Workfront] sistema por su [!DNL Workfront] administrador o administrador del grupo, puede seleccionar cuáles desea recibir editando su [!UICONTROL Notificaciones] preferencias en el perfil de usuario. También puede elegir si desea recibir notificaciones cuando se produzcan eventos o si desea recibir eventos resumidos en un correo electrónico de resumen diario.
 
-Según la forma en que [!DNL Workfront] el administrador ha configurado las notificaciones de eventos para su [!DNL Workfront] sistema (como se describe en [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), es posible que solo vea un subconjunto de estas notificaciones en la configuración.
+Es posible que solo vea un subconjunto de estas notificaciones en la configuración, según la forma en que [!DNL Workfront] el administrador ha configurado las notificaciones de eventos para su [!DNL Workfront] sistema. Para obtener más información, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 El estado predeterminado muestra qué notificaciones (diarias, instantáneas o ambas) están habilitadas de forma predeterminada para los nuevos usuarios cuando los crea.
 
@@ -56,6 +56,8 @@ Para obtener información sobre cómo elegir qué notificaciones de eventos dese
 >Las notificaciones de eventos son las únicas notificaciones que se pueden configurar para que se entreguen en las actualizaciones diarias de resumen.
 
 ### Notificaciones de resumen diario
+
+Una notificación de resumen diaria es un correo electrónico que contiene todas las notificaciones de un tipo determinado que recibió en las 24 horas anteriores al correo electrónico.
 
 Para obtener una lista completa de las notificaciones por correo electrónico que se han habilitado para una entrega de correo electrónico de resumen diario, así como información sobre todas las categorías de notificaciones por correo electrónico, consulte [Notificaciones de eventos](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ Al recibir notificaciones de resumen diario, hay que tener en cuenta varios aspe
 
   Para el **[!UICONTROL Comunicación]** , las notificaciones se agrupan por el objeto donde se produjo la comunicación.
 
+  >[!NOTE]
+  >
+  >En la categoría Comunicación, puede seleccionar notificaciones individuales solo para envío instantáneo. Para que las notificaciones se envíen en un resumen diario, debe seleccionarlas todas.
+
 * El correo electrónico de resumen diario enumera los eventos que se produjeron para las acciones en una área en particular (como **Información sobre proyectos de mi propiedad**) dentro de las 24 horas anteriores a la hora elegida para la entrega.
 * La zona horaria de la hora seleccionada para la entrega de compendio diario coincide con la zona horaria, tal como está configurada en el explorador.
 * Los correos electrónicos de resumen diario tienen el nombre de la sección en la línea de asunto, así como la fecha en la que se envían.
@@ -85,13 +91,15 @@ Correos electrónicos de resumen diario para [!UICONTROL Comunicación] se selec
 
 La información se resume para el objeto donde se produjo la comunicación y se muestra un número total de mensajes de comunicación para cada objeto.
 
-Para obtener más información sobre la configuración de notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para responder al comentario o verlo en Workfront:
 
-Para obtener instrucciones sobre cómo comentar [!UICONTROL Comunicación] correos electrónicos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Haga clic en **[!UICONTROL Comentario]** en el correo electrónico.
 
-Para obtener más información acerca de [!UICONTROL Comunicación] correos electrónicos, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   El [!UICONTROL Actualizaciones] El área del objeto se abre, con el comentario específico delineado en azul.
 
-Para obtener más información sobre cómo activar las notificaciones de resumen diario, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Hay un cuadro de respuesta abierto, que puede utilizar para responder al comentario.
+
+Para obtener más información sobre la configuración de notificaciones por correo electrónico, incluida la activación de notificaciones de resumen diario, consulte [Ver y modificar la configuración de las notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Recordatorios automáticos
 
@@ -101,7 +109,7 @@ Se pueden enviar a una o más de las siguientes opciones:
 
 * Los usuarios asignados a una tarea o un problema
 * El responsable inmediato del usuario
-* El administrador del administrador inmediato
+* El gerente del gerente inmediato
 
 Los correos electrónicos de recordatorio automático se envían desde la dirección de correo electrónico que su [!DNL Workfront] administrador seleccionado para gestionar correos electrónicos salientes.
 
@@ -120,7 +128,7 @@ Para obtener información sobre cómo activar los recordatorios automáticos, co
 
 ### Notificaciones de recordatorio
 
-A [!DNL Workfront] administrador (o un usuario con un [!UICONTROL Planificador] nivel de acceso y acceso administrativo a las notificaciones de recordatorio) puede diseñar notificaciones de recordatorio sobre los plazos previstos y adjuntarlas a proyectos, tareas, problemas y plantillas de horas. Para obtener más información sobre cómo obtener el acceso administrativo necesario, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] administrador (o un usuario con un [!UICONTROL Planificador] nivel de acceso y acceso administrativo a las notificaciones de recordatorio) puede diseñar notificaciones de recordatorio sobre la inminencia de los plazos y asociarlas manualmente a proyectos, tareas, problemas y hojas de horas.
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ Las notificaciones de recordatorio se envían desde la dirección de correo elec
 
 Para obtener información sobre cómo configurar y habilitar las notificaciones de recordatorio, consulte [Configuración de notificaciones de recordatorio](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+Para obtener información sobre cómo obtener el acceso administrativo necesario, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### Notificaciones de tableros
 
-[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta.
+[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta. Puede seleccionar qué correos electrónicos desea recibir en las preferencias de sus tableros.
 
-Puede seleccionar qué correos electrónicos desea recibir en las preferencias de sus tableros. Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de Tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de Tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Otros [!DNL Workfront] correos electrónicos
 
-Hay otros correos electrónicos que podría recibir de [!DNL Workfront] que no se puede configurar. Los siguientes correos electrónicos los envía automáticamente [!DNL Workfront] cuando se cumplan estas condiciones:
+Hay otros correos electrónicos que podría recibir de [!DNL Workfront] que no se puede configurar.
+
+Los siguientes correos electrónicos los envía automáticamente [!DNL Workfront] cuando se cumplan estas condiciones:
 
 * Restaurar un elemento: cuando la variable [!DNL Workfront] El administrador restaura un objeto desde el [!UICONTROL Reciclar] Bin, se envía un correo electrónico a [!DNL Workfront] administrador.
 * No se pudo restaurar: cuando [!DNL Workfront] El administrador intenta restaurar un objeto desde la papelera de reciclaje y la restauración falla, se envía un correo electrónico a [!DNL Workfront] administrador.
@@ -164,8 +176,8 @@ Si tiene el [!DNL Workfront] Aplicación móvil instalada en el teléfono, al pu
 * [!UICONTROL Comentario]
 * [!UICONTROL Tomar decisión de aprobación]
 * [!UICONTROL Ver todas las notificaciones]
-* [!UICONTROL Agregar]
-* [!UICONTROL Comenzar]
-* [!UICONTROL Mostrar más detalles]
+* [!UICONTROL Añadir]
+* [!UICONTROL Primeros pasos]
+* [!UICONTROL Ver más detalles]
 
 Para obtener más información sobre [!DNL Workfront] Aplicación móvil, consulte [Utilice el [!DNL Adobe Workfront] aplicación móvil](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

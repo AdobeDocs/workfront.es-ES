@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. A medida que trabaja con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que conceden los usuarios cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte
+Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. A medida que trabaja con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que conceden los usuarios cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte:
 
 * [Información general sobre nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Tasas de cambio</td> 
-      <td> <p>Añada una nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario puede agregar una moneda existente solo a un proyecto que cree.</p> </td> 
+      <td> Añada una nueva moneda en Workfront. <p>Sin este acceso, el usuario puede agregar una moneda existente solo a un proyecto que cree.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gastos</td> 
@@ -118,13 +118,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Roles</td> 
-      <td> <p>Con este acceso, el usuario puede hacer lo siguiente:</p> 
+      <td> Con este acceso, el usuario puede hacer lo siguiente: 
        <ul> 
         <li>Ver y editar los puestos de trabajo existentes</li> 
         <li>Agregar nuevos roles</li> 
         <li>Editar tarifas de facturación y de costo de rol</li> 
        </ul> 
-       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario de Standard o Planner con acceso administrativo a las funciones del puesto, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuarios estándar o planificadores con acceso administrativo a los roles</a>.</p>
+       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario de Standard o Planner con acceso administrativo a las funciones del puesto, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuarios estándar o planificadores con acceso administrativo a los roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Hojas de horas y horas</td> 
-      <td> <p>Los administradores de grupos pueden asignar perfiles de hojas de horas a los usuarios en los grupos y subgrupos que administran.</p> <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de hojas de horas a otros usuarios en los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con licencia estándar o de planificación pueden ver todas las horas y hojas de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas de:</p> 
+      <td> Los administradores de grupos pueden asignar perfiles de hojas de horas a los usuarios en los grupos y subgrupos que administran. <p>Sin esta opción habilitada, los administradores de grupos no pueden asignar perfiles de hojas de horas a otros usuarios en los grupos y subgrupos que administran, aunque sí pueden crearlos.</p> <p>Todos los demás usuarios con licencia estándar o de planificación pueden ver todas las horas y hojas de horas en Workfront.</p> <p>Sin esta opción habilitada, los usuarios solo pueden ver las horas de:</p> 
        <ul> 
         <li>Proyectos, tareas o problemas que administran</li> 
         <li>Su propia hoja de horas</li> 
@@ -168,11 +168,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente las actualizaciones en las cuales se les haya incluido en la conversación</td> 
-      <td> <p>Permite a los usuarios ver solo comentarios donde se ha incluido su nombre o el nombre de su equipo.</p> <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a los elementos de Workfront. Para obtener más información sobre la suscripción a elementos, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adición de usuarios</a>.</p> </p> </td> 
+      <td> Permite a los usuarios ver solo comentarios donde se ha incluido su nombre o el nombre de su equipo. <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a los elementos de Workfront. Para obtener más información sobre la suscripción a elementos, consulte <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Suscribirse a elementos en Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que los usuarios eliminen comentarios </td> 
-      <td> <p>Impide que los usuarios eliminen los comentarios que realizan sobre los elementos. </p> <p><b>NOTA</b>: Nadie puede eliminar los comentarios de otros usuarios.</p> </td> 
+      <td> Impide que los usuarios eliminen los comentarios que realizan sobre los elementos.  <p><b>NOTA</b>: Nadie puede eliminar los comentarios de otros usuarios.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente compañías, grupos y equipos a los que pertenecen</td> 
@@ -191,7 +191,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Condicional y opcional) Si el sistema Workfront está configurado para usuarios que pertenecen a varias empresas, limite la visibilidad a otros usuarios en función de la empresa a la que pertenezcan en la sección **Las personas de otras empresas solo deben ver a los usuarios de**.
 
-   Puede restringir el acceso de los usuarios para que solo vean usuarios de su propia compañía o de la compañía que designó como compañía principal. Para obtener más información sobre la empresa principal, consulte [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Puede restringir el acceso de los usuarios para que solo vean usuarios de su propia compañía o de la compañía que designó como compañía principal. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios. Para obtener más información sobre la empresa principal, consulte [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

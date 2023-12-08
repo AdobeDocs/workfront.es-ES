@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <ul><li>Revise o superior para registrar horas generales en una hoja de horas</li>
-   <li> Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul>
+   <td> <p>Nuevo plan:<ul><li>Normal o superior para registrar horas generales en una hoja de horas</li></p>
+   <li> Estándar o superior para registrar horas en un proyecto, tarea o problema</li></ul></p>
+   <p>o</p>
+   <p>Plan actual:<ul><li>Revise o superior para registrar horas generales en una hoja de horas</li></p>
+   <li> Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
 * Las entradas de horas que se incluyen en los registros de facturación facturados aparecen atenuadas y no se pueden editar en la hoja de horas. Para obtener más información, consulte [Crear registros de facturación](../../manage-work/projects/project-finances/create-billing-records.md).
 * Las tareas personales no se muestran en la plantilla de horas de forma predeterminada. Las tareas personales solo se muestran en la plantilla de horas cuando se ha registrado tiempo. Después de registrar el tiempo de una tarea personal, puede anclar la tarea a la plantilla de horas y permanecerá en ella si permanece anclada. Para obtener más información, consulte [Crear elementos de trabajo desde el área de Inicio](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Hora de registro
+## Hora de registro {#log-time-section}
 
 Puede registrar el tiempo en las siguientes áreas de Workfront:
 
@@ -136,7 +139,7 @@ Puede registrar el tiempo en los siguientes elementos de la plantilla de horas:
 
 Para registrar tiempo en una hoja de horas:
 
-1. Haga clic en [!UICONTROL **Menú principal**] icono ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/lines-main-menu.png) en la esquina superior izquierda de Workfront, si está disponible.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
 1. Clic [!UICONTROL **Plantillas de horas**]. La hoja de horas actual se muestra de forma predeterminada.
    ![Hoja de horas](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Para registrar tiempo en una hoja de horas:
 1. (Opcional) Expanda los menús desplegables de filtro, vista o agrupación para aplicar o personalizar uno y ver la información del elemento que desee.
 
 1. Seleccione uno o varios elementos de la lista y haga clic en **Añadir**.
+
+   Si ha agregado menos de 50 elementos al mismo tiempo, los elementos se agregarán a la hoja de horas. Las tareas y los problemas se enumeran con el nombre del proyecto.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Para registrar tiempo en una hoja de horas:
 
    ![Menú desplegable de tipo de hora](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Según el sistema operativo o el navegador y cuando utilice un teclado QWERTY estándar, pulse el siguiente conjunto de teclas para añadir otra fila:
@@ -231,7 +237,6 @@ Para registrar tiempo en una hoja de horas:
    >   Según el sistema operativo o el navegador y cuando utilice un teclado QWERTY estándar, pulse el siguiente conjunto de teclas para eliminar una fila:
    >   * Ctrl + Opción + - para equipos con Windows
    >   * Cmd + Opción + - para equipos Mac
-
 
 1. Especifique la cantidad de tiempo que desea registrar en un día determinado en la sección de cronología de la plantilla de horas y, a continuación, haga clic fuera del cuadro de hora para guardar la entrada de hora. Las horas se guardan automáticamente. La fila para la que se registra el tiempo se resalta en azul claro y el cuadro de entrada de hora se resalta en azul oscuro.
 
@@ -299,6 +304,8 @@ Para registrar tiempo en una hoja de horas:
 1. (Opcional) Haga clic en [!UICONTROL **Actualizaciones**] en el panel izquierdo y, a continuación, añada una actualización a la plantilla de horas. Para obtener más información sobre las actualizaciones de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Opcional) Vuelva a la **Hoja de horas** para cerrar o enviar su hoja de horas.
 
    * **Cerrar**: cierre la plantilla de horas cuando haya terminado de actualizarla. Esta opción solo está disponible cuando la plantilla de horas no está asociada a un aprobador.
 

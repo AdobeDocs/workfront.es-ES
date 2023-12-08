@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
 workflow-type: tm+mt
-source-wordcount: '13778'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -877,7 +877,7 @@ ht-degree: 1%
       * [Administrar formularios personalizados adjuntos a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificaciones {#use-notifications}
       * [Usar notificaciones](workfront-basics/using-notifications/use-notifications.md)
-      * [Notificaciones de Adobe Workfront](workfront-basics/using-notifications/wf-notifications.md)
+      * [Resumen de notificaciones](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar sus propias notificaciones por correo electrónico](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Suscribirse a elementos en Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [Resumen de notificaciones en la aplicación](workfront-basics/using-notifications/in-app-notifications-overview.md)

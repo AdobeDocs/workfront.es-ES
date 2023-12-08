@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obtener información y consideraciones sobre el modo de texto antes de come
 
 Para obtener una lista completa de todos los campos de los que se puede realizar informes y sus atributos, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
 
-Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, consulte la sección Más información del sitio de Adobe Experience League.
+Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, visite la sección Más información en el sitio de Adobe Experience League.
 
 ## Consideraciones sobre la sintaxis del modo de texto
 
@@ -99,14 +99,14 @@ Existen las siguientes similitudes entre la sintaxis de los conjuntos de element
 
 ### Sintaxis para vistas y agrupaciones
 
-Puede observar que las líneas de código al crear vistas y agrupaciones son similares.
+Las líneas de código al crear vistas y agrupaciones son similares.
 
 Para obtener información sobre la creación de vistas y agrupaciones, consulte los siguientes artículos:
 
 * [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-La línea de código más importante para una vista o una agrupación es la línea que identifica el objeto al que se hace referencia en la columna o la agrupación de la vista. Dependiendo de si este campo es una referencia directa a un campo de base de datos de Workfront o un cálculo entre varios campos, la línea de código puede comenzar por `valuefield` o `valueexpression`
+La línea de código más importante para una vista o una agrupación es la línea que identifica el objeto al que se hace referencia en la columna de la vista o en la agrupación. Esta línea de código puede comenzar con `valuefield` o `valueexpression` en función de si este campo es una referencia directa a un campo de base de datos de Workfront o un cálculo entre varios campos.
 
 En la tabla siguiente se enumeran las líneas de códigos más comunes de una vista o agrupación:
 
@@ -216,13 +216,11 @@ Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las
 
 #### `Valueformat` información general sobre vistas y agrupaciones
 
-La segunda línea de código más importante de una vista o agrupación es la siguiente `valueformat=` línea. Esto indica a Workfront en qué formato debe devolver el valor especificado en la variable
-`valuefield` o líneas de expresión de valor. Aunque puede utilizar varios formatos para `valueformat` líneas, recomendamos que siempre utilice el siguiente valor al utilizar
-`valueexpression`:
+La segunda línea de código más importante de una vista o agrupación es la siguiente `valueformat=` línea. Esto indica a Workfront en qué formato debe devolver el valor especificado en la variable `valuefield` o `valueexpression` líneas. Aunque puede utilizar varios formatos para `valueformat` líneas, recomendamos que siempre utilice el siguiente valor al utilizar `valueexpression`:
 
 `valueformat=HTML`
 
-Para obtener información adicional `valueformats` Consulte también los artículos siguientes:
+Para obtener información adicional `valueformat` Consulte también los artículos siguientes:
 
 * [Formato de fechas en informes de modo de texto](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formato de números, moneda y valores de porcentaje en los informes de modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
