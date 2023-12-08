@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 6%
+source-wordcount: '833'
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Habilitar proceso de revisión rápido</p> </td> 
-      <td>Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de liberación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activar o desactivar las versiones rápidas para su organización</a>.</p></td> 
+      <td>Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de liberación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Activar o desactivar las versiones rápidas para su organización</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir incrustación de <strong>Workfront</strong> en un iframe</p> </td> 
@@ -98,7 +98,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
        </ul><p>Esta opción está habilitada de forma predeterminada.</p> <p><b>Importante</b>: el nivel de acceso de usuario externo no está disponible en la instancia de Workfront si esta opción está desactivada. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveles de acceso integrados en Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Requiera que los usuarios externos se registren con una contraseña</td> 
+      <td role="rowheader">Requerir que los usuarios externos se registren con una contraseña</td> 
       <td> <p>Requiere que los usuarios externos se registren antes de poder ver los elementos en Workfront. Esta opción está desactivada de forma predeterminada. Al habilitar esta opción, se solicitará a las personas sin cuenta de Workfront incluidas en determinadas actualizaciones por su dirección de correo electrónico que creen una cuenta antes de poder ver el artículo en el que están incluidas. Esto crea una cuenta de usuario externo para ellos.</p> <p>Esta opción está desactivada de forma predeterminada.</p> </td> 
      </tr> 
      <tr> 
