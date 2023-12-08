@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ El tipo de duración de una tarea identifica la relación entre el número de re
 
 ## Resumen de duración de tarea
 
->[!NOTE]
->
->Al tener en cuenta el tiempo libre de la persona asignada principal en un proyecto, las fechas planificadas de la tarea podrían ajustarse, pero la duración de la tarea sigue siendo la misma. Para obtener información sobre cómo tener en cuenta el tiempo libre de la persona asignada principal al planificar un proyecto, consulte  [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Si las Fechas de inicio y finalización reales de la tarea quedan fuera de la programación del proyecto, de la persona asignada principal o del Horario predeterminado, la duración de la tarea es cero.
 
 **Ejemplo:** Si tiene una programación que comienza a las 9:00 AM y finaliza a las 12:00 PM y una tarea que está programada para comenzar a las 2:00 PM y finalizar a las 4:00 PM, la duración de la tarea es cero.
 
-A continuación se indican dos escenarios que existen al calcular la duración en Adobe Workfront.
+A continuación se indican dos escenarios que existen al calcular la duración en Adobe Workfront:
 
-* Si la tarea está asignada a un usuario, Workfront utiliza una de las siguientes programaciones, en este orden exacto para calcular la duración:
+* Si la tarea está asignada a un Workfront de usuario, utiliza una de las siguientes programaciones, en este orden exacto para calcular la duración:
 
    1. Workfront tiene en cuenta la programación del usuario.
    1. Si el usuario no está asociado a una programación, Workfront tiene en cuenta la programación del proyecto.
@@ -41,11 +37,15 @@ A continuación se indican dos escenarios que existen al calcular la duración e
 
 * Si la tarea está asignada a varios usuarios:
 
-  Workfront tiene en cuenta la programación del proyecto o la del usuario asignado principal.
+   1. Workfront tiene en cuenta la programación del proyecto o la del usuario asignado principal.
 
   El administrador de Workfront determina qué programación utiliza Workfront cuando una tarea se asigna a varios usuarios. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   Los pasos son similares al primer escenario después de comprender qué programación utiliza Workfront para calcular la duración.
+
+>[!NOTE]
+>
+>Al tener en cuenta el tiempo libre de la persona asignada principal en un proyecto, las fechas planificadas de la tarea podrían ajustarse, pero la duración de la tarea sigue siendo la misma. Para obtener información sobre cómo tener en cuenta el tiempo libre de la persona asignada principal al planificar un proyecto, consulte  [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Unidades de tiempo para la duración de la tarea
 
@@ -94,7 +94,7 @@ Tipo de duración ayuda a responder a las siguientes preguntas:
 * ¿Qué tan grande es el trabajo?
 * ¿Cuánto tiempo va a tomar?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definir tipos de duración
 
@@ -104,7 +104,7 @@ Tipo de duración ayuda a responder a las siguientes preguntas:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Tipo de duración </th> 
+   <th scope="row"><p><strong>Tipo de duración</strong></p></th> 
    <th scope="col"> <p><strong>Función</strong> </p> </th> 
    <th scope="col"> <p><strong>Cómo le afectan los recursos</strong> </p> </th> 
   </tr> 
@@ -121,7 +121,7 @@ Tipo de duración ayuda a responder a las siguientes preguntas:
    <td scope="col"> <p>Las horas planificadas aumentan cuando se añaden usuarios asignados a la tarea. </p> <p>Las horas planificadas disminuyen cuando los usuarios asignados se eliminan de la tarea.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Condicionada por el esfuerzo</p> </th> 
+   <th scope="col"> <p><strong>Condicionada por el esfuerzo</strong></p> </th> 
    <td scope="col"> <p>Determina las horas planificadas en función del número de recursos.</p> <p>Al elegir este tipo de duración, tiene la capacidad de introducir una duración individual para la tarea. Workfront calcula las horas planificadas para la tarea multiplicando el número de días de la duración por el número de horas de trabajo de la programación y dividiendo ese número por el número de personas asignadas a la tarea. </p> <p>Tiene la capacidad de cambiar manualmente el porcentaje de asignación de cada usuario asignado a la tarea, pero el número de horas planificadas permanece igual.</p> <p>Para obtener información más detallada, consulte <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Información general sobre el tipo de duración: Condicionada por el esfuerzo</a>.</p> </td> 
    <td scope="col"> <p>Las horas planificadas aumentan cuando los usuarios asignados se eliminan de la tarea.</p> <p>Las horas planificadas disminuyen cuando se añaden usuarios asignados a la tarea. </p> <p>La duración no cambia, independientemente de los cambios en el número de usuarios asignados o su programación. </p> <p>La duración es igual a las horas planificadas. La duración planificada es igual a horas planificadas divididas por el número de personas asignadas.</p> </td> 
   </tr> 
