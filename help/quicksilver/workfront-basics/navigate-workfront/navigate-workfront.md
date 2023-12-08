@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Navegar [!DNL Adobe Workfront]
+title: "Navegar [!DNL Adobe Workfront]: índice de artículos"
 description: Lea estos artículos para comprender cómo navegar por Adobe Workfront y conocer la terminología de Workfront.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 396d273f6a2a61786f9f2afb9541065ae407bb45
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# Navegar [!DNL Adobe Workfront]
+# Navegar [!DNL Adobe Workfront]: índice del artículo
 
 Lea estos artículos para comprender cómo navegar por Adobe Workfront y conocer la terminología de Workfront.
 
@@ -24,7 +24,7 @@ Esta sección contiene las siguientes subsecciones y artículos:
 * [Glosario de [!DNL Adobe Workfront] terminología](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
-* [[!DNL Adobe Workfront] Búsqueda](../../workfront-basics/navigate-workfront/search/search.md)
+* [[!DNL Adobe Workfront] Buscar](../../workfront-basics/navigate-workfront/search/search.md)
 * [Recientes y favoritos en [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Información general de la barra de navegación superior](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
 * [Navegación izquierda en [!DNL Adobe Workfront]](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)

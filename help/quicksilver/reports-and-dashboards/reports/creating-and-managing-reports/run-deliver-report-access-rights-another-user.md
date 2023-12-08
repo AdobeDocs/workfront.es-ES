@@ -6,9 +6,9 @@ description: De forma predeterminada, los usuarios solo pueden ver los objetos d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,18 @@ Para ejecutar un informe con los derechos de acceso de otro usuario:
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Los usuarios con un nivel de acceso menor que pueden crear informes no tienen la capacidad de seleccionar a otro usuario que no sea él para el **Ejecutar este informe con los derechos de acceso de:** field.
 
 1. Clic **Listo**.
-1. Clic **Guardar + Cerrar**.\
+1. Haga clic en **Guardar + Cerrar**.\
    El informe ahora se muestra para todos los usuarios con los que se comparte el informe como si lo viera el usuario especificado en la variable **Ejecutar este informe con los derechos de acceso de:** field.
 
 >[!IMPORTANT]
+>
 Introducción de un usuario distinto del que ha iniciado sesión para **Ejecutar este informe con los derechos de acceso de:** Este campo afecta a la información mostrada en el informe si este contiene un filtro que utiliza un comodín que hace referencia al usuario que ha iniciado sesión. El informe se muestra según el valor especificado en la variable **Ejecutar este informe con los derechos de acceso de:** en lugar de lo que se define en el filtro comodín.
-Para obtener más información sobre los caracteres comodín de los campos de usuario, consulte la sección &quot;Variables basadas en usuarios&quot; en [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Para obtener más información sobre los caracteres comodín de los campos de usuario, consulte la sección &quot;Variables basadas en usuarios&quot; en [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Enviar un informe con los derechos de acceso de otro usuario
 
@@ -101,6 +104,7 @@ Para entregar un informe con los derechos de acceso de otro usuario:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    Los usuarios con un nivel de acceso menor que pueden crear informes no tienen la capacidad de seleccionar a otro usuario que no sea él para el **Entregar este informe con los derechos de acceso de:** field.
 
 1. Seleccione el **Formato** desea que el informe se muestre en el correo electrónico:
@@ -134,20 +138,20 @@ Por ejemplo, puede agregar cualquiera de las siguientes opciones a un informe co
 * Las columnas Nombre del proyecto o Nombre de tarea se transfieren a un informe de problemas.
 * Columna que utiliza expresiones en modo de texto que hace referencia a los tres objetos. El siguiente es un ejemplo de un informe de horas:
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Para obtener información sobre las vistas del modo de texto, consulte [Edición de una vista mediante el modo de texto](../text-mode/edit-text-mode-in-view.md).
+  Para obtener información sobre las vistas del modo de texto, consulte [Edición de una vista mediante el modo de texto](../text-mode/edit-text-mode-in-view.md).

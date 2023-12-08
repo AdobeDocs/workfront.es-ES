@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Revisión
-description: Obtenga información sobre las revisiones.
+title: "Revisión: índice de artículos"
+description: Revise y comente en el mismo documento en el que trabajan los equipos creativos. Con Workfront Proofing, puede solicitar comentarios, ver comentarios y recibir notificaciones para aprobaciones pendientes y completadas, todo mientras mantiene una pista de auditoría de comentarios y versiones.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
-# Revisión
+# Corrección: índice de artículos
+
+Revise y comente en el mismo documento en el que trabajan los equipos creativos. Con Workfront Proofing, puede solicitar comentarios, ver comentarios y recibir notificaciones para aprobaciones pendientes y completadas, todo mientras mantiene una pista de auditoría de comentarios y versiones.
 
 Esta sección contiene las siguientes subsecciones:
 

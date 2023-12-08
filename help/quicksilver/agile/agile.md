@@ -8,9 +8,9 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '100'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 Esta sección contiene las siguientes subsecciones:
 
 * [Información general de tableros](../agile/boards-overview.md)
-* [Introducción a tableros en [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Introducción a tableros: índice de artículos](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Uso de herramientas de planificación Agile en tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Información general de Agile](../agile/agile-overview.md)
 * [Introducción a Agile en [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)

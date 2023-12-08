@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Administración y configuración
-description: Busque la información que necesita para administrar el sistema Workfront en esta sección.
+title: "Administration and setup: article index"
+description: Encuentre la información que necesita para administrar el sistema de Workfront.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 37%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
-# Administración y configuración
+# Administración y configuración: índice de artículos
 
-Esta sección contiene las siguientes subsecciones:
+Los administradores tienen la capacidad de controlar y personalizar la experiencia del usuario en Workfront. Utilice los siguientes vínculos para empezar:
 
 * [Introducción a la administración de Adobe Workfront](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--
@@ -26,7 +26,7 @@ Esta sección contiene las siguientes subsecciones:
   -->
 
 * [Configuración de Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md)
-* [Agregar usuarios](../administration-and-setup/add-users/add-users.md)
+* [Adición de usuarios](../administration-and-setup/add-users/add-users.md)
 * [Personalizar Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [Administrar Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [Administrar grupos](../administration-and-setup/manage-groups/manage-groups.md)

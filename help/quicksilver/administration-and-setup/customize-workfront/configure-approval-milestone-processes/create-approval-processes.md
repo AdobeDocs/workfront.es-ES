@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 2%
+source-wordcount: '2202'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,10 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td> <p>Nuevo plan: Estándar </p>
+ <p>o</p> 
+<p>Plan actual: plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -66,7 +69,7 @@ Debe tener lo siguiente:
 
 ## Crear un proceso de aprobación global de nivel de sistema o de grupo para elementos de trabajo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. (Condicional) Si está creando un proceso de aprobación de nivel de sistema, haga clic en **Procesos** > **Aprobaciones** en el panel izquierdo.
 
@@ -78,7 +81,7 @@ Debe tener lo siguiente:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Haga clic en **Aprobaciones de proyecto**, **Aprobaciones de tarea**, o **Aprobaciones de problema** , según el tipo de proceso de aprobación que desee crear.
+1. Elija la opción **Aprobaciones de proyecto**, **Aprobaciones de tarea**, o **Aprobaciones de problema** pestaña.
 
 1. Clic **Nuevo proceso de aprobación**.
 1. Especifique la siguiente información en el cuadro que se muestra:
@@ -89,15 +92,15 @@ Debe tener lo siguiente:
     <tbody> 
      <tr> 
       <td role="rowheader">Nombre de proceso de aprobación</td> 
-      <td>Escriba un nombre descriptivo para el proceso de aprobación. Los usuarios ven este nombre al aplicar el proceso de aprobación a un objeto, como se describe en <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>.</td> 
+      <td><p>Escriba un nombre descriptivo para el proceso de aprobación. Los usuarios ven este nombre al aplicar el proceso de aprobación a un objeto, como se describe en <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción</td> 
-      <td>Escriba una descripción del proceso de aprobación. Esto se muestra en la <b>Aprobaciones</b> de la sección <b>Configurar</b> junto al nombre del proceso de aprobación.</td> 
+      <td><p>Escriba una descripción del proceso de aprobación. Esto se muestra en la <b>Aprobaciones</b> de la sección <b>Configurar</b> junto al nombre del proceso de aprobación.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Activo</td> 
-      <td> <p>Mantenga esta opción habilitada si desea que otros usuarios puedan adjuntar el proceso de aprobación a los proyectos, tareas y problemas que creen. </p> <p>Esta opción está habilitada de forma predeterminada.</p> <p> Marcar un proceso de aprobación como inactivo resulta útil cuando su organización ya no necesita utilizarlo, pero desea conservar la información histórica sobre su uso.</p> </td> 
+      <td> <p>Mantenga esta opción habilitada si desea que otros usuarios puedan adjuntar el proceso de aprobación a los proyectos, tareas y problemas que creen. </p> <p>Esta opción está habilitada de forma predeterminada.</p> <p> Sugerencia: Marcar un proceso de aprobación como inactivo resulta útil cuando su organización ya no necesita utilizarlo, pero desea conservar la información histórica sobre su uso.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Este proceso de aprobación lo puede utilizar </td> 
@@ -159,15 +162,15 @@ Debe tener lo siguiente:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Puede repetir este proceso para agregar varios aprobadores a la fase. Una sola fase puede incluir una combinación de usuarios, equipos y funciones de trabajo como aprobadores. No hay límite en el número de aprobadores que puede añadir a una fase.</p> <p><b>IMPORTANTE</b>:  <p>Cuando asigna roles como aprobadores, todos los usuarios asociados a ese rol que también están en el equipo del proyecto pueden tomar una decisión sobre la aprobación. </p> <p>Cuando asigna un equipo como aprobador, cualquier usuario de ese equipo puede tomar una decisión sobre la aprobación. </p> <p>Para obtener más información sobre el equipo del proyecto, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Información general del equipo del proyecto</a>. Para obtener más información sobre la aprobación de trabajo, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Solamente se requiere una decisión</td> 
-      <td> <p>(Solo se muestra si agrega varios aprobadores a la fase) Seleccione esta opción si alguno de los aprobadores de la fase puede aprobar o rechazar el elemento de trabajo durante esta fase. Esta acción permite que el elemento de trabajo abandone el escenario. </p> <p>Cuando esta opción no está seleccionada, todos los aprobadores identificados deben aprobar o rechazar la fase (en cualquier orden) antes de que el elemento abandone la fase. Si alguno de los aprobadores rechaza la fase, el proceso se interrumpe y se inicia de nuevo para que se puedan realizar los cambios necesarios. A continuación, los aprobadores pueden aprobar o rechazar la fase una vez más.</p> <p>Cuando se designa un equipo como aprobador, cualquier miembro del equipo puede conceder o rechazar una etapa.</p> </td> 
+      <td role="rowheader">Solo se requiere una decisión <br> <br>(Solo se muestra si agrega varios aprobadores a la fase) </td> 
+      <td> <p>Seleccione esta opción si alguno de los aprobadores de la fase puede aprobar o rechazar el elemento de trabajo durante esta fase. Esta acción permite que el elemento de trabajo abandone el escenario. </p> <p>Cuando esta opción no está seleccionada, todos los aprobadores identificados deben aprobar o rechazar la fase (en cualquier orden) antes de que el elemento abandone la fase. Si alguno de los aprobadores rechaza la fase, el proceso se interrumpe y se inicia de nuevo para que se puedan realizar los cambios necesarios. A continuación, los aprobadores pueden aprobar o rechazar la fase una vez más.</p> <p>Cuando se designa un equipo como aprobador, cualquier miembro del equipo puede conceder o rechazar una etapa.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Agregar fase</p> </td> 
-      <td>(Opcional) Añada otra etapa a la ruta, utilizando las opciones explicadas en las tres filas anteriores. Puede agregar tantas fases a la ruta como necesite.</td> 
+      <td><p>(Opcional) Añada otra etapa a la ruta, utilizando las opciones explicadas en las tres filas anteriores. Puede agregar tantas fases a la ruta como necesite.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Decida que debe suceder cuando se rechace una aprobación</p> </td> 
+      <td role="rowheader">Decida qué debe suceder cuando se rechace una aprobación</p> </td> 
       <td> <p>Seleccione la acción que desea realizar si el elemento de trabajo se rechaza en cualquier fase de la ruta:</p> 
        <ul> 
        <li><b>Crear una incidencia</b>: (disponible solo para procesos de aprobación de proyectos y tareas) Se crea un problema en el proyecto o la tarea en los que se está ejecutando el proceso de aprobación. El recurso asignado de forma predeterminada en la tarea o el propietario del proyecto se asignan al problema. De forma predeterminada, el nombre del problema creado es <b>Aprobación rechazada (&lt;project or="" task="" name=""&gt;)</b>. Se trata de un problema de rechazo, introducido en la tarea o el proyecto, según el proceso de aprobación en el que se produjo el rechazo.</li> 
@@ -197,7 +200,11 @@ Para obtener información sobre la edición de un proceso de aprobación, consul
 
 ## Asociación de un proceso de aprobación a un elemento de trabajo
 
-Si desea crear un proceso de aprobación para un elemento de trabajo (proyecto, tarea o problema), primero cree el proceso de aprobación, después cree el elemento de trabajo y, a continuación, usted y los usuarios podrán asociar el proceso de aprobación con el elemento de trabajo.
+Si desea crear un proceso de aprobación para un elemento de trabajo (proyecto, tarea o problema), debe
+
+1. Cree primero el proceso de aprobación
+1. Creación del elemento de trabajo
+1. Asociar el proceso de aprobación con el elemento de trabajo
 
 Para obtener instrucciones sobre cómo asociar un proceso de aprobación a un elemento de trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

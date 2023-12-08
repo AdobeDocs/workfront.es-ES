@@ -6,10 +6,10 @@ description: Puede generalizar un informe utilizando caracteres comodín en luga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 0%
+source-wordcount: '502'
+ht-degree: 1%
 
 ---
 
@@ -77,18 +77,18 @@ Para insertar un comodín basado en usuario en un informe:
 
 1. En el **Empiece a escribir el nombre...** cuadro, escriba: `$$USER.ID` o `$$USER.name` si desea que el informe muestre información sobre el usuario que inicia sesión, basada en su nombre. Puede insertar otros caracteres comodín que hagan referencia al grupo, equipo, compañía u otra información del usuario que ha iniciado sesión.
 
-   Para obtener una lista completa de los comodines basados en usuarios, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obtener una lista completa de los comodines basados en usuarios, consulte [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. Clic **Guardar + Cerrar**.
+1. Haga clic en **Guardar + Cerrar**.
 
 ## Información adicional
 
 Consulte también:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Creación o edición de filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

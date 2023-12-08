@@ -5,9 +5,9 @@ description: 'La barra de navegación superior, que aparece en la parte superior
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Debajo de estas opciones en la [!UICONTROL Menú principal], puede acceder a:
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Configuración]</p> </td> 
-   <td> <p>Clic <b>[!UICONTROL Configuración]</b> le lleva al área de [!UICONTROL Setup], donde puede configurar diferentes aspectos de su [!DNL Workfront] cuenta. Según la configuración de acceso, lo que pueda configurar puede estar limitado.</p> <p>Para obtener más información sobre el área [!UICONTROL Setup], consulte <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administración y configuración</a>.</p> </td> 
+   <td> <p>Clic <b>[!UICONTROL Configuración]</b> le lleva al área de [!UICONTROL Setup], donde puede configurar diferentes aspectos de su [!DNL Workfront] cuenta. Según la configuración de acceso, lo que pueda configurar puede estar limitado.</p> <p>Para obtener más información sobre el área [!UICONTROL Setup], consulte <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administración y configuración: índice de artículos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Ayuda]</p> </td> 

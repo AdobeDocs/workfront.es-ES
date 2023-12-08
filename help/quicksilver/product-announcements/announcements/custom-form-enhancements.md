@@ -4,9 +4,9 @@ description: A continuación, se llevan a cabo mejoras significativas para admin
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Cuando esto sucede, puede realizar una de las siguientes acciones:
 
 Para obtener instrucciones sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte [Añadir datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Para obtener más información sobre variables como `$$OBJCODE`, consulte [Variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener más información sobre variables como `$$OBJCODE`, consulte [Resumen de variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Precaución al eliminar un tipo de objeto de un formulario personalizado
 

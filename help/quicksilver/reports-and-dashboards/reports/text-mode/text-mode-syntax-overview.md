@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Al hacer referencia a objetos de Workfront mediante una etiqueta, se aplican las
 
 * Puede utilizar un comodín en una `valueexpression` pero no en un `valuefield` línea.
 
-  Para obtener información sobre los caracteres comodín, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Para obtener información sobre los caracteres comodín, consulte [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` información general sobre vistas y agrupaciones
@@ -285,4 +285,4 @@ Puede utilizar los siguientes elementos para crear filtros y mensajes personaliz
      >
      >Los conectores de instrucciones distinguen entre mayúsculas y minúsculas y siempre están en mayúsculas. &quot;AND&quot; se puede omitir en el modo de texto.
 
-* Comodines para hacer que los filtros sean más dinámicos y personalizarlos para el momento actual o para el usuario que ha iniciado sesión. Para obtener información sobre los caracteres comodín, consulte [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Comodines para hacer que los filtros sean más dinámicos y personalizarlos para el momento actual o para el usuario que ha iniciado sesión. Para obtener información sobre los caracteres comodín, consulte [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

@@ -6,10 +6,10 @@ description: Puede generalizar un informe utilizando caracteres comodín en luga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 1%
 
 ---
 
@@ -90,18 +90,18 @@ Para insertar un comodín basado en la fecha en un informe:
 1. (Opcional) Si desea mostrar información que se produce dentro de un periodo de tiempo después de la fecha en la que se ejecuta el informe, escriba `$$TODAY+1w` para mostrar información en la semana siguiente, o `$$TODAY+2m` para mostrar información en los próximos dos meses. También puede indicar marcos de tiempo para trimestres, horas, días o años.
 1. (Opcional) Si desea mostrar información sobre algo que se produjo dentro de un periodo de tiempo antes de la fecha en la que se ejecuta el informe, escriba `$$TODAY-1w` para mostrar información de la semana anterior, o `$$TODAY-2m` para mostrar información de los dos meses anteriores. También puede indicar marcos de tiempo para trimestres, horas, días o años.
 
-   Para obtener una lista completa de los atributos, calificadores y operadores que puede utilizar en los comodines basados en fecha, consulte el artículo [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obtener una lista completa de los atributos, calificadores y operadores que puede utilizar en los comodines basados en fecha, consulte el artículo [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. Clic **Guardar + Cerrar**.
+1. Haga clic en **Guardar + Cerrar**.
 
 ## Información adicional
 
 Consulte también:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Creación o edición de filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Uso de formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
