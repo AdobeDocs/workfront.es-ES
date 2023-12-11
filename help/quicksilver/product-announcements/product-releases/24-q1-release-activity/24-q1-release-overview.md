@@ -4,9 +4,9 @@ description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo <strong>Completar mi revisión</strong> botón.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Estados actualizados para aprobaciones de documentos</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para que el estado de aprobación del documento sea más claro, hemos actualizado las aprobaciones de estado de documento disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 7 de diciembre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.1</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo <strong>Completar mi revisión</strong> botón.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
