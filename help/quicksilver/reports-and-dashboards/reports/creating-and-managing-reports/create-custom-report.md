@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creación de un informe personalizado
-description: La comprensión de cómo crear informes le ayuda a proporcionar acceso a la información que su organización necesita en Adobe Workfront. Puede utilizar cualquiera de los informes integrados disponibles en Workfront o puede crear sus propios informes desde cero.
+description: Puede proporcionar acceso a la información que su organización necesita en Adobe Workfront creando informes. Puede utilizar cualquiera de los informes integrados disponibles en Workfront o puede crear los informes personalizados desde cero.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nuevo: estándar </p>
+   o
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -47,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Obtendrá permisos de administración en el informe que cree</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Puede obtener permisos de administración para los informes que cree.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Creación de un informe {#create-a-report}
 
-Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un informe personalizado](#Walk-thr) más abajo.
+{{step1-to-reports}}
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Informes**.
 1. Clic **Nuevo informe** A continuación, seleccione el tipo de objeto que desee para el informe.
 
    Se carga Report Builder.
@@ -109,17 +110,17 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
 
 1. Comience a crear un informe como se describe en la [Creación de un informe](#create-a-report) de este artículo.
 1. En Report Builder, seleccione la **Columnas (vista)** para identificar las columnas que aparecerán en el informe.
-1. (Opcional) Haga clic en **Aplicar vista existente** para utilizar una vista existente.
+1. (Opcional) Haga clic en **Aplicar vista existente** y haga clic en el nombre de una vista en el menú desplegable para utilizar una vista existente.
 
-   Para obtener más información sobre la creación de una vista nueva, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo crear una vista, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Opcional) Para quitar una columna existente, haga clic en la columna que desee quitar y, a continuación, haga clic en **x** junto al nombre actual en el encabezado de columna.
 
 1. Para añadir una nueva columna, haga clic en **Agregar columna**.
 
    O
 
-   Para cambiar una columna existente, seleccione la columna que desee cambiar y, a continuación, haga clic en la (x) junto al nombre actual.
-
-1. Empiece a escribir el campo que desea agregar. Si el campo está disponible, se rellena para cada objeto donde se puede asociar. Haga clic en el nombre del campo para añadirlo a la columna.
+   Para cambiar una columna existente, haga clic en la columna y luego en **Eliminar** icono ![](assets/x-icon-circled.png) a la izquierda del campo actual en la **Mostrar en este campo de columna** en la esquina superior izquierda de report builder, empiece a escribir un nuevo campo y, a continuación, haga clic en él cuando se muestre en la lista.
 
    Para obtener más información sobre los campos que se ven en las columnas, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
    >
    >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en agrupaciones:
    >
-   >* Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
+   >* Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado o real, Costo de gasto planificado o real, Costo planificado o real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
    >* Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
    >* Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes.
 
@@ -193,7 +194,8 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
 
    O
 
-   Elegir **Aplicar agrupación existente** para seleccionar una agrupación existente
+   Elegir **Aplicar agrupación existente** para seleccionar una agrupación existente cuando se muestre en la lista.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Empiece a escribir el campo que desea agregar como agrupación. Si el campo está disponible, se rellena para cada objeto donde se puede asociar. Haga clic en el nombre del campo para agregarlo a esa agrupación.
@@ -210,7 +212,7 @@ Para ver un vídeo sobre cómo crear un informe, consulte esto [Creación de un 
    >* Cuando ajusta manualmente las agrupaciones al ver una lista, Workfront recuerda su preferencia manual hasta que cierre la sesión. Cuando vuelva a iniciar sesión, la lista se mostrará según esta configuración.
    >* Los resultados de una agrupación siempre se muestran expandidos después de acceder a ellos desde un elemento de gráfico.
 
-1. (Opcional) Puede optar por crear una agrupación de matriz para mostrar los resultados en formato de cuadrícula.
+1. (Opcional) Haga clic en **Cambiar a agrupación de matriz**, para generar una agrupación de matriz y mostrar los resultados en formato de cuadrícula.
 
    Para obtener más información sobre la creación de un informe de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
