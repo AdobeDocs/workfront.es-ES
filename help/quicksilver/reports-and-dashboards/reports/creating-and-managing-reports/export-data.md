@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo exportar datos de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Existen varias limitaciones en la forma en que se muestran los informes en Workfront, así como en la forma en que se exportan a través de una exportación manual, un informe enviado o a través de la API.
 
+* **50.000 celdas:** Número máximo de celdas permitidas en una exportación de informe para archivos de Excel.
 * **50 000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos .pdf y delimitados por tabuladores.
 
    * Para archivos .xls de Excel, este límite es **65 000 filas**.
@@ -310,14 +311,14 @@ Los vínculos pueden señalar a cualquier objeto de Workfront que admita la vinc
 
 >[!TIP]
 >
->Si la línea `valueformat=HTML` aparece en modo texto para una columna de campo personalizado y los valores del vínculo no se muestran en un archivo .pdf exportado. debe introducir líneas de código adicionales en la columna en modo texto.
+Si la línea `valueformat=HTML` aparece en modo texto para una columna de campo personalizado y los valores del vínculo no se muestran en un archivo .pdf exportado. debe introducir líneas de código adicionales en la columna en modo texto.
 >
->Por ejemplo, si tiene un campo personalizado llamado Abrir proyectos del primer trimestre que contiene vínculos, debe agregar el siguiente código:
+Por ejemplo, si tiene un campo personalizado llamado Abrir proyectos del primer trimestre que contiene vínculos, debe agregar el siguiente código:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Al exportar a un formato de Excel, solo se incluyen en el archivo exportado los vínculos a objetos dentro de Workfront y solo se admiten en lugares en los que se puede seleccionar permitir vínculos en documentos de Excel exportados, como envíos de informes.
 
