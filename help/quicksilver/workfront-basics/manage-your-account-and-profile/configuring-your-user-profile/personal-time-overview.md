@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Configuración del tiempo libre personal en [!DNL Adobe Workfront]
-description: Adobe Workfront no está diseñado para replicar o reemplazar sus sistemas existentes para administrar, acumular y rastrear los días libres personales. Sin embargo, es importante indicar cuándo se producen los días libres aprobados, ya que esto afecta a la programación y afecta a las Fechas planificadas de finalización de las tareas a las que está asignado.
+title: Configuración del tiempo libre personal
+description: Es importante indicar en Adobe Workfront cuándo se produce el tiempo libre aprobado, ya que esto afecta a la programación y afecta a las fechas de finalización planificadas de las tareas a las que está asignado.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Configuración del tiempo libre personal en [!DNL Adobe Workfront]
+# Configuración del tiempo libre personal
 
 [!DNL Adobe Workfront] no está diseñado para replicar o reemplazar los sistemas existentes para administrar, acumular y rastrear los días libres personales.
 
-Sin embargo, es importante indicar cuándo se producen los días libres aprobados, ya que esto afecta a la programación y afecta al [!UICONTROL Fechas planificadas de finalización] de las tareas a las que está asignado.
+Sin embargo, es importante indicar cuándo se producen los días libres aprobados, ya que esto afecta tanto a la programación como al [!UICONTROL Fechas planificadas de finalización] de las tareas a las que está asignado.
 
 Por ejemplo, si se le asigna una tarea que está programada para tardar dos semanas y planea tomarse tres días libres durante ese tiempo, [!DNL Workfront] agrega tres días a la escala de tiempo de la tarea para tener en cuenta el tiempo libre.
 
@@ -43,15 +43,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td>[!UICONTROL Work] o superior (para configurar su tiempo libre personal)</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td> <p>Nuevo plan: Estándar (para configurar su tiempo libre personal)</p>
+        <p>o</p>
+        <p>Plan actual: Trabaje o superior (para configurar su tiempo libre personal)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td>[!UICONTROL Manager] con acceso de [!UICONTROL Editar usuario] (para realizar cambios en el calendario de días libres de otros usuarios)<br>
    <strong>NOTA:</strong> Si un administrador edita el calendario personal de días libres de otro usuario, todas las entradas se muestran en la zona horaria del usuario y no en la del administrador.</td> 
   </tr> 
@@ -62,7 +64,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configuración del tiempo libre personal en [!DNL Workfront]
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O bien (si está disponible), haga clic en la imagen de perfil en el área de navegación superior y, a continuación, haga clic en **[!UICONTROL Perfil de Workfront]**.
+{{step1-click-profile-pic}}
+
 1. En el panel izquierdo, haga clic en **[!UICONTROL Tiempo libre]**.
 1. Seleccione la fecha que desee para sus vacaciones personales.
 
@@ -70,8 +73,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Seleccionar **[!UICONTROL Todo el día]**, si se toma un día libre completo.
 
-   Déjela sin seleccionar si se toma menos de un día libre completo e indique las horas de inicio y finalización de su tiempo libre.
+   Deje desactivada la casilla de verificación si se toma menos de un día libre completo e indique las horas de inicio y finalización del tiempo libre.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   Su tiempo libre ahora es visible a través de la [!DNL Workfront] en las herramientas de administración de recursos como el Planificador de recursos y el Distribuidor de cargas de trabajo. Cuando se le asigna trabajo durante este tiempo, aparece un aviso que informa al usuario de que ha programado tiempo libre.
+   Su tiempo libre ahora es visible a través de la [!DNL Workfront] en las herramientas de administración de recursos como el Planificador de recursos y el Distribuidor de cargas de trabajo. Cuando se le asigna trabajo durante este tiempo, la información del objeto informa al usuario de que ha programado tiempo libre.
