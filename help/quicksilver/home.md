@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] documentación'
 description: Documentación para [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Mejore su experiencia añadiendo documentos al flujo de trabajo.
 
 Consulte [Documentos](/help/quicksilver/documents/documents-overview.md).
 
-### Creación de informes
+### Informes
 
 Para mostrar la información existente en un formato fácil de leer y compartirla con todas las partes interesadas, utilice informes y paneles.
 
@@ -75,9 +75,9 @@ Consulte [Recursos del modo de texto](/help/quicksilver/reports-and-dashboards/r
 
 Utilice el Distribuidor de cargas de trabajo como alternativa a la programación de recursos en Workfront.
 
-Consulte [Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Consulte [Índice de artículos del Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Objetivos de Adobe Workfront
 
 Alinee su estrategia con su trabajo para lograr la alineación y lograr el éxito mediante el uso de los Objetivos de Workfront de Adobe.
 

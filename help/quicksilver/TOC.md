@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 1%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 1%
       * [Utilización de recursos](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Ver información de utilización de recursos](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Distribuidor de cargas de trabajo {#the-workload-balancer}
-      * [Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [Índice de artículos del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Descripción general del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Localización del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/locate-workload-balancer.md)

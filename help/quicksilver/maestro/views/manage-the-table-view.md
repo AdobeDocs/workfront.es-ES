@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 3%
@@ -118,7 +118,7 @@ Para administrar una vista de tabla:
 
 Los encabezados de columna de una vista de tabla de Maestro muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro Maestro. Para obtener más información, consulte [Edición de registros](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro.
 
@@ -128,21 +128,6 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](../fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página Detalles de los registros del tipo de registro seleccionado.
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
@@ -161,6 +146,27 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >* No puede ocultar el campo Nombre.
    >
    >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
@@ -213,12 +219,12 @@ Puede tener hasta 10.000 registros (o filas) para un tipo de registro en Maestro
    >
    >No puede reordenar filas si aplica al menos una ordenación a la vista de tabla.
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### Añadir filtros {#add-filters}
 

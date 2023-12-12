@@ -6,9 +6,9 @@ description: La definición de una estructura de desglose de trabajo (EDT) para 
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Después de definir la duración y las restricciones de cada tarea, puede determ
 
 Para obtener información sobre la asignación de tareas, consulte los artículos de la [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) sección.
 
-## Administrar recursos
+## Administración de recursos
 
 La administración de recursos en Workfront le permite determinar si hay personal suficiente para completar el proyecto. Cuando se agregan usuarios a un proyecto, Workfront muestra el uso de cada usuario. Los gerentes de recursos pueden ver el número total de horas que la persona está asignada a otros proyectos durante el marco de tiempo del proyecto.
 
@@ -108,7 +108,7 @@ Al principio de un año o trimestre fiscal, puede que desee administrar los recu
 Para obtener información sobre cómo planificar el uso de los recursos en un nivel superior, consulte el artículo [Introducción a la planificación de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Cuando administra los recursos en el contexto de la creación de la estructura de desglose de trabajo de un proyecto y se asegura de que cada tarea se asigna al recurso correcto, está listo para programar los recursos para el trabajo que se debe realizar.\
-Para obtener información sobre cómo programar los recursos, consulte los artículos de la [Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/workload-balancer.md) sección.
+Para obtener información sobre cómo programar los recursos, consulte los artículos de la [Índice de artículos del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/workload-balancer.md) sección.
 
 ## Estimar las finanzas del proyecto
 
