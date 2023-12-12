@@ -2,20 +2,20 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Detalles de hoja de horas en Adobe Workfront
+title: "Detalles de la hoja de horas: índice del artículo"
 description: Obtenga más información acerca de las plantillas de horas y su diseño en los siguientes artículos.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
-# Detalles de hoja de horas en Adobe Workfront
+# Detalles de hoja de horas: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 

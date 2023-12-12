@@ -7,9 +7,9 @@ description: Puede usar hojas de horas para rastrear el tiempo que dedica al tra
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para obtener información más detallada sobre cómo registrar tiempo en Workfro
 
 >[!TIP]
 >
->Si es administrador de Workfront o de un grupo, puede crear plantillas de horas y asociarlas a los usuarios. Para obtener información sobre la creación de plantillas de horas, consulte [Crear y administrar hojas de horas](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Si es administrador de Workfront o de un grupo, puede crear plantillas de horas y asociarlas a los usuarios. Para obtener información sobre la creación de plantillas de horas, consulte [Crear y administrar hojas de horas: índice de artículos](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Comprender el tiempo del proyecto frente al tiempo que no es de proyecto

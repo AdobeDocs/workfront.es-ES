@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 1%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 1%
       * [Sugerencias, trucos y solución de problemas para aprobaciones](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Ver el número de decisiones de prueba y documento para todos los usuarios](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Plantillas de horas {#timesheets}
-   * [Hojas de horas](timesheets/timesheets-all.md)
+   * [Plantillas de horas: índice de artículos](timesheets/timesheets-all.md)
    * Detalles de hoja de horas {#details}
-      * [Detalles de hoja de horas en Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Detalles de hoja de horas: índice de artículos](timesheets/timesheets/timesheets.md)
       * [Resumen de hojas de horas](timesheets/timesheets/timesheets-overview.md)
       * [Comprender el diseño de Hoja de horas](timesheets/timesheets/timesheet-layout.md)
-   * Creación y administración de plantillas de horas en Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Creación y administración de plantillas de horas en Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Crear y administrar hojas de horas {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Crear y administrar hojas de horas: índice de artículos](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Crear, editar y asignar perfiles de hojas de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definir tipos de horas y disponibilidad para hojas de horas](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Crear hoja de horas de un solo uso](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 1%
       * [Generar manualmente hojas de horas](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Exportación de una lista de plantillas de horas](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Configurar cómo se registra el tiempo {#configure-timesheet-preferences}
-      * [Configurar cómo se registra el tiempo](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Configure cómo se registra el tiempo: índice de artículos](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Configurar si se registran horas y días](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Sugerencias, trucos y solución de problemas para plantillas de horas {#tips-tricks-troubleshooting-for-timesheets}
-      * [Sugerencias, trucos y solución de problemas](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Sugerencias, trucos y solución de problemas: índice de artículos](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Corregir el día de inicio de la semana laboral para hojas de horas](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Evitar que la acción Recalcular finanzas afecte a las horas históricas cuando cambian las tarifas](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Seguimiento de registros de horas con la API de Adobe Workfront](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

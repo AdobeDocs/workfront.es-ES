@@ -6,9 +6,9 @@ description: Los filtros del área de Análisis mejorado de Adobe Workfront le a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
    <td>
-      <p>Nuevo plan: Cualquiera</p>
+      <p>Nuevo: Cualquiera</p>
       <p>o</p>
-      <p>Plan actual: Business o superior</p></td> 
+      <p>Actual: Empresa o superior</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td>
-      <p>Nuevo plan: Ligero o superior</p>
+      <p>Nuevo: claro o superior</p>
       <p>o</p>
-      <p>Plan actual: revisión o superior</p>
+      <p>Actual: revisar o superior</p>
    </td> 
   </tr>
   <tr> 

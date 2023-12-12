@@ -7,9 +7,9 @@ description: Es importante indicar en Adobe Workfront cuándo se produce el tiem
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Nuevo plan: Estándar (para configurar su tiempo libre personal)</p>
+   <td> <p>Nuevo: Estándar (para configurar sus días libres personales)</p>
         <p>o</p>
-        <p>Plan actual: Trabaje o superior (para configurar su tiempo libre personal)</p> </td>
+        <p>Actual: Trabaje o superior (para configurar sus días libres personales)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 

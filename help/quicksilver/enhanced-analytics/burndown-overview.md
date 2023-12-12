@@ -7,9 +7,9 @@ description: La visualización Evolución muestra la evolución de un proyecto e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
    <td>
-      <p>Nuevo plan: Cualquiera</p>
+      <p>Nuevo: Cualquiera</p>
       <p>o</p>
-      <p>Plan actual: Business o superior</p></td>
+      <p>Actual: Empresa o superior</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td>
-      <p>Nuevo plan: Ligero o superior</p>
+      <p>Nuevo: claro o superior</p>
       <p>o</p>
-      <p>Plan actual: revisión o superior</p>
+      <p>Actual: revisar o superior</p>
    </td> 
   </tr> 
   <tr> 

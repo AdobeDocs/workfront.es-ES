@@ -7,9 +7,9 @@ description: El menú principal cambia con el nivel de acceso que le ha asignado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ El diseño predeterminado de un entorno incluye las siguientes áreas [!UICONTRO
 
 * **[!UICONTROL Solicitudes]**: puede enviar solicitudes y revisar las solicitudes que usted o los integrantes del equipo hayan enviado aquí. Para obtener más información, consulte [Solicitudes](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Plantillas de horas]**: Puede acceder a sus plantillas de horas actuales, futuras o antiguas aquí. Para obtener más información, consulte [Plantillas de horas](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Plantillas de horas]**: Puede acceder a sus plantillas de horas actuales, futuras o antiguas aquí. Para obtener más información, consulte [Plantillas de horas: índice de artículos](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documentos]**: puede cargar documentos o revisar los documentos compartidos con usted aquí. Para obtener más información, consulte [Documentos](../../../documents/documents-overview.md).
 
