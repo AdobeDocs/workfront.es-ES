@@ -315,10 +315,10 @@ Si la línea `valueformat=HTML` aparece en modo texto para una columna de campo 
 >
 Por ejemplo, si tiene un campo personalizado llamado Abrir proyectos del primer trimestre que contiene vínculos, debe agregar el siguiente código:
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Al exportar a un formato de Excel, solo se incluyen en el archivo exportado los vínculos a objetos dentro de Workfront y solo se admiten en lugares en los que se puede seleccionar permitir vínculos en documentos de Excel exportados, como envíos de informes.
 
