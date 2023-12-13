@@ -5,11 +5,12 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Información general sobre las integraciones integradas de Adobe Workfront
 description: Se puede integrar [!DNL Adobe Workfront] con aplicaciones de terceros. Estas integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarlo a las necesidades de su organización. Por ejemplo, si es un trabajador creativo en la industria de marketing, puede utilizar el complemento de Adobe Creative Cloud para exportar recursos directamente de Photoshop a Workfront.
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 5%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +42,7 @@ Las siguientes integraciones integradas están disponibles actualmente en Workfr
      <li>After Effects </li>
      </ul>
      <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Intercambio de Adobe</a>.</p></li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instale el  [!DNL Adobe Workfront] complemento para [!DNL Creative Cloud] Aplicaciones</a></p> </td> 
+     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instale el  [!DNL Adobe Workfront] complemento para [!DNL Creative Cloud] Aplicaciones</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -108,7 +109,7 @@ Las siguientes integraciones integradas están disponibles actualmente en Workfr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsofts Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
      <li>Obtener [!DNL Workfront] notificaciones en [!DNL Microsoft Teams] </li> 
