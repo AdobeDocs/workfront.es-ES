@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Para probar la funcionalidad, inicie sesión en la vista previa de Workfront o e
 
 1. **Coordinadores:** En Workfront, cree un proyecto con `Frame.io alpha testing` grupo asignado como grupo de proyecto.
 
-1. **Coordinadores:** En Workfront, asigne sus creativos al proyecto <span class="preview">o tareas habilitadas para tramas</span> y cambie el estado del proyecto a Actual.
+1. **Coordinadores:** En Workfront, asigne sus creativos al proyecto <span class="preview">o tareas con Frame habilitado (tenga en cuenta que las subtareas no se pueden marcar como Frame habilitado)</span> y cambie el estado del proyecto a Actual.
 
 1. **Creativos:** Busque en sus correos electrónicos una invitación al proyecto Frame.io recién creado
 
@@ -60,6 +60,10 @@ Para probar la funcionalidad, inicie sesión en la vista previa de Workfront o e
 1. **Creativos:** En Frame.io, aplique los cambios solicitados agregando la versión actualizada a la pila de versiones del recurso conectado.
 
 1. **Coordinadores:** En Workfront, asigne aprobadores y revisores a la versión recién cargada y supervise el progreso hasta que llegue a la desactivación.
+
+## Escenario de prueba detallado
+
+Para los participantes que buscan probar funcionalidades adicionales, hemos creado un escenario de prueba más involucrado. Puede descargar una guía para este escenario de prueba detallado aquí: [Tutorial del escenario de prueba detallado de WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Planes de funciones
 
