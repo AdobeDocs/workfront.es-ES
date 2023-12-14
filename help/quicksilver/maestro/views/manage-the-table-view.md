@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* El campo Nombre es siempre el primer campo de la vista de tabla.
-   >
-   >* No se puede mover el campo Nombre a otra posición.
-   >
-   >* No puede ocultar el campo Nombre.
-   >
-   >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* El campo Nombre es siempre el primer campo de la vista de tabla.
+     >
+     >* No se puede mover el campo Nombre a otra posición.
+     >
+     >* No puede ocultar el campo Nombre.
+     >
+     >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Reemplace el campo de la primera columna por otro campo cambiando el campo principal. Para obtener más información, siga con el paso 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Opcional) Pase el ratón sobre un nombre de campo en el encabezado de columna de cualquier campo que no se muestre en la primera columna de la tabla, haga clic en la flecha hacia abajo a la derecha del nombre del campo y, a continuación, haga clic en **Establecer como campo principal**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Clic **Definir campo** para confirmar.
+
+   El campo se convierte en un campo principal, lo que significa que se muestra como la primera columna de la vista de tabla. El campo principal anterior se desplaza a la segunda columna.
+
+   >[!NOTE]
+   >
+   >   * Solo pueden ser campos principales los campos de los siguientes tipos:
+   >
+   >       * Texto de línea única
+   >       * Número
+   >       * Fórmula
+   >
+   >         Los campos de fórmula se publicarán más adelante.
+   >
+   >   * El campo principal siempre está congelado y no se puede mover. Puede seleccionar otro campo para reemplazar un campo principal si necesita moverlo a otra posición.
+   >
+   >   * Cambiar el campo principal en la vista de tabla afecta a la vista de todos los demás usuarios que lo elijan.
+   >
+   >   * Cambiar el campo principal en una vista de tabla afecta a todas las vistas de tabla.
+   >
+   >   * No se puede eliminar ni ocultar un campo principal.
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
@@ -311,8 +319,8 @@ Para agregar un filtro a una vista de tabla:
             <td><p>Es</p>
             <p>No es</p>
             <p>Es después de</p>
-            <p>Es anterior</p>
-            <p>Es entre</p><p>No está entre</p>
+            <p>Es anterior a</p>
+            <p>Está entre</p><p>No está entre</p>
             <p>Está vacío</p><p>No está vacío</p></td>
         </tr>
 

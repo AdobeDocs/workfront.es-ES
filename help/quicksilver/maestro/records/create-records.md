@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ Para crear registros en Maestro, siga uno de estos procedimientos:
 
 * Crearlos manualmente para los tipos de registros de Maestro
 * Conéctelos a los registros de Maestro desde aplicaciones de terceros.
+* Crear registros copiando y pegando información de una lista externa.
+
+Este artículo describe cómo crear registros de Maestro. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
+
+* [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Administrar la vista de cronología](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Requisitos de acceso
 
@@ -183,7 +189,7 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 ## Crear registros conectándolos desde otra aplicación
 
-Puede importar registros de otras aplicaciones vinculándolos a registros vinculados de Maestro.
+Puede importar registros de otras aplicaciones vinculándolos a registros vinculados de Maestro. Esto crea un tipo de registro Maestro para el objeto conectado a la aplicación de terceros. Los registros que conecte a los registros originales de Maestro se muestran en la vista de tabla de tipo de registro del objeto conectado de la aplicación de terceros Maestro.
 
 1. Cree un tipo de registro Maestro, tal como se describe en la sección [Creación de tipos de registros](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ Puede importar registros de otras aplicaciones vinculándolos a registros vincul
 
      Por ejemplo, si conecta un tipo de registro Maestro a proyectos de Workfront, se crea un tipo de registro de sólo lectura denominado &quot;proyectos de Workfront&quot; en el mismo área de trabajo.
    * Registros de solo lectura en la página de tipo de registro de terceros. Los registros importados de la aplicación de terceros siguen siendo de solo lectura y solo se pueden actualizar en su aplicación original.
-
 
 ## Crear registros copiando y pegando información de una lista externa
 

@@ -6,9 +6,9 @@ description: Puede crear un equipo Agile de Kanban o Scrum en [!DNL Adobe Workfr
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -42,16 +42,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: [!UICONTROL Standard]</p> 
    o
    <p>Actual: [!UICONTROL Work] o superior</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Editar acceso a Equipos</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
@@ -68,7 +75,6 @@ Para configurar cómo se calculan las historias para su equipo Agile:
 1. Seleccione el equipo Agile que desee administrar.
 1. Haga clic en **[!UICONTROL Más]** menú ![](assets/more-menu.png) , luego seleccione **[!UICONTROL Editar]**.
 
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.\
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
 1. En el **[!UICONTROL Agile]** , en la sección **[!UICONTROL Estimar historias en]** , seleccione si desea usar puntos u horas para estimar el tamaño (carga de trabajo) de los artículos. Si selecciona Puntos, especifique cuántas horas son iguales a 1 punto. (El valor predeterminado es 1 punto = 8 horas). Número de horas planificadas que se añaden a la historia.
@@ -89,8 +95,6 @@ Para definir los estados disponibles para el guion gráfico asociado con el equi
 
 1. Seleccione el equipo Agile que desee administrar.
 1. Haga clic en **[!UICONTROL Más]** menú, luego seleccione **[!UICONTROL Editar]**.
-
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ Para configurar las tarjetas de historia asignadas al equipo de Agile para que m
 
 1. Seleccione el equipo Agile que desee administrar.
 1. Haga clic en **[!UICONTROL Más]** menú, luego seleccione **[!UICONTROL Editar]**.\
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Para limitar WIP para el equipo Kanban:
 1. Seleccione el equipo Kanban que desea gestionar.
 1. Haga clic en **[!UICONTROL Más]** menú ![](assets/more-menu.png), luego seleccione **[!UICONTROL Editar]**.
 
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.
-
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
 1. En el **[!UICONTROL Agile]** , en la sección **[!UICONTROL Metodología]** , asegúrese de que Kanban está seleccionado.
@@ -193,8 +194,6 @@ Puede configurar historias del registro de pendientes para que se agreguen autom
 1. Seleccione el equipo Kanban que desea gestionar.
 1. Haga clic en **[!UICONTROL Más]** menú ![](assets/more-menu.png), luego seleccione **[!UICONTROL Editar]**.
 
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.
-
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
 1. Seleccionar **[!UICONTROL Agregar automáticamente la historia siguiente del registro de pendientes]** para configurar que el siguiente elemento del registro de pendientes se agregue automáticamente al **[!UICONTROL Nuevo]** cuando se mueve un elemento fuera de la columna **[!UICONTROL En curso]** columna.
@@ -215,8 +214,6 @@ Puede elegir cuánto tiempo permanecen las tarjetas completadas en el [!UICONTRO
 1. (Opcional) Haga clic en **[!UICONTROL Cambiar equipos]** icono ![Icono Cambiar equipos](assets/switch-team-icon.png), a continuación, seleccione un nuevo equipo Kanban en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Seleccione el equipo Kanban.
 1. Haga clic en **[!UICONTROL Más]** menú ![](assets/more-menu.png) , luego seleccione **[!UICONTROL Editar]**.
-
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 

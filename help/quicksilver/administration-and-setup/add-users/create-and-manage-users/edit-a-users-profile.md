@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador de Adobe Workfront, puede crear nuevos usuarios y administrar los perfiles de los existentes.
-author: Courtney, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: a5596a2c734aa1d0f7927e37873761abd56e590b
+source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 >
 >Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Como administrador de Adobe Workfront, puede crear nuevos usuarios y administrar los perfiles de los existentes. Para obtener información sobre la creación de usuarios, consulte [Adición de usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-
-Los usuarios con una licencia de planificación también pueden crear y administrar usuarios. Para obtener información sobre el acceso necesario para editar usuarios, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Como administrador de Adobe Workfront, puede crear usuarios y administrar los perfiles de los existentes. Para obtener información sobre la creación de usuarios, consulte [Adición de usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Requisitos de acceso
 
@@ -45,25 +43,35 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td> <p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
      <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en su nivel de acceso configurado en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El <b>Usuarios</b> objeto en su nivel de acceso configurado para <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos siguientes <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+     <ul><li> Administrador de usuarios (todos los usuarios)</li>
+     <li>Administrador de usuarios (usuarios de grupo)</li></ul>
+     <p>If  <b>Administrador de usuarios (usuarios de grupo)</b> está habilitada, debe ser administrador de grupo de un grupo en el que el usuario sea miembro para poder editar al usuario.</p> 
+     <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> 
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Edición de un perfil de usuario
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
-1. Seleccione el usuario y haga clic en el icono Editar ![](assets/edit-icon.png).
+{{step-1-to-users}}
 
-1. En el **Editar usuario** , cambie cualquiera de la siguiente información y, a continuación, haga clic en **Guardar cambios**:
+1. Seleccione el usuario y haga clic en el botón **Editar** icono ![](assets/edit-icon.png).
+
+   Se muestra el cuadro Editar usuario.
+
+1. En el **Editar usuario** , cambie la siguiente información y haga clic en **Guardar cambios** en cualquier momento:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,18 +81,21 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader">Información personal </td> 
       <td> 
        <ul> 
-        <li><b>Nombre</b>, <b>Apellidos</b></li> 
-        <li> <p><b>Correo electrónico:</b> La dirección de correo electrónico de un usuario es también su nombre de usuario en Workfront. Este campo distingue entre mayúsculas y minúsculas y debe ser único. Si algún usuario intenta agregar una dirección de correo electrónico no única 3 veces en un intervalo de 10 minutos, aparecerá una respuesta reCAPTCHA.</p> <p>Si utiliza la lista de permitidos de correo electrónico e introduce un dominio de correo electrónico que no está en la lista, el usuario no recibirá notificaciones por correo electrónico. Para obtener más información sobre la lista de permitidos, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configuración de la lista de permitidos de correo electrónico</a>.</p> </li> 
-        <li> <p><b>Restablecer contraseña</b>: haga clic en este vínculo para restablecer la contraseña del usuario. Se le pide su propia contraseña para poder restablecer la contraseña de un usuario.</p> <p>Para restablecer la contraseña de otro usuario, debe ser administrador de Workfront o de un grupo.</p> <p><b>NOTA</b>:  
+        <li><p><b>Nombre</b></p></li>
+        <li><p><b>Apellido</b></p></li> 
+        <li> <p><b>Correo electrónico:</b> La dirección de correo electrónico de un usuario es también su nombre de usuario en Workfront. Este campo distingue entre mayúsculas y minúsculas y debe ser único. Si algún usuario intenta agregar una dirección de correo electrónico no única 3 veces en un intervalo de 10 minutos, aparecerá una respuesta reCAPTCHA.</p> <p> Seleccione el <b>No soy un robot</b> configuración antes de continuar.</p><p>Si utiliza la lista de permitidos de correo electrónico e introduce un dominio de correo electrónico que no está en la lista, el usuario no recibirá notificaciones por correo electrónico. Para obtener más información sobre la lista de permitidos, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configuración de la lista de permitidos de correo electrónico</a>.</p> </li> 
+        <li> <p><b>Restablecer contraseña</b>: haga clic en este vínculo para restablecer la contraseña del usuario. Debe escribir su propia contraseña para poder restablecer la contraseña de otro usuario.</p> <p>Para restablecer la contraseña de otro usuario, debe ser administrador de Workfront o de un grupo.</p> <p><b>NOTA</b>:  
           <ul> 
-           <li> <p>Si es administrador de un grupo, sólo puede restablecer las contraseñas de los usuarios de los grupos a los que esté designado como tales. Además, el permiso Administración de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Esta configuración está deshabilitada de forma predeterminada. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
+           <li> <p>Si es administrador de un grupo, sólo puede restablecer las contraseñas de los usuarios de los grupos en los que esté designado como administrador. Además, el permiso Administración de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Esta configuración está deshabilitada de forma predeterminada. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
            <li> <p>No puede restablecer la contraseña de un administrador de Workfront.</p> </li> 
           </ul> </p> </li> 
         <li><b>&lt;sso configuration=""&gt; Nombre de usuario</b>: Si el administrador de Workfront ha habilitado una integración de SSO con Workfront, en este campo se muestra el nombre de usuario de SSO. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo. </li> 
-        <li> <p><b>SolamentePermitir &lt;sso configuration=""&gt; Autenticación</b>: Si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.</p> <p>Cuando se selecciona este campo, el usuario debe iniciar sesión en Workfront con sus credenciales de SSO. Si lo desmarca, podrán iniciar sesión en Workfront con sus credenciales de Workfront.</p> <p>Para obtener más información sobre la configuración de Workfront con una solución de SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Información general sobre el inicio de sesión único en Adobe Workfront</a></p> <p>Para obtener más información sobre la actualización de usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> <p><b>NOTA</b>: si es administrador de un grupo, puede editar la variable &lt;sso configuration=""&gt; solo para los usuarios de los grupos en los que esté designado como tal. Además, el permiso de Administración de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso.
+        <li> <p><b>SolamentePermitir &lt;sso configuration=""&gt; Autenticación</b>: Si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.</p> <p>Cuando se selecciona este campo, el usuario debe iniciar sesión en Workfront con sus credenciales de SSO. Si lo desmarca, podrán iniciar sesión en Workfront con sus credenciales de Workfront.</p> <p>Para obtener más información sobre la configuración de Workfront con una solución de SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Información general sobre el inicio de sesión único en Adobe Workfront</a></p> <p>Para obtener más información sobre la actualización de usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> 
+        <p><b>NOTA</b>:</p> 
+        <p> Si es administrador de un grupo, puede editar la variable &lt;sso configuration=""&gt; solo para los usuarios de los grupos en los que esté designado como tal. Además, el permiso de Administración de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso.
         <p>Si es administrador de un grupo y tiene habilitado el permiso Administración de usuarios (todos los usuarios) en su nivel de acceso, puede editar el &lt;sso configuration=""&gt; campos para todos los usuarios.</p> </li> 
-        <li><b>Información de trabajo:</b> Información sobre el trabajo, como su cargo y de qué área de experiencia es responsable el usuario.</li> 
-        <li><p><b>Información de contacto</b>: número de teléfono y dirección del usuario.</p>
+        <li><b>Información de trabajo:</b> Información sobre el trabajo, como el cargo (en el <b>Título</b> ) y de qué área de conocimiento es responsable el usuario (en el <b>Hablar conmigo sobre</b> field).</li> 
+        <li><p><b>Información de contacto</b>: el número de teléfono del usuario (en el <b>Número de teléfono, Ext.</b>, y <b>Número de móvil</b> campos) y dirección (en el <b>Dirección, Ciudad, Estado, Código postal, País</b> campos ).</p>
         <p>Si el usuario está habilitado para Unified User Management (UUM) o Adobe Identity Management System (IMS), la variable <b>País</b> El campo de la sección Información de contacto solo acepta valores de código de país (por ejemplo, EE. UU., GB, IN).</p></li>
        </ul> </td> 
      </tr> 
@@ -93,15 +104,16 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td> 
        <ul> 
       <li> <p><b>Zona horaria:</b> Zona horaria del usuario.</p> <p>Para obtener información sobre cómo ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, consulte <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabajo entre zonas horarias</a>.</p> </li> 
-       <li><b>Configuración regional de correo electrónico</b>: la configuración regional de correo electrónico preferida del usuario. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li>
+       <li><b>Configuración regional de correo electrónico</b>: la configuración regional de correo electrónico preferida del usuario. Esto afecta al formato de los números y las fechas de los correos electrónicos que llegan desde Workfront a este usuario.</li>
 
    <li><b>Recibir correos electrónicos de este entorno de prueba</b>: marque esta opción si desea recibir notificaciones por correo electrónico del entorno en el que ha iniciado sesión actualmente.
       <p><b>NOTA</b></p>
-      Esta opción solo está disponible en los entornos Vista previa y Zona protegida. Las notificaciones por correo electrónico están habilitadas en el entorno de producción de forma predeterminada. 
+      <p>Esta opción solo está disponible en los entornos Vista previa y Zona protegida. Las notificaciones por correo electrónico están habilitadas en el entorno de producción de forma predeterminada. </p>
       </li>
 
    <li><b>Mostrar porcentaje completado al actualizar el estado</b>: marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualización de las tareas de este usuario.</li> 
-       <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que el usuario se asigna a sí mismo aparezca directamente en la pestaña Trabajando en. El valor predeterminado es enumerar todo lo asignado a un usuario en su pestaña Solicitud de trabajo.</li> 
+       <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que el usuario se asigna a sí mismo aparezca directamente en la lista Trabajando en del área de Inicio. El valor predeterminado es enumerar todo lo asignado a un usuario en sus listas Listo para comenzar o No listo en el área de Inicio.</li> 
+       <li><b>Generar automáticamente revisiones al cargar documentos</b>: Marque esta opción si desea que los documentos que carga el usuario generen una prueba inmediatamente. Según la licencia de revisión de Workfront, el número total de pruebas disponibles para generar en el sistema para todos los usuarios podría verse afectado cuando los usuarios generan pruebas. </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -112,11 +124,15 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader">Acceso</td> 
       <td> 
        <ul> 
-      <li><b>Está activo:</b> Seleccione esta casilla para indicar que el usuario está activo. Los usuarios activos utilizan una licencia de Workfront. Al desactivar la casilla, se desactiva el usuario.</li> 
+      <li><b>Está activo:</b> Seleccione esta casilla para indicar que el usuario está activo. Los usuarios activos utilizan una licencia de Workfront. Al desactivar la casilla, se desactiva el usuario y se impide que inicie sesión en Workfront.</li> 
        <li> <p><b>Nivel de acceso:</b> Seleccione el nivel de acceso que desea asignar a este usuario.</p> 
-       <p>Al asignar un nivel de acceso a un usuario, puede asignar un nivel igual o inferior al suyo propio. (Por ejemplo, si su nivel de acceso es Planificador, no puede asignar el nivel de acceso Administrador). Sin embargo, no puede asignar un nivel de acceso que, de forma predeterminada, sea menor que el suyo propio si el administrador de Workfront ha habilitado permisos no predeterminados en el nivel de acceso que no están habilitados también en el suyo (a través de la configuración Ajuste, como se describe en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>). </p> 
-       <p>Para obtener más información sobre los niveles de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuración del acceso a Adobe Workfront</a>.</p><p> <b>Nota:</b> Si su organización utiliza el nuevo modelo de acceso (Estándar/Ligero/Colaborador), no puede reasignar un usuario Estándar o Ligero a un nivel de acceso Colaborador si ese usuario ya ha alcanzado su límite de decisiones en el mes. </p><p>Para obtener más información sobre el nuevo modelo de acceso, consulte <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre nuevos niveles de acceso</a>. </p><p>Para obtener información sobre los límites de decisión, consulte <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados</a>.</p></li> 
-       <li> <p><b>Plantilla de diseño</b>: elija una plantilla de diseño para el usuario. Esta plantilla de diseño tiene prioridad sobre cualquier plantilla de diseño asignada al grupo de inicio, al equipo de inicio o a la función de trabajo principal del usuario. Para obtener más información sobre la prioridad de asignación de las plantillas de diseño, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Creación y administración de plantillas de diseño</a>.</p> <p><b>NOTA</b>:  <p>La lista de plantillas disponibles en este campo depende de su acceso:</p> 
+       <p>Al asignar un nivel de acceso a un usuario, puede asignar un nivel igual o inferior al suyo propio.</p>
+       <p>Por ejemplo, si el nivel de acceso es Plan, no puede asignar el nivel de acceso Administrador. Sin embargo, no puede asignar un nivel de acceso que, de forma predeterminada, sea inferior a su propio nivel de acceso si el administrador de Workfront ha habilitado permisos no predeterminados en el nivel de acceso que no están habilitados también en su propio nivel de acceso. </p>
+       <p>Por ejemplo, si tiene una licencia de planificación sin acceso para eliminar tareas, no puede asignar a alguien una licencia de trabajo con acceso para eliminar tareas, aunque la licencia de trabajo sea inferior a la licencia de planificación. Para obtener más información, consulte  <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> 
+       <p>Para obtener más información sobre los niveles de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuración del acceso a Adobe Workfront</a>.</p>
+       <p> <b>NOTA:</b></p> 
+       <p> Si su organización utiliza el nuevo modelo de acceso (Estándar/Ligero/Colaborador), no puede reasignar un usuario Estándar o Ligero a un nivel de acceso Colaborador si ese usuario ya ha alcanzado su límite de decisiones en el mes. </p><p>Para obtener más información sobre el nuevo modelo de acceso, consulte <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre nuevos niveles de acceso</a>. </p><p>Para obtener información sobre los límites de decisión, consulte <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados</a>.</p></li> 
+       <li> <p><b>Plantilla de diseño</b>: elija una plantilla de diseño para el usuario. Esta plantilla de diseño tiene prioridad sobre cualquier plantilla de diseño asignada al grupo de inicio, al equipo de inicio o a la función principal del usuario. Para obtener más información sobre la prioridad de asignación de las plantillas de diseño, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Creación y administración de plantillas de diseño</a>.</p> <p><b>NOTA</b>:  <p>La siguiente lista describe cómo la lista de plantillas disponibles en este campo depende de su acceso:</p> 
        <ul> 
        <li>Como administrador de Workfront, puede ver todas las plantillas de diseño de nivel de sistema y de grupo.</li> 
        <li>Como administrador de grupos, puede ver la plantilla de diseño de nivel de sistema, así como las asociadas a los grupos que administra.</li> 
@@ -129,12 +145,17 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td> 
        <ul> 
       <li><b>Compañía</b>: la compañía del usuario. Los usuarios solo pueden asociarse con una compañía. Debe crear una compañía antes de poder asociarla a un usuario. En la lista solo se muestran las empresas activas. Para obtener información sobre la creación de empresas, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Crear y editar compañías</a>.</li> 
-      <li><b>Informes para:</b> Si ha especificado una compañía para el usuario, también puede especificar el administrador directo del usuario en este campo. Un usuario solo puede tener un responsable.</li> 
-      <li><b>Subordinados directos:</b> Si ha especificado una compañía para el usuario, también puede especificar los informes directos del usuario. Un usuario puede tener varios informes directos.</li> 
-      <li><b>Equipo de inicio</b>: especifique el equipo de inicio del usuario. Los usuarios solo pueden tener un equipo de inicio.</li> 
-      <li><b>Otros equipos</b>: los usuarios pueden pertenecer a varios equipos.</li> 
-      <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo.</p> <p>Este campo es obligatorio. Todos los usuarios deben estar asociados a un grupo de inicio. Si no selecciona uno, el grupo se asigna como el grupo de inicio del nuevo usuario.</p> <p><b>NOTA</b>: Puede asignar un grupo a un usuario solo si es administrador de Workfront, si es el administrador del grupo o si el grupo es público.</p> </li> 
-      <li> <p><b>Otros grupos</b>: los usuarios pueden pertenecer a varios grupos. Solo puede asignar un grupo a un usuario si es administrador de Workfront, si es el administrador del grupo o si el grupo es público.</p> <p><b>IMPORTANTE</b>: Añadir un usuario a más de 100 grupos puede causar problemas de rendimiento en cualquier área de Workfront que cargue la lista de grupos.</p> <p>Para obtener más información sobre los grupos públicos, consulte <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Crear un grupo</a>.</p> <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general de grupos</a>.</p> </li> 
+      <li><b>Informes para:</b> Si ha especificado una compañía para el usuario, también puede especificar el administrador directo del usuario en este campo. Un usuario solo puede tener un responsable. Este campo no se muestra si el usuario no está asociado primero con una empresa. </li> 
+      <li><b>Subordinados directos:</b> Si ha especificado una compañía para el usuario, también puede especificar los informes directos del usuario. Un usuario puede tener varios informes directos. Este campo no se muestra si el usuario no está asociado primero con una empresa.</li> 
+      <li><b>Equipo de inicio</b>: especifique el equipo de inicio del usuario. Los usuarios solo pueden tener un equipo de inicio. El equipo de inicio es importante a la hora de asignar una plantilla de diseño o al definir el botón Trabajar en ello para las tareas y problemas asignados al usuario. </li> 
+      <li><b>Otros equipos</b>: los usuarios pueden pertenecer a varios equipos. Un usuario puede ver los elementos de trabajo asignados a cualquiera de sus equipos en el área de Inicio. </li> 
+      <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo. También puede compartir plantillas de diseño con el grupo de inicio del usuario.</p> <p>Este campo es obligatorio. Todos los usuarios deben estar asociados a un grupo de inicio. Si no selecciona uno, el grupo se asigna como el grupo de inicio del nuevo usuario.</p> <p><b>NOTA</b>:</p> 
+      <p> Puede asignar un grupo a un usuario solo si se cumple una de las siguientes condiciones:</p>
+      <ul><li>usted es administrador de Workfront</li>
+      <li>usted es el administrador del grupo</li>
+      <li>el grupo es público.</li></ul> 
+      <li> <p><b>Otros grupos</b>: los usuarios pueden pertenecer a varios grupos. Solo puede asignar un grupo a un usuario si es administrador de Workfront, si es el administrador del grupo o si el grupo es público.</p> <p><b>IMPORTANTE</b>:</p> 
+      <p>Añadir un usuario a más de 100 grupos puede causar problemas de rendimiento en cualquier área de Workfront que cargue la lista de grupos.</p> <p>Para obtener más información sobre los grupos públicos, consulte <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Crear un grupo</a>.</p> <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general de grupos</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -158,8 +179,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a tiempo completo.
    </li> 
-      <li> <b>Programar desactivación</b>: Marque esta casilla si desea programar la desactivación de este usuario después de un periodo de tiempo. </li> 
-       <li><b>Fecha programada de desactivación</b>: la fecha después de la cual se desactiva el usuario. Para obtener información acerca de cómo programar usuarios para su desactivación, consulte la <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</li> 
+      <li> <b>Programar desactivación</b>: Marque esta casilla si desea programar la desactivación de este usuario en una fecha y a una hora determinadas. </li> 
+       <li><b>Fecha programada de desactivación</b>: la fecha y la hora en que se desactiva el usuario. Para obtener información acerca de cómo programar usuarios para su desactivación, consulte la <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuarios para su desactivación</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</li> 
        <li> <p><b>Rol principal</b>: Esta es la función principal que el usuario puede desempeñar en Workfront. Todas las tareas y problemas que se le asignan al usuario también se asignan a este rol. Las funciones del puesto son esenciales en la gestión de recursos. Solo puede actualizar este campo si dispone de una licencia de planificación con acceso de usuario administrativo o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> <p>En la lista solo se muestran los roles activos. </p> </li> 
        <li>Si seleccionó una <b>Rol principal</b>, el <b>Porcentaje de disponibilidad de FTE</b> se muestra el campo. Especifique qué porcentaje de tiempo de la programación del usuario se asigna a este rol. El valor predeterminado para el porcentaje de disponibilidad de FTE para el rol principal es 100%. </li> 
        <li> <p><b>Otros roles</b>: un usuario puede tener varios roles en Workfront. Las funciones del puesto son esenciales en la gestión de recursos. No hay límite en cuanto a las funciones que puede desempeñar un usuario. Sin embargo, se recomienda no asignar un usuario a un número excesivamente elevado de funciones del puesto, ya que la administración de recursos podría resultar demasiado compleja para estos usuarios.<p>En la lista solo se muestran los roles activos. Para obtener más información sobre las funciones, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a>.</p> <p>Solo puede actualizar este campo si dispone de una licencia de planificación con acceso de usuario administrativo o si es administrador de Workfront. <br>Para obtener más información sobre la configuración de usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 

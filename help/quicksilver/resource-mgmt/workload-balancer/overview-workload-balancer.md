@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Descripción general del Distribuidor de cargas de trabajo
-description: Después de que los jefes de proyecto planifiquen el trabajo en los proyectos y creen tareas, puede utilizar el Distribuidor de cargas de trabajo para asignar este trabajo a los usuarios de sus equipos.
-author: Alina
+description: Una vez que los jefes de proyecto hayan planificado el trabajo en los proyectos creando tareas y después de que los jefes de recursos asignen los recursos de roles a los proyectos en el Planificador de recursos, los propietarios de proyecto y los jefes de equipo podrán utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-Después de que los jefes de proyecto planifiquen el trabajo en los proyectos y creen tareas, puede utilizar el Distribuidor de cargas de trabajo para asignar este trabajo a los usuarios.
+Una vez que los jefes de proyecto hayan planificado el trabajo en los proyectos creando tareas y después de que los jefes de recursos asignen los recursos de roles a los proyectos en el Planificador de recursos, los propietarios de proyecto y los jefes de equipo podrán utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios.
 
 >[!IMPORTANT]
 >
@@ -55,12 +55,12 @@ Tenga en cuenta las siguientes ventajas al utilizar el Distribuidor de cargas de
 -->
 
 * Acceda a una asignación visual clara de la sobreasignación y la infrautilización de recursos que sea transparente para todas las partes interesadas.
-* Como gerente de personas, puede proteger a su gente del agotamiento y capacitarla para hacer su mejor trabajo con mejor enfoque, calidad y participación. Puede garantizar su utilización completa, romper los silos y habilitar la alineación del trabajo entre equipos.
+* Como gerente de personas, puede proteger a sus empleados del agotamiento profesional y empoderarlos para que hagan su mejor trabajo con mejor enfoque, calidad y participación. Puede garantizar su utilización completa, romper los silos y habilitar la alineación del trabajo entre equipos.
 * Al asignar trabajo en el nivel de tarea o problema no tiene visibilidad de cuán ocupado podría estar un usuario. Al utilizar el Distribuidor de cargas de trabajo, puede ver qué usuarios tienen disponibilidad en su carga de trabajo para completar la tarea o el problema a tiempo. Esto incluye los detalles de sus días libres y excepciones de horario.
 
   Para obtener más información, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  También puede asignar elementos de trabajo de forma masiva, lo que facilita la distribución de un gran número de elementos de trabajo al mismo tiempo, en varios proyectos. Para obtener más información, consulte [Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  También puede asignar elementos de trabajo de forma masiva, lo que facilita la distribución de muchos elementos de trabajo al mismo tiempo en varios proyectos. Para obtener más información, consulte [Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Los ejecutivos pueden tomar decisiones oportunas sobre la dotación de personal a través de la transparencia en la forma en que se utilizan las personas de su organización.
 * Los miembros del equipo se benefician de una mejor colaboración, ya que todos pueden ver en qué están trabajando sus compañeros en un momento determinado. Para obtener información sobre el acceso necesario para ver o administrar recursos en el Distribuidor de cargas de trabajo, consulte [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ Para obtener información sobre la creación y el uso de filtros en el Distribui
 
   Para obtener información sobre el acceso necesario para administrar la carga de trabajo de los recursos en el Distribuidor de cargas de trabajo, consulte [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* Los usuarios cuya carga de trabajo desea gestionar deben cumplir los siguientes criterios para que la información sobre su disponibilidad y aptitudes sea precisa:
+* Los usuarios cuya carga de trabajo desee gestionar deben cumplir los siguientes criterios para que la información sobre su disponibilidad y aptitudes sea precisa:
 
    * Tienen los horarios y los roles asociados a su perfil.
-   * Para obtener más información sobre la asociación de horarios y funciones de trabajo con los usuarios, consulte [Adición de usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     Para obtener más información sobre la asociación de horarios y funciones de trabajo con los usuarios, consulte [Adición de usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Si un usuario no está asociado a un Horario, el Horario por Defecto de su sistema Workfront se asocia al usuario por defecto, a efectos de la gestión de recursos.
-   * Hacer que las excepciones de horario se actualicen en sus horarios.\
+   * Hacer que las excepciones de horario se actualicen en sus horarios.
+
      Para obtener más información sobre la creación de programaciones, consulte [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Actualice su calendario de días libres en el perfil.\
+   * Actualice su calendario de días libres en el perfil.
+
      Para obtener información sobre cómo actualizar el calendario de días libres de un usuario, consulte [Configuración del tiempo libre personal](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ Para obtener información sobre la creación y el uso de filtros en el Distribui
      </div>   
      -->
 
-* El administrador de Workfront debe determinar cómo calcula Workfront la disponibilidad del usuario. Pueden decidir si Workfront utiliza el horario predeterminado del sistema o el horario del usuario para calcular el tiempo que el usuario está disponible para trabajar. Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* El administrador de Workfront debe determinar cómo calcula Workfront la disponibilidad del usuario. Pueden decidir si Workfront utiliza el horario predeterminado del sistema o el horario del usuario para calcular el tiempo que el usuario está disponible para trabajar ajustando las preferencias de Administración de recursos en el área de Configuración de Workfront.
+
+  Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Prácticas recomendadas para configurar tareas y problemas {#best-practices-for-setting-up-tasks-and-issues}
 
 Asegúrese de que exista la siguiente configuración de tareas y problemas antes de comenzar a asignar trabajo a los usuarios en el Distribuidor de cargas de trabajo:
 
-* Las tareas principales no están asignadas a usuarios o roles. No se muestran en el Distribuidor de cargas de trabajo.
+* Las tareas principales no están asignadas a usuarios o roles. Las tareas principales no se muestran en el Distribuidor de cargas de trabajo.
 * Las tareas y los problemas tienen un valor de horas planificadas mayor que cero.
 
 * Las tareas y los problemas tienen un valor de Duración mayor que cero.
@@ -124,14 +129,14 @@ Asegúrese de que exista la siguiente configuración de tareas y problemas antes
 
 ## Antes de empezar a utilizar el Distribuidor de cargas de trabajo
 
-* Puede utilizar el Distribuidor de cargas de trabajo para asignar trabajo y administrar las asignaciones diarias para los usuarios de su organización.
+* Lea los siguientes artículos antes de empezar a utilizar el Distribuidor de cargas de trabajo:
 
-  Este artículo explica cómo desplazarse por el Distribuidor de cargas de trabajo para realizar estas acciones: [Navegación por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
+   * Este artículo explica cómo desplazarse por el Distribuidor de cargas de trabajo para realizar estas acciones: [Navegación por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
-  En los siguientes artículos se explica cómo asignar trabajo y administrar asignaciones de usuarios:
+   * En los siguientes artículos se explica cómo asignar trabajo y administrar asignaciones de usuarios:
 
-   * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * El Distribuidor de cargas de trabajo se puede encontrar en varias áreas diferentes de Workfront. Para obtener información sobre dónde encontrar el Distribuidor de cargas de trabajo, consulte [Localización del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

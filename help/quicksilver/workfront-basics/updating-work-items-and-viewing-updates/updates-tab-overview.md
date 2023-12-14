@@ -7,10 +7,10 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 4%
 # Información general de la sección Actualizaciones
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. </span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 4%
 
 La sección Actualizaciones de un objeto muestra las actualizaciones del sistema y hasta 200 de las actualizaciones más recientes realizadas por los usuarios en los últimos 90 días.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 En función de los objetos para los que acceda a la experiencia de comentarios, es posible que encuentre la siguiente experiencia en la sección Actualizaciones:
 
@@ -89,7 +96,7 @@ En función de los objetos para los que acceda a la experiencia de comentarios, 
 
 ### Información general sobre la sección Actualizaciones en la nueva experiencia de comentarios
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >Las respuestas agregadas a las actualizaciones del sistema no se acumulan en el objeto principal. Solo las respuestas directas sobre un objeto secundario y las respuestas agregadas a actualizaciones existentes se acumulan en objetos principales.
@@ -213,7 +217,6 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
 >
 > No es posible responder a las actualizaciones del sistema en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Limitaciones de la sección Actualizaciones
 
@@ -230,7 +233,7 @@ Tenga en cuenta lo siguiente al ver las actualizaciones para usuarios y equipos:
 * La sección Actualizaciones para equipos se rellena con actualizaciones introducidas en los siguientes objetos:
 
    * Usuarios
-   * Plantillas de horas*
+   * Hojas de horas*
    * Historias
    * Iteraciones*
 
