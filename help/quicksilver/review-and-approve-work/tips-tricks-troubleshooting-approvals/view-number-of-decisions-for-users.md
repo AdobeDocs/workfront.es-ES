@@ -6,15 +6,17 @@ description: Puede ver el número de pruebas y decisiones de documentos que han 
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # Ver el número de decisiones de prueba y documento para todos los usuarios
+
+{{highlighted-preview}}
 
 Puede ver el número de pruebas y decisiones de documentos que han tomado los usuarios en la instancia de Workfront.
 
@@ -26,11 +28,17 @@ Puede ver el número de pruebas y decisiones de documentos que han tomado los us
 
 Para ver el número de decisiones de un usuario:
 
-1. Haga clic en **Menú principal** en la esquina superior derecha de Adobe Workfront y haga clic en **Usuarios**.
+{{step-1-to-users}}
 
 1. Abra el **Vistas** y, a continuación, seleccione la **Licencias** vista.
-
 1. Buscar la columna **Decisiones de este mes** para ver el número de decisiones que cada usuario ha tomado en el mes.
+1. <span class="preview">Para ver los datos históricos, abra **Vistas** y elija **Vista de usuario histórica**.</span>
+1. <span class="preview">Buscar la columna **Decisiones históricas de usuarios** para ver la cantidad de decisiones que cada usuario ha tomado en un mes. Los datos se remontan 12 meses desde el mes actual.</span>
+
+>[!NOTE]
+>
+><span class="preview">Si la Vista de usuario histórica no está disponible, puede crear una nueva vista para mostrar los datos históricos. Añadir **Decisiones históricas de usuarios** como una columna en la vista. Para obtener información sobre cómo agregar una columna a una vista, consulte [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## Ver decisiones en el área de informes
 
@@ -38,7 +46,12 @@ Para ver el número de decisiones de un usuario:
 >
 >Este informe se aplica a los usuarios de los modelos de nivel de acceso nuevo y heredado.
 
-1. Haga clic en **Menú principal** en la esquina superior derecha de Adobe Workfront y haga clic en **Informes**.
+{{step1-to-reports}}
+
 1. Clic **Nuevo informe**, luego seleccione **Decisiones de usuarios**.
+1. Buscar la columna **Decisiones de este mes** para ver el número de decisiones que cada usuario ha tomado en el mes.
+
+   <span class="preview">Los datos se remontan 12 meses desde el mes actual. El **Mes** y **Año** Las columnas muestran en qué mes se tomaron las decisiones. El mes 1 es enero, el mes 2 es febrero, etc.</span>
+
 1. Revise el informe y edítelo según sea necesario. Para obtener más información, consulte [Creación de un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
