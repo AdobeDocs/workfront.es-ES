@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -232,8 +232,12 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
    * Dos tipos de registros de Maestro
    * Un tipo de registro Maestro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
+   * Un tipo de registro Maestro y un recurso, carpeta o colección de Adobe Experience Manager.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     Debe tener una licencia de Adobe Experience Manager para vincular tipos de registros con objetos de Experience Manager.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro vinculado.
 
@@ -273,15 +277,15 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 
 | Objeto Maestro | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Número de espacios de trabajo de una instancia de Workfront | 1,000 |
+| Número de espacios de trabajo de una instancia de Workfront | 1.000 |
 | Número de tipos de registro de un espacio de trabajo | 1000 (incluye taxonomías para el espacio de trabajo u objetos que se importan desde aplicaciones de terceros) |
-| Número de registros para un tipo de registro | 10,000 |
+| Número de registros para un tipo de registro | 10.000 |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto | 1.000 caracteres |
-| Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1MB |
-| Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1.5MB |
+| Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |
+| Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
-| Tamaño del archivo CSV de Excel que puede importar en una tabla | 5MB |
+| Tamaño del archivo CSV de Excel que puede importar en una tabla | 5 MB |
 
 ## Habilite Maestro para los usuarios de la instancia de Workfront
 
@@ -367,6 +371,7 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Conectar registros y taxonomías de Maestro | ✓ |
 | Buscar registros en la vista de tabla | ✓ |   |
 | Conectar registros de Maestro a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
+| Conectar registros de Maestro a recursos, carpetas y colecciones de Adobe Experience Manager | ✓ |                                  |                 |
 | Registrar página de detalles | ✓ |                                  |                  |
 | Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
 | Permisos de Workspace | | ✓ |  |
@@ -375,6 +380,8 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
 | Agregar comentarios a registros |                               | ✓ |                 |
 | Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
+
+
 
 ## Actividad de versión de Maestro
 

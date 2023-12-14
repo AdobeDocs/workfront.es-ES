@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> producto de Adobe</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Para conectar los tipos de registros de Maestro con Experience Manager Assets, debe tener una Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Tenga en cuenta lo siguiente:
       * Compañías
       * Grupos
 
+   * Adobe Experience Manager Assets:
+
+      * Assets
+      * Carpetas
+      * Colecciones
+
 * Después de conectar un tipo de registro con otro tipo de registro o con un tipo de objeto de otra aplicación, existen los siguientes escenarios:
 
    * Al conectar dos tipos de registros: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. Se crea un campo de registro vinculado similar en el tipo de registro al que se conecta.
@@ -230,12 +238,14 @@ Tenga en cuenta lo siguiente:
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Haga clic en **+** en la esquina superior derecha de la vista de tabla y, a continuación, haga clic en el icono **Nueva conexión** pestaña.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. En el **Tipo de registro** , seleccione una de las siguientes opciones: <!--is the field name spelled right? lowercase "t"?-->
 
-   * Otro tipo de registro operativo
-   * Una taxonomía
-   * Un proyecto, Portfolio, programa, empresa o grupo de Workfront.
+   * Otro tipo de registro operativo del espacio de trabajo seleccionado
+   * Una taxonomía del espacio de trabajo seleccionado
+   * Un proyecto, Portfolio, programa, empresa o grupo de la sección Tipos de objetos de Workfront.
+   * Experience Manager Assets desde la sección Aplicaciones de Adobe.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Tenga en cuenta lo siguiente:
    * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
    * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos del tipo de registro seleccionado. Esta opción está seleccionada de forma predeterminada.
 
+1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo proyectos que cumplan estos criterios** sección. <!--this needs to be updated for each object when they fix this UI.--> Sólo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro Maestro seleccionado. Puede seleccionar varios formularios.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en la **repositorio del Experience Manager** menú desplegable en el **Vincular recursos del siguiente repositorio** sección. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Haga clic en **Crear**.
 
-1. (Condicional) Si seleccionó la configuración Seleccionar campo de búsqueda en el paso anterior, la variable **Agregar campos de búsqueda** se abre el cuadro.
+1. (Condicional) Si seleccionó la variable **Seleccionar campo de búsqueda** configuración en el paso anterior, la variable **Agregar campos de búsqueda** se abre el cuadro.
 
    Haga clic en **+** para añadir campos desde el **Campos no seleccionados** área.
 
@@ -274,6 +292,10 @@ Tenga en cuenta lo siguiente:
 1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador. Los valores de los campos vinculados se muestran separados por comas o como un valor agregado según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registro vinculado.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Los acumuladores no están disponibles al conectar tipos de registros a Experience Manager Assets.
 
    Seleccione una de las siguientes opciones:
 

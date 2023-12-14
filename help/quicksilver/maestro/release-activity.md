@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Con esta mejora, observe lo siguiente:
 * Todas las vistas de tabla de un tipo de registro tienen el mismo campo principal que seleccione.
 
 Para obtener más información, consulte [Administrar vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Conectar registros de Maestro con recursos de Adobe Experience Manager AEM ()
+
+Versión de vista previa: 14 de diciembre de 2023
+
+Versión de producción: 15 de diciembre de 2023
+
+Ahora puede establecer una conexión entre los tipos de registros de Maestro y los recursos de Adobe Experience Manager.
+
+Después de establecer la conexión, esta actualización incluye las siguientes funciones:
+
+* AEM AEM Los usuarios de Maestro pueden vincular recursos, carpetas o colecciones de la aplicación a un registro de Maestro desde un repositorio específico en el que tengan acceso a los recursos, carpetas o colecciones de la aplicación de un repositorio en el que tengan acceso
+
+* Los usuarios de Maestro pueden ver todos los recursos conectados en Maestro después de conectarse a los registros.
+
+* Se crea automáticamente un tipo de registro Experience Manager Assets en Maestro después de establecer la conexión. Los recursos conectados se pueden ver en la tabla Maestro y en las vistas de escala de tiempo de este nuevo tipo de registro.
+
+* AEM Puede ver información de recursos de la vista en la tabla de registros de Maestro desde la que se conecta.
+
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Semana del 4 de diciembre de 2023
 
