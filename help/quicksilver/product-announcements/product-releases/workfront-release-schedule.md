@@ -7,9 +7,9 @@ description: El entorno de vista previa se actualiza una vez a la semana con nue
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Las liberaciones suelen tener lugar alrededor de las 20:00-22:00, hora de la mon
 
 Adobe Workfront tiene dos modelos para lanzar nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funciones trimestralmente o con una programación de versiones más rápida.
 
-Se ha planificado que las versiones mensuales y trimestrales estén disponibles el último jueves del mes. Las liberaciones suelen tener lugar alrededor de las 20:00-22:00, hora de la montaña de EE. UU., de la noche anterior.
+Las versiones mensuales y trimestrales están planificadas para estar disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario. Para las próximas fechas, consulte las más recientes [Información general de versión](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+Las versiones suelen tener lugar entre las 20:00 y las 22:00, hora de la montaña de EE. UU., la noche anterior a la fecha de lanzamiento.
 
 Normalmente, las funciones de la vista previa estarán disponibles en el entorno de producción en la próxima versión. Sin embargo, en algunos casos, las funciones están disponibles en el entorno de producción fuera de una versión programada. Estos cambios permanecen en la Vista previa durante un mínimo de 2 semanas para proporcionarle el tiempo adecuado para familiarizarse con los cambios. Estos cambios también se comunican a través del Centro de anuncios en el momento en que se añaden a la Vista previa.
 
@@ -81,7 +83,7 @@ A veces, Workfront puede lanzar funciones que podrían no estar documentadas en 
 
 Si se encuentra con algo en el sistema que no coincide con la documentación de y sobre lo que podría tener preguntas, le pedimos que se ponga en contacto con nuestro equipo de asistencia al cliente. Para obtener más información, consulte [Contactar con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-## Notas de versión
+## Notas de la versión
 
 Utilice las notas de la versión de la próxima versión programada para ver qué nuevas funciones están disponibles en Vista previa y cuándo se lanzarán al entorno de producción.
 
