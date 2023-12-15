@@ -7,14 +7,16 @@ description: Puede compartir y revisar varios tipos de archivos con los revisore
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
 
 # Información general sobre tipos de archivo de revisión compatibles y límites de tamaño
+
+<!--Audited: 12/2023-->
 
 Puede compartir y revisar varios tipos de archivos con los revisores, incluso si no tienen el software utilizado para crear los archivos (como Photoshop o Illustrator) instalado en sus equipos. Admitimos tipos de archivos estáticos, de vídeo, de audio, de captura web y archivos interactivos de hasta 4 GB de tamaño.
 

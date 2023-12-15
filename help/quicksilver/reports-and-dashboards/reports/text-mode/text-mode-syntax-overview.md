@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Resumen de sintaxis de modo de texto
+
+<!--Audited: 12/2023-->
 
 Puede utilizar la interfaz de modo de texto para crear vistas, filtros, agrupaciones y peticiones de datos personalizadas más complejos en listas e informes. Con el modo de texto, puede acceder a campos y sus atributos que no están disponibles en la interfaz del modo estándar.
 

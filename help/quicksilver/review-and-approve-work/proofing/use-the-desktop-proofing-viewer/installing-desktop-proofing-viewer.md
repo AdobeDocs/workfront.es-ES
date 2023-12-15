@@ -6,14 +6,16 @@ description: Desktop Proofing Viewer, diseñado principalmente para revisar cont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Instalación del Visor de corrección de escritorio
+
+<!--Audited: 12/2023-->
 
 Desktop Proofing Viewer, diseñado principalmente para revisar contenido interactivo, es una aplicación que debe instalarse en el equipo local.
 
@@ -34,11 +36,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Nuevo: Cualquiera</p> <p>o</p> <p>Actual: Pro o Superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Cualquiera</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Si no es así, puede seguir los pasos a continuación.
 
 >[!NOTE]
 >
->Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente significa que el administrador de Workfront o Workfront Proof debe configurarlo como el visor predeterminado para las pruebas interactivas, como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente significa que el administrador de Workfront o Workfront Proof debe configurarlo como el visor predeterminado para las pruebas interactivas, como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Instalación del Visor de corrección de escritorio en Windows
 

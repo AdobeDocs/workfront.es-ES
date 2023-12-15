@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 1%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 1%
          * [Definición de tipos de solicitud para un proyecto](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * Creación de solicitudes {#create-requests}
          * [Creación de solicitudes](manage-work/requests/create-requests/create-requests.md)
-         * [Creación y envío de solicitudes de Adobe Workfront](manage-work/requests/create-requests/create-submit-requests.md)
+         * [Creación y envío de solicitudes](manage-work/requests/create-requests/create-submit-requests.md)
          * [Crear solicitudes a partir de borradores](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Localizar solicitudes enviadas](manage-work/requests/create-requests/locate-submitted-requests.md)

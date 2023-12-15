@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # Hora de registro
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo plan:<ul><li>Normal o superior para registrar horas generales en una hoja de horas</li></p>
+   <td> <p>Nuevo:<ul><li>Normal o superior para registrar horas generales en una hoja de horas</li></p>
    <li> Estándar o superior para registrar horas en un proyecto, tarea o problema</li></ul></p>
    <p>o</p>
-   <p>Plan actual:<ul><li>Revise o superior para registrar horas generales en una hoja de horas</li></p>
+   <p>Actual:<ul><li>Revise o superior para registrar horas generales en una hoja de horas</li></p>
    <li> Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul></p>
    </td> 
   </tr> 

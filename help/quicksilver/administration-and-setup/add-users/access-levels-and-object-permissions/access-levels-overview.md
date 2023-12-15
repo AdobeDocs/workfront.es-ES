@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Como administrador de Adobe Workfront, asigna un nivel de acceso a un usuario para dos fines:
 
-* Todos los usuarios deben tener un nivel de acceso para iniciar sesión y trabajar en Workfront.
-* El nivel de acceso se utiliza para controlar lo que un usuario puede ver y hacer con determinados objetos y áreas de Workfront.
+* Cada usuario debe tener un nivel de acceso para iniciar sesión y trabajar en Workfront.
+* Los niveles de acceso controlan lo que un usuario puede ver y hacer con determinados objetos y áreas de Workfront.
 
 Cada uno de los seis niveles de acceso integrados está adjunto a una de las cinco licencias de Workfront: Planificar, Trabajar, Revisar, Solicitar y Externa.
 
@@ -32,7 +32,7 @@ Externa es una licencia no paga diseñada principalmente para compartir document
 
 ![](assets/access-levels-and-licenses-old.png)
 
-Para obtener información sobre temas relacionados, consulte los siguientes artículos:
+Para obtener información sobre temas relacionados con los niveles de acceso, consulte los siguientes artículos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Para obtener información sobre temas relacionados, consulte los siguientes art�
   <tr> 
    <td><strong>Asignación de niveles de acceso</strong></td> 
    <td> <p>Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edición del perfil de un usuario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Niveles de acceso Estándar, Claro, Colaborador</td> 
+   <td> <p>Si ve estos niveles de acceso en su entorno en lugar de Planificar, Trabajar, Revisar o Solicitar, su organización utiliza el nuevo modelo de nivel de acceso. Para obtener más información sobre el nuevo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre nuevos niveles de acceso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
