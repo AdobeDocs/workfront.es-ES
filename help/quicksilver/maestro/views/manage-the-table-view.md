@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 3%
 
 ---
@@ -140,13 +140,13 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
      >[!TIP]
      >
-     >* El campo Nombre es siempre el primer campo de la vista de tabla.
+     >* El campo Nombre es siempre el primer campo de la vista de tabla, de forma predeterminada. Se considera un campo principal.
      >
-     >* No se puede mover el campo Nombre a otra posición.
+     >* No puede mover el campo Nombre a otra posición, a menos que designe otro campo como campo principal. Para obtener más información, continúe con el paso 4. <!--accurate?-->
      >
-     >* No puede ocultar el campo Nombre.
+     >* No se puede ocultar ni eliminar un campo principal.
      >
-     >* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
+     >* El campo principal está congelado y no forma parte del desplazamiento horizontal.
 
    * Reemplace el campo de la primera columna por otro campo cambiando el campo principal. Para obtener más información, siga con el paso 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en **búsqueda** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta se resalta en azul.
+   1. Haga clic en **búsqueda** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
       No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
+
+      Al pulsar Intro en el teclado, accederá al siguiente campo encontrado.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

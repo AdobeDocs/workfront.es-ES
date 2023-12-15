@@ -6,7 +6,7 @@ description: El [!UICONTROL Inicio] es su punto de encuentro para encontrar las 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Introducción a [!UICONTROL Inicio]
+
+<!--Audited: 12/2023-->
 
 Este artículo describe una descripción general de las [!UICONTROL Inicio] área en [!DNL Adobe Workfront]. Para obtener información sobre cómo trabajar en el nuevo [!UICONTROL Inicio], consulte [Introducción a la nueva página de inicio](../new-home/get-started-with-new-home.md).
 

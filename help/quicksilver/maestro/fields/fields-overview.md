@@ -4,9 +4,10 @@ description: Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -57,7 +58,7 @@ Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su
 
    * Manualmente:
 
-      * Agregando columnas en la vista Tabla de una página de tipo de registro. Las columnas de la tabla son los campos asociados al tipo de registro. Son los mismos campos que se muestran en la página Detalles de un registro.
+      * Agregando columnas en la vista de tabla de una página de tipo de registro. Las columnas de la tabla son los campos asociados al tipo de registro. Son los mismos campos que se muestran en la página Detalles de un registro.
 
         No se pueden crear campos desde la página Detalles de un registro.
 

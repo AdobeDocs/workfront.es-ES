@@ -6,7 +6,7 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # Introducción a la nueva página Inicio
+
+<!--Audited: 12/2023-->
 
 La nueva experiencia de Inicio en Adobe Workfront tiene como objetivo mejorar la experiencia de Inicio actual y, al mismo tiempo, proporcionar una forma más flexible de centrarse en el trabajo adecuado.
 

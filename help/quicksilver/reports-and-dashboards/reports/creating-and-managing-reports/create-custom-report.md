@@ -6,7 +6,7 @@ description: Puede proporcionar acceso a la información que su organización ne
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # Creación de un informe personalizado
+
+<!--Audited: 12/2023-->
 
 Puede proporcionar acceso a la información que su organización necesita en Adobe Workfront creando informes. Puede utilizar cualquiera de los informes integrados disponibles en Workfront o puede crear los informes personalizados desde cero.
 

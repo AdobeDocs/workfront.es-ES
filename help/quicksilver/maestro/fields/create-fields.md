@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo para el que desea crear campos y, a continuación, haga clic en el tipo de registro.
 
@@ -196,7 +196,7 @@ After permssions - replace the table with:
    * [Número](#number)
    * [Porcentaje](#percentage)
    * [Divisa](#currency)
-   * [Casilla de verificación](#checkbox)
+   * [Casilla](#checkbox)
    * [Personas](#people)
    * [Creado por](#created-by)
    * [Fecha de creación](#created-date)

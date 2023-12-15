@@ -7,7 +7,7 @@ description: Una predecesora es la tarea de la que depende otra tarea (denominad
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Información general sobre predecesoras de tareas
+
+<!--Audited: 12/2023-->
 
 <!-- 
 

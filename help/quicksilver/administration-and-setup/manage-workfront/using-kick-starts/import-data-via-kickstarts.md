@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 6%
@@ -17,6 +17,8 @@ ht-degree: 6%
 ---
 
 # Importación de datos en Adobe Workfront mediante una plantilla de KickStart
+
+<!--Audited: 12/2023-->
 
 Los Kick-Starts son libros de Excel con formato especial que se pueden rellenar con los datos que se desean importar a Workfront. Adobe Workfront proporciona una plantilla de KickStart que puede utilizar para hacerlo, tal como se explica en [Iniciar el importador de datos](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
@@ -282,9 +284,9 @@ Para exportar una plantilla de KickStart:
       <td> <p> Perfil de hoja de horas</p> <p>Hoja de horas</p> <p>Preferencias </p> </td> 
      </tr> 
      <tr> 
-      <td>Vista </td> 
+      <td>Ver </td> 
       <td> <p>Exportaciones como archivo ZIP</p> </td> 
-      <td> <p> Vista</p> <p>Preferencias </p> </td> 
+      <td> <p> Ver</p> <p>Preferencias </p> </td> 
      </tr> 
     </tbody> 
    </table>

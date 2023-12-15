@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,13 @@ Puede conectar lo siguiente:
       * Compañía
       * Grupo
 
+   * Adobe Experience Manager Assets
+
+      * Archivos de imagen
+      * Carpetas
+
+
+
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 ## Requisitos de acceso
@@ -72,9 +79,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col>
 <tbody>
 <td>
-   <p> producto de Adobe</p> </td>
+   <p> producto de Adobe</p> 
+   </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p></td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -183,20 +191,21 @@ After permssions - replace the table with:
 
 ### Consideraciones sobre la conexión de registros
 
-* Una vez establecida la conexión entre tipos de registro, los tipos de registro conectados se muestran como campos de registro vinculados en la tabla de los tipos de registro desde los que están vinculados.
+* Después de conectar tipos de registro, los tipos de registro conectados se muestran como campos de registro vinculados en la tabla de los tipos de registro desde los que están vinculados.
 * Puede examinar y agregar registros y objetos de los tipos de registro y objeto vinculados desde los campos de registro vinculados.
 * Puede agregar campos de los tipos de registro vinculados a la tabla del tipo de registro desde el que está vinculando.
 * No se pueden actualizar manualmente los valores de los campos vinculados en los registros desde los que se está vinculando.
 
-  Los valores de los campos vinculados de los registros vinculados rellenan automáticamente el registro de Maestro desde el que está estableciendo el vínculo.
+  Los valores de los campos vinculados de los registros vinculados rellenan el registro de Maestro desde el que está estableciendo el vínculo automáticamente desde el área de trabajo de Maestro que ha configurado o desde la aplicación de terceros.
 
-* Todas las personas con acceso a Maestro pueden ver las conexiones que establece entre los registros de Maestro o entre los registros de Maestro y los objetos de Workfront. Además, puede ver y editar las conexiones de todos los demás. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Todas las personas con acceso a Maestro pueden ver las conexiones que establece entre los registros de Maestro o entre los registros de Maestro y los objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones de terceros a las que se conecte.
+* Puede ver y editar las conexiones de todos los demás. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Puede conectar un registro Maestro a uno o varios objetos de otra aplicación.
-* No se pueden conectar taxonomías a tipos de registros ni a objetos de otra aplicación. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Para vincular registros de Maestro con objetos de Workfront, debe tener lo siguiente:
+* Para vincular registros de Maestro con otros registros u objetos, debe tener lo siguiente:
 
-   * Objetos Workfront. Por ejemplo, primero debe crear proyectos, portafolios, programas, empresas o grupos en Workfront.
-   * Espacios de trabajo de Maestro, tipos de registros y registros. Para obtener más información, consulte los siguientes artículos:
+   * Al menos un área de trabajo de Maestro, tipo de registro y registro.
+
+     Para obtener más información, consulte los siguientes artículos:
 
       * [Creación de espacios de trabajo](../architecture/create-workspaces.md)
       * [Creación de tipos de registros](../architecture/create-record-types.md)
@@ -213,12 +222,8 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar registros.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
-1. Agregar una conexión a otro tipo de registro u objeto desde el tipo de registro seleccionado. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
-
-   Se agrega una nueva columna a la tabla para mostrar el tipo de registro vinculado.
-
-1. Agregue registros al tipo de registro seleccionado agregando una nueva fila a la tabla. Para obtener más información, consulte [Creación de registros](../../maestro/records/create-records.md).
-1. Desde un registro enumerado en la vista de tabla, vaya a la columna de registro vinculada, pase el ratón sobre la celda correspondiente al registro que desea vincular con otros registros de Maestro y, a continuación, haga clic en el botón **+** icono.
+1. (Opcional) Agregue registros al tipo de registro seleccionado agregando una nueva fila a la tabla. Para obtener más información, consulte [Creación de registros](../../maestro/records/create-records.md).
+1. Desde un registro enumerado en la vista de tabla, vaya a la columna de registro vinculada, pase el ratón sobre la celda correspondiente al registro que desea vincular con otros registros y, a continuación, haga clic en **+** icono.
 
    El **Conectar objetos** aparece el cuadro.
 
@@ -232,23 +237,22 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    Se añaden los elementos siguientes:
 
-   * Los registros vinculados se muestran en el campo de registro vinculado del registro seleccionado en el paso 3. Al actualizar los registros vinculados, se actualizan automáticamente los campos de registro vinculados de los registros desde los que está vinculando. <!--ensure the number of the step stays accurate-->
-   * Los campos vinculados que pertenecen a los registros vinculados se rellenan automáticamente con la información de los registros vinculados originales. Los campos vinculados no se pueden editar manualmente.
+   * Los registros vinculados se muestran en el campo de registro vinculado del registro seleccionado en el paso 5. <!--accurate?--> Al actualizar los registros vinculados, se actualizan automáticamente los campos vinculados de los registros desde los que está vinculando. Los campos vinculados no se pueden editar manualmente.
 
      >[!TIP]
      >
      >* Utilizamos &quot;campos vinculados&quot; y &quot;campos de búsqueda&quot; indistintamente.
      >
-     >* Si habilitó la opción Permitir varios registros al conectar los tipos de registro, los valores de los campos de los objetos seleccionados se mostrarán separados por comas o se agregarán según el agregador elegido.
+     >* Si habilitó la variable **Permitir varios registros** configuración al conectar los tipos de registro, los valores de los campos de varios objetos seleccionados se muestran separados por comas o se agregan según el agregador elegido.
 
-1. (Opcional) Cierre la página de tipo de registro de Maestro y vaya al espacio de trabajo seleccionado.
+1. (Opcional) Cierre la página de tipo de registro de Maestro y vaya al área de trabajo seleccionada.
 1. Haga clic en la tarjeta del tipo de registro al que está vinculado.
 
-   Por ejemplo, si conectó el registro de Campaign con el registro de producto, haga clic en **Product** Tarjeta de.
+   Por ejemplo, si conectó el **Campaign** registro con el Registro de producto, haga clic en el botón **Product** Tarjeta de.
 
-   La tarjeta de tipo de registro se debe abrir en la vista Tabla.
+   La tarjeta de tipo de registro se debe abrir en la vista Tabla. Si no es así, seleccione una vista de tabla.
 
-   Observe que el campo de registro Campaña vinculada muestra los nombres de las campañas vinculadas a los productos en la página Tipo de registro de producto. Al actualizar la información de Campaign, se actualiza automáticamente el campo de registro vinculado de Campaign para el tipo de registro de producto.
+   Observe que la variable **Campaign** El campo de registro vinculado muestra los nombres de las campañas que vinculó a los productos en la página Tipo de registro de producto. Al actualizar la información de Campaign, se actualiza automáticamente el campo de registro vinculado de Campaign para el tipo de registro de producto.
 
 ### Conectar registros de Maestro a objetos de Workfront
 
@@ -282,7 +286,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    Se añaden los elementos siguientes:
 
    * Los objetos Workfront seleccionados se agregan al campo de registro vinculado.
-   * Se crea un nuevo campo vinculado (o un campo de búsqueda) para cada campo vinculado que seleccionó al agregar los campos al registro vinculado.
+   * Si los agregó al conectar el tipo de registro con Workfront, los campos vinculados (o los campos de búsqueda) se rellenan automáticamente con información de Workfront.
    * Se crea un nuevo tipo de registro denominado &quot;&lt; Name of the Workfront object type >&quot; en el mismo espacio de trabajo que el registro de Maestro desde el que está vinculando. El nombre del objeto forma parte del nombre de este tipo de registro. Por ejemplo, al vincular a proyectos de Workfront se crea el **Proyecto** tipo de registro en Maestro.
 
      Es un tipo de registro de sólo lectura y muestra los objetos de Workfront seleccionados en el nuevo campo de objeto vinculado creado a partir del registro Maestro. Los campos vinculados del objeto vinculado también se muestran en los registros de Workfront vinculados de solo lectura.
@@ -302,13 +306,9 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 
 1. (Opcional) Cierre la página de tipo de registro de Maestro y vaya al espacio de trabajo seleccionado.
-1. Haga clic en la tarjeta del tipo de registro de objeto de Workfront. Por ejemplo, haga clic en **proyecto de Workfront** , si ha vinculado proyectos de Workfront. La tarjeta de tipo de registro Workfront de solo lectura se debe abrir en la vista Tabla.
+1. (Opcional) Haga clic en la tarjeta del tipo de registro de objeto de Workfront. Por ejemplo, haga clic en **Proyecto** , si ha vinculado proyectos de Workfront. La tarjeta de tipo de registro Workfront de solo lectura se debe abrir en la vista de tabla.
 
-   >[!NOTE]
-   >
-   >    * Los registros enumerados en la página de tipo de registro de Workfront son objetos Workfront de sólo lectura. Los campos vinculados del tipo de registro Workfront también se muestran como columnas de solo lectura y se rellenan automáticamente cuando se rellenan en Workfront.
-   >    * Los campos de Workfront no se pueden actualizar manualmente en Maestro. Los campos de objeto de Workfront deben rellenarse en Workfront y los valores de los campos se mostrarán automáticamente en el registro de Workfront en Maestro.
-   >
+   Los registros enumerados en la página de tipo de registro de Workfront son objetos de Workfront de sólo lectura que se han vinculado desde registros de Maestro. Los campos vinculados del tipo de registro Workfront también se muestran como columnas de solo lectura y se rellenan automáticamente cuando se rellenan en Workfront.
 
 1. (Opcional) Para abrir la página Detalles del registro de objetos de Workfront en Maestro, siga uno de estos procedimientos:
 
@@ -325,7 +325,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 1. (Opcional) Para abrir el objeto Workfront vinculado en Workfront, realice una de las siguientes acciones:
 
-   * Desde el **Tabla** Para ver la página de tipo de registro de Workfront, haga clic en el nombre del objeto Workfront.
+   * Desde el **Tabla** En la página Tipo de registro de Workfront, haga clic en el nombre del objeto Workfront para abrir el registro de Project en Maestro
 
    O
 
@@ -335,7 +335,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    Se abrirá la página de objetos de Workfront. Puede editar información sobre el objeto Workfront si tiene permisos para hacerlo.
 
-1. (Opcional) Haga clic en **Añadir campos** icono ![](assets/add-fields-icon.png) en la esquina superior derecha de la vista de tabla de la página tipo de registro de Workfront, para agregar o quitar campos de Workfront del tipo de registro de Workfront.
+1. (Opcional) En la página de registro de objetos de Workfront de sólo lectura de Maestro, haga clic en **Añadir campos** icono ![](assets/add-fields-icon.png) en la esquina superior derecha de la vista de tabla, para agregar o quitar campos de Workfront del tipo de registro de Workfront.
 
    >[!NOTE]
    >
@@ -349,6 +349,12 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 ### Conectar registros de Maestro a objetos de Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+>[!IMPORTANT]
+>
+>Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o Adobe Admin Console para poder conectar los registros de Maestro a Adobe Experience Manager Assets.
+>
+>Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Después de crear una conexión entre un tipo de registro de Maestro y Adobe Experience Manager Assets, puede conectar registros individuales de Maestro a recursos de Experience Manager. Los campos de recurso que conectó desde Experience Manager Assets al crear la conexión se rellenan automáticamente en el tipo de registro de Maestro desde el que vinculó.
 
@@ -372,24 +378,23 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. Haga clic para seleccionar algunos de los siguientes tipos de recursos:
 
    * Imágenes
-   * Colecciones
    * Carpetas
 
    Puede seleccionar varios recursos.
 
    >[!IMPORTANT]
    >
-   > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager.
+   > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager. Una vez conectado, todos los usuarios de Maestro podrán ver los recursos en Maestro, independientemente de su acceso a Experience Manager Assets.
 
 1. Clic **Seleccionar**.
 
    Se añaden los elementos siguientes:
 
    * Los recursos del Experience Manager seleccionado se añaden al campo de registro vinculado.
-   * Se crea un nuevo campo vinculado (o un campo de búsqueda) para cada campo vinculado que seleccionó al agregar los campos al registro vinculado.
-   * Se crea un nuevo tipo de registro denominado &quot;Experience Manager Assets&quot; en el mismo área de trabajo que el registro de Maestro desde el que está estableciendo el vínculo.
+   * Los campos vinculados (o campos de búsqueda) se rellenan con información de los recursos conectados del Experience Manager.
+   * Se crea un nuevo tipo de registro denominado &quot;Experience Manager Assets&quot; en el mismo área de trabajo que el registro de Maestro desde el que está estableciendo el vínculo. <!--is this still added?-->
 
-     Es un tipo de registro de sólo lectura y muestra los objetos de Experience Manager seleccionados en el nuevo campo de objeto vinculado creado a partir del registro Maestro. Los campos vinculados del objeto vinculado también se muestran en los registros de Experience Manager vinculados de solo lectura.
+     Es un tipo de registro de sólo lectura y muestra los recursos de Experience Manager seleccionados en el nuevo campo de objeto vinculado creado a partir del registro Maestro. Los campos vinculados del objeto vinculado también se muestran en los registros de Experience Manager vinculados de solo lectura.
 
      >[!IMPORTANT]
      >
@@ -405,14 +410,10 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
      >* No se crea un campo de registro vinculado a los registros vinculados de Maestro para los recursos de Experience Manager vinculados en la aplicación de Experience Manager Assets.
 
 
-1. (Opcional) Cierre la página de tipo de registro de Maestro y vaya al espacio de trabajo seleccionado.
+1. (Opcional) Cierre la página de tipo de registro de Maestro y vaya al área de trabajo seleccionada.
 1. Haga clic en la tarjeta del tipo de registro Experience Manager Assets. La tarjeta de tipo de registro Experience Manager Assets de solo lectura se debe abrir en la vista Tabla.
 
-   >[!NOTE]
-   >
-   >    * Los registros enumerados en la página de tipo de registro de Experience Manager Assets son recursos de solo lectura. Los campos vinculados del tipo de registro Experience Manager Assets también se muestran como columnas de solo lectura y se rellenan automáticamente cuando se rellenan en Experience Manager.
-   >    * No puede actualizar manualmente los campos de Experience Manager en Maestro. Los campos de recursos del Experience Manager deben rellenarse en Experience Manager y los valores de los campos se mostrarán automáticamente en el registro de Experience Manager Assets en Maestro.
-   >
+   Los registros enumerados en la página de tipo de registro de Experience Manager Assets son recursos de solo lectura. Los campos vinculados del tipo de registro Experience Manager Assets también se muestran como columnas de solo lectura y se rellenan automáticamente cuando se rellenan en Experience Manager.
 
 1. (Opcional) Vaya al tipo de registro desde el que vinculó a Experience Manager Assets y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles del Experience Manager del recurso se muestran en una ventana emergente. <!--update screen shot with hi-rez picture-->
 
