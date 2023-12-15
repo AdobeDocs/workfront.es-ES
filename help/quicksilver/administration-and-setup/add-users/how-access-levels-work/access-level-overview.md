@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1696'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Según el nivel de acceso, hay disponibles hasta 3 permisos para la mayoría de 
         <td>Los usuarios pueden crear, editar, eliminar y compartir el objeto de Workfront</td>
     </tr>
     <tr>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Los usuarios pueden revisar y compartir el objeto de Workfront</td>
     </tr>
     <tr>
@@ -73,7 +73,7 @@ Este nivel de acceso, que también se adjunta a la licencia estándar, está dis
 
 * Planifique, cree y rastree todos los proyectos en un solo lugar
 * Automatización de procesos rutinarios
-* Administrar recursos
+* Administración de recursos
 * Seguimiento y colaboración en solicitudes
 * Seguimiento e informes sobre las finanzas del proyecto
 * Solicitudes de trabajo entrantes de inicio
@@ -277,8 +277,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 
 | Tipo de objeto de Workfront | Sin acceso | Ver acceso | Editar acceso |
 |---|---|---|---|
-| Proyecto |   | ✓ (Solo la página Detalles del proyecto) |   |
-| Tarea |   | ✓(solo la página Detalles) |   |
+| Proyecto |   | ✓ |   |
+| Tarea |   | ✓ |   |
 | Problema |   |   | ✓ |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |

@@ -7,7 +7,7 @@ description: La visualización Evolución muestra la evolución de un proyecto e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Vea la visualización Evolución en el análisis mejorado
+
+<!-- Audited: 12/2023 -->
 
 La visualización Evolución muestra la evolución de un proyecto específico a lo largo del tiempo y le ayuda a comprender la relación entre las condiciones del proyecto, la velocidad y las horas o días restantes.
 
@@ -49,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Vista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
+   <td> <p>Ver</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

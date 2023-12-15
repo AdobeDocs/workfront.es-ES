@@ -7,7 +7,7 @@ description: Los tipos de dependencias hacen referencia a las relaciones de pred
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Información general sobre los tipos de dependencia entre tareas
+
+<!-- Audited: 12/2023 -->
 
 Los tipos de dependencias hacen referencia a las relaciones de predecesoras entre tareas. Definen cuándo puede comenzar o finalizar la tarea dependiente en función del comienzo o del fin de su predecesora.
 

@@ -6,9 +6,9 @@ description: La definición de una estructura de desglose de trabajo (EDT) para 
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Para obtener información sobre cómo programar los recursos, consulte los artí
 
 Workfront calculará los costes planificados para cada tarea y los costes globales de un proyecto. Los costes planificados para una tarea incluyen todos los gastos de la tarea más el coste del empleado o rol asignado a la tarea. Las tarifas por hora de la tarea, el rol y el empleado se asignan durante la creación de la tarea, el rol y el usuario.
 
-Para obtener información sobre las finanzas del proyecto, consulte la sección [Finanzas del proyecto](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Para obtener información sobre las finanzas del proyecto, consulte la sección [Finanzas del proyecto: índice del artículo](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinar puntos de aprobación para el proyecto
 

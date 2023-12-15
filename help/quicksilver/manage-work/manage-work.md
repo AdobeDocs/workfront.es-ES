@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -27,10 +27,10 @@ Además, puede utilizar el gráfico Gantt para definir una escala de tiempo del 
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Proyectos](../manage-work/projects/projects-overview.md)
+* [Proyectos: índice de artículos](../manage-work/projects/projects-overview.md)
 * [Tareas](../manage-work/tasks/tasks-overview.md)
 * [Problemas](../manage-work/issues/issues-overview.md)
 * [El gráfico Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Administración de portafolios](../manage-work/portfolios/portfolio-management-overview.md)
+* [Gestión de Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Solicitudes](../manage-work/requests/requests-overview.md)
 * [Delegar trabajo](../manage-work/delegate-work/delegate-work.md)

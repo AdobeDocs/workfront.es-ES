@@ -7,9 +7,9 @@ description: El menú principal cambia con el nivel de acceso que le ha asignado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ El diseño predeterminado de un entorno incluye las siguientes áreas [!UICONTRO
 
 * **[!UICONTROL Inicio]**: Las tareas y problemas asignados a usted se muestran aquí. Esta es la página de aterrizaje predeterminada de un trabajador; sin embargo, no aparece en la [!UICONTROL Menú principal] a menos que un administrador de Workfront lo añada a la plantilla de diseño  Para obtener más información, consulte [Introducción a [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Proyectos]**: Los proyectos compartidos con usted se muestran aquí. Para obtener más información, consulte [Proyectos](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Proyectos]**: Los proyectos compartidos con usted se muestran aquí. Para obtener más información, consulte [Proyectos: índice de artículos](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Informes]**: Aquí se muestran los informes que se han compartido con usted. Para obtener más información, consulte [Informes](../../../reports-and-dashboards/reports/reports-overview.md).
 

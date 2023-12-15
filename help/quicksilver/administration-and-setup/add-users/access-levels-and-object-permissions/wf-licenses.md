@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 ---
 
 # Resumen de licencias
+
+<!-- Audited: 12/2023 -->
 
 Su organización compró un determinado número de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, proporciona uno de los cinco tipos de licencias de Workfront a cada usuario cuando le asigna un nivel de acceso.
 

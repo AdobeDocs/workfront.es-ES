@@ -2,27 +2,27 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: Crear y administrar plantillas de proyecto
+title: "Crear y administrar plantillas de proyecto: índice de artículos"
 description: Obtenga información sobre cómo crear y administrar plantillas de proyecto en los siguientes artículos.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 11%
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
-# Crear y administrar plantillas de proyecto
+# Crear y administrar plantillas de proyecto: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 
 Puede utilizar plantillas de proyecto para capturar la mayoría de los procesos, la información y la configuración repetibles asociados con los proyectos de su organización.
 
 * [Resumen de plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
-* [Crear una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+* [Creación de una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
 * [Crear plantillas de proyecto a partir de ejemplos](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
 * [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [Copiar una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
