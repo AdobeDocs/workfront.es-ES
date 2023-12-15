@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentación'
 description: Documentación para [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Consulte [Informes y paneles](/help/quicksilver/reports-and-dashboards/reports-a
 
 Si no puede averiguar cómo crear el informe que necesita en Workfront, la solución que busca podría encontrarse en el modo Texto.
 
-Consulte [Recursos del modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+Consulte [Recursos del modo de texto: índice del artículo](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### Distribuidor de cargas de trabajo
 
