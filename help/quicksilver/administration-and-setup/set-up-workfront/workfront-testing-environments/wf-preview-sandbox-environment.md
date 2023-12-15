@@ -5,30 +5,32 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: El [!DNL Adobe Workfront] Previsualizar entorno de espacio aislado
 description: La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo. Workfront lo actualiza todos los fines de semana. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene. Todos los paquetes de asistencia tienen acceso a esta zona protegida.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
 # El [!DNL Adobe Workfront] Previsualizar entorno de espacio aislado
 
+<!-- Audited: 12/2023 -->
+
 Existen dos entornos de prueba para [!DNL Workfront] que son réplicas de su [!DNL Workfront] entorno de producción:
 
 * La zona protegida de previsualización
 
-   La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo y se actualiza cada fin de semana con [!DNL Workfront]. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene.
+  La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo y se actualiza cada fin de semana con [!DNL Workfront]. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene.
 
-   Todos los paquetes de asistencia tienen acceso a la zona protegida de vista previa.
+  Todos los paquetes de asistencia tienen acceso a la zona protegida de vista previa.
 
 * La zona protegida de actualización personalizada
 
-   La zona protegida de actualización personalizada es un entorno de prueba independiente que actualiza manualmente. Hay un coste adicional para obtener la zona protegida de actualización personalizada. Para obtener más información sobre este entorno, consulte [El [!DNL Adobe Workfront] Entorno de espacio aislado de actualización personalizado](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La zona protegida de actualización personalizada es un entorno de prueba independiente que actualiza manualmente. Hay un coste adicional para obtener la zona protegida de actualización personalizada. Para obtener más información sobre este entorno, consulte [El [!DNL Adobe Workfront] Entorno de espacio aislado de actualización personalizado](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,8 +81,6 @@ El entorno de vista previa es ideal para ejecutar cursos de formación, probar n
 
 De forma predeterminada, como [!DNL Workfront] administrador, tiene acceso a la [!UICONTROL Previsualizar] Entorno de zona protegida. Si no puede acceder a [!UICONTROL Previsualizar] Entorno de zona protegida como se describe en esta sección, póngase en contacto con su [!DNL Workfront] o nuestro equipo de asistencia al cliente.
 
-* [Acceder a la vista previa de espacio aislado desde [!DNL Workfront] Interfaz](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [Acceso a la vista previa de zona protegida mediante una URL](#accessing-the-preview-sandbox-using-a-url)
 
 ### Acceder a la vista previa de espacio aislado desde [!DNL Workfront] Interfaz {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -100,8 +100,7 @@ Para acceder a la zona protegida de vista previa:
 
 ### Acceso a la vista previa de zona protegida mediante una URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Acceder a la vista previa de espacio aislado para cuentas en el clúster 1, 2, 3 y 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [Acceso a la Vista Previa de la Zona Protegida para Cuentas en el Cluster 4 (Cuentas EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+Puede acceder a la vista previa de la zona protegida mediante una URL.
 
 #### Acceder a la vista previa de espacio aislado para cuentas en el clúster 1, 2, 3 y 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ Para iniciar sesión en la zona protegida de vista previa con una dirección URL
 
 1. Vaya a esta dirección URL: `https://companyname.preview.workfront.com/`.
 
-   Si es cliente de EMEA y su cuenta se encuentra en el clúster 4, consulte la sección [Acceso a la Vista Previa de la Zona Protegida para Cuentas en el Cluster 4 (Cuentas EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) en este artículo.
+   Si es cliente de EMEA y su cuenta está en el clúster 4, consulte la sección Acceso a la zona protegida de vista previa para cuentas en el clúster 4 (cuentas de EMEA) a continuación.
 
 1. Inicie sesión con sus credenciales de vista previa.
 
-   Las credenciales de vista previa deben ser las mismas que las de producción, a menos que las haya cambiado en Producción después de la actualización de la vista previa. Los inicios de sesión solo se sincronizan cuando se produce una actualización. No se sincronizan automáticamente.
+   >[!TIP]
+   >
+   >Las credenciales de vista previa deben ser las mismas que las de producción, a menos que las haya cambiado en Producción después de la actualización de la vista previa. Los inicios de sesión solo se sincronizan cuando se produce una actualización. No se sincronizan automáticamente.
+
 
 #### Acceso a la Vista Previa de la Zona Protegida para Cuentas en el Cluster 4 (Cuentas EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 

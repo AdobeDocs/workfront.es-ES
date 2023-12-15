@@ -7,14 +7,16 @@ description: La administración de recursos le permite configurar el sistema par
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Introducción a la administración de recursos
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
    * **El Planificador de recursos**: puede utilizar el Planificador de recursos en la primera etapa de la administración de recursos para presupuestar el tiempo de proyecto de los recursos según su disponibilidad programada. Durante la fase de planificación de los recursos, puede organizar a los usuarios en conjuntos de recursos y asignar varios conjuntos de recursos a un proyecto.
 
-     Para obtener más información sobre la planificación de recursos, vea la sección [Planificación de recursos en Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Para obtener más información sobre la planificación de recursos, consulte [Planificación de recursos en Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **El planificador de escenarios**: Se trata de una planificación de recursos de alto nivel que le permite administrarlos en varias iniciativas que pueden abarcar un plan de uno, tres o cinco años e incluir varios proyectos. Puede utilizar el mejor escenario para aprovechar al máximo su disponibilidad y su presupuesto.
 
@@ -48,7 +50,7 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
    * **Distribuidor de cargas de trabajo**: Pertenece a una etapa inferior de la administración de recursos, en la que puede asignar los recursos al trabajo real (tareas y problemas) que deben completar, según la cantidad de horas necesarias para completarlos y su disponibilidad. Con el Distribuidor de cargas de trabajo, puede asignar usuarios a trabajo real que no esté asignado o asignado a roles actualmente.
 
-     Para obtener información sobre el Workfront Balancer, consulte la sección [Índice de artículos del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Para obtener información sobre el Workfront Balancer, consulte [Índice de artículos del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Debe cumplir una serie de requisitos para poder utilizar de forma eficaz las her
 
 Para obtener información sobre los requisitos de cada herramienta de administración de recursos en Workfront, consulte lo siguiente:
 
-* La sección &quot;Requisitos previos para trabajar en el Planificador de recursos&quot; del artículo [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* La sección [Requisitos previos para trabajar en el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) en el artículo [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La sección &quot;Prácticas recomendadas para utilizar el Distribuidor de cargas de trabajo&quot; del artículo [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* La sección [Prácticas recomendadas para utilizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) en el artículo [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acceso necesario a los recursos del presupuesto en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
