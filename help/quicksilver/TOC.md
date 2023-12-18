@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13818'
 ht-degree: 1%
 
 ---
@@ -478,6 +478,7 @@ ht-degree: 1%
          * [Acceso a objetos y áreas mediante nuevas licencias](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Desactive la opción de actualización automática para usuarios no pagados en el nuevo plan de licencias](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [Requisitos de los niveles de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * Funcionamiento de los niveles de acceso {#legacy-access-levels}
          * [Funcionamiento de los niveles de acceso](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Acceso a información general](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
