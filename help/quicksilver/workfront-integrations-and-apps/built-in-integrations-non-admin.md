@@ -7,9 +7,9 @@ description: Se puede integrar [!DNL Adobe Workfront] con aplicaciones de tercer
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,6 @@ Las siguientes integraciones integradas están disponibles actualmente en Workfr
     <ul> 
      <li>Creación de nuevos tickets en [!DNL Jira] basado en tareas y problemas de [!DNL Workfront]</li> 
      <li>Sincronizar actualizaciones y estados de tareas vinculadas entre [!DNL Workfront] y [!DNL Jira] </li> 
-     <li>Funciona en ambos [!DNL Jira] Servidor y Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
