@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Administrar las licencias disponibles en el sistema
 description: Como administrador de Adobe Workfront, puede acceder a información sobre su cuenta de Workfront, incluido el número de licencias adquiridas para su organización, así como el número de esas licencias que se utilizan actualmente.
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Administrar las licencias disponibles en el sistema
+
+<!-- Audited: 12/2023 -->
 
 Como administrador de Adobe Workfront, puede acceder a información sobre su cuenta de Workfront, incluido el número de licencias adquiridas para su organización, así como el número de esas licencias que se utilizan actualmente.
 
@@ -33,7 +35,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+    <p>Nuevo: estándar</p>
+    <p>o</p>
+    <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -48,7 +53,7 @@ El número de licencias en uso se actualiza automáticamente al asignar niveles 
 
 Para ver la información de licencia en el sistema:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 
@@ -62,16 +67,16 @@ Para ver la información de licencia en el sistema:
 
 ## Ver información sobre las licencias de los complementos de Workfront
 
-En la captura de pantalla siguiente, **5 de 10 Licencias de revisión** indica que esta organización tiene el complemento Workfront Proof de pago y que actualmente utiliza 5 de las 10 licencias de Workfront Proof que compró.
+Si su organización tiene el complemento Workfront Proof de pago, se muestra el número de licencias utilizadas y el número de licencias disponibles. Por ejemplo, **5 de 10 Licencias de revisión** indica que la organización está utilizando actualmente 5 de las 10 licencias de Workfront Proof que adquirieron.
 
-![](assets/updated-licenses-page.png)
+![Licencia para complementos de Workfront](assets/updated-licenses-page.png)
 
 Si su organización ha adquirido Workfront Goals, la información de la licencia de este producto también se muestra aquí. En este caso, puede ver la siguiente información:
 
 * Cantidad total de licencias de Workfront Goals que su compañía ha adquirido
 * Número de licencias de Workfront Goals asociadas a los usuarios. Es el número de usuarios a los que se debe otorgar al menos acceso de visualización a los objetivos en su nivel de acceso.
 
-Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información sobre el acceso a los objetivos de Workfront, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información sobre el acceso a los objetivos de Workfront, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->Los usuarios sin acceso administrativo pueden utilizar un informe de grupo para ver el recuento de licencias. En la pestaña Report, cree un nuevo informe de grupo y añada las siguientes columnas:>
+>Los usuarios sin acceso administrativo pueden utilizar un informe de grupo para ver el recuento de licencias. En la pestaña Informe, cree un nuevo informe de grupo y añada las siguientes columnas:
+>
 >* Límite de tipo de licencia: límite de trabajador
 >* Límite de tipo de licencia: Límite de planificador
 >
 >Para obtener más información sobre cómo crear un informe, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## Ver información sobre asignaciones mensuales de pruebas y decisiones de documentos
 
@@ -103,11 +108,11 @@ Los límites de decisión para cada licencia difieren según el plan en el que s
 
 Para obtener más información sobre los límites de prueba y decisión de documentos, consulte [Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![Asignación de decisión mensual](assets/monthly-decision-allotment.png)
 
 ## Agregar o quitar un grupo de inicio en la página Licencias {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Se requiere un plan Workfront empresarial para utilizar esta función. Para obtener más información sobre los distintos planes disponibles, consulte [Planes de Workfront.](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 A cada usuario se le puede asignar un solo Grupo de inicio. Workfront proporciona un recuento de licencias orientado al grupo calculando cuántas licencias se asignan y utilizan actualmente en cada grupo de inicio.
 
@@ -121,7 +126,7 @@ Si ve el mensaje **Para establecer un máximo, debe agregar un grupo de inicio**
 
 Para agregar o quitar un grupo de inicio a la página Licencias:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 
@@ -143,11 +148,11 @@ Como administrador de Workfront, puede establecer recuentos máximos de licencia
 
 De forma predeterminada, el recuento máximo de licencias está establecido en N/D, lo que significa que no hay límite.
 
-Los administradores del grupo pueden ver el número de licencias asignadas y utilizadas en el grupo de inicio que administran. Para obtener más información, consulte [Vea el número de licencias asignadas y utilizadas en un grupo en la nueva experiencia de Adobe Workfront](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Los administradores del grupo pueden ver el número de licencias asignadas y utilizadas en el grupo de inicio que administran. Para obtener más información, consulte [Ver el número de licencias asignadas y utilizadas en un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 Para establecer el número máximo de licencias para un grupo de inicio:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 

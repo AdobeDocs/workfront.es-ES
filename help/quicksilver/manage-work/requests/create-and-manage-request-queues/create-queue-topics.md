@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 
 ---
 
 # Crear temas de cola
+
+<!-- Audited: 12/2023 -->
 
 Los temas de colas funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, rol, equipo o para colocarlo en un proyecto. Los temas de colas definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
 
@@ -50,7 +52,7 @@ No hay límite en el número de temas de la cola que se pueden asignar a un grup
 </table>
 -->
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +64,10 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Nuevo: estándar</p>
+    <p>o</p>
+    <p>Actual: plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -70,12 +75,12 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p> Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Crear un tema de cola
 
@@ -87,17 +92,19 @@ Debe tener lo siguiente:
    * [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Vaya al proyecto que eligió habilitar como cola de solicitudes de ayuda y donde desea crear un nuevo tema de cola.\
-   Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, consulte el siguiente artículo:\
-   [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Puede organizar temas de colas relacionados en un grupo de temas o directamente en el proyecto designado como cola de solicitudes de ayuda. Esto proporcionará al solicitante una serie de menús desplegables al realizar una solicitud.\
+   Puede organizar temas de la cola relacionados en un grupo de temas. Esto proporcionará al solicitante una serie de menús desplegables al realizar una solicitud.
+
+   O
+
    Puede anidar los temas de la cola directamente en el proyecto designado como cola de solicitudes de ayuda, sin un grupo de temas.
 
    Para obtener información sobre la creación de grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 1. Clic **Temas de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Temas de cola**.
 1. Clic **Nuevo tema de cola**.
-1. En el **Nuevo tema de cola** , especifique lo siguiente:
+1. En el **Nuevo tema de cola** , escriba lo siguiente:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,8 +119,8 @@ Debe tener lo siguiente:
       <td>Describa la cola de solicitudes. La descripción se muestra cuando los usuarios seleccionan el tema de la cola en el proceso de envío de una nueva solicitud. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Agregar a grupo de temas</strong> </td> 
-      <td> Si no hay grupos de temas en el proyecto, el nombre del proyecto se definirá de forma predeterminada como grupo de temas.<br>Si desea crear grupos de temas adicionales desde aquí, seleccione <strong>Crear nuevo grupo de temas</strong> en el menú desplegable.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_Within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td role="rowheader"><strong>Añadir a grupo de temas</strong> </td> 
+      <td> Si no hay grupos de temas en el proyecto, el nombre predeterminado del proyecto será un grupo de temas.<br>Si desea crear grupos de temas adicionales desde aquí, seleccione <strong>Crear nuevo grupo de temas</strong> en el menú desplegable.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_Within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formularios personalizados</strong> </td> 
@@ -137,7 +144,7 @@ Debe tener lo siguiente:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ruta predeterminada</strong> </td> 
-      <td>Especifique la regla de enrutamiento que desea asociar con el tema de la cola. Debe crear la regla de enrutamiento para poder adjuntarla a un tema de la cola. Para obtener más información, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Crear reglas de enrutamiento</a> </td> 
+      <td>Especifique la regla de enrutamiento que desea asociar con el tema de la cola. Debe crear la regla de enrutamiento para poder adjuntarla a un tema de la cola. Para obtener más información, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Crear reglas de enrutamiento</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de solicitud</strong> </td> 
@@ -156,8 +163,7 @@ Debe tener lo siguiente:
     </tbody> 
    </table>
 
-   ![](assets/new-queue-topic-box-nwe-350x375.png)
+   ![Cuadro Nuevo tema de cola](assets/new-queue-topic-box.png)
 
-1.  
 1. Haga clic en **Guardar**.\
    El tema de la cola ya está disponible para usar y se puede ver en el área de solicitudes de Workfront, después de seleccionar una cola de solicitudes y un grupo de temas.

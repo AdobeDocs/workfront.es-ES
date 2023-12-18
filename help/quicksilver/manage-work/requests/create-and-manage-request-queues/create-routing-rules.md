@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
 # Crear reglas de enrutamiento
+
+<!-- Audited: 12/2023 -->
 
 Las reglas de enrutamiento controlan lo que Adobe Workfront hace con los problemas cuando se envían a una cola de solicitudes. Para obtener más información sobre la creación de colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ Las reglas de enrutamiento envían problemas a usuarios específicos o a funcion
 </table>
 -->
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,10 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Nuevo: estándar</p>
+    <p>o</p>
+    <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -75,19 +80,19 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p> Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Crear una regla de enrutamiento
 
-1. Vaya al proyecto en el que desea agregar las reglas de enrutamiento para las solicitudes.
+1. Vaya al proyecto en el que desea agregar las reglas de enrutamiento para sus solicitudes.
 1. Clic **Reglas de enrutamiento** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Reglas de enrutamiento**.
-1. Clic **Nuevas reglas de enrutamiento** para agregar la nueva regla.
-1. Especifique la siguiente información para la regla de enrutamiento:
+1. Clic **Nueva regla de enrutamiento** para agregar la nueva regla.
+1. Introduzca la siguiente información para la regla de enrutamiento:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +102,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Nombre</strong> </td> 
-      <td> <p>Nombre de la regla de enrutamiento. Puede ver la regla de enrutamiento si tiene acceso para ver esta información en el proyecto.</p> </td> 
+      <td>Nombre de la regla de enrutamiento. Puede ver la regla de enrutamiento si tiene acceso para ver esta información en el proyecto.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descripción</strong> </td> 
@@ -113,7 +118,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    <p><b>NOTA</b></p>
 
-   Una vez enviado el problema, puede editar sus asignaciones y asignar otros usuarios, funciones o equipos. Para obtener más información, consulte  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Asignar problemas </a>.
+   Una vez enviado el problema, puede editar sus asignaciones y asignar otros usuarios, funciones o equipos. Para obtener más información, consulte  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Asignar problemas</a>.
 
    </td> 
      </tr> 
@@ -130,7 +135,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    Cuando enruta un problema a un proyecto, los usuarios con permisos sobre el problema reciben los permisos establecidos en ese proyecto. Para obtener información sobre la configuración de permisos en proyectos, consulte [Uso compartido de un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![Cuadro Nueva regla de enrutamiento](assets/new-routing-rule-box.png)
 
 1. Haga clic en **Guardar**.
 
