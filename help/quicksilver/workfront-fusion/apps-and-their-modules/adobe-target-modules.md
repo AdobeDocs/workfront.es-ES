@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -649,7 +649,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
 
 #### [!UICONTROL Realizar una llamada de API personalizada]
 
-Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API
+Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>

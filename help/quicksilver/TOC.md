@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '13825'
+source-wordcount: '13828'
 ht-degree: 1%
 
 ---
@@ -2155,9 +2155,10 @@ ht-degree: 1%
       * [Módulos de Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [módulo de Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Módulos de Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [Módulos de Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Módulos de servicios de Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
-      * [Módulos airtables](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Módulos de Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Módulos airtables](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Módulos de Allocadia](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Módulos Anaplan](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
       * [Archivar módulos](workfront-fusion/apps-and-their-modules/archive-modules.md)
