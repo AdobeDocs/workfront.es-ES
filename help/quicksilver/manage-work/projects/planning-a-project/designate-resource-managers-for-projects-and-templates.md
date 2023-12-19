@@ -1,19 +1,19 @@
 ---
 product-area: projects;templates
 navigation-topic: plan-a-project
-title: Designar gestores de recursos para un proyecto o plantilla
-description: Puede designar Gestores de recursos para un proyecto a fin de indicar quién es el responsable de administrar los recursos del proyecto.
+title: Designar gerentes de recursos para un proyecto o plantilla
+description: Puede designar gerentes de recursos para un proyecto con el fin de indicar quién es el responsable de administrar los recursos del proyecto.
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 0%
+source-wordcount: '826'
+ht-degree: 1%
 
 ---
 
-# Designar gestores de recursos para un proyecto o plantilla
+# Designar gerentes de recursos para un proyecto o plantilla
 
 <!--
 <p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
-Puede designar Gestores de recursos para un proyecto a fin de indicar quién es el responsable de administrar los recursos del proyecto. Se trata de un campo informativo que no está conectado a ninguna herramienta de administración de recursos.
+Puede designar gerentes de recursos para un proyecto con el fin de indicar quién es el responsable de administrar los recursos del proyecto. Este es un campo informativo y no está conectado a ninguna herramienta de administración de recursos.
 
 <!-- drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -90,30 +90,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos y plantillas</p> <p><b>NOTA</b>
+   <td> <p>Editar el acceso a Proyectos y Plantillas</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en el proyecto o plantilla</p>
+   <td> <p>Administrar permisos en el proyecto o la plantilla</p>
 
 <p><b>NOTA</b>
 
-Los usuarios que se agregan como gestores de recursos a un proyecto o a una plantilla obtienen inmediatamente permisos de administración en el proyecto o la plantilla</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td>
+Los usuarios que se agregan como gerentes de recursos a un proyecto o una plantilla obtienen inmediatamente permisos de administración en el proyecto o la plantilla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Consideraciones sobre los gestores de recursos
+## Consideraciones sobre los responsables de recursos
 
 >[!NOTE]
 >
->El Administrador de recursos no es una función de trabajo; es un campo disponible en un proyecto o una plantilla que puede actualizar manualmente.
+>El Administrador de recursos no es un rol; es un campo disponible en un proyecto o una plantilla que se puede actualizar manualmente.
 
-* Puede designar hasta 30 usuarios como gestores de recursos para un proyecto o plantilla individual.
+* Puede designar hasta 30 usuarios como gerentes de recursos para un proyecto o plantilla individual.
 
 <!--
 * In the Production environment,designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
@@ -124,66 +124,66 @@ Los usuarios que se agregan como gestores de recursos a un proyecto o a una plan
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 
-* No puede designar equipos o grupos como administradores de recursos. Solo puede designar usuarios como administradores de recursos.
+* No se pueden designar equipos o grupos como administradores de recursos. Solo puede designar usuarios como administradores de recursos.
 
-* Los usuarios designados como gestores de recursos en un proyecto o plantilla no se convierten automáticamente en parte del equipo del proyecto.
+* Los usuarios que designe como gerentes de recursos en un proyecto o plantilla no se convierten automáticamente en parte del equipo del proyecto.
 
-   Para obtener información sobre los equipos de proyecto, consulte [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Para obtener información sobre los equipos del proyecto, consulte [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-* Puede designar Gestores de recursos para proyectos o para plantillas de proyectos. Al designar Gestores de recursos en una plantilla de proyecto, cualquier usuario que designe como Gestores de recursos en la plantilla se convertirá automáticamente en Gestores de recursos en cualquier proyecto que se cree con esa plantilla.
-* Puede ver el campo Administrador de recursos en las siguientes áreas:
+* Puede designar gerentes de recursos para proyectos o para plantillas de proyectos. Cuando se designan gerentes de recursos en una plantilla de proyecto, los usuarios que se designen como gerentes de recursos en la plantilla se convertirán automáticamente en gerentes de recursos en cualquier proyecto que se cree con esa plantilla.
+* Puede ver el campo Administrador de recursos en las áreas siguientes:
 
    * Al editar un proyecto, tal como se describe en este artículo.
-   * Al editar una plantilla, como se describe en este artículo.
-   * Al crear informes de proyecto o plantilla. Para obtener información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Al crear o personalizar un proyecto o una vista de plantilla para una lista. Para obtener más información, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Al editar una plantilla, tal como se describe en este artículo.
+   * Al crear informes de proyecto o plantilla. Para obtener información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Al crear o personalizar una vista de proyecto o de plantilla para una lista. Para obtener más información, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-* Puede agregar o eliminar rápidamente Gestores de recursos en varios proyectos o plantillas agregando el campo Administrador de recursos a una vista de una lista o un proyecto y editando este campo mediante la edición en línea.
+* Puede agregar o quitar rápidamente Administradores de recursos en varios proyectos o plantillas agregando el campo Administrador de recursos a una vista de una lista o proyecto y editando este campo mediante la edición en línea.
 
-## Designar gestores de recursos para un proyecto
+## Designar gerentes de recursos para un proyecto
 
 1. Realice una de las siguientes acciones:
 
-   * Para agregar gestores de recursos a un solo proyecto, vaya al proyecto en el que desea designar uno o más gestores de recursos y, a continuación, haga clic en el botón **Más menú** junto al nombre del proyecto y, a continuación, **Editar .**
+   * Para agregar administradores de recursos a un solo proyecto, vaya al proyecto donde desee designar uno o varios administradores de recursos y, a continuación, haga clic en **Menú Más** junto al nombre del proyecto, luego **Editar .**
 
-   * Para agregar gestores de recursos a varios proyectos de forma simultánea, vaya a una lista de proyectos, seleccione los proyectos en los que desea designar uno o más gestores de recursos y, a continuación, haga clic en **Editar**.
+   * Para agregar administradores de recursos a varios proyectos simultáneamente, vaya a una lista de proyectos, seleccione los proyectos en los que desea designar uno o varios administradores de recursos y haga clic en **Editar**.
 
-      Los gestores de recursos existentes no se eliminan de los proyectos que esté editando; los usuarios que agregue de esta forma se agregarán como administradores de recursos al proyecto, además de cualquier gestor de recursos existente.
+     Los gerentes de recursos existentes no se eliminan de los proyectos que está editando; los usuarios que agregue de esta manera se agregarán como gerentes de recursos en el proyecto además de los gerentes de recursos existentes.
 
-   * Para agregar gestores de recursos a un nuevo proyecto, comience a crear un nuevo proyecto.
+   * Para agregar administradores de recursos a un nuevo proyecto, empiece a crear uno nuevo.
 
-      Para obtener información sobre cómo crear un proyecto, consulte [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+     Para obtener información sobre la creación de un proyecto, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. En el **Información general** en el cuadro de diálogo Editar proyecto, haga clic en **Administrador de recursos** campo .
-1. Comience a escribir el nombre del usuario que desea agregar como administrador de recursos para el proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista.
+1. En el **Información general** en el cuadro de diálogo Editar proyecto, haga clic en en la sección **Gerente de recursos** field.
+1. Empiece escribiendo el nombre del usuario que desea agregar como administrador de recursos para el proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista.
 
-   Repita este paso para agregar varios administradores de recursos para el proyecto.
+   Repita este paso para agregar varios administradores de recursos al proyecto.
 
 1. Haga clic en **Guardar cambios**.
 
-## Designar gestores de recursos para una plantilla
+## Designar gerentes de recursos para una plantilla
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Plantillas**.
+1. Clic **Plantillas**.
 
 1. Realice una de las siguientes acciones:
 
-   * Para agregar Gestores de recursos a una sola plantilla, vaya a la plantilla en la que desea designar uno o más gestores de recursos y, a continuación, haga clic en el botón **Más menú** junto al nombre de la plantilla y, a continuación, **Editar .**
+   * Para agregar administradores de recursos a una sola plantilla, vaya a la plantilla en la que desea designar uno o varios administradores de recursos y haga clic en el botón **Menú Más** junto al nombre de la plantilla, **Editar .**
 
-   * Para agregar gestores de recursos a varias plantillas simultáneamente, vaya a una lista de plantillas y seleccione las plantillas en las que desea designar uno o más gestores de recursos y, a continuación, haga clic en **Editar**.
+   * Para agregar administradores de recursos a varias plantillas simultáneamente, vaya a una lista de plantillas, seleccione las plantillas en las que desee designar uno o varios administradores de recursos y haga clic en **Editar**.
 
-      Los gestores de recursos existentes no se eliminan de las plantillas que esté editando; los usuarios que agregue de esta forma se agregarán como administradores de recursos en la plantilla, además de cualquier gestor de recursos existente.
+     Los administradores de recursos existentes no se eliminan de las plantillas que está editando; los usuarios que agregue de esta forma se agregarán como administradores de recursos a la plantilla, además de los administradores de recursos existentes.
 
-   * Para agregar Administradores de recursos a una plantilla nueva, haga clic en **Nueva plantilla** y, a continuación, haga clic en el **Más menú** junto al nombre de la plantilla y, a continuación, **Editar .**
+   * Para agregar administradores de recursos a una nueva plantilla, haga clic en **Nueva plantilla** y luego haga clic en **Menú Más** junto al nombre de la plantilla, **Editar .**
 
-1. En el **Información general** , haga clic en **Administrador de recursos** campo .
+1. En el **Información general** , haga clic en el icono **Gerente de recursos** field.
 1. Comience a escribir el nombre del usuario que desea agregar como administrador de recursos para la plantilla y, a continuación, haga clic en el nombre cuando aparezca en la lista.
 
-   Repita este paso para agregar varios gestores de recursos a la plantilla.
+   Repita este paso para agregar varios administradores de recursos a la plantilla.
 
 1. Haga clic en **Guardar cambios**.

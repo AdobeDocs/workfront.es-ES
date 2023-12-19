@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Esta sección contiene los siguientes artículos:
 
 * [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
 * [Acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [Estados del proyecto del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+* [Información general sobre los estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
 * [Acceso a la lista de estados de tareas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 * [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)

@@ -1,17 +1,18 @@
 ---
-title: Campos de Adobe Maestro
+title: "Campos: índice de artículos"
 description: Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Información de campo
+# Campos: índice de artículos
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ Los artículos de las secciones siguientes describen cómo crear y configurar ca
 * [Editar campos](../fields/edit-fields.md)
 * [Eliminar campos](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

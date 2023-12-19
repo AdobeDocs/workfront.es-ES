@@ -7,9 +7,9 @@ description: La administración de recursos le permite configurar el sistema par
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Análisis**: como administrador de recursos, propietario del proyecto o administrador de personas, revise el informe Utilización para comprender cómo se comparan las asignaciones presupuestadas y planificadas de los recursos con las reales. Revise la información por horas, coste o ingresos. Para obtener información sobre el informe Utilización, consulte [Ver información de utilización de recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -169,7 +169,7 @@ Para obtener información sobre los requisitos de cada herramienta de administra
 
 * La sección [Requisitos previos para trabajar en el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) en el artículo [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La sección [Prácticas recomendadas para utilizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) en el artículo [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* La sección [Prácticas recomendadas para utilizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) en el artículo [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acceso necesario a los recursos del presupuesto en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

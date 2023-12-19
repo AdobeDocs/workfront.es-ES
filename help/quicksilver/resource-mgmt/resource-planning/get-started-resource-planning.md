@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Introducción a la planificación de recursos
-description: Puede utilizar herramientas de planificación de recursos para administrar sus funciones de trabajo, su disponibilidad y la asignación general a los proyectos en función de esta disponibilidad.
+description: Puede utilizar las herramientas de planificación de recursos para administrar los roles, su disponibilidad y la asignación general a los proyectos en función de esta disponibilidad.
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -23,49 +23,49 @@ ht-degree: 0%
 </div>
 -->
 
-Puede utilizar las herramientas de Administración de recursos de Adobe Workfront para prever la asignación de sus recursos y saber con precisión si los proyectos se entregan a tiempo y dentro del presupuesto. Para obtener una descripción general de la Administración de recursos en Workfront, consulte [Introducción a la administración de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Puede utilizar las herramientas de gestión de recursos de Adobe Workfront para prever la asignación de los recursos, de modo que pueda saber con precisión si los proyectos se entregan a tiempo y dentro del presupuesto. Para obtener una descripción general de la administración de recursos en Workfront, consulte [Introducción a la administración de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-Puede utilizar herramientas de planificación de recursos para administrar sus funciones de trabajo, su disponibilidad y la asignación general a los proyectos en función de esta disponibilidad.
+Puede utilizar las herramientas de planificación de recursos para administrar los roles, su disponibilidad y la asignación general a los proyectos en función de esta disponibilidad.
 
-La asignación general de usuarios a los proyectos no los asigna al trabajo real (tareas y problemas). Debe asignar los recursos para que funcionen mediante el equilibrador de carga de trabajo.
+La asignación general de los usuarios a los proyectos no los asigna al trabajo real (tareas y problemas). Debe asignar los recursos que desea utilizar mediante el Distribuidor de cargas de trabajo.
 
-Para obtener más información sobre la programación de recursos en Workfront mediante el equilibrador de carga de trabajo, consulte [Información general del equilibrador de carga de trabajo](../workload-balancer/overview-workload-balancer.md).
+Para obtener más información sobre la programación de recursos en Workfront mediante el Distribuidor de cargas de trabajo, consulte [Resumen del Distribuidor de cargas](../workload-balancer/overview-workload-balancer.md).
 
 ## Herramientas de planificación de recursos en Workfront
 
-Para asignar tiempo a los recursos para los proyectos a los que desea asignarlos, puede utilizar las siguientes herramientas:
+Para presupuestar el tiempo de los recursos de los proyectos a los que planea asignarlos, puede utilizar las siguientes herramientas:
 
-* Para presupuestar asignaciones para y priorizar varios proyectos a nivel de sistema: utilice el planificador de recursos a nivel de sistema.
+* Para presupuestar asignaciones para y priorizar varios proyectos en el nivel de sistema: utilice el Planificador de recursos en el nivel de sistema.
 
-   Para acceder al Planificador de recursos, vaya a la sección Planificador del área Recursos .
+  Puede acceder al Planificador de recursos accediendo a la sección Planificador del área de Recursos.
 
-   Para obtener información acerca del planificador de recursos, consulte [Información general del planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Para obtener información sobre el Planificador de recursos, consulte [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Para la presupuestación de asignaciones para un único proyecto: utilice Resource Planner (Planificador de recursos) en el área de Resource Budgeting (Presupuestación de recursos) del Caso de negocio de un proyecto. Para obtener información sobre la presupuestación de recursos para un proyecto, consulte el artículo [Recursos presupuestarios en el caso empresarial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Para presupuestar asignaciones para un solo proyecto: utilice el Planificador de recursos en el nivel de proyecto en el área de Presupuestación de recursos del caso comercial de un proyecto. Para obtener información sobre cómo presupuestar recursos para un proyecto, vea el artículo [Recursos de presupuesto en el caso comercial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Para administrar usuarios y organizarlos en grupos basados en habilidades comunes o estructura departamental y luego administrar sus asignaciones para los proyectos a los que están asignados, debe crear grupos de recursos. Para obtener más información sobre la creación de grupos de recursos, consulte [Crear grupos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Para administrar usuarios y organizarlos en grupos en función de aptitudes comunes o estructuras departamentales y, a continuación, administrar sus asignaciones para los proyectos a los que están asignados, debe crear conjuntos de recursos. Para obtener más información sobre la creación de conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-   >[!TIP]
-   >
-   >El área de presupuestación de recursos de un proyecto es el Planificador de recursos a nivel de proyecto. Cuando se presupuestan recursos en el Caso de negocio de un proyecto, la información también se refleja en el Planificador de recursos a nivel de sistema.
+  >[!TIP]
+  >
+  >El área de Presupuesto de recursos de un proyecto es el Planificador de recursos a nivel de proyecto. Cuando se presupuestan recursos en el caso empresarial de un proyecto, la información también se refleja en el Planificador de recursos del sistema.
 
-* Para administrar los recursos en un nivel superior, en varias iniciativas y alinear su trabajo con la estrategia de su organización, use el planificador de escenarios de Adobe Workfront. El planificador de escenarios requiere una licencia adicional. Para obtener información sobre el planificador de escenarios de Workfront, consulte [Información general del planificador de escenarios](../../scenario-planner/scenario-planner-overview.md).
+* Para administrar recursos de alto nivel en varias iniciativas y alinear su trabajo con la estrategia de su organización, utilice Adobe Workfront Scenario Planner. El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
-   Puede utilizar el Planificador de recursos tanto en el nivel del sistema como en varios proyectos, así como para presupuestar recursos para un solo proyecto en el área de Presupuestación de recursos del caso empresarial. Para obtener más información sobre cómo presupuestar recursos para un proyecto en el caso práctico, consulte [Recursos presupuestarios en el caso empresarial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Puede usar el Planificador de recursos tanto en el nivel del sistema, en varios proyectos, como para presupuestar recursos para un único proyecto en el área de Presupuesto de recursos del caso empresarial. Para obtener más información sobre cómo presupuestar recursos para un proyecto en el caso empresarial, consulte [Recursos de presupuesto en el caso comercial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-## El propósito de las herramientas de planificación de recursos
+## Finalidad de las herramientas de planificación de recursos
 
-* Con el planificador de recursos puede hacer lo siguiente:
+* Con el Planificador de recursos puede hacer lo siguiente:
 
-   * Priorice sus proyectos para decidir qué proyectos deben recibir recursos primero. (solo en el planificador de recursos)
-   * Comprenda la disponibilidad de sus recursos en función de la programación de sus usuarios.
-   * Hora del presupuesto, FTE o asignaciones de costes para sus recursos (usuarios y funciones de trabajo) para los proyectos a los que están asignados.
+   * Priorice los proyectos para decidir qué proyectos deben recibir recursos primero. (Solo en el Planificador de recursos)
+   * Comprenda la disponibilidad de los recursos en función del horario de los usuarios.
+   * Presupuestar las asignaciones de horas, ETC o de costos de los recursos (usuarios y funciones del puesto) de los proyectos a los que están asignados.
 
-   Para obtener información sobre cómo trabajar en el planificador de recursos, consulte el artículo [Información general del planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Para obtener información sobre cómo trabajar en el Planificador de recursos, consulte el artículo [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Con el planificador de escenarios, puede crear planes de nivel empresarial en varias iniciativas que esbocen los resultados estratégicos generales de la empresa. Para obtener más información, consulte [Introducción al planificador de escenarios](../../scenario-planner/get-started-with-scenario-planning.md).
+* Con Scenario Planner, puede crear planes de nivel empresarial en varias iniciativas que describan los resultados estratégicos generales de su compañía. Para obtener más información, consulte [Introducción al Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
-   El planificador de escenarios requiere una licencia adicional. Para obtener información sobre el planificador de escenarios de Workfront, consulte [Información general del planificador de escenarios](../../scenario-planner/scenario-planner-overview.md).
+  El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

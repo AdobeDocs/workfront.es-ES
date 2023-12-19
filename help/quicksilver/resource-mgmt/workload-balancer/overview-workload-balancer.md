@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Descripción general del Distribuidor de cargas de trabajo
+title: Resumen del Distribuidor de cargas
 description: Una vez que los jefes de proyecto hayan planificado el trabajo en los proyectos creando tareas y después de que los jefes de recursos asignen los recursos de roles a los proyectos en el Planificador de recursos, los propietarios de proyecto y los jefes de equipo podrán utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# Descripción general del Distribuidor de cargas de trabajo
+# Resumen del Distribuidor de cargas
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Acceda a los siguientes artículos para obtener una descripción general de Adob
 
 Las secciones siguientes contienen artículos en los que se describen detalladamente las características de Maestro que están disponibles actualmente:
 
-* [Acceder a información](../maestro/access/access-information.md): Información sobre el acceso y los permisos necesarios para utilizar Adobe Maestro.
-* [Información de arquitectura](../maestro/architecture/architecture-information.md): Información detallada sobre la arquitectura de Adobe Maestro, con instrucciones paso a paso sobre cómo crear y administrar espacios de trabajo y tipos de registros.
-* [Información de campos](../maestro/fields/fields-information.md): Información detallada e instrucciones paso a paso acerca de la creación de campos personalizados para los tipos de registros de Maestro.
-* [Registra información](../maestro/records/records-information.md): Información detallada e instrucciones paso a paso sobre cómo crear y administrar registros.
-* [Información de vistas](../maestro/views/views-information.md): Información detallada sobre las vistas de Maestro y cómo administrarlas al ver registros en una página de tipo de registro.
+* [Acceso: índice de artículos](../maestro/access/access-information.md): Información sobre el acceso y los permisos necesarios para utilizar Adobe Maestro.
+* [Arquitectura: índice de artículos](../maestro/architecture/architecture-information.md): Información detallada sobre la arquitectura de Adobe Maestro, con instrucciones paso a paso sobre cómo crear y administrar espacios de trabajo y tipos de registros.
+* [Campos: índice de artículos](../maestro/fields/fields-information.md): Información detallada e instrucciones paso a paso acerca de la creación de campos personalizados para los tipos de registros de Maestro.
+* [Registros: índice de artículos](../maestro/records/records-information.md): Información detallada e instrucciones paso a paso sobre cómo crear y administrar registros.
+* [Vistas: índice de artículos](../maestro/views/views-information.md): Información detallada sobre las vistas de Maestro y cómo administrarlas al ver registros en una página de tipo de registro.

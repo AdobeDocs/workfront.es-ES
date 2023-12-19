@@ -1,13 +1,13 @@
 ---
-title: Información de arquitectura
+title: "Arquitectura: índice de artículos"
 description: En los siguientes artículos se describe cómo configurar la arquitectura de Adobe Maestro. Como parte de esta configuración, aprenderá a crear espacios de trabajo, tipos de registros y campos personalizados para asignar los flujos de trabajo que desea administrar en Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Información de arquitectura
+# Arquitectura: índice de artículos
 
 >[!IMPORTANT]
 >

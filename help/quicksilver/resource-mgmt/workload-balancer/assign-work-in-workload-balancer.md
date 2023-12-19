@@ -6,9 +6,9 @@ description: Como administrador de recursos, puede utilizar el Distribuidor de c
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Como administrador de recursos, puede utilizar el Distribuidor de cargas de trabajo de Adobe Workfront para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
 
-Para obtener información general sobre el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Para obtener información general sobre el Distribuidor de cargas de trabajo, consulte [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Puede asignar elementos de trabajo (tareas y problemas) a usuarios de otras áreas de Workfront. Sin embargo, al utilizar el Distribuidor de cargas de trabajo, puede comprender fácilmente la disponibilidad de los usuarios y ver claramente todos los demás elementos a los que están asignados antes de asignarles más trabajo.
 

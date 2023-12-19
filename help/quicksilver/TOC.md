@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 1%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 1%
          * [Creación de estados personalizados y etiquetas de prioridad](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Resumen de estados](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Enumerar todos los estados de proyecto](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [Estados del proyecto](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [Información general sobre los estados de proyectos del sistema](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [Enumerar todos los estados de tareas](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Estados de tarea](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Enumerar estados de problemas](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1744,7 +1744,7 @@ ht-degree: 1%
       * [Ver información de utilización de recursos](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Distribuidor de cargas de trabajo {#the-workload-balancer}
       * [Índice de artículos del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [Descripción general del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [Resumen del Distribuidor de cargas](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Localización del Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -2003,7 +2003,7 @@ ht-degree: 1%
    * [Introducción a Adobe Maestro](maestro/maestro-overview.md)
    * [Actividad de versión de Adobe Maestro](maestro/release-activity.md)
    * Arquitectura de Adobe Maestro {#adobe-maestro-architecture}
-      * [Información de arquitectura](maestro/architecture/architecture-information.md)
+      * [Arquitectura: índice de artículos](maestro/architecture/architecture-information.md)
       * [Creación de espacios de trabajo](maestro/architecture/create-workspaces.md)
       * [Información general sobre los tipos de registros y las taxonomías](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [Creación de tipos de registros operativos](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 1%
       * [Ejemplo de conexión de tipos y registros](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lista de plantillas de Workspace](maestro/architecture/workspace-templates.md)
    * Campos de Adobe Maestro {#adobe-maestro-fields}
-      * [Información de campos](maestro/fields/fields-information.md)
+      * [Campos: índice de artículos](maestro/fields/fields-information.md)
       * [Información general de campos](maestro/fields/fields-overview.md)
       * [Creación de campos](maestro/fields/create-fields.md)
       * [Editar campos](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 1%
       * [Acceso a información general](maestro/access/access-overview.md)
       * [Conceder acceso a Adobe Maestro](maestro/access/grant-access.md)
    * Registros de Adobe Maestro {#adobe-maestro-records}
-      * [Registra información](maestro/records/records-information.md)
+      * [Registros: índice de artículos](maestro/records/records-information.md)
       * [Creación de registros](maestro/records/create-records.md)
       * [Conectar registros](maestro/records/connect-records.md)
       * [Edición de registros](maestro/records/edit-records.md)
       * [Eliminación de registros](maestro/records/delete-records.md)
       * [Compartir registros](maestro/records/share-records.md)
+      * [Administrar comentarios de registro](maestro/records/manage-record-comments.md)
    * Vistas de Adobe Maestro {#adobe-maestro-views}
-      * [Información de vistas](maestro/views/views-information.md)
+      * [Vistas: índice de artículos](maestro/views/views-information.md)
       * [Administrar vistas de registros](maestro/views/manage-record-views.md)
       * [Administrar la vista de tabla](maestro/views/manage-the-table-view.md)
       * [Administrar la vista de cronología](maestro/views/manage-the-timeline-view.md)

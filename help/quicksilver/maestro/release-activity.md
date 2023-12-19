@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Semana del 18 de diciembre de 2023
+## Semana del 18 de diciembre de 2024
+
+### Agregar comentarios a los registros desde la página Detalles
+
+Vista previa y producción para todos los clientes: 18 de diciembre de 2023
+
+>[!NOTE]
+>
+>Las siguientes funciones estarán disponibles en el entorno de producción con la versión de enero de 2024:
+>
+>* Buscar comentarios
+>
+>* Copia y pegado de imágenes
+>
+>* Arrastrar y soltar imágenes
+>
+>Para obtener más información, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+Ahora puede colaborar con otros en registros individuales agregando comentarios o respondiendo a otros mientras ve un registro en la página Detalles.
+
+La experiencia de comentarios de los registros de Maestro coincide con la nueva experiencia de comentarios de los objetos de Workfront.
+
+Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Semana del 11 de diciembre de 2023
 
 ### Actualizar el campo principal en una vista de tabla de un tipo de registro
 
@@ -102,7 +126,7 @@ Para obtener más información, consulte [Administrar vista de tabla](/help/quic
 
 Versión de vista previa: 14 de diciembre de 2023
 
-Versión de producción: 15 de diciembre de 2023
+Versión de producción: planificada para el 15 de diciembre de 2023
 
 >[!IMPORTANT]
 >

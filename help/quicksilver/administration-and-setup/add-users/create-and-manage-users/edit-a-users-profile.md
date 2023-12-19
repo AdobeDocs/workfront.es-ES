@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    <li><b>Mostrar porcentaje completado al actualizar el estado</b>: marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualización de las tareas de este usuario.</li> 
        <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que el usuario se asigna a sí mismo aparezca directamente en la lista Trabajando en del área de Inicio. El valor predeterminado es enumerar todo lo asignado a un usuario en sus listas Listo para comenzar o No listo en el área de Inicio.</li> 
-       <li><b>Generar automáticamente revisiones al cargar documentos</b>: Marque esta opción si desea que los documentos que carga el usuario generen una prueba inmediatamente. Según la licencia de revisión de Workfront, el número total de pruebas disponibles para generar en el sistema para todos los usuarios podría verse afectado cuando los usuarios generan pruebas. </li>
+       <li><b>Generar automáticamente revisiones al cargar documentos</b>: Marque esta opción si desea que los documentos que carga el usuario generen una prueba inmediatamente. </li>
        </ul> </td> 
      </tr> 
      <tr> 

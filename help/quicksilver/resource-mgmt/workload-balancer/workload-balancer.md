@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ El Distribuidor de cargas de trabajo es una herramienta de programación de recu
 
 Para obtener información sobre qué es el Distribuidor de cargas de trabajo, cómo explorarlo y cómo asignar trabajo mediante él, consulte los siguientes artículos:
 
-* [Descripción general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
 * [Localización del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
 * [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
