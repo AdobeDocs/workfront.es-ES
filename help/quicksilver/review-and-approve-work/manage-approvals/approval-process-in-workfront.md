@@ -7,14 +7,16 @@ description: Puede crear un proceso de aprobación y adjuntarlo a un objeto para
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Resumen del proceso de aprobación
+
+<!-- Audited: 12/2023 -->
 
 Puede crear un proceso de aprobación y adjuntarlo a un objeto para asegurarse de que los usuarios designados revisen ciertos cambios antes de que el objeto progrese.
 
@@ -22,27 +24,26 @@ Esta opción está disponible para los siguientes tipos de objetos en Adobe Work
 
 * Elemento de trabajo (proyecto, tarea o problema, plantilla, tarea de plantilla)
 * Documento
-*  Proof
-
-Para obtener instrucciones sobre la creación de un proceso de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Revisión
 
 Este artículo contiene información general sobre los procesos de aprobación asociados con los elementos de trabajo.
+Para obtener instrucciones sobre la creación de un proceso de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Tipos de procesos de aprobación
+## Tipos de procesos de aprobación para elementos de trabajo
 
 Si es administrador de Adobe Workfront o un usuario con acceso administrativo a los procesos de aprobación, puede crear los siguientes procesos de aprobación para proyectos, tareas y problemas:
 
 * **Un proceso de aprobación global de nivel de sistema**: los usuarios pueden adjuntarlos a cualquiera de las siguientes opciones:
 
    * Un proyecto, tarea o problema en la sección Aprobaciones
-   * En el cuadro Editar proyecto, en el área Proceso de aprobación predeterminado de la tarea
-   * En las secciones Detalles de cola o Tema de cola de un proyecto, en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes.
+   * En el cuadro Editar proyecto del área Proceso de aprobación predeterminado de la tarea
+   * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes.
 
 * **Un proceso de aprobación global de nivel de grupo**: los usuarios pueden adjuntarlos a lo siguiente:
 
    * Un proyecto, tarea o problema que pertenece al grupo asociado con el proceso de aprobación en la sección Aprobaciones
-   * En el cuadro Editar proyecto, seleccione el área Proceso de aprobación predeterminado de tarea para un proyecto que pertenezca al grupo asociado al proceso de aprobación
-   * En las secciones Detalles de cola o Tema de cola de un proyecto, en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes y debe pertenecer al grupo asociado al proceso de aprobación.
+   * En el cuadro Editar proyecto, en el área Proceso de aprobación predeterminado de la tarea para un proyecto que pertenece al grupo asociado al proceso de aprobación
+   * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes y debe pertenecer al grupo asociado al proceso de aprobación.
 
   Para obtener información sobre la creación de procesos de aprobación de nivel de sistema o de grupo, consulte [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

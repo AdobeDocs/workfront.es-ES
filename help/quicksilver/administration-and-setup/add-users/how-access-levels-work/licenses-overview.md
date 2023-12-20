@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: licencia, tipo
 navigation-topic: access-levels
 description: Su organización compró una determinada cantidad de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, proporciona uno de los tres tipos de nuevas licencias de Workfront a cada usuario cuando le asigna un nivel de acceso.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -19,13 +19,15 @@ ht-degree: 2%
 
 # Información general sobre nuevas licencias
 
+<!-- Audited: 12/2023 -->
+
 Su organización compró una determinada cantidad de licencias cuando adquirió Adobe Workfront. Como administrador de Workfront, proporciona uno de los tres tipos de licencias de Workfront a cada usuario cuando le asigna un nivel de acceso.
 
 ## Cómo se unen las nuevas licencias de Workfront y los nuevos niveles de acceso
 
 Los 3 tipos de nuevas licencias de Workfront permiten diferentes niveles de acceso a Workfront. Cada nivel de acceso se adjunta a una de estas licencias.
 
-Como administrador de Workfront, en lugar de asignar una licencia a un usuario, debe asignarle el nivel de acceso adjunto a dicha licencia.
+En lugar de asignar una licencia a un usuario, debe asignarle el nivel de acceso adjunto a dicha licencia.
 
 En esta tabla y diagrama se muestran los principales niveles de acceso a Workfront:
 
@@ -54,6 +56,6 @@ Al asignar un nivel de acceso a un usuario, el recuento de licencias disponibles
 
 Por ejemplo, si asigna el nivel de acceso Estándar a un usuario, el número de licencias Estándar disponibles se reduce en 1.
 
-Puede ver las licencias y los niveles de acceso asignados a los usuarios. Para obtener más información, consulte [Enumerar los niveles de acceso y las licencias de los usuarios](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+Puede ver las licencias y los niveles de acceso asignados a los usuarios. Para obtener más información, consulte [Enumerar los niveles de acceso y las licencias de los usuarios](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Para obtener información sobre la administración de licencias, consulte [Administrar las licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
+Para obtener información sobre la administración de licencias, consulte [Administrar las licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

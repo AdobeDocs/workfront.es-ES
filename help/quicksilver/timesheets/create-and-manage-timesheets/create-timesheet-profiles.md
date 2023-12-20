@@ -6,10 +6,10 @@ description: Puede crear, editar y asignar perfiles de hojas de horas que genere
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
@@ -35,16 +35,17 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo: estándar </p>
+ <p>o</p> 
+<p>Actual: plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe tener acceso administrativo a las hojas de horas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p>  <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Debe tener acceso administrativo a las hojas de horas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,7 +64,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 >
 >Para habilitar los cambios de perfil de hoja de horas en las hojas de horas actuales, debe eliminar las hojas de horas existentes y luego generar otras nuevas. Para obtener instrucciones, consulte [Eliminación de plantillas de horas en Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) y [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Si está creando o editando un perfil de hoja de horas para utilizarlo en todo el sistema, haga clic en **Hoja de horas y horas**.
 
@@ -94,18 +95,18 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
       <li> <p>Si está creando un perfil de hoja de horas de nivel de sistema, deje este campo en blanco.</p> <p>Cualquier usuario que pueda editar cuentas de usuario puede adjuntar una plantilla de horas de nivel del sistema a otros usuarios.</p> <p>Solamente un administrador de Workfront puede editar un perfil de hoja de horas de nivel de sistema.</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>Si está creando un perfil de hoja de horas para un grupo que administra, identifique el grupo aquí.</p> <p>Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.</p> <p><b>NOTA</b>
+      <li> <p>Si está creando un perfil de hoja de horas para un grupo que administra, identifique el grupo aquí.</p> <p>Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.</p>
 
-   Cuando los usuarios fuera del grupo adjuntan perfiles de plantilla de horas a otros usuarios, no podrán ver ni adjuntar este perfil de plantilla de horas.</p> </li>
-   </ul> </p> </td> 
+   <p><b>NOTA</b>: Cuando los usuarios fuera del grupo adjuntan perfiles de plantilla de horas a otros usuarios, no podrán ver ni adjuntar este perfil de plantilla de horas.</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Crear hojas de horas</strong> </td> 
       <td> <p> <p>Especifique cuándo el perfil de hoja de horas debe generar las hojas de horas. Se puede configurar una hoja de horas para que se genere automáticamente de forma semanal, quincenal, semestral o mensual. Seleccione el día de la semana en el que desea que se produzca la plantilla de horas.</p>
       <p>Una hoja de horas semanal comienza en la fecha en que se genera. Por ejemplo, si crea hojas de horas semanales todos los jueves, el primer día de la semana en la hoja de horas es el jueves.</p>
-      <p><b>NOTA</b></p>
 
-   <p>Workfront siempre crea dos plantillas de horas a la vez: la primera incluye siempre la fecha actual y la segunda comienza cuando termina el lapso de tiempo de la primera.</p> </p> </td> 
+
+   <p><b>NOTA</b>: Workfront siempre crea dos plantillas de horas a la vez: la primera incluye siempre la fecha actual y la segunda comienza cuando termina el lapso de tiempo de la primera.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Aprobadores</strong></p> </td> 
@@ -134,9 +135,9 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
       <li>Los administradores de los propietarios de las hojas de horas pueden enviar, recuperar, volver a abrir y editar las hojas de horas de sus subordinados directos.</li></ul>
       </ul>
 
-   <p><b>NOTA</b>
+   <p>
 
-   Una vez enviada una hoja de horas para su aprobación, ya no puede editar las horas. Para devolver una hoja de horas enviada a un estado editable, recupere la hoja de horas o pida al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar hoja de horas para su aprobación</a> y<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
+   <b>NOTA</b>: Una vez enviada una plantilla de horas para su aprobación, ya no puede editar las horas. Para devolver una hoja de horas enviada a un estado editable, recupere la hoja de horas o pida al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar hoja de horas para su aprobación</a> y<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de horas disponibles</strong> </td> 
@@ -160,7 +161,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    >* Cuando se agrega un grupo, sólo aparece el nombre del grupo en la ficha Asignar personas, no la lista de miembros del grupo. Si desea ver los miembros del grupo enumerados aquí, haga clic en Guardar cambios y, a continuación, haga clic en el nombre del perfil de hoja de horas que acaba de crear.
    >* Cuando termina estos pasos, el perfil de hoja de horas genera hojas de horas únicamente para los usuarios o miembros del grupo asignados que no tienen hojas de horas existentes para el periodo actual.
 
-1. Clic **Guardar cambios**.
+1. Haga clic en **Guardar cambios**.
 
    La primera vez que el perfil de hoja de horas genera hojas de horas, se crean 2 hojas de horas por cada usuario. Después, cada vez que genera nuevas plantillas de horas, se crea una por usuario.
 

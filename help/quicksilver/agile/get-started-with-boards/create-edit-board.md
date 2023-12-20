@@ -6,14 +6,16 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # Crear o editar un tablero
+
+<!-- Audited: 12/2023 -->
 
 Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o editar uno existente.
 
@@ -29,6 +31,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo: Colaborador o superior </p>
+ <p>o</p> 
+<p>Actual: [!UICONTROL Request] o superior </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
    <td> <p>[!UICONTROL Request] o superior</p> </td> 
@@ -40,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Crear nuevo tablero
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
 1. Clic **[!UICONTROL Añadir tablero]**.
 
 1. Seleccione una plantilla para el tablero.
@@ -49,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    |---------|----------|
    | Tablero básico | Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. <p>Se proporcionan tres columnas predeterminadas en el tablero. Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. |
    | Tablero Kanban | Se proporcionan las siguientes columnas en el tablero: Registro de pendientes, Nuevo, En curso, Completado y En espera. Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas.<p>Para utilizar el registro de pendientes, debe configurar filtros para la columna de entrada. Para obtener más información, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar las directivas predeterminadas de cada columna, haga clic en [!UICONTROL **Más** menú] en una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas directivas preconfiguradas. Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Tablero retrospectivo | En el tablero se proporcionan las siguientes columnas: ¿Qué ha ido bien? Qué se podría mejorar? A quién debemos homenajear? Qué podemos hacer para avanzar más rápido? Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. <p>No se aplican políticas de columna. |
+   | Tablero retrospectivo | En el tablero se proporcionan las siguientes columnas: ¿Qué ha ido bien? ¿Qué se podría mejorar? ¿A quién debemos homenajear? ¿Qué podemos hacer para avanzar más rápido? Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. <p>No se aplican políticas de columna. |
    | Tablero dinámico | Se proporcionan las siguientes columnas en el tablero: No seleccionado, Nuevo, En curso, En espera y Completado. Puede agregar nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. (Se puede cambiar el nombre de la columna No seleccionada, pero no eliminarla. Esta columna contiene todas las tarjetas con un estado que no coincide con ninguno de los demás estados de columna). <p>Las políticas de columna predeterminadas asignan tarjetas a las columnas en función de su estado. Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Para un tablero dinámico únicamente, siga los pasos del asistente de configuración:
@@ -86,7 +95,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Editar un tablero existente
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
 1. En el tablero, seleccione el tablero que desea abrir.
 1. Edite el tablero según sea necesario. Puede hacer clic en el nombre del tablero para cambiarle el nombre.
 
