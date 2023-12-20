@@ -6,9 +6,9 @@ description: "NOTA: añada una sección en este artículo: /Content/Reports and 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Puede editar un filtro en una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear filtros más complejos.
 
-Para ver más ejemplos en modo texto al crear un filtro, consulte también la sección Ejemplos de filtros personalizados en el artículo [Ejemplos de vista personalizada, filtro y agrupación](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Para ver más ejemplos en modo texto al crear un filtro, consulte también la sección Ejemplos de filtros personalizados en el artículo [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Requisitos de acceso
 
@@ -60,7 +60,7 @@ Para obtener más información, consulte:
 
 * [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Ejemplos de vista personalizada, filtro y agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Edición del modo de texto en un filtro
 
@@ -163,12 +163,19 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 >[!NOTE]
 >
 >Puede tener varias instrucciones &quot;OR&quot; en el mismo filtro. Cada vez que tiene una nueva instrucción &quot;OR&quot;, aumenta el número después de &quot;OR:&quot;.
+>
 Para filtrar por tareas que están en estado de En curso o están asignadas al usuario que ha iniciado sesión o que tienen la Fecha planificada de finalización para hoy, utilice la siguiente información:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Clic **Listo** si desea guardar los cambios y seguir editando el informe o el filtro.

@@ -6,9 +6,9 @@ description: Descripción general de los usos comunes del modo Texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Puede ampliar sus capacidades de creación de informes utilizando el modo de tex
 
 Este artículo describe solo algunos ejemplos comunes de dónde es más probable que necesite utilizar el modo de texto para expandir las capacidades de creación de informes o de campos personalizados calculados en Adobe Workfront. Para ver una lista de ejemplos más amplia, consulte:
 
-* [Ejemplos de vista personalizada, filtro y agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Datos personalizados calculados en informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, consulte la sección Más información del sitio de Adobe Experience League.

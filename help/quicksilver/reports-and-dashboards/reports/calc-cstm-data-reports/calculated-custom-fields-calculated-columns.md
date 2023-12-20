@@ -7,9 +7,9 @@ description: Obtenga información sobre los datos personalizados en informes y p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Para ver ejemplos de campos personalizados calculados, consulte [Datos personali
 Para ver ejemplos de columnas personalizadas calculadas en vistas, consulte los siguientes artículos:
 
 * [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Ejemplos de vista personalizada, filtro y agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

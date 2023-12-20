@@ -6,10 +6,10 @@ description: Puede editar la configuración de un informe para definir cómo se 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td>Seleccione el usuario cuyos derechos de acceso desea que utilice este informe cuando se muestre a otros usuarios. Para obtener más información sobre cómo ejecutar un informe con los derechos de acceso de otro usuario, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Cuando el informe se cargue, mostrar</td> 
+      <td role="rowheader">Cuando se cargue el informe, mostrar</td> 
       <td>Seleccione la pestaña predeterminada que se muestra para todos los usuarios cuando se carga el informe.</td> 
      </tr> 
      <tr> 
@@ -122,6 +122,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Consulte también:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Introducción a los informes en Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Introducción a los informes](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

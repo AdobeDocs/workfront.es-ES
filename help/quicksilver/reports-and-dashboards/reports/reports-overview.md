@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '63'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Esta sección contiene las siguientes subsecciones:
 * [Uso de informes integrados](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [Creación y administración de informes](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [Datos personalizados calculados en informes](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [Ejemplos de vista personalizada, filtro y agrupación](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Recursos del modo de texto: índice del artículo](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [Resumen del uso de informes](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Calendarios](../../reports-and-dashboards/reports/calendars/calendars.md)
