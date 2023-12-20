@@ -3,25 +3,27 @@ title: Configurar integraciones de documentos
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Configurar integraciones de documentos
-author: Courtney, Caroline
+description: Como administrador de Adobe Workfront, puede configurar integraciones de documentos para administrar documentos en Workfront.
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 456c7b21835c96912e8974063f7797283dcb4e6d
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
 
 # Configurar integraciones de documentos
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Como un [!DNL Adobe Workfront] administrador, puede configurar integraciones de documentos para administrar documentos en [!UICONTROL Workfront]. También puede configurar [!UICONTROL Workfront] para que los documentos se almacenen únicamente en aplicaciones de servicios de documentos y no en [!UICONTROL Workfront] sí mismo. Para obtener más información, consulte [Actualizar y vincular un documento desde [!UICONTROL Workfront] a un proveedor de nube externo](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in [Vinculación de documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Como un [!DNL Adobe Workfront] administrador, puede configurar integraciones de documentos para administrar documentos en [!UICONTROL Workfront]. También puede configurar [!UICONTROL Workfront] para que los documentos se almacenen únicamente en aplicaciones de servicios de documentos y no en [!UICONTROL Workfront] sí mismo. Para obtener más información, consulte [Actualizar y vincular un documento desde [!UICONTROL Workfront] a un proveedor de nube externo](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [Vinculación de documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
@@ -41,7 +43,9 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nuevo: [!UICONTROL Standard]</p>
+       <p>o</p>
+       <p>Actual: [!UICONTROL plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -66,11 +70,11 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * [!DNL Workfront Proof]
 
-   Vinculación de pruebas desde [!DNL Workfront Proof] permite realizar pruebas que se crearon originalmente en [!DNL Workfront Proof] disponible en [!DNL Workfront]. A [!UICONTROL Pro] [!DNL Workfront] Se requiere planificación o superior para utilizar esta función. Para obtener más información sobre los distintos planes disponibles, consulte [Planes de Workfront.](https://www.workfront.com/plans)
+  Vinculación de pruebas desde [!DNL Workfront Proof] permite realizar pruebas que se crearon originalmente en [!DNL Workfront Proof] disponible en [!DNL Workfront]. Para los planes actuales, un [!UICONTROL Pro] [!DNL Workfront] Se requiere planificación o superior para utilizar esta función. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los distintos planes disponibles, consulte [Planes de Workfront](https://www.workfront.com/plans).
 
 * [!DNL Microsoft SharePoint]
 
-   Para obtener información sobre la integración de con [!DNL SharePoint], consulte [Configure las variables [!DNL SharePoint] integración](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Para obtener información sobre la integración de con [!DNL SharePoint], consulte [Configure las variables [!DNL SharePoint] integración](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Proveedores de documentos de nube de terceros:
 
@@ -82,21 +86,20 @@ Puede configurar las siguientes integraciones para administrar documentos:
    * [!DNL Microsoft SharePoint]
    * [!UICONTROL Google Drive]
 
-      <!--Quip-->
-   >[!TIP]
-   >
-   >Puede probar y aprobar documentos vinculados desde un proveedor de nube externo del mismo modo que prueba y aprueba documentos cargados directamente en [!DNL Workfront].
+     <!--Quip-->
+  >[!TIP]
+  >
+  >Puede probar y aprobar documentos vinculados desde un proveedor de nube externo del mismo modo que prueba y aprueba documentos cargados directamente en [!DNL Workfront].
 
 * Otros proveedores de documentos (mediante integraciones de documentos personalizadas).
 
-   A [!UICONTROL Pro] [!DNL Workfront] Se requiere planificación o superior para utilizar esta función. Para obtener más información sobre los distintos planes disponibles, consulte [[!DNL Workfront] Planes.](https://www.workfront.com/plans)
+  Para los planes actuales, un [!UICONTROL Pro] [!DNL Workfront] Se requiere planificación o superior para utilizar esta función. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los distintos planes disponibles, consulte [Planes de Workfront](https://www.workfront.com/plans).
 
 Además, puede mejorar su [!DNL Workfront] Documente la experiencia con un sistema nativo de administración de activos digitales (DAM) o con integraciones DAM de terceros. Los administradores deben habilitar estas funciones para que los usuarios puedan vincular el servicio a su [!DNL Workfront] cuenta. Para obtener más información sobre Workfront DAM, consulte [Administrar documentos con [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 ## Configurar integraciones para administrar documentos
 
-1. Iniciar sesión en [!DNL Workfront] como administrador.
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Proveedores de nube].**
 
@@ -119,13 +122,12 @@ Para que la integración personalizada esté disponible para los usuarios de, pr
 
 Una vez creada la integración de documentos personalizada, puede ponerla a disposición de los usuarios de su sitio.
 
-1. Iniciar sesión en [!DNL Workfront] como administrador.
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Integración personalizada].**
+1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Integración personalizada]**.
 
 1. Clic **[!UICONTROL Añadir integración personalizada]**.
-1. Especifique la siguiente información para configurar la integración:
+1. Introduzca la siguiente información para configurar la integración:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -137,20 +139,20 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL URL de API base] </td> 
-      <td>La dirección URL HTTP base o HTTP segura para llamadas a la API. Por ejemplo, <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
+      <td>La dirección URL HTTP base o HTTP segura para llamadas a la API. Por ejemplo, <code>https://documentprovider.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tipo de autenticación]</td> 
       <td> <p>El método de autenticación que se utiliza al realizar llamadas de API autorizadas a la integración personalizada.</p> 
        <ul> 
-        <li>Si elige <strong>[!UICONTROL OAuth]</strong>, continúe con el paso 6.</li> 
-        <li>Si elige <strong>[!UICONTROL ApiKey]</strong>A continuación, continúe con el paso 7.</li> 
+        <li>Si elige <strong>[!UICONTROL OAuth]</strong>, continúe con el paso 5.</li> 
+        <li>Si elige <strong>[!UICONTROL ApiKey]</strong>, continúe con el paso 6.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si ha seleccionado **[!UICONTROL OAuth]** autenticación para el **[!UICONTROL Tipo de autenticación]**, especifique la siguiente información:
+1. (Condicional) Si ha seleccionado **[!UICONTROL OAuth]** autenticación para el **[!UICONTROL Tipo de autenticación]**, introduzca la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -174,7 +176,7 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Parámetros de solicitud]</td> 
-      <td> <p>Especifique los valores opcionales que se adjuntarán a la cadena de consulta de cada llamada de API. Por ejemplo, access_type=offline.</p> <p>Para agregar varios parámetros de solicitud, haga clic en <strong>+Agregar parámetro de solicitud</strong>.</p> </td> 
+      <td> <p>Introduzca valores opcionales que se añadirán a la cadena de consulta de cada llamada de API. Por ejemplo, access_type=offline.</p> <p>Para agregar varios parámetros de solicitud, haga clic en <strong>+Agregar parámetro de solicitud</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -183,7 +185,7 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
    >
    >El [!DNL Workfront] URI de redireccionamiento que se muestra en la parte inferior de [!UICONTROL Integración personalizada] Esta página enumera el URI utilizado para registrar esta integración con el proveedor de documentos externo.
 
-1. (Condicional) Si ha seleccionado **[!UICONTROL ApiKey]** autenticación para el **[!UICONTROL Tipo de autenticación]**, especifique la clave API emitida por el proveedor de documentos personalizados.
+1. (Condicional) Si ha seleccionado **[!UICONTROL ApiKey]** autenticación para el **[!UICONTROL Tipo de autenticación]**, introduzca la clave de API emitida por el proveedor de documentos personalizados.
 
    [!DNL Workfront] utiliza esta clave API para realizar llamadas de API autorizadas al proveedor de documentos.
 
@@ -213,11 +215,11 @@ Para obtener más información sobre los campos personalizados calculados, consu
 
 La asignación afecta a todos los documentos cargados por cualquier usuario de [!DNL Workfront] hasta [!UICONTROL Workfront] DAM.
 
-As a [!DNL Workfront] administrador, debe habilitar [!DNL Workfront DAM] en Workfront antes de poder asignar los campos para el proceso de asignación de metadatos. Para obtener más información sobre cómo habilitar [!DNL Workfront DAM], consulte [Configuración de Workfront para enviar metadatos a [!DNL Workfront DAM]](#configure-workfront-to-send-metadata-to-workfront-dam).
+As a [!DNL Workfront] administrador, debe habilitar [!DNL Workfront DAM] en Workfront antes de poder asignar los campos para el proceso de asignación de metadatos.
 
 Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **[!UICONTROL Documentos]** > **[!UICONTROL Asignación de metadatos]**.
 
@@ -234,7 +236,7 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 
 ### Eliminar campos asignados
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expandir **[!UICONTROL Documentos]**, luego haga clic en **[!UICONTROL Asignación de metadatos]**.
 
