@@ -2,169 +2,170 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Comprender el diseño de la hoja de horas
-description: En este artículo se describe el diseño de las partes de horas en Adobe Workfront, lo que le permite comprender mejor cómo personalizar y utilizar las partes de horas para registrar el tiempo.
+title: Resumen del diseño de hoja de horas
+description: Este artículo describe la presentación de las plantillas de horas en Adobe Workfront, lo que le permite comprender mejor cómo personalizar y utilizar las plantillas de horas para registrar el tiempo.
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ca552b80e9d78fd09068d72479e1b2bddc596c70
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
 
-# Comprender el diseño de la hoja de horas
+# Resumen del diseño de hoja de horas
 
-En este artículo se describe el diseño de las partes de horas en Adobe Workfront, lo que le permite comprender mejor cómo personalizar y utilizar las partes de horas para registrar el tiempo.
+<!-- Audited: 12/2023 -->
 
-Las preferencias de horas y horas controlan lo que aparece en un parte de horas. Este artículo proporciona información general sobre todas las opciones disponibles. Para obtener más información, consulte [Configuración de las preferencias de horas y horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Este artículo describe la presentación de las plantillas de horas en Adobe Workfront, lo que le permite comprender mejor cómo personalizar y utilizar las plantillas de horas para registrar el tiempo.
 
-Para obtener información sobre cómo iniciar sesión en una hoja de tiempo, consulte [Tiempo de registro](../../timesheets/create-and-manage-timesheets/log-time.md).
+Las preferencias de horas y hoja de horas controlan lo que aparece en una hoja de horas. Este artículo proporciona una descripción general de todas las opciones disponibles. Para obtener información sobre cómo seleccionar las opciones, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-![Diseño de hoja de tiempo](assets/timesheet-layout-unshimmed.png)
+Para obtener información sobre cómo registrar las horas en una hoja de horas, consulte [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Las siguientes son las áreas de un parte de horas:
+![Diseño de hoja de horas](assets/timesheet-layout-unshimmed.png)
 
-* [Encabezado de hoja de tiempo](#timesheet-header)
+Las siguientes son las áreas de una hoja de horas:
+
+* [Encabezado de hoja de horas](#timesheet-header)
 * [El panel izquierdo](#the-left-panel)
 * [Elementos de trabajo](#work-items)
 * [Barra de herramientas](#toolbar)
-* [Pie de página de hoja de tiempo](#timesheet-footer)
-* [Función del trabajo](#job-role)
+* [Pie de hoja de horas](#timesheet-footer)
+* [Función del puesto](#job-role)
 * [Tipo de hora](#hour-type)
-* [Área de actualizaciones del panel izquierdo](#updates-area-in-the-left-panel)
+* [Área de actualizaciones en el panel izquierdo](#updates-area-in-the-left-panel)
 * [Panel de resumen](#summary-panel)
-* [Período de tiempo y área de entrada de hora](#time-frame-and-hour-entry-area)
+* [Lapso de tiempo y área de entrada de horas](#time-frame-and-hour-entry-area)
 * [Comentarios de entrada de hora](#hour-entry-comments)
 * [Horas](#hours)
 * [Totales](#totals)
 
-## Encabezado de hoja de tiempo
+## Encabezado de hoja de horas
 
-![](assets/timesheet-title-unshimmed-redesign.png)
+![Encabezado de hoja de horas](assets/timesheet-title-unshimmed-redesign.png)
 
-El encabezado de parte de horas incluye la siguiente información:
+El encabezado de la plantilla de horas incluye la siguiente información:
 
-* El lapso de tiempo del parte de horas.
+* El lapso de tiempo de la hoja de horas.
 * El área Acciones que incluye lo siguiente:
-   * Un icono de estrella para agregar las hojas de horas a su lista de Favoritos.
-   * El icono Más con una opción Eliminar desde la que puede eliminar el parte de horas.
-* Nombre del propietario del parte de horas.
-* Número total de horas durante las horas registradas para los elementos mostrados en el parte de horas.
-* Número de horas extra. Esta es una entrada manual y solo se puede ver cuando la variable **Tiempo extra** está habilitado en un parte de horas. Para obtener más información, consulte [Editar información de hoja de horas](../create-and-manage-timesheets/edit-timesheets.md).
+   * Un icono de estrella para agregar las plantillas de horas a su lista de Favoritos.
+   * El icono Más con la opción Eliminar que le permite eliminar la plantilla de horas.
+* Nombre del propietario de la plantilla de horas.
+* Número total de horas registradas para los elementos mostrados en la hoja de horas.
+* Número de horas extra. Esta es una entrada manual y solo es visible cuando la variable **Horas extra** Esta opción está habilitada en una hoja de horas. Para obtener más información, consulte [Editar información de hoja de horas](../create-and-manage-timesheets/edit-timesheets.md).
 
 >[!TIP]
 >
->No puede registrar un número mayor de horas extra que el total actual de horas en el parte de horas. Por ejemplo, si ha registrado 7 horas en el parte de horas hasta ahora, no puede registrar 8 horas extra.
+>No se puede registrar un número de horas extra mayor que el número total de horas actuales en la hoja de horas. Por ejemplo, si ha registrado 7 horas en la hoja de horas hasta el momento, no puede registrar 8 horas extra.
 
-
-* El estado del parte de horas.
+* El estado de la plantilla de horas.
 
 ## El panel izquierdo
 
-![](assets/timesheet-left-panel-unshimmed-redesign.png)
+![Panel izquierdo de hoja de horas](assets/timesheet-left-panel-unshimmed-redesign.png)
 
 Puede acceder a las siguientes secciones en el panel izquierdo:
 
-* **Hoja de horas**: Muestra el parte de horas real.
-* **Actualizaciones**: Muestra comentarios y actualizaciones del sistema para el parte de horas. Para obtener más información, consulte la [Área de actualizaciones del panel izquierdo](#updates-area-in-the-left-panel) en este artículo.
+* **Hoja de horas**: Muestra la hoja de horas real.
+* **Actualizaciones**: Muestra comentarios y actualizaciones del sistema para la plantilla de horas. Para obtener más información, consulte la [Área de actualizaciones en el panel izquierdo](#updates-area-in-the-left-panel) de este artículo.
 
 ## Elementos de trabajo
 
-![](assets/timesheet-object-names-unshimmed-redesign.png)
+![Elementos de trabajo de hoja de horas](assets/timesheet-object-names-unshimmed-redesign.png)
 
-Los elementos de trabajo son los proyectos, tareas y problemas para los que desea registrar el tiempo. Al hacer clic en la flecha que apunta hacia abajo en la fila del encabezado, se contraen los proyectos y las tareas y problemas que aparecen debajo. Al hacer clic en la flecha que apunta hacia abajo situada al lado del nombre de un proyecto, se contraen los elementos de trabajo de ese proyecto.
+Los elementos de trabajo son los proyectos, tareas y problemas para los que desea registrar tiempo. Al hacer clic en la flecha hacia abajo en la fila de encabezado, se contraen los proyectos y las tareas y problemas enumerados debajo. Al hacer clic en la flecha hacia abajo situada junto al nombre de un proyecto, se contraen los elementos de trabajo de ese proyecto.
 
-Las tareas, los problemas y los proyectos en los que el tiempo se registra fuera del parte de horas o los elementos planificados durante el marco de tiempo del parte de horas aparecen aquí automáticamente.
+Las tareas, los problemas y los proyectos en los que el tiempo se registra fuera de la hoja de horas o los elementos planificados durante su transcurso aparecen aquí automáticamente.
 
 ## Barra de herramientas
 
-![](assets/timesheet-toolbar-unshimmed-redesign.png)
+![Barra de horas](assets/timesheet-toolbar-unshimmed-redesign.png)
 
 La barra de herramientas incluye las siguientes opciones:
 
-* Botón Agregar elemento desde el que puede agregar proyectos, tareas o problemas.
-* El icono de filtro rápido para buscar tareas o problemas en el parte de horas.
-* La variable **Mostrar comentarios** configuración que permite ver u ocultar comentarios de hora que están registrados para entradas de proyecto, tarea o hora de publicación.
-* Icono de pantalla completa desde el cual puede mostrar el parte de horas en modo de pantalla completa.
-* **Abrir resumen** (o **Cerrar resumen**) desde donde puede abrir o cerrar el panel Resumen para ver información adicional sobre tareas o problemas. Esto no está disponible para proyectos.
+* El **Añadir elemento** que le permite agregar proyectos, tareas o problemas.
+* El icono de filtro rápido para buscar tareas o problemas en la plantilla de horas.
+* El **Mostrar comentarios** configuración que permite ver u ocultar comentarios de horas registrados para entradas de horas de proyectos, tareas o problemas.
+* Icono de pantalla completa para mostrar la hoja de horas en modo de pantalla completa.
+* El **Abrir resumen** (o **Cerrar resumen**) para abrir o cerrar el Panel de resumen y ver información adicional sobre tareas o problemas. Este botón no está disponible para proyectos.
 
-Para obtener más información, consulte [Tiempo de registro](../create-and-manage-timesheets/log-time.md).
+Para obtener más información, consulte [Registrar tiempo](../create-and-manage-timesheets/log-time.md).
 
-## Pie de página de hoja de tiempo
+## Pie de hoja de horas
 
-![](assets/timesheet-footer-unshimmed-redesign.png)
+![Pie de hoja de horas](assets/timesheet-footer-unshimmed-redesign.png)
 
-Puede hacer clic en los botones Enviar para aprobación, Cerrar, Aprobar y Rechazar de esta área para cerrar o rechazar una aprobación de parte de horas.
+Puede hacer clic en **Enviar para aprobación**, **Cerrar**, **Aprobar**, y **Rechazar** botones de esta área para cerrar o rechazar la aprobación de una plantilla de horas.
 
-Esta área también contiene información sobre la última vez que se guardó el parte de horas. Todos los cambios que realice en la información del parte de horas se guardan automáticamente.
+Esta área también contiene información sobre la última vez que se guardó la hoja de horas. Todos los cambios que realice en la información de la plantilla de horas se guardarán automáticamente.
 
 ## Función
 
-![](assets/timesheet-job-role-area-unshimmed-redesign.png)
+![Funciones del puesto](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-Puede seleccionar una función de trabajo diferente para asociarla con las entradas de hora. El administrador de Workfront debe habilitar manualmente la configuración Asignar funciones de trabajo a las entradas de hora. La función de trabajo especificada cuando está asignado a la tarea o el problema se muestra de forma predeterminada. Si no se le asigna una función de trabajo en la tarea o en el problema, la función principal se muestra como la predeterminada. Para obtener más información, consulte el artículo [Configuración de las preferencias de horas y horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Puede seleccionar otro rol para asociarlo a las entradas de horas. El administrador de Workfront debe habilitar la variable **Asignar roles a entradas de horas** configuración manualmente. La función especificada para usted cuando se le asigna la tarea o el problema se muestra de forma predeterminada. Si no se le asigna una función en la tarea o el problema, la función principal se muestra como predeterminada. Para obtener más información, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Puede registrar entradas de varias horas para el mismo elemento de trabajo para diferentes funciones. Para obtener más información, consulte [Tiempo de registro](../create-and-manage-timesheets/log-time.md).
+Puede registrar varias entradas de horas para el mismo elemento de trabajo para diferentes funciones. Para obtener más información, consulte [Registrar tiempo](../create-and-manage-timesheets/log-time.md).
 
 ## Tipo de hora
 
-![](assets/timesheet-hour-type-unshimmed-redesign.png)
+![Tipos de horas](assets/timesheet-hour-type-unshimmed-redesign.png)
 
-Puede seleccionar diferentes tipos de hora para asociarlos con las entradas de hora de cada artículo. Este campo solo se muestra cuando el administrador de Workfront lo habilita para su entorno. Para obtener más información, consulte el artículo [Configuración de las preferencias de horas y horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Puede seleccionar diferentes tipos de horas para asociarlos a las entradas de horas de cada elemento. Este campo solo se muestra cuando el administrador de Workfront lo habilita para su entorno. Para obtener más información, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Puede registrar entradas de varias horas para el mismo elemento de trabajo para diferentes tipos de horas. Para obtener más información, consulte [Tiempo de registro](../create-and-manage-timesheets/log-time.md).
+Puede registrar varias entradas de horas para el mismo elemento de trabajo para distintos tipos de horas. Para obtener más información, consulte [Registrar tiempo](../create-and-manage-timesheets/log-time.md).
 
-## Área de actualizaciones del panel izquierdo
+## Área de actualizaciones en el panel izquierdo
 
-![](assets/timesheet-updates-section-unshimmed-redesign.png)
+![Área Actualizaciones en el panel izquierdo de la plantilla de horas](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-Puede realizar comentarios en un parte de horas para comunicarse con los aprobadores de parte de horas u otros usuarios en la sección Actualizaciones del panel izquierdo.
+Puede realizar comentarios en una plantilla de horas para comunicarse con los aprobadores de la plantilla u otros usuarios en la sección Actualizaciones del panel izquierdo.
 
-Cualquier comentario realizado en el parte de horas se muestra en esta área, en la parte inferior del parte de horas. Esta área se muestra debajo del parte de horas y encima del pie de página del parte de horas. Para obtener más información, consulte [Ver y administrar comentarios en un parte de horas](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Cualquier comentario realizado en la plantilla de horas se mostrará en esta área, en la parte inferior de la plantilla de horas. Esta área se muestra debajo de la plantilla de horas y encima del pie de página de la plantilla. Para obtener más información, consulte [Ver y administrar comentarios en una hoja de horas](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
 ## Panel de resumen
 
-![](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
+![Panel de resumen](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
-Puede acceder al panel Resumen para realizar comentarios de tareas o problemas que se muestran en un parte de horas. Desde aquí, puede comentar sobre tareas y problemas, o actualizar su información. Para obtener más información, consulte [Resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Puede acceder al Panel de resumen para tareas o problemas mostrados en una plantilla de horas. Desde aquí puede realizar comentarios sobre tareas y problemas o actualizar su información. Para obtener más información, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-Los comentarios que introduzca para los elementos de trabajo en el panel Resumen de parte de horas se muestran en el área Actualizaciones de la tarea o en el problema. El panel Resumen no está disponible para proyectos.
+Los comentarios introducidos para los elementos de trabajo en el panel Resumen de hoja de horas se muestran en el área Actualizaciones de la tarea o del problema. El panel Resumen no está disponible para proyectos.
 
-## Período de tiempo y área de entrada de hora
+## Lapso de tiempo y área de entrada de horas
 
-![](assets/timesheet-time-frame-log-time-area.png)
+![Lapso de tiempo de hoja](assets/timesheet-time-frame-log-time-area.png)
 
-El lapso de tiempo del parte de horas se muestra a la derecha de los elementos de trabajo.
+El lapso de tiempo de la hoja de horas se muestra a la derecha de los elementos de trabajo.
 
-Puede crear partes de horas para una, dos o cuatro semanas.
+Puede crear plantillas de horas para una, dos o cuatro semanas.
 
-El lapso de tiempo se muestra en incrementos de toda la semana. Los días fuera del lapso de tiempo especificado en el parte de horas están atenuados. No puede registrar la hora de los días que están fuera del lapso de tiempo del parte de horas.
+El lapso de tiempo se muestra en incrementos de una semana completa. Los días fuera del lapso de tiempo especificado para la hoja de horas aparecen atenuados. No se puede registrar el tiempo de los días que están fuera del lapso de tiempo de la hoja de horas.
 
-Para obtener más información, consulte [Crear hoja de horas de un solo uso](../create-and-manage-timesheets/create-tmshts.md) o [Crear, editar y asignar perfiles de parte de horas](../create-and-manage-timesheets/create-timesheet-profiles.md).
+Para obtener más información, consulte [Crear hoja de horas de un solo uso](../create-and-manage-timesheets/create-tmshts.md) o [Crear, editar y asignar perfiles de hojas de horas](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## Comentarios de entrada de hora
 
-![](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
+![Comentarios de entrada de hora](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
-Puede agregar un comentario para cada entrada de hora que agregue al parte de horas.
+Puede agregar un comentario por cada entrada de hora que agregue a su hoja de horas.
 
-Los comentarios que escriba en el cuadro de comentarios de la hora se mostrarán en el parte de horas, debajo de cada elemento de trabajo en el que haya registrado la hora en la que **Mostrar comentarios** está activada en la barra de herramientas.
+Los comentarios introducidos en el cuadro de comentarios de entrada de horas se muestran en la plantilla de horas, debajo de cada elemento de trabajo en el que se registró la hora en que se produjo el error **Mostrar comentarios** La configuración de está habilitada en la barra de herramientas.
 
 ![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## Horas
 
-![](assets/timesheet-hours-area-unshimmed-redesign.png)
+![Horas de hoja](assets/timesheet-hours-area-unshimmed-redesign.png)
 
-El parte de horas proporciona campos de entrada para cada elemento de trabajo y día del rango de hojas de horas para registrar el tiempo empleado trabajando en el elemento. A medida que va registrando la hora, el elemento en el que registra la hora de resaltado en azul claro y el cuadro de la hora aparece delineado en azul oscuro.
+La hoja de horas proporciona campos de entrada para cada elemento de trabajo y día del intervalo de hojas de horas para registrar el tiempo empleado trabajando en el elemento. A medida que registra el tiempo, el elemento en el que registra el tiempo para los resaltados aparece en azul claro y el cuadro de hora aparece delineado en azul oscuro.
 
 ## Totales
 
-![](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
+![Totales de hojas de horas](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
-Revise la suma de todas las horas introducidas en el parte de horas, resumidas por día (en el encabezado del parte de horas), así como por objeto (en la última columna).
+Revise la suma de todas las horas ingresadas en la hoja de horas, resumidas por día (en el encabezado de la hoja de horas) y por objeto (en la última columna).

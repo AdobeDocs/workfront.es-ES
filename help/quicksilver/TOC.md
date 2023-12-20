@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 1%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 1%
    * Detalles de hoja de horas {#details}
       * [Detalles de hoja de horas: índice de artículos](timesheets/timesheets/timesheets.md)
       * [Resumen de hojas de horas](timesheets/timesheets/timesheets-overview.md)
-      * [Comprender el diseño de Hoja de horas](timesheets/timesheets/timesheet-layout.md)
+      * [Resumen del diseño de hoja de horas](timesheets/timesheets/timesheet-layout.md)
    * Crear y administrar hojas de horas {#create-and-manage-timesheets-in-adobe-workfront}
       * [Crear y administrar hojas de horas: índice de artículos](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Crear, editar y asignar perfiles de hojas de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

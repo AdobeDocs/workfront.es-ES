@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Campos personalizados calculados frente a columnas calculadas
-description: Obtenga información sobre los datos personalizados en informes y paneles
+description: Para agregar varios campos en Adobe Workfront y mostrar ese valor agregado en un nuevo campo, puede crear un campo personalizado calculado en un formulario personalizado o una columna calculada en una vista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Campos personalizados calculados frente a columnas calculadas
 
-Para agregar varios campos en Adobe Workfront y mostrar ese valor agregado en un nuevo campo, puede hacer lo siguiente:
+Para agregar varios campos en Adobe Workfront y mostrar ese valor agregado en un nuevo campo, puede crear lo siguiente:
 
 * Campo personalizado calculado en un formulario personalizado\
-  Para obtener más información sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte la sección [Agregar un campo calculado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) en el artículo [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Para obtener más información sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte la sección [Agregar un campo calculado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) en el artículo [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Una columna calculada en una vista\
-  Para obtener más información sobre el uso de cálculos en una vista, vea la sección [Uso del modo Texto en las vistas](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) en el artículo [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Para obtener más información sobre el uso de cálculos en una vista, vea la sección [Uso del modo Texto en las vistas](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) en el artículo [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Aunque se utiliza el modo de texto para crear campos calculados y columnas calculadas, la sintaxis para crearlos es diferente. Consulte los artículos enumerados anteriormente para aprender a crear campos calculados y columnas calculadas. Para obtener información sobre las distintas sintaxis utilizadas en las expresiones de datos calculados, como los campos personalizados calculados y las columnas, consulte la sección [Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) en este artículo.
+Aunque se utiliza el modo de texto para crear campos calculados y columnas calculadas, la sintaxis para crearlos es diferente. Consulte los artículos enumerados anteriormente para aprender a crear campos calculados y columnas calculadas. Para obtener información sobre las distintas sintaxis utilizadas en las expresiones de datos calculados, como los campos personalizados calculados y las columnas, consulte la sección [Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) en este artículo.
 
-Puede utilizar los mismos cálculos en ambos campos calculados, así como en una columna calculada. Sin embargo, según cuál sea el propósito de estos cálculos, es posible que desee considerar la creación de uno frente al otro.
+Puede utilizar los mismos cálculos en ambos campos calculados, así como en una columna calculada. Sin embargo, según cuál sea el propósito de estos cálculos, puede que desee considerar la posibilidad de crear uno frente al otro.
 
 ## Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas
 
@@ -36,25 +36,19 @@ Por ejemplo:
 
 * En un campo personalizado, en un formulario personalizado para tareas, debe utilizar lo siguiente para generar el nombre del proyecto principal de la tarea donde se adjunta el formulario personalizado:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * En una columna personalizada de un informe, utilizaría lo siguiente para agregar una columna personalizada Nombre del proyecto en un informe de tareas:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   O
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >La misma sintaxis se aplica a todos los elementos de creación de informes en modo de texto donde se utilizan expresiones calculadas: vistas, filtros, agrupaciones, indicadores.
+  >La misma sintaxis se aplica a todos los elementos de creación de informes en modo de texto donde se utilizan expresiones calculadas: vistas, filtros, agrupaciones y peticiones de datos.
 
 Las diferencias entre las dos sintaxis son las siguientes:
 
@@ -63,8 +57,8 @@ Las diferencias entre las dos sintaxis son las siguientes:
  <col> 
  <tbody> 
   <tr> 
-   <td>Campo personalizado calculado</td> 
-   <td>Elemento de informe personalizado calculado</td> 
+   <td><strong>Campo personalizado calculado</strong></td>
+   <td><strong>Elemento de informe personalizado calculado</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Utilice el nombre de los campos tal como aparecen en la interfaz de Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Ejemplo de nombre de campo utilizado en un campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ Las diferencias entre las dos sintaxis son las siguientes:
   </tr> 
   <tr> 
    <td>Separar los campos por puntos</td> 
-   <td> <p>Separe los campos por dos puntos al usarlos en una <code>valuefield </code>línea</p> <p>Separe los campos por puntos al usarlos en una <code>valueexpression </code>línea. </p> </td> 
+   <td> <p>Separe los campos por dos puntos al usarlos en una <code>valuefield</code>línea.</p> <p>Separe los campos por puntos al usarlos en una <code>valueexpression</code>línea.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +90,7 @@ Para obtener más información sobre la sintaxis que debe utilizar en una column
 * Edición masiva de varios objetos al **Volver a calcular expresiones personalizadas** está habilitado
 * Edición de un formulario personalizado al **Actualizar cálculos anteriores** está habilitado para el campo personalizado calculado
 
-## Cuándo usar columnas calculadas en una vista
+## Cuándo utilizar columnas calculadas en una vista
 
 * Si desea que los datos en tiempo real estén disponibles en un informe.
 

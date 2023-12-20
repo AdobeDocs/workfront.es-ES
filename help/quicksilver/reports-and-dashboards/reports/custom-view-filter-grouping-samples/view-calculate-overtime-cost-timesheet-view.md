@@ -7,10 +7,10 @@ description: Las horas extra no se calculan de forma predeterminada en Adobe Wor
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Para obtener información sobre cómo asociar usuarios con tasas de costo por ho
 
 >[!NOTE]
 >
->El campo Horas extra que se puede agregar a una vista Hoja de horas de una lista o un informe muestra la información que se encuentra en el campo Horas extra de la hoja de horas. La información la actualiza manualmente un usuario con acceso para modificar la plantilla de horas. Para obtener más información sobre el campo Horas extra en una plantilla de horas, consulte el artículo [Comprender el diseño de Hoja de horas](../../../timesheets/timesheets/timesheet-layout.md).
+>El campo Horas extra que se puede agregar a una vista Hoja de horas de una lista o un informe muestra la información que se encuentra en el campo Horas extra de la hoja de horas. La información la actualiza manualmente un usuario con acceso para modificar la plantilla de horas. Para obtener más información sobre el campo Horas extra en una plantilla de horas, consulte el artículo [Resumen del diseño de hoja de horas](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Requisitos de acceso
 
@@ -71,7 +71,7 @@ Para agregar una columna de horas extra calculadas a una vista de hoja de horas:
 
    Seleccione el **Columnas (vista)** en un informe de hoja de horas.
 
-1. Clic **Agregar columna**.
+1. Haga clic en **Añadir columna**.
 1. Clic **Cambiar a modo de texto**.
 1. En el **Mostrar en esta columna** , haga clic en **Haga clic para editar el texto**.
 1. Copie y pegue el siguiente código de modo de texto en la **Modo de texto** Cuadro de diálogo.
