@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Asignar problemas
 
-Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Resumen de modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ Puede asignar problemas a usuarios, funciones y equipos para indicar quién es e
 
 Además de este artículo, le recomendamos que lea los siguientes artículos para obtener más información sobre la asignación de problemas:
 
-* [Resumen de modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Modificar asignaciones de usuarios para varios problemas de una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -122,7 +122,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
    * (Condicional) Haga clic en uno de los nombres de la **Asignaciones sugeridas** lista
    * Clic **Asignármelo a mí** para asignársela a usted mismo
-   * Clic **Avanzadas**
+   * Clic **Avanzadas**.
 
      Crear asignaciones avanzadas es similar para tareas y problemas. Para obtener información sobre cómo realizar asignaciones avanzadas, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

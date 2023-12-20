@@ -6,9 +6,9 @@ description: La Gestión de Portfolio o Portfolio de Proyectos (PPM) es el proce
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Para obtener más información sobre la creación de un caso empresarial y una s
 
 ### Revisión del proyecto {#project-review}
 
-Después de enviar la solicitud del proyecto, el administrador de Portfolio o un equipo ejecutivo la revisan y deciden si los aprueban o no. Si se aprueban, se seleccionan para un Portfolio de proyecto de la empresa.
+Después de enviar la solicitud del proyecto, el administrador de Portfolio o un equipo ejecutivo la revisan y deciden si aprueban o no el proyecto. Si aprueban el proyecto, se selecciona el proyecto como Portfolio de proyecto de la empresa.
 
 Para obtener más información sobre los portafolios, consulte [Información general del Portfolio en [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Para obtener más información sobre la aprobación de un caso empresarial, consulte [Aprobar un caso comercial](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,7 +67,7 @@ Para obtener más información sobre la optimización del portafolio, consulte [
 
 ### Planificación de recursos {#resource-planning}
 
-Además de optimizar el rendimiento del portafolio y priorizar el proyecto, el gerente de recursos asegura que se asignen los recursos adecuados a los proyectos. Evalúan la disponibilidad y asignación de los recursos mediante las herramientas de gestión de recursos disponibles en [!DNL Workfront].
+Además de optimizar el rendimiento del portafolio y priorizar los proyectos, el Administrador de recursos garantiza que se asignen los recursos adecuados a los proyectos. Evalúan la disponibilidad y asignación de los recursos mediante las herramientas de gestión de recursos disponibles en [!DNL Workfront].
 
 Según la disponibilidad de los recursos, es posible que el administrador de Portfolio tenga que volver a priorizar los proyectos.
 
@@ -75,7 +75,7 @@ Para obtener más información sobre la administración de recursos, consulte la
 
 ### Ejecución de proyecto {#project-execution}
 
-Después de recibir la aprobación del proyecto del Administrador de Portfolio y la validación de los recursos del Administrador de recursos, como Propietario del proyecto, puede colocar el proyecto en el estado de [!UICONTROL Actual] y los usuarios pueden iniciar el trabajo para completar el proyecto. Se recomienda capturar una línea de base del proyecto en esta fase, para tener un punto de referencia para el proyecto, en su estado original.
+Después de recibir la aprobación del proyecto del Administrador de Portfolio y la validación de los recursos del Administrador de recursos, como Propietario del proyecto, puede colocar el proyecto en el estado de [!UICONTROL Actual] y los usuarios pueden iniciar el trabajo para completar el proyecto. Le recomendamos que capture una línea de base del proyecto en esta fase, para tener un punto de referencia para el proyecto, en su estado original.
 
 Para obtener más información sobre la administración de proyectos en [!DNL Workfront], consulte [Administrar proyectos: índice de artículos](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Para obtener más información sobre la creación de líneas de base en proyectos, consulte [Crear líneas base del proyecto](../../../manage-work/projects/create-projects/create-baselines.md).

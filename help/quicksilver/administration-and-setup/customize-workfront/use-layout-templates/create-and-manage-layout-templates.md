@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Como administrador de Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los siguientes elementos de diseño en Workfront para los usuarios:
+Como administrador de Adobe Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los siguientes elementos de diseño en Workfront para los usuarios:
 
 * Menú principal
 * Panel de navegación izquierdo
 * Área de inicio
 * Vistas, filtros y agrupaciones que se utilizan con listas e informes.
 * Terminología en pantalla
+* Encabezados de proyecto, tarea y problema
 
 Después de crear o modificar una plantilla de diseño, puede asignarla a usuarios individuales, equipos, grupos o funciones de trabajo.
 
@@ -48,13 +49,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
+<p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>:</p> <p>Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso.
+
+Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -69,7 +74,7 @@ Para obtener más información sobre las plantillas de diseño, consulte [Planti
 
 ## Creación o modificación de una plantilla de diseño
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Interfaz** > **Plantillas de diseño**.
 
@@ -92,10 +97,13 @@ Para obtener más información sobre las plantillas de diseño, consulte [Planti
    * [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalización de la terminología de la interfaz de usuario mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
-1. Continúe para probar la plantilla de diseño y ponerla a disposición de los usuarios, tal como se describe en los artículos siguientes:
+1. Continúe probando la plantilla de diseño y poniéndola a disposición de los usuarios, tal como se describe en los artículos siguientes:
 
    * [Prueba de una nueva plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Concesión de acceso administrativo a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-También puede crear una nueva plantilla de diseño copiándola y cambiando la copia. Para obtener más información, consulte [Copiar una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>También puede crear una plantilla de diseño copiándola y cambiando la copia. Para obtener más información, consulte [Copiar una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

@@ -6,9 +6,9 @@ description: Puede crear un informe o una lista en Adobe Workfront utilizando el
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-Puede crear un informe o una lista en Adobe Workfront utilizando el estándar o la interfaz de modo de texto al crear los elementos que conforman el informe o la lista. La interfaz estándar permite hacer referencia a campos y sus atributos que están disponibles en la interfaz de Workfront. Con el modo de texto puede hacer referencia a campos y atributos que pueden no estar disponibles en el modo estándar, pero que están disponibles en la base de datos de Workfront.
+Puede crear un informe o una lista en Adobe Workfront utilizando el estándar o la interfaz de modo de texto al crear los elementos que conforman el informe o la lista.
+
+La interfaz estándar permite hacer referencia a campos y sus atributos que están disponibles en la interfaz de Workfront.
+
+Con el modo de texto puede hacer referencia a campos y atributos que pueden no estar disponibles en el modo estándar, pero que están disponibles en la base de datos de Workfront.
 
 Para obtener más información sobre la creación de informes con el modo de texto, incluidas clases, vídeos y tutoriales, consulte la sección Más información del sitio de Adobe Experience League.
 
@@ -74,9 +78,6 @@ Para obtener una lista completa de todos los campos de los que se puede realizar
 >
 >No todos los campos disponibles a través de la API están disponibles a través de la interfaz de modo de texto. Si utiliza el campo correcto en el código de modo de texto y no muestra los resultados esperados, es posible que el campo solo se pueda registrar a través de la API.
 
-* [Acceso a los elementos de informes y modo de edición de texto](#access-reporting-elements-and-edit-text-mode)
-* [Razones comunes para utilizar el modo Texto](#common-reasons-to-use-text-mode)
-
 ## Acceso a los elementos de informes y modo de edición de texto {#access-reporting-elements-and-edit-text-mode}
 
 El acceso a la interfaz de modo de texto es similar para vistas, agrupaciones y filtros al acceder a ellos desde un informe o una lista.
@@ -95,13 +96,20 @@ Las peticiones de datos personalizadas solo se pueden editar en modo de texto. S
 
 Para obtener información sobre el acceso a la interfaz de modo de texto para las peticiones de datos personalizadas, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## Razones comunes para utilizar el modo Texto {#common-reasons-to-use-text-mode}
+
+Además de crear indicadores personalizados que solo se pueden configurar mediante el modo de texto, le recomendamos que utilice Report Builder para crear sus vistas, filtros y agrupaciones. Sin embargo, hay algunos casos en los que puede utilizar el modo de texto para mejorar los informes y las listas.
+
+Para obtener más información sobre los usos comunes del modo de texto, consulte [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ Para obtener información sobre el acceso a la interfaz de modo de texto para la
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>La primera agrupación del informe tiene un número de grupo de 0. Todas las líneas que hacen referencia a la primera agrupación comienzan con group.0.&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>La segunda agrupación del informe tiene el número de grupo 1. Todas las líneas que hacen referencia a la segunda agrupación comienzan con &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>La tercera agrupación del informe tiene un número de grupo de 2. Todas las líneas que hacen referencia a la tercera agrupación comienzan con &lt;code>group.2&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Solo en el modo de texto puede agregar un número de grupo de 3, para una cuarta agrupación. Todas las líneas que hacen referencia a la cuarta agrupación comienzan con &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->Cuando ajusta manualmente las agrupaciones al ver una lista, Workfront recuerda su preferencia manual hasta que cierre la sesión. Cuando vuelva a iniciar sesión, la lista se mostrará según esta configuración.
->
->Los resultados de una agrupación siempre se muestran expandidos después de acceder a ellos desde un elemento de gráfico.
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Razones comunes para utilizar el modo Texto {#common-reasons-to-use-text-mode}
 
-Además de crear indicadores personalizados que solo se pueden configurar mediante el modo de texto, le recomendamos que utilice Report Builder para crear sus vistas, filtros y agrupaciones. Sin embargo, hay algunos casos en los que puede utilizar el modo de texto para mejorar los informes y las listas.
-
-Para obtener más información sobre los usos comunes del modo de texto, consulte [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
