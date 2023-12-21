@@ -6,9 +6,9 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       El [!UICONTROL **Tarjetas que se agregan**] counter muestra cuántas tarjetas habrá en el tablero. Por ejemplo, si selecciona un proyecto con 100 tareas y problemas, el contador mostrará 100. Si agrega una asignación de usuario y esa persona está asignada a 5 tareas en el proyecto, el contador muestra 5.
 
-   1. (Opcional) Seleccione [!UICONTROL **Incluir trabajo completado**] para incluir tarjetas completadas en el tablero.
+   1. (Opcional) Seleccione [!UICONTROL **Incluir trabajo completado como tarjetas archivadas**] para incluir tareas y problemas completados en el tablero como tarjetas archivadas.
 
       >[!NOTE]
       >
-      >Si esta opción no está seleccionada, cuando las tarjetas en otros estados se marquen como completadas, se &quot;caerán&quot; del tablero y ya no se mostrarán.
+      >De forma predeterminada, las tarjetas archivadas no se muestran en el tablero. Para mostrar las tarjetas archivadas, debe activar una configuración y filtrar el tablero para mostrar las tarjetas archivadas. Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) y [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Si esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero no aparecerán en el tablero. Las tarjetas marcadas posteriormente como completadas permanecen en el tablero de la columna Completar y no se archivan a menos que configure la visita en orden previsto de las tarjetas. Para obtener más información, consulte [Configurar la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Opcional) Haga clic en [!UICONTROL **Uso de filtros avanzados**] para mostrar opciones de filtro adicionales.
 
