@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,44 @@ Estas son algunas de las funciones principales de Maestro:
 * Solucionar el problema de la gestión del trabajo en todas las etapas y para todas las partes interesadas que participan en el proceso de trabajo.
 * Personalice completamente los flujos de trabajo, desde decidir qué tipos de objetos (o tipos de registros) utiliza su organización hasta configurar cómo se vinculan estos objetos entre sí.
 * Enlace a tipos de objetos de otros sistemas, creando un marco coherente para todos sus procesos.
+
+## Funciones disponibles actualmente en Maestro
+
+En la tabla siguiente se ilustran las características principales que estarán disponibles en Maestro y una cronología de su disponibilidad. La lista no incluye todas las funciones.
+
+| Función | Disponible ahora | Disponible próximamente | En investigación |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Creación de espacios de trabajo | ✓ |                                  |                  |
+| Creación de tipos de registros operativos | ✓ |                                  |                  |
+| Creación de taxonomías | ✓ |                                  |                  |
+| Creación de registros y taxonomías individuales con nombre | ✓ |                                  |                  |
+| Crear campos personalizados de registro | ✓ |                                  |                  |
+| Importar tipos de registros y campos mediante un archivo CSV o de Excel | ✓ |                                  |                  |
+| Enlazar registros | ✓ |                                  |                  |
+| Visualización de registros en una tabla | ✓ |                                  |                  |
+| Visualización de registros en una cronología | ✓ |                                  |                  |
+| Filtrar registros | ✓ |                                  |                  |
+| Agrupar registros en la vista de cronología | ✓ |                                  |                  |
+| Agrupar registros en la vista de tabla | ✓ |                                 |                  |
+| Ordenar registros en la vista de tabla | ✓ |                                 |                  |
+| Ordenar registros en la vista de cronología |                               | ✓ |                  |
+| Ordenar agrupaciones en la vista de tabla |                               | ✓ |                  |
+| Ordenar agrupaciones en la vista de cronología |                               | ✓ |                  |
+| Conectar espacios de trabajo |                               | ✓ |                  |
+| Conectar registros y taxonomías de Maestro | ✓ |
+| Buscar registros en la vista de tabla | ✓ |   |
+| Conectar registros de Maestro a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
+| Conectar registros de Maestro a recursos de Adobe Experience Manager | ✓ |                                  |                 |
+| Registrar página de detalles | ✓ |                                  |                  |
+| Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
+| Permisos de Workspace | | ✓ |  |
+| Envío de solicitudes |                               |                                  | ✓ |
+| Informe creativo |                               |                                  | ✓ |
+| Personalizar el color y el icono de un registro | ✓ |                                  |                 |
+| Agregar comentarios a registros | ✓ |                                  |                 |
+| Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
+| Módulos de Maestro para Adobe Workfront Fusion | ✓ |                                  |                 |
+| Copiar y pegar información de un campo a otro | ✓ |                                  |                 |
 
 ## Acceso necesario para utilizar Maestro durante el programa beta cerrado
 
@@ -344,44 +382,6 @@ Para localizar Maestro:
    1. Cree una vista Cronología desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 
    1. Personalice la vista de cronología actualizando Filtros, Agrupaciones o Configuración.
-
-## Funciones disponibles actualmente en Maestro
-
-En la tabla siguiente se ilustran las características principales que estarán disponibles en Maestro y una cronología de su disponibilidad. La lista no incluye todas las funciones.
-
-| Función | Disponible ahora | Disponible próximamente | En investigación |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Creación de espacios de trabajo | ✓ |                                  |                  |
-| Creación de tipos de registros operativos | ✓ |                                  |                  |
-| Creación de taxonomías | ✓ |                                  |                  |
-| Creación de registros y taxonomías individuales con nombre | ✓ |                                  |                  |
-| Crear campos personalizados de registro | ✓ |                                  |                  |
-| Importar tipos de registros y campos mediante un archivo CSV o de Excel | ✓ |                                  |                  |
-| Enlazar registros | ✓ |                                  |                  |
-| Visualización de registros en una tabla | ✓ |                                  |                  |
-| Visualización de registros en una cronología | ✓ |                                  |                  |
-| Filtrar registros | ✓ |                                  |                  |
-| Agrupar registros en la vista de cronología | ✓ |                                  |                  |
-| Agrupar registros en la vista de tabla | ✓ |                                 |                  |
-| Ordenar registros en la vista de tabla | ✓ |                                 |                  |
-| Ordenar registros en la vista de cronología |                               | ✓ |                  |
-| Ordenar agrupaciones en la vista de tabla |                               | ✓ |                  |
-| Ordenar agrupaciones en la vista de cronología |                               | ✓ |                  |
-| Conectar espacios de trabajo |                               | ✓ |                  |
-| Conectar registros y taxonomías de Maestro | ✓ |
-| Buscar registros en la vista de tabla | ✓ |   |
-| Conectar registros de Maestro a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
-| Conectar registros de Maestro a recursos, carpetas y colecciones de Adobe Experience Manager | ✓ |                                  |                 |
-| Registrar página de detalles | ✓ |                                  |                  |
-| Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
-| Permisos de Workspace | | ✓ |  |
-| Envío de solicitudes |                               |                                  | ✓ |
-| Informe creativo |                               |                                  | ✓ |
-| Personalizar el color y el icono de un registro | ✓ |                                  |                 |
-| Agregar comentarios a registros |                               | ✓ |                 |
-| Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
-
-
 
 ## Actividad de versión de Maestro
 

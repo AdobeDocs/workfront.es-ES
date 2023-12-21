@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. En el **Tipo de registro** , seleccione una de las siguientes opciones: <!--is the field name spelled right? lowercase "t"?-->
+1. En el **Tipo de registro** , busque un tipo de registro o seleccione una de las siguientes opciones: <!--is the field name spelled right? lowercase "t"?-->
 
    * Otro tipo de registro operativo o una taxonomía del espacio de trabajo seleccionado
 

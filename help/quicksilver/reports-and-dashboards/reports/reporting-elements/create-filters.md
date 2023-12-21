@@ -6,7 +6,7 @@ description: Puede limitar la cantidad de información que se muestra en pantall
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Tenga en cuenta lo siguiente al crear filtros con las diferentes interfaces:
   >
   >1. Utilice el generador estándar para crear un filtro que tenga la siguiente sintaxis:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Cambie al generador heredado y edite el filtro con la sintaxis del generador heredado como se describe en la sección [Crear o editar un filtro en el generador heredado](#create-filter-in-legacy-builder) de este artículo. La sintaxis del generador heredado muestra las instrucciones de filtro de la siguiente manera:
+  >1. Cambie al generador heredado y edite el filtro mediante la sintaxis del generador heredado como se describe en la sección [Crear o editar un filtro en el generador heredado](#create-filter-in-legacy-builder) en este artículo. La sintaxis del generador heredado muestra las instrucciones de filtro de la siguiente manera:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Realice un cambio en el filtro de la interfaz heredada.
   >1. Vuelva al generador estándar. La instrucción de filtro se muestra según la lógica admitida en el generador heredado, tal como se ha descrito anteriormente.
   >
-  >   El filtro se muestra en la interfaz del generador estándar de la siguiente manera:
+  >      El filtro se muestra en la interfaz del generador estándar de la siguiente manera:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Esto sucede porque el filtro se modificó en la interfaz heredada.
+  >      Esto sucede porque el filtro se modificó en la interfaz heredada.
 
 ## Creación o edición de un filtro en el generador estándar
 

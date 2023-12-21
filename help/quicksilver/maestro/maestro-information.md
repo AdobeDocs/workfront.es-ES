@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ Acceda a los siguientes artículos para obtener una descripción general de Adob
 * [Vea un vídeo de demostración de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Introducción a Adobe Maestro](maestro-overview.md): Información general de alto nivel sobre Adobe Maestro, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Maestro aquí.
 * [Actividad de versión de Adobe Maestro](../maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
+* [Módulos de Adobe Maestro para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Arquitectura y funcionalidad de Maestro
 

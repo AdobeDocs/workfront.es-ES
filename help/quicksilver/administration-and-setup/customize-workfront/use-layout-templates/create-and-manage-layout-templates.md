@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Para obtener información sobre cómo un administrador de Workfront puede modifi
 ## Consideraciones para crear y administrar plantillas de diseño
 
 * Los usuarios pueden personalizar algunas áreas de su propio diseño. Al cambiar una plantilla de diseño, los cambios se combinan con las personalizaciones que hayan realizado, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño.
-* Las plantillas de diseño más antiguas creadas en Adobe Workfront Classic han estado disponibles automáticamente en la nueva experiencia de Adobe Workfront desde que se migraron a principios de otoño de 2019. Las plantillas de diseño creadas en Adobe Workfront Classic después de ese tiempo se migraron en abril de 2020. Le recomendamos que actualice estas plantillas de diseño en la nueva experiencia de Adobe Workfront para aprovechar las nuevas funcionalidades y hacerlas aún más útiles en ese entorno.
 * Los administradores de grupos y los usuarios con una licencia de planificación que puedan editar a otros usuarios pueden añadir plantillas de diseño de nivel de sistema y de grupo a los usuarios que pueden gestionar al editar su perfil.
 * Los administradores de grupo no pueden asignar plantillas de diseño a roles o equipos de trabajo.
 
 Para obtener más información sobre las plantillas de diseño, consulte [Plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## Creación o modificación de una plantilla de diseño
 
