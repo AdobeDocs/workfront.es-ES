@@ -6,20 +6,18 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Realización de asignaciones inteligentes
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo. Las asignaciones inteligentes son sugerencias para los usuarios que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Para obtener información sobre las asignaciones inteligentes, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 Las asignaciones inteligentes están disponibles en la mayoría de las ubicaciones donde puede realizar asignaciones en Workfront.
 
-1. Vaya a y, a continuación, haga clic en **Asignaciones** o **Asignar esto a** campo:   
+1. Vaya a y, a continuación, haga clic en **Asignaciones** o **Asignar esto a** campo:
 
    * Una lista de tareas o problemas o un informe
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
    * El campo Asignaciones de un elemento enumerado en el área de Inicio
-   * Una tarea o un problema en las áreas Programación o Programación
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
-1. Coloque el cursor en el campo de asignación y espere dos segundos. El **Asignaciones sugeridas** o el **Estas son algunas recomendaciones** se muestra la lista.
+1. Coloque el cursor en el campo de asignación y espere dos segundos.
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">El **Asignaciones sugeridas** se muestra la lista.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   Se muestra el encabezado de la lista **Estas son algunas recomendaciones** en lugar de **Asignaciones sugeridas** en una lista de problemas.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
 
    Para obtener más información sobre dónde se muestran las asignaciones inteligentes, consulte la sección &quot;Localizar sugerencias de asignaciones inteligentes&quot; en el artículo [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Seleccione el usuario en la lista de recomendaciones haciendo clic en su nombre. Clic **Asignármelo a mí** asigna el elemento de trabajo a sí mismo.
+1. Seleccione el usuario en la lista de recomendaciones haciendo clic en su nombre.
+
+1. (Opcional) Haga clic en **Asignármelo a mí** para asignarse el elemento de trabajo.
 
    >[!TIP]
    >

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ La experiencia de comentarios de los registros de Maestro coincide con la nueva 
 
 Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Conector Maestro (beta) para Adobe Workfront Fusion
+
+Previsualización y producción: 21 de diciembre de 2023
+
+Ahora puede utilizar Adobe Workfront Fusion para conectarse a Maestro. Con la nueva conexión de Adobe Maestro Fusion, puede:
+
+* Crear, leer, actualizar y eliminar registros
+
+* Obtener una lista de registros por tipo de registro
+
+* Eliminar u obtener una lista de tipos de registros
+
+* Buscar registros
+
+* Realizar una llamada de API
+
+* Déclencheur de un escenario cuando se realiza un cambio en Maestro
+
+Para obtener más información, consulte [Módulos de Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Semana del 11 de diciembre de 2023
 
 ### Actualizar el campo principal en una vista de tabla de un tipo de registro
@@ -126,7 +146,7 @@ Para obtener más información, consulte [Administrar vista de tabla](/help/quic
 
 Versión de vista previa: 14 de diciembre de 2023
 
-Versión de producción: planificada para el 15 de diciembre de 2023
+Versión de producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
@@ -178,7 +198,7 @@ Para obtener información sobre los campos vinculados, consulte [Conectar tipos 
 
 ### Copiar y pegar información de un campo a otro en la vista de tabla de Maestro
 
-Vista previa y producción: 28 de noviembre de 2023
+Previsualización y producción: 28 de noviembre de 2023
 
 Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro Maestro.
 
@@ -212,7 +232,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](../maes
 
 ### Nuevos tipos de campos para campos de usuario y fecha para capturar quién creó o modificó por última vez un registro o en qué fecha
 
-Vista previa y producción: 30 de octubre de 2023
+Previsualización y producción: 30 de octubre de 2023
 
 Hemos introducido los siguientes tipos de campos para los registros de Maestro:
 
@@ -230,7 +250,7 @@ Para obtener más información, consulte [Creación de campos](../maestro/fields
 
 ### Desplazarse a objetos de Workfront desde un registro de Maestro
 
-Vista previa y producción: 31 de octubre de 2023
+Previsualización y producción: 31 de octubre de 2023
 
 Ahora puede abrir las páginas de objetos de Workfront desde las áreas siguientes de Maestro:
 
@@ -260,20 +280,20 @@ Para obtener más información, consulte [Creación de registros](../maestro/rec
 
 ### Nuevo tipo de campo Personas
 
-Vista previa y producción: 16 de octubre de 2023
+Previsualización y producción: 16 de octubre de 2023
 
 Ahora puede agregar un campo de tipo Personas a los tipos de registros de Maestro. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
 
 ### Texto enriquecido: formato para campos de párrafo
 
-Vista previa y producción: 16 de octubre de 2023
+Previsualización y producción: 16 de octubre de 2023
 
 Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página Detalles de un registro. Para obtener más información, consulte [Edición de registros](../maestro/records/edit-records.md).
 
 
 ### Registrar y agrupar códigos de color para la vista Cronología
 
-Vista previa y producción: 19 de octubre de 2023
+Previsualización y producción: 19 de octubre de 2023
 
 Ahora puede codificar con colores las barras de registro y las agrupaciones en la vista Línea de tiempo.
 
@@ -303,7 +323,7 @@ Para obtener más información, consulte [Administrar la vista de cronología](.
 
 ### Buscar en la vista de tabla
 
-Vista previa y producción: 9 de octubre de 2023
+Previsualización y producción: 9 de octubre de 2023
 
 Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales en cualquier campo visible en la pantalla para encontrar un registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
@@ -311,7 +331,7 @@ Ahora puede buscar una palabra clave para encontrar rápidamente un registro en 
 
 ### Reordenar filas
 
-Vista previa y producción: 20 de septiembre de 2023
+Previsualización y producción: 20 de septiembre de 2023
 
 Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
@@ -319,7 +339,7 @@ Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una 
 
 ### Conectar registros de Maestro con empresas y grupos de Workfront
 
-Vista previa y producción: 5 de septiembre de 2023
+Previsualización y producción: 5 de septiembre de 2023
 
 Ahora puede conectar un registro de Maestro con empresas y grupos de Workfront. Primero debe crear una conexión entre un tipo de registro de Maestro y los tipos de objetos de empresas y grupos de Workfront. A continuación, puede conectar un único registro Maestro del tipo de registro seleccionado a empresas y grupos individuales de Workfront.
 
