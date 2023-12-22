@@ -3,9 +3,10 @@ title: Mejoras en el hogar del primer trimestre de 2024
 description: Mejoras en el hogar del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c2b804741300fcf4cf3f85a73ed1dac0a9d9a40
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,14 @@ ht-degree: 0%
 Esta página describe todas las mejoras realizadas en el hogar con la versión del primer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del primer trimestre de 2024.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2024, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Controles de administrador para el nuevo Inicio mediante plantillas de diseño
+
+Los administradores ahora pueden personalizar la nueva página de inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para elegir los filtros y grupos disponibles (y establecer los valores predeterminados).
+
+Tenga en cuenta que las opciones de la plantilla de diseño de administrador anulan la personalización de los usuarios individuales; es decir, cuando se guardan los cambios en una plantilla de diseño, se cambiará la nueva página de inicio de los usuarios para que coincida con la plantilla de diseño y las selecciones de widgets existentes se insertarán en la parte inferior de la página. Aunque el usuario puede cambiar la posición de los widgets seleccionados por el administrador, no se pueden eliminar.
+
+Para obtener más información, consulte [Personalizar una nueva página de inicio con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## Los botones de acción rápida Mi trabajo se han cambiado para que solo se muestren al pasar el ratón
 

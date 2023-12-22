@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
        <ul>
         <li>Fecha planificada de finalización</li>
         <li>Fecha de confirmación</li>
-        <li><p>Fecha de envío</p></li>
+        <li>Fecha de envío</li>
        </ul><p><b>NOTA</b>: cuando esta opción está habilitada, los elementos de trabajo que vencen se mueven a la agrupación Retrasado en la Lista de trabajoss en Inicio solo en función de la fecha, no de la hora.</p></td> 
      </tr> 
     </tbody> 

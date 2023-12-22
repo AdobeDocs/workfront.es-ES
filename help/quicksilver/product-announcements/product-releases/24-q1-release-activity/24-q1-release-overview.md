@@ -4,9 +4,9 @@ description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Mejoras de tableros
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Los tableros dinámicos archivan las tarjetas completadas cuando se crea el tablero</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Al crear un tablero dinámico, tiene la opción de incluir las tareas y los problemas completados en el tablero. Para los proyectos con un gran número de tareas y problemas completados, el tablero dinámico puede tener problemas de rendimiento. Ahora, cuando crea un tablero dinámico y elige incluir el trabajo completado, las tareas y los problemas se incluyen en el tablero como tarjetas archivadas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 21 de diciembre de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 21 de diciembre de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para el nuevo Inicio mediante plantillas de diseño</a></p><p>Los administradores ahora pueden personalizar la nueva página de inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para elegir los filtros y grupos disponibles (y establecer los valores predeterminados).</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 21 de diciembre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.1</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se han cambiado para que solo se muestren al pasar el ratón</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -228,6 +280,44 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                             </li>
                             <li>
                                 <p><span class="preview">Producción para todos los clientes: 9 de noviembre de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Mejoras del proyecto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes controladas por IA</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en cualquier lugar de Workfront donde asigne una tarea (listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen).</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 21 de diciembre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.1</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.1</p>
                             </li>
                         </ul>
                     </td>
