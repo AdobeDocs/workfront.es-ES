@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,20 @@ Para administrar una vista de cronología:
    Clic **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 
    Los registros se muestran en la vista Compacta de forma predeterminada.
+
+1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
+
+   1. Haga clic en **Buscar** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
+
+      No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
+
+   1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
+   1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
+   1. Haga clic en el icono X del cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)

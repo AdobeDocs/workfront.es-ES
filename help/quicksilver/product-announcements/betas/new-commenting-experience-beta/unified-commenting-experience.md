@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -502,9 +502,12 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
 
 ## Cronología de versiones
 
-Para obtener información sobre las funciones incluidas en la nueva experiencia de comentarios durante el periodo de tiempo de la versión beta, consulte [Nueva actividad de comentario en la versión de la experiencia beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>Para obtener información sobre las funciones incluidas en la nueva experiencia de comentarios durante el periodo de tiempo de la versión beta, consulte [Nueva actividad de comentario en la versión de la experiencia beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para obtener más información sobre la administración de actualizaciones para objetos de Workfront, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 A continuación se muestra una cronología planificada con hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguiremos mejorando la experiencia de los comentarios con mejoras menores.
 

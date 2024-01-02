@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Agrupación: editar el nombre para mostrar en una agrupación"
-description: Puede cambiar el nombre de las agrupaciones por otro más familiar para los usuarios.
-author: Lisa and Nolan
+description: Puede cambiar el nombre de las agrupaciones en listas e informes por otro más familiar para los usuarios.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # Grouping: editar el nombre para mostrar en una agrupación
+
+<!--Audited: 01/2024-->
 
 Puede cambiar el nombre de las agrupaciones por otro más familiar para los usuarios.
 
@@ -40,8 +42,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar una agrupación </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td>
+
+<p>Nuevo: </p>
+   <ul>
+   <li> <p>Colaborador para modificar una agrupación </p></li>
+   <li><p>Estándar para modificar un informe</p></li></ul>
+
+<p> Actual:</p>
+   <ul>  
+   <li><p>Solicitud para modificar una agrupación </p></li>
+   <li><p>Plan para modificar un informe</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -65,47 +76,36 @@ Para cambiar el nombre para mostrar en una agrupación de proyectos:
 1. Ir a una lista de proyectos.
 1. Desde el **Agrupación** menú desplegable, seleccione **Nueva agrupación**.
 
-1. Clic **Agregar agrupación** y empiece a escribir &quot;Nombre de Portfolio&quot; en **Primero por:** y, a continuación, selecciónelo cuando se muestre en la lista.
+1. Clic **Agregar agrupación** y empiece a escribir &quot;Nombre de Portfolio&quot; en **Primero por:** y, a continuación, selecciónelo cuando se muestre en la lista.
 
 1. Clic **Cambiar a modo de texto**.
-1. Realizado una de las siguientes acciones:
+1. Realice una de las siguientes acciones:
 
    * Agregue el código siguiente al texto existente disponible en la **Agrupar el informe** cuadro:
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      O, en este caso:
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     O, en este caso:
+
+     `group.0.displayname=Portfolio`
 
    * Elimine todas las líneas de la interfaz de modo de texto de la agrupación que tengan la palabra &quot;name&quot; y, a continuación, añada la línea:
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      O, en este caso:
+     O, en este caso:
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      También puede dejar el
+     >[!TIP]
+     >
+     >También puede dejar el `group.0.name=` y el `group.0.displayname=` líneas en blanco, en cuyo caso la agrupación muestra el valor por el que está agrupando.
 
-      ```
-      group.0.name
-      ```
 
-      línea en blanco, en cuyo caso la agrupación muestra el nombre del valor por el que está agrupando.
-
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Clic **Listo**, entonces **Guardar agrupación**.
+
+   El nombre predeterminado de la agrupación se modifica según la información del modo de texto.

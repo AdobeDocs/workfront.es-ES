@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -197,15 +197,15 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en **búsqueda** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
+   1. Haga clic en **Buscar** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
       No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
 
-      Al pulsar Intro en el teclado, accederá al siguiente campo encontrado.
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
 
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
 

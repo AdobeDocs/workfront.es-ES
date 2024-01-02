@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Semana del 18 de diciembre de 2024
+## Semana del 25 de diciembre de 2023
+
+### Buscar en la vista de cronología
+
+Previsualización y producción: 27 de diciembre de 2023
+
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de escala de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de cronología](../maestro/views/manage-the-timeline-view.md).
+
+## Semana del 18 de diciembre de 2023
 
 ### Agregar comentarios a los registros desde la página Detalles
 
@@ -331,7 +339,7 @@ Para obtener más información, consulte [Administrar la vista de cronología](.
 
 Previsualización y producción: 9 de octubre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales en cualquier campo visible en la pantalla para encontrar un registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
 ## Semana del 18 de septiembre de 2023
 
