@@ -4,9 +4,9 @@ description: Mejoras en la administración de documentos del primer trimestre de
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 ## Estados actualizados para aprobaciones de documentos
 
+>[!NOTE]
+>
+>Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.
+
 Para que el estado de aprobación del documento sea más claro, hemos actualizado las aprobaciones de estado de documento disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.
 
 Para obtener más información sobre los estados disponibles específicos, consulte [Estado de aprobación del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## El estado de revisión y aprobación del documento se muestra en el encabezado del documento
 
+>[!NOTE]
+>
+>Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.
+
 Para que el proceso de revisión y aprobación sea más transparente, hemos agregado el estado al encabezado de la página Detalles del documento. Ahora, puede ver de un vistazo la decisión de aprobación tomada sobre el documento o si el documento aún está en revisión.
 
 Para obtener información sobre estados específicos, consulte [Estado de aprobación del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Marcar una revisión como completada
+
+>[!NOTE]
+>
+>Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.
 
 Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo **Completar mi revisión** botón. Ahora, cuando un usuario configurado como revisor ha revisado un documento, puede hacer clic en **Completar mi revisión** para registrar en Workfront que la revisión se ha completado.
 
