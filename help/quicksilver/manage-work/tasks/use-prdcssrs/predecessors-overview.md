@@ -7,9 +7,9 @@ description: Una predecesora es la tarea de la que depende otra tarea (denominad
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Para comprender las relaciones de predecesoras, debe comprender lo siguiente:
 
 * **Desfases:** Puede crear retardos en las dependencias que crean un retraso que debe producirse después de la finalización de una tarea predecesora y antes de que pueda comenzar la tarea sucesora. Los retrasos afectan a la cronología del proyecto.
 
-  Para comprender los tipos de retardo, consulte [Información general sobre los tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Para comprender los tipos de retardo, consulte [Resumen de tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Crear relaciones de predecesoras
 

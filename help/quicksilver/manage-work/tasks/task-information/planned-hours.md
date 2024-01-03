@@ -7,14 +7,16 @@ description: Las horas planificadas asociadas con una tarea, un problema o un pr
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # Resumen de horas planificadas
+
+<!-- Audited: 01/2024 -->
 
 Las horas planificadas asociadas con una tarea, un problema o un proyecto representan la cantidad de tiempo necesario para que los usuarios asignados completen la tarea, el problema o el proyecto.
 
@@ -30,16 +32,13 @@ Las horas planificadas asociadas con una tarea, un problema o un proyecto repres
 
 * Puede modificar el valor de Horas planificadas en problemas en cualquier momento.
 * No puede modificar el valor de Horas planificadas de proyectos o de tareas principales, ya que son un total calculado de todas las horas planificadas de todas sus tareas y subtareas.
-* La administración de asignaciones de usuarios mediante herramientas de administración de recursos puede cambiar el número de horas planificadas de tareas, problemas, proyectos y el de asignaciones asociadas con elementos de trabajo.
+* La administración de asignaciones de usuarios mediante herramientas de administración de recursos puede cambiar el número de horas planificadas de tareas, problemas y proyectos, así como el de asignaciones asociadas con elementos de trabajo.
 
 ## Horas planificadas en tareas vs. Horas planificadas en proyectos {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
 Horas planificadas a partir de las tareas acumuladas hasta las horas planificadas del proyecto. Las horas planificadas de los problemas no siempre se acumulan en las horas planificadas del proyecto.
 
 En esta sección se describen las diferencias entre las horas planificadas para la tarea y el proyecto. También describe dónde puede ver las horas planificadas de problemas que se acumulan en el proyecto.
-
-* [Horas planificadas para las tareas](#planned-hours-on-tasks)
-* [Horas planificadas en los proyectos](#planned-hours-on-projects)
 
 ### Horas planificadas para las tareas {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ Por ejemplo, si una tarea está configurada para iniciarse a las 16:00 y a la pr
 
 ## Localizar y comprender los valores de horas planificadas
 
-Puede encontrar los valores de Horas planificadas en varias áreas de Workfront. 
+Puede encontrar los valores de Horas planificadas en varias áreas de Workfront.
 
 El número de horas planificadas que se muestran se origina a partir de los elementos de trabajo del proyecto o se calcula de forma diferente en función del área y del objeto en el que se visualizan.
 
@@ -90,19 +89,19 @@ Puede localizar Horas planificadas en las siguientes áreas de Workfront:
 * [Distribuidor de cargas de trabajo](#the-workload-balancer)
 * [El Planificador de recursos](#the-resource-planner)
 * [El informe Utilización](#the-utilization-report)
-* [El panel Asignación de funciones](#The%C2%A0Role)
+* [El panel Asignación de funciones](#the-role-allocation-panel)
 
 ### La sección Detalles de un proyecto, tarea o problema {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![Horas planificadas en la sección Detalles](assets/planned-hours-on-details-for-project.png)
 
-Las horas planificadas en la sección Detalles de una tarea, problema o proyecto son las horas planificadas totales asociadas con el elemento correspondiente.
+Las horas planificadas en la sección Detalles de una tarea, problema o proyecto son las horas planificadas totales asociadas con el artículo.
 
 Para obtener más información sobre las horas planificadas para el proyecto, consulte la [Horas planificadas en tareas vs. Horas planificadas en proyectos](#planned-hours-on-tasks-vs-planned-hours-on-projects) de este artículo.
 
 ### El cuadro Editar tarea o Editar problema {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![Cuadro Editar tarea](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Las horas planificadas en el cuadro de diálogo Editar de una tarea o problema son las horas planificadas totales del elemento correspondiente.
 
@@ -114,7 +113,7 @@ Puede ver la asignación individual de horas planificadas para cada usuario o ro
 
 ### Informes {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![Horas planificadas en el informe](assets/planned-hours-on-task-report.png)
 
 Puede agregar el campo Horas planificadas en los informes de proyecto, tarea y problema.
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### Distribuidor de cargas de trabajo {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![Horas planificadas en el Distribuidor de cargas de trabajo](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 Las siguientes horas planificadas para tareas, problemas y proyectos se muestran en el Distribuidor de cargas de trabajo a la derecha del nombre de la tarea, el problema o el proyecto:
 
@@ -163,13 +162,13 @@ Puede ver la asignación diaria de horas planificadas de cada usuario asignado a
 La cantidad diaria de horas planificadas representa una de las siguientes opciones: 
 
 * la cantidad predeterminada distribuida equitativamente por Workfront para cada día de duración de las tareas, problemas o el proyecto
-* la asignación diaria ajustada administrada por los administradores de recursos.
+* la asignación diaria ajustada administrada por los administradores de recursos
 
   Para obtener información sobre el ajuste de asignaciones diarias en el Distribuidor de cargas de trabajo, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### El Planificador de recursos {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![Horas planificadas en el planificador de recursos](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
 El Planificador de recursos muestra las horas planificadas para proyectos, tareas y problemas.
 
@@ -184,7 +183,7 @@ El número de horas planificadas para cada objeto difiere según la vista que ap
 La cantidad semanal de horas planificadas para tareas y problemas representa una de las siguientes opciones:
 
 * la cantidad semanal predeterminada distribuida equitativamente por Workfront para cada día de la duración de las tareas o problemas
-* la asignación semanal ajustada administrada por los administradores de recursos en el Distribuidor de cargas de trabajo.
+* la asignación semanal ajustada administrada por los administradores de recursos en el Distribuidor de cargas de trabajo
 
   Para obtener información sobre el ajuste de asignaciones diarias en el Distribuidor de cargas de trabajo, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -252,19 +251,16 @@ Cuando se actualizan manualmente las asignaciones de funciones de usuario o trab
 
 * Cuando no haya actualizado manualmente las asignaciones de usuarios o roles individuales para almacenar en déclencheur un cambio en las horas planificadas de la tarea, las horas planificadas permanecen sin cambios al agregar, quitar o reemplazar asignaciones en la tarea. Al agregar una nueva asignación a la tarea, las asignaciones individuales se redistribuyen entre todas las personas asignadas.
 * Cuando haya actualizado manualmente las asignaciones para almacenar en déclencheur un cambio en las horas planificadas de la tarea, las horas planificadas se reducen al eliminar las asignaciones de la tarea. No cambian al reemplazar una asignación.
-* Cuando haya actualizado manualmente las asignaciones para almacenar en déclencheur un cambio en las horas planificadas de la tarea y agregue una asignación a la tarea, la nueva asignación se asignará 0 horas de forma predeterminada. Debe actualizar manualmente su asignación a la tarea que pueda afectar a las horas planificadas.
+* Cuando haya actualizado manualmente las asignaciones para almacenar en déclencheur un cambio en las horas planificadas de la tarea y agregue una asignación a la tarea, la nueva asignación se asignará 0 horas de forma predeterminada. Debe actualizar manualmente su asignación a la tarea, lo que podría afectar a las horas planificadas.
 * Cuando no haya actualizado manualmente las asignaciones para almacenar en déclencheur un cambio en las horas planificadas de la tarea y elimine todas las asignaciones de la tarea, las horas planificadas permanecerán sin cambios.
 * Cuando haya actualizado manualmente las asignaciones para almacenar en déclencheur un cambio en las horas planificadas de la tarea y elimine todas las asignaciones de la tarea, las horas planificadas también se eliminarán y las horas planificadas de la tarea pasarán a ser 0.
 
 >[!NOTE]
 >
-Por ejemplo, si una tarea tiene 10 horas planificadas y tiene dos personas asignadas, cada una de ellas tiene asignadas 5 horas de forma predeterminada.
+Por ejemplo, si una tarea tiene 10 horas planificadas y tiene dos personas asignadas, de forma predeterminada se les asignan 5 horas a cada una.
 >
 * Si no actualiza la asignación de un usuario individual o las asignaciones diarias mediante el Distribuidor de cargas de trabajo y elimina a alguno o a todos los usuarios asignados de la tarea, las horas planificadas de la tarea permanecen en 10 horas.
-* Si cambia manualmente las asignaciones de las asignaciones a 4 y 6 horas, respectivamente, y elimina el usuario asignado a 6 horas, así como su rol, las horas planificadas de la tarea se actualizan a 4 horas. Si también elimina el usuario que tiene asignado cuatro horas pero mantiene la función asociada al usuario eliminado, las horas planificadas de la tarea permanecen cuatro horas. Si elimina el último usuario asignado a 4 horas, así como su rol y la tarea permanece sin asignar, las horas planificadas de la tarea pasan a ser 0.
-
-
-
+* Si cambia manualmente las asignaciones de las asignaciones a 4 y 6 horas, respectivamente, y elimina el usuario asignado a 6 horas, así como su rol, las horas planificadas de la tarea se actualizan a 4 horas. Si también elimina el usuario que tiene asignado cuatro horas pero mantiene la función asociada al usuario eliminado, las horas planificadas de la tarea permanecen cuatro horas. Si elimina el último usuario asignado a 4 horas, así como su función de trabajo, y la tarea permanece sin asignar, las horas planificadas de la tarea pasarán a ser 0.
 
 ## Actualizar horas planificadas para la tarea automáticamente mediante esfuerzo de trabajo
 

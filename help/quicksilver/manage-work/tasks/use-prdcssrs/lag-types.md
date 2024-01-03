@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Información general sobre los tipos de retardo
+title: Resumen de tipos de retardo
 description: Retardo es la cantidad de tiempo que debe transcurrir después de la finalización de un predecesor forzado hasta que puede comenzar la tarea dependiente (Retardo positivo) o la cantidad de tiempo que una tarea dependiente puede comenzar antes de que se inicie el predecesor (Retardo negativo).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Información general sobre los tipos de retardo
+# Resumen de tipos de retardo
+
+<!-- Audited: 01/2024 -->
 
 Retardo es la cantidad de tiempo que debe transcurrir después de la finalización planificada de un predecesor hasta que puede comenzar la tarea dependiente (Retardo positivo) o la cantidad de tiempo que una tarea dependiente puede iniciarse antes de que se inicie el predecesor (Retardo negativo).
 
@@ -64,7 +66,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -72,7 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para las tareas y el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para las tareas y el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Indicar tipos de retardo y retardo en las tareas
 
 Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de predecesoras.
-
-* [Indicar tipos de retardo en la sección Predecesoras de una tarea](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Indicar tipos de retardo en una lista de tareas](#indicate-lag-types-in-a-task-list)
 
 ### Indicar tipos de retardo en la sección Predecesoras de una tarea {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -106,13 +107,13 @@ Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de pre
    * **Día de la semana**
    * **Día de la semana (distinto de cero)**
 
-     Para obtener más información sobre estos tipos de retardo y cómo se calculan, consulte la sección [Resumen de tipos de retardo](#lag-types-overview) en este artículo.
+     Para obtener más información sobre estos tipos de retardo y cómo se calculan, consulte la sección [Tipos de retardo](#lag-types) en este artículo.
 
 1. Haga clic en **Guardar**.
 
 ### Indicar tipos de retardo en una lista de tareas  {#indicate-lag-types-in-a-task-list}
 
-1. Vaya a una lista de tareas y seleccione. **Standard** Vista desde el **Ver** menú desplegable.
+1. Vaya a una lista de tareas y seleccione. **Standard** vista.
 
 1. Haga clic dentro de **Predecesoras** columna correspondiente a la tarea para la que desea especificar un predecesor y una cantidad de posposición.
 1. Introduzca lo siguiente sin espacios:
@@ -125,15 +126,15 @@ Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de pre
    * ya sea una **+** para un retardo positivo o un **-** para un retardo negativo
 
    * el importe del retardo
-   * Utilice la abreviatura del tipo de retardo que desee utilizar.
+   * la abreviatura del tipo de retardo que desee utilizar
 
-     Para obtener más información sobre las abreviaturas para los tipos de retardo, consulte la sección [Resumen de tipos de retardo](#lag-types-overview) en este artículo.
+     Para obtener más información sobre las abreviaturas para los tipos de retardo, consulte la sección [Tipos de retardo](#lag-types) en este artículo.
 
-   Por ejemplo, para indicar que una tarea tiene una tarea predecesora y un retraso positivo de 2 días, debe introducir  `1fs+2d` en la columna Predecesoras.
+   Por ejemplo, para indicar que una tarea tiene una tarea predecesora y un retraso positivo de 2 días, debe introducir `1fs+2d` en la columna Predecesoras.
 
-1. Haga clic en Enter en el teclado para guardar los cambios realizados en la tarea.
+1. Pulse Enter en el teclado para guardar los cambios en la tarea.
 
-## Resumen de tipos de retardo {#lag-types-overview}
+## Tipos de retardo {#lag-types}
 
 Un ejemplo de una tarea que requeriría un tiempo de retardo podría ser la sierra de árboles en la madera. Si la madera recién cortada debe secarse durante un tiempo antes de poder cortarla, entonces habría un tiempo de retardo entre cortar los árboles y serrarlos en madera.
 
@@ -159,7 +160,7 @@ La siguiente tabla ilustra los tipos de retardo y cómo indicar la cantidad de t
   </tr> 
   <tr> 
    <td> <p>Porcentaje (p o pe)</p> </td> 
-   <td> <p>El retraso se expresa como un porcentaje del tiempo estimado para completar la tarea predecesora. </p> <p>Por ejemplo, si hay una dependencia de fin a comienzo con un retraso del 20% en una tarea predecesora de 10 días, el sistema calculará cuántos días representan el 20% de la duración de la tarea predecesora y los usará como posposición. En este caso, serían 2 días después de la finalización de la tarea. </p>
+   <td> <p>El retraso se expresa como un porcentaje del tiempo estimado para completar la tarea predecesora. </p> <p>Por ejemplo, si hay una dependencia de fin a comienzo con un retraso del 20% en una tarea predecesora de 10 días, el sistema calculará cuántos días representan el 20% de la duración de la tarea del predecesor y los usará como posposición. En este caso, serían 2 días después de la finalización de la tarea. </p>
 
 <p><b>NOTA</b></p> El límite de retardo máximo para el porcentaje es de 2000 %.</p> </td> 
   </tr> 
@@ -193,13 +194,13 @@ Si se calcula que la fecha de inicio de la tarea sucesora es un martes determina
  </tbody> 
 </table>
 
-## Introducción al retardo negativo
+## Retardo negativo
 
 Puede utilizar un retardo negativo para indicar la necesidad o la capacidad de que la tarea comience antes de que finalice la tarea predecesora.
 
 Tenga en cuenta las siguientes reglas cuando utilice retardos negativos:
 
-* Un retardo negativo no puede obligar a que las fechas de comienzo o fin de una tarea sean anteriores o posteriores a las fechas de comienzo o fin planeadas del proyecto. Estas fechas se especifican en el campo Programar desde del proyecto.
+* Un retardo negativo no puede forzar que las fechas de comienzo o fin de una tarea sean anteriores o posteriores a las fechas de comienzo o fin planeadas del proyecto. Estas fechas se especifican en el campo Programar desde del proyecto.
 
   En este caso, tenga en cuenta lo siguiente:
 

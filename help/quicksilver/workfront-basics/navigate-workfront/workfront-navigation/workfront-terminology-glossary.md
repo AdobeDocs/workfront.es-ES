@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] El glosario enumera los términos más ut
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '19897'
+source-wordcount: '19889'
 ht-degree: 0%
 
 ---
@@ -1141,7 +1141,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
      <li>[!UICONTROL Días del calendario] (omitir festivos)</li> 
      <li>[!UICONTROL Porcentaje]</li> 
      <li>[!UICONTROL Día de la semana]</li> 
-    </ul> <p>Para obtener más información, consulte la sección "[!UICONTROL Lag Types overview]" en <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Información general sobre los tipos de retardo</a></p> </td> 
+    </ul> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Resumen de tipos de retardo</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Miniatura grande]</td> 

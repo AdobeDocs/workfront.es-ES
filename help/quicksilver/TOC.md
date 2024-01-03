@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 1%
 
 ---
@@ -1351,7 +1351,7 @@ ht-degree: 1%
          * [Crear predecesoras entre proyectos](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
          * [Información general sobre los tipos de dependencia entre tareas](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [Forzar predecesoras](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [Información general sobre los tipos de retardo](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [Resumen de tipos de retardo](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Resumen de bucle de dependencia de tareas](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
       * Sugerencias, trucos y solución de problemas para tareas {#tips-tricks-and-troubleshooting-for-tasks}
          * [Sugerencias, trucos y solución de problemas para tareas](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
@@ -1762,7 +1762,7 @@ ht-degree: 1%
       * [Actualizar los elementos de trabajo en el Distribuidor de cargas de trabajo mediante el Resumen](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Revisar y aprobar el trabajo {#review-and-approve-work}
    * [Revisar y aprobar el trabajo](review-and-approve-work/review-and-approve-work.md)
-   * [Programa alfa: aprobaciones de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Programa de Alpha - Aprobaciones de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados](review-and-approve-work/proof-doc-decision-limits.md)
    * Aprobaciones de trabajo {#work-approvals}
       * [Aprobaciones de trabajo](review-and-approve-work/manage-approvals/manage-approvals.md)
