@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Los artículos de procedimientos de la documentación de Workfront contienen una tabla que explica los requisitos de acceso y permisos necesarios para ese procedimiento. Esta tabla de requisitos de acceso le permite comprender si puede realizar una determinada acción en Workfront o por qué no. Este artículo explica cada elemento de la tabla de requisitos de acceso y proporciona sugerencias para la resolución de problemas y vínculos a información más detallada.
 
 Si una fila está ausente de la tabla de requisitos de acceso de un artículo determinado, no hay requisitos de ese tipo para esa acción.
+
+Algunas filas contienen información con las etiquetas &quot;Nuevo&quot; y &quot;Actual&quot;. Esto se debe a que Workfront está realizando una transición hacia un nuevo modelo de precios y empaquetado, en el que algunas organizaciones operan bajo el nuevo modelo y otras siguen utilizando el modelo actual. Para saber qué modelo utiliza su organización, póngase en contacto con el administrador de Workfront. Puede encontrar detalles y vínculos a información en la [La tabla Requisitos de acceso](#the-access-requirements-table) de este artículo.
 
 >[!NOTE]
 >
@@ -53,14 +55,26 @@ Si una fila está ausente de la tabla de requisitos de acceso de un artículo de
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront ofrece algunos productos que se pueden comprar además de Workfront.
+   <p>Los artículos que describen los procedimientos realizados dentro de estos productos adicionales enumeran el producto requerido aquí.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets para Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Planificador de escenarios de Workfront</li>
+   </ul>
+   <p>Para saber si su organización ha adquirido uno de estos productos adicionales, póngase en contacto con su administrador de Workfront.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> Los niveles de acceso son conjuntos de permisos para acciones que puede realizar en Workfront y que establece el administrador de Workfront. <p>Workfront tiene niveles de acceso integrados que corresponden a las licencias de Workfront, pero el administrador de Workfront puede crear niveles de acceso más precisos para reflejar con mayor precisión los conjuntos de permisos necesarios en su organización.</p>
+   <td> Los niveles de acceso son conjuntos de permisos para acciones que puede realizar en Workfront y que establece el administrador de Workfront. <p>Workfront tiene niveles de acceso integrados que corresponden a las licencias de Workfront, pero el administrador de Workfront puede crear niveles de acceso más amplios para reflejar con mayor precisión los conjuntos de permisos necesarios en su organización.</p>
    <ul>
     <li>Adobe Workfront está realizando una transición hacia un nuevo modelo de precios y empaquetado. Para obtener información sobre los niveles de acceso de cada modelo, consulte:
    <ul>
    <li>Nuevo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre nuevos niveles de acceso</a></li>
    <li>Actual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Información general sobre niveles de acceso</a></li></ul></li>
-    <li>Para obtener más información sobre el nivel de acceso, póngase en contacto con su administrador de Workfront</li>
+    <li>Para obtener más información sobre el nivel de acceso, póngase en contacto con el administrador de Workfront</li>
     <li>Si es administrador de Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuración del acceso a Adobe Workfront</a> para obtener más información sobre la concesión de acceso a objetos específicos en el nivel de acceso.</li>  
    <li>Si tiene el nivel de acceso correcto y aún no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</li>
     </td>
