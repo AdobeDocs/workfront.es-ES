@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
 
-   1. Haga clic en **X** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
+   1. Haga clic en **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 
 ### Agregar filas (o registros) {#add-rows}

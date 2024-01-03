@@ -6,20 +6,20 @@ description: Cuando comparta los informes con otros usuarios de Adobe Workfront,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 2%
+source-wordcount: '1209'
+ht-degree: 3%
 
 ---
 
 # Uso de formato condicional en vistas
 
+<!--Audited: 01/2024-->
+
 Cuando comparta los informes con otros usuarios de Adobe Workfront, considere la posibilidad de personalizar la vista de los informes para que cierta información sea más fácil de leer o simplemente destacar.
 
 Puede personalizar la pestaña Detalles de los informes añadiendo formato especial o condicional a la vista de los informes.
-
-Debe tener permisos de administración en el informe para poder editarlo y agregar formato especial a la vista.
 
 Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -49,11 +49,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Solicitud o superior </p> </td> 
+   <td> <p>Nuevo:</p> 
+   <ul><li>Estándar para vistas de informes</li>
+  <li> Colaborador o superior para vistas de lista</li></ul>
+
+<p>Actual:</p>
+   <ul>
+    <li> Plan para vistas de informes </li>
+    <li> Solicitud o superior para vistas de lista </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar una vista de un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar una vista de un informe</p> <p><b>NOTA</b></p> <p>Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -66,21 +73,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Debe crear un informe para poder agregarle formato condicional.
+Debe crear un informe antes de agregar formato condicional a su vista.
 
 Para obtener información sobre cómo crear un informe, consulte [Creación de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Creación de una vista con formato condicional
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront, haga clic en **Informes**.
+{{step1-to-reports}}
 
-1. Haga clic en el nombre del informe en el que desee crear una vista con formato condicional.
+1. Haga clic en el nombre del informe donde desee crear una vista con formato condicional
 
    O
 
-   Clic **Acciones de informe**, luego haga clic en **Editar**.
+   Clic **Nuevo informe**, luego seleccione un tipo de objeto para generar un nuevo informe.
 
-1. (Condicional) Si ha editado un informe, seleccione una columna existente o cree una nueva.
+1. (Condicional) Si edita un informe existente, haga clic en **Acciones de informe**, luego haga clic en **Editar**.
+
+1. En el **Columnas (vista)** , haga clic en para seleccionar una columna existente o haga clic en **Agregar columna** para crear una columna.
+1. En el **Mostrar en esta columna** en la esquina superior izquierda de report builder, seleccione el campo que desee mostrar en la nueva columna.
 1. Clic **Opciones avanzadas**.
 
 1. Especifique la siguiente información:
@@ -95,7 +105,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato de campo</strong></td> 
-      <td>Elija el formato en el que se muestra el valor de la columna. En función del campo de columna, permite establecer cómo se muestran las fechas, los números o la moneda.</td> 
+      <td>Elija el formato en el que se muestra el valor de la columna. En función del campo de columna, permite establecer cómo se muestran las fechas, los números o la moneda. No todas las columnas muestran esta opción.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar esta columna en panel</strong></td> 
@@ -104,7 +114,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
     </tbody> 
    </table>
 
-1. Clic **Agregar una regla para esta columna**.
+1. Haga clic en **Añadir una regla para esta columna**.
 
    <!--
    <note type="note">
@@ -112,7 +122,9 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
    </note>
    -->
 
-1. En el **Cuando el:** , establezca una instrucción condition para la columna. Por ejemplo: cuando el porcentaje completado de la tarea es igual a (distingue mayúsculas de minúsculas) 50.
+1. En el **Cuando el:** , establezca una instrucción condition para la columna.
+
+   Por ejemplo: &quot;cuando el porcentaje completado de la tarea es igual a (distingue mayúsculas de minúsculas) 50&quot;.
 1. En el **Mostrar el campo de esta manera:** especifique el aspecto de este campo cuando se cumple la condición definida arriba.
 
    Especifique la siguiente información:
@@ -123,7 +135,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Color de texto</strong></td> 
-      <td> <p>Seleccione el color en el que se muestra el texto. Hay 8 colores disponibles.</p> <p>Nota: Si el campo contiene un hipervínculo, las selecciones de color de texto no se aplican a este campo.</p> </td> 
+      <td> <p>Seleccione el color en el que se muestra el texto. Hay 8 colores disponibles.</p> <p><b>NOTA</b></p> <p> Si el campo contiene un hipervínculo, las selecciones de color del texto no se aplican a este campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato de texto</strong></td> 
@@ -134,7 +146,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
       <td>Seleccione si desea alinear el texto a la derecha, al centro o a la izquierda dentro de la columna.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fondo</strong></td> 
+      <td role="rowheader"><strong>Contexto</strong></td> 
       <td>Seleccione el color del fondo del texto. Hay 8 colores disponibles.</td> 
      </tr> 
      <tr> 
@@ -143,7 +155,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Seleccione esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p>Importante: Seleccionar <strong>Mostrar texto</strong> deshabilita la capacidad de editar en línea el texto de esta columna.<br>Además, no se puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
+      <td> <p>Seleccione esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p><b>IMPORTANTE</b></p> <p>Seleccionar <strong>Mostrar texto</strong> deshabilita la capacidad de editar en línea el texto de esta columna.<br>Además, no se puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda la fila</strong></td> 
@@ -157,19 +169,22 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 
    Las reglas se aplican en el orden en que se crearon. Se combinan pero no se sobrescriben entre sí, aunque una regla de columna tiene prioridad sobre una regla de fila en la misma celda.
 
-   Ejemplo 1: Primero puede crear una regla que indique que cuando el estado del proyecto es Generando, el color del texto es morado y negrita. A continuación, cree una segunda regla que indique si el nombre de la tarea no está en blanco, si el color del texto es rojo y en cursiva y si el color de fondo es verde. En este ejemplo, ocurre lo siguiente:
+   **EJEMPLO 1**
+
+   En primer lugar, puede crear una regla que indique que, cuando un proyecto se encuentra en estado de compilación, el color del texto sea morado y negrita. A continuación, cree una segunda regla que indique que cuando el nombre de una tarea no está en blanco, el color del texto es rojo y en cursiva, y el color de fondo es verde. En este ejemplo, ocurre lo siguiente:
 
    * Las tareas cuyo estado del proyecto sea Generando se mostrarán en texto morado y negrita. Si el nombre de la tarea no está en blanco, las tareas también tienen un fondo verde.
    * Las tareas cuyo estado del proyecto sea distinto de Generación (y cuyo nombre de tarea no esté en blanco) se mostrarán en rojo y en cursiva con fondo verde.
 
-   Ejemplo 2: Cree una regla en la fecha planificada de finalización del proyecto que afecte a toda la fila y ponga el fondo gris si se cancela el proyecto (Estado = &quot;Inactivo&quot;). A continuación, cree una regla de columna que ponga el fondo rojo cuando la fecha planificada de finalización del proyecto sea menor que hoy (lo que significa que el proyecto está atrasado). En este ejemplo, si un proyecto cancelado tiene una fecha de finalización tardía, esa celda aparecerá en rojo aunque las demás celdas de la fila sean grises. Para corregir este formato:
+   **EJEMPLO 2**
+
+   Cree una regla en la columna Fecha planificada de finalización del proyecto que afecte a toda la fila y ponga el fondo gris si se cancela el proyecto (por ejemplo, cuando el estado del proyecto es Inactivo). A continuación, cree una regla de columna que ponga el fondo rojo cuando la fecha planificada de finalización del proyecto sea menor que hoy (lo que significa que el proyecto está atrasado). En este ejemplo, si un proyecto cancelado tiene una fecha de finalización tardía, esa celda aparecerá en rojo aunque las demás celdas de la fila sean grises. Para corregir este formato:
 
    * Edite el formato de la fecha planificada de finalización y elimine la regla de columna para el fondo rojo de los proyectos retrasados.
-   * Agregue una regla de columna con el mismo formato que la regla de fila (fondo gris cuando el estado del proyecto = &quot;Inactivo&quot;).
+   * Agregue una regla de columna con el mismo formato que la regla de fila (fondo gris cuando el estado del proyecto sea Inactivo).
    * Vuelva a agregar la regla de columna para el fondo rojo en los proyectos posteriores.
    * Al guardar las reglas y la vista, el fondo rojo no se aplica a un proyecto cancelado.
 
-
 1. Clic **Listo**.
-1. Clic **Guardar + Cerrar**.\
+1. Haga clic en **Guardar + Cerrar**.\
    En el informe, los usuarios ven cambios en el formato si se cumplen las condiciones especificadas.

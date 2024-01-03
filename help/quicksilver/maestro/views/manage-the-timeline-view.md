@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Para administrar una vista de cronología:
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
-      No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
+      No se pueden utilizar palabras clave asociadas a campos que no se muestran en la vista de cronología.
 
    1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
-   1. Haga clic en el icono X del cuadro de búsqueda para borrar la palabra clave de búsqueda.
+   1. Haga clic en **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
