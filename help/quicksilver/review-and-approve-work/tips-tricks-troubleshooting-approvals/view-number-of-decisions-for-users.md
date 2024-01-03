@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: Ver el número de decisiones de prueba y documento para todos los usuarios
 description: Puede ver el número de pruebas y decisiones de documentos que han tomado los usuarios en la instancia de Workfront.
-author: Courtney
+author: Courtney and Lisa
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
+source-git-commit: 21df7fd2340214034a2a2d6b4199861a2d8f71cd
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Para ver el número de decisiones de un usuario:
 1. Abra el **Vistas** y, a continuación, seleccione la **Licencias** vista.
 1. Buscar la columna **Decisiones de este mes** para ver el número de decisiones que cada usuario ha tomado en el mes.
 1. <span class="preview">Para ver los datos históricos, abra **Vistas** y elija **Vista de usuario histórica**.</span>
-1. <span class="preview">Buscar la columna **Decisiones históricas de usuarios** para ver la cantidad de decisiones que cada usuario ha tomado en un mes. Los datos se remontan 12 meses desde el mes actual.</span>
+1. <span class="preview">Buscar la columna **Decisiones históricas de usuarios** para ver el número de decisiones que cada usuario ha tomado en un mes. Los datos pueden incluir hasta 12 meses antes del mes actual, en función de cuándo se puso este informe a disposición de su organización.</span>
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Para ver el número de decisiones de un usuario:
 1. Clic **Nuevo informe**, luego seleccione **Decisiones de usuarios**.
 1. Buscar la columna **Decisiones de este mes** para ver el número de decisiones que cada usuario ha tomado en el mes.
 
-   <span class="preview">Los datos se remontan 12 meses desde el mes actual. El **Mes** y **Año** Las columnas muestran en qué mes se tomaron las decisiones. El mes 1 es enero, el mes 2 es febrero, etc.</span>
+   <span class="preview">Los datos pueden incluir hasta 12 meses antes del mes actual, en función de cuándo se puso este informe a disposición de su organización. El **Mes** y **Año** Las columnas muestran en qué mes se tomaron las decisiones. El mes 1 es enero, el mes 2 es febrero, etc.</span>
 
 1. Revise el informe y edítelo según sea necesario. Para obtener más información, consulte [Creación de un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
