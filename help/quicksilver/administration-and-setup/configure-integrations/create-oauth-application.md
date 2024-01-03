@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
@@ -128,7 +128,7 @@ Al crear una aplicación OAuth2, elija el tipo de aplicación que mejor se adapt
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Sistema]**, luego seleccione **[!UICONTROL Aplicaciones OAuth2]**.
 1. Clic **[!UICONTROL Crear integración de aplicaciones]**.
 El **Nueva aplicación OAuth2** aparece el cuadro.
-1. En el **Nueva aplicación OAuth2** , seleccione **[!UICONTROL Autenticación de servidor]**.
+1. En el **Nueva aplicación OAuth2** , seleccione **[!UICONTROL Aplicación de máquina a máquina]**.
 1. Introduzca un nombre para la nueva aplicación, como &quot;[!DNL Workfront] para ClientApp.&quot;
 1. Haga clic en **[!UICONTROL Crear]**.
 1. Rellene los campos de la nueva aplicación.
@@ -180,7 +180,7 @@ Para obtener instrucciones sobre la configuración y el uso de la aplicación OA
 1. Clic **[!UICONTROL Crear integración de aplicaciones]**.
 
    El **Nueva aplicación OAuth2** muestra.
-1. En el **Nueva aplicación OAuth2** , seleccione **[!UICONTROL Autenticación de usuario]**.
+1. En el **Nueva aplicación OAuth2** , seleccione **[!UICONTROL Aplicación web]**.
 1. Introduzca un nombre para la nueva aplicación OAuth2, como &quot;[!DNL Workfront] para ClientApp.&quot;
 1. Haga clic en **[!UICONTROL Crear]**.
 1. Rellene los campos de la nueva aplicación.
@@ -262,7 +262,7 @@ Para obtener instrucciones sobre la configuración y el uso de la aplicación OA
       <td> <p>Este campo se genera automáticamente.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirigir URL]</td> 
+      <td role="rowheader">[!UICONTROL URL de redireccionamiento]</td> 
       <td>Los usuarios se redirigirán a esta ruta después de autenticarse en Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
