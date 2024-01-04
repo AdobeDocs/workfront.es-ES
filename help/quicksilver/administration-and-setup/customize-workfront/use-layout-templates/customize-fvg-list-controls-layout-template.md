@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
         <ol> 
          <li value="1"> Clic <strong>Añadir filtro</strong>, <strong>Agregar vista</strong>, o <strong>Agregar agrupación</strong> en la parte inferior de la lista Filtro, Vista o Agrupación. En el cuadro que aparece, empiece a escribir el nombre de un control de lista personalizado existente creado anteriormente para su organización y, a continuación, haga clic en el nombre cuando aparezca.</li> 
          <li value="2"> Si desea que el nuevo conjunto de controles de lista personalizado sea el filtro, vista o agrupación predeterminados para la plantilla de diseño, haga clic en <strong>Establecer como predeterminado</strong>. </li> 
-         <li value="3"> <p>Clic <strong>Añadir</strong> cuando haya terminado.</p> <p><b>NOTA</b>: <p>Los usuarios pueden agregar controles de lista personalizados a sus propias listas. Si agrega controles de lista personalizados a una plantilla de diseño, los controles de la lista se agregan y los suyos se mueven al final del panel; los suyos no reemplazan a los suyos.</p> <p>Esto también se cumple si asigna al usuario una nueva plantilla de diseño que tiene controles de lista personalizados. </p> <p>Para obtener información sobre cómo personalizar controles de lista, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Información general sobre filtros en Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Información general sobre vistas en Adobe Workfront</a>, y <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Información general sobre agrupaciones en Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Clic <strong>Añadir</strong> cuando haya terminado.</p> <p><b>NOTA</b>: <p>Los usuarios pueden agregar controles de lista personalizados a sus propias listas. Si agrega controles de lista personalizados a una plantilla de diseño, los controles de la lista se agregan y los suyos se mueven al final del panel; los suyos no reemplazan a los suyos.</p> <p>Esto también se cumple si asigna al usuario una nueva plantilla de diseño que tiene controles de lista personalizados. </p> <p>Para obtener información sobre cómo personalizar controles de lista, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Resumen de filtros</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Información general sobre vistas en Adobe Workfront</a>, y <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Información general sobre agrupaciones en Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

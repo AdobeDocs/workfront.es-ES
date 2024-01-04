@@ -6,9 +6,9 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       * [!UICONTROL Planificación]
       * [!UICONTROL Aprobado]
-      * [!UICONTROL Al día]
+      * [!UICONTROL Actual]
    * **[!UICONTROL Solicitado]**: incluye proyectos asociados con el portafolio seleccionado con un estado de **[!UICONTROL Solicitado]**.
 
      Para obtener información sobre la revisión de proyectos solicitados, consulte [Revisar proyectos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
@@ -93,7 +93,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >
      >Para ver solo proyectos específicos, considere la posibilidad de crear un filtro de proyecto en la **[!UICONTROL Filtrar]** menú desplegable en la parte superior de la lista de proyectos para reducir el número de proyectos mostrados.
 
-     Para obtener más información sobre la creación de filtros, consulte [Información general sobre filtros en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Para obtener más información sobre la creación de filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Clic **[!UICONTROL Programas]** en el panel izquierdo para crear programas dentro del portafolio o administrar los existentes.\

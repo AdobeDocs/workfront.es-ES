@@ -7,9 +7,9 @@ description: Preguntas frecuentes sobre informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Cuando ejecuto un informe que tiene un gráfico, veo el mensaje de error &quot;V
 
 Este error significa que el gráfico contiene hasta 618 resultados distintos; por ejemplo, más de 618 barras en un gráfico de barras. Para resolver el problema de visualización, debe refinar los resultados modificando las selecciones de filtro y agrupación actuales.
 
-Para obtener información sobre la modificación de filtros y agrupaciones, consulte los artículos [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) y [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obtener información sobre la modificación de filtros y agrupaciones, consulte los artículos [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) y [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## ¿Por qué veo mis tareas (o problemas) cuando accedo al mismo informe (o calendario) que mi compañero y ven sus tareas en su lugar?
 

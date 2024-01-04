@@ -6,9 +6,9 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Como administrador de recursos, puede utilizar el Distribuidor de cargas de trab
 >
 >Al guardar y aplicar un filtro nuevo y luego salir del Distribuidor de cargas de trabajo, el filtro se conserva incluso después de cerrar la sesión y volver a iniciarla.
 
-
-Este artículo contiene información sobre los filtros del Distribuidor de cargas de trabajo. Para obtener información sobre los filtros de Workfront, consulte [Información general sobre filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Este artículo contiene información sobre los filtros del Distribuidor de cargas de trabajo. Para obtener información sobre los filtros de Workfront, consulte [Resumen de filtros](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acceso
 

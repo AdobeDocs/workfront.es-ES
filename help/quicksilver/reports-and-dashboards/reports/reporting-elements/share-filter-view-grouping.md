@@ -6,9 +6,9 @@ description: Puede compartir filtros, vistas y agrupaciones a las que tenga acce
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Cuando se comparte un filtro, una vista o una agrupación con usted, puede aplic
 
 Para obtener información sobre cómo crear un filtro, una vista o una agrupación, vea los siguientes artículos:
 
-* [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -139,11 +139,12 @@ Compartir un filtro mediante la interfaz del generador estándar:
       >[!NOTE]
       >
       >Si activa Administrar acceso con la opción Eliminar, estos usuarios podrán eliminar el filtro de todos los usuarios, aunque no sean propietarios del filtro.
+
    >[!TIP]
    >
    >Los usuarios no pueden recibir un permiso superior a su nivel de acceso. Si no tienen acceso a Editar filtros en su nivel de acceso, no pueden recibir permisos para administrar un filtro. Workfront deshabilita la opción Administrar para estos usuarios y la opción aparece atenuada.
 
-1. Clic **Compartir**. El filtro se comparte con las entidades especificadas.
+1. Haga clic en **Compartir**. El filtro se comparte con las entidades especificadas.
 
    >[!TIP]
    >

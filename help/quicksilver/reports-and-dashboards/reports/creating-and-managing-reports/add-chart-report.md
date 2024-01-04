@@ -6,9 +6,9 @@ description: Puede mejorar los informes agregando un gráfico. Puede agregar gr�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obtener información sobre cómo crear una vista, consulte [Información ge
 Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Si el informe muestra demasiados elementos, no se creará ningún gráfico. En este caso, también debe agregar un Filtro al informe para reducir el número de resultados en el informe.\
-Para obtener más información sobre los filtros, consulte [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obtener más información sobre los filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acceso
 
@@ -69,7 +69,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >* Los gráficos no admiten agrupaciones en modo de texto. Para obtener más información sobre las agrupaciones en modo de texto, consulte [Editar modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Si agrega una sola agrupación que representa una métrica, todos los gráficos excepto un gráfico circular muestran cada resultado en la agrupación con el mismo color.
 
-
    Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Seleccione el **Gráfico** pestaña.
@@ -102,21 +101,20 @@ Para agregar un **Columna** a su informe:
    Seleccione entre las siguientes opciones:
 
    * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las columnas agrupadas:\
-      **- Lado a lado**
-
-      **- Apiladas**
-      **- Apiladas al 100%**
+     **- Lado a lado**
+     **- Apiladas**
+     **- Apiladas al 100%**
 
    * Seleccione la agrupación que desee incluir en el gráfico.
    * (Opcional) Seleccione **Colores personalizados** para personalizar los colores de las columnas.\
-      Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
+     Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
 
 1. (Opcional) Seleccione **Gráfico de combinación** para incluir un valor adicional en el gráfico, así como la forma en que desea resumir la información.\
    Tenga en cuenta las siguientes opciones:
 
    * **Trazar en el eje secundario**: seleccione esta opción para trazar los datos en el lado derecho del gráfico.
    * **Tipo de gráfico**: seleccione si desea que este valor adicional se muestre como una línea o como una tercera columna.\
-      ![](assets/qs-column-chart-350x163.png)
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Clic **Guardar + Cerrar** para guardar el gráfico y el informe.
 
@@ -135,14 +133,13 @@ Para agregar un **Barra** a su informe:
    Seleccione entre las siguientes opciones:
 
    * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las barras agrupadas:\
-      **- Lado a lado**
-
-      **- Apiladas**
-      **- Apiladas al 100%**
+     **- Lado a lado**
+     **- Apiladas**
+     **- Apiladas al 100%**
 
    * Seleccione la agrupación que desee incluir en el gráfico.
    * (Opcional) Seleccione **Colores personalizados** para personalizar los colores de las columnas.\
-      Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
+     Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
 
 1. (Opcional) Seleccione **Gráfico de combinación** para incluir un valor adicional en el gráfico, así como la forma en que desea resumir la información.\
    ![](assets/qs-bar-chart-350x167.png)
@@ -165,7 +162,7 @@ Para agregar un **Circular** a su informe:
 
    * **Porcentaje**: los resultados del gráfico se muestran como un porcentaje.
    * **Números**: los resultados del gráfico se muestran como un número.\
-      ![](assets/qs-pie-chart-350x171.png)
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Clic **Guardar + Cerrar** para guardar el gráfico y el informe.
 
@@ -186,7 +183,7 @@ Para agregar un **Línea** a su informe:
 
    * Seleccione el valor que desea incluir en el gráfico, así como la forma en que desea resumir la información.
    * Seleccione el **Trazar en el eje secundario** para trazar los datos en el lado derecho del gráfico.\
-      ![](assets/qs-line-chart-350x172.png)
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Clic **Guardar + Cerrar** para guardar el gráfico y el informe.
 
@@ -300,6 +297,7 @@ Para personalizar los colores del gráfico:
       1. (Opcional) Especifique un valor hexadecimal del color, en lugar de seleccionar uno de los ejemplos de color disponibles\
          O\
          Haga clic en el selector de color que aparece después de hacer clic en el código hexadecimal y seleccione otro color.
+
    * **Añadir color**: continúe añadiendo colores personalizados para todas las demás opciones posibles del campo seleccionado.
    * **Eliminar todo**: seleccione esta opción para eliminar todos los colores y opciones del campo seleccionado anteriormente.
    * **Opciones avanzadas**: seleccione una de las siguientes opciones:
@@ -307,10 +305,9 @@ Para personalizar los colores del gráfico:
       * **Sin valor**: seleccione este campo y un color personalizado para mostrar la columna del gráfico que agrupa los elementos sin valor. Son elementos que no se pueden agrupar por ninguna de las opciones del campo seleccionado en la agrupación.
       * **Todos los demás valores**: seleccione este campo y un color personalizado para mostrar todos los demás elementos del gráfico cuyas opciones no estén seleccionadas anteriormente.
 
-         >[!NOTE]
-         >
-         >Los colores utilizados más recientemente se muestran en la parte superior del cuadro de diálogo Colores personalizados. Cuando pasa el ratón sobre un color que se ha utilizado recientemente, se muestra el nombre del campo asociado a él.
-
+        >[!NOTE]
+        >
+        >Los colores utilizados más recientemente se muestran en la parte superior del cuadro de diálogo Colores personalizados. Cuando pasa el ratón sobre un color que se ha utilizado recientemente, se muestra el nombre del campo asociado a él.
 
 1. Haga clic en la &quot;x&quot; de la esquina superior derecha de Colores personalizados para cerrar el cuadro de diálogo Colores personalizados. Los colores que ha seleccionado se guardan automáticamente.
 1. Clic **Guardar + Cerrar** para guardar el gráfico y ejecutar el informe.
@@ -322,7 +319,7 @@ Para eliminar un gráfico de un informe:
 1. Abra el **Gráfico** de report builder.
 1. Pase el ratón sobre el icono del tipo de gráfico que ha elegido y aparecerá un botón &quot;x&quot; en la esquina superior derecha del icono.
 1. Haga clic en la &quot;x&quot; para eliminar el gráfico.
-1. Clic **Guardar + Cerrar**.
+1. Haga clic en **Guardar + Cerrar**.
 
 ## Limitaciones al trabajar con gráficos
 

@@ -1,18 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Proyectos en los que estoy activado, incluidos resultados inesperados
-description: Lea este artículo para solucionar los problemas del filtro Proyectos en los que estoy incluido, incluyendo resultados inesperados.
+title: Filtro Proyectos en los que participo, incluidos resultados inesperados
+description: Lea este artículo para solucionar los problemas del filtro Proyectos en los que participo, incluidos los resultados inesperados.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
+exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
 
-# El filtro Proyectos en los que estoy activo incluye resultados inesperados
+# El filtro Proyectos en los que estoy incluye resultados inesperados
 
 ## Requisitos de acceso
 
@@ -32,23 +33,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td> <p>[!UICONTROL Administrador del sistema]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Problema
 
-La variable [!UICONTROL **Proyectos en los que estoy**] incluye resultados que no esperaría, ya que no estoy asignado ni asociado a esos proyectos.
+El [!UICONTROL **Proyectos en los que trabajo**] El filtro incluye resultados que no esperaba, ya que no estoy asignado o asociado a esos proyectos.
 
 ## Solución
 
-La variable [!UICONTROL **Proyectos en los que estoy**] filtro incluye proyectos que contienen al usuario en cualquiera de sus [!UICONTROL **Detalles del proyecto**] campos, incluidos campos fácilmente omitidos o rellenados automáticamente, como [!UICONTROL **Introducido por**] o [!UICONTROL **ID del patrocinador**]. Para eliminar los resultados no deseados, hay dos soluciones posibles:
+El [!UICONTROL **Proyectos en los que trabajo**] el filtro incluye proyectos que contienen el usuario en cualquiera de sus [!UICONTROL **Detalles del proyecto**] campos, incluidos los campos que se pasan por alto fácilmente o que se rellenan automáticamente, como [!UICONTROL **Ingresado por**] o [!UICONTROL **Identificador de patrocinador**]. Para eliminar los resultados no deseados, existen dos soluciones posibles:
 
-1. Marque la [!UICONTROL **Detalles del proyecto**] para cada proyecto inesperado incluido en el filtro y elimine su nombre de todos los campos.
+1. Compruebe la [!UICONTROL **Detalles del proyecto**] para cada proyecto inesperado incluido por el filtro y elimine su nombre de todos los campos.
 
    O
 
-1. Intente usar un filtro similar, como [!UICONTROL **Proyectos de los que soy propietario**], que solo incluye proyectos que se le hayan asignado específicamente.
+1. Intente utilizar un filtro similar, como [!UICONTROL **Proyectos de mi propiedad**], que solo incluye proyectos que se le han asignado específicamente.
 
-Para obtener más información sobre el uso de filtros en [!DNL Workfront], consulte [Información general de filtros en [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+Para obtener más información sobre el uso de filtros en [!DNL Workfront], consulte [Resumen de filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

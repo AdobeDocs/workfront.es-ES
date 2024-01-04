@@ -1,14 +1,14 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: '''Elementos de informes: filtros, vistas y agrupaciones'
-description: Los elementos principales que debe tener cada lista e informe en Workfront son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de cualquier informe.
+title: "Elementos de creación de informes: filtros, vistas y agrupaciones"
+description: Los elementos principales que cada lista e informe debe tener en Workfront son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de un informe.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -25,78 +25,78 @@ ht-degree: 0%
 </div>
 -->
 
-Existen varios elementos que hacen posible una lista o un informe en Adobe Workfront. Los elementos principales que debe tener cada lista e informe son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de cualquier informe.
+Existen varios elementos que hacen posible una lista o un informe en Adobe Workfront. Los elementos principales que debe tener cada lista e informe son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de un informe.
 
 ## Consideraciones sobre los elementos de informes
 
-Tenga en cuenta lo siguiente cuando trabaje con filtros, vistas y agrupaciones:
+Tenga en cuenta lo siguiente al trabajar con filtros, vistas y agrupaciones:
 
-* Los elementos de informes funcionan como componentes básicos de los informes. Definen el aspecto de un informe o una lista, así como la información que contiene el informe o la lista.
-* Los informes de Workfront son específicos de un objeto. Debe definir el objeto principal de un informe para poder crearlo. Por lo tanto, todos los elementos de informes son específicos del objeto.
-* El administrador de Workfront debe otorgarle acceso a filtros, vistas y agrupaciones en el nivel de acceso para poder visualizarlos o editarlos en listas e informes.
+* Los elementos de creación de informes funcionan como componentes básicos de la creación de informes. Definen la apariencia de un informe o una lista, así como la información que contiene.
+* Los informes de Workfront son específicos de un objeto. Debe definir el objeto principal de un informe antes de poder crear el informe. Por lo tanto, todos los elementos de la creación de informes son específicos del objeto.
+* El administrador de Workfront debe otorgarle acceso a filtros, vistas y agrupaciones en su nivel de acceso para poder verlos o editarlos en listas e informes.
 
-   Para obtener información sobre la concesión de acceso a filtros, vistas y agrupaciones, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obtener información sobre la concesión de acceso a filtros, vistas y agrupaciones, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* El administrador de Workfront debe permitirle acceder a informes, tableros y calendarios en el nivel de acceso para poder ver o editar informes.
+* El administrador de Workfront debe otorgarle acceso a los informes, tableros y calendarios de su nivel de acceso para poder ver o editar informes.
 
-   Para obtener información sobre la concesión de acceso a informes, tableros y calendarios, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Para obtener información sobre la concesión de acceso a informes, paneles y calendarios, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Si selecciona un filtro, una vista o una agrupación en un informe o lista, Workfront conserva esta selección para las listas de ese objeto incluso después de cerrar la sesión o cerrar el explorador. Por ejemplo, si selecciona una vista específica para un informe de tareas, aparecerá esa selección para otras listas de tareas, como la lista de tareas de un proyecto.
+* Si selecciona un filtro, una vista o una agrupación en un informe o una lista, Workfront conserva esta selección para las listas de ese objeto incluso después de cerrar la sesión o cerrar el explorador. Por ejemplo, si selecciona una vista específica para un informe de tareas, esa selección aparece para otras listas de tareas, como la lista de tareas de un proyecto.
 
 ## Filtros
 
-El filtro controla los resultados que aparecen en un informe, generalmente reduciendo los resultados de general a específico. Funciona como un tamiz que solo toma la información que necesita y trae esa información de vuelta al informe.
+El filtro controla los resultados que aparecen en un informe y, por lo general, reduce los resultados de generales a específicos. Funciona como un tamiz que solo toma la información que necesita y le devuelve esa información a su informe.
 
-Por ejemplo, si solo desea ver las tareas asignadas al usuario que ha iniciado sesión, puede crear un filtro llamado &quot;Mis tareas&quot;, definir los criterios que deben cumplirse para el filtro y ejecutar el informe para ver solo las tareas asignadas al usuario que ha iniciado sesión.
+Por ejemplo, si solo desea ver las tareas asignadas al usuario que ha iniciado sesión, puede crear un filtro denominado &quot;Mis tareas&quot;, definir los criterios que deben cumplirse para el filtro y ejecutar el informe para ver únicamente las tareas asignadas al usuario que ha iniciado sesión.
 
 Algunos atributos de los filtros son:
 
-* Workfront proporciona varios filtros para varios objetos de forma predeterminada.
-* Puede personalizar los filtros que posee o administra.
+* Workfront proporciona una serie de filtros para varios objetos de forma predeterminada.
+* Puede personalizar los filtros que administra o que es suyo.
 
-   Para obtener más información sobre los filtros, consulte el artículo [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obtener más información sobre los filtros, consulte el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ![Icono de filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Vistas
 
-Al definir la vista de un informe, se define qué información se incluye en él. Al igual que todos los elementos de informes, las vistas se basan en un tipo de objeto.\
-Por ejemplo, una vista para un informe de tareas podría mostrar Fechas de Vencimiento, incluir detalles financieros clave como Coste, o utilizarse para mostrar Detalles de Asignaciones y Fecha de Entrega. Las vistas se pueden utilizar para ofrecer una variedad de detalles sobre los datos del informe.
+Al definir la vista de un informe, se define qué información se incluye en el informe. Al igual que todos los elementos de los informes, las vistas se basan en un tipo de objeto.\
+Por ejemplo, una vista para un informe de tareas podría mostrar Fechas de vencimiento, incluir detalles financieros clave como Costo, o utilizarse para mostrar detalles de Asignaciones y Fecha de entrega. Las vistas se pueden utilizar para proporcionar diversos detalles sobre los datos del informe.
 
 Algunos atributos de las vistas son:
 
-* Puede usar una vista predeterminada de Workfront o crear la suya propia.
-* Puede aplicar vistas adicionales desde el campo desplegable Ver después de ejecutar un informe.
-* Las vistas adicionales sustituyen temporalmente la vista que se define al crear el informe; sin embargo, la vista predeterminada se muestra la próxima vez que vuelva al informe.
+* Puede utilizar una vista de Workfront predeterminada o crear la suya propia.
+* Puede aplicar vistas adicionales desde el campo desplegable Vista después de ejecutar un informe.
+* Las vistas adicionales reemplazan temporalmente la vista que se define al crear el informe; sin embargo, la vista predeterminada se muestra la próxima vez que vuelva al informe.
 
-   Para obtener más información sobre las vistas, consulte el artículo [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Para obtener más información sobre las vistas, consulte el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Agrupaciones
 
-Una agrupación controla cómo se organizan los datos, lo que facilita su lectura y comprensión. Los grupos crean barras horizontales en todo un informe que muestran los resultados enumerados juntos mediante atributos comunes. Puede definir los criterios para agrupar los resultados del informe al crear la agrupación.
+Una agrupación controla cómo organizar los datos, lo que facilita su lectura y comprensión. Las agrupaciones crean barras horizontales en un informe que muestran los resultados enumerados juntos por atributos comunes. Los criterios para agrupar los resultados del informe se definen al crear la agrupación.
 
-Por ejemplo, si agrupa una lista de tareas que abarcan varios proyectos por su nombre, se organizarán todas las tareas correspondientes que pertenezcan a un solo proyecto con ese nombre.
+Por ejemplo, al agrupar una lista de tareas que abarcan varios proyectos por su nombre de proyecto, se organizan todas las tareas respectivas que pertenecen a un único proyecto con ese nombre.
 
 Algunos atributos de las agrupaciones son:
 
-* Los agrupamientos son un elemento de informes obligatorio si desea agregar más adelante un gráfico al informe.
-* Los grupos muestran un valor agregado en los resultados. &#x200B;
-* Los grupos determinan el eje en los gráficos.
-* Los grupos determinan la identificación del encabezado en los informes de matriz.\
-   Para obtener más información sobre los informes de matriz, consulte el artículo [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+* Las agrupaciones son un elemento de sistema de informes obligatorio si desea agregar posteriormente un gráfico al informe.
+* Las agrupaciones muestran un valor agregado en los resultados&#x200B;
+* Las agrupaciones determinan el eje en los gráficos.
+* Las agrupaciones determinan la identificación del encabezado en los informes de matriz.\
+  Para obtener más información sobre los informes de matriz, consulte el artículo [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-* Los agrupamientos ayudan a crear la pestaña Resumen de un informe, proporcionando los valores agregados del informe.
+* Las agrupaciones ayudan a crear la pestaña Resumen de un informe, que proporciona los valores agregados del informe.
 * Workfront proporciona una serie de agrupaciones para diferentes objetos de forma predeterminada.
-* Puede personalizar las agrupaciones que posea o administre.
+* Puede personalizar las agrupaciones que administre o que posea.
 
-   Para obtener más información sobre las agrupaciones, consulte [Información general sobre las agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-## Otros elementos de información
+## Otros elementos de informes
 
-Además de los filtros, las vistas y las agrupaciones, también puede añadir los siguientes elementos a un informe:
+Además de los filtros, las vistas y las agrupaciones, también puede agregar los siguientes elementos a un informe:
 
-* **Preguntar**: Filtro abierto que se puede personalizar y aplicar de forma diferente cada vez que ejecute un informe.\
-   Para obtener más información sobre los mensajes, consulte el artículo [Agregar solicitudes a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Preguntar**: Filtro abierto que se puede personalizar y aplicar de forma diferente cada vez que se ejecuta un informe.\
+  Para obtener más información sobre los indicadores, consulte el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Gráfico**: Puede mejorar los informes agregándoles un gráfico y mostrando la información de forma visual.\
-   Para obtener más información sobre los gráficos de los informes, consulte el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Gráfico**: Puede mejorar los informes añadiéndoles un gráfico y mostrándoles la información de forma visual.\
+  Para obtener más información sobre los gráficos de los informes, consulte el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

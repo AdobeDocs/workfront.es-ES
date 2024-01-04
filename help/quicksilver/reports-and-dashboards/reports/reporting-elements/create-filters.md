@@ -6,9 +6,9 @@ description: Puede limitar la cantidad de información que se muestra en pantall
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Puede aplicar los siguientes tipos de filtros en Adobe Workfront:
 
 * Filtra en otras áreas de Workfront, fuera de listas e informes.
 
-  Para obtener una lista de todos los filtros de Workfront y las áreas donde puede aplicarlos, consulte [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obtener una lista de todos los filtros de Workfront y las áreas donde puede aplicarlos, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acceso
 
@@ -241,7 +241,7 @@ Cree un filtro con la interfaz del generador estándar:
 
    ![Incluir si todo o alguno o verdadero menú desplegable](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Para obtener más información sobre los operadores de filtro, consulte [Información general sobre filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre los operadores de filtro, consulte [Resumen de filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Haga clic en el menú desplegable de campos para ver una lista de los campos utilizados recientemente y los campos sugeridos por los que filtrar. Los campos sugeridos se muestran actualmente en la lista que está filtrando.
 

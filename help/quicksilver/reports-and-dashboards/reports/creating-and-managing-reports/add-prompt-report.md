@@ -6,9 +6,9 @@ description: Los filtros y los indicadores son similares en el sentido de que am
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Los filtros y los indicadores son similares en el sentido de que ambos restringen la cantidad de información que se muestra en un informe.
 
-Se genera un filtro cuando se desea que la información que se muestra en el informe se filtre con los mismos criterios cada vez que se ejecuta el informe. Los filtros se crean una vez y se codifican en el informe. Para obtener más información sobre la creación de filtros, consulte el artículo [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Se genera un filtro cuando se desea que la información que se muestra en el informe se filtre con los mismos criterios cada vez que se ejecuta el informe. Los filtros se crean una vez y se codifican en el informe. Para obtener más información sobre la creación de filtros, consulte el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Los indicadores son filtros abiertos que se pueden personalizar y aplicar de forma diferente cada vez que se ejecuta un informe.
 
@@ -101,15 +101,16 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Creación de 
 
    * todas las tareas de proyectos futuros cuyo estado sea Idea, Solicitada, Planificada y Actual:
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * todas las tareas de proyectos completados (anteriores) en los que el estado del proyecto es Completado o Inactivo:
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    Para obtener más información sobre los modificadores del modo de texto, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -150,7 +151,7 @@ Las siguientes son limitaciones en el uso compartido de informes solicitados des
 
 * Cuando comparte un informe públicamente, los usuarios no pueden ejecutarlo aplicando la solicitud, a menos que tengan credenciales de Workfront e inicien sesión primero para ver el informe en Workfront.
 
-   Para obtener más información sobre cómo compartir informes, consulte el artículo [Uso compartido de informes en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Para obtener más información sobre cómo compartir informes, consulte el artículo [Uso compartido de informes en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Cuando se programa un informe solicitado para su envío, el informe que aparece en el archivo adjunto de correo electrónico incluye los datos del informe sin que se le solicite. Cuando el usuario hace clic en el vínculo del correo electrónico para acceder al informe, debe iniciar sesión primero para ver el informe y ejecutar la solicitud por su cuenta.
 
-   Para obtener información sobre la programación de un informe enviado, consulte [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Para obtener información sobre la programación de un informe enviado, consulte [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

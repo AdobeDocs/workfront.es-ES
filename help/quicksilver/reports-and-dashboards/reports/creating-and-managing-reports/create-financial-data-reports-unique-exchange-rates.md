@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Crear informes de datos financieros con tipos de cambio únicos
-description: Si se han configurado varios tipos de cambio en Adobe Workfront, puede establecer valores financieros en informes y listas para que se muestren en una moneda distinta de la predeterminada.
+title: Crear informes de datos financieros con tasas de cambio únicas
+description: Si se han configurado varios tipos de cambio en Adobe Workfront, puede definir valores financieros en informes y listas para que se muestren en una moneda distinta a la predeterminada.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Crear informes de datos financieros con tipos de cambio únicos
+# Crear informes de datos financieros con tasas de cambio únicas
 
-Si se han configurado varios tipos de cambio en Adobe Workfront, puede establecer valores financieros en informes y listas para que se muestren en una moneda distinta de la predeterminada.
+Si se han configurado varios tipos de cambio en Adobe Workfront, puede definir valores financieros en informes y listas para que se muestren en una moneda distinta a la predeterminada.
 
 >[!IMPORTANT]
 >
->Si selecciona una moneda distinta de la predeterminada en una vista, ya no verá los vínculos **Agregar más tareas** y **Agregar más problemas** en la parte inferior de una lista de proyectos.
+>Si selecciona una moneda distinta a la predeterminada en una vista, ya no verá los vínculos **Agregar más tareas** y **Agregar más problemas** en la parte inferior de una lista de proyectos.
 
-Para obtener información sobre cómo cambiar la moneda predeterminada de un proyecto determinado, consulte [Cambiar la moneda del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
+Para obtener información sobre cómo cambiar la moneda predeterminada de un proyecto determinado, consulte [Cambiar la divisa del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 Si hay proyectos con una sola moneda en el informe, las sumas de las agrupaciones también se muestran en la moneda predeterminada del sistema.
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -43,37 +43,38 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
-Para poder ver las monedas alternativas tal como se describe en esta sección, el administrador de Workfront primero debe habilitar y configurar varias monedas en el área Configuración de Workfront. Para obtener más información, consulte [Configurar tipos de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para poder ver las divisas alternativas como se describe en esta sección, el administrador de Workfront debe activar y configurar primero varias divisas en el área de configuración de Workfront. Para obtener más información, consulte [Configurar tasas de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Aplicar valores financieros a un informe {#apply-financial-values-to-a-report}
+## Aplicación de valores financieros a un informe {#apply-financial-values-to-a-report}
 
-Para convertir valores financieros entre monedas al trabajar con informes:
+Para convertir valores financieros entre divisas al trabajar con informes:
 
-1. Vaya al informe en el que desea convertir valores financieros a una moneda diferente.
-1. Haga clic en el **Ver** lista desplegable, haga clic en **Cambiar moneda** y, a continuación, seleccione una de las siguientes monedas en la que desee mostrar los valores financieros:
+1. Vaya al informe en el que desea convertir los valores financieros a una moneda diferente.
+1. Haga clic en **Ver** , haga clic en **Cambiar divisa**, luego seleccione una de las siguientes monedas en la que desee mostrar los valores financieros:
 
-   * Moneda original del proyecto
-   * Cualquiera de las demás monedas
+   * Divisa original del proyecto
+   * Cualquiera de las otras monedas
 
-      >[!TIP]
-      >
-      >Solo puede elegir las monedas previamente seleccionadas en Configuración.
-   El uso de esta opción le permite convertir rápidamente valores financieros en un informe entre valores de tasa.
+     >[!TIP]
+     >
+     >Sólo puede seleccionar divisas previamente seleccionadas en Configuración.
 
-   ![Cambiar moneda](assets/qs-change-currency-2022-350x257.png)
+   El uso de esta opción le permite convertir rápidamente los valores financieros de un informe entre valores de tasa.
+
+   ![Cambiar divisa](assets/qs-change-currency-2022-350x257.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted this tip because I think this is confusing; this is in the step above.)</p>
@@ -91,83 +92,83 @@ Para convertir valores financieros entre monedas al trabajar con informes:
 
 ## Mostrar la moneda predeterminada en varios proyectos con distintas monedas
 
-Cuando personaliza la moneda en el nivel de proyecto y desea mostrar información de todos los proyectos del mismo informe, existen las siguientes situaciones:
+Cuando personaliza la moneda en el nivel de proyecto y desea mostrar información de todos los proyectos del mismo informe, existen los siguientes escenarios:
 
-* Si crea un informe que obtiene información financiera de dos o más proyectos que tienen distintas monedas aplicadas, de forma predeterminada el resumen de la agrupación refleja la moneda predeterminada del sistema seleccionada por el administrador de Workfront.
-* Si crea un informe para dos o más proyectos que tienen la misma moneda, pero difieren de los de la moneda predeterminada del sistema, las sumas de las agrupaciones se muestran utilizando la moneda predeterminada del sistema.
-* Si crea un informe para dos o más proyectos que tienen asignaciones de funciones asociadas con una anulación de moneda, Workfront convierte la información financiera de las tasas de divisa anuladas del rol de trabajo a la moneda del proyecto (cuando selecciona la Moneda original del proyecto en la vista) o a cualquier moneda diferente que seleccione al ver el informe. Para obtener información sobre cómo anular la moneda de una función de trabajo, consulte [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Si crea un informe que obtiene información financiera de dos o más proyectos a los que se han aplicado distintas divisas, el resumen de agrupación refleja de forma predeterminada la divisa predeterminada del sistema, según la haya seleccionado el administrador de Workfront.
+* Si crea un informe para dos o más proyectos que tienen la misma moneda, pero difieren de la moneda predeterminada del sistema, las sumas de las agrupaciones se muestran con la moneda predeterminada del sistema.
+* Si crea un informe para dos o más proyectos que tienen asignaciones de funciones asociadas a una sustitución de divisa, Workfront convierte la información financiera de las tasas de cambio de divisa sustituidas de la función a la divisa del proyecto (al seleccionar Divisa Original del Proyecto en la vista) o a cualquier divisa diferente que seleccione al consultar el informe. Para obtener información sobre cómo anular la moneda de un rol, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 Para mostrar dos proyectos con monedas personalizadas en un informe:
 
-1. Cree dos proyectos con distintas monedas aplicadas.
+1. Cree dos proyectos con diferentes monedas aplicadas.
 
    ![](assets/qs-currency-350x217.png)
 
-1. Inicie sesión en ambos proyectos.
+1. Registrar horas en ambos proyectos.
 
-   Para obtener más información sobre el tiempo de registro, consulte [Tiempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Para obtener más información sobre el registro del tiempo, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png)y haga clic en **Informes**.
-1. Haga clic en **Nuevo informe**, luego **Informe de proyecto**.
-1. En el **Columnas (Vista)** , agregue una **Costo real** y resumirlo por **Sum**.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png), luego haga clic en **Informes**.
+1. Clic **Nuevo informe**, entonces **Informe de proyecto**.
+1. En el **Columnas (vista)** pestaña, añadir una **Costo real** y lo resume por **Sum**.
 
-   Para obtener información sobre cómo crear una columna, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener información sobre cómo crear una columna, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Agrupaciones** , aplique un **Fecha de finalización planeada** agrupación.
+1. En el **Agrupaciones** pestaña, aplique una **Fecha planificada de finalización** agrupación.
 
-   Para obtener información sobre cómo crear una agrupación, consulte [Información general sobre las agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obtener información sobre cómo crear una agrupación, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. En el **Filtros** , agregue un filtro para **Nombre del proyecto** y seleccione los dos proyectos con las distintas monedas.
+1. En el **Filtros** pestaña, añadir un filtro para **Nombre de proyecto** y seleccione los dos proyectos con las distintas monedas.
 
-   Para obtener información sobre cómo crear un filtro, consulte [Información general sobre filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener información sobre cómo crear un filtro, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   El total de **Costo real** se muestra en la Agrupación utilizando la moneda predeterminada del sistema, independientemente de la moneda de los proyectos del informe.
+   El total de la **Costo real** se muestra en la variable Grouping using the system default currency, independientemente de la moneda de los proyectos del informe.
 
    ![Moneda mostrada en la agrupación](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
-   Si los dos proyectos tienen monedas diferentes entre sí, la moneda predeterminada del sistema también se muestra en la Agrupación del informe.
+   Si los dos proyectos tienen monedas diferentes, la moneda predeterminada del sistema también se muestra en la sección Agrupación del informe.
 
-## Mostrar la moneda del proyecto en un informe a nivel de proyecto
+## Mostrar la divisa del proyecto en un informe en el nivel de proyecto
 
-Si se aplica una agrupación a una lista de tareas o horas dentro de un proyecto, las sumas de la agrupación se muestran en la moneda del proyecto.
+Si se aplica una agrupación en una lista de tareas u horas dentro de un proyecto, las sumas de la agrupación se muestran en la moneda del proyecto.
 
-1. Cree un proyecto con una moneda personalizada, distinta de la moneda predeterminada del sistema.
-1. Vaya al proyecto y asegúrese de que incluye las horas que se han registrado para las tareas.
+1. Cree un proyecto con una moneda personalizada que no sea la moneda predeterminada del sistema.
+1. Vaya al proyecto y asegúrese de que incluye horas que se han registrado para tareas.
 
-   Para obtener más información sobre el tiempo de registro, consulte [Tiempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Para obtener más información sobre el registro del tiempo, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
-   >Las tareas deben asignarse a usuarios o funciones de trabajo con tasas de coste por hora.
+   >Las tareas deben asignarse a usuarios o roles con tasas de coste por hora.
 
-1. Haga clic en **Tareas**.
+1. Clic **Tareas**.
 1. Expanda el **Ver** menú desplegable y seleccione **Nueva vista**.
-1. Agregar **Costo real** en la nueva vista como una columna nueva y resumirla en **Sum**.
-1. Haga clic en **Listo** y haga clic en **Guardar vista**.
-1. Expanda el **Agrupación** menú desplegable y seleccione **Nuevo grupo**.
-1. Agregar **Fecha de finalización real** en la nueva agrupación como campo nuevo, haga clic en **Guardar agrupación**.
+1. Añadir **Costo real** en la nueva vista como una columna nueva y resuma el valor por **Sum**.
+1. Clic **Listo**, luego haga clic en **Guardar vista**.
+1. Expanda el **Agrupación** menú desplegable y seleccione **Nueva agrupación**.
+1. Añadir **Fecha real de finalización** en la nueva agrupación como un nuevo campo, haga clic en **Guardar agrupación**.
 
-   La variable **Costo real** resume en la nueva Agrupación y muestra el total en la moneda del proyecto.
+   El **Costo real** La columna resume la nueva agrupación y muestra el total en la moneda del proyecto.
 
 ## Editar informes con monedas únicas
 
 Los campos financieros de un informe no se pueden editar hasta que cambie la configuración del informe para mostrar la moneda original de los proyectos.
 
-Para editar en línea un campo financiero de un informe:
+Para editar en línea un campo financiero en un informe:
 
 1. Vaya a un informe.
 
    >[!NOTE]
    >
-   >Si la moneda predeterminada no se muestra para una lista en ninguna otra área, puede editar la vista para mostrar la moneda predeterminada.\
-   >Para obtener información sobre cómo cambiar la moneda en una vista, consulte la sección de este artículo [Aplicar valores financieros a un informe](#apply-financial-values-to-a-report).
+   >Si la moneda predeterminada no se muestra para una lista en ninguna otra área, puede editar la Vista para mostrar la moneda predeterminada.\
+   >Para obtener información sobre cómo cambiar la moneda en una vista, consulte la sección de este artículo [Aplicación de valores financieros a un informe](#apply-financial-values-to-a-report).
 
-1. Haga clic en **Acciones de informe** y, a continuación, seleccione **Editar**.
-1. Haga clic en **Configuración de informes**.
-1. Haga clic en el **Moneda predeterminada** desplegable y, a continuación, seleccione **Moneda original del proyecto**.
+1. Clic **Acciones de informe**, luego seleccione **Editar**.
+1. Clic **Configuración de informes**.
+1. Haga clic en **Moneda predeterminada** , luego seleccione. **Divisa original del proyecto**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Haga clic en **Listo**.
+1. Clic **Listo**.

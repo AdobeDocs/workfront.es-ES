@@ -2,19 +2,21 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Información general sobre filtros en Adobe Workfront
+title: Resumen de filtros
 description: Puede utilizar filtros en Adobe Workfront para reducir la cantidad de información que se muestra en la pantalla en listas, informes u otras áreas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
 
-# Información general sobre filtros en Adobe Workfront
+# Resumen de filtros
+
+<!-- Audited: 01/2024 -->
 
 Puede utilizar filtros en Adobe Workfront para reducir la cantidad de información que se muestra en la pantalla en listas, informes u otras áreas.
 
@@ -57,7 +59,7 @@ Para obtener información sobre los filtros rápidos, consulte [Aplicar el filtr
 
 Puede utilizar filtros permanentes creados por usted, otros o Workfront en listas o informes de objetos.
 
-Para obtener información sobre los objetos de Workfront y para qué objetos se pueden crear informes, consulte [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener información sobre los objetos de Workfront y para qué objetos se pueden crear informes, consulte [Información general sobre objetos Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Para obtener más información sobre los filtros en listas e informes, consulte los siguientes artículos:
 
@@ -70,7 +72,7 @@ Para obtener más información sobre los filtros en listas e informes, consulte 
 Puede utilizar filtros integrados o crear filtros personalizados en las siguientes áreas de Workfront:
 
 * Inicio\
-  Para obtener más información, consulte [Filtrado de la lista de trabajos](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) en el artículo [Mostrar elementos en la Lista de trabajos en el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Para obtener más información, consulte [Filtrado de la lista de trabajos](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) en el artículo [Mostrar elementos en la Lista de trabajos en el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Área de solicitudes. No puede personalizar filtros en el área de Solicitudes.
 
   Para obtener más información, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -80,7 +82,7 @@ Puede utilizar filtros integrados o crear filtros personalizados en las siguient
 
 * Informe de utilización
 
-  Para obtener más información, consulte la sección [Filtrar información de utilización](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) en el artículo [Ver información de utilización de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Para obtener más información, consulte la sección [Filtrar información de utilización](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) en el artículo [Ver información de utilización de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Distribuidor de cargas de trabajo
 
@@ -130,7 +132,7 @@ Puede utilizar filtros integrados o crear filtros personalizados en las siguient
 
 ## Información general sobre los filtros en listas e informes
 
-Al trabajar con listas e informes, puede filtrar la información en la pantalla mediante los siguientes tipos de filtros:
+Al trabajar con listas e informes, puede filtrar la información en la pantalla con los siguientes tipos de filtros:
 
 * filtros integrados
 * nuevos filtros que usted u otros usuarios creen desde cero
@@ -142,8 +144,9 @@ Al trabajar con listas e informes, puede filtrar la información en la pantalla 
 >Al crear o editar filtros en informes, debe editar el informe para que el nuevo filtro se convierta en el filtro predeterminado para el informe. Cuando edita únicamente el filtro, fuera de Report Builder, el filtro predeterminado del informe no se actualiza.\
 >Para obtener información sobre cómo editar un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obtener información sobre las listas de Workfront, consulte el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Para obtener información sobre los informes de Workfront, consulte el artículo [Introducción a los informes](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Para obtener información sobre las listas de Workfront, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+Para obtener información sobre los informes de Workfront, consulte [Introducción a los informes](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Tenga en cuenta lo siguiente al trabajar con filtros en listas o informes:
 
@@ -151,9 +154,9 @@ Tenga en cuenta lo siguiente al trabajar con filtros en listas o informes:
 
 * El administrador de Workfront debe otorgarle acceso de edición a filtros, vistas y agrupaciones para crear filtros permanentes.
 
-  Para obtener información sobre la concesión de acceso a filtros, vistas y agrupaciones, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obtener más información, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* El nivel de permisos para un filtro determina cómo se guardan los filtros. Si creó el filtro originalmente, puede guardar los cambios; de lo contrario, se le pedirá que guarde una versión del filtro que está modificando.
+* El nivel de permisos para un filtro determina cómo se guardan los filtros. Si creó el filtro originalmente, puede guardar los cambios. De lo contrario, se le pedirá que guarde una nueva versión del filtro que está modificando.
 
   >[!TIP]
   >
@@ -181,14 +184,14 @@ Un filtro contiene los siguientes elementos:
  <tbody> 
   <tr> 
    <td><strong>Objeto</strong></td> 
-   <td> <p>El objeto de base de datos Workfront del filtro. Para obtener información sobre los objetos de los que se puede informar en Workfront, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Explicación de los objetos en Adobe Workfront</a>. </p> <p>Por ejemplo, proyectos, tareas, problemas, usuarios y documentos pueden ser el objeto de un filtro. </p> </td> 
+   <td> <p>El objeto de base de datos Workfront del filtro. Para obtener información sobre los objetos de los que se puede informar en Workfront, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Información general sobre objetos Adobe Workfront</a>. </p> <p>Por ejemplo, los proyectos, las tareas, los problemas, los usuarios o los documentos pueden ser el objeto de un filtro. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Campo</strong></td> 
    <td> <p>Atributo del objeto por el que está filtrando. </p> <p>Por ejemplo, puede filtrar por Nombre de Portfolio o Propietario del proyecto. En estos casos, Nombre y Propietario son campos de los objetos Portfolio y Proyecto. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Valor</strong></p> </td> 
+   <td><strong>Valor</strong></td> 
    <td>El nombre real del campo en Workfront. Por ejemplo, Completar puede ser el valor de un campo Estado del proyecto. </td> 
   </tr> 
   <tr> 
@@ -241,14 +244,13 @@ Para obtener información sobre cómo crear un filtro mediante la interfaz del g
 
 ## Creación de filtros mediante la interfaz de modo de texto
 
-Puede crear filtros mediante la interfaz de modo de texto. Se recomienda crear la mayoría de las instrucciones de filtro utilizando la interfaz de generador estándar o beta y editar el código del filtro solo como paso final. No se recomienda crear un filtro desde cero utilizando solo la interfaz de modo de texto.
+Puede crear filtros mediante la interfaz de modo de texto. Se recomienda crear la mayoría de las instrucciones de filtro utilizando la interfaz de generador estándar o heredada y editar el código del filtro solo como paso final. No se recomienda crear un filtro desde cero utilizando solo la interfaz de modo de texto.
 
 Para obtener más información sobre la creación de un filtro mediante la interfaz de modo de texto, consulte [Edición de un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Creación de filtros para campos complejos
 
-* [Cree filtros para campos cuyos valores contengan comas](#create-filters-for-fields-whose-values-contain-commas)
-* [Cree filtros para cuyos valores sean un campo personalizado de selección múltiple](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+Puede crear filtros para campos complejos, como campos cuyos valores contienen comas y campos cuyos valores son un campo personalizado de selección múltiple.
 
 ### Cree filtros para campos cuyos valores contengan comas {#create-filters-for-fields-whose-values-contain-commas}
 
@@ -270,7 +272,7 @@ Si desea generar un filtro que busque solo proyectos donde la tercera opción es
 
 `DE:check_Mod=in`
 
-Esta sintaxis garantiza que los valores se lean juntos, como una opción. Si omite la barra diagonal, Workfront leerá la coma como &quot;O&quot;, en cuyo caso solo se seleccionarán los proyectos que tengan la primera o la segunda opción.
+Esta sintaxis garantiza que los valores se lean juntos, como una opción. Si omite la barra oblicua, Workfront lee la coma como un operador OR, en cuyo caso solo se seleccionarán los proyectos que tengan la primera o la segunda opción.
 
 Esta sintaxis también se aplica cuando se generan mensajes. Para obtener más información sobre el uso de indicadores, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
