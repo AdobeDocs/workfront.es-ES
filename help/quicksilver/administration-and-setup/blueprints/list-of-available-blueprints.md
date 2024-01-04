@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,10 @@ Este modelo contiene un solo tablero para ayudar a los administradores del siste
 **Realización de valores | Tablero de valor principal**
 
 Este modelo contiene un solo tablero con 21 informes que le ayudarán a medir el valor de Workfront. Estos informes le ayudan a traducir los beneficios de la centralización del trabajo y la administración de los procesos de trabajo en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
+
+[!BADGE ¡Nuevo!]{type=Informative}**Realización de valores | Proporcionar panel de servicios orientados al cliente**
+
+Este modelo contiene un solo tablero con 8 informes que le ayudarán a sacar el máximo partido a Workfront. Estos informes están diseñados para ayudarle a traducir los servicios orientados al cliente en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
 
 **Realización de valores | Revisar y aprobar panel**
 
