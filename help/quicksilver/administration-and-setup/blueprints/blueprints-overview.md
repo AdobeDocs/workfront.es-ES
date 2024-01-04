@@ -4,21 +4,25 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Información general de modelos
-description: Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted.
-author: Lisa
+description: Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso comunes en Workfront. Puede descargar e instalar un modelo y, a continuación, configurar los objetos para su caso de uso específico.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # Información general de modelos
 
+<!--Audited: 01/2024-->
+
 Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso comunes en Workfront. Puede descargar e instalar un modelo y, a continuación, configurar los objetos para su caso de uso específico.
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -32,7 +36,7 @@ Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso 
 >
 >   Este modelo contiene una plantilla para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una nueva experiencia positiva para los empleados y a un camino más rápido hacia la productividad.
 >
->* **Lista de comprobación de conceptos básicos de instancias heredadas**
+>* **Conceptos básicos de instancias heredadas | Lista de comprobación**
 >
 >    Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
 >
@@ -43,9 +47,9 @@ Los modelos proporcionan componentes básicos que le ayudarán a crear un sistem
 
 Cada modelo está dirigido a un departamento y a un nivel de madurez específico para ayudarle a implementar las prácticas recomendadas comprobadas en su sistema más rápido. Los niveles de vencimiento detallados a continuación se indican en la tarjeta del catálogo de modelos y detalles.
 
-**[!UICONTROL Gestionado]:** Las plantillas de proyecto administradas ayudan a apoyar la adopción de un nuevo proceso empresarial antes de que las actividades y los entregables se acepten completamente como un procedimiento estándar. Contienen tareas para garantizar que se sigue cada paso del nuevo proceso.
+* **[!UICONTROL Gestionado]:** Las plantillas de proyecto administradas ayudan a apoyar la adopción de un nuevo proceso empresarial antes de que las actividades y los entregables se acepten completamente como un procedimiento estándar. Contienen tareas para garantizar que se sigue cada paso del nuevo proceso.
 
-**[!UICONTROL Integrado]:** Las plantillas de proyecto integradas suponen que las funciones empresariales son compatibles mediante un procedimiento operativo estándar. Los colaboradores del proceso conocen los pasos y las tareas que deben completar para seguir el proceso. Las plantillas de proyecto compatibles con este proceso contienen menos tareas para realizar el seguimiento de hitos y otros resultados clave necesarios para la creación de informes.
+* **[!UICONTROL Integrado]:** Las plantillas de proyecto integradas suponen que las funciones empresariales son compatibles mediante un procedimiento operativo estándar. Los colaboradores del proceso conocen los pasos y las tareas que deben completar para seguir el proceso. Las plantillas de proyecto compatibles con este proceso contienen menos tareas para realizar el seguimiento de hitos y otros resultados clave necesarios para la creación de informes.
 
 ## Encuentre el modelo correcto
 
@@ -57,9 +61,9 @@ El tipo de modelo muestra lo que se incluye en el modelo. El tipo se muestra en 
 
 Están disponibles los siguientes tipos de modelos:
 
-* Plantillas de proyecto: incluye objetos estándar asociados a una plantilla de proyecto (tareas, problemas, roles y equipos) y algunas preferencias relacionadas con esos objetos. Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
-* Estructuras organizativas: incluye objetos asociados a la estructura de una organización (compañías, grupos, roles y equipos). Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
-* Paneles: Incluye uno o más paneles para un caso de uso específico, como los servicios de implementación.
+* **Plantillas de proyecto**: incluye objetos estándar asociados a una plantilla de proyecto (tareas, problemas, funciones y equipos) y algunas preferencias relacionadas con esos objetos. Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Estructuras organizativas**: incluye objetos asociados a la estructura de una organización (compañías, grupos, funciones y equipos). Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Paneles**: incluye uno o más paneles para un caso de uso específico, como los servicios de implementación.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -68,7 +72,7 @@ Están disponibles los siguientes tipos de modelos:
 
 Para revisar los modelos actuales, consulte [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
-### Ver  detalles
+### Ver detalles
 
 Cada modelo contiene una página de detalles. Desde esta página, puede:
 
@@ -82,7 +86,7 @@ Cada modelo contiene una página de detalles. Desde esta página, puede:
 
 ## Instalar un modelo
 
-El administrador del sistema puede instalar directamente en el entorno de producción o en entornos de zona protegida. Para obtener más información, consulte [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+Un administrador de Workfront puede instalar un modelo directamente en cualquier entorno (entornos de producción, vista previa o zona protegida). Para obtener más información, consulte [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
 
 Después de la instalación, es posible que no esté seguro de cuáles son las mejores acciones siguientes que debe realizar. Para obtener más información, consulte [Acciones que se deben realizar después de instalar un modelo](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
