@@ -6,9 +6,9 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ Puede probar y aprobar documentos vinculados a un proveedor de nube externo del 
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td>
+   <td> <p> Cualquiera</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td>
+   <td><p>Nuevo: Colaborador o superior</p>
+    <p>o</p>
+    <p>Actual: Solicitud o superior</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 

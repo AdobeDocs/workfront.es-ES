@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Administrar un proyecto en la vista de Agile
-description: Planes requeridos, tipos de licencia y acceso a los permisos de tipo de licencia de Adobe Workfront Plan Team, Pro, Business o Enterprise Workfront en el modelo de acceso Editar acceso y capacidad para crear informes, tableros y calendarios
-author: Alina
+description: Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 
 Al igual que con las vistas estándar en Workfront, puede personalizar las vistas Agile existentes o crear nuevas vistas Agile desde cero. A diferencia de las vistas estándar, no puede crear nuevas vistas de Agile basadas en las vistas de Agile existentes.
 
-Para obtener más información sobre la creación y personalización de vistas de Agile, consulte la sección &quot;Crear o personalizar una vista de Agile&quot; en el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener más información sobre la creación y personalización de vistas de Agile, consulte la [Creación o personalización de una vista de Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Compartir una vista de Agile existente
 
