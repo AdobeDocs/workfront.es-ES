@@ -9,7 +9,7 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -353,7 +353,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Método]</td> 
-   <td>Establezca la acción para la llamada de API. Para ver las acciones disponibles, consulte <a href="http://api.proofhq.com/">Documentación de API de revisión</a>.</td> 
+   <td>Establezca la acción para la llamada de API. Para ver las acciones disponibles, consulte <a href="https://api.proofhq.com/">Documentación de API de revisión</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 

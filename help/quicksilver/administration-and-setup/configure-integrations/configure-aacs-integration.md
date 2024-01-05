@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
 description: Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ Debe tener lo siguiente:
   <tr>
    <td><strong>[!DNL Adobe Workfront] licencias*</strong>
    </td>
-   <td>[!UICONTROL Plan]
+   <td>Actual: [!UICONTROL plan] <br>
+   Nuevo: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ Antes de empezar,
 
 ## Configuración de la información de integración
 
-1. Haga clic en **[!UICONTROL Menú principal]** en la esquina superior derecha de Adobe Workfront y haga clic en **[!UICONTROL Configurar]** .
+{{step-1-to-setup}}
+
 1. Seleccionar **[!UICONTROL Documentos]** en el panel izquierdo, seleccione **[!UICONTROL [!DNL Experience Manager]Integración]**.
 
    >[!NOTE]

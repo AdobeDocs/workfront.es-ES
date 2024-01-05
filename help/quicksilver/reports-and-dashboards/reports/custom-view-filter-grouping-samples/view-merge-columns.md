@@ -7,14 +7,16 @@ description: Puede combinar la información que se muestra en varias columnas in
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Ver: combinar información de varias columnas en una columna compartida
+
+<!-- Audited: 1/2024 -->
 
 Puede combinar la información que se muestra en varias columnas independientes y mostrarla en una columna compartida.
 
@@ -32,8 +34,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar una vista </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td> <p> Actual: 
+   <ul>
+   <li>Solicitud para modificar una vista</li> 
+   <li>Plan para modificar un informe</li>
+   </ul>
+     </p>
+     <p> Nuevo: 
+   <ul>
+   <li>Colaborador para modificar una vista</li> 
+   <li>Estándar para modificar un informe</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -77,7 +90,7 @@ Puede combinar los datos de varias columnas independientes para mostrarlos en un
 >
 >Este método se recomienda cuando se combinan dos columnas que nunca pueden mostrar un valor para el mismo registro al mismo tiempo. Por ejemplo, en un informe de elemento de trabajo, las columnas Nombre de problema y Nombre de tarea se pueden combinar sin un salto de línea entre ellas, porque un elemento de trabajo nunca puede tener un Nombre de problema y un Nombre de tarea al mismo tiempo. Un elemento de trabajo puede ser un problema o una tarea en Workfront.
 
-Para ello:
+Para combinar datos de dos columnas sin un salto de línea:
 
 1. Con el modo de texto de una vista, agregue el siguiente texto a la primera columna que desee combinar:
 

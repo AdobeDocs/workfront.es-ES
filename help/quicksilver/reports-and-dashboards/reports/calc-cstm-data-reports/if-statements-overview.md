@@ -7,7 +7,7 @@ description: Puede utilizar instrucciones "IF" en lenguajes de programación gen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Información general sobre las instrucciones &quot;IF&quot;
+
+<!-- Audited: 1/2024 -->
 
 Puede utilizar instrucciones &quot;IF&quot; en lenguajes de programación generales. En Adobe Workfront, las instrucciones &quot;IF&quot; permiten comparar, dar formato y agrupar campos de datos para fines de creación de informes y datos personalizados. Además, pensar matemáticamente en las frases &quot;IF&quot; conduce a una mejor comprensión conceptual, ya que las variables para expresiones se utilizan comúnmente.
 
@@ -44,10 +46,10 @@ Tenga en cuenta lo siguiente antes de crear una instrucción &quot;IF&quot;:
 Puede crear instrucciones &quot;IF&quot; en Workfront con el siguiente formato:
 <pre>IF(Condición,Expresión verdadera,Expresión falsa)</pre>Los componentes de una instrucción "IF" son:
 
-* **IF**= Es la expresión de datos calculados por Workfront para &quot;función&quot;. Similar a las expresiones SUMA y PROD, esto primero indica al sistema que comprenda la función como una sentencia &quot;IF&quot;. Utilice siempre mayúsculas para &quot;IF&quot; en esta instrucción.\
+* **IF** = Es la expresión de datos calculados por Workfront para &quot;función&quot;. Similar a las expresiones SUMA y PROD, esto primero indica al sistema que comprenda la función como una sentencia &quot;IF&quot;. Utilice siempre mayúsculas para &quot;IF&quot; en esta instrucción.\
   Para obtener una lista de todas las expresiones de datos calculados, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Condición**= Esta es la condición que debe cumplir la variable de Workfront y es la base de esta ecuación. Todo lo que se puede especificar posteriormente en la ecuación depende de la condición. Puede utilizar varias referencias, comparaciones o expresiones matemáticas para iniciar una ecuación. Algunos ejemplos de condiciones son los siguientes:
+* **Condición** = Esta es la condición que debe cumplir la variable de Workfront y es la base de esta ecuación. Todo lo que se puede especificar posteriormente en la ecuación depende de la condición. Puede utilizar varias referencias, comparaciones o expresiones matemáticas para iniciar una ecuación. Algunos ejemplos de condiciones son los siguientes:
 
    * Una fecha es posterior a otra fecha en un objeto especificado.
    * Un estado es igual a uno de los estados disponibles en un objeto especificado.
@@ -55,9 +57,9 @@ Puede crear instrucciones &quot;IF&quot; en Workfront con el siguiente formato:
 
 * **Operador de condición** = este es el operador que le ayuda a crear la condición de la instrucción &quot;IF&quot;. Por ejemplo, &quot;es igual a&quot; o &quot;es mayor que&quot; son operadores de condición. Para obtener una lista de los operadores de condición que puede utilizar en las instrucciones, consulte [Operadores de condición en expresiones personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Expresión **** verdadero**= Esta es la variable &quot;True&quot;, que indica a la ecuación qué indicador se mostrará una vez que se cumplan los criterios de la condición (indicadores verdaderos).
+* **Expresión **** verdadero** = Esta es la variable &quot;True&quot;, que indica a la ecuación qué indicador se mostrará una vez que se cumplan los criterios de la condición (indicadores verdaderos).
 
-* **Expresión falsa**= Esta es la variable &quot;False&quot;, que indica a la ecuación qué indicador mostrar cuando no se cumplen los criterios de la condición (indicadores falsos).
+* **Expresión falsa** = Esta es la variable &quot;False&quot;, que indica a la ecuación qué indicador mostrar cuando no se cumplen los criterios de la condición (indicadores falsos).
 
 En el ejemplo siguiente, se utiliza el formato de instrucción original para escribir una expresión de datos simple para una instrucción &quot;IF&quot;. La expresión compara dos campos de fecha diferentes en Workfront seguidos de un resultado Verdadero/Falso como cadena de datos:
 

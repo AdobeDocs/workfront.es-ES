@@ -6,7 +6,7 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Crear nuevo tablero
 
 {{step1-to-boards}}
+
 1. Clic **[!UICONTROL Añadir tablero]**.
 
 1. Seleccione una plantilla para el tablero.
@@ -98,6 +99,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Editar un tablero existente
 
 {{step1-to-boards}}
+
 1. En el tablero, seleccione el tablero que desea abrir.
 1. Edite el tablero según sea necesario. Puede hacer clic en el nombre del tablero para cambiarle el nombre.
 

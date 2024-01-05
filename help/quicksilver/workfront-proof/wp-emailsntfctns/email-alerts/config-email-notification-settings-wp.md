@@ -7,9 +7,9 @@ description: Las notificaciones por correo electrónico generadas desde Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ Las notificaciones por correo electrónico informan a los colaboradores sobre la
 
 Puede establecer notificaciones por correo electrónico para los revisores en las siguientes áreas:
 
+## Requisitos de acceso
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proof independiente</td> 
+  </tr> 
+</table>
+
+Las notificaciones por correo electrónico para los revisores se pueden configurar en la página Nueva prueba, [!UICONTROL Nueva versión] y se gestionan en la [!UICONTROL Flujo de trabajo] de la sección [!UICONTROL Detalles de revisión] página. Para obtener más información, consulte [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * La página Nueva prueba
 * El [!UICONTROL Nueva versión] página
 * El [!UICONTROL Flujo de trabajo] de la sección [!UICONTROL Detalles de revisión] página.
 
 Para obtener más información, consulte [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Administrar detalles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Cada usuario también puede definir su propia configuración de alertas por correo electrónico que se aplica automáticamente cuando se comparte una prueba con él si los colaboradores tienen sus preferencias o si los administradores de cuenta tienen su recomendación sobre la frecuencia de las alertas. Esto puede establecerse como prueba predeterminada en las páginas de detalles de los usuarios.
 
 Cada usuario también puede establecer su propia configuración de alertas por correo electrónico que se aplicará automáticamente cuando se comparta una prueba con él. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

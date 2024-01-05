@@ -3,9 +3,10 @@ title: Aplicación móvil Workfront Proof
 description: Obtenga información acerca de la aplicación móvil Workfront Proof.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,6 @@ Requiere iOS 7.0 o posterior. Android 4.0 y versiones posteriores. Compatible co
 >[!IMPORTANT]
 >
 >La aplicación móvil Workfront Proof ya no es compatible y está disponible tal cual.  No se solucionará ningún problema en la aplicación.
-
-
-Descargue nuestro [!DNL Workfront Proof] Aplicación móvil directamente desde [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) o el [Tienda Google Play](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
 
 Para dispositivos iOS, asegúrese de desinstalar el anterior [!DNL Workfront Proof] para dispositivos iOS antes de instalar la nueva aplicación.
 
