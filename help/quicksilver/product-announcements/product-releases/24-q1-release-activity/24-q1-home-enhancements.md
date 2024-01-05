@@ -4,9 +4,9 @@ description: Mejoras en el hogar del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Esta página describe todas las mejoras realizadas en el hogar con la versión del primer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del primer trimestre de 2024.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2024, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Nuevo widget de aprobaciones pendientes disponible
+
+Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio. Aquí puede ver una lista de los usuarios asignados para aprobar o revisar los documentos de los proyectos que posee, ver el estado de su revisión o aprobación y recordar a los revisores y aprobadores que completen su revisión o aprobación.
+
+Para obtener más información sobre los widgets de Inicio, consulte [Introducción a la nueva página Inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Controles de administrador para el nuevo Inicio mediante plantillas de diseño
 
