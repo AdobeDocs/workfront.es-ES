@@ -6,9 +6,9 @@ description: Puede agregar documentos a proyectos, tareas o problemas en varias 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Para agregar un documento:
 1. Vaya al proyecto, tarea o problema en el que desee agregar un documento nuevo.
 1. Haga clic en **Documentos** y, a continuación, haga clic en **Añadir nuevo** menú desplegable.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Según el tipo de documento que desee agregar, realice una de las acciones siguientes:
 
@@ -98,7 +98,7 @@ Para agregar un documento:
         <li value="1">Desde el <strong>Añadir nuevo</strong> menú desplegable, seleccione <strong>Solicitar un documento</strong>.</li> 
         <li value="2">En el <strong>¿A quién se lo solicita?</strong> , escriba el nombre del usuario desde el que desea solicitar el documento.</li> 
         <li value="3">En el <strong>Dígales lo que está solicitando</strong> , escriba el nombre del documento.</li> 
-        <li value="4"> <p>Clic <strong>Enviar solicitud</strong>.</p> <p>La solicitud se mostrará en la ficha Documentos.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Para obtener más información sobre la solicitud de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar un documento</a>.</p> </li> 
+        <li value="4"> <p>Clic <strong>Enviar solicitud</strong>.</p> <p>La solicitud se mostrará en la ficha Documentos.</p> <p>Para obtener más información sobre la solicitud de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar un documento</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
