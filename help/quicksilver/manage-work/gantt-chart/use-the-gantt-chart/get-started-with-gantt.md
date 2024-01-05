@@ -6,14 +6,16 @@ description: Los diagramas de Gantt de Adobe Workfront proporcionan una represen
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 1%
 
 ---
 
 # Introducción a la [!UICONTROL Gráfico Gantt]
+
+<!-- Audited: 01/2024 -->
 
 Los diagramas de Gantt de Adobe Workfront proporcionan una representación visual de la cronología de una lista de tareas o proyectos.
 
@@ -35,7 +37,7 @@ Aunque se ven y se sienten similares, la funcionalidad de cada uno es diferente.
 * Puede configurar la información que se muestra en la lista de tareas [!UICONTROL Gráfico Gantt] y la lista de proyectos [!UICONTROL Gráfico Gantt].
 * No se pueden configurar los colores ni las fuentes en los que la variable [!UICONTROL Gráfico Gantt] se muestra la información.
 * Cuando se actualiza la información de las tareas, se refleja automáticamente en ambas listas de tareas [!UICONTROL Gráfico Gantt] y la lista de proyectos [!UICONTROL Gráfico Gantt].
-* Cuando se actualiza la información de las tareas de plantilla, se refleja automáticamente en la lista de tareas de plantilla [!UICONTROL Gráfico Gantt].
+* Cuando la información se actualiza desde las tareas de plantilla, se refleja automáticamente en la lista de tareas de plantilla [!UICONTROL Gráfico Gantt].
 
 ## Acceda a la [!UICONTROL Gráfico Gantt]
 
@@ -44,9 +46,6 @@ El [!UICONTROL Gantt] gráficos en [!DNL Workfront]  proporciona una representac
 Puede ver la lista de tareas [!UICONTROL Gráfico Gantt] directamente desde la lista de tareas de un proyecto o desde un informe de tareas.
 
 Puede ver la lista de proyectos [!UICONTROL Gráfico Gantt] en una lista de proyectos o un informe de proyecto.
-
-* [Lista de tareas [!UICONTROL Gráfico Gantt]](#task-list-gantt-chart)
-* [Lista de proyectos [!UICONTROL Gráfico Gantt]](#project-list-gantt-chart)
 
 ### Lista de tareas [!UICONTROL Gráfico Gantt] {#task-list-gantt-chart}
 
@@ -82,7 +81,7 @@ Para acceder a la lista de tareas [!UICONTROL Gráfico Gantt] de un proyecto o u
    * [!UICONTROL Asignaciones]
    * [!UICONTROL Línea base]
    * [!UICONTROL Fecha de confirmación]
-   * [!UICONTROL % Completar]
+   * [!UICONTROL % completado]
    * [!UICONTROL Ruta crítica]
    * [!UICONTROL Diamantes de hito]
    * [!UICONTROL Líneas de hito]
@@ -122,7 +121,7 @@ Para acceder a la lista de proyectos [!UICONTROL Gráfico Gantt]:
 1. Para configurar la información que desea mostrar en el proyecto [!UICONTROL Gantt] , haga clic en el [!UICONTROL **Configuración**] y, a continuación, active cualquiera de las siguientes opciones:
 
    * [!UICONTROL Fechas reales]
-   * [!UICONTROL % Completar]
+   * [!UICONTROL % completado]
    * [!UICONTROL Diamantes de hito]
    * [!UICONTROL Líneas de hito]
    * [!UICONTROL Predecesoras]
