@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
+source-git-commit: d07902daa53c83b6ee50dbb53bc84b42f6098407
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Este modelo contiene la configuración de estructuras organizativas para ampliar
 **[!UICONTROL Configuración de organización de tecnología de información]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de tecnología de la información.
 
-**[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
+[!BADGE ¡Nuevo!]{type=Informative}**[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
 Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
 
 **[!UICONTROL Ejecución de campaña integrada]**
@@ -79,7 +79,7 @@ Este modelo contiene una plantilla para el [!DNL Workfront professional services
 **[!UICONTROL Nueva preparación para la contratación]**
 Este modelo contiene una plantilla para el [!DNL Workfront] La organización de servicios profesionales ha utilizado durante años los compromisos de implementación con los equipos de Recursos Humanos para animar a los especialistas en Recursos Humanos y a los directores de contratación a completar las actividades esenciales para que el primer día de un nuevo empleado sea notable.
 
-**Descarga | Panel de usuario saliente**
+[!BADGE ¡Nuevo!]{type=Informative}**Descarga | Panel de usuario saliente**
 
 Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para que un usuario se traslade a una función o grupo nuevo para reasignar su trabajo.
 
@@ -104,7 +104,7 @@ Este modelo contiene la configuración de estructuras organizativas para ampliar
 **[!UICONTROL Seguimiento del proceso de contratación]**
 Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas empresariales a realizar un seguimiento del progreso de las solicitudes de plantilla. Está diseñado para admitir un nivel de madurez gestionado.
 
-**Preparación de administración de recursos**
+[!BADGE ¡Nuevo!]{type=Informative}**Preparación de administración de recursos**
 
 Utilice esta plantilla de proyecto y el informe de usuarios para asegurarse de que dispone de la configuración y la información correctas necesarias para generar datos precisos de administración de recursos.
 
@@ -126,7 +126,7 @@ Este modelo contiene una plantilla para el [!DNL Workfront] la organización de 
 **[!UICONTROL Tablero de mantenimiento del administrador del sistema]**
 Este modelo contiene un solo tablero para ayudar a los administradores del sistema a mantener y limpiar el sistema periódicamente de otros desorden que puedan acumularse con el tiempo.
 
-**Realización de valores | Tablero de valor principal**
+[!BADGE ¡Nuevo!]{type=Informative}**Realización de valores | Tablero de valor principal**
 
 Este modelo contiene un solo tablero con 21 informes que le ayudarán a medir el valor de Workfront. Estos informes le ayudan a traducir los beneficios de la centralización del trabajo y la administración de los procesos de trabajo en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
 
@@ -134,7 +134,7 @@ Este modelo contiene un solo tablero con 21 informes que le ayudarán a medir el
 
 Este modelo contiene un solo tablero con 8 informes que le ayudarán a sacar el máximo partido a Workfront. Estos informes están diseñados para ayudarle a traducir los servicios orientados al cliente en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
 
-**Realización de valores | Revisar y aprobar panel**
+[!BADGE ¡Nuevo!]{type=Informative}**Realización de valores | Revisar y aprobar panel**
 
 Este modelo contiene un solo tablero con 7 informes que le ayudarán a descubrir el valor de Workfront. Estos informes le ayudan a traducir los valores de Revisión y Aprobación del trabajo en beneficios mensurables que puede seguir con el tiempo para obtener mejores resultados.
 
