@@ -3,32 +3,31 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Creación de una programación
-description: Puede definir las semanas laborables de los usuarios mediante horarios. Puede asociar una programación a un usuario o proyecto. Esto permite [!DNL Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario.
-author: Caroline
+description: Puede definir las semanas laborables de los usuarios con horarios. Puede asociar una programación a un usuario o proyecto. Esto permite [!DNL Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario.
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Creación de una programación
 
+<!--Audited: 01/2024-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
-Como un [!DNL Adobe Workfront] administrador, puede definir la semana laboral utilizando los horarios. Puede asociar una programación a un usuario o proyecto. Esto permite [!DNL Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario.
+Como un [!DNL Adobe Workfront] administrador, puede definir la semana laboral con horarios. Puede asociar una programación a un usuario o proyecto. Esto permite [!DNL Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario.
 
 Cuando tiene usuarios que trabajan en zonas horarias diferentes, la creación de una programación en cada una de ellas y su asociación con esos usuarios garantizan que su trabajo se registre en [!DNL Workfront] en tiempo real y que su disponibilidad sea siempre precisa en función del momento en el que trabajen.
 
-Para obtener información sobre cómo asociar programaciones con usuarios y proyectos, vea los siguientes artículos:
-
-* [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md)
+Para obtener información sobre cómo asociar programaciones con usuarios y proyectos, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) y [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Los administradores de grupos también pueden crear programaciones asociadas a los grupos que administran. Para obtener más información, consulte [Crear y modificar las programaciones de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -45,50 +44,55 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de [!UICONTROL Adobe Workfront]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nuevo: [!UICONTROL Standard]</p>
+       <p>O</p>
+       <p>Actual: [!UICONTROL plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td>Debe ser un [!DNL Workfront] administrador. </td> 
   </tr> 
  </tbody> 
 </table>
 
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Creación de una programación
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Clic **[!UICONTROL Horarios]**.
 1. Clic **[!UICONTROL Nuevo horario]**.
-1. Especifique un nombre para la programación.
+1. Introduzca un nombre para la programación.
 1. (Opcional) Seleccione **[!UICONTROL Horario predeterminado]** para identificar esta programación como predeterminada.
 
-   Puede haber más de una programación en [!DNL Workfront], pero solo puede tener un horario predeterminado.
-
    Debe haber al menos una programación en [!DNL Workfront]. Si solo tiene uno, se designa como el horario predeterminado.
+
+   Puede tener más de una programación, pero solo puede tener una predeterminada.
 
    >[!NOTE]
    >
    >No puede designar una programación como predeterminada si es administrador de un grupo. Solo una [!DNL Workfront] Un administrador puede designar una programación como predeterminada para el sistema.
 
-   ![](assets/new-schedule.png)
+   ![Nueva programación](assets/new-schedule.png)
 
 1. En el **[!UICONTROL Programación]** pestaña, seleccione una programación diaria arrastrando el contorno azul a través de bloques de horas para resaltarlos.
 
    Le recomendamos que seleccione 8 bloques de una hora durante un periodo de 9 horas. Este alojamiento sirve almuerzos y otras pausas.
 
-   ![](assets/new-schedule-with-exceptions.png)
+   ![Bloqueos de tiempo en una programación](assets/new-schedule-with-exceptions.png)
 
-1. En el **[!UICONTROL Detalles]** pestaña, especifique la siguiente información:
+1. En el **[!UICONTROL Detalles]** , introduzca la siguiente información:
 
    <table style="table-layout:auto">
     <tr>
      <td>[!UICONTROL Grupo con acceso de administración]</td>
-     <td><p>Indique el grupo cuyos administradores tienen permiso para editar esta programación.</p>
+     <td><p>Seleccione el grupo cuyos administradores tengan permisos para editar esta programación.</p>
      <p><b>IMPORTANTE</b>:</p>
       <ul>
        <li>
@@ -105,12 +109,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tr>
     <tr>
      <td>[!UICONTROL Grupos con acceso de visualización]</td>
-     <td><p>Seleccione los grupos con acceso a [!UICONTROL View] para los que es visible esta programación.</p>
+     <td><p>Seleccione los grupos con acceso a [!UICONTROL View] que puedan ver esta programación.</p>
      <p>Solo los usuarios de los grupos especificados aquí pueden encontrar la programación en el menú desplegable cuando la asignan a usuarios o proyectos.</p></tr>
     <tr>
      <td>[!UICONTROL Zona horaria]</td>
-     <td><p>Seleccione el huso horario de la programación.</p>
-     <p>Si asocia la programación con un usuario, le recomendamos que la zona horaria de la programación coincida con la del usuario.Para obtener información sobre las zonas horarias del usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario.
+     <td><p>Seleccione la zona horaria de la programación.</p>
+     <p>Si asocia la programación con un usuario, le recomendamos que la zona horaria de la programación coincida con la del usuario. Para obtener información sobre las zonas horarias del usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario.
      </td>
     </tr>
    </table>
@@ -126,11 +130,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Los días completos o parciales pueden excluirse del horario de trabajo. Haga clic en la fecha para seleccionarla como excepción y, a continuación, seleccione **[!UICONTROL Todo el día]** para indicar si la excepción es un día completo o no.
 
-   ![](assets/schedule-adding-an-all-day-exception.png)
+   ![Excepción de todo el día](assets/schedule-adding-an-all-day-exception.png)
 
-1. Especifique la hora de inicio y finalización para las excepciones de día parciales.
+1. Introduzca la hora de inicio y finalización para las excepciones de día parciales.
 
-   ![partial-day-exception-on-schedules.png](assets/partial-day-exception-on-schedules.png)
+   ![Excepción de día parcial](assets/partial-day-exception-on-schedules.png)
 
 1. Clic **[!UICONTROL Guardar]**, luego haga clic en **[!UICONTROL Guardar] Cambios**.
 

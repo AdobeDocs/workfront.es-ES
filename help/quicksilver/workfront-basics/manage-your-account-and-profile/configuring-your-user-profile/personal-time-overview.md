@@ -7,10 +7,10 @@ description: Es importante indicar en Adobe Workfront cuándo se produce el tiem
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td> <p>Nuevo: Estándar (para configurar sus días libres personales)</p>
         <p>o</p>
         <p>Actual: Trabaje o superior (para configurar sus días libres personales)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td>[!UICONTROL Manager] con acceso de [!UICONTROL Editar usuario] (para realizar cambios en el calendario de días libres de otros usuarios)<br>
    <strong>NOTA:</strong> Si un administrador edita el calendario personal de días libres de otro usuario, todas las entradas se muestran en la zona horaria del usuario y no en la del administrador.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configuración del tiempo libre personal en [!DNL Workfront]
 

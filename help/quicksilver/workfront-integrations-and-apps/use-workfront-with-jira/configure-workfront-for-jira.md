@@ -6,9 +6,9 @@ description: Puede utilizar [!DNL Adobe Workfront for Jira] para integrar su [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] [plan]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] [plan]</td> 
    <td><p>Nuevo: Cualquiera</p>
        <p>o</p>
        <p>Actual: [!UICONTROL Pro] o superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard] </p>
        <p>o</p> 
        <p>Actual: [!UICONTROL plan] </p>
@@ -54,13 +54,13 @@ Debe tener lo siguiente:
    <td> <p>Acceso de administrador del sistema</p> <p>Importante: Le recomendamos que cree cuentas de administrador del sistema independientes en [!DNL Jira] y [!DNL Workfront] para dedicarse a esta integración, en lugar de utilizar las existentes que podrían adjuntarse a los usuarios.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador. Para obtener información sobre [!DNL Workfront] administradores, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe ser un [!DNL Workfront] administrador.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
