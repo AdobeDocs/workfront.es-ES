@@ -4,9 +4,9 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
 
 >[!NOTE]
 >
->Los administradores del sistema no pueden ver ni compartir vistas que no hayan creado ellos mismos.
+>Los administradores del sistema no pueden ver ni compartir vistas que no hayan creado ellos mismos. Solo pueden ver o compartir vistas que se han compartido con ellos.
 
 
-Para compartir un espacio de trabajo con otros usuarios:
+Para compartir una vista con otros usuarios:
 
 {{step1-to-maestro}}
 
-1. Abra el espacio de trabajo que desee compartir y, a continuación, haga clic en una tarjeta Tipo de registro.
+1. Abra el espacio de trabajo cuya vista desee compartir y, a continuación, haga clic en una tarjeta Tipo de registro.
 
    Se abre la página de tipo de registro.
 
@@ -98,7 +98,7 @@ Para compartir un espacio de trabajo con otros usuarios:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. En el **Conceder acceso al espacio de trabajo a** , empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.
+1. En el **Conceder acceso de visualización a** , empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Para compartir un espacio de trabajo con otros usuarios:
 
 {{step1-to-maestro}}
 
-1. Abra el espacio de trabajo que desee compartir y, a continuación, haga clic en una tarjeta Tipo de registro.
+1. Abra el espacio de trabajo cuya vista desee compartir y, a continuación, haga clic en una tarjeta Tipo de registro.
 
    Se abre la página de tipo de registro.
 
 1. En el menú desplegable de vista, pase el ratón sobre la vista que quiera compartir y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Compartir**.
 
-1. Busque el usuario o grupo que desea quitar y haga clic en **Eliminar**.
+1. Busque el usuario o grupo que desea quitar y haga clic en **Eliminar** en el menú desplegable de permisos, a la derecha del nombre del usuario o grupo.
 
 1. Haga clic en **Guardar**.
 

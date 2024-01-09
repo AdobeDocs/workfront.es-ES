@@ -4,9 +4,9 @@ description: En Adobe Maestro, puede crear campos de fórmula que utilicen funci
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro. No se puede hacer referencia a campos de otros tipos de registro al crear un campo de fórmula. <!--is this still accurate??-->
 * No se puede cambiar el tipo de campo de un campo Formula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
-* No se pueden utilizar campos de búsqueda de tipos de registros vinculados.
 * Debe agregar los campos a los que hace referencia en las fórmulas tal y como se muestran en la interfaz de Maestro.
+* El uso de campos de búsqueda de tipos de registro vinculados en una fórmula estará disponible en una fecha posterior.
 
 ## Fórmulas compatibles
 

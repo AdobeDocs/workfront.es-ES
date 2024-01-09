@@ -1,14 +1,14 @@
 ---
 title: Información general sobre los permisos de uso compartido en Adobe Maestro
-description: Puede compartir o quitar permisos en un área de trabajo de Adobe Maestro creada.
+description: Puede compartir o quitar permisos en un área de trabajo o vista de Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 4%
 >
 >Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
 
-Puede compartir o quitar permisos en un área de trabajo de Adobe Maestro creada.
+Puede compartir o quitar permisos en un área de trabajo o vista de Adobe Maestro.
+
+Este artículo describe los niveles de permisos para los objetos Maestro.
+
+Para obtener información sobre cómo compartir espacios de trabajo o vistas, consulte los siguientes artículos:
+
+* [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Compartir una vista](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objetos que puede compartir en Adobe Maestro
 
@@ -48,6 +56,8 @@ Puede compartir los siguientes objetos en Maestro:
 
    * Nuevo modelo de precios: licencia estándar
    * Modelo de precio actual: Licencia de trabajo o superior
+
+  Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Los administradores del sistema pueden administrar y compartir espacios de trabajo creados por otros usuarios.
 * Si no es administrador del sistema, puede contribuir a los espacios de trabajo creados por otros usuarios si los comparten con usted.
 * No puede compartir espacios de trabajo de forma masiva.
@@ -58,30 +68,89 @@ Puede compartir los siguientes objetos en Maestro:
 
 ## Permisos de uso compartido para objetos Maestro
 
-En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al compartir un área de trabajo o vista de Maestro:
+Las tablas de las secciones siguientes ilustran el nivel de permisos que puede seleccionar al compartir un área de trabajo o vista de Maestro y la funcionalidad que permite cada nivel.
 
+### Permisos de Workspace
+
+|        | Administrar | Contribuir | Ver |
+|--------|--------|------------|-------|
+| Editar | ✓ |            |       |
+| Compartir | ✓ |            |       |
+| Eliminar | ✓ |            |       |
+| Ver | ✓ | ✓ | ✓ |
+
+### Permisos de tipo de registro
+
+Los permisos de Tipo de registro se heredan al conceder permisos al espacio de trabajo.
+
+|        | Administrar | Contribuir | Ver |
+|--------|--------|------------|-------|
+| Crear | ✓ |            |       |
+| Eliminar | ✓ |            |       |
+| Editar | ✓ |            |       |
+| Ver | ✓ | ✓ | ✓ |
+
+### Permisos de registro
+
+Los permisos de registro se heredan al conceder permisos al espacio de trabajo.
+
+|        | Administrar | Contribuir | Ver |
+|--------|--------|------------|-------|
+| Crear | ✓ |            |       |
+| Eliminar | ✓ | ✓ |       |
+| Editar | ✓ | ✓ |       |
+| Ver | ✓ | ✓ | ✓ |
+
+### Permisos de campo
+
+Los permisos de campo se heredan al conceder permisos al espacio de trabajo.
+Los siguientes permisos hacen referencia a los propios campos y no a los valores asociados a cada campo. Para editar valores de campo, debe tener permisos para editar registros.
+
+|        | Administrar | Contribuir | Ver |
+|--------|--------|------------|-------|
+| Crear | ✓ |            |       |
+| Eliminar | ✓ |            |       |
+| Editar | ✓ |            |       |
+| Ver | ✓ | ✓ | ✓ |
+
+
+### Ver permisos
+
+Debe conceder permisos independientes a las vistas de registros. La concesión de permisos al espacio de trabajo no concede permisos a las vistas de registros del espacio de trabajo.
+
+|        | Administrar | Ver |
+|--------|--------|-------|
+| Editar | ✓ |       |
+| Eliminar | ✓ |       |
+| Ver | ✓ | ✓ |
+| Aplicar | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
+   </td>
   </tr>
   <tr>
    <td>
    </td>
    <td>
    </td>
-   <td><p><b>Nuevo: licencia estándar</b></p> <p><b>Actual: licencia de trabajador o superior</b></p></strong>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
    </td>
-   <td><strong>Administración de permisos</strong>
+   <td><strong>Manage permissions</strong>
    </td>
-   <td><strong>Permisos de Contribute</strong>
+   <td><strong>Contribute permissions</strong>
    </td>
-   <td><strong>Ver permisos</strong>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Crear</strong>
+   <td><strong>Create</strong>
    </td>
    <td rowspan="5" ><strong>Workspace</strong>
    </td>
@@ -95,7 +164,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Eliminar</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +176,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Compartir</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +188,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -131,7 +200,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Vista</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -143,21 +212,9 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Crear/eliminar</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Tipo de registro*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Editar</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
    </td>
    <td>✓
    </td>
@@ -169,7 +226,19 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Vista</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +250,9 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Crear/eliminar</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Registro*</strong>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Vista</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
   </tr>
   <tr>
    <tr>
-   <td><strong>Crear</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Vista</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Eliminar</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Compartir</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Vista</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
   </tr>
 
 <tr>
-   <td><strong>Crear/eliminar</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Campos*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
    </td>
   </tr>
   <tr>
-   <td><strong>Vista</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ En la tabla siguiente se ilustra el nivel de permisos que puede seleccionar al c
 
 </table>
 
-*Los tipos de registro, registros y campos heredan los permisos del espacio de trabajo.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Para obtener información general sobre el acceso en Maestro, consulte [Información general sobre los permisos de uso compartido en Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Para obtener información sobre cómo compartir espacios de trabajo, consulte [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Para obtener información sobre cómo compartir vistas, consulte [Compartir una vista](/help/quicksilver/maestro/access/share-views.md)
 
