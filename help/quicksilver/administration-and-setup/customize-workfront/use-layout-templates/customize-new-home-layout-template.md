@@ -7,9 +7,9 @@ description: Puede utilizar una plantilla de diseño para configurar lo que ven 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Si establece un filtro o una agrupación predeterminados para un widget específico mediante una plantilla de diseño, es posible que no surta efecto inmediatamente debido a las preferencias de usuario existentes. Para aplicar el nuevo filtro o agrupación inmediatamente, es posible que usted o el usuario tengan que restablecer sus preferencias de usuario añadiendo &quot;/resetUser&quot; al final de su URL.
 
 1. Siga personalizando la plantilla de diseño.
 

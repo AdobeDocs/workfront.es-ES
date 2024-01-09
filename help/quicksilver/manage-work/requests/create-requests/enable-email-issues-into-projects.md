@@ -1,25 +1,25 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitud
-description: Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitud
+title: Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
+description: Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: ca3c28174dca24f14a75869bdc209569d8d8d1a0
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
-# Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitud
+# Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Puede permitir que los problemas se envíen por correo electrónico a un proyecto solo si el proyecto está designado como cola de solicitud. Para obtener más información sobre la creación de un proyecto de cola de solicitud, consulte [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Puede permitir que los problemas se envíen por correo electrónico a un proyecto solo si el proyecto está designado como Cola de solicitudes. Para obtener más información sobre la creación de un proyecto de la cola de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisitos de acceso
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,58 +53,56 @@ Si todavía no tiene acceso, pregunte a su administrador de Workfront si estable
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
-Se requieren los siguientes requisitos previos para configurar un proyecto de modo que los usuarios puedan añadir problemas al proyecto por correo electrónico.
+Se requieren los siguientes requisitos previos para configurar un proyecto de modo que los usuarios puedan agregar problemas al proyecto por correo electrónico.
 
-Estas condiciones deben cumplirse antes de habilitar esta función:
+Antes de habilitar esta función, deben cumplirse las siguientes condiciones:
 
 * Los usuarios que envíen problemas por correo electrónico a esta cuenta deben ser usuarios activos con una licencia para Workfront.
+* Los usuarios que envíen problemas por correo electrónico a esta cuenta deben tener permisos para agregar problemas en el proyecto.
 * Los usuarios externos no pueden enviar problemas por correo electrónico a una cola de solicitudes porque no tienen acceso para crear problemas.
-* Los usuarios que envíen problemas por correo electrónico a esta cuenta deben tener permisos de Agregar problema en el proyecto.
-* Los correos electrónicos procedentes de la dirección de correo electrónico asociada a un usuario activo de Workfront son los únicos correos electrónicos permitidos para enviar problemas al proyecto.
-* El proyecto se configura como una cola de solicitud.
-* La cuenta de correo electrónico asociada al proyecto no está vinculada a una cuenta de usuario de Workfront.
+* Solo los correos electrónicos procedentes de una dirección de correo electrónico asociada a un usuario de Workfront activo pueden enviar problemas al proyecto. Los correos electrónicos reenviados a un correo electrónico de usuario activo de Workfront desde un correo electrónico no asociado a una cuenta de Workfront no pueden crear problemas en el proyecto, ya que la dirección de correo electrónico del remitente original debe asociarse a una cuenta de Workfront activa.
+* El proyecto se configura como una cola de solicitudes.
+* La cuenta de correo electrónico asociada con el proyecto no está vinculada a una cuenta de usuario de Workfront.
 
 ## Configuración del proyecto en Workfront
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al habilitar la configuración de cola de correo electrónico:
+>Tenga en cuenta lo siguiente al habilitar la configuración de la cola de correo electrónico:
 >
->* Workfront permite un único correo electrónico por cola de solicitud en todos los clústeres. Si decide desactivar la cola de solicitudes, conservará la dirección de correo electrónico que ha creado siempre que siga en el cuadro Dirección de correo electrónico de entrada. Si decide dejar de utilizar el correo electrónico de admisión, debe eliminarlo del campo Correo electrónico de entrada para que pueda estar disponible para uso futuro.
+>* Workfront permite un único mensaje de correo electrónico por cola de solicitudes en todos los clústeres. Si decide deshabilitar la cola de solicitudes, conservará la dirección de correo electrónico que creó siempre que esté en el cuadro Dirección de correo electrónico de admisión. Si decide dejar de utilizar el correo electrónico de admisión, debe eliminarlo del campo Correo electrónico de admisión para que pueda estar disponible para un uso futuro.
 >
->* Si la cola de solicitud tiene varios temas de cola o grupos de temas, Workfront seleccionará aleatoriamente el tema de cola al que se dirigirán las solicitudes enviadas por correo electrónico, lo que dificultará la gestión de las solicitudes enviadas por correo electrónico.
-   >Se recomienda que el proyecto que configure para recibir solicitudes a través de correos electrónicos no tenga más de un tema en cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe enrutarlas o moverlas manualmente después de enviarlas.
-
+>* Si la cola de solicitudes tiene varios temas o grupos de temas en cola, Workfront seleccionará aleatoriamente el tema de la cola al que se dirigirán las solicitudes enviadas por correo electrónico, lo que dificulta la administración de las solicitudes enviadas por correo electrónico.
+>Se recomienda que el proyecto configurado para recibir solicitudes por correo electrónico no tenga más de un tema en cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe enrutarlas o moverlas manualmente, una vez enviadas.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
-1. Haga clic en **Detalles de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** primero.
-1. En el **Tipo de cola** área, seleccione **Publicar como cola de solicitud de ayuda**.
+1. Clic **Detalles de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** primero.
+1. En el **Tipo de cola** , seleccione **Publicar como cola de solicitud de ayuda**.
 
-1. Desplácese hacia abajo hasta el **Configuración de cola de correo electrónico** y, a continuación, seleccione **Habilitar la admisión de solicitudes por correo electrónico**.
+1. Desplácese hacia abajo hasta el **Configuración de cola de correo electrónico** , luego seleccione **Habilitar la admisión de solicitudes por correo electrónico**.
 
-1. Introduzca el principio de la dirección de correo electrónico en la **Dirección de correo electrónico de entrada** en la ventana
+1. Introduzca el principio de la dirección de correo electrónico en la **Dirección de correo electrónico de admisión** cuadro.
 
-   Debe crear una dirección de correo electrónico única. Se recomienda usar el nombre de su empresa como parte de su dirección de correo electrónico de admisión.
+   Debe crear una dirección de correo electrónico única. Se recomienda usar el nombre de la empresa como parte de la dirección de correo electrónico de admisión.
 
    >[!CAUTION]
    >
-   >* Esta dirección de correo electrónico no se puede recuperar de la papelera de reciclaje si se elimina el proyecto que contiene la cola de solicitud.
+   >* Esta dirección de correo electrónico no se puede recuperar de la papelera de reciclaje si se elimina el proyecto que contiene la cola de solicitudes.
    >
-   >* Dado que esta dirección de correo electrónico debe ser única, es posible que no esté disponible en el futuro si se elimina.
-
+   >* Debido a que esta dirección de correo electrónico debe ser única, es posible que no esté disponible en el futuro si se elimina.
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Opcional) Seleccione el **Reenviar todos los problemas que no se envían por correo electrónico** y, a continuación, introduzca una dirección de correo electrónico de reenvío en el cuadro siguiente.
+1. (Opcional) Seleccione la **Reenviar todos los problemas que no se envíen por correo electrónico**, luego ingrese una dirección de correo electrónico de reenvío en el cuadro de abajo.
 
    Esta dirección de correo electrónico recibe información sobre los correos electrónicos que no se han enviado al proyecto.
 
-1. Haga clic en **Guardar**. Ahora, cuando los usuarios con una cuenta activa de Workfront envían un correo electrónico a esta dirección de correo electrónico, se crea un problema en el proyecto de Workfront.
+1. Haga clic en **Guardar**. Ahora, cuando los usuarios con una cuenta de Workfront activa envían un correo electrónico a esta dirección, se crea un problema en el proyecto de Workfront.
 
    >[!NOTE]
    >
@@ -114,11 +112,11 @@ Estas condiciones deben cumplirse antes de habilitar esta función:
 
 ## Recibir el problema en Workfront
 
-Cuando un usuario de Workfront envía un correo electrónico a Workfront, suceden las siguientes cosas:
+Cuando un usuario de Workfront envía un correo electrónico a Workfront, suceden los siguientes eventos:
 
-* La línea Asunto del correo electrónico se convierte en el Nombre del problema.
-* El cuerpo del correo electrónico se convierte en la Descripción del problema.
-* Si hay algún documento adjunto al correo electrónico, esos documentos se adjuntan al problema en Workfront.
+* La línea de asunto del correo electrónico se convierte en el nombre del problema.
+* El cuerpo del correo electrónico se convierte en la descripción del problema.
+* Si hay algún documento adjunto al correo electrónico, ese documento se adjunta al problema en Workfront.
 * El usuario que envía el correo electrónico se convierte en el contacto principal del nuevo problema en Workfront.
-* El texto principal del correo electrónico no puede exceder los 4000 caracteres.
-* Los archivos adjuntos por correo electrónico no pueden superar los 7 MB en total.
+* El texto del cuerpo del correo electrónico no puede superar los 4000 caracteres.
+* Los archivos adjuntos del correo electrónico no pueden superar los 7 MB en total.
