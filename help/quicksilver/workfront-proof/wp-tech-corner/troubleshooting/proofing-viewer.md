@@ -8,9 +8,9 @@ description: Si el contenido de la prueba no se carga y solo puede ver un visor 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,9 +82,9 @@ Dentro del visualizador de pruebas cargamos los mosaicos: fragmentos de las pág
 
 ## Revisar complementos
 
-Si su explorador y [!DNL Flash Player] está actualizado y la red no está bloqueando las conexiones a. [!DNL Workfront Proof] es posible que haya algo en el explorador que esté afectando la visualización de las pruebas. Hoy en día hay varios plugins y extensiones disponibles en su navegador y algunos de ellos interfieren o entran en conflicto con los demás.
+Si el navegador está actualizado y la red no bloquea las conexiones a [!DNL Workfront Proof]Sin embargo, es posible que haya algo en el explorador que esté afectando a la visualización de las pruebas. A menudo, hay varios complementos y extensiones disponibles en el explorador, y algunos de ellos podrían interferir o entrar en conflicto con los demás.
 
-La práctica recomendada es eliminar todos los complementos desconocidos y conservar solo los que utilice y en los que confíe. Cada navegador debe ofrecerle opciones para comprobar, modificar o eliminar los complementos y las extensiones. Nuestro [!DNL Workfront Proof] El visor se basa en [!DNL Flash] y utilizamos JavaScript para cargar el visor, por lo que querrá revisar especialmente los complementos que podrían afectar a estos.
+La práctica recomendada es eliminar todos los complementos desconocidos y conservar solo los que utilice y en los que confíe. Cada navegador debe ofrecerle opciones para comprobar, modificar o eliminar los complementos y las extensiones. Utilizamos JavaScript para cargar el [!DNL Workfront Proof] por lo que le recomendamos que revise especialmente los complementos que podrían afectar a ese aspecto.
 
 Si algún complemento en particular interfiere con la carga de las pruebas, puede intentar comprobar los detalles en la consola del explorador.
 
@@ -101,8 +101,8 @@ Si tiene problemas para ver las pruebas:
 
 ## Comprobación de configuración de contenido mixto
 
-Todas las conexiones a [!DNL Workfront Proof] son a través de HTTPS. Sin embargo, en el [!DNL Workfront Proof] Al visualizar, cargamos los mosaicos a través de HTTP y los datos se aseguran con los tokens. Esto crea contenido mixto que algunos exploradores o soluciones de seguridad pueden estar bloqueando (de forma predeterminada o según la configuración manual).
+Todas las conexiones a [!DNL Workfront Proof] son a través de HTTPS. Sin embargo, en el [!DNL Workfront Proof] Al visualizar, cargamos los mosaicos a través de HTTP y los datos se aseguran con los tokens. Esto crea contenido mixto que algunos exploradores o soluciones de seguridad pueden estar bloqueando (de forma predeterminada o mediante configuración manual).
 
-Si este es el motivo por el que las pruebas no se abren en el equipo (debería poder ver las alertas relevantes en la consola del explorador), autorice estas conexiones para [!DNL Workfront Proof] o modifique la configuración para permitir contenido mixto pasivo en el equipo. El contenido mixto puede ser bloqueado por su navegador, software AV, configuración de red, etc - para determinar la causa exacta, póngase en contacto con su equipo de TI / administradores de red. También deben poder ayudar a habilitar el contenido mixto en el equipo.
+Si este es el motivo por el que las pruebas no se abren en el equipo (debería poder ver las alertas relevantes en la consola del explorador), autorice estas conexiones para [!DNL Workfront Proof] o modifique la configuración para permitir contenido mixto pasivo en el equipo. El contenido mixto puede ser bloqueado por su navegador, software AV o configuración de red para determinar la causa exacta. Debe ponerse en contacto con su equipo de TI o con los administradores de red. También deben poder ayudar a habilitar el contenido mixto en el equipo.
 
 
