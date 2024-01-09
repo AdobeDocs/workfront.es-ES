@@ -6,9 +6,9 @@ description: Resumen de entrega de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Tenga en cuenta lo siguiente:
 
 Cuando se aplica una vista especial a un informe, la vista especial se muestra en de la pestaña Detalles del informe en Workfront.
 
-Al programar la entrega de un informe que tiene una vista especial, la pestaña Detalles predeterminada se entrega en el archivo adjunto del correo electrónico enviado, en lugar de en la vista especial.
+Cuando se programa la entrega de un informe que tiene una vista especial, la pestaña Detalles se entrega en el archivo adjunto del correo electrónico enviado, en lugar de en la vista especial.
 
 Se consideran opiniones especiales las siguientes:
 

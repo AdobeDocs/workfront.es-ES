@@ -4,16 +4,19 @@ description: En Adobe Maestro, puede crear campos de fórmula que utilicen funci
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
+
+# Información general sobre campos de fórmula
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Información general sobre campos de fórmula
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -81,7 +84,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/grant-access.md">Conceder acceso a Adobe Maestro</a>. </p>  
+   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro. No se puede hacer referencia a campos de otros tipos de registro al crear un campo de fórmula. <!--is this still accurate??-->
 * No se puede cambiar el tipo de campo de un campo Formula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
+* No se pueden utilizar campos de búsqueda de tipos de registros vinculados.
+* Debe agregar los campos a los que hace referencia en las fórmulas tal y como se muestran en la interfaz de Maestro.
+
+## Fórmulas compatibles
+
+Se admiten todas las fórmulas de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Además, se admiten las siguientes expresiones para los campos de fórmula de Maestro:
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Expresión</th> 
+   <th>Explicación y ejemplo</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>Devuelve una cadena concatenada por delimitador.</p> <p>La expresión tiene el siguiente formato:
 
--->
+    ARRAYJOIN(delimitador,matriz)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>Devuelve una matriz con valores únicos.</p> <p>La expresión tiene el siguiente formato:
+
+    ARRAYUNIQUE(matriz)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>Establece la zona horaria de una fecha y hora en una zona horaria específica.</p> <p>La expresión tiene el siguiente formato:
+
+    SETTIMEZONE(fecha,&#39;América/Los_Ángeles&#39;)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>Devuelve el número de semana de un año. De forma opcional, puede indicar en qué día comienza la semana (utilice 1 para el domingo o 2 para el lunes). Si se omite, las semanas comienzan el domingo de forma predeterminada.</p> <p>La expresión tiene el siguiente formato:
+
+    WEEKOFYEAR(fecha,2)
+    o
+    WEEKOFYEAR(fecha)
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

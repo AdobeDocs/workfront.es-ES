@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Puede eliminar los campos de Maestro que ya no sean relevantes.
 ## Consideraciones acerca de la eliminación de campos Maestro:
 
 * Sólo puede eliminar un campo en la vista de tabla de tipo de registro.
-* Puede eliminar los campos que haya creado o los campos creados por otros usuarios o por el sistema. <!--this will change with access levels/ permissions-->
+* Puede eliminar los campos que haya creado o los campos creados por otros usuarios o por el sistema. <!--this will change to: take this out with permissions - it's in the table! -->
 * No se puede eliminar el campo principal de un registro.
 * La información almacenada en el campo se elimina y no se puede recuperar.
 * Cuando se elimina un campo de registro vinculado, todos los campos de búsqueda vinculados también se eliminan del tipo de registro desde el que se establece el vínculo. Los campos de registro vinculados de los tipos de registro a los que está vinculado no se eliminan.
@@ -91,7 +91,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/grant-access.md">Conceder acceso a Adobe Maestro</a>. </p>  
+   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -138,7 +138,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
