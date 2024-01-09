@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Edición de registros
 
@@ -130,17 +130,6 @@ After permssions - replace the table with:
 -->
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Consideraciones acerca de la edición de registros
 
 * Puede editar los registros que usted u otro usuario hayan creado. <!--will change with access levels-->
@@ -193,9 +182,9 @@ El espacio de trabajo al que se accede por última vez se abre.
 
 ### Editar un registro desde la vista de tabla de un tipo de registro
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
 
-   Se abre el espacio de trabajo al que accedió por última vez.
+Se abre el espacio de trabajo al que accedió por última vez.
 
 1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
 1. Haga clic en una tarjeta de tipo de registro.
@@ -232,5 +221,7 @@ El espacio de trabajo al que se accede por última vez se abre.
    >    * Campos vinculados que se crean conectando tipos de registro. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
    >    * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-   <!--take People out of the list above when they release this - this might be coming later-->
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->

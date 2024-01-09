@@ -3,9 +3,9 @@ title: Mejoras del proyecto del primer trimestre de 2024
 description: Mejoras del proyecto del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 ## Asignaciones inteligentes controladas por IA
 
-Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en cualquier lugar de Workfront donde asigne una tarea (listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen).
+Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 
 Ahora, el algoritmo tiene en cuenta la siguiente información cuando sugiere asignaciones inteligentes:
 

@@ -6,14 +6,16 @@ description: Puede acceder a [!DNL Adobe Workfront] de [!DNL Microsoft Teams] y 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # Acceso [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>Nuevo: [!UICONTROL Standard]</p>
+   <p>Actual: [!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Información general sobre los requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
@@ -63,6 +68,8 @@ Puede crear tareas personales en [!DNL Adobe Workfront] de [!DNL Microsoft Teams
 * Ha iniciado sesión en [!DNL Workfront] de [!DNL Microsoft Teams].
 
 ## Acceso [!DNL Workfront] desde el [!DNL Workfront] canal de chat de bots
+
+Debe iniciar sesión en Workfront.
 
 1. Abra el **[!DNL Workfront]** canal de chat de bots.
 1. Haga clic en **[!DNL Workfront]** debajo del campo de texto para mostrar el cuadro de búsqueda.
@@ -89,6 +96,8 @@ Puede crear tareas personales en [!DNL Adobe Workfront] de [!DNL Microsoft Teams
 
 ## Acceso [!DNL Workfront] desde un canal de equipo
 
+Debe iniciar sesión en Workfront.
+
 1. Abra un canal de equipo y escriba **@[!DNL Workfront]**, luego seleccione **[!DNL Workfront].**
 
 1. Clic **[!UICONTROL Buscar]** para buscar un proyecto, tarea o problema.
@@ -102,7 +111,7 @@ Puede crear tareas personales en [!DNL Adobe Workfront] de [!DNL Microsoft Teams
    * **[!DNL Log out]** para cerrar la sesión de Workfront
    * **[!DNL New task]** para crear una nueva tarea personal
 
-     Para obtener información sobre la creación de tareas nuevas desde [!DNL Microsoft Teams], consulte [Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Para obtener información sobre cómo crear tareas desde [!DNL Microsoft Teams], consulte [Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Ayuda]** para ver una lista de todos los comandos disponibles.
 

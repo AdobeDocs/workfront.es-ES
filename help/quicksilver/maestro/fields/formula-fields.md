@@ -4,9 +4,9 @@ description: En Adobe Maestro, puede crear campos de fórmula que utilicen funci
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Fórmulas compatibles
 
-Se admiten todas las fórmulas de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Los campos de fórmula de Maestro admiten todas las expresiones de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Además, se admiten las siguientes expresiones para los campos de fórmula de Maestro:
 
@@ -179,7 +179,7 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Ma
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Devuelve una cadena concatenada por delimitador.</p> <p>La expresión tiene el siguiente formato:
 
-    ARRAYJOIN(delimitador,matriz)
+<code>ARRAYJOIN(delimitador,matriz)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Ma
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Devuelve una matriz con valores únicos.</p> <p>La expresión tiene el siguiente formato:
 
-    ARRAYUNIQUE(matriz)
+<code>ARRAYUNIQUE(matriz)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Devuelve el ID de un registro.</p> <p>La expresión tiene el siguiente formato:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Ma
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Establece la zona horaria de una fecha y hora en una zona horaria específica.</p> <p>La expresión tiene el siguiente formato:
 
-    SETTIMEZONE(fecha,&#39;América/Los_Ángeles&#39;)
+<code>SETTIMEZONE(fecha,&#39;América/Los_Ángeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Ma
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Devuelve el número de semana de un año. De forma opcional, puede indicar en qué día comienza la semana (utilice 1 para el domingo o 2 para el lunes). Si se omite, las semanas comienzan el domingo de forma predeterminada.</p> <p>La expresión tiene el siguiente formato:
 
-    WEEKOFYEAR(fecha,2)
-    o
-    WEEKOFYEAR(fecha)
+<code>WEEKOFYEAR(fecha,2)</code>
+o
+<code>WEEKOFYEAR(fecha)</code>
 </p>
    </td></tr>
 

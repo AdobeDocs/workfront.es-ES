@@ -4,9 +4,9 @@ description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes controladas por IA</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en cualquier lugar de Workfront donde asigne una tarea (listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes controladas por IA</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

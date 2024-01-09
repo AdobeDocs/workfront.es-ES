@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Compartir registros
 
@@ -158,9 +159,9 @@ After permissions - replace the table with - below
 
 ## Compartir vínculos de registros desde la vista de tabla de tipo de registro
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro**.
+{#step1-to-maestro}
 
-   Se abre el espacio de trabajo al que accedió por última vez.
+Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.

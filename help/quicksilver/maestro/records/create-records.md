@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ After permssions - replace the table with:
 
 Puede crear registros en la vista de tabla de una página de tipo de registro.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
+
 El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
@@ -186,6 +187,11 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
    >  * Los campos que hacen referencia a otros tipos de registro o campos calculados son campos de sólo lectura.
 
 1. Siga agregando información en cada fila y haga clic en **Entrar** en el teclado para guardar los cambios.
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## Crear registros conectándolos desde otra aplicación
 

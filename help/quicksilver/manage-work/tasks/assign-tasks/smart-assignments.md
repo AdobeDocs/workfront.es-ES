@@ -7,9 +7,9 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ El cálculo de asignaciones inteligentes de tareas funciona en dos fases.
 
 #### Primera fase del cálculo de asignación inteligente para tareas
 
-En la primera fase del cálculo de las asignaciones inteligentes, Workfront calcula una puntuación de similitud para cada asignación. El cálculo de la puntuación de similitud y el orden en que se enumeran las asignaciones tienen en cuenta lo siguiente:
+En la primera fase del cálculo de las asignaciones inteligentes, Workfront calcula una puntuación de similitud para cada asignación.
+
+>[!NOTE]
+>
+>La primera fase del cálculo de asignaciones inteligentes no se aplica a las siguientes áreas de tareas:
+>
+>* Asignaciones masivas en el Distribuidor de cargas de trabajo.
+>* Tarjetas conectadas en tableros.
+
+
+El cálculo de la puntuación de similitud y el orden en que se enumeran las asignaciones tienen en cuenta lo siguiente:
 
 * Se asigna una puntuación del 100% a una asignación existente en la que los nombres de las tareas, proyectos y portafolios son idénticos a los de la tarea que intenta asignar. Los nombres de proyecto y portafolio de la tarea de una asignación existente también deben coincidir con el proyecto y portafolio de la tarea que intenta asignar.
 
@@ -115,7 +125,7 @@ Para obtener más información, consulte la sección [Criterios de asignaciones 
 
 >[!NOTE]
 >
-><span class="preview">Los siguientes criterios se aplican a las tareas sólo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. para obtener más información, consulte la sección [Primera fase del cálculo de asignación inteligente para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada. </span>
+><span class="preview">Los siguientes criterios se aplican a las tareas sólo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. Para obtener más información, consulte la sección [Primera fase del cálculo de asignación inteligente para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada. </span>
 
 Los usuarios se recomiendan en la lista desplegable asignaciones inteligentes en función de una combinación de los siguientes criterios (enumerados en orden de lo más importante a lo menos importante):
 
