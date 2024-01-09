@@ -4,18 +4,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Solución de problemas - [!DNL Workfront Proof] visualizador de pruebas
-description: Si el contenido de la prueba no se carga y solo puede ver un visor de pruebas vacío, lo más probable es que algo esté bloqueando esta acción localmente. Pruebe las posibles soluciones siguientes.
+description: Si el contenido de la prueba no se carga y solo puede ver un visor de pruebas vacío, lo más probable es que algo esté bloqueando esta acción localmente.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
 
 # Solución de problemas - [!DNL Workfront Proof] visualizador de pruebas
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 Si el contenido de la prueba no se carga y solo puede ver un visor de pruebas vacío, lo más probable es que algo esté bloqueando esta acción localmente. Pruebe las posibles soluciones siguientes.
 
-## Asegúrese de que su explorador y [!DNL Flash Player] Las versiones están actualizadas
+## Asegúrese de que su explorador <!--and [!DNL Flash Player]--> La versión de está actualizada
 
 Todos los desarrolladores trabajan constantemente en sus aplicaciones y lanzan regularmente nuevas funciones y correcciones para sus productos. Esto sirve para mejorar la experiencia del usuario y mantener el nivel de seguridad, por lo que se recomienda utilizar solo las versiones más recientes. Esto también ayuda a evitar conflictos entre las aplicaciones.
 
@@ -39,34 +41,36 @@ If your version number differs from the one listed for your platform go to the [
 Please note: we do recommend using the original [!DNL Adobe] plugin, so if your browser uses a built-in solution deactivate it and install the [!DNL Adobe] solution.
 -->
 
-### Versión del navegador
+### Versión del explorador
 
-Hoy en día la mayoría de los navegadores se actualizan automáticamente, pero si estás experimentando algún problema vale la pena comprobar qué versión estás utilizando y realizar la actualización, si es necesario.
+Por lo general, la mayoría de los navegadores se actualizan automáticamente, pero si tienes algún problema vale la pena comprobar qué versión estás utilizando y realizar una actualización, si es necesario.
 
-En el navegador, vaya a [!UICONTROL Menú] y busque el [!UICONTROL Acerca de] opción (en algunos casos, esto puede ser visible en [!UICONTROL Ayuda] menú). En el [!UICONTROL Acerca de] En esta ventana emergente encontrarás información sobre la versión actual del navegador y también una opción para actualizar o buscar actualizaciones.
+En el explorador, vaya a [!UICONTROL Menú] y busque el [!UICONTROL Acerca de] (en algunos casos, esto puede ser visible en una [!UICONTROL Ayuda] menú). En el [!UICONTROL Acerca de] , encontrará información sobre la versión actual del explorador y también una opción para actualizar o buscar actualizaciones.
 
-Consulte en Chrome:
+Por ejemplo, en Chrome:
 
-![ProofView_3.png](assets/proofview-3-350x206.png)
+![Versión del navegador Chrome](assets/proofview-3.png)
 
-Una vez que tenga las últimas [!DNL Flash Player] el complemento y la versión del explorador instalados intentan volver a abrir la prueba y ver si se ha resuelto el problema.
+Una vez que tenga instalada la última versión del explorador, intente volver a abrir la prueba y compruebe si se ha resuelto el problema.
 
-## Asegúrese de que su [!DNL Flash] Almacenamiento disponible
+<!--
+## Ensure Your Local [!DNL Flash] Storage is Available
 
-Nuestro [!DNL Workfront Proof] El visor se basa en el Flash y almacenamos algunos datos sobre las pruebas (es decir, comentarios, mosaicos de prueba, etc.). [!DNL Workfront Proof] Configuración del visor) en el equipo mediante [!DNL Flash Player]. Si la variable [!DNL Workfront Proof] Se abre el visor, pero no hay contenido dentro. Debe asegurarse de que el almacenamiento de Flash esté disponible en su equipo y de que [!DNL Workfront Proof] tiene permiso para usarlo.
+Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
-Si hay algo de almacenamiento asignado, pero está trabajando con pruebas más grandes con varias páginas y comentarios, intente aumentar la [!DNL Flash] Almacene y vuelva a cargar la prueba.
+If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Consulte nuestro [Problemas Con La Visualización De Pruebas - [!DNL Flash] Objetos compartidos explicados](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) para obtener instrucciones detalladas.
+Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
+-->
 
 ## Identificar dónde está el problema
 
 * ¿Las pruebas se abren en un explorador diferente?
-* Si utiliza un navegador diariamente y tiene problemas para ver las pruebas, intente abrir la misma prueba en un navegador diferente de su ordenador. Para ello, simplemente copie el vínculo de prueba de la barra URL del explorador principal y péguelo en un explorador diferente. Si la prueba se abre correctamente, revise la configuración principal del explorador, los complementos y las extensiones, ya que pueden interferir.
-* No tenemos ningún navegador preferible, pero si tiene problemas de rendimiento en su navegador actual, le recomendamos cambiar a uno diferente.
+* Si utiliza un explorador diariamente y tiene problemas para ver las pruebas allí, intente abrir la misma prueba en un explorador diferente del equipo. Para ello, simplemente copie el vínculo de prueba de la barra URL del explorador principal y péguelo en un explorador diferente. Si la prueba se abre allí, revise la configuración principal del explorador, los complementos y las extensiones, ya que podrían estar interfiriendo.
+* No tenemos ningún navegador preferido, pero si tiene problemas de rendimiento en su navegador actual, le recomendamos cambiar a uno diferente.
 * ¿Las pruebas se abren en un equipo diferente de su ubicación?
-Si la revisión no se abre en ningún explorador del equipo, intente abrirla en un equipo diferente de su ubicación o fuera de ella. Esto le permitirá determinar si un problema se debe a su equipo en particular o si es algo de su red local.
-Si su nivel de seguridad es mayor, sus conexiones a [!DNL Workfront Proof] puede ser bloqueado por:
+Si la revisión no se abre en ningún explorador del equipo, intente abrirla en otro equipo de su ubicación o fuera de ella. Esto le permitirá determinar si hay un problema en su equipo concreto o si se trata de un problema de la red local.
+Si su nivel de seguridad es mayor, las conexiones a [!DNL Workfront Proof] puede ser bloqueado por:
 
    * Su software AV local
    * Su solución de seguridad de red
@@ -74,7 +78,7 @@ Si su nivel de seguridad es mayor, sus conexiones a [!DNL Workfront Proof] puede
    * Estos son los ajustes que están fuera de nuestro control. Hay varias soluciones de seguridad disponibles y no podemos saber cuáles están implementadas en su red y cuáles pueden estar bloqueando las conexiones a [!DNL Workfront Proof]. Tampoco depende de [!DNL Workfront Proof] para decidir la configuración de seguridad interna. Si tiene problemas para abrir las pruebas en varios equipos de su ubicación o red, le recomendamos que se ponga en contacto con su equipo de TI para que pueda comprobar la configuración de la red y autorizar o agregar el [!DNL Workfront Proof] a la lista de permitidos, si es necesario.
 
 * Son las conexiones a [!DNL Workfront Proof] ¿está permitido en su red?
-Dentro del visualizador de pruebas cargamos los mosaicos: fragmentos de las páginas. Si este contenido no se carga correctamente, es posible que algunas conexiones a [!DNL Workfront Proof] están bloqueados en su red. Debe asegurarse de que todas las conexiones y todo el contenido de *.proofhq.com se añada a la lista de permitidos. Su equipo de TI debe poder ayudarle a verificar esto.
+Dentro del visualizador de pruebas cargamos los mosaicos: fragmentos de las páginas. Si este contenido no se carga correctamente en su extremo, es posible que algunas conexiones a [!DNL Workfront Proof] están bloqueados en su red. Debe asegurarse de que todas las conexiones y todo el contenido de *.proofhq.com se añada a la lista de permitidos. Su equipo de TI debe poder ayudarle a verificar esto.
 
 ## Revisar complementos
 
@@ -84,7 +88,7 @@ La práctica recomendada es eliminar todos los complementos desconocidos y conse
 
 Si algún complemento en particular interfiere con la carga de las pruebas, puede intentar comprobar los detalles en la consola del explorador.
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![Consola del explorador](assets/proofview-4.png)
 
 En la mayoría de los exploradores más recientes hay algunas herramientas adicionales disponibles para desarrolladores que se pueden utilizar para una solución de problemas más avanzada.
 
@@ -95,8 +99,7 @@ Si tiene problemas para ver las pruebas:
 * Pida a su equipo de TI que analice los resultados. Deben ser capaces de asesorar y ayudar a resolver el problema local.
 * Comparta los resultados con nuestro equipo de asistencia. Estaremos encantados de ayudarle.
 
-
-## Comprobar configuración de contenido mixto
+## Comprobación de configuración de contenido mixto
 
 Todas las conexiones a [!DNL Workfront Proof] son a través de HTTPS. Sin embargo, en el [!DNL Workfront Proof] Al visualizar, cargamos los mosaicos a través de HTTP y los datos se aseguran con los tokens. Esto crea contenido mixto que algunos exploradores o soluciones de seguridad pueden estar bloqueando (de forma predeterminada o según la configuración manual).
 

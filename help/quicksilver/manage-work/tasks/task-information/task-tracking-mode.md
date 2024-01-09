@@ -7,14 +7,16 @@ description: Puede ajustar la configuración Modo de seguimiento de una tarea al
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # Información general del modo de seguimiento de tareas
+
+<!-- Audited: 01/2024 -->
 
 Puede ajustar la configuración Modo de seguimiento de una tarea al crear o editar una tarea para controlar cómo y cuándo se muestran los indicadores de estado de progreso de una tarea. Adobe Workfront muestra indicadores de estado de progreso al configurar ciertas opciones para el seguimiento del progreso de las tareas.
 
@@ -52,7 +54,7 @@ Si se selecciona esta opción, Workfront utiliza el porcentaje completado y las 
 
 ### Asumir a tiempo {#assume-on-time}
 
-Workfront supone que una tarea se completará a tiempo independientemente del estado actual de finalización. Si no es así, Workfront supone automáticamente una fecha planificada de finalización del siguiente día laborable. Aún debe indicar cuándo se completa la tarea. Utilice esta opción cuando los usuarios no actualicen con regularidad sus tareas.
+Workfront supone que una tarea se completará a tiempo independientemente del estado actual de finalización. Si la tarea no se completa a tiempo (en la fecha planificada de finalización), Workfront supone automáticamente una fecha planificada de finalización del siguiente día laborable. Aún debe indicar cuándo se completa la tarea. Utilice esta opción cuando los usuarios no actualicen con regularidad sus tareas.
 
 ### Ignorar advertencias tardías {#ignore-late-warnings}
 
@@ -71,7 +73,7 @@ Existen las siguientes excepciones:
 >
 >Si selecciona que las tareas se completen automáticamente, la tarea se completará cuando se recalcule la hora del proyecto. Si el Tipo de actualización del proyecto se establece en Automática o Automática y al cambiar, la cronología del proyecto se calcula diariamente. Para obtener información sobre los cálculos de escala de tiempo en proyectos, consulte [Recalcular escalas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->La hora de la fecha real de finalización es la medianoche del día en que se calcula automáticamente la escala de tiempo. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema, tal como la defina el administrador de Workfront en la sección Información del cliente de Configuración. Para obtener información sobre cómo establecer la zona horaria del sistema, consulte [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>La hora de la fecha real de finalización es la medianoche del día en que se calcula automáticamente la escala de tiempo. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema definida por el administrador de Workfront en la sección Información del cliente de la Configuración. Para obtener información sobre cómo establecer la zona horaria del sistema, consulte [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecesora {#predecessor}
 
