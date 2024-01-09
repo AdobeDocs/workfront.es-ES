@@ -9,9 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Introducción a [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [Introducción a [!DNL Workfront Proof]: índice del artículo](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
 * [Trabajo con pruebas y archivos en [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
 * [[!DNL Workfront Proof] administración de cuentas](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] Configuración de facturación](../workfront-proof/wp-billingsettings/wp-billing-settings.md)

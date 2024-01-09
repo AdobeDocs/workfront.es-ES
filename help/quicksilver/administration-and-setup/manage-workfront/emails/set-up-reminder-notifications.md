@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
 
 # Configurar notificaciones de recordatorio
 
-Las notificaciones de recordatorio envían correos electrónicos a los destinatarios en función de criterios específicos. Como administrador de Adobe Workfront o usuario con un nivel de acceso de Planificador y acceso administrativo a las notificaciones de recordatorio, puede asociar manualmente las notificaciones de recordatorio a sus elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas.
+<!-- Audited: 1/2024 -->
+
+Las notificaciones de recordatorio envían correos electrónicos a los destinatarios en función de criterios específicos. Puede asociar manualmente notificaciones de recordatorio a los elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas.
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td> <p>Nuevo: estándar </p>
+ <p>o</p> 
+<p>Actual: plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -52,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Personalizar el correo electrónico del recordatorio
 
-Puede personalizar la notificación de recordatorio con un correo electrónico personalizado que incluya un asunto y un cuerpo del correo electrónico personalizado. El cuerpo del correo electrónico puede contener un HTML personalizado.
+Puede personalizar el asunto, el cuerpo y el HTML en el correo electrónico de notificación de recordatorio.
 
 O bien, puede utilizar el correo electrónico predeterminado incluido con la notificación de recordatorio. El correo electrónico predeterminado utiliza el nombre de la notificación de recordatorio como asunto del correo electrónico y el nombre del objeto en el cuerpo del correo electrónico, incluido el evento que activó la notificación.
 
@@ -60,9 +65,9 @@ Si desea personalizar el correo electrónico del recordatorio, debe crear una pl
 
 Para obtener información sobre cómo crear una plantilla de correo electrónico, consulte [Configurar plantillas de correo electrónico](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
-## Creación de una notificación de recordatorio
+## Crear una notificación de recordatorio
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Correo electrónico** > **Notificaciones** > **Notificaciones de recordatorio**.
 
@@ -144,10 +149,12 @@ Por ejemplo, si un recordatorio se establece en déclencheur una hora después d
 
 Para que una notificación de recordatorio se almacene en déclencheur manualmente:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Sistema** > **Diagnóstico** en la esquina inferior izquierda de Workfront.
 
 1. Clic **Enviar notificaciones de recordatorio** y espere a que se confirme su envío en la parte superior de la pantalla.
 
    Los usuarios designados en la notificación de recordatorio recibirán un correo electrónico.
+
+![](assets/reminder-test.png)

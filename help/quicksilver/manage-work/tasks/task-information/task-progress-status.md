@@ -7,14 +7,16 @@ description: Adobe Workfront determina el estado de progreso de una tarea mirand
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Resumen del estado de progreso de tareas
+
+<!-- Audited: 1/2024 -->
 
 Adobe Workfront determina el estado de progreso de una tarea mirando la progresión de la tarea en su cronología. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Para obtener más información sobre la configuración de la condición del proyecto, consulte el artículo [Descripción general de la condición y el tipo de condición del proyecto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -37,7 +39,7 @@ Los siguientes criterios determinan el estado de progreso de una tarea:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>A tiempo</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>Tiempo de activación</strong> </p> </td> 
    <td scope="col"> <p>Se considera una tarea <strong>Tiempo de activación</strong> cuando todas las fechas planificadas coincidan con las fechas proyectadas. Este estado de progreso también podría significar que el proyecto está adelantado respecto a la programación y que las fechas proyectadas podrían ser anteriores a las fechas planificadas.</p> <p>Para obtener más información sobre las fechas proyectadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas</a>.</p> <p>Para obtener más información acerca de la fecha planificada de finalización de la tarea, consulte los siguientes artículos:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio de la tarea</a> </p> </li> 

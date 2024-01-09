@@ -1,18 +1,20 @@
 ---
 title: Configurar notificaciones de eventos para todos los usuarios del sistema
 description: Las notificaciones de eventos almacenan en déclencheur los correos electrónicos a los usuarios cuando se produce un evento determinado. Como administrador de Adobe Workfront o usuario con un nivel de acceso de Planificador, puede configurar una notificación de eventos para todos los usuarios del sistema. La configuración de una notificación de eventos consiste en activarla o desactivarla.
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # Configurar notificaciones de eventos para todos los usuarios del sistema
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -44,7 +46,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td> <p>Nuevo: estándar</p>
+ <p>o</p> 
+<p>Actual: plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -57,13 +62,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configurar notificaciones de eventos para todos los usuarios
 
-Debe habilitar las notificaciones en el área de Configuración de Workfront para que los usuarios puedan habilitarlas o deshabilitarlas en sus perfiles.
+Debe habilitar las notificaciones en el área de Configuración de Workfront para que los usuarios puedan habilitarlas o deshabilitarlas en sus perfiles individuales.
 
 >[!TIP]
 >
 >No puede activar notificaciones para Workfront Goals desde el área de Configuración. Los usuarios solo pueden activar estas notificaciones en sus perfiles. Los usuarios con licencias de planificación pueden activarlas para otros usuarios. Para obtener información sobre cómo habilitar las notificaciones de Workfront Goals para los usuarios, consulte [Notificaciones: Objetivos](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Correo electrónico** > **Notificaciones**.
 
@@ -71,7 +76,7 @@ Debe habilitar las notificaciones en el área de Configuración de Workfront par
 
 
 1. Asegúrese de que la **Notificaciones de eventos** está abierta.
-1. Haga clic en el conmutador situado a la izquierda del nombre del evento para activarlo o desactivarlo.
+1. Cambie el conmutador a la izquierda del nombre del evento para activarlo o desactivarlo.
 
    Para ver el estado de notificación predeterminado de un evento, consulte [Notificaciones de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
 

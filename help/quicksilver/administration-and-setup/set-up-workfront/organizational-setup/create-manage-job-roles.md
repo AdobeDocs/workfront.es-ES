@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Crear y administrar funciones de trabajo
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,7 +37,9 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>Actual: [!UICONTROL plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -48,7 +52,9 @@ Debe tener lo siguiente:
 
 ## Crear un rol
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+Para crear un rol:
+
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en&#x200B; **[!UICONTROL Funciones del puesto].**
 1. Clic **[!UICONTROL Nuevo rol].**
