@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su
 
 * Los campos de Workfront sólo son accesibles desde Maestro cuando conecta los tipos de registro de Maestro con los tipos de objetos de Workfront y agrega campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
-* Puede ver y actualizar la configuración de los campos que ha creado usted o cualquier otro usuario. <!--this will change with access/ permissions-->
+* Puede ver y actualizar la configuración de los campos que ha creado usted o cualquier otro usuario si tiene permisos de administración en el espacio de trabajo al que pertenece el campo.
 
 * Puede tener hasta 500 campos para un tipo de registro.
 

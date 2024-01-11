@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,13 @@ Puede editar la configuración de campo de los campos que ya se han creado.
 
 Para obtener información sobre la creación de campos Maestro de Adobe, consulte [Creación de campos](../fields/create-fields.md).
 
-Este artículo describe cómo puede editar la configuración de los campos de Maestro. Para obtener información acerca de cómo modificar los valores de los campos de los registros Maestro, consulte [Edición de registros](../records/edit-records.md).
+Este artículo describe cómo puede editar la configuración de los campos de Maestro. Para obtener información acerca de cómo modificar los valores de los campos de los registros Maestro, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Consideraciones sobre la edición de información de campo
 
-* Puede editar los campos que ha creado o los campos creados por otros usuarios. <!--this will change with access levels/ permissions - take out, it's in the table!-->
+* Puede editar los campos que ha creado o los campos creados por otros usuarios si tiene permisos de administración en el espacio de trabajo al que pertenecen los campos.
 * Puede editar un campo en la tabla de tipo de registro.
+* No se puede editar un campo en la página Detalles de un registro o en la vista de escala de tiempo.
 * Una vez guardado el campo, no se puede editar el tipo de campo.
 * No puede anular la selección de la opción Permitir números negativos seleccionada anteriormente para un campo Número, Porcentaje o Moneda si ya hay valores negativos almacenados en los registros a los que está asociada.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -63,9 +64,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> producto de Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,83 +94,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 
 <tr>
-   <td role="rowheader">Nivel de acceso</td>
-   <td> <p>Cualquiera</p>  
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td> <p>No hay controles de acceso para Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Permisos</p></td>
+   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Editar campos
 

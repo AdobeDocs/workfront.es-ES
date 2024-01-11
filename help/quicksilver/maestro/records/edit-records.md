@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -179,5 +179,5 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la edición o copiar y pegar la información de los registros:
 
-   * **Deshacer**: CTRL/CMD + Z
-   * **Rehacer**: CTRL/CMD + Mayús + Z
+   * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
+   * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio

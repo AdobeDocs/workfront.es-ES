@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> producto de Adobe</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p></td>
+   <p> Adobe Workfront</p> 
+   <p>Para conectar registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -97,95 +102,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
-   <td><p>Cualquiera, para crear registros de Maestro</p> 
-<p>Trabaje o superior para ver proyectos en Workfront</p>
-  <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Resumen de licencias de Adobe Workfront</a>.</p> 
+   <td>
+   <p>Cualquiera</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">Nivel de acceso</td>
-   <td> <p>Cualquiera, para crear registros de Maestro</p>
-<p>Acceso de visualización o superior a Proyectos, Portfolio y Programas</p> 
-<p>Acceso adicional a Grupos y Compañías, cuando los usuarios de grupos o empresas de visualización no pertenecen a</p>   
+
+<tr>
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permisos de objeto</p></td>
-   <td> <p>Ver o permisos superiores a los objetos que desea vincular con registros de Maestro  
+   <td role="rowheader"><p>Permisos</p></td>
+   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p></td>
+   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Conectar registros
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   Los valores de los campos vinculados de los registros vinculados rellenan el registro de Maestro desde el que está estableciendo el vínculo automáticamente desde el área de trabajo de Maestro que ha configurado o desde la aplicación de terceros.
 
-* Todas las personas con acceso a Maestro pueden ver las conexiones que establece entre los registros de Maestro o entre los registros de Maestro y los objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones de terceros a las que se conecte.
-* Puede ver y editar las conexiones de todos los demás. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Todas las personas con acceso a Maestro y permisos de administración en el área de trabajo pueden ver las conexiones que establece entre los registros de Maestro o entre los registros de Maestro y los objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones de terceros a las que se conecte. <!--check with PM-->
+* Puede ver y editar las conexiones de todos los demás, si tiene permisos de Administración en el espacio de trabajo donde se encuentran los registros conectados.
 * Puede conectar un registro Maestro a uno o varios objetos de otra aplicación.
 * Para vincular registros de Maestro con otros registros u objetos, debe tener lo siguiente:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> producto de Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar los tipos de registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -76,74 +81,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 
 <tr>
-   <td role="rowheader">Nivel de acceso</td>
-   <td> <p>Cualquiera</p>  
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
+   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Permisos</p></td>
+   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -160,17 +116,17 @@ After permssions - replace the table with:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Puede eliminar cualquier tipo de registro o taxonomía que haya creado usted o cualquier miembro de su organización. <!--this will change with access levels and permissions-->
-* Al eliminar los tipos de registro, se elimina toda la información asociada a ellos, incluidos los campos y registros de ese tipo.
+* Solo puede eliminar tipos de registros o taxonomías de espacios de trabajo en los que tenga permisos de administración de.
+* Al eliminar los tipos de registro, se elimina toda la información asociada a ellos, incluidos los campos y registros de ese tipo. El tipo de registro se elimina de todos los usuarios que acceden al espacio de trabajo.
 * No se pueden recuperar los tipos de registros eliminados ni su información.
 
 ## Eliminar tipos de registros
 
 La eliminación de tipos de registros de taxonomía es idéntica a la eliminación de tipos de registros operativos.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
 

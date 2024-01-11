@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ En Maestro, puede crear tipos de registros personalizados que satisfagan las nec
    * [Tipo de registro operativo](#operational-record-type): un tipo de registro que representa planes estratégicos, iniciativas o trabajo planificado. Por ejemplo, Campaña, Actividad, Táctica u Oportunidad pueden ser tipos de registros operativos.
    * [Taxonomía](#taxonomy): tipos de registro que capturan atributos sobre un tipo de registro operativo. Por ejemplo, Región, Dirección y Audiencia pueden ser taxonomías.
 
-* Al crear un tipo de registro, todos los miembros de la organización pueden verlo, editarlo o eliminarlo. <!--this will change with access levels and permissions-->
+* Cuando crea un tipo de registro, sólo usted y los usuarios a los que concede permisos para acceder al espacio de trabajo pueden ver el tipo de registro.
 * Debe crear un espacio de trabajo para poder crear tipos de registros para el espacio de trabajo.
 * Puede tener un total combinado de 1000 tipos de registros operativos y taxonomías en un espacio de trabajo. Esto incluye los tipos de registros o taxonomías que se crean desde cero o que se importan desde otros sistemas.
 
