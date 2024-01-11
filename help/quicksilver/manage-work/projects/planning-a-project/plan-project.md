@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Información general sobre la planificación de un proyecto
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Un proyecto es un elemento de trabajo grande en Adobe Workfront. Puede desglosar un proyecto en tareas que sean elementos de trabajo más pequeños, como las tareas. Las tareas se pueden asignar a usuarios o equipos que puedan ser responsables de su finalización. Cuando todos los usuarios completan sus tareas, el proyecto también se completa.
@@ -58,7 +60,7 @@ Puede programar un proyecto a partir de una fecha de inicio o a partir de la fec
 
 ### Defina la programación del proyecto {#define-the-project-schedule}
 
-Debe determinar una programación y asociarla al proyecto, así como a los usuarios responsables de completar las tareas del proyecto.
+Debe determinar una programación y asociarla al proyecto y a los usuarios responsables de completar las tareas del proyecto.
 
 Considere la posibilidad de definir lo siguiente en una programación:
 
@@ -118,7 +120,7 @@ Tenga en cuenta lo siguiente al crear la cronología del proyecto:
 
 ## Definición de tareas {#define-tasks}
 
-Al definir los objetivos del proyecto y las tareas asociadas a ellos, está creando la cronología del proyecto.
+A medida que define los objetivos del proyecto y las tareas asociadas con ellos, estará creando la cronología del proyecto.
 
 Puede crear tareas en un proyecto de las siguientes maneras:
 

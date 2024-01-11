@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Introducción a Adobe Maestro
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Conectar registros de Maestro a recursos de Adobe Experience Manager | ✓ |                                  |                 |
 | Registrar página de detalles | ✓ |                                  |                  |
 | Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
-| Compartir espacios de trabajo | | ✓ |  |
-| Compartir vistas | | ✓ |  |
+| Compartir espacios de trabajo | ✓ | |  |
+| Compartir vistas | ✓ | |  |
 | Envío de solicitudes |                               |                                  | ✓ |
 | Informe creativo |                               |                                  | ✓ |
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ En la tabla siguiente se ilustran las características principales que estarán 
 | Módulos de Maestro para Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiar y pegar información de un campo a otro | ✓ |                                  |                 |
 
-## Acceso necesario para utilizar Maestro durante el programa beta cerrado
+## Habilite Maestro para los usuarios de la instancia de Workfront
 
->[!IMPORTANT]
->
->Actualmente, no hay niveles de acceso ni permisos asociados a los usuarios ni a la información de Maestro. Todos los usuarios pueden ver, modificar y eliminar toda la información que cualquier otro usuario agregue a Maestro.
+Su organización debe inscribirse en el programa beta cerrado de Adobe Maestro para poder acceder a Maestro. Póngase en contacto con su representante de cuentas para obtener información sobre cómo inscribirse en el programa beta.
 
-Para obtener más información sobre el acceso necesario para utilizar Maestro, consulte [Información general sobre el acceso a Adobe Maestro](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Para obtener más información sobre cómo conceder acceso a Maestro y permitir que otros utilicen el programa, vea [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminología de Maestro
 
@@ -185,7 +177,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
    * Los campos de Maestro son totalmente personalizables y sólo se puede acceder a ellos desde Maestro. No puede tener acceso a los campos de Maestro desde Workfront.
 
-  Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md)
+  Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
 
   De forma predeterminada, un nuevo tipo de registro operativo está asociado a los siguientes campos predefinidos:
 
@@ -208,6 +200,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
    * Porcentaje
    * Divisa
    * Casilla de verificación
+   * Fórmula
    * Personas
    * Creado por
    * Fecha de creación
@@ -272,12 +265,6 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Tamaño del archivo CSV de Excel que puede importar en una tabla | 5 MB |
-
-## Habilite Maestro para los usuarios de la instancia de Workfront
-
-Su organización debe inscribirse en el programa beta cerrado de Adobe Maestro para poder acceder a Maestro. Póngase en contacto con su representante de cuentas para obtener información sobre cómo inscribirse en el programa beta.
-
-Para obtener más información sobre cómo conceder acceso a Maestro y permitir que otros utilicen el programa, vea [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Localizar Maestro
 
