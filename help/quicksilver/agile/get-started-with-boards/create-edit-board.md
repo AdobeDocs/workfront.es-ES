@@ -6,9 +6,9 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td> <p>Nuevo: Colaborador o superior </p>
  <p>o</p> 
 <p>Actual: [!UICONTROL Request] o superior </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Crear nuevo tablero
 
@@ -64,6 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Para un tablero dinámico únicamente, siga los pasos del asistente de configuración:
 
+   1. Escriba un nombre para el tablero y haga clic en [!UICONTROL **Siguiente**].
    1. Busque y seleccione. [!DNL Workfront] [!UICONTROL **Proyectos**] para incluir tareas y problemas en el tablero.
    1. Busque y seleccione. [!UICONTROL **Asignaciones**] para incluir tareas y problemas en el tablero.
 
@@ -71,13 +68,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       El [!UICONTROL **Tarjetas que se agregan**] counter muestra cuántas tarjetas habrá en el tablero. Por ejemplo, si selecciona un proyecto con 100 tareas y problemas, el contador mostrará 100. Si agrega una asignación de usuario y esa persona está asignada a 5 tareas en el proyecto, el contador muestra 5.
 
-   1. (Opcional) Seleccione [!UICONTROL **Incluir trabajo completado como tarjetas archivadas**] para incluir tareas y problemas completados en el tablero como tarjetas archivadas.
+   1. (Opcional) Seleccione [!UICONTROL **No archivar tarjetas completadas**] para incluir las tareas y los problemas completados en el tablero como tarjetas visibles en la columna Completado. Cuando esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero se incorporan al tablero como tarjetas archivadas.
 
       >[!NOTE]
       >
       >De forma predeterminada, las tarjetas archivadas no se muestran en el tablero. Para mostrar las tarjetas archivadas, debe activar una configuración y filtrar el tablero para mostrar las tarjetas archivadas. Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) y [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Si esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero no aparecerán en el tablero. Las tarjetas marcadas posteriormente como completadas permanecen en el tablero de la columna Completar y no se archivan a menos que configure la visita en orden previsto de las tarjetas. Para obtener más información, consulte [Configurar la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Opcional) Haga clic en [!UICONTROL **Uso de filtros avanzados**] para mostrar opciones de filtro adicionales.
 
