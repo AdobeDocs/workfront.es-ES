@@ -4,16 +4,16 @@ description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Información general sobre la versión del primer trimestre de 2024
 
-Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2024 programada para enero de 2024.
+Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2024 programada para la semana del 15 de enero de 2024.
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del primer trimestre de 2024 se aproxime a su versión de producción planificada.
 
@@ -60,7 +60,7 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya están disponibles las decisiones sobre pruebas/documentos de los 12 meses anteriores</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Los informes Decisiones de usuarios para los tipos de licencia nueva y heredada ahora muestran el número de decisiones para el mes actual, así como los 12 meses anteriores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya están disponibles las decisiones sobre pruebas/documentos de los 12 meses anteriores</a></p><p>Los informes Decisiones de usuarios para los tipos de licencia nueva y heredada ahora muestran el número de decisiones para el mes actual, así como los 12 meses anteriores.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -208,7 +208,7 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -357,7 +357,7 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                                 <p>Producción para la versión rápida: con la versión 24.1</p>
                             </li>
                             <li>
-                                <p>Producción para versión trimestral: con la versión 24.1</p>
+                                <p>Producción para todos los clientes: con la versión 24.4 (abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastre y suelte la imagen en un comentario en la sección Actualizaciones</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para mejorar el contenido de sus comentarios, ahora puede arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastre y suelte la imagen en un comentario en la sección Actualizaciones</a></p><p>Para mejorar el contenido de sus comentarios, ahora puede arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

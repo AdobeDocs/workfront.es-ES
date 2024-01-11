@@ -3,9 +3,9 @@ title: Mejoras del proyecto del primer trimestre de 2024
 description: Mejoras del proyecto del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Esta página describe todas las mejoras de proyecto realizadas con la versión d
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2024, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Asignaciones inteligentes controladas por IA
+
+>[!NOTE]
+>
+>Producción para lanzamiento rápido: con la versión 24.1; Producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 
