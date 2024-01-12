@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede decidir qué secciones de un formulario personalizado se deben mostrar o omitir en función de las opciones que realice un usuario al rellenarlo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -50,34 +50,31 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Consideraciones para utilizar la lógica de visualización y la lógica de omisión
 
-* Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, lista desplegable o casillas de verificación) antes de él en el formulario.
+* Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.
 
   Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * No se puede agregar lógica de omisión a un widget o salto de sección. Solo puede agregarlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
 
-* Puede agregar lógica de visualización y lógica de omisión a un campo personalizado. Todo lo siguiente es verdadero en relación con el campo personalizado:
+* Puede agregar lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
 
    * Es un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación)
    * Va precedido de un campo de opción múltiple
    * Va seguido de otro campo personalizado
 
 * Al copiar formularios con lógica de visualización u lógica de omisión, la lógica se copia en el nuevo formulario personalizado.
-* Tenga en cuenta lo siguiente al crear una regla de lógica de visualización para un formulario personalizado
+* Al editar objetos de forma masiva, todos los campos personalizados se muestran en el cuadro Editar objetos, incluidos los campos omitidos u ocultos.
+* Tenga en cuenta lo siguiente al crear una regla de lógica de visualización para un formulario personalizado:
 
    * De forma predeterminada, los campos personalizados no incluidos en una instrucción de lógica de visualización se muestran en un formulario personalizado.
    * Puede crear instrucciones de lógica de visualización de varios campos.
-
-* Al editar objetos de forma masiva, todos los campos personalizados se muestran en el cuadro Editar objetos, incluidos los campos omitidos u ocultos.
+   * Si se les ha aplicado lógica de visualización a todos los campos debajo de un salto de sección y, como resultado de la lógica, todos ellos están ocultos, toda la sección estará oculta en el formulario personalizado.
 
 ## Crear un formulario personalizado de ejemplo con lógica de visualización y omisión
 
 La mejor manera de aprender a agregar lógica de visualización y omisión a un formulario personalizado es a través del ejemplo práctico que se explica en las dos secciones siguientes:
 
-* [Lógica de visualización](#display-logic)
-* [Omitir lógica](#skip-logic)
-
-### Lógica de visualización {#display-logic}
+### Mostrar lógica {#display-logic}
 
 1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 

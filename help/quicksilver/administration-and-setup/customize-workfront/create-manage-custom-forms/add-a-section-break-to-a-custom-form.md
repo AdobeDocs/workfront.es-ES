@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Agregar un salto de sección a un formulario personalizado con el generador de formularios heredado
 description: Puede agrupar los campos y widgets personalizados en un formulario personalizado en secciones con encabezados. Esto resulta útil para presentar una experiencia organizada a los usuarios que rellenan el formulario. Además, si necesita limitar el acceso a determinados campos personalizados y widgets a determinados usuarios, puede colocarlos en una sección y, a continuación, conceder acceso a la sección únicamente a esos usuarios.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -83,12 +84,12 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td>Escriba texto si desea explicar a los usuarios para qué sirve la sección. Esto se muestra debajo de la etiqueta de la sección en el formulario personalizado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Agregar lógica</td> 
-      <td>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Agregar lógica de visualización y saltar lógica a un formulario personalizado</a>.</td> 
+      <td role="rowheader"><p>Agregar lógica</p></td> 
+      <td><p>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario.</p><p><strong>NOTA:</strong> Si se les ha aplicado lógica de visualización a todos los campos individuales bajo un salto de sección y, como resultado de la lógica, todos ellos están ocultos, toda la sección estará oculta en el formulario personalizado. Esto sucederá incluso si la lógica de visualización no se aplica al salto de sección.</p><p>Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Agregar lógica de visualización y saltar lógica a un formulario personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Conceder acceso</p> </td> 
-      <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo. 
+      <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo.
        <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden ver valores de campo</b>:</p> 
          <ul>
           <li><strong>Ver</strong>: vea los permisos del objeto</li>
