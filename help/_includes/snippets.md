@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2285'
 ht-degree: 1%
 
 ---
@@ -318,6 +318,10 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 ## Paso 1: Introducción a los recursos - {#step1-to-resourcing}
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Recursos]**.
+
+## Paso 1: Acceso al informe de utilización - {#step1-to-utilization-report}
+
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Recursos]**, entonces [!UICONTROL **Utilización**] en el panel izquierdo.
 
 <!-- Review and approve work -->
 

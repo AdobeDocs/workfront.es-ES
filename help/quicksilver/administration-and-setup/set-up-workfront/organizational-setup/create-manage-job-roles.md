@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Crear y administrar funciones de trabajo
 description: Como un [!DNL Adobe Workfront] administrador o un usuario con acceso administrativo a los roles, puede crear roles que se pueden asignar a usuarios y eliminar los roles predeterminados que no sean relevantes para su organización.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Para crear un rol:
       <td>
         <p>Seleccione una divisa asociada a este rol. Esta es la moneda que [!DNL Workfront] utiliza para calcular los costes e ingresos asociados con este rol. </p> 
         <p><span>Esto es diferente a la [!UICONTROL Moneda base] configurada por su [!DNL Workfront] administrador en el área de [!UICONTROL Setup] y puede ser diferente a la moneda asociada a un proyecto.</span> </p> 
-        <p>Sugerencia: En este campo solo están disponibles las monedas disponibles en el área [!UICONTROL Exchange Rates] del sistema.</p> 
+        <p>Sugerencia: En este campo solo están disponibles las monedas disponibles en el área [!UICONTROL Exchange Rates] del sistema. Si solo tiene una moneda configurada, este campo no aparece.</p> 
        <p><span>Para obtener información acerca de cómo configurar la [!UICONTROL Base Currency] en [!DNL Workfront], consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p> <p><span>Para obtener información sobre cómo cambiar la moneda de un proyecto, consulte</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Cambiar la divisa del proyecto</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
