@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 8%
 
 ---
@@ -34,9 +34,9 @@ Este artículo describe los niveles de permisos para los objetos Maestro.
 
 Para obtener información sobre cómo compartir espacios de trabajo o vistas, consulte los siguientes artículos:
 
-* [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Compartir espacios de trabajo](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Compartir una vista](/help/quicksilver/maestro/access/share-views.md)
+* [Compartir vistas](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objetos que puede compartir en Adobe Maestro
 
@@ -53,7 +53,7 @@ Puede compartir los siguientes objetos en Maestro:
 * Debe tener la siguiente licencia para crear espacios de trabajo en Maestro:
 
    * Nuevo modelo de precios: licencia estándar
-   * Modelo de precio actual: Licencia de trabajo o superior
+   * Modelo de precios actual: licencia de planificación.
 
   Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Los administradores del sistema pueden administrar y compartir espacios de trabajo creados por otros usuarios.

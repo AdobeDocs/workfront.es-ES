@@ -1,12 +1,12 @@
 ---
-title: Compartir una vista
+title: Compartir vistas
 description: Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar en Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '419'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
-# Compartir una vista
+# Compartir vistas
 
 Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar en Adobe Workfront Maestro.
 

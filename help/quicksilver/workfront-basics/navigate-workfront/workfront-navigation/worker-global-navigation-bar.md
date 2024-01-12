@@ -7,9 +7,9 @@ description: El menú principal cambia con el nivel de acceso que le ha asignado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ El diseño predeterminado de un entorno incluye las siguientes áreas [!UICONTRO
 
 * **[!UICONTROL Paneles]**: Aquí se muestran los paneles que se comparten con usted. Para obtener más información, consulte [Paneles](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendarios]**: Aquí se muestran los calendarios compartidos con usted. Para obtener más información, consulte [Calendarios](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendarios]**: Aquí se muestran los calendarios compartidos con usted. Para obtener más información, consulte [Calendarios: índice de artículos](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Equipos]**: Las tareas y los problemas asignados a sus equipos se muestran en esta área. Como trabajador, usted es el único [!DNL Workfront] usuario que ve el [!UICONTROL Equipos] de forma predeterminada.
 

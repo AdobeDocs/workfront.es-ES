@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
 
-## Semana del 15 de enero de 2024
+## Semana del 8 de enero de 2024
 
 ### Las capacidades de Maestro se eliminan de los entornos Vista previa y Zona protegida
 

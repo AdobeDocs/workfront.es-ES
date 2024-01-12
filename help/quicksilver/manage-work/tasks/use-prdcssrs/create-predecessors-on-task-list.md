@@ -1,31 +1,31 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Crear una relación predecesora en la lista de tareas
-description: Puede utilizar tareas predecesoras (o solo predecesoras) para vincular tareas que dependen de otras tareas para iniciarse o completarse. Por ejemplo, no desea alojar una parte (tarea dependiente) antes de enviar las invitaciones (tarea predecesora).
+title: Crear una relación de predecesoras en la lista de tareas
+description: Puede utilizar tareas predecesoras (o sólo predecesoras) para vincular tareas que dependen de otras tareas para comenzar o finalizar. Por ejemplo, no desea organizar una fiesta (tarea dependiente) antes de enviar las invitaciones (tarea predecesora).
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
-# Crear una relación predecesora en la lista de tareas
+# Crear una relación de predecesoras en la lista de tareas
 
-Puede utilizar tareas predecesoras (o solo predecesoras) para vincular tareas que dependen de otras tareas para iniciarse o completarse. Por ejemplo, no desea alojar una parte (tarea dependiente) antes de enviar las invitaciones (tarea predecesora).
+Puede utilizar tareas predecesoras (o sólo predecesoras) para vincular tareas que dependen de otras tareas para comenzar o finalizar. Por ejemplo, no desea organizar una fiesta (tarea dependiente) antes de enviar las invitaciones (tarea predecesora).
 
-Este artículo muestra cómo crear predecesores en la lista de tareas.
+Este artículo muestra cómo crear predecesoras en la lista de tareas.
 
-Puede ver las tareas anteriores en las siguientes áreas de Adobe Workfront:
+Puede ver las tareas predecesoras de las siguientes áreas de Adobe Workfront:
 
-* En la lista de tareas de la columna Predecesores .
-* En el diagrama de Gantt
-* En la sección Predecesores de una tarea dependiente
+* En la lista de tareas de la columna Predecesoras.
+* En el gráfico Gantt
+* En la sección Predecesoras de una tarea dependiente
 
-Para obtener más información, consulte [Descripción general de las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obtener más información, consulte [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisitos de acceso
 
@@ -36,68 +36,84 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nuevo: estándar </p><p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y proyectos</p> <p><b>NOTA</b>
+   <td> <p>Editar acceso a Tareas y Proyectos</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para las tareas y el proyecto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para las tareas y el proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Crear un predecesor
+## Creación de un predecesor
 
 1. Vaya a un proyecto.
-1. Haga clic en **Tareas** en el panel izquierdo.
-1. Asegúrese de que la vista actual muestre la variable **Predecesor** para abrir el Navegador.
+1. Clic **Tareas** en el panel izquierdo.
+1. Asegúrese de que la vista actual muestre el **Predecesora** columna.
 
-   Si la vista no muestra la columna Predecesores, cambie a una vista que lo haga o agregue la columna a la vista.
+   Si la vista no muestra la columna Predecesoras, cambie a una vista que sí la muestre o agregue la columna a la vista.
 
-1. Seleccione la tarea que desea designar como tarea dependiente.
-1. Haga clic dentro del **Predecesores** para abrir el Navegador.
-1. Escriba el número de tarea que desea designar como predecesor de la tarea seleccionada y, a continuación, pulse **Entrar**.
+1. Seleccione la tarea que desee designar como tarea dependiente.
+1. Haga clic dentro de **Predecesoras** columna.
+1. Escriba el número de tarea que desea designar como predecesora de la tarea seleccionada y presione **Entrar**.
 
-   El icono predecesor se vuelve verde cuando la tarea predecesora se marca como completada. Esto indica que la tarea dependiente está lista para funcionar.
+   >[!TIP]
+   >
+   >Para agregar una predecesora entre proyectos, haga lo siguiente:
+   >
+   >1. Haga clic en **Modo de planificación** y elija **Autoguardar**.
+   >
+   >1. Escriba el Número de referencia del proyecto del predecesor seguido de dos puntos y el número de la tarea. Por ejemplo, escriba: 765021:12. Esto indica que el número de referencia del proyecto del predecesor es 765021 y el predecesor es el número de tarea 12 del proyecto.
+   >
+   >1. Agregue el tipo de dependencia para este predecesor. Para obtener más información, consulte [Crear predecesoras entre proyectos](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >
+   >Prensa **Entrar**.
+   >
+   >**IMPORTANTE**
+   >
+   >No puede agregar una tarea predecesora entre proyectos cuando la lista de tareas se muestra en el modo de guardado manual.
 
-   Para obtener más información sobre los tipos de relación disponibles en la columna Predecesores , consulte [Descripción general de las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) en [Descripción general de las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   El icono del predecesor se vuelve verde cuando la tarea del predecesor se marca como completada. Esto indica que la tarea dependiente está lista para trabajar.
+
+   Para obtener más información sobre los tipos de relación disponibles en la columna Predecesoras, consulte [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Ver detalles del predecesor
 
 Puede ver rápidamente los detalles sobre el predecesor desde la lista de tareas.
 
-1. En la lista de tareas, pase el ratón sobre el número de predecesor en la **Predecesores** para abrir el Navegador.
+1. En la lista de tareas, pase el ratón sobre el número de predecesora en la **Predecesoras** columna.
 
-   Aparece un cuadro con los detalles del predecesor.
+   Se muestra un cuadro con los detalles del predecesor.
 
-   ![Detalles del predecesor](assets/predecessor-details-in-task-list.png)
+   ![Detalles de la predecesora](assets/predecessor-details-in-task-list.png)
 
    Se muestran los siguientes detalles:
 
-   **Nombre del predecesor:** Nombre del predecesor al que se hace referencia. Se incluye el número de tarea del predecesor. Haga clic en el nombre de la tarea para abrirla. En el ejemplo anterior, el predecesor es Production/Execution/Delivery.
+   **Nombre de predecesora:** El nombre del predecesor al que se hace referencia. Se incluye el número de tarea del predecesor. Haga clic en el nombre de la tarea para abrirla. En el ejemplo anterior, el predecesor es Production/Execution/Delivery.
 
-   **Nombre del proyecto:** Nombre del proyecto en el que reside el predecesor. El proyecto se identifica como el proyecto actual si el predecesor pertenece a los mismos proyectos que la tarea, o como un proyecto cruzado, si el predecesor pertenece a un proyecto diferente. En el ejemplo anterior, el nombre del proyecto es Producción de recursos digitales (integrada) - Proyecto. Para obtener más información sobre los predecesores entre proyectos, consulte [Crear predecesores entre proyectos](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **Nombre del proyecto:** Nombre del proyecto en el que reside el predecesor. El proyecto se identifica como el proyecto actual si el predecesor pertenece a los mismos proyectos que la tarea, o como proyecto cruzado, si el predecesor pertenece a un proyecto diferente. En el ejemplo anterior, el nombre del proyecto es Producción de activos digitales (integrada) - Proyecto. Para obtener más información sobre las tareas predecesoras entre proyectos, consulte [Crear predecesoras entre proyectos](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   Puede ampliar los detalles del proyecto para ver las fechas de inicio y finalización, la condición, el estado, el porcentaje completado y el propietario del proyecto. Para un proyecto cruzado, puede hacer clic en **Consulte Proyecto** para abrir el proyecto.
+   Puede ampliar los detalles del proyecto para ver las fechas de inicio y finalización planificadas del proyecto, la condición, el estado, el porcentaje completado y el propietario. Para un proyecto cruzado, puede hacer clic en **Ver proyecto** para abrir el proyecto.
 
    **ID:** Número de referencia del proyecto en el que se encuentra el predecesor.
 
-   **Inicio planificado:** Fecha de inicio planeada de la tarea predecesora.
+   **Inicio planificado:** Fecha planificada de inicio de la tarea predecesora.
 
-   **Fin planificado:** Fecha de finalización planeada de la tarea predecesora.
+   **Fin planificado:** Fecha planificada de finalización de la tarea predecesora.
 
-   **Número de predecesores:** Número de predecesores a los que se hace referencia para el predecesor. En el ejemplo anterior, el predecesor al que se hace referencia tiene 1 predecesor.
+   **Número de predecesoras:** Número de predecesoras de la predecesora a la que se hace referencia. En el ejemplo anterior, la predecesora a la que se hace referencia tiene 1 predecesora.
 
-   **Número de sucesores:** Número de tareas sucesoras (o dependientes) a las que se hace referencia en el predecesor. En el ejemplo anterior, el predecesor al que se hace referencia tiene 1 sucesor.
+   **Número de sucesoras:** Número de tareas sucesoras (o dependientes) de la predecesora a la que se hace referencia. En el ejemplo anterior, se hace referencia al predecesor con 1 sucesor.
