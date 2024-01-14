@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 1%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 1%
          * [Ocultar informes](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * Correos electrónicos {#emails}
          * [Correos electrónicos](administration-and-setup/manage-workfront/emails/emails.md)
-         * [Notificaciones por correo electrónico](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [Notificaciones por correo electrónico: índice de artículos](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Configuración de notificaciones de eventos](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Notificación de evento disponible](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Notificaciones de evento disponibles](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Desbloquear notificaciones de eventos para todos los grupos](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Líneas de asunto de notificación de eventos](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Modificar configuración de notificaciones por correo electrónico de los usuarios](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 1%
    * Administrar grupos {#manage-groups}
       * [Administrar grupos](administration-and-setup/manage-groups/manage-groups.md)
       * Grupos {#groups}
-         * [Información general de grupos](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Grupos](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Grupos: índice de artículos](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Información general de grupos](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Información general sobre subgrupos](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Información general de grupos de inicio](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Creación y administración de grupos {#create-manage-groups}

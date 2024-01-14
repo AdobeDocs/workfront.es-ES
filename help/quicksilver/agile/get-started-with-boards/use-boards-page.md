@@ -6,14 +6,16 @@ description: El [!UICONTROL tableros] en el tablero se muestra la lista de table
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # Uso del tablero de mandos
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,25 +47,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Filtrar tableros y flujos de trabajo {#filter-boards}
 
 Se puede filtrar el tablero de tableros para mostrar los tableros o flujos de trabajo activos, archivados o todos.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Clic [!UICONTROL **Filtrar**] en el área Tableros o en el área Flujos de trabajo y seleccione **[!UICONTROL Todo]**, **[!UICONTROL Activo]**, o **[!UICONTROL Archivado]**.
 
    Cuando se aplica un filtro distinto del predeterminado en el panel, se muestra un indicador en el icono de filtro ![Filtro aplicado al panel](assets/boards-filterapplied-30x30.png).
 
 ## Ordenar tableros
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Para ordenar la lista de tableros, haga clic en [!UICONTROL **Ordenar**]. La opción de ordenación predeterminada para la página es por **[!UICONTROL Fecha de modificación]**. También puede ordenar la página por tablero **[!UICONTROL Nombre]**.
 
    Seleccionar **[!UICONTROL Orden inverso]** para ordenar los tableros en orden inverso a la fecha de modificación o al nombre. Cuando la flecha del icono de ordenación señala hacia arriba, se aplica el orden inverso. Cuando la flecha señala hacia abajo, se aplica el orden estándar.
@@ -74,7 +81,7 @@ Se puede filtrar el tablero de tableros para mostrar los tableros o flujos de tr
 
 Puede buscar un tablero específico en el área de Tableros o buscar un flujo de trabajo específico en el área de Flujos de trabajo.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Clic [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
 
    Se muestran todos los tableros o flujos de trabajo que contienen el término de búsqueda en el título.
@@ -93,7 +100,7 @@ Archivar una placa o un flujo de trabajo lo envía al archivo y puede restaurarl
 >
 >Al archivar un flujo de trabajo, se archivan todas sus placas.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Haga clic en **[!UICONTROL Más]** menú ![Menú Más](assets/more-icon-spectrum.png) en el tablero o flujo de trabajo y seleccione **[!UICONTROL Archivar]**.
 
    En un flujo de trabajo, el menú está a la derecha, junto a la etiqueta [!UICONTROL **Ver flujo de trabajo**] botón.
@@ -114,7 +121,7 @@ Al eliminar un flujo de trabajo, también se eliminan todos los tableros de dich
 >
 >Sólo puede eliminar tableros y flujos de trabajo que haya creado, no tableros y flujos de trabajo a los que se haya agregado.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Haga clic en **[!UICONTROL Más]** menú ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) en el tablero o flujo de trabajo y seleccione **[!UICONTROL Eliminar]**.
 
    En un flujo de trabajo, el menú está a la derecha, junto a la etiqueta [!UICONTROL **Ver flujo de trabajo**] botón.

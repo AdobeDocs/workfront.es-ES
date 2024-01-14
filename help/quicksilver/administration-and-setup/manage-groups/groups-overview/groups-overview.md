@@ -3,21 +3,21 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: Información general de grupos
+title: "Grupos: índice de artículos"
 description: Un administrador de Workfront puede crear grupos de usuarios que coincidan con la estructura del departamento. Los grupos son similares a los equipos y las empresas, pero distintos de ellos. El administrador de Workfront concede a los grupos acceso a las áreas de Workfront donde necesitan trabajar y comunicarse. A continuación, cada grupo puede mantener su información de Workfront, como usuarios, plantillas y formularios y proyectos personalizados, separada de la de otros departamentos. Se requiere al menos un administrador de grupo para cada grupo. Los administradores de grupos pueden utilizar la página Grupos para administrar sus grupos en un solo lugar. Puede crear hasta 14 niveles de subgrupos en un grupo.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a603b169a5863661508b796171aa6a12ac8fc3aa
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-# Información general de grupos
+# Grupos: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 
