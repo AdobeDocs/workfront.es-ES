@@ -6,7 +6,7 @@ description: Puede limitar la cantidad de información que se muestra en pantall
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 1%
@@ -55,11 +55,11 @@ O
 
 Para editar un filtro en un informe, debe tener la siguiente licencia:
 
-<p>Nuevo: plan</p>
+<p>Nuevo: estándar</p>
 
 O
 
-<p>Actual: Estándar</p>
+<p>Actual: plan</p>
 
 </td> 
   </tr> 

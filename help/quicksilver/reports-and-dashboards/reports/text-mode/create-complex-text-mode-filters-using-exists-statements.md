@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Creación de filtros complejos de modo de texto mediante instrucciones EXISTS
-description: Creación de filtros complejos de modo de texto mediante instrucciones EXISTS
+description: Puede crear filtros complejos de modo de texto mediante instrucciones EXISTS. Este artículo requiere una comprensión exhaustiva de la API de Adobe Workfront y de la interfaz de informes del modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # Creación de filtros complejos de modo de texto mediante instrucciones EXISTS
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -34,7 +36,7 @@ Todos los objetos están vinculados a otros objetos de la base de datos de Workf
 
 El conocimiento de la jerarquía y la interdependencia de los objetos ayuda a averiguar a qué objetos se puede hacer referencia en los informes.
 
-Para obtener información sobre los objetos que están en Workfront y sobre su jerarquía e interdependencia, consulte [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener información sobre los objetos que están en Workfront y sobre su jerarquía e interdependencia, consulte [Información general sobre objetos Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Al crear filtros, puede hacer referencia a otros objetos conectados al objeto del filtro en un máximo de 2 niveles de relación mediante la interfaz de sistema de informes estándar.
 
@@ -42,7 +44,7 @@ Por ejemplo, puede hacer referencia al ID de Portfolio en un filtro de problemas
 
 Sin embargo, no puede hacer referencia al Propietario del Portfolio en un filtro de problemas mediante la interfaz estándar para mostrar solo los problemas de los proyectos asociados a portafolios en los que el propietario sea un usuario específico. Debe utilizar el modo de texto para acceder al campo Nombre del propietario del Portfolio, que está a tres niveles de los problemas.
 
-![issue_to_portfolio_owner_right_line_icon.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![Problema con los iconos del propietario del portafolio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 Para obtener una lista completa de los objetos de Workfront, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
 
@@ -50,7 +52,7 @@ Para obtener información sobre cómo navegar por el Explorador de API y buscar 
 
 Al crear filtros, debe crear instrucciones complejas en la interfaz de modo de texto para hacer referencia a estos tipos de objetos.
 
-Para obtener información sobre la creación de filtros complejos, consulte la [Información general sobre los filtros complejos de modo de texto que utilizan instrucciones EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) sección.
+Para obtener información sobre la creación de filtros complejos, consulte la [Información general sobre los filtros de modo de texto complejo que utilizan instrucciones EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) de este artículo.
 
 ## Información general sobre los filtros de modo de texto complejo que utilizan instrucciones EXISTS {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -95,25 +97,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>O</p>
+       <p>Actual: plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar filtros en un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar filtros en un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe para editar filtros en un informe</p> <p>Administración de permisos de un filtro para editarlo</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para editar filtros en un informe</p> <p>Administración de permisos de un filtro para editarlo</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Crear filtros de modo de texto complejos que abarquen varios niveles en la jerarquía de objetos
 
@@ -131,9 +135,12 @@ Para crear un filtro que abarque varios niveles en la jerarquía de objetos:
 
 1. Identifique el objeto del filtro. Nos referimos a este objeto como el objeto original.\
    Por ejemplo, Problema.
+
 1. Identifique el campo por el que desee filtrar. Nos referimos a este objeto como el Campo de destino que pertenece a un Objeto de destino.\
-   Por ejemplo, el campo ownerID (campo de destino) que pertenece a Portfolio (objeto de destino).
-1. (Condicional) Si el objeto original (Problema) y el campo de destino (ownerID) no están conectados directamente entre sí, debe encontrar un tercer objeto, un objeto de vinculación (Proyecto) que los conecte. El objeto de vinculación debe tener al menos un campo al que se haga referencia desde las pestañas Campos o Referencias del objeto original (Campo de vinculación mostrado en el objeto original) y también debe tener un campo de vinculación al objeto de destino mostrado en las pestañas Campos o Referencias del objeto de vinculación. El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación (o el campo de vinculación que se muestra en el objeto de vinculación) debe coincidir con el campo de destino.\
+   Por ejemplo, el campo ownerID (campo de destino), que pertenece a Portfolio (objeto de destino).
+
+1. (Condicional) Si el objeto original (Problema) y el campo de destino (ownerID) no están conectados directamente entre sí, debe encontrar un tercer objeto, un objeto de vinculación (Proyecto) que los conecte. El objeto de vinculación debe tener al menos un campo al que se haga referencia desde las pestañas Campos o Referencias del objeto original (Campo de vinculación mostrado en el objeto original), y también debe tener un campo de vinculación al objeto de destino mostrado en las pestañas Campos o Referencias del objeto de vinculación. El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación (o el campo de vinculación que se muestra en el objeto de vinculación) debe coincidir con el campo de destino.
+
    Por ejemplo, se hace referencia a la ID de (proyecto) (campo de vinculación mostrado en el objeto original) desde Problemas (objeto original). (Portfolio) ownerID (Campo de vinculación al objeto de destino) se muestra en la pestaña Campos del proyecto (Objeto de vinculación). ownerID de Portfolio también es un campo en el objeto de destino (Portfolio). El campo de vinculación del objeto de vinculación coincide con el campo de destino.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
@@ -146,13 +153,13 @@ Para crear un filtro que abarque varios niveles en la jerarquía de objetos:
    Para obtener información sobre la creación de filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Cambiar a modo de texto**.
-1. Pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto sugerido con los objetos y campos correctos:
+1. Pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto de ejemplo con los objetos y campos correctos:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
-   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
+
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
    Para ver un ejemplo con los campos identificados anteriormente, consulte la [Ejemplo 1: Filtrar problemas por nombre de propietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) de este artículo.
 
@@ -177,10 +184,14 @@ Para crear un filtro que haga referencia a los objetos que faltan:
 
 1. Identifique el objeto del filtro. Nos referimos a este objeto como el objeto original.\
    Por ejemplo, Parámetro o Campo personalizado.
+
 1. Identifique el campo por el que desee filtrar. Nos referimos a este objeto como el Campo de destino que pertenece a un Objeto de destino.\
-   Por ejemplo, el campo categoryID (Campo de destino) que pertenece a Categoría (Objeto de destino).
-1. Dado que el objeto original (Parámetro) y el campo de destino (categoryID) no están conectados directamente entre sí, debe encontrar un tercer objeto, un objeto de vinculación (un parámetro Category), que los conecte. El objeto de vinculación debe tener al menos un campo al que se haga referencia desde las pestañas Campos o Referencias del objeto original (Campo de vinculación mostrado en el objeto original) y también debe tener un campo de vinculación al objeto de destino mostrado en las pestañas Campos o Referencias del objeto de vinculación. El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación (o el campo de vinculación que se muestra en el objeto de vinculación) debe coincidir con el campo de destino.\
-   Por ejemplo, se hace referencia al ID del parámetro Category (Campo de vinculación mostrado en el objeto original) desde Parameter(Objeto original). parameterID (Campo de vinculación al objeto de destino) se muestra en la pestaña Campos del parámetro de categoría (Objeto de vinculación). El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación coincide con el campo de destino.
+   Por ejemplo, el campo categoryID (Campo de destino), que pertenece a Categoría (Objeto de destino).
+
+1. Dado que el objeto original (Parámetro) y el campo de destino (categoryID) no están conectados directamente entre sí, debe encontrar un tercer objeto, un objeto de vinculación (un parámetro Category), que los conecte. El objeto de vinculación debe tener al menos un campo al que se haga referencia desde las pestañas Campos o Referencias del objeto original (Campo de vinculación mostrado en el objeto original), y también debe tener un campo de vinculación al objeto de destino mostrado en las pestañas Campos o Referencias del objeto de vinculación. El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación (o el campo de vinculación que se muestra en el objeto de vinculación) debe coincidir con el campo de destino.
+
+   Por ejemplo, se hace referencia al ID del parámetro Category (Campo de vinculación mostrado en el objeto original) desde Parameter (Objeto original). parameterID (Campo de vinculación al objeto de destino) se muestra en la pestaña Campos del parámetro de categoría (Objeto de vinculación). El campo de vinculación al objeto de destino que se muestra en el objeto de vinculación coincide con el campo de destino.
+
 1. Mediante el Explorador de API, identifique el **Código de objeto** del objeto de vinculación (parámetro Category).\
    Por ejemplo, el código de objeto del parámetro Category es CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
@@ -190,15 +201,11 @@ Para crear un filtro que haga referencia a los objetos que faltan:
    Para obtener información sobre la creación de filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Cambiar a modo de texto**.
-1. (Condicional) Si está filtrando por objetos que faltan, pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto sugerido con los objetos y campos correctos:
+1. (Condicional) Si está filtrando por objetos que faltan, pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto de ejemplo por los objetos y campos correctos:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    Para ver un ejemplo de creación de informes sobre campos personalizados que no están asociados con Forms personalizado, consulte la [Ejemplo 2: Filtrar objetos que faltan: campos personalizados que no aparecen en ningún formulario personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) de este artículo.
 
@@ -206,10 +213,7 @@ Para crear un filtro que haga referencia a los objetos que faltan:
 
 ## Ejemplos de filtros de modo de texto que abarcan varios niveles en la jerarquía de objetos
 
-* [Ejemplo 1: Filtrar problemas por nombre de propietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [Ejemplo 2: Filtrar objetos que faltan: campos personalizados que no aparecen en ningún formulario personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [Ejemplo 3: Filtrar objetos que faltan: usuarios que no registraron el tiempo durante un período determinado](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [Ejemplo 4: Filtrar por varios campos: tareas por nombre de propietario del Portfolio e ID del cuadro de resultados de alineación del Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+Utilice estos ejemplos para crear filtros de modo de texto con instrucciones EXISTS.
 
 ### Ejemplo 1: Filtrar problemas por nombre de propietario del Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -223,16 +227,17 @@ Para filtrar problemas por el nombre del propietario del Portfolio:
 1. Clic **Cambiar a modo de texto**.
 1. Consulte el siguiente código genérico:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Pegue el siguiente código en la **Definición de reglas de filtro para el informe** área para reemplazar el código genérico anterior:
-   <pre>EXISTE:A:$$OBJCODE=PROJ<br>EXISTE:A:ID=FIELD:projectID<br>EXISTE:A:portafolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+
+   `EXISTS:A:ID=FIELD:projectID`
+
+   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
 
    >[!NOTE]
    >
@@ -262,16 +267,17 @@ Para filtrar por campos personalizados que no están asociados a un formulario p
 1. Clic **Cambiar a modo de texto**.
 1. Consulte el siguiente código genérico:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. Pegue el siguiente código en la **Definición de reglas de filtro para el informe** área para reemplazar el código genérico anterior:
-   <pre>EXISTE:A:$$OBJCODE=CTGYPA<br>EXISTE:A:parameterID=FIELD:ID<br>EXISTE:A:$$EXISTSMOD=NOTEXISTS</pre>
+
+   `EXISTS:A:$$OBJCODE=CTGYPA`
+
+   `EXISTS:A:parameterID=FIELD:ID`
+
+   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -279,14 +285,14 @@ Para filtrar por campos personalizados que no están asociados a un formulario p
    >* El objeto de destino es Categoría.
    >* El objeto de vinculación es un parámetro de categoría.
    >* El código de objeto del objeto de vinculación es CTGYPA.
-   >* El campo de vinculación al objeto de destino es parameterID porque parameterID existe tanto en la tabla de objetos de vinculación como en la tabla de objetos de destino.
+   >* El campo de vinculación al objeto de destino es parameterID, ya que parameterID existe tanto en la tabla de objetos de vinculación como en la tabla de objetos de destino.
    >* El campo de vinculación que se muestra en el objeto original es ID (del parámetro Category).
 
 1. Clic **Guardar filtro**.
 
 ### Ejemplo 3: Filtrar objetos que faltan: usuarios que no registraron el tiempo durante un período determinado {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
-Con la interfaz de modo de texto, puede crear un filtro para ver los usuarios que no registraron el tiempo durante un período de tiempo determinado. Este filtro vincula a los usuarios con las horas, que están conectadas entre sí directamente. Sin embargo, debe utilizar una instrucción EXISTS y la interfaz de modo de texto para poder filtrar la información que falta.information.
+Con la interfaz de modo de texto, puede crear un filtro para ver los usuarios que no registraron el tiempo durante un período de tiempo determinado. Este filtro vincula a los usuarios con las horas, que están conectadas entre sí directamente. Sin embargo, debe utilizar una instrucción EXISTS y la interfaz de modo de texto para poder filtrar la información que falta.
 
 Para filtrar por usuarios que no registraron tiempo durante la semana pasada:
 
@@ -296,19 +302,13 @@ Para filtrar por usuarios que no registraron tiempo durante la semana pasada:
 1. Clic **Cambiar a modo de texto**.
 1. Consulte el siguiente código genérico:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. Pegue el siguiente código en la **Definición de reglas de filtro para el informe** área para reemplazar el código genérico anterior:
 
-   ```
-   EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -339,7 +339,14 @@ Para filtrar tareas por nombre de propietario del Portfolio e ID de cuadro de re
 
 1. Clic **Cambiar a modo de texto**.
 1. Pegue el siguiente código en la **Definición de reglas de filtro para el informe** área:
-   <pre>EXISTE:A:$$OBJCODE=PROJ<br>EXISTE:A:ID=FIELD:projectID<br>EXISTE:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f<br>Y:A:EXISTE:A:$$EXISTSMOD=NOTEXISTS<br>Y:A:EXISTE:A:$$OBJCODE=PROJ<br>Y:A:EXISTE:A:ID=FIELD:projectID<br>Y:A:EXISTE:A:portafolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+   `EXISTS:A:ID=FIELD:projectID`
+   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
+   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
+   `AND:A:EXISTS:A:ID=FIELD:projectID`
+   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
 
    >[!NOTE]
    >
