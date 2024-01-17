@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del primer trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 
 1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
 
-   * <span class="preview">Guarde la imagen en el equipo y arrástrela y suéltela en el área Nuevo comentario.</span>
-     <span class="preview">Esto no está disponible en el entorno de producción para la nueva experiencia de comentarios. Arrastrar y soltar una imagen en un comentario está disponible en la experiencia de comentarios heredada en Producción. </span>
-
-   * <span class="preview">Copie una captura de pantalla del equipo y péguela en el comentario </span>
+   * Guarde la imagen en el equipo y arrástrela y suéltela en el área Nuevo comentario.
+   * Copie una captura de pantalla del equipo y péguela en el comentario. Esto no está disponible en la experiencia de comentarios heredada.
    * Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo.
 
 
@@ -392,7 +390,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* El administrador de Workfront debe habilitar la adición de imágenes en la sección Actualizar preferencias de fuentes del área de Interfaz de Workfront para que pueda ver los iconos Imagen o Agregar datos adjuntos. Para obtener más información, consulte [Configurar preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* El tamaño máximo de archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
    >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos del menú principal.
-   >* <span class="preview">Puede pegar la imagen haciendo clic con el botón derecho en el nuevo comentario o presionando CTRL + V para Windows (o CMD + V para Mac) en el teclado.</span>
+   >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario o presionando CTRL + V para Windows (o ⌘ + V para Mac) en el teclado.
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, existen los siguientes escenarios en función de la experiencia que elija:
    >
@@ -404,12 +402,10 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 
 1. (Opcional) Para ver una imagen en la actualización existente, realice una de las siguientes acciones:
 
-   * Haga clic en **Previsualizar** icono <span class="preview">![](assets/previewimageicon-31x31.png)</span> en la miniatura de la imagen para abrir la imagen a tamaño completo en una nueva pestaña del explorador.
+   * Haga clic en **Previsualizar** icono ![](assets/previewimageicon-31x31.png) en la miniatura de la imagen para abrir la imagen a tamaño completo en una nueva pestaña del explorador.
    * Haga clic en **Descargar** icono ![](assets/downloadimageicon.png) en la miniatura para descargar la imagen.
 
 1. Clic **Enviar** para agregar su comentario.
-
-<div class="preview">
 
 ## Buscar una actualización
 
@@ -422,7 +418,11 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 1. Vaya a la **Actualizaciones** de un objeto.
 1. Empiece a escribir una palabra clave <!--or a user's name --> en el **Buscar** en la esquina superior derecha de la ventana **Comentarios** pestaña.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   Solo puede buscar palabras que pertenezcan al texto de un comentario o respuesta. No puede buscar nombres de usuarios o equipos etiquetados en una actualización.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
    Workfront busca en todo el flujo de actualización del objeto, fuera de los comentarios visibles en la pantalla.
 
 1. Haga clic en **x** en el campo de búsqueda para borrar los resultados de la búsqueda y volver a todos los comentarios.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

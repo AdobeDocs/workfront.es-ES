@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
       No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
 
-   1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
+   1. Prensa **Entrar** en el teclado para ir al siguiente campo encontrado.
 
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
 
@@ -279,7 +279,7 @@ Para agregar un filtro a una vista de tabla:
         </thead>
         <tbody>
         <tr>
-            <td>Párrafo de una sola línea </td>
+            <td>Una línea, párrafo, fórmula </td>
             <td><p>Contiene</p>
             <p>No contiene</p>
             <p>Es</p>
@@ -296,7 +296,7 @@ Para agregar un filtro a una vista de tabla:
             <p>No está vacío</p></td>
         </tr>
         <tr>
-            <td>Selección múltiple</td>
+            <td>Selección múltiple, Personas</td>
             <td><p>Tiene cualquiera de</p>
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
@@ -305,7 +305,7 @@ Para agregar un filtro a una vista de tabla:
             <p>No está vacío</p></td>
         </tr>
         <tr>
-            <td>Numérico, porcentaje, moneda</td>
+            <td>Número, Porcentaje, Moneda</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

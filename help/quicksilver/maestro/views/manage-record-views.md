@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |
 | Mostrar registros en una cronología |            | ✓ |
 | Filtrar registros | ✓ | ✓ |
-| Agrupar registros |           | ✓ |
+| Agrupar registros | ✓ | ✓ |
 | Ordenar registros | ✓ |              |
 | Registros de código de color |           | ✓ |
 | Agrupaciones de código de color |           | ✓ |
-| Buscar registros | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Buscar registros específicos | ✓ | ✓ |
+| Compartir vista | ✓ | ✓ |
+| Abra la página Detalles del registro desde la vista | ✓ | ✓ |
 
 ## Creación o edición de vistas {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
    De forma predeterminada, Maestro asigna a la vista el nombre &quot;Tabla &lt; número >&quot; o &quot;Línea de tiempo &lt; número >&quot;. El número es un incremento generado automáticamente.
 
 1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista. <!--ensure there is not another saving step here?!-->
-1. (Opcional) Para administrar una vista, consulte los siguientes artículos para obtener más información:
+1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
    * [Administrar la vista de tabla](../views/manage-the-table-view.md)
    * [Administrar la vista de cronología](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Eliminar vistas
 
@@ -202,6 +197,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
 Para obtener información sobre cómo compartir vistas, consulte [Compartir vistas](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

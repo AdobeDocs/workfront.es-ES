@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
 >
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
+>Para obtener más información, consulte [Introducción a Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 Puede mostrar registros en una vista de escala de tiempo al acceder a la página de tipo de registro en Adobe Maestro.
 
@@ -129,7 +129,12 @@ Para administrar una vista de cronología:
 
    ![](assets/timeline-view-example.png)
 
-   Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan en orden cronológico de forma predeterminada.
+   Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan en orden cronológico de su fecha de inicio de forma predeterminada.
+
+   >[!TIP]
+   >
+   >    La ordenación de los registros de la cronología no es visible en la vista Compacta.
+
 
 1. Realice una de las siguientes acciones para navegar por la cronología:
 
@@ -165,8 +170,8 @@ Para administrar una vista de cronología:
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
    * [Agrupación](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [Configuración](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Añadir filtros
 

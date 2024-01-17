@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Estas son algunas de las funciones principales de Maestro:
 * Personalice completamente los flujos de trabajo, desde decidir qué tipos de objetos (o tipos de registros) utiliza su organización hasta configurar cómo se vinculan estos objetos entre sí.
 * Enlace a tipos de objetos de otros sistemas, creando un marco coherente para todos sus procesos.
 
-## Funciones disponibles actualmente en Maestro
+## Funciones de Maestro disponibles actualmente
 
 En la tabla siguiente se ilustran las características principales que estarán disponibles en Maestro y una cronología de su disponibilidad. La lista no incluye todas las funciones.
+
+Para obtener información sobre las nuevas funciones y cuándo se lanzarán, consulte [Actividad de versión de Maestro](/help/quicksilver/maestro/release-activity.md).
 
 | Función | Disponible ahora | Disponible próximamente | En investigación |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
 * **Campos vinculados** (o campos de búsqueda): después de establecer la conexión entre dos tipos de registro y vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.
 
+  Por ejemplo, si conecta una campaña de Maestro con un proyecto de Workfront, puede mostrar el campo Propietario del proyecto de los proyectos conectados en los registros de campaña de Maestro.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Para obtener información sobre cómo vincular tipos de registros, registros y crear campos vinculados, vea los siguientes artículos:
@@ -268,7 +272,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 
 ## Localizar Maestro
 
-Asegúrese de que su organización ha recibido acceso a Maestro y de que el administrador del sistema o del grupo ha agregado el área de Maestro al menú principal.
+Asegúrese de que su organización ha recibido acceso a Maestro y de que el administrador del sistema o del grupo ha agregado el área de Maestro al menú principal. Para obtener más información, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md) .
 
 Para localizar Maestro:
 
