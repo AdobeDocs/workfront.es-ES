@@ -2,26 +2,29 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Mostrar elementos en [!UICONTROL Lista de trabajos] en el área de Inicio
-description: El [!UICONTROL Lista de trabajos] en el [!UICONTROL Inicio] muestra todos los elementos de trabajo que tiene asignados. Puede controlar qué elementos se muestran en la [!UICONTROL Trabajo] Enumere como se describe a continuación.
-author: Lisa
+description: El [!UICONTROL Lista de trabajos] en el [!UICONTROL Inicio] muestra todos los elementos de trabajo que tiene asignados. Puede controlar qué elementos se muestran en su [!UICONTROL Lista de trabajos], mediante filtros y agrupando y ordenando los elementos de trabajo.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1826'
 ht-degree: 0%
 
 ---
 
-# Mostrar elementos en [!UICONTROL Lista de trabajos] en el área de Inicio
+# Mostrar elementos en [!UICONTROL Lista de trabajos] en el [!UICONTROL Inicio] área
 
-El [!UICONTROL Lista de trabajos] en el [!UICONTROL Inicio] muestra todos los elementos de trabajo que tiene asignados. Puede controlar qué elementos se muestran en la [!UICONTROL Trabajo] Enumere como se describe a continuación.
+<!-- Audited: 1/2024 -->
+
+
+El [!UICONTROL Lista de trabajos] en el [!UICONTROL Inicio] muestra todos los elementos de trabajo que tiene asignados. Puede controlar qué elementos se muestran en su [!UICONTROL Lista de trabajos], mediante filtros y agrupando y ordenando los elementos de trabajo.
 
 >[!NOTE]
 >
->Al convertir un problema en una tarea o un proyecto, el problema se elimina del área de Inicio del usuario asignado al problema.
+>* Al convertir un problema en una tarea o un proyecto, el problema se elimina del área de Inicio del usuario asignado al problema.
 >
->Al convertir una tarea en un proyecto, la tarea se elimina y esta se elimina del área de Inicio del usuario asignado a la tarea.
+>* Al convertir una tarea en un proyecto, la tarea se elimina y esta se elimina del área de Inicio del usuario asignado a la tarea.
 
 
 ## Requisitos de acceso
@@ -35,25 +38,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Review] solo para aprobaciones</p> <p>[!UICONTROL Work] o superior para todos los demás objetos</p> </td> 
-  </tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> <p>Nuevo:</p><ul><li>[!UICONTROL Contributor] solo para aprobaciones</li> <li>[!UICONTROL Standard] o superior para todos los demás objetos</li> <p>O</p> 
+  </ul><p>Actual:</p><ul><li>[!UICONTROL Review] solo para aprobaciones</li> <li>[!UICONTROL Work] o superior para todos los demás objetos</li> </td> 
+  </tr> </ul>
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL View] o acceso superior a Proyectos, Tareas, Problemas y Documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>[!UICONTROL View] o acceso superior a Proyectos, Tareas, Problemas y Documentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Aportar permisos o superiores a las tareas y problemas en los que necesita trabajar</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
+   <td> <p>Aportar permisos o superiores a las tareas y problemas en los que necesita trabajar</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Filtrar el [!UICONTROL Lista de trabajos]
 
@@ -63,8 +67,8 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
 >
 >Las opciones de filtro se almacenan en el explorador. Si utiliza el mismo explorador de forma constante en el mismo equipo (y no borra los datos del sitio), los filtros seleccionados no cambian. Si cambia de navegador o de ordenador, los filtros vuelven a la opción predeterminada, que es la que no está seleccionada para todos los filtros.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **[!UICONTROL Inicio]**.
-1. Haga clic en **[!UICONTROL Filtrar]** ![](assets/filter-nwepng.png) menú desplegable.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en **[!UICONTROL Filtrar]** ![](assets/filter-nwepng.png) menú desplegable. Si tiene algún filtro seleccionado, el número de filtros seleccionados se muestra en lugar del icono.
 1. Seleccione entre las siguientes opciones de filtro para especificar el tipo de elementos que desea mostrar:
 
    <table style="table-layout:auto"> 
@@ -76,11 +80,11 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
       <td>Muestra y selecciona todos los elementos. Esto incluye tareas, problemas, aprobaciones, tareas personales y tareas y problemas completados. </td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tareas de [!UICONTROL en curso]</strong></td> 
+      <td role="rowheader"><strong>Tareas de [!UICONTROL: Trabajando en]</strong></td> 
       <td> <p>Muestra únicamente las tareas en las que está trabajando activamente. Son tareas asignadas para las que ha hecho clic en el botón [!UICONTROL Trabajar en ello].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tareas listas para iniciarse]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tareas: Listo para iniciarse]</strong></td> 
       <td> 
        <div> 
         <p>Muestra sólo las tareas que están listas para iniciarse. Las dos afirmaciones siguientes deben ser verdaderas:</p> 
@@ -91,7 +95,7 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tareas no listas]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tareas: No está listo]</strong></td> 
       <td> 
        <div> 
         <p>Muestra únicamente las tareas que aún no están listas para iniciarse. Cualquiera de las siguientes afirmaciones debe ser verdadera:</p> 
@@ -102,16 +106,16 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemas en funcionamiento]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Problemas: Trabajando en]</strong></td> 
       <td> <p>Muestra únicamente los problemas en los que está trabajando activamente. Estos son problemas asignados a usted para los que ha hecho clic en el botón [!UICONTROL Trabajar en ello].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemas solicitados]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Problemas: Solicitado]</strong></td> 
       <td>Muestra sólo los problemas que tiene asignados pero para los que no ha hecho clic en el botón [!UICONTROL Trabajar en ello].</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Personal</strong></td> 
-      <td>Muestra sólo las tareas personales. Son tareas que se crean como una tarea de [!UICONTROL Tareas pendientes], tal como se describe en la sección <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Crear una tarea personal</a> en el artículo <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Crear elementos de trabajo desde el área de [!UICONTROL Home]</a>.</td> 
+      <td>Muestra sólo las tareas personales. Son tareas que se crean como una tarea de [!UICONTROL Tareas pendientes], tal como se describe en la sección <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">Crear una tarea personal</a> en el artículo <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Crear elementos de trabajo desde el área de [!UICONTROL Home]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Aprobaciones]</strong></td> 
@@ -128,6 +132,21 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
        </div> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Delegado: delegado por mí]</strong></td> 
+      <td> 
+       <div> 
+        <p>Muestra sólo los elementos de trabajo que ha delegado a otro usuario.</p> 
+        <p>Para obtener más información sobre la delegación de tareas, consulte <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegar tareas y problemas a otro usuario</a>.
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Delegado: Delegado a mí]</strong></td> 
+      <td> 
+       <div> 
+        <p>Muestra sólo los elementos de trabajo que le ha delegado temporalmente otro usuario.</p> 
+       </div> </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL completado]</strong></td> 
       <td> <p>Muestra sólo las tareas, problemas y tareas personales completados. El trabajo completado se muestra durante las dos semanas anteriores y se agrupa en la Lista de trabajos según la semana en que se completaron. No se incluyen las aprobaciones.</p> <p>El trabajo completado está oculto en la Lista de trabajos de [!UICONTROL] a menos que seleccione este filtro.</p> </td> 
      </tr> 
@@ -141,8 +160,8 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
    >* Las opciones de filtro se basan en objetos (tareas, problemas, aprobaciones, tareas personales).
    >* Las tareas y los problemas se filtran aún más por su estado en relación con nuestra disposición a trabajar en ellos ([!UICONTROL Trabajando en], [!UICONTROL Listo para empezar], [!UICONTROL No está listo] para tareas, y [!UICONTROL Trabajando en] y [!UICONTROL Solicitado] para problemas). Puede seleccionar mostrar tareas o problemas en un estado específico o hacer clic en Tareas o Problemas para seleccionar y mostrar todos los estados.
    >* Hay un filtro independiente para los elementos completados que incluye tareas y problemas. Esto no incluye las aprobaciones. El [!UICONTROL Completado] El filtro incluye las tareas personales.
-   >* Solo se puede seleccionar un estado a la vez. Por ejemplo, solo puede mostrar [!UICONTROL Trabajando en] tareas y solo [!UICONTROL Solicitado] problemas.
-   >* No puede aplicar filtros a los elementos asignados a uno de sus equipos y no se incluyen en los elementos que se le han asignado directamente.
+   >* Puede seleccionar mostrar solo un estado a la vez. Por ejemplo, solo puede mostrar [!UICONTROL Trabajando en] tareas y solo [!UICONTROL Solicitado] problemas. También puede seleccionar varios estados a la vez.
+   >* No se pueden aplicar filtros a los elementos asignados a uno de los equipos, y las asignaciones de equipo no se incluyen en los elementos que se le han asignado directamente.
 
 
 1. (Opcional) Siga organizando las [!UICONTROL Lista de trabajos], tal como se describe en la sección [Agrupar y ordenar por fecha, proyecto y prioridad](#group-and-sort-by-date-project-and-priority) en este artículo.
@@ -151,10 +170,12 @@ Puede filtrar elementos en la variable [!UICONTROL Lista de trabajos] para ver s
 
 Puede agrupar y ordenar las variables [!UICONTROL Lista de trabajos] por [!UICONTROL Fecha planificada de finalización], [!UICONTROL Fecha de confirmación], [!UICONTROL Proyecto], o [!UICONTROL Mi prioridad]. La opción que elija determina cómo se agrupan los elementos en la variable [!UICONTROL Lista de trabajos].
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **[!UICONTROL Inicio]**.
-1. Haga clic en **[!UICONTROL Agrupar por]** menú desplegable.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en **[!UICONTROL Agrupar por]** ![Agrupar por](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) menú desplegable.
 
+   <!--
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+   -->
 
 1. Seleccione entre las siguientes opciones:
 
@@ -205,7 +226,7 @@ Puede agrupar y ordenar las variables [!UICONTROL Lista de trabajos] por [!UICON
 
 >[!NOTE]
 >
->El orden predeterminado es ascendente. Si cambia la ordenación a descendente , las opciones de ordenación seleccionadas se almacenan en el explorador. Si utiliza el mismo explorador de forma constante en el mismo equipo (y no borra los datos del sitio), la ordenación no cambia, pero si cambia de explorador o de equipo, la ordenación cambia a la predeterminada.
+>El orden predeterminado es ascendente. Si cambia el orden a descendente, las opciones de ordenación seleccionadas se almacenan en el explorador. Si utiliza el mismo explorador de forma constante en el mismo equipo (y no borra los datos del sitio), la ordenación no cambia, pero si cambia de explorador o de equipo, la ordenación cambia a la predeterminada.
 
 ## Ver elementos atrasados
 
@@ -222,16 +243,16 @@ Puede agrupar y ordenar las variables [!UICONTROL Lista de trabajos] por [!UICON
 
 Al buscar en [!UICONTROL Lista de trabajos], todos los elementos asignados a usted se devolverán en la búsqueda (incluso los elementos que no estén cargados actualmente en la pantalla). Si la variable [!UICONTROL Mostrar finalizados] está seleccionada, también se devolverán todos los elementos que haya marcado como completados en las últimas dos semanas.
 
-Además, sólo se buscan los nombres de los elementos de trabajo (no se busca información dentro del elemento de trabajo, ni tampoco los nombres de los proyectos en los que reside el elemento de trabajo).
+Además, sólo se buscan los nombres de los elementos de trabajo (no se busca información dentro del elemento de trabajo ni los nombres de los proyectos en los que reside el elemento de trabajo).
 
 Para buscar en [!UICONTROL Lista de trabajos]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **[!UICONTROL Inicio]**.
-1. (Opcional) Filtre la variable [!UICONTROL Lista de trabajos], tal como se describe en [Filtrar el [!UICONTROL Lista de trabajos]](#filter-the-work-list) y [Agrupar y ordenar por fecha, proyecto y prioridad](#group-and-sort-by-date-project-and-priority).
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Inicio]**.
+1. (Opcional) Filtre y agrupe el [!UICONTROL Lista de trabajos], tal como se describe en [Filtrar el [!UICONTROL Lista de trabajos]](#filter-the-work-list) y [Agrupar y ordenar por fecha, proyecto y prioridad](#group-and-sort-by-date-project-and-priority).
 
 1. (Opcional) Si está buscando un elemento de trabajo que ya se ha completado, debe configurar la variable [!UICONTROL Lista de trabajos] para mostrar los elementos completados antes de buscar.
-1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
+1. Haga clic en el icono Buscar ![Buscar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png).
 1. Empiece a escribir el nombre del elemento que está buscando.\
    El [!UICONTROL Lista de trabajos] se filtra automáticamente para incluir elementos con un nombre que coincida.
 
@@ -239,8 +260,8 @@ Para buscar en [!UICONTROL Lista de trabajos]:
 
 Puede cambiar el tamaño de la [!UICONTROL Lista de trabajos] para que consuma entre un cuarto del área de inicio y la mitad del [!UICONTROL Inicio] área.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **[!UICONTROL Inicio]**.
-1. Pase el ratón por encima del borde derecho del [!UICONTROL Lista de trabajos]A continuación, arrastre hacia la izquierda o la derecha hasta que la Lista de trabajos tenga el tamaño deseado.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Inicio]**.
+1. Pase el ratón por encima del borde derecho de la etiqueta [!UICONTROL Lista de trabajos]A continuación, arrastre hacia la izquierda o la derecha hasta que la Lista de trabajos tenga el tamaño deseado.
 
 ## Contraer y expandir agrupaciones
 
@@ -249,7 +270,7 @@ Elementos en la [!UICONTROL Lista de trabajos] se muestran dentro de las agrupac
 Puede contraer y expandir agrupaciones dentro del [!UICONTROL Lista de trabajos] para controlar mejor qué información es visible.\
 De forma predeterminada, la variable [!UICONTROL Esta semana] La agrupación se expande y todas las demás agrupaciones se contraen. Cualquier cambio que realice se recordará la próxima vez que acceda al área de Inicio.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Inicio]**.
 1. Haga clic en **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** junto a cualquier agrupación que desee expandir o contraer.
 
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)

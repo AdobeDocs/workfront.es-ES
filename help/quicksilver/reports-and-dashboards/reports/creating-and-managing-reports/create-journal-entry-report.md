@@ -1,13 +1,13 @@
 ---
 title: Informe sobre el área de Actualizaciones
-description: Informe sobre el área de Actualizaciones
+description: El informe Entrada de cuaderno muestra las actualizaciones del sistema desde el área Actualizaciones de proyectos, tareas, problemas y otros objetos que anteriormente solo estaban disponibles a través de la API de Adobe Workfront. Aunque se trata de un informe avanzado diseñado para casos de uso específicos, el formato más digerible facilita la creación de informes sobre la actividad del proyecto y las actualizaciones del sistema en Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 4%
 
 ---
@@ -38,25 +38,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: estándar </p><p>O </p><p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos para los objetos que contienen las entradas del diario que se muestran en el informe</p> <p>Obtendrá permisos de administración en el informe después de crearlo</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos para los objetos que contienen las entradas del diario que se muestran en el informe</p> <p>Obtendrá permisos de administración en el informe después de crearlo</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
@@ -68,7 +68,7 @@ Antes de realizar las acciones descritas en este artículo, debe asegurarse de l
 
 * Los campos personalizados sobre los que desee informar tienen la configuración **Mostrar cambios de los campos en las fuentes de actualización** activado.
 
-  Para obtener información sobre cómo habilitar esta configuración para un campo personalizado, consulte la sección [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) en el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Para obtener información sobre cómo habilitar esta configuración para un campo personalizado, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Resumen del informe de entradas de diario
 
@@ -127,7 +127,7 @@ La vista predeterminada para este informe contiene las siguientes columnas:
  </tbody> 
 </table>
 
-Para organizar la información de este informe, puede utilizar la agrupación integrada Proyecto. La agrupación Proyecto proporciona una agrupación principal de Nombre del proyecto y una agrupación secundaria de Fecha de entrada. Puede aplicar esta agrupación existente durante la creación del informe o puede aplicarla cuando visualice el informe.
+Para organizar la información de este informe, puede utilizar la agrupación integrada denominada Proyecto. La agrupación Proyecto proporciona una agrupación principal de Nombre del proyecto y una agrupación secundaria de Fecha de entrada. Puede aplicar esta agrupación existente durante la creación del informe o puede aplicarla cuando visualice el informe.
 
 Para obtener información sobre cómo configurar las vistas, los filtros y las agrupaciones que desee para el informe, consulte la sección correspondiente:
 
@@ -167,7 +167,7 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
 >Si desea comparar la diferencia de días entre los cambios de condición, puede utilizar el análisis mejorado.\
 >Para obtener más información sobre el análisis mejorado, consulte [Resumen de análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
 1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Puede configurar el informe Asientos para que muestre:
 
 Para ver cuándo se eliminó una tarea o un problema:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
 1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Para ver cuándo se eliminó una tarea o un problema:
 
    Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
+1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** A continuación, añada los siguientes filtros:
 
    * **Cambiar tipo** > **Igual** > **Eliminar**
    * **Identificador de proyecto** > **Igual** > **`<project>`**
@@ -365,7 +365,7 @@ Puede realizar un seguimiento de los cambios importantes en los campos a lo larg
 
 Para ver cómo han cambiado los campos personalizados durante el ciclo de vida de un proyecto:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
 1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
    Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
+1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** A continuación, añada los siguientes filtros:
 
    * **Nombre del campo de entrada de diario** > **Contains** > **DE**
 
@@ -467,7 +467,7 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
 Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con la que cambia la fecha planificada de finalización a lo largo de la vida útil de un proyecto.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
 1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 
 Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces cambia el propietario del proyecto (o el jefe de proyecto) a lo largo de la vida de un proyecto.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
 1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
