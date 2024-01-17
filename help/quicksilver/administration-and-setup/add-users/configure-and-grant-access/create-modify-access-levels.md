@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 6%
 
 ---
@@ -180,7 +180,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente compañías, grupos y equipos a los que pertenecen</td> 
-      <td>Permite a los usuarios ver y compartir elementos únicamente con compañías, grupos y equipos a los que pertenecen.</td> 
+      <td>Permite a los usuarios ver y compartir elementos únicamente con compañías, grupos y equipos a los que pertenecen.<p><strong>NOTA</strong>: los usuarios con licencias de solicitante no pueden ver las empresas a las que no pertenecen, aunque se haya seleccionado esta opción.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir visibilidad de horas planificadas u horas reales</td> 
