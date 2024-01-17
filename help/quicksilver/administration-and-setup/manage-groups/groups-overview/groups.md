@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Información general de grupos
+
+<!-- Audited: 01/2024 -->
 
 Un administrador de Workfront puede crear grupos de usuarios que coincidan con la estructura del departamento. Los grupos son similares a los equipos y las empresas, pero distintos de ellos.
 
@@ -28,7 +30,7 @@ Puede crear hasta 14 niveles de subgrupos en un grupo. Para obtener más informa
 
 ## Uso de grupos para organizar usuarios
 
-Como administrador de Workfront o de un grupo, puede asociar usuarios con grupos y subgrupos. Si convierte un grupo en público, los usuarios con licencia de Planificador podrán asociar usuarios con él. Para obtener más información sobre los administradores de grupos y los grupos públicos, consulte [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Como administrador de Workfront o de un grupo, puede asociar usuarios con grupos y subgrupos. Si hace público un grupo, los usuarios con una licencia Standard (nueva) o Plan (actual) pueden asociar usuarios con él. Para obtener más información sobre los administradores de grupos y los grupos públicos, consulte [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Cuando cree un usuario, le recomendamos que lo añada al grupo de inicio correspondiente y a otros grupos en los que el usuario debe trabajar. Un usuario solo puede tener un grupo de inicio, pero puede estar en varios grupos más.
 

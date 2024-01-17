@@ -3,11 +3,11 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo
 description: Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%

@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo
 description: Como Administrador de recursos, puede asignar trabajo a los usuarios y administrar sus asignaciones diarias, semanales o mensuales desde el Distribuidor de cargas de trabajo.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
 # Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo
+
+<!-- Audited: 01/2024 -->
 
 {{highlighted-preview}}
 
@@ -28,42 +30,46 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Al utilizar el Distribuidor de cargas de trabajo en el área de Recursos, necesita lo siguiente:</p>
+   <p>Nuevo: estándar</p>
+   <p>O</p>
+   <p>Actual: plan</p>
+   <p>Al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto, necesita lo siguiente:</p>
+   <p>Nuevo: estándar</p>
+   <p>O</p>
+   <p>Actual: Trabajo</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración del nivel de acceso*</td> 
+   <td role="rowheader">Configuración del nivel de acceso</td> 
    <td> <p>Edite el acceso a lo siguiente:</p> 
     <ul> 
      <li> <p>Administración de recursos</p> </li> 
      <li> <p>Proyectos</p> </li> 
      <li> <p>Tareas</p> </li> 
      <li> <p>Problemas</p> </li> 
-    </ul> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Aportar permisos o superiores que incluyan Realizar asignaciones a las tareas y problemas para los que desee administrar asignaciones. </p> <p>O </p> <p>Administre permisos para las tareas para las que desea actualizar las horas planificadas, además de actualizar las asignaciones. Para obtener información sobre la actualización de horas planificadas en el Distribuidor de cargas de trabajo, consulte la <a href="#update-task-planned-hours-when-managing-user-allocations">Actualizar horas planificadas de la tarea al administrar las asignaciones de usuario</a> de este artículo. </p> <p>Para obtener información sobre los permisos de tareas, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Compartir una tarea </a><span> y para obtener información sobre los permisos de problemas, consulte</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Compartir un problema </a></span>. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Aportar permisos o superiores que incluyan Realizar asignaciones a las tareas y problemas para los que desee administrar asignaciones. </p> <p>O </p> <p>Administre permisos para las tareas para las que desea actualizar las horas planificadas, además de actualizar las asignaciones. Para obtener información sobre la actualización de horas planificadas en el Distribuidor de cargas de trabajo, consulte la <a href="#update-task-planned-hours-when-managing-user-allocations">Actualizar horas planificadas de la tarea al administrar las asignaciones de usuario</a> de este artículo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprender las asignaciones de usuarios
 
 Las asignaciones de usuarios son cantidades de horas que indican el tiempo que un usuario debe pasar en un día, día de la semana, semana o mes determinados para completar el elemento de trabajo. Se incluyen en las horas planificadas del elemento de trabajo.
 
 Este artículo describe cómo actualizar las asignaciones por horas diarias, semanales o mensuales para los usuarios asignados a tareas o problemas. Para obtener información sobre la administración de asignaciones generales para usuarios y roles de trabajo para tareas, consulte [Administrar horas de asignación de usuarios y funciones en las tareas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
-
-* [Resumen de asignación de usuarios](#user-allocation-overview)
-* [Criterios que restablecen las asignaciones de usuario](#criteria-that-reset-user-allocations)
 
 ### Resumen de asignación de usuarios {#user-allocation-overview}
 
@@ -89,23 +95,23 @@ Tenga en cuenta lo siguiente al localizar asignaciones diarias, semanales o mens
 * Puede actualizar las asignaciones tanto de los días laborables como de los no laborables.
 * Las marcas de tiempo para las fechas planificadas de inicio y planificadas de finalización de los elementos de trabajo, así como la programación del proyecto, son importantes cuando Workfront calcula automáticamente la asignación diaria para la tarea.
 
->[!INFO]
->
-> Por ejemplo, una tarea puede tener una duración de 2 días y 2 horas planificadas y tiene una hora de inicio planificada de 12:00 p.m. en el primer día de la duración con un usuario y una programación de proyecto que termina a las 5 p.m. La capacidad del usuario para el primer día es de 5 horas. La capacidad del usuario para el segundo día es de 8 horas (si la programación comienza a las 9 de la mañana).
->
->Workfront calcula la asignación de las dos horas durante los dos días de la duración mediante la fórmula siguiente:
->
->`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
->
->  Para nuestro ejemplo, las horas de asignación diarias para cada día son:
->   
->  (2 / 13) * 5 = 0,77 horas de asignación para el primer día
->
->  (2 / 13) * 8 = 1,23 horas de asignación para el segundo día
->
->  En los cálculos anteriores, 13 es el total de horas disponibles para la tarea: 5 + 8 = 13
+  >[!INFO]
+  >
+  > Por ejemplo, una tarea puede tener una duración de 2 días y 2 horas planificadas y tiene una hora de inicio planificada de 12:00 p.m. en el primer día de la duración con un usuario y una programación de proyecto que termina a las 5 p.m. La capacidad del usuario para el primer día es de 5 horas. La capacidad del usuario para el segundo día es de 8 horas (si la programación comienza a las 9 de la mañana).
+  >
+  >Workfront calcula la asignación de las dos horas durante los dos días de la duración mediante la fórmula siguiente:
+  >
+  >`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+  >
+  >Para nuestro ejemplo, las horas de asignación diarias para cada día son:
+  >   
+  >(2 / 13) * 5 = 0,77 horas de asignación para el primer día
+  >
+  >(2 / 13) * 8 = 1,23 horas de asignación para el segundo día
+  >
+  >En los cálculos anteriores, 13 es el total de horas disponibles para la tarea: 5 + 8 = 13
 
-* Dos usuarios con zonas horarias o programas diferentes a los de los usuarios asignados pueden hacer que las cantidades asignadas aparezcan de forma diferente para dos usuarios que vean los mismos elementos de trabajo.
+* Dos usuarios en zonas horarias o programaciones diferentes a las de los usuarios asignados pueden hacer que las cantidades asignadas aparezcan de forma diferente para dos usuarios que vean los mismos elementos de trabajo.
 
 * Cuando un usuario tiene tiempo libre programado, el día o la parte del día se muestra en un fondo gris. Si el administrador de Workfront habilitó la configuración Tiempo libre del usuario en el área de Configuración para tener en cuenta el tiempo libre del usuario, las horas asignadas pasan al siguiente día disponible en la cronología. Si la configuración está deshabilitada, las horas asignadas permanecen en el día marcado como tiempo libre y el usuario se muestra como sobreasignado. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -122,13 +128,13 @@ Tenga en cuenta lo siguiente al localizar asignaciones diarias, semanales o mens
 
 * Si una tarea o un problema se completan antes de la fecha planificada de finalización, el número de horas asignadas para los días restantes se alcanza y no se cuenta para la asignación general del usuario. Esto solo se muestra cuando están habilitados tanto el icono Mostrar asignaciones como la configuración Mostrar fechas proyectadas. Para obtener más información sobre cómo habilitar la configuración en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![Horas asignadas superadas](assets/allocations-struck-through-highlighted.png)
 
 * Cuando se sobreasigna a un usuario, sus horas asignadas se muestran con un fondo rojo en el campo del usuario.
 * Cuando al usuario se le asigna o se le asigna una cantidad igual de horas a su tiempo disponible programado, las horas se muestran con un fondo azul.
 * Puede mostrar la asignación de los usuarios en una vista de gráfico en la línea del usuario. Para obtener información sobre cómo habilitar la vista de gráficos para las asignaciones de usuarios, consulte la sección &quot;Navegar por el Distribuidor de cargas de trabajo&quot; en el artículo [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/user-allocation-chart-350x237.png)
+  ![Gráfico de asignación de usuarios](assets/user-allocation-chart.png)
 
 ### Criterios que restablecen las asignaciones de usuario {#criteria-that-reset-user-allocations}
 
@@ -137,9 +143,6 @@ No todos los cambios de tareas almacenan en déclencheur las asignaciones modifi
 >[!NOTE]
 >
 >Si no ha modificado la distribución automática de asignaciones en elementos de trabajo, las horas se redistribuyen de manera uniforme entre todas las personas asignadas cuando hay un cambio en el número de personas asignadas, la duración de una tarea o la cantidad de horas planificadas en el elemento de trabajo.
-
-* [Acciones que restablecen asignaciones ajustadas](#actions-that-reset-adjusted-allocations)
-* [Acciones que no restablecen asignaciones ajustadas](#actions-that-do-not-reset-adjusted-allocations)
 
 #### Acciones que restablecen asignaciones ajustadas {#actions-that-reset-adjusted-allocations}
 
@@ -166,7 +169,7 @@ Tenga en cuenta lo siguiente al ver las horas planificadas en el Distribuidor de
 * El total de horas planificadas para una tarea o un problema se muestra junto al nombre de la tarea o el problema a la izquierda del Distribuidor de cargas de trabajo.
 
 * El total de horas planificadas para un proyecto se muestra junto al nombre del proyecto a la izquierda del Distribuidor de cargas de trabajo. Representa el total de horas planificadas para todas las tareas y problemas enumerados en el proyecto en el Distribuidor de cargas de trabajo y no todas las horas planificadas del proyecto.
-* La cantidad de tiempo asignada diaria o semanalmente para todas las tareas y para todos los proyectos solo se muestra cuando se habilita manualmente la configuración Mostrar asignaciones. Para obtener información sobre cómo habilitar la configuración en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* La cantidad de tiempo asignado diaria o semanalmente para todas las tareas y para todos los proyectos se muestra solo cuando habilita manualmente la configuración Mostrar asignaciones. Para obtener información sobre cómo habilitar la configuración en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Modificar asignaciones de usuario {#modify-user-allocations}
 
@@ -176,11 +179,11 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 1. Vaya al Distribuidor de cargas de trabajo.
 1. (Opcional) Haga clic en **Semana** o **Mes** para administrar asignaciones semanales o mensuales para los usuarios.
 
-   ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+   ![Seleccionar semana o mes](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
 1. En el **Trabajo asignado** , busque el usuario para el que desea modificar manualmente la asignación y haga clic en la flecha hacia la derecha situada a la izquierda del nombre de usuario para expandir el usuario.
 
-   ![](assets/wb-highlight-on-name-caret-350x106.png)
+   ![Expandir usuario](assets/wb-highlight-on-name-caret2.png)
 
 1. Haga clic en la flecha que señala a la derecha situada a la izquierda del nombre del proyecto para expandir el proyecto y mostrar los elementos de trabajo a los que está asignado el usuario.
 
@@ -188,14 +191,14 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
    >
    >Solo puede modificar las asignaciones de usuarios para tareas y problemas. No se pueden modificar las asignaciones de usuario para los proyectos.
 
-1. (Opcional) Haga clic en **Mostrar icono de asignaciones** ![](assets/show-allocations-icon-small.png) para mostrar las asignaciones de todos los elementos de trabajo.
+1. (Opcional) Haga clic en **Mostrar asignaciones** icono ![](assets/show-allocations-icon-small.png) para mostrar las asignaciones de todos los elementos de trabajo.
 
    El nombre de las tareas y de los proyectos se reemplaza por la asignación del usuario para la tarea o el proyecto.
 
 1. (Opcional) Haga clic en **Configuración** icono ![](assets/gear-icon-settings.png) y seleccione cualquiera de las siguientes opciones:
 
-   1. **Incluir las horas de los problemas**. Esto le permite administrar las asignaciones de problemas además de las asignaciones de tareas.
-   1. **Mostrar trabajo finalizado**. Esto muestra los elementos que se han completado y que están programados durante la cronología para la que administra las asignaciones.
+   1. **Incluir horas de problemas**. Esto le permite administrar las asignaciones de problemas además de las asignaciones de tareas.
+   1. **Mostrar trabajo completado**. Esto muestra los elementos que se han completado y que están programados durante la cronología para la que administra las asignaciones.
    1. **Mostrar el tiempo restante**. Cambia el número total de horas de cada usuario (en la línea de usuario). Con esta configuración habilitada, el Distribuidor de cargas de trabajo muestra las horas que cada usuario tiene disponibles para trabajar en lugar del número de horas que se le asignan.
 
       >[!TIP]
@@ -211,7 +214,7 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 
 1. Haga clic en **Más** menú ![](assets/qs-more-menu.png) para un elemento de trabajo, haga clic en **Editar asignaciones**.
 
-   ![](assets/more-menu-on-task-wb-nwe.png)
+   ![Menú Más para elemento de trabajo](assets/more-menu-on-task-wb-nwe.png)
 
    O
 
@@ -219,32 +222,32 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 
    Los cuadros de asignación se pueden editar.
 
-1. Haga clic dentro de la casilla de cada asignación diaria, semanal o mensual para actualizar manualmente la cantidad de horas o el valor porcentual para el que desea que se asigne al usuario cada día, semana o mes y luego haga clic en **Guardar** icono ![](assets/checkmark-icon.png).
+1. Haga clic dentro del cuadro de cada asignación diaria, semanal o mensual para actualizar manualmente la cantidad de horas o el valor porcentual para el que desea que se asigne al usuario cada día, semana o mes y, a continuación, haga clic en **Guardar** icono ![](assets/checkmark-icon.png).
 
    >[!TIP]
    >
    >Haga clic en **Cancelar** icono ![](assets/cancel-allocations-wb.png) para eliminar las asignaciones que ha ajustado.
 
-   ![](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
+   ![Guardar o cancelar asignaciones ajustadas](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
    Las asignaciones para la actualización de usuario.
 
    >[!TIP]
    >
-   >Si una tarea o un problema se completan antes de la fecha planificada de finalización, el número de horas asignadas para los días restantes se alcanza y no se cuenta para la asignación general del usuario. Esto solo se muestra cuando están habilitados tanto el icono Mostrar asignaciones como la configuración Mostrar fechas proyectadas.
+   >Si una tarea o un problema se completan antes de la fecha planificada de finalización, el número de horas asignadas para los días restantes se alcanza y no se cuenta para la asignación general del usuario. Esto solo se muestra cuando tanto la variable **Mostrar asignaciones** y el icono **Mostrar fechas proyectadas** están activadas.
 
    Existen los siguientes escenarios:
 
    * Para las tareas con tipos de duración que no son simples o para los problemas, el total de las asignaciones debe coincidir con las horas planificadas para que pueda hacer clic en el icono de marca de verificación.
-   * En el caso de las tareas con un tipo de duración simple, el total de las asignaciones puede ser superior o inferior a las horas planificadas y puede hacer clic en el icono de la marca de verificación aunque no coincidan. Esto también actualiza la cantidad de horas planificadas para la tarea. Debe tener los permisos y el acceso correctos para actualizar las horas planificadas en las tareas desde el Distribuidor de cargas de trabajo.
+   * Para las tareas con un Tipo de duración simple, el total de las asignaciones puede ser mayor o menor que las Horas planificadas y puede hacer clic en el icono de la marca de verificación aunque no coincidan. Esto también actualiza la cantidad de horas planificadas para la tarea. Debe tener los permisos y el acceso correctos para actualizar las horas planificadas en las tareas desde el Distribuidor de cargas de trabajo.
 
      >[!TIP]
      >
      >Un icono de candado se muestra a la derecha del nombre de la tarea a medida que empieza a ajustar las asignaciones para indicar que la tarea tiene un tipo de duración simple.
 
-     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![Icono de bloqueo](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Para obtener más información sobre las condiciones que deben cumplirse para actualizar las horas planificadas en el Distribuidor de cargas de trabajo, consulte la siguiente sección en este artículo: [Actualizar horas planificadas de la tarea al administrar las asignaciones de usuario](#update-task-planned-hours-when-managing-user-allocations). Para obtener información sobre los tipos de duración de tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Para obtener más información sobre las condiciones que deben cumplirse para actualizar las horas planificadas en el Distribuidor de cargas de trabajo, consulte la [Actualizar horas planificadas de la tarea al administrar las asignaciones de usuario](#update-task-planned-hours-when-managing-user-allocations) de este artículo. Para obtener información sobre los tipos de duración de tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Condicional) Si la tarea está asignada a más de un usuario, repita estos pasos para cada usuario asignado a la tarea para actualizar las asignaciones de cada usuario.
 
@@ -274,10 +277,7 @@ Esto es posible cuando existen las siguientes condiciones:
    * Administrar permisos para las tareas.
    * Actualice las horas planificadas en el acceso del Distribuidor de cargas de trabajo en el área de Administración de recursos de su nivel de acceso.
 
-  Para obtener más información sobre el acceso necesario para utilizar el Distribuidor de cargas de trabajo, consulte la siguiente sección en este artículo: [Requisitos de acceso](#access-requirements).
+  Para obtener más información sobre el acceso necesario para utilizar el Distribuidor de cargas de trabajo, consulte la [Requisitos de acceso](#access-requirements) de este artículo.
 
 * La tarea tiene un Tipo de duración de Simple.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
-  -->

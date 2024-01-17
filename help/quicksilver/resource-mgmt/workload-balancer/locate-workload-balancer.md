@@ -4,10 +4,10 @@ keywords: trabajo, equipo, plantilla, recursos
 navigation-topic: the-workload-balancer
 title: Localización del Distribuidor de cargas de trabajo
 description: Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos para el trabajo o revisar su disponibilidad y las asignaciones actuales.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

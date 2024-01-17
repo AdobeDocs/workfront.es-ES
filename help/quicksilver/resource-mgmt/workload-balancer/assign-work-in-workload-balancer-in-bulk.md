@@ -1,27 +1,27 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Asignar trabajo de forma masiva mediante el equilibrador de carga de trabajo
-description: Puede asignar manualmente elementos de trabajo a los usuarios mediante el equilibrador de carga de trabajo de Adobe Workfront.
-author: Alina
+title: Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo
+description: Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
+author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 2%
+source-wordcount: '1548'
+ht-degree: 1%
 
 ---
 
-# Asignar trabajo de forma masiva mediante el equilibrador de carga de trabajo
+# Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo
 
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-Puede asignar manualmente elementos de trabajo a los usuarios mediante el equilibrador de carga de trabajo de Adobe Workfront.
+Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
 
-Para obtener información general sobre la asignación de trabajo a usuarios mediante el equilibrador de carga de trabajo, consulte [Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener información general sobre la asignación de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acceso
 
@@ -32,13 +32,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el equilibrador de carga de trabajo en el área de recursos</p>
-   <p>Trabajar, al utilizar el equilibrador de carga de trabajo de un equipo o proyecto</p>
+   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
+   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
 
 </td> 
   </tr> 
@@ -52,73 +52,73 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <li> <p>Problemas</p> </li> 
     </ul> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute o superior a los proyectos, tareas y problemas que incluyen Realizar asignaciones</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Aportar permisos o niveles superiores a los proyectos, tareas y problemas que incluyen Realizar asignaciones</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Consideraciones para realizar asignaciones masivas en el equilibrador de carga de trabajo
+## Consideraciones para realizar asignaciones masivas en el Distribuidor de cargas de trabajo
 
-* Puede administrar rápidamente las asignaciones de usuario para varias tareas y problemas en uno o varios proyectos. Los cambios en las asignaciones se pueden ver inmediatamente en el equilibrador de carga de trabajo.
-* No se pueden asignar recursos a elementos de trabajo completados o a elementos de un proyecto completado.
+* Puede administrar rápidamente las asignaciones de usuarios para varias tareas y problemas en uno o varios proyectos. Los cambios en las asignaciones se pueden ver inmediatamente en el Distribuidor de cargas de trabajo.
+* No puede asignar recursos a elementos de trabajo que se hayan completado o a elementos que se encuentren en un proyecto completado.
 * Al asignar usuarios de forma masiva, puede hacer lo siguiente:
 
-   * Asigne un usuario a todos los elementos de trabajo que estén asignados a una función de trabajo.
-   * Reemplazar asignaciones de usuario entre usuarios.
-   * Anule la asignación de un usuario de todos sus elementos de trabajo.
+   * Asigne un usuario a todos los elementos de trabajo asignados actualmente a un rol.
+   * Reemplazar asignaciones de usuarios entre usuarios.
+   * Anular la asignación de un usuario a todos sus elementos de trabajo.
 
 **EJEMPLOS**
 
-* Usted es el responsable de realizar asignaciones de usuario en varios proyectos nuevos. Los proyectos se crearon originalmente a partir de plantillas y las funciones de trabajo ya están asignadas a las distintas tareas dentro de los proyectos. Desea asignar un usuario específico, Jackie Simms, a todas las tareas que actualmente están asignadas a una función de trabajo. Puede utilizar la función Assign para asignar estas tareas a Jackie Simms.
-* A Jackie Simms se le asignan 45 tareas en 3 proyectos diferentes. Jackie deja la organización, y ahora necesitas reasignar sus tareas a otro usuario. Puede utilizar la función Reemplazar para asignar estas tareas a la nueva persona.
-* 10 tareas en 2 proyectos diferentes se asignan a otro usuario, Rick Kuvec. Te das cuenta de que Rick fue asignado a estas tareas por error, pero no estás seguro de a quién necesitan ser asignados en este momento. Debe anular la asignación de Rick a todas las tareas al mismo tiempo. Puede utilizar la función Unassign para eliminar a Rick de estas tareas.
+* Usted es responsable de realizar asignaciones de usuarios en varios proyectos nuevos. Los proyectos se crearon originalmente a partir de plantillas y los roles de trabajo ya están asignados a las distintas tareas de los proyectos. Desea asignar un usuario específico, Jackie Simms, a todas las tareas que estén asignadas actualmente a un rol. Puede utilizar la función Asignar para asignar estas tareas a Jackie Simms.
+* 45 tareas en 3 proyectos diferentes se asignan a Jackie Simms. Jackie deja la organización y ahora necesita reasignar sus tareas a otro usuario. Puede utilizar la función Reemplazar para asignar estas tareas a la nueva persona.
+* Se asignan 10 tareas en 2 proyectos diferentes a otro usuario, Rick Kuvec. Te das cuenta de que Rick fue asignado a estas tareas por error, pero no estás seguro de a quién deben ser asignados en este momento. Necesitas desasignar a Rick a todas las tareas al mismo tiempo. Puede utilizar la función Desasignar para eliminar a Rick de estas tareas.
 
-## Asignar trabajo de forma masiva en el equilibrador de carga de trabajo
+## Asignar trabajo por lotes en el Distribuidor de cargas de trabajo
 
-1. Vaya al equilibrador de carga de trabajo donde desea asignar trabajo.
+1. Vaya al Distribuidor de cargas de trabajo al que desea asignar el trabajo.
 
-   Puede asignar trabajo a usuarios mediante el equilibrador de carga de trabajo en el área Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre la ubicación del equilibrador de carga de trabajo en Workfront, consulte [Localizar el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Puede asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo en el área de Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo en Workfront, consulte [Localización del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Haga clic en **Asignaciones masivas** ![](assets/bulk-assignments-wb.png) en la parte superior del equilibrador de carga de trabajo.
+1. Clic **Asignaciones masivas** ![](assets/bulk-assignments-wb.png) en la parte superior del Distribuidor de cargas de trabajo.
 
-   El panel Asignaciones masivas se abre a la derecha del equilibrador de carga de trabajo.
+   El panel Asignaciones masivas se abre a la derecha del Distribuidor de cargas de trabajo.
 
-1. (Condicional) Si accede al equilibrador de carga de trabajo desde el área Recursos o para un equipo, expanda el **Proyecto: Nombre** menú desplegable y utilice los modificadores de filtro para seleccionar el proyecto o los proyectos para los que desea realizar asignaciones. Puede seleccionar proyectos por Nombre (esta es la opción predeterminada) o por Estado.
+1. (Condicional) Si accede al Distribuidor de cargas de trabajo desde el área de Recursos o para un equipo, expanda el **Proyecto: Nombre** y utilice los modificadores de filtro para seleccionar el proyecto o proyectos para los que desea realizar asignaciones. Puede seleccionar proyectos por Nombre (esta es la opción predeterminada) o por Estado.
 
-Para obtener información sobre los modificadores de filtros de Workfront, consulte [Filtros y modificadores de condición](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para obtener información sobre los modificadores de filtro de Workfront, consulte [Filtros y modificadores de condición](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
->El nombre del proyecto está seleccionado de forma predeterminada cuando se accede al equilibrador de carga de trabajo de un proyecto.
+>El nombre del proyecto está seleccionado de forma predeterminada al acceder al Distribuidor de cargas de trabajo de un proyecto.
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Opcional) Haga clic en **Seleccionar tareas de proyecto** para seleccionar la tarea o tareas para las que desea realizar asignaciones y, a continuación, en el **Tarea: Nombre** menú desplegable, seleccione tareas por Nombre (esta es la opción predeterminada) o Estado y utilice los modificadores de filtro para buscar tareas específicas.
+1. (Opcional) Haga clic en **Seleccionar tareas del proyecto** para seleccionar la tarea o tareas para las que desea realizar asignaciones, en el **Tarea: Nombre** , seleccione las tareas por Nombre (esta es la opción predeterminada) o Estado y utilice los modificadores de filtro para buscar tareas específicas.
 
-Para obtener información sobre los modificadores de filtros de Workfront, consulte [Filtros y modificadores de condición](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para obtener información sobre los modificadores de filtro de Workfront, consulte [Filtros y modificadores de condición](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
->No puede seleccionar tareas en un estado de Finalización.
+>No puede seleccionar tareas en estado Completo.
 
 ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
 >[!TIP]
 >
->Deje esta selección en blanco si desea realizar asignaciones masivas para problemas así como tareas.
+>Deje esta selección en blanco si desea realizar asignaciones masivas tanto para problemas como para tareas.
 
-1. (Opcional) Haga clic en el **Eliminar** icono ![](assets/delete.png) junto a uno de los criterios seleccionados
+1. (Opcional) Haga clic en **Eliminar** icono ![](assets/delete.png) junto a uno de los criterios seleccionados
 
    O
 
-   Haga clic en **Borrar todo** en la esquina superior derecha del panel Asignaciones masivas para eliminar todas las selecciones.
+   Clic **Borrar todo** en la esquina superior derecha del panel Asignaciones masivas para eliminar todas las selecciones.
 
 1. Seleccione una de las siguientes opciones y continúe con los pasos que se describen a continuación:
 
@@ -128,23 +128,23 @@ Para obtener información sobre los modificadores de filtros de Workfront, consu
 
    >[!TIP]
    >
-   >Si no hay elementos que coincidan con los filtros seleccionados, estas opciones aparecerán atenuadas.
+   >Si ningún elemento coincide con los filtros seleccionados, estas opciones aparecen atenuadas.
 
 ### Asignar usuario {#assign-user}
 
-Cuando asigna un usuario mediante asignaciones masivas en el equilibrador de carga de trabajo, ocurren las siguientes cosas:
+Cuando asigna un usuario mediante Asignaciones masivas en el Distribuidor de cargas de trabajo, se producen las siguientes cosas:
 
-* Se asigna un usuario a todos los elementos de trabajo que están asignados a una función específica dentro de los proyectos seleccionados.
+* Un usuario está asignado a todos los elementos de trabajo asignados actualmente a un rol especificado dentro de los proyectos seleccionados.
 * El usuario no está asignado a los siguientes tipos de elementos de trabajo:
 
-   * Elementos que ya están asignados a un usuario.
+   * Elementos que ya se han asignado a un usuario.
    * Elementos completados.
 
-* Si el usuario seleccionado no está asociado con la función especificada, la función se reemplaza por el usuario en la función principal del usuario.
+* Si el usuario seleccionado no está asociado con el rol especificado, el rol será reemplazado por el usuario en el Rol principal del usuario.
 
-Para asignar un usuario a elementos de trabajo previamente asignados a funciones de trabajo:
+Para asignar un usuario a elementos de trabajo previamente asignados a roles:
 
-1. Comience a asignar elementos de trabajo mediante asignaciones masivas en el equilibrador de carga de trabajo como se describe anteriormente y seleccione **Asignar**.
+1. Comience a asignar elementos de trabajo mediante Asignaciones masivas en el Distribuidor de cargas de trabajo como se ha descrito anteriormente y seleccione **Asignar**.
 
 1. En el **Asignación de funciones** , haga clic en la flecha desplegable para elegir entre una lista de funciones. Solo se muestran las funciones asignadas actualmente en los proyectos especificados. Este campo es obligatorio.
 
@@ -154,83 +154,85 @@ Para asignar un usuario a elementos de trabajo previamente asignados a funciones
 
    Seleccione usuarios de las siguientes áreas:
 
-   * **Asignaciones sugeridas**: Usuarios que pueden cumplir la función seleccionada y que coinciden con los criterios de las asignaciones inteligentes. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Otras asignaciones**: Todos los usuarios del sistema que puedan cumplir la función seleccionada.
+   * **Asignaciones sugeridas**: Usuarios que pueden cumplir la función seleccionada y que coinciden con los criterios de Asignaciones inteligentes. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Otras asignaciones**: todos los usuarios del sistema que pueden desempeñar la función seleccionada.
 
-      >[!TIP]
-      >
-      >En el área Otras asignaciones solo se muestran los primeros 50 usuarios.
-   Después de seleccionar un usuario, Workfront muestra una nota sobre el número de elementos a los que se asignará el usuario especificado y la función de trabajo que reemplazarán.
+     >[!TIP]
+     >
+     >Solo los 50 primeros usuarios aparecen en el área Otras asignaciones.
+
+
+   Después de seleccionar un usuario, Workfront muestra una nota sobre el número de elementos donde se asignará al usuario especificado y la función de trabajo que reemplazará.
 
    >[!TIP]
    >
-   >Todas las funciones del usuario se muestran en la lista, bajo el nombre del usuario.
+   >Todos los roles del usuario se muestran en la lista, bajo el nombre del usuario.
 
 
-1. Haga clic en **Asignar**.
+1. Clic **Asignar**.
 
-   Las funciones especificadas se reemplazan con los usuarios seleccionados.
+   Los roles especificados se reemplazarán por los usuarios seleccionados.
 
-   Recibirá una confirmación sobre cuántos elementos de trabajo han reemplazado la función seleccionada por el usuario seleccionado.
+   Recibirá una confirmación sobre cuántos elementos de trabajo se han reemplazado con el rol seleccionado.
 
    ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Reemplazar usuario {#replace-user}
 
-Puede reemplazar un usuario que ya esté asignado a elementos de trabajo por otro usuario en los proyectos seleccionados.
+Puede reemplazar a un usuario que ya esté asignado a elementos de trabajo con otro usuario en los proyectos seleccionados.
 
-Cuando se reemplaza un usuario por otro mediante asignaciones masivas en el equilibrador de carga de trabajo, ocurren las siguientes cosas:
+Cuando reemplaza un usuario por otro con Asignaciones masivas en el Distribuidor de cargas de trabajo, se producen los siguientes problemas:
 
-* El usuario de reemplazo se asigna a todos los elementos de trabajo que están asignados a un usuario original dentro de los proyectos seleccionados.
+* El usuario de reemplazo se asigna a todos los elementos de trabajo que estén asignados a un usuario original dentro de los proyectos seleccionados.
 
 * El nuevo usuario no está asignado a ningún elemento de trabajo que ya esté marcado como Completado.
 * Si la función asociada al primer usuario no coincide con ninguna de las funciones del segundo usuario, se asigna al segundo usuario en su función principal.
 
-Para reemplazar un usuario por otro usuario:
+Para reemplazar a un usuario por otro:
 
-1. Inicie la asignación de elementos de trabajo en el equilibrador de carga de trabajo como se describe anteriormente y seleccione **Reemplazar**.
+1. Comience a asignar elementos de trabajo en el Distribuidor de cargas de trabajo como se describe anteriormente y seleccione **Reemplazar**.
 1. En el **Usuario asignado actualmente** , haga clic en la flecha desplegable para elegir entre una lista de usuarios. Solo se muestran los usuarios asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. En el **Usuario al que asignar** , haga clic en la flecha desplegable para elegir entre una lista de usuarios sugeridos o para escribir otro nombre de usuario. Los usuarios que aparecen en la lista de forma predeterminada coinciden con los criterios de las asignaciones inteligentes. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. En el **Usuario al que asignar** , haga clic en la flecha desplegable para elegir entre una lista de usuarios sugeridos o para escribir otro nombre de usuario. Los usuarios enumerados en la lista coinciden de forma predeterminada con los criterios de Asignaciones inteligentes. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-   Workfront muestra una nota sobre el número de elementos en los que el usuario asignado actualmente reemplazará al segundo usuario y qué funciones reemplazarán.
+   Workfront muestra una nota sobre el número de elementos en los que el usuario asignado actualmente reemplazará al segundo usuario y las funciones a las que reemplazará.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Haga clic en **Reemplazar**.
+1. Clic **Reemplazar**.
 
-   El primer usuario seleccionado se sustituye por el segundo usuario en todos los elementos de trabajo del proyecto seleccionado.
+   El primer usuario seleccionado se reemplaza por el segundo usuario en todos los elementos de trabajo del proyecto seleccionado.
 
-   Recibirá una confirmación sobre cuántos elementos de trabajo han tenido que reemplazar la asignación de usuario original por el segundo usuario seleccionado.
+   Recibirá una confirmación de cuántos elementos de trabajo se han reemplazado la asignación de usuario original por el segundo usuario seleccionado.
 
 ### Quitar asignación de usuario {#unassign-user}
 
-Puede anular la asignación de un usuario de todos los elementos de trabajo asignados al usuario en los proyectos seleccionados.
+Puede anular la asignación de un usuario a todos los elementos de trabajo a los que esté asignado en los proyectos seleccionados.
 
-Cuando se anula la asignación de un usuario de todas sus asignaciones mediante asignaciones masivas en el equilibrador de carga de trabajo, ocurren las siguientes cosas:
+Cuando anula la asignación de un usuario a todas sus asignaciones mediante Asignaciones masivas en el Distribuidor de cargas de trabajo, se producen los siguientes problemas:
 
-* El usuario especificado se elimina de todos los elementos de trabajo a los que está asignado.
-* Si el usuario no asignado está asociado con funciones de trabajo, las funciones de trabajo permanecen asignadas a los elementos de trabajo cuando se elimina al usuario.
+* El usuario especificado se quita de todos los elementos de trabajo a los que está asignado.
+* Si el usuario no asignado está asociado a roles de trabajo, los roles de trabajo permanecen asignados a los elementos de trabajo cuando se elimina el usuario.
 
 * Si el usuario especificado está asignado a elementos de trabajo completados, el usuario permanece asignado a esos elementos de trabajo.
 
-Para obtener más información sobre las asignaciones de funciones de usuario y trabajo, consulte [Información general sobre la asignación de trabajo en el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener más información sobre las asignaciones de usuarios y funciones, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Para anular la asignación de un usuario de elementos de trabajo de los proyectos seleccionados o de las tareas o problemas seleccionados a los que se les asigna:
+Para anular la asignación de un usuario a elementos de trabajo en los proyectos seleccionados o a tareas o problemas seleccionados donde se hayan asignado:
 
-1. Inicie la asignación de elementos de trabajo en el equilibrador de carga de trabajo como se describe anteriormente y seleccione **Anulación de asignación**.
+1. Comience a asignar elementos de trabajo en el Distribuidor de cargas de trabajo como se describe anteriormente y seleccione **Desasignar**.
 
-1. En el **Usuario que desea anular la asignación** , haga clic en la flecha desplegable para elegir entre una lista de usuarios. Solo se muestran los usuarios asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
+1. En el **Usuario que desasignar** , haga clic en la flecha desplegable para elegir entre una lista de usuarios. Solo se muestran los usuarios asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
-   Workfront muestra una nota sobre el número de elementos a los que el usuario asignado actualmente no estará asignado.
+   Workfront muestra una nota sobre el número de elementos a los que se quitará la asignación del usuario asignado actualmente.
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. Haga clic en **Anulación de asignación**.\
+1. Clic **Desasignar**.\
    Recibirá una confirmación sobre el número de elementos de trabajo en los que se eliminó el usuario especificado.
 
  

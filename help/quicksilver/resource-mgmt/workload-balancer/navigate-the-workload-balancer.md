@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navegación por el Distribuidor de cargas de trabajo
 description: Utilice el Distribuidor de cargas de trabajo para comprender la disponibilidad de sus recursos, así como para asignar trabajo a los usuarios. Este artículo le guía mediante los iconos y la configuración disponibles para actualizar la vista del Distribuidor de cargas de trabajo y desplazarse por él.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
