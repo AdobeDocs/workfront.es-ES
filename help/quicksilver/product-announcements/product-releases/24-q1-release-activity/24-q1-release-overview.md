@@ -4,20 +4,18 @@ description: Información general sobre la versión del primer trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Información general sobre la versión del primer trimestre de 2024
 
-Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2024 programada para la semana del 15 de enero de 2024.
+Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2024. Estas mejoras están planificadas para que estén disponibles en el entorno de producción para todos los clientes con la versión 24.1 el 18 y 19 de enero de 2024.
 
-Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del primer trimestre de 2024 se aproxime a su versión de producción planificada.
-
-El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede [regístrese aquí para unirse al seminario web](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístrese en el seminario web para ver una grabación bajo demanda aquí](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaron a Producción antes de la fecha de lanzamiento del primer trimestre de 2024) se resaltan en amarillo.</span>
 
@@ -352,9 +350,10 @@ El seminario web de la versión 24.1 se celebrará el 11 de enero de 2024. Puede
                         <ul>
                             <li>
                                 <p>Versión de vista previa: 21 de diciembre de 2023</p>
+                                <p>NOTA: Esta función permanecerá en la versión de vista previa hasta la versión 24.4.</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.1</p>
+                                <p>Producción para la versión rápida: con la versión 24.2 (febrero de 2024)</p>
                             </li>
                             <li>
                                 <p>Producción para todos los clientes: con la versión 24.4 (abril de 2024)</p>
