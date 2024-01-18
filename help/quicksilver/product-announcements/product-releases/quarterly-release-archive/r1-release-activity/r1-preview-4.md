@@ -5,10 +5,11 @@ title: Vista previa de R1 4
 description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 15 de febrero de 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---

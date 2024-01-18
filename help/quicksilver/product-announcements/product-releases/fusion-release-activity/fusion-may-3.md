@@ -3,45 +3,46 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Actividad de la versión de Workfront Fusion: Semana del 3 de mayo de 2021'
-description: En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 3 de mayo de 2021.
+title: "Actividad de la versión de Workfront Fusion: Semana del 3 de mayo de 2021"
+description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 3 de mayo de 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3312c5-3416-4c03-8528-6a2c0240110e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# Actividad de la versión de Workfront Fusion: semana del 3 de mayo de 2021
+# Actividad de la versión de Workfront Fusion: Semana del 3 de mayo de 2021
 
-En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 3 de mayo de 2021.
+Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 3 de mayo de 2021.
 
-Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
-## El conector Salesforce ahora puede buscar utilizando SOQL
+## Ahora, el conector Salesforce puede buscar mediante SOQL
 
-El módulo Salesforce > Buscar registros ahora tiene la opción de buscar mediante SOQL (Salesforce Object Query Language). También puede buscar utilizando las opciones disponibles anteriormente (SOSL y búsquedas simples).
+El módulo Salesforce > Buscar registros ahora tiene la opción de buscar usando SOQL (Lenguaje de consulta de objetos de Salesforce). También puede buscar utilizando las opciones disponibles anteriormente (SOSL y búsquedas simples).
 
 Para obtener más información, consulte [Módulos de Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
-## El nuevo tipo de conexión en el conector DevOps de Azure requiere menos ámbitos
+## El nuevo tipo de conexión en el conector de Azure DevOps requiere menos ámbitos
 
-Para mejorar la seguridad, se ha agregado un nuevo tipo de conector al conector DevOps de Workfront Fusion Azure. Ahora, al crear una conexión en un módulo de DevOps de Azure, puede seleccionar entre dos tipos de conexiones:
+Para mejorar la seguridad, hemos agregado un nuevo tipo de conector al conector de desarrollo de Workfront Fusion Azure. Ahora, cuando crea una conexión en un módulo de Azure DevOps, puede seleccionar entre dos tipos de conexiones:
 
-* Operaciones de desarrollo de Azure
+* Azure DevOps
 
-   Este nuevo tipo de conexión limita los ámbitos a los que Workfront Fusion necesita específicamente.
+  Este nuevo tipo de conexión limita los ámbitos a los que necesita específicamente Workfront Fusion.
 
-* Operaciones de desarrollo de Azure (Solicitar todos los ámbitos)
+* Azure DevOps (solicitar todos los ámbitos)
 
-   Este es el tipo de conexión heredado, que solicita todos los ámbitos disponibles en una conexión con Azure DevOps.
+  Este es el tipo de conexión heredada, que solicita todos los ámbitos disponibles en una conexión a Azure DevOps.
 
-Le recomendamos que utilice el tipo de conexión de DevOps de Azure en todos los casos nuevos que usen las operaciones de desarrollo de Azure. También le recomendamos que cambie cualquier módulo de Azure DevOps en sus escenarios existentes para usar el nuevo tipo de conexión. El tipo de conexión de Azure DevOps (solicitud de todos los ámbitos) heredado quedará obsoleto en un futuro próximo.
+Le recomendamos que utilice el tipo de conexión de Azure DevOps en todos los escenarios nuevos que utilicen Azure DevOps. También le recomendamos que cambie cualquier módulo de Azure DevOps en sus escenarios existentes para utilizar el nuevo tipo de conexión. El tipo de conexión heredada de Azure DevOps (Solicitar todos los ámbitos) quedará obsoleto en un futuro próximo.
 
-Para obtener más información, consulte [Módulos de DevOps de Azure](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Para obtener más información, consulte [Módulos de Azure DevOps](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

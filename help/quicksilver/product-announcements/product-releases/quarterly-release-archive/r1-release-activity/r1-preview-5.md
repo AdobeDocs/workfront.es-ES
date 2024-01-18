@@ -5,10 +5,11 @@ title: Vista previa de R1 5
 description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1 Preview 5. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 16 de marzo de 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -113,7 +114,7 @@ Para obtener más información sobre la configuración de notificaciones por cor
  </thead> 
  <tbody> 
   <tr> 
-   <td>Se agrega un problema a mi proyecto</td> 
+   <td>Se agrega un problema a un proyecto de mi propiedad</td> 
    <td> <p> Se requiere una acción </p> </td> 
    <td>   <p>Información sobre proyectos de mi propiedad</p></td> 
   </tr> 
@@ -143,7 +144,7 @@ Para obtener más información sobre la configuración de notificaciones por cor
    <td> <p> Información sobre proyectos de mi propiedad </p>   </td> 
   </tr> 
   <tr> 
-   <td> <p> Cambio de fecha límite de una tarea que tengo asignada </p> </td> 
+   <td> <p> Cambio de fecha límite de una tarea a la que estoy asignado </p> </td> 
    <td>   <p>Se requiere una acción</p></td> 
    <td>   <p>Información sobre trabajo asignado a mí</p></td> 
   </tr> 

@@ -4,9 +4,11 @@ description: 23.2 Mejoras de Mobile
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,4 @@ Para obtener más información, consulte [Iniciar sesión en [!DNL Adobe Workfro
 
 Las colecciones de tableros ahora también son compatibles con la aplicación móvil, lo que permite a los usuarios móviles ver cualquier colección a la que tengan acceso en la versión de escritorio desde su lista de tableros móviles.
 
-Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Tableros] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

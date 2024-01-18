@@ -5,10 +5,11 @@ title: Información general de la versión 20.4
 description: La versión 20.4 se publicó en el entorno de producción la semana del 9 de noviembre de 2020. Para ver las fechas y horas de lanzamiento específicas de cada clúster, consulte el Sitio de estado de Workfront.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---
@@ -54,11 +55,11 @@ Esta página proporciona información sobre la funcionalidad tanto para Adobe Wo
    <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nuevo para administradores: Controle cómo se comparte un campo personalizado</a> </p> <p>Para darle el bueno control sobre quién puede editar, eliminar y utilizar los campos personalizados que cree, hemos añadido la capacidad de configurar exactamente cómo desea que se compartan.</p> <p>Hasta ahora, cuando creaba un campo personalizado, todos los miembros del sistema podían editarlo. Este sigue siendo el estado predeterminado de un campo personalizado, pero ahora puede limitar el uso compartido de un campo personalizado a determinados usuarios, roles, equipos, grupos y empresas. Y puede determinar si los destinatarios pueden administrar o solo ver el campo personalizado.</p> <p>Además, para que esta experiencia le resulte familiar, hemos diseñado la interfaz de usuario para que esta capacidad sea similar a otras áreas de objetos que se comparten en Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nuevo para administradores: Controle cómo se comparte un campo personalizado</a> </p> <p>Para darle un mayor control sobre quién puede editar, eliminar y utilizar los campos personalizados que cree, hemos añadido la capacidad de configurar exactamente cómo desea que se compartan.</p> <p>Hasta ahora, cuando creaba un campo personalizado, todos los miembros del sistema podían editarlo. Este sigue siendo el estado predeterminado de un campo personalizado, pero ahora puede limitar el uso compartido de un campo personalizado a determinados usuarios, roles, equipos, grupos y empresas. Y puede determinar si los destinatarios pueden administrar o solo ver el campo personalizado.</p> <p>Además, para que esta experiencia le resulte familiar, hemos diseñado la interfaz de usuario para que esta capacidad sea similar a otras áreas de objetos que se comparten en Workfront.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 15 de octubre de 2020</p> <p>Versión de producción: con la versión 20.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nuevo para administradores: uso compartido de formularios personalizados estandarizados</a> </p> <p>Hemos estandarizado el uso compartido para Custom Forms para que pueda utilizar el mismo proceso de uso compartido de objetos de Workfront que ya conoce. Y la nueva experiencia de uso compartido le proporciona el bueno control sobre quién puede editar, eliminar y utilizar Forms personalizado que cree. Puede limitar el uso compartido de un formulario personalizado a determinados usuarios, funciones, equipos, grupos y empresas. Además, puede determinar si esos destinatarios pueden ver o administrar el formulario personalizado.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nuevo para administradores: uso compartido de formularios personalizados estandarizados</a> </p> <p>Hemos estandarizado el uso compartido para Custom Forms para que pueda utilizar el mismo proceso de uso compartido de objetos de Workfront que ya conoce. Además, la nueva experiencia de uso compartido le proporciona un mayor control sobre quién puede editar, eliminar y utilizar Forms personalizado que cree. Puede limitar el uso compartido de un formulario personalizado a determinados usuarios, funciones, equipos, grupos y empresas. Además, puede determinar si esos destinatarios pueden ver o administrar el formulario personalizado.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 15 de octubre de 2020</p> <p>Versión de producción: con la versión 20.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -119,7 +120,7 @@ Esta página proporciona información sobre la funcionalidad tanto para Adobe Wo
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 25 de septiembre de 2020</p> <p>Versión de producción: con la versión 20.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un nuevo filtro integrado para el Distribuidor de cargas de trabajo: usuarios en proyectos</a> </p> <p>Para que su experiencia de filtrado en el Distribuidor de cargas de trabajo sea más eficiente, hemos añadido un nuevo filtro integrado en el área de Trabajo asignado. Ahora puede aplicar el filtro Usuarios en proyectos que muestra los usuarios asignados a tareas y problemas en los proyectos que especifique.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Un nuevo filtro integrado para el Distribuidor de cargas de trabajo: usuarios en proyectos</a> </p> <p>Para que su experiencia de filtrado en el Distribuidor de cargas de trabajo sea más eficiente, hemos añadido un nuevo filtro integrado en el área de Trabajo asignado. Ahora puede aplicar el filtro Usuarios en proyectos, que muestra los usuarios asignados a tareas y problemas en los proyectos que especifique.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 25 de septiembre de 2020</p> <p>Versión de producción: con la versión 20.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

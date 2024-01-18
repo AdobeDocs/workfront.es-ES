@@ -3,10 +3,11 @@ title: Información general de la versión 23.3
 description: Información general de la versión 23.3
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -453,7 +454,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [regístr
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Crear automáticamente carpetas vinculadas a Adobe Experience Manager Assets al crear un proyecto</a></p>
-                        <p>Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Recursos de Adobe Experience Manager. Cuando se agrega la integración a una plantilla de proyecto, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada. </p>
+                        <p>Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Adobe Experience Manager Assets. Cuando se agrega la integración a una plantilla de proyecto, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

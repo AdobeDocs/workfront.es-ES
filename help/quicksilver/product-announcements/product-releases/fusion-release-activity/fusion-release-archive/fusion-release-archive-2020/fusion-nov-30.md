@@ -8,11 +8,12 @@ title: "Actividad de la versión de Workfront Fusion: Semana del 30 de noviembre
 description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 30 de noviembre de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---

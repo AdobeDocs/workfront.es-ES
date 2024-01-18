@@ -7,11 +7,12 @@ title: "Actividad de la versión de Workfront Fusion: Semana del 8 de marzo de 2
 description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 8 de marzo de 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---

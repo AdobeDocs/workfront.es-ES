@@ -3,9 +3,11 @@ title: 23.3 Mejoras en la integración
 description: 23.3 Mejoras en la integración
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -64,7 +66,7 @@ For more information, see [Link documents from external applications](/help/quic
 
 ## Crear automáticamente carpetas vinculadas a Adobe Experience Manager Assets al crear un proyecto
 
-Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Recursos de Adobe Experience Manager. Cuando se agrega la integración a una plantilla de proyecto, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada.
+Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Adobe Experience Manager Assets. Cuando se agrega la integración a una plantilla de proyecto, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada.
 
 Anteriormente, la creación de carpetas vinculadas requería una acción por parte del usuario.
 

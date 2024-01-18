@@ -4,10 +4,11 @@ description: Información general de la versión 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Para obtener sugerencias sobre la preparación de la próxima versión, consulte
 
 En lugar de un seminario web sobre la versión, le invitamos a registrarse para el Adobe Summit y ver las siguientes sesiones de Workfront:
 
-[Experiencias impactantes: desde la creación de contenido hasta la personalización](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) el 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenido y ofrecer experiencias impactantes con la buena eficacia. Esta sesión se transmitirá en directo para audiencias virtuales.
+[Experiencias impactantes: desde la creación de contenido hasta la personalización](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) el 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenido y ofrecer experiencias impactantes con una mayor eficiencia. Esta sesión se transmitirá en directo para audiencias virtuales.
 
 [El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) el 23 de marzo de 2023, para ver la visión de Workfront y su lugar dentro del ecosistema de Adobe y echar un vistazo a la futura hoja de ruta. Esta sesión se grabará y estará disponible más adelante como contenido bajo demanda.
 

@@ -1,46 +1,47 @@
 ---
-title: Actualizaciones de apariencia durante el lapso de tiempo de la versión 23.1
-description: Actualizaciones de apariencia durante el lapso de tiempo de la versión 23.1
+title: Actualizaciones de aspecto durante el periodo de tiempo de la versión 23.1
+description: Actualizaciones de aspecto durante el periodo de tiempo de la versión 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-source-git-commit: 89d7b526cecb441700baca98092aefd319a1d72a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
 
-# Actualizaciones de apariencia durante el lapso de tiempo de la versión 23.1
+# Actualizaciones de aspecto durante el periodo de tiempo de la versión 23.1
 
-En esta página se describen actualizaciones menores del aspecto de varias áreas de la aplicación Adobe Workfront realizadas dentro del marco temporal de la versión 23.1. Estas mejoras estarán disponibles en el entorno Producción al menos 2 semanas después de su publicación en Vista previa.
+En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 23.1. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Resumen de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Listas actualizadas en el área Configuración > Interfaz
-
->[!NOTE]
->
->Versión de vista previa: 1 de diciembre de 2022; Versión de producción planificada: 15 de diciembre de 2022
-
-Las páginas Filtros, Vistas y Agrupaciones en Configuración > Interfaz ahora tienen el aspecto más moderno que se encuentra en la mayoría de las demás listas de Workfront.
-
-## Nuevo cuadro Editar plantilla
+## Se han actualizado las listas en el área Configuración > Interfaz
 
 >[!NOTE]
 >
->Versión de vista previa: 8 de diciembre de 2022; Versión de producción planificada: Con la versión 23.1
+>Versión de vista previa: 1 de diciembre de 2022; versión de producción planificada: 15 de diciembre de 2022
 
-Como parte de la actualización del aspecto de Workfront, hemos rediseñado el cuadro Editar plantilla . Puede acceder al nuevo cuadro Editar plantilla desde una plantilla individual o desde una lista de plantillas.
+Las páginas Filtros, Vistas y Agrupaciones en Configuración > Interfaz ahora tienen el aspecto más moderno que se encuentra en la mayoría de las otras listas de Workfront.
 
-Además de una apariencia actualizada, los siguientes cambios también están disponibles en el cuadro Nueva plantilla :
+## Nuevo cuadro de diálogo Editar plantilla
 
-* Puede personalizar la plantilla de diseño una vez y reflejar esas personalizaciones tanto en la página Detalles como en el cuadro Editar plantilla .
-* Los nombres de formulario personalizados individuales ahora están disponibles en el panel izquierdo dentro del cuadro Editar plantilla y puede acceder rápidamente a cada formulario desde allí.
-* Se ha eliminado la funcionalidad de comentarios del cuadro Editar plantilla para eliminar la redundancia con la sección Actualizaciones .
-* Se ha eliminado la casilla &quot;Está activo&quot; para eliminar la redundancia con las opciones de menú Más de la página de plantillas.
-* Se ha eliminado la sección Comentario para eliminar la redundancia con la sección Actualizaciones .
+>[!NOTE]
+>
+>Versión de vista previa: 8 de diciembre de 2022; versión planificada para producción: con la versión 23.1
+
+Como parte de la actualización del aspecto de Workfront, hemos rediseñado el cuadro Editar plantilla. Puede acceder al nuevo cuadro Editar plantilla desde una plantilla individual o desde una lista de plantillas.
+
+Además de una apariencia y presentación actualizadas, también están disponibles los siguientes cambios en el cuadro Nueva plantilla:
+
+* Puede personalizar la plantilla de diseño una vez y reflejar esas personalizaciones tanto en la página Detalles como en el cuadro Editar plantilla.
+* Los nombres de formulario personalizados individuales ahora están disponibles en el panel izquierdo, dentro del cuadro Editar plantilla, y puede acceder rápidamente a cada formulario desde allí.
+* Se ha eliminado la funcionalidad de comentarios del cuadro Editar plantilla para eliminar la redundancia con la sección Actualizaciones.
+* Hemos eliminado la casilla &quot;Está activo&quot; para eliminar la redundancia con las opciones del menú Más en la página de la plantilla.
+* Hemos eliminado la sección Comentario para eliminar la redundancia con la sección Actualizaciones.
 
 Para obtener más información, consulte [Editar plantillas de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -48,63 +49,63 @@ Para obtener más información, consulte [Editar plantillas de proyecto](/help/q
 
 >[!NOTE]
 >
->Versión de vista previa: N/A; Versión de producción planificada: 14 de noviembre de 2022.
+>Versión de vista previa: N/D; versión de producción planificada: 14 de noviembre de 2022.
 
-Para crear una experiencia más coherente dentro de Jira, hemos actualizado Workfront para la integración con Jira. El aspecto de la integración de Workfront para Jira ahora coincide con el aspecto de Jira.
+Para crear una experiencia más coherente dentro de Jira, hemos actualizado la integración de Workfront para Jira. El aspecto de la integración de Workfront para Jira ahora coincide con el aspecto de Jira.
 
 La funcionalidad de la integración de Workfront para Jira no ha cambiado.
 
 Para obtener más información sobre la integración de Workfront para Jira, consulte [Adobe Workfront para Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
-## Selección de usuario inteligente al actualizar campos de usuario
+## Selección inteligente de usuarios al actualizar campos de usuario
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de octubre de 2022; Versión de producción planificada: 10 de noviembre de 2022.
+>Versión de vista previa: 27 de octubre de 2022; versión de producción planificada: 10 de noviembre de 2022.
 >
->Después de actualizar estos campos en Producción el 10 de noviembre, todos los campos de usuario restantes en Workfront se actualizarán directamente en Producción como parte de parches semanales.
+>Una vez que estos campos se actualicen en el entorno de producción el 10 de noviembre, todos los campos de usuario restantes de Workfront se actualizarán directamente en el entorno de producción como parte de los parches semanales.
 
-Hay información de usuario adicional que se muestra al agregar usuarios a los campos siguientes:
+Hay información de usuario adicional que se muestra cuando se agregan usuarios a los siguientes campos:
 
-* Área Tareas y problemas Asignaciones en los encabezados
+* Área Asignaciones de tareas y problemas en los encabezados
 
-* Panel Resumen de tareas y problemas
+* Panel de resumen de tareas y problemas
 
-* Cuadro Tarea y asignación avanzada de problema
+* Cuadro de diálogo Asignación avanzada de tareas y problemas
 
-* Tareas y asignaciones de problemas en el equilibrador de carga de trabajo
+* Asignaciones de tareas y problemas en el Distribuidor de cargas de trabajo
 
-* Tareas e informes de listas de problemas al agregar asignaciones en línea
+* Tareas y listas de problemas e informes, al agregar asignaciones en línea
 
 * Propietario del proyecto en el encabezado del proyecto
 
-* Campos personalizados avanzados para usuarios
+* Campos personalizados de escritura anticipada para usuarios
 
-Ahora, cuando agrega un usuario a los campos de usuario enumerados arriba, además del nombre y avatar del usuario, también se muestran su Función principal y su correo electrónico. Esto ayuda a distinguir entre varios usuarios con nombres similares o idénticos.
+Ahora, cuando agregue un usuario a los campos de usuario enumerados arriba, además del nombre y el avatar del usuario, también se mostrarán su función principal y su correo electrónico. Esto ayuda a distinguir entre varios usuarios con nombres similares o idénticos.
 
-Para obtener más información y ver una demostración en vídeo de una función similar, consulte &quot;Selección inteligente de usuarios para funciones de proyecto en las áreas Editar y Detalles&quot; en [22.4 Mejoras del proyecto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información y ver un vídeo de demostración de una función similar, consulte &quot;Selección inteligente de usuarios para funciones de proyecto en las áreas de Edición y Detalles&quot; en [22.4 Mejoras del proyecto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-## Buscar y sentir actualizaciones en la página Notificaciones
+## Actualizaciones de aspecto y funcionamiento en la página Notificaciones
 
 >[!NOTE]
 >
->Versión de vista previa: 20 de octubre de 2022; Versión de producción planificada: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>Versión de vista previa: 20 de octubre de 2022; versión de producción planificada: por determinar <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 La página Notificaciones ahora tiene un aspecto moderno, en línea con otras áreas de Workfront.
 
-## Actualizaciones de filtro durante el lapso de tiempo de la versión 23.1
+## Filtrar actualizaciones durante el lapso de tiempo de la versión 23.1
 
-La experiencia del filtro beta se agregó a las listas de proyectos, tareas y problemas el 4 de agosto de 2022. Los nuevos filtros también están disponibles en las listas de hojas de horas y en el Planificador de escenarios.
+La experiencia del filtro beta se agregó a las listas de proyectos, tareas y problemas el 4 de agosto de 2022. Los nuevos filtros también están disponibles en las listas de plantillas de horas y en el Scenario Planner.
 
-Esta página se registra cuando los nuevos filtros se añaden a otras áreas de la aplicación Adobe Workfront durante el periodo de publicación 23.1.
+Esta página registra cuándo se añaden los nuevos filtros a otras áreas de la aplicación Adobe Workfront durante el periodo de tiempo de la versión 23.1.
 
-Para obtener información sobre cómo utilizar los nuevos filtros, consulte [Crear o editar filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obtener información sobre cómo utilizar los nuevos filtros, consulte [Creación o edición de filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Listas actualizadas con los nuevos filtros
 
-Las listas mostradas aquí ahora ofrecen la experiencia de filtro beta además del generador de filtros estándar.
+Las listas que se muestran aquí ahora ofrecen la experiencia de filtro beta además del generador de filtros estándar.
 
-#### Versión de vista previa: 13 de octubre de 2022; Versión de producción planificada: 27 de octubre de 2022
+#### Versión de vista previa: 13 de octubre de 2022; versión de producción planificada: 27 de octubre de 2022
 
 * Portafolios
 
@@ -114,7 +115,7 @@ Las listas mostradas aquí ahora ofrecen la experiencia de filtro beta además d
 
 * Riesgos del proyecto
 
-* Líneas de base del proyecto
+* Líneas bases del proyecto
 
 * Horas del proyecto
 
@@ -122,15 +123,15 @@ Las listas mostradas aquí ahora ofrecen la experiencia de filtro beta además d
 
 * Personas del proyecto
 
-* Horas de la tarea
+* Horas de tarea
 
 * Plantillas
 
 * Tareas de plantilla
 
-* Registros de facturación de proyectos
+* Registros de facturación del proyecto
 
-* Registro de Proyectos Registra Horas Facturables
+* Horas facturables de registros de facturación del proyecto
 
 * Gastos de proyecto
 
@@ -142,14 +143,14 @@ Las listas mostradas aquí ahora ofrecen la experiencia de filtro beta además d
 
 * Horas del problema
 
-* Proyectos de grupo
+* Agrupar proyectos
 
 * Miembros de grupo
 
-* Subgrupos de grupos
+* Agrupar subgrupos
 
 * Plantillas de grupo
 
-* Compañías de grupo
+* Agrupar compañías
 
-* Equipos de grupo
+* Agrupar equipos

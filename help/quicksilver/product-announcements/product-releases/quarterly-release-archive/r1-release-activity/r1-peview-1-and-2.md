@@ -5,10 +5,11 @@ title: Vista previa 1 y 2 de R1
 description: Esta página describe todos los cambios disponibles en el entorno de vista previa con las versiones R1.1 y R1.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 19 de enero de 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -109,7 +110,7 @@ Ahora puede compartir la URL en los siguientes objetos de la aplicación móvil 
 * Proyectos
 * Tareas
 * Problemas
-* Plantillas de horas
+* Hojas de horas
 * Documentos
 
 Puede compartir la URL de un objeto en las siguientes aplicaciones:

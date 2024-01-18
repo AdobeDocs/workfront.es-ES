@@ -3,41 +3,42 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Actividad de la versión de Workfront Fusion: Semana del 7 de diciembre de 2020'
-description: En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de diciembre de 2020.
+title: "Actividad de la versión de Workfront Fusion: Semana del 7 de diciembre de 2020"
+description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de diciembre de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-# Actividad de la versión de Workfront Fusion: semana del 7 de diciembre de 2020
+# Actividad de la versión de Workfront Fusion: Semana del 7 de diciembre de 2020
 
-En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de diciembre de 2020.
+Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de diciembre de 2020.
 
-Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
-## Los módulos y el conector del servidor Jira ya están disponibles
+## Ya están disponibles el conector y los módulos del servidor Jira
 
-Ahora hay disponible un nuevo conector de Jira Server para Workfront Fusion 2.0. El conector de Jira Server ofrece la misma funcionalidad que el conector de Jira Cloud actual. Con los módulos Jira Server, puede:
+Ya está disponible un nuevo conector del servidor Jira para Workfront Fusion 2.0. El conector del servidor Jira ofrece la misma funcionalidad que el conector de nube Jira actual. Con los módulos del servidor Jira, puede:
 
-* Déclencheur de un escenario cuando se agrega, modifica o elimina un registro
+* Almacenar en déclencheur un escenario cuando se agrega, modifica o elimina un registro
 * Crear, leer, actualizar o eliminar un registro
-* Registros de lista o búsqueda
+* Enumerar o buscar registros
 * Descargar un archivo adjunto
-* Añadir un problema a un sprint
-* Realizar una llamada API personalizada
+* Agregar un problema a un sprint
+* Realizar una llamada de API personalizada
 
 Anteriormente, los módulos Jira solo estaban disponibles para Jira Cloud.
 
-Para obtener más información sobre los módulos Jira disponibles, consulte [Módulos de software Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Para obtener más información sobre los módulos Jira disponibles, consulte [Módulos de software de Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,10 +6,11 @@ title: 21.2 Información general de la versión
 description: La versión 21.2 se publicó en el entorno de producción la semana del 10 de mayo de 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '5474'
+source-wordcount: '5544'
 ht-degree: 0%
 
 ---
@@ -182,7 +183,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 25 de febrero de 2021<br></p> <p>Versión de producción: 10 de marzo de 2021</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#view" class="MCXref xref" xrefformat="{para}">Permite ver información sobre un grupo que desea asignar a un portafolio, programa o equipo</a> </p> <p>Al asignar un grupo a un portafolio, programa o equipo, le hemos facilitado la tarea de asegurarse de que dispone del grupo adecuado: puede hacer clic en el icono de información situado junto al nombre del grupo para mostrar información sobre herramientas que contenga la jerarquía de grupos por encima de él, junto con los administradores del grupo. Según los detalles configurados para el grupo, también puede ver el coordinador empresarial y la descripción del grupo.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#view" class="MCXref xref" xrefformat="{para}">Permite ver información sobre un grupo que desea asignar a un portafolio, programa o equipo</a> </p> <p>Al asignar un grupo a un portafolio, programa o equipo, le hemos facilitado la tarea de asegurarse de que dispone del grupo adecuado: puede hacer clic en el icono de información situado junto al nombre del grupo para mostrar información sobre herramientas que contenga la jerarquía de grupos por encima, junto con los administradores del grupo. Según los detalles configurados para el grupo, también puede ver el coordinador empresarial y la descripción del grupo.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 25 de febrero de 2021<br></p> <p>Versión de producción: con la versión 21.2</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -305,7 +306,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 8 de abril de 2021<br></p> <p>Versión de producción: con la versión 21.2 <span class="uitext" style="color: #dc143c;">(Se eliminó temporalmente de la producción el 20 de mayo de 2021)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">Informar sobre actualizaciones del sistema</a> </p> <p>El nuevo informe Entrada de cuaderno ofrece la buena capacidad de auditoría al permitirle profundizar en las actualizaciones del sistema, lo que incluye: cambios de estado en un proyecto, tarea o problema; tareas y problemas eliminados; valores en campos personalizados y mucho más.</p> <p>Anteriormente, solo se podía informar sobre las actualizaciones del sistema a través de la API de Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">Informar sobre actualizaciones del sistema</a> </p> <p>El nuevo informe Entrada de diario ofrece una mayor capacidad de auditoría al permitirle explorar en profundidad las actualizaciones del sistema, incluidos los cambios de estado de un proyecto, tarea o problema, las tareas y problemas eliminados, los valores de los campos personalizados y mucho más.</p> <p>Anteriormente, solo se podía informar sobre las actualizaciones del sistema a través de la API de Workfront.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 18 de febrero de 2021<br></p> <p>Versión de producción: 4 de marzo de 2021</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -351,7 +352,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 27 de abril de 2021<br></p> <p>Versión de producción: 27 de abril de 2021</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Buscar carpetas en integraciones de documentos</a> </p> <p>Para facilitarle la navegación por las integraciones de documentos, hemos hecho posible la búsqueda de carpetas. Ahora, al introducir un término en la barra de búsqueda, Workfront devolverá los documentos, las carpetas y las subcarpetas que contengan el término de búsqueda en sus nombres.</p> <p>Anteriormente, las subcarpetas solo se podían encontrar abriendo las carpetas principales.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Buscar carpetas en integraciones de documentos</a> </p> <p>Para facilitar la navegación por las integraciones de documentos, hemos hecho posible la búsqueda de carpetas. Ahora, al introducir un término en la barra de búsqueda, Workfront devolverá los documentos, las carpetas y las subcarpetas que contengan el término de búsqueda en sus nombres.</p> <p>Anteriormente, las subcarpetas solo se podían encontrar abriendo las carpetas principales.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 25 de marzo de 2021<br></p> <p>Versión de producción: con la versión 21.2</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

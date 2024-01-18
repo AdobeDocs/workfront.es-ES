@@ -3,10 +3,11 @@ title: Resumen de la versión del cuarto trimestre de 2023
 description: Resumen de la versión del cuarto trimestre de 2023
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ La aplicación móvil Proof quedará obsoleta oficialmente con la versión 23.10
 
 Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de sesión de Workfront. Los usuarios e invitados externos pueden seguir utilizando la aplicación Proof para trabajos de revisión; sin embargo, ya no es compatible y no estará disponible con la versión 23.10.
 
-#### Secuencias de trabajo eliminados para las cuentas que no se utilizan
+#### Flujos de trabajo eliminados para las cuentas que no los utilizan
 
-En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan secuencias de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
+En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan flujos de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
 
 <!-- HTML you might need
 

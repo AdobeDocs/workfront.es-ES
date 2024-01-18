@@ -5,8 +5,9 @@ title: Prepárese para una [!DNL Adobe Workfront] versión
 description: Siga estas sugerencias para actualizar sin problemas su organización para cada nueva versión de Workfront.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%

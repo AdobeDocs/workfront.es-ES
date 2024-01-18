@@ -3,9 +3,11 @@ title: 23.3 Mejoras de Agile
 description: 23.3 Mejoras de Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -122,7 +124,7 @@ Un nuevo **Añadir a tableros** botón en los paneles Kanban del equipo Agile pe
 
 La ubicación de las tarjetas en el tablero de Workfront se basa en las políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado &quot;En curso&quot; a una columna específica). Si no hay directivas o las tarjetas no coinciden con las directivas, las tarjetas se colocan en la columna situada más a la izquierda. En este momento, las tarjetas de la columna Registro de pendientes del tablero heredado no se añaden al tablero de Workfront.
 
-Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que esté preparado para cambiar a los tableros de Workfront.
+Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que esté listo para cambiar a los tableros de Workfront.
 
 Para obtener más información, consulte [Migración de tarjetas Agile Team Kanban a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 

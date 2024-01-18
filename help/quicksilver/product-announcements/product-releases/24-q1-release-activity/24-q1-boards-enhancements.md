@@ -3,7 +3,8 @@ title: Mejoras en los tableros del primer trimestre de 2024
 description: Mejoras en los tableros del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+recommendations: noDisplay, noCatalog
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

@@ -7,8 +7,9 @@ title: Información general sobre la actividad de Adobe Workfront Fusion
 description: Adobe Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1d0c03e7818f6ecf4cd5ea8b6cc1c7324fbadd23
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%

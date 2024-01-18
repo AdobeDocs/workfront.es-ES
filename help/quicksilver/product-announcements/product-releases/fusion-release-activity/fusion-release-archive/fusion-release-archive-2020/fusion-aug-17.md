@@ -7,12 +7,13 @@ title: "Actividad de la versión de Workfront Fusion: Semana del 17 de agosto de
 description: Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 17 de agosto de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d3fc3169-b23e-49ea-aafd-136761278ef6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -36,4 +37,4 @@ Para obtener información sobre los módulos SharePoint disponibles, consulte [M
 
 **Versión de producción**
 
-20 de agosto de 2020
+viernes, 20 de agosto de 2020

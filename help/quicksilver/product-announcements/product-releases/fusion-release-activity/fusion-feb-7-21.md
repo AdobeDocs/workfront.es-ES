@@ -1,34 +1,35 @@
 ---
-title: Actividad de la versión de Workfront Fusion:&nbsp;semana del 7 de febrero de 2022
-description: Actividad de la versión de Workfront Fusion:&nbsp;semana del 7 de febrero de 2022
+title: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 7 de febrero de 2022
+description: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 7 de febrero de 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# Actividad de la versión de Workfront Fusion: semana del 7 de febrero de 2022
+# Actividad de la versión de Workfront Fusion: Semana del 7 de febrero de 2022
 
-En esta página se describen todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de febrero de 2022.
+Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 7 de febrero de 2022.
 
-Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay actualizaciones etiquetadas como Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
-## Ya están disponibles los módulos y el conector de Anaplan
+## Ya están disponibles el conector y los módulos de Anaplan
 
 Ahora puede utilizar Adobe Workfront Fusion para conectarse a su cuenta de Anaplan. Con los módulos de Anaplan, puede
 
 * Crear, leer, actualizar, eliminar o buscar registros de Anaplan
-* Importar registros por lotes a Anaplan
+* Importación de registros por lotes a Anaplan
 
-Para obtener más información, consulte [Módulos de Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+Para obtener más información, consulte [Módulos Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,10 +44,10 @@ Para obtener más información, consulte [Módulos de Anaplan](../../../workfron
 </div>
 -->
 
-## Vaya directamente al Editor de escenarios al crear un escenario
+## Ir directamente al Editor de escenarios al crear un escenario
 
-Para que el proceso de creación del escenario sea más fluido, hemos eliminado la página de selección de la aplicación. Ahora, puede ir directamente al Editor de escenarios y seleccionar la aplicación a la que desea conectarse desde la lista que aparece al agregar un módulo.
+Para facilitar el proceso de creación de escenarios, se ha eliminado la página de selección de aplicaciones. Ahora puede ir directamente al Editor de escenarios y seleccionar la aplicación a la que desea conectarse desde la lista que aparece al agregar un módulo.
 
-Anteriormente, se podían seleccionar aplicaciones de la página de selección de aplicaciones, así como de la lista.
+Anteriormente, se podían seleccionar aplicaciones tanto en la página de selección de aplicaciones como en la lista.
 
-Para obtener más información sobre la selección de aplicaciones para su escenario, consulte [Crear un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Para obtener más información sobre cómo seleccionar aplicaciones para su escenario, consulte [Creación de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
