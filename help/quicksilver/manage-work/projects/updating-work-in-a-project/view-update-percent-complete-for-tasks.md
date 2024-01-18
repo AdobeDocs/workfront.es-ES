@@ -6,49 +6,20 @@ description: Puede actualizar el porcentaje completado de una tarea para indicar
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Ver y actualizar el porcentaje completado de las tareas
 
+<!--Audited:01/2024-->
+
 Puede actualizar el porcentaje completado de una tarea para indicar el progreso que ha realizado en la tarea hacia completarla.
 
 ## Requisitos de acceso
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Debe tener el siguiente acceso para actualizar las tareas manualmente:
 
@@ -57,27 +28,28 @@ Debe tener el siguiente acceso para actualizar las tareas manualmente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Trabajo o superior</p> </td> 
+   <td> <p>Nueva licencia: Standard</p> 
+   O
+   <p>Licencia actual: Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Tareas</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para la tarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para la tarea</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Áreas en las que se puede actualizar el porcentaje completado de una tarea
@@ -89,15 +61,16 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
 * **En la vista Hito**: puede actualizar el porcentaje completado de una tarea al utilizar la vista de Hito en una lista de proyectos o un informe de proyecto. Para obtener más información, consulte [Uso de la vista de Hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Al actualizar la tarea**: puede actualizar la opción de porcentaje completado de una tarea al añadir una actualización a la tarea.
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >Esta opción solo se muestra después de activar la opción Mostrar porcentaje completado.\
-  >Para habilitar la barra de actualización de porcentaje completado para las tareas, haga lo siguiente:
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. Vaya a la **Principal** menu>su nombre>**Más** junto a su nombre >**Editar** > seleccionar **Mostrar porcentaje completado al actualizar el estado**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **En el encabezado de la tarea**: puede actualizar el porcentaje completado de una tarea en el encabezado de la tarea. Para obtener más información, consulte [Editar tareas](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
    O
 
-   Haga clic en y arrastre **Porcentaje completado** al número necesario para indicar la cantidad de la tarea que ha completado.
+   Haga clic en y arrastre **Porcentaje completado** barra hasta el número necesario para indicar la cantidad de la tarea que ha completado, cuando está disponible.
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
 
 1. Pulse Intro en el teclado para guardar el porcentaje completado.
+
+El porcentaje completado del proyecto también se actualiza automáticamente.
 

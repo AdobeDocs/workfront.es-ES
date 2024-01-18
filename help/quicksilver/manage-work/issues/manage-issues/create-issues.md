@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Para crear un problema en una tarea o un proyecto:
 1. (Opcional) Si desea registrar el problema de una tarea, vaya a **Tareas** y, a continuación, haga clic en el nombre de una tarea.
 1. Haga clic en **Problemas** sección.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   Se muestra la lista de problemas del proyecto
 
-1. Clic **Nuevo problema**.
+1. Clic **Nuevo problema** en la parte superior de la lista de problemas.
 Se muestra el cuadro Nuevo problema.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Para crear problemas en línea:
 
 1. Vaya a un proyecto en el que desee crear el problema.
 1. (Opcional) Si desea registrar el problema de una tarea, vaya a **Tareas** y, a continuación, haga clic en el nombre de una tarea.
-1. Haga clic en **Problemas** sección.
-1. Clic **Agregar más problemas**.
+1. Haga clic en **Problemas** en el panel izquierdo.
+1. Clic **Agregar más problemas** en la parte inferior de la lista de problemas.
 
    Se crea una nueva línea en la lista de problemas de la sección Problemas.
 

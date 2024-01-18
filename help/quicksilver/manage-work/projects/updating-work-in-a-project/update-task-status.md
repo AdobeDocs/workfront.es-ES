@@ -6,9 +6,9 @@ description: Puede actualizar el estado de una tarea para informar a otros sobre
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ Puede actualizar manualmente los estados de las tareas o dejar que Workfront los
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Debe tener el siguiente acceso para actualizar las tareas manualmente:
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ Debe tener el siguiente acceso para actualizar las tareas manualmente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Trabajo o superior</p> </td> 
+   <td> <p>Nuevo: estándar</p> 
+   O
+   <p>Actual: Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Tareas</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para la tarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para la tarea</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Consideraciones acerca de la actualización del estado de las tareas
 
@@ -94,20 +64,54 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Actualizar manualmente el estado de la tarea
 
-Al actualizar un estado de tarea, también puede escribir una explicación sobre el nuevo estado y cambiar otra información de la tarea, como la fecha de vencimiento.
+Puede actualizar el estado de la tarea en las siguientes áreas de Workfront:
 
-1. Vaya a una tarea a la que esté asignado para la que desee actualizar el estado.
+* El encabezado de la tarea en la página de tareas.
+* El cuadro Editar tarea, al editar una tarea.
+* La sección Detalles de la tarea de la página de tareas.
+* En una lista de tareas o un informe, cuando el campo Estado sea visible en la vista.
+* En el panel Resumen de la tarea.
+
+Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
+
+1. Vaya a una tarea cuyo estado desee actualizar.
 1. Haga clic en **Estado** en el encabezado de la tarea y seleccione un nuevo estado.
-1. (Opcional) Realice una de las siguientes acciones para proporcionar información adicional sobre la actualización y, a continuación, haga clic en **Actualizar** o, si la tarea tiene el **Completar** estado, haga clic en **Listo:**
+1. Para proporcionar una indicación visual de la finalización de la tarea, arrastre o haga doble clic en la burbuja debajo de **Porcentaje completado** en el encabezado de la tarea
 
-   * Para añadir una nota sobre la actualización, vaya a **Actualizaciones** y haga clic en **Iniciar una nueva actualización** y, a continuación, escriba la nota.
+   O
 
-   * Para notificar la actualización a determinados usuarios, escriba sus nombres en la **Notificar** que aparece al escribir una nota sobre la actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para actualizar la condición de la tarea, haga clic en **Seleccionar condición** a la derecha del **Notificar** (aparecen al escribir una nota sobre la actualización) y, a continuación, seleccione la condición que mejor refleje la condición actual de la tarea.
+   Haga clic dentro de la burbuja en el encabezado de la tarea para introducir un porcentaje.
 
-   * Para actualizar la fecha de confirmación de la tarea, expanda **Fecha de confirmación** , y seleccione una nueva fecha de compromiso.
-   * Para proporcionar una indicación visual de la finalización de la tarea, arrastre la burbuja bajo Porcentaje completado o haga doble clic en ella para introducir un valor porcentual.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Opcional) Realice una de las siguientes acciones para proporcionar información adicional sobre la actualización:
+
+   * Para añadir una nota sobre la actualización, vaya a **Actualizaciones** y haga clic en **Nuevo comentario** y, a continuación, escriba una nota.
+
+     ![](assets/add-update-to-task.png)
+
+   * Para notificar la actualización a determinados usuarios, escriba sus nombres en la **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para actualizar la fecha de confirmación de la tarea, haga clic en **Detalles de tarea**, luego edite el **Fecha de confirmación** field. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  Solo las personas asignadas a tareas pueden actualizar la fecha de confirmación.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Actualizar automáticamente el estado de la tarea
 
@@ -123,9 +127,9 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
  <col> 
  <tbody> 
   <tr> 
-   <td>Acción</td> 
-   <td>Estado original</td> 
-   <td>Nuevo estado</td> 
+   <td><b>Acción</b></td> 
+   <td><b>Estado original</b></td> 
+   <td><b>Nuevo estado</b></td> 
   </tr> 
   <tr> 
    <td>Actualizar el porcentaje completado de la tarea al 100%</td> 

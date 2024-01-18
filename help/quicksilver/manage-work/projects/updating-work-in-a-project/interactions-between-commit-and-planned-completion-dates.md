@@ -1,31 +1,31 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Interacciones entre la fecha de confirmación y la fecha de finalización prevista
-description: Tanto la Fechas de Finalización Planificada como la Fechas de Confirmación indican cuándo se debe completar la tarea. Pero difieren por quién establece cada fecha.
+title: Interacciones entre la fecha de confirmación y la fecha planificada de finalización
+description: Tanto la finalización planificada como las fechas de confirmación indican cuándo se debe completar la tarea. Pero difieren debido a quién establece cada fecha.
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
 
-# Interacciones entre la fecha de confirmación y la fecha de finalización prevista
+# Interacciones entre la fecha de confirmación y la fecha planificada de finalización
 
 <!--
 this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
 -->
 
-Tanto la Fechas de Finalización Planificada como la Fechas de Confirmación indican cuándo se debe completar la tarea. Pero difieren por quién establece cada fecha.
+Tanto la finalización planificada como las fechas de confirmación indican cuándo se debe completar la tarea. Pero difieren debido a quién establece cada fecha.
 
-## Descripción general de la fecha de confirmación y la fecha de finalización prevista
+## Resumen de la fecha de compromiso y la fecha planificada de finalización
 
-Las fechas de finalización y finalización previstas existen tanto en las tareas como en los problemas.
+Existen fechas planificadas de finalización y confirmación tanto en tareas como en problemas.
 
-La siguiente tabla contiene información sobre la diferencia entre las fechas de finalización y finalización planificada:
+La siguiente tabla contiene información sobre la diferencia entre las fechas de confirmación y finalización planificada:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,33 +33,33 @@ La siguiente tabla contiene información sobre la diferencia entre las fechas de
  <tbody> 
   <tr> 
    <td role="rowheader">Fecha de confirmación</td> 
-   <td> <p>La fecha de confirmación es la fecha en la que la persona asignada a una tarea o emisión manualmente estima que habrá completado la tarea o el problema.</p> <p>Para obtener información sobre fechas de confirmación, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Resumen de la fecha de confirmación</a>.</p> </td> 
+   <td> <p>La fecha de confirmación es la fecha en la que la persona asignada manualmente a una tarea o problema estima que habrá completado la tarea o problema.</p> <p>Para obtener información sobre las fechas de confirmación, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Resumen de fecha de confirmación</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Fecha planificada de finalización</td> 
-   <td> <p>La Fecha de Finalización Planificada muestra cuándo el propietario del proyecto espera que se complete la tarea o el problema. El propietario del proyecto o cualquier persona con permisos de gestión de la tarea o el problema pueden configurarlo manualmente, o Adobe Workfront puede calcularlo automáticamente.</p> <p>Para obtener más información sobre las fechas de finalización planificadas, consulte <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Descripción general de la tarea Fecha de finalización planificada</a></p> </td> 
+   <td> <p>La fecha planificada de finalización indica cuándo espera el propietario del proyecto que se complete la tarea o el problema. Puede establecerlo manualmente el propietario del proyecto o cualquier persona con permisos de administración en la tarea o el problema, o Adobe Workfront puede calcularlo automáticamente.</p> <p>Para obtener más información sobre las fechas planificadas de finalización, consulte <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la fecha planificada de finalización de la tarea</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Interacciones entre la fecha de confirmación y la fecha de finalización prevista
+## Interacciones entre la fecha de confirmación y la fecha planificada de finalización
 
-Cuando el propietario del proyecto crea y asigna una tarea o un problema, la tarea o el problema tendrá lo siguiente:
+Cuando el propietario del proyecto crea y asigna una tarea o un problema, la tarea o el problema presentan los siguientes elementos:
 
-* Una fecha de finalización prevista
+* Una fecha planificada de finalización
 * Sin fecha de confirmación
 
-El usuario asignado que trabaje en la tarea o el problema puede actualizar manualmente la Fecha de confirmación o actualizarla automáticamente aceptando trabajar en ella. Esta es una forma visual de indicar al propietario del proyecto cuándo sería realista que completaran la tarea o el problema.
+El usuario asignado que trabaja en la tarea o el problema puede actualizar manualmente la fecha de confirmación o actualizarla automáticamente si acepta trabajar en ella. Es una forma visual de indicar al propietario del proyecto cuándo sería realista que completara la tarea o el problema.
 
 >[!TIP]
 >
->Solo el usuario asignado puede actualizar la Fecha de confirmación de una tarea o problema.
+>Solo el usuario asignado puede actualizar la fecha de confirmación de una tarea o problema.
 
-El usuario asignado que cambia la fecha de confirmación no cambia automáticamente la fecha de finalización planeada. Lo contrario también es cierto: al cambiar la fecha de finalización planeada, no se cambiará la fecha de confirmación.
+El usuario asignado que cambia la fecha de compromiso no cambia automáticamente la fecha planificada de finalización. Lo contrario también es verdadero: al cambiar la fecha planificada de finalización, no se cambia la fecha de confirmación.
 
-Cuando la fecha de finalización cambia a una fecha posterior a la fecha de finalización planeada, se notifica al propietario del proyecto que este cambio se produjo y podría afectar a la cronología del proyecto.
+Cuando la fecha de compromiso cambia a una fecha posterior a la fecha planificada de finalización, se notifica al propietario del proyecto que este cambio se ha producido y podría afectar a la cronología del proyecto, si el propietario del proyecto utiliza la experiencia de comentarios heredada. Esta funcionalidad no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Si el propietario del proyecto acepta la fecha de confirmación ofrecida por el usuario asignado, deberá actualizar manualmente la fecha de finalización prevista de la tarea o el problema. Para obtener más información, consulte los siguientes artículos:
+Si la fecha de confirmación ofrecida por el usuario asignado es aceptable para el propietario del proyecto, debe actualizar manualmente la fecha planificada de finalización de la tarea o el problema. Para obtener más información, consulte los siguientes artículos:
 
-* [Resumen de la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Actualizar fechas de confirmación en tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

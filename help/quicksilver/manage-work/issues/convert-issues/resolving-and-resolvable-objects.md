@@ -2,39 +2,39 @@
 content-type: reference
 product-area: projects
 navigation-topic: convert-issues
-title: Información general sobre la resolución y resolución de objetos
-description: Un objeto resuelto es un problema cuya resolución está vinculada a un objeto resuelto. Un objeto resuelto es un proyecto, una tarea u otro problema.
+title: Información general sobre la resolución y los objetos solucionables
+description: Un objeto solucionable es un problema cuya resolución está vinculada a un objeto de resolución. Un objeto de resolución es un proyecto, una tarea u otro problema.
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1743'
+ht-degree: 1%
 
 ---
 
-# Información general sobre la resolución y resolución de objetos
+# Información general sobre la resolución y los objetos solucionables
 
-Un objeto resuelto es un problema cuya resolución está vinculada a un objeto resuelto. Un objeto resuelto es un proyecto, una tarea u otro problema.
+Un objeto solucionable es un problema cuya resolución está vinculada a un objeto de resolución. Un objeto de resolución es un proyecto, una tarea u otro problema.
 
-Cuando se convierte un problema en una tarea o un proyecto, el problema se convierte en el objeto resuelto de la tarea o del proyecto.
+Cuando convierte un problema en una tarea o un proyecto, el problema se convierte en el objeto solucionable de la tarea o del proyecto.
 
-También puede vincular manualmente un problema a un objeto resuelto, que puede ser una tarea, un proyecto o un problema. Para obtener más información, consulte [Vincular manualmente la resolución de un problema con otros problemas, tareas o proyectos](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+También puede vincular manualmente un problema a un objeto de resolución, que puede ser una tarea, un proyecto o un problema. Para obtener más información, consulte [Asociar manualmente la resolución de un problema a otros problemas, tareas o proyectos](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
-El problema original se convierte en el objeto resuelto de la tarea, proyecto o problema, en este escenario.
+El problema original se convierte en el objeto solucionable de la tarea, proyecto o problema, en este escenario.
 
-## Configuración de Adobe Workfront para gestionar objetos resueltos {#set-up-adobe-workfront-to-handle-resolvable-objects}
+## Configuración de Adobe Workfront para gestionar objetos solucionables {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
-Como administrador de Workfront o de grupo, puede decidir cómo desea gestionar los objetos resueltos en su sistema o para su grupo.
+Como administrador de Workfront o administrador de grupo, puede decidir cómo desea gestionar los objetos solucionables en el sistema o para el grupo.
 
-Puede seleccionar mantener el objeto resuelto tal como lo está convirtiendo en una tarea o proyecto, o eliminarlo una vez que se haya creado la tarea o el proyecto. Puede seleccionar esta opción para permitir que estos ajustes se modifiquen en el proceso de conversión de problemas, lo que permitirá al usuario convertir los problemas para seleccionar si desea mantener o eliminar el problema mientras lo convierte.
+Puede seleccionar conservar el objeto solucionable mientras lo está convirtiendo en una tarea o proyecto, o eliminarlo una vez creada la tarea o proyecto. Puede seleccionar permitir que esta configuración se cambie en el proceso de conversión de problemas, lo que permitirá al usuario convertir los problemas seleccionar si desea mantener o eliminar el problema a medida que lo estén convirtiendo.
 
 >[!NOTE]
 >
->Los objetos resueltos siempre son problemas cuya resolución y estado pueden depender de la resolución y el estado del objeto resuelto al que están asociados. Resolver objetos puede ser problemas, tareas o proyectos.
+>Los objetos solucionables son siempre problemas cuya resolución y estado pueden depender de la resolución y el estado del objeto de resolución con el que están asociados. La resolución de objetos puede ser problemas, tareas o proyectos.
 
-Para obtener información sobre la configuración de preferencias para la gestión de objetos resueltos, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obtener información sobre la configuración de preferencias para el tratamiento de objetos solucionables, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -72,17 +72,17 @@ The default status of the issue is controlled by the status of the project or ta
 </div>
 -->
 
-## Gestión del objeto resuelto durante la conversión a un proyecto o una tarea
+## Controlar el objeto solucionable durante la conversión en un proyecto o una tarea
 
-Dependiendo de la forma en que el administrador de Workfront o del grupo configuró las preferencias de problemas a nivel de sistema o grupo, es posible que pueda gestionar el objeto resoluble durante la conversión de un problema en un proyecto o una tarea.
+Según la forma en que el administrador de Workfront o del grupo haya configurado las preferencias de problemas a nivel de sistema o de grupo, es posible que pueda gestionar el objeto solucionable durante la conversión de un problema en un proyecto o una tarea.
 
 Existen los siguientes escenarios:
 
-* Si el administrador de Workfront o de grupo tiene la variable **Mantenga el problema original y vincule su resolución a la tarea** y **Mantener el problema original y enlazar su resolución con el proyecto** seleccionados y **Permitir que esta configuración cambie durante la conversión** sin seleccionar, no podrá cambiar esta configuración ya que está convirtiendo problemas en tareas o proyectos.\
-   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+* Si el administrador de Workfront o del grupo dispone de **Mantener el problema original y enlazar su solución a la tarea** y el **Mantener el problema original y enlazar su solución al proyecto** seleccionados y el **Permitir cambiar esta configuración durante la conversión** Si no selecciona esta opción, no podrá cambiar esta configuración cuando convierta problemas en tareas o proyectos.\
+  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Si el administrador de Workfront o de grupo tiene la variable **Mantenga el problema original y vincule su resolución a la tarea** y **Mantener el problema original y enlazar su resolución con el proyecto** seleccionados o no seleccionados y la variable **Permitir que esta configuración cambie durante la conversión** seleccionados, podrá cambiar esta configuración a medida que convierta problemas en tareas o proyectos.\
-   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+* Si el administrador de Workfront o del grupo dispone de **Mantener el problema original y enlazar su solución a la tarea** y el **Mantener el problema original y enlazar su solución al proyecto** seleccionada o no seleccionada y la variable **Permitir cambiar esta configuración durante la conversión** Si selecciona esta opción, podrá cambiar esta configuración a medida que convierta problemas en tareas o proyectos.\
+  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Para obtener más información sobre la conversión de problemas en tareas y proyectos, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -96,7 +96,7 @@ Para obtener más información sobre la conversión de problemas en tareas y pro
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p> <p> <img src="assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png" style="width: 350;height: 462;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p>  </li>
 <li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section. </p> </li>
 <li value="4">At the bottom of the form,  click in the <strong>Resolved By</strong> field,  and select from the following types of resolving objects:
 <ul>
@@ -113,27 +113,27 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 </div>
 -->
 
-## Sincronizar el estado del objeto resuelto con el del objeto resuelto {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
+## Sincronizar el estado del objeto solucionable con el del objeto de resolución {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [Sincronizar estados cuando el objeto resuelto es un problema](#synchronize-statuses-when-the-resolving-object-is-an-issue)
-* [Sincronizar estados cuando el objeto resuelto es una tarea o un proyecto](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
+* [Sincronizar estados cuando el objeto de resolución sea un problema](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [Sincronizar estados cuando el objeto de resolución sea una tarea o un proyecto](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
-### Sincronizar estados cuando el objeto resuelto es un problema {#synchronize-statuses-when-the-resolving-object-is-an-issue}
+### Sincronizar estados cuando el objeto de resolución sea un problema {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Si un problema se relaciona manualmente con otro problema, el estado del segundo problema (objeto resuelto) déclencheur un cambio en el estado del primer problema (objeto resuelto). El estado del primer problema coincide con el estado en el que se cambia el segundo problema. Esto se aplica tanto a los estados de problemas predeterminados como personalizados.
+Si un problema se vincula manualmente a otro, el estado del segundo problema (objeto de resolución) déclencheur un cambio en el estado del primer problema (objeto solucionable). El estado del primer problema coincide con el estado al que se cambia el segundo problema. Esto se aplica a los estados de problema predeterminados y personalizados.
 
-### Sincronizar estados cuando el objeto resuelto es una tarea o un proyecto {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
+### Sincronizar estados cuando el objeto de resolución sea una tarea o un proyecto {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
-Cuando un problema es el objeto resuelto de una tarea o un proyecto, los cambios en el estado de las tareas y el déclencheur de proyectos cambian en el estado del problema. Los estados predeterminados se activan de forma diferente a los estados personalizados, en este caso.
+Cuando un problema es el objeto solucionable de una tarea o un proyecto, los cambios en el estado de las tareas y el déclencheur de los proyectos cambian en el estado del problema. Los estados predeterminados se activan de forma diferente a los estados personalizados, en este caso.
 
-* [Sincronizar el estado predeterminado del objeto resuelto con el estado predeterminado del objeto resuelto](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
-* [Sincronizar el estado personalizado del objeto resuelto con el estado personalizado del objeto resuelto](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
+* [Sincronizar el estado predeterminado del objeto de resolución con el estado predeterminado del objeto solucionable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [Sincronizar el estado personalizado del objeto de resolución con el estado personalizado del objeto solucionable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
-#### Sincronizar el estado predeterminado del objeto resuelto con el estado predeterminado del objeto resuelto {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
+#### Sincronizar el estado predeterminado del objeto de resolución con el estado predeterminado del objeto solucionable {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Independientemente de si la opción &quot;Actualizar automáticamente el estado del problema resuelto cuando cambia el estado del objeto resuelto&quot; está seleccionada, cada vez que el estado predeterminado cambia en los objetos resueltos (proyectos o tareas), el estado del objeto resuelto (problemas) cambia según corresponda. Solo los estados predeterminados ya están asignados al déclencheur de un cambio de este tipo.
+Independientemente de si la opción &quot;Actualizar automáticamente el estado del problema solucionable cuando cambia el estado del objeto de resolución&quot; está seleccionada, cada vez que cambia el estado predeterminado en los objetos de resolución (proyectos o tareas), el estado del objeto solucionable (problemas) cambia en consecuencia. Solo los estados predeterminados ya están asignados al déclencheur para este cambio.
 
-Los siguientes estados predeterminados para las tareas déclencheur los siguientes cambios en los estados predeterminados para los problemas, cuando el problema se establece como el objeto de resolución de una tarea:
+Los siguientes estados predeterminados para las tareas almacenan en déclencheur los siguientes cambios en los estados predeterminados para los problemas, cuando el problema se establece como objeto de resolución de una tarea:
 
 | **ESTADO DE TAREA** | **ESTADO DEL PROBLEMA** |
 |---|---|
@@ -141,70 +141,70 @@ Los siguientes estados predeterminados para las tareas déclencheur los siguient
 | En curso | En curso |
 | Completar | Cerrado |
 
-Los siguientes estados predeterminados para proyectos déclencheur los siguientes cambios en los estados predeterminados para los problemas, cuando el problema se establece como un objeto resuelto de un proyecto. Algunos estados de proyecto no déclencheur los cambios en el estado de los problemas. Los problemas permanecen en el estado en el que estaban antes de que el proyecto se convirtiera en uno de estos estados:
+Los siguientes estados predeterminados de los proyectos almacenan en déclencheur los siguientes cambios en los estados predeterminados de los problemas, cuando el problema se establece como objeto solucionable de un proyecto. Algunos estados de los proyectos no almacenan en déclencheur los cambios de estado de los problemas. Los problemas permanecen en el estado en que estaban antes de que el proyecto se convirtiera en uno de estos estados:
 
 | **ESTADO DEL PROYECTO** | **ESTADO DEL PROBLEMA** |
 |---|---|
 | Planificación | Nuevo |
 | Al día | En curso |
 | En espera | En espera |
-| Solicitado | No déclencheur un cambio en el estado del problema |
-| Aprobado | No déclencheur un cambio en el estado del problema |
-| Rechazado | No déclencheur un cambio en el estado del problema |
-| Idea | No déclencheur un cambio en el estado del problema |
+| Solicitada | No almacena en déclencheur un cambio en el estado del problema |
+| Aprobado | No almacena en déclencheur un cambio en el estado del problema |
+| Rechazado | No almacena en déclencheur un cambio en el estado del problema |
+| Idea | No almacena en déclencheur un cambio en el estado del problema |
 | Inactivo | Cerrado |
 | Finalizado | Cerrado |
 
 >[!NOTE]
 >
->Una vez que el estado del problema se ha cerrado (como resultado del cierre de la tarea o del proyecto), independientemente del estado al que cambie la tarea o el proyecto después de cerrarlos, el problema permanece cerrado.
+>Una vez que el estado del problema pasa a ser Cerrado (como resultado del cierre de la tarea o del proyecto), independientemente del estado en que cambie la tarea o el proyecto después de cerrarlos, el problema permanece Cerrado.
 
-#### Sincronizar el estado personalizado del objeto resuelto con el estado personalizado del objeto resuelto {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
+#### Sincronizar el estado personalizado del objeto de resolución con el estado personalizado del objeto solucionable {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
 Cuando cambia el estado de la tarea o del proyecto a un estado personalizado, el estado del problema cambia a un estado de problema personalizado solo si se cumplen las dos condiciones siguientes:
 
-* Se selecciona la opción &quot;Actualizar automáticamente el estado del problema resuelto cuando cambia el estado del objeto resuelto&quot;. Para obtener más información sobre cómo habilitar esta configuración, consulte [Configuración de Adobe Workfront para gestionar objetos resueltos](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* La opción &quot;Actualizar automáticamente el estado del problema solucionable cuando cambia el estado del objeto de resolución&quot; está seleccionada. Para obtener más información sobre cómo habilitar esta configuración, consulte [Configuración de Adobe Workfront para gestionar objetos solucionables](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * El estado personalizado del proyecto o la tarea tiene el mismo código de tres letras que el estado personalizado del problema.
 
-Puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto resuelto) se cambian al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para el problema y los estados de proyecto o tarea.
+Puede crear estados personalizados con la misma clave tanto para problemas como para proyectos o tareas. Cuando el proyecto o la tarea (como objeto de resolución) cambian al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.
 
-Por ejemplo, cree un estado personalizado de proyecto denominado &quot;Iniciado&quot; con el código de tres letras &quot;LCD&quot;, que equivale a &quot;Actual&quot;. Además, cree un problema con el estado personalizado llamado &quot;Lanzamiento del proyecto&quot;, también con el código de letra &quot;LCD&quot; que equivale a &quot;En curso&quot;. Cuando marque el proyecto como &quot;Iniciado&quot;, el problema cambiará automáticamente el estado a &quot;Lanzado del proyecto&quot;. Si el estado &quot;Actualizar automáticamente el estado del problema resuelto cuando el estado del objeto resuelto cambia&quot; no estuviera habilitado, el estado del problema cambiaría a &quot;En curso&quot; en su lugar (el estado predeterminado).
+Por ejemplo, cree un estado personalizado de proyecto llamado &quot;Iniciado&quot; con el código de tres letras &quot;LCD&quot; que equivale a &quot;Actual&quot;. Además, cree un estado personalizado de problema denominado &quot;Proyecto iniciado&quot;, también con el código de letra &quot;LCD&quot; que equivale a &quot;En curso&quot;. Cuando marca el proyecto como &quot;Iniciado&quot;, el problema cambia automáticamente el estado a &quot;Proyecto iniciado&quot;. Si la opción &quot;Actualizar automáticamente el estado del problema solucionable cuando cambie el estado del objeto de resolución&quot; no estuviera habilitada, el estado del problema cambiaría a &quot;En curso&quot; en su lugar (el estado predeterminado).
 
-Para obtener más información sobre la creación de un estado personalizado, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Para obtener más información sobre la creación de un estado personalizado, consulte [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-## Sincronizar el porcentaje completado de un objeto resuelto con el del objeto resuelto
+## Sincronizar el porcentaje completado de un objeto de resolución con el del objeto solucionable
 
-Si una tarea o un proyecto resuelve un problema, el porcentaje completado del problema se actualiza en el problema resuelto cuando se produce cualquiera de las siguientes cosas: 
+Si un problema se resuelve mediante una tarea o un proyecto, el porcentaje completado del problema se actualiza en el problema solucionable cuando se produce cualquiera de las siguientes cosas: 
 
-* Cuando alguien guarda un cambio en la tarea o proyecto.
+* Cada vez que alguien guarde un cambio en la tarea o el proyecto.
 * Se vuelve a calcular la cronología del proyecto.
 
-Si el problema y se resuelve por otro problema, el porcentaje completado se actualiza cuando se actualiza cualquiera de los problemas.
+Si un problema se resuelve mediante otro problema, el porcentaje completado se actualiza cuando se actualiza cualquiera de los problemas.
 
-## Localización del objeto resuelto en una tarea o proyecto
+## Localizar el objeto solucionable en una tarea o un proyecto
 
-La ubicación del objeto de resolución es idéntica para las tareas y los proyectos.
+La ubicación del objeto de resolución es idéntica para tareas y proyectos.
 
-1. Vaya a un proyecto o a una tarea que haya creado convirtiendo un problema en el proyecto o la tarea.
-1. Haga clic en el **Detalles del proyecto** o **Detalles de la tarea** y haga clic en para expandirla.
-1. Haga clic en **Información general**.
-1. En la parte inferior de la pestaña , busque **Esto resuelve** campo: el problema que es el objeto resuelto del proyecto o la tarea se muestra en este campo.
+1. Desplácese hasta un proyecto o una tarea que haya creado convirtiendo un problema en el proyecto o la tarea.
+1. Haga clic en **Detalles del proyecto** o el **Detalles de tarea** y haga clic en para expandirlo.
+1. Clic **Información general**.
+1. En la parte inferior de la pestaña, busque **Esto resuelve** field: el problema que es el objeto solucionable del proyecto o la tarea se enumera en este campo.
 
    >[!NOTE]
    >
-   >Los problemas no se pueden convertir en otros problemas, pero se pueden asociar manualmente con un problema de resolución. Un proyecto, tarea o problema puede tener varios problemas como Objetos resueltos. Cuando el proyecto, la tarea o el problema se resuelven, el objeto resuelto (problema) también se resuelve. El problema resuelto permanece cerrado aunque se vuelva a abrir el proyecto, la tarea o el problema que lo resolvió.
+   >Los problemas no se pueden convertir en otros problemas, pero se pueden asociar manualmente a una solución. Un proyecto, tarea o problema puede tener varios problemas como objetos solucionables. Cuando se resuelve el proyecto, la tarea o el problema, también se resuelve el objeto solucionable (problema). El problema solucionable permanece cerrado aunque se vuelva a abrir el proyecto, la tarea o el problema que lo resolvió.
 
-## Identificar un problema con un objeto resuelto en una lista
+## Identificar un problema con un objeto de resolución en una lista
 
-En una lista de problemas, puede identificar los problemas etiquetados como resolver objetos mediante iconos de estado. Para ello, busque este icono en la **Iconos de estado** o **Indicadores** columnas:
+En una lista de problemas, puede identificar los problemas etiquetados como objetos de resolución mediante iconos de estado al localizar este icono en **Iconos de estado** o **Indicadores** columnas:
 
 ![](assets/ro1.png)
 
-## Ver información sobre objetos resueltos y resueltos en un informe
+## Ver información de objetos solucionables y de resolución en un informe
 
-Puede mostrar información sobre los objetos resueltos o resueltos en la vista o en el informe de proyectos, tareas o problemas.\
-La tabla siguiente muestra los campos que puede mostrar y en qué vistas puede mostrarlos:
+Puede mostrar información sobre los objetos que se pueden resolver o resolver en la vista o el informe de proyectos, tareas o problemas.\
+En la tabla siguiente se muestran los campos que se pueden mostrar y en qué vistas se pueden mostrar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -213,51 +213,51 @@ La tabla siguiente muestra los campos que puede mostrar y en qué vistas puede m
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Campo en vista</strong> </th> 
+   <th><strong>Campo en la vista</strong> </th> 
    <th><strong>Vista de problemas</strong> </th> 
    <th><strong>Vista de tareas</strong> </th> 
-   <th><strong>Vista de proyectos</strong> </th> 
+   <th><strong>Vista de proyecto</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Tiene resoluciones</strong>: Muestra un <strong>True</strong> si el proyecto o la tarea tienen problemas resueltos asociados a ellos, y <strong>False</strong> si no lo hacen.</td> 
+   <td><strong>Tiene elementos solucionables</strong>: muestra un <strong>Verdadero</strong> valor si el proyecto o la tarea tiene problemas solucionables asociados y un <strong>Falso</strong> valor si no lo hacen.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nombre del Problema Original, Fecha de Entrada del Problema Original, Nombre del Creador</strong>: Muestra el nombre y la fecha de entrada del problema original, así como el nombre del usuario que creó el problema en una vista personalizada en modo de texto.<br>Para obtener más información sobre la creación de una vista personalizada de modo de texto para un proyecto, un informe de tareas o una lista para mostrar información sobre el problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ver: mostrar la información del problema original en las listas de tareas y proyectos</a>.<br></td> 
+   <td><strong>Nombre del problema original, Fecha de entrada del problema original, Nombre del creador</strong>: muestra el nombre y la fecha de entrada del problema original, así como el nombre del usuario que creó el problema en una vista personalizada en modo de texto.<br>Para obtener más información sobre la creación de una vista personalizada en modo de texto para un informe o una lista de proyectos o tareas que muestre información sobre el problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ver: mostrar la información original del problema en las listas de tareas y proyectos</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Resoluciones:</strong> Muestra una lista de todos los objetos resueltos en una vista personalizada de modo de texto para un informe o lista de proyectos o tareas.</p> <p>Para obtener más información sobre la creación de esta vista, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ver: Objetos resueltos en un informe de tarea o proyecto</a></p> </td> 
+   <td> <p><strong>Elementos solucionables:</strong> Muestra una lista de todos los objetos solucionables en una vista personalizada en modo de texto para un informe o lista de proyectos o tareas.</p> <p>Para obtener más información sobre la creación de esta vista, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ver: Objetos solucionables en un informe de tarea o proyecto</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Creador de problemas convertidos</strong>: Muestra información sobre el usuario que registró originalmente el problema que más tarde se convirtió en la tarea. </td> 
+   <td><strong>Originador de problema convertido</strong>: muestra información sobre el usuario que originalmente registró el problema y que luego se convirtió en la tarea. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolver proyecto</strong>: Muestra información sobre el proyecto de resolución que se ha convertido desde el problema original o se ha designado manualmente como el objeto de resolución de un problema.</td> 
+   <td><strong>Resolver proyecto</strong>: muestra información sobre el proyecto de resolución que se convirtió del problema original o que se designó manualmente como objeto de resolución de un problema.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolver tarea</strong>: Muestra información sobre la tarea resuelta que se convirtió del problema original o que se designó manualmente como el objeto resuelto de un problema.</td> 
+   <td><strong>Resolver tarea</strong>: muestra información sobre la tarea de resolución que se convirtió del problema original o que se designó manualmente como el objeto de resolución de un problema.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolver problema</strong>: Muestra información sobre el problema de resolución, que se designó manualmente como el objeto de resolución de un problema.</td> 
+   <td><strong>Resolver problema</strong>: muestra información sobre el problema de resolución que se designó manualmente como objeto de resolución de un problema.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

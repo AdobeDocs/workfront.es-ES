@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -77,8 +77,6 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Opcional) Para editar información limitada sobre un problema, haga clic en **Detalles del problema** en el panel izquierdo.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -170,9 +168,9 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
       <td> <p>Este es un indicador visual para usted que le permite priorizar problemas.</p> <p>Seleccione entre las siguientes opciones:</p> 
        <ul> 
         <li> <p><strong>Ninguno</strong> </p> </li> 
-        <li> <p><strong>Bajo</strong> </p> </li> 
+        <li> <p><strong>Baja</strong> </p> </li> 
         <li> <p><strong>Normal</strong> </p> </li> 
-        <li> <p><strong>Alto</strong> </p> </li> 
+        <li> <p><strong>Alta</strong> </p> </li> 
         <li> <p><strong>Urgente</strong> </p> </li> 
        </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre la edición de prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creación y personalización de prioridades</a>.</p> </td> 
      </tr> 
@@ -377,7 +375,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar.**
+1. Clic **Guardar.**
 
 ## Editar un problema en el encabezado del mismo (lim.)
 
