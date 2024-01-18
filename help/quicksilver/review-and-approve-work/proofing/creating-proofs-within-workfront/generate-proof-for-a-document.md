@@ -6,9 +6,9 @@ description: Puede generar una prueba para un documento en el momento en que lo 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td> 
+   <p>Nuevo: Cualquiera </p>
+   <p>Actual: Pro o Superior</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Nuevo: estándar</p>
+   <p>Actual : Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
@@ -45,19 +49,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Cargar un documento y crear una prueba
 
 1. Vaya al proyecto, tarea o problema en el que desea crear una nueva prueba.
-1. Haga clic en **Documentos** pestaña.
+1. Haga clic en **Documentos** pestaña.
 1. Haga clic en Documentos ![](assets/document-icon.png) en el panel izquierdo.
-1. Clic **Añadir nuevo**, luego haga clic en **Proof** en el menú que aparece.
+1. Clic **Añadir nuevo**, luego haga clic en **Proof** en el menú que aparece.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Cargar un documento y crear una nueva versión de una prueba
 
 1. Vaya al proyecto, tarea o problema en el que desea crear una nueva versión de una revisión existente.
-1. Haga clic en **Documentos** pestaña.
+1. Haga clic en **Documentos** pestaña.
 1. Seleccione el documento en el que desea agregar una nueva versión.
-1. Clic **Añadir nuevo** > **Versión** > **Proof**.
+1. Clic **Añadir nuevo** > **Versión** > **Proof**.
 1. En el **Nueva versión de revisión** página que aparece, puede
 
    * [Creación de una prueba avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)

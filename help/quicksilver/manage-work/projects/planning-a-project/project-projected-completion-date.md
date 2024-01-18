@@ -7,9 +7,9 @@ description: La fecha proyectada de finalización es un indicador calculado en t
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,73 +22,44 @@ En las secciones siguientes se describe cómo se determina la fecha proyectada d
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
-      </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revise o suba para ver la fecha proyectada de finalización en un informe</p> <p>Licencia de planificación para crear un informe</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Nuevo: 
+   <ul><li><p>Un colaborador o superior para ver la fecha proyectada de finalización en un informe</p></li> <li><p>Licencia estándar para crear un informe</p></li> </ul>
+
+<p>Actual: 
+   <ul><li><p>Revise o suba para ver la fecha proyectada de finalización en un informe</p></li> 
+   <li><p>Licencia de planificación para crear un informe</p> </li></ul>
+      </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Debe tener acceso de edición a informes, paneles y calendarios para crear un informe</p> <p>Debe tener acceso de edición a filtros, vistas y agrupaciones para crear un informe o modificar una vista de lista</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Debe tener acceso de edición a informes, paneles y calendarios para crear un informe</p> <p>Debe tener acceso de edición a filtros, vistas y agrupaciones para crear un informe o modificar una vista de lista</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores a un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos superiores a un proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Cómo determina Adobe Workfront la fecha proyectada de finalización
 
-La Fecha proyectada de finalización es un campo calculado y no se puede cambiar manualmente.
+La fecha proyectada de finalización es un campo calculado y no se puede cambiar manualmente.
 
 Los criterios utilizados para determinar la fecha proyectada de finalización difieren según el objeto que visualice:
 
@@ -122,27 +93,23 @@ Los criterios utilizados para determinar la fecha proyectada de finalización di
 
 ## Ver la fecha proyectada de finalización
 
-En los informes puede ver la Fecha proyectada de finalización de proyectos, tareas y problemas. Puede ver la fecha proyectada de finalización de proyectos y tareas en otras áreas de Workfront. 
-
-* [Ver la fecha proyectada de finalización de un proyecto](#view-the-projected-completion-date-of-a-project)
-* [Ver la fecha proyectada de finalización de una tarea](#view-the-projected-completion-date-of-a-task)
-* [Ver la fecha proyectada de finalización de un problema](#view-the-projected-completion-date-of-an-issue)
+En los informes puede ver la Fecha proyectada de finalización de proyectos, tareas y problemas. Puede ver la fecha proyectada de finalización de proyectos y tareas en otras áreas de Workfront.
 
 ### Ver la fecha proyectada de finalización de un proyecto {#view-the-projected-completion-date-of-a-project}
 
 1. Vaya al proyecto en el que desea ver la fecha proyectada de finalización.
 1. Clic **Detalles del proyecto** en el panel izquierdo.
-1. Busque el **Fecha proyectada de finalización** en el campo **Información general** sección.
+1. Busque el **Fecha proyectada de finalización** en el campo **Información general** > **Fechas del proyecto** sección.
 
 ### Ver la fecha proyectada de finalización de una tarea {#view-the-projected-completion-date-of-a-task}
 
 1. Vaya a la tarea en la que desea ver la Fecha proyectada de finalización.
 1. Clic **Detalles de tarea** en el panel izquierdo.
-1. Busque el **Fecha proyectada de finalización** en el campo **Información general** sección.
+1. Busque el **Fecha proyectada de finalización** en el campo **Información general** > **Fechas y restricciones de la tarea** sección.
 
 ### Ver la fecha proyectada de finalización de un problema {#view-the-projected-completion-date-of-an-issue}
 
-La fecha proyectada de finalización de los problemas solo se puede ver en el informe de problemas o en la vista de lista. Crear una vista de lista es similar a crear la vista en un informe.
+La fecha proyectada de finalización de los problemas solo se puede ver en el informe de problemas o en la vista de lista. Crear una vista de lista es similar a crear la vista en un informe.
 
 Para crear un informe de problemas que incluya la fecha proyectada de finalización:
 
