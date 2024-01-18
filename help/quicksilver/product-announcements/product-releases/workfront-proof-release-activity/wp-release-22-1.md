@@ -1,25 +1,26 @@
 ---
-title: Actividad de la versión de prueba de Workfront:&nbsp;semana del 29 de noviembre de 2021
-description: Actividad de la versión de prueba de Workfront:&nbsp;semana del 29 de noviembre de 2021
+title: Actividad de la versión de Workfront Proof:&nbsp;Semana del 29 de noviembre de 2021
+description: Actividad de la versión de Workfront Proof:&nbsp;Semana del 29 de noviembre de 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: ea19cb35-6972-4741-ba44-2e3973f68072
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# Actividad de la versión de prueba de Workfront: semana del 29 de noviembre de 2021
+# Actividad de la versión de Workfront Proof: semana del 29 de noviembre de 2021
 
-Esta página describe los cambios realizados en la prueba de Workfront (aplicación de prueba independiente). Los cambios que se describen aquí no son aplicables a la funcionalidad de pruebas dentro de la aplicación Adobe Workfront.
+En esta página se describen los cambios realizados en Workfront Proof (aplicación de corrección independiente). Los cambios que se describen aquí no son aplicables a la funcionalidad de revisión de la aplicación de Adobe Workfront.
 
-## Nuevo perfil de permisos de prueba en Workfront Proof
+## Nuevo perfil de permiso de revisión en Workfront Proof
 
-Hemos agregado un nuevo perfil de permisos de prueba de visitante en Workfront Proof. Este nuevo perfil es similar al perfil de observador existente.
+Se ha agregado un nuevo Perfil de permisos de revisión de visitantes en Workfront Proof. Este nuevo perfil es similar al perfil existente de Observer.
 
-Los usuarios con un perfil de visitante pueden revisar y aprobar las pruebas compartidas con ellos. Sin embargo, no pueden ver ningún contacto o grupo como los observadores pueden.
+Los usuarios con un perfil de visitante pueden revisar y aprobar las pruebas que se han compartido con ellos. Sin embargo, no pueden ver contactos ni grupos como los observadores.
 
-Para obtener más información, consulte [Perfiles de permisos de prueba en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Para obtener más información, consulte [Perfiles de permisos de revisión en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

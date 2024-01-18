@@ -1,33 +1,34 @@
 ---
-title: 21.4 Mejoras de prueba
-description: 21.4 Mejoras de prueba
+title: 21.4 Mejoras de corrección
+description: 21.4 Mejoras de corrección
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# 21.4 Mejoras de prueba
+# 21.4 Mejoras de corrección
 
-En esta página se describen todas las mejoras de prueba realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción en la semana del 4 de octubre de 2021.
+Esta página describe todas las mejoras de revisión realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Resumen de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Funciones de prueba mejoradas para revisores y solicitantes
+## Funciones de revisión mejoradas para revisores y solicitantes
 
 >[!NOTE]
 >
->Publicado únicamente para clientes de EMEA. Funcionalidad que llega pronto a los clientes estadounidenses.
+>Publicado únicamente para clientes de EMEA. Funcionalidad que llegará pronto a los clientes de EE. UU.
 
-Para ofrecer una experiencia más integrada entre Workfront y Proof, se han realizado varias mejoras en las capacidades de prueba para los revisores y los solicitantes:
+Para proporcionar una experiencia más integrada entre Workfront y Proof, hemos realizado varias mejoras con respecto a las capacidades de prueba para revisores y solicitantes:
 
-* Puede otorgar funciones de moderador o autor a cualquier usuario de Workfront, independientemente de si dispone de una licencia de prueba, otorgándoles derechos adicionales, como aplicar acciones o resolver comentarios.
-* Puede agregar Revisores y Solicitantes a pruebas que requieran un inicio de sesión o que necesiten ser firmadas electrónicamente.
-* Todos los usuarios también se benefician de la mejora de la conectividad entre Workfront y Proof. Ahora, al desactivar un usuario o actualizar su dirección de correo electrónico, las actualizaciones se reflejan correctamente en las pruebas cuando se cambian en Workfront.
+* Puede otorgar funciones de Moderador o Autor a cualquier usuario de Workfront, independientemente de si tiene una licencia de Revisión, lo que le otorga derechos adicionales, como aplicar acciones o resolver comentarios.
+* Puede añadir revisores y solicitantes a las pruebas que requieran un inicio de sesión o que deban firmarse electrónicamente.
+* Todos los usuarios también se benefician de la conectividad mejorada entre Workfront y Proof. Ahora, al desactivar un usuario o actualizar la dirección de correo electrónico de un usuario, las actualizaciones se reflejan correctamente en la revisión cuando se cambian en Workfront.
 
-Para obtener más información, consulte [Información general sobre las funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Para obtener más información, consulte [Resumen de funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

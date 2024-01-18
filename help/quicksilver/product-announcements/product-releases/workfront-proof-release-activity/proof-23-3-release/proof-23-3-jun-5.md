@@ -6,9 +6,11 @@ title: Actividad de la versión 23.3 de Adobe Workfront proof 5 de junio de 2023
 description: Esta página describe todas las mejoras realizadas con la versión 23.3 para Adobe Workfront Proof en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 5 de junio de 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 9aa69a4375d432218bd25a0927476d92178d8cb5
+recommendations: noDisplay, noCatalog
+exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,3 @@ Los usuarios pueden seguir creando pruebas para los siguientes tipos de archivos
 El límite de tamaño de archivo de PowerPoint y Word es ahora de 512 MB.
 
 Para obtener más información, consulte [Información general sobre tipos de archivo de revisión compatibles y límites de tamaño](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
-

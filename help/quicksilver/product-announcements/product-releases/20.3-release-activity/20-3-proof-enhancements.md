@@ -1,25 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Mejoras de las pruebas
-description: En esta página se describen todas las mejoras de prueba realizadas con la versión 20.3 en el entorno Producción. Estas mejoras estaban disponibles en el entorno Producción durante la semana del 10 de agosto de 2020.
+title: 20.3 Mejoras de prueba
+description: Esta página describe todas las mejoras de prueba realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# 20.3 Mejoras de las pruebas
+# 20.3 Mejoras de prueba
 
-En esta página se describen todas las mejoras de prueba realizadas con la versión 20.3 en el entorno Producción. Estas mejoras estaban disponibles en el entorno Producción durante la semana del 10 de agosto de 2020.
+Esta página describe todas las mejoras de prueba realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general sobre la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
-## Se ha mejorado la visibilidad entre la pestaña Actualizaciones y los comentarios de prueba
+## Se ha mejorado la visibilidad entre la pestaña Actualizaciones y los comentarios de Prueba
 
 >[!NOTE]
 >
@@ -27,38 +28,38 @@ Para obtener una lista de todos los cambios disponibles con la versión 20.3, co
 
 Las siguientes mejoras están disponibles en el área de documentos:
 
-* Cuando se muestra un comentario de prueba en la ficha Actualizar , aparece un nuevo botón Responder en prueba que le permite entrar al visualizador de pruebas para responder.
-* Cuando un comentario de prueba está etiquetado con una acción dentro del visualizador de pruebas, la acción se muestra en la pestaña Update .
+* Cuando se muestra un comentario de prueba en la pestaña Actualizar, aparece un nuevo botón Responder en prueba que le permite entrar en el visor de pruebas para responder.
+* Cuando se etiqueta un comentario de prueba con una acción dentro del visor de pruebas, la acción se muestra en la pestaña Actualizar.
 
-Para obtener más información, consulte [Agregar una actualización a un documento](../../../documents/managing-documents/add-update-documents.md).
+Para obtener más información, consulte [Añadir una actualización a un documento](../../../documents/managing-documents/add-update-documents.md).
 
-## Actualización de pruebas de campos personalizados en Detalles del documento
+## Actualizar campos personalizados de revisión en Detalles del documento
 
 >[!NOTE]
 >
 >Esta función solo está disponible en la nueva experiencia de Adobe Workfront
 
-Para simplificar el proceso de pruebas, ahora puede ver y editar los campos personalizados configurados en Workfront Proof en la página Detalles del documento en Workfront si está incluido en el flujo de trabajo de prueba.
+Para optimizar el proceso de revisión, ahora puede ver y editar los campos personalizados configurados en Workfront Proof en la página Detalles del documento de Workfront si se le incluye en el flujo de trabajo de revisión.
 
 Anteriormente, solo se podían ver campos personalizados en el visor de pruebas.
 
-Para obtener más información, consulte [Información general sobre detalles del documento](../../../documents/managing-documents/document-details-overview.md).
+Para obtener más información, consulte [Resumen de detalles del documento](../../../documents/managing-documents/document-details-overview.md).
 
-## Nuevo aspecto de la barra de herramientas Documento
+## Nueva apariencia para la barra de herramientas Documento
 
-La barra de herramientas del área de documento tiene ahora el mismo aspecto que la barra de herramientas para proyectos, tareas y problemas en la nueva experiencia de Workfront.
+La barra de herramientas del área de Documento ahora tiene el mismo aspecto que la barra de herramientas para proyectos, tareas y problemas en la nueva experiencia de Workfront.
 
-Además, la opción Nueva versión se encuentra ahora en el menú desplegable Agregar nueva en la nueva experiencia de Workfront y en Classic.
+Además, la opción Nueva versión ahora está en el menú desplegable Agregar nueva tanto en la nueva experiencia de Workfront como en la versión clásica.
 
-## Crear una prueba avanzada desde la lista de documentos
+## Crear una revisión avanzada a partir de la lista de documentos
 
 >[!NOTE]
 >
 >Esta función solo está disponible en la nueva experiencia de Adobe Workfront
 
-Para facilitar la configuración de un flujo de trabajo al convertir un documento existente en una prueba, utilice el nuevo menú desplegable Crear prueba para configurar el flujo de trabajo de prueba de la lista de documentos.
+Para facilitar la configuración de un flujo de trabajo al convertir un documento existente en una prueba, utilice el nuevo menú desplegable Crear prueba para configurar el flujo de trabajo de prueba desde la lista de documentos.
 
-Anteriormente, había que generar la prueba y, a continuación, ir al área Flujo de trabajo de prueba para configurar el flujo de trabajo.
+Anteriormente, tenía que generar la prueba y, a continuación, ir al área Flujo de trabajo de prueba para configurar el flujo de trabajo.
 
-Para obtener más información, consulte [Crear una prueba para un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Para obtener más información, consulte [Creación de una prueba para un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 

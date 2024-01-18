@@ -1,20 +1,21 @@
 ---
-title: 22.1 Mejoras de prueba
-description: 22.1 Mejoras de prueba
+title: 22.1 Mejoras de corrección
+description: 22.1 Mejoras de corrección
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# 22.1 Mejoras de prueba
+# 22.1 Mejoras de corrección
 
-En esta página se describen todas las mejoras de prueba realizadas con la versión 2.1 del entorno de vista previa. Estas mejoras estarán disponibles en el entorno Producción
+Esta página describe todas las mejoras de revisión realizadas con la versión 22.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción de
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,50 +25,49 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2.1, consulte [Resumen de la versión 2.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Funciones de prueba mejoradas para revisores y solicitantes
+## Funciones de revisión mejoradas para revisores y solicitantes
 
 >[!NOTE]
 >
->Publicado para clientes de EMEA con pruebas integradas creadas antes del 6 de julio de 2021. Esta funcionalidad está disponible en Vista previa en un lanzamiento gradual que comienza el 13 de enero y finaliza el 17 de enero para los siguientes clientes: >
+>Publicado para clientes de EMEA con pruebas integradas creadas solo antes del 6 de julio de 2021. Esta funcionalidad se presenta a Vista previa en un despliegue gradual que comienza el 13 y finaliza el 17 de enero para los siguientes clientes: >
 >* Clientes de EMEA con pruebas integradas e independientes
 >* Clientes de EMEA con pruebas integradas creadas después del 6 de julio de 2021
->* Todos los clientes de EE. UU.
+>* Todos los clientes de Estados Unidos
 >
 
+Para proporcionar una experiencia más integrada entre Workfront y Proof, hemos realizado varias mejoras con respecto a las capacidades de prueba para revisores y solicitantes:
 
-Para ofrecer una experiencia más integrada entre Workfront y Proof, se han realizado varias mejoras en las capacidades de prueba para los revisores y los solicitantes:
+Puede otorgar funciones de Moderador o Autor a cualquier usuario de Workfront, independientemente de si tiene una licencia de Revisión, lo que le otorga derechos adicionales, como aplicar acciones o resolver comentarios.
 
-Puede otorgar funciones de moderador o autor a cualquier usuario de Workfront, independientemente de si dispone de una licencia de prueba, otorgándoles derechos adicionales, como aplicar acciones o resolver comentarios.
+Puede añadir revisores y solicitantes a las pruebas que requieran un inicio de sesión o que deban firmarse electrónicamente.
 
-Puede agregar Revisores y Solicitantes a pruebas que requieran un inicio de sesión o que necesiten ser firmadas electrónicamente.
-
-Todos los usuarios también se benefician de la mejora de la conectividad entre Workfront y Proof. Ahora, al desactivar un usuario o actualizar su dirección de correo electrónico, las actualizaciones se reflejan correctamente en las pruebas cuando se cambian en Workfront.
+Todos los usuarios también se benefician de la conectividad mejorada entre Workfront y Proof. Ahora, al desactivar un usuario o actualizar la dirección de correo electrónico de un usuario, las actualizaciones se reflejan correctamente en la revisión cuando se cambian en Workfront.
 
 Para obtener más información, consulte
 
-* [Información general sobre las funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Resumen de funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Mejoras en la firma electrónica para pruebas
 
-Hemos facilitado a los usuarios la firma electrónica de pruebas. Ahora, los usuarios pueden usar sus credenciales de Workfront para firmar una decisión sobre una prueba.
+Hemos facilitado a los usuarios la firma electrónica de pruebas. Ahora los usuarios pueden usar sus credenciales de Workfront para firmar una decisión sobre una revisión.
 
 >[!IMPORTANT]
 >
->Para firmar electrónicamente una prueba con credenciales de SSO, debe configurar SSO en Workfront Proof. Para obtener más información sobre cómo habilitar SSO, consulte [Configuración del inicio de sesión único para usuarios de pruebas de Workfront](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Para firmar electrónicamente una prueba con credenciales de SSO, debe configurarlo en Workfront Proof. Para obtener más información sobre la activación de SSO, consulte [Configuración del inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-Anteriormente, los usuarios tenían que usar credenciales de Workfront Proof, que son diferentes a las de Workfront.
+Anteriormente, los usuarios tenían que usar credenciales de Workfront Proof, que son diferentes de sus credenciales de Workfront.
 
-Para obtener más información, consulte [Resumen de seguridad de la prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Para obtener más información, consulte [Resumen de seguridad de revisión](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Actualización del visor de escritorio
 
-Hemos actualizado el Visor de prueba de escritorio para admitir hasta la versión 91 de Chrome por su buena compatibilidad con pruebas interactivas.
+Hemos actualizado el Visor de corrección de escritorio para que admita hasta la versión 91 de Chrome y, así, aumente la compatibilidad con las pruebas interactivas.
 
 >[!IMPORTANT]
 >
->Los usuarios de Windows deben volver a instalar manualmente el visor de escritorio para actualizar a la versión más reciente. A continuación, las futuras actualizaciones del Visor de prueba de escritorio serán automáticas. Para obtener ayuda sobre la reinstalación, consulte [Instalación del Visor de prueba de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Los usuarios de Windows deben reinstalar manualmente el visor de escritorio para actualizar a la versión más reciente. Después, las futuras actualizaciones del Visor de pruebas de escritorio se realizarán automáticamente. Para obtener ayuda sobre la reinstalación, consulte [Instalación del Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Los usuarios de Mac se actualizarán automáticamente a la última versión.
