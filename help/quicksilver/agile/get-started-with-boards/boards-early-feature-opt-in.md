@@ -7,25 +7,20 @@ description: Lea este artículo para obtener más información [!DNL Workfront B
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Inclusión anticipada de funciones para [!DNL Adobe Workfront] [!UICONTROL Tableros]
 
-Los tableros con tarjetas ad hoc y conectadas están disponibles para todos los usuarios, y nos complace abrir funciones de tableros adicionales para la inclusión de funciones anticipada a partir de julio de 2022.
+La inclusión de funciones anticipada para [!DNL Adobe Workfront] [!UICONTROL Tableros] se lanzó en julio de 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Tableros] son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
 
 Para obtener información general sobre tableros, consulte [[!UICONTROL Tableros] descripción general](/help/quicksilver/agile/boards-overview.md).
-
-## Programación de versiones
-
-* Lanzamiento de la inclusión de funciones anticipado en la versión de vista previa: 22 de julio de 2022
-* Versión oficial: 28 de julio de 2022
 
 ## Funciones
 
@@ -138,8 +133,8 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
    <td>Publicado</td>
   </tr>
   <tr>
-   <td>Importar subtareas como elementos de lista de comprobación en tarjetas</td>
-   <td>Planificados</td>
+   <td>Importar subtareas en tarjetas</td>
+   <td>Publicado</td>
   </tr>
   <tr>
    <td>Personalizar la visualización de campos en una tarjeta</td>
@@ -163,7 +158,7 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
   </tr>
   <tr>
    <td>Migración de tarjetas Kanban heredadas a tableros</td>
-   <td>Esta función estará disponible en el entorno de producción el 18 de mayo de 2023 y no forma parte de la inclusión temprana de funciones.</td>
+   <td>Esta función está disponible para producción el 18 de mayo de 2023 y no forma parte de la inclusión temprana de funciones.</td>
   </tr>
   <tr>
    <td>Creación de tableros dinámicos</td>
@@ -198,7 +193,8 @@ Las primeras funciones de los tableros están disponibles para todas las organiz
 
 Solo [!DNL Workfront] los administradores pueden adherirse a las primeras funciones de los tableros. Cuando un [!DNL Workfront] administrador habilita las funciones anteriores, se incluye a todos los usuarios de la organización.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Clic ![Inclusión anticipada de funciones](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusión anticipada de funciones]), en la parte superior de la pantalla del panel.
 1. Clic **[!UICONTROL Activar]**.
 1. Empiece a utilizar las primeras funciones de los tableros.
@@ -228,6 +224,7 @@ Sin embargo, la variable [!DNL Workfront] El administrador de puede ocultar la o
 
 Solo [!DNL Workfront] los administradores pueden optar por no recibir las primeras funciones. Si un [!DNL Workfront] administrador desactiva las funciones iniciales, por lo que todos los usuarios de la organización quedan excluidos.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Clic ![Inclusión en la función anticipada habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Inclusión en la función anticipada habilitada]), en la parte superior de la pantalla del panel.
 1. Clic **[!UICONTROL Deshabilitar]**.
