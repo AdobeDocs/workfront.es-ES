@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Estados actualizados para aprobaciones de documentos</a></p><p>Para que el estado de aprobación del documento sea más claro, hemos actualizado las aprobaciones de estado de documento disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Estados actualizados para aprobaciones de documentos</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para que el estado de aprobación del documento sea más claro, hemos actualizado las aprobaciones de estado de documento disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo <strong>Completar mi revisión</strong> botón.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo <strong>Completar mi revisión</strong> botón.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">El estado de revisión y aprobación del documento se muestra en el encabezado del documento</a></p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos agregado el estado al encabezado de la página Detalles del documento.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">El estado de revisión y aprobación del documento se muestra en el encabezado del documento</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos agregado el estado al encabezado de la página Detalles del documento.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
