@@ -6,9 +6,9 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
+source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 8%
 # Introducción a la nueva página Inicio
 
 <!--Audited: 12/2023-->
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 La nueva experiencia de Inicio en Adobe Workfront tiene como objetivo mejorar la experiencia de Inicio actual y, al mismo tiempo, proporcionar una forma más flexible de centrarse en el trabajo adecuado.
 
@@ -59,8 +57,8 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
 * **Todas las aprobaciones**\
     Muestra todas las aprobaciones de su organización en una tabla con columnas personalizables, así como una barra de búsqueda que le permite buscar aprobaciones específicas.
 
-* <span class="preview">**Aprobaciones pendientes**</span>\
-    <span class="preview">Muestra las aprobaciones asignadas a un documento de un proyecto de su propiedad. Aquí puede ver el estado de aprobación y recordar a los usuarios las revisiones y aprobaciones incompletas. <span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span></span>
+* **Aprobaciones pendientes**&lt;\
+    Muestra las aprobaciones asignadas a un documento de un proyecto de su propiedad. Aquí puede ver el estado de aprobación y recordar a los usuarios las revisiones y aprobaciones incompletas. <span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span>
 
 * **Menciones**\
     Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
