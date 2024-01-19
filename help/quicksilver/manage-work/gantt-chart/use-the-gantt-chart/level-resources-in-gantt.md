@@ -1,24 +1,24 @@
 ---
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
-title: Nivel Recursos en la  [!UICONTROL Diagrama de Gantt]
-description: Información sobre cómo nivelar recursos en el diagrama de Gantt.
+title: Nivelar recursos en la  [!UICONTROL Gráfico Gantt]
+description: Información sobre cómo redistribuir recursos en el diagrama de Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
-# Nivel Recursos en la [!UICONTROL Diagrama de Gantt]
+# Nivelar recursos en la [!UICONTROL Gráfico Gantt]
 
-La redistribución de los recursos en un proyecto tiene dos propósitos:
+La nivelación de los recursos en un proyecto tiene dos propósitos:
 
-* Ajustar automáticamente la sobreasignación de tiempo para los usuarios asignados.
-* Para crear automáticamente una programación de tareas realista para un proyecto.
+* Para ajustar automáticamente la asignación excesiva de tiempo para los usuarios asignados.
+* Crear automáticamente una programación de tareas realista para un proyecto.
 
 ## Requisitos de acceso
 
@@ -38,78 +38,77 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a Proyectos</p> <p><b>NOTA</b>
+   <td> <p>Acceso de [!UICONTROL Edit] a proyectos</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL Administrar] al proyecto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL Manage] al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
-## Resumen de la Nivelación de Recursos
+## Información general sobre la nivelación de recursos
 
-Si se asigna el mismo recurso a dos tareas diferentes, se puede utilizar la redistribución de recursos para ajustar la cronología de las tareas de modo que no ocurran al mismo tiempo.
+Si el mismo recurso está asignado a dos tareas diferentes, puede utilizar la redistribución de recursos para ajustar la cronología de las tareas de modo que no se produzcan al mismo tiempo.
 
 Tenga en cuenta lo siguiente al redistribuir recursos en un proyecto:
 
-* La redistribución de recursos solo se aplica a un proyecto, por lo que [!DNL Adobe Workfront] no nivela los recursos en más de un proyecto a la vez.
-* If **[!UICONTROL Impulsado por el esfuerzo]** se selecciona como **[!UICONTROL Tipo de duración]**, [!DNL Workfront] no nivelará los recursos.
-* Cuando se asignan varios usuarios a la misma tarea, la redistribución se cancela.
-* Condiciones para el tipo de **[!UICONTROL Restricción de tarea]** prevalecerá sobre la nivelación de recursos. Por ejemplo, si **[!UICONTROL Fechas fijas]** se selecciona como [!UICONTROL Restricción de tarea], la redistribución de recursos no cambiará las fechas de la tarea.
-* Las relaciones de los predecesores tendrán prioridad sobre la nivelación de recursos.
-* **[!UICONTROL Nivelación de recursos]** necesita configurarse como **[!UICONTROL Manual]** para el proyecto con el fin de ajustar la nivelación en el [!UICONTROL Diagrama de Gantt]. Si tiene permisos de gestión para el proyecto, puede hacer que el sistema nivele los recursos automáticamente ajustando esta configuración en el proyecto y seleccionando **[!UICONTROL Automático]** en lugar de **[!UICONTROL Manual]** en el **[!UICONTROL Editar proyecto]** en la ventana
+* La nivelación de recursos solo se aplica a un proyecto, por lo que [!DNL Adobe Workfront] no redistribuye los recursos en más de un proyecto a la vez.
+* If **[!UICONTROL Impulsado por el esfuerzo]** está seleccionado como **[!UICONTROL Tipo de duración]**, [!DNL Workfront] no nivelará los recursos.
+* Cuando se asignan varios usuarios a la misma tarea, se cancela la redistribución.
+* Condiciones para el tipo de **[!UICONTROL Restricción de tarea]** tendrá prioridad sobre la nivelación de los recursos. Por ejemplo, si **[!UICONTROL Fechas fijas]** está seleccionado como [!UICONTROL Restricción de tarea]Sin embargo, la nivelación de recursos no cambiará las fechas de las tareas.
+* Las relaciones de predecesoras tendrán prioridad sobre la nivelación de recursos.
+* **[!UICONTROL Nivelación de recursos]** debe establecerse en **[!UICONTROL Manual]** para el proyecto con el fin de ajustar la nivelación en la variable [!UICONTROL Gráfico Gantt]. Si tiene permisos de administración en el proyecto, puede hacer que el sistema nivele los recursos automáticamente ajustando esta configuración en el proyecto y seleccionando **[!UICONTROL Automático]** en lugar de **[!UICONTROL Manual]** en el **[!UICONTROL Editar proyecto]** cuadro.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+  ![](assets/resource-leveling-mode-350x177.png)
 
-* Como propietario del proyecto o como usuario asignado de la tarea, puede introducir un retraso de redistribución para una tarea que indique que existe una buena posibilidad de que la tarea necesite un tiempo adicional. Para obtener información sobre cómo agregar un retraso de redistribución a una tarea, consulte [Actualizar retraso de redistribución de tareas](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Como propietario del proyecto o usuario asignado de la tarea, puede introducir un retraso de redistribución para una tarea para indicar que existe una gran posibilidad de que la tarea pueda necesitar tiempo adicional. Para obtener información sobre cómo agregar un retraso de redistribución a una tarea, consulte [Actualizar demora de nivelación de tarea](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
-## Aplicar nivelación de recursos en la variable [!UICONTROL Diagrama de Gantt]
+## Aplicar nivelación de recursos en [!UICONTROL Gráfico Gantt]
 
-Puede utilizar la Lista de tareas [!UICONTROL Diagrama de Gantt] para nivelar sus recursos.
+Puede utilizar la Lista de tareas [!UICONTROL Gráfico Gantt] para nivelar los recursos.
 
-1. Vaya al proyecto que desea nivelar.
-1. En el **[!UICONTROL Tareas]** , haga clic en el **[!UICONTROL Diagrama de Gantt]** icono.
+1. Vaya al proyecto que desee nivelar.
+1. En el **[!UICONTROL Tareas]** , haga clic en el **[!UICONTROL Gráfico Gantt]** icono.
 
-   Todos los cambios se guardan automáticamente cuando el **[!UICONTROL Autoguardar]** está activada. Está activada de forma predeterminada.
+   Todos los cambios se guardan automáticamente cuando la variable **[!UICONTROL Autoguardar]** La opción está activada. Está activada de forma predeterminada.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Plan] mode** y seleccione **[!UICONTROL Estándar de guardado manual]** o **[!UICONTROL Planificación de la cronología]** para guardar los cambios manualmente.
+1. (Opcional) Haga clic en **[!UICONTROL Plan] modo** y seleccione **[!UICONTROL Guardado manual estándar]** o **[!UICONTROL Planificación de calendario]** para guardar los cambios manualmente.
 
    >[!TIP]
    >
-   >No puede nivelar los recursos en la variable  [!UICONTROL Diagrama de Gantt] cuando la variable [!UICONTROL Autoguardar] está activada.
+   >No puede nivelar recursos en  [!UICONTROL Gráfico Gantt] cuando la variable [!UICONTROL Autoguardar] La opción está activada.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Haga clic en el **[!UICONTROL Recursos de nivel]** menú desplegable.
+1. Haga clic en **[!UICONTROL Nivelar recursos]** menú desplegable.
 
    ![Level_resources.png](assets/level-resouces.png)
 
 1. Seleccione una de las siguientes opciones:
 
-   * **[!UICONTROL Nivel ahora]**: Aplica la redistribución de recursos a la tarea seleccionada.
-   * **[!UICONTROL Nivelación clara]**: Quita toda la redistribución de recursos de la tarea seleccionada.
+   * **[!UICONTROL Nivelar ahora]**: aplica la nivelación de recursos a la tarea seleccionada.
+   * **[!UICONTROL Borrar nivelación]**: elimina toda la redistribución de recursos de la tarea seleccionada.
 
    >[!NOTE]
    >
-   >Es posible que los recursos se sobreasignen si se asignan a varias tareas que se producen durante el mismo intervalo de tiempo.
+   >Es posible que los recursos se sobreasignen si se asignan a varias tareas que se producen durante el mismo lapso de tiempo.
 
-1. (Opcional y condicional) Si ha desactivado la opción Autoguardar , haga clic en el botón **[!UICONTROL Deshacer]** o &#x200B;**[!UICONTROL Rehacer]** si desea cancelar o duplicar cualquiera de los cambios.
+1. (Opcional y condicional) Si ha desactivado la opción Guardar automáticamente, haga clic en el botón **[!UICONTROL Deshacer]** o&#x200B;**[!UICONTROL Rehacer]** iconos si desea cancelar o duplicar cualquiera de los cambios.
 
    >[!TIP]
    >
-   >Puede utilizar los siguientes métodos abreviados del teclado para deshacer o rehacer cambios en la [!UICONTROL Diagrama de Gantt]:
+   >Puede utilizar los siguientes métodos abreviados del teclado para deshacer o rehacer los cambios en la [!UICONTROL Gráfico Gantt]:
    >
-   >* [!DNL Mac]: Uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
+   >* [!DNL Mac]: uso [!UICONTROL Comando + Z] para deshacer y [!UICONTROL Comando + Mayús + Z] para rehacer.
    >* Windows: Uso [!UICONTROL Ctrl + Z] para deshacer y [!UICONTROL Ctrl + Y] para rehacer.
 
 
-
-1. Haga clic en **[!UICONTROL Guardar]** en la esquina superior derecha del [!UICONTROL Diagrama de Gantt].
+1. Clic **[!UICONTROL Guardar]** en la esquina superior derecha de la [!UICONTROL Gráfico Gantt].
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -120,7 +119,7 @@ Puede utilizar la Lista de tareas [!UICONTROL Diagrama de Gantt] para nivelar su
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p>  </li>
 <li value="3">Click <strong>Settings</strong>.<br></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>. </li>

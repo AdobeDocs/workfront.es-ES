@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Edición de perfiles de usuario por lotes
 description: Como administrador de Adobe Workfront, puede editar las cuentas de usuario de forma masiva.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Puede editar las cuentas de usuario de forma masiva. Al editar usuarios por lote
 >* No puede editar de forma masiva la sección Información personal de los perfiles de los usuarios porque esa información debe ser única para cada usuario.
 >* Para garantizar la precisión de los datos y un rendimiento óptimo, se recomienda seleccionar un máximo de 2000 usuarios al mismo tiempo para una edición masiva.
 >
-
 
 ## Requisitos de acceso
 
@@ -79,7 +78,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        <ul> 
         <li><b>Zona horaria:</b> Zona horaria de los usuarios.</li> 
         <li><b>Configuración regional</b>: la configuración regional preferida de los usuarios. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li> 
-        <li><b>Mostrar porcentaje completado al actualizar el estado</b>: marque esta opción si desea mostrar una barra de porcentaje completado dentro del flujo de actualización de tareas para todos los usuarios.</li> 
+        <li><b>Mostrar porcentaje completado al actualizar el estado</b>: Marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualización de las tareas de todos los usuarios, al utilizar la experiencia de comentarios heredada. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.</li> 
         <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que los usuarios se asignan a sí mismos aparezca directamente en su ficha Trabajando en. El valor predeterminado es enumerar todo lo asignado a un usuario en su pestaña Solicitud de trabajo.</li> 
        </ul> </td> 
      </tr> 
@@ -198,7 +197,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    Workfront calcula la disponibilidad de un usuario según las preferencias de Administración de recursos del área de Configuración.
 
-   Si las Preferencias de administración de recursos en el nivel del sistema se establecen en el Horario del usuario, el valor que especifique aquí se ignorará y el usuario se considerará disponible según lo especificado en su horario.
+   Si las Preferencias de administración de recursos en el nivel del sistema se establecen en El horario del usuario, el valor especificado aquí se ignorará y el usuario se considerará disponible según lo especificado en su horario.
 
    Para obtener más información, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferencias de administración de recursos</a>.
 
@@ -217,4 +216,4 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 1. (Opcional) En el **Forms personalizado** , seleccione la **Volver a calcular expresiones personalizadas** para garantizar que todos los campos personalizados calculados en formularios personalizados adjuntos a los usuarios seleccionados estén actualizados.
 
-1. Clic **Guardar cambios**.
+1. Haga clic en **Guardar cambios**.

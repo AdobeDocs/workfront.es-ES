@@ -6,9 +6,9 @@ description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea d
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
 1. Busque una tarea en el sistema de Workfront.
 1. Haga clic en el nombre de la tarea para abrirla.
-1. Haga clic en **Más** menú desplegable ![](assets/qs-more-menu.png) junto al nombre de la tarea y haga clic en **Copiar** **hasta**.
+1. Haga clic en **Más** menú desplegable ![](assets/qs-more-menu.png) junto al nombre de la tarea y haga clic en **Copiar a**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

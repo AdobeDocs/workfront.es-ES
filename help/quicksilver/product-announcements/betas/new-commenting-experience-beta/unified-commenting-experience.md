@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # Nueva experiencia de comentarios
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Entre las mejoras incluidas en la nueva experiencia de comentarios están las si
 * Indicador de tiempo real cuando se añaden nuevos comentarios a un objeto
 * Edición de comentarios después de enviarlos
 
-Se han eliminado las siguientes funciones de la nueva experiencia:
+Las siguientes funciones se han eliminado o quedarán obsoletas en la nueva experiencia:
 
 * Comentario sobre una actualización del sistema
-* Capacidad para editar el estado, la condición y la fecha de confirmación al comentar
+* Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas
 * Editar formulario personalizado
 * La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre se eliminó originalmente. Se ha restablecido el 19 de octubre de 2023.
 * La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.
+* Se eliminará la configuración &quot;Mostrar porcentaje completado al actualizar el estado&quot; al editar el cuadro de perfil de un usuario. Se ha eliminado la funcionalidad de actualizar el porcentaje completado de una tarea o problema.
+* La notificación para el Propietario del proyecto en el área de Actualizaciones indica que el usuario asignado de una tarea o problema editó la fecha de confirmación <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

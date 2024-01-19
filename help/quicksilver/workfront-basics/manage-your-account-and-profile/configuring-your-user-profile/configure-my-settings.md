@@ -6,10 +6,10 @@ description: Su [!DNL Adobe Workfront] El perfil contiene información sobre ust
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -340,7 +340,9 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Mostrar porcentaje completado al actualizar el estado]</strong> </td> 
-   <td>Active esta casilla de verificación para mostrar una barra de porcentaje en el campo [!UICONTROL estado de actualización] de las tareas, de modo que pueda actualizar el porcentaje completado de una tarea al introducir una actualización de tarea.</td> 
+   <td>Marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualizaciones de sus tareas, al utilizar la experiencia de comentarios heredada. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Enviar trabajo asignado a mí mismo a mi ficha Trabajando en]</strong> </td> 
