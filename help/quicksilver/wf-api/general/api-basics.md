@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Los métodos HTTP estándar corresponden a las siguientes operaciones:
 Para evitar deficiencias de cliente o límites de longitud de protocolo, se puede utilizar el parámetro de método para anular el comportamiento HTTP. Por ejemplo, se puede implementar una operación de GET publicando el siguiente URI:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
-### respuesta
+### Respuesta
 
 Cada solicitud recibe una respuesta en formato JSON. La respuesta tiene un atributo de datos si la solicitud se realizó correctamente o un atributo de error si hubo un problema. Por ejemplo, la solicitud de
 
@@ -361,11 +361,11 @@ Puede recuperar campos de datos personalizados con el prefijo &quot;DE:&quot;. P
 Algunos tipos de objeto tienen búsquedas con nombre que se ejecutan normalmente y están disponibles añadiendo el nombre de la consulta al final del URI del tipo de objeto. Por ejemplo, la siguiente solicitud recupera los elementos de trabajo (tareas y problemas) a los que está asignado el usuario actualmente:
 <pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro fields para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de las consultas con nombre permitidas para un objeto, consulte la pestaña Acción del objeto en [Explorador de API](../../wf-api/general/api-explorer.md).
 
-#### Uso del filtro de recuento
+#### Uso de `Count`
 
-Puede especificar el número de resultados que desea que devuelva una búsqueda determinada. Esto permite que el servidor procese la solicitud más rápidamente y ahorra ancho de banda. Por ejemplo, la solicitud de
+Puede utilizar `count` para devolver el número de resultados que coinciden con la consulta. Esto puede resultar útil cuando no necesita los datos en los resultados. Al devolver solo el recuento, el servidor puede procesar la solicitud más rápidamente y ahorrar ancho de banda. Por ejemplo, la solicitud de
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>devuelve el número de resultados en el siguiente formato:
-<pre>{<br>    "count": 3 <br>}</pre>Este resultado es una descarga mucho menor que si se envían los objetos completos. La sintaxis del filtro es idéntica al comando de búsqueda.
+<pre>{<br>    "count": 3 <br>}</pre>Devolver un recuento es una transferencia de datos mucho menor que si se devuelven los objetos completos. La sintaxis es idéntica al comando de búsqueda.
 
 ### Solicitud de un informe
 
@@ -409,7 +409,7 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
   </tr> 
   <tr> 
    <td>Número máximo de resultados</td> 
-   <td>2,000</td> 
+   <td>2.000</td> 
    <td>El filtro de consulta (es decir, $$LIMIT) no puede devolver más de 2000 resultados. Consulte Respuestas paginadas para obtener más información.</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
   </tr> 
   <tr> 
    <td>Número máximo de objetos</td> 
-   <td>50,000</td> 
+   <td>50.000</td> 
    <td>El conjunto de resultados no puede incluir 50000 objetos primarios y secundarios.</td> 
   </tr> 
   <tr> 
    <td>Número máximo de campos</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1.000.000</td> 
    <td>Cuando el conjunto de resultados es menor que 50000 objetos, los resultados pueden incluir un máximo de 1 000 000 de campos.</td> 
   </tr> 
   <tr> 
