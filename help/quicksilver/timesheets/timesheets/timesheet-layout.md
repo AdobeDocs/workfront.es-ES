@@ -7,9 +7,9 @@ description: Este artículo describe la presentación de las plantillas de horas
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -121,9 +121,9 @@ Puede registrar varias entradas de horas para el mismo elemento de trabajo para 
 
 ![Área Actualizaciones en el panel izquierdo de la plantilla de horas](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-Puede realizar comentarios en una plantilla de horas para comunicarse con los aprobadores de la plantilla u otros usuarios en la sección Actualizaciones del panel izquierdo.
+Puede realizar comentarios en una plantilla de horas para comunicarse con los aprobadores de la plantilla u otros usuarios en la sección Actualizaciones del panel izquierdo de la plantilla de horas.
 
-Cualquier comentario realizado en la plantilla de horas se mostrará en esta área, en la parte inferior de la plantilla de horas. Esta área se muestra debajo de la plantilla de horas y encima del pie de página de la plantilla. Para obtener más información, consulte [Ver y administrar comentarios en una hoja de horas](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Cualquier comentario realizado en la plantilla de horas se mostrará en esta área.
 
 ## Panel de resumen
 

@@ -5,9 +5,9 @@ title: Información general sobre las fechas del proyecto, la tarea y el problem
 description: Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Puede indicar manualmente cuándo se completa el trabajo en una tarea o un probl
 * El estado del proyecto, tarea o problema cambia a [!UICONTROL Completar], [!UICONTROL Cerrado], o [!UICONTROL Resuelto].
 * El porcentaje completado de la tarea o del proyecto es del 100%.
 
-El [!UICONTROL Fecha real de finalización] de un proyecto coincide con la fecha en la que se completa la primera tarea del proyecto.
+El [!UICONTROL Fecha real de finalización] de un proyecto coincide con la fecha en la que se completó la última tarea del proyecto.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ El [!UICONTROL Fecha de confirmación] es la fecha en la que un usuario asignado
 >
 >Cambio de la [!UICONTROL Fecha de confirmación] afecta a [!UICONTROL Fecha proyectada de finalización] pero no el [!UICONTROL Fecha planificada de finalización] de una tarea o un problema. El administrador del proyecto puede utilizar los cambios que realiza un usuario asignado en la [!UICONTROL Fecha de confirmación] para actualizar el [!UICONTROL Fecha planificada de finalización] de una tarea o un problema.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Fecha proyectada de inicio]
 
 El [!UICONTROL Fecha proyectada de inicio] es una fecha en tiempo real de cuándo se produjo el proyecto, la tarea o el problema y tiene en cuenta todos los retrasos. La fecha de inicio del proyecto, la tarea o el problema es más precisa que la del [!UICONTROL Fecha planificada de inicio]. El [!UICONTROL Fecha planificada de inicio] no tiene en cuenta los retrasos ni las fechas pasadas.
@@ -132,7 +128,7 @@ Para obtener más información, consulte [Información general del proyecto [!UI
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL Fecha proyectada de finalización]
+## [!UICONTROL Fecha proyectada de finalización]
 
 El [!UICONTROL Fecha proyectada de finalización] es un indicador calculado en tiempo real de cuándo se completará el proyecto, la tarea o el problema. Cuando el proyecto, tarea o problema se marca como Completado, la variable [!UICONTROL Fecha proyectada de finalización] cambios en la fecha del [!UICONTROL Fecha real de finalización].
 
@@ -146,24 +142,28 @@ Para obtener más información, consulte [Descripción general de [!UICONTROL Fe
 
 Cuando registra tiempo para proyectos, tareas y problemas para indicar cuánto tiempo real (en horas) dedica a trabajar en el proyecto, tarea o problema, el tiempo que registra se convierte en el [!UICONTROL Horas reales] del proyecto, tarea o problema.
 
-La fecha de registro de la hora es la [!UICONTROL Fecha de entrada de hora] en la entrada de horas.
+La fecha de registro de la hora es la [!UICONTROL Fecha de entrada de hora] en la entrada de horas. Algunas listas e informes de horas muestran Fecha de entrada de hora como Fecha.
 
 >[!TIP]
 >
 >El [!UICONTROL Fecha de entrada de hora] es diferente a la [!UICONTROL Fecha de entrada] en el sentido de que no es la fecha en la que se creó el registro de horas, sino la fecha a la que desea asociar las horas.
 
-Puede registrar el tiempo en [!UICONTROL proyecto], [!UICONTROL tarea], o [!UICONTROL Actualizaciones de problemas] o en la sección [!UICONTROL Horas] sección . Al registrar el tiempo en [!UICONTROL Horas] , puede especificar manualmente la fecha de entrada de hora y el usuario al que pertenecen las horas.
+Puede registrar y ver el tiempo en las siguientes áreas de Workfront:
 
-Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Registrar y ver el tiempo en [!UICONTROL proyecto], [!UICONTROL tarea], o [!UICONTROL Actualizaciones de problemas] o en la sección [!UICONTROL Horas] sección. Al registrar el tiempo en [!UICONTROL Horas] , puede especificar manualmente la fecha de entrada de hora y el usuario al que pertenecen las horas.
 
->[!TIP]
->
->Se recomienda registrar el tiempo en tareas y problemas de trabajo, en lugar de en tareas o proyectos principales. Tiempo registrado en las tareas de trabajo resumido en las tareas principales y el proyecto como [!UICONTROL Horas reales] para las tareas principales y el proyecto. Los problemas de tiempo iniciado se acumulan en el proyecto como [!UICONTROL Horas reales] para el proyecto.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Se recomienda registrar el tiempo en tareas y problemas de trabajo, en lugar de en tareas o proyectos principales. Tiempo registrado en las tareas de trabajo resumido en las tareas principales y el proyecto como [!UICONTROL Horas reales] para las tareas principales y el proyecto. Los problemas de tiempo iniciado se acumulan en el proyecto como [!UICONTROL Horas reales] para el proyecto.
 
-Puede ver el [!UICONTROL Fechas de entrada de hora] en informes y listas de horas.
+* Registrar tiempo en el flujo de actualización de una tarea o problema.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Ver el [!UICONTROL Fechas de entrada de hora] en informes y listas de horas.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)

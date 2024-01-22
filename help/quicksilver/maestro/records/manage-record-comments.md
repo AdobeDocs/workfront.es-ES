@@ -4,7 +4,7 @@ description: Puede colaborar en los registros de Adobe Maestro agregando comenta
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -15,12 +15,22 @@ ht-degree: 0%
 # Administrar comentarios de registro
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 Puede colaborar en los registros de Adobe Maestro agregando comentarios o respuestas en el área Comentarios de un registro.
+
+<!--replace first paragraph with this and update the Description in the metadata: 
+You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+
+The right panel of a record displays the following sections:
+
+* Comments: Users can add comments and reply to existing ones.
+* History: When you make a change to a record, Maestro records the change in this section. 
+-->
 
 ## Consideraciones acerca de los comentarios en un registro
 
@@ -167,3 +177,18 @@ El último espacio de trabajo al que se accede se abre de forma predeterminada.
    Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Haga clic en **Más** icono ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en **Eliminar** para eliminar el comentario.
 
+<!--
+## History section overview
+
+*********also update the screen shot above for the Comments section ******
+
+You can refer to the History section in the right panel of a record to view changes made to the record. 
+
+![](assets/history-area-in-comments.png)
+
+Maestro records the following information in the History section: 
+
+* Any field changes
+* The full name of the user who made the change
+* A date and time stamp of when the change occurred. 
+-->
