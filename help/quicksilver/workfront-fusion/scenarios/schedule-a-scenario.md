@@ -7,16 +7,16 @@ description: De forma predeterminada, un escenario se ejecuta cada 15 minutos. P
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 # Programar un escenario en [!DNL Adobe Workfront Fusion]
 
-De forma predeterminada, un escenario se ejecuta cada 15 minutos. Puede cambiar esto definiendo cuándo y con qué frecuencia se ejecuta un escenario activado.
+De forma predeterminada, un escenario se ejecuta cada 15 minutos. Puede cambiar esto definiendo cuándo y con qué frecuencia se ejecuta un escenario activado. Los escenarios de Fusion se pueden programar para que se ejecuten con tanta frecuencia como cada 5 minutos.
 
 ## Requisitos de acceso
 
