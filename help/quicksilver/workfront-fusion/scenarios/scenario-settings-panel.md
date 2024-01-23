@@ -7,9 +7,9 @@ description: Este artículo describe la configuración disponible en la [!UICONT
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,12 @@ Esta opción determina cómo [!DNL Adobe Workfront Fusion] procede si se produce
 ## [!UICONTROL Procesamiento secuencial]
 
 Esta opción determina cómo [!DNL Workfront Fusion] procede si se produce un error y la ejecución de un escenario se mueve a la [Ver y resolver ejecuciones incompletas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Si la variable [!UICONTROL Procesamiento secuencial] Si la opción está activada, Workfront Fusion deja de procesar la secuencia de tareas hasta que se resuelven todas las ejecuciones incompletas. Si la variable [!UICONTROL Procesamiento secuencial] está desactivada, el escenario sigue ejecutándose según su programación, acompañado de repetidos intentos de volver a ejecutar las ejecuciones incompletas.
+
+>[!NOTE]
+>
+>El procesamiento secuencial puede provocar un retraso en la ejecución de un escenario. Si todavía hay ejecuciones incompletas en la cola cuando hay un déclencheur de escenario instantáneo o un escenario programado está configurado para ejecutarse, ese escenario se ejecutará después de que se hayan completado todas las ejecuciones antes de que esté en la cola.
+>
+>Si el caso de uso para sus escenarios no requiere procesamiento secuencial, se recomienda desactivar la opción de procesamiento secuencial.
 
 Para obtener más información sobre la programación, consulte [Programar un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
