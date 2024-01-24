@@ -8,9 +8,9 @@ description: Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a un
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a una base de dat
 Los módulos del almacén de datos permiten agregar, reemplazar, actualizar, recuperar, eliminar, buscar o contar registros en su [!DNL Adobe Workfront Fusion] almacén de datos.
 
 Para obtener información sobre la creación, edición y solución de problemas con los almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+Para ver un vídeo introductorio a los almacenes de datos de Workfront Fusion, consulte:
+
+* [Almacenes de datos](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acceso
 

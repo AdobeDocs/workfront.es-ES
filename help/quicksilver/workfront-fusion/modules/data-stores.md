@@ -8,9 +8,9 @@ description: Un almacén de datos, similar a una base de datos o tabla simple, p
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,10 @@ Los módulos del almacén de datos permiten realizar las siguientes acciones en 
 * Cuenta
 
 Para obtener información sobre el uso de módulos de almacén de datos, consulte [[!UICONTROL Almacén de datos] módulos](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+Para ver un vídeo introductorio a los almacenes de datos de Workfront Fusion, consulte:
+
+* [Almacenes de datos](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acceso
 
@@ -200,7 +204,7 @@ Las propiedades de un almacén de datos incluyen la estructura de datos que util
 
 Actualmente no hay ninguna herramienta que pueda automatizar la restauración de los datos perdidos.
 
-#### Solución alternativa
+#### Solución
 
 1. Examine todos los registros de ejecución de escenarios en los que se insertaron elementos en el almacén de datos.
 
@@ -215,7 +219,7 @@ Actualmente no hay ninguna herramienta que pueda automatizar la restauración de
 
 Un [!UICONTROL Espacio insuficiente] Se produce un error porque los almacenes de datos creados anteriormente ya se han asignado al almacenamiento del almacén de datos asignado.
 
-#### Solución alternativa
+#### Solución
 
 1. Edite cualquiera de los almacenes de datos existentes para utilizar menos espacio. Esto libera espacio para el nuevo almacén de datos.
 
@@ -231,7 +235,7 @@ A [!UICONTROL Se alcanzó el máximo de tiendas] Este error se produce porque su
 
 Por ejemplo, si su organización ha adquirido un plan con 15 escenarios, puede tener hasta 30 almacenes de datos.
 
-#### Solución alternativa
+#### Solución
 
 Para reducir el número de almacenes de datos existentes, considere la posibilidad de realizar una de las siguientes acciones:
 

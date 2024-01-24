@@ -9,9 +9,9 @@ description: El [!DNL Adobe Workfront Fusion Frame].io modules enable you to mon
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Frame.io] módulos
 
 El [!DNL Adobe Workfront Fusion] [!DNL Frame.io] Los módulos de le permiten supervisar, crear, actualizar, recuperar o eliminar recursos y comentarios en su [!DNL Frame.io] cuenta.
+
+Para ver un vídeo introductorio del conector Frame.io, consulte:
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Requisitos de acceso
 

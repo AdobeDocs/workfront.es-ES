@@ -10,9 +10,9 @@ description: Con el [!DNL Adobe Experience Manager Assets] conector para [!DNL A
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # [!DNL Adobe Experience Manager Assets] módulos
 
 Con el [!DNL Adobe Experience Manager Assets] conector para [!DNL Adobe Workfront Fusion], puede iniciar un escenario basado en eventos en su [!DNL Adobe Experience Manager Assets] crear, cargar y actualizar recursos, y copiar o mover carpetas y recursos.
+
+Para ver una introducción al conector de Adobe Experience Manager Assets, consulte:
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## Requisitos de acceso
 
