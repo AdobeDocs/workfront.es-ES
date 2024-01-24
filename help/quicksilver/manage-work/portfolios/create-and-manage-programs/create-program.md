@@ -6,9 +6,9 @@ description: Un programa representa una colección de proyectos que comparten un
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Cualquiera</p><p>O</p><p>Actual: [!UICONTROL Empresa] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: [!UICONTROL Standard] </p><p>O </p><p>Actual: [!UICONTROL plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de [!UICONTROL Edit] a Portfolio y programas </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ La siguiente información se muestra en el encabezado de un programa:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fecha planificada de finalización]</td> 
-   <td>No se puede editar la Fecha planificada de finalización del programa en la cabecera.  </td> 
+   <td>No se puede editar la Fecha planificada de finalización del programa en la cabecera. Esta información se actualiza desde los proyectos del programa. La fecha planificada de finalización del último proyecto del programa se convierte en la fecha planificada de finalización del programa.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Condición de [!UICONTROL Active Projects]</td> 

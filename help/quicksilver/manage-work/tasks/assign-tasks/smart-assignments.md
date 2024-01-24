@@ -7,9 +7,9 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* Un encabezado de tarea o problema en el campo Asignaciones
+* <span class="preview">Un encabezado de tarea en el campo Asignaciones</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* Un encabezado de problema en el campo Asignaciones
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * El panel Resumen de tareas o problemas del área Asignaciones
 
@@ -70,14 +74,17 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 ## Criterios de asignaciones inteligentes
 
-
 <div class="preview">
 
 Las asignaciones inteligentes funcionan de forma diferente para las tareas que para los problemas.
 
 ### Criterios de asignaciones inteligentes para tareas
 
-El cálculo de asignaciones inteligentes de tareas funciona en dos fases.
+El cálculo de asignaciones inteligentes de tareas funciona en dos fases que utilizan dos algoritmos diferentes.
+
+Según el algoritmo que encuentre la asignación inteligente, las asignaciones se enumerarán en dos secciones independientes del campo Asignaciones. Para obtener más información, consulte [Realización de asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Primera fase del cálculo de asignación inteligente para tareas
 
@@ -111,6 +118,8 @@ El cálculo de la puntuación de similitud y el orden en que se enumeran las asi
 
   Por ejemplo, si Rick fue asignado a una tarea similar hoy temprano y Jennifer fue asignada a una tarea similar hace dos días, Rick aparece primero.
 
+* Las asignaciones identificadas en esta fase se enumeran en la **Asignaciones sugeridas** del campo Asignaciones.
+
 * Si no hay coincidencias con este cálculo, se inicia la segunda fase de las asignaciones inteligentes, que se calcula con un algoritmo diferente.
 
 #### Segunda fase del cálculo de asignaciones inteligentes para tareas
@@ -119,6 +128,8 @@ Si no se encuentran coincidencias en el primer paso de las asignaciones intelige
 
 Para obtener más información, consulte la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
 
+Las asignaciones identificadas en esta fase se enumeran en la **Resultados** del campo Asignaciones. <!--update this to "Other assignments"-->
+
 ### Criterios de asignaciones inteligentes para tareas y problemas
 
 </div>
@@ -126,6 +137,8 @@ Para obtener más información, consulte la sección [Criterios de asignaciones 
 >[!NOTE]
 >
 ><span class="preview">Los siguientes criterios se aplican a las tareas sólo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. Para obtener más información, consulte la sección [Primera fase del cálculo de asignación inteligente para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Los usuarios se recomiendan en la lista desplegable asignaciones inteligentes en función de una combinación de los siguientes criterios (enumerados en orden de lo más importante a lo menos importante):
 
