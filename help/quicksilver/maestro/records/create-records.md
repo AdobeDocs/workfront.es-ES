@@ -1,13 +1,13 @@
 ---
 title: Creación de registros
-description: En Adobe Maestro, un registro es una instancia de un tipo de registro. Debe crear tipos de registros para poder crear registros individuales.
+description: En Adobe Maestro, un registro es una instancia de un tipo de registro. Debe crear tipos de registros para poder crear registros individuales. La creación de registros de taxonomía es idéntica a la creación de registros operativos.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Puede tener los siguientes tipos de registros:
 * **Registros operativos**: representan objetos relacionados con el trabajo. Por ejemplo, para un registro operativo llamado &quot;Campaña&quot;, puede tener registros con nombre como &quot;Boletín mensual&quot; o &quot;Venta de verano&quot;.
 * **Registros de taxonomía**: representan atributos que pueden asociarse con registros operativos. Por ejemplo, para un tipo de registro de taxonomía llamado &quot;Canal&quot;, puede tener taxonomías con nombres como &quot;Correo electrónico&quot;, &quot;Medios sociales&quot; o &quot;Publicidad&quot;.
 
-La creación de registros operativos es idéntica a la creación de registros de taxonomía o taxonomías.
+La creación de registros operativos es idéntica a la creación de registros de taxonomía.
 
 Para crear registros en Maestro, siga uno de estos procedimientos:
 
@@ -120,7 +120,7 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla.
 
-1. Para añadir nuevos registros, haga clic en **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla
+1. Para añadir nuevos registros, haga clic en **Nuevo registro** en la última fila de la tabla
 
    O
 

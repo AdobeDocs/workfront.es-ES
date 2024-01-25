@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 | Informe creativo |                               |                                  | ✓ |
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
 | Agregar comentarios a registros | ✓ |                                  |                 |
+| Ver el historial de cambios de un registro | ✓ |                                  |                 |
 | Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
 | Módulos de Maestro para Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiar y pegar información de un campo a otro | ✓ |                                  |                 |

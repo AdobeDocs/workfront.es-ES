@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '13867'
+source-wordcount: '13870'
 ht-degree: 1%
 
 ---
@@ -630,7 +630,7 @@ ht-degree: 1%
       * [Administrar Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
       * Configuración de la funcionalidad de revisión {#configure-proofing}
          * [Configurar revisión](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-         * [Configuración de revisión](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+         * [Configuración de prueba](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Sincronización de usuarios entre Workfront y Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [Acceso a pruebas](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [Visor de corrección de escritorio](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
@@ -2040,6 +2040,7 @@ ht-degree: 1%
       * [Eliminación de registros](maestro/records/delete-records.md)
       * [Compartir registros](maestro/records/share-records.md)
       * [Administrar comentarios de registro](maestro/records/manage-record-comments.md)
+      * [Resumen de la sección Historial](maestro/records/history-section-overview.md)
    * Vistas de Adobe Maestro {#adobe-maestro-views}
       * [Vistas: índice de artículos](maestro/views/views-information.md)
       * [Administrar vistas de registros](maestro/views/manage-record-views.md)

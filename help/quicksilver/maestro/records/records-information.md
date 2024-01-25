@@ -1,13 +1,13 @@
 ---
 title: "Registros: índice de artículos"
-description: Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos. En los siguientes artículos se describe cómo crear y administrar registros en Adobe Maestro.
+description: Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos. En los siguientes artículos se describe cómo crear y administrar registros y su información en Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos.
 
-En los siguientes artículos se describe cómo crear y administrar registros en Adobe Maestro:
+En los siguientes artículos se describe cómo crear y administrar registros y su información en Adobe Maestro:
 
 * [Creación de registros](../records/create-records.md)
 * [Edición de registros](../records/edit-records.md)
@@ -46,3 +46,4 @@ En los siguientes artículos se describe cómo crear y administrar registros en 
 * [Compartir registros](../records/share-records.md)
 * [Conectar registros](../records/connect-records.md)
 * [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [Resumen de la sección Historial](/help/quicksilver/maestro/records/history-section-overview.md)

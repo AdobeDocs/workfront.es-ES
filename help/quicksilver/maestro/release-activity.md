@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
 
-<!--
-## Week of January 22, 2024
+## Semana del 22 de enero de 2024
 
-### New History section displays system activity for Maestro records (title) 
+### La nueva sección Historial muestra la actividad del sistema para los registros de Maestro
 
-Production: < date > 
+Producción: 25 de enero de 2024
 
-Preview: To be determined 
+Vista previa: por determinar
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Para mejorar las capacidades de auditoría, hemos introducido una nueva sección en el panel derecho de un registro en la que puede revisar los cambios realizados en el registro registrado por el sistema.
 
-Maestro records the following information in the new History section:  
+Maestro registra la siguiente información en la nueva sección Historial:
 
-* Any field changes 
+* Cualquier cambio de campo
 
-* The full name of the user who made the change 
+* Los valores antiguos y nuevos de los campos, cuando cambian los valores
 
-* A date and time stamp of when the change occurred. 
+* El nombre completo del usuario que realizó el cambio
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Una marca de fecha y hora de cuándo se produjo el cambio.
 
--->
+Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Nueva etiqueta para nuevo vínculo de registro
+
+Producción: 25 de enero de 2024
+
+Vista previa: por determinar
+
+Para crear coherencia al crear registros, se ha vuelto a etiquetar el vínculo + Nuevo para crear registros como &quot;+ Nuevo registro&quot;.  Antes de esta actualización, el vínculo contenía el nombre del tipo de registro. El nuevo vínculo ya está disponible al crear registros operativos y de taxonomía. Para obtener más información, consulte [Creación de registros](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semana del 8 de enero de 2024
 
