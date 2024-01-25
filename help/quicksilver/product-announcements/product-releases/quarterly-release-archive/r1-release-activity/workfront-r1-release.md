@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -94,8 +94,6 @@ Workfront es una solución de administración de trabajo empresarial que permite
 
 **MÁS INFORMACIÓN**
 
-* Descargue la hoja de datos de R1 aquí:  [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* Descargue las preguntas frecuentes sobre la versión R1 aquí: [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * Para obtener una lista completa de las mejoras disponibles en R1: [Resumen de actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. Porque El Trabajo Importa.

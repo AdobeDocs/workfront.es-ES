@@ -7,7 +7,7 @@ description: La visualización Evolución muestra la evolución de un proyecto e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver</p> </td> 
+   <td> <p>Ver</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización Evolución
 
@@ -152,7 +152,7 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
    >Si la velocidad real es una línea plana que se ejecuta a lo largo del eje x (en línea con 0 horas o 0 días) de la visualización, significa que no se añadieron horas planificadas (o días) al proyecto.\
    >Si la velocidad real es una línea plana por encima del eje x (en línea con un número de horas o de días) que nunca desciende, significa que no se completó ninguna tarea dentro del período de tiempo filtrado.
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en **Exportar** icono ![Icono Exportar](assets/export.png)en la esquina superior derecha de la visualización y seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en **Exportar** icono ![Icono Exportar](assets/export.png) en la esquina superior derecha de la visualización y seleccione el formato de exportación:
 
    * Gráfico (PNG)
    * Tabla de datos (XSLX)
