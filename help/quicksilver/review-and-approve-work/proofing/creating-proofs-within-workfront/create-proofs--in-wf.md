@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Creación de pruebas
-description: Aprenda a crear pruebas.
+description: Puede crear pruebas de documentos en Adobe Workfront. Puede crear pruebas de documentos en Adobe Workfront. Puede crear pruebas para documentos, contenido interactivo y sitios web. Obtenga información sobre cómo crear pruebas en los siguientes artículos.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Creación de pruebas
+# Crear pruebas: índice de artículos
 
-Esta sección contiene los siguientes artículos:
+<!--Audited: 01/2024-->
+
+Puede crear pruebas de documentos en Adobe Workfront. Puede crear pruebas para documentos, contenido interactivo y sitios web.
+
+Obtenga información sobre cómo crear pruebas en los siguientes artículos:
 
 * [Creación de una prueba avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Creación de una prueba avanzada con un flujo de trabajo automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

@@ -4,10 +4,10 @@ description: Puede revisar los cambios realizados en el registro y registrados p
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
    * Selección múltiple
    * Campos de registro vinculados
-   * Campos vinculados (búsqueda)
    * Personas
 
   Si el cambio solo agrega valores al campo, el valor antiguo no se muestra y solo se muestra el nuevo valor de campo.
@@ -80,5 +79,14 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 * Los campos de tipo casilla de verificación nunca muestran el valor antiguo en formato tachado. Si se edita el campo, solo se muestra el estado actual en el momento en que se realizó el cambio.
 
   Para obtener más información sobre los campos Maestro, consulte [Creación de campos](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Los cambios en los campos de los siguientes tipos no se muestran en la sección Historial:
+
+   * Campos vinculados (búsqueda)
+   * Fórmula
+   * Creado por
+   * Fecha de creación
+   * Última modificación realizada por
+   * Fecha de la última modificación
 
 * Si se quita un campo del sistema, las actualizaciones realizadas en ese campo permanecen en la sección Historial. No hay ninguna indicación de que el campo se haya eliminado en la sección Historial de un registro.
