@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 1%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 1%
       * [Sugerencias, trucos y solución de problemas para Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Los estados personalizados no aparecen en el panel de historias Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documentos {#documents}
-   * [Documentos](documents/documents-overview.md)
+   * [Documentos: índice de artículos](documents/documents-overview.md)
    * Añadir nuevos documentos a Adobe Workfront {#add-new-documents-to-workfront}
       * [Añadir nuevos documentos a Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Agregar documentos a Adobe Workfront desde el sistema de archivos](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 1%
          * [Asociar hitos a tareas](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Conversión de una tarea en un proyecto](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Restricciones de tarea {#task-constraints}
-         * [Restricciones de tarea](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Restricciones de la tarea: índice del artículo](manage-work/tasks/task-constraints/task-constraints.md)
          * [Información general sobre restricciones de tarea](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Información general sobre la restricción de tarea: No iniciar después del](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Información general sobre la restricción de tarea: No comenzar antes del](manage-work/tasks/task-constraints/start-no-earlier-than.md)

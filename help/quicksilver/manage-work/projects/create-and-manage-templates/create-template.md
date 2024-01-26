@@ -2,20 +2,22 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Crear una plantilla de proyecto
-description: Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y toda la información de la configuración futura del proyecto. Esta información se transferirá al proyecto cuando lo cree a partir de la plantilla.
+description: Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y de la configuración futura del proyecto. Esta información se transferirá a cualquier proyecto que cree a partir de la plantilla.
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
 
 # Crear una plantilla de proyecto
 
-Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y toda la información de la configuración futura del proyecto. Esta información se transferirá al proyecto cuando lo cree a partir de la plantilla.
+<!-- Audited: 1/2024 -->
+
+Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y de la configuración futura del proyecto. Esta información se transferirá a cualquier proyecto que cree a partir de la plantilla.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Puede crear una nueva plantilla de las siguientes maneras:
 
   Para obtener más información sobre cómo copiar una plantilla existente, consulte [Copiar una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* Si es administrador de Workfront, puede crear plantillas importando modelos. Para obtener más información, consulte [Configurar un modelo](../../../administration-and-setup/blueprints/configure-template-package.md).
+* Mediante la importación de modelos. Debe ser administrador de Workfront para importar modelos. Para obtener más información, consulte [Configurar un modelo](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Requisitos de acceso
 
@@ -44,29 +46,29 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Administrador del sistema para importar plantillas de modelos</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: estándar </p><p>O </p><p>Actual: plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Debe ser administrador del sistema para importar plantillas de modelos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a plantillas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a plantillas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>De forma predeterminada, tiene permisos de administración para las plantillas que crea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>De forma predeterminada, tiene permisos de administración para las plantillas que crea</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Creación de una plantilla
 
-1. Desde el **Menú principal** ![](assets/main-menu-icon.png) click **Plantillas**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Plantillas**.
 
 1. Clic **Nueva plantilla**.
 
@@ -101,8 +103,8 @@ Debe tener lo siguiente:
    Para obtener información sobre cómo editar una plantilla, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Haga clic en **Guardar cambios**.
-1. (Opcional) Si desea agregar elementos adicionales a la plantilla, consulte la sección [Adición de elementos adicionales a una plantilla](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) en el artículo [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. (Opcional) Si desea agregar elementos adicionales a la plantilla, consulte la sección [Adición de elementos adicionales a una plantilla](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) en el artículo [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Configuración de plantilla determinada por asociación de grupo
 
-La asociación de una plantilla de proyecto con un grupo (o la falta de asociación) afecta a la forma en que las preferencias de proyecto, tarea y problema determinan ciertas configuraciones en la plantilla. Para obtener más información, consulte la sección [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) en el artículo [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+La asociación de una plantilla de proyecto con un grupo (o la falta de un grupo) afecta a la forma en que las preferencias de proyecto, tarea y problema determinan ciertas configuraciones en la plantilla. Para obtener más información, consulte la sección [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) en el artículo [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
