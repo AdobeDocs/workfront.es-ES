@@ -3,20 +3,20 @@ title: Vea la visualización de la capacidad de los recursos en el análisis mej
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: La visualización de la capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad.
+description: Puede comprobar si un equipo está por encima, por debajo o por debajo de la capacidad cuando visualice el gráfico de visualización de capacidad de recursos de análisis mejorado en Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 2%
+source-wordcount: '815'
+ht-degree: 1%
 
 ---
 
 # Vea la visualización de la capacidad de los recursos en el análisis mejorado
 
-La visualización de la capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad.
+Puede comprobar si un equipo está por encima, por debajo o por debajo de la capacidad cuando visualice el gráfico de visualización de capacidad de recursos de análisis mejorado en Adobe Workfront.
 
 ## Requisitos de acceso
 
@@ -27,33 +27,38 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan de Adobe Workfront</a>*</td> 
-   <td> <p>Empresa o superior</p> </td> 
+   <td>plan de Adobe Workfront</a>*</td> 
+   <td> <p>Actual: Empresa o superior</p>
+   O
+   <p>Nuevo: Cualquiera</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td>Licencia de Adobe Workfront*</td> 
+   <td> <p>Actual: revisar o superior</p>
+   O
+   <p>Nuevo: estándar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso.<br>Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td> <p>Ver acceso a proyectos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Vista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permiso en un proyecto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
 Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprender la visualización de la capacidad de recursos
+## Comprender el gráfico de capacidad de recursos
 
-La visualización de la capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad. Este cálculo se basa en:
+El gráfico Capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad. Este cálculo se basa en:
 
 * **Capacidad disponible**: Cantidad total de horas que un equipo de inicio tiene disponibles para trabajar en el período de tiempo filtrado
 

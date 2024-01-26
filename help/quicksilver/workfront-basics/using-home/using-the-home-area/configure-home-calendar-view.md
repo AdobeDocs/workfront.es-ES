@@ -6,21 +6,25 @@ description: Puede configurar la configuración del Calendario principal para qu
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
 
 # Configure su [!UICONTROL Calendario principal] configuración de vista
 
+<!--Audited: 01/2024-->
+
 Puede configurar las variables [!UICONTROL Calendario principal] Configuración para hacer lo siguiente:
 
-* Integrarlo con una versión web de [!DNL Outlook], [!DNL Office 365] en la nube o [!DNL Outlook Live]. Puede mostrar todos los eventos del calendario de Outlook y de los calendarios asociados que seleccione, como los calendarios de cumpleaños y días festivos, en su [!UICONTROL Calendario principal].
+* Integrarlo con una versión web de [!DNL Outlook], [!DNL Office 365] en la nube o [!DNL Outlook Live]. Puede mostrar todos los eventos del calendario de Outlook y de los calendarios asociados que seleccione en su [!UICONTROL Calendario principal] en Adobe Workfront.
 * Le ayuda a realizar un seguimiento de la carga de trabajo en comparación con las horas de trabajo disponibles en [!UICONTROL Asignación] barra.
 
 Para obtener más información sobre el Calendario de Inicio, consulte [[!UICONTROL Calendario principal] vista](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+
+En este artículo se describe cómo configurar el Calendario principal e integrar el Calendario principal con el calendario externo de Outlook.
 
 ## Requisitos de acceso
 
@@ -33,17 +37,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
+   <td> <p>Actual: [!UICONTROL Work] o superior</p> 
+   O
+   <p>Nuevo: [!UICONTROL Standard]</p> 
+   </td> 
   </tr> 
- </tbody> 
+   </tbody> 
 </table>
 
-Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+*Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Acerca de la integración [!DNL Microsoft Outlook] calendarios
 
@@ -60,16 +67,16 @@ Tenga en cuenta lo siguiente al configurar el Calendario de Inicio con su [!DNL 
 * Eventos que aparecen en la [!UICONTROL Vencimiento] no aparecen en su [!DNL Microsoft] calendario a menos que los haya arrastrado desde el [!UICONTROL Lista de trabajos] a su [!DNL Adobe Workfront] Calendario. Para obtener más información, consulte [[!UICONTROL Vencimiento] barra](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) y [Lista de trabajos en [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [[!UICONTROL Calendario principal] vista](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * Al habilitar la integración con [!DNL Outlook], solo los elementos de trabajo que se arrastran a [!UICONTROL Calendario principal] a partir de ese momento se sincronizará. Los elementos que estaban en el Calendario principal antes de habilitar la integración no aparecerán y debe arrastrarlos de nuevo al Calendario principal si desea que aparezcan en [!DNL Outlook].
-* Al compartir (o dejar de compartir) un [!DNL Outlook] calendario con otras personas o cuando cambia el nivel de permisos de un calendario que comparte con otras personas, este cambio no afecta a sus calendarios durante unos 30 minutos (para obtener más información, consulte la [!DNL Microsoft Outlook] documentación).\
+* Al compartir (o dejar de compartir) un [!DNL Outlook] calendario con otras personas o cuando cambia el nivel de permisos de un calendario que comparte con otras personas, este cambio no afecta a sus calendarios durante unos 30 minutos. Para obtener más información, consulte la [!DNL Microsoft Outlook] documentación.\
    Por lo tanto, al integrar [!DNL Workfront] Calendario con un [!DNL Outlook] calendario que comparta con otros usuarios, no verán su [!DNL Workfront] Elementos de calendario durante unos 30 minutos.
 
 >[!NOTE]
 >
 >El [!DNL Outlook] la configuración del calendario es completamente independiente del [!DNL Outlook] Complemento ([!UICONTROL [!DNL Outlook] Integración] o [!DNL Workfront Outlook]). No se requiere instalación para configurar el calendario, pero se necesita una instalación para el [!DNL Outlook] Complemento de. Para obtener más información sobre [!DNL Outlook] Complemento, consulte [Configuración de [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-## Configure su [!UICONTROL Calendario principal] configuración de vista
+## Configure su [!UICONTROL Calendario principal] ver la configuración e integrarla con los calendarios de Outlook
 
-1. En el [!UICONTROL Calendario principal] , haga clic en el **[!UICONTROL Configuración]** icono de engranaje ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) en la esquina superior derecha para abrir **[!UICONTROL Configuración del calendario]** panel situado en el lado derecho de la ventana.
+1. En el [!UICONTROL Calendario principal] , haga clic en el **[!UICONTROL Configuración]** icono de engranaje ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) en la esquina superior derecha para abrir **[!UICONTROL Configuración del calendario]** panel a la derecha.
 
    Si necesita información sobre el acceso a [!UICONTROL Calendario principal] ver, consulte [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
@@ -93,6 +100,8 @@ Tenga en cuenta lo siguiente al configurar el Calendario de Inicio con su [!DNL 
 
 1. (Opcional) En el **[!UICONTROL General]** sección debajo de **[!UICONTROL Comenzar semana el]**, seleccione el día que desea mostrar como primer día de la semana laboral en el Calendario principal.
 
+   ![](assets/general-section-home-calendar-settings-panel.png)
+
 1. Configure las siguientes opciones:
 
    * **[!UICONTROL Mis días laborables]:** Seleccione los días que trabaje.
@@ -101,7 +110,7 @@ Tenga en cuenta lo siguiente al configurar el Calendario de Inicio con su [!DNL 
 
    [!DNL Workfront] utiliza estas tres opciones para calcular la cantidad de horas que trabaja en una semana. Este número afecta al [!UICONTROL Asignación] , que le ayuda a realizar un seguimiento de la carga de trabajo en relación con las horas de trabajo disponibles. Para obtener más información, consulte [[!UICONTROL Asignación] barra](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) en el artículo [[!UICONTROL Calendario principal] vista](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. Haga clic fuera de **[!UICONTROL Configuración del calendario]** para descartarla.
+1. Haga clic fuera de **[!UICONTROL Configuración del calendario]** para cerrarla.
 
    [!DNL Workfront] guarda los cambios automáticamente.
 

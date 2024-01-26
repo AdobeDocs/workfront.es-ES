@@ -2,52 +2,52 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Incrustar una página web externa en un panel
-description: Puede incrustar una página web externa en un tablero para proporcionar acceso a la información relacionada de otros sistemas de Adobe Workfront o de otras páginas de Workfront.
+description: Puede incrustar una página web externa en un panel para proporcionar acceso a información relacionada de otros sistemas dentro de Adobe Workfront o a otras páginas de Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # Incrustar una página web externa en un panel
 
-Puede incrustar una página web externa en un tablero para proporcionar acceso a la información relacionada de otros sistemas de Adobe Workfront o de otras páginas de Workfront.
+<!--Audited: 01/2024-->
 
-Por ejemplo, si su organización tiene un repositorio de documentos basado en la web, wiki u otro sistema de administración de contenido que contenga información del proyecto a la que se accede regularmente a través de una dirección URL, puede mostrar esa información en Workfront creando una página externa en un panel.
+Puede incrustar una página web externa en un panel para proporcionar acceso a información relacionada desde otros sistemas o desde Adobe Workfront.
+
+Por ejemplo, si su organización tiene un repositorio de documentos basado en web, una wiki u otro sistema de administración de contenido que contenga información del proyecto a la que se accede regularmente a través de una dirección URL, puede mostrar esa información en Workfront creando una página externa en un panel.
 
 >[!IMPORTANT]
 >
->Por motivos de seguridad, algunos sitios web no permiten incrustar páginas web como iframe. Si la página web que desea incrustar en un tablero no lo permite, la página no se muestra en el tablero. Sin embargo, aún puede acceder a la página externa haciendo clic en el nombre del tablero.\
+>* Por motivos de seguridad, algunos sitios web no permiten incrustar páginas web como un iframe. Si la página web que desea incrustar en un panel no lo permite, la página no se muestra en el panel. Sin embargo, aún puede acceder a la página externa haciendo clic en el nombre del panel.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Para permitir la incrustación de un sitio web propio, trabaje con el administrador web para ajustar la variable **X-Frame-Options** configuración. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
-
-
->[!IMPORTANT]
+>Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para ajustar la variable **X-Frame-Options** configuración. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
->Las páginas de tablero ya no se admiten como páginas externas incorporadas en tableros. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación a un tablero que incluya tal referencia no se podrá guardar hasta que la referencia se elimine o cambie.
 >
->En concreto, los siguientes subdominios de Workfront.com ya no son compatibles:
+>* Las páginas de panel ya no se admiten como páginas externas incrustadas en los paneles. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un tablero que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
+> En concreto, ya no se admiten los siguientes subdominios Workfront.com:
 >
->* /&#x200B; de tableros
->* /dashboard/:&#x200B; de ID
->* /portafolio/:ID/content-dashboard__:&#x200B; de ID de panel
->* /program/:ID/content-dashboard__:dashboardID &#x200B;
->* /project/:ID/content-dashboard__:dashboardID &#x200B;
->* /task/:ID/content-dashboard__:dashboardID &#x200B;
->* /template/:ID/content-dashboard__:dashboardID &#x200B;
->* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
->* /resourcemanagement/:ID/content-dashboard__:&#x200B; de ID de panel
->* /team/:ID/content-dashboard__:dashboardID &#x200B;
->* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
->* /request/:ID/content-dashboard__:dashboardID &#x200B;
->* /group/:ID/content-dashboard__:dashboardID &#x200B;
->* /billingrecord/:ID/content-dashboard__:dashboardID
+>     * /paneles&#x200B;
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /resourcemanagement/:ID/
+>     * content-dashboard__:dashboardID&#x200B;
+>     * /team/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /iteration/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /group/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Como solución alternativa, considere la posibilidad de incluir un informe de lista en su panel, tal como se explica en [Agregar un informe a un tablero](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Como solución alternativa, considere la posibilidad de incluir un informe de lista en su panel de control como se explica en [Adición de un informe a un panel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Requisitos de acceso
 
@@ -58,112 +58,124 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Actual: plan </p>
+   O
+   <p>Nuevo: estándar </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en el tablero</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
 Debe crear un tablero para poder incrustar una página externa en él.
 
-Para obtener información sobre la creación de tableros, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Para obtener información sobre la creación de paneles, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-## Incrustar una página externa en un tablero
+## Incrustar una página externa en un panel
 
 >[!IMPORTANT]
 >
->Puede eliminar una página externa de un tablero si ya no la necesita. Sin embargo, no puede eliminar una página externa después de haberla creado en Workfront. Solo puede eliminar una página externa mediante la API. Para obtener más información, consulte [Eliminar una página externa de un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>Puede quitar una página externa de un panel si ya no la necesita. Sin embargo, no puede eliminar una página externa después de crearla en Workfront. Solo puede eliminar una página externa mediante la API. Para obtener más información, consulte [Eliminación de una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
-1. Busque la dirección URL de la página para mostrarla en Workfront y copie la dirección URL ubicada en la barra de direcciones.
+1. Busque la dirección URL de la página que se mostrará en Workfront y copie la dirección URL ubicada en la barra de direcciones.
 
    >[!NOTE]
    >
-   >Si comparte direcciones URL con objetos de Workfront, recuerde que algunas direcciones URL caducan con el tiempo. Por ejemplo, las direcciones URL del documento caducan después de abrirse. Esto se configura como una medida de seguridad y por diseño se consideran direcciones URL no estáticas y no se deben compartir.
+   >Si comparte direcciones URL con objetos de Workfront, recuerde que algunas caducan con el paso del tiempo. Por ejemplo, las direcciones URL de documentos caducan después de abrirse. Se configura como una medida de seguridad y, por diseño, se consideran direcciones URL no estáticas y no deben compartirse.
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png)y haga clic en **Tableros**.
+{{step1-to-dashboards}}
 
-1. Para editar un tablero existente, seleccione el tablero en el que desea incrustar la página del sitio web y, a continuación, haga clic en **Acciones del panel** y seleccione **Editar** del menú .\
-   O\
-   Para crear un tablero nuevo, haga clic en **Nuevo tablero**.\
-   Para obtener más información sobre cómo crear un tablero, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+1. Para editar un tablero existente, seleccione el tablero en el que desea incrustar la página del sitio web y, a continuación, haga clic en **Acciones de panel**, luego haga clic en **Editar**
+O\
+   Para crear un nuevo tablero, haga clic en **Nuevo panel**.\
+   Para obtener más información sobre la creación de tableros, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Haga clic en **Agregar página externa**.
+1. Clic **Agregar página externa** en el **Seleccionar diseño/ Agregar informes/ Agregar calendarios** área.
 
    ![](assets/qs-add-external-page-350x239.png)
 
-1. Especifique un **Nombre** para la página externa .
-1. Especifique un **Descripción**.
-1. Pegue la dirección URL que ha copiado anteriormente en el **URL** campo .\
-   Puede especificar los siguientes tipos de direcciones URL:
+   El **Agregar página externa** aparece el cuadro.
 
-   * Una URL (cifrada) https a una página web.\
-      Solo las páginas https (cifradas) se cargan con la dirección URL.\
-      ![](assets/add-external-page-dialog-qs-350x247.png)
+1. Especifique la siguiente información sobre la página externa:
 
-   * Una URL de plantilla que contiene información de sesión de un sitio web específico.\
-      Por ejemplo: *https://localhost/?session={!$$SESSION}*
-Debe iniciar sesión en el sitio web especificado para mostrar la Página externa.\
-      Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos de API](../../../wf-api/general/api-basics.md).\
-      El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de la información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel.\
-      Para obtener más información sobre las preferencias de seguridad del sistema, consulte [Configuración de las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
-      ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+   * **Nombre**: Añada un nombre para el tablero.
+   * **Descripción**: Agregue más información sobre el tablero para identificar la información que contiene. La descripción se muestra en el panel para todas las personas que tengan acceso a ella después de guardarla.
+   * **URL**: Pegue la dirección URL que ha copiado anteriormente en este campo.
 
-1. Haga clic en **Guardar**.\
-   La página se agrega automáticamente al panel. Si se crean tableros futuros, se puede agregar la página externa. La página externa se encuentra entre los informes disponibles.
+     Puede especificar los siguientes tipos de direcciones URL:
+
+      * Una URL https (cifrada) a una página web.\
+        Solo las páginas https (cifradas) se cargan con la dirección URL.\
+        ![](assets/add-external-page-dialog-qs-350x247.png)
+
+      * Dirección URL de plantilla que contiene información de la sesión de un sitio web específico.\
+        Por ejemplo: *https://localhost/?session={!$$SESSION}*
+Debe haber iniciado sesión en el sitio web especificado para mostrar la página externa.\
+        Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos de API](../../../wf-api/general/api-basics.md).\
+        El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel.\
+        Para obtener más información sobre las preferencias de seguridad del sistema, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+   * **Altura**: escriba un número mayor que 0 para definir el espacio que ocupa la página externa en el panel. La altura predeterminada es 500.
+
+1. Haga clic en **Guardar**.
+
+   La página se agrega automáticamente al panel.
+
+   Si crea paneles adicionales, puede encontrar esta página externa y agregarla a otros paneles. Puede encontrar todas las páginas externas existentes en la lista de Informes y calendarios disponibles al crear o editar un tablero.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: Alina: *** This is linked to: Creating Dashboards, and Editing Dashboards.)
-   </MadCap:conditionalText>
+    *** This is linked to: Creating Dashboards, and Editing Dashboards.
    -->
 
-## Actualizar una página externa en un tablero
+## Actualización de una página externa en un panel
 
-Para actualizar la información de una página externa utilizada en un tablero:
+Para actualizar la información de una página externa utilizada en un panel:
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png)y haga clic en **Tableros**.
-1. Seleccione el tablero que desea actualizar y haga clic en **Editar** ![](assets/edit-icon.png).
+{{step1-to-dashboards}}
 
-   ![Seleccione el icono Editar .](assets/nwe-editdashboard2021-350x188.png)
+1. Haga clic en el nombre del tablero que desea actualizar para abrirlo y haga clic en **Acciones de panel**, entonces **Editar**.
 
-1. En el lado derecho de la pantalla, busque la página externa que desee actualizar y haga clic en el botón **Editar** icono.\
+   El **Detalles del panel** se abre el cuadro.
+
+1. En el **Seleccionar diseño / Agregar informes / Agregar calendarios** área de la **Detalles del panel** , busque la página externa que desea actualizar, pase el ratón sobre ella y haga clic en **Editar** icono.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. En el **Editar página externa** , actualice los campos que desee cambiar y haga clic en **Guardar**.
-1. (Opcional) Haga clic en el **Eliminar** icono ![](assets/delete.png) para eliminar la página externa del tablero. Para obtener más información, consulte [Eliminar una página externa de un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. En la esquina inferior izquierda, haga clic en **Guardar + Cerrar**.
+1. (Opcional) Haga clic en **Eliminar** icono ![](assets/delete.png) para eliminar la página externa del panel. Para obtener más información, consulte [Eliminación de una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. Haga clic en **Guardar + Cerrar**.
 
-## Ver páginas externas en un informe
+## Visualización de páginas externas en un informe
 
 Puede ver todas las páginas externas en Workfront en un informe de página externa.
 
-1. Vaya a la **Menú principal** icono ![](assets/main-menu-icon.png) > **Informes**.
-1. Haga clic en **Nuevo informe** > seleccione **Página externa**.
+{{step1-to-reports}}
+
+1. Clic **Nuevo informe** > seleccionar **Página externa**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Opcional) Actualice las pestañas Ver, Filtros o Agrupaciones del informe.
 
-   Para obtener más información, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Haga clic en **Guardar y cerrar**.
+1. Clic **Guardar + Cerrar**.
 
-   Puede ver el nombre y la dirección URL asociados con las páginas externas del sistema en el nuevo informe.
+   Puede ver el nombre y la dirección URL asociada con las páginas externas en el sistema en el nuevo informe.
 
    ![](assets/external-page-report-name-url-columns-nwe-350x213.png)
