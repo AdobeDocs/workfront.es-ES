@@ -7,7 +7,7 @@ description: La fecha proyectada de finalización es un indicador calculado en t
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas
+
+<!-- Audited: 1/2024 -->
 
 La fecha proyectada de finalización es un indicador calculado en tiempo real de cuándo se completará el proyecto, la tarea o el problema. Cuando el proyecto, tarea o problema se marca como Completado, la Fecha proyectada de finalización cambia a la fecha real de finalización.
 

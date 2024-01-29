@@ -6,11 +6,11 @@ keywords: usuario, programación
 navigation-topic: configure-timesheets-and-schedules
 title: Información general sobre horarios
 description: Puede definir la semana laboral utilizando los horarios. Puede asociar una programación a un usuario o proyecto. Esto permite [!DNL Adobe Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte Creación de una programación.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Información general sobre horarios
 
+<!-- Audited: 1/2024 -->
+
 Puede definir la semana laboral mediante los horarios y asociar un horario a un usuario o proyecto. Esto permite [!DNL Adobe Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Tenga en cuenta lo siguiente al trabajar con programaciones en Workfront:
 
 * El [!DNL Workfront] El administrador identifica las horas de funcionamiento de la organización en una programación.
 
-  Del mismo modo, un administrador de grupo puede identificar las horas de funcionamiento de una programación administrada por un grupo que administra.
-
-  Para obtener más información sobre los administradores de grupo, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Del mismo modo, un administrador de grupo puede identificar las horas de funcionamiento de una programación administrada por un grupo que administra. Para obtener más información sobre los administradores de grupo, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Por ejemplo, una programación se puede definir como: de lunes a viernes, de 8 a. m. a 5 p. m., con una pausa horaria para el almuerzo.
 

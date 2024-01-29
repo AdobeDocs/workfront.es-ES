@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Tipo de duración] </p> </td> 
-   <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración de la tarea y tipos de duración</a></p> </td> 
+   <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración de la tarea y tipos de duración: índice del artículo</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de ingresos]</td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,23 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Creación y configuración del acceso a una sección de un formulario personalizado
 

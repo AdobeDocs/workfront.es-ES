@@ -6,9 +6,9 @@ description: Conversión de un problema en un proyecto en Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1969'
 ht-degree: 1%
 
 ---
@@ -40,9 +40,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar </p> 
+    <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -55,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Convertir un problema en un proyecto
 
