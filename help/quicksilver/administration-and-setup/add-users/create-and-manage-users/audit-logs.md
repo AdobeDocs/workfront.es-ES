@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante registros de auditoría.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 4%
+source-wordcount: '1464'
+ht-degree: 3%
 
 ---
 
 # Registros de auditoría
+
+<!--Audited: 01/2024-->
 
 Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante los registros de auditoría que se describen a continuación.
 
@@ -23,7 +25,7 @@ Para obtener instrucciones sobre cómo ver y filtrar lo que desea ver en estos r
 
 ## Información que puede encontrar en un registro de auditoría
 
-Los campos siguientes se registran en cada entrada de registro de auditoría:
+En cada entrada de registro de auditoría se registran los campos siguientes:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Los campos siguientes se registran en cada entrada de registro de auditoría:
   </tr> 
   <tr> 
    <td role="rowheader">Tipo de registro</td> 
-   <td>Tipo del registro de auditoría, como Nivel de acceso o Formulario personalizado.</td> 
+   <td>Tipo de registro de auditoría, como nivel de acceso o formulario personalizado.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de usuario</td> 
@@ -43,7 +45,7 @@ Los campos siguientes se registran en cada entrada de registro de auditoría:
   </tr> 
   <tr> 
    <td role="rowheader">Acción</td> 
-   <td> Acción realizada por el usuario, como Cambiar, Crear y Eliminar. </td> 
+   <td> Acciones realizadas por el usuario, como Cambiar, Crear y Eliminar. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objeto</td> 
@@ -60,7 +62,7 @@ Los campos siguientes se registran en cada entrada de registro de auditoría:
  </tbody> 
 </table>
 
-## Tipos de registro de auditoría y las acciones que los déclencheur
+## Tipos de registros de auditoría y las acciones que los almacenan en déclencheur
 
 * [Nivel de acceso](#access-level)
 * [Compañía](#company)
@@ -68,12 +70,12 @@ Los campos siguientes se registran en cada entrada de registro de auditoría:
 * [Campo personalizado](#custom-field)
 * [Formularios personalizados](#custom-forms)
 * [Sección personalizada](#custom-section)
-* [tarifa de cambio](#exchange-rate)
+* [Tipo de cambio](#exchange-rate)
 * [Grupo](#group)
-* [Roles](#job-roles)
-* [Intento de inicio de sesión](#login-attempt)
+* [Funciones del puesto](#job-roles)
+* [Intento de inicio](#login-attempt)
 * [Prioridad](#priority)
-* [Preferencias de proyecto](#project-preferences)
+* [Preferencia del proyecto](#project-preference)
 * [Gravedad](#severity)
 * [Estado](#status)
 * [Preferencias de tareas y problemas](#tasks-issues-preferences)
@@ -88,32 +90,32 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
 * Cambia un nivel de acceso:
 
    * Modifica el tipo de licencia
-   * Cambia los permisos de Proyectos, Tareas, Problemas, Portfolio, Programas, Informes, Documentos, Usuarios o Plantillas
+   * Cambia los permisos a Proyectos, Tareas, Problemas, Portfolio, Programas, Informes, Documentos, Usuarios o Plantillas
 
-      >[!NOTE]
-      >
-      >El sistema no registra ningún cambio en los permisos de Datos financieros ni dentro de los siguientes tipos de acceso: Ver y editar.
-      >
-      >Por ejemplo, si un usuario cambia el tipo de acceso Planificador de Vista a Editar, el sistema no mostrará la información contenida en el menú desplegable Ajustar la configuración .
+     >[!NOTE]
+     >
+     >El sistema no registra ningún cambio de permiso en los datos financieros o en los siguientes tipos de acceso: Ver y Editar.
+     >
+     >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
 
 ### Compañía {#company}
 
-El sistema genera una entrada de registro de auditoría de la empresa cuando un usuario realiza una de las siguientes acciones:
+El sistema genera una entrada de registro de auditoría de la compañía cuando un usuario realiza una de las siguientes acciones:
 
 * Crea una empresa
-* Cambia una empresa:
+* Cambia una compañía:
 
-   * Cambia el nombre
-   * Agrega o elimina miembros
+   * Cambiarle el nombre
+   * Agrega o quita miembros
    * Agrega, edita o elimina el valor en su campo Grupo
-   * Agrega o edita una tasa de facturación de la empresa para una función de trabajo
-   * Elimina una tasa de facturación de la empresa para una función de trabajo
-   * Lo establece como la empresa principal para la organización
+   * Agrega o edita una tarifa de facturación de compañía para un rol
+   * Quita una tarifa de facturación de la compañía para un rol
+   * La establece como la compañía principal de la organización
    * Adjunta o quita un formulario personalizado
 
-* Elimina una empresa
+* Elimina una compañía
 
-Para obtener más información sobre los estados, consulte [Resumen de los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Para obtener más información sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Condición {#condition}
 
@@ -124,36 +126,36 @@ El sistema genera una entrada de registro de auditoría de condiciones cuando un
 
    * Cambia el nombre
    * Cambia el color
-   * Lo establece como predeterminado
-   * Cambia o elimina la descripción de la condición
+   * La establece como predeterminada
+   * Cambia o quita la descripción de la condición
    * Oculta o muestra la condición
 
 * Elimina una condición
 
-Para obtener más información sobre la configuración de funciones de trabajo, consulte [Creación o edición de una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Para obtener más información sobre la configuración de funciones, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Campo personalizado {#custom-field}
 
-El sistema genera una entrada de registro de auditoría de campos personalizados cuando un usuario realiza una de las siguientes acciones:
+El sistema genera una entrada de registro de auditoría de campo personalizado cuando un usuario realiza una de las siguientes acciones:
 
 * Crea un campo personalizado
 * Cambia un campo personalizado:
 
-   * Cambia el nombre, la etiqueta, las instrucciones o el formato
+   * Cambia el nombre, etiqueta, instrucciones o formato
    * Cambia el tipo de visualización
 
-      Esto solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, lista desplegable, casilla de verificación, botón de radio
+     Esta opción solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, lista desplegable, casilla de verificación o botón de opción
 
    * Cambia el tamaño del campo
 
-      Esto solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, texto con formato
+     Esto solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, texto con formato
 
-   * Agrega, elimina u oculta una opción de campo
-   * Edita una etiqueta o un valor de opción de campo
-   * Configura la opción de campo que se va a seleccionar o que no se va a seleccionar de forma predeterminada
-   * Configura un campo desplegable para permitir varias selecciones o una sola selección
+   * Agrega, quita u oculta una opción de campo
+   * Edita una etiqueta de opción de campo o un valor
+   * Configura la opción de campo que se va a seleccionar o no seleccionar de forma predeterminada
+   * Configura un campo desplegable para permitir varias selecciones o una sola
    * Configura un campo de fecha para mostrar o no la hora del día
-   * Edita el hipervínculo o cambia el valor de un campo de texto descriptivo
+   * Edita el hipervínculo o cambia el valor en un campo de texto descriptivo
 
 * Elimina un campo personalizado
 * Comparte un campo personalizado
@@ -166,16 +168,16 @@ El sistema genera una entrada de registro de auditoría de Forms personalizada c
 * Cambia un formulario personalizado:
 
    * Cambia el nombre o la descripción
-   * Habilita o deshabilita está activo
-   * Agrega o quita un campo o una sección
+   * Activa o desactiva la opción
+   * Agrega o quita un campo o sección
    * Para una sección personalizada, cambia una configuración en Configuración adicional
    * Cambia un campo a obligatorio o no obligatorio
    * Cambia un cálculo en un campo personalizado
-   * Oculta o muestra la fórmula asociada a un campo calculado en el texto del pase de instrucciones
-   * Habilita o deshabilita Actualizar cálculos anteriores
-   * Agrega o cambia la lógica de omisión o la lógica de visualización
+   * Oculta o muestra la fórmula asociada a un campo calculado en el texto de desplazamiento Instrucciones
+   * Activa o desactiva la actualización de cálculos anteriores
+   * Agrega o cambia lógica de omisión o de visualización
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -190,22 +192,22 @@ El sistema genera una entrada de registro de auditoría de sección personalizad
 * Cambia el nombre o la descripción de una sección personalizada
 * Elimina una sección personalizada
 
-Para obtener información sobre las secciones personalizadas en los formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre las secciones personalizadas de los formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### tarifa de cambio {#exchange-rate}
 
-El sistema genera una entrada de registro de auditoría de tipo de cambio cuando un usuario realiza una de las siguientes acciones:
+El sistema genera una entrada de registro de auditoría de tasa de cambio cuando un usuario realiza una de las siguientes acciones:
 
 * Crea un tipo de cambio
 * Cambia un tipo de cambio:
 
    * Agrega una moneda
    * Cambia la tasa de la moneda
-   * Establece la moneda como moneda base (predeterminada) para todos los proyectos e informes del sistema
+   * Establece la moneda como la moneda base (predeterminada) para todos los proyectos e informes del sistema
 
-* Elimina un tipo de cambio
+* Elimina una tasa de cambio
 
-Para obtener más información sobre la configuración de las tasas de cambio, consulte [Configurar tipos de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para obtener más información acerca de la configuración de tasas de cambio, consulte [Configurar tasas de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Grupo {#group}
 
@@ -215,38 +217,38 @@ El sistema genera una entrada de registro de auditoría de grupo cuando un usuar
 * Elimina un grupo
 * Cambia un grupo:
 
-   * Agrega o elimina usuarios
-   * Agrega o elimina subgrupos
+   * Agrega o quita usuarios
+   * Agrega o quita subgrupos
 
 ### Roles {#job-roles}
 
 El sistema genera una entrada de registro de auditoría de funciones de trabajo cuando un usuario realiza una de las siguientes acciones:
 
-* Crea una función de trabajo
-* Cambia una función de trabajo:
+* Crea un rol
+* Cambia un rol:
 
    * Cambia el nombre
-   * Agrega, cambia o elimina la descripción
-   * Agrega, cambia o elimina el coste por hora (costo/hora)
-   * Agrega, cambia o elimina la tasa de facturación (Facturación/Hr.)
+   * Agrega, cambia o quita la descripción
+   * Agrega, cambia o quita el costo por hora (costo/hora)
+   * Agrega, cambia o elimina la tarifa de facturación (factura/hora)
 
-* Elimina una función de trabajo
+* Elimina un rol
 
-Para obtener más información sobre la configuración de funciones de trabajo, consulte [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obtener más información sobre la configuración de funciones, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Intento de inicio de sesión {#login-attempt}
 
 El sistema genera una entrada de registro de auditoría de intento de inicio de sesión cuando un usuario realiza una de las siguientes acciones:
 
-* Inicia sesión, cierra sesión o falla en un intento de inicio de sesión en Workfront (en un explorador y en la aplicación móvil)
-* Inicie sesión, cierre la sesión o falle un intento de inicio de sesión en cualquier integración de Workfront (como Workfront para Slack y Workfront para Salesforce)
+* Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en Workfront (en un explorador y en la aplicación móvil)
+* Inicia sesión, cierra la sesión o falla en un intento de inicio de sesión en cualquier integración de Workfront (como Workfront para Slack y Workfront para Salesforce)
 * Inicia sesión o cierra sesión en la API de Workfront
 
-Los registros de intentos de inicio de sesión no registran cuando un administrador de Workfront utiliza la función Iniciar sesión como .
+Inicio de sesión Los registros de intentos no registran cuándo un administrador de Workfront utiliza la función Iniciar sesión como.
 
 >[!NOTE]
 >
->Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Si necesita más información, consulte con su administrador de red o TI.
+>Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.
 
 ### Prioridad {#priority}
 
@@ -257,73 +259,73 @@ El sistema genera una entrada de registro de auditoría de prioridad cuando un u
 
    * Cambia el nombre
    * Cambia el color
-   * Lo establece como predeterminado
-   * Agrega, cambia o elimina la descripción de la prioridad
+   * La establece como predeterminada
+   * Agrega, cambia o quita la descripción de la prioridad
    * Oculta o muestra la prioridad
 
 * Elimina una prioridad
 
-Para obtener más información sobre la configuración de prioridades, consulte [Crear y personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obtener más información sobre la configuración de prioridades, consulte [Creación y personalización de prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Preferencias de proyecto {#project-preferences}
+### Preferencia del proyecto {#project-preference}
 
 El sistema genera una entrada de registro de auditoría Preferencias del proyecto cuando un usuario realiza una de las siguientes acciones:
 
 * Crea un trimestre personalizado
-* Cambia las preferencias de un proyecto:
+* Cambia una preferencia de proyecto:
 
-   * Bloquea o desbloquea
+   * Lo bloquea o desbloquea
    * Cambia una de sus configuraciones
-   * La activa, desactiva o edita
-   * Edita un cálculo de línea de tiempo
+   * Lo habilita, deshabilita o edita
+   * Edita un cálculo de escala de tiempo
 
 * Elimina un trimestre personalizado
 
-Para obtener más información sobre las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información sobre las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravedad {#severity}
 
 El sistema genera una entrada de registro de auditoría de gravedad cuando un usuario realiza una de las siguientes acciones:
 
-* Crea una gravedad de problema
-* Cambia la gravedad del problema:
+* Crea una gravedad del problema
+* Cambia la gravedad de un problema:
 
    * Cambia el nombre
    * Cambia el color
-   * Lo establece como predeterminado
+   * La establece como predeterminada
    * Cambia o elimina la descripción de la gravedad
    * Oculta o muestra la gravedad
 
 * Elimina una gravedad del problema
 
-Para obtener más información sobre la configuración de funciones de trabajo, consulte [Crear o personalizar grupos de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Para obtener más información sobre la configuración de funciones, consulte [Crear o personalizar gravedades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Estado {#status}
 
 El sistema genera una entrada de registro de auditoría de estado cuando un usuario realiza una de las siguientes acciones:
 
 * Crea un estado en el nivel de sistema o grupo
-* Cambia un estado a nivel de sistema o grupo:
+* Cambia un estado en el sistema o en el nivel de grupo:
 
-   * Cambia el nombre
+   * Cambiarle el nombre
    * Lo convierte en un estado predeterminado
-   * Bloquea o desbloquea
-   * Oculta o desoculta
+   * Lo bloquea o desbloquea
+   * Lo oculta o no lo oculta
    * Cambia el color o la descripción
 
-* Elimina un estado en el nivel de sistema o grupo
+* Elimina un estado en el sistema o en el nivel de grupo
 
-Para obtener más información sobre los estados, consulte [Resumen de los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Para obtener más información sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Preferencias de tareas y problemas {#tasks-issues-preferences}
 
-El sistema genera una entrada de registro de auditoría de Preferencias de tareas y problemas cuando un usuario cambia una preferencia de Tareas y problemas de una de las siguientes maneras:
+El sistema genera una entrada de registro de auditoría Preferencias de tareas y problemas cuando un usuario cambia una preferencia de tareas y problemas de una de las siguientes maneras:
 
 * Bloquea o desbloquea una preferencia
 * Cambia la configuración de una preferencia
-* Cambia una configuración de acceso para tareas, problemas o solicitudes
+* Cambia una configuración de Access para tareas, problemas o solicitudes
 
-Para obtener más información sobre las preferencias de tareas y problemas, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obtener más información sobre las preferencias de tareas y problemas, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Usuario {#user}
 
@@ -331,15 +333,15 @@ El sistema genera una entrada de registro de auditoría de usuario cuando un usu
 
 * Crea un usuario
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Si necesita más información, consulte con su administrador de red o TI.
+  >[!NOTE]
+  >
+  >Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.
 
 * Elimina un usuario
 * Cambia el nivel de acceso, la empresa, el equipo o el grupo de un usuario

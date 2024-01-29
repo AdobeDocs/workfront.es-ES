@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Crear registros agregándolos manualmente a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Puede crear registros en la vista de tabla de una página de tipo de registro.
+
+Para obtener información sobre cómo editar la información de registro, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 {#step1-to-maestro}
 

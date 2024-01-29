@@ -7,16 +7,20 @@ description: Puede comprobar si un equipo está por encima, por debajo o por deb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
 
 # Vea la visualización de la capacidad de los recursos en el análisis mejorado
 
+<!--Audited: 01/2024-->
+
 Puede comprobar si un equipo está por encima, por debajo o por debajo de la capacidad cuando visualice el gráfico de visualización de capacidad de recursos de análisis mejorado en Adobe Workfront.
+
+Los equipos ilustrados en la visualización de recursos hacen referencia al equipo de inicio de los usuarios asignados al trabajo durante el período de tiempo especificado.
 
 ## Requisitos de acceso
 
@@ -56,9 +60,9 @@ Debe tener lo siguiente:
 
 Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprender el gráfico de capacidad de recursos
+## Comprender la visualización de la capacidad de recursos
 
-El gráfico Capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad. Este cálculo se basa en:
+La visualización de la capacidad de los recursos muestra si un equipo está por encima, por debajo o por debajo de su capacidad. Este cálculo se basa en:
 
 * **Capacidad disponible**: Cantidad total de horas que un equipo de inicio tiene disponibles para trabajar en el período de tiempo filtrado
 
@@ -90,24 +94,25 @@ En la visualización de la capacidad de los recursos, puede ver los siguientes d
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Al pasar el ratón por encima de una fila, se muestra la cantidad exacta de horas de capacidad planificada y capacidad disponible, así como la cantidad de horas que el equipo de inicio ha superado o está por debajo de la capacidad.
+Al pasar el ratón por encima de la fila de un equipo, se muestra la cantidad exacta de horas de capacidad planificada y capacidad disponible, así como la cantidad de horas que el equipo de inicio está por encima o por debajo de la capacidad.
 
 Ver esta información le ayuda a determinar lo siguiente:
 
-* Si el equipo de inicio estaba sobreasignado o infraasignado.
-* ¿En qué fueron los proyectos más grandes en los que se centró el equipo local?
-* Qué equipos locales están disponibles para el trabajo.
+* Si el equipo está sobreasignado o infraasignado.
+* ¿Cuáles son los proyectos más grandes en los que se centra el equipo local?
+* Qué equipos están disponibles para trabajar.
 
 Para obtener los mejores datos para esta visualización, consulte [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualización de la visualización de la capacidad de recursos
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
+{{step1-to-analytics}}
+
 1. En el panel izquierdo, seleccione **People**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas.
+1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas, en la esquina superior derecha del gráfico.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Pase el ratón sobre la línea del equipo de inicio para ver cuántas horas están disponibles para programar, la cantidad de horas planificadas para que el equipo de inicio finalice y la cantidad total de horas trabajadas, que se etiquetan como superiores, inferiores o al límite de capacidad.
+1. Pase el ratón sobre la línea de equipo local para ver lo siguiente:
+
+   * Cuántas horas quedan disponibles para programar
+   * Cantidad de horas planificadas para que el equipo de inicio finalice
+   * Número total de horas trabajadas. El número total de horas trabajadas podría tener las siguientes etiquetas:
+
+      * Cambio
+      * En
+      * A capacidad.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

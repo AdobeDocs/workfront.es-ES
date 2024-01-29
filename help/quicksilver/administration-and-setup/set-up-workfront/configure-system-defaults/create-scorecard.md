@@ -3,27 +3,29 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear un informe de valoración
-description: Un informe de valoración mide en qué medida un proyecto se ajusta a los criterios establecidos anteriormente para un portafolio. Un informe de valoración a menudo refleja la misión, los valores y los objetivos estratégicos de una organización. Los administradores de Portfolio suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] el administrador crea los informes de valoración en función de las recomendaciones de los administradores de portafolios.
-author: Caroline
+description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un informe de valoración suele reflejar la misión, los valores y los objetivos estratégicos de una organización.Los administradores de Portfolio suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] El administrador crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Crear un informe de valoración
 
+<!--Audited: 01/2024-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Un informe de valoración mide en qué medida un proyecto se ajusta a los criterios establecidos anteriormente para un portafolio. Un informe de valoración a menudo refleja la misión, los valores y los objetivos estratégicos de una organización.
+Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y los objetivos estratégicos de una organización.
 
-Los administradores Portfolio suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] el administrador crea los informes de valoración en función de las recomendaciones de los administradores de portafolios.
+Los administradores de Portfolio suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] El administrador crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
 
-Las preguntas y respuestas seleccionadas para un informe de valoración deben ser cuantificables para proporcionar un valor de alineación a fin de comparar diferentes proyectos.
+Las preguntas y respuestas seleccionadas para un cuadro de resultados deben ser cuantificables para proporcionar un valor de alineación y comparar diferentes proyectos.
 
 ## Requisitos de acceso
 
@@ -34,27 +36,33 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Actual: [!UICONTROL Empresa] o superior</p> 
+   O
+   <p>Nuevo: [!UICONTROL Prime] o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td><p>Actual:[!UICONTROL plan]</p>
+   O
+   <p>Nuevo: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Crear un informe de valoración
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Configuración]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Informes de valoración]** y haga clic en **[!UICONTROL Nuevo informe de valoración]** para crear un nuevo informe de valoración e iniciar el generador de informes de valoración.
+1. Clic **[!UICONTROL Cuadros de resultados]**, luego haga clic en **[!UICONTROL Nuevo informe de valoración]** para iniciar el generador de cuadros de resultados y crear un cuadro de resultados.
 
-1. Especifique un **[!UICONTROL Nombre del informe de valoración]** y **[!UICONTROL Descripción]**.
+1. Especifique un **[!UICONTROL Nombre del informe de valoración]** y una **[!UICONTROL Descripción]**.
 
-   El nombre se muestra cuando asocia el informe de valoración con el proyecto. La descripción se muestra junto al nombre del informe de valoración en la lista del informe de valoración.
+   El nombre se muestra al asociar el cuadro de resultados con el proyecto. La descripción se muestra junto al nombre del cuadro de mandos en la lista Cuadro de mandos.
 
-1. Haga clic en el **[!UICONTROL Agregar pregunta]** menú desplegable para abrir el [!UICONTROL pregunta de informe de valoración] y, a continuación, especifique la siguiente información para su pregunta:
+1. Haga clic en **[!UICONTROL Añadir pregunta]** menú desplegable para abrir el [!UICONTROL pregunta del cuadro de resultados] y, a continuación, especifique la siguiente información para la pregunta:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,35 +73,35 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td>Escriba la pregunta que desee incluir en el informe de valoración.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Points]</td> 
-      <td>Escriba los puntos máximos posibles para esta pregunta.</td> 
+      <td role="rowheader">[!UICONTROL Puntos]</td> 
+      <td>Escriba el máximo de puntos posible para esta pregunta.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Puntos negativos]</td> 
-      <td>Seleccione esta opción para indicar que [!DNL Workfront] debe restar del total de puntos posibles. Las puntuaciones negativas no se pueden agregar a los puntos máximos posibles de un informe de valoración.</td> 
+      <td>Seleccione esta opción para indicar que [!DNL Workfront] debe restar del total de puntos posibles. Las puntuaciones negativas no se pueden agregar al máximo de puntos posibles de un cuadro de resultados.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tipo de pantalla]</td> 
-      <td>Select <strong>[!UICONTROL Value(0-100)]</strong> si desea mostrar un campo numérico en el informe de valoración en el que los usuarios pueden especificar cualquier valor entre 0 y 100.<p>O bien, seleccione <strong>[!UICONTROL Desplegable]</strong> o <strong>[!UICONTROL Botones de radio]</strong> para crear una respuesta, los usuarios pueden especificar mediante ese control. Haga clic en <strong>[!UICONTROL Agregar respuesta]</strong>y, a continuación, escriba la variable <strong>[!UICONTROL Valor]</strong> en puntos porcentuales para esta respuesta, en caso de que se cumpla. Si elige 100 %, el número de puntos asignados para esta pregunta se alcanza por completo. Si desea indicar que esta respuesta solo contiene una parte de la cantidad total de puntos asignados a esta pregunta, seleccione un valor de porcentaje inferior. Por ejemplo, si la pregunta se valora en 10 puntos y desea que esta respuesta lleve 5 de esos puntos, elija el 50% para el valor.</p>
-      <p>Select <strong>[!UICONTROL Predeterminado]</strong> si desea indicar que esta respuesta es la predeterminada.</strong></p>
+      <td>Seleccionar <strong>[!UICONTROL Valor(0-100)]</strong> si desea mostrar un campo numérico en el cuadro de mandos en el que los usuarios pueden especificar cualquier valor entre 0 y 100.<p>O bien, seleccione <strong>Lista desplegable de [!UICONTROL]</strong> o <strong>Botones de opción [!UICONTROL]</strong> para crear una respuesta, los usuarios pueden especificar mediante ese control. Clic <strong>[!UICONTROL Agregar respuesta]</strong>, luego escriba el <strong>[!UICONTROL Valor]</strong> en puntos porcentuales para esta respuesta, en caso de que se cumpla. Si elige 100%, el número de puntos asignados para esta pregunta se alcanza por completo. Si desea indicar que esta respuesta sólo incluye una parte de la cantidad total de puntos asignados a esta pregunta, seleccione un valor porcentual inferior. Por ejemplo, si su pregunta tiene un valor de 10 puntos y desea que esta respuesta contenga 5 de esos puntos, elija 50% para su valor.</p>
+      <p>Seleccionar <strong>[!UICONTROL Predeterminado]</strong> si desea indicar que esta respuesta es la predeterminada.</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Agregar pregunta]** para agregar más preguntas y respuestas al informe de valoración, siga los mismos pasos.
+1. Clic **[!UICONTROL Añadir pregunta]** para agregar más preguntas y respuestas al informe de valoración, siga los mismos pasos.
 
    >[!NOTE]
    >
-   >Puede reordenar las preguntas en el informe de valoración arrastrando y soltando las preguntas en el orden correcto.
+   >Puede reordenar las preguntas del cuadro de resultados arrastrando y soltando las preguntas en el orden correcto.
 
-1. Haga clic en **[!UICONTROL Guardar]** cuando haya terminado de introducir los datos.
+1. Clic **[!UICONTROL Guardar]** cuando haya terminado de introducir toda la información.
 
-## Aplicar un informe de valoración a un proyecto
+   Esto crea el cuadro de resultados y los jefes de proyecto ahora pueden adjuntarlo a su caso comercial del proyecto.
 
-Un usuario con [!UICONTROL administrar] Los permisos de un proyecto pueden aplicar un informe de valoración a un proyecto, una vez que el informe de valoración ha sido creado por el [!DNL Workfront] administrador.
+## Aplicar un cuadro de resultados a un proyecto
 
-Se agrega un informe de valoración a un proyecto como parte de la creación de un caso empresarial para el proyecto. Para obtener más información sobre cómo agregar un informe de valoración a un proyecto, consulte [Aplicar un informe de valoración a un proyecto y generar una puntuación de alineación](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Un usuario con [!UICONTROL administrar] Los permisos de para un proyecto pueden aplicar un cuadro de resultados a un proyecto, una vez que el [!DNL Workfront] administrador.
 
-Para obtener más información sobre la creación de informes de valoración, consulte [Crear un informe de valoración](#create-a-scorecard).
+Se agrega un cuadro de mandos a un proyecto como parte de la creación de un caso empresarial para el proyecto. Para obtener más información sobre cómo agregar un cuadro de mandos a un proyecto, consulte [Aplicar un cuadro de resultados a un proyecto y generar una puntuación de alineación](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Para obtener más información sobre los permisos del proyecto, consulte [Compartir un proyecto en [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Para obtener más información sobre los permisos del proyecto, consulte [Uso compartido de un proyecto en [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
