@@ -7,14 +7,16 @@ description: Aprenda a calcular las diferencias de fecha y hora.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Ver: calcular diferencias de fecha y hora
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 Puede calcular la diferencia entre lo siguiente:
 
 * Diferencia de fecha y hora entre dos campos de fecha del mismo objeto
-* Diferencia de fecha y hora entre el campo de un objeto y otro campo del objeto principal
+* Diferencia de fecha y hora entre un campo de un objeto y otro campo del objeto principal
 
 >[!TIP]
 >
@@ -38,34 +40,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar una vista </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: </p><ul><li><p>Colaborador para modificar una vista </p></li><li>
+   <p>Estándar para modificar un informe</p></li></ul><p>O</p><p>Actual:</p><ul><li><p>Solicitud para modificar una vista </p></li><li>
+   <p>Plan para modificar un informe</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Calcule la diferencia de hora y fecha entre dos campos de fecha en el mismo objeto
 
 Por ejemplo, puede calcular la diferencia entre la fecha planificada de finalización y la fecha real de finalización de una tarea.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
+![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ir a una lista de tareas.
 1. Desde el **Ver** , haga clic en **Nueva vista**.
@@ -80,7 +81,12 @@ Por ejemplo, puede calcular la diferencia entre la fecha planificada de finaliza
 1. Elimine el texto que encuentre en la **Modo de texto** y reemplácelo por el siguiente código:
 
    ```
-   displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
+    displayname=Planned-Actual Completion Date
+    linkedname=direct
+    querysort=plannedCompletionDate
+    textmode=true
+    valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)
+    valueformat=HTML
    ```
 
 1. Clic **Guardar**, entonces **Guardar vista**.
@@ -90,7 +96,7 @@ Por ejemplo, puede calcular la diferencia entre la fecha planificada de finaliza
 Para obtener una lista de objetos y sus elementos principales, consulte la sección &quot;Explicación de la interdependencia y la jerarquía de objetos&quot; en [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Por ejemplo, puede calcular la diferencia entre la fecha planificada de finalización de una tarea y la fecha planificada de finalización de su tarea principal o del proyecto en el que se encuentra la tarea.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
+![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ir a una lista de tareas.
 1. Desde el **Ver** , haga clic en **Nueva vista**.
@@ -107,13 +113,18 @@ Por ejemplo, puede calcular la diferencia entre la fecha planificada de finaliza
    * Para mostrar la diferencia entre la fecha planificada de finalización del proyecto y la de la tarea:
 
      ```
-     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * Para mostrar la diferencia entre la fecha planificada de finalización de la tarea principal y la de la tarea:
 
      ```
-     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. Clic **Guardar**, entonces **Guardar vista**.
