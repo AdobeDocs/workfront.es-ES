@@ -7,14 +7,16 @@ description: Este artículo describe cómo administrar las notificaciones por co
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Modificar sus propias notificaciones por correo electrónico
+
+<!-- Audited: 1/2024 -->
 
 Su Adobe [!DNL Workfront] El administrador configura las notificaciones por correo electrónico que reciben los usuarios cuando se producen eventos en Workfront (como se describe en ). [[!UICONTROL Configurar evento] notificaciones para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td>  <p>Nuevo:</p> 
+   <ul><li>Colaborador o superior</li></ul>
+   <p>Actual:</p>
+   <ul><li>Solicitud o superior</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ver y modificar la configuración de las notificaciones por correo electrónico
 

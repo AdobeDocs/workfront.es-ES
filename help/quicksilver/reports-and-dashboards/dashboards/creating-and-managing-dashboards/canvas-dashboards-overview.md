@@ -6,14 +6,16 @@ description: Puede crear paneles de lienzo que integren visualizaciones del lien
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
 # Información general sobre paneles de lienzo
+
+<!-- Audited: 12/2023 -->
 
 Paneles de lienzo, una función que se está desarrollando actualmente para paneles, ofrece una nueva opción para crear paneles eficaces en Workfront. Los paneles de lienzo permitirán que las visualizaciones del lienzo de informes se incluyan fácilmente en los informes existentes, lo que proporcionará una mayor flexibilidad, así como nuevas opciones de diseño.
 

@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # Configuración de la lista de permitidos del cortafuegos
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -99,35 +101,35 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5 o 7, debe permitir 
    <td> 
     <ul> 
      <li>35.160.0.242</li> 
-     <li>34.213.36.118</li> 
+     <li>34 213 36 118</li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
      <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
-     <li>52.36.154.34</li> 
-     <li>54.244.142.219</li> 
+     <li>54 218 48 56</li> 
+     <li>52 36 154 34</li> 
+     <li>54 244 142 219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44 241 82 96</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Para recibir correo electrónico desde la aplicación de Workfront</td> 
    <td> 
     <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
+     <li>54 240 60 174</li> 
+     <li>54 240 60 175</li> 
+     <li>13 58 86 183</li> 
      <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
+     <li>35 161 82 137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
     </ul> <p>Para obtener información sobre las siguientes direcciones IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1</a></p> 
     <ul> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>23.251.237.109</li> 
-     <li>23.251.237.106</li> 
+     <li>23 251 237 107</li> 
+     <li>23 251 237 108</li> 
+     <li>23 251 237 109</li> 
+     <li>23 251 237 106</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,29 +139,29 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5 o 7, debe permitir 
 
 Si su entorno de producción está en el clúster 4, agregue las siguientes direcciones IP para SSO, documentar las integraciones de ganchos web y recibir correo electrónico de la aplicación de Workfront:
 
-* 52.31.132.175
+* 52 31 132 175
 * 52.19.188.226
-* 52.28.49.94
+* 52 28 49 94
 * 52.29.41.175
 * 52.29.197.69
-* 52.48.124.108
-* 69.169.230.231
-* 69.169. 230.232
+* 52 48 124 108
+* 69 169 230 231
+* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
-* 34.246.27.40
-* 52.208.123.166
-* 52.208.159.124
+* 34 246 27 40
+* 52 208 123 166
+* 52 208 159 124
 * 52.17.130.201
-* 34.252.250.191
+* 34 252 250 191
 * 52.30.133.50
-* 54.220.93.204
-* 34.254.76.122
+* 54 220 93 204
+* 34 254 76 122
 
 Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
 
-* 23.251.239.98
-* 23.251.239.99
+* 23 251 239 98
+* 23 251 239 99
 
 ### Direcciones IP para permitir el clúster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -173,25 +175,25 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
    <td role="rowheader">Para recibir correo electrónico desde la aplicación de Workfront</td> 
    <td> 
     <ul> 
-     <li>34.94.227.64</li> 
-     <li>34.94.227.65</li> 
-     <li>34.94.227.66</li> 
+     <li>34 94 227 64</li> 
+     <li>34 94 227 65</li> 
+     <li>34 94 227 66</li> 
      <li>34.94.227.67</li> 
      <li>34.66.82.64</li> 
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
-     <li>34.66.82.67</li> 
+     <li>34 66 82 67</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Para utilizar el servicio de correo electrónico de AWS</td> 
    <td> 
     <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
+     <li>54 240 60 174</li> 
+     <li>54 240 60 175</li> 
+     <li>13 58 86 183</li> 
      <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
+     <li>35 161 82 137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
@@ -211,8 +213,8 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
    <td> 
     <ul> 
      <li>69.42.126.188 </li> 
-     <li>66.119.37.185</li> 
-     <li>66.119.37.186</li> 
+     <li>66 119 37 185</li> 
+     <li>66 119 37 186</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,11 +222,11 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
    <td> 
     <ul> 
      <li> <p>69.42.126.188:</p> <p>Esta dirección también debe añadirse a la lista de permitidos para que los usuarios reciban correos electrónicos de Workfront.</p> </li> 
-     <li>66.119.37.186</li> 
-     <li>66.119.37.167</li> 
-     <li>54.244.142.219</li> 
+     <li>66 119 37 186</li> 
+     <li>66 119 37 167</li> 
+     <li>54 244 142 219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44 241 82 96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -243,22 +245,22 @@ Para todos los entornos, añada las siguientes direcciones IP para recibir carga
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52.208.159.124</li> 
-     <li>54.220.93.204</li> 
+     <li>52 208 159 124</li> 
+     <li>54 220 93 204</li> 
      <li>52.17.130.201</li> 
-     <li>34.254.76.122</li> 
-     <li>34.252.250.191</li> 
+     <li>34 254 76 122</li> 
+     <li>34 252 250 191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Para clientes de ubicaciones distintas de Europa</td> 
    <td> 
     <ul> 
-     <li>54.244.142.219</li> 
-     <li>44.241.82.96</li> 
-     <li>52.36.154.34</li> 
+     <li>54 244 142 219</li> 
+     <li>44 241 82 96</li> 
+     <li>52 36 154 34</li> 
      <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
+     <li>54 218 48 56</li> 
      <li>52.39.217.230</li> 
     </ul> </td> 
   </tr> 
@@ -277,25 +279,25 @@ Agregue las siguientes direcciones IP para utilizar la autenticación mejorada p
    <td role="rowheader">Si su entorno está en el clúster 1, 2, 3, 5, 7, 8 o 9</td> 
    <td> 
     <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
+     <li>35 167 74 121</li> 
+     <li>35.166.202.13</li> 
+     <li>35 160 3 103</li> 
+     <li>54 183 64 135</li> 
      <li>54.67.77.38</li> 
      <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
+     <li>54 183 204 205</li> 
+     <li>35 171 156 124</li> 
+     <li>18 233 90 226</li> 
+     <li>3 211 189 167</li> 
+     <li>18 232 225 224</li> 
+     <li>34 233 19 82</li> 
+     <li>52 204 128 250</li> 
      <li>3.132.201.78</li> 
      <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
+     <li>3 20 244 231</li> 
+     <li>54 244 142 219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44 241 82 96</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -303,27 +305,27 @@ Agregue las siguientes direcciones IP para utilizar la autenticación mejorada p
    <td> 
     <ul> 
      <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
+     <li>52 28 45 240</li> 
      <li>52.16.224.164</li> 
      <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
+     <li>34 253 4 94</li> 
      <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
+     <li>52 211 56 181</li> 
+     <li>52 213 38 246</li> 
+     <li>52 213 74 69</li> 
+     <li>52 213 216 142</li> 
+     <li>35 156 51 163</li> 
+     <li>35 157 221 52</li> 
+     <li>52 28 184 187</li> 
      <li>52.28.212.16</li> 
      <li>52.29.176.99</li> 
      <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
+     <li>54 76 184 103</li> 
+     <li>52 210 122 50</li> 
+     <li>52 208 95 174</li> 
      <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
+     <li>54 220 93 204</li> 
+     <li>34 254 76 122</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -342,17 +344,17 @@ Añada las siguientes direcciones IP a su lista de permitidos para permitir que 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
+     <li>54 220 93 204</li> 
+     <li>34 254 76 122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> 
     <ul> 
-     <li>54.244.142.219</li> 
+     <li>54 244 142 219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44 241 82 96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -394,14 +396,14 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52.208.159.124</li> 
-     <li>54.220.93.204</li> 
+     <li>52 208 159 124</li> 
+     <li>54 220 93 204</li> 
      <li>52.17.130.201</li> 
-     <li>34.254.76.122</li> 
-     <li>34.252.250.191</li> 
-     <li>35.162.128.73</li> 
+     <li>34 254 76 122</li> 
+     <li>34 252 250 191</li> 
+     <li>35 162 128 73</li> 
      <li>52.42.25.64</li> 
-     <li>34.213.36.118</li> 
+     <li>34 213 36 118</li> 
      <li>35.160.0.242 </li> 
      <li> <p>3.209.27.146</p> </li> 
      <li> <p>18.205.251.4</p> </li> 
@@ -411,15 +413,15 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td role="rowheader">Para clientes de ubicaciones distintas de Europa</td> 
    <td> 
     <ul> 
-     <li>54.244.142.219</li> 
-     <li>44.241.82.96</li> 
-     <li>52.36.154.34</li> 
+     <li>54 244 142 219</li> 
+     <li>44 241 82 96</li> 
+     <li>52 36 154 34</li> 
      <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
+     <li>54 218 48 56</li> 
      <li>52.39.217.230</li> 
-     <li>35.162.128.73</li> 
+     <li>35 162 128 73</li> 
      <li>52.42.25.64</li> 
-     <li>34.213.36.118</li> 
+     <li>34 213 36 118</li> 
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
@@ -438,7 +440,7 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td role="rowheader">Para acceder a los recursos de formación de Workfront mediante Workfront Ascent</td> 
    <td> 
     <ul> 
-     <li>18.223.140.34</li> 
+     <li>18 223 140 34</li> 
      <li>3.13.223.30</li> 
      <li>3.13.19.112</li> 
     </ul> </td> 
@@ -447,14 +449,14 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td role="rowheader">Para recibir notificaciones por correo electrónico desde Workfront Ascent</td> 
    <td> 
     <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
+     <li>23 251 227 75</li> 
+     <li>23 251 227 76</li> 
+     <li>23 251 227 77</li> 
+     <li>23 251 227 78</li> 
+     <li>23 251 227 79</li> 
+     <li>23 251 227,80</li> 
+     <li>23 251 227 81</li> 
+     <li>23 251 227 82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -523,44 +525,44 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
    <td role="rowheader">Prod-US (clústeres 1, 2, 3, 5 y 7)</td> 
    <td> 
     <ul> 
-     <li>34.213.36.118</li> 
+     <li>34 213 36 118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-     <li>35.165.152.202</li> 
-     <li>54.184.151.122</li> 
+     <li>35 165 152 202</li> 
+     <li>54 184 151 122</li> 
      <li>35.84.40.190</li> 
-     <li>54.218.48.56</li> 
+     <li>54 218 48 56</li> 
      <li>34.211.224.9</li> 
-     <li>52.36.154.34</li> 
-     <li>34.232.138.38</li> 
-     <li>54.237.6.156</li> 
-     <li>54.237.12.32</li> 
-     <li>44.241.82.96</li> 
-     <li>54.244.142.219</li> 
+     <li>52 36 154 34</li> 
+     <li>34 232 138 38</li> 
+     <li>54 237 6 156</li> 
+     <li>54 237 12 32</li> 
+     <li>44 241 82 96</li> 
+     <li>54 244 142 219</li> 
      <li>52.39.217.230</li> 
-     <li>52.207.47.153</li> 
+     <li>52 207 47 153</li> 
      <li>50.16.118.214</li> 
-     <li>52.54.180.191</li> 
+     <li>52 54 180 191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (grupo 4)</td> 
    <td> 
     <ul> 
-     <li>34.246.27.40</li> 
-     <li>52.208.123.166</li> 
+     <li>34 246 27 40</li> 
+     <li>52 208 123 166</li> 
      <li>3.121.91.129</li> 
      <li>3.122.11.35</li> 
-     <li>34.241.103.51</li> 
+     <li>34 241 103 51</li> 
      <li>46.51.203.201</li> 
-     <li>54.247.174.227</li> 
-     <li>52.208.159.124</li> 
+     <li>54 247 174 227</li> 
+     <li>52 208 159 124</li> 
      <li>52.17.130.201</li> 
-     <li>34.252.250.191</li> 
+     <li>34 252 250 191</li> 
      <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
+     <li>54 220 93 204</li> 
+     <li>34 254 76 122</li> 
     </ul> <p><b>NOTA</b>: ya no se admiten las opciones del servidor DNS.</p> </td> 
   </tr> 
  </tbody> 
@@ -576,20 +578,20 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
    <td role="rowheader"> <p>Prod-US (clústeres 1, 2, 3, 5 y 7)</p> </td> 
    <td> 
     <ul> 
-     <li> 23.251.237.106</li> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
+     <li> 23 251 237 106</li> 
+     <li>23 251 237 107</li> 
+     <li>23 251 237 108</li> 
+     <li>54 240 60 174</li> 
+     <li>54 240 60 175</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (grupo 4)</td> 
    <td> 
     <ul> 
-     <li>23.251.239.98</li> 
-     <li>69.169.230.231</li> 
-     <li>69.169.230.232</li> 
+     <li>23 251 239 98</li> 
+     <li>69 169 230 231</li> 
+     <li>69 169 230 232</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
