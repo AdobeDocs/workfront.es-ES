@@ -6,9 +6,9 @@ description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Proyectos</p> </td> 
   </tr> 
   <tr> 
