@@ -4,7 +4,7 @@ description: Puede editar la información del registro en Adobe Maestro y asocia
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Ver permisos superiores a un espacio de trabajo </p>  
-   <p>Ver o permisos superiores a la vista de tabla </p> 
+   <td> <p>Permisos de contribución o superiores en un espacio de trabajo </p>  
+   <p>Permisos de contribución o superiores a la vista de tabla </p> 
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>

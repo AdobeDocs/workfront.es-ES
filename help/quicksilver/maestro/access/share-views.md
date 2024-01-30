@@ -4,9 +4,9 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Compartir vistas
+
+{{maestro-important-intro}}
 
 Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar en Adobe Workfront Maestro.
 
@@ -107,6 +109,8 @@ Para compartir una vista con otros usuarios:
    * Administrar
 
      Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Clic **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
+1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.
 
 

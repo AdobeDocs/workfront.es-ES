@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -37,23 +37,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td><p>Actual: plan</p>
+   O
+   <p>Nuevo: estándar</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td role="rowheader">Configuración del nivel de acceso</td> 
    <td> <p>Administrador del sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Crear una nueva plantilla de correo electrónico {#create-a-new-email-template}
+*Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+## Creación de una plantilla de correo electrónico {#create-an-email-template}
 
-1. En el panel de la izquierda, haga clic en **Correo electrónico** > **Notificaciones**> **Plantillas de correo electrónico**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. En el panel izquierdo, haga clic en **Correo electrónico** > **Notificaciones**> **Plantillas de correo electrónico**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clic **Nueva plantilla de correo electrónico**.
 
@@ -65,24 +69,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td>Título de la plantilla de correo electrónico (obligatorio).</td> 
+      <td>Añada un título para la plantilla de correo electrónico. Este campo es obligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto</td> 
-      <td>Especifique el tipo de objeto con el que desea asociar la plantilla (obligatorio; de forma predeterminada, se establecerá en Problema).</td> 
-     </tr>
+      <td>Especifique el tipo de objeto con el que desea asociar la plantilla. Elija entre los siguientes objetos:
+      <ul>
+      <li>Proyecto</li>
+      <li>Tarea</li>
+      <li>Problema</li>
+      <li>Hoja de horas</li> </ul>
+
+   Este campo es obligatorio y está establecido en Proyecto de forma predeterminada.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Descripción</td> 
-      <td>Descripción de la plantilla.</td> 
+      <td>Añada más información sobre la plantilla de correo electrónico, su propósito y la audiencia a la que va dirigida.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Asunto </td> 
-      <td>Asunto que se muestra cuando se envía el mensaje de correo electrónico (obligatorio).</td> 
+      <td>Añada el texto que se muestra en la línea Asunto del correo electrónico cuando se envía el mensaje de correo electrónico generado por la plantilla. Este campo es obligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cuerpo </td> 
-      <td> <p>Contenido mostrado cuando se envía el mensaje de correo electrónico.</p> <p>Puede utilizar el formato de HTML para el contenido del correo electrónico, tal como se describe en <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Añadir el formato de HTML a una plantilla de correo electrónico</a> en este artículo.</p> </td> 
+      <td> <p>Añada el texto para el contenido del mensaje de correo electrónico.</p> <p>Puede utilizar el formato de HTML para el contenido del correo electrónico, tal como se describe en la sección <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Añadir el formato de HTML a una plantilla de correo electrónico</a> en este artículo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Por ejemplo, el cuerpo del correo electrónico de una notificación que alerta a
 
 Para obtener el valor &quot;comodín&quot; para un objeto, realice una de las siguientes acciones:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Consulte el Explorador de API y seleccione los nombres de los objetos en la pestaña Campos de cualquier objeto. Para obtener más información sobre el Explorador de API, consulte [Explorador de API](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilice el valor &quot;valuefield&quot; que encuentre dentro de una vista de modo de texto de un informe. Para obtener más información sobre los valores del modo de texto, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilice el `valuefield` valor que se encuentra dentro de una vista de modo de texto de un informe. Para obtener más información sobre los valores del modo de texto, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  El valor &quot;heading&quot; puede ser el nombre del objeto, tal como desea que aparezca en el cuerpo del correo electrónico.
+El `heading` puede ser el nombre del objeto, tal como desea que aparezca en el cuerpo del correo electrónico.
 
 ### Vínculo a campos personalizados con HTML {#link-to-custom-fields-with-html}
 
-Puede incluir vínculos a usuarios y campos personalizados utilizando **$$** comodín para indicar al generador de correo electrónico que busque valores de la base de datos asociada al objeto. Deben estar presentes a ambos lados de la referencia de atributo de la base de datos.
+Puede incluir vínculos a usuarios y campos personalizados utilizando `$$` comodín para indicar al generador de correo electrónico que busque valores de la base de datos asociada al objeto. Deben estar presentes a ambos lados de la referencia de atributo de la base de datos.
 
 Por ejemplo, si agrega el siguiente texto como HTML, agregará el nombre del usuario asignado a la notificación de recordatorio asociada con una tarea:
 

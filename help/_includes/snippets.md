@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,18 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 ## Paso 1: Cómo llegar a Maestro - {#step1-to-maestro}
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Maestro]**.
+
+## Introducción importante de Maestro: {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
+>
+>En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
+>
+>Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
+>
+>Para obtener más información acerca de Maestro, vea [Introducción a Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

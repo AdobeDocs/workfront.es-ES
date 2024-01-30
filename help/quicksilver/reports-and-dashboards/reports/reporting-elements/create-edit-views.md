@@ -6,7 +6,7 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -138,7 +138,7 @@ Puede crear una nueva vista estándar o personalizar una vista estándar existen
 
 ### Creación o personalización de una vista de Agile {#create-or-customize-an-agile-view}
 
-Puede crear una nueva vista de Agile o personalizar una vista de Agile existente que haya creado anteriormente.
+Puede crear una vista de Agile o personalizar una vista de Agile existente que haya creado anteriormente.
 
 >[!IMPORTANT]
 >
@@ -224,7 +224,7 @@ Para crear o personalizar una vista de Agile:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Propietario de tarea:</strong> </td> 
+      <td role="rowheader"><strong>Propietario de la tarea:</strong> </td> 
       <td> Todas las historias con el mismo usuario principal asignado son del mismo color.<br>El usuario asignado principal es el usuario que se asignó por primera vez a la tarea. </td> 
      </tr> 
     </tbody> 

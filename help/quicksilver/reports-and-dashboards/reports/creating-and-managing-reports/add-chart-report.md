@@ -6,22 +6,29 @@ description: Puede mejorar los informes agregando un gráfico. Puede agregar gr�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Agregar un gráfico a un informe
 
+<!--Audited: 01/2024-->
+
 Puede mejorar los informes agregando un gráfico. Puede agregar gráficos a los informes existentes o a los informes que esté creando.
 
-Antes de agregar un gráfico a un informe, debe crear una Vista y una Agrupación para el informe. La mayoría de los gráficos no se pueden agregar a menos que la información se agrupe en el informe. El único gráfico que se puede agregar sin agrupar es un gráfico de medición.\
-Para obtener información sobre cómo crear una vista, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Antes de agregar un gráfico a un informe, debe crear una Vista y una Agrupación para el informe.
+
+No puede agregar gráficos a la mayoría de los informes a menos que agrupe primero la información en el informe. El único gráfico que se puede agregar sin agrupar es un gráfico de medición.
+
+Para obtener información sobre las vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Si el informe muestra demasiados elementos, no se creará ningún gráfico. En este caso, también debe agregar un Filtro al informe para reducir el número de resultados en el informe.\
+Si el informe muestra demasiados elementos, no se creará ningún gráfico. En este caso, también debe agregar un Filtro al informe para reducir el número de resultados en el informe.
+
 Para obtener más información sobre los filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acceso
@@ -33,33 +40,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Actual: plan </p>
+   O
+   <p>Nuevo: estándar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Agregar un gráfico a un informe
 
 1. Vaya a un informe existente o cree un nuevo informe. Para obtener más información sobre la creación de un nuevo informe, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Condicional) Si ha ido a un informe existente, haga clic en **Acciones de informe** > **Editar**.
 
-1. Asegúrese de que la variable **Columnas (vista)** se ha actualizado la pestaña para satisfacer las necesidades del informe.\
-   Para obtener información sobre cómo crear o modificar la vista del informe, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Asegúrese de que la variable **Columnas (vista)** La pestaña se ha actualizado para mostrar la información que desea representar en el gráfico del informe.
+
+   Para obtener información sobre cómo crear o modificar la vista del informe, consulte [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Haga clic en **Agrupaciones** y agregue una agrupación.
 
@@ -67,15 +77,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >* Solo se puede agregar un gráfico a un informe cuando los resultados del informe están agrupados.
    >* Los gráficos no admiten agrupaciones en modo de texto. Para obtener más información sobre las agrupaciones en modo de texto, consulte [Editar modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* Si agrega una sola agrupación que representa una métrica, todos los gráficos excepto un gráfico circular muestran cada resultado en la agrupación con el mismo color.
+   >* Si agrega una sola agrupación que representa una métrica, todos los gráficos, excepto un gráfico circular, muestran cada resultado en la agrupación con el mismo color.
 
-   Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obtener más información sobre la creación de agrupaciones, consulte [Creación de agrupaciones en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Seleccione el **Gráfico** pestaña.
 1. Haga clic en un tipo de gráfico para seleccionarlo.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Puede agregar los siguientes tipos de gráficos a un informe de Adobe Workfront:
+1. Seleccione entre los siguientes tipos de gráficos:
 
    * [Gráfico de columnas](#column-chart)
    * [Gráfico de barras](#bar-chart)
@@ -100,12 +110,13 @@ Para agregar un **Columna** a su informe:
 1. (Opcional) **Agrupar columnas**: seleccione esta opción para definir cómo desea que se agrupen las columnas.\
    Seleccione entre las siguientes opciones:
 
-   * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las columnas agrupadas:\
-     **- Lado a lado**
-     **- Apiladas**
-     **- Apiladas al 100%**
+   * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las columnas agrupadas:
 
-   * Seleccione la agrupación que desee incluir en el gráfico.
+      * **Lado a lado**
+      * **Apiladas**
+      * **Apiladas al 100%**
+
+   * Seleccione la agrupación que desee incluir en el gráfico desde el **Agrupar datos por** menú desplegable.
    * (Opcional) Seleccione **Colores personalizados** para personalizar los colores de las columnas.\
      Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Para agregar un **Barra** a su informe:
    Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
 
 1. (Opcional) Seleccione **Mostrar en 3D** para mostrar el gráfico en una vista tridimensional.
-1. (Opcional) Agrupar barras**: seleccione esta opción para definir cómo desea agrupar las barras.\
+1. (Opcional) Seleccione **Agrupar barras** para definir cómo desea que se agrupen las barras.\
    Seleccione entre las siguientes opciones:
 
-   * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las barras agrupadas:\
-     **- Lado a lado**
-     **- Apiladas**
-     **- Apiladas al 100%**
+   * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las barras agrupadas:
 
-   * Seleccione la agrupación que desee incluir en el gráfico.
+      * **Lado a lado**
+      * **Apiladas**
+      * **Apiladas al 100%**
+
+   * Seleccione cómo desea agrupar la información del gráfico desde el **Agrupar datos por** menú desplegable.
    * (Opcional) Seleccione **Colores personalizados** para personalizar los colores de las columnas.\
      Para obtener más información sobre cómo personalizar los colores del gráfico, consulte [Personalizar colores del gráfico](#customize-chart-colors).
 

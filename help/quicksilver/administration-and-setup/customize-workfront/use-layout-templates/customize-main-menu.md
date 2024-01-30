@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # Personalización del menú principal mediante una plantilla de diseño
 
-Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar las opciones que ven los usuarios cuando abren el menú principal en Workfront:
+<!--Audited: 01/2024-->
+
+Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar las opciones que ven los usuarios cuando abren el menú principal en Workfront.
 
 ![Opciones del menú principal](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -44,29 +46,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
-   <td>Plan</td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td><p>Actual:Plan</p>
+   O
+   <p>Nuevo: estándar</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuración del nivel de acceso</strong></td> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
+    <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Personalización del menú principal
 
 1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clic **Definir menú principal** cerca de la esquina superior derecha.
+1. Clic **Definir menú principal** en la esquina superior derecha de la plantilla.
 
-   En el cuadro Menú principal que aparece, puede ver los elementos que están activos actualmente en el menú principal de la plantilla, así como los elementos que están disponibles para agregar. A continuación se indican todos los elementos posibles que se pueden agregar:
-
-   * Página de inicio
+   Se abrirá el cuadro Menú principal, donde podrá ver las áreas que se muestran actualmente en el menú principal de la plantilla, así como los elementos que están disponibles para agregar. A continuación se indican todos los elementos posibles que puede agregar:
+   * Inicio
 
      >[!TIP]
      >
-     >De forma predeterminada, Inicio se muestra como Mis actualizaciones para los usuarios con licencia de revisión, a menos que tengan una plantilla de diseño asociada a su perfil que incluya el área Mis actualizaciones en el menú principal.
+     >De forma predeterminada, el icono Inicio del menú principal muestra el área Mis actualizaciones para los usuarios con licencia de revisión (en el plan de licencia actual), a menos que tengan una plantilla de diseño asociada a su perfil que incluya el área Mis actualizaciones del menú principal, además del área de Inicio.
 
    * Portafolios
    * Programas
@@ -79,17 +85,17 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
 
      >[!NOTE]
      >
-     >El planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront y requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
    * Equipos
    * Usuarios
 
      >[!NOTE]
      >
-     >Solo los usuarios con una licencia de planificación pueden ver usuarios ![](assets/users-icon-in-main-menu.png) en el menú principal.
+     >Solo los usuarios con una licencia de planificación (en el modelo de licencia actual) o los usuarios con una licencia estándar (en el nuevo modelo de licencia) pueden ver el área Usuarios ![](assets/users-icon-in-main-menu.png) en el menú principal.
 
    * Solicitudes
-   * Plantillas de horas
+   * Hojas de horas
    * Documentos
    * Plantillas
    * Análisis
@@ -98,10 +104,10 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
 
      >[!NOTE]
      >
-     >Esto requiere una licencia adicional. Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Los objetivos requieren una licencia adicional. Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mis actualizaciones
-   * Tableros 
+   * Tableros
    * Modelos
 
 1. Realice una de las siguientes acciones:
