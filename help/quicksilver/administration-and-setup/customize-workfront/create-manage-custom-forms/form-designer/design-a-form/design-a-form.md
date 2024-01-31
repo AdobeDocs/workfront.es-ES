@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ Para agregar campos de fecha de escritura anticipada:
 
 ### Adición de campos de búsqueda externos
 
-Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable.
+Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable. El campo de búsqueda externa también está disponible en listas e informes.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Para añadir una búsqueda externa:
       <td role="rowheader">URL de API básica</td> 
       <td><p>Escriba o pegue la dirección URL de la API.</p><p>La dirección URL de la API debe devolver un contenido JSON de las opciones que desee mostrar en la lista desplegable. Puede utilizar la Ruta de JSON para seleccionar los valores específicos de las opciones desplegables de JSON que se van a devolver.</p><p>Al introducir la URL de la API, puede, opcionalmente, pasar los siguientes valores en la URL:</p>
       <ul><li>$$QUERY: representa el texto de búsqueda que el usuario final escribe en el campo y le permite implementar el filtrado de consultas para los usuarios finales. (El usuario buscará el valor en la lista desplegable).</li>
-      <li>$$HOST: representa el host actual de Workfront y se puede utilizar para hacer llamadas de la API /search a la API de Workfront. Cuando se utiliza este comodín, se administra la autenticación y los usuarios no necesitan enviar encabezados de autenticación. (Por ejemplo, los usuarios pueden buscar tareas utilizando la URL base "$$HOST/attask/api/task/search" y permitirá buscar tareas y seleccionar valores de una lista devuelta de tareas).</li>
-      <li>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo de Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</li>
+      <li><p>$$HOST: representa el host actual de Workfront y se puede utilizar para hacer llamadas de la API /search a la API de Workfront. Cuando se utiliza este comodín, se administra la autenticación y los usuarios no necesitan enviar encabezados de autenticación. (Por ejemplo, los usuarios pueden buscar tareas utilizando la dirección URL base <code>$$HOST/attask/api/task/search</code> y permitirá buscar tareas y seleccionar valores de una lista devuelta de tareas).<p>
+      <p>Si la API a la que hace referencia lo permite, también puede incluir modificadores en la consulta de búsqueda para identificar cómo debería funcionar la búsqueda. Por ejemplo, puede utilizar lo siguiente como URL de API base para permitir que las personas busquen cualquier proyecto de Workfront que contenga texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Obtenga más información acerca de los modificadores de búsqueda de Workfront en <a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a>.</p></li>
+      <li><p>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo de Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</p>
+      <p>Para un campo de búsqueda externo que dependa de otros campos (con el {fieldName} sintaxis), las opciones devueltas por la API se limitan a las que coinciden con cualquier cadena o valor introducido en los demás campos. (Esta funcionalidad no se admite en listas e informes).</p></li>
       <li>{referenceObject}.{fieldName} - Donde el campo forma parte de un objeto. Esta sintaxis es similar a las expresiones personalizadas. (Por ejemplo, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTA:</strong> Revise la documentación de la API con la que está trabajando para las consultas específicas que puede definir.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Para añadir una búsqueda externa:
 >
 >Los siguientes elementos son limitaciones técnicas de la llamada a la API externa:
 >
->* Número máximo de opciones: 200 (solo se muestran las 200 primeras opciones del archivo JSON devuelto)
+>* Número máximo de opciones: 2000 (solo se muestran las 2000 primeras opciones únicas del JSON devuelto)
 >* Tiempo de espera: 3 segundos
 >* Número de reintentos: 3
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
->* Los usuarios pueden ver el valor seleccionado (y editar el valor) en las listas e informes de Workfront, pero no verán el menú desplegable con opciones procedentes de la API externa.
 
 ### Agregar imágenes, PDF y vídeos
 
