@@ -4,9 +4,9 @@ description: Puede editar la información del registro en Adobe Maestro y asocia
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
    <td> <p>Permisos de contribución o superiores en un espacio de trabajo </p>  
-   <p>Permisos de contribución o superiores a la vista de tabla </p> 
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td>  <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Maestro en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Consideraciones sobre las miniaturas de registros
 
@@ -96,14 +94,14 @@ Para distinguir visualmente entre registros en una vista de tabla, puede asociar
 Tenga en cuenta lo siguiente:
 
 * Solo puede agregar archivos de imagen como miniaturas.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Puede agregar una imagen en miniatura a registros individuales en la vista de tabla.
+* Las miniaturas pertenecen a la información del registro y se muestran en las vistas en las que se muestran los registros. Por ejemplo, las miniaturas se muestran junto a la información de registro en las áreas siguientes:
+
+   * Campo principal de un registro en la vista de tabla
+   * Barra de registro en la vista de escala de tiempo.
 * No se pueden agregar miniaturas de registros desde la página Detalles del registro o en la vista de escala de tiempo.
-* La imagen en miniatura siempre se muestra a la izquierda del campo principal de cada registro, independientemente del tipo de campo.
-
-  Los campos que son texto de una sola línea, números o fórmulas pueden designarse como campos principales.
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Las miniaturas no se muestran en la página Detalles del registro.
 
 ## Añadir una miniatura en un registro
 
@@ -131,10 +129,11 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 1. (Opcional) Utilice la herramienta de ajuste de tamaño para recortar y cambiar el tamaño de la imagen.
 1. Clic **Usar imagen** para añadir la imagen como miniatura.
 Esto cierra el **Grabar miniatura** cuadro.
-1. Haga clic en Campos en la esquina superior derecha de la vista de tabla.
+1. (Condicional) Si tiene al menos permisos de contribución en la vista de tabla, haga clic en **Campos** en la esquina superior derecha de la vista de tabla.
 1. Seleccione el **Miniatura** alternar para mostrar la miniatura. De forma predeterminada, esta opción no está seleccionada.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    La miniatura se muestra a la izquierda del valor del campo principal.
+1. (Opcional y condicional) Si no dispone de permisos de contribución o superiores para la vista, seleccione una nueva vista de la **Ver** menú desplegable o cree una vista.
 1. (Opcional) Para quitar la miniatura, pase el ratón sobre el campo principal y haga clic en el botón **Más** menú ![](assets/more-menu.png)> **Miniatura** > el **Eliminar** icono ![](assets/remove-image-icon.png), luego haga clic en **Guardar cambios**.
