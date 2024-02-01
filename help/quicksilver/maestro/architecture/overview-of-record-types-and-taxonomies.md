@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Información general sobre los tipos de registros y las taxonomías
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Adobe Maestro puede crear sus propios tipos de objeto. Por ejemplo, en Workfront ya se han creado los tipos de objeto Programa, Portfolio, Proyecto, Tarea o Problema.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Crear tipos de registros de taxonomía
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Las taxonomías son tipos de registros que capturan atributos sobre tipos de registros operativos en Adobe Maestro.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # Editar tipos de registros
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Los tipos de registro son los tipos de objeto de Adobe Maestro. Puede editar el aspecto de los tipos de registro que usted o cualquier otra persona hayan creado. Para obtener información acerca de cómo crear tipos de registros Maestro, vea [Creación de tipos de registros](../architecture/create-record-types.md).
 

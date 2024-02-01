@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # Vistas: índice de artículos
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Puede mostrar los registros de Adobe Maestro en una tabla o vista de escala de tiempo.
 

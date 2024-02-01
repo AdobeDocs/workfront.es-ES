@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Actividad de versión de Adobe Maestro
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Este artículo enumera las funciones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023.
 
@@ -60,17 +52,26 @@ Para obtener más información, consulte los siguientes artículos:
 * [Compartir espacios de trabajo](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Compartir vistas](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### Añadir miniaturas a los registros
 
-Production: < date > 
+Producción: 1 de febrero de 2024
 
-Preview: To be determined  
+Vista previa: por determinar
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+Ahora puede agregar miniaturas individuales a cada registro para distinguirlas en una vista. En la vista de tabla, puede agregar como miniaturas archivos de imagen guardados anteriormente en el equipo. Las miniaturas pueden ser únicas para cada registro y mostrarse tanto en la tabla como en las vistas de cronología de la página de tipo de registro.
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### Quitar tarjetas de tipo de registro conectadas
+
+Producción: 1 de febrero de 2024
+
+Vista previa: por determinar
+
+Para evitar confusiones y simplificar el flujo de trabajo, se han eliminado las tarjetas de tipo de registro creadas como resultado de la conexión de registros de Maestro con objetos de aplicaciones de terceros desde un espacio de trabajo. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semana del 22 de enero de 2024
 

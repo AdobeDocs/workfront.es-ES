@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
->
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
->
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->
->Para obtener más información, consulte [Introducción a Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Puede mostrar registros en una vista de escala de tiempo al acceder a la página de tipo de registro en Adobe Maestro.
 
@@ -265,6 +257,12 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 1. Clic **Estilo de barra** en el panel izquierdo, para indicar qué campos desea mostrar en las barras de registros.
 
    El campo Name está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
+
+1. (Opcional y condicional) Si ha agregado miniaturas a los registros, seleccione la opción Miniatura para mostrar la imagen asociada a los registros en la barra de registros.
+
+   >[!NOTE]
+   >
+   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Clic **Añadir campo** para agregar hasta 4 campos a las barras de registros.
 1. Haga clic dentro de **Campos de búsqueda** y haga clic en el campo que desee añadir.
