@@ -7,9 +7,9 @@ description: Puede usar hojas de horas para rastrear el tiempo que dedica al tra
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Todas las hojas de horas, así como las hojas de horas que tenga acceso para mos
 
 1. Haga clic en **Intervalo de fechas** de una plantilla de horas para abrirla.
 
-   Cada hoja de horas muestra todas las tareas, problemas y proyectos para los que ha registrado tiempo. Una hoja de horas también muestra hasta 45 tareas, problemas o proyectos que se le han asignado con fechas dentro del marco de tiempo de la hoja de horas, pero para los cuales es posible que aún no haya registrado tiempo.
+   Cada hoja de horas muestra todas las tareas, problemas y proyectos para los que ha registrado tiempo. Una hoja de horas también muestra hasta 45 tareas y problemas que se le han asignado con fechas dentro del marco de tiempo de la hoja de horas, pero para los cuales es posible que aún no haya registrado tiempo. Se seleccionan los 45 elementos actualizados más recientemente para mostrarlos en la hoja de horas.
 
    Para obtener más información, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
