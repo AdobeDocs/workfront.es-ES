@@ -6,9 +6,9 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       Todos los objetos aparecen en el tablero como tarjetas conectadas.
 
       El [!UICONTROL **Tarjetas que se agregan**] counter muestra cuántas tarjetas habrá en el tablero. Por ejemplo, si selecciona un proyecto con 100 tareas y problemas, el contador mostrará 100. Si agrega una asignación de usuario y esa persona está asignada a 5 tareas en el proyecto, el contador muestra 5.
+
+      >[!NOTE]
+      >
+      >Si tienes más de 1.000 tarjetas en el tablero, el rendimiento del tablero se verá afectado.
 
    1. (Opcional) Seleccione [!UICONTROL **No archivar tarjetas completadas**] para incluir las tareas y los problemas completados en el tablero como tarjetas visibles en la columna Completado. Cuando esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero se incorporan al tablero como tarjetas archivadas.
 
