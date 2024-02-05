@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,13 @@ author: Alina
 
 Puede utilizar Adobe Maestro para diseñar espacios de trabajo totalmente personalizables que contengan los tipos de registros necesarios en su organización. Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar los tipos de registros de Maestro con los tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 
-Puede conectar lo siguiente:
-
-* Tipos de registros operativos de Maestro entre sí
-* taxonomías de Maestro entre sí
-* Tipos de registros operativos y taxonomías de Maestro entre sí
-* Tipos de registros operativos y taxonomías de Maestro con tipos de objetos de otras aplicaciones.
+Puede conectar los tipos de registros de Maestro entre sí o los tipos de registros de Maestro con los tipos de objetos de otras aplicaciones.
 
 De este modo, puede mostrar campos del registro vinculado o del tipo de objeto de otro registro Maestro.
 
 En este artículo se describe cómo conectar dos tipos de registro Maestro o un tipo de registro Maestro con un objeto de otra aplicación.
 
-Una vez establecida la conexión entre los tipos de registro u objeto, puede conectar registros individuales entre sí.
+Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí.
 
 Para obtener información acerca de cómo conectar un registro Maestro a un objeto de otra aplicación, vea [Conectar registros](../records/connect-records.md).
 
@@ -99,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
    <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.
 </td>
   </tr>
  </tbody>
@@ -119,8 +114,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre la conexión de tipos de registros
 
-Tenga en cuenta lo siguiente:
-
 * Puede conectar las siguientes entidades en Maestro:
 
    * Dos tipos de registros operativos
@@ -130,7 +123,7 @@ Tenga en cuenta lo siguiente:
 
   Todos los tipos de registros operativos y las taxonomías deben pertenecer al mismo espacio de trabajo.
 
-* Puede conectar los siguientes objetos desde las siguientes aplicaciones con los tipos de registros de Maestro:
+* Puede conectar los siguientes tipos de objeto desde las siguientes aplicaciones con los tipos de registro de Maestro:
 
    * Adobe Workfront:
 
@@ -151,31 +144,31 @@ Tenga en cuenta lo siguiente:
      >
      >Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
+* Después de crear registros individuales para un tipo de registro, puede seleccionar los registros a los que se conecta desde el campo tipo de registro vinculado. Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
+
 * Después de conectar un tipo de registro con otro tipo de registro o con un tipo de objeto de otra aplicación, existen los siguientes escenarios:
 
    * **Cuando conecta dos tipos de registros**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. Se crea un campo de registro vinculado similar en el tipo de registro al que se conecta.
 
      Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con el tipo de registro &quot;Producto&quot;, se crea un campo de registro vinculado denominado &quot;Producto vinculado&quot; en el tipo de registro de Campaña y se crea un tipo de registro vinculado denominado automáticamente &quot;Campaña&quot; en el tipo de registro de Producto.
 
-   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el objeto de aplicación de terceros.
+   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
 
-     Sólo se crea un nuevo tipo de registro de sólo lectura de Maestro para el objeto de aplicación de terceros cuando los objetos reales están conectados a los registros de Maestro.
+     Se crea un nuevo tipo de registro de sólo lectura de Maestro para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a los registros de Maestro.
 
      Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
 
-   * **Cuando se agregan campos de búsqueda del registro u objeto al que se conecta**: los campos vinculados se agregan al registro desde el que se está conectando y muestran información de los campos de búsqueda seleccionados para los registros desde los que está vinculando. Los campos de registro siempre son de solo lectura y se rellenan automáticamente con los valores del objeto de terceros.
+   * **Cuando se agregan campos de búsqueda del registro u objeto al que se conecta**: puede conectar campos del objeto de la otra aplicación al tipo de registro Maestro. Son campos vinculados o de búsqueda. Los campos vinculados muestran automáticamente información de registros u objetos conectados al conectar los registros u objetos. Los campos de búsqueda vinculados siempre son de solo lectura y se rellenan automáticamente con los valores de los registros u objetos conectados.
 
-     Por ejemplo, si conecta el tipo de registro Maestro &quot;Campaña&quot; con un proyecto de Workfront y selecciona traer el campo Fecha planificada de finalización del proyecto al registro Maestro, se crea automáticamente un campo vinculado denominado Fecha planificada de finalización (desde Project) para el registro desde el que está vinculando.
+     Por ejemplo, si conecta el tipo de registro Maestro &quot;Campaña&quot; con un proyecto de Workfront y selecciona traer el campo Fecha planificada de finalización del proyecto al registro Maestro, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde Proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
 
      >[!IMPORTANT]
      >
-     >    Todas las personas con permiso de Vista o superior en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de terceros de los tipos de objetos vinculados.
+     >    Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
 * Los campos de registro vinculados van precedidos de un icono de relación ![](assets/relationship-field-icon.png).
 
   Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los iconos que indican que un campo es un número, un párrafo o una fecha.
-
-* Después de crear registros individuales para un tipo de registro, puede seleccionar los registros a los que se conecta desde el campo tipo de registro vinculado. Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
 
 ## Conectar tipos de registros
 
@@ -191,15 +184,15 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. En el **Tipo de registro** , busque un tipo de registro o seleccione una de las siguientes opciones: <!--is the field name spelled right? lowercase "t"?-->
+1. En el **Tipo de registro** , busque un tipo de registro o seleccione una de las siguientes opciones:
 
-   * Otro tipo de registro operativo o una taxonomía del espacio de trabajo seleccionado
+   * Otro tipo de registro operativo o una taxonomía de la sección del espacio de trabajo seleccionado
 
      >[!TIP]
      >
      >Solo están disponibles para la conexión los tipos de registro y las taxonomías del espacio de trabajo seleccionado.
      > 
-     >Si no hay otros tipos de registro en el espacio de trabajo seleccionado, el nombre del espacio de trabajo no se muestra.
+     >Si no tiene otros tipos de registro en el espacio de trabajo seleccionado, la sección del espacio de trabajo no se muestra.
 
    * A **Proyecto, Portfolio, Programa, Empresa**, o **Grupo** desde el **Tipos de objetos Workfront** sección.
    * **Experience Manager Assets** desde el **Aplicaciones de Adobe** sección.
@@ -209,7 +202,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 1. Actualice la siguiente información:
 
-   * **Nombre**: Nombre del campo conectado, tal como aparecerá en la vista de tabla o en la página Detalles del tipo de registro original. Esto crea la columna de registro vinculado en la vista de tabla del tipo de registro original o el campo de registro vinculado para los registros originales. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nombre**: Nombre del campo conectado, tal como aparecerá en la vista de tabla o en la página Detalles del tipo de registro original. Esto crea la columna de registro vinculado en la vista de tabla del tipo de registro original o el campo de registro vinculado para los registros originales.
 
    >[!TIP]
    >
@@ -217,11 +210,15 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    * **Descripción**: Información adicional sobre el campo de registro conectado. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
-   * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos del tipo de registro seleccionado. Los campos de búsqueda están asociados al tipo de registro u objeto al que está vinculando.  Esta opción está seleccionada de forma predeterminada.
+   * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos del tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
 
-1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo proyectos que cumplan estos criterios** sección. <!--this needs to be updated for each object when they fix this UI.--> Sólo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro Maestro seleccionado. Puede seleccionar varios formularios.
+1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo objetos que cumplan estos criterios** sección. Sólo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro Maestro seleccionado. Puede seleccionar varios formularios.
 
    ![](assets/workfront-project-connection-selection.png)
+
+   >[!NOTE]
+   >
+   > Debe crear formularios personalizados en Workfront para los objetos seleccionados antes de que se muestren en esta lista.
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en la **repositorio del Experience Manager** menú desplegable en el **Vincular recursos del siguiente repositorio** sección. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
 
@@ -239,9 +236,11 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
+   Los valores de los campos conectados se rellenan automáticamente después de vincular registros u objetos.
+
    >[!IMPORTANT]
    >
-   >    Todas las personas con permiso de Vista o superior en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de terceros de los tipos de objetos vinculados.
+   >    Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
 
 1. (Opcional) Haga clic en **Omitir** y no agregue ningún campo del registro u objeto vinculado. El **Nombre** del registro vinculado es el único campo visible en la vista de tabla del registro original.
@@ -281,9 +280,11 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    * Un campo de registro vinculado en el tipo de registro desde el que está vinculando. El campo de registro vinculado mostrará registros individuales del tipo de registro vinculado, después de agregarlos manualmente. Para obtener información sobre cómo agregar registros, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md). El nombre del campo de registro vinculado es el nombre seleccionado en el paso 6. <!--accurate-->
 
-   * Campo (o campos) vinculado que muestra información de los campos del tipo de registro vinculado después de agregar manualmente los registros en el campo de registro vinculado. Los campos vinculados se crean únicamente cuando **Seleccionar campos de búsqueda** La configuración se selecciona al crear la conexión. Los campos vinculados reciben un nombre según este patrón:
+   * Campo (o campos) vinculado que muestra información de los campos del registro vinculado o de los tipos de objeto después de agregar manualmente los registros u objetos en el campo de registro vinculado. Los campos vinculados se crean únicamente cuando **Seleccionar campos de búsqueda** La configuración se selecciona al crear la conexión. Los campos vinculados se nombran automáticamente según este patrón:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+     Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y asigna al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccione para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se llamará automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
 
    * Cuando se vinculan tipos de registros de Maestro, también se agrega un campo de registro vinculado al tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
@@ -291,9 +292,9 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
      >[!TIP]
      >
-     > Un campo de registro vinculado al tipo de registro desde el que está vinculando no se crea para objetos de una aplicación de terceros.
+     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro que está vinculando en Maestro.
 
-1. (Opcional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
+1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 
    * **Editar campo**: solo puede actualizar el **Nombre** y el **Descripción** información del campo.
    * **Editar campos de búsqueda**: agregue o quite cualquiera de los campos del registro vinculado.
@@ -304,14 +305,10 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    >[!NOTE]
    >
-   > No se pueden agregar los campos de búsqueda del registro vinculado al tipo de registro vinculado que indica un objeto en una aplicación de terceros.
+   > No se pueden agregar campos de búsqueda que pertenezcan a tipos de registro Maestro desde los que se está vinculando a tipos de objeto de otra aplicación.
    >
-   > Por ejemplo, no puede agregar el campo de búsqueda de un objeto Maestro &quot;Campaign&quot; desde el campo de registro vinculado &quot;Campaign&quot; que se muestra en el tipo de registro de Proyecto Maestro al vincularlo a proyectos de Workfront.
+   > Por ejemplo, no puede agregar el campo de búsqueda &quot;Estado de campaña&quot; a un proyecto de Workfront al que esté vinculando desde las campañas.
 
-1. (Opcional) Haga clic en la flecha hacia abajo en el encabezado del campo de registro vinculado desde el tipo de registro desde el que está vinculando y, a continuación, haga clic en **Eliminar**.
+1. (Opcional) Haga clic en la flecha hacia abajo situada en el encabezado de un campo de registro vinculado o en el encabezado de un campo de búsqueda desde el tipo de registro desde el que está vinculando y, a continuación, haga clic en **Eliminar**.
 
-   El campo de registro y cualquier campo de búsqueda vinculado adicional se eliminan, y los campos y su información no se pueden recuperar.
-
-   >[!TIP]
-   >
-   >    El campo de registro vinculado del tipo de registro al que está vinculando no se elimina. <!-- is this still accurate?! -->
+   Se eliminan el campo de registro o el campo de búsqueda. Si elimina un campo de registro, también se eliminarán todos los campos de búsqueda asociados al registro vinculado.

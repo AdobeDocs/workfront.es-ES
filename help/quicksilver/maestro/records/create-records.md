@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ La creación de registros operativos es idéntica a la creación de registros de
 Para crear registros en Maestro, siga uno de estos procedimientos:
 
 * Crearlos manualmente para los tipos de registros de Maestro
-* Conéctelos a los registros de Maestro desde aplicaciones de terceros.
+* Conéctelos a los registros de Maestro desde otras aplicaciones.
 * Crear registros copiando y pegando información de una lista externa.
 
 Este artículo describe cómo crear registros de Maestro. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
@@ -139,22 +139,21 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 ## Crear registros conectándolos desde otra aplicación
 
-Puede importar registros de otras aplicaciones vinculándolos a registros vinculados de Maestro. Esto crea un tipo de registro Maestro para el objeto conectado a la aplicación de terceros. Los registros que conecte a los registros originales de Maestro se muestran en la vista de tabla de tipo de registro del objeto conectado de la aplicación de terceros Maestro.
+Puede importar registros de otras aplicaciones vinculándolos a registros vinculados de Maestro. Esto crea un tipo de registro Maestro para el objeto conectado de la otra aplicación.
 
 1. Cree un tipo de registro Maestro, tal como se describe en la sección [Creación de tipos de registros](../architecture/create-record-types.md).
 
 1. Cree registros Maestro para el tipo de registro que creó en el paso anterior. Para obtener más información, consulte la sección [Crear registros agregándolos manualmente a un tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) en este artículo.
 
-1. Cree una conexión a un tipo de objeto desde una aplicación de terceros para el tipo de registro de Maestro que ha creado. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+1. Cree una conexión a un tipo de objeto desde otra aplicación para el tipo de registro Maestro que ha creado. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
-1. Agregue registros de la aplicación de terceros a los registros de Maestro creados anteriormente mediante el campo de registro vinculado creado en el paso anterior. Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
+1. Agregue registros de otra aplicación a los registros de Maestro creados anteriormente mediante el campo de registro vinculado creado en el paso anterior. Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
 
    Los siguientes elementos se crean en Maestro:
 
-   * Tipo de registro de Maestro de sólo lectura que hace referencia al tipo de registro de terceros al que se vinculó en el campo de registro conectado.
+   * Tipo de registro Maestro de sólo lectura que hace referencia al tipo de registro de la otra aplicación a la que se vinculó en el campo de registro conectado.
 
-     Por ejemplo, si conecta un tipo de registro Maestro a proyectos de Workfront, se crea un tipo de registro de sólo lectura denominado &quot;proyectos de Workfront&quot; en el mismo área de trabajo.
-   * Registros de solo lectura en la página de tipo de registro de terceros. Los registros importados de la aplicación de terceros siguen siendo de solo lectura y solo se pueden actualizar en su aplicación original.
+     Por ejemplo, si conecta un tipo de registro de Maestro a un proyecto de Workfront, se crea un tipo de registro de sólo lectura denominado &quot;proyecto de Workfront&quot; en el mismo área de trabajo. Puede tener acceso a los tipos de registros de Workfront de sólo lectura desde la vista de tabla de los registros de Maestro desde los que está vinculando.
 
 ## Crear registros copiando y pegando información de una lista externa
 
@@ -178,7 +177,7 @@ Puede importar registros de otras aplicaciones vinculándolos a registros vincul
    >
    > Asegúrese de que ya ha creado los campos deseados en Maestro y de que la información de la hoja se muestra en el formato correcto que coincida con el de cada campo de Maestro.
 
-1. En la aplicación de terceros, seleccione varias filas y columnas y, a continuación, pegue la información en la vista de tabla de tipo de registro, empezando por el primer registro nuevo.
+1. Desde otra aplicación, seleccione varias filas y columnas y pegue la información en la vista de tabla de tipo de registro, empezando por el primer registro nuevo.
 
    La siguiente información se importa en Maestro:
 

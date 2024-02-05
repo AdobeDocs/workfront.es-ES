@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ La siguiente tabla ilustra algunas de las similitudes y diferencias entre los ti
 | Representan atributos sobre objetos relacionados con el trabajo |                         | ✓ |
 | Puede crear desde cero | ✓ | ✓ |
 | Puede crear creando un archivo de Excel o CSV | ✓ |                      |
-| Puede conectar el tipo de registro a un objeto desde una aplicación de terceros | ✓ |                      |
+| Puede conectar el tipo de registro a un objeto desde otra aplicación | ✓ |                      |
 | Puede conectarse a otros tipos de registros de Maestro | ✓ |                    |
 | Puede ver sus registros asociados en una vista de tabla | ✓ | ✓ |
 | Puede ver sus registros asociados en una vista de cronología | ✓ | ✓ |

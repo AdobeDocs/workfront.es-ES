@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 16db6e7fedbea7a95e8e0356c523409db1f78199
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3725'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ Producción: 1 de febrero de 2024
 
 Vista previa: por determinar
 
-Para evitar confusiones y simplificar el flujo de trabajo, se han eliminado las tarjetas de tipo de registro creadas como resultado de la conexión de registros de Maestro con objetos de aplicaciones de terceros desde un espacio de trabajo. <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+Para evitar confusiones y simplificar la administración de espacios de trabajo, se han eliminado de un espacio de trabajo las tarjetas de tipo de registro generadas automáticamente y de sólo lectura para los objetos conectados que no son de Maestro.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 

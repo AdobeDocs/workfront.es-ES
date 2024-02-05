@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar los tipos de registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -98,16 +98,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre la creación de tipos de registros
 
-* Puede crear tipos de registros en un espacio de trabajo mediante uno de los procedimientos siguientes:
+* Puede crear tipos de registros en un espacio de trabajo de las siguientes maneras:
 
    * Automáticamente:
       * Cuando se crea un espacio de trabajo mediante una plantilla.
 
         Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
       * Cuando se importan mediante un archivo CSV o de Excel. Esto no está disponible para tipos de registros de taxonomía.
-      * Cuando se crea una conexión a tipos de objeto desde otra aplicación, al agregar campos a un tipo de registro. Esto crea un tipo de registro de sólo lectura en Maestro que está conectado a los tipos de objeto de la aplicación original.
-
-     Para obtener información acerca de cómo conectar tipos de objetos con registros Maestro, vea [Conectar registros](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Desde cero.
@@ -126,9 +126,9 @@ Este artículo describe cómo crear tipos de registros operativos desde cero. Cr
 
 Para obtener más información sobre las taxonomías, consulte [Creación de una taxonomía](../architecture/create-a-taxonomy.md).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea crear tipos de registros.
 1. Clic **Añadir tipo de registro**.
@@ -138,14 +138,14 @@ Para obtener más información sobre las taxonomías, consulte [Creación de una
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Seleccione la siguiente información:
+1. Actualice la siguiente información:
 
-   * **Nombre de registro**: reemplace &quot;Tipo de registro operativo sin título&quot; por el nombre del tipo de registro futuro. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Nombre del tipo de registro**: reemplace &quot;Tipo de registro operativo sin título&quot; por el nombre del tipo de registro futuro.
    * **Aspecto**: defina el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el nuevo tipo de registro. Es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
-1. Haga clic fuera de **Añadir tipo de registro** para guardar el registro.
+1. Haga clic fuera de **Añadir tipo de registro** para guardar el tipo de registro.
 
    La tarjeta de tipo de registro se añade al espacio de trabajo seleccionado.
 El número de campos que contiene el tipo de registro se muestra en la tarjeta.
@@ -171,8 +171,11 @@ El número de campos que contiene el tipo de registro se muestra en la tarjeta.
 
    Haga clic en **Más** icono ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Cambiar nombre** para cambiarle el nombre.
 
-1. (Opcional) Haga clic en **+ Nuevo &lt; nombre de tipo de registro >** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](../records/create-records.md).
-1. (Opcional) Haga clic en **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
+1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](../records/create-records.md).
+1. (Opcional) Haga clic en **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro.
+
+   Para obtener más información sobre la creación de campos, consulte [Creación de campos](../fields/create-fields.md).
+
 1. (Opcional) Haga clic en la flecha que señala a la izquierda del nombre del tipo de registro para volver al espacio de trabajo seleccionado.
 
    La tarjeta de tipo de registro muestra el número de campos y conexiones que contiene el tipo de registro.
@@ -184,7 +187,7 @@ El número de campos que contiene el tipo de registro se muestra en la tarjeta.
    * [Creación de registros](../records/create-records.md)
    * [Eliminar tipos de registros](../architecture/delete-record-types.md)
    * [Editar tipos de registros](../architecture/edit-record-types.md)
-   * [Administrar vistas de registros en Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Administrar vistas de registros](../views/manage-record-views.md)
 
 ## Creación de tipos de registros importando un archivo CSV o de Excel
 
@@ -202,9 +205,9 @@ Tenga en cuenta lo siguiente al importar tipos de registros mediante un archivo 
 
 Para importar tipos de registros mediante un archivo de Excel:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> luego haga clic en **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea crear tipos de registros.
 1. Clic **Añadir tipo de registro**.
@@ -250,20 +253,21 @@ Para importar tipos de registros mediante un archivo de Excel:
 
    Todas las personas con acceso a Maestro ahora pueden ver y editar los tipos de registro importados y su información. <!--this will change with permissions-->
 
-## Conectar tipos de registros con tipos de objetos de otra aplicación
+<!--## Connect record types with object types from another application
 
-Puede importar tipos de registro cuando cree una conexión entre un tipo de registro Maestro y un tipo de objeto de otra aplicación. Esto crea un tipo de registro de sólo lectura en Maestro que corresponde al tipo de objeto de la aplicación de terceros.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-Por ejemplo, puede crear tipos de registros conectando los tipos de registros de Maestro con proyectos de Workfront. Como resultado, el tipo de objeto de proyecto de Workfront se importa en Maestro como un tipo de registro de sólo lectura. De forma predeterminada, el tipo de registro se denomina &quot;Proyecto de Workfront&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-Se pueden importar los objetos siguientes desde las aplicaciones siguientes:
+* From Workfront:
 
-* Desde Workfront:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Proyectos
-   * Portafolios
-   * Programas
-   * Compañía
-   * Grupo
-
-Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

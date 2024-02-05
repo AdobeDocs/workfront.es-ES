@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -263,7 +263,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Objeto Maestro | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espacios de trabajo de una instancia de Workfront | 1.000 |
-| Número de tipos de registro de un espacio de trabajo | 1000 (incluye taxonomías para el espacio de trabajo u objetos que se importan desde aplicaciones de terceros) |
+| Número de tipos de registro de un espacio de trabajo | 1.000 (incluye taxonomías para el espacio de trabajo u objetos que se importan desde otras aplicaciones) |
 | Número de registros para un tipo de registro | 10.000 |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto | 1.000 caracteres |
