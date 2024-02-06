@@ -6,9 +6,9 @@ description: Lea este artículo para obtener más información sobre las directr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ A continuación se ofrecen directrices sobre cómo funcionan los anchos de colum
 * Workfront define el ancho de las columnas de las listas y los informes de forma predeterminada.
 * Workfront ajusta automáticamente el ancho de las columnas según el `valueformat`información en todas las listas e informes, a menos que se especifique lo contrario en el modo de texto de la columna.
 
-   >[!NOTE]
-   >
-   >Workfront no ajusta el ancho de las columnas según la variable `valueformat` información en las listas disponibles en las áreas Configuración e Informes.
+  >[!NOTE]
+  >
+  >Workfront no ajusta el ancho de las columnas según la variable `valueformat` información en las listas disponibles en las áreas Configuración e Informes.
 
-   El `valueformat` define qué tipo de información se muestra en la columna. Por ejemplo, las columnas que muestran un número son más estrechas que las columnas que muestran el campo Descripción.
+  El `valueformat` define qué tipo de información se muestra en la columna. Por ejemplo, las columnas que muestran un número son más estrechas que las columnas que muestran el campo Descripción.
 
 * Puede personalizar el ancho de las columnas de las listas e informes de Workfront para que coincida con sus necesidades, según el tipo de información que desee mostrar en las columnas.
 
-   Puede modificar el ancho de las columnas temporalmente, mientras ve una lista o informe, o permanentemente, ajustando el ancho de la columna en el generador de vistas. Para obtener información sobre cómo modificar temporalmente el ancho de las columnas, consulte la [Consideraciones al modificar temporalmente el ancho y el orden de las columnas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) de este artículo.
+  Puede modificar el ancho de las columnas temporalmente, mientras ve una lista o informe, o permanentemente, ajustando el ancho de la columna en el generador de vistas. Para obtener información sobre cómo modificar temporalmente el ancho de las columnas, consulte la [Consideraciones al modificar temporalmente el ancho y el orden de las columnas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) de este artículo.
 
 * Las columnas que aparecen en las vistas integradas tienen anchos definidos previamente por Workfront y codificados. Para modificar estos anchos, debe actualizar manualmente el ancho de estas columnas con el modo de texto en el generador de vistas.
 
-   Para obtener información sobre cómo modificar la columna en el modo de texto, consulte [Ver: editar de forma permanente la anchura de una columna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Para obtener información sobre cómo modificar la columna en el modo de texto, consulte [Ver: editar de forma permanente la anchura de una columna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Requisitos de acceso
 
@@ -87,6 +87,12 @@ Puede modificar temporalmente el ancho y el orden de las columnas de una lista s
 Tenga en cuenta lo siguiente al cambiar temporalmente el tamaño y ordenar las columnas:
 
 * Al cambiar el tamaño de las columnas, los nuevos tamaños de columna se almacenan en el almacenamiento local del explorador y se guardan de forma predeterminada. Si utiliza un explorador diferente o borra la caché o los datos de navegación, los tamaños de columna se revierten al tamaño predeterminado. Al actualizar la página, se mantienen los cambios realizados en el ancho de las columnas.
+
+>[!NOTE]
+> 
+>El ancho de las columnas está limitado por el tamaño de la ventana del explorador; si se actualiza la página, el ancho de las columnas se reduce hasta que todas las columnas caben en la ventana sin necesidad de desplazarse horizontalmente. Para forzar que una columna sea más ancha de lo que cabría en el explorador, debe establecer el ancho de la columna en el modo de texto como se describe en [Modificar el ancho y el orden de las columnas de forma permanente](#modify-width-and-order-of-columns-permanently) y evite ajustar manualmente los anchos de columna arrastrando sus bordes.
+>
+
 * Al reordenar las columnas, el orden elegido se mantiene únicamente hasta que se aleja de la lista o se actualiza la página del explorador. Después de salir de la lista o actualizar la página del explorador, las columnas vuelven a su orden predeterminado.
 * Para obtener un rendimiento óptimo, las columnas que está reordenando no deben tener más de 100 elementos en la lista.
 * Al cambiar el tamaño de las columnas, los cambios sólo se aplican a la vista que está utilizando actualmente y sólo son visibles para usted. Al compartir una vista con otro usuario, no se comparten los tamaños de columna definidos.
@@ -96,9 +102,9 @@ Tenga en cuenta lo siguiente al cambiar temporalmente el tamaño y ordenar las c
    * El área Informes
    * Listas de documentos e informes
 
-   >[!NOTE]
-   >
-   >No puede mover el borde izquierdo de una columna más allá del borde izquierdo de la columna contigua en ninguna lista.
+  >[!NOTE]
+  >
+  >No puede mover el borde izquierdo de una columna más allá del borde izquierdo de la columna contigua en ninguna lista.
 
 * Si exporta cualquier lista a un archivo, el orden temporal de las columnas no se transfiere al archivo exportado. El archivo exportado muestra el orden de las columnas en la lista original, antes de que se hayan reorganizado las columnas.
 

@@ -7,9 +7,9 @@ description: "Informe: Hora presupuestada"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # Informe: Horas presupuestadas
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Si desea compartir información de horas presupuestadas con otros usuarios que no tienen acceso al Planificador de recursos, puede hacerlo generando un informe de horas presupuestadas. A continuación, puede compartir el informe con ellos.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->Las horas presupuestadas se actualizan cada hora en la base de datos de Adobe Workfront. Al actualizar el informe no se actualiza necesariamente la información de las horas que contiene. Puede ver el tiempo transcurrido desde la última actualización en la esquina superior derecha de todos los informes de horas presupuestadas. Al actualizar el informe, se actualiza la información que contiene únicamente cuando ha transcurrido más de una hora desde la última actualización.
+>Las horas presupuestadas normalmente se actualizan cada hora (con poca frecuencia, puede tardar un máximo de tres horas) en la base de datos de Adobe Workfront. Al actualizar el informe no se actualiza necesariamente la información de las horas que contiene. Puede ver el tiempo transcurrido desde la última actualización en la esquina superior derecha de todos los informes de horas presupuestadas. Al actualizar el informe, se actualiza la información que contiene únicamente cuando ha transcurrido más de una hora desde la última actualización.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
