@@ -6,9 +6,9 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ Puede crear un nuevo documento de Google desde Workfront. No puede crear nuevos 
 ## Cargar y vincular un documento de Workfront a un proveedor de nube externo
 
 Puede cargar y vincular un documento de Workfront a un proveedor de nube externo. Esto mueve el almacenamiento del documento de Workfront al proveedor de nube externo. Cuando se cambia el documento en la aplicación externa, se actualiza automáticamente en Workfront.
+
+>[!NOTE]
+>
+>Al enviar un recurso a un proveedor de documentos externo, se crea una nueva versión del recurso.
 
 Los usuarios sin acceso a Workfront pueden ver el documento en la aplicación externa si tienen acceso a la aplicación.
 
