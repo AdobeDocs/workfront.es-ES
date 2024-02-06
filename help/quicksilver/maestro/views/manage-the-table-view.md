@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >   * Cambiar el campo principal en una vista de tabla afecta a todas las vistas de tabla.
    >
    >   * No se puede eliminar ni ocultar un campo principal.
+   >
+   >   * El valor enumerado en el campo principal siempre tiene un hipervínculo a la página Detalles del registro.
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
@@ -214,7 +216,7 @@ Puede tener hasta 10.000 registros (o filas) para un tipo de registro en Maestro
 
    Los registros que agregue a la vista de tabla se guardan inmediatamente y son visibles para todos los usuarios que tengan permisos de Vista o superiores en el área de trabajo.
 
-1. (Opcional) Agregue una miniatura a cada registro y haga clic en **Campos** en la esquina superior derecha de la tabla y seleccione la opción del campo Miniatura para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada.
+1. (Opcional) Agregue una miniatura a cada registro y haga clic en **Campos** en la esquina superior derecha de la tabla, seleccione la opción para **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada.
 
    Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,13 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Puede editar la información de los registros en Adobe Maestro. Debe crear tipos de registros antes de empezar a crear y editar registros.
+Puede editar la información de los registros en Adobe Maestro editando los valores de los campos asociados a los registros.
+
+Debe crear tipos de registros antes de empezar a crear y editar registros.
+
 Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
+
+Para obtener información sobre la creación de registros, consulte [Creación de registros](/help/quicksilver/maestro/records/create-records.md).
 
 &lt;!— mencione aquí que los campos de la vista Detalles son los mismos que los de la vista de tabla — este artículo está vinculado desde Administrar vistas de registros a hacer referencia a esta información—>
 
@@ -52,9 +57,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
+   <p>Nuevo: claro o superior</p>
+   O
+   <p>Actual: Trabajo o superior</p> 
   </td>
   </tr>
 
@@ -78,21 +85,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </tbody>
 </table>
 
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Consideraciones acerca de la edición de registros
 
-* Puede editar los registros que usted u otro usuario hayan creado. <!--will change with access levels-->
-* No se pueden editar campos vinculados desde otros registros o campos que contengan cálculos.
+* Puede editar los registros que haya creado o los creados por otros usuarios si dispone de permisos para el espacio de trabajo.
+* Puede editar campos de registro desde la página Detalles de un registro o desde la vista de tabla de un tipo de registro.
+* No se puede editar la información de registro desde la vista de escala de tiempo.
+* Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
+   * Campos vinculados de otros registros
+   * Campos de tipo fórmula
+   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
-* Puede utilizar las siguientes opciones de formato de texto enriquecido al editar un campo de tipo párrafo:
-
-   * Negrita
-   * Cursiva
-   * Subrayado
-   * Añadir un vínculo
-   * Agregar una lista con viñetas
-   * Añadir una lista numerada
 
 ## Edición de registros
 
@@ -110,8 +116,8 @@ El espacio de trabajo al que se accede por última vez se abre.
 1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
 1. Realice una de las siguientes acciones:
 
-   * En la vista Tabla, haga clic en el nombre de un registro.
-   * En la vista Tabla, pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
+   * Desde una **Tabla** , haga clic en el nombre de un registro.
+   * Desde el **Tabla** , pase el ratón sobre el nombre de un registro y haga clic en el botón **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
 
      ![](assets/contextual-menu-for-record-row.png)
    * En una vista Línea de tiempo, haga clic en una barra de registros.
@@ -144,7 +150,6 @@ Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. Un indicador Guardado aparece brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
 
    >[!NOTE]
    >
@@ -153,13 +158,31 @@ Se abre el espacio de trabajo al que accedió por última vez.
    >  * Campos vinculados que se crean conectando tipos de registro. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
+1. (Opcional y condicional) Cuando edite un campo de tipo Párrafo, utilice el siguiente **Texto enriquecido** opciones de formato:
 
-1. (Opcional) Copie uno o varios valores existentes de un campo, péguelos en un campo del mismo tipo en otro registro y haga clic en **Entrar** en el teclado para guardar los cambios.
+   * Negrita
+   * Cursiva
+   * Subrayado
+   * Añadir un vínculo
+   * Agregar una lista con viñetas
+   * Añadir una lista numerada
+
+   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. A **Guardado** Este indicador se muestra brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
+
+1. (Opcional) Para copiar y pegar información de un campo a otro, siga uno de estos procedimientos:
+
+   * Copie uno o varios valores existentes de un campo y péguelos en un campo del mismo tipo en otro registro
+   * Haga clic en el encabezado de una columna para seleccionarla y copiarla. A continuación, haga clic en el encabezado de otra columna y pegue el contenido de la columna copiada. Las columnas deben contener tipos de campo similares.
+   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes.
 
    >[!NOTE]
    >
    >Tenga en cuenta lo siguiente:
    >
+   >* Utilice los siguientes métodos abreviados del teclado para copiar y pegar información:
+   >   * Copiar: CTRL + C (⌘ + C para Mac)
+   >   * Pegar: CTRL + V (⌘ + V para Mac)
    >* No puede copiar información de otro origen que no sea un campo Maestro del mismo tipo que el campo en el que pega la información.
    >
    >* No se pueden copiar y pegar valores de campo en el área de Detalles de un registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
@@ -173,4 +196,9 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
    * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
    * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
+
+   >[!TIP]
+   >
+   >    Puede utilizar los métodos abreviados de teclado varias veces seguidas para deshacer varios cambios.
+
 1. (Opcional) Agregue una miniatura a un registro. Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

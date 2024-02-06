@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,54 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
 
+## Semana del 5 de febrero de 2024
+
+### Modificación de permisos según los tipos de licencia
+
+Producción: 6 de febrero de 2024
+
+Vista previa: por determinar
+
+Hemos modificado los niveles de permisos para tener en cuenta los tipos de licencia de los usuarios. Antes de esta mejora, no había diferencias en los permisos del espacio de trabajo en función de los tipos de licencia de los usuarios.
+
+Los siguientes permisos ahora funcionan junto con el tipo de licencia del usuario:
+
+* Los usuarios con una licencia de planificación (o licencia estándar, en el nuevo modelo de licencia) pueden crear y administrar espacios de trabajo, tipos de registros y registros.
+
+* Los usuarios con una licencia de trabajo (o Ligera, en el nuevo modelo de licencia) pueden ver y contribuir a un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo.  Los usuarios con licencia de trabajo (o básica) también pueden crear, editar y eliminar registros en espacios de trabajo en los que tengan acceso de tipo Contribuir.
+
+* Los usuarios con una licencia de revisión o solicitante (o colaborador, en el nuevo modelo de licencia) solo pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. No pueden crear, editar ni eliminar tipos de registros o registros.
+
+Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+Para obtener información acerca de la conexión entre el tipo de licencia y los permisos en Maestro, consulte [Introducción al tipo de licencia en Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
+<!--
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+ 
+For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
+-->
 
 ## Semana del 29 de enero de 2024
 
