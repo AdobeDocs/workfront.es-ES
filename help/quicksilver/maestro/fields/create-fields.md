@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3339'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 >
 >* El contenido de un campo de párrafo puede tener hasta 1000 caracteres.
 >
->* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro.
+>* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro. Para obtener más información, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Párrafo** tipo de campo.
 
@@ -377,7 +377,9 @@ Para obtener más información, consulte [Información general sobre campos de f
 
    >[!NOTE]
    >
-   >    No se pueden agregar campos de registros vinculados en una fórmula. Esta funcionalidad se lanzará más adelante. Para obtener más información sobre las nuevas versiones, consulte [Actividad de versión de Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
+   > * No se pueden agregar campos de tipo Selección múltiple en una fórmula.
+   >
+   > * No se pueden agregar campos de registros vinculados en una fórmula. Esta funcionalidad se lanzará más adelante. Para obtener más información sobre las nuevas versiones, consulte [Actividad de versión de Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Haga clic en **Crear**.
