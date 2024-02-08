@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a7df266715acc1e1b054b625effbd777273021d3
+source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 ## Mejoras de Adobe Workfront
 
-<!-- * [Administrator enhancements](#administrator-enhancements)-->
+* [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
 
-<!--
-### Administrator enhancements
+### Mejoras del administrador
 
 <table>
             <col style="width: 50%;" />
@@ -45,41 +44,32 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Función</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
-
-Icons on a field in the form designer canvas indicate that logic is configured on that field, or that the field is used in logic rules configured on other fields.
-
-For more information, see [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta de Forms Designer</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>Ahora puede editar la visualización existente y la lógica de omisión y agregar nueva lógica a los formularios personalizados en la versión beta de Forms Designer. Un generador de lógica fácil de usar le ayuda a definir qué campos mostrar u omitir en función de las selecciones en el formulario.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 25, 2024<br /></p>
+                                <p>Versión preliminar: 8 de febrero de 2024<br /></p>
                             </li>
                             <li>
-                                <p>Fast release to Production: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Quarterly release to Production: With the 24.4 release April 2024</p>
+                                <p><span class="preview">Producción para todos los clientes: con la versión 24.2 (15 de febrero de 2024)</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-    -->
 
 ### Mejoras del proyecto
 
@@ -110,11 +100,47 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>Producción para la versión rápida: con la versión 24.2 (15 de febrero de 2024)</p>
                             </li>
                             <li>
-                                <p>Producción para todos los clientes: con la versión 24.4 (abril de 2024)</p>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
                     </tr>
+           </tbody>
+        </table>
+
+### Otras mejoras
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el segundo trimestre de 2024</a></p><p>En el segundo trimestre de 2024 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: Durante el segundo trimestre de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción: revise las notas de la versión para fechas específicas</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

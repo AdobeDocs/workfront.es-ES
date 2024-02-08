@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles con la versión del cuar
 
 >[!NOTE]
 >
->Versión de vista previa: 1 de noviembre de 2023; versión de producción para todos los clientes: 1 de noviembre
+>Versión de vista previa: 1 de noviembre de 2023; versión de producción para todos los clientes: 1 de noviembre de 2023
 
 La plantilla de correo electrónico para las notificaciones de aprobación de documentos se ha actualizado para que coincida mejor con otras plantillas de correo electrónico de Adobe y para mejorar la claridad y la facilidad de uso.
 
@@ -31,7 +31,7 @@ La plantilla de correo electrónico para las notificaciones de aprobación de do
 
 >[!NOTE]
 >
->Versión de vista previa: 12 de octubre de 2023; versión de producción para todos los clientes: por determinar
+>Versión de vista previa: 12 de octubre de 2023; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para versión trimestral: con la versión 24.4 (abril de 2024)
 
 Para proporcionar más claridad sobre los ajustes manuales o el contorneado en el Distribuidor de cargas de trabajo, las asignaciones horarias ajustadas manualmente ahora muestran un icono de lápiz.
 

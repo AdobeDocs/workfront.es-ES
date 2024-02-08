@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 777739c4803eb8edf6ece7356e29e121a157c4d4
+source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
 workflow-type: tm+mt
-source-wordcount: '13914'
+source-wordcount: '13926'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
       * Versión del segundo trimestre de 2024 {#release-24-q2}
          * [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [Mejoras de proyectos en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Mejoras de administrador en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+         * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Versión del primer trimestre de 2024 {#release-24-q1}
          * [Información general sobre la versión del primer trimestre de 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [Mejoras de administrador en el primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
