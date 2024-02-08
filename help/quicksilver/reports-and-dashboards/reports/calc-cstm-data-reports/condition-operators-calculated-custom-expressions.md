@@ -7,7 +7,7 @@ description: Puede utilizar operadores de condición o modificadores al crear da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Operadores de condición en campos personalizados calculados
 
-Puede utilizar operadores de condición o modificadores al crear datos personalizados calculados en Adobe Workfront cuando utilice el modo de texto.
+<!-- Audited: 2/2024 -->
 
-Para obtener información sobre el uso del modo de texto en Workfront, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Puede utilizar operadores de condición o modificadores al crear datos personalizados calculados en Adobe Workfront cuando utilice el modo de texto. Para obtener información sobre el uso del modo de texto en Workfront, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Los operadores o modificadores de condición ayudan a crear una instrucción de condición conectando los campos de Workfront existentes en las instrucciones y generando un nuevo campo. El uso más común de los operadores de condición es generar la condición de una instrucción &quot;IF&quot;.
 

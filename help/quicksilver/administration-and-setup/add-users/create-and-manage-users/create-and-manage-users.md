@@ -1,27 +1,29 @@
 ---
-title: Crear y administrar usuarios
+title: "Crear y administrar usuarios: índice de artículos"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: Puede añadir usuarios en Adobe Workfront creando usuarios individuales desde cero o copiando los existentes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 15%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
-# Crear y administrar usuarios
+# Crear y administrar usuarios: índice de artículos
+
+<!-- Audited: 2/2024 -->
 
 Esta sección contiene los siguientes artículos:
 
-* [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+* [Adición de usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 * [Importar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
 * [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 * [Edición de perfiles de usuario por lotes](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
