@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
+source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
 workflow-type: tm+mt
-source-wordcount: '5825'
+source-wordcount: '5824'
 ht-degree: 2%
 
 ---
@@ -442,7 +442,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
