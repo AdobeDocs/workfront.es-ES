@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -163,15 +163,19 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 1. (Opcional) Agregue registros al tipo de registro seleccionado agregando una nueva fila a la tabla. Para obtener más información, consulte [Creación de registros](../../maestro/records/create-records.md).
-1. Desde un registro enumerado en la vista de tabla, vaya a la columna de registro vinculada, haga clic dentro del campo de registro vinculado y, a continuación, haga clic en **+** icono.
+1. (Condicional) Después de conectar el tipo de registro seleccionado con otro tipo de registro, vaya a la columna de registro vinculado y haga doble clic en la celda correspondiente al registro que desea vincular con otros registros.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Realice una de las siguientes acciones:
+
+   * Haga clic en el nombre de un registro conectado de la lista para agregarlo al registro seleccionado. El registro se agrega automáticamente.
+   * Empiece a escribir el nombre de un registro y haga clic en él cuando aparezca en la lista. El registro se agrega automáticamente.
+   * Clic **Ver todo** para mostrar todos los registros.
+
+1. (Condicional) Si hizo clic en **Seleccionar todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    Puede abrir la página de detalles de un registro, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir registros del tipo de objeto o registro conectado.
-
-   El **Conectar objetos** aparece el cuadro.
 
 1. Comience a escribir el nombre de un registro en el cuadro de búsqueda y, a continuación, selecciónelo cuando aparezca en la lista
 
@@ -179,10 +183,14 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    Seleccione el nombre de uno o varios registros en el cuadro y haga clic en **Conectar objetos** en la esquina superior derecha del cuadro Conectar objetos.
 
+   >[!TIP]
+   >
+   >    Puede abrir la página de detalles de un registro, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir registros del tipo de objeto o registro conectado.
+
    Se añaden los elementos siguientes:
 
    * Los registros vinculados se muestran en el campo de registro vinculado del registro seleccionado en el paso 6. <!--accurate?-->
-   * Los campos vinculados se rellenan con la información de los registros vinculados.
+   * Los campos vinculados se rellenan con la información de los registros vinculados, si agregó campos de búsqueda vinculados al conectar los tipos de registro.
 
    Al actualizar los registros vinculados, se actualizan automáticamente los campos vinculados de los registros que está vinculando. Los campos vinculados no se pueden editar manualmente.
 
@@ -221,17 +229,19 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable.
 
 1. Clic **Nuevo registro**  para agregar registros individuales al tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](../../maestro/records/create-records.md).
-1. (Condicional) Si conectó el tipo de registro seleccionado con un objeto Workfront, vaya a la columna de objeto vinculado y pase el ratón sobre la celda correspondiente al registro que desea vincular con objetos de Workfront y, a continuación, haga clic en **+** icono.
+1. (Condicional) Después de conectar el tipo de registro seleccionado con un tipo de objeto de Workfront, vaya a la columna de objeto vinculado y haga doble clic en la celda correspondiente al registro que desea vincular con los objetos de Workfront.
 
-   El **Conectar objetos** aparece el cuadro.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Realice una de las siguientes acciones:
+
+   * Haga clic en un objeto de la lista para agregarlo al registro seleccionado. Los objetos se muestran alfabéticamente. El objeto se agrega automáticamente.
+   * Empiece a escribir el nombre de un objeto y haga clic en él cuando se muestre en la lista. El objeto se agrega automáticamente.
+   * Clic **Ver todo** para mostrar todos los objetos que tiene al menos permisos para ver.
+
+1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    Puede abrir la página de detalles de un registro, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir objetos del tipo de objeto conectado.
-
-   Para obtener más información sobre cómo conectar tipos de registros con objetos de otra aplicación, vea [Conectar tipos de registros](../architecture/connect-record-types.md).
 
 1. Comience a escribir el nombre de un objeto de Workfront en el cuadro de búsqueda y, a continuación, selecciónelo cuando se muestre en la lista
 
@@ -249,6 +259,12 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    * Los objetos Workfront seleccionados se agregan al campo de registro vinculado.
    * Si los agregó al conectar el tipo de registro con Workfront, los campos vinculados (o los campos de búsqueda) de los objetos de Workfront se rellenan automáticamente con información de Workfront.
+
+   >[!TIP]
+   >
+   >Puede abrir la página de detalles de un registro, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir objetos del tipo de objeto conectado.
+
+   Para obtener más información sobre cómo conectar tipos de registros con objetos de otra aplicación, vea [Conectar tipos de registros](../architecture/connect-record-types.md).
 
 1. (Opcional) Haga clic en el nombre de un objeto de Workfront conectado a un registro Maestro en el campo vinculado de una vista de tabla o en el campo vinculado del **Detalles** página del registro de Maestro.
 
@@ -298,7 +314,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 
 1. (Opcional) Haga clic en **Nuevo registro** para agregar nuevos registros al tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](../../maestro/records/create-records.md).
-1. (Condicional) Si ha conectado el tipo de registro seleccionado con Experience Manager Assets, vaya a la columna de objeto vinculado, pase el ratón sobre la celda correspondiente al registro que desea vincular con otros objetos desde Experience Manager y, a continuación, haga clic en **+** icono.
+1. (Condicional) Después de conectar el tipo de registro seleccionado con Experience Manager Assets, vaya a la columna de objeto vinculado, pase el ratón sobre la celda correspondiente al registro que desea vincular con otros objetos del Experience Manager y, a continuación, haga clic en **+** icono.
 
    >[!TIP]
    >
