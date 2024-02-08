@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede diseñar un formulario personalizado que los usuarios puedan adjuntar a un objeto de Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y d
 
 ## Nueva funcionalidad disponible con el diseñador de formularios
 
-Con el nuevo diseñador de formularios, hemos agregado la capacidad de
+Con el nuevo diseñador de formularios, se ha agregado la capacidad de:
 
 * **Copiar un campo**: Ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.
 
@@ -47,34 +47,15 @@ Con el nuevo diseñador de formularios, hemos agregado la capacidad de
 
 Los siguientes elementos no están disponibles actualmente en el diseñador de formularios, pero se agregarán próximamente:
 
-* Lógica de visualización/omisión
-
 * Filtrar por campos de escritura anticipada
 
 >[!IMPORTANT]
 >
->Las configuraciones existentes para la lógica y los filtros de escritura anticipada no se verán afectadas al trabajar con el nuevo diseñador de formularios.
-
-### Lógica de visualización/omisión
-
-Aunque todavía no puede agregar lógica de visualización u omisión al diseñar un nuevo formulario personalizado, puede ver la lógica de visualización u omisión existente en los formularios creados en el generador de formularios heredados.
-
-Los iconos de un campo en el diseñador de formularios indican que se aplica lógica al campo.
-
-El ![Mostrar lógica para el campo de destino](assets/display-logic-bottom-left.png) en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de visualización (si se realiza una selección específica en el formulario, se muestra este campo). El ![Definir icono de lógica de visualización](assets/display-logic-bottom-right.png) en la parte inferior derecha significa que el campo se utiliza para definir la lógica de visualización (una selección o valor específico de este campo mostrará el campo de destino).
-
-El ![Omitir lógica para campo de destino](assets/skip-logic-bottom-left.png) en la parte inferior izquierda significa que el campo es el campo de destino para la lógica de omisión (si se realiza una selección específica en el formulario, este se salta este campo). El ![Definir icono de lógica de omisión](assets/skip-logic-bottom-right.png) en la parte inferior derecha significa que el campo se utiliza para definir la lógica de omisión (una selección o valor específico de este campo omitirá otros campos e irá directamente al campo de destino).
-
-![Iconos lógicos](assets/logic-icons-3.png)
-
-Al seleccionar un campo con lógica aplicada, se muestran las reglas lógicas existentes en la configuración del campo.
-
-![Reglas lógicas](assets/form-designer-view-only-logic.png)
+>Las configuraciones existentes para los filtros de escritura anticipada no se verán afectadas cuando trabaje con el nuevo diseñador de formularios.
 
 ## Funcionalidad quitada del diseñador de formularios
 
-Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
-
+Se ha quitado la siguiente funcionalidad del diseñador de formularios:
 
 * Fichas Configuración de formulario, Uso compartido de formularios, Uso compartido de campos
 
@@ -84,9 +65,10 @@ Se ha eliminado la siguiente funcionalidad del diseñador de formularios:
 
   >[!NOTE]
   >
-  >Puede controlar el uso compartido de formularios y campos desde la pestaña Configuración > Forms personalizado > Forms o Campos.
+  >Puede controlar el uso compartido de formularios y campos desde el área Configuración > Forms personalizado > Forms o Campos.
 
 * Seguir cambios de los campos en las fuentes de actualización
+
   >[!NOTE]
   >
   >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes
