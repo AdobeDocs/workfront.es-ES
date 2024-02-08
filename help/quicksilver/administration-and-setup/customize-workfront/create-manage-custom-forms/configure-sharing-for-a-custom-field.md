@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Configure el uso compartido de campos personalizados y widgets con el generador de formularios heredado
 description: De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '942'
+ht-degree: 0%
 
 ---
 
 # Configure el uso compartido de campos personalizados y widgets con el generador de formularios heredado
+
+{{highlighted-preview}}
 
 De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
 
@@ -30,35 +32,38 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configuración del uso compartido para un campo o widget personalizado
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
 1. Si está configurando el uso compartido de un campo o widget personalizado en la instancia de Workfront de su organización, haga lo siguiente:
 
-   1. Haga clic en **Campos** pestaña.
-   1. Seleccione el elemento para el que desea configurar el uso compartido y haga clic en **Compartir**.
+   1. Clic **Campos** para abrir el área Campos.
+   1. Seleccione el elemento para el que desea configurar el uso compartido y haga clic en **Compartir** <span class="preview">o ![Icono Compartir](assets/share-icon.png).</span>
 
    O bien, si está configurando el uso compartido de un campo o widget personalizado en un formulario personalizado existente, haga lo siguiente:
 
-   1. Seleccione el formulario personalizado y haga clic en **Editar**.
+   1. Seleccione el formulario personalizado y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
    1. En el área de edición del formulario de la derecha, seleccione el elemento para el que desea configurar el uso compartido.
    1. En el panel izquierdo, haga clic en **Compartir campo**.
 
@@ -100,7 +105,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
      Limita el acceso únicamente a las personas agregadas a la lista.
 
-   * **Hacer esto visible en todo el sistema para que cualquier usuario de Workfront lo pueda ver**
+   * **Convertirlo en visible en todo el sistema para que todos los usuarios de Workfront puedan verlo**
 
 1. Clic **Guardar** o **Guardar + Cerrar**.
 

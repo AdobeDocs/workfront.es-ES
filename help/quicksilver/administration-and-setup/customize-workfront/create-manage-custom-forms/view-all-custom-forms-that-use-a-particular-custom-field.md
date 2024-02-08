@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ver todos los formularios personalizados que utilizan un campo o widget personalizado en particular
 description: Puede averiguar qué formularios personalizados utilizan un campo o widget personalizado que desee cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o el widget.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,29 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Descubra qué formularios personalizados utilizan un campo o widget personalizado en particular
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Abra el **Campos** , busque el campo o widget en la pestaña **Nombre** y, a continuación, vea la columna **Forms** para ver qué formularios personalizados utilizan el campo o el widget.
+1. Clic **Campos**, busque el campo o widget en el **Nombre** y, a continuación, vea la columna **Forms** para ver qué formularios personalizados utilizan el campo o el widget.
 1. (Opcional) Haga clic en el nombre de cualquiera de esos formularios personalizados para ir al formulario y tener en cuenta los cambios que puede necesitar realizar si modifica el campo o el widget.

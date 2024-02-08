@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
 description: Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado
+
+{{highlighted-preview}}
 
 Puede editar las propiedades de un campo personalizado, salto de sección o widget que se utiliza en el formulario personalizado en la instancia de Adobe Workfront. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
 
@@ -30,29 +32,32 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Editar un campo, un salto de sección o un widget personalizado utilizado en un formulario personalizado
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizado.**
-1. Haga clic en **Campos** pestaña.
-1. Seleccione el campo personalizado, el salto de sección o el widget y haga clic en **Editar**.
+1. Clic **Campos** para abrir el área Campos.
+1. Seleccione el campo personalizado, el salto de sección o el widget y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
 1. En el cuadro que aparece, cambie cualquiera de las opciones disponibles para el elemento que está editando.
 
    Ver más información sobre estas opciones

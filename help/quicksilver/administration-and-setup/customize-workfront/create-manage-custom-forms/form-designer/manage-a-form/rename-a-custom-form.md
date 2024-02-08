@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede cambiar el nombre de los formularios personalizados existentes con el diseñador de formularios.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # Cambiar el nombre de un formulario personalizado con el diseñador de formularios
+
+{{highlighted-preview}}
 
 Puede cambiar el nombre de un formulario personalizado en cualquier momento después de crearlo con el diseñador de formularios.
 
@@ -28,36 +30,36 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo plan: Estándar</p>
+   <p>Nuevo: estándar</p>
    <p>o</p>
-   <p>Plan actual: plan</p></td> 
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Cambiar el nombre de un formulario personalizado con el diseñador de formularios
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizado** en el panel izquierdo.
 
    En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado cuyo nombre desea cambiar y haga clic en **Editar**.
+1. Seleccione el formulario personalizado cuyo nombre desea cambiar y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon2.png).</span>
 1. Para cambiar el título, haga clic en el nombre del formulario.
-1. Para cambiar la descripción, haga clic en el cuadro de texto de descripción.
+1. Para cambiar la descripción, haga clic en el cuadro de texto de la descripción.
 
 1. Clic **Guardar y cerrar**.
 

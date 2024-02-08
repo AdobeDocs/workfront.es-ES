@@ -1,13 +1,13 @@
 ---
 title: Ver todos los informes que utilizan un campo o widget personalizado en particular
 description: Puede agregar una vista personalizada en el área de Forms personalizado que muestre qué informes están usando un campo o widget personalizado en particular. Esto resulta útil cuando necesita editar o eliminar el campo o widget, porque es posible que ya esté implementado en uno o más informes. Es importante evaluar si esos informes necesitarán ajustes para seguir funcionando correctamente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Enumerar los informes que utilizan un campo o widget personalizado en particular
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Abra el **Campos** para mostrar un informe con todos los campos y widgets personalizados de la instancia de Workfront.
+1. Clic **Campos** para mostrar un informe con todos los campos personalizados y widgets de la instancia de Workfront.
 
-   ![](assets/fields-tab.png)
-
-1. Haga clic en **Ver** menú desplegable en el encabezado situado en la parte superior de la lista y, a continuación, compruebe si hay vistas personalizadas en la lista que incluyan **Informes** (que no es una columna predeterminada en esta ficha).
+1. Haga clic en **Ver** menú y, a continuación, compruebe si hay vistas personalizadas en la lista que incluyan **Informes** (que no es una columna predeterminada en esta ficha).
 
    En la columna Informes se puede ver qué informes utilizan cada campo personalizado y widget que se ha agregado a un formulario personalizado del sistema. Es posible que alguien ya haya creado una vista que incluya el **Informes** columna.
 
 1. Si no ve una vista que incluya la variable **Informes** , cree una nueva vista que la incluya:
 
-   1. Haga clic en **Ver** y, a continuación, haga clic en **Nueva vista**.
+   1. Haga clic en **Ver** y haga clic en **Nueva vista**.
 
    1. En el **Nueva vista** página que aparece, en el cuadro situado cerca de la esquina superior izquierda, reemplazar **Nueva vista de parámetros** con un nombre descriptivo para la vista, como *Campos y widgets*.
 

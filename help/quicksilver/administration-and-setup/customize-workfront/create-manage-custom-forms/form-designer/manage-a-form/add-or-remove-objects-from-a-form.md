@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puede agregar o quitar tipos de objetos de los formularios personalizados con el diseñador de formularios.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Agregar o eliminar tipos de objetos de un formulario personalizado existente con el diseñador de formularios
+
+{{highlighted-preview}}
 
 Puede agregar o eliminar tipos de objetos de un formulario personalizado existente con el diseñador de formularios.
 
@@ -28,24 +30,24 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo plan: Estándar</p>
+   <p>Nuevo: estándar</p>
    <p>o</p>
-   <p>Plan actual: plan</p></td> 
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td><p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p></td> 
+   <td><p>Acceso administrativo a formularios personalizados</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Agregar tipos de objetos a un formulario personalizado existente
 
@@ -58,13 +60,13 @@ Puede agregar tipos de objetos adicionales al formulario para que se pueda adjun
 >Para obtener más información, consulte [Cómo pueden afectar varios tipos de objetos a los permisos de salto de sección](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizado** en el panel izquierdo.
 
    En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado al que desee agregar tipos de objeto adicionales y, a continuación, haga clic en **Editar**.
+1. Seleccione el formulario personalizado al que desee agregar tipos de objeto adicionales y, a continuación, haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
 
 1. En la parte superior del formulario, haga clic en el signo más + después **Tipos de objetos**, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
 
@@ -88,13 +90,13 @@ Puede eliminar tipos de objetos de un formulario personalizado existente. Un for
 
 Para eliminar un tipo de objeto:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizado** en el panel izquierdo.
-1. Seleccione el formulario personalizado que desee editar y haga clic en **Editar**.
-1. Haga clic en la X de cualquiera de las **Tipos de objetos** que desee eliminar del formulario y, a continuación, haga clic en **Eliminar** en el mensaje de advertencia que se muestra.
+1. Seleccione el formulario personalizado que desee editar y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
+1. Haga clic en la X de cualquiera de las **Tipos de objetos** que desee eliminar del formulario.
 
    ![](assets/delete-object-types.png)
 
 1. (Opcional) Repita el paso anterior para cualquier otro tipo de objeto que desee quitar del formulario.
-1. Clic **Listo**, luego haga clic en **Cerrar y guardar**.
+1. Clic **Listo**, luego haga clic en **Guardar y cerrar**.
