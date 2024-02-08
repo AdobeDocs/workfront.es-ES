@@ -9,9 +9,9 @@ description: El módulo Adobe Workfront Fusion HTTP &gt; Make a request es un m�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >Adobe Workfront Fusion requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront] licencia.
 
 El [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Crear un módulo de solicitud] es un módulo universal que permite configurar una solicitud HTTP y enviarla a un servidor. La respuesta HTTP recibida se incluye entonces en el paquete de salida.
+
+>[!NOTE]
+>
+>Si se está conectando a un producto de Adobe que actualmente no tiene un conector dedicado, le recomendamos que utilice el módulo de Adobe Authenticator.
+>
+>Para obtener más información, consulte [módulo de Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisitos de acceso
 

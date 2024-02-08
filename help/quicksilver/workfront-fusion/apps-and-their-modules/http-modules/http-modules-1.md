@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,12 @@ ht-degree: 2%
 La aplicación HTTP proporciona varios módulos de comunicación basados en el protocolo HTTP (Protocolo de transferencia de hipertexto). HTTP es la base de la comunicación de datos para el World Wide Web. Puede utilizar los módulos para descargar páginas web y archivos, llamar a enlaces web y extremos de API, etc.
 
 La elección correcta del módulo depende del mecanismo de autenticación/autorización que utilice el recurso al que desee acceder.
+
+>[!NOTE]
+>
+>Si se está conectando a un producto de Adobe que actualmente no tiene un conector dedicado, le recomendamos que utilice el módulo de Adobe Authenticator.
+>
+>Para obtener más información, consulte [módulo de Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 Consulte los siguientes artículos para obtener instrucciones específicas sobre el módulo:
 

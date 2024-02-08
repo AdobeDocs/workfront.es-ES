@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 765cff51ee537be459722a9a11c9621cd3b623f7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,17 @@ Para obtener información sobre cómo utilizar Workfront Fusion, consulte [Adobe
 
 ## Versiones de Fusion en 2024
 
+### Febrero de 2024
+
+* [Actividad de la versión de Workfront Fusion: Semana del 5 de febrero de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
 ### Enero de 2024
 
 * [Actividad de la versión de Workfront Fusion: Semana del 1 de enero de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## Versiones de Fusion en 2023
+
++++**Haga clic para abrir**
 
 ### Noviembre de 2023
 
@@ -72,6 +78,8 @@ Para obtener información sobre cómo utilizar Workfront Fusion, consulte [Adobe
 
 * [Actividad de la versión de Workfront Fusion: Semana del 20 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Actividad de la versión de Workfront Fusion: Semana del 6 de marzo de 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## Versiones de Fusion en 2022
 

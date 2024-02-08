@@ -9,9 +9,9 @@ description: Con el fin de hacer una [!DNL Adobe Workfront Fusion] Solicitud HTT
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ Con el fin de hacer una [!DNL Adobe Workfront Fusion] Solicitud HTTP(S) a servid
 Otros flujos, como el flujo de credenciales de contraseña de propietario de recursos y el flujo de credenciales de cliente, no se admiten automáticamente a través de este módulo.
 
 Para obtener más información sobre la autenticación OAuth 2.0, consulte [El marco de autorización de OAuth 2.0](https://tools.ietf.org/html/rfc6749).
+
+>[!NOTE]
+>
+>Si se está conectando a un producto de Adobe que actualmente no tiene un conector dedicado, le recomendamos que utilice el módulo de Adobe Authenticator.
+>
+>Para obtener más información, consulte [módulo de Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisitos de acceso
 
