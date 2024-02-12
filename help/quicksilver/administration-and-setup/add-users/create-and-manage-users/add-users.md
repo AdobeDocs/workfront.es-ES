@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
+>Si su organización se ha incorporado a Adobe Admin Console, debe crear administradores del sistema a través de Adobe Admin Console.
+>
+>Para obtener instrucciones sobre cómo crear administradores de sistemas en Adobe Admin Console, consulte [Administración de usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Los administradores de grupo de las organizaciones que se han incorporado a Adobe Admin Console pueden utilizar este procedimiento para crear usuarios y enviar al usuario para su aprobación por parte de la administración.
->
->Para obtener instrucciones sobre cómo agregar un usuario en Adobe Admin Console:
->
->* Consulte [Creación de usuarios en Workfront con Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* Consulte la sección &quot;Agregar usuarios&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Póngase en contacto con el administrador de Adobe Admin Console.
 >
 >Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

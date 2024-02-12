@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Como administrador de Adobes, puede crear usuarios de Adobe Workfront y administradores de sistemas con Adobe Admin Console. La consola es una ubicación central para administrar los derechos de Adobe en toda la organización. Para obtener más información, consulte la [Resumen del Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+Como administrador de Adobes, puede crear administradores del sistema de Adobe Workfront con Adobe Admin Console. La consola es una ubicación central para administrar los derechos de Adobe en toda la organización. Para obtener más información, consulte la [Resumen del Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>Se recomienda añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible agregar usuarios en Adobe Admin Console, pero agregarlos en Workfront le permite establecer su nivel de acceso al crearlos, lo que le puede ahorrar tiempo.
 
 ## Requisitos de acceso
 
@@ -116,9 +120,33 @@ Antes de usar el Admin Console para Workfront, debería recibir un correo electr
    * [Creación de usuarios en Workfront con Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Creación de administradores de sistemas en Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## Creación de administradores de sistemas en Workfront con Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+El nivel de acceso de administrador del sistema solo se concede en Adobe Admin Console. No puede conceder ni eliminar el acceso de administrador desde Workfront.
+
+Debe agregar un usuario a la instancia de producción de Workfront para poder hacerlo administrador del sistema de Workfront.
+
+1. Vaya al área de usuario y administración en el Admin Console, tal como se describe en la sección [Acceda al área de usuario y administración para la instancia de producción de Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) en este artículo.
+1. Seleccione el **Administradores** sobre la lista de usuarios.
+1. Seleccionar **Añadir administrador**.
+1. En el **Añadir administradores de perfil de producto** , introduzca las direcciones de correo electrónico o los nombres de los administradores que desea añadir y, a continuación, seleccione **Guardar**.
+
+   ![](assets/add-admin-1.png)
+
+   Los administradores del sistema se crean en Workfront.
+
+   >[!IMPORTANT]
+   >
+   >No realice ningún cambio en el propio perfil del producto.
+
+
 ## Creación de usuarios en Workfront con Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
-Los usuarios de Workfront deben añadirse a Adobe Admin Console. Un administrador puede crear el usuario directamente en Adobe Admin Console. Los administradores de grupo crean usuarios en Workfront que luego se envían para su aprobación. Cuando se aprueba, el usuario se añade a Adobe Admin Console.
+>[!NOTE]
+>
+>Se recomienda añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible agregar usuarios en Adobe Admin Console, pero agregarlos en Workfront le permite establecer su nivel de acceso al crearlos, lo que le puede ahorrar tiempo.
 
 * [Cree usuarios en Workfront directamente en Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Cree usuarios en Workfront y apruébelos en Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ Para aprobar un usuario:
 
 
 
-## Creación de administradores de sistemas en Workfront con Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-El nivel de acceso de administrador del sistema solo se concede en Adobe Admin Console. No puede conceder ni eliminar el acceso de administrador desde Workfront.
-
-Debe agregar un usuario a la instancia de producción de Workfront para poder hacerlo administrador del sistema de Workfront. Para obtener instrucciones, consulte la sección [Creación de usuarios en Workfront con Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) en este artículo.
-
-1. Vaya al área de usuario y administración en el Admin Console, tal como se describe en la sección [Acceda al área de usuario y administración para la instancia de producción de Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) en este artículo.
-1. Seleccione el **Administradores** sobre la lista de usuarios.
-1. Seleccionar **Añadir administrador**.
-1. En el **Añadir administradores de perfil de producto** , introduzca las direcciones de correo electrónico o los nombres de los administradores que desea añadir y, a continuación, seleccione **Guardar**.
-
-   ![](assets/add-admin-1.png)
-
-   Los administradores del sistema se crean en Workfront.
-
-   >[!IMPORTANT]
-   >
-   >No realice ningún cambio en el propio perfil del producto.
 
 
 

@@ -2,29 +2,35 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Diferencias de administración basadas en plataformas (Adobe Workfront/Adobe Business Platform)
-description: Si su organización ha sido incorporada a la plataforma empresarial de Adobe, los usuarios utilizan la plataforma empresarial de Adobe para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza principalmente a través de Adobe Admin Console y que el inicio de sesión único (SSO) se administra a través de la plataforma empresarial de Adobe en lugar de a través de Workfront. Como administrador de Adobe Workfront, las responsabilidades y los procedimientos de administración difieren en función de si su organización ha sido incorporada a la plataforma empresarial de Adobe. En este artículo se enumeran los procedimientos que se deben gestionar de forma diferente y se vinculan a las instrucciones para Workfront y Adobe Admin Console.
+title: Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
+description: Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza en gran medida a través de Adobe Admin Console y que el inicio de sesión único (SSO) se gestiona a través de Adobe Business Platform en lugar de a través de Workfront. Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. Este artículo enumera los procedimientos que deben gestionarse de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
 
-# Diferencias de administración basadas en plataformas (Adobe Workfront/Adobe Business Platform)
+# Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
 
-Si su organización ha sido incorporada a la plataforma empresarial de Adobe, los usuarios utilizan la plataforma empresarial de Adobe para acceder a Adobe Workfront. Esto significa que:
+Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa lo siguiente:
 
-* La administración de usuarios se realiza principalmente a través de Adobe Admin Console
-* El inicio de sesión único (SSO) se gestiona a través de la plataforma empresarial de Adobe en lugar de a través de Workfront
+* Los administradores del sistema se crean mediante Adobe Admin Console
+* El inicio de sesión único (SSO) se administra a través de Adobe Business Platform en lugar de Workfront
 
-Como administrador de Adobe Workfront, las responsabilidades y los procedimientos de administración difieren en función de si su organización ha sido incorporada a la plataforma empresarial de Adobe. En este artículo se enumeran los procedimientos que se deben gestionar de forma diferente y se vinculan a las instrucciones para Workfront y Adobe Admin Console.
+Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. Este artículo enumera los procedimientos que se gestionan de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
 
 ## Usuarios
+
+
+
+>[!NOTE]
+>
+>Se recomienda añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible agregar usuarios en Adobe Admin Console, pero agregarlos en Workfront le permite establecer su nivel de acceso al crearlos, lo que le puede ahorrar tiempo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +40,7 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
   <tr> 
    <th>Acción</th> 
    <th>Para obtener instrucciones sobre Workfront, consulte</th> 
-   <th>Para obtener instrucciones en la consola de administración de Adobe, consulte</th> 
+   <th>Para obtener instrucciones sobre la Admin Console de Adobe, consulte</th> 
   </tr> 
  </thead> 
  <tbody> <!--
@@ -58,19 +64,19 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Editar detalles del usuario" de <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
+     <li> <p>La sección "Editar detalles del usuario" en <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Agregar un usuario a Adobe Workfront</td> 
+   <td role="rowheader">Añadir un usuario a Adobe Workfront</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Agregar usuarios</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adición de usuarios</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Administrar usuarios en Adobe Admin Console</a> </p> </li> 
-     <li> <p>La sección "Agregar usuarios" de <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Administración de usuarios en Adobe Admin Console</a> </p> </li> 
+     <li> <p>La sección "Agregar usuarios" en <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
     </ul> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -94,7 +100,7 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Eliminar usuarios" de <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
+     <li> <p>La sección "Eliminar usuarios" en <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -105,30 +111,30 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Eliminar usuarios de forma permanente" de <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Administrar usuarios de directorios</a>
-     </p><p>Nota: Eliminación de un usuario del [!DNL Adobe Admin Console] desactiva el usuario en [!DNL Workfront], pero no los elimina de [!DNL Workfront].</p> </li> 
+     <li> <p>La sección "Eliminar usuarios permanentemente" en <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Administrar usuarios de directorio</a>
+     </p><p>Nota: Eliminación de un usuario de [!DNL Adobe Admin Console] desactiva el usuario en [!DNL Workfront], pero no las elimina de [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Editar un perfil de usuario</td> 
+   <td role="rowheader">Edición de un perfil de usuario</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edición del perfil de un usuario</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Editar detalles del usuario" de <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
+     <li> <p>La sección "Editar detalles del usuario" en <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Edición masiva de perfiles de usuario</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Editar perfiles de usuario de forma masiva</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Edición de perfiles de usuario por lotes</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Editar detalles del usuario" de <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Carga masiva de CSV</a></p> </li> 
+     <li> <p>La sección "Editar detalles del usuario" en <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Carga masiva de CSV</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,7 +145,7 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "Agregar usuarios" de <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Carga masiva de CSV</a></p> </li> 
+     <li> <p>La sección "Agregar usuarios" en <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Carga masiva de CSV</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -154,11 +160,11 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
    <td role="rowheader">Renovar certificado SAML</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Renovación del certificado de metadatos de Adobe Workfront SAML 2.0</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Renovación del certificado de metadatos Adobe Workfront SAML 2.0</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>La sección "La firma digital en la respuesta SAML no validó..." en <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID de resolución de problemas</a></p> </li> 
+     <li> <p>La sección "La firma digital en la respuesta de SAML no validó..." en <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID de resolución de problemas</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,13 +172,13 @@ Como administrador de Adobe Workfront, las responsabilidades y los procedimiento
 
 ## SSO (inicio de sesión único)
 
-Dado que la plataforma empresarial de Adobe controla el inicio de sesión único (SSO) para los usuarios, las siguientes acciones y funcionalidades se gestionan automáticamente a través de la plataforma empresarial de Adobe. Si su organización aún no se ha incorporado a Adobe Business Platform, debe realizar estas acciones en Workfront.
+Dado que Adobe Business Platform controla el inicio de sesión único (SSO) para los usuarios, las siguientes acciones y funcionalidades se gestionan automáticamente a través de Adobe Business Platform. Si su organización aún no se ha incorporado a Adobe Business Platform, debe realizar estas acciones en Workfront.
 
 
 * [Configuración de Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [Configuración de Adobe Workfront con SAML 2.0 mediante ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Desactivar el inicio de sesión único en Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [Actualización de metadatos de SAML 2.0 en su proveedor de identidad](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Actualización de usuarios para el inicio de sesión único](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configurar directivas de contraseñas para autenticación](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Configuración de las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Actualización de metadatos de SAML 2.0 en el proveedor de identidad](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Actualizar usuarios para el inicio de sesión único](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [Configurar directivas de contraseña para la autenticación](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [Configurar las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
