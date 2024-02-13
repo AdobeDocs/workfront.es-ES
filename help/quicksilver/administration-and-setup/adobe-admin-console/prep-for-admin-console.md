@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
    >
    >Este paso es opcional, pero muy recomendable, ya que otras formas de autenticación y autorización de la API quedarán obsoletas en el futuro.
 
-Una vez configurado el Adobe Admin Console con Workfront, puede utilizarlo para administrar los usuarios.
+Una vez configurado Adobe Admin Console con Workfront, puede utilizarlo para crear los administradores del sistema de Workfront.
 
-Para obtener más información, consulte [Administración de usuarios en Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Para obtener más información, consulte [Administración de administradores de sistemas en Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Para obtener una lista de otras acciones que son diferentes en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

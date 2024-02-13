@@ -7,9 +7,9 @@ description: Puede añadir usuarios a organizaciones en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -72,23 +72,27 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Añadir usuarios a una organización
 
-<p>El procedimiento para añadir un usuario a su organización de Fusion difiere en función de si su organización se ha incorporado a Adobe Business Platform. </p>
+
+<!--
+<p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Añadir un usuario a una organización que se haya incorporado a Adobe Business Platform</a> </p> </li>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Agregar un usuario a una organización que no se haya incorporado a la Consola de Adobe empresarial</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<p><strong>Añadir un usuario a una organización que se haya incorporado a Adobe Business Platform</strong></p>
-<p>Si su organización se ha incorporado a Adobe Business Platform, debe realizar esta acción a través de Adobe Admin Console.</p>
-<p>Para obtener instrucciones sobre cómo agregar un usuario en Adobe Admin Console:</p>
+<p><strong>Add a user to an organization that has been onboarded to the Adobe Business Platform</strong></p>
+<p>If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.</p>
+<p>For instructions on adding a user in the Adobe Admin Console:</p>
 <ul>
-<li> <p>Consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Creación de usuarios en Workfront con Adobe Admin Console</a></p> </li>
-<li> <p>Consulte la sección "Agregar usuarios" en el artículo <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Administrar usuarios individualmente</a></p> </li>
-<li> <p>Póngase en contacto con el administrador de Adobe Admin Console.</p> </li>
+<li> <p>See <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a></p> </li>
+<li> <p>See the section "Add users" in the article <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li>
+<li> <p>Contact your Adobe Admin Console Administrator.</p> </li>
 </ul>
-<p>Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Business Platform, consulte <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)</a>.</p>
+<p>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Platform-based administration differences (Adobe Workfront/Adobe Business Platform)</a>.</p>
 </div>
-<p><strong>Agregar un usuario a una organización que no se haya incorporado a la Consola de Adobe empresarial</strong></p>
+<p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
+
+-->
 
 Para agregar usuarios a la organización, debe ser administrador de la organización a la que desee agregar usuarios. Para obtener información sobre las funciones, consulte [Funciones de organización en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
