@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ Los campos personalizados calculados en un objeto se vuelven a calcular automát
 
   >[!NOTE]
   >
-  ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan según la hora universal coordinada (UTC), no según las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
+  >En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan según la hora universal coordinada (UTC), no según las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Sin embargo, los cálculos de un formulario personalizado se muestran en función de la zona horaria individual de cada usuario.

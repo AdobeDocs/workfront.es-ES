@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 1%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 1%
          * [Ver el calendario de Inicio](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Utilice el área Mis actualizaciones](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Actualizar elementos de trabajo y ver actualizaciones {#update-work-items-view-updates}
-      * [Actualizar elementos de trabajo y ver actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Información general de la sección Actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Actualizar trabajo](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Límites de caracteres en campos](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)

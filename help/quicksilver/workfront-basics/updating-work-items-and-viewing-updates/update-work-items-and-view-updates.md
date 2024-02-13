@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Actualizar elementos de trabajo y ver actualizaciones
-description: Puede utilizar la sección Actualizaciones de la mayoría de los objetos para agregar comentarios, respuestas o seguir las actualizaciones de las que realiza el sistema sobre los cambios que tienen lugar en el objeto.
+title: "Actualizar elementos de trabajo y ver actualizaciones: índice de artículos"
+description: Puede utilizar la sección Actualizaciones de la mayoría de los objetos para agregar comentarios y respuestas, o para seguir las actualizaciones del sistema sobre los cambios que tienen lugar en el objeto.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
-# Actualizar elementos de trabajo y ver actualizaciones
+# Actualizar elementos de trabajo y ver actualizaciones: índice de artículos
 
-Puede utilizar la sección Actualizaciones de la mayoría de los objetos para agregar comentarios, respuestas o seguir las actualizaciones de las que realiza el sistema sobre los cambios que tienen lugar en el objeto.
+<!-- Audited: 02/2024 -->
+
+Puede utilizar la sección Actualizaciones de la mayoría de los objetos para agregar comentarios y respuestas, o para seguir las actualizaciones del sistema sobre los cambios que tienen lugar en el objeto.
 
 Esta sección contiene los siguientes artículos:
 
