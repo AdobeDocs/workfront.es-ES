@@ -2,20 +2,20 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Realización de asignaciones inteligentes
-description: Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo. Las asignaciones inteligentes son sugerencias para los usuarios que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Para obtener información sobre las asignaciones inteligentes, consulte Información general sobre las asignaciones inteligentes.
+description: Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo. Las asignaciones inteligentes son sugerencias para usuarios, roles o equipos que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Para obtener información sobre las asignaciones inteligentes, consulte Información general sobre las asignaciones inteligentes.
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # Realización de asignaciones inteligentes
 
-<!--update "Results" to "Other assignments" with Prod-->
+<!--Audited: 02/2024-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
 
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo.
 
-Las asignaciones inteligentes son sugerencias para los usuarios que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo.
+Las asignaciones inteligentes son sugerencias para usuarios, funciones o equipos que Adobe Workfront presenta al asignar elementos de trabajo a recursos. Workfront basa sus sugerencias en un algoritmo que determina el recurso más apropiado para el trabajo.
 
 <span class="preview">Hay dos algoritmos independientes en Workfront para tareas y problemas. </span>
-Para obtener información sobre las asignaciones inteligentes, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+Para obtener más información sobre los criterios utilizados para determinar las asignaciones inteligentes, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisitos de acceso
 
@@ -37,7 +38,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -47,19 +48,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Problemas</p> <p>Acceso de visualización o superior a Proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Tareas y Problemas</p> <p>Acceso de visualización o superior a Proyectos</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de contribución o superiores con la capacidad de asignar tareas y problemas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Permisos de contribución o superiores con la capacidad de asignar tareas y problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Realización de asignaciones inteligentes
 
@@ -70,6 +69,7 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * Una lista de tareas o problemas o un informe
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
+   * <span class="preview">Cuadro Nueva tarea o Nuevo problema a medida que agrega una nueva tarea o problema a un proyecto</span>
    * El campo Asignaciones de un elemento enumerado en el área de Inicio
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
@@ -88,11 +88,11 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase del cálculo del algoritmo en la que se hayan identificado las asignaciones:
 
    * **Asignaciones sugeridas**: Asignaciones identificadas en la primera fase del cálculo del algoritmo de asignación inteligente de tareas.
-   * <span class="preview">**Resultados**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. Esta sección no está disponible para problemas. </span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Otras asignaciones**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. Esta sección no está disponible para problemas. </span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 
-   Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. Seleccione el usuario en la lista de recomendaciones haciendo clic en su nombre.
 
@@ -102,7 +102,7 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    >
    >Si no hay sugerencias, la lista de sugerencias no se abre.
 
-1. (Opcional) Si no desea utilizar uno de los usuarios recomendados de la lista de asignaciones inteligentes, empiece a escribir el nombre del usuario deseado y selecciónelo cuando aparezca en la lista.
+1. (Opcional) Si no desea utilizar uno de los usuarios recomendados de la lista de asignaciones inteligentes, empiece a escribir el nombre del recurso deseado y selecciónelo cuando aparezca en la lista.
 1. Clic **Entrar** para realizar la asignación.
 
    El usuario seleccionado está asignado a la tarea o al problema.

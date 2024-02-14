@@ -7,9 +7,9 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* El campo Asignaciones de un elemento enumerado en el área de Inicio del área Asignaciones, al abrir una tarea o un problema
+* <span class="preview">El campo Asignaciones del cuadro Nueva tarea, al agregar una tarea a un proyecto</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* El campo Asignaciones de un elemento enumerado en el área de Inicio, al abrir una tarea o un problema
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Si no se encuentran coincidencias en el primer paso de las asignaciones intelige
 
 Para obtener más información, consulte la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
 
-Las asignaciones identificadas en esta fase se enumeran en la **Resultados** del campo Asignaciones. <!--update this to "Other assignments"-->
+Las asignaciones identificadas en esta fase se enumeran en la **Otras asignaciones** del campo Asignaciones de tareas. <!--update this to "Other assignments"-->
 
 ### Criterios de asignaciones inteligentes para tareas y problemas
 
