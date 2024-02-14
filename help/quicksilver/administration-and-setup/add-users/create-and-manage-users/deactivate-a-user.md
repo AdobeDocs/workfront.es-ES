@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador de Workfront, puede desactivar o reactivar un usuario.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
 
 # Desactivar o reactivar un usuario
+
+<!--Audited 2/2024-->
 
 <!--
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 -->
 
-Es posible que los usuarios abandonen la organización y tenga que eliminarlos de Adobe Workfront. No deben permanecer activos en el sistema, ya que esto crearía confusión para otros usuarios al añadirlos a las actualizaciones o asignarles trabajo. Cuando desactiva un usuario, los demás usuarios ya no ven su nombre cuando buscan personas en el sistema.
+Si un usuario abandona la organización, es posible que tenga que eliminarlo de Adobe Workfront. No deben permanecer activos en el sistema, ya que esto crearía confusión para otros usuarios al añadirlos a las actualizaciones o asignarles trabajo. Cuando desactiva un usuario, los demás usuarios ya no ven su nombre cuando buscan personas en el sistema.
 
 Los administradores pueden ver los usuarios inactivos en el área de Configuración.
 
@@ -39,7 +41,7 @@ Puede reactivar un usuario en cualquier momento.
 >
 >Se recomienda desactivar usuarios que hayan abandonado la organización en lugar de eliminarlos. Si se elimina un usuario, se perderá todo el historial en Workfront asociado con ese usuario. Esto incluye sus asignaciones de trabajo, su asociación con notas, horas, documentos y todos los demás objetos que hayan creado una vez.
 >
->Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que los utilice otro usuario; el resto de la información del perfil del usuario desactivado permanece tal cual.
+>Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que las utilice otro usuario. El resto de la información del perfil del usuario desactivado permanece sin cambios.
 >
 >Para obtener más información sobre el impacto de la eliminación y la desactivación de usuarios, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -57,7 +59,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p>   </td> 
+   <td>  <p>Nuevo: estándar </p> <p>O </p><p>Actual: plan </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -70,23 +72,29 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
+## Requisitos previos
+
+Antes de desactivar un administrador de Workfront o un usuario con licencia estándar o de planificación, debe asociar sus objetos y actividades a otro usuario.
+
+Para obtener más información, consulte [Acerca de la desactivación de administradores de Workfront y usuarios de licencias de planificación](#about-deactivating-workfront-administrators-and-plan-license-users) en este artículo.
+
 ## Desactivar un usuario
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleccione un usuario y haga clic en el icono Más ![](assets/more-icon.png), luego haga clic en **Desactivar**.
+1. Seleccione un usuario y haga clic en **Más** icono ![](assets/more-icon.png), luego haga clic en **Desactivar**.
 
 1. Clic **Desactivar** en el cuadro que aparece.
 
 ## Programar usuarios para su desactivación
 
-Como administrador, es posible que desee marcar a los usuarios para su desactivación antes de que abandonen la organización. Por ejemplo, si está trabajando con un usuario que está vinculado por contrato, estará en su sistema durante un período de tiempo limitado y sabrá su fecha de finalización. Puede programarlos para que se desactiven en esa fecha.
+Como administrador, es posible que desee marcar a los usuarios para su desactivación antes de que abandonen realmente la organización. Por ejemplo, si está trabajando con un usuario que está vinculado por contrato, estará en su sistema durante un período de tiempo limitado y sabrá su fecha de finalización. Puede programarlos para que se desactiven en esa fecha.
 
 Los administradores de Workfront y los usuarios de licencias de planificación pueden ver la fecha de desactivación en su perfil de usuario.
 
 Para programar la desactivación de un usuario:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
 1. Seleccione el nombre del usuario.
 
@@ -107,17 +115,17 @@ Para programar la desactivación de un usuario:
 
 1. Haga clic en **Guardar cambios**.
 
-   El usuario se desactiva en el día seleccionado a veces después de la hora seleccionada. Si ha seleccionado varios usuarios para desactivarlos por lotes, todos los usuarios seleccionados se desactivan en el día seleccionado, a veces después de la hora seleccionada.
+   El usuario se desactiva en el día seleccionado en algún momento después de la hora seleccionada. Si ha seleccionado varios usuarios para desactivarlos de forma masiva, todos los usuarios seleccionados se desactivarán el día seleccionado en algún momento después de la hora seleccionada.
 
-Le recomendamos que cree un informe para los usuarios cuya desactivación haya programado, a fin de mantenerse informados sobre los usuarios que se aproximan a la desactivación. No hay confirmación de que la desactivación se haya producido una vez que los usuarios se han desactivado.
+Le recomendamos que cree un informe para los usuarios cuya desactivación haya programado, a fin de mantenerse informados sobre los usuarios que se aproximan a la desactivación. No hay confirmación de que la desactivación se haya producido después de que los usuarios se hayan desactivado.
 
 ## Reactivar un usuario
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
 1. Seleccione un usuario y haga clic en el icono Más ![](assets/more-icon.png), luego haga clic en **Activar**.
 
-1. Asignar un nuevo **Nivel de acceso** en el menú desplegable.
+1. Asignar un nuevo **Nivel de acceso** en el menú desplegable, haga clic en **Reactivar**.
 
 ### Impacto de la corrección al reactivar un usuario
 
@@ -126,7 +134,7 @@ Los usuarios desactivados pierden la función de corrección predeterminada que 
 * Reasigne la licencia (si cuenta con un plan heredado de Workfront Premium). Para obtener más información sobre los planes de revisión de Workfront, consulte [Acceso a la funcionalidad de revisión en Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Compruebe que tienen la función de prueba correcta. A los usuarios de prueba reactivados se les asigna la función que se especifique como predeterminada para los nuevos usuarios. Consulte [Configurar funciones de corrección predeterminadas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) para obtener más información.
 
-## Acerca de la desactivación de administradores de Workfront y usuarios de licencias de planificación
+## Acerca de la desactivación de administradores de Workfront y usuarios con licencias Standard o Plan
 
 Antes de desactivar un administrador de Workfront o un usuario con una licencia de planificación, es importante comprobar si hay objetos y actividades de Workfront que impliquen a esa persona y luego asociarlos a otro administrador de Workfront o usuario con licencia de planificación según sea necesario.
 
