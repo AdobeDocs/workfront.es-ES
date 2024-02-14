@@ -70,7 +70,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabajar en ello</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Acceso]](#access)
 
