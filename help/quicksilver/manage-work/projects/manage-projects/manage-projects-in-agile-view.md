@@ -6,14 +6,16 @@ description: Puede aprovechar la funcionalidad Agile para su proyecto sin los de
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Administrar un proyecto en la vista de Agile
+
+<!-- Audited: 2/2024 -->
 
 Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
 
@@ -32,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Actual: revisar o superior</p> 
    <p>Nuevo: Colaborador o superior</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprender los proyectos de Agile
 
@@ -162,7 +164,7 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 
    La vista Agile personalizada se utilizará la próxima vez que haga clic en **Agile** icono.
 
-   Para obtener información sobre cómo crear una nueva vista Agile, consulte [Creación y personalización de vistas de Agile](#create-and-customize-agile-views).
+   Para obtener información sobre cómo crear una nueva vista Agile, consulte [Creación y personalización de vistas de Agile](#create-and-customize-agile-views), más abajo.
 
    El proyecto se muestra en la vista Agile personalizada.
 
@@ -170,7 +172,7 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 
    Si las tareas están en un estado que no se muestra en el panel de historias Agile, la tarea en sí no se muestra en el panel de historias Agile (sin embargo, el porcentaje completado de estas tareas sigue contribuyendo al porcentaje completado de cualquier tarea principal y al porcentaje completado del proyecto general).
 
-   Para agregar estados a la vista Agile, cree una nueva vista Agile o personalice una vista Agile existente, tal como se describe en la sección &quot;Crear o personalizar una vista Agile&quot; del artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para agregar estados a la vista Agile, cree una nueva vista Agile o personalice una vista Agile existente, tal como se describe en [Creación y personalización de vistas de Agile](#create-and-customize-agile-views), más abajo.
 
 1. (Opcional) Para volver a la vista de lista, haga clic en **Lista** icono.
 
@@ -180,7 +182,7 @@ Para obtener información sobre cómo personalizar una vista Agile, consulte [Cr
 >
 >Esta sección solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
 
-Al igual que con las vistas estándar en Workfront, puede personalizar las vistas Agile existentes o crear nuevas vistas Agile desde cero. A diferencia de las vistas estándar, no puede crear nuevas vistas de Agile basadas en las vistas de Agile existentes.
+Al igual que con las vistas estándar en Workfront, puede personalizar las vistas Agile existentes o crear nuevas vistas Agile desde cero. A diferencia de las vistas estándar, no puede crear nuevas vistas de Agile basadas en vistas de Agile existentes.
 
 Para obtener más información sobre la creación y personalización de vistas de Agile, consulte la [Creación o personalización de una vista de Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
