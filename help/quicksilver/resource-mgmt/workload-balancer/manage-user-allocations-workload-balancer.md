@@ -6,9 +6,9 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
+source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Como Administrador de recursos, puede asignar trabajo a los usuarios y administrar sus asignaciones diarias, semanales o mensuales desde el Distribuidor de cargas de trabajo para asegurarse de que se les asigna una cantidad de horas que se ajusta a sus programaciones disponibles.
 
