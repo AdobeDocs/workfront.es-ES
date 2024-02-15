@@ -4,9 +4,9 @@ description: Mejoras del proyecto del segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ Esta página describe todas las mejoras de proyecto realizadas con la versión d
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea
+
+>[!NOTE]
+>
+>Versión preliminar: 13 de febrero de 2024; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+
+Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
+
+* Cuadro de diálogo Nueva tarea al agregar una tarea a un proyecto
+
+* En una lista de tareas de proyecto
+
+Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Asignaciones inteligentes más relevantes
 
 >[!NOTE]
 >
->Producción para lanzamiento rápido: con la versión 24.2 (febrero de 2024); Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 

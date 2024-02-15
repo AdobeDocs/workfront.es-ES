@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,43 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
             </tbody>
         </table>
 
+### Mejoras de inicio
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opciones de columna agregadas a los controles de administrador para el nuevo Inicio mediante plantillas de diseño</a></p><p>Los administradores ahora pueden personalizar qué columnas están disponibles para los usuarios en los nuevos widgets de inicio específicos mediante plantillas de diseño. Las opciones incluyen ocultar o mostrar columnas predeterminadas y agregar campos existentes como columnas nuevas.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 2 de enero de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.2 (15 de febrero de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Mejoras del proyecto
 
 <table>
@@ -89,6 +126,24 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 13 de febrero de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (marzo de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -97,7 +152,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión de vista previa: 21 de diciembre de 2023</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.2 (15 de febrero de 2024)</p>
+                                <p>Producción para la versión rápida: con la versión 24.3 (marzo de 2024)</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
@@ -176,4 +231,4 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).

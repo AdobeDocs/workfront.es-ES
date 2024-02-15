@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                                 <p>NOTA: Esta función permanecerá en la versión de vista previa hasta la versión 24.4.</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.2 (febrero de 2024)</p>
+                                <p>Producción para la versión rápida: con la versión 24.3 (marzo de 2024)</p>
                             </li>
                             <li>
                                 <p>Producción para todos los clientes: con la versión 24.4 (abril de 2024)</p>
@@ -488,4 +488,4 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).

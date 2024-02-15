@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el segundo trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del segundo trimestre de 2024.
 
 Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Actualizaciones de aspecto y funcionamiento para dos plantillas de correo electrónico
+
+>[!NOTE]
+>
+>Lanzamiento para todos los clientes: con la versión 24.2 de (15 de febrero de 2024)
+
+Las plantillas de correo electrónico para añadir un aprobador a un recurso y para añadir un usuario a un tablero se han actualizado para que coincidan mejor con otras plantillas de correo electrónico de Adobe y para mejorar la claridad y la facilidad de uso.
 
 ## Nuevas actualizaciones de aspecto y presentación para pestañas en el área de Forms personalizado
 

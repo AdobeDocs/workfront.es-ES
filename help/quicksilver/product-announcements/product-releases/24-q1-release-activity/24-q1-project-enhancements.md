@@ -4,9 +4,9 @@ description: Mejoras del proyecto del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Producción para lanzamiento rápido: con la versión 24.2 (febrero de 2024); Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 
