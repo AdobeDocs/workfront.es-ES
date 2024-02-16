@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado
 description: Cuando esté trabajando en un formulario personalizado, puede crear un nuevo campo personalizado y agregarlo a un formulario personalizado. También puede agregar un campo personalizado que ya se haya agregado a otro formulario personalizado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -164,6 +164,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    <p><strong>Ejemplo:</strong> Si guarda un valor numérico para un campo con formato de texto en al menos un objeto y posteriormente cambia el formato a Número o Moneda, no se producirá un error. </p>
       <p>Sin embargo, si guarda un valor alfanumérico en un campo con formato de texto en al menos un objeto y, a continuación, intenta cambiar el formato a Número o Moneda, se producirá un error porque el valor alfanumérico guardado no es compatible con los formatos Número o Moneda. </p>
+
+   <p><strong>Nota:</strong> El límite de caracteres para los campos Número es de 16. También puede utilizar un campo Text para introducir números y evitar el límite.</p>
 
    </td> 
      </tr> 

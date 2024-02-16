@@ -9,7 +9,7 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Puede crear una conexión con su [!DNL Workfront Proof] cuenta directamente desd
                 <td>Introduzca la contraseña de su [!DNL Workfront Proof] cuenta.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Nombre de inquilino]</td>
+                <td  role="rowheader">[!UICONTROL ID de inquilino]</td>
                 <td><strong>Nota</strong>: Los clientes que no utilizan BYOK deben dejar este campo en blanco. <p>Introduzca el ID de inquilino de esta cuenta. Si necesita ayuda para encontrar su ID de inquilino, póngase en contacto con Asistencia al cliente de Workfront.</p></td>
             </tr>
             <tr>
