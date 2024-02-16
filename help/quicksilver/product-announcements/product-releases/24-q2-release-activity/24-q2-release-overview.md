@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta de Forms Designer</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta de Forms Designer</a></p>
                         <p>Ahora puede editar la visualización existente y la lógica de omisión y agregar nueva lógica a los formularios personalizados en la versión beta de Forms Designer. Un generador de lógica fácil de usar le ayuda a definir qué campos mostrar u omitir en función de las selecciones en el formulario.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 8 de febrero de 2024<br /></p>
+                                <p>Versión preliminar: 8 de febrero de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Producción para todos los clientes: con la versión 24.2 (15 de febrero de 2024)</span></p>
+                                <p>Producción para la versión rápida: con la versión 24.2 (15 de febrero de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para todos los clientes: por determinar</p>
                             </li>
                         </ul>
                     </td>
