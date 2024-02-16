@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Realizar asignaciones rápidas en el Distribuidor de cargas de trabajo
 

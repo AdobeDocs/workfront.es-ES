@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Project realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Incluir imágenes en las actualizaciones
 

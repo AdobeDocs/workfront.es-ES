@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ Para obtener más información sobre las actualizaciones de mantenimiento realiz
 
 En un esfuerzo por aumentar el envío de correo electrónico exitoso, agregamos nuevas direcciones IP con la versión de producción 21.1 para los clústeres 1, 2, 3, 4 y 5.
 
-Para obtener más información sobre las direcciones IP que debe agregar para el clúster, consulte [Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+Para obtener más información sobre las direcciones IP que debe agregar para el clúster, consulte [Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Para saber en qué clúster se encuentra su instancia, vaya a Configuración > Sistema > Información del cliente.
 

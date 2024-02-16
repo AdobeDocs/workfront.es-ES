@@ -6,7 +6,7 @@ description: Puede compartir o quitar permisos a un objeto que haya creado o a u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Puede compartir los siguientes objetos en Workfront con otros usuarios:
 
 * **Plantillas**: para obtener más información, consulte [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio**: para obtener más información, consulte [Compartir un portafolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolio**: para obtener más información, consulte [Compartir un portafolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programas**: para obtener más información, consulte [Compartir un programa](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 
