@@ -6,7 +6,7 @@ description: El contenido interactivo ofrece varios métodos para atraer a los v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Cuando agrupe contenido interactivo en un archivo ZIP para la revisión, asegúr
 
 Después de preparar el archivo del paquete ZIP, cree una prueba interactiva.
 
-Para obtener más información, consulte [Creación de una prueba para contenido interactivo en un archivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+Para obtener más información, consulte [Creación de una prueba para contenido interactivo en un archivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 O bien, si utiliza Workfront Proof, consulte la sección [Generación de una prueba para contenido interactivo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) en el artículo [Generar revisiones en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

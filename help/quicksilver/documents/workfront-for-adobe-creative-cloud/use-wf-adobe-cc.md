@@ -6,7 +6,7 @@ description: Puede utilizar la extensión de Workfront para exportar a Workfront
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Para solicitar una aprobación de un documento desde una solicitud de Adobe:
 
 ## Generación de una prueba desde Illustrator o InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Si su organización utiliza plantillas de flujo de trabajo automatizado, puede generar una prueba para un documento que cree en una aplicación de Adobe sin salir de la aplicación. Para obtener información sobre la creación de pruebas, consulte [Creación de pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Para obtener información sobre las plantillas de flujo de trabajo automatizado, consulte [Plantillas de flujo de trabajo automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Resumen del flujo de trabajo automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Si su organización utiliza plantillas de flujo de trabajo automatizado, puede generar una prueba para un documento que cree en una aplicación de Adobe sin salir de la aplicación. Para obtener información sobre la creación de pruebas, consulte [Creación de pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Para obtener información sobre las plantillas de flujo de trabajo automatizado, consulte [Plantillas de flujo de trabajo automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Resumen del flujo de trabajo automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Abra una de las aplicaciones de Adobe compatibles.
 1. Si no se muestra la extensión de Workfront, haga clic en **Ventana** > **Extensiones** > Workfront.

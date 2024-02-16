@@ -9,9 +9,9 @@ description: Una conexión debe cumplir los requisitos establecidos por la API d
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Las siguientes circunstancias no requieren pasos adicionales para crear una cone
 
 * Conexión a la [!DNL Microsoft Graph API] uso de un [!UICONTROL HTTP] módulo
 
-  Para obtener instrucciones, consulte [Llame a [!DNL MS Graph REST API] a través de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud de OAuth 2.0] módulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Para obtener instrucciones, consulte [Llame a [!DNL MS Graph REST API] a través de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud de OAuth 2.0] módulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Conexión a un [!DNL Google] aplicación o servicio web
 

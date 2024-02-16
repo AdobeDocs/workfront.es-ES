@@ -1,51 +1,51 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Configuración de pruebas de contenido interactivo en el visor de pruebas web
-description: Se recomienda revisar todo el contenido interactivo mediante el Visor de prueba de escritorio. Sin embargo, si las políticas de su organización lo impiden, el administrador de Workfront puede configurar el sistema para que utilice el visor de pruebas web para las pruebas interactivas. Para obtener información comparativa sobre estos dos visores, consulte Diferencias entre el visor de pruebas web y la descripción general del visor de pruebas de escritorio.
+title: Configurar la revisión de contenido interactivo en el Visor de revisión web
+description: Le recomendamos que revise todo el contenido interactivo con el Visor de pruebas de escritorio. Sin embargo, si las directivas de su organización lo impiden, el administrador de Workfront puede configurar el sistema para que utilice el Visor de revisiones web para las pruebas interactivas. Para obtener información comparativa sobre estos dos visores, consulte Diferencias entre el Visor de revisión web y la Información general del Visor de revisión de escritorio.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# Configuración de pruebas de contenido interactivo en el visor de pruebas web
+# Configurar la revisión de contenido interactivo en el Visor de revisión web
 
-Se recomienda revisar todo el contenido interactivo mediante el Visor de prueba de escritorio. Sin embargo, si las políticas de su organización lo impiden, el administrador de Workfront puede configurar el sistema para que utilice el visor de pruebas web para las pruebas interactivas. Para obtener información comparativa sobre estos dos visores, consulte [Diferencias entre el visor de pruebas web y el visor de pruebas de escritorio](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Le recomendamos que revise todo el contenido interactivo con el Visor de pruebas de escritorio. Sin embargo, si las directivas de su organización lo impiden, el administrador de Workfront puede configurar el sistema para que utilice el Visor de revisiones web para las pruebas interactivas. Para obtener información comparativa sobre estos dos visores, consulte [Diferencias entre el Visor de revisión web y el Visor de revisión de escritorio](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
-Una vez que el administrador de Workfront haya configurado el sistema para las pruebas interactivas en el visor de pruebas web, debe descargar una extensión para agregar comentarios y marcas a pruebas interactivas:
+Una vez que el administrador de Workfront haya configurado el sistema para las pruebas interactivas en el Visor de pruebas web, deberá descargar una extensión para agregar comentarios y marcas a las pruebas interactivas:
 
 ## Limitaciones
 
-El visor de pruebas web tiene las siguientes limitaciones:
+El Visor de revisión web tiene las siguientes limitaciones:
 
-* No admite pruebas de URL (solo admite archivos de archivo ZIP).
-* No admite Safari ni Internet Explorer.
-* No emula el contenido que utiliza especificaciones de interfaz en dispositivos móviles, como el color del botón, aunque le permite ver el contenido interactivo tal como aparece en las resoluciones de los distintos dispositivos.
+* No admite pruebas de URL (solo admite archivos ZIP).
+* No es compatible con Safari e Internet Explorer.
+* No emula el contenido con las especificaciones de la interfaz en dispositivos móviles, como el color del botón, aunque le permite ver el contenido interactivo tal como aparece en las resoluciones de los distintos dispositivos.
 
 >[!IMPORTANT]
 >
->Debe instalar el complemento de navegador heredado para realizar comentarios sobre pruebas interactivas en el visor de pruebas web. Este complemento solo está disponible en Firefox en la [Tienda de complementos de Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
+>Debe instalar el complemento heredado del explorador para comentar las pruebas interactivas en el Visor de pruebas web. Este complemento solo está disponible en Firefox, en la [Tienda de complementos de Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
-## Configuración de pruebas de contenido interactivo en el visor de pruebas web
+## Configurar la revisión de contenido interactivo en el Visor de revisión web
 
-1. Abra una prueba creada a partir de un archivo ZIP que contenga contenido interactivo.
+1. Abra una prueba creada a partir de un archivo ZIP con contenido interactivo.
 
-   Para obtener más información, consulte [Acerca de la preparación de contenido interactivo en un archivo ZIP para pruebas](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) en [Información general sobre pruebas de contenido interactivo](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Para obtener más información, consulte [Preparar contenido interactivo en un archivo ZIP para la revisión](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Resumen de pruebas de contenido interactivo](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Consulte también [Crear una prueba de contenido interactivo en un archivo ZIP](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   Consulte también [Creación de una prueba para contenido interactivo en un archivo ZIP](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-1. Haga clic en **Añadir comentario**.
+1. Clic **Añadir comentario**.
 
-   Un mensaje le solicita que descargue la extensión del explorador para contenido interactivo.
+   Un mensaje le pedirá que descargue la extensión del explorador para contenido interactivo.
 
-1. Haga clic en **Agregar al explorador** para ir a la página de descarga de la extensión en la tienda del explorador y, a continuación, descargue la extensión .
-1. En el visor de pruebas web, haga clic en **Vuelva a cargar la prueba**.
+1. Clic **Añadir al explorador** para ir a la página de descarga de extensiones en la tienda del explorador, descargue la extensión.
+1. En el Visor de revisión web, haga clic en **Volver a cargar la prueba**.
 
-Con la extensión instalada en el explorador, el visor de pruebas toma una captura de pantalla estática del contenido cada vez que hace clic en **Añadir comentario**. Esta captura de pantalla es donde puede agregar comentarios con marcas.
+Con la extensión instalada en el explorador, el visor de revisión realiza una captura de pantalla estática del contenido cada vez que hace clic en **Añadir comentario**. Esta captura de pantalla es donde puede agregar comentarios con marcas.
 
  

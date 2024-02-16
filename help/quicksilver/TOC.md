@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -678,7 +678,7 @@ ht-degree: 1%
          * [Administración de claves API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Política de privacidad](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Introducción a la autenticación mejorada](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [Actualización de metadatos de SAML 2.0 en el IDP al utilizar autenticación mejorada](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [Actualización de metadatos de SAML 2.0 en el IDP al utilizar autenticación mejorada](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * Tasas de cambio {#exchange-rates}
          * [Tasas de cambio](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Configuración de tipos de cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 1%
          * [Resumen del estado de finalización de iteraciones](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Cambiar el tamaño y contraer el gráfico de evolución](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Sincronización de datos en el gráfico de evolución](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [Usar un horario de equipo alternativo para los gráficos de evolución](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [Usar un horario de equipo alternativo para los gráficos de evolución](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * Iteraciones {#iterations}
          * [Iteraciones](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Resumen de iteraciones](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 1%
 * Documentos {#documents}
    * [Documentos: índice de artículos](documents/documents-overview.md)
    * Añadir nuevos documentos a Adobe Workfront {#add-new-documents-to-workfront}
-      * [Añadir nuevos documentos a Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Añadir nuevos documentos a Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Agregar documentos a Adobe Workfront desde el sistema de archivos](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Vinculación de documentos desde aplicaciones externas](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Eliminar vínculos entre Adobe Workfront y proveedores de almacenamiento de documentos externos](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 1%
       * [Habilitación de Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Administrar documentos con Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Tipos de funciones de licencias de Adobe Workfront frente a tipos de funciones DAM de Adobe Workfront](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Acceso a la ayuda de Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Acceso a la ayuda de Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Integraciones de Workfront y Experience Manager Assets {#wf-aem-integrations}
       * [Integraciones de Workfront y Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Conector mejorado de Workfront para Experience Manager {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 1%
          * [Progreso de prueba e información general de estado](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Diferencias entre el Visor de revisión web y el Visor de revisión de escritorio](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Creación de pruebas {#create-proofs}
-         * [Creación de pruebas](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [Creación de pruebas](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Configurar valores predeterminados de revisión personales](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Creación de una prueba de varias páginas](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Creación de una prueba interactiva para un sitio web u otro contenido web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [Creación de una prueba para contenido interactivo en un archivo ZIP](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [Creación de una prueba para contenido interactivo en un archivo ZIP](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [Creación de una prueba estática para un sitio web u otro contenido web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [Creación de una prueba para un documento](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Creación de una prueba avanzada con un flujo de trabajo básico](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [Conecte Adobe Workfront Fusion a un servicio web que utilice la autorización de tokens de API](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [Conexión de Adobe Workfront Fusion a los servicios de Google con medidas de seguridad actualizadas](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [Conexión de Adobe Workfront Fusion a Google Services con un cliente de OAuth personalizado](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Llame a la API de REST de MS Graph a través del módulo de solicitud Adobe Workfront Fusion HTTP > Crear un módulo de solicitud OAuth 2.0](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Llame a la API de REST de MS Graph a través del módulo de solicitud Adobe Workfront Fusion HTTP > Crear un módulo de solicitud OAuth 2.0](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Claves en Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
       * [Recibir un webhook de un servicio web](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Errores en Adobe Workfront Fusion {#errors-in-fusion}
