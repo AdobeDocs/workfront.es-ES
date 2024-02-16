@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>:</p> 
-   <p> Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitaciones
 
@@ -109,9 +110,9 @@ Para exportar una plantilla de KickStart:
       <td scope="col"> <p scope="col">Parámetro</p> <p scope="col">Texto descriptivo</p> <p scope="col">Opción del parámetro</p> <p scope="col">Grupo de parámetros</p> <p scope="col">Parámetro de categoría</p> <p scope="col">Categoría</p> <p scope="col">Informe</p> <p scope="col">Preferencias</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Ruta de aprobación</p> </td> 
+      <td scope="col"> <p>Aprobación</p> </td> 
       <td scope="col"> <p>Exportaciones como archivo de Excel</p> </td> 
-      <td scope="col"> <p>Aprobador de fase</p> <p>Fase de aprobación</p> <p>Ruta de aprobación</p> <p>Proceso de aprobación</p> <p>Preferencias</p> </td> 
+      <td scope="col"> <p>Aprobador de fase</p> <p>Fase de aprobación</p> <p>Aprobación</p> <p>Proceso de aprobación</p> <p>Preferencias</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Datos personalizados</p> </td> 
@@ -200,27 +201,9 @@ Para exportar una plantilla de KickStart:
      </tr>
 
    <tr> 
-      <td>Conjunto de recursos de legado</td> 
-      <td>Exportaciones como archivo de Excel</td> 
-      <td> <p> Conjunto de recursos de legado</p> <p>Preferencias </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Ruta de hitos</td> 
       <td> Exportaciones como archivo de Excel</td> 
       <td> <p> Hito</p> <p>Ruta de hitos</p> <p>Preferencias </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Recurso no laboral</td> 
-      <td> Exportaciones como archivo de Excel</td> 
-      <td> <p> Recurso no laboral</p> <p>Preferencias</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Categoría de recursos no laborales</td> 
-      <td> Exportaciones como archivo de Excel</td> 
-      <td> <p> Categoría de recursos no laborales</p> <p>Preferencias</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Aunque es una práctica recomendada utilizar ID siempre que sea posible, a veces
 
 ## Importar los datos de la hoja de cálculo en Workfront
 
-Después de rellenar la plantilla de Excel con los datos, puede cargar sus datos en Workfront.
+Después de rellenar la plantilla de Excel con los datos, puede cargar los datos en Workfront.
 
 La importación de KickStart admite los siguientes tipos de archivo:
 
@@ -485,17 +468,17 @@ La importación de KickStart admite los siguientes tipos de archivo:
   >* Informes
   >* Documentos
   >* Avatares
-  >* Ver, filtrar o agrupar archivos de propiedades.
+  >* Ver, filtrar o agrupar archivos de propiedades
   >
   >Al utilizar un archivo de importación comprimido, el archivo .ZIP debe tener el mismo nombre que el archivo .xlsx o .xls y todos los archivos deben tener el mismo nivel de estructura (sin carpetas).
 
 Para importar los datos de la hoja de cálculo de plantillas en Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Clic **Sistema** >**Importar datos (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Clic **Sistema** > **Importar datos (Kick-Starts)**.
 
 1. En el **Cargar datos con hoja de cálculo de KickStart** , haga clic en **Elegir archivo**, luego busque y seleccione la hoja de cálculo rellenada.
 
