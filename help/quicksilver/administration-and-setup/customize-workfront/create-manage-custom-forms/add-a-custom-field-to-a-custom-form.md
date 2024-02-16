@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado
+
+<!-- Audited: 02/2024 -->
 
 Cuando esté trabajando en un formulario personalizado, puede crear un nuevo campo personalizado y agregarlo a un formulario personalizado.
 
@@ -36,30 +38,33 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Acceso administrativo a formularios personalizados </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Agregar un campo personalizado a un formulario personalizado
+## Agregar un campo personalizado a un formulario personalizado {#add-custom-field-to-custom-form}
 
 1. Comience a crear o editar un formulario personalizado, tal como se describe en [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Abra el **Añadir un campo** pestaña.
+1. Seleccione el **Añadir un campo** pestaña.
 
-   ![](assets/add-a-field.jpg)
+   ![Agregar una pestaña de campo](assets/add-a-field.jpg)
 
-1. Con **Nuevo campo** ![](assets/new-field.jpg) seleccionado, seleccione uno de los tipos de campo que se enumeran a continuación:
+1. Con **Nuevo campo** ![Icono Nuevo campo](assets/new-field.jpg) seleccionado, seleccione uno de estos tipos de campo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo de texto con formato</td> 
-      <td>Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Está disponible en Inicio, en el área de Actualizaciones, en las listas y en el área de Detalles para los objetos de Workfront. Un límite de 15 000 caracteres permite texto y formato abundantes.</p> <p>Para obtener información sobre el acceso a este campo a través de la API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Almacenamiento de campo de texto enriquecido en la API</a>.</p> <p><b>NOTA</b>: Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront (disponibles en próximas versiones). </p> </td> 
+      <td>Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Está disponible en Inicio, en el área de Actualizaciones, en las listas y en el área de Detalles para los objetos de Workfront. Un límite de 15 000 caracteres permite texto y formato abundantes.</p> <p>Para obtener información sobre el acceso a este campo a través de la API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Almacenamiento de campo de texto enriquecido en la API</a>.</p> <p><b>NOTA</b>: Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lista desplegable</td> 
@@ -150,7 +155,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <li>Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront. <p>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.</p> </li>
       <li> <p>Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.</p> </li>
       <li><p>Se recomienda no utilizar el carácter punto/punto en el nombre del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.</p></li>
-      </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#Add" class="MCXref xref">Agregar un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
+      </ul> <p>Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. Para obtener más información, consulte <a href="#add-a-custom-field-to-a-custom-form">Agregar un campo personalizado a un formulario personalizado</a> en este artículo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
@@ -196,7 +201,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
         <li>Pertenecen a uno o varios grupos especificados</li> 
         <li>Están asociados a un rol o cargo que especifique</li> 
         <li>Pertenecen al mismo grupo que la persona que utiliza el campo</li> 
-       </ul> <p>Debe definir el filtro para el tipo de objeto seleccionado mediante la sintaxis de Modo de texto. Para obtener información sobre cómo crear un filtro con el modo Texto, consulte la sección <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edición del modo de texto en un filtro</a> en el artículo <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Introducción al modo de texto</a>. </p> <p><b>NOTA</b>:   
+       </ul> <p>Debe definir el filtro para el tipo de objeto seleccionado mediante la sintaxis de Modo de texto. Para obtener información sobre cómo crear un filtro con el modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p>
+       <p><b>NOTA</b>:   
         <ul> 
          <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo de escritura anticipada no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
          <li>Este filtro no está disponible en dispositivos móviles. Si utiliza el filtro para un campo de escritura anticipada, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
@@ -225,10 +231,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <p><b>IMPORTANTE</b>: Seleccionar o anular la selección de un tipo de objeto aquí afecta a todos los formularios personalizados asociados al tipo de objeto seleccionado y que contienen este campo. Por ejemplo, si anula la selección de un tipo de objeto aquí y guarda el formulario personalizado, los cambios de valor del campo ya no se rastrean para ese tipo de objeto en ningún formulario personalizado que contenga el campo.</p>
        <p>Después de seleccionar un tipo de objeto aquí para un campo y guardar el formulario personalizado, el campo se muestra en la pestaña Campos personalizados del área Actualizar fuentes de Configuración.</p> 
        <p>Por el contrario, si este campo se elimina en el área Actualizar fuentes de Configuración, el tipo de objeto de esta configuración no estará seleccionado en todos los formularios personalizados asociados al tipo de objeto y que contengan este campo.</p> 
-       <p>Para obtener más información, consulte la sección <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Añada los campos que quiere que Workfront rastree</a> en el artículo <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configurar actualizaciones del sistema</a>.</p> </td> 
+       <p>Para obtener más información, consulte la sección <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Añada los campos que quiere que Workfront rastree</a> en el artículo <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configurar actualizaciones del sistema</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Agregar lógica</td> 
+      <td role="rowheader">Agregar lógica</td>
       <td>Especifique qué campos deben aparecer en el formulario, en función de las selecciones que realicen los usuarios en los campos existentes. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Agregar lógica de visualización y saltar lógica a un formulario personalizado</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    >* Si cambia a Botones de opción, Workfront conserva los valores de selección múltiple que haya introducido un usuario en el campo hasta que el usuario cambie y guarde los datos en cualquier parte del formulario. En este punto, todos los valores seleccionados mediante el campo multi-select-type se sustituyen por el valor seleccionado en el botón de opción.
    >* Si cambia a un menú desplegable de selección única, Workfront conserva los valores de selección múltiple que un usuario haya introducido en el campo hasta que el usuario cambie y guarde los valores en el campo. En este punto, cualquier valor seleccionado mediante el campo multi-select-type se reemplazará por el valor desplegable seleccionado.
 
-1. (Opcional) Repita los pasos 2-6 para agregar otros campos personalizados.
+1. (Opcional) Repita los pasos del 3 al 5 para agregar más campos personalizados.
 
    O
 
-   Añada campos que ya se hayan creado para su organización, como se explica en [Reutilización de un campo o widget personalizado en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Añada campos que ya se hayan creado para su organización, como se explica en [Reutilización de un campo o widget personalizado en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
