@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Problema</p> </td> 
    <td> <p>Asignación de problema</p> </td> 
    <td> <p>Usuario al que se ha asignado el problema</p> </td> 
-   <td> <p>Se me ha asignado un problema.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico únicamente si el estado del proyecto es Actual y el estado del problema no es Cerrado o si existe algo equivalente a Cerrado.</p> <p>Los usuarios con una licencia de revisión o solicitud no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se me ha asignado un problema.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico únicamente si el estado del proyecto es Actual y el estado del problema no es Cerrado o si existe algo equivalente a Cerrado.</p> <p>Los usuarios con una licencia básica, de colaborador, de revisión o de solicitud no reciben ninguna notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Tarea</p> </td> 
    <td> <p>Asignación de tareas</p> </td> 
    <td> <p>Usuario al que se asigna la tarea</p> </td> 
-   <td> <p>Se me establece como el principal asignado a una tarea.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico si se convierte en el usuario asignado principal de la tarea, a menos que el usuario asignado sea el usuario que realizó la asignación.</p> <p>Se envía una notificación si el estado del proyecto es Actual y la tarea no está marcada como Completada.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se me establece como el principal asignado a una tarea.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico si se convierte en el usuario asignado principal de la tarea, a menos que el usuario asignado sea el usuario que realizó la asignación.</p> <p>Se envía una notificación si el estado del proyecto es Actual y la tarea no está marcada como Completada.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Hoja de horas</p> </td> 
    <td> <p>Hoja de horas reabierta</p> </td> 
    <td> <p>Usuario al que pertenece la plantilla de horas</p> </td> 
-   <td> <p>Se ha reabierto mi hoja de horas.</p> <p>El propietario de la plantilla de horas recibe una notificación por correo electrónico cuando se vuelve a abrir, a menos que el usuario que volvió a abrir la plantilla de horas sea también el propietario de la plantilla.</p> <p>Solo se envía una notificación por correo electrónico si el estado de la plantilla de horas es Abierto.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se ha reabierto mi hoja de horas.</p> <p>El propietario de la plantilla de horas recibe una notificación por correo electrónico cuando se vuelve a abrir, a menos que el usuario que volvió a abrir la plantilla de horas sea también el propietario de la plantilla.</p> <p>Solo se envía una notificación por correo electrónico si el estado de la plantilla de horas es Abierto.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Hoja de horas</p> </td> 
    <td> <p>Hoja de horas rechazada</p> </td> 
    <td> <p>Usuario al que pertenece la plantilla de horas</p> </td> 
-   <td> <p>Se rechaza mi hoja de horas.</p> <p>El propietario de la plantilla de horas recibe una notificación por correo electrónico cuando se rechaza, a menos que el usuario que la rechazó también sea el propietario.</p> <p>Solo se envía una notificación por correo electrónico si el estado de la plantilla de horas es Rechazado.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se rechaza mi hoja de horas.</p> <p>El propietario de la plantilla de horas recibe una notificación por correo electrónico cuando se rechaza, a menos que el usuario que la rechazó también sea el propietario.</p> <p>Solo se envía una notificación por correo electrónico si el estado de la plantilla de horas es Rechazado.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Asignación</p> </td> 
    <td> <p>Solicitud de elemento de trabajo</p> </td> 
    <td> <p>Miembros del equipo para el que se solicita el elemento</p> </td> 
-   <td> <p>Mi equipo recibe una nueva solicitud de trabajo.</p> <p>Los integrantes del equipo reciben una notificación por correo electrónico cuando el equipo recibe una nueva solicitud de trabajo. (El usuario que envió la solicitud no recibe una notificación si es miembro del equipo).</p> <p>Se enviará una notificación únicamente si el estado del proyecto es Actual en el momento de realizar la Solicitud de Trabajo y el estado de la Solicitud de Trabajo es Nuevo.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Mi equipo recibe una nueva solicitud de trabajo.</p> <p>Los integrantes del equipo reciben una notificación por correo electrónico cuando el equipo recibe una nueva solicitud de trabajo. (El usuario que envió la solicitud no recibe una notificación si es miembro del equipo).</p> <p>Se enviará una notificación únicamente si el estado del proyecto es Actual en el momento de realizar la Solicitud de Trabajo y el estado de la Solicitud de Trabajo es Nuevo.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Asignación</p> </td> 
    <td> <p>Solicitud de elemento de trabajo</p> </td> 
    <td> <p>Usuario para el que se ha solicitado el elemento de trabajo</p> </td> 
-   <td> <p>Recibo una nueva solicitud de trabajo.</p> <p>El usuario asignado del elemento de trabajo recibe una notificación por correo electrónico, a menos que el usuario que realiza la solicitud también sea el usuario asignado. </p> <p>No se envía una notificación si el estado de la tarea es Completa o el estado del problema es Cerrado.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Recibo una nueva solicitud de trabajo.</p> <p>El usuario asignado del elemento de trabajo recibe una notificación por correo electrónico, a menos que el usuario que realiza la solicitud también sea el usuario asignado. </p> <p>No se envía una notificación si el estado de la tarea es Completa o el estado del problema es Cerrado.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
    <td>Tarea</td> 
    <td>Finalización de todas las tareas predecesoras</td> 
    <td>Miembros del equipo asignados a tareas dependientes</td> 
-   <td> <p>Se completan todas las tareas predecesoras del equipo.</p> <p>Los usuarios asignados a la tarea (todos los miembros del equipo) reciben una notificación por correo electrónico.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se completan todas las tareas predecesoras del equipo.</p> <p>Los usuarios asignados a la tarea (todos los miembros del equipo) reciben una notificación por correo electrónico.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td>Inactivo</td> 
   </tr> 
   <tr> 
    <td> <p>Tarea</p> </td> 
    <td> <p>Finalización de todas las tareas predecesoras</p> </td> 
    <td> <p>Usuario asignado a tareas dependientes</p> </td> 
-   <td> <p>Se han finalizado todas las tareas predecesoras de mis tareas.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se han finalizado todas las tareas predecesoras de mis tareas.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Decisión de aprobación</p> </td> 
    <td> <p>Usuario al que se ha asignado el problema</p> </td> 
-   <td> <p>Se aprueba o rechaza un problema que resuelvo.</p> <p>El usuario asignado de un problema recibe una notificación por correo electrónico cuando se toma una decisión de aprobación (aprobada o rechazada).</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se aprueba o rechaza un problema que resuelvo.</p> <p>El usuario asignado de un problema recibe una notificación por correo electrónico cuando se toma una decisión de aprobación (aprobada o rechazada).</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarea</p> </td> 
    <td> <p>Decisión de aprobación</p> </td> 
    <td> <p>Usuario al que está asignada la tarea</p> </td> 
-   <td> <p>Se aprueba o rechaza una tarea que finalizo.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se aprueba o rechaza la tarea.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se aprueba o rechaza una tarea que finalizo.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se aprueba o rechaza la tarea.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Resolución del problema</p> </td> 
    <td> <p>Usuario al que se ha asignado el problema</p> </td> 
-   <td> <p>Se resuelve un problema al que estoy asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se resuelve un problema al que estoy asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
    <td> <p>Problema</p> </td> 
    <td> <p>Cambio de estado de problema</p> </td> 
    <td> <p>Usuario al que se ha asignado el problema</p> </td> 
-   <td> <p>El estado cambia en uno de mis elementos de trabajo.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando cambia el estado, a menos que el usuario que ha cambiado el estado también sea el asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>El estado cambia en uno de mis elementos de trabajo.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando cambia el estado, a menos que el usuario que ha cambiado el estado también sea el asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
    <td> <p>Tarea</p> </td> 
    <td> <p>Finalización de tarea</p> </td> 
    <td> <p>Usuario al que está asignada la tarea</p> </td> 
-   <td> <p>Se finaliza una tarea a la que estoy asignado.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se completa la tarea. Las notificaciones no se envían cuando se completa una tarea personal.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de revisión o solicitante no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se finaliza una tarea a la que estoy asignado.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se completa la tarea. Las notificaciones no se envían cuando se completa una tarea personal.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia básica, de colaborador, de revisor o de solicitante no reciben ninguna notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarea</p> </td> 
    <td> <p>Finalización de tarea</p> </td> 
    <td> <p>Usuario asignado a tarea dependiente</p> </td> 
-   <td> <p>Se ha completado una tarea predecesora de una de mis tareas.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se completa una de las tareas predecesoras de la tarea.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se ha completado una tarea predecesora de una de mis tareas.</p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se completa una de las tareas predecesoras de la tarea.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
    <td> <p>Tarea</p> </td> 
    <td> <p>Cambio de estado de Tarea</p> </td> 
    <td> <p>Usuario al que está asignada la tarea</p> </td> 
-   <td> <p>El estado cambia en una tarea a la que estoy asignado.</p> <p>El Usuario asignado a la tarea recibe una notificación por correo electrónico cuando cambia el estado de la tarea, a menos que el usuario que ha cambiado el estado también sea el asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación. </p> </td> 
+   <td> <p>El estado cambia en una tarea a la que estoy asignado.</p> <p>El Usuario asignado a la tarea recibe una notificación por correo electrónico cuando cambia el estado de la tarea, a menos que el usuario que ha cambiado el estado también sea el asignado.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación. </p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Consulte también [Notificaciones: Información sobre proyectos de mi propiedad]
    <td> <p>Documento</p> </td> 
    <td> <p>Documento agregado</p> </td> 
    <td> <p>Propietario del proyecto</p> </td> 
-   <td> <p>Se agrega un documento a mi proyecto.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un documento al proyecto, a menos que el usuario que agregó el documento también sea el propietario del proyecto.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y el documento no es Privado.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se agrega un documento a mi proyecto.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un documento al proyecto, a menos que el usuario que agregó el documento también sea el propietario del proyecto.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual y el documento no es Privado.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Agregar problema</p> </td> 
    <td> <p>Propietario del proyecto</p> </td> 
-   <td> <p>Se agrega un problema a un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un problema al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se agrega un problema a un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un problema al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Consulte también [Notificaciones: Información sobre proyectos de mi propiedad]
    <td> <p>Problema</p> </td> 
    <td> <p>Resolución del problema</p> </td> 
    <td> <p>Propietario del proyecto</p> </td> 
-   <td> <p>Se resuelve un problema en un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se resuelve un problema en un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Consulte también [Notificaciones: Información sobre proyectos de mi propiedad]
    <td> <p>Problema</p> </td> 
    <td> <p>Agregar problema no asignado</p> </td> 
    <td> <p>Propietario del proyecto</p> </td> 
-   <td> <p>Se agrega un problema no asignado a un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un problema no asignado al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se agrega un problema no asignado a un proyecto de mi propiedad.</p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando se agrega un problema no asignado al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual o Planificación.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Consulte también [Notificaciones: Información variada](../../../workfront-basi
    <td> <p>Usuario de proyecto</p> </td> 
    <td> <p>Adición de usuario de proyecto</p> </td> 
    <td> <p>Propietario del recurso</p> </td> 
-   <td> <p>Se agrega a una persona de mi equipo a un proyecto.</p> <p>Un administrador recibe una notificación por correo electrónico cuando se agrega uno de sus informes directos a un proyecto.</p> <p>Los usuarios con una licencia de revisión no reciben ninguna notificación.</p> </td> 
+   <td> <p>Se agrega a una persona de mi equipo a un proyecto.</p> <p>Un administrador recibe una notificación por correo electrónico cuando se agrega uno de sus informes directos a un proyecto.</p> <p>Los usuarios con una licencia Ligera o Revisar no reciben una notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
