@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Responder a notificaciones por correo electrónico
 description: Puede responder a las notificaciones por correo electrónico de Workfront generadas a partir de los comentarios realizados en proyectos, tareas, problemas y otros objetos para agregar respuestas a los comentarios originales realizados en la aplicación de Adobe Workfront.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ Puede responder a una actualización desde una notificación por correo electró
 * Utilice el botón Comentar dentro del correo electrónico para volver a Workfront y responder a la actualización en el área de Actualizaciones.
 * Responda al correo electrónico que recibe. El correo electrónico de respuesta se agrega como respuesta de Workfront al comentario original.
 
+<!--
 >[!NOTE]
 >
->Responder a las actualizaciones por correo electrónico no está disponible para los entornos del clúster 6.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 Puede responder al correo electrónico de Workfront que se genera a partir de los comentarios realizados a los siguientes objetos:
 
