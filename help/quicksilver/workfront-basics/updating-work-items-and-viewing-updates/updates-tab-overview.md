@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 3%
 >La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de objetos de Workfront y no está disponible al acceder a los objetos desde las áreas siguientes:
 >
 > * Inicio
-> * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 
@@ -50,7 +49,7 @@ ht-degree: 3%
 
 La sección Actualizaciones de un objeto muestra las actualizaciones del sistema y hasta 200 de las actualizaciones más recientes realizadas por los usuarios en los últimos 90 días.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+![Actualiza la sección](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 En función de los objetos para los que acceda a la experiencia de comentarios, es posible que encuentre la siguiente experiencia en la sección Actualizaciones:
 
@@ -90,7 +89,7 @@ En función de los objetos para los que acceda a la experiencia de comentarios, 
 
 ### Información general sobre la sección Actualizaciones en la nueva experiencia de comentarios
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![Actualiza la sección](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -102,6 +101,7 @@ En función de los objetos para los que acceda a la experiencia de comentarios, 
 
    * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
    * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
 * Los objetos siguientes no tienen una ficha Actividad del sistema:
 
