@@ -6,9 +6,9 @@ description: Enviar su hoja de horas para su aprobación le da a su gerente visi
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Para enviar una hoja de horas para su aprobación:
 
 Puede ver el estado de una plantilla de horas después de enviarla.
 
-Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información sobre la activación de notificaciones de eventos, consulte [Notificaciones de eventos disponibles en Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información sobre la activación de notificaciones de eventos, consulte [Tipos de notificación de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Sin estas notificaciones, puede obtener más información sobre el estado de las hojas de horas enviadas en el área Hoja de horas de Workfront.
 
@@ -91,15 +91,16 @@ Para ver el estado de una plantilla de horas:
 
    * Seleccionar **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solo las plantillas de horas que apruebe
 
-      O
+     O
 
-      Seleccionar **Mis hojas de horas** para ver únicamente las hojas de horas.
+     Seleccionar **Mis hojas de horas** para ver únicamente las hojas de horas.
 
-      Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
+     Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Creación o edición de filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
@@ -107,7 +108,8 @@ Para ver el estado de una plantilla de horas:
    >   
    >   
    >   * [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >   
+   >
 
 1. (Condicional) Si ha seleccionado **Mis hojas de horas**, asegúrese de que las variables **Standard** se aplique la vista y observe el **Estado** columna.
 

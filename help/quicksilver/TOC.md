@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -656,7 +656,7 @@ ht-degree: 1%
          * [Correos electrónicos](administration-and-setup/manage-workfront/emails/emails.md)
          * [Notificaciones por correo electrónico: índice de artículos](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Configuración de notificaciones de eventos](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Notificaciones de evento disponibles](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Tipos de notificación de eventos](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Desbloquear notificaciones de eventos para todos los grupos](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Líneas de asunto de notificación de eventos](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Modificar configuración de notificaciones por correo electrónico de los usuarios](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

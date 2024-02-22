@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Primero debe especificar qué notificaciones desea que reciban todos los usuario
 
 Una vez que las notificaciones se activan en el área de Configuración y aparecen en las páginas de perfil de los usuarios, los usuarios individuales u otro usuario con una licencia de Plan también pueden configurar las notificaciones activadas en un perfil de usuario para controlar qué notificaciones recibe ese usuario específico y con qué frecuencia. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Para obtener una lista de todas las notificaciones de eventos que puede activar y desactivar, consulte [Notificaciones de eventos disponibles en Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obtener una lista de todas las notificaciones de eventos que puede activar y desactivar, consulte [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Para obtener información sobre cómo desbloquear una notificación de eventos para que los administradores de grupos puedan configurarla en sus grupos, consulte [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) y [Visualización y configuración de notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
