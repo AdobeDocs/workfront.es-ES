@@ -6,9 +6,9 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -205,6 +205,10 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
       > Si desea visualizar objetos de trabajo de un portafolio específico, puede aplicar el siguiente filtro: &quot;El nombre del Portfolio contiene marketing&quot;. Esto muestra los elementos de trabajo que pertenecen a cualquier portafolio que contenga &quot;marketing&quot; en el nombre.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >Para excluir proyectos en un estado de En espera, debe aplicar el siguiente filtro: &quot;Proyecto: El estado no es igual a En espera&quot;. Esto evita que los elementos de trabajo de los proyectos en espera se muestren en el Distribuidor de cargas de trabajo.
 
    1. (Opcional) Haga clic en **Eliminar** icono ![](assets/delete.png) para eliminar un criterio de filtro.
 
