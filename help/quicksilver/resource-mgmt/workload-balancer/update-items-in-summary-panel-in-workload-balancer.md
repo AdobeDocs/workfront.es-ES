@@ -6,14 +6,16 @@ description: Puede abrir el panel Resumen en el Distribuidor de cargas de trabaj
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Actualizar los elementos de trabajo en el Distribuidor de cargas de trabajo mediante el Resumen
+
+{{highlighted-preview}}
 
 Puede usar el Panel de resumen de una tarea o un problema para actualizar información importante para ese elemento. en el Distribuidor de cargas de trabajo.
 
@@ -68,11 +70,11 @@ Debe tener lo siguiente:
 
    Vaya a la **Trabajo asignado** , expanda un usuario y busque un elemento de trabajo.
 
-1. Haga clic en la barra de una tarea o un problema para abrir el Panel de resumen a la derecha
+1. Haga clic en la barra de una tarea o un problema para abrir el Panel de resumen a la derecha.
 
    O
 
-   Clic **Abrir resumen** icono ![](assets/summary-panel-icon.png), luego haga clic en la barra de una tarea o problema para abrir el Panel de resumen
+   Clic **Abrir resumen** icono ![](assets/summary-panel-icon.png), luego haga clic en la barra de una tarea o problema para abrir el Panel de resumen.
 
    O
 
@@ -80,7 +82,15 @@ Debe tener lo siguiente:
 
    El panel Resumen se abre a la derecha.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Ejemplo del panel Resumen en el entorno de vista previa:
+   ![Panel de resumen](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Ejemplo del panel Resumen en el entorno de producción:
+   ![Panel de resumen](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modifique una serie de campos para el elemento de trabajo, introduzca una actualización o navegue desde aquí a otras áreas de Workfront para agregar documentos u otra información al elemento de trabajo.
 
