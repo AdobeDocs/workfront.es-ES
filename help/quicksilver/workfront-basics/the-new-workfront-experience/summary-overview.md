@@ -5,14 +5,16 @@ description: Puede utilizar el Panel de resumen para revisar y actualizar la inf
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumen] descripción general
+
+{{highlighted-preview}}
 
 Puede usar el complemento [!UICONTROL Resumen] panel para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de [!DNL Adobe Workfront] que muestran tareas y problemas.
 
@@ -117,7 +119,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Solo puede seleccionar una tarea o un problema a la vez para ver sus detalles en la [!UICONTROL Resumen] panel.
 
+   <div class="preview">
+
+   Ejemplo del panel Resumen en el entorno de vista previa:
    ![Panel de resumen](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Ejemplo del panel Resumen en el entorno de producción:
+   ![Panel de resumen](assets/summary-panel-for-task.png)
 
 1. (Opcional) Para cerrar el [!UICONTROL Resumen] , realice una de las siguientes acciones:
 
@@ -143,7 +153,15 @@ Utilice la barra de progreso de la parte superior de la [!UICONTROL Resumen] par
 
 Utilice el [!UICONTROL Actualizaciones] de la sección [!UICONTROL Resumen] para ver las actualizaciones recientes y actualizar la tarea o el problema seleccionados. Clic **[!UICONTROL Ver todo]** para ir directamente a [!UICONTROL Actualizaciones] de la tarea.
 
+<div class="preview">
+
+Ejemplo de actualizaciones en el entorno de vista previa:
 ![Actualiza la sección en el panel Resumen](assets/summary-updates-section.png)
+
+</div>
+
+Ejemplo de actualizaciones en el entorno de producción:
+![Actualiza la sección en el panel Resumen](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documentos]
 
