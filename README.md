@@ -1,8 +1,8 @@
 ---
 source-git-commit: 26af2b2eee78d7d81a8f5005125bc4a10e5d8f0f
-workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '401'
+ht-degree: 100%
 
 ---
 # Artículo de Contribute
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Cambios importantes de empleados de Adobe
 
-Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y su trabajo consiste en contribuir a artículos técnicos o crearlos, debe utilizar el repositorio privado que hay en `https://git.corp.adobe.com/AdobeDocs`.
+Si es redactor técnico, director de programa o desarrollador del equipo de productos de una solución de Adobe Experience Cloud y su trabajo consiste en contribuir o ser autor de artículos técnicos, debe usar el repositorio privado de `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
