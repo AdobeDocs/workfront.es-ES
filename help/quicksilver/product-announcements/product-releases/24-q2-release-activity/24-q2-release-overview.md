@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 * [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras de inicio](#home-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
+* [Actualización de mejoras de flujo y notificación](#update-stream-and-notification-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras del administrador
@@ -184,7 +185,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
            </tbody>
         </table>
 
-### Otras mejoras
+### Actualización de mejoras de flujo y notificación
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para ofrecerle una vista cronológicamente coherente de los comentarios y los registros de actividad del sistema, presentamos una tercera pestaña en el área de Actualizaciones de todos los objetos. La pestaña "Todos" captura tanto los comentarios del usuario como los de la actividad del sistema en un flujo coherente.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Para ofrecerle una vista cronológicamente coherente de los comentarios y los registros de actividad del sistema, presentamos una tercera pestaña en el área de Actualizaciones de todos los objetos. La pestaña "Todos" captura tanto los comentarios del usuario como los de la actividad del sistema en un flujo coherente.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -220,7 +221,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo flujo de comentarios ahora disponible en el Panel de resumen</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo flujo de comentarios ahora disponible en el Panel de resumen</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -234,6 +235,25 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### Otras mejoras
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
