@@ -4,7 +4,7 @@ description: El acceso a Adobe Maestro depende del tipo de licencia, además de 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ En la tabla siguiente se describe la relación entre el tipo de licencia de un u
 | Tipo de licencia | Permisos permitidos para objetos de Maestro |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nuevo: estándar <br> o <br>Actual: plan | Los usuarios pueden crear y administrar espacios de trabajo, tipos de registros y registros. |
-| Nuevo: claro <br> o <br>Actual: Trabajar y revisar | Los usuarios pueden contribuir y ver un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo.  Los usuarios pueden crear, editar o eliminar registros en los espacios de trabajo en los que tienen permisos de Contribute. |
-| Nuevo: colaborador <br> o <br>Actual: Solicitante | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. Los usuarios no pueden crear, editar ni eliminar tipos de registros o registros. |
+| Nuevo: claro <br> o <br>Actual: Trabajo | Los usuarios pueden contribuir y ver un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo.  Los usuarios pueden crear, editar o eliminar registros en los espacios de trabajo en los que tienen permisos de Contribute. |
+| Nuevo: colaborador <br> o <br>Actual: Revisor o Solicitante | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. Los usuarios no pueden crear, editar ni eliminar tipos de registros o registros. |
 
 
 
