@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
    <li>Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar el acceso al tipo de elemento de trabajo para el que se registra el tiempo </p> <p>Por ejemplo, necesita acceso de edición en Problemas para registrar la hora de los problemas</p> </td> 
   </tr> 
   <tr> 
