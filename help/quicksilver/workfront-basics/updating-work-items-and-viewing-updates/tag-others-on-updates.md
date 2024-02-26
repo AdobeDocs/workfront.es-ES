@@ -6,14 +6,16 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # Etiquetar a otros en las actualizaciones
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
+>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
 
 Puede etiquetar a los usuarios al realizar una actualización de un objeto si desea llamar su atención sobre un objeto que podrían no seguir de otra manera.
 
@@ -127,6 +131,14 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    > 
    >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   Ejemplo de etiquetado en el entorno de vista previa:
+   ![Etiquetado de un usuario](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   Ejemplo de etiquetado en el entorno de producción:
    ![](assets/tag-others-unified-commenting.png)
 
 1. (Opcional) Para que la actualización sea privada, habilite **Privado para mi compañía** en la esquina inferior derecha del cuadro actualizar. Esto hace que la actualización sea visible solo para los usuarios de la compañía. El **Privado para mi compañía** Esta opción solo está disponible cuando se especifica una Compañía en el perfil de Workfront.

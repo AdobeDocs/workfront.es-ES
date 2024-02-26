@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Responder a las actualizaciones
 description: Cuando alguien agrega o responde a una actualización de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto. Puede añadir una respuesta a una actualización o marcarla como Me gusta si tiene acceso de Vista al objeto.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # Responder a las actualizaciones
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
+>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
 
 Cuando alguien responde a un comentario o a una actualización del sistema de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto.
 
@@ -96,6 +100,11 @@ Para obtener información sobre las funciones disponibles en la nueva experienci
 
 1. Vaya al objeto al que desea agregar una respuesta.
 1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder.
+
+>[!NOTE]
+>
+><span class="preview">Para responder a un comentario en la ficha Todos, haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios. No puede responder en la pestaña Todos.</span>
+
 1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** en la esquina superior derecha del comentario al que desea responder y, a continuación, haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
 1. Clic **Responder**.
 

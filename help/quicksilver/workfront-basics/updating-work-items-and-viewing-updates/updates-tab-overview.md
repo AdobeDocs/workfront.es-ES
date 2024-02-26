@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -122,7 +122,7 @@ Ejemplo de la sección Actualizaciones en el entorno de producción:
    * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* Los objetos siguientes no tienen una ficha Actividad del sistema:
+* Los objetos siguientes no tienen una ficha Actividad del sistema <span class="preview">o la pestaña Todos</span>:
 
    * Equipo
    * Plantilla

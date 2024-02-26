@@ -6,14 +6,16 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # Actualizar trabajo
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
+>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ Puede añadir actualizaciones a los siguientes objetos:
 1. (Condicional) Si la variable **Nuevos comentarios** está desactivada, haga clic en para activarla.
 
    Esto habilita la nueva experiencia de comentarios. El **Comentarios** está seleccionada de forma predeterminada.
+
 1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 
+   <div class="preview">
+
+   Ejemplo de nuevo cuadro de comentarios en el entorno de vista previa:
+   ![Nuevo cuadro de comentarios](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Ejemplo de nuevo cuadro de comentarios en el entorno de producción:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ Puede añadir actualizaciones a los siguientes objetos:
 
 1. (Opcional) Haga clic en **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza el objeto o cualquiera de sus elementos secundarios, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema.
 
-   Para obtener más información, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Para obtener más información, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >No puede agregar un comentario a una actualización del sistema.
+
+1. <span class="preview">(Opcional) Haga clic en **Todo** para ver los comentarios del usuario y los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios.</span>
 
 ## Usar texto enriquecido en una actualización de Workfront{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
    >[!NOTE]
    >
-   >   Solo puede buscar palabras que pertenezcan al texto de un comentario o respuesta. No puede buscar nombres de usuarios o equipos etiquetados en una actualización.
+   >Solo puede buscar palabras que pertenezcan al texto de un comentario o respuesta. No puede buscar nombres de usuarios o equipos etiquetados en una actualización.
 
+   <div class="preview">
+
+   Ejemplo de búsqueda en el entorno de vista previa:
+   ![Buscar en actualizaciones](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   Ejemplo de búsqueda en el entorno de producción:
    ![](assets/search-field-in-updates-tab.png)
 
    La palabra clave <!--or user--> Si ha buscado, se resaltará y los comentarios que lo contengan se mostrarán en la parte superior de la sección Actualizaciones.
