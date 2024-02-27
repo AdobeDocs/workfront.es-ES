@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 1%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 1%
          * [Administrar su cuenta de Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Iniciar sesión en Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Cerrar sesión en Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [Reciba invitaciones por correo electrónico y cree una contraseña para Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Restablecer la contraseña de un usuario con autenticación mejorada](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [Reciba invitaciones por correo electrónico y cree una contraseña para Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [Cree una cuenta en [!DNL Adobe Workfront] como usuario externo](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Restablecer la contraseña](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Aplicaciones móviles {#mobile-apps}
       * [Aplicaciones móviles](workfront-basics/mobile-apps/mobile-apps.md)
