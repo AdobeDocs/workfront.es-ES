@@ -2,20 +2,22 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Planificación de recursos en Adobe Workfront
+title: "Planificación de recursos: índice de artículos"
 description: Los artículos de esta sección contienen información sobre la funcionalidad de las secciones Planificador y Conjuntos de recursos del área de Recursos de Adobe Workfront.
 author: Alina
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 08ced19936bf4658a9458e3d73597cc5fbdd8c84
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Planificación de recursos en Adobe Workfront
+# Planificación de recursos: índice de artículos
+
+<!-- Audited: 2/2024 -->
 
 Los artículos de esta sección contienen información sobre la funcionalidad de las secciones Planificador y Conjuntos de recursos del área de Recursos de Adobe Workfront.
 

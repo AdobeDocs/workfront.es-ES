@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ Al definir tareas, tenga en cuenta lo siguiente:
    * Reduzca las horas planificadas de cada tarea.
    * Agregue más usuarios a una tarea para asegurarse de que se puede completar durante el tiempo asignado para ella.
    * Reasigne las tareas a usuarios que estén disponibles sin otras restricciones.\
-     Para obtener más información sobre la planificación de los recursos del proyecto, consulte el artículo [Planificación de recursos en Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Para obtener más información sobre la planificación de los recursos del proyecto, consulte el artículo [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Para obtener más información sobre cómo programar los recursos para que realicen el trabajo en un proyecto, consulte [Resumen del Distribuidor de cargas](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
