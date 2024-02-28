@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 12%
+source-wordcount: '1599'
+ht-degree: 11%
 
 ---
 
@@ -34,14 +34,14 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Agregar un formulario personalizado | ✓ |   |   |   |
 | Actualizar campos personalizados | ✓ |   |   |   |
 | Agregar un proceso de aprobación | ✓ |   |   |   |
 | Aprobación de un proyecto | ✓ | ✓ |   |   |
-| Agregar documento | ✓ | ✓ |   |   |
+| Añadir documento | ✓ | ✓ |   |   |
 | Agregar problema | ✓ | ✓ |   |   |
-| Añadir  tareas | ✓ |   |   |   |
+| Añadir tareas | ✓ |   |   |   |
 | Proporcionar actualizaciones/comentarios | ✓ | ✓ |   |   |
 | Cambiar estado | ✓ |   |   |   |
 | Registrar horas | ✓ | ✓ |   |   |
@@ -71,9 +71,9 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Agregar predecesoras | ✓ |   |   |   |
-| Añadir  problemas | ✓ | ✓ |   |   |
+| Añadir problemas | ✓ | ✓ |   |   |
 | Editar una tarea (excluido el estado) | ✓ |   |   |   |
 | Cambiar estado de tarea | ✓ |   |   |   |
 | Agregar documentos | ✓ | ✓ |   |   |
@@ -85,7 +85,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Adjuntar un formulario personalizado | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
 | Creación de un proceso de aprobación | ✓ |   |   |   |
-| Aprobar una tarea | ✓ | ✓ |   |   |
+| Aprobar una tarea | ✓ | ✓ | ✓ |   |
 | Editar finanzas | ✓ |   |   |   |
 | Agregar o editar gastos | ✓ |   |   |   |
 | Ver finanzas | ✓ | ✓ |   |   |
@@ -104,7 +104,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Eliminar | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Adjuntar formularios personalizados | ✓ | ✓ | ✓ |   |
 | Editar campos personalizados | ✓ | ✓ | ✓ |   |
 | Aprobar problemas | ✓ | ✓ | ✓ |   |
@@ -113,10 +113,10 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Copiar problemas | ✓ | ✓ | ✓ |   |
 | Mover problemas | ✓ | ✓ | ✓ |   |
 | Registrar horas | ✓ |   |   |   |
-| Conversión de un problema en un proyecto | ✓ |   |   |   |
+| Convertir un problema en un proyecto | ✓ |   |   |   |
 | Convertir un problema en una tarea | ✓ |   |   |   |
 | Aceptar asignaciones | ✓ |   |   |   |
-| Realización de asignaciones | ✓ |   |   |   |
+| Hacer asignaciones | ✓ |   |   |   |
 | Agregar actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -133,7 +133,7 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a las c
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; |   |   |
+| Ver | ✓&#42; | ✓&#42; |   |   |
 | Editar detalles | ✓ |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
@@ -157,7 +157,7 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los p
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; |   |   |
+| Ver | ✓&#42; | ✓&#42; |   |   |
 | Editar detalles | ✓ |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |
@@ -183,7 +183,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Compartir | ✓&#42; | ✓ |   |   |
 | Compartir calendarios e informes públicamente | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar | ✓ |   |   |   |
 | Copiar | ✓ |   |   |   |
 
@@ -203,7 +203,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Eliminar | ✓* | ✓* | ✓* |   |
 | Compartir | ✓* | ✓* | ✓* |   |
 | Compartir en todo el sistema | ✓* | ✓* | ✓* |   |
-| Vista | ✓ | ✓ | ✓ |   |
+| Ver | ✓ | ✓ | ✓ |   |
 | Editar | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -219,7 +219,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir públicamente (externamente) | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar detalles | ✓ | ✓ | ✓ |   |
 | Descargar | ✓ | ✓ | ✓ | ✓ |
 | Finalizar compra | ✓ | ✓ | ✓ |   |
@@ -233,7 +233,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Cargar nueva versión | ✓ | ✓ | ✓ |   |
 | Eliminar una versión | ✓ | ✓ | ✓ |   |
 | Vista previa | ✓ | ✓ | ✓ | ✓ |
-|  Proof | ✓ | ✓ | ✓ | ✓ |
+| Revisión | ✓ | ✓ | ✓ | ✓ |
 | Generar revisión | ✓ |   |   |   |
 | Eliminar revisión | ✓ | ✓ | ✓ |   |
 | Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -285,7 +285,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |
-| Vista | ✓&#42; |   |   |   |
+| Ver | ✓&#42; |   |   |   |
 | Copiar | ✓ |   |   |   |
 | Editar detalles de plantilla | ✓ |   |   |   |
 
@@ -363,7 +363,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 
 <!-- ask Alina about this section -->
 
-| Acciones | Vista | Editar |
+| Acciones | Ver | Editar |
 |---|---|---|
 | Crear |   | ✓ |
 | Editar/eliminar todas las metas |   | ✓ |
