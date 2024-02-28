@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 * El orden que cree se conservará cuando se aleje.
 
 * Puede ordenar por tantos campos como vea mostrados en la vista de tabla de un tipo de registro.
+
+* Los campos vinculados solo se pueden ordenar si permiten valores únicos o valores de selección múltiple con la opción de resumen seleccionada (suma, promedio, máximo, mínimo).
 
 * Al quitar los criterios de ordenación, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y utilice la misma vista que utiliza.
 
