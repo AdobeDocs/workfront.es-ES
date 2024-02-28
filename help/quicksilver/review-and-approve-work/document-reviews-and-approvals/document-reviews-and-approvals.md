@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Revisiones y aprobaciones de documentos
+title: Revisión y aprobación de documentos
 description: Esta sección contiene artículos sobre aprobaciones de documentos en Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
-# Revisiones y aprobaciones de documentos
+# Revisión y aprobación de documentos
 
 >[!IMPORTANT]
 >
@@ -24,5 +24,5 @@ ht-degree: 0%
 Esta sección contiene las siguientes secciones:
 
 * [Información general sobre aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Administrar aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-* [Revisar y aprobar documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+* [Revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+* [Aprobar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
