@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ El módulo devuelve cualquier campo estándar asociado con el registro, junto co
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Excluir eventos realizados por esta conexión</td> 
-      <td>Active esta opción para excluir los eventos creados o actualizados con el mismo conector que utiliza este módulo de déclencheur. Esto puede evitar situaciones en las que un escenario podría entrar en déclencheur y provocar que se repita en un bucle interminable.</td> 
+      <td>Active esta opción para excluir los eventos creados o actualizados con el mismo conector que utiliza este módulo de déclencheur. Esto puede evitar situaciones en las que un escenario podría entrar en déclencheur y provocar que se repita en un bucle interminable.<p><b>NOTA</b>El tipo de registro Assignment no incluye esta opción.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Origen de registro]</td> 
