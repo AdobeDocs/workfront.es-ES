@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >[!IMPORTANT]
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
+
+## Semana del 26 de febrero de 2024
+
+### Filtrar, ordenar y agrupar por registros conectados o campos de búsqueda
+
+Producción: 28 de febrero de 2024
+
+Vista previa: por determinar
+
+Ahora puede filtrar, ordenar y agrupar por registros conectados o sus campos de búsqueda. Esta mejora le ayudará a organizar y visualizar de forma eficaz los datos tanto en las vistas de tabla como de cronología.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md) y [Administrar la vista de cronología](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Semana del 5 de febrero de 2024
 
@@ -124,7 +136,7 @@ Producción: 1 de febrero de 2024
 
 Vista previa: por determinar
 
-Para evitar confusiones y simplificar la administración de espacios de trabajo, se han eliminado de un espacio de trabajo las tarjetas de tipo de registro generadas automáticamente y de sólo lectura para los objetos conectados que no son de Maestro.
+Para evitar confusiones y simplificar la administración de los espacios de trabajo, se han eliminado de un espacio de trabajo las tarjetas de tipo de registro generadas automáticamente y de sólo lectura para los objetos conectados que no son de Maestro.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).

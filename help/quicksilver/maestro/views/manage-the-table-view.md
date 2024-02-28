@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 3%
 
 ---
@@ -264,10 +264,6 @@ Para agregar un filtro a una vista de tabla:
 
      La tabla siguiente muestra los modificadores disponibles para cada tipo de campo.
 
-     >[!TIP]
-     >
-     > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,17 +366,13 @@ Tenga en cuenta lo siguiente:
 Para agregar una agrupación:
 
 1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
-1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
+1. Clic **Agrupación** en la esquina superior derecha de la vista de tabla.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
-   >[!TIP]
-   >
-   >No se pueden seleccionar campos vinculados.
-
-   La agrupación se aplica automáticamente a la tabla y los registros se muestran bajo la línea de separación de agrupación
+   La agrupación se aplica automáticamente a la tabla y los registros se muestran bajo la línea de separación de agrupación.
 
 1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
 
@@ -428,6 +420,7 @@ Para ordenar <!--ungrouped (add this when sorting for groupings will be availabl
    O
 
    Pase el ratón sobre el nombre de una columna en la vista de tabla, haga clic en la flecha hacia abajo a la derecha del nombre del encabezado de la columna y, a continuación, haga clic en **Ordenar por este campo**. El campo se agrega como una selección de ordenación en el icono Ordenar de la esquina superior derecha de la vista de tabla.
+
 1. En el **Ordenar registros por** , haga clic en uno de los campos sugeridos o en **Elija un campo diferente** y busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
    El orden se aplica automáticamente a la vista de tabla y los registros se muestran ordenados según los criterios seleccionados.
@@ -437,10 +430,6 @@ Para ordenar <!--ungrouped (add this when sorting for groupings will be availabl
 1. (Opcional) Repita los pasos anteriores para ordenar por campos adicionales.
 
    El número de campos por el que está ordenando se muestra a la izquierda del icono Ordenar en la esquina superior derecha de la barra de herramientas. Sólo puede elegir campos que se muestran en las columnas de la vista de tabla.
-
-   >[!TIP]
-   >
-   > No se pueden seleccionar campos vinculados. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
 
 1. (Opcional) En el **Ordenar registros por** , haga clic en **x** a la derecha de un campo de clasificación para eliminar la clasificación
 

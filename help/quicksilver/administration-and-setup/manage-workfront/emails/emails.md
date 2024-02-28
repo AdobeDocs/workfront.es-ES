@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: Correos electrónicos
 description: El correo electrónico en Adobe Workfront consta de notificaciones, recordatorios e invitaciones de usuarios. Los administradores del sistema son responsables de establecer muchas de las configuraciones de correo electrónico; sin embargo, otros usuarios (según el nivel de acceso) pueden beneficiarse de utilizar las funciones de correo electrónico para administrar su propia comunicación con el trabajo.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

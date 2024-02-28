@@ -5,11 +5,11 @@ keywords: modificar,correo electrónico,notificación,configuración,masiva,edic
 navigation-topic: emails-administration
 title: Modificar la configuración de notificaciones por correo electrónico de varios usuarios
 description: Este artículo proporciona información para los administradores de grupos o Workfront sobre cómo pueden actualizar las notificaciones de correo electrónico de otros usuarios.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

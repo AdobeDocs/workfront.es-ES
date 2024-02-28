@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,9 @@ Para agregar una agrupación en la vista de escala de tiempo:
 1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
 1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
-
-   >[!TIP]
-   >
-   >No se pueden seleccionar campos vinculados.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
 
