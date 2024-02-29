@@ -8,9 +8,9 @@ description: Las siguientes funciones de matriz están disponibles en el panel d
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -211,3 +211,23 @@ Introduzca uno de los siguientes valores para `mode` parámetro.
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Devuelve `[1,2,6,7]`
+
+## toArray
+
+Esta función convierte una colección en una matriz de pares clave-valor.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>Dada la colección
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>La función
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Devuelve la matriz de pares clave-valor
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
