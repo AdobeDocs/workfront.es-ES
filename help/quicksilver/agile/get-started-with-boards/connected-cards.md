@@ -6,14 +6,16 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Usar tarjetas conectadas en tableros
+
+<!-- Audited: 2/2024 -->
 
 Puede agregar una tarjeta en el tablero que esté conectada a tareas y problemas existentes en [!DNL Workfront].
 
@@ -21,9 +23,9 @@ Cuando se actualiza cualquiera de los siguientes detalles de la tarjeta en una u
 
 * [!UICONTROL Nombre]
 * [!UICONTROL Descripción]
-* [!UICONTROL Personas asignadas]
+* [!UICONTROL Asignados]
 * [!UICONTROL Estado]
-* [!UICONTROL Fecha de finalización planificada]
+* [!UICONTROL Fecha planificada de finalización]
 * [!UICONTROL Estimación] / [!UICONTROL Puntos de la historia]
 * [!UICONTROL Subtareas]
 * [!UICONTROL Documentos]
@@ -39,29 +41,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td>
+   <p>Nuevo: Colaborador o superior</p>
+   <p>O</p>
+   <p>Actual: Solicitud o superior</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td>
-   <td><p>[!UICONTROL View] o acceso superior a tareas y problemas</p></td>
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td>
+   <td><p>Ver o acceso superior a tareas y problemas</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Permisos de objeto</strong></td>
-   <td><p>[!UICONTROL View] o permisos superiores para la tarea o el problema de Workfront</p></td>
+   <td><p>Ver o permisos superiores de la tarea o el problema de Workfront</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Agregar una tarjeta conectada
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clic **[!UICONTROL Añadir tarjeta] > [!UICONTROL Tarjeta conectada]**.
 1. Elija un proyecto y, a continuación, elija una tarea o un problema para añadirlos como tarjeta en el tablero.
