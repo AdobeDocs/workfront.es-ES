@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '4226'
+source-wordcount: '4257'
 ht-degree: 1%
 
 ---
@@ -315,6 +315,7 @@ Puede añadir actualizaciones a los siguientes objetos:
    >
    >Los nombres de las dos primeras entidades etiquetadas se muestran junto a sus avatares. Si se etiquetan más de dos entidades, solo se mostrará el nombre de la primera y el número de entidades adicionales.
 
+1. <span class="preview"> (Opcional) Haga clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Vuelva a hacer clic en el nombre del comentarista en el cuadro de información para abrir su perfil de usuario.</span>
 1. (Opcional) Haga clic en **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza el objeto o cualquiera de sus elementos secundarios, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema.
 
    Para obtener más información, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).

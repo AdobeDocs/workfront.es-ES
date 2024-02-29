@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    Los nombres de las entidades etiquetadas se muestran junto a sus avatares, con un máximo de dos entidades. Si se etiquetan más de dos entidades, se muestra el nombre de la primera, además de una serie de entidades adicionales.
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">Cuando se le etiqueta en el texto del comentario, su nombre de usuario se resalta en esos comentarios.</span>
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
