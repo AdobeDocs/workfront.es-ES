@@ -4,9 +4,9 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Esta página describe todas las mejoras de Actualización de flujo y notificación realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Información adicional sobre el comentarista disponible en la nueva experiencia de comentarios
+
+>[!NOTE]
+>
+>Versión preliminar: 29 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+
+Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:
+
+* Puede hacer clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Esta información puede ayudarle a identificar al usuario correcto si tiene más de un usuario con el mismo nombre. Al hacer clic en el nombre del comentarista en el cuadro de información, se abre su perfil de usuario.
+* Su nombre de usuario aparece resaltado en los comentarios en los que está etiquetado, cuando se le menciona en el texto del comentario.
+
+Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema
 

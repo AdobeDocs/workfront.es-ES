@@ -4,9 +4,9 @@ description: Mejoras del administrador en el segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Los campos nativos de Workfront están disponibles en la versión beta de Forms Designer
+
+>[!NOTE]
+>
+>Versión preliminar: 29 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: 24.4 (abril de 2024)
+
+Los campos nativos de Workfront ya están disponibles para que los agregue a sus formularios personalizados. Este nuevo tipo de campo le permite organizar y presentar datos a los usuarios de una manera lógica, sin tener que volver a crear los datos existentes en los campos personalizados.
+
+Después de seleccionar Campo nativo en la lista de campos de formulario personalizados para agregar el campo al diseñador de formularios, puede seleccionar cualquier campo nativo para los objetos del formulario. Por ejemplo, si la lista Tipos de objetos de la parte superior del diseñador de formularios muestra Proyecto, podrá seleccionar campos nativos para proyectos, pero no campos específicos de tareas.
+
+Cuando el formulario personalizado se adjunta a un objeto, el campo se rellena a partir de los datos del objeto. Por ejemplo, el campo Descripción de un formulario personalizado adjunto a un proyecto extraerá la descripción del proyecto. (El campo puede mostrar &quot;N/D&quot; si no hay datos disponibles).
+
+Los campos nativos utilizados en los formularios personalizados están disponibles en la biblioteca de campos del diseñador para su reutilización. También están visibles en el área Configuración > Forms personalizado > Campos para que pueda ver en qué formularios se utilizan.
+
+Esta función solo está disponible en la versión beta de Forms Designer, no en el generador de formularios heredado.
+
+Los artículos del Experience League para esta función se actualizarán el 7 de marzo.
 
 ## La asignación de atributos ya está disponible para las organizaciones que han migrado a Adobe IMS
 
