@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ El espacio aislado de actualización personalizado contiene los datos de producc
 >[!NOTE]
 >
 >* No se puede programar una actualización para el día actual. Por ejemplo, si hoy es 1 de junio, el primer día en que se puede programar una actualización es el 2 de junio.
->* La actualización programada se produce a las 12:00 a.m. de la fecha determinada, según la zona horaria del usuario que envió la solicitud.
+>* La actualización programada se produce en algún momento durante la noche, según el clúster del usuario (los clústeres de EE. UU. se actualizan durante la noche en EE. UU.). La hora específica es impredecible debido a otros clientes en cola y a la cantidad de datos que se actualizan. Si la cola tiene muchos clientes grandes, es posible que la actualización no se ejecute hasta más tarde ese día o al día siguiente.
 >* La zona protegida de actualización personalizada siempre tiene las mismas funciones de producto que el entorno de producción. Sin embargo, al actualizar la zona protegida de actualización personalizada, solo se conserva la marca para el color de fondo de la pantalla de inicio de sesión. La pantalla de inicio de sesión y los logotipos de la barra de navegación se restablecen a [!DNL Workfront] no se muestran los valores predeterminados ni las imágenes de personalización de marca que haya modificado antes de la actualización.
 >
 
