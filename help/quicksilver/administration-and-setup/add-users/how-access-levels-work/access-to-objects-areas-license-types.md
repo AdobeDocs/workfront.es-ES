@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 18%
@@ -17,6 +17,8 @@ ht-degree: 18%
 ---
 
 # Acceso a objetos y áreas mediante nuevas licencias
+
+<!-- Audited: 2/2024 -->
 
 La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada una de las licencias de Adobe Workfront permite para los objetos y áreas en Workfront.
 
@@ -38,16 +40,16 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
     <tr>
         <td>Proyectos</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Ver (solo la página Detalles)</td>
         <td>Sin acceso</td>
     </tr>
     <tr>
         <td>Tareas</td>
         <td>Editar</td>
-        <td>Vista</td>
-        <td>Vista</td>
-        <td>Vista</td>
+        <td>Ver</td>
+        <td>Ver</td>
+        <td>Ver</td>
     </tr>
     <tr>
         <td>Problemas</td>
@@ -59,21 +61,21 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
     <tr>
         <td>Portafolios</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Sin acceso</td>
         <td>Sin acceso</td>
     </tr>
     <tr>
         <td>Programas</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Sin acceso</td>
         <td>Sin acceso</td>
     </tr>
     <tr>
         <td>Informes, tableros y calendarios</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Vista*</td>
         <td>Ver (solo para calendarios, sin permisos de uso compartido)</td>
     </tr>
@@ -94,15 +96,15 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
     <tr>
         <td>Usuarios</td>
         <td>Editar</td>
-        <td>Vista</td>
-        <td>Vista</td>
-        <td>Vista</td>
+        <td>Ver</td>
+        <td>Ver</td>
+        <td>Ver</td>
     </tr>
     <tr>
         <td>Equipos</td>
         <td>Editar</td>
-        <td>Vista</td>
-        <td>Vista</td>
+        <td>Ver</td>
+        <td>Ver</td>
         <td>Sin acceso</td>
     </tr>
     <tr>
@@ -122,14 +124,14 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
     <tr>
         <td>Administración de recursos</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Sin acceso</td>
         <td>Sin acceso</td>
     </tr>
     <tr>
         <td>Planificador de escenarios</td>
         <td>Editar</td>
-        <td>Vista</td>
+        <td>Ver</td>
         <td>Sin acceso</td>
         <td>Sin acceso</td>
     </tr>
