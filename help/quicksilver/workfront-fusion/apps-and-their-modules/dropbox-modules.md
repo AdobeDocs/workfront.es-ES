@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automa
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Para usar [!DNL Dropbox] módulos, debe tener un [!DNL Dropbox] cuenta.
+* Para usar [!DNL Dropbox] módulos, debe tener un [!DNL Dropbox] cuenta.
+
+>[!IMPORTANT]
+>
+>El Dropbox debe aprobar las aplicaciones con más de 50 usuarios.
+>
+>Para obtener más información, busque &quot;Aprobación de producción&quot; en la guía para desarrolladores de Dropbox.
+
 
 ## [!DNL Dropbox] módulos y sus campos
 
@@ -75,12 +82,12 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ![](assets/map-toggle-350x74.png)
 
-* [módulos de déclencheur](#trigger-modules)
+* [Módulos de activador](#trigger-modules)
 * [Módulos para obtener [!DNL Dropbox] archivos y carpetas](#modules-for-getting-dropbox-files-and-folders)
 * [Módulos para crear y editar [!DNL Dropbox] archivos y carpetas](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Otros módulos](#other-modules)
 
-### módulos de déclencheur
+### Módulos de activador
 
 #### [!UICONTROL Observar archivos]
 
@@ -390,7 +397,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Archivo de origen]</p> </td> 
-   <td> <p>Introduzca o asigne el archivo que desea agregar al [!DNL Dropbox] carpeta.</p> <p style="font-weight: bold;">Nombre de archivo</p> <p>Introduzca el nombre del nuevo archivo DOC (sin extensión).</p> <p style="font-weight: bold;">Contenido de archivo</p> <p>Introduzca el contenido de texto del archivo DOC.</p> </td> 
+   <td> <p>Introduzca o asigne el archivo que desea agregar al [!DNL Dropbox] carpeta.</p> <p style="font-weight: bold;">Nombre del archivo</p> <p>Introduzca el nombre del nuevo archivo DOC (sin extensión).</p> <p style="font-weight: bold;">Contenido de archivo</p> <p>Introduzca el contenido de texto del archivo DOC.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -665,7 +672,7 @@ URL original:
 `https://www.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png?dl=0`
 
 1. Reemplazar `www` con `dl`.
-1. Quitar `?dl=0`.
+1. Eliminar `?dl=0`.
 
 URL final:
 
