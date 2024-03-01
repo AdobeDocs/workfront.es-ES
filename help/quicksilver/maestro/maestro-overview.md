@@ -1,18 +1,18 @@
 ---
-title: Introducción a Adobe Maestro
-description: Adobe Maestro es una nueva oferta de Adobe Workfront. Puede crear espacios de trabajo totalmente personalizables para definir flujos de trabajo que satisfagan las necesidades de cada unidad organizativa de la empresa.
+title: Resumen de funcionalidades de planificación de Adobe Workfront
+description: Las funcionalidades de planificación de Adobe Workfront son una nueva oferta de Adobe Workfront. Puede crear espacios de trabajo totalmente personalizables para definir flujos de trabajo que satisfagan las necesidades de cada unidad organizativa de la empresa.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2051'
 ht-degree: 1%
 
 ---
 
-# Introducción a Adobe Maestro
+# Resumen de funcionalidades de planificación de Adobe Workfront
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
+>La información de este artículo hace referencia a las funciones de planificación de Adobe Workfront, una nueva oferta de Adobe Workfront.
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
+>Actualmente, las funciones de planificación forman parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
 >
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
->[Vea un vídeo de demostración de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta para las funciones de planificación.
+>[Vea un vídeo de demostración de las funciones de planificación de Adobe Workfront.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
-## Introducción a Adobe Maestro
+## Introducción a las funciones de planificación de Adobe Workfront
 
-Adobe Maestro es una nueva oferta de Adobe Workfront. El propósito de Maestro es obtener una visibilidad completa de los detalles operativos de una organización y responder a preguntas comerciales críticas en cada fase del ciclo de vida de la administración del trabajo.
+Las funcionalidades de planificación de Adobe Workfront son una nueva oferta de Adobe Workfront. El propósito de las capacidades de planificación es desbloquear la visibilidad completa de los detalles operativos de una organización y responder preguntas comerciales críticas en cada fase del ciclo de vida de la administración del trabajo.
 
 Los equipos y el liderazgo necesitan respuestas claras a preguntas como las siguientes:
 
@@ -42,17 +42,17 @@ Los equipos y el liderazgo necesitan respuestas claras a preguntas como las sigu
 
 Para responder a estas preguntas, el liderazgo necesita una solución que pueda proporcionar una visión integral de cada etapa del trabajo, desde la planificación hasta la ejecución, desde la entrega hasta la medición de los resultados. Actualmente, las organizaciones tienen herramientas que pueden cubrir algunas partes del proceso, pero muchas no tienen buenas conexiones con todas las fases del trabajo, ni pueden proporcionar resultados de manera confiable.
 
-Estas son algunas de las funciones principales de Maestro:
+Estas son algunas de las funciones principales:
 
 * Solucionar el problema de la gestión del trabajo en todas las etapas y para todas las partes interesadas que participan en el proceso de trabajo.
 * Personalice completamente los flujos de trabajo, desde decidir qué tipos de objetos (o tipos de registros) utiliza su organización hasta configurar cómo se vinculan estos objetos entre sí.
 * Enlace a tipos de objetos de otros sistemas, creando un marco coherente para todos sus procesos.
 
-## Funciones de Maestro disponibles actualmente
+## Funciones de planificación de Adobe Workfront disponibles actualmente
 
-En la tabla siguiente se ilustran las características principales que estarán disponibles en Maestro y una cronología de su disponibilidad. La lista no incluye todas las funciones.
+La siguiente tabla ilustra las principales funciones disponibles en las capacidades de planificación y un cronograma de su disponibilidad. La lista no incluye todas las funciones.
 
-Para obtener información sobre las nuevas funciones y cuándo se lanzarán, consulte [Actividad de versión de Maestro](/help/quicksilver/maestro/release-activity.md).
+Para obtener información sobre las nuevas funciones y cuándo se lanzarán, consulte [actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
 | Función | Disponible ahora | Disponible próximamente | En investigación |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -73,11 +73,11 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 | Ordenar agrupaciones en la vista de tabla |                               | ✓ |                  |
 | Ordenar agrupaciones en la vista de cronología |                               | ✓ |                  |
 | Conectar espacios de trabajo |                               | ✓ |                  |
-| Conectar registros y taxonomías de Maestro | ✓ |
+| Conexión de registros y taxonomías de capacidades de planificación | ✓ |
 | Buscar registros en la vista de tabla | ✓ |   |
 | Buscar registros en la vista de cronología | ✓ |   |
-| Conectar registros de Maestro a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
-| Conectar registros de Maestro a recursos de Adobe Experience Manager | ✓ |                                  |                 |
+| Conectar registros de capacidades de planificación a proyectos, programas, portafolios, empresas y grupos de Workfront | ✓ |                                 |                  |
+| Conexión de registros de capacidades de planificación a recursos de Adobe Experience Manager | ✓ |                                  |                 |
 | Registrar página de detalles | ✓ |                                  |                  |
 | Actualizar el diseño de la página Detalles del registro |                               | ✓ |                  |
 | Compartir espacios de trabajo | ✓ | |  |
@@ -89,22 +89,22 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 | Añadir miniaturas a los registros | ✓ |                                  |                 |
 | Ver el historial de cambios de un registro | ✓ |                                  |                 |
 | Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
-| Módulos de Maestro para Adobe Workfront Fusion | ✓ |                                  |                 |
+| Módulos de funcionalidades de planificación de Adobe Workfront para Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiar y pegar información de un campo a otro | ✓ |                                  |                 |
 
-## Habilite Maestro para los usuarios de la instancia de Workfront
+## Habilitar las funciones de planificación de Adobe Workfront para los usuarios de la instancia de Workfront
 
-Su organización debe inscribirse en el programa beta cerrado de Adobe Maestro para poder acceder a Maestro. Póngase en contacto con su representante de cuentas para obtener información sobre cómo inscribirse en el programa beta.
+Su organización debe inscribirse en el programa beta cerrado de funciones de planificación de Adobe Workfront para poder acceder a las funciones de planificación. Póngase en contacto con su representante de cuentas para obtener información sobre cómo inscribirse en el programa beta.
 
-Para obtener más información sobre cómo conceder acceso a Maestro y permitir que otros utilicen el programa, vea [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
+Para obtener más información sobre cómo conceder acceso a y permitir que otros utilicen las capacidades de planificación, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminología de Maestro
+## Terminología de funciones de planificación de Adobe Workfront
 
-Aunque Maestro forma parte de Workfront, incluye conceptos y terminología propios. Familiarícese con los conceptos de Maestro antes de comenzar a configurar Maestro para su organización.
+Aunque las funciones de planificación forman parte de Workfront, viene con conceptos y terminología propios. Asegúrese de estar familiarizado con los conceptos de capacidades de planificación antes de embarcarse en la configuración de capacidades de planificación para su organización.
 
-El marco de trabajo de Maestro es totalmente personalizable. Puede crear todos los tipos de registros, sus atributos y cualquier campo asociado a ellos para adaptarlos a las necesidades exactas de su organización.
+El marco para las capacidades de planificación es totalmente personalizable. Puede crear todos los tipos de registros, sus atributos y cualquier campo asociado a ellos para adaptarlos a las necesidades exactas de su organización.
 
-Los siguientes son los objetos y conceptos principales de Maestro:
+A continuación se muestran los objetos y conceptos principales de las capacidades de planificación:
 
 * **Workspace**: Recopilación de tipos de registros y taxonomías que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.
 
@@ -114,17 +114,17 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
   Para obtener más información, consulte [Creación de espacios de trabajo](../maestro/architecture/create-workspaces.md).
 
-* **Tipo de registro**: el tipo de objeto principal de Maestro.
+* **Tipo de registro**: el tipo de objeto de las capacidades de planificación principales.
 
-  A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Maestro puede crear sus propios tipos de objeto.
+  A diferencia de Workfront, donde los tipos de objeto están predefinidos, en las funciones de planificación puede crear sus propios tipos de objeto.
 
   Por ejemplo, en Workfront ya se han creado los tipos de objeto Programa, Portfolio, Proyecto, Tarea o Problema.
 
-  En Maestro, puede crear cualquier tipo de registro que se ajuste a los flujos de trabajo de su organización. Posteriormente, puede definir cómo se relacionan los tipos de registro entre sí o las dependencias del formulario.
+  En las funciones de planificación, puede crear cualquier tipo de registro que se ajuste a los flujos de trabajo de su organización. Posteriormente, puede definir cómo se relacionan los tipos de registro entre sí o las dependencias del formulario.
 
   Para obtener más información, consulte [Descripción general de los tipos de registros operativos y taxonomías](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Maestro tiene los siguientes tipos de registros:
+  Las capacidades de planificación tienen los siguientes tipos de registros:
 
    * **Tipo de registro operativo**: un tipo de registro que representa planes estratégicos, iniciativas o trabajo ejecutado.
 
@@ -138,13 +138,13 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
      ![](assets/taxonomy-record-type-blank.png)
 
-     Aunque la creación de taxonomías es idéntica a la creación de tipos de registros operativos, Maestro distingue entre un tipo de registro operativo y un tipo de registro de taxonomía. El propósito de las taxonomías es mejorar los tipos de registros operativos. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+     Aunque la creación de taxonomías es idéntica a la creación de tipos de registros operativos, las capacidades de planificación distinguen entre un tipo de registro operativo y un tipo de registro de taxonomía. El propósito de las taxonomías es mejorar los tipos de registros operativos. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
 
      Por ejemplo, Audiencia, Región o Dirección pueden ser tipos de registros de tipo taxonomía.
 
      Para obtener más información, consulte [Crear tipos de registros de taxonomía](../maestro/architecture/create-a-taxonomy.md).
 
-* **Registro**: instancia de un tipo de registro Maestro. Un registro puede hacer referencia a un tipo de registro operativo o a una taxonomía.
+* **Registro**: instancia de un tipo de registro de capacidad de planificación. Un registro puede hacer referencia a un tipo de registro operativo o a una taxonomía.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
   ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
@@ -163,7 +163,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Maestro incluye una plantilla de área de trabajo de ventas, marketing y administración de productos.
+  Las funciones de planificación de Adobe Workfront incluyen una plantilla de espacio de trabajo de ventas, marketing y administración de productos.
 
   Para obtener más información, consulte [Creación de espacios de trabajo](../maestro/architecture/create-workspaces.md).
 
@@ -171,7 +171,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Consideraciones sobre los campos de Maestro:
+  Consideraciones sobre la planificación de campos de capacidad:
 
    * Los campos que agregue para un tipo de registro se asocian automáticamente a todos los registros de ese tipo y se pueden utilizar para capturar datos sobre esos registros.
 
@@ -179,7 +179,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
    * Los campos son exclusivos de un tipo de registro y no se transfieren de un tipo de registro a otro.
 
-   * Los campos de Maestro son totalmente personalizables y sólo se puede acceder a ellos desde Maestro. No puede tener acceso a los campos de Maestro desde Workfront.
+   * Los campos de capacidad de planificación son totalmente personalizables y solo se puede acceder a ellos desde las capacidades de planificación. No puede acceder a los campos de capacidad de planificación desde Workfront.
 
   Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
 
@@ -213,9 +213,9 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
 * **Tipos de registros vinculados**, **Registros vinculados**, y **Campos de registro vinculados**: Puede crear una conexión entre las siguientes entidades:
 
-   * Dos tipos de registros de Maestro
-   * Un tipo de registro Maestro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
-   * Un tipo de registro Maestro y un recurso, carpeta o colección de Adobe Experience Manager.
+   * Dos tipos de registros de capacidad de planificación.
+   * Un tipo de registro de capacidad de planificación y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
+   * Un tipo de registro de capacidad de planificación y un recurso, carpeta o colección de Adobe Experience Manager.
 
      Debe tener una licencia de Adobe Experience Manager para vincular tipos de registros con objetos de Experience Manager.
 
@@ -226,7 +226,7 @@ Los siguientes son los objetos y conceptos principales de Maestro:
 
 * **Campos vinculados** (o campos de búsqueda): después de establecer la conexión entre dos tipos de registro y vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.
 
-  Por ejemplo, si conecta una campaña de Maestro con un proyecto de Workfront, puede mostrar el campo Propietario del proyecto de los proyectos conectados en los registros de campaña de Maestro.
+  Por ejemplo, si conecta una campaña de capacidad de planificación con un proyecto de Workfront, puede mostrar el campo Propietario del proyecto de los proyectos conectados en los registros de campaña de capacidad de planificación.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -256,11 +256,11 @@ Los siguientes son los objetos y conceptos principales de Maestro:
   Para obtener más información, consulte [Administrar vistas de registros](../maestro/views/manage-record-views.md).
 
 
-## Limitaciones de objetos de Maestro
+## Limitaciones de objetos de capacidades de planificación de Adobe Workfront
 
-En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Maestro. Las limitaciones están sujetas a cambios a medida que avanzamos en las siguientes fases del desarrollo de Maestro.
+En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en las capacidades de planificación. Las limitaciones están sujetas a cambios a medida que avanzamos hacia las siguientes fases de desarrollo.
 
-| Objeto Maestro | Límite |
+| objeto de capacidades de planificación de Adobe Workfront | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espacios de trabajo de una instancia de Workfront | 1.000 |
 | Número de tipos de registro de un espacio de trabajo | 1.000 (incluye taxonomías para el espacio de trabajo u objetos que se importan desde otras aplicaciones) |
@@ -272,11 +272,11 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Tamaño del archivo CSV de Excel que puede importar en una tabla | 5 MB |
 
-## Localizar Maestro
+## Localice las funcionalidades de planificación de Adobe Workfront
 
-Asegúrese de que su organización ha recibido acceso a Maestro y de que el administrador del sistema o del grupo ha agregado el área de Maestro al menú principal. Para obtener más información, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md) .
+Asegúrese de que su organización ha recibido acceso a las funciones de planificación y de que el administrador del sistema o del grupo ha añadido el área de funciones de planificación al menú principal. Para obtener más información, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
 
-Para localizar Maestro:
+Para localizar las capacidades de planificación:
 
 1. Inicie sesión en Adobe Workfront.
 
@@ -284,9 +284,9 @@ Para localizar Maestro:
 
 1. Clic **Maestro** ![](assets/maestro-icon.png).
 
-   Se abre el área de espacios de trabajo de Maestro.
+   Se abre el área Espacios de trabajo.
 
-1. (Opcional y recomendada) Continúe con algunas de las siguientes acciones para crear la estructura de trabajo en Maestro:
+1. (Opcional y recomendada) Continúe con algunas de las siguientes acciones para crear la estructura de trabajo:
 
    1. Cree un espacio de trabajo desde cero o con una plantilla.
 
@@ -308,8 +308,7 @@ Para localizar Maestro:
 
    1. Personalice la vista de cronología actualizando Filtros, Agrupaciones o Configuración.
 
-## Actividad de versión de Maestro
+## actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
 
-Estamos lanzando nuevas funciones a Maestro con regularidad. Para obtener una lista actualizada de las funciones lanzadas, consulte [Actividad de versión de Adobe Maestro](../maestro/release-activity.md).
-
+Estamos lanzando nuevas funciones a las capacidades de planificación con regularidad. Para obtener una lista actualizada de las funciones lanzadas, consulte [actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront](../maestro/release-activity.md).
 

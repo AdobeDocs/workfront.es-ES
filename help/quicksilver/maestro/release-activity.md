@@ -1,32 +1,32 @@
 ---
-title: Actividad de versión de Adobe Maestro
-description: Adobe Maestro está disponible actualmente para determinados clientes de Workfront. Revise este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para Adobe Maestro.
+title: actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
+description: Actualmente, las funcionalidades de planificación de Adobe Workfront están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Actividad de versión de Adobe Maestro
+# actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
 
 {{maestro-important-intro}}
 
-Este artículo enumera las funciones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023.
+Este artículo enumera las funciones que se han publicado después de que el 22 de mayo de 2023 se iniciara el programa beta cerrado de las funciones de planificación de Adobe Workfront.
 
-Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones de sus entornos de producción.
+Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero. Los clientes que participan en el programa beta cerrado de funciones de planificación pueden acceder a todas las funciones en sus entornos de producción.
 
 >[!IMPORTANT]
 >
->Entre mayo de 2023 y diciembre de 2023, todas las funciones de este artículo se lanzaron al entorno de vista previa y producción. Las capacidades de Maestro se han eliminado temporalmente de los entornos Vista previa y Zona protegida desde enero de 2024. Todas las funciones lanzadas después de esta fecha están disponibles actualmente en el entorno de producción.
+>Entre mayo de 2023 y diciembre de 2023, todas las funciones de este artículo se lanzaron al entorno de vista previa y producción. Las capacidades de planificación se han eliminado temporalmente de los entornos de Vista previa y Zona protegida desde enero de 2024. Todas las funciones lanzadas después de esta fecha están disponibles actualmente en el entorno de producción.
 
-Este artículo enumera las funciones y revisiones que se han publicado tras el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023.
+Este artículo enumera las funciones y parches que se han publicado tras el lanzamiento del programa beta cerrado de las funciones de planificación de Adobe Workfront el 22 de mayo de 2023.
 
-Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de Maestro pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
+Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de funciones de planificación pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Los siguientes permisos ahora funcionan junto con el tipo de licencia del usuari
 
 Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información acerca de la conexión entre el tipo de licencia y los permisos en Maestro, consulte [Introducción al tipo de licencia en Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Introducción al tipo de licencia en Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nueva apariencia de la barra de herramientas Texto enriquecido para campos de registro
@@ -88,7 +88,7 @@ Hemos rediseñado y mejorado la experiencia de agregar opciones u objetos para l
 * Selección única
 * Selección múltiple
 * Personas
-* Campos de registro conectados (al conectar tipos de registros de Maestro u objetos de Workfront)
+* Campos de registro conectados (al conectar tipos de registros de capacidad de planificación u objetos de Workfront)
 
 Con la nueva mejora, aparece primero un cuadro más pequeño y adaptable.
 
@@ -136,14 +136,14 @@ Producción: 1 de febrero de 2024
 
 Vista previa: por determinar
 
-Para evitar confusiones y simplificar la administración de los espacios de trabajo, se han eliminado de un espacio de trabajo las tarjetas de tipo de registro generadas automáticamente y de sólo lectura para los objetos conectados que no son de Maestro.
+Para evitar confusiones y simplificar la administración de los espacios de trabajo, se han eliminado las tarjetas de tipo de registro generadas automáticamente y de solo lectura para los objetos externos conectados de un espacio de trabajo.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semana del 22 de enero de 2024
 
-### La nueva sección Historial muestra la actividad del sistema para los registros de Maestro
+### La nueva sección Historial muestra la actividad del sistema para los registros de capacidades de planificación
 
 Producción: 25 de enero de 2024
 
@@ -151,7 +151,7 @@ Vista previa: por determinar
 
 Para mejorar las capacidades de auditoría, hemos introducido una nueva sección en el panel derecho de un registro en la que puede revisar los cambios realizados en el registro registrado por el sistema.
 
-Maestro registra la siguiente información en la nueva sección Historial:
+La siguiente información se registra en la nueva sección Historial:
 
 * Cualquier cambio de campo
 
@@ -173,13 +173,13 @@ Para crear coherencia al crear registros, se ha vuelto a etiquetar el vínculo +
 
 ## Semana del 8 de enero de 2024
 
-### Las capacidades de Maestro se eliminan de los entornos Vista previa y Zona protegida
+### Las capacidades de Planning se eliminan de los entornos Vista previa y Zona protegida
 
 Vista previa y zona protegida: 11 de enero de 2024
 
-El área de Maestro y todas las capacidades de Maestro se han eliminado temporalmente de los entornos Vista previa y Zona protegida. Maestro se agregará a estos entornos en una fecha posterior, que se comunicará en las notas de la versión de la actividad.
+Las funcionalidades de planificación de Adobe Workfront se han eliminado temporalmente de los entornos de Previsualización y Zona protegida. Se añadirán a estos entornos en una fecha posterior, que se comunicará en las notas de la versión de la actividad.
 
-### Permisos de Maestro para espacios de trabajo y vistas
+### Permisos de capacidades de Planning para espacios de trabajo y vistas
 
 Producción: 11 de enero de 2024
 
@@ -191,7 +191,7 @@ Cuando comparte un espacio de trabajo, los usuarios tienen permisos para los tip
 
 Cuando comparte un área de trabajo, los usuarios no reciben permisos de uso compartido en las vistas asociadas con los tipos de registro del área de trabajo. Debe conceder permisos independientes a las vistas.
 
-A continuación se muestran los niveles de permisos para espacios de trabajo de Maestro:
+A continuación se muestran los niveles de permisos para espacios de trabajo:
 
 * Ver: Los usuarios pueden ver los espacios de trabajo que se comparten con ellos. También pueden ver tipos de registros y registros del espacio de trabajo compartido.
 
@@ -274,21 +274,21 @@ Vista previa y producción para todos los clientes: 18 de diciembre de 2023
 
 Ahora puede colaborar con otros en registros individuales agregando comentarios o respondiendo a otros mientras ve un registro en la página Detalles.
 
-La experiencia de comentarios de los registros de Maestro coincide con la nueva experiencia de comentarios de los objetos de Workfront.
+Los registros de experiencia de comentarios para las capacidades de planificación coinciden con la nueva experiencia de comentarios para los objetos de Workfront.
 
 Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Conector Maestro (beta) para Adobe Workfront Fusion
+### Conector de funciones de Planning (beta) para Adobe Workfront Fusion
 
 Producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con Maestro.
+>Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de planificación de Adobe Workfront.
 >
 >Para obtener más información, consulte [Información general sobre Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Ahora puede utilizar Adobe Workfront Fusion para conectarse a Maestro. Con la nueva conexión de Adobe Maestro Fusion, puede:
+Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de planificación. Con la nueva conexión Fusion, puede:
 
 * Crear, leer, actualizar y eliminar registros
 
@@ -300,7 +300,7 @@ Ahora puede utilizar Adobe Workfront Fusion para conectarse a Maestro. Con la nu
 
 * Realizar una llamada de API
 
-* Déclencheur de un escenario cuando se realiza un cambio en Maestro
+* Almacenar en déclencheur un escenario cuando se realiza un cambio en las capacidades de planificación
 
 Para obtener más información, consulte [Módulos de Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Para obtener más información, consulte [Módulos de Adobe Maestro](/help/quick
 
 Previsualización y producción: 14 de diciembre de 2023
 
-Ahora puede elegir el campo que desea mostrar en la primera columna de una vista de tabla de Maestro. Este campo ahora se denomina campo principal.
+Ahora puede elegir el campo que desea mostrar en la primera columna de una vista de tabla. Este campo ahora se denomina campo principal.
 
 Antes de esta mejora, el campo Nombre de un registro siempre se mostraba en la primera columna de la vista de tabla y no se podía colocar en otra posición.
 
@@ -332,10 +332,9 @@ Con esta mejora, observe lo siguiente:
 
 * Todas las vistas de tabla de un tipo de registro tienen el mismo campo principal que seleccione.
 
-Para obtener más información, consulte [Administrar vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Conectar registros de Maestro con Adobe Experience Manager Assets
+### Conexión de registros de capacidad de planificación con Adobe Experience Manager Assets
 
 Versión de vista previa: 14 de diciembre de 2023
 
@@ -343,34 +342,33 @@ Versión de producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de Maestro a Adobe Experience Manager Assets.
+>La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de funciones de planificación de Adobe Workfront a Adobe Experience Manager Assets.
 >
 >Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Ahora puede establecer una conexión entre los tipos de registros de Maestro y Adobe Experience Manager Assets.
+Ahora puede establecer una conexión entre los tipos de registro de las capacidades de planificación de Adobe Workfront y Adobe Experience Manager Assets.
 
 Después de establecer la conexión, esta actualización incluye las siguientes funciones:
 
-* Puede vincular recursos y carpetas de Experience Manager a un registro de Maestro desde un repositorio específico de Experience Manager Assets al que tengan acceso. En este proceso, puede conectar los campos de recursos a los campos de Maestro.
+* Puede vincular recursos y carpetas de Experience Manager a un registro de capacidad de planificación desde un repositorio específico de Experience Manager Assets al que tengan acceso. En este proceso, puede conectar los campos de recursos a los campos de capacidad de planificación.
 
-* Los usuarios de Maestro pueden ver el nombre de los recursos conectados, así como los valores de los campos conectados en Maestro
+* Los usuarios de la capacidad de planificación pueden ver el nombre de los recursos conectados, así como los valores de los campos conectados, en las capacidades de planificación.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Puede hacer clic en el nombre del recurso en la vista de tabla del registro Maestro desde el campo de registro conectado y ver una ventana emergente con la miniatura del recurso y varios campos clave. En la ventana emergente, puede navegar hasta el visualizador de recursos en Experience Manager y ver todos los detalles sobre él.
+* Puede hacer clic en el nombre del recurso en la vista de tabla del registro de capacidad de planificación desde el campo de registro conectado y ver una ventana emergente con la miniatura del recurso y varios campos clave. En la ventana emergente, puede navegar hasta el visualizador de recursos en Experience Manager y ver todos los detalles sobre él.
 
 Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semana del 4 de diciembre de 2023
 
-### Copiar y pegar información de un campo a otro en la vista de tabla de Maestro para los campos de tipo Personas y de registro vinculado
+### Copiar y pegar información de un campo a otro en la vista de tabla de funcionalidad de planificación para los campos de tipo Personas y de registro vinculado
 
 Previsualización y producción: 5 de diciembre de 2023
 
-Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro Maestro. Esta funcionalidad ahora se admite para los siguientes tipos de campos:
+Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro. Esta funcionalidad ahora se admite para los siguientes tipos de campos:
 
 * Personas
 * Campos de registro vinculados
@@ -379,7 +377,7 @@ Tenga en cuenta lo siguiente:
 
 * La copia y el pegado de valores de campo de un campo a otro son compatibles con los campos que muestran varios valores.
 
-* No puede copiar información de otro origen que no sea un campo Maestro del mismo tipo que el campo en el que pega la información.
+* No puede copiar información de otro origen que no sea un campo de capacidad de planificación del mismo tipo que el campo en el que pega la información.
 
 * No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
 
@@ -389,15 +387,15 @@ Para obtener información sobre los campos vinculados, consulte [Conectar tipos 
 
 ## Semana del 27 de noviembre de 2023
 
-### Copiar y pegar información de un campo a otro en la vista de tabla de Maestro
+### Copiar y pegar información de un campo a otro en la vista de tabla de capacidades de planificación
 
 Previsualización y producción: 28 de noviembre de 2023
 
-Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro Maestro.
+Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro de capacidad de planificación.
 
 Tenga en cuenta lo siguiente:
 
-* No puede copiar información de otro origen que no sea un campo Maestro del mismo tipo que el campo en el que pega la información.
+* No puede copiar información de otro origen que no sea un campo de capacidad de planificación del mismo tipo que el campo en el que pega la información.
 
 * No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
 
@@ -417,7 +415,7 @@ Para obtener más información, consulte [Edición de registros](../maestro/reco
 
 Previsualización y producción: 7 de noviembre de 2023
 
-Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de Maestro <!--checking into this for now: and by four fields when using the API-->.
+Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de capacidad de planificación<!--checking into this for now: and by four fields when using the API-->.
 
 Para obtener más información, consulte [Administrar la vista de tabla](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](../maes
 
 Previsualización y producción: 30 de octubre de 2023
 
-Hemos introducido los siguientes tipos de campos para los registros de Maestro:
+Hemos introducido los siguientes tipos de campos para los registros de capacidades de planificación de Adobe Workfront:
 
 * Creado por
 
@@ -441,11 +439,11 @@ Los valores de campo de los campos creados a partir de estos tipos de campo son 
 
 Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
 
-### Desplazarse a objetos de Workfront desde un registro de Maestro
+### Navegar a objetos de Workfront desde un registro de funciones de planificación
 
 Previsualización y producción: 31 de octubre de 2023
 
-Ahora puede abrir las páginas de objetos de Workfront desde las áreas siguientes de Maestro:
+Ahora puede abrir las páginas de objetos de Workfront desde las siguientes áreas de las funciones de planificación:
 
 * La vista de tabla de registros de objetos de Workfront vinculados de solo lectura
 
@@ -475,7 +473,7 @@ Para obtener más información, consulte [Creación de registros](../maestro/rec
 
 Previsualización y producción: 16 de octubre de 2023
 
-Ahora puede agregar un campo de tipo Personas a los tipos de registros de Maestro. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
+Ahora puede agregar un campo de tipo Personas a los tipos de registro de capacidades de planificación. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Creación de campos](../maestro/fields/create-fields.md).
 
 ### Texto enriquecido: formato para campos de párrafo
 
@@ -530,21 +528,21 @@ Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una 
 
 ## Semana del 4 de septiembre de 2023
 
-### Conectar registros de Maestro con empresas y grupos de Workfront
+### Conexión de registros de capacidades de planificación con empresas y grupos de Workfront
 
 Previsualización y producción: 5 de septiembre de 2023
 
-Ahora puede conectar un registro de Maestro con empresas y grupos de Workfront. Primero debe crear una conexión entre un tipo de registro de Maestro y los tipos de objetos de empresas y grupos de Workfront. A continuación, puede conectar un único registro Maestro del tipo de registro seleccionado a empresas y grupos individuales de Workfront.
+Ahora puede conectar un registro de capacidad de planificación con empresas y grupos de Workfront. Primero debe crear una conexión entre un tipo de registro de capacidad de planificación y los tipos de objetos de empresas y grupos de Workfront. A continuación, puede conectar un único registro de capacidad de planificación del tipo de registro seleccionado a empresas y grupos de Workfront individuales.
 
 Tenga en cuenta lo siguiente:
 
-* Debe crear una conexión entre los tipos de registros de Maestro y los tipos de objetos Compañía y Grupo de Workfront para cada Espacio de trabajo.
+* Debe crear una conexión entre los tipos de registro de capacidades de planificación y los tipos de objeto Compañía y Grupo de Workfront para cada Espacio de trabajo.
 
 * No puede conectar tipos de registros de taxonomía con tipos de objetos de Workfront.
 
-* Puede conectar varios registros de Maestro a la misma compañía o grupo de Workfront y varias compañías o grupos al mismo registro de Maestro.
+* Puede conectar varios registros de capacidad de planificación a la misma compañía o grupo de Workfront, y varias compañías o grupos al mismo registro de capacidad de planificación.
 
-* No puede editar compañías o grupos en Maestro. Todos los cambios de compañía o de grupo realizados en Workfront se pueden ver en Maestro al revisar los registros vinculados de Maestro.
+* No se pueden editar compañías o grupos en las funciones de planificación. Todos los cambios de empresa o grupo realizados en Workfront se pueden ver en las funciones de planificación, al revisar las funciones de planificación y los registros vinculados.
 
   Para obtener más información, consulte los siguientes artículos:
 
@@ -571,15 +569,15 @@ Para obtener más información, consulte [Administrar la vista de tabla](../maes
 
 ## Semana del 21 de agosto de 2023
 
-### Conectar registros de Maestro a programas y portafolios
+### Conexión de registros de funciones de planificación de Adobe Workfront a programas y portafolios
 
 Previsualización y producción: 24 de agosto de 2023
 
-Ahora puede conectar un registro de Maestro con programas y portafolios de Workfront. Debe crear una conexión entre un tipo de registro Maestro y un programa o portafolio que cree un campo conectado. A continuación, puede conectar cualquier registro de Maestro de todos los demás tipos de registro del mismo área de trabajo a programas y portafolios específicos, lo que crea un tipo de registro de sólo lectura de programa de Workfront o de Portfolio de Workfront en el mismo área de trabajo. Tenga en cuenta lo siguiente:
+Ahora puede conectar un registro de capacidades de planificación con programas y portafolios de Workfront. Debe crear una conexión entre un tipo de registro de capacidades de planificación y un programa o portafolio que cree un campo conectado. A continuación, puede conectar cualquier registro de funciones de planificación de todos los demás tipos de registro del mismo espacio de trabajo a programas y portafolios específicos, lo que crea un tipo de registro de sólo lectura de Portfolio de Workfront o Programa Workfront en el mismo espacio de trabajo. Tenga en cuenta lo siguiente:
 
 * Los tipos de registros del conector de Workfront son únicos para cada espacio de trabajo.
-* Puede conectar varios registros de Maestro al mismo programa o portafolio de Workfront y varios programas y portafolios al mismo registro de Maestro.
-* No puede editar programas y portafolios en Maestro. Todos los cambios de programas y portafolios realizados en Workfront se pueden ver en Maestro al revisar los registros vinculados.
+* Puede conectar varios registros de capacidades de planificación al mismo programa o portafolio de Workfront, y varios programas y portafolios al mismo registro de capacidades de planificación.
+* No puede editar programas y portafolios en las funciones de planificación. Todos los cambios de programas y portafolios realizados en Workfront se pueden ver en las funciones de planificación al revisar los registros vinculados.
 
 ### Nueva funcionalidad de ordenación para la vista de tabla
 
@@ -608,13 +606,13 @@ Hemos introducido las siguientes mejoras en la vista de cronología:
 
 ### Reordenar columnas en la vista de tabla
 
-Ahora puede reordenar columnas en la vista de tabla de Maestro. Tenga en cuenta lo siguiente al reordenar las columnas:
+Ahora puede reordenar las columnas en la vista de tabla. Tenga en cuenta lo siguiente al reordenar las columnas:
 
 * El campo Nombre es siempre el primer campo de la vista de tabla de una página de tipo de registro
 
 * No se puede mover el campo Nombre a otra posición
 
-* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal.
+* El campo Nombre está bloqueado y no forma parte del desplazamiento horizontal
 
 ### Desplazamiento horizontal para vista de escala de tiempo
 
@@ -650,7 +648,7 @@ Ahora puede seleccionar un icono personalizado para un tipo de registro y un col
 
 Previsualización y producción: 13 de julio de 2023
 
-Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de registro Maestro. Puede utilizar un campo de tipo casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
+Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de registro de capacidad de planificación. Puede utilizar un campo de tipo casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
 
 ## Semana del 26 de junio de 2023
 
@@ -664,19 +662,19 @@ Hemos habilitado la capacidad de activar el menú contextual haciendo clic con e
 
 ### Los nombres de los campos de registro son únicos
 
-Hemos introducido el requisito de que los nombres de campo de un tipo de registro Maestro deben tener nombres únicos. Los campos que pertenecen a diferentes tipos de registro no tienen por qué tener nombres únicos.
+Ahora hemos introducido el requisito de que los nombres de campo de un tipo de registro de capacidad de planificación deben tener nombres únicos. Los campos que pertenecen a diferentes tipos de registro no tienen por qué tener nombres únicos.
 
 ## Semana del 5 de junio de 2023
 
-### Conectar registros de Maestro con proyectos de Workfront
+### Conexión de registros de capacidades de planificación de Adobe Workfront con proyectos de Workfront
 
 Previsualización y producción: 5 de junio de 2023
 
-Ahora puede conectar un registro de Maestro con proyectos de Workfront. Debe crear un tipo de registro de conector Maestro para establecer la conexión entre registros de Maestro y proyectos de Workfront. A continuación, puede conectar cualquier registro de Maestro de todos los demás tipos de registro al registro del conector mediante el campo Relación. Tenga en cuenta lo siguiente:
+Ahora puede conectar un registro de capacidades de planificación con proyectos de Workfront. Debe crear un tipo de registro de capacidades de planificación de conector para establecer la conexión entre los registros de capacidades de planificación y los proyectos de Workfront. A continuación, puede conectar cualquier registro de capacidades de planificación de todos los demás tipos de registro al registro del conector mediante el campo Relación. Tenga en cuenta lo siguiente:
 
 * Debe tener un tipo de registro de conector para Workfront para cada espacio de trabajo.
-* Puede conectar varios registros de Maestro al mismo proyecto de Workfront y varios proyectos al mismo registro de Maestro.
-* No puede editar proyectos en Maestro. Todos los cambios de proyecto realizados en Workfront se pueden ver en Maestro al revisar los registros vinculados.
+* Puede conectar varios registros de capacidades de planificación al mismo proyecto de Workfront y varios proyectos al mismo registro de capacidades de planificación.
+* No puede editar proyectos en las funciones de planificación. Todos los cambios de proyecto realizados en Workfront se pueden ver en las funciones de planificación al revisar los registros vinculados.
 
 ## Semana del 29 de mayo de 2023
 

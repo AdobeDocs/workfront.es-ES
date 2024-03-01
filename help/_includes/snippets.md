@@ -1,7 +1,7 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -253,13 +253,13 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Maestro, que es una nueva oferta de Adobe Workfront.
+>La información de este artículo hace referencia a las funciones de planificación de Adobe Workfront, una nueva oferta de Adobe Workfront.
 >
->En la actualidad, Adobe Maestro forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar las funciones de Maestro.
+>Actualmente, las funciones de planificación forman parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
 >
->Póngase en contacto con su representante de cuentas para obtener más información acerca de cómo unirse al programa beta de Maestro.
+>Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta para las funciones de planificación.
 >
->Para obtener más información acerca de Maestro, vea [Introducción a Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+>Para obtener más información sobre las capacidades de planificación, consulte [Resumen de funcionalidades de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
