@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -284,6 +284,24 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura</a></p><p>Los comentarios realizados en los registros de actividad del sistema en la experiencia de comentarios heredada ahora se rellenan en la pestaña Actividad del sistema en la nueva experiencia de comentarios como de solo lectura. No puede responder a los registros de actividad del sistema en la nueva experiencia de comentarios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 22 de febrero de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (marzo de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema</a></p><p>Para ofrecerle una vista cronológicamente coherente de los comentarios y los registros de actividad del sistema, presentamos una tercera pestaña en el área de Actualizaciones de todos los objetos. La pestaña "Todos" captura tanto los comentarios del usuario como los de la actividad del sistema en un flujo coherente.</p>

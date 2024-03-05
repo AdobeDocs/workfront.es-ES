@@ -4,9 +4,9 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:
 * Su nombre de usuario aparece resaltado en los comentarios en los que está etiquetado, cuando se le menciona en el texto del comentario.
 
 Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura
+
+>[!NOTE]
+>
+>Versión preliminar: 22 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+
+Los comentarios realizados en los registros de actividad del sistema en la experiencia de comentarios heredada ahora se rellenan en la pestaña Actividad del sistema en la nueva experiencia de comentarios como de solo lectura. No puede responder a los registros de actividad del sistema en la nueva experiencia de comentarios.
+
+Para obtener más información, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema
 
