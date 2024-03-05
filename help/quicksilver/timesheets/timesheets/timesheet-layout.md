@@ -7,9 +7,9 @@ description: Este artículo describe la presentación de las plantillas de horas
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ Cualquier comentario realizado en la plantilla de horas se mostrará en esta ár
 
 ## Panel de resumen
 
+<div class="preview">
+
+Ejemplo en el entorno de vista previa:
+![Panel de resumen](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Ejemplo en el entorno de producción:
 ![Panel de resumen](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Puede acceder al Panel de resumen para tareas o problemas mostrados en una plantilla de horas. Desde aquí puede realizar comentarios sobre tareas y problemas o actualizar su información. Para obtener más información, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
