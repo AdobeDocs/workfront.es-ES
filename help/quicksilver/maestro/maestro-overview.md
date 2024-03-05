@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -264,7 +264,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espacios de trabajo de una instancia de Workfront | 1.000 |
 | Número de tipos de registro de un espacio de trabajo | 1.000 (incluye taxonomías para el espacio de trabajo u objetos que se importan desde otras aplicaciones) |
-| Número de registros para un tipo de registro | 10.000 |
+| Número de registros para un tipo de registro | 50.000 |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto | 1.000 caracteres |
 | Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |
