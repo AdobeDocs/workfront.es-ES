@@ -4,9 +4,9 @@ description: Mejoras del administrador en el segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## La integración de JumpSeat ya está disponible para nuevos tipos de paquetes
+
+>[!NOTE]
+>
+>Versión preliminar: 26 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: 24.4 (abril de 2024)
+
+La integración existente de JumpSeat ya está disponible para las cuentas que utilizan uno de los nuevos tipos de paquete (es decir, Select, Prime o Ultimate). Debe seguir teniendo una suscripción JumpSeat activa para habilitar la integración.
+
+Para obtener más información sobre la integración de JumpSeat, consulte [Configuración de la integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Los campos nativos de Workfront están disponibles en la versión beta de Forms Designer
 

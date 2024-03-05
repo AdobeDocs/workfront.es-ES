@@ -7,9 +7,9 @@ description: Puede utilizar una plantilla de diseño para configurar lo que ven 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
       <p>Seleccione los widgets que estarán presentes en los espacios de trabajo de los usuarios, su posición y elija un fondo. Tenga en cuenta que, aunque los usuarios no pueden eliminar los widgets seleccionados, pueden moverlos y cambiarles el tamaño libremente, así como agregar widgets adicionales.</p>
       <p>Esta pestaña funciona esencialmente como un pequeño espacio de trabajo nuevo en Inicio; como tal, se puede personalizar según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en la nueva página de inicio</a>. Seleccione los widgets y organice el espacio de trabajo tal como desea que aparezca para los usuarios.</p>
       <p>Para cambiar el fondo, siga los pasos que aparecen debajo de <b>Personalización de fondo</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introducción a la nueva página de inicio</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Al mover o cambiar el tamaño de los widgets en la plantilla de diseño, no se almacenarán en déclencheur las nuevas páginas de inicio de los usuarios para actualizar su diseño. Sin embargo, añadir o eliminar un widget almacenará en déclencheur una actualización de las páginas de los usuarios.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configuración del widget</td> 
@@ -93,18 +100,24 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
       </ul>
       <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b>, y <b>Grupos</b>. Puede:</p>
       <ul>
-        <li><b>Seleccione los filtros, columnas o grupos que estarán disponibles para los usuarios:</b><p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios.</li></p>
-        <li><b>Establezca un filtro o un grupo predeterminado para el widget:</b><p>Pase el ratón sobre una opción y aparecerá un botón que le permitirá establecer esa opción como predeterminada para los usuarios. El valor predeterminado actual tendrá un distintivo predeterminado azul a su derecha.</li></p>
-        <li><b>Agregue un filtro, una columna o un grupo existentes a la lista de opciones disponibles:</b><p>Haga clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los filtros, campos (para columnas) o grupos existentes se pueden agregar de esta manera.</li></p>
+      <li><p><b>Seleccione los filtros, columnas o grupos que estarán disponibles para los usuarios:</b></p>
+      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios.</li></p>
+      <li><p><b>Establezca un filtro o un grupo predeterminado para el widget:</b></p>
+      <p>Pase el ratón sobre una opción y aparecerá un botón que le permitirá establecer esa opción como predeterminada para los usuarios. El valor predeterminado actual tendrá un distintivo predeterminado azul a su derecha.</li></p>
+      <li><p><b>Agregue un filtro, una columna o un grupo existentes a la lista de opciones disponibles:</b></p>
+      <p>Haga clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los filtros, campos (para columnas) o grupos existentes se pueden agregar de esta manera.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Si establece un filtro o una agrupación predeterminados para un widget específico mediante una plantilla de diseño, es posible que no surta efecto inmediatamente debido a las preferencias de usuario existentes. Para aplicar el nuevo filtro o agrupación inmediatamente, es posible que usted o el usuario tengan que restablecer sus preferencias de usuario añadiendo &quot;/resetUser&quot; al final de su URL.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Siga personalizando la plantilla de diseño.
 

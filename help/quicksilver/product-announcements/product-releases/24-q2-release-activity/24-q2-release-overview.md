@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La integración de JumpSeat ya está disponible para nuevos tipos de paquetes</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>La integración existente de JumpSeat ya está disponible para las cuentas que utilizan uno de los nuevos tipos de paquete (es decir, Select, Prime o Ultimate). Debe seguir teniendo una suscripción JumpSeat activa para habilitar la integración.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 26 de febrero de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">El nuevo flujo de comentarios ya está disponible en acciones rápidas para los nuevos widgets de Inicio</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>Ahora hemos agregado la nueva funcionalidad de comentarios a <b>Añadir nueva actualización</b> botón de acción rápida en los widgets Mi trabajo, Mis proyectos, Mis tareas y Mis problemas de la nueva página de inicio.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 1 de marzo de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Información adicional sobre el comentarista disponible en la nueva experiencia de comentarios</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p><p>Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:</p>
