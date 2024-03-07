@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
 
 El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla
 
@@ -157,15 +176,20 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
    >
    >    Para crear una vista de escala de tiempo, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, la opción Cronología aparece atenuada.
 
-1. (Opcional) Actualice el nombre de la vista y haga clic en **Crear** para guardarlo.
+1. (Opcional) Actualice el nombre de la vista y haga clic en **Crear** para guardar una vista de tabla
+
+   O haga clic en **Siguiente**, al crear una cronología <!--or calendar--> vista.
 
    De forma predeterminada, Maestro asigna a la vista el nombre &quot;Tabla &lt; número >&quot; o &quot;Línea de tiempo &lt; número >&quot;. El número es un incremento generado automáticamente.
 
+1. (Condicional) Seleccione las fechas de inicio y finalización de los registros que se mostrarán en la cronología <!--or calendar--> y, a continuación, haga clic en **Crear**.
 1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
    * [Administrar la vista de tabla](../views/manage-the-table-view.md)
    * [Administrar la vista de cronología](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Eliminar vistas
@@ -180,6 +204,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Haga clic en el menú desplegable de vista, pase el cursor sobre una de las vistas de la lista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Eliminar**.
 1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
