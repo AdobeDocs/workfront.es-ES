@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ O
 }
 ```
 
-#### respuesta
+#### Respuesta
 
 ```json
 200
@@ -314,7 +314,7 @@ O
 
 _Empty_
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -379,7 +379,7 @@ O
 
 _Empty_
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -502,7 +502,7 @@ O
 }
 ```
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -580,7 +580,7 @@ O
 
 _Empty_
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -624,6 +624,10 @@ Para cada objeto de promoción, siga uno de estos procedimientos `actions`  se c
    <td><p>Cuando se encuentra un registro correspondiente en el entorno de destino, la acción se establece en USEEXISTING y se crea un <code>targetId</code> también se captura en el <code>translationmap</code>.</p><p>Cuando esta acción se establece en la variable <code>translationmap</code> que se proporciona al <code>/install</code> extremo, el servicio de instalación no creará el registro. Sin embargo, utilizará el <code>targetId</code> incluido en la entrada del mapa para otros objetos que puedan tener una referencia a este registro.</p><p>Por ejemplo, se puede encontrar un "Grupo predeterminado" en el entorno de destino en el que se está implementando un paquete. No es posible tener dos registros de "Grupo predeterminado", por lo que el servicio de instalación utilizará el GUID del grupo existente en cualquier otra acción de creación de objetos que incluya una referencia al "Grupo predeterminado", como un proyecto, formulario o cualquier otra entidad relacionada con este grupo.</p><p><b>Nota:</b> <ul><li><p>Cuando se asigna la acción USEEXISTING, no se modifica el registro existente en el entorno de destino. </p><p>Por ejemplo, si la descripción del "grupo predeterminado" ha cambiado en la zona protegida desde la que se creó el paquete y el valor de la descripción es diferente en el entorno de destino, el valor permanecerá sin cambios después de una instalación con este <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
+   <td>SOBRESCRITURA</td> 
+   <td><p>Esta acción no se establecerá automáticamente.</p><p>Esta acción permite actualizar un objeto que existe en el entorno de destino. Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.<ul><li>Un usuario puede actualizar un objeto en el entorno de prueba y, a continuación, utilizar la acción SOBRESCRIBIR para actualizar ese objeto en el entorno de destino.</p></li><li><p>Si el usuario instala un paquete de promoción inicialmente y, posteriormente, un paquete nuevo (o actualizado) contiene cambios en los objetos del paquete inicial, el usuario puede utilizar OVERWRITING para reemplazar (anular) los objetos instalados anteriormente. </p></li><ul></td> 
+  </tr> 
+  <tr> 
    <td>IGNORAR</td> 
    <td><p>Esta acción no se establecerá automáticamente.</p><p>Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.</p><p><b>Notas: </b><ul><li><p>Si un registro que originalmente se estableció en CREATE se establece en IGNORE, cualquier registro secundario también se debe establecer en IGNORE.</p><p>Por ejemplo, si un registro de plantilla se ha asignado con una acción CREAR y el usuario que lo instala desea excluirlo de la implementación, puede establecer la acción de la plantilla en IGNORAR.</p><p>En este caso, si el usuario que realiza la instalación no establece las tareas de plantilla, las asignaciones de tareas de plantilla, las predecesoras de tareas de plantilla, la definición de cola, los temas de cola, las reglas de enrutamiento, etc. en IGNORE, la implementación resultará en un intento de instalación fallido.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en IGNORE, puede haber algunos efectos adversos durante el proceso de instalación.</p><p>Por ejemplo, si se asignó un registro de grupo con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a IGNORE, para los objetos que requieren un grupo (por ejemplo, un proyecto no puede existir sin un grupo asignado), el grupo predeterminado del sistema se asignará a ese proyecto.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en CREATE, puede haber algunos efectos adversos durante el proceso de instalación porque muchas entidades de Workfront tienen restricciones de nombre único.</p><p>Por ejemplo, si se asignó un registro de "Grupo predeterminado" con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a CREATE, dado que ya existe un "Grupo predeterminado", el intento de instalación no podrá completar todos los pasos. Los nombres de grupo deben ser únicos.</p><p>Algunas entidades no tienen una restricción de nombre único. Para esos objetos, realizar este cambio dará como resultado dos registros con nombres idénticos. Por ejemplo, las plantillas, los proyectos, las vistas, los filtros, las agrupaciones, los informes y los paneles no requieren restricciones de nombre único. Se recomienda tener nombres únicos para estos registros, pero no se aplica.</p></li></ul></p></td> 
   </tr> 
@@ -662,7 +666,7 @@ O
 {}
 ```
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -814,7 +818,7 @@ O
 }
 ```
 
-#### respuesta
+#### Respuesta
 
 ```
 202
@@ -865,7 +869,7 @@ O
 
 _Empty_
 
-#### respuesta
+#### Respuesta
 
 ```
 200
@@ -962,7 +966,7 @@ O
 
 _Empty_
 
-#### respuesta
+#### Respuesta
 
 ```
 200
