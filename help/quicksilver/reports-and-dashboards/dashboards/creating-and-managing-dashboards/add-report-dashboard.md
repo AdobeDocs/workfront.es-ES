@@ -2,20 +2,24 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Agregar un informe a un tablero
-description: Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un tablero.
+description: Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un panel.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Agregar un informe a un tablero
 
-Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un tablero, tal como se describe en [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un panel, tal como se describe en [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
+>[!NOTE]
+>
+>Actualmente, los campos de búsqueda externos de formularios personalizados no son compatibles con los paneles. No puede editar el valor del campo en línea y es posible que no se muestre correctamente en un panel.
 
 ## Requisitos de acceso
 
@@ -26,7 +30,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -35,38 +39,38 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en el tablero</p> <p>Ver permisos para el informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en el tablero</p> <p>Ver permisos para el informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
-Debe crear un informe antes de agregarlo a un tablero.
+Debe crear un informe antes de agregarlo a un panel.
 
-Para obtener información sobre la creación de informes, consulte [Crear un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Creación de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Agregar un informe a un tablero existente
 
-1. Vaya a un informe que tenga permisos para Administrar y desee agregar a un tablero.
-1. Haga clic en el **Acciones de informe** menú desplegable.
-1. Haga clic en **Agregar al tablero**. Un máximo de 10 paneles modificados recientemente (propiedad del usuario que ha iniciado sesión) aparecen en orden de los más nuevos a los más antiguos.
+1. Vaya a un informe que tenga permisos de Administración y desee agregar a un tablero.
+1. Haga clic en **Acciones de informe** menú desplegable.
+1. Clic **Añadir a tablero**. Un máximo de 10 paneles modificados recientemente (propiedad del usuario que ha iniciado sesión) aparecen en orden del más reciente al más antiguo.
 1. Seleccione el tablero al que desee agregar el informe.
 
-   Después de seleccionar el tablero, puede agregar el informe como si lo estuviera editando.
+   Después de seleccionar el tablero, puede agregar el informe como si estuviera editando ese tablero.
 
 ## Agregar un informe a un nuevo tablero
 
-1. Vaya a un informe que tenga permisos para Administrar y desee agregar a un tablero.
-1. Haga clic en el **Acciones de informe** lista desplegable.
-1. Haga clic en **Agregar al tablero** y haga clic en **Nuevo tablero** para agregar el informe.\
+1. Vaya a un informe que tenga permisos de Administración y desee agregar a un tablero.
+1. Haga clic en **Acciones de informe** menú desplegable.
+1. Clic **Añadir a tablero**, luego haga clic en **Nuevo panel** para añadir el informe.\
    Aparece un generador de tableros.
 
 1. (Opcional) Seleccione un diseño e incluya informes adicionales en el nuevo tablero.
-1. Haga clic en **Guardar y cerrar** para agregar el informe.
+1. Clic **Guardar + Cerrar** para añadir el informe.
