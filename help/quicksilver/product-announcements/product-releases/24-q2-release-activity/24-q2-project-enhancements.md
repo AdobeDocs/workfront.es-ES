@@ -4,9 +4,9 @@ description: Mejoras del proyecto del segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 13 de febrero de 2024; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 13 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Información general sobre asignacione
 
 >[!NOTE]
 >
->Versión preliminar: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 

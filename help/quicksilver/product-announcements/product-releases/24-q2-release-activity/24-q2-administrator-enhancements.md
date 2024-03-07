@@ -4,9 +4,9 @@ description: Mejoras del administrador en el segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Los campos nativos utilizados en los formularios personalizados están disponibl
 
 Esta función solo está disponible en la versión beta de Forms Designer, no en el generador de formularios heredado.
 
-Los artículos del Experience League para esta función se actualizarán el 7 de marzo.
+Para obtener más información, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## La asignación de atributos ya está disponible para las organizaciones que han migrado a Adobe IMS
 
@@ -55,7 +57,7 @@ Los administradores del sistema de Workfront ahora pueden configurar la asignaci
 
 Anteriormente, esta funcionalidad solo estaba disponible para organizaciones que aún no se habían incorporado a Adobe IMS.
 
-Para obtener instrucciones sobre la configuración de la asignación de atributos, consulte **Asignar atributos de usuario en la experiencia unificada de Adobe** en el artículo [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Para obtener instrucciones sobre la configuración de la asignación de atributos, consulte [Asignar atributos de usuario en la experiencia unificada de Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) en el artículo **Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios**.
 
 ## La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta de Forms Designer
 

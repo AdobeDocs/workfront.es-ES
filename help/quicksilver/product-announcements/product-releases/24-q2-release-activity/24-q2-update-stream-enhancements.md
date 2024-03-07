@@ -4,9 +4,9 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Para obtener más información, consulte [Información general de la sección Ac
 
 >[!NOTE]
 >
->Versión preliminar: 22 de febrero de 2024; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 22 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
 
 Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.
 

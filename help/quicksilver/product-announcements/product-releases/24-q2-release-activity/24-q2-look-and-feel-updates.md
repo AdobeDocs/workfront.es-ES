@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el segundo trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Las plantillas de correo electrónico para añadir un aprobador a un recurso y p
 
 >[!NOTE]
 >
->Versión de vista previa: 8 de febrero de 2024; producción para versión rápida: con la versión 24.3 (marzo de 2024); producción para versión trimestral: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 8 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para versión trimestral: con la versión 24.4 (abril de 2024)
 
 Hemos actualizado las pestañas de Forms, Campos y Secciones en el área Configuración > Forms personalizado para lograr un diseño más moderno y coherente con otras áreas de Workfront. Ahora puede acceder a las tres áreas desde el menú de navegación de la izquierda. Los filtros, las vistas y las agrupaciones siguen estando disponibles para las listas. El diseño actualizado se aplica a los formularios, campos y secciones personalizados creados tanto en el nuevo diseñador de formularios como en el generador de formularios heredados.
 
