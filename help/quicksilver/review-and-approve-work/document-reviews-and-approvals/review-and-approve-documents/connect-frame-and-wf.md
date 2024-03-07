@@ -5,7 +5,7 @@ title: Conectar Workfront y Frame.io
 description: Workfront utiliza Frame.io en el proceso de revisión y aprobación para conocer a las personas donde desean trabajar. El proceso de administración y aprobación del proyecto se administra en Workfront y el proceso de revisión se realiza en Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # Conectar Workfront y Frame.io
 
+>[!IMPORTANT]
+>
+>El contenido de este artículo hace referencia a la funcionalidad actualizada de aprobación de documentos que solo está disponible para cuentas específicas. Para obtener información sobre los procesos de aprobación estándar, consulte los artículos enumerados en [Aprobaciones de trabajo](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront utiliza Frame.io en el proceso de revisión y aprobación para conocer a las personas donde desean trabajar. El proceso de administración y aprobación del proyecto se administra en Workfront y el proceso de revisión se completa en Frame.io. Debe completar todas las secciones siguientes para configurar correctamente la integración:
 
 * [Conectar un grupo de Workfront a un equipo de Frame.io](#connect-a-workfront-group-to-a-frameio-team)
 * [Crear un proyecto de Workfront y agregar un grupo conectado](#create-a-workfront-project-and-add-a-connected-group)
 
-El contenido de este artículo hace referencia a la funcionalidad actualizada de aprobación de documentos que solo está disponible para cuentas específicas. Para obtener información sobre los procesos de aprobación estándar, consulte los artículos enumerados en [Aprobaciones de trabajo](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## Requisitos de acceso
 
