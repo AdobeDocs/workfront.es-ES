@@ -1,13 +1,13 @@
 ---
 title: Administrar vistas de registros
-description: Puede mostrar registros en una tabla o en una vista de escala de tiempo al utilizar Adobe Maestro.
+description: Puede mostrar registros en una tabla, una escala de tiempo o una vista de calendario al utilizar las funciones de planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Después de seleccionar un tipo de registro en Adobe Maestro, puede mostrar todos los registros de ese tipo en las vistas siguientes:
+Después de seleccionar un tipo de registro en el área de funciones de planificación de Adobe Workfront, puede mostrar todos los registros de ese tipo en las siguientes vistas:
 
 * Tabla
 
   Para obtener más información, consulte [Administrar la vista de tabla](../views/manage-the-table-view.md).
+
 * Cronología
 
   Para obtener más información, consulte [Administrar la vista de cronología](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Requisitos de acceso
 
@@ -46,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
+   <td> <p>No hay controles de nivel de acceso para las funciones de planificación de Workfront</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
-## Consideraciones al trabajar con las vistas de Maestro
+## Consideraciones al trabajar con vistas de registros
 
-* Las vistas de Maestro son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
+* Las vistas del área de funciones de planificación de Workfront son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
 * La creación de vistas para tipos de registro operativo es idéntica a la creación de vistas para tipos de registro de taxonomía.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
-* Los siguientes elementos son exclusivos de cada vista de Maestro:
+* Los siguientes elementos son exclusivos de cada vista de registro:
 
    * Filtro
    * Agrupación
@@ -100,7 +105,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
   >[!NOTE]
   >
-  > Debido a que Maestro se encuentra actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para ambas vistas.
+  > Debido a que las funcionalidades de planificación de Adobe Workfront se encuentran actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
 
 En este artículo se describe la siguiente información sobre las vistas de Maestro:
 
@@ -111,6 +116,8 @@ En este artículo se describe la siguiente información sobre las vistas de Maes
 * [Compartir una vista](#share-a-view)
 
 ## Similitudes y diferencias entre las vistas de tabla y de escala de tiempo
+
+<!-- should we include Calendar here or remove this section???-->
 
 En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla y de escala de tiempo de Maestro:
 
@@ -180,7 +187,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    O haga clic en **Siguiente**, al crear una cronología <!--or calendar--> vista.
 
-   De forma predeterminada, Maestro asigna a la vista el nombre &quot;Tabla &lt; número >&quot; o &quot;Línea de tiempo &lt; número >&quot;. El número es un incremento generado automáticamente.
+   De forma predeterminada, Workfront asigna a la vista el nombre &quot;Tabla &lt; número >&quot; o &quot;Línea de tiempo &lt; número >&quot;, <!--or "Calendar < number >"-->. El número es un incremento generado automáticamente.
 
 1. (Condicional) Seleccione las fechas de inicio y finalización de los registros que se mostrarán en la cronología <!--or calendar--> y, a continuación, haga clic en **Crear**.
 1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 1. Haga clic en el menú desplegable de vista, pase el cursor sobre una de las vistas de la lista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Eliminar**.
 1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
-   La vista se elimina para todos los usuarios que pueden tener acceso al área de Maestro y no se puede recuperar.
+   La vista se elimina para todos los usuarios que pueden acceder al área de registros y no se puede recuperar.
 
 ## Compartir una vista
 

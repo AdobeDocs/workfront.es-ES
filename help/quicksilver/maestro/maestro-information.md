@@ -1,18 +1,18 @@
 ---
-title: "Información de Adobe Maestro: índice de artículos"
-description: Como líder de operaciones de marketing, puede utilizar Adobe Maestro para organizar el trabajo en todo el ciclo de vida de marketing para todos los equipos. Los artículos de esta sección describen cómo puede configurar Maestro y cómo puede empezar a utilizar sus capacidades como parte de las operaciones de administración de campañas.
+title: "Información de capacidades de planificación de Adobe Workfront: índice de artículos"
+description: Como líder de operaciones de marketing, puede utilizar las funcionalidades de planificación de Adobe Workfront para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen cómo puede configurar las funcionalidades de planificación y cómo puede empezar a utilizarlas como parte de las operaciones de administración de campañas.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Información de Adobe Maestro: índice de artículos
+# información sobre las capacidades de planificación de Adobe Workfront: índice de artículos
 
 <!--
 title: Adobe Maestro 
@@ -30,35 +30,35 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-Como líder de operaciones de marketing, puede utilizar Adobe Maestro para organizar el trabajo en todo el ciclo de vida de marketing para todos los equipos.
+Como líder de operaciones de marketing, puede utilizar las funcionalidades de planificación de Adobe Workfront para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos.
 
 {{maestro-important-intro}}
 
-Puede utilizar esta página como punto de partida para toda la documentación de Adobe Maestro.
+Puede utilizar esta página como punto de partida para toda la documentación relacionada con las funcionalidades de planificación de Workfront.
 
-Los artículos de las secciones que se indican a continuación describen cómo puede configurar Maestro y comenzar a utilizar sus capacidades.
+Los artículos de las secciones que se enumeran a continuación describen cómo puede configurar la función de capacidades de planificación de Workfront y empezar a utilizarla.
 
 >[!IMPORTANT]
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
 
-## Información general sobre Adobe Maestro
+## Información general sobre las funciones de planificación de Adobe Workfront
 
-Acceda a los siguientes artículos para obtener una descripción general de Adobe Maestro:
+Acceda a los siguientes artículos para obtener una descripción general de las nuevas funciones de planificación de Workfront:
 
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
-* [Vea un vídeo de demostración de Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Introducción a Adobe Maestro](maestro-overview.md): Información general de alto nivel sobre Adobe Maestro, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Maestro aquí.
-* [Actividad de versión de Adobe Maestro](../maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de Maestro, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
+<!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+* [Resumen de funcionalidades de planificación de Adobe Workfront](maestro-overview.md): Información general de alto nivel sobre las funciones de planificación de Adobe Workfront, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que inicie su recorrido con las nuevas funciones de planificación aquí.
+* [actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront](../maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de las funciones de planificación de Adobe Workfront, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
 * [Módulos de Adobe Maestro para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
-## Arquitectura y funcionalidad de Maestro
+## Funciones y arquitectura de planificación de Workfront
 
-Las secciones siguientes contienen artículos en los que se describen detalladamente las características de Maestro que están disponibles actualmente:
+Las secciones siguientes contienen artículos que describen en detalle las funciones disponibles actualmente para las funciones de planificación de Workfront:
 
-* [Acceso: índice de artículos](../maestro/access/access-information.md): Información sobre el acceso y los permisos necesarios para utilizar Adobe Maestro.
-* [Arquitectura: índice de artículos](../maestro/architecture/architecture-information.md): Información detallada sobre la arquitectura de Adobe Maestro, con instrucciones paso a paso sobre cómo crear y administrar espacios de trabajo y tipos de registros.
-* [Campos: índice de artículos](../maestro/fields/fields-information.md): Información detallada e instrucciones paso a paso acerca de la creación de campos personalizados para los tipos de registros de Maestro.
+* [Acceso: índice de artículos](../maestro/access/access-information.md): Información sobre el acceso y los permisos necesarios para utilizar el área de funciones de planificación.
+* [Arquitectura: índice de artículos](../maestro/architecture/architecture-information.md): Información detallada sobre la arquitectura de las funciones de planificación de Workfront, con instrucciones paso a paso sobre cómo crear y administrar espacios de trabajo y tipos de registros.
+* [Campos: índice de artículos](../maestro/fields/fields-information.md): Información detallada e instrucciones paso a paso sobre la creación de campos personalizados para tipos de registro.
 * [Registros: índice de artículos](../maestro/records/records-information.md): Información detallada e instrucciones paso a paso sobre cómo crear y administrar registros.
-* [Vistas: índice de artículos](../maestro/views/views-information.md): Información detallada sobre las vistas de Maestro y cómo administrarlas al ver registros en una página de tipo de registro.
+* [Vistas: índice de artículos](../maestro/views/views-information.md): Información detallada sobre las vistas de registros y cómo administrarlas al ver una página de tipo de registro.
