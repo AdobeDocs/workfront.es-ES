@@ -8,7 +8,7 @@ description: Un almacén de datos, similar a una base de datos o tabla simple, p
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Tamaño de almacenamiento de datos en MB]</p> </td> 
-      <td> <p>Asigne el tamaño del almacén de datos desde el almacenamiento de datos interno total.</p> <p> El valor predeterminado es 10 MB. Si tiene menos de 10 MB de espacio de almacén de datos sin asignar de su asignación de 500 MB, el tamaño predeterminado es la cantidad de almacenamiento sin asignar.  <p>Nota: El importe reservado se puede cambiar en cualquier momento.</p>  </td> 
+      <td> <p>Asigne el tamaño del almacén de datos desde el almacenamiento de datos interno total.</p> <p> El valor predeterminado es 10 MB. Si tiene menos de 10 MB de espacio de almacén de datos sin asignar de su asignación de 95 MB, el tamaño predeterminado es la cantidad de almacenamiento sin asignar.  <p>Nota: El importe reservado se puede cambiar en cualquier momento.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
