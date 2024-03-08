@@ -6,7 +6,7 @@ description: Puede agregar documentos a proyectos, tareas o problemas en varias 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Los archivos dañados se eliminan en un plazo de 24 horas tras la detección, a 
 
 ### Restricciones de nombre de archivo {#file-name-restrictions}
 
-Los archivos cargados en Workfront no pueden contener ciertos caracteres en los nombres de archivo. Si un archivo contiene cualquiera de los siguientes caracteres en el nombre del archivo, los caracteres se quitan del nombre del archivo cuando se carga el archivo: `< > { }`.
+Los archivos cargados en Workfront no pueden contener ciertos caracteres en los nombres de archivo. Si un archivo contiene cualquiera de los siguientes caracteres en el nombre del archivo, los caracteres se quitan del nombre del archivo cuando se carga el archivo: `! # % * \ | ' " / ? < > { } [ ]`.
