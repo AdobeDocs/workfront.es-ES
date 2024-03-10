@@ -1,13 +1,13 @@
 ---
 title: Administrar la vista de tabla
-description: Puede mostrar los registros y sus campos en una vista de tabla al tener acceso a la página de tipo de registro en Adobe Maestro.
+description: Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede mostrar los registros y sus campos en una vista de tabla al tener acceso a la página de tipo de registro en Adobe Maestro.
+Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
 
-Para obtener información acerca de las vistas de Maestro y cómo administrarlas, vea [Administrar vistas de registros](../views/manage-record-views.md).
+Para obtener información sobre las vistas de registros y cómo administrarlas, consulte [Administrar vistas de registros](../views/manage-record-views.md).
 
 ## Requisitos de acceso
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para Maestro </p>  
+   <td> <p>No hay controles de nivel de acceso para las capacidades de planificación de Adobe de Workfront </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Para administrar una vista de tabla:
 
 ### Agregar columnas (o campos) {#add-columns}
 
-Los encabezados de columna de una vista de tabla de Maestro muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro Maestro. Para obtener más información, consulte [Edición de registros](../records/edit-records.md).
+Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro. Para obtener más información, consulte [Edición de registros](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro
 Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](../fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página Detalles de los registros del tipo de registro seleccionado.
@@ -212,11 +214,13 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
 ### Agregar filas (o registros) {#add-rows}
 
-Las filas de una vista de tabla de Maestro muestran registros individuales del tipo de registro seleccionado.
+Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado.
 
-Puede tener hasta 10.000 registros (o filas) para un tipo de registro en Maestro.
+Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 
 1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Empiece a agregar registros (o filas), tal como se describe en el artículo [Creación de registros](../records/create-records.md).
 
    Los registros que agregue a la vista de tabla se guardan inmediatamente y son visibles para todos los usuarios que tengan permisos de Vista o superiores en el área de trabajo.
@@ -359,7 +363,7 @@ Agregar agrupaciones en la vista de tabla es similar a agregar agrupaciones a la
 Tenga en cuenta lo siguiente:
 
 * Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
-* Puede aplicar tres niveles de agrupación en una vista Maestro. Los registros se agrupan en el orden de agrupaciones que seleccione.
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
 &lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
 * Las agrupaciones son únicas para la vista que seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de tabla ven la misma agrupación que se aplica actualmente.
 * No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.

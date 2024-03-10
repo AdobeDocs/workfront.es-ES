@@ -1,13 +1,13 @@
 ---
 title: Creación de registros
-description: En Adobe Maestro, un registro es una instancia de un tipo de registro. Debe crear tipos de registros para poder crear registros individuales. La creación de registros de taxonomía es idéntica a la creación de registros operativos.
+description: Al utilizar las funcionalidades de planificación de Adobe Workfront, un registro es una instancia de un tipo de registro. Debe crear tipos de registros para poder crear registros individuales. La creación de registros de taxonomía es idéntica a la creación de registros operativos.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En Adobe Maestro, un registro es una instancia de un tipo de registro.
+En las funciones de planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
 
 Puede tener los siguientes tipos de registros:
 
@@ -27,13 +27,13 @@ Puede tener los siguientes tipos de registros:
 
 La creación de registros operativos es idéntica a la creación de registros de taxonomía.
 
-Para crear registros en Maestro, siga uno de estos procedimientos:
+Para crear registros, siga uno de estos procedimientos:
 
-* Crearlos manualmente para los tipos de registros de Maestro
-* Conéctelos a los registros de Maestro desde otras aplicaciones.
+* Crearlos manualmente para tipos de registros
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Crear registros copiando y pegando información de una lista externa.
 
-Este artículo describe cómo crear registros de Maestro. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
+Este artículo describe cómo crear registros. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
 
 * [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Administrar la vista de cronología](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para Maestro </p>  
+   <td> <p>No hay controles de acceso para las funciones de planificación de Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. Siga agregando información en cada fila y haga clic en **Entrar** en el teclado para guardar los cambios.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros:
 
    * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
    * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
 
-## Crear registros conectándolos desde otra aplicación
+<!-- this is not possible anymore: 
 
-Puede importar registros de otras aplicaciones vinculándolos a registros vinculados de Maestro. Esto crea un tipo de registro Maestro para el objeto conectado de la otra aplicación.
+## Create records by connecting them from another application
 
-1. Cree un tipo de registro Maestro, tal como se describe en la sección [Creación de tipos de registros](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Cree registros Maestro para el tipo de registro que creó en el paso anterior. Para obtener más información, consulte la sección [Crear registros agregándolos manualmente a un tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) en este artículo.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Cree una conexión a un tipo de objeto desde otra aplicación para el tipo de registro Maestro que ha creado. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Agregue registros de otra aplicación a los registros de Maestro creados anteriormente mediante el campo de registro vinculado creado en el paso anterior. Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   Los siguientes elementos se crean en Maestro:
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * Tipo de registro Maestro de sólo lectura que hace referencia al tipo de registro de la otra aplicación a la que se vinculó en el campo de registro conectado.
+    The following items are created in Maestro:
 
-     Por ejemplo, si conecta un tipo de registro de Maestro a un proyecto de Workfront, se crea un tipo de registro de sólo lectura denominado &quot;proyecto de Workfront&quot; en el mismo área de trabajo. Puede tener acceso a los tipos de registros de Workfront de sólo lectura desde la vista de tabla de los registros de Maestro desde los que está vinculando.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Crear registros copiando y pegando información de una lista externa
 

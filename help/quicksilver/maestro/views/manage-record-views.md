@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Después de seleccionar un tipo de registro en el área de funciones de planific
 
   Para obtener más información, consulte [Administrar la vista de cronología](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Calendario
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Requisitos de acceso
 
@@ -107,7 +107,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   >
   > Debido a que las funcionalidades de planificación de Adobe Workfront se encuentran actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
 
-En este artículo se describe la siguiente información sobre las vistas de Maestro:
+Este artículo describe la siguiente información sobre las vistas de registros:
 
 * [Creación y edición de una vista](#create-or-edit-record-views)
 * [Eliminación de una vista](#delete-views)
@@ -115,32 +115,32 @@ En este artículo se describe la siguiente información sobre las vistas de Maes
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Compartir una vista](#share-a-view)
 
-## Similitudes y diferencias entre las vistas de tabla y de escala de tiempo
+## Similitudes y diferencias entre vistas de registros
 
-<!-- should we include Calendar here or remove this section???-->
-
-En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla y de escala de tiempo de Maestro:
+En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla, escala de tiempo y calendario:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Función | Vista de tabla | Vista Cronología |
-|-----------------------------------------------------------------------|------------|---------------|
-| Mostrar registros en una lista o tabla | ✓ |              |
-| Mostrar todos los campos como columnas en la tabla de forma predeterminada | ✓ |              |
-| Ocultar o mostrar campos (o columnas) | ✓ |               |
-| Editar valores de campo para cada registro | ✓ |               |
-| Agregar registros como filas nuevas en la vista | ✓ |               |
-| Agregar campos como nuevas columnas en la vista | ✓ |               |
-| Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |
-| Mostrar registros en una cronología |            | ✓ |
-| Filtrar registros | ✓ | ✓ |
+| Función | Vista de tabla | Vista Cronología | Vista de calendario |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Mostrar registros en una lista o tabla | ✓ |              | |
+| Mostrar todos los campos como columnas en la tabla de forma predeterminada | ✓ |              |    |
+| Ocultar o mostrar campos (o columnas) | ✓ |               |    |
+| Editar valores de campo para cada registro | ✓ |               |             |
+| Agregar registros como filas nuevas en la vista | ✓ |               |        |
+| Agregar campos como nuevas columnas en la vista | ✓ |               |         |
+| Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |          |
+| Mostrar registros en una cronología |            | ✓ |             |
+| Filtrar registros | ✓ | ✓ |           |
+| Mostrar registros en un calendario |           |              | ✓ |
 | Agrupar registros | ✓ | ✓ |
 | Ordenar registros | ✓ |              |
-| Registros de código de color |           | ✓ |
+| Registros de código de color |           | ✓ | ✓ |
 | Agrupaciones de código de color |           | ✓ |
 | Buscar registros específicos | ✓ | ✓ |
-| Compartir vista | ✓ | ✓ |
-| Abra la página Detalles del registro desde la vista | ✓ | ✓ |
+| Compartir vista | ✓ | ✓ | ✓ |
+| Abra la página Detalles del registro desde la vista | ✓ | ✓ |    |
+
 
 ## Creación o edición de vistas {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla
 
    O
 
-   Seleccionar un existente **Vista Cronología** ![](assets/timeline-view-icon.png) ver o hacer clic **Crear vista > Cronología** para crear una vista de cronología.
+   Seleccionar un existente **Vista Cronología** ![](assets/timeline-view-icon.png) o haga clic en **Crear vista > Cronología** para crear una vista de cronología.
+
+   O
+
+   Seleccionar un existente **Vista de calendario** ![](assets/calendar-view-icon.png) o haga clic en **Crear vista > Calendario** para crear una vista de calendario.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Para crear una vista de escala de tiempo, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, la opción Cronología aparece atenuada.
+   >    Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología o Calendario aparecen atenuadas.
 
-1. (Opcional) Actualice el nombre de la vista y haga clic en **Crear** para guardar una vista de tabla
+1. (Condicional) Haga clic en **Siguiente**, al crear una vista de calendario o de cronología.
 
-   O haga clic en **Siguiente**, al crear una cronología <!--or calendar--> vista.
+   De forma predeterminada, Workfront asigna a la vista uno de los nombres siguientes:
 
-   De forma predeterminada, Workfront asigna a la vista el nombre &quot;Tabla &lt; número >&quot; o &quot;Línea de tiempo &lt; número >&quot;, <!--or "Calendar < number >"-->. El número es un incremento generado automáticamente.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Condicional) Seleccione las fechas de inicio y finalización de los registros que se mostrarán en la cronología <!--or calendar--> y, a continuación, haga clic en **Crear**.
+   El número es un incremento generado automáticamente.
+
+1. (Condicional) Seleccione la variable **Inicio** y **Fechas de finalización** para los registros que se mostrarán en la vista cronología o calendario.
+1. Haga clic en **Crear**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
    * [Administrar la vista de tabla](../views/manage-the-table-view.md)
    * [Administrar la vista de cronología](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Administrar la vista de calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Eliminar vistas
@@ -211,7 +224,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Haga clic en el menú desplegable de vista, pase el cursor sobre una de las vistas de la lista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Eliminar**.
 1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 

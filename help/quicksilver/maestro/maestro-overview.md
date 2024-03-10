@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ A continuación se muestran los objetos y conceptos principales de las capacidad
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Vista de calendario**: Muestra registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
+     ![](assets/calendar-view-example.png)
 
 
 Para obtener más información, consulte [Administrar vistas de registros](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Para localizar las capacidades de planificación:
 
    1. Haga clic en el nombre de un tipo de registro para abrir la página del registro. La página de registros se abre en la vista Tabla de forma predeterminada.
 
-   1. Personalice la vista Tabla mediante cualquiera de las acciones siguientes:
+      También puede crear una vista Cronología o Calendario.
 
-      * Añada más campos al tipo de registro haciendo clic en el **+** en la esquina superior derecha. Las columnas de la vista son campos asociados al tipo de registro.
-      * Agregue registros haciendo clic en el **+** en la esquina inferior izquierda. Las filas de la vista son registros únicos del tipo de registro seleccionado.
-      * Clic **Filtros** para filtrar la información que se muestra en la página tipo de registro.
+   1. En la vista de tabla, comience a agregar registros agregando filas
 
-   1. Haga clic en el nombre de un registro para ver más información en la página Detalles del registro.
+      O
 
-   1. Cree una vista Cronología desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
-
-   1. Personalice la vista de cronología actualizando Filtros, Agrupaciones o Configuración.
+      Comience a agregar campos de registro agregando columnas.
 
 ## actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
 

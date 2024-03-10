@@ -1,13 +1,13 @@
 ---
 title: Administrar la vista de cronología
-description: Puede mostrar registros en una vista de escala de tiempo al acceder a la página de tipo de registro en Adobe Maestro.
+description: Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Puede mostrar registros en una vista de escala de tiempo al acceder a la página de tipo de registro en Adobe Maestro.
+Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
 
-Para obtener información acerca de las vistas Maestro, vea [Administrar vistas de registros en Adobe Maestro](../views/manage-record-views.md).
+Para obtener información sobre las vistas de registros, consulte [Administrar vistas de registros](../views/manage-record-views.md).
 
 ## Requisitos de acceso
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para Maestro </p>  
+   <td> <p>No hay controles de nivel de acceso para las funciones de planificación de Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ Tenga en cuenta lo siguiente:
    * Cuando las fechas de inicio y finalización no tienen valores
    * Cuando las fechas de inicio y finalización no tienen valor
    * Cuando la fecha de inicio es posterior a la fecha de finalización
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 Para administrar una vista de cronología:
 
@@ -196,7 +185,7 @@ Agregar agrupaciones en la vista de escala de tiempo es similar a agregar agrupa
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
 * Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
-* Puede aplicar tres niveles de agrupación en una vista Maestro. Los registros se agrupan en el orden de agrupaciones que seleccione.
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
 * Puede aplicar hasta 4 niveles de agrupación al utilizar la API.
 * Las agrupaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de cronología ven la misma agrupación que se aplica actualmente.
 * No puede asignar nombres a las agrupaciones que genere para una vista de cronología.
@@ -218,6 +207,8 @@ Para agregar una agrupación en la vista de escala de tiempo:
 1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
 
    El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

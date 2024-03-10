@@ -1,13 +1,13 @@
 ---
 title: Edición de registros
-description: Puede editar la información de los registros en Adobe Maestro. Debe crear tipos de registros antes de empezar a crear y editar registros.
+description: Puede editar la información de los registros en las funciones de planificación de Adobe Workfront. Debe crear tipos de registros antes de empezar a crear y editar registros.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Puede editar la información de los registros en Adobe Maestro editando los valores de los campos asociados a los registros.
+Puede editar la información de los registros en las funciones de planificación de Adobe Workfront editando los valores de los campos asociados a los registros.
 
 Debe crear tipos de registros antes de empezar a crear y editar registros.
 
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para Maestro </p>  
+   <td> <p>No hay controles de acceso para las funciones de planificación de Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Puede editar un registro desde las siguientes áreas:
 
-* [Desde la página Detalles de un registro](#edit-a-record-from-the-records-details-page)
 * [Desde la vista de tabla de un tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Editar un registro desde la página de detalles del registro
-
-{{step1-to-maestro}}
-
-El espacio de trabajo al que se accede por última vez se abre.
-
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
-1. Realice una de las siguientes acciones:
-
-   * Desde una **Tabla** , haga clic en el nombre de un registro.
-   * Desde el **Tabla** , pase el ratón sobre el nombre de un registro y haga clic en el botón **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * En una vista Línea de tiempo, haga clic en una barra de registros.
-
-   El registro **Detalles** se abre la página.
-
-1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Editar**
-
-   O
-
-   Haga clic dentro de cualquier campo editable de la página Detalles para editar la información.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Clic **Guardar cambios**. <!--logged a bug for this - this needs to be "Save"-->
+* [Desde la página Detalles de un registro](#edit-a-record-from-the-records-details-page)
 
 ### Editar un registro desde la vista de tabla de un tipo de registro
 
@@ -144,7 +117,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione un **Tabla** vista. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) Desde el **Ver** menú desplegable <!--tab--> en la esquina superior derecha de la tabla, seleccione un **Tabla** vista. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en otro tipo de vista cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
@@ -171,6 +144,16 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
 1. (Opcional) Haga doble clic en un campo de registro conectado para agregar registros u objetos conectados a otro registro. Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 1. Prensa **Entrar** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. A **Guardado** Este indicador se muestra brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Opcional) Para copiar y pegar información de un campo a otro, siga uno de estos procedimientos:
 
@@ -204,3 +187,33 @@ Se abre el espacio de trabajo al que accedió por última vez.
    >    Puede utilizar los métodos abreviados de teclado varias veces seguidas para deshacer varios cambios.
 
 1. (Opcional) Agregue una miniatura a un registro. Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Editar un registro desde la página de detalles del registro
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+El espacio de trabajo al que se accede por última vez se abre.
+
+1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+1. Realice una de las siguientes acciones:
+
+   * Desde una **Tabla** , haga clic en el nombre de un registro.
+   * Desde el **Tabla** , pase el ratón sobre el nombre de un registro y haga clic en el botón **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * En una vista Línea de tiempo, haga clic en una barra de registros.
+
+   El registro **Detalles** se abre la página.
+
+1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Editar**
+
+   O
+
+   Haga clic dentro de cualquier campo editable de la página Detalles para editar la información.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Clic **Guardar cambios**. <!--logged a bug for this - this needs to be "Save"-->
