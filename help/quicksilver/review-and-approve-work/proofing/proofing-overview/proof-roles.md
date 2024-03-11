@@ -7,10 +7,10 @@ description: Las funciones de prueba permiten conceder permisos en pruebas indiv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '365'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -91,7 +91,7 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -107,7 +107,7 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -123,7 +123,7 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
