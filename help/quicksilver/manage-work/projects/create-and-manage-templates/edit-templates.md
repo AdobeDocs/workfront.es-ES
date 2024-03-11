@@ -6,7 +6,7 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -930,7 +930,7 @@ Para obtener información sobre cómo afectan estos ajustes a la creación de nu
    | Nivel de esfuerzo de trabajo | Valor porcentual |
    |---|---|
    | Pequeño | 25 % |
-   | Medio | 50 % |
+   | Media | 50 % |
    | Grande | 75 % |
 
    Para obtener información sobre el uso de Esfuerzo de trabajo para administrar el esfuerzo en tareas en proyectos, consulte [Resumen de esfuerzo de trabajo](../../../manage-work/tasks/task-information/work-effort.md).
@@ -1116,3 +1116,4 @@ Para desactivar una plantilla:
 1. (Opcional) Para activar la plantilla, haga clic en **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y haga clic en **Activar**.
 
    La plantilla ahora está activa y se puede adjuntar a proyectos o utilizar para crear proyectos.
+

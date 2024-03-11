@@ -6,14 +6,16 @@ description: Uso de flujos de trabajo en la integración de Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Uso de flujos de trabajo en la integración de Experience Manager Assets
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Un administrador de Workfront puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto. Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
 
@@ -107,6 +109,10 @@ Puede agregar un flujo de trabajo al crear un proyecto o agregar un flujo de tra
 
 ### Añadir un flujo de trabajo a un proyecto existente
 
+>[!NOTE]
+>
+>Los flujos de trabajo que se ejecutan cuando se crea un proyecto (como la creación de carpetas vinculadas) no se ejecutan cuando la plantilla está adjunta a un proyecto existente. Solo se ejecutan cuando se crea un proyecto a partir de una plantilla.
+
 1. Comience a añadir una plantilla al proyecto.
 
    Para obtener instrucciones, consulte [Adjuntar una plantilla a un proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ Puede agregar un flujo de trabajo al crear un proyecto o agregar un flujo de tra
 1. (Opcional) Edite los valores de flujo de trabajo del proyecto, tal como se describe en [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
 
    Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
+
+
 
 ### Edición de valores de flujo de trabajo en un proyecto
 
@@ -130,9 +138,17 @@ Todos los valores de flujo de trabajo se encuentran en:
   >
   >Si estas áreas no están visibles, el administrador de Workfront no ha habilitado Flujos de trabajo para su organización.
 
+
+
 #### Carpetas vinculadas
 
+>[!NOTE]
+>
+>Dado que las carpetas vinculadas se crean cuando se crea el proyecto, la edición del flujo de trabajo de carpetas vinculadas en un proyecto existente no es eficaz. La edición de estos valores al crear un proyecto funciona según lo esperado.
+
 Para editar el flujo de trabajo de las carpetas vinculadas:
+
+En el entorno de producción:
 
 1. Alternar **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee.
 1. (Condicional) Si está habilitando carpetas vinculadas, elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
@@ -142,6 +158,31 @@ Para editar el flujo de trabajo de las carpetas vinculadas:
 
    Si está en la [!DNL Adobe Experience Manager area], los cambios se guardan automáticamente. <!--Do they though?-->
 
+En el entorno de vista previa de espacio aislado:
+
+<div class="preview">
+
+1. Alternar el **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee. Si lo activa, puede editar la configuración de la carpeta vinculada.
+
+   Para obtener más información sobre la configuración de la carpeta vinculada, consulte [Crear carpetas vinculadas de Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) en el artículo [Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Opcional) Si desea que el árbol de carpetas se cree únicamente si determinados valores están presentes en un formulario personalizado adjunto al proyecto, haga clic en **Aplicar filtro** para ese árbol de carpetas, seleccione el formulario personalizado que contiene el campo, el campo y el valor del campo. Si el campo del formulario personalizado adjunto al nuevo proyecto contiene el valor elegido, se crea el árbol de carpetas.
+1. (Opcional) Al configurar los nombres de las carpetas, puede seleccionar las siguientes opciones:
+
+   * **Nombre**: escriba un nombre para la carpeta.
+
+   * **Datos de objeto**: seleccione el origen del nombre de la carpeta, como Nombre del proyecto.
+
+   * **Datos de formulario personalizados**: seleccione los datos del formulario personalizado que se utilizarán como nombre de la carpeta.
+
+     El uso de datos de formulario personalizados para nombres de carpeta solo está disponible en el nivel de plantilla y no se puede configurar en el nivel de integración.
+
+     Si el nombre de una carpeta se establece en datos personalizados que no existen en el formulario personalizado adjunto al proyecto, se asigna un ID aleatorio como nombre de la carpeta.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+</div>
+
 
 #### Publicación de recursos
 
@@ -149,10 +190,4 @@ Para editar el flujo de trabajo para publicar recursos:
 
 1. Alternar **Publicar recursos automáticamente** active o desactive según desee.
 1. (Condicional) Si está habilitando la publicación, seleccione si desea publicarla en el servicio de publicación, en el portal de marca o en ambos.
-1. Clic **[!UICONTROL Guardar]** si está utilizando el [!UICONTROL Crear proyecto] o [!UICONTROL Editar proyecto] ventana.
-
-   O
-
-   Si está en la [!DNL Adobe Experience Manager area], los cambios se guardan automáticamente. <!--Do they though?-->
-
-
+1. Haga clic en **[!UICONTROL Guardar]**.

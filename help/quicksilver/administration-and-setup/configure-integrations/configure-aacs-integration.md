@@ -6,9 +6,9 @@ description: Puede conectar su trabajo con el contenido en [!DNL Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Como administrador de Workfront, puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto. Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
 
-Los valores de flujo de trabajo predeterminados que establezca en la integración se pueden sobrescribir en los niveles Plantilla de proyecto y Proyecto.
+Los flujos de trabajo están habilitados y configurados para Adobe Experience Manager en su conjunto. Estos flujos de trabajo se pueden aplicar a las plantillas de proyecto y ajustar o personalizar en el nivel de plantilla o proyecto.
 
 Los siguientes flujos de trabajo están disponibles en la integración de Adobe Experience Manager:
 
@@ -255,6 +257,46 @@ Los siguientes flujos de trabajo están disponibles en la integración de Adobe 
    ![Navegación de carpetas vinculadas](assets/select-folder-aem-integration.png)
 1. Habilite la **[!UICONTROL Anexar nombres de Portfolio y programas]** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
 1. Clic **[!UICONTROL Guardar]** o continúe con la [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
+
+En el entorno de vista previa de espacio aislado
+
+<div class="preview">
+
+1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
+1. Escriba un nombre para la carpeta vinculada que está creando.
+1. (Condicional) Habilite la variable **Árbol de carpetas predeterminado** si desea que esta carpeta vinculada sea la carpeta predeterminada para los proyectos creados con plantillas que utilizan esta integración. Puede seleccionar una o varias carpetas predeterminadas.
+1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
+1. (Condicional) Para agregar un árbol de carpetas (carpetas anidadas) a esta integración, haga lo siguiente:
+
+   1. Haga clic en **Añadir carpeta** icono ![Añadir carpeta](assets/add-folder-aem.png).
+   1. En el **Tipo de nombre** , seleccione cómo desea asignar un nombre a la carpeta:
+
+      * **Nombre**: escriba un nombre para la carpeta.
+      * **Datos de objeto**: seleccione el origen del nombre de la carpeta, como Nombre del proyecto.
+
+      >[!NOTE]
+      >
+      >* Los nombres de carpeta deben tener menos de 100 caracteres.
+      >* Los siguientes caracteres se eliminarán de los nombres de carpeta:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Para añadir una carpeta anidada al árbol de carpetas, haga clic en el menú de tres puntos situado junto a la carpeta en la que desea crear una carpeta anidada y seleccione **Añadir carpeta**. Rellene los campos como se describe en el paso anterior.
+   1. Para vincular una carpeta a Workfront, selecciónela y haga clic en **Crear carpeta vinculada**   icono ![Vincular carpeta](assets/link-folder.png).
+   1. (Opcional) Para editar una carpeta, selecciónela y haga clic en **Editar carpeta** icono ![Icono Editar](assets/edit-icon.png).
+   1. (Opcional) Para eliminar una carpeta, selecciónela y haga clic en **Eliminar carpeta** icono ![Eliminar carpeta](assets/delete-folder.png).
+1. (Condicional) Para agregar otro árbol de carpetas, haga clic en **+ Agregar árbol de carpetas** y siga los pasos del paso 5.
+
+1. Clic **[!UICONTROL Guardar]**, o continúe con la [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
+
+>[!NOTE]
+>
+>* Esta integración no creará más de 100 carpetas, independientemente de cuántos árboles de carpetas se creen. Por ejemplo, una integración con 4 árboles de carpetas puede crear hasta 100 carpetas, no 400 carpetas.
+>* La primera carpeta del árbol de carpetas se marca automáticamente como vinculada a Workfront. Si no desea vincular esta carpeta, puede desvincularla.
+>* Si no se proporciona ningún árbol de carpetas, la carpeta raíz se convierte en la carpeta vinculada.
+
+
+</div>
 
 ### Publicar recursos enviados a Adobe Experience Manager Assets
 
