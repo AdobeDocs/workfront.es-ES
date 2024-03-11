@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '14000'
+source-wordcount: '14004'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 1%
          * [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [Mejoras de administrador en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [Mejoras para el hogar en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+         * [Mejoras de integración en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [Mejoras de proyectos en el segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [Mejoras en el flujo de actualización del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
@@ -682,7 +683,7 @@ ht-degree: 1%
          * [Introducción a la autenticación mejorada](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [Actualización de metadatos de SAML 2.0 en el IDP al utilizar autenticación mejorada](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * Tasas de cambio {#exchange-rates}
-         * [Tasas de cambio](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+         * [Tipos de cambio](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Configuración de tipos de cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
       * Administrar elementos eliminados {#manage-deleted-items}
          * [Administrar elementos eliminados](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)

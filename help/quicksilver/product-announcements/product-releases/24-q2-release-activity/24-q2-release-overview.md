@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
            </tbody>
         </table>
+
+### Mejoras de integración
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en el flujo de trabajo de creación automatizada de carpetas en la integración de Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novedades en la vista previa</span><p>Para garantizar que las carpetas de Adobe Experience Manager reflejen sus necesidades con mayor precisión, hemos añadido árboles de carpetas anidados al flujo de trabajo de carpetas vinculadas de Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 11 de marzo de 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Versión trimestral para producción: 14 de marzo de 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Mejoras del proyecto
 
