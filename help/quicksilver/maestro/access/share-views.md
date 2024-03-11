@@ -4,10 +4,10 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
 1. Clic **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.
+
+## Eliminación de permisos de una vista
+
+{{step1-to-maestro}}
+
+1. Abra el espacio de trabajo cuya vista desee compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
+1. En el menú desplegable de vista, pase el ratón sobre la vista que quiera compartir y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Compartir**.
+1. Busque el usuario o grupo que desea eliminar y haga clic en **Eliminar** en el menú desplegable de permisos, a la derecha del nombre del usuario o grupo.
+1. Clic **Guardar**.
+El usuario o los usuarios que pertenecen al grupo eliminado ya no tienen acceso a la vista. No hay ninguna notificación para los usuarios que se han eliminado del acceso a la vista.

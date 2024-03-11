@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Vista previa: por determinar
 
 Hemos modificado los niveles de permisos para tener en cuenta los tipos de licencia de los usuarios. Antes de esta mejora, no había diferencias en los permisos del espacio de trabajo en función de los tipos de licencia de los usuarios.
 
-Los siguientes permisos ahora funcionan junto con el tipo de licencia del usuario:
+Los siguientes son los niveles más altos de permisos que los usuarios pueden recibir según el tipo de licencia del usuario:
 
 * Los usuarios con una licencia de planificación (o licencia estándar, en el nuevo modelo de licencia) pueden crear y administrar espacios de trabajo, tipos de registros y registros.
 
@@ -156,7 +156,7 @@ Los siguientes permisos ahora funcionan junto con el tipo de licencia del usuari
 
 Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Introducción al tipo de licencia en Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al utilizar las funciones de planificación de Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nueva apariencia de la barra de herramientas Texto enriquecido para campos de registro

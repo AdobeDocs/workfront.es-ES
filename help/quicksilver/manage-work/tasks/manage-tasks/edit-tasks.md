@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -88,6 +88,8 @@ Tenga en cuenta lo siguiente al editar tareas:
    * Hora de registro
    * Editar gastos existentes
    * Adjuntar un formulario personalizado
+
+* Otros usuarios deben actualizar sus páginas para poder ver las actualizaciones que realice en una tarea.
 
 ## Edición de una tarea en una lista
 
@@ -239,14 +241,14 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <td> <p>Decida cuándo debe completarse la tarea especificando una restricción de tarea. </p> <p>Seleccione entre las siguientes opciones: </p> 
        <ul> 
       <li> <p><span>Fechas fijas</span> </p> <p>Especifique un <strong>Inicio planificado</strong> y una <strong>Fecha planificada de finalización</strong>. </p> </li> 
-      <li> <p><span>Debe iniciarse el</span> </p> <p>Especifique un <strong>Fecha planificada de inicio</strong>. </p> </li> 
+      <li> <p><span>Debe comenzar el</span> </p> <p>Especifique un <strong>Fecha planificada de inicio</strong>. </p> </li> 
       <li> <p><span>Debe finalizarse el</span> </p> <p>Especifique un <strong>Fecha planificada de finalización</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Lo antes posible</span></p> </li> 
       <li> <p><span>Lo más tarde posible</span></p> </li> 
       <li> <p><span>Lo más temprano disponible</span></p> </li> 
-      <li> <p> <span>Lo más tarde posible</span></p> </li> 
+      <li> <p> <span>Última hora disponible</span></p> </li> 
       <li> <p><span>No iniciar después del</span> </p> </li> 
       <li> <p>Especificar una fecha planificada de inicio</p> </li> 
       <li> <p><span>No iniciar antes del</span> </p> <p>Especifique un <strong>Fecha planificada de inicio</strong>. </p> </li> 
@@ -260,7 +262,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
      </tr> 
      <tr> 
       <td role="rowheader">Fecha y hora planificadas para el inicio</td> 
-      <td> <p>Cuando se planea que comience la tarea. La fecha planificada de inicio de una tarea está establecida y se ve afectada por una serie de factores:</p> 
+      <td> <p>Cuando se planea que comience la tarea. La fecha planificada de inicio de una tarea está establecida y afectada por una serie de factores:</p> 
        <ul> 
       <li>Según la preferencia de todo el sistema para la fecha de inicio planeada de la tarea, la fecha de inicio de una nueva tarea en un proyecto puede ser hoy o la fecha de inicio del proyecto de forma predeterminada. <span>El administrador del grupo asociado con el proyecto también puede establecer esta preferencia para el grupo.</span> Para obtener más información sobre las preferencias de tarea de nivel de sistema o de nivel de grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas de todo el sistema</a>.</li> 
       <li>Según las predecesoras de la tarea, Workfront elige la fecha de comienzo planeada para que sea la siguiente fecha disponible después de que finalicen o comiencen las predecesoras, según la relación de predecesoras. Para obtener más información sobre las relaciones de predecesoras, consulte <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Información general sobre predecesoras de tareas</a>.</li> 
@@ -357,7 +359,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <li> <p>Asignación calculada </p> </li> 
       <li> <p> Trabajo calculado </p> </li> 
       <li> <p>Condicionada por el esfuerzo </p> </li> 
-      <li> <p>Sencilla</p> </li> 
+      <li> <p>Simple</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -523,7 +525,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
       <li> <p>Usuario por hora </p> </li> 
       <li> <p>Rol por hora </p> </li> 
       <li> <p>Fijo por hora </p> </li> 
-      <li> <p>Usuario por hora con tapón </p> </li> 
+      <li> <p>Usuario por hora sin tope </p> </li> 
       <li> <p>Rol por hora con tope </p> </li> 
       <li> <p>Usuario por hora más fijos </p> </li> 
       <li> <p>Rol por hora más fijos </p> </li> 
