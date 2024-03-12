@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Como administrador de Workfront, debe conceder acceso a los usuarios para que ut
 Los siguientes artículos contienen información sobre el acceso que los usuarios necesitan para utilizar Maestro:
 
 * [Acceso a información general](../access/access-overview.md)
-* [Información general sobre los permisos de uso compartido en Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
 * [Compartir espacios de trabajo](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Compartir vistas](/help/quicksilver/maestro/access/share-views.md)
 * [Información general sobre el tipo de licencia al utilizar las funciones de planificación de Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md)

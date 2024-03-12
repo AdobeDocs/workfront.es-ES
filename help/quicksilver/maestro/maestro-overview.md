@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,7 @@ A continuación se muestran los objetos y conceptos principales de las capacidad
 
    * Dos tipos de registros de capacidad de planificación.
    * Un tipo de registro de capacidad de planificación y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
-   * Un tipo de registro de capacidad de planificación y un recurso, carpeta o colección de Adobe Experience Manager.
+   * Un tipo de registro de capacidad de planificación y una carpeta o recurso de Adobe Experience Manager.
 
      Debe tener una licencia de Adobe Experience Manager para vincular tipos de registros con objetos de Experience Manager.
 

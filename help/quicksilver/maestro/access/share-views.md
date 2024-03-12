@@ -4,9 +4,9 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
-   <td> <p>Administración de permisos en una vista</p>  
+   <td> <p>Administración de permisos en una vista</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
 >
 >Los administradores del sistema no pueden ver ni compartir vistas que no hayan creado ellos mismos. Solo pueden acceder a las vistas que se comparten con ellos o compartirlas.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
    * Ver
    * Administrar
 
-     Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Maestro](../access/sharing-permissions-overview.md).
+     Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Clic **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Para administrar una vista de tabla:
    * [Filas (o registros)](#add-rows-or-records)
    * [Filtros](#add-filters)
    * [Agrupación](#add-groupings)
-   * [Ordenar](#sort-information)
+   * [Ordenar](#add-a-sort)
 
 
 ### Agregar columnas (o campos) {#add-columns}
@@ -261,6 +261,8 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de tabla:
 
 * Añadir filtros a la vista de tabla es idéntico a añadir filtros a la vista de cronología.
 
+* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
+
 Para agregar un filtro a una vista de tabla:
 
 1. Cree una vista de tabla para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Tenga en cuenta lo siguiente:
 * No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 * Puede editar los registros enumerados bajo una agrupación.
+* Puede agrupar por campos de registro conectados o campos de búsqueda, pero no para los campos que permiten la vinculación a varios registros.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 * Los campos vinculados solo se pueden ordenar si permiten valores únicos o valores de selección múltiple con la opción de resumen seleccionada (suma, promedio, máximo, mínimo).
 
 * Al quitar los criterios de ordenación, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y utilice la misma vista que utiliza.
+
+* Puede ordenar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
 
 Para ordenar <!--ungrouped (add this when sorting for groupings will be available--> Registros, haga lo siguiente:
 

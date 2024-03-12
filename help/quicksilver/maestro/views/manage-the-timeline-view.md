@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
   Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](../views/manage-the-table-view.md).
 
+* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
+
 ### Agregar agrupación
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronolo
 * Las agrupaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de cronología ven la misma agrupación que se aplica actualmente.
 * No puede asignar nombres a las agrupaciones que genere para una vista de cronología.
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
+* Puede agrupar por campos de registro conectados o campos de búsqueda, pero no para los campos que permiten la vinculación a varios registros.
 
 Para agregar una agrupación en la vista de escala de tiempo:
 
