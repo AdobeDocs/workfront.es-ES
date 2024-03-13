@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Para añadir nuevos registros, haga clic en **Nuevo registro** en la última fila de la tabla
 
    O
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Crear registros copiando y pegando información de una lista externa
 
-1. En Maestro, comience a crear registros en la vista Tabla, tal como se describe en la sección [Crear registros agregándolos manualmente a un tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) en este artículo.
+1. Comience a crear registros en la vista Tabla, tal como se describe en la sección [Crear registros agregándolos manualmente a un tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) en este artículo.
 
-   Asegúrese de que la vista de tabla de Maestro tiene las columnas (o los campos) que desea rellenar con la información del nuevo registro.
+   Asegúrese de que la vista de tabla tiene las columnas (o los campos) que desea rellenar con la información del nuevo registro.
 
 1. Clic **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla para agregar a la tabla tantas filas nuevas como desee que estén los registros nuevos.
 
    Por ejemplo, agregue 10 filas a la vista de tabla si desea pegar la información de 10 registros nuevos de otra aplicación.
 
-1. En otra aplicación, cree una lista de registros que desee importar en Maestro.
+1. En otra aplicación, cree una lista de registros que desee importar.
 
    Por ejemplo, puede utilizar una hoja de cálculo de Excel para crear la lista.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > Las columnas de la lista deben contener información sobre los campos existentes de Maestro.
+   > Las columnas de la lista deben contener información sobre los campos existentes que tiene en Workfront.
    >
-   > Asegúrese de que ya ha creado los campos deseados en Maestro y de que la información de la hoja se muestra en el formato correcto que coincida con el de cada campo de Maestro.
+   > Asegúrese de que ya ha creado los campos deseados en Workfront y de que la información de la hoja se muestra en el formato correcto que coincide con el de cada campo en Workfront.
 
 1. Desde otra aplicación, seleccione varias filas y columnas y pegue la información en la vista de tabla de tipo de registro, empezando por el primer registro nuevo.
 
-   La siguiente información se importa en Maestro:
+   La siguiente información se importa en el área de funciones de planificación de Workfront:
 
    * Las filas contienen los registros nuevos
    * Las columnas rellenan la información de los campos de los registros.

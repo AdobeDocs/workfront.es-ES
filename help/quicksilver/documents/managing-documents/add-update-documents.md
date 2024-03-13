@@ -6,9 +6,9 @@ description: Puede añadir o responder a las actualizaciones de un documento par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Debe tener lo siguiente:
 1. Vaya al objeto que contiene el documento y seleccione **Documentos** en el panel izquierdo.
 1. Busque el documento que necesita y realice una de las siguientes acciones:
 
-   * Haga clic en el documento de la lista y, a continuación, en **Abrir resumen** icono ![](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha, haga clic en **Iniciar una nueva actualización** o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener más información sobre el Resumen, consulte [Resumen de la información general sobre documentos](../../documents/managing-documents/summary-for-documents.md).
+   * Haga clic en el documento de la lista y, a continuación, en **Abrir resumen** icono ![](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha, agregue un nuevo comentario o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener más información sobre el Resumen, consulte [Resumen de la información general sobre documentos](../../documents/managing-documents/summary-for-documents.md).
    * Pase el ratón sobre el documento y haga clic **Detalles del documento**, entonces **Actualizaciones** en el panel izquierdo.
 Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

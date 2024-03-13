@@ -5,16 +5,16 @@ description: Puede utilizar el Panel de resumen para revisar y actualizar la inf
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumen] descripción general
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada solo está disponible en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Puede usar el complemento [!UICONTROL Resumen] panel para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de [!DNL Adobe Workfront] que muestran tareas y problemas.
 
@@ -121,13 +121,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    <div class="preview">
 
-   Ejemplo del panel Resumen en el entorno de vista previa:
    ![Panel de resumen](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   Ejemplo del panel Resumen en el entorno de producción:
-   ![Panel de resumen](assets/summary-panel-for-task.png)
 
 1. (Opcional) Para cerrar el [!UICONTROL Resumen] , realice una de las siguientes acciones:
 
@@ -147,7 +143,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Utilice la barra de progreso de la parte superior de la [!UICONTROL Resumen] para actualizar el porcentaje completado de la tarea o el problema que ha seleccionado. Introduzca un número o arrastre la barra hasta el porcentaje correcto.
 
-![Porcentaje completado en el panel de resumen](assets/summary-overview-percent-complete.png)
+<span class="preview">![Porcentaje completado en el panel de resumen](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL Actualizaciones]
 
@@ -155,13 +151,9 @@ Utilice el [!UICONTROL Actualizaciones] de la sección [!UICONTROL Resumen] para
 
 <div class="preview">
 
-Ejemplo de actualizaciones en el entorno de vista previa:
 ![Actualiza la sección en el panel Resumen](assets/summary-updates-section.png)
 
 </div>
-
-Ejemplo de actualizaciones en el entorno de producción:
-![Actualiza la sección en el panel Resumen](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documentos]
 

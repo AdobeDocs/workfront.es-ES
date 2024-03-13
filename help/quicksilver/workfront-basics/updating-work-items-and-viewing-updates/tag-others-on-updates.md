@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Puede etiquetar a los usuarios al realizar una actualización de un objeto si desea llamar su atención sobre un objeto que podrían no seguir de otra manera.
 
@@ -133,13 +133,9 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    <div class="preview">
 
-   Ejemplo de etiquetado en el entorno de vista previa:
    ![Etiquetado de un usuario](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Ejemplo de etiquetado en el entorno de producción:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Opcional) Para que la actualización sea privada, habilite **Privado para mi compañía** en la esquina inferior derecha del cuadro actualizar. Esto hace que la actualización sea visible solo para los usuarios de la compañía. El **Privado para mi compañía** Esta opción solo está disponible cuando se especifica una Compañía en el perfil de Workfront.
 
@@ -161,7 +157,7 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Cuando se le etiqueta en el texto del comentario, su nombre de usuario se resalta en esos comentarios.</span>
+   <span class="preview">Cuando se le etiqueta en el texto del comentario, su nombre se resalta en esos comentarios.</span>
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

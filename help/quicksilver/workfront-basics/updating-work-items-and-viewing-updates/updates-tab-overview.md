@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1292'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## Información general de la sección Actualizaciones
 
@@ -56,13 +56,9 @@ La sección Actualizaciones de un objeto muestra las actualizaciones del sistema
 
 <div class="preview">
 
-Ejemplo de la sección Actualizaciones en el entorno de vista previa:
 ![Actualiza la sección](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-Ejemplo de la sección Actualizaciones en el entorno de producción:
-![Actualiza la sección](assets/updates-tab-after-unified-experience-for-issues.png)
 
 En función de los objetos para los que acceda a la experiencia de comentarios, es posible que encuentre la siguiente experiencia en la sección Actualizaciones:
 
@@ -104,13 +100,9 @@ En función de los objetos para los que acceda a la experiencia de comentarios, 
 
 <div class="preview">
 
-Ejemplo de la sección Actualizaciones en el entorno de vista previa:
 ![Actualiza la sección](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-Ejemplo de la sección Actualizaciones en el entorno de producción:
-![Actualiza la sección](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

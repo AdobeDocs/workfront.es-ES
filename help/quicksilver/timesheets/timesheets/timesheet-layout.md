@@ -7,16 +7,16 @@ description: Este artículo describe la presentación de las plantillas de horas
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # Resumen del diseño de hoja de horas
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada solo está disponible en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Puede registrar varias entradas de horas para el mismo elemento de trabajo para 
 
 <div class="preview">
 
-Ejemplo en el entorno de vista previa:
 ![Área Actualizaciones en el panel izquierdo de la plantilla de horas](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Ejemplo en el entorno de producción:
-![Área Actualizaciones en el panel izquierdo de la plantilla de horas](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Puede realizar comentarios en una plantilla de horas para comunicarse con los aprobadores de la plantilla u otros usuarios en la sección Actualizaciones del panel izquierdo de la plantilla de horas.
 
@@ -139,13 +135,9 @@ Cualquier comentario realizado en la plantilla de horas se mostrará en esta ár
 
 <div class="preview">
 
-Ejemplo en el entorno de vista previa:
 ![Panel de resumen](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Ejemplo en el entorno de producción:
-![Panel de resumen](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Puede acceder al Panel de resumen para tareas o problemas mostrados en una plantilla de horas. Desde aquí puede realizar comentarios sobre tareas y problemas o actualizar su información. Para obtener más información, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

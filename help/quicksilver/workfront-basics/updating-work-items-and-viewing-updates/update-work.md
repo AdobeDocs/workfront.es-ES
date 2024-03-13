@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ Puede añadir actualizaciones a los siguientes objetos:
 
    <div class="preview">
 
-   Ejemplo de nuevo cuadro de comentarios en el entorno de vista previa:
    ![Nuevo cuadro de comentarios](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Ejemplo de nuevo cuadro de comentarios en el entorno de producción:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
    <div class="preview">
 
-   Ejemplo de búsqueda en el entorno de vista previa:
    ![Buscar en actualizaciones](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Ejemplo de búsqueda en el entorno de producción:
-   ![](assets/search-field-in-updates-tab.png)
 
    La palabra clave <!--or user--> Si ha buscado, se resaltará y los comentarios que lo contengan se mostrarán en la parte superior de la sección Actualizaciones.
 

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Cuando alguien responde a un comentario o a una actualización del sistema de un objeto de trabajo, su respuesta aparece en el subproceso de comunicación de la sección Actualizaciones del objeto.
 
@@ -99,11 +99,11 @@ Responder a un comentario o una respuesta depende de la experiencia y del objeto
 Para obtener información sobre las funciones disponibles en la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Vaya al objeto al que desea agregar una respuesta.
-1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder.
+1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder
 
-   >[!NOTE]
-   >
-   ><span class="preview">Para responder a un comentario en la ficha Todos, haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios. No puede responder en la pestaña Todos.</span>
+   O
+
+   <span class="preview">Haga clic en **Todo** y haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios y responder a él. No puede responder en la pestaña Todos.</span>
 
 1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** en la esquina superior derecha del comentario al que desea responder y, a continuación, haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
 1. Clic **Responder**.

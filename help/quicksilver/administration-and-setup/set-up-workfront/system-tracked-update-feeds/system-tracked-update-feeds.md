@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Actualizaciones rastreadas por el sistema
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada en esta página solo está disponible en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Las siguientes son diferencias entre la nueva experiencia de comentarios y la experiencia de comentarios heredada:
 
-   * Al utilizar la nueva experiencia de comentarios, las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en la pestaña Actividad del sistema.
+   * Al utilizar la nueva experiencia de comentarios, las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en la actividad del sistema <span class="preview">y el de todos</span> pestañas.
 
      Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">Al utilizar la nueva experiencia de comentarios, los usuarios no pueden agregar un comentario a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura en la nueva experiencia de comentarios.</span>
+   * <span class="preview">Al utilizar la nueva experiencia de comentarios, no puede agregar un comentario a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura en la nueva experiencia de comentarios.</span>
    * Al utilizar la experiencia de comentarios heredada, las actualizaciones del sistema y del usuario se muestran en una fuente continua.
 
    * Al utilizar la experiencia de comentarios heredada, los usuarios pueden ver las actualizaciones del sistema de forma predeterminada o pueden optar por no mostrarlas. No es posible deshabilitar las actualizaciones del sistema al utilizar la nueva experiencia de comentarios.

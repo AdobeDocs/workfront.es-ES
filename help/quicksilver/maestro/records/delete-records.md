@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Puede eliminar registros que ya no sean relevantes en Adobe Maestro.
+Puede eliminar registros que ya no sean relevantes en las funciones de planificación de Adobe Workfront.
 
 ## Requisitos de acceso
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro </p>  
+   <td> <p>No hay controles de nivel de acceso para las funciones de planificación de Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Si los registros eliminados están vinculados a otros registros, los registros vinculados no se eliminan, pero también se elimina la información del registro eliminado.
 * No puede eliminar registros de forma masiva. <!--this will probably change-->
 * No se pueden eliminar registros de la vista de escala de tiempo.
-* No se puede eliminar un tipo de registro vinculado desde otra aplicación. Por ejemplo, si vincula un registro de Maestro a un objeto de Workfront, no podrá eliminar el objeto de Workfront de la página de registro de objetos de Workfront.
 
 ## Eliminación de registros
 
@@ -132,12 +131,16 @@ Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en un tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior izquierda de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
-1. Haga clic con el botón secundario en una fila de registro y luego haga clic en **Eliminar**.
+1. Realice una de las siguientes acciones:
+
+   * Haga clic con el botón secundario en una fila de registro y luego haga clic en **Eliminar**.
+   * Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Eliminar**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    El registro se elimina y no se puede recuperar.
 

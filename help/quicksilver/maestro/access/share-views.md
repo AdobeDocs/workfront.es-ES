@@ -4,7 +4,7 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
    * Administrar
 
      Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. Clic **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.
