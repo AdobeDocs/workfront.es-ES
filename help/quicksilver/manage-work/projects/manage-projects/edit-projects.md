@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -252,14 +252,13 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
          <li> <p>Cuando el proyecto se crea a partir de la página principal de un grupo en el área de Configuración, ese grupo se asocia al proyecto.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTAS</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Si el proyecto, o sus tareas o problemas están asociados con un estado personalizado de nivel de grupo, cambiar el grupo del proyecto puede hacer que el estado del proyecto, las tareas o los problemas cambien para coincidir con el nuevo grupo.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes en el nivel de sistema.&lt;/p>
-       &lt;p>Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo.&lt;/p>
-       &lt;p>Para obtener información sobre la creación de procesos de aprobación de nivel de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Procesos de aprobación de nivel de grupo&lt;/a>.&lt;/p>
-       &lt;p>Para obtener información sobre cómo crear un estado personalizado de nivel de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Crear o editar un estado de grupo&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Si el proyecto, o sus tareas o problemas están asociados con un estado personalizado de nivel de grupo, cambiar el grupo del proyecto puede hacer que el estado del proyecto, las tareas o los problemas cambien para coincidir con el nuevo grupo.</p></li>
+         <li><p>Si el proyecto, sus tareas o problemas ya están asociados a un proceso de aprobación de nivel de grupo mediante estados personalizados de nivel de grupo, cambiar el grupo podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes en el nivel de sistema.</p>
+         <p>Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo.</p>
+         <p>Para obtener información sobre la creación de procesos de aprobación de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Procesos de aprobación de nivel de grupo</a>.</p>
+         <p>Para obtener información sobre cómo crear un estado personalizado de nivel de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Crear o editar un estado de grupo</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Compañía</strong> </td> 
          <td> <p>Especifique una compañía asociada al proyecto. Debe crear una compañía antes de asociarla a un proyecto. Solo las empresas activas pueden asociarse a un proyecto. Para obtener información sobre la creación de empresas, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Crear y editar compañías</a>.</p> </td> 
@@ -563,7 +562,7 @@ Para obtener información sobre cómo afectan estos ajustes a la creación de nu
    | Tamaño | Porcentaje |
    |---|---|
    | Pequeño | 25 % |
-   | Medio | 50 % |
+   | Media | 50 % |
    | Grande | 75 % |
 
    >[!TIP]
@@ -653,6 +652,22 @@ Para obtener información sobre cómo afectan estos ajustes a la creación de nu
    </table>
 
 1. Haga clic en **Guardar**.
+
+### Carpetas vinculadas
+
+La funcionalidad de carpetas vinculadas crea automáticamente carpetas en Adobe Experience Manager Assets y las conecta a Workfront.
+
+Esta sección solo aparece si se aplican todas las condiciones siguientes:
+
+* Su organización se ha migrado a Adobe Admin Console
+* Su organización ha habilitado y configurado una integración con Adobe Experience Manager
+* La plantilla utilizada para crear este proyecto ha habilitado y configurado las carpetas vinculadas.
+
+Para obtener instrucciones sobre la edición de carpetas vinculadas, consulte [Edición de valores de flujo de trabajo en un proyecto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) en el artículo Uso de flujos de trabajo en la integración de Experience Manager Assets.
+
+>[!NOTE]
+>
+>Dado que las carpetas vinculadas se crean cuando se crea el proyecto, la edición del flujo de trabajo de carpetas vinculadas en un proyecto existente no es eficaz. La edición de estos valores al crear un proyecto funciona según lo esperado.
 
 ## Editar un proyecto en el encabezado del proyecto (limitado)
 

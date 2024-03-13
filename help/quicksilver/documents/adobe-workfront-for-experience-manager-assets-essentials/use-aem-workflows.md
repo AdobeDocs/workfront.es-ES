@@ -6,16 +6,14 @@ description: Uso de flujos de trabajo en la integración de Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Uso de flujos de trabajo en la integración de Experience Manager Assets
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Un administrador de Workfront puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto. Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
 
@@ -130,7 +128,7 @@ Puede editar los valores del flujo de trabajo en el nivel de proyecto. Los valor
 
 Todos los valores de flujo de trabajo se encuentran en:
 
-* La sección Flujos de trabajo de la ventana Crear proyecto o Editar proyecto.
+* La sección Flujos de trabajo o Carpetas vinculadas de la ventana Crear proyecto o Editar proyecto.
 * La sección Adobe Experience Manager de la navegación izquierda.
 
 
@@ -148,19 +146,6 @@ Todos los valores de flujo de trabajo se encuentran en:
 
 Para editar el flujo de trabajo de las carpetas vinculadas:
 
-En el entorno de producción:
-
-1. Alternar **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee.
-1. (Condicional) Si está habilitando carpetas vinculadas, elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
-1. Clic **[!UICONTROL Guardar]** si está utilizando el [!UICONTROL Crear proyecto] o [!UICONTROL Editar proyecto] ventana.
-
-   O
-
-   Si está en la [!DNL Adobe Experience Manager area], los cambios se guardan automáticamente. <!--Do they though?-->
-
-En el entorno de vista previa de espacio aislado:
-
-<div class="preview">
 
 1. Alternar el **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee. Si lo activa, puede editar la configuración de la carpeta vinculada.
 
@@ -179,10 +164,8 @@ En el entorno de vista previa de espacio aislado:
 
      Si el nombre de una carpeta se establece en datos personalizados que no existen en el formulario personalizado adjunto al proyecto, se asigna un ID aleatorio como nombre de la carpeta.
 
+1. Para ver el árbol de carpetas, haga clic en **Previsualizar** ![Icono de previsualización](assets/preview-icon.png) icono
 1. Haga clic en **[!UICONTROL Guardar]**.
-
-</div>
-
 
 #### Publicación de recursos
 

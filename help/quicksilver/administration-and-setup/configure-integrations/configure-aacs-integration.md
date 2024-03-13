@@ -6,9 +6,9 @@ description: Puede conectar su trabajo con el contenido en [!DNL Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Los siguientes flujos de trabajo están disponibles en la integración de Adobe 
 ### Crear carpetas vinculadas de Adobe Experience Manager
 
 1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
-1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
-   ![Navegación de carpetas vinculadas](assets/select-folder-aem-integration.png)
-1. Habilite la **[!UICONTROL Anexar nombres de Portfolio y programas]** para incluir automáticamente los nombres de Portfolio y Programa al final del nombre de la carpeta vinculada.
-1. Clic **[!UICONTROL Guardar]** o continúe con la [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
-
-En el entorno de vista previa de espacio aislado
-
-<div class="preview">
-
-1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
 1. Escriba un nombre para la carpeta vinculada que está creando.
 1. (Condicional) Habilite la variable **Árbol de carpetas predeterminado** si desea que esta carpeta vinculada sea la carpeta predeterminada para los proyectos creados con plantillas que utilizan esta integración. Puede seleccionar una o varias carpetas predeterminadas.
 1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
@@ -295,8 +284,6 @@ En el entorno de vista previa de espacio aislado
 >* La primera carpeta del árbol de carpetas se marca automáticamente como vinculada a Workfront. Si no desea vincular esta carpeta, puede desvincularla.
 >* Si no se proporciona ningún árbol de carpetas, la carpeta raíz se convierte en la carpeta vinculada.
 
-
-</div>
 
 ### Publicar recursos enviados a Adobe Experience Manager Assets
 
