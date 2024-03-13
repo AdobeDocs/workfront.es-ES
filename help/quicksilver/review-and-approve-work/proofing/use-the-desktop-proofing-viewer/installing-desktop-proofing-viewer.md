@@ -6,7 +6,7 @@ description: Desktop Proofing Viewer, diseñado principalmente para revisar cont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
+source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -77,12 +77,12 @@ Si el administrador de Workfront o Workfront Proof ha descargado la aplicación 
 
 >[!TIP]
 >
->Puede utilizar la línea de comandos para instalar el Visor de corrección de escritorio ejecutando `Workfront Proof Setup 2.1.31.exe" /S`
+>Puede utilizar la línea de comandos para instalar el Visor de corrección de escritorio ejecutando `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
-   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de corrección de escritorio.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
-   * En el entorno de vista previa, haga clic en [Descarga de Vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
+   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de corrección de escritorio.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)
+   * En el entorno de vista previa, haga clic en [Descarga de Vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
 1. En el cuadro de instalación que aparece, abra el archivo que acaba de descargar para iniciar la instalación.
