@@ -12,23 +12,21 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '1894'
 ht-degree: 2%
 
 ---
 
-# Mover objetos de uno [!DNL Workfront] entorno a otro
+# Mover objetos entre [!DNL Workfront] entornos que utilizan la variable [!DNL Workfront] API de promoción de entorno
 
-<!-- 
-TO DO
+La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. Puede mover estos objetos mediante la API de Workfront como se describe en este artículo.
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+Para obtener instrucciones sobre cómo mover objetos entre entornos mediante la aplicación de Workfront, consulte:
+
+* [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## Requisitos de acceso
 
@@ -65,66 +63,7 @@ El punto final Crear paquete promocional supone que ya ha configurado el entorno
 
 La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la capacidad de mover objetos transaccionales (con excepciones limitadas).
 
-* [Objetos de trabajo](#work-objects)
-* [Objetos de informes](#reporting-objects)
-* [Objetos de datos personalizados](#custom-data-objects)
-* [Objetos de organización](#organization-objects)
-* [Otros objetos de configuración](#other-configuration-objects)
-
-
-### Objetos de trabajo
-
-| Objeto promocionable | Subobjetos promotables incluidos |
-| --- | --- |
-| Proyecto (PROJ) | Proyecto<br>Tarea<br>Asignación<br>Predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-| Plantilla (TMPL) | Plantilla<br>Tarea de plantilla<br>Asignación de tarea de plantilla<br>Tarea de plantilla predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-
-### Objetos de informes
-
-| Objeto promocionable | Subobjetos promotables incluidos |
-| --- | --- |
-| Plantilla de diseño (UITMPL) | Plantilla de diseño<br>Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Tablero (PTLTAB) | Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Calendario (CALEND) | Calendario<br>Sección de calendario |
-| Página externa (EXTSEC) | Página externa |
-| Informe (PTLSEC) | Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Filtro (UIFT) | Filtrar<br>Parámetro |
-| Agrupación (UIGB) | Agrupación<br>Parámetro |
-| Vista (UIVW) | Ver<br>Parámetro |
-
-### Objetos de datos personalizados
-
-| Objeto promocionable | Subobjetos promotables incluidos |
-| --- | --- |
-| Categoría (CTGY) | Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría<br>Grupo |
-| Parámetro (PARAM) | Parámetro<br>Opción de parámetro |
-| Grupo de parámetros (PGRP) | Grupo de parámetros |
-
-### Objetos de organización
-
-| Objeto promocionable | Subobjetos promotables incluidos |
-| --- | --- |
-| Grupo (GROUP) | Grupo <br>Subgrupos (hasta 5 niveles) *<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-| Rol (ROLE) | Función |
-| Equipo (EQUIPO) | Equipo<br>Grupo |
-| Empresa (CMPY) | Compañía<br>Tasa de anulación<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Parámetro <br>Lógica de visualización de categoría<br>Grupo |
-| Portfolio (PUERTO) | Portfolio<br>Programa<br>Grupo<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-| Programa (PRGM) | Programa<br>Portfolio<br>Grupo<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-
-### Otros objetos de configuración
-
-| Objeto promocionable | Subobjetos promotables incluidos |
-| --- | --- |
-| Proceso de aprobación (ARVPRC) | Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Rol<br>Equipo<br>Grupo |
-| Programa (SCHED) | Programación<br>Día no laborable<br>Grupo |
-| Ruta de hitos (MPATH) | Ruta de hitos<br>Hito |
-| Perfil de hoja de horas (TSPRO) | Perfil de hoja de horas<br>Tipo de hora |
-| Tipo de hora (HOURT) | Tipo de hora |
-| Tipo de gasto (EXPTYPE) | Tipo de gasto |
-| Tipo de riesgo (RSKTYPE) | Tipo de riesgo |
-| Conjunto de recursos (RSPL) | Conjunto de recursos |
-
-\* No disponible actualmente
+Para ver una lista de objetos promocionales y sus subobjetos promocionales incluidos, consulte [Objetos compatibles para la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) en el artículo [Información general sobre el movimiento de objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Autenticación
 
@@ -435,38 +374,7 @@ Los atributos editables son:
 1. description (cadena)
 1. estado (cadena con validación de valor)
 
-Las opciones de estado incluyen:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>MONTAJE</td> 
-   <td><p>Este estado se asigna automáticamente mientras se montan los objetos.</p><p>Un cliente no puede establecer directamente este estado.</p></td> 
-  </tr> 
-  <tr> 
-   <td>BORRADOR</td> 
-   <td><p>Este estado se asigna al final de un proceso de ensamblado o al crear un paquete de promoción vacío.</p><p>Un cliente puede volver a mover el paquete de promoción a este estado.</p><p>Mientras que en este estado el paquete de promoción no se puede instalar en ningún entorno.</p></td> 
-  </tr> 
-  <tr> 
-   <td>PRUEBAS</td> 
-   <td><p>Este estado permite instalar un paquete de promoción en cualquier zona protegida de vista previa o actualización personalizada. Mientras esté en este estado, el paquete no se puede instalar en Producción.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ACTIVO</td> 
-   <td><p>Este estado permite instalar un paquete de promoción en cualquier entorno, incluido el de producción.</p><p>Cuando el estado de un paquete se establece en ACTIVO, la variable <code>publishedAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p></td> 
-  </tr> 
-  <tr> 
-   <td>DESACTIVADO</td> 
-   <td><p>Este estado se utilizará para ocultar los paquetes de promoción utilizados anteriormente que no se instalarán en ningún entorno en el futuro.</p><p>Cuando un paquete se encuentra en este estado, no se puede instalar en ningún entorno.</p><p>Cuando el estado de un paquete se establece en DESHABILITADO, la variable <code>retiredAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p><p>Se recomienda usar este estado en lugar de usar el<code>DELETE /package</code> extremo porque se puede recuperar y el historial de instalación se conserva para cualquier implementación realizada con este paquete.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLING_FAILED</td> 
-   <td><p>El paquete de promoción pasa automáticamente a este estado si falla la fase de MONTAJE.</p><p>Para devolver el paquete a la fase de MONTAJE, se debe almacenar en déclencheur de nuevo el proceso de extracción.</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+Para ver una descripción detallada de los estados disponibles, consulte [Estados de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) en el artículo [Información general sobre el movimiento de objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
