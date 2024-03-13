@@ -6,7 +6,9 @@ title: Generación de un módulo mediante IA
 description: Puede introducir un mensaje de texto para crear un módulo HTTP configurado para el mensaje.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
+hide: true
+hidefromtoc: true
+source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%
