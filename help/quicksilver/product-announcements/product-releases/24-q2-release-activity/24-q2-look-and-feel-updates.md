@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el segundo trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ Hemos actualizado las pestañas de Forms, Campos y Secciones en el área Configu
 
 Para obtener más información, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) y [Crear o editar un formulario personalizado con el generador de formularios heredado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indicador de asignaciones ajustadas manualmente en el Distribuidor de cargas de trabajo
 
->[!NOTE]
->
->Versión de vista previa: 12 de octubre de 2023; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para versión trimestral: con la versión 24.4 (abril de 2024)
-
-Para proporcionar más claridad sobre los ajustes manuales o el contorneado en el Distribuidor de cargas de trabajo, las asignaciones horarias ajustadas manualmente ahora muestran un icono de lápiz.
-
-Para obtener más información, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

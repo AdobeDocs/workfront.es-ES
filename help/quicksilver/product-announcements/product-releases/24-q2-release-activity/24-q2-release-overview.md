@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 * [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras de inicio](#home-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
+* [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Actualización de mejoras de flujo y notificación](#update-stream-and-notification-enhancements)
 * [Otras mejoras](#other-enhancements)
 
@@ -186,21 +187,20 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en el flujo de trabajo de creación automatizada de carpetas en la integración de Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novedades en la vista previa</span><p>Para garantizar que las carpetas de Adobe Experience Manager reflejen sus necesidades con mayor precisión, hemos añadido árboles de carpetas anidados al flujo de trabajo de carpetas vinculadas de Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en el flujo de trabajo de creación automatizada de carpetas en la integración de Adobe Experience Manager</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para garantizar que las carpetas de Adobe Experience Manager reflejen sus necesidades con mayor precisión, hemos añadido árboles de carpetas anidados al flujo de trabajo de carpetas vinculadas de Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
                                 <p>Versión de vista previa: 11 de marzo de 2024</p>
                             </li>
-                             <li> <p><span class="preview">Versión trimestral para producción: 14 de marzo de 2024</span></p>
+                             <li> <p><span class="preview">Versión de producción para todos los clientes: 14 de marzo de 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Mejoras del proyecto
 
@@ -247,6 +247,43 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                             </li>
                             <li>
                                 <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Mejoras en la administración de recursos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicador de asignaciones ajustadas manualmente en el Distribuidor de cargas de trabajo</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p><p>Para proporcionar más claridad sobre los ajustes manuales o el contorneado en el Distribuidor de cargas de trabajo, las asignaciones horarias ajustadas manualmente ahora muestran un icono de lápiz.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 12 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.2 (15 de febrero de 2024)</p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
