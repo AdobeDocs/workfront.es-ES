@@ -4,9 +4,9 @@ description: Mejoras del administrador en el segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Las empresas y los usuarios ahora admiten campos de formulario personalizados avanzados
+
+>[!NOTE]
+>
+>Versión de vista previa: 14 de marzo de 2024; producción para todos los clientes: 24.4 (abril de 2024)
+
+Las funciones de formulario personalizadas avanzadas, como los campos de búsqueda externa y los campos nativos de Workfront, ahora están disponibles al adjuntar un formulario personalizado a una empresa o a un usuario. Las funciones avanzadas están disponibles en las páginas Detalles de la empresa y Detalles del usuario, no en los cuadros de diálogo Editar empresa y Editar usuario. El formulario personalizado debe crearse en el nuevo diseñador de formularios para aprovechar estos tipos de campos.
+
+Para obtener más información sobre los campos de formulario personalizados, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## La integración de JumpSeat ya está disponible para nuevos tipos de paquetes
 

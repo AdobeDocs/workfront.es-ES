@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,23 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La integración de JumpSeat ya está disponible para nuevos tipos de paquetes</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Las empresas y los usuarios ahora admiten campos de formulario personalizados avanzados</a><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>Las funciones de formulario personalizadas avanzadas, como los campos de búsqueda externa y los campos nativos de Workfront, ahora están disponibles al adjuntar un formulario personalizado a una empresa o a un usuario.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 14 de marzo de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para clientes de: con la versión 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La integración de JumpSeat ya está disponible para nuevos tipos de paquetes</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
                         <p>La integración existente de JumpSeat ya está disponible para las cuentas que utilizan uno de los nuevos tipos de paquete (es decir, Select, Prime o Ultimate). Debe seguir teniendo una suscripción JumpSeat activa para habilitar la integración.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -77,7 +93,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos nativos de Workfront están disponibles en la versión beta de Forms Designer</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos nativos de Workfront están disponibles en la versión beta de Forms Designer</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
                         <p>Los campos nativos de Workfront ya están disponibles para que los agregue a sus formularios personalizados. Este nuevo tipo de campo le permite organizar y presentar datos a los usuarios de una manera lógica, sin tener que volver a crear los datos existentes en los campos personalizados.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -220,7 +236,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p><p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -238,7 +255,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -312,7 +330,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">El nuevo flujo de comentarios ya está disponible en acciones rápidas para los nuevos widgets de Inicio</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">El nuevo flujo de comentarios ya está disponible en acciones rápidas para los nuevos widgets de Inicio</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
                         <p>Ahora hemos agregado la nueva funcionalidad de comentarios al botón de acción rápida "Agregar nueva actualización" en los widgets Mi trabajo, Mis proyectos, Mis tareas y Mis problemas de la nueva página de inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -331,7 +349,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Información adicional sobre el comentarista disponible en la nueva experiencia de comentarios</a></p><p>Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Información adicional sobre el comentarista disponible en la nueva experiencia de comentarios</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:</p>
                         <ul>
                             <li>
                                 <p>Puede hacer clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Esta información puede ayudarle a identificar al usuario correcto si tiene más de un usuario con el mismo nombre. Al hacer clic en el nombre del comentarista en el cuadro de información, se abre su perfil de usuario.</p>
@@ -357,7 +376,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura</a></p><p>Los comentarios realizados en los registros de actividad del sistema en la experiencia de comentarios heredada ahora se rellenan en la pestaña Actividad del sistema en la nueva experiencia de comentarios como de solo lectura. No puede responder a los registros de actividad del sistema en la nueva experiencia de comentarios.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Los comentarios realizados en los registros de actividad del sistema en la experiencia de comentarios heredada ahora se rellenan en la pestaña Actividad del sistema en la nueva experiencia de comentarios como de solo lectura. No puede responder a los registros de actividad del sistema en la nueva experiencia de comentarios.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -375,7 +395,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema</a></p><p>Para ofrecerle una vista cronológicamente coherente de los comentarios y los registros de actividad del sistema, presentamos una tercera pestaña en el área de Actualizaciones de todos los objetos. La pestaña "Todos" captura tanto los comentarios del usuario como los de la actividad del sistema en un flujo coherente.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Para ofrecerle una vista cronológicamente coherente de los comentarios y los registros de actividad del sistema, presentamos una tercera pestaña en el área de Actualizaciones de todos los objetos. La pestaña "Todos" captura tanto los comentarios del usuario como los de la actividad del sistema en un flujo coherente.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -393,7 +414,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo flujo de comentarios ahora disponible en el Panel de resumen</a></p><p>Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo flujo de comentarios ahora disponible en el Panel de resumen</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <p>Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -430,7 +452,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el segundo trimestre de 2024</a></p><p>En el segundo trimestre de 2024 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el segundo trimestre de 2024</a></p>
+                        <p>En el segundo trimestre de 2024 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
