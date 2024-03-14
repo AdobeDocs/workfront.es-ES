@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5681'
 ht-degree: 3%
 
 ---
 
 # Diseñar un formulario con el diseñador de formularios
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
