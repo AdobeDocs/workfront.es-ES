@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Instalación de un paquete de promoción de entorno
-
-Esta página está en construcción
-
 
 
 1. Vaya al entorno en el que desea instalar el paquete. Este es el entorno en el que está copiando los objetos **hasta**.
@@ -41,11 +38,11 @@ Cada tipo de objeto aparece en la lista de navegación izquierda y en una tarjet
 * Crear nuevo: el objeto se encuentra en el entorno de destino
 * Usar existente: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no se modifica.
 * Sobrescribir existente: el objeto del paquete reemplaza al objeto existente en el entorno de destino.
-* No use:
+* No utilizar: si selecciona No utilizar, aparecerá un mensaje de error que detalla cómo esta opción afectará a otros objetos o campos.
 
 Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino, y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
 
-Si selecciona No utilizar, aparecerá un mensaje de error que detalla cómo esta opción afectará a otros objetos o campos.
+
 
 <!--
 ## Collisions
