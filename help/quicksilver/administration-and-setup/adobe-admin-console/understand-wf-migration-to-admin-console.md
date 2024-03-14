@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Los administradores del sistema recibirán un correo electrónico cuando se comp
 
 * **Si los usuarios de Workfront inician sesión con SSO actualmente**, debe configurar el SSO en Adobe Admin Console para que los usuarios puedan seguir iniciando sesión con SSO. Si los usuarios de Workfront no utilizan actualmente el SSO, pero desea configurarlo en Adobe Admin Console, puede hacerlo en este punto del recorrido de migración.
 * **Si ya administra otros productos de Adobe en su Adobe Admin Console**, el Adobe puede solicitar su autorización para migrar automáticamente a los usuarios a la consola existente. Haga clic en **Primeros pasos** en el correo electrónico para ir a la página de consentimiento.
+* **Si ha eliminado anteriormente el tipo de licencia de solicitante**, se añadirá a su sistema. No se asignará ningún usuario a este tipo de licencia, pero es necesario para la sincronización entre Workfront y Adobe Admin Console. No es necesario que realice ninguna acción en relación con el tipo de licencia de solicitante.
 
 No hay cambios en la administración de usuarios en este momento. Los administradores de Workfront seguirán administrando usuarios en Workfront y los usuarios seguirán iniciando sesión con su Workfront ID o SSO hasta que se complete la migración de usuarios.
 
@@ -66,7 +67,7 @@ Los administradores de perfil de producto de Workfront (administradores de siste
 
 Como administrador de Perfil de producto de Workfront (administrador del sistema de Workfront), es responsable de garantizar que todos los usuarios estén preparados para el día de la migración.
 
-* Prepare a todos los usuarios para la próxima migración a la identidad de Adobe notificándoles lo siguiente:.
+* Prepare a todos los usuarios para la próxima migración a la identidad de Adobe notificándoles lo siguiente:
 
    * A medida que los usuarios migren, recibirán un correo electrónico del Adobe de notificándoles el cambio en la forma en que inician sesión en Workfront. Se invitará a los usuarios a aceptar una invitación para iniciar sesión con ID de Adobe por primera vez, ya sea iniciando sesión con un Adobe ID existente o configurando uno nuevo con la misma dirección de correo electrónico.
 
