@@ -7,9 +7,9 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ ht-degree: 0%
 # Información general sobre asignaciones inteligentes
 
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
-
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
+{{preview-and-fast-release}}
 
 Al administrar asignaciones de tareas y problemas, puede utilizar asignaciones inteligentes para identificar quién es el mejor recurso para completar el trabajo. Las asignaciones inteligentes son sugerencias que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Las asignaciones inteligentes pueden ser usuarios, puestos o equipos.
 

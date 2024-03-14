@@ -6,9 +6,9 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 02/2024-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
-
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+{{preview-and-fast-release}}
 
 Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo.
 

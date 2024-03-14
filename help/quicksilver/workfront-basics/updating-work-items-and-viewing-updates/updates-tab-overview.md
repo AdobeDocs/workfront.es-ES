@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1317'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Información general de la sección Actualizaciones
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en las listas, las hojas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en listas, plantillas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa y en el entorno de producción para los clientes que han elegido el proceso de versión rápido.</span>
 
 ## Información general de la sección Actualizaciones
 
@@ -114,12 +114,16 @@ En función de los objetos para los que acceda a la experiencia de comentarios, 
    * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. <span class="preview">Cualquier respuesta realizada a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura.</span> Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* Los objetos siguientes no tienen una ficha Actividad del sistema <span class="preview">o la pestaña Todos</span>:
+* Los objetos siguientes no tienen una ficha Actividad del sistema <span class="preview">o una pestaña Todos:</span>
 
    * Equipo
    * Plantilla
    * Tarea de plantilla
    * Tarjeta ad hoc
+
+* Los objetos siguientes no tienen un <span class="preview">Pestaña Todos:</span>
+
+   * Metas
 
 
 ### Información general sobre la sección Actualizaciones heredadas

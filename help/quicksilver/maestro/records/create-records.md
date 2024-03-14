@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Para obtener información sobre cómo editar la información de registro, consul
 {#step1-to-maestro}
 
 El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla.
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en la ficha de una vista de tabla o en **+ Ver** para crear una vista de tabla.
 
 1. Para añadir nuevos registros, haga clic en **Nuevo registro** en la última fila de la tabla
 
@@ -135,17 +133,17 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. Siga agregando información en cada fila y haga clic en **Entrar** en el teclado para guardar los cambios.
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   O
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. El **Detalles** se abre en la tabla.
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >Solo puede tener acceso al cuadro Detalles desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
+
+1. Comience a editar la información del registro en el cuadro Detalles. Workfront guarda automáticamente los cambios.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro Detalles para abrir el **Detalles** en una nueva pestaña. Continúe editando el registro en la página Detalles.
+
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros:
 

@@ -4,9 +4,9 @@ description: Puede compartir una vista con otros usuarios para garantizar la col
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
 >[!NOTE]
 >
 >Los administradores del sistema no pueden ver ni compartir vistas que no hayan creado ellos mismos. Solo pueden acceder a las vistas que se comparten con ellos o compartirlas.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Los administradores del sistema solo pueden tener permisos de Administración para una vista.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Puede compartir vistas que haya creado o vistas para las que tenga permisos de a
 
    Se abre la página de tipo de registro.
 
-1. En el menú desplegable de vista <!--tab-->, pase el ratón sobre la vista que quiera compartir y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Compartir**.
+1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Compartir**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

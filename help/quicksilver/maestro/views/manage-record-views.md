@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Clic **+ Ver** para añadir una nueva vista.
+1. Seleccione entre los siguientes tipos de vistas:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabla
+   * Cronología
+   * Calendario
 
-    A new tab is created with the selected view. 
+   Se crea una nueva pestaña con la vista seleccionada.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   Según el ancho de la pantalla, podrían mostrarse vistas adicionales en la **Más** menú ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 >Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología y Calendario aparecen atenuadas.
 >
 
-1. Haga clic en **Ver** y seleccione una de las opciones existentes. **Vista de tabla** ![](assets/table-view-icon.png) o haga clic en **Crear vista > Tabla** para crear una vista de tabla
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   O
-
-   Seleccionar un existente **Vista Cronología** ![](assets/timeline-view-icon.png) o haga clic en **Crear vista > Cronología** para crear una vista de cronología.
-
-   O
-
-   Seleccionar un existente **Vista de calendario** ![](assets/calendar-view-icon.png) o haga clic en **Crear vista > Calendario** para crear una vista de calendario.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología o Calendario aparecen atenuadas.
+>[!NOTE]
+>
+>    Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología o Calendario aparecen atenuadas.
 
 1. (Condicional) Haga clic en **Siguiente**, al crear una vista de calendario o de cronología.
 
@@ -202,12 +191,16 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 1. (Condicional) Seleccione la variable **Inicio** y **Fechas de finalización** para los registros que se mostrarán en la vista cronología o calendario.
 1. Haga clic en **Crear**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con usted.
+1. (Opcional) Haga clic en **Más** menú ![](assets/more-caret-down-icon-views.png) situado junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Las vistas adicionales se muestran en **Más** después de la última pestaña de vista. El número situado junto al **Más** El menú muestra el número de vistas adicionales.
+1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
+
+   O
+
+   Haga doble clic en el nombre de la vista y empiece a escribir el nuevo nombre.  <!--ensure there is not another saving step here?!-->
+
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
    * [Administrar la vista de tabla](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de vista y haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y haga clic en **Eliminar**.
+Primero, es posible que tenga que hacer clic en **Más** a la izquierda de la última pestaña para buscar la vista que desea eliminar.
 
-1. Haga clic en el menú desplegable de vista, pase el cursor sobre una de las vistas de la lista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Eliminar**.
 1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
    La vista se elimina para todos los usuarios que pueden acceder al área de registros y no se puede recuperar.

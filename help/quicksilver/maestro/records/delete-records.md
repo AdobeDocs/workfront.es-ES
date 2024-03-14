@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ Se abre el espacio de trabajo al que accedió por última vez.
    * Haga clic con el botón secundario en una fila de registro y luego haga clic en **Eliminar**.
    * Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Eliminar**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro Detalles y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro, **Eliminar**.
 
    El registro se elimina y no se puede recuperar.
 
