@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo de texto con formato</td> 
-      <td>Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Está disponible en Inicio, en el área de Actualizaciones, en las listas y en el área de Detalles para los objetos de Workfront. Un límite de 15 000 caracteres permite texto y formato abundantes.</p> <p>Para obtener información sobre el acceso a este campo a través de la API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Almacenamiento de campo de texto enriquecido en la API</a>.</p> <p><b>NOTA</b>: Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront. </p> </td> 
+      <td>Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Está disponible en Inicio, en el área de Actualizaciones, en las listas y en el área de Detalles para los objetos de Workfront. Un límite de 15 000 caracteres permite texto y formato abundantes.</p> <p>Este tipo de campo personalizado no se admite en filtros de listas e informes.</p> <p>Para obtener información sobre el acceso a este campo a través de la API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Almacenamiento de campo de texto enriquecido en la API</a>.</p> <p><b>NOTA</b>: Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lista desplegable</td> 
@@ -225,7 +225,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td><p>Haga clic en la lista desplegable y, a continuación, seleccione los tipos de objeto donde desee rastrear automáticamente los cambios de valor del campo.</p> 
       <p><b>NOTA</b>: Esta opción no está disponible para lo siguiente:</p> 
       <ul> 
-      <li>Formularios personalizados asociados a los siguientes tipos de objetos: gasto, compañía, iteración, registro de facturación y grupo.</li> 
+      <li>Formularios personalizados asociados a los siguientes tipos de objetos: gasto, compañía, iteración, registro de facturación, documento y grupo.</li> 
       <li>Los siguientes tipos de campo: Calculado, Texto descriptivo y Salto de sección</li> 
       </ul>
       <p><b>IMPORTANTE</b>: Seleccionar o anular la selección de un tipo de objeto aquí afecta a todos los formularios personalizados asociados al tipo de objeto seleccionado y que contienen este campo. Por ejemplo, si anula la selección de un tipo de objeto aquí y guarda el formulario personalizado, los cambios de valor del campo ya no se rastrean para ese tipo de objeto en ningún formulario personalizado que contenga el campo.</p>

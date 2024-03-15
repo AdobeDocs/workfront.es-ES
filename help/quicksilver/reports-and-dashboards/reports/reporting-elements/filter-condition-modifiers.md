@@ -6,9 +6,9 @@ description: Los modificadores de filtro y condición permiten crear filtros y e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Puede utilizar los siguientes modificadores de condición en filtros e instrucci
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Este es el <i>sin distinción de mayúsculas</i> opción de <strong>eq</strong>. Solo devuelve una coincidencia exacta del valor buscado.</p> <p>Por ejemplo, al buscar una tarea con un nombre específico, <code>task name cieq test</code> encuentra tareas cuyo nombre es <code>Test</code>, <code>TEST</code>, o <code>Test</code>, pero no encuentra una tarea con el nombre <code>test 123.</code></p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> </td> 
+   <td> <p>Este es el <i>sin distinción de mayúsculas</i> opción de <strong>eq</strong>. Solo devuelve una coincidencia exacta del valor buscado.</p> <p>Por ejemplo, al buscar una tarea con un nombre específico, <code>task name cieq test</code> encuentra tareas cuyo nombre es <code>Test</code>, <code>TEST</code>, o <code>Test</code>, pero no encuentra una tarea con el nombre <code>test 123.</code></p> <p>Al buscar un estado, la variable <strong>cieq</strong> no es compatible con el modificador. Debe utilizar el modificador que distingue entre mayúsculas y minúsculas, <strong>eq</strong>, para buscar un estado.</p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 
