@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -246,6 +247,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                             </li>
                             <li>
                                 <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                                <p><span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span></p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
@@ -255,7 +257,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p><p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -265,6 +268,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                             </li>
                             <li>
                                 <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                                <p><span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span></p>
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.4 (abril de 2024)</p>
