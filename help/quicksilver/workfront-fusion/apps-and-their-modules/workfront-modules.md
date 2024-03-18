@@ -9,7 +9,7 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 2%
@@ -72,7 +72,7 @@ El [!DNL Workfront] El conector de utiliza OAuth 2.0 para conectarse a [!DNL Wor
 
 Puede crear una conexión con su [!DNL Workfront] cuenta directamente desde dentro de un [!DNL Workfront Fusion] módulo.
 
-1. En cualquier módulo de Adobe Authenticator, haga clic en **Añadir** junto al campo Conexión.
+1. En cualquier módulo de Adobe Workfront, haga clic en **Añadir** junto al campo Conexión.
 1. Rellene los campos siguientes:
 
    <table style="table-layout:auto"> 
