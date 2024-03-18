@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 56c56dca375e5f9f7f75aa6553ef02399ffc205d
 workflow-type: tm+mt
-source-wordcount: '14039'
+source-wordcount: '14040'
 ht-degree: 1%
 
 ---
@@ -2186,6 +2186,7 @@ ht-degree: 1%
       * [Aplicaciones y sus módulos](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Módulos de Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Módulos de Workfront Proof](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [[!DNL Workfront Boards] módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [módulo de Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Módulos de Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Módulos de bibliotecas Adobe Creative Cloud](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
