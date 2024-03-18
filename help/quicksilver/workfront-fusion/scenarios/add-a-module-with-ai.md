@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
+source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,9 @@ Al igual que con cualquier elemento generado a partir de IA, le recomendamos que
 
 Fusion AI puede generar actualmente módulos que se conectan a las siguientes aplicaciones:
 
+* Adobe Firefly
+* Azure OpenAI
+* Gráfico de Microsoft
 * Adobe Maestro
 * Adobe Analytics
 * Servicios de Adobe PDF
