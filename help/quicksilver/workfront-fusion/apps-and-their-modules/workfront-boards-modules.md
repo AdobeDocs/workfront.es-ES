@@ -8,9 +8,9 @@ title: Módulos de placas Adobe Workfront
 description: Puede utilizar el conector de tableros de Adobe Workfront para automatizar los procesos en los tableros de Workfront y conectarlo a aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Módulos de tableros de Adobe Workfront y sus campos
+
 
 ## Requisitos previos
 
