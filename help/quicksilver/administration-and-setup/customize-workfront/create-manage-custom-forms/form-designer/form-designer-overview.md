@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Puede utilizar el nuevo diseñador de formularios para diseñar un formulario pe
 
 El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones mientras diseña el formulario.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Diseñador de formularios de ejemplo](assets/form-designer-example.png)
 
 ## Cómo acceder al nuevo diseñador de formularios
 
@@ -41,17 +41,7 @@ Con el nuevo diseñador de formularios, se ha agregado la capacidad de:
 
   >[!NOTE]
   >
-  >La sección predeterminada no es visible dentro de los objetos una vez que el formulario está adjunto al objeto.
-
-## Funcionalidad próximamente
-
-Los siguientes elementos no están disponibles actualmente en el diseñador de formularios, pero se agregarán próximamente:
-
-* Filtrar por campos de escritura anticipada
-
->[!IMPORTANT]
->
->Las configuraciones existentes para los filtros de escritura anticipada no se verán afectadas cuando trabaje con el nuevo diseñador de formularios.
+  >La sección Predeterminada no está visible dentro de los objetos una vez que el formulario está adjunto al objeto.
 
 ## Funcionalidad quitada del diseñador de formularios
 

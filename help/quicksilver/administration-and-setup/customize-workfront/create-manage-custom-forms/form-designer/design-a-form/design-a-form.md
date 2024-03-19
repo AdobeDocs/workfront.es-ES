@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ Puede agregar campos de escritura anticipada y fecha a un formulario personaliza
 
 +++
 
-Para agregar campos de fecha de escritura anticipada:
+Para añadir los campos de fecha y tipo &quot;delante&quot;:
 
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
@@ -482,6 +482,25 @@ Para agregar campos de fecha de escritura anticipada:
          <td><ul>
     <li>Escritura anticipada</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Agregar filtro</td>
+      <td><p>Añada un filtro para un tipo de objeto para limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
+       <ul> 
+        <li>Pertenecen a uno o varios grupos especificados</li> 
+        <li>Están asociados a un rol o cargo que especifique</li> 
+        <li>Pertenecen al mismo grupo que la persona que utiliza el campo</li> 
+       </ul> <p>Debe definir el filtro para el tipo de objeto seleccionado mediante la sintaxis de Modo de texto. Para obtener información sobre cómo crear un filtro con el modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edición de un filtro mediante el modo de texto</a>.</p>
+       <p><b>NOTA</b>:
+       <ul> 
+        <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo de escritura anticipada no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
+        <li>Este filtro no está disponible en dispositivos móviles. Si utiliza el filtro para un campo de escritura anticipada, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Escritura anticipada</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td> 
