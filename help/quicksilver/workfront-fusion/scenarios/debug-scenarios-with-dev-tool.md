@@ -7,9 +7,9 @@ description: La herramienta de desarrollo de Adobe Workfront Fusion le permite c
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1831'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Depurar escenarios con [!DNL Adobe Workfront Fusion] Devtool
 
 El [!DNL Adobe Workfront Fusion] Devtool le permite comprender y solucionar problemas de escenarios. Devtool añade un panel adicional a [!DNL Chrome Developer Tools]. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
+
+>[!NOTE]
+>
+>El inicio de sesión en el panel del depurador estará limitado o no estará disponible para situaciones confidenciales, ejecuciones automáticas y operaciones correctas.
 
 Para ver un vídeo introductorio y una guía general de Fusion Devtool, consulte
 
