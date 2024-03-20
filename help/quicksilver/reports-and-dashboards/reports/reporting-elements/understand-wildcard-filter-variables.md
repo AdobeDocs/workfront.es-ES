@@ -7,9 +7,9 @@ description: Mediante el uso de caracteres comodín en los filtros, se puede hac
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ Para indicar varios períodos de tiempo y varios puntos en el tiempo (futuros o 
 
 | **Calificadores** | |
 |---|---|
-| **b** | comienzo de la semana (domingo) |
-| **e** | Fin de semana (sábado) |
+| **b** | comienzo del período (sin un atributo especificado, el valor predeterminado es comienzo de semana: domingo) |
+| **e** | final del periodo (sin un atributo especificado, de forma predeterminada fin de semana: sábado) |
 
 {style="table-layout:auto"}
 

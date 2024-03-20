@@ -4,9 +4,9 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:
 
 Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:47)
+
 ## La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/
 Los comentarios realizados en los registros de actividad del sistema en la experiencia de comentarios heredada ahora se rellenan en la pestaña Actividad del sistema en la nueva experiencia de comentarios como de solo lectura. No puede responder a los registros de actividad del sistema en la nueva experiencia de comentarios.
 
 Para obtener más información, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:00 en el vídeo).
 
 ## Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema
 
@@ -62,6 +66,8 @@ La pestaña Todos es de solo lectura. No puede responder a comentarios ni etique
 
 Para obtener más información, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 0:31 en el vídeo.)
+
 ## Nuevo flujo de comentarios ahora disponible en el Panel de resumen
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Para obtener más información, consulte [Información general de la sección Ac
 Ahora hemos agregado la nueva funcionalidad de comentarios al Panel de resumen para listas de tareas y problemas.
 
 Para obtener más información, consulte [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427991/){target=_blank}

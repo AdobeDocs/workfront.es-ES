@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del segundo trimestre de 2024. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+En lugar de un seminario web de lanzamiento, le invitamos a [registrarse para el Adobe Summit](https://summit.adobe.com/na/) para ver las siguientes sesiones de Workfront:
+
+[El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) el 26 de marzo de 2024 para echar un vistazo al futuro de la planificación estratégica y el flujo de trabajo. Descubra cómo el equipo de Workfront planea abordar las funcionalidades empresariales en todo el ciclo de vida de marketing, todo con un enfoque de IA-First para automatizar el trabajo, simplificar las experiencias de los usuarios y aumentar la productividad.
+
+[Presentación de los calendarios y herramientas de marketing para la planificación de campañas de extremo a extremo](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) el 23 de marzo de 2023, para obtener información acerca de las nuevas funciones de los productos diseñadas para permitir que su organización administre y visualice ciclos de vida operativos de extremo a extremo.
 
 <span class="preview">Las funciones fuera de ciclo (las que se lanzaron a Producción antes de la fecha de lanzamiento del segundo trimestre de 2024) se resaltan en amarillo.</span>
 
