@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >[!IMPORTANT]
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
+
+## Semana del 18 de marzo de 2024
+
+### Filtros disponibles en la vista de calendario
+
+Producción: 19 de marzo de 2024
+
+Vista previa: por determinar
+
+Ahora puede filtrar la información en la vista de calendario. Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Cuadro de detalles agregado a las vistas de calendario y cronología
+
+Producción: 19 de marzo de 2024
+
+Vista previa: por determinar
+
+Ahora puede acceder al cuadro Detalles de un registro desde las vistas Cronología y Calendario. Puede editar registros en el cuadro Detalles dentro de las vistas Cronología y Calendario.
+
+En el cuadro Detalles, puede abrir la página Detalles del registro.
+
+Para obtener más información, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
+
+### La importación de Excel del tipo de registro está desactivada temporalmente
+
+Producción: 21 de marzo de 2024
+
+Vista previa: por determinar
+
+Se está desactivando temporalmente la importación de tipos de registros mediante un archivo de Excel o CSV. Esta funcionalidad estará disponible más adelante.
 
 ## Semana del 11 de marzo de 2024
 

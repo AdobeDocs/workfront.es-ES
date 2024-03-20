@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 | Creación de taxonomías | ✓ |                                  |                  |
 | Creación de registros y taxonomías individuales con nombre | ✓ |                                  |                  |
 | Crear campos personalizados de registro | ✓ |                                  |                  |
-| Importar tipos de registros y campos mediante un archivo CSV o de Excel | ✓ |                                  |                  |
+| Importar tipos de registros y campos mediante un archivo CSV o de Excel* | ✓ |                                  |                  |
 | Enlazar registros | ✓ |                                  |                  |
 | Visualización de registros en una tabla | ✓ |                                  |                  |
 | Visualización de registros en una cronología | ✓ |                                  |                  |
@@ -275,7 +275,12 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |
 | Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
-| Tamaño del archivo CSV de Excel que puede importar en una tabla | 5 MB |
+| Tamaño del archivo CSV de Excel que puede importar* | 5 MB |
+
+>[!IMPORTANT]
+>
+>*Esta funcionalidad se ha desactivado temporalmente y estará disponible en una fecha posterior
+
 
 ## Localice las funcionalidades de planificación de Adobe Workfront
 

@@ -4,9 +4,9 @@ description: Puede mostrar registros y sus campos en una vista de calendario.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Para administrar una vista de calendario:
    * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo:
 
       * Mes
+1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
+   * [Filtros](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Añadir filtros
+
+Puede reducir la cantidad de información que se muestra en la pantalla mediante filtros.
+
+Tenga en cuenta lo siguiente al trabajar con filtros en la vista de calendario:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* Los filtros que cree para una vista de calendario funcionarán de forma independiente de los filtros de cualquier otra vista aplicada al mismo tipo de registro.
+
+* Los filtros son exclusivos de la vista seleccionada. Dos vistas de calendario del mismo tipo de registro pueden tener diferentes filtros aplicados.
+
+* Dos usuarios que ven la misma vista de calendario ven el mismo filtro que se aplica actualmente.
+
+* No puede asignar un nombre a los filtros que genere para una vista de calendario.
+
+* Al eliminar los filtros, se eliminan de todos los que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
+
+* Añadir filtros en la vista de calendario es idéntico a añadir filtros en la vista de tabla.
+
+  Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.

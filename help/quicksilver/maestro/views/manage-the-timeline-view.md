@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Los filtros que cree para la vista de cronología funcionarán de forma independiente de los filtros de la vista de tabla cuando se apliquen al mismo tipo de registro.
+* Los filtros que cree para una vista de cronología funcionarán de forma independiente de los filtros de cualquier otra vista aplicada al mismo tipo de registro.
 
-* Los filtros son exclusivos de la vista seleccionada. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes filtros aplicados. Dos usuarios que ven la misma vista de cronología ven el mismo filtro que se aplica actualmente.
+* Los filtros son exclusivos de la vista seleccionada. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes filtros aplicados.
+
+* Dos usuarios que ven la misma vista de cronología ven el mismo filtro que se aplica actualmente.
 
 * No puede asignar un nombre a los filtros que genere para una vista de cronología.
 
