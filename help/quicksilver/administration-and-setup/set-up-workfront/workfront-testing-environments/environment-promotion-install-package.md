@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Cada tipo de objeto aparece en la lista de navegación izquierda y en una tarjeta. La tarjeta muestra objetos de ese tipo y si existen en el entorno de destino. Puede determinar cómo se moverán estos objetos al entorno de destino.
 
-* Crear nuevo: el objeto se encuentra en el entorno de destino
+* Crear nuevo: crea un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
 * Usar existente: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no se modifica.
 * Sobrescribir existente: (no disponible actualmente) el objeto del paquete reemplaza al objeto existente en el entorno de destino.
-* No utilizar: si selecciona No utilizar, aparecerá un mensaje de error que detalla cómo esta opción afectará a otros objetos o campos.
+* No utilizar: el objeto del paquete no está instalado en el entorno de destino. Si selecciona No utilizar, aparecerá un mensaje de error que detalla cómo esta opción afectará a otros objetos o campos.
 
 Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino, y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
 

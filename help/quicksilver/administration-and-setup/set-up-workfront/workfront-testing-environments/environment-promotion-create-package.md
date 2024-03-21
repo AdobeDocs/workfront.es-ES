@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 0%
    O
 
    Clic **Guardar y montar** para guardar y montar el paquete.
+
+   >[!NOTE]
+   >
+   >* Los botones Guardar y Cerrar y Guardar y Montar están disponibles si un paquete tiene un nombre con cinco o más caracteres y al menos un objeto añadido.
+   >* No puede montar un paquete que esté en un estado instalable como Pruebas o Activo.
 
 ## Editar o montar un paquete existente
 
