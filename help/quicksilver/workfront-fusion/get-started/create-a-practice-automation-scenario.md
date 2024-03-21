@@ -7,9 +7,9 @@ description: En este artículo se describe cómo crear un escenario de automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Para este ejemplo, no se utiliza un módulo de déclencheur. En su lugar, este e
 
    ![](assets/pre-loaded-app-wf-350x172.png)
 
-1. Haga clic **[!DNL Workfront]**.
+1. Clic **[!DNL Workfront]**.
 
    La lista cambia para mostrar todo [!DNL Workfront] módulos que puede utilizar como módulo de déclencheur.
 
@@ -160,7 +160,7 @@ Después de conectar [!DNL Workfront Fusion] a su [!DNL Workfront] cuenta, puede
    1. Para el operador, seleccione [!UICONTROL Contiene (sin distinción de mayúsculas)]. Esto permite que el módulo encuentre proyectos con las palabras elegidas en el nombre, aunque no introduzca el nombre completo o el nombre con mayúsculas o minúsculas incorrectas (como todas las mayúsculas).
    1. En el último campo debajo de [!UICONTROL Criterios de búsqueda], escriba una palabra o frase que sepa que está en el nombre del proyecto que está buscando.
 
-1. En el **[!UICONTROL Salidas]** , seleccione los campos de salida de los que desea que salga el problema. Para este ejemplo, seleccione **[!UICONTROL ID]** y **[!UICONTROL Nombre]** campos.
+1. En el **[!UICONTROL Salidas]** , seleccione los campos de salida que desea que muestre el módulo. Para este ejemplo, seleccione **[!UICONTROL ID]** y **[!UICONTROL Nombre]** campos.
 
    >[!TIP]
    >
