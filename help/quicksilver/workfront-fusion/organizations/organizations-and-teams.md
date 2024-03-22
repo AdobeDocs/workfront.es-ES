@@ -8,9 +8,9 @@ description: Las funciones de organización y equipos de Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
+source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -169,19 +169,13 @@ Para crear un equipo:
 
 >[!NOTE]
 >
->Si accede a [!DNL Fusion] a través de [!DNL Adobe Experience Cloud], las notificaciones se gestionan en el [!DNL Experience Cloud] centro de notificaciones.
->
->Para obtener más información, consulte [Acceso a las notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-Las opciones de notificación por correo electrónico se establecen en el nivel de equipo.
-
->[!NOTE]
->
 >Si su organización se ha movido al shell unificado, recibirá notificaciones a través del área Notificaciones de Adobe. Debe utilizar la experiencia Unified Shell para poder ver las notificaciones en el área de Notificaciones de Adobe.
 >
 >Para usar la experiencia Unified Shell, incluido el área de Notificaciones de Adobe, haga clic en el botón Probar nueva interfaz de usuario de Fusion en Unified Experience situado cerca de la parte superior de la página. Este botón solo está disponible si su organización se ha trasladado a Unified Shell.
 >
->Para obtener más información sobre la localización de notificaciones en Unified Shell, consulte [Acceso a las notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>Para obtener más información, consulte [Acceso a las notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] para [!DNL Workfront Fusion].
+
+Las opciones de notificación por correo electrónico se establecen en el nivel de equipo.
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Equipo]**
 1. Seleccione el **[!UICONTROL Opciones de notificación]** pestaña.
