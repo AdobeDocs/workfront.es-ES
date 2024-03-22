@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Para obtener más información sobre la configuración [!DNL Workfront] con SSO,
 
 ## Uso y disponibilidad previstos
 
-[!DNL Workfront] Los entornos de la zona protegida de actualización personalizada no están pensados para pruebas de carga o rendimiento. En su lugar, utilice estos entornos para validar la funcionalidad de las funciones con los flujos de trabajo existentes de su organización.
+* [!DNL Workfront] Los entornos de la zona protegida de actualización personalizada no están pensados para pruebas de carga o rendimiento. En su lugar, utilice estos entornos para validar la funcionalidad de las funciones con los flujos de trabajo existentes de su organización.
 
-[!DNL Workfront] Los entornos de la zona protegida de actualización personalizada están pensados para estar siempre disponibles. Cualquier interrupción en un entorno de espacio aislado de actualización personalizado de Workfront durante el horario laboral normal será una prioridad inmediata después de resolver cualquier problema de producción, si existe. Cualquier interrupción en un entorno de espacio aislado de actualización personalizado de Workfront los fines de semana (sábados y domingos) se solucionará para que el entorno se ejecute en horario laboral los lunes.
+* [!DNL Workfront] Los entornos de la zona protegida de actualización personalizada están pensados para estar siempre disponibles. Cualquier interrupción en un entorno de espacio aislado de actualización personalizado de Workfront durante el horario laboral normal será una prioridad inmediata después de resolver cualquier problema de producción, si existe. Cualquier interrupción en un entorno de espacio aislado de actualización personalizado de Workfront los fines de semana (sábados y domingos) se solucionará para que el entorno se ejecute en horario laboral los lunes.
+
+* La revisión no está disponible en los entornos de la zona protegida de actualización personalizada.
