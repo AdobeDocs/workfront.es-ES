@@ -6,9 +6,9 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
     Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
 
 * **Tareas pendientes**\
-    Este widget único le permite agregar elementos de texto a una lista de comprobación personal que puede editar libremente.
+    Este widget único le permite agregar elementos a una lista de comprobación personal que puede editar libremente. Las tareas pendientes se rastrean como tareas en su proyecto personal y permanecen hasta dos semanas después de su finalización.
 
   >[!NOTE]
   >
@@ -117,7 +117,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
         <td>Mis proyectos, esperando mi aprobación</td>
     </tr>
     <tr>
-        <td>Contribuir</td>
+        <td>Aportar</td>
         <td>Mi trabajo, menciones</td>
     </tr>
     <tr>

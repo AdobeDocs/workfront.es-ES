@@ -4,9 +4,9 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Los comentarios realizados en los registros de actividad del sistema en la exper
 
 Para obtener más información, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:00 en el vídeo).
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:00)
 
 ## Nueva pestaña Actualizar flujo para capturar tanto los comentarios como las entradas de actividad del sistema
 
@@ -66,7 +66,7 @@ La pestaña Todos es de solo lectura. No puede responder a comentarios ni etique
 
 Para obtener más información, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 0:31 en el vídeo.)
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427992/){target=_blank} (El debate sobre esta característica específica comienza a las 0:31)
 
 ## Nuevo flujo de comentarios ahora disponible en el Panel de resumen
 
