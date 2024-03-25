@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 ## Paso 1: Cómo llegar a Maestro - {#step1-to-maestro}
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Maestro]**.
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Planificación]**.
 
 ## Introducción importante de Maestro: {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a las funciones de planificación de Adobe Workfront, una nueva oferta de Adobe Workfront.
+>La información de este artículo hace referencia a la planificación de Adobe Workfront, una nueva oferta de Adobe Workfront.
 >
->Actualmente, las funciones de planificación forman parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
+>Actualmente, la planificación de Workfront forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
 >
->Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta para las funciones de planificación.
+>Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta para la planificación de Workfront.
 >
->Para obtener más información sobre las capacidades de planificación, consulte [Resumen de funcionalidades de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Para obtener más información, consulte [Información general de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

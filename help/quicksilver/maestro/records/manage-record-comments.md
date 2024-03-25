@@ -1,16 +1,16 @@
 ---
 title: Administrar comentarios de registro
-description: Puede colaborar en los registros de Adobe Maestro agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+description: Puede colaborar en registros de planificación de Adobe Workfront agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # Administrar comentarios de registro
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Puede colaborar en los registros de Adobe Maestro agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+Puede colaborar en registros de planificación de Adobe Workfront agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 
 El panel derecho de un registro muestra las siguientes secciones:
 
 * **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros.
 * **Historial**: Muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro. Para obtener más información, consulte [Resumen de la sección Historial](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->El panel derecho muestra tanto los registros operativos como los registros de taxonomía.
-
-
 ## Consideraciones acerca de los comentarios en un registro
 
-* Puede agregar comentarios y respuestas a registros operativos y taxonomías en Maestro, en la sección Comentarios de un registro.
+* Puede agregar comentarios y respuestas a los registros en Workfront Planning, en la sección Comentarios de un registro.
 
-* Los comentarios agregados a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Maestro que está vinculado a un registro de Campaign, el comentario sólo se mostrará en el registro de producto de Maestro y no en el registro de campaña desde el que está vinculando.
+* Los comentarios agregados a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Workfront Planning vinculado a un registro de campaña, el comentario solo se muestra en el registro de producto de Workfront Planning y no en el registro de campaña desde el que está vinculando.
 
-* Puede agregar comentarios a los registros de Maestro creados como resultado de una conexión entre un registro de Maestro y un objeto de otra aplicación.
+* Puede agregar comentarios a los registros de planificación de Workfront creados como resultado de una conexión entre un registro y un objeto de otra aplicación.
 
-  Por ejemplo, puede realizar comentarios en el registro de Project Maestro después de conectar proyectos de Workfront con registros de Maestro. Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
+  Por ejemplo, puede realizar comentarios en el registro de planificación de Project Workfront después de conectar proyectos de Workfront con registros de planificación de Workfront. Para obtener más información, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
-* Los comentarios agregados a objetos vinculados en otras aplicaciones no se muestran en Maestro y los comentarios agregados a objetos vinculados en Maestro no se muestran en otras aplicaciones.
+* Los comentarios agregados a objetos vinculados en otras aplicaciones no se muestran en la planificación de Workfront y los comentarios agregados a objetos vinculados en la planificación de Workfront no se muestran en otras aplicaciones.
 
-  Por ejemplo, los comentarios agregados a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Maestro y los comentarios agregados al registro de proyecto Maestro no se muestran en Workfront.
+  Por ejemplo, los comentarios añadidos a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en la planificación de Workfront y los comentarios añadidos al registro de planificación de Workfront del proyecto no se muestran en Workfront.
 
 * Puede etiquetar a los usuarios para que presten atención a una actualización. Los usuarios etiquetados no reciben una notificación dentro de la aplicación ni un correo electrónico sobre su actualización. <!--this might change??-->
 
-* Puede agregar una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Maestro:
+* Puede agregar una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de la planificación de Workfront:
 
-   * Desde la página Detalles de un registro o taxonomía.
+   * Desde la página Detalles de un registro.
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso en Maestro. </p>  
+   <td> <p>No hay controles de nivel de acceso en la planificación de Workfront. </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ El último espacio de trabajo al que se accede se abre de forma predeterminada.
 
 ## Resumen de la sección Historial
 
-Puede revisar los cambios realizados en el registro en la sección Historial del panel derecho de un registro operativo o taxonomía.
+Puede revisar los cambios realizados en el registro en la sección Historial del panel derecho de un registro.
 
 Para obtener más información, consulte [Resumen de la sección Historial](/help/quicksilver/maestro/records/history-section-overview.md).
-

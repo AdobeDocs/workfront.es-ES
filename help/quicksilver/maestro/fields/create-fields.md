@@ -1,13 +1,13 @@
 ---
 title: Creación de campos
-description: En Adobe Maestro, puede crear campos personalizados para cada tipo de tipo de registro operativo o taxonomía. A continuación, puede asociar el campo con los registros de Maestro.
+description: En Adobe Workfront Planning, puede crear campos personalizados para cada tipo de registro. A continuación, puede asociar el campo con los registros de planificación de Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-En Adobe Maestro, puede crear campos personalizados para tipos de registros operativos o taxonomías. A continuación, puede asociar los campos con los registros de Maestro para mejorar la información de los registros.
+En la planificación de Adobe Workfront, puede crear campos personalizados para los tipos de registro. A continuación, puede asociar los campos con los registros de planificación de Workfront para mejorar la información de los registros.
 
 Debe crear tipos de registros antes de poder crear campos que se asocien a ellos. Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay control de nivel de acceso para Maestro</p>  
+   <td> <p>No hay control de nivel de acceso para la planificación de Workfront</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Para obtener más información, consulte [Información general sobre campos de f
 
    Para obtener más información sobre las expresiones admitidas, consulte [Información general sobre campos de fórmula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Agregue nombres de campo tal y como se muestran en la interfaz de Maestro para hacer referencia a ellos en una fórmula.
+1. Agregue nombres de campo tal y como se muestran en la interfaz de planificación de Workfront para hacer referencia a ellos en una fórmula.
 
    >[!NOTE]
    >
    > * No se pueden agregar campos de tipo Selección múltiple en una fórmula.
    >
-   > * No se pueden agregar campos de registros vinculados en una fórmula. Esta funcionalidad se lanzará más adelante. Para obtener más información sobre las nuevas versiones, consulte [actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+   > * No se pueden agregar campos de registros vinculados en una fórmula. Esta funcionalidad se lanzará más adelante. Para obtener más información sobre las nuevas versiones, consulte [Actividad de lanzamiento de planificación de Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Haga clic en **Crear**.
@@ -513,7 +513,7 @@ Puede utilizar el tipo de campo Fecha de la última modificación para agregar l
 
 Puede crear campos de registro vinculados cuando agregue una nueva conexión entre dos tipos de registro Maestro o un tipo de registro y un tipo de objeto de otras aplicaciones.
 
-Para obtener información acerca de cómo conectar tipos de registros de Maestro, vea [Conectar tipos de registros](../architecture/connect-record-types.md)
+Para obtener información sobre cómo conectar tipos de registros de planificación de Workfront, consulte [Conectar tipos de registros](../architecture/connect-record-types.md)
 
 ## Crear campos mediante la importación de tipos de registro mediante un archivo CSV y de Excel
 
@@ -521,10 +521,10 @@ Para obtener más información, consulte [Creación de tipos de registros](../ar
 
 ## Creación de campos creando un tipo de registro
 
-Al crear un tipo de registro, también se crean de forma predeterminada varios campos asociados al nuevo tipo de registro. Para obtener más información, consulte [Creación de tipos de registros operativos](../architecture/create-record-types.md).
+Al crear un tipo de registro, también se crean de forma predeterminada varios campos asociados al nuevo tipo de registro. Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
 ## Creación de campos creando un espacio de trabajo a partir de una plantilla
 
-Maestro crea campos para tipos de registros operativos y taxonomías cuando se crea un espacio de trabajo a partir de una plantilla.
+La planificación de Adobe Workfront crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla.
 
-Para obtener más información, consulte [Creación de espacios de trabajo operativos](../architecture/create-workspaces.md).
+Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/maestro/architecture/create-workspaces.md).

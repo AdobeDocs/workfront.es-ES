@@ -1,13 +1,13 @@
 ---
 title: Creación de espacios de trabajo
-description: Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Maestro.
+description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En Adobe Maestro, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
+En la planificación de Adobe Workfront, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
-Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Maestro.
+Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -41,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de planificación de Workfront de Adobe. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -54,13 +54,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
    <p>Nuevo: estándar</p>
+   O
    <p>Actual: plan</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>
+   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>
 </td>
   </tr>
 
@@ -72,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>Debe agregar el área de Maestro a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>Debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
@@ -81,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -95,9 +96,9 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 ## Consideraciones sobre espacios de trabajo
 
 * Puede crear espacios de trabajo para unidades organizativas específicas dentro de su organización, de modo que coincidan con el modo exclusivo en que funciona cada unidad.
-* Los tipos de registro y las taxonomías que contiene un espacio de trabajo deben reflejar el ciclo de vida de trabajo de una unidad organizativa.
-* Al crear un espacio de trabajo, sólo usted tiene permiso para acceder y administrar el espacio de trabajo. Debe compartirlo con otros usuarios para que puedan colaborar con usted en el mismo espacio. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md).
-* Puede tener un máximo de 1000 espacios de trabajo en su organización.
+* Los tipos de registro que contiene un espacio de trabajo deben reflejar el ciclo de vida laboral de una unidad organizativa.
+* Al crear un espacio de trabajo, sólo usted tiene permiso para acceder y administrar el espacio de trabajo. Debe compartirlo con otros usuarios para que puedan colaborar con usted en el mismo espacio. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md). Los administradores del sistema pueden administrar todos los espacios de trabajo, incluso los que no hayan creado.
+* Puede tener un máximo de 1000 espacios de trabajo en la instancia de Workfront de su organización.
 * Los espacios de trabajo contienen tipos de registros exclusivos de cada espacio de trabajo. <!--this might change-->
 
 ## Crear un espacio de trabajo
@@ -110,7 +111,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Se abrirá el área Espacios de trabajo de Maestro.
+   Esto abre el área Espacios de trabajo de la planificación de Workfront.
 1. (Opcional y condicional) Haga clic en **Previsualizar** dentro de cualquiera de las siguientes plantillas predefinidas de workspace:
 
    * Gestión de marketing
@@ -121,7 +122,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Para obtener información acerca de las plantillas de área de trabajo de Maestro, vea [Lista de plantillas de Workspace](../architecture/workspace-templates.md).
+   Para obtener información sobre las plantillas de espacio de trabajo de planificación de Workfront, consulte [Lista de plantillas de Workspace](../architecture/workspace-templates.md).
 
 1. Clic **Usar plantilla** para empezar a crear el espacio de trabajo a partir de la plantilla seleccionada
 
@@ -131,8 +132,8 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    Se crea uno para los siguientes tipos de espacios de trabajo:
 
-   * Espacio de trabajo vacío en el que puede empezar a agregar tipos de registros manualmente.
-   * Espacio de trabajo rellenado con tipos de registros de ejemplo que se pueden personalizar aún más.
+   * Espacio de trabajo vacío en el que puede empezar a agregar tipos de registros manualmente al crear un espacio de trabajo desde cero.
+   * Espacio de trabajo rellenado con tipos de registros de ejemplo que se pueden personalizar aún más al utilizar una de las plantillas.
 
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse Entrar
 
@@ -140,10 +141,30 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Cambiar nombre**.
 
+1. (Opcional y condicional) Si el espacio de trabajo ya tiene secciones, haga clic en **Agregar sección** para agregar una nueva sección a un espacio de trabajo. Una sección puede contener varios tipos de registros.
+
+1. (Opcional y condicional) Si ha creado el espacio de trabajo a partir de una plantilla, haga clic dentro del nombre del **Tipos de registros operativos** o **Taxonomías** secciones
+
+   O
+
+   Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Cambiar nombre** para cambiar el nombre de la sección.
+
+   >[!TIP]
+   >
+   >Puede cambiar el nombre de cualquier sección desde cualquier espacio de trabajo, incluso si ha creado la sección.
+
+1. (Opcional) Para cambiar la ubicación de una sección, siga uno de estos procedimientos:
+
+   * Pase el ratón sobre el nombre de una sección y haga clic en **agarrar** icono ![](assets/grab-icon.png)A continuación, arrástrela y suéltela en el lugar correcto.
+   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Mover hacia arriba** o **Mover hacia abajo**. La sección se mueve hacia arriba o hacia abajo dentro del espacio de trabajo.
+
+1. (Opcional) Para agregar una nueva sección, siga uno de estos procedimientos:
+
+   * Clic **Agregar sección** en la parte inferior del espacio de trabajo.
+   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Agregar sección anterior** o **Agregar sección debajo**.
+
 1. (Opcional) Haga clic en **Añadir tipo de registro** para agregar tipos de registros al espacio de trabajo.
 
    Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
-1. (Opcional) Haga clic en **Añadir taxonomía** para agregar taxonomías al espacio de trabajo.
 
-   Para obtener más información, consulte [Creación de taxonomías](../architecture/create-a-taxonomy.md).

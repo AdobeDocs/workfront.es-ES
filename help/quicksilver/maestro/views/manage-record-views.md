@@ -1,13 +1,13 @@
 ---
 title: Administrar vistas de registros
-description: Puede mostrar registros en una tabla, una escala de tiempo o una vista de calendario al utilizar las funciones de planificación de Adobe Workfront.
+description: Puede mostrar registros en una tabla, una escala de tiempo o una vista de calendario si utiliza la planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Después de seleccionar un tipo de registro en el área de funciones de planificación de Adobe Workfront, puede mostrar todos los registros de ese tipo en las siguientes vistas:
+Después de seleccionar un tipo de registro en el área de planificación de Adobe Workfront, puede mostrar todos los registros de ese tipo en las siguientes vistas:
 
 * Tabla
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para las funciones de planificación de Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del sistema debe añadir el área de planificación a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones al trabajar con vistas de registros
 
-* Las vistas del área de funciones de planificación de Workfront son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
+* Las vistas en la planificación de Workfront son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
-* La creación de vistas para tipos de registro operativo es idéntica a la creación de vistas para tipos de registro de taxonomía.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
 * Los siguientes elementos son exclusivos de cada vista de registro:
 
@@ -101,19 +100,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro solo son visibles en la vista seleccionada y no en todas las vistas que aparecen en el menú desplegable Ver.
+  Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro solo son visibles en la vista seleccionada y no en todas las vistas asociadas al tipo de registro.
 
   >[!NOTE]
   >
-  > Debido a que las funcionalidades de planificación de Adobe Workfront se encuentran actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
+  > Debido a que la planificación de Adobe Workfront está actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
 
 Este artículo describe la siguiente información sobre las vistas de registros:
 
 * [Creación y edición de una vista](#create-or-edit-record-views)
 * [Eliminación de una vista](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Duplicación de una vista](#duplicate-views)
 * [Compartir una vista](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Similitudes y diferencias entre vistas de registros
 
@@ -233,20 +232,30 @@ Para obtener información sobre cómo compartir vistas, consulte [Compartir vist
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Duplicación de una vista
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Si desea conservar varias versiones de una vista y realizar ligeros cambios entre ellas, puede duplicar una vista.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+Al duplicar una vista, se crean copias idénticas de una vista existente.
 
-    By default, all the records of the type selected display in the table view. 
+Los permisos de uso compartido de la vista original no se transfieren a la vista duplicada.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada.
+
+Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+
+1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
+
+   De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
+
+1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Duplicar**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   La vista se duplica y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva pestaña de vista se muestra al final de todas las pestañas de vista.
+

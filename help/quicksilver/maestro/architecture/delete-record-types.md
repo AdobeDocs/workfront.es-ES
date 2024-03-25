@@ -1,21 +1,21 @@
 ---
 title: Eliminar tipos de registros
-description: Puede eliminar tipos de registros operativos o tipos de registros de taxonomía cuando ya no sean relevantes.
+description: Puede eliminar los tipos de registro cuando ya no sean relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+<!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -29,11 +29,11 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede eliminar tipos de registros operativos o tipos de registros de taxonomía cuando ya no sean relevantes.
+Puede eliminar los tipos de registro cuando ya no sean relevantes.
 
-Para obtener información sobre los tipos de registros y las taxonomías, consulte [Información general sobre los tipos de registros y las taxonomías](../architecture/overview-of-record-types-and-taxonomies.md).
+Sin embargo, al eliminar los tipos de registro también se elimina toda la información asociada a los tipos de registro. Para obtener más información, consulte la [Consideraciones al eliminar tipos de registros](#considerations-when-deleting-record-types) de este artículo.
 
-Se recomienda volver a crear los campos y los registros asociados con el tipo de registro o la taxonomía que desea eliminar en otro tipo de registro antes de eliminarlos.
+Para obtener información sobre los tipos de registros, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>  
 </td>
   </tr>
 
@@ -86,14 +86,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -108,13 +108,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Solo puede eliminar tipos de registros o taxonomías de espacios de trabajo en los que tenga permisos de administración de.
-* Al eliminar los tipos de registro, se elimina toda la información asociada a ellos, incluidos los campos y registros de ese tipo. El tipo de registro se elimina de todos los usuarios que acceden al espacio de trabajo.
+* Solo puede eliminar tipos de registro de espacios de trabajo en los que tenga permisos de administración.
+* Al eliminar los tipos de registro, se elimina la siguiente información asociada a ellos:
+
+   * Todos los registros de ese tipo.
+   * Todos los campos asociados al tipo de registro.
+   * Todas las vistas (incluidos filtros, agrupaciones y criterios de ordenación) del tipo de registro.
+* El tipo de registro se elimina de todos los usuarios que acceden al espacio de trabajo.
 * No se pueden recuperar los tipos de registros eliminados ni su información.
+* Se recomienda volver a crear los campos y los registros asociados al tipo de registro que desea eliminar en otro tipo de registro antes de eliminarlos.
 
 ## Eliminar tipos de registros
-
-La eliminación de tipos de registros de taxonomía es idéntica a la eliminación de tipos de registros operativos.
 
 {{step1-to-maestro}}
 
@@ -123,10 +127,10 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
 
    El espacio de trabajo se abre y se muestran los tipos de registro y las taxonomías asociadas a él.
-1. Haga clic en la tarjeta del tipo de registro o de la taxonomía que desee eliminar.
+1. Haga clic en la tarjeta del tipo de registro que desee eliminar.
 
    Se abre la página del tipo de registro.
 1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**.
 1. Clic **Eliminar** para confirmar.
 
-   El tipo de registro o taxonomía seleccionados, junto con sus campos y registros asociados, se eliminan.
+   El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminan.

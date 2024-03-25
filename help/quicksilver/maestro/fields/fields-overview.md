@@ -1,13 +1,13 @@
 ---
 title: Resumen de campo
-description: Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
+description: Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen el ciclo vital de su organización. Los campos son atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
+Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen el ciclo vital de su organización. Los campos son atributos de tipos de registro.
 
 
-## Consideraciones sobre los campos de Maestro
+## Consideraciones sobre los campos de planificación de Adobe Workfront
 
 * Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla. Todos los campos asociados a un tipo de registro también se muestran en la página Detalles de cada registro de ese tipo.
 
@@ -56,42 +56,36 @@ Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su
 
         Este artículo describe cómo crear campos manualmente.
 
-      * Conectando tipos de registros. Puede crear campos de registro vinculados cuando agregue una nueva conexión entre dos tipos de registro Maestro o un tipo de registro y un tipo de objeto de otras aplicaciones.
+      * Conectando tipos de registros. Puede crear campos de registro vinculados al agregar una nueva conexión entre dos tipos de registro o un tipo de registro y un tipo de objeto de otras aplicaciones.
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Para obtener más información acerca de cómo conectar tipos de registros de Maestro, vea [Conectar tipos de registros](../architecture/connect-record-types.md).
+        Para obtener más información sobre la conexión de tipos de registros, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
       * Mediante la importación de tipos de registros mediante un archivo CSV o de Excel. Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
    * Automáticamente:
 
-      * De forma predeterminada, cada vez que crea un tipo de registro.
+     Los siguientes son campos estándar creados de forma predeterminada para cada nuevo tipo de registro:
 
-        Los siguientes son campos estándar creados por defecto para cada nuevo tipo de registro operativo:
+      * Nombre
+      * Descripción
+      * Fecha de inicio
+      * Fecha de finalización
+      * Estado. Los valores predeterminados para los estados de registro son:
+         * Desarrollo
+         * Planificados
+         * Activo
+         * Finalizado
+         * En espera
 
-         * Nombre
-         * Descripción
-         * Fecha de inicio
-         * Fecha de finalización
-         * Estado. Los valores predeterminados para los estados de registro son:
-            * Desarrollo
-            * Planificados
-            * Activo
-            * Finalizado
-            * En espera
+        Puede agregar más valores o cambiar el nombre de los existentes.
 
-           Puede agregar más valores o cambiar el nombre de los existentes.
+     La planificación de Workfront crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
 
-        A continuación se muestran los campos estándar creados de forma predeterminada para cada nuevo tipo de registro de taxonomía:
+* No se puede acceder a los campos de planificación de Workfront desde Workfront.
 
-         * Nombre <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * Cuando se crea un espacio de trabajo a partir de una plantilla. Maestro crea campos para tipos de registros operativos y taxonomías cuando se crea un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
-
-* No se puede acceder a los campos Maestro desde Workfront.
-
-* Los campos de Workfront sólo son accesibles desde Maestro cuando conecta los tipos de registro de Maestro con los tipos de objetos de Workfront y agrega campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+* Los campos de Workfront solo son accesibles desde la planificación de Workfront cuando se conectan tipos de registro con tipos de objetos de Workfront y se agregan campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
 * Puede ver y actualizar la configuración de los campos que ha creado usted o cualquier otro usuario si tiene permisos de administración en el espacio de trabajo al que pertenece el campo.
 
@@ -99,4 +93,4 @@ Puede agregar nuevos campos en Adobe Maestro que reflejen el ciclo de vida de su
 
 * Los nombres de campo pueden tener hasta 250 caracteres.
 
-* Al eliminar un tipo de registro operativo, taxonomía o espacio de trabajo, todos los campos asociados a ellos y los valores de los campos también se eliminan y no se pueden recuperar. <!-- this might change with a possible recycle bin solution?!-->
+* Al eliminar un tipo de registro o espacio de trabajo, todos los campos asociados a ellos y los valores de los campos también se eliminan y no se pueden recuperar. <!-- this might change with a possible recycle bin solution?!-->

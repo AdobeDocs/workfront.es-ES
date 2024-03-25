@@ -1,13 +1,13 @@
 ---
 title: Editar campos
-description: En Adobe Maestro, puede editar la configuración de los campos que ya se han creado.
+description: En Adobe Workfront Planning, puede editar la configuración de campo para los campos que ya se han creado.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Puede editar la configuración de campo de los campos que ya se han creado.
+Puede editar la configuración de campo de los campos que ya se han creado en la planificación de Adobe Workfront.
 
-Para obtener información sobre la creación de campos Maestro de Adobe, consulte [Creación de campos](../fields/create-fields.md).
+Para obtener información sobre la creación de campos de planificación de Adobe Workfront, consulte [Creación de campos](../fields/create-fields.md).
 
-Este artículo describe cómo puede editar la configuración de los campos de Maestro. Para obtener información acerca de cómo modificar los valores de los campos de los registros Maestro, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
+En este artículo se describe cómo editar la configuración de los campos de planificación de Workfront. Para obtener información sobre la edición de valores de campo para registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Consideraciones sobre la edición de información de campo
 
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para Maestro</p>  
+   <td> <p>No hay controles de acceso para la planificación de Workfront</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Editar campos
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-workfront.png) en la esquina superior derecha de Workfront o en la **Menú principal** icono ![](assets/main-menu-shell.png)  en la esquina superior izquierda, si está disponible, haga clic en **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+    El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
 
-   El espacio de trabajo se abre y se muestran los tipos de registro y las taxonomías asociadas a él.
-1. Haga clic en la tarjeta del tipo de registro o de la taxonomía cuyos campos desee editar.
+   Se abre el espacio de trabajo y se muestran los tipos de registro asociados a él.
+1. Haga clic en la tarjeta del tipo de registro cuyos campos desee editar.
 
    Se abre la página del tipo de registro.
 1. (Condicional) Seleccione una **Vista de tabla** desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.

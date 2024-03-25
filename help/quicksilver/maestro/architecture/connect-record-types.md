@@ -1,20 +1,20 @@
 ---
 title: Conectar tipos de registros
-description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar los tipos de registros de Maestro con los tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
+description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar los tipos de registros de planificación de Adobe Workfront con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Puede utilizar Adobe Maestro para diseñar espacios de trabajo totalmente personalizables que contengan los tipos de registros necesarios en su organización. Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar los tipos de registros de Maestro con los tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
+Puede utilizar la planificación de Adobe Workfront para diseñar espacios de trabajo totalmente personalizables que contengan los tipos de registro necesarios en su organización. Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar los tipos de registros de planificación de Workfront con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 
-Puede conectar los tipos de registros de Maestro entre sí o los tipos de registros de Maestro con los tipos de objetos de otras aplicaciones.
+Puede conectar tipos de registros entre sí o tipos de registros con tipos de objetos de otras aplicaciones.
 
-De este modo, puede mostrar campos del registro vinculado o del tipo de objeto de otro registro Maestro.
+De este modo, puede mostrar campos del registro vinculado o del tipo de objeto en un registro de planificación de Workfront.
 
-En este artículo se describe cómo conectar dos tipos de registro Maestro o un tipo de registro Maestro con un objeto de otra aplicación.
+En este artículo se describe cómo conectar dos tipos de registro en Workfront Planning o un tipo de registro con un objeto de otra aplicación.
 
 Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí.
 
-Para obtener información acerca de cómo conectar un registro Maestro a un objeto de otra aplicación, vea [Conectar registros](../records/connect-records.md).
+Para obtener información sobre cómo conectar un registro de planificación de Workfront a un objeto de otra aplicación, consulte [Conectar registros](../records/connect-records.md).
 
 Para ver un ejemplo de tipos de registros de conexión, consulte [Ejemplo de conexión de tipos y registros](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar los tipos de registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar los tipos de registros de planificación de Adobe Workfront con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre la conexión de tipos de registros
 
-* Puede conectar las siguientes entidades en Maestro:
+* Puede conectar las siguientes entidades en la planificación de Adobe Workfront:
 
-   * Dos tipos de registros operativos
-   * Dos taxonomías
-   * Un tipo de registro operativo y una taxonomía
-   * Un tipo de registro operativo o una taxonomía y un tipo de objeto de otra aplicación.
+   * Dos tipos de registros
 
-  Todos los tipos de registros operativos y las taxonomías deben pertenecer al mismo espacio de trabajo.
+     Los tipos de registro deben pertenecer al mismo espacio de trabajo.
+   * Tipo de registro y tipo de objeto de otra aplicación.
 
-* Puede conectar los siguientes tipos de objeto desde las siguientes aplicaciones con los tipos de registro de Maestro:
+* Puede conectar los siguientes tipos de objetos desde las siguientes aplicaciones con los tipos de registros de planificación de Workfront:
 
    * Adobe Workfront:
 
@@ -140,7 +138,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      >[!IMPORTANT]
      >
-     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o Adobe Admin Console para conectar los registros de Maestro a Adobe Experience Manager Assets.
+     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de planificación de Workfront a Adobe Experience Manager Assets.
      >
      >Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
 
-     Se crea un nuevo tipo de registro de sólo lectura de Maestro para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a los registros de Maestro.
+     Se crea un nuevo tipo de registro de sólo lectura de Workfront planning para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a registros de Workfront planning.
 
      Para obtener más información, consulte [Conectar registros](../records/connect-records.md).
 
-   * **Cuando se agregan campos de búsqueda del registro u objeto al que se conecta**: puede conectar campos del objeto de la otra aplicación al tipo de registro Maestro. Son campos vinculados o de búsqueda. Los campos vinculados muestran automáticamente información de registros u objetos conectados al conectar los registros u objetos. Los campos de búsqueda vinculados siempre son de solo lectura y se rellenan automáticamente con los valores de los registros u objetos conectados.
+   * **Cuando se agregan campos de búsqueda del registro u objeto al que se conecta**: puede conectar campos del objeto de la otra aplicación al tipo de registro de planificación de Workfront. Son campos vinculados o de búsqueda. Los campos vinculados muestran automáticamente información de registros u objetos conectados al conectar los registros u objetos. Los campos de búsqueda vinculados siempre son de solo lectura y se rellenan automáticamente con los valores de los registros u objetos conectados.
 
-     Por ejemplo, si conecta el tipo de registro Maestro &quot;Campaña&quot; con un proyecto de Workfront y selecciona traer el campo Fecha planificada de finalización del proyecto al registro Maestro, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde Proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
+     Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con un proyecto de Workfront y selecciona llevar el campo Fecha planificada de finalización del proyecto al registro de planificación de Workfront, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 1. En el **Tipo de registro** , busque un tipo de registro o seleccione una de las siguientes opciones:
 
-   * Otro tipo de registro operativo o una taxonomía de la sección del espacio de trabajo seleccionado
+   * Otro tipo de registro de la sección del espacio de trabajo seleccionado
 
      >[!TIP]
      >
-     >Solo están disponibles para la conexión los tipos de registro y las taxonomías del espacio de trabajo seleccionado.
+     >Solo están disponibles para la conexión los tipos de registro del espacio de trabajo seleccionado.
      > 
      >Si no tiene otros tipos de registro en el espacio de trabajo seleccionado, la sección del espacio de trabajo no se muestra.
 
@@ -212,7 +210,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
    * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos del tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
 
-1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo objetos que cumplan estos criterios** sección. Sólo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro Maestro seleccionado. Puede seleccionar varios formularios.
+1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo objetos que cumplan estos criterios** sección. Solo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro seleccionado. Puede seleccionar varios formularios.
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
      Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y asigna al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccione para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se llamará automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
 
-   * Cuando se vinculan tipos de registros de Maestro, también se agrega un campo de registro vinculado al tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
+   * Cuando se vinculan tipos de registros entre sí, también se agrega un campo de registro vinculado en el tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
      Por ejemplo, si vincula el tipo de registro &quot;Producto&quot; desde el tipo de registro &quot;Campaña&quot; y asigna al campo conectado de la campaña el nombre &quot;Producto vinculado&quot;, se crea un campo de registro vinculado &quot;Campaña&quot; para el tipo de registro Producto.
 
      >[!TIP]
      >
-     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro que está vinculando en Maestro.
+     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro desde el que está estableciendo un vínculo en Workfront Planning.
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 
@@ -305,7 +303,7 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    >[!NOTE]
    >
-   > No se pueden agregar campos de búsqueda que pertenezcan a tipos de registro Maestro desde los que se está vinculando a tipos de objeto de otra aplicación.
+   > No se pueden agregar campos de búsqueda que pertenezcan a tipos de registro que esté vinculando a tipos de objeto de otra aplicación.
    >
    > Por ejemplo, no puede agregar el campo de búsqueda &quot;Estado de campaña&quot; a un proyecto de Workfront al que esté vinculando desde las campañas.
 

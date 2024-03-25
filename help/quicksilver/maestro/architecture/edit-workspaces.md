@@ -4,22 +4,23 @@ description: Puede editar la información de un espacio de trabajo existente, co
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Editar espacios de trabajo
 
 {{maestro-important-intro}}
 
-En Adobe Maestro, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
+En la planificación de Adobe Workfront, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
-Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Maestro.
+Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
 Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>
+   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>Debe agregar el área de Maestro a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>Debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
 {{step1-to-maestro}}
 
-Se abrirá el área Espacios de trabajo de Maestro.
+Esto abre el área Espacios de trabajo de la planificación de Workfront.
 
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse **Entrar**
 
@@ -99,11 +100,7 @@ Se abrirá el área Espacios de trabajo de Maestro.
 
    Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
-1. (Opcional) Haga clic en **Añadir taxonomía** para agregar taxonomías al espacio de trabajo.
-
-   Para obtener más información, consulte [Creación de taxonomías](../architecture/create-a-taxonomy.md).
-
-1. (Opcional) Haga clic en el menú desplegable Ver para editar una vista existente o crear una.
+1. (Opcional) Haga clic en el nombre de una vista en las pestañas de vista, edite una vista existente o haga clic en **+ Ver** para crear una vista.
 
    Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/maestro/views/manage-record-views.md).
 

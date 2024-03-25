@@ -1,13 +1,13 @@
 ---
 title: Administrar la vista de tabla
-description: Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
+description: Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
+Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en Adobe Workfront Planning.
 
 Para obtener información sobre las vistas de registros y cómo administrarlas, consulte [Administrar vistas de registros](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para las capacidades de planificación de Adobe de Workfront </p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación del Adobe de Workfront</p>  
 </td>
   </tr>
 

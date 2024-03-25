@@ -1,13 +1,13 @@
 ---
 title: Lista de plantillas de Workspace
-description: Un área de trabajo es un conjunto de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo. Maestro incluye un conjunto de plantillas para empezar a trabajar con los tipos de registros básicos, taxonomías y campos cuando esté creando el espacio de trabajo.
+description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. La planificación de Adobe Workfront incluye un conjunto de plantillas para ayudarle a empezar a utilizar los tipos de registros y campos básicos al crear su espacio de trabajo.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-En Adobe Maestro, un área de trabajo es una colección de tipos de registros operativos y taxonomías que utiliza un equipo y representa el ciclo de vida del trabajo del equipo.
+En la planificación de Adobe Workfront, un espacio de trabajo es una colección de tipos de registros que utiliza un equipo y que representa su ciclo de vida laboral.
 
-Maestro incluye un conjunto de plantillas para empezar a trabajar con los tipos de registros básicos, taxonomías y campos cuando esté creando el espacio de trabajo. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+La planificación de Workfront incluye un conjunto de plantillas para ayudarle a empezar a utilizar los tipos de registros y campos básicos al crear su espacio de trabajo. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
 
-Este artículo describe las plantillas de área de trabajo disponibles en Maestro.
+En este artículo se describen las plantillas de espacio de trabajo disponibles en Adobe Workfront Planning.
 
-## Consideraciones sobre las plantillas de Maestro
+## Consideraciones sobre las plantillas de planificación de Adobe Workfront
 
-* Cada plantilla incluye un conjunto de tipos de registros operativos y taxonomías. Para obtener más información, consulte [Información general sobre los tipos de registros y las taxonomías](../architecture/overview-of-record-types-and-taxonomies.md).
-* Cada tipo de registro operativo y taxonomía viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de Maestro.
-* Puede personalizar cualquier plantilla.
+* Cada plantilla viene con un conjunto de tipos de registros. Para obtener más información, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
+* Los tipos de registros de cada plantilla están organizados en las siguientes secciones:
+
+   * Tipos de registros operativos
+   * Taxonomías
+* Cada tipo de registro viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de planificación de Workfront.
+* Puede personalizar cualquier plantilla y agregar más tipos de registros y campos a los existentes.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Plantillas de área de trabajo de Maestro
+## plantillas de espacio de trabajo de planificación Workfront
 
-A continuación se indican las plantillas de área de trabajo de Maestro y el número de campos que incluyen:
+A continuación, se muestran las plantillas de espacio de trabajo de Workfront Planning y el número de campos que incluyen:
 
 * **Gestión de marketing**: Puede administrar todas las campañas de marketing cuando utilice esta plantilla. La plantilla incluye lo siguiente:
 

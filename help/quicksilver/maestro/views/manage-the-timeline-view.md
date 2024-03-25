@@ -1,13 +1,13 @@
 ---
 title: Administrar la vista de cronología
-description: Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
+description: Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en las funciones de planificación de Adobe Workfront.
+Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en Adobe Workfront Planning.
 
 Para obtener información sobre las vistas de registros, consulte [Administrar vistas de registros](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para las funciones de planificación de Adobe Workfront </p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del sistema debe añadir el área de planificación a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
  </tbody>

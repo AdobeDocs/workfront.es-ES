@@ -1,25 +1,25 @@
 ---
 title: Compartir espacios de trabajo
-description: Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en las funciones de planificación de Adobe Workfront.
+description: Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en la planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
 
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # Compartir espacios de trabajo
 
 {{maestro-important-intro}}
 
-Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en las funciones de planificación de Adobe Workfront.
+Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en la planificación de Adobe Workfront.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> No hay controles de acceso para las funciones de planificación de Adobe Workfront</p>  
+   <td> No hay controles de acceso para la planificación de Adobe Workfront</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Maestro en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Acceso a información general</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -107,7 +107,7 @@ Para compartir un espacio de trabajo con otros usuarios:
    * Aportar
    * Administrar
 
-     Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](../access/sharing-permissions-overview.md).
+     Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 1. Clic **Copiar vínculo** para copiar un vínculo al espacio de trabajo en el portapapeles.
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
 1. Haga clic en **Guardar**.

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 1%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 1%
       * [Habilitar notificaciones de Adobe Workfront Goals](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
    * [Información de Adobe Maestro](maestro/maestro-information.md)
-   * [Resumen de funcionalidades de planificación de Adobe Workfront](maestro/maestro-overview.md)
-   * [actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront](maestro/release-activity.md)
+   * [Información general de planificación de Adobe Workfront](maestro/maestro-overview.md)
+   * [Actividad de lanzamiento de planificación de Adobe Workfront](maestro/release-activity.md)
    * Arquitectura de Adobe Maestro {#adobe-maestro-architecture}
       * [Arquitectura: índice de artículos](maestro/architecture/architecture-information.md)
       * [Creación de espacios de trabajo](maestro/architecture/create-workspaces.md)
-      * [Información general sobre los tipos de registros y las taxonomías](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Creación de tipos de registros operativos](maestro/architecture/create-record-types.md)
+      * [Resumen de los tipos de registro](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Creación de tipos de registros](maestro/architecture/create-record-types.md)
       * [Crear tipos de registros de taxonomía](maestro/architecture/create-a-taxonomy.md)
       * [Conectar tipos de registros](maestro/architecture/connect-record-types.md)
       * [Editar tipos de registros](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 1%
       * [Acceder a información](maestro/access/access-information.md)
       * [Acceso a información general](maestro/access/access-overview.md)
       * [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](maestro/access/sharing-permissions-overview.md)
-      * [Información general sobre el tipo de licencia al utilizar las funciones de planificación de Adobe Workfront](maestro/access/license-type-overview.md)
+      * [Información general sobre el tipo de licencia al utilizar Adobe Workfront Planning](maestro/access/license-type-overview.md)
       * [Compartir espacios de trabajo](maestro/access/share-workspaces.md)
       * [Compartir vistas](maestro/access/share-views.md)
    * Registros de Adobe Maestro {#adobe-maestro-records}

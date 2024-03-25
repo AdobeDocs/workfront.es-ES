@@ -1,13 +1,13 @@
 ---
 title: Creación de registros
-description: Al utilizar las funcionalidades de planificación de Adobe Workfront, un registro es una instancia de un tipo de registro. Debe crear tipos de registros para poder crear registros individuales. La creación de registros de taxonomía es idéntica a la creación de registros operativos.
+description: Al utilizar la planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En las funciones de planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
-
-Puede tener los siguientes tipos de registros:
-
-* **Registros operativos**: representan objetos relacionados con el trabajo. Por ejemplo, para un registro operativo llamado &quot;Campaña&quot;, puede tener registros con nombre como &quot;Boletín mensual&quot; o &quot;Venta de verano&quot;.
-* **Registros de taxonomía**: representan atributos que pueden asociarse con registros operativos. Por ejemplo, para un tipo de registro de taxonomía llamado &quot;Canal&quot;, puede tener taxonomías con nombres como &quot;Correo electrónico&quot;, &quot;Medios sociales&quot; o &quot;Publicidad&quot;.
-
-La creación de registros operativos es idéntica a la creación de registros de taxonomía.
+En la planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
 
 Para crear registros, siga uno de estos procedimientos:
 
 * Crearlos manualmente para tipos de registros
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Crear registros copiando y pegando información de una lista externa.
 
 Este artículo describe cómo crear registros. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
@@ -57,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de capacidades de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para las funciones de planificación de Adobe Workfront </p>  
+   <td> <p>No hay controles de acceso para la planificación de Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Desde otra aplicación, seleccione varias filas y columnas y pegue la información en la vista de tabla de tipo de registro, empezando por el primer registro nuevo.
 
-   La siguiente información se importa en el área de funciones de planificación de Workfront:
+   Se ha importado la siguiente información en el área de planificación de Workfront:
 
    * Las filas contienen los registros nuevos
    * Las columnas rellenan la información de los campos de los registros.

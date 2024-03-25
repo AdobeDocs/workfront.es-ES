@@ -1,13 +1,13 @@
 ---
 title: "Vistas: índice de artículos"
-description: Puede mostrar los registros de Adobe Maestro en una tabla o vista de escala de tiempo. En los siguientes artículos se describe cómo crear y administrar las vistas de registros de Adobe Maestro.
+description: Puede mostrar los registros de planificación de Adobe Workfront en una tabla, una escala de tiempo o una vista de calendario. En los siguientes artículos se describe cómo crear y administrar vistas de registros de planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede mostrar los registros de Adobe Maestro en una tabla o vista de escala de tiempo.
+Puede mostrar los registros de planificación de Adobe Workfront en una tabla, una escala de tiempo o una vista de calendario.
 
-En los siguientes artículos se describe cómo crear y administrar vistas de registros en Adobe Maestro:
+En los siguientes artículos se describe cómo crear y administrar vistas de registros en Adobe Workfront Planning:
 
 * [Administrar vistas de registros](../views/manage-record-views.md)
 * [Administrar la vista de tabla](../views/manage-the-table-view.md)

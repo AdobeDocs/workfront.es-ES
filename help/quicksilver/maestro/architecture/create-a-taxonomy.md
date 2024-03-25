@@ -1,14 +1,14 @@
 ---
 title: Crear tipos de registros de taxonomía
-description: Las taxonomías son un tipo de tipos de registros reutilizables que capturan atributos sobre un tipo de registro operativo en Adobe Workfront Maestro.
+description: Cuando se utiliza una plantilla para crear un espacio de trabajo, los tipos de registros se crean en las secciones Tipos de registros operativos y Taxonomías.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Los tipos de registros de taxonomía capturan atributos sobre tipos de registros operativos en Adobe Maestro.
+Cuando se utiliza una plantilla para crear un espacio de trabajo, los tipos de registros se crean en las secciones siguientes:
+
+* Tipos de registros operativos
+* Taxonomías
+
+Los tipos de registros de la sección Taxonomías de un espacio de trabajo capturan atributos sobre los tipos de registros de la sección Tipos de registros operativos del mismo espacio de trabajo.
 
 Por ejemplo, Campaign puede ser un tipo de registro operativo. Las siguientes son taxonomías que capturan atributos sobre el tipo de registro de campaña: Región, Audiencia, País.
 
-Para obtener más información acerca de los tipos de registros de Maestro, vea [Información general sobre los tipos de registros y las taxonomías](../architecture/overview-of-record-types-and-taxonomies.md).
+Para obtener más información sobre los tipos de registros, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisitos de acceso
 
@@ -39,11 +44,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar los tipos de registros de Maestro con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar tipos de registros con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en Adobe Business Platform o en Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Maestro. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta cerrado de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Maestro</p>  
+   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de Workfront o de grupo debe agregar el área de Maestro en la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="../access/access-overview.md">Acceso a información general</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre la creación de taxonomías
 
-* Debe crear un espacio de trabajo para poder crear tipos de registros de taxonomía en el espacio de trabajo.
+* Debe crear un espacio de trabajo con una plantilla para poder crear tipos de registros en la sección Taxonomías del espacio de trabajo.
 
   Para obtener información sobre los espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
-* Puede crear un tipo de registro de taxonomía realizando una de las siguientes acciones:
+* Puede crear un tipo de registro en la sección Taxonomías de un espacio de trabajo mediante uno de los procedimientos siguientes:
    * Se crean automáticamente al crear un espacio de trabajo con una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
-   * Créelas manualmente, desde cero.
+   * Créelas manualmente, desde cero, en la sección Taxonomías de un espacio de trabajo.
 
-* Todos los tipos de registros de taxonomía recién creados incluyen los siguientes campos:
+* De forma predeterminada, todas las taxonomías recién creadas tienen los campos siguientes:
 
-   * Nombre <!--if there won't be any more fields, consider rephrasing this-->
+   * Nombre
+   * Descripción
+   * Fecha de inicio
+   * Fecha de finalización
+   * Estado
 
   Además, puede agregar campos personalizados a las taxonomías. Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Creación de un tipo de registro de taxonomía
 
-Crear tipos de registros de taxonomía es similar a crear tipos de registros operativos desde cero o desde una plantilla de espacio de trabajo.
+Crear tipos de registros de taxonomía es similar a crear tipos de registros.
 
-Para obtener más información, consulte la sección &quot;Crear un tipo de registro desde cero&quot; en el artículo [Creación de tipos de registros](../architecture/create-record-types.md).
-
-Para obtener información sobre la creación automática de taxonomías al crear un espacio de trabajo a partir de una plantilla, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).

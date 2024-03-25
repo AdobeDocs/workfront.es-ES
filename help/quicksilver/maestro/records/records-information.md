@@ -1,14 +1,14 @@
 ---
 title: "Registros: índice de artículos"
-description: Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos. En los siguientes artículos se describe cómo crear y administrar registros y su información en Adobe Maestro.
+description: Después de crear tipos de registros en Adobe Workfront Planning, puede crear registros individuales de esos tipos. En los siguientes artículos se describe cómo crear y administrar registros y su información en la planificación de Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Después de crear tipos de registros en Adobe Maestro, puede crear registros individuales de esos tipos.
+Después de crear tipos de registros en Adobe Workfront Planning, puede crear registros individuales de esos tipos.
 
-En los siguientes artículos se describe cómo crear y administrar registros y su información en Adobe Maestro:
+En los siguientes artículos se describe cómo crear y administrar registros y su información en la planificación de Adobe Workfront:
 
 * [Creación de registros](/help/quicksilver/maestro/records/create-records.md)
 * [Edición de registros](/help/quicksilver/maestro/records/edit-records.md)

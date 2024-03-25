@@ -1,18 +1,18 @@
 ---
-title: actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
+title: Actividad de lanzamiento de planificación de Adobe Workfront
 description: Actualmente, las funcionalidades de planificación de Adobe Workfront están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# actividad de lanzamiento de funcionalidades de planificación de Adobe Workfront
+# Actividad de lanzamiento de planificación de Adobe Workfront
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >[!IMPORTANT]
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
+
+## Semana del 25 de marzo de 2024
+
+### Nueva organización flexible del tipo de registro para espacios de trabajo
+
+Producción: 25 de marzo de 2024
+
+Vista previa: por determinar
+
+Para crear eficiencia al configurar espacios de trabajo, hemos modificado la forma de organizar los tipos de registros en un espacio de trabajo. Algunas de las mejoras incluyen:
+
+* Cree hasta 50 secciones de tipos de registro en cada espacio de trabajo. Las secciones Tipos de registros operativos y Taxonomías existentes permanecen en los espacios de trabajo existentes.
+
+* Personalice completamente todos los nuevos espacios de trabajo y sus nuevas secciones para reflejar los procesos y las necesidades de la organización.
+
+* Mueva de forma dinámica tipos de registros dentro de un espacio de trabajo arrastrándolos y soltándolos donde deban estar, incluso en diferentes secciones.
+
+Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Duplicar vistas
+
+Producción: 25 de marzo de 2024
+
+Vista previa: por determinar
+
+Para ahorrarle tiempo y mantener la coherencia, ahora puede duplicar una vista existente a la que tiene permisos de acceso.
+
+Al duplicar una vista, se crea una vista idéntica, con los mismos filtros, criterios de ordenación y agrupaciones. La duplicación de una vista no mantiene los permisos de la vista original.
+
+Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### Se ha cambiado el nombre del área Maestro en el menú principal a Planificación
+
+Producción: 28 de marzo de 2024
+
+Vista previa: por determinar
+
+Hemos cambiado el nombre del área Maestro en el menú principal a Planificación.
+
+Para obtener una descripción general de la planificación de Adobe Workfront, consulte [Información general de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Semana del 18 de marzo de 2024
 
@@ -207,7 +247,7 @@ Los siguientes son los niveles más altos de permisos que los usuarios pueden re
 
 Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al utilizar las funciones de planificación de Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al utilizar Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nueva apariencia de la barra de herramientas Texto enriquecido para campos de registro
