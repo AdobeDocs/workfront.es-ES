@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 640fd9e2df3a8344273078841f75f23ba259e6f6
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
-source-wordcount: '14043'
+source-wordcount: '14044'
 ht-degree: 1%
 
 ---
@@ -2186,6 +2186,7 @@ ht-degree: 1%
       * [Aplicaciones y sus módulos](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Módulos de Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Módulos de Workfront Proof](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Módulos de Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [módulo de Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Módulos de Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -2195,7 +2196,6 @@ ht-degree: 1%
       * [módulo de Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Módulos de Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Módulos de Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-      * [Módulos de Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Módulos de servicios de Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Módulos de Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Módulos de Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
