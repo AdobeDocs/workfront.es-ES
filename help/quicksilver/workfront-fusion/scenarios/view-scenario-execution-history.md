@@ -7,10 +7,10 @@ description: Puede mostrar información sobre todas las ejecuciones de un escena
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -73,8 +73,6 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
    ![](assets/open-history-tab-350x202.png)
 
-   C
-
    También puede hacer clic en para ver una vista de página completa de esta información. La vista de página completa permite filtrar el historial para ver ejecuciones específicas.
 
    Se enumeran los siguientes detalles para cada ejecución del escenario:
@@ -85,6 +83,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    * Número de **[!UICONTROL Operaciones]**
    * Tamaño de **[!UICONTROL Transferencia de datos]**
    * Vincular a **[!UICONTROL Detalles]**
+
+>[!NOTE]
+>
+>El historial de escenarios muestra un **Procesando** junto a los escenarios que se han ejecutado recientemente, mientras los detalles de ejecución se escriben en el almacenamiento. El procesamiento se produce inmediatamente después de que se ejecute el escenario. y no debe durar más de unos minutos. Es posible que los detalles de la ejecución del escenario no estén visibles mientras se procesa la ejecución.
 
 ### Ver historial de ejecución de escenario en [!UICONTROL Historial] pestaña
 
@@ -103,7 +105,9 @@ El [!UICONTROL Historial] La pestaña muestra más detalles de los que están di
 
    >[!NOTE]
    >
-   >El [!UICONTROL detalles] El vínculo de solo es visible si la ejecución tiene detalles disponibles.
+   >* El [!UICONTROL detalles] El vínculo de solo es visible si la ejecución tiene detalles disponibles.
+   >
+   >* El historial de escenarios muestra un **Historial de procesamiento** junto a los escenarios que se han ejecutado recientemente, mientras los detalles de ejecución se escriben en el almacenamiento. El procesamiento se produce inmediatamente después de que se ejecute el escenario. y no debe durar más de unos minutos. Es posible que los detalles de la ejecución del escenario no estén visibles mientras se procesa la ejecución.
 
 ## Filtrado del historial de ejecución del escenario
 
@@ -163,7 +167,7 @@ Puede ordenar el historial de ejecución del escenario.
 
    Los estados disponibles son:
 
-   * [!UICONTROL Todas]
+   * [!UICONTROL Todo]
 
    * [!UICONTROL Error]
 
