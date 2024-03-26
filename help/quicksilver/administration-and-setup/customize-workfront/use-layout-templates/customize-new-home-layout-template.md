@@ -7,9 +7,10 @@ description: Puede utilizar una plantilla de diseño para configurar lo que ven 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
       <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b>, y <b>Grupos</b>. Puede:</p>
       <ul>
       <li><p><b>Seleccione los filtros, columnas o grupos que estarán disponibles para los usuarios:</b></p>
-      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios.</li></p>
+      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Los usuarios deben tener acceso de creación para las vistas a fin de que las configuraciones de columna se apliquen correctamente a sus widgets.
+
+</p>
       <li><p><b>Establezca un filtro o un grupo predeterminado para el widget:</b></p>
       <p>Pase el ratón sobre una opción y aparecerá un botón que le permitirá establecer esa opción como predeterminada para los usuarios. El valor predeterminado actual tendrá un distintivo predeterminado azul a su derecha.</li></p>
       <li><p><b>Agregue un filtro, una columna o un grupo existentes a la lista de opciones disponibles:</b></p>
@@ -124,4 +132,3 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
    O
 
    Si ha terminado de personalizar, haga clic en **Guardar** en la esquina inferior izquierda.
-
