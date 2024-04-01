@@ -4,9 +4,10 @@ description: Mejoras del administrador en el segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## La lógica de visualización y la lógica de omisión ya están disponibles en el modo de vista previa del diseñador de formularios
+
+>[!NOTE]
+>
+>Versión de vista previa: 28 de marzo de 2024; producción para todos los clientes: 24.4 (abril de 2024)
+
+El diseñador de formularios personalizado beta ahora le permite probar la lógica de visualización y omitir la lógica en el modo de vista previa. Anteriormente, todos los campos se mostraban en la vista previa incluso cuando se aplicaba la lógica.
+
+Para obtener más información sobre la vista previa de un formulario personalizado en el diseñador de formularios, consulte [Organizar y obtener una vista previa de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Las empresas y los usuarios ahora admiten campos de formulario personalizados avanzados
 

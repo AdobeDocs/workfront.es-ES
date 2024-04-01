@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
       </ul>
       <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b>, y <b>Grupos</b>. Puede:</p>
       <ul>
-      <li><p><b>Seleccione los filtros, columnas o grupos que estarán disponibles para los usuarios:</b></p>
-      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios.</li></p>     
-    <p>
+      <li><p><b>Seleccione y ordene los filtros, columnas o grupos disponibles para los usuarios:</b></p>
+      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios. Arrastre y suelte las opciones de la lista para establecer un orden.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Los usuarios deben tener acceso de creación para las vistas a fin de que las configuraciones de columna se apliquen correctamente a sus widgets.
+>Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus nuevas páginas de inicio.
 
 </p>
       <li><p><b>Establezca un filtro o un grupo predeterminado para el widget:</b></p>

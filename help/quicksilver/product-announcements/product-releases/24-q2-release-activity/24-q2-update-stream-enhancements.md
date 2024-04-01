@@ -4,9 +4,10 @@ description: Mejoras en el flujo de actualización y las notificaciones del segu
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Esta página describe todas las mejoras de Actualización de flujo y notificación realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Se ha eliminado el acceso al área de comentarios heredados
+
+>[!NOTE]
+>
+>Versión de vista previa: 1 de abril de 2024; Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+
+Hemos eliminado la opción &quot;Nuevos comentarios&quot; en el área de Actualizaciones para proyectos, tareas, problemas y documentos. El nuevo comentario es ahora la opción predeterminada y única para estos objetos. Con este cambio, ya no podrá volver a la experiencia de comentarios heredada.
+
+Para obtener más información, consulte [Nueva experiencia de comentarios](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## El nuevo flujo de comentarios ya está disponible en acciones rápidas para los nuevos widgets de Inicio
 
