@@ -6,14 +6,16 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # Introducción a la nueva página Inicio
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
     Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
 * **Todas las aprobaciones**\
-    Muestra todas las aprobaciones de su organización en una tabla con columnas personalizables, así como una barra de búsqueda que le permite buscar aprobaciones específicas.
+        <span class="preview"> Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas.</span> <span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span>
 
 * **Aprobaciones pendientes**\
     Muestra las aprobaciones asignadas a un documento de un proyecto de su propiedad. Aquí puede ver el estado de aprobación y recordar a los usuarios las revisiones y aprobaciones incompletas. <span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span>

@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Revise y comente en el mismo documento en el que trabajan los equipos creativos. Con Workfront Proofing, puede solicitar comentarios, ver comentarios y recibir notificaciones para aprobaciones pendientes y completadas, todo mientras mantiene una pista de auditoría de comentarios y versiones.
+Revise y comente en el mismo documento en el que trabajan los equipos creativos. Con Proofing, puede solicitar comentarios, ver comentarios y obtener notificaciones para aprobaciones pendientes y completadas, todo mientras mantiene una pista de auditoría de comentarios y versiones.
 
 Esta sección contiene las siguientes subsecciones:
 
