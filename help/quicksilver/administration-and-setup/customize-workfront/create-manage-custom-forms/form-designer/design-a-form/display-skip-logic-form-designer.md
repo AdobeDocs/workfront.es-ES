@@ -7,9 +7,10 @@ description: Puede decidir qué secciones de un formulario personalizado se debe
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
 
 >[!NOTE]
 >
->La lógica de visualización no está disponible temporalmente al obtener una vista previa del formulario en el diseñador de formularios.
+><span class="preview">La lógica de visualización solo está disponible cuando se obtiene una vista previa del formulario en el diseñador de formularios en el entorno de vista previa.</span>
 
 ## Agregar lógica de omisión a un formulario personalizado
 
@@ -158,4 +159,4 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 
 >[!NOTE]
 >
->La lógica de omisión no está disponible temporalmente al obtener una vista previa del formulario en el diseñador de formularios.
+><span class="preview">La lógica de omisión solo está disponible cuando se obtiene una vista previa del formulario en el diseñador de formularios en el entorno de vista previa.</span>
