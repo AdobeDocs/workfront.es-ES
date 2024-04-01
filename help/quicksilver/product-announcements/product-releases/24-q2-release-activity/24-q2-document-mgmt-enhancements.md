@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Ahora puede crear plantillas de aprobación en el área de configuración para o
 
 Puede aplicar plantillas de aprobación desde el área Documentos al crear un proceso de aprobación para un documento.
 
-<!-- For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md). -->
+Para obtener más información, consulte [Crear una plantilla de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## Ver información sobre todas las aprobaciones en un solo lugar
 
