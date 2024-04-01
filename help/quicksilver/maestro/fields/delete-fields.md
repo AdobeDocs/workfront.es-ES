@@ -1,11 +1,11 @@
 ---
 title: Eliminar campos
-description: En la planificación de Adobe Workfront, puede eliminar los campos personalizados que ya no sean relevantes.
+description: En Adobe Workfront Planning, puede eliminar campos personalizados que ya no sean relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -31,11 +31,11 @@ recommendations: noDisplay, noCatalog
 
 En Adobe Workfront Planning, puede crear campos personalizados para almacenar información sobre registros.
 
-Para obtener información sobre la creación de campos personalizados en la planificación de Workfront, consulte [Creación de campos](../fields/create-fields.md).
+Para obtener información sobre la creación de campos personalizados en Workfront Planning, consulte [Creación de campos](../fields/create-fields.md).
 
-Puede eliminar los campos de planificación de Workfront que ya no sean relevantes.
+Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 
-## Consideraciones sobre la eliminación de campos de planificación de Workfront:
+## Consideraciones sobre la eliminación de campos de Workfront Planning:
 
 * Sólo puede eliminar un campo en la vista de tabla de tipo de registro.
 * No se puede eliminar el campo principal de un registro.
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-maestro}}
 
-Esto abre el espacio de trabajo al que se accedió por última vez en Workfront Planning.
+Se abre el último espacio de trabajo al que se accedió en Workfront Planning.
 1. Haga clic en la tarjeta de un tipo de registro cuyos campos desee eliminar.
 1. (Condicional) Seleccione una **Vista de tabla** desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 1. Busque el campo que desea eliminar en los encabezados de columna, pase el ratón sobre el encabezado de columna y, a continuación, haga clic en la flecha hacia abajo situada después del nombre del campo.

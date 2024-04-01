@@ -1,13 +1,13 @@
 ---
 title: Ejemplo de conexión de tipos y registros
-description: Este artículo describe un ejemplo de cómo crear una conexión entre un tipo de registro de Adobe Maestro y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Maestro con un proyecto individual.
+description: En este artículo se describe un ejemplo de cómo crear una conexión entre un tipo de registro de Adobe de Workfront Planning y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Workfront Planning con un proyecto individual.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 Este artículo describe un ejemplo de lo siguiente:
 
-* Crear una conexión entre dos tipos de registros Maestro y dos registros Maestro.
+* Cómo crear una conexión entre dos tipos de registros de Workfront Planning y dos registros.
 
-* Cómo crear una conexión entre un tipo de registro de Adobe Maestro y un tipo de objeto de proyecto de Workfront, así como una conexión entre un registro Maestro y un proyecto.
+* Cómo crear una conexión entre un tipo de registro de Workfront Planning y un tipo de objeto de proyecto de Workfront, así como una conexión entre un registro y un proyecto.
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Conectar tipos de registros](../architecture/connect-record-types.md)
 * [Conectar registros](../records/connect-records.md)
 
-## Conectar dos tipos de registros y registros de Maestro (ejemplo)
+## Conectar dos tipos de registros y registros de Workfront Planning (ejemplo)
 
 Por ejemplo, tiene un tipo de registro denominado Campaign como tipo de registro original.
 
 También tiene otro tipo de registro llamado Producto, que tiene un campo de moneda denominado Presupuesto.
 
-Desea crear un campo en el tipo de registro de Campaign en el que pueda mostrar los valores del campo Presupuesto en el tipo de registro Producto.
+Desea crear un campo en el tipo de registro de Campaign en el que pueda mostrar los valores del campo Presupuesto del tipo de registro Producto.
 
 Para ello:
 
@@ -42,9 +42,9 @@ Para ello:
 1. Añada la siguiente información, por ejemplo:
 
    * **Tipo de registro**: producto <!--did they change the casing here?-->
-   * **Nombre**: Información del producto. Es el nombre del campo de registro vinculado.
-   * **Descripción**: estos son los productos a los que quiero asociar mis campañas.
-   * **Permitir varios registros**: Si deja seleccionada esta opción, los usuarios pueden seleccionar varios registros cuando el campo de tipo de registro vinculado (Información del producto) se muestra en los registros originales (Campañas). En nuestro caso, podrán seleccionar varios productos para conectarlos a una campaña.
+   * **Nombre**: Asigne un nombre al nuevo campo. Por ejemplo, &quot;Información del producto&quot;. Es el nombre del campo de registro vinculado.
+   * **Descripción**: Añada una descripción para el nuevo campo. Por ejemplo, &quot;Estos son los productos con los que quiero que se asocien mis campañas&quot;. La descripción del campo se muestra al pasar el ratón por encima del campo en el encabezado de la columna.
+   * **Permitir varios registros**: Si deja seleccionada esta opción, los usuarios pueden seleccionar varios registros cuando el campo de tipo de registro vinculado (Información del producto) se muestra en los registros originales (Campañas). En este caso, los usuarios pueden seleccionar varios productos para conectarlos a una campaña.
    * **Seleccionar campos de búsqueda**: Si deja seleccionada esta opción, la variable **Agregar campos de búsqueda** se abre el cuadro de diálogo siguiente para permitirle vincular los campos de producto con el tipo de registro de Campaign. Puede hacer clic en **Omitir** para omitir este paso y añadir campos de producto más adelante.
 
    ![](assets/new-connection-with-product-record-type.png)
@@ -57,16 +57,16 @@ Para ello:
    >
    >    Si desea ver el presupuesto de todos los productos seleccionados como un número total, seleccione **SUM** en el menú desplegable situado a la derecha del nombre del campo. Cuando los usuarios seleccionan varios productos en la **Información del producto** campo de registro vinculado, la variable **Presupuesto (de la información del producto)** El campo suma todos sus valores de Budget y muestra el total. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Si selecciona **Ninguno**, en lugar de **SUM**, los presupuestos individuales se mostrarán separados por comas.
+   > Si selecciona **Ninguno**, en lugar de **SUM**, los presupuestos individuales de los productos seleccionados se mostrarán separados por comas.
 
    Esto genera los campos siguientes:
 
-   * En la vista de tabla de registros de campaña y en la página Detalles de una campaña:
+   * En la vista de tabla Registro de campaña y en la página Registro de campaña de una campaña:
 
-      * **Información del producto** (el campo de registro vinculado): esto muestra el nombre o los nombres de los productos.
+      * **Información del producto** (el campo de registro vinculado): esto muestra el nombre o los nombres de los productos cuando los añada.
       * **Presupuesto (de la información del producto)** (el campo vinculado): esto muestra los presupuestos de los productos seleccionados en el campo Información del producto.
 
-   * En la vista de tabla de registros de producto y en la página Detalles de un producto:
+   * En la vista de tabla de registros de producto y en la página de registro de producto de un producto:
 
       * **Campaign**: esto indica que el tipo de registro de producto está vinculado desde el tipo de registro de campaña.
 
@@ -88,7 +88,7 @@ Para ello:
    * Empiece a escribir el nombre de un producto y haga clic en él cuando se muestre en la lista. El producto se añade automáticamente.
    * Clic **Ver todo** para mostrar todos los productos.
 
-1. (Condicional) Si hizo clic en **Seleccionar todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
+1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -100,7 +100,7 @@ Para ello:
 
    >[!TIP]
    >
-   >    Puede abrir la página de detalles de una campaña, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir productos del tipo de registro de producto conectado.
+   >    Puede abrir la página de registro de una campaña, buscar el campo de registro vinculado y hacer clic en **+** en el campo para añadir productos del tipo de registro de producto conectado.
 
    Las siguientes columnas se rellenan en la tabla de tipo de registro de Campaign:
    * El **Información del producto** El campo se rellena para el registro de Campaign con los productos seleccionados.
@@ -110,18 +110,18 @@ Para ello:
 
    >[!TIP]
    >
-   >Cuando no se selecciona un agregador para los valores múltiples, todos los valores se muestran separados por comas.
+   >Cuando no se selecciona un acumulador para varios valores, todos los valores de los productos seleccionados se muestran separados por comas.
 
 1. Para rellenar el **Campaign** del campo **Product** vista de tabla, repita los pasos del 5 al 7 empezando por la vista de tabla Tipo de registro de producto y seleccionando información de campaña. Esto también actualiza el campo Product information en la tabla de la página Campaign record type. <!--ensure the step numbers remain correct-->
 
 
-## Conectar un tipo de registro de Maestro con un tipo de objeto de proyecto de Workfront y conectar un registro con proyectos individuales
+## Conectar un tipo de registro de Workfront Planning con un tipo de objeto de proyecto de Workfront y conectar un registro con proyectos individuales
 
 Por ejemplo, tiene un tipo de registro denominado Campaign como tipo de registro original.
 
 También tiene proyectos en Workfront con un campo llamado &quot;Ingresos planificados&quot;.
 
-Desea crear un campo de conexión en el tipo de registro de Campaign donde puede mostrar los valores del campo Ingresos planificados de los proyectos en Workfront que están conectados a campañas en Maestro.
+Desea crear un campo de conexión en el tipo de registro de Campaign donde puede mostrar los valores del campo Ingresos planificados de los proyectos en Workfront que están conectados a campañas en Workfront Planning.
 
 Para ello:
 
@@ -130,9 +130,9 @@ Para ello:
 1. Haga clic en **+** en la esquina superior derecha de la vista de tabla para añadir un nuevo campo y haga clic en **Nueva conexión**, luego haga clic en **Proyecto** en el **Tipos de objeto de Workfront** sección.
 1. Añada la siguiente información, por ejemplo:
 
-   * **Tipo de registro**: proyecto de Workfront (desde la subsección de Workfront)
-   * **Nombre**: Información del proyecto. Este es un ejemplo de cómo se puede asignar un nombre al campo de objeto vinculado.
-   * **Descripción**: estos son los proyectos a los que quiero asociar mis campañas. Este es un ejemplo de la descripción del campo de registro conectado.
+   * **Tipo de registro**: proyecto (desde la subsección de Workfront)
+   * **Nombre**: Asigne un nombre al nuevo campo, por ejemplo, &quot;Información del proyecto&quot;.
+   * **Descripción**: Añada una descripción para el nuevo campo. Por ejemplo, &quot;Estos son los proyectos a los que quiero asociar mis campañas&quot;. La descripción se muestra en la vista de tabla a medida que pasa el ratón por encima del nombre del campo en el encabezado de la columna.
    * 
       * **Permitir varios registros**: Si deja seleccionada esta opción, los usuarios pueden seleccionar varios proyectos cuando el campo de tipo de proyecto vinculado (Información del proyecto) se muestra en los registros originales (Campañas).
    * **Seleccionar campos de búsqueda**: Si deja seleccionada esta opción, la variable **Agregar campos de búsqueda** se abre el cuadro siguiente para permitirle vincular los campos de Project con el tipo de registro de Campaign. Puede hacer clic en **Omitir** para omitir este paso y agregar campos de proyecto más adelante.
@@ -151,7 +151,7 @@ Para ello:
 
    Esto genera los campos siguientes:
 
-   * En la vista de tabla de registros de campaña y en la página Detalles de una campaña:
+   * En la vista de tabla de registros de Campaign y en la página de registros de Campaign:
 
       * **Información del proyecto** (el campo del objeto vinculado): esto muestra el nombre o los nombres de los proyectos.
       * **Ingresos planificados (de la información del proyecto)** (el campo vinculado): Esto muestra los ingresos planificados de los proyectos seleccionados en el campo Información del proyecto.
@@ -172,7 +172,7 @@ Para ello:
    * Empiece a escribir el nombre de un proyecto y haga clic en él cuando se muestre en la lista. El proyecto se agrega automáticamente.
    * Clic **Ver todo** para mostrar todos los proyectos.
 
-1. (Condicional) Si hizo clic en **Seleccionar todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
+1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, la variable **Conectar objetos** aparece el cuadro.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -184,7 +184,7 @@ Para ello:
 
    >[!TIP]
    >
-   >    Puede abrir la página de detalles de una campaña, buscar el campo de proyecto vinculado y hacer clic en **+** en el campo para añadir proyectos desde el tipo de registro de producto conectado.
+   >    Puede abrir la página de una campaña, buscar el campo del proyecto vinculado y hacer clic en **+** en el campo para añadir proyectos desde el tipo de registro de producto conectado.
 
    Esto añade lo siguiente al espacio de trabajo seleccionado:
 
@@ -200,15 +200,15 @@ Para ello:
 
 1. Haga clic en el nombre de un proyecto en el campo de registro conectado.
 
-   Esto abre el proyecto de Maestro de sólo lectura **Detalles** página.
-Revise la información sobre el proyecto. En la página Detalles solo se muestran los campos de proyecto seleccionados.
+   Se abre la página de sólo lectura del proyecto de Workfront Planning.
+Revise la información sobre el proyecto. En la página del registro solo se muestran los campos de proyecto seleccionados.
 
 1. Clic **Ir al origen** en la esquina superior derecha de la pantalla para abrir el proyecto en Workfront, si tiene al menos permisos de visualización en el proyecto.
 1. (Opcional) Actualice la información sobre el proyecto en Workfront, si tiene permisos para hacerlo.
 
-1. En la vista de tabla de Campaign, pase el ratón sobre **Información del proyecto** encabezado de campo, haga clic en la flecha hacia abajo y, a continuación, haga clic en **Editar campos de búsqueda.**
-1. Haga clic en **+** para cualquier campo de proyecto que desee agregar al registro de Workfront Project Maestro en la **Campos no seleccionados** sección.
-1. Haga clic en **-** para cualquier campo de proyecto que desee quitar del registro de Workfront Project Maestro en la **Campos seleccionados** sección.
+1. (Opcional) En la vista de tabla de Campaign, pase el ratón sobre la **Información del proyecto** encabezado de campo, haga clic en la flecha hacia abajo y, a continuación, haga clic en **Editar campos de búsqueda.**
+1. Haga clic en **+** para cualquier campo de proyecto que desee agregar al registro de planificación de Workfront del proyecto en la **Campos no seleccionados** sección.
+1. Haga clic en **-** para cualquier campo de proyecto que desee eliminar del registro de planificación de proyectos de Workfront en la **Campos seleccionados** sección.
 1. Haga clic en **Guardar**.
 
    Los campos vinculados adicionales se añaden al tipo de registro de campaña.

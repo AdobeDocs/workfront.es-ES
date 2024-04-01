@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Puede eliminar los registros que ya no sean relevantes en la planificación de Adobe Workfront.
+Puede eliminar los registros que ya no sean relevantes en Adobe Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront </p>  
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Puede eliminar un registro de las siguientes áreas:
 
-* [Desde la página Detalles de un registro](#delete-a-record-from-the-records-details-page)
+* [Desde la página del registro](#delete-a-record-from-the-records-page)
 * [Desde la vista de tabla de un tipo de registro](#delete-a-record-from-the-record-type-table-view)
 
-### Eliminar un registro de la página Detalles del registro
+### Eliminar un registro de la página del registro
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ El espacio de trabajo al que se accede por última vez se abre.
      ![](assets/contextual-menu-for-record-row.png)
    * En una vista Línea de tiempo, haga clic en una barra de registros.
 
-   El registro **Detalles** se abre la página.
+   Se abre la página de registro.
 
 1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Eliminar**, entonces **Eliminar** de nuevo para confirmar.
 
@@ -141,7 +141,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro Detalles y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro, **Eliminar**.
+   * Haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro, **Eliminar**.
 
    El registro se elimina y no se puede recuperar.
 

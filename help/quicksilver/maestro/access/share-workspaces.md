@@ -1,11 +1,11 @@
 ---
 title: Compartir espacios de trabajo
-description: Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en la planificación de Adobe Workfront.
+description: Puede compartir un espacio de trabajo con otros usuarios para garantizar la colaboración al trabajar en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Puede compartir un espacio de trabajo con otros para garantizar la colaboración al trabajar en la planificación de Adobe Workfront.
+Puede compartir un espacio de trabajo con otros usuarios para garantizar la colaboración al trabajar en Adobe Workfront Planning.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> No hay controles de acceso para la planificación de Adobe Workfront</p>  
+   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 

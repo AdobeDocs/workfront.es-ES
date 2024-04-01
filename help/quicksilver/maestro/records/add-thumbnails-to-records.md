@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Puede asociar registros con miniaturas únicas en la planificación de Adobe Workfront para que sean fácilmente reconocibles.
+Puede asociar registros con miniaturas únicas en Adobe Workfront Planning para que sean fácilmente reconocibles.
 
 Debe crear tipos de registros antes de empezar a crear y editar registros.
 Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para la planificación de Workfront </p>  
+   <td> <p>No hay controles de acceso para Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ Tenga en cuenta lo siguiente:
 
    * Campo principal de un registro en la vista de tabla
    * Barra de registro en la vista de escala de tiempo.
-* No se pueden agregar miniaturas de registros desde la página Detalles del registro o en la vista de escala de tiempo.
-* Las miniaturas no se muestran en la página Detalles del registro.
+* No se pueden agregar miniaturas de registros desde la página del registro o desde otro tipo de vista.
+* Las miniaturas no se muestran en la página del registro.
 
 ## Añadir una miniatura en un registro
 

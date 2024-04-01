@@ -1,13 +1,13 @@
 ---
 title: Creación de registros
-description: Al utilizar la planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
+description: Al utilizar Adobe Workfront Planning, un registro es una instancia de un tipo de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En la planificación de Adobe Workfront, un registro es una instancia de un tipo de registro.
+En Adobe Workfront Planning, un registro es una instancia de un tipo de registro.
 
 Para crear registros, siga uno de estos procedimientos:
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para la planificación de Adobe Workfront </p>  
+   <td> <p>No hay controles de acceso para Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
    O
 
-   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. El **Detalles** se abre en la tabla.
+   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. El cuadro con la información detallada del registro se abre en la tabla.
 
    >[!TIP]
    >
    >Solo puede tener acceso al cuadro Detalles desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
 
-1. Comience a editar la información del registro en el cuadro Detalles. Workfront guarda automáticamente los cambios.
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro Detalles para abrir el **Detalles** en una nueva pestaña. Continúe editando el registro en la página Detalles.
+1. Comience a editar la información del registro en el cuadro del registro. Workfront guarda automáticamente los cambios.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro del registro para abrir la página del registro en una nueva ficha. Continúe editando el registro en la página de registros.
 
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros:
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Desde otra aplicación, seleccione varias filas y columnas y pegue la información en la vista de tabla de tipo de registro, empezando por el primer registro nuevo.
 
-   Se ha importado la siguiente información en el área de planificación de Workfront:
+   Se ha importado la siguiente información en el área de Workfront Planning:
 
    * Las filas contienen los registros nuevos
    * Las columnas rellenan la información de los campos de los registros.

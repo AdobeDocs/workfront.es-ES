@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Puede crear campos personalizados en la planificación de Adobe Workfront haciendo referencia a campos existentes y conectándolos mediante una fórmula. Para ello, cree un campo de tipo Formula personalizado.
+Puede crear campos personalizados en Adobe Workfront Planning haciendo referencia a campos existentes y conectándolos mediante una fórmula. Para ello, cree un campo de tipo Formula personalizado.
 
 Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro. No se puede hacer referencia a campos de otros tipos de registro al crear un campo de fórmula. <!--is this still accurate??-->
 * No se puede cambiar el tipo de campo de un campo Formula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
-* Debe agregar los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de planificación de Workfront.
+* Debe agregar los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
 * El uso de campos de búsqueda de tipos de registro vinculados en una fórmula estará disponible en una fecha posterior.
 
 ## Fórmulas compatibles
 
-Los campos de fórmula de planificación de Adobe Workfront admiten todas las expresiones de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Los campos de fórmula de Adobe Workfront Planning admiten todas las expresiones de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Además, se admiten las siguientes expresiones para los campos de fórmula de planificación de Workfront:
+Además, se admiten las siguientes expresiones para los campos de fórmula de Workfront Planning:
 
 <table style="table-layout:auto"> 
  <col> 

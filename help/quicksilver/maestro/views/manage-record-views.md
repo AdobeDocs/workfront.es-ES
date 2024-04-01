@@ -1,13 +1,13 @@
 ---
 title: Administrar vistas de registros
-description: Puede mostrar registros en una tabla, una escala de tiempo o una vista de calendario si utiliza la planificación de Adobe Workfront.
+description: Puede mostrar registros en una vista de tabla, escala de tiempo o calendario al utilizar Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Después de seleccionar un tipo de registro en el área de planificación de Adobe Workfront, puede mostrar todos los registros de ese tipo en las siguientes vistas:
+Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede mostrar todos los registros de ese tipo en las siguientes vistas:
 
 * Tabla
 
@@ -64,12 +64,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
    <td>
    <p>Cualquiera</p> 
+   <p>Los administradores del sistema solo tienen acceso a las vistas que han creado o que se han compartido con ellos. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para Workfront Planning</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones al trabajar con vistas de registros
 
-* Las vistas en la planificación de Workfront son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
+* Las vistas de Workfront Planning son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
 * Los siguientes elementos son exclusivos de cada vista de registro:
@@ -104,7 +105,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
   >[!NOTE]
   >
-  > Debido a que la planificación de Adobe Workfront está actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
+  > Debido a que Adobe Workfront Planning se encuentra actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
 
 Este artículo describe la siguiente información sobre las vistas de registros:
 
@@ -138,7 +139,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Agrupaciones de código de color |           | ✓ |
 | Buscar registros específicos | ✓ | ✓ |
 | Compartir vista | ✓ | ✓ | ✓ |
-| Abra la página Detalles del registro desde la vista | ✓ | ✓ |    |
+| Abra la página del registro desde la vista | ✓ | ✓ |    |
 
 
 ## Creación o edición de vistas {#create-or-edit-views}

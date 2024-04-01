@@ -1,13 +1,13 @@
 ---
 title: Resumen de campo
-description: Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen el ciclo vital de su organización. Los campos son atributos de tipos de registro.
+description: Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen el ciclo vital de su organización. Los campos son atributos de tipos de registro.
+Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
 
 
-## Consideraciones sobre los campos de planificación de Adobe Workfront
+## Consideraciones sobre los campos de Adobe Workfront Planning
 
-* Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla. Todos los campos asociados a un tipo de registro también se muestran en la página Detalles de cada registro de ese tipo.
+* Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla. Todos los campos asociados a un tipo de registro también se muestran en la página de registro.
 
   Para obtener información sobre la administración de columnas de tabla (o campos de registro), consulte [Administrar la vista de tabla](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen
 
    * Manualmente:
 
-      * Agregando columnas en la vista de tabla de una página de tipo de registro. Las columnas de la tabla son los campos asociados al tipo de registro. Son los mismos campos que se muestran en la página Detalles de un registro.
+      * Agregando columnas en la vista de tabla de una página de tipo de registro. Las columnas de la tabla son los campos asociados al tipo de registro. Son los mismos campos que se muestran en la página de un registro.
 
-        No se pueden crear campos desde la página Detalles de un registro.
-
-        Este artículo describe cómo crear campos manualmente.
+        No puede crear campos desde la página del registro.
 
       * Conectando tipos de registros. Puede crear campos de registro vinculados al agregar una nueva conexión entre dos tipos de registro o un tipo de registro y un tipo de objeto de otras aplicaciones.
 
@@ -81,11 +79,11 @@ Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen
 
         Puede agregar más valores o cambiar el nombre de los existentes.
 
-     La planificación de Workfront crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+     Workfront Planning crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
 
-* No se puede acceder a los campos de planificación de Workfront desde Workfront.
+* No se puede acceder a los campos de Workfront Planning desde Workfront.
 
-* Los campos de Workfront solo son accesibles desde la planificación de Workfront cuando se conectan tipos de registro con tipos de objetos de Workfront y se agregan campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+* Los campos de Workfront solo son accesibles desde Workfront Planning cuando se conectan tipos de registro con tipos de objetos de Workfront y se agregan campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
 
 * Puede ver y actualizar la configuración de los campos que ha creado usted o cualquier otro usuario si tiene permisos de administración en el espacio de trabajo al que pertenece el campo.
 

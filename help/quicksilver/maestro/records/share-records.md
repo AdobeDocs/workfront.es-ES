@@ -1,13 +1,13 @@
 ---
 title: Compartir registros
-description: Puede compartir registros con otros usuarios para aumentar su colaboración.
+description: Puede compartir registros con otros usuarios para aumentar la colaboración.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Para colaborar con otros usuarios, puede compartir registros con otros usuarios.
 
-Puede compartir un registro de planificación de Adobe Workfront de las siguientes maneras:
+Puede compartir un registro de Adobe Workfront Planning de las siguientes maneras:
 
-* Copie el vínculo de la página Detalles de un registro desde el explorador cuando se abra la página.
+* Copie el vínculo de la página de registro desde el explorador cuando se abra la página.
 
-* Copie un vínculo a la página Detalles del registro cuando visualice registros en la vista de tabla del tipo de registro.
+* Copie un vínculo a la página del registro cuando vea registros en la vista de tabla del tipo de registro.
 
 * Puede compartir todos los registros de un área de trabajo con otros usuarios compartiendo el área de trabajo. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md).
 
-En este artículo se describe cómo copiar un vínculo a la página Detalles de un registro desde la vista de tabla de un tipo de registro.
+En este artículo se describe cómo copiar un vínculo a la página de un registro desde la vista de tabla de un tipo de registro.
 
 ## Requisitos de acceso
 
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
    El vínculo se copia en el portapapeles.
 
-1. Pegue el vínculo en un correo electrónico o en una ventana de chat para compartirlo con otros usuarios. Cuando los usuarios reciben el vínculo, se abre la página Detalles del registro.
+1. Pegue el vínculo en un correo electrónico o en una ventana de chat para compartirlo con otros usuarios. Cuando los usuarios reciben el vínculo, se abre la página de registro.
 
    >[!TIP]
    >
-   >Los campos del registro en la página Detalles son los mismos campos disponibles en la vista Tabla del registro.
+   >Los campos de la página de registro son los mismos campos disponibles en la vista Tabla del registro.
 
 
    <!--add there when it will be available: if they have access to this record-->

@@ -1,11 +1,11 @@
 ---
 title: "Vistas: índice de artículos"
-description: Puede mostrar los registros de planificación de Adobe Workfront en una tabla, una escala de tiempo o una vista de calendario. En los siguientes artículos se describe cómo crear y administrar vistas de registros de planificación de Adobe Workfront.
+description: Puede mostrar los registros de Adobe Workfront Planning en una tabla, una escala de tiempo o una vista de calendario. En los siguientes artículos se describe cómo crear y administrar vistas de registros de Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Puede mostrar los registros de planificación de Adobe Workfront en una tabla, una escala de tiempo o una vista de calendario.
+Puede mostrar los registros de Adobe Workfront Planning en una tabla, una escala de tiempo o una vista de calendario.
 
 En los siguientes artículos se describe cómo crear y administrar vistas de registros en Adobe Workfront Planning:
 

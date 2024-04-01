@@ -1,11 +1,11 @@
 ---
 title: Compartir vistas
-description: Puede compartir una vista con otros usuarios para garantizar la colaboración al utilizar la planificación de Adobe Workfront.
+description: Puede compartir una vista con otros usuarios para garantizar la colaboración al utilizar Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar con registros en la planificación de Adobe Workfront.
+Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar con registros en Adobe Workfront Planning.
 
 Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros usuarios para las vistas de las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios.
 
@@ -59,7 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> No hay controles de acceso para la planificación de Adobe Workfront </p>  
+   <td> No hay controles de acceso para Adobe Workfront Planning </p>  
 </td>
   </tr>
 

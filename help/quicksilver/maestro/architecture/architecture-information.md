@@ -1,11 +1,11 @@
 ---
 title: "Arquitectura: índice de artículos"
-description: En los siguientes artículos se describe cómo configurar la arquitectura de la planificación de Adobe Workfront. Como parte de esta configuración, aprenderá a crear espacios de trabajo, tipos de registros y campos personalizados para asignar los flujos de trabajo que desea administrar en la planificación de Workfront.
+description: En los siguientes artículos se describe cómo configurar la arquitectura de Adobe Workfront Planning. Como parte de esta configuración, aprenderá a crear espacios de trabajo, tipos de registros y campos personalizados para asignar los flujos de trabajo que desea administrar en Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,13 +30,13 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Como líder de operaciones de marketing, puede utilizar la planificación de Adobe Workfront para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos.
+Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos.
 
-Con la planificación de Workfront, puede personalizar completamente los flujos de trabajo, desde decidir qué tipos de objetos (o tipos de registros) utiliza su organización hasta configurar cómo se vinculan estos objetos entre sí.
+Con Workfront Planning, puede personalizar completamente sus flujos de trabajo, desde decidir qué tipos de objetos (o tipos de registros) utiliza su organización hasta configurar cómo se vinculan estos objetos entre sí.
 
-Además, la planificación de Workfront puede vincularse a tipos de objetos de otros sistemas, lo que crea un marco de trabajo coherente para todos los procesos.
+Además, Workfront Planning puede vincular tipos de objetos de otros sistemas, creando un marco de trabajo coherente para todos los procesos.
 
-En los artículos de las secciones siguientes se describe cómo configurar los espacios de trabajo de planificación de Adobe Workfront, definir los tipos de registros que son los componentes básicos de dichos espacios de trabajo y comenzar a utilizar sus funciones:
+Los artículos de las secciones siguientes describen cómo se pueden configurar los espacios de trabajo de Adobe Workfront Planning, definir los tipos de registros que son los componentes básicos de dichos espacios de trabajo y comenzar a utilizar sus funciones:
 
 * [Creación de espacios de trabajo](../architecture/create-workspaces.md)
 * [Lista de plantillas de Workspace](../architecture/workspace-templates.md)

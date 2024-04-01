@@ -1,22 +1,22 @@
 ---
-title: Actividad de lanzamiento de planificación de Adobe Workfront
-description: Actualmente, las funcionalidades de planificación de Adobe Workfront están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
+title: Actividad de versión de Adobe Workfront Planning
+description: Actualmente, las funcionalidades de Adobe Workfront Planning están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Actividad de lanzamiento de planificación de Adobe Workfront
+# Actividad de versión de Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-Este artículo enumera las funciones que se han publicado después de que el 22 de mayo de 2023 se iniciara el programa beta cerrado de las funciones de planificación de Adobe Workfront.
+Este artículo enumera las funciones que se han publicado después del lanzamiento del programa beta cerrado de funciones de Adobe Workfront Planning el 22 de mayo de 2023.
 
 Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero. Los clientes que participan en el programa beta cerrado de funciones de planificación pueden acceder a todas las funciones en sus entornos de producción.
 
@@ -24,7 +24,7 @@ Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más r
 >
 >Entre mayo de 2023 y diciembre de 2023, todas las funciones de este artículo se lanzaron al entorno de vista previa y producción. Las capacidades de planificación se han eliminado temporalmente de los entornos de Vista previa y Zona protegida desde enero de 2024. Todas las funciones lanzadas después de esta fecha están disponibles actualmente en el entorno de producción.
 
-Este artículo enumera las funciones y parches que se han publicado tras el lanzamiento del programa beta cerrado de las funciones de planificación de Adobe Workfront el 22 de mayo de 2023.
+Este artículo enumera las funciones y parches que se han publicado tras el lanzamiento del programa beta cerrado de funciones de Adobe Workfront Planning el 22 de mayo de 2023.
 
 Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, empezando por las más recientes. Los clientes que participan en el programa beta cerrado de funciones de planificación pueden acceder a todas las funciones en sus entornos de Previsualización y Producción.
 
@@ -64,13 +64,23 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
 ### Se ha cambiado el nombre del área Maestro en el menú principal a Planificación
 
-Producción: 28 de marzo de 2024
+Producción: 27 de marzo de 2024
 
 Vista previa: por determinar
 
 Hemos cambiado el nombre del área Maestro en el menú principal a Planificación.
 
-Para obtener una descripción general de la planificación de Adobe Workfront, consulte [Información general de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+Para obtener una descripción general de Adobe Workfront Planning, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+
+### Nueva experiencia al eliminar un tipo de registro
+
+Producción: 27 de marzo de 2024
+
+Vista previa: por determinar
+
+Hemos rediseñado el cuadro de confirmación al eliminar un tipo de registro. La eliminación de un tipo de registro es impactante, ya que también elimina todos los registros, sus campos, la información de los campos, así como las vistas asociadas con el tipo de registro. Los tipos de registros eliminados y su información eliminada no se pueden recuperar.
+
+Por este motivo, queremos asegurarnos de que la intención del usuario sea precisa al eliminar un tipo de registro, por lo que hemos introducido un paso adicional para confirmar la eliminación. Para obtener más información, consulte [Eliminar tipos de registros](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Semana del 18 de marzo de 2024
 
@@ -82,15 +92,15 @@ Vista previa: por determinar
 
 Ahora puede filtrar la información en la vista de calendario. Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Cuadro de detalles agregado a las vistas de calendario y cronología
+### Cuadro con detalles de registro agregados a las vistas de calendario y escala de tiempo
 
 Producción: 19 de marzo de 2024
 
 Vista previa: por determinar
 
-Ahora puede acceder al cuadro Detalles de un registro desde las vistas Cronología y Calendario. Puede editar registros en el cuadro Detalles dentro de las vistas Cronología y Calendario.
+Ahora puede acceder a un cuadro con detalles de registro de las vistas de cronología y calendario. Puede editar registros en el cuadro del registro dentro de las vistas Cronología y Calendario.
 
-En el cuadro Detalles, puede abrir la página Detalles del registro.
+Desde el cuadro del registro, puede abrir la página del registro en una nueva pestaña del explorador.
 
 Para obtener más información, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Para facilitar la visualización de información adicional sobre los registros a
 
 * Capacidad para modificar la información de registro
 
-* Un vínculo para abrir la página Detalles del registro
+* Un vínculo para abrir la página del registro
 
 Para obtener más información, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Los siguientes son los niveles más altos de permisos que los usuarios pueden re
 
 Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al utilizar Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nueva apariencia de la barra de herramientas Texto enriquecido para campos de registro
@@ -360,7 +370,7 @@ Para crear coherencia al crear registros, se ha vuelto a etiquetar el vínculo +
 
 Vista previa y zona protegida: 11 de enero de 2024
 
-Las funcionalidades de planificación de Adobe Workfront se han eliminado temporalmente de los entornos de Previsualización y Zona protegida. Se añadirán a estos entornos en una fecha posterior, que se comunicará en las notas de la versión de la actividad.
+Las funcionalidades de Adobe Workfront Planning se han eliminado temporalmente de los entornos de Vista previa y Zona protegida. Se añadirán a estos entornos en una fecha posterior, que se comunicará en las notas de la versión de la actividad.
 
 ### Permisos de capacidades de Planning para espacios de trabajo y vistas
 
@@ -387,7 +397,7 @@ A continuación se indican los niveles de permisos para las vistas de registros:
 * Vista: Los usuarios pueden seleccionar la vista en el menú desplegable Ver de una página de tipo de registro.
 * Administrar: los usuarios pueden editar, compartir y eliminar la vista.
 
-Para obtener más información, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de planificación de Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
+Para obtener más información, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de Adobe Workfront Planning](../maestro/access/sharing-permissions-overview.md).
 
 ### Nuevo tipo de campo Fórmula
 
@@ -439,7 +449,7 @@ Ahora puede buscar una palabra clave para encontrar rápidamente un registro en 
 
 ## Semana del 18 de diciembre de 2023
 
-### Agregar comentarios a los registros desde la página Detalles
+### Agregar comentarios a los registros desde la página del registro
 
 Vista previa y producción para todos los clientes: 18 de diciembre de 2023
 
@@ -455,7 +465,7 @@ Vista previa y producción para todos los clientes: 18 de diciembre de 2023
 >
 >Para obtener más información, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Ahora puede colaborar con otros en registros individuales agregando comentarios o respondiendo a otros mientras ve un registro en la página Detalles.
+Ahora puede colaborar con otros en registros individuales agregando comentarios o respondiendo a otros mientras ve la página de un registro.
 
 Los registros de experiencia de comentarios para las capacidades de planificación coinciden con la nueva experiencia de comentarios para los objetos de Workfront.
 
@@ -467,7 +477,7 @@ Producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de planificación de Adobe Workfront.
+>Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
 >
 >Para obtener más información, consulte [Información general sobre Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Versión de producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de funciones de planificación de Adobe Workfront a Adobe Experience Manager Assets.
+>La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de capacidades de Adobe Workfront Planning a Adobe Experience Manager Assets.
 >
 >Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Ahora puede establecer una conexión entre los tipos de registro de las capacidades de planificación de Adobe Workfront y Adobe Experience Manager Assets.
+Ahora puede establecer una conexión entre los tipos de registro de las capacidades de Adobe Workfront Planning y Adobe Experience Manager Assets.
 
 Después de establecer la conexión, esta actualización incluye las siguientes funciones:
 
@@ -608,7 +618,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](../maes
 
 Previsualización y producción: 30 de octubre de 2023
 
-Hemos introducido los siguientes tipos de campos para los registros de capacidades de planificación de Adobe Workfront:
+Hemos introducido los siguientes tipos de campos para los registros de capacidades de Adobe Workfront Planning:
 
 * Creado por
 
@@ -630,7 +640,7 @@ Ahora puede abrir las páginas de objetos de Workfront desde las siguientes áre
 
 * La vista de tabla de registros de objetos de Workfront vinculados de solo lectura
 
-* La página Detalles del registro de objetos de Workfront de solo lectura
+* La página de registro de objetos de Workfront de solo lectura
 
 Para obtener más información, consulte [Conectar registros](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Ahora puede agregar un campo de tipo Personas a los tipos de registro de capacid
 
 Previsualización y producción: 16 de octubre de 2023
 
-Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página Detalles de un registro. Para obtener más información, consulte [Edición de registros](../maestro/records/edit-records.md).
+Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página de registro. Para obtener más información, consulte [Edición de registros](../maestro/records/edit-records.md).
 
 
 ### Registrar y agrupar códigos de color para la vista Cronología
@@ -752,7 +762,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](../maes
 
 ## Semana del 21 de agosto de 2023
 
-### Conexión de registros de funciones de planificación de Adobe Workfront a programas y portafolios
+### Conexión de registros de funciones de Adobe Workfront Planning a programas y portafolios
 
 Previsualización y producción: 24 de agosto de 2023
 
@@ -839,7 +849,7 @@ Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de reg
 
 Previsualización y producción: 28 de junio de 2023
 
-Hemos habilitado la capacidad de activar el menú contextual haciendo clic con el botón derecho en cualquier lugar de una fila de registro, cuando se visualizan los registros en la vista de tabla o en un tipo de registro. Ahora puede ver, eliminar o copiar rápidamente un vínculo a la página Detalles del registro al acceder al menú contextual desde cualquier lugar de la vista de tabla de un tipo de registro. Antes de esta mejora, el menú contextual solo era accesible desde el menú Más en la columna Nombre de un registro.
+Hemos habilitado la capacidad de activar el menú contextual haciendo clic con el botón derecho en cualquier lugar de una fila de registro, cuando se visualizan los registros en la vista de tabla o en un tipo de registro. Ahora puede ver, eliminar o copiar rápidamente un vínculo a la página del registro cuando tiene acceso al menú contextual desde cualquier lugar de la vista de tabla de un tipo de registro. Antes de esta mejora, el menú contextual solo era accesible desde el menú Más en la columna Nombre de un registro.
 
 ## Semana del 19 de junio de 2023
 
@@ -849,7 +859,7 @@ Ahora hemos introducido el requisito de que los nombres de campo de un tipo de r
 
 ## Semana del 5 de junio de 2023
 
-### Conexión de registros de capacidades de planificación de Adobe Workfront con proyectos de Workfront
+### Conexión de registros de capacidades de Adobe Workfront Planning con proyectos de Workfront
 
 Previsualización y producción: 5 de junio de 2023
 

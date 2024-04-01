@@ -1,13 +1,13 @@
 ---
 title: Creación de espacios de trabajo
-description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
+description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning. Los tipos de registro están organizados por secciones en un espacio de trabajo.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En la planificación de Adobe Workfront, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
+En Adobe Workfront Planning, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
 Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
@@ -61,7 +61,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 * Puede crear espacios de trabajo para unidades organizativas específicas dentro de su organización, de modo que coincidan con el modo exclusivo en que funciona cada unidad.
 * Los tipos de registro que contiene un espacio de trabajo deben reflejar el ciclo de vida laboral de una unidad organizativa.
 * Al crear un espacio de trabajo, sólo usted tiene permiso para acceder y administrar el espacio de trabajo. Debe compartirlo con otros usuarios para que puedan colaborar con usted en el mismo espacio. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/maestro/access/share-workspaces.md). Los administradores del sistema pueden administrar todos los espacios de trabajo, incluso los que no hayan creado.
-* Puede tener un máximo de 1000 espacios de trabajo en la instancia de Workfront de su organización.
-* Los espacios de trabajo contienen tipos de registros exclusivos de cada espacio de trabajo. <!--this might change-->
+* Puede tener lo siguiente:
+
+   * Hasta 50 secciones en un espacio de trabajo.
+   * Hasta un total de 1000 tipos de registros de todas las secciones de un espacio de trabajo. Todos los tipos de registro son únicos para cada espacio de trabajo. <!--this might change-->
+   * Hasta 1000 espacios de trabajo en la instancia de Workfront de su organización.
+
 
 ## Crear un espacio de trabajo
 
@@ -111,7 +115,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Esto abre el área Espacios de trabajo de la planificación de Workfront.
+   Se abrirá el área de Espacios de trabajo de Workfront Planning.
 1. (Opcional y condicional) Haga clic en **Previsualizar** dentro de cualquiera de las siguientes plantillas predefinidas de workspace:
 
    * Gestión de marketing
@@ -122,7 +126,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Para obtener información sobre las plantillas de espacio de trabajo de planificación de Workfront, consulte [Lista de plantillas de Workspace](../architecture/workspace-templates.md).
+   Para obtener información sobre las plantillas de espacio de trabajo de Workfront Planning, consulte [Lista de plantillas de Workspace](../architecture/workspace-templates.md).
 
 1. Clic **Usar plantilla** para empezar a crear el espacio de trabajo a partir de la plantilla seleccionada
 
@@ -140,8 +144,6 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
    O
 
    Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Cambiar nombre**.
-
-1. (Opcional y condicional) Si el espacio de trabajo ya tiene secciones, haga clic en **Agregar sección** para agregar una nueva sección a un espacio de trabajo. Una sección puede contener varios tipos de registros.
 
 1. (Opcional y condicional) Si ha creado el espacio de trabajo a partir de una plantilla, haga clic dentro del nombre del **Tipos de registros operativos** o **Taxonomías** secciones
 
@@ -163,8 +165,13 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
    * Clic **Agregar sección** en la parte inferior del espacio de trabajo.
    * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Agregar sección anterior** o **Agregar sección debajo**.
 
-1. (Opcional) Haga clic en **Añadir tipo de registro** para agregar tipos de registros al espacio de trabajo.
+1. (Opcional) Haga clic en **Añadir tipo de registro** para agregar tipos de registros al espacio de trabajo en cualquier sección.
 
    Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
+1. (Opcional) Para eliminar una sección, haga lo siguiente:
 
+   1. Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Eliminar**. <!--add screen shot when UI is final?-->
+   1. Seleccione una nueva sección para mover todos los tipos de registros y haga clic en **Eliminar**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Todos los tipos de registro se mueven a la sección de selección y esta se elimina.

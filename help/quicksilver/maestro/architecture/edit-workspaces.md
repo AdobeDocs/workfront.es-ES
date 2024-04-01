@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-En la planificación de Adobe Workfront, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
+En Adobe Workfront Planning, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
 Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
@@ -62,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>
+   <td> <p>No hay controles de nivel de acceso para Workfront Planning</p>
 </td>
   </tr>
 
@@ -88,7 +88,7 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
 {{step1-to-maestro}}
 
-Esto abre el área Espacios de trabajo de la planificación de Workfront.
+Se abrirá el área de Espacios de trabajo de Workfront Planning.
 
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse **Entrar**
 

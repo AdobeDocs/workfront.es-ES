@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para la planificación de Adobe Workfront</p>  
+   <td> <p>No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Puede editar los registros que haya creado o los creados por otros usuarios si dispone de permisos para el espacio de trabajo.
 * Puede editar los campos de registro desde las siguientes áreas:
 
-   * El cuadro Detalles de un registro de una vista de registros.
-   * La página Detalles de un registro.
+   * El cuadro del registro en una vista de registros
+   * La página del registro
    * En línea, en una vista de tabla.
 
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
@@ -109,7 +109,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Puede editar un registro desde las siguientes áreas:
 
 * [Desde la vista de tabla de un tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Desde la página Detalles de un registro](#edit-a-record-from-the-records-details-page)
+* [Desde el cuadro del registro en una vista](#edit-a-record-from-the-records-box-in-a-view)
+* [Desde la página del registro](#edit-a-record-from-the-records-page)
 
 ### Editar un registro en línea en la vista de tabla de un tipo de registro
 
@@ -165,7 +166,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
    >   * Pegar: CTRL + V (⌘ + V para Mac)
    >* No puede copiar información de otro origen que no sea un campo de registro del mismo tipo que el campo en el que pega la información.
    >
-   >* No se pueden copiar y pegar valores de campo en el área de Detalles de un registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
+   >* No se pueden copiar y pegar valores de campo en la página de registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
    >
    >
@@ -183,9 +184,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
 1. (Opcional) Agregue una miniatura a un registro. Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Editar un registro desde el cuadro Detalles del registro en una vista
-
-Puede editar un registro desde el cuadro Detalles de cualquier vista.
+### Editar un registro desde el cuadro del registro en una vista
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ El espacio de trabajo al que se accede por última vez se abre.
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro o haga clic en un nombre de registro. El **Detalles** se abre en la vista.
+   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro o haga clic en un nombre de registro. El cuadro del registro se abre en la vista.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ El espacio de trabajo al que se accede por última vez se abre.
    >
    >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
-1. Comience a editar la información del campo en **Detalles** cuadro. Workfront guarda automáticamente los cambios.
+1. Comience a editar la información del campo en el cuadro del registro. Workfront guarda automáticamente los cambios.
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la **Detalles** para abrir el cuadro de diálogo del registro **Detalles** en una nueva pestaña. Siga editando el registro como se describe en [Editar un registro desde la página de detalles del registro](#edit-a-record-from-the-records-details-page) de este artículo.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha del cuadro del registro para abrir la página del registro en una nueva ficha. Siga editando el registro como se describe en [Editar un registro desde la página del registro](#edit-a-record-from-the-records-page) de este artículo.
 
-### Editar un registro desde la página de detalles del registro
-
-Puede editar un registro desde la página Detalles.
+### Editar un registro desde la página del registro
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ El espacio de trabajo al que se accede por última vez se abre.
 
 1. Realice una de las siguientes acciones:
 
-   * Desde cualquier vista, acceda al cuadro Detalles, tal como se describe en la [Editar un registro desde el cuadro Detalles del registro en una vista](#edit-a-record-from-the-records-details-box-in-a-view)de este artículo. A continuación, haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la **Detalles** para abrir el cuadro de diálogo del registro **Detalles** en una nueva pestaña.
+   * Desde cualquier vista, acceda al cuadro del registro, tal como se describe en la [Editar un registro desde el cuadro del registro en una vista](#edit-a-record-from-the-records-box-in-a-view) de este artículo. A continuación, haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha del cuadro de registro para abrir la página del registro en una nueva ficha.
 
    * Desde el **Tabla** , pase el ratón sobre el nombre de un registro y haga clic en el botón **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     El registro **Detalles** se abre la página.
+     Se abre la página de registro.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ El espacio de trabajo al que se accede por última vez se abre.
 
    O
 
-   Haga clic dentro de cualquier campo editable de la página Detalles para editar la información.
+   Haga clic dentro de cualquier campo editable de la página de registro para editar la información.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

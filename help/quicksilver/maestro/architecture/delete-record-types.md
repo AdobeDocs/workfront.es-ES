@@ -1,13 +1,13 @@
 ---
 title: Eliminar tipos de registros
-description: Puede eliminar los tipos de registro cuando ya no sean relevantes.
+description: Puede eliminar los tipos de registro cuando ya no sean relevantes. Al eliminar los tipos de registro también se elimina toda la información asociada a los tipos de registro, como sus registros, campos y vistas.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Adobe Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
 
-   El espacio de trabajo se abre y se muestran los tipos de registro y las taxonomías asociadas a él.
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Haga clic en la tarjeta del tipo de registro que desee eliminar.
 
    Se abre la página del tipo de registro.
-1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**.
-1. Clic **Eliminar** para confirmar.
+1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**. <!--add screen shot when they finalize the UI-->
+1. Tipo **Eliminar** en el cuadro de confirmación, haga clic en **Eliminar permanentemente**.
 
    El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminan.

@@ -1,11 +1,11 @@
 ---
 title: Lista de plantillas de Workspace
-description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. La planificación de Adobe Workfront incluye un conjunto de plantillas para ayudarle a empezar a utilizar los tipos de registros y campos básicos al crear su espacio de trabajo.
+description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Adobe Workfront Planning incluye un conjunto de plantillas para ayudarle a empezar con los tipos de registros y campos básicos al crear su espacio de trabajo.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -29,20 +29,20 @@ role: User
 
 {{maestro-important-intro}}
 
-En la planificación de Adobe Workfront, un espacio de trabajo es una colección de tipos de registros que utiliza un equipo y que representa su ciclo de vida laboral.
+En Adobe Workfront Planning, un área de trabajo es una colección de tipos de registros que utiliza un equipo y representa el ciclo de vida del trabajo del equipo.
 
-La planificación de Workfront incluye un conjunto de plantillas para ayudarle a empezar a utilizar los tipos de registros y campos básicos al crear su espacio de trabajo. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
+Workfront Planning incluye un conjunto de plantillas para ayudarle a empezar con los tipos de registros y campos básicos al crear su espacio de trabajo. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](../architecture/create-workspaces.md).
 
 En este artículo se describen las plantillas de espacio de trabajo disponibles en Adobe Workfront Planning.
 
-## Consideraciones sobre las plantillas de planificación de Adobe Workfront
+## Consideraciones sobre las plantillas de Adobe Workfront Planning
 
 * Cada plantilla viene con un conjunto de tipos de registros. Para obtener más información, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 * Los tipos de registros de cada plantilla están organizados en las siguientes secciones:
 
    * Tipos de registros operativos
    * Taxonomías
-* Cada tipo de registro viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de planificación de Workfront.
+* Cada tipo de registro viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de Workfront Planning.
 * Puede personalizar cualquier plantilla y agregar más tipos de registros y campos a los existentes.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,7 +96,7 @@ You must have the following:
 
 -->
 
-## plantillas de espacio de trabajo de planificación Workfront
+## Plantillas de espacio de trabajo de Workfront Planning
 
 A continuación, se muestran las plantillas de espacio de trabajo de Workfront Planning y el número de campos que incluyen:
 

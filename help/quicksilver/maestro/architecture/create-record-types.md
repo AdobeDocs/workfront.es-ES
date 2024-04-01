@@ -1,24 +1,25 @@
 ---
 title: Creación de tipos de registros
-description: Los tipos de registro son los tipos de objetos de la planificación de Adobe Workfront. En Workfront Planning, puede crear tipos de registros personalizados que ilustren los elementos de trabajo necesarios en el ciclo de vida de su organización.
+description: Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede crear tipos de registros personalizados que ilustren los elementos de trabajo necesarios en el ciclo de vida de su organización.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Creación de tipos de registros
 
 {{maestro-important-intro}}
 
-Los tipos de registro son los tipos de objetos de la planificación de Adobe Workfront. En Workfront Planning, puede crear tipos de registros personalizados que ilustren los elementos relacionados con el trabajo necesarios en el ciclo de vida de su organización.
+Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede crear tipos de registros personalizados que ilustran los elementos relacionados con el trabajo necesarios en el ciclo de vida de su organización.
 Los tipos de registro pueden ser uno de los siguientes:
 
 Para obtener más información sobre los tipos de registros, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -62,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para la planificación de Workfront</p>  
+   <td> <p>No hay controles de nivel de acceso para Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         >
         >Esta funcionalidad se ha deshabilitado temporalmente desde el 21 de marzo de 2024. Se activará en una fecha posterior.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Desde cero.
 
-        En este artículo se describe cómo crear tipos de registro genéricos desde cero en un área de trabajo creada desde cero.
+        Este artículo describe cómo crear tipos de registros desde cero.
 
 * Puede mover tipos de registros dentro de una sección y de una sección de un espacio de trabajo a otra. No se pueden mover tipos de registros de un espacio de trabajo a otro.
 
 ## Creación de tipos de registros con una plantilla de Workspace
 
-Puede crear tipos de registro automáticamente al crear un espacio de trabajo mediante una plantilla de planificación de Workfront. Cada plantilla contiene tipos de registro de ejemplo.
+Puede crear tipos de registros automáticamente al crear un espacio de trabajo con una plantilla de Workfront Planning. Cada plantilla contiene tipos de registro de ejemplo.
 
 Al crear un espacio de trabajo a partir de una plantilla, los tipos de registro se agrupan en las siguientes secciones:
 
@@ -133,17 +134,14 @@ Para obtener información sobre los tipos de registros que se incluyen con cada 
 
 ## Crear un tipo de registro desde cero
 
-Este artículo describe cómo crear tipos de registros desde cero.
-
 {{step1-to-maestro}}
 
 El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea crear tipos de registros.
+1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al espacio de trabajo.
 1. Clic **Añadir tipo de registro**.
-1. (Condicional) Si está creando un tipo de registro operativo, haga clic en **Desde cero**.
-
-   Se abre el cuadro Agregar tipo de registro.
+1. (Condicional) Cuando esté habilitada la creación de tipos de registros mediante la importación de un archivo de Excel o CSV, haga clic en **Desde cero**. De lo contrario, la variable **Añadir tipo de registro** se abre el cuadro.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
 1. Haga clic fuera de **Añadir tipo de registro** para guardar el tipo de registro.
 
-   La tarjeta de tipo de registro se añade al espacio de trabajo seleccionado.
+   La tarjeta de tipo de registro se añade a la sección y al espacio de trabajo seleccionado.
 El número de campos que contiene el tipo de registro se muestra en la tarjeta.
 1. (Opcional) Haga clic en la tarjeta de tipo de registro para abrir la página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
 
-   La página de tipo de registro se muestra en la vista Tabla de forma predeterminada. Las columnas de la tabla son campos asociados al nuevo tipo de registro. Cada fila es un registro único que debe agregar.
+   La página de tipo de registro se muestra en la vista de tabla de forma predeterminada. Las columnas de la tabla son campos asociados al nuevo tipo de registro. Cada fila es un registro único que debe agregar.
+
+   >[!TIP]
+   >
+   >    Si importa un tipo de registro desde un archivo de Excel o CSV, también se importan los registros.
 
    De forma predeterminada, los campos siguientes se muestran en las columnas de la vista de tabla de un tipo de registro operativo:
 
@@ -183,7 +185,7 @@ El número de campos que contiene el tipo de registro se muestra en la tarjeta.
 
    Para obtener más información sobre la creación de campos, consulte [Creación de campos](../fields/create-fields.md).
 
-1. (Opcional) Haga clic en la flecha que señala a la izquierda del nombre del tipo de registro para volver al espacio de trabajo seleccionado.
+1. (Opcional) Haga clic en la flecha que señala a la izquierda del nombre del tipo de registro, en el encabezado, para volver al espacio de trabajo seleccionado.
 
    La tarjeta de tipo de registro muestra el número de campos y conexiones que contiene el tipo de registro.
 
@@ -196,16 +198,15 @@ El número de campos que contiene el tipo de registro se muestra en la tarjeta.
    * [Editar tipos de registros](../architecture/edit-record-types.md)
    * [Administrar vistas de registros](../views/manage-record-views.md)
 
-1. (Opcional) En el espacio de trabajo, haga clic en para arrastrar y soltar un tipo de registro en un lugar deseado o para moverlo a otra sección.
+1. (Opcional) En el espacio de trabajo, haga clic y mantenga pulsada una tarjeta de tipo de registro para arrastrar y soltar el tipo de registro en un punto deseado o para moverlo a otra sección.
 
-   Los cambios se guardan automáticamente, después de soltar la tarjeta de tipo de registro seleccionada.
+   Los cambios se guardan automáticamente.
 
 ## Creación de tipos de registros importando un archivo CSV o de Excel
 
 >[!IMPORTANT]
 >
 >Esta funcionalidad se ha deshabilitado temporalmente desde el 21 de marzo de 2024. Se activará en una fecha posterior.
-
 
 Tenga en cuenta lo siguiente al importar tipos de registros mediante un archivo CSV o de Excel:
 
@@ -262,13 +263,13 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
 
    Puede empezar a administrar campos y registros en las páginas de tipos de registros.
 
-   Todas las personas con acceso a la planificación de Workfront ahora pueden ver y editar los tipos de registro importados y su información. <!--this will change with permissions-->
+   Todas las personas con acceso a Workfront Planning ahora pueden ver y editar los tipos de registro importados y su información. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

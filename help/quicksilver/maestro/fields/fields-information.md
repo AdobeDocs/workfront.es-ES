@@ -1,11 +1,11 @@
 ---
 title: "Campos: índice de artículos"
-description: Puede agregar nuevos campos en la planificación de Adobe Workfront que reflejen el ciclo vital de su organización. Los campos son atributos de tipos de registro.
+description: Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de vida de su organización. Los campos son atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Como líder de operaciones de marketing, puede utilizar la planificación de Adobe Workfront para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. En la planificación de Workfront, puede personalizar completamente la arquitectura de los flujos de trabajo, incluida la adición de campos personalizados para todos los tipos de registros personalizados que cree.
+Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. En Workfront Planning, puede personalizar completamente la arquitectura de los flujos de trabajo, incluida la adición de campos personalizados para todos los tipos de registros personalizados que cree.
 
-En los artículos de las secciones siguientes se describe cómo crear y configurar los campos de planificación de Workfront:
+En los artículos de las secciones siguientes se describe cómo crear y configurar campos de Workfront Planning:
 
 * [Resumen de campo](../fields/fields-overview.md)
 * [Creación de campos](../fields/create-fields.md)

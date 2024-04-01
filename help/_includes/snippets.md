@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -253,13 +253,13 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a la planificación de Adobe Workfront, una nueva oferta de Adobe Workfront.
+>La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
 >
->Actualmente, la planificación de Workfront forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
+>Actualmente, Workfront Planning forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
 >
->Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta para la planificación de Workfront.
+>Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta de Workfront Planning.
 >
->Para obtener más información, consulte [Información general de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

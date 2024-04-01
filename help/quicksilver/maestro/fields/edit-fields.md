@@ -1,13 +1,13 @@
 ---
 title: Editar campos
-description: En Adobe Workfront Planning, puede editar la configuración de campo para los campos que ya se han creado.
+description: En Adobe Workfront Planning, puede editar la configuración de campo de los campos que ya se han creado.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Editar campos
 
 {{maestro-important-intro}}
 
-Puede editar la configuración de campo de los campos que ya se han creado en la planificación de Adobe Workfront.
+Puede editar la configuración de campo de los campos que ya se han creado en Adobe Workfront Planning.
 
-Para obtener información sobre la creación de campos de planificación de Adobe Workfront, consulte [Creación de campos](../fields/create-fields.md).
+Para obtener información sobre la creación de campos de Adobe Workfront Planning, consulte [Creación de campos](../fields/create-fields.md).
 
-En este artículo se describe cómo editar la configuración de los campos de planificación de Workfront. Para obtener información sobre la edición de valores de campo para registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
+En este artículo se describe cómo editar la configuración de los campos de Workfront Planning. Para obtener información sobre la edición de valores de campo para registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Consideraciones sobre la edición de información de campo
 
 * Puede editar los campos que ha creado o los campos creados por otros usuarios si tiene permisos de administración en el espacio de trabajo al que pertenecen los campos.
 * Puede editar un campo en la tabla de tipo de registro.
-* No se puede editar un campo en la página Detalles de un registro o en la vista de escala de tiempo.
+* No se puede editar un campo en la página de registro o en la vista de escala de tiempo.
 * Una vez guardado el campo, no se puede editar el tipo de campo.
 * No puede anular la selección de la opción Permitir números negativos seleccionada anteriormente para un campo Número, Porcentaje o Moneda si ya hay valores negativos almacenados en los registros a los que está asociada.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
-<p>Su organización debe estar inscrita en el programa beta de planificación de Adobe Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
+<p>Su organización debe estar inscrita en el programa beta de Adobe Workfront Planning. Póngase en contacto con el representante de cuentas para obtener más información sobre esta nueva oferta. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para la planificación de Workfront</p>  
+   <td> <p>No hay controles de acceso para Workfront Planning</p>  
 </td>
   </tr>
 
