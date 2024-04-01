@@ -7,17 +7,15 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1378'
 ht-degree: 3%
 
 ---
 
 
 # Información general de la sección Actualizaciones
-
-{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -28,6 +26,12 @@ ht-degree: 3%
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en Producción para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
 >[!IMPORTANT]
 >
 >Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
@@ -37,18 +41,33 @@ ht-degree: 3%
 >* La experiencia heredada
 >* La nueva experiencia y la experiencia heredada
 >
->Este artículo contiene información sobre las versiones nuevas y heredadas de la sección Actualizaciones.
->
 >Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de objetos de Workfront y no está disponible al acceder a los objetos desde las áreas siguientes:
+><Span class="preview"> La experiencia de comentarios heredada se ha eliminado de proyectos, tareas, problemas y documentos en el entorno de vista previa. </span>
+>
+>La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de los objetos de Workfront y no está disponible al acceder a las actualizaciones desde las áreas siguientes:
 >
 > * Inicio
 > * Panel de resumen en listas
 > * Panel de resumen en plantillas de horas
 > * Panel de resumen en el Distribuidor de cargas de trabajo
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en listas, plantillas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa y en el entorno de producción para los clientes que han elegido el proceso de versión rápido.</span>
+><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en listas, plantillas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa y en el entorno de producción para los clientes que han elegido el proceso de versión rápido.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Información general de la sección Actualizaciones
 

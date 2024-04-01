@@ -6,9 +6,9 @@ description: Tanto la finalización planificada como las fechas de confirmación
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ El usuario asignado que trabaja en la tarea o el problema puede actualizar manua
 
 El usuario asignado que cambia la fecha de compromiso no cambia automáticamente la fecha planificada de finalización. Lo contrario también es verdadero: al cambiar la fecha planificada de finalización, no se cambia la fecha de confirmación.
 
-Cuando la fecha de compromiso cambia a una fecha posterior a la fecha planificada de finalización, se notifica al propietario del proyecto que este cambio se ha producido y podría afectar a la cronología del proyecto, si el propietario del proyecto utiliza la experiencia de comentarios heredada. Esta funcionalidad no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Cuando la fecha de compromiso cambia a una fecha posterior a la fecha planificada de finalización, se notifica al propietario del proyecto que este cambio se ha producido y podría afectar a la cronología del proyecto.
 
 Si la fecha de confirmación ofrecida por el usuario asignado es aceptable para el propietario del proyecto, debe actualizar manualmente la fecha planificada de finalización de la tarea o el problema. Para obtener más información, consulte los siguientes artículos:
 

@@ -7,16 +7,14 @@ description: La fecha de confirmación es la fecha en la que un usuario asignado
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # Resumen de fecha de confirmación
-
-{{preview-and-fast-release}}
 
 La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema. Esto es diferente a la Fecha planificada de finalización, ya que es una estimación más realista de la fecha de finalización dada únicamente por el usuario a cargo del trabajo. Para obtener información sobre la fecha planificada de finalización, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Cuando un usuario asignado de tarea o problema selecciona una fecha de confirmac
 
 Al establecer la fecha de confirmación para una tarea o problema se producen los déclencheur siguientes:
 
-* La fecha de confirmación se rellena en el flujo de actualización de la tarea o el problema.
+* El cambio de fecha de confirmación se rellena en las pestañas Actividad del sistema y Todos de la sección Actualización de la tarea o el problema.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   El cambio de la fecha de confirmación se muestra en el área de actualizaciones de la tarea o del problema cuando el administrador de Workfront habilita esta actualización en el área de fuentes de actualizaciones en la configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Si el propietario de un proyecto no desea aceptar el cambio, le recomendamos que realice un comentario de nuevo al usuario que propone una nueva fecha utilizando la pestaña Comentarios en la sección Actualizaciones para pedirle que vuelva a cambiar la fecha de compromiso a la fecha planificada original o que seleccione una nueva fecha. Si el propietario de un proyecto acepta el cambio, puede ajustar manualmente la fecha planificada de finalización para que coincida con la fecha de confirmación ofrecida por el usuario asignado al elemento editando la tarea o el problema.
+
+  Debe tener acceso para administrar la tarea o el problema para editarlos.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * La fecha proyectada de finalización de la tarea o problema se establece en la misma fecha porque la tarea tiene ahora una indicación más precisa de cuándo es probable que se complete.
 
@@ -67,27 +80,10 @@ Al establecer la fecha de confirmación para una tarea o problema se producen lo
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Si el propietario del proyecto utiliza la experiencia de comentarios heredada, se le notifica en la pestaña Actualizaciones de la tarea si este cambio afectará a la cronología del proyecto y se le da la oportunidad de actualizar la fecha planificada de finalización de la tarea en la misma área.
 
-  Esta funcionalidad no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  El propietario del proyecto no tiene la oportunidad de actualizar la fecha planificada de finalización de un problema, ya que las fechas de este no afectan a la cronología del proyecto.
 
-  Si el propietario de un proyecto no desea aceptar el cambio, le recomendamos que realice un comentario de nuevo al usuario que propone una nueva fecha para pedirle que cambie la fecha de compromiso de nuevo a la fecha planificada original, o que seleccione una nueva fecha. Si el propietario de un proyecto acepta el cambio, puede ajustar manualmente la fecha planificada de finalización para que coincida con la fecha de confirmación ofrecida por el usuario asignado al elemento. También pueden hacer clic en **Establecer fecha planificada en: &lt; fecha >** en el área Actualizaciones, que establece automáticamente la Fecha planificada de finalización para que coincida con la nueva Fecha de compromiso.
-
-  Debe tener acceso para administrar la tarea y el proyecto para aceptar este cambio.
-
-  >[!NOTE]
-  >
-  >Si desea ver cómo afecta la escala de tiempo del proyecto al aceptar cambiar la fecha planificada de finalización de la tarea, haga clic en **Cronología del proyecto**. Esto abre la lista de tareas donde puede evaluar los cambios de fecha y la cronología del proyecto.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* Se notifica al propietario del proyecto en el área de Notificaciones que ha cambiado una fecha de confirmación de tarea.
+* Se notifica al propietario del proyecto en el área de Notificaciones que ha cambiado una fecha de confirmación de tarea o problema.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

@@ -5,16 +5,20 @@ description: Puede utilizar el Panel de resumen para revisar y actualizar la inf
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumen] descripción general
 
-{{preview-and-fast-release}}
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en Producción para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Puede usar el complemento [!UICONTROL Resumen] panel para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de [!DNL Adobe Workfront] que muestran tareas y problemas.
 
@@ -36,6 +40,9 @@ En la tabla siguiente se muestran las áreas en las que puede localizar y utiliz
   <tr> 
    <td>Tareas en las áreas de trabajo de [!UICONTROL sin asignar] y [!UICONTROL asignado] del Distribuidor de cargas de trabajo de [!UICONTROL]</td> 
   </tr> 
+   <tr> 
+   <td>Tareas en una hoja de horas de [!UICONTROL]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemas</td> 
   </tr> 
@@ -53,7 +60,12 @@ En la tabla siguiente se muestran las áreas en las que puede localizar y utiliz
   <tr data-mc-conditions=""> 
    <td>Problemas en la sección [!UICONTROL Enviado] del área de [!UICONTROL Solicitudes]</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problemas en una hoja de horas de [!UICONTROL]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Documentos</td> 
   </tr> 
   <tr data-mc-conditions=""> 

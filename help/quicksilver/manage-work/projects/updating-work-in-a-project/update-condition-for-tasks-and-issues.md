@@ -6,9 +6,9 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ Para licencias actuales:
 
 Las condiciones se muestran como un indicador asociado a tareas o problemas. También pueden asociarse con un número que se puede mostrar en los informes en lugar de en la etiqueta. Para obtener más información sobre cómo asociar condiciones con números, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Puede localizar la Condición de las tareas y problemas en las siguientes áreas:
-
-* El área Actualizaciones de tareas y problemas, dentro de una actualización, cuando se le asigna a la tarea o al problema. Esto no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Informes y listas cuando se muestra el campo Condición en una vista o agrupación.
+Puede localizar la condición de tareas y problemas en informes y listas cuando muestre el campo Condición en una vista o agrupación.
 
 >[!NOTE]
 >

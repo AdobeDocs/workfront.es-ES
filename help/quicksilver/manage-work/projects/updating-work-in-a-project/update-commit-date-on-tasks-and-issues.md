@@ -6,12 +6,13 @@ description: Puede actualizar manualmente la fecha de confirmación de una tarea
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # Actualizar fechas de confirmación en tareas y problemas
 
@@ -88,8 +89,11 @@ La actualización de la fecha de confirmación es idéntica para las tareas y lo
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Si está utilizando el área de Actualizaciones heredadas, se notifica al Propietario del proyecto que ha sugerido una nueva fecha de compromiso para la tarea o el problema y que, en este momento, puede actualizar la fecha planificada de finalización de la tarea o el problema para que coincida con la fecha de compromiso sugerida. Esta funcionalidad no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [La nueva experiencia de comentar](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * En las notificaciones en la aplicación se notifica al propietario del proyecto de que ha sugerido una nueva fecha de confirmación para la tarea o el problema.
+   * El propietario del proyecto recibe una notificación en la sección Actualizaciones de que ha sugerido una nueva fecha de compromiso y puede, en este momento, actualizar la fecha planificada de finalización de la tarea o problema para que coincida con la fecha de compromiso sugerida. Esta funcionalidad no se admite en la nueva experiencia de comentarios. Para obtener más información, consulte [La nueva experiencia de comentar](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     Para obtener información sobre las notificaciones y actualizaciones activadas por este cambio, consulte la sección [Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) en el artículo [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Para obtener información sobre las notificaciones y actualizaciones activadas por este cambio, consulte la sección &quot;Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación&quot; en el artículo [Resumen de fecha de confirmación](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

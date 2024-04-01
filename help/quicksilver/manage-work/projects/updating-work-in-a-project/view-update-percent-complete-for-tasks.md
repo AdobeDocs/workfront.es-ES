@@ -6,9 +6,9 @@ description: Puede actualizar el porcentaje completado de una tarea para indicar
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 * **En el encabezado de la tarea**: puede actualizar el porcentaje completado de una tarea en el encabezado de la tarea. Para obtener más información, consulte [Editar tareas](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **En el panel Resumen de una tarea**: puede actualizar el porcentaje completado de una tarea en la parte superior del Panel de resumen al ver la tarea en las siguientes áreas:
+
+   * Lista de tareas o informe
+   * Hoja de horas
+   * Distribuidor de cargas de trabajo
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  Para obtener más información, consulte [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## Consideraciones acerca de la actualización del porcentaje completado de una tarea

@@ -6,9 +6,9 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 
    Su comentario se muestra en la [!UICONTROL Actualizaciones] de la plantilla de horas, en la pestaña Comentarios.
 
-1. (Opcional) Haga clic en **Actividad del sistema** para revisar las actualizaciones generadas por el sistema.
+1. (Opcional) Haga clic en **Actividad del sistema** para revisar las actualizaciones generadas por el sistema
+
+   O
+
+   Haga clic en **Todo** para ver la actividad del sistema y los comentarios del usuario en orden cronológico.
+
+   >[!TIP]
+   >
+   >   La ficha Todos es de sólo lectura y no puede responder a los comentarios desde ella.
+
 
    Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ Solo puede realizar comentarios sobre las tareas y los problemas de una plantill
 1. Clic [!UICONTROL **Plantillas de horas**].
 1. Vaya a la plantilla de horas donde desee realizar un comentario y haga clic en [!UICONTROL **Hoja de horas**] en el panel izquierdo.
 1. Haga clic en la fila de una tarea o un problema y, a continuación, haga clic en [!UICONTROL **Abrir resumen**].
-1. Empiece a escribir una actualización en [!UICONTROL **Actualizaciones**] del panel Resumen y, a continuación, haga clic en [!UICONTROL **Actualizar**].
+1. Empiece a escribir una actualización en [!UICONTROL **Actualizaciones**] del panel Resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].
 La actualización se muestra en la sección Actualizaciones de la tarea y el problema.
 1. (Opcional) Haga clic en [!UICONTROL **Cerrar resumen**] para cerrar el Panel de resumen.
 
