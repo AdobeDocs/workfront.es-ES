@@ -6,9 +6,9 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Cree un proyecto a partir de una plantilla en el área Proyectos
 
-Puede crear un proyecto desde el área Proyectos en el menú principal o desde el área Proyectos de un portafolio o programa.
+Puede crear un proyecto desde el área Proyectos del menú principal o desde el área Proyectos de un portafolio o programa.
+
+>[!NOTE]
+>
+>El administrador del sistema o del grupo puede modificar la interfaz mediante una plantilla de diseño. En este caso, algunos de los nombres de las secciones y áreas a las que se hace referencia en los pasos siguientes podrían ser diferentes en su caso de Workfront.
 
 1. Realice una de las siguientes acciones:
 

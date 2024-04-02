@@ -7,16 +7,20 @@ description: La fecha de confirmación es la fecha en la que un usuario asignado
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Resumen de fecha de confirmación
 
-La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema. Esto es diferente a la Fecha planificada de finalización, ya que es una estimación más realista de la fecha de finalización dada únicamente por el usuario a cargo del trabajo. Para obtener información sobre la fecha planificada de finalización, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema.
+
+Esto es diferente a la fecha planificada de finalización de una tarea o problema, ya que es una estimación más realista de la fecha de finalización dada solamente por el usuario a cargo del trabajo.
+
+Para obtener información sobre la fecha planificada de finalización, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Resumen de fecha de confirmación
 
@@ -29,6 +33,7 @@ Tenga en cuenta lo siguiente al trabajar con fechas de compromiso:
 
    * Permita que Workfront establezca la fecha de confirmación para que coincida con la fecha planificada de finalización existente de la tarea o problema al hacer clic en Trabajar en ello, Iniciar problema o Iniciar tarea en la tarea o problema. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte  [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Establezca manualmente la fecha de confirmación según el momento en el que crea que se puede completar la tarea o el problema. Esta es su estimación y compromiso, como persona asignada, con el administrador del proyecto de que la tarea o problema se habrá completado en una fecha determinada.
+Para obtener más información, consulte [Actualizar fechas de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Tenga en cuenta lo siguiente al trabajar con fechas de compromiso:
 >* Cualquier otro usuario asignado a la tarea
 >* Cualquier otro usuario con permisos para la tarea.
 >
->Para obtener más información sobre el Propietario de la tarea, consulte la sección [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) en el artículo [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Para obtener más información sobre el propietario de la tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Cuando un usuario asignado de tarea o problema selecciona una fecha de confirmación diferente a la fecha planificada de finalización establecida por el propietario del proyecto, hay varias notificaciones y actualizaciones que avisan al propietario del proyecto y a otros usuarios de este cambio.
+Cuando un usuario asignado de tarea o problema cambia manualmente una fecha de confirmación a una fecha diferente a la fecha planificada de finalización establecida por el propietario del proyecto, hay varias notificaciones y actualizaciones que avisan al propietario del proyecto y a otros usuarios de este cambio.
 
 >[!NOTE]
 >
 >Los cambios realizados en la fecha de compromiso no cambian automáticamente las fechas planificadas, y los cambios realizados en las fechas planificadas no cambian automáticamente la fecha de compromiso.
 
-Al establecer la fecha de confirmación para una tarea o problema se producen los déclencheur siguientes:
+Al establecer manualmente la fecha de confirmación para un déclencheur de tarea o problema, se realizan los siguientes cambios:
 
 * El cambio de fecha de confirmación se rellena en las pestañas Actividad del sistema y Todos de la sección Actualización de la tarea o el problema.
 
@@ -80,9 +85,6 @@ Al establecer la fecha de confirmación para una tarea o problema se producen lo
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * Se notifica al propietario del proyecto en el área de Notificaciones que ha cambiado una fecha de confirmación de tarea o problema.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ Al establecer la fecha de confirmación para una tarea o problema se producen lo
   >[!TIP]
   >
   >La notificación de que la fecha de confirmación ha cambiado se envía al propietario del proyecto solo cuando el administrador de Workfront habilita la visualización de la fecha de confirmación en el área de fuentes de actualizaciones en Configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte  [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
