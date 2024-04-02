@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
+source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Nos complace anunciar el lanzamiento de nuestro programa de Alpha para Workfront
 
 ## Versión de Alpha: marzo de 2024
 
-En esta 7ª versión de Alpha tenemos:
+En esta versión de Alpha tenemos:
 
 ### Agregar una fecha límite a las revisiones y aprobaciones de un documento
 
