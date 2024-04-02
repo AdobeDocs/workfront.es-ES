@@ -5,9 +5,9 @@ title: El [!DNL Adobe Workfront] Comunidad
 description: Adobe [!DNL Workfront] La comunidad es un grupo en línea de más de 10.000 [!DNL Workfront] usuarios. A través de la comunidad, puede ayudarle a mantenerse al día con los lanzamientos de productos, obtener información acerca de los eventos de los clientes y hablar con otros usuarios sobre [!DNL Workfront] productos y servicios. Encontrará respuestas a preguntas y establecerá conexiones con otros [!DNL Workfront] clientes.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe [!DNL Workfront] La comunidad es un grupo en línea de más de 10.000 [!DN
 
 ### Contacto de soporte autorizado {#authorized-support-contact}
 
-Si es un Contacto de asistencia autorizado de (ASC), tiene credenciales de inicio de sesión para [!UICONTROL Servicio de asistencia], [!UICONTROL Laboratorio de innovación], y [!DNL Workfront] [!UICONTROL Ascenso]. Puede utilizar las mismas credenciales para iniciar sesión en [!DNL Workfront] Comunidad. En este caso, deje el subdominio en blanco.
+Si es un Contacto de asistencia autorizado de (ASC), tiene credenciales de inicio de sesión para [!UICONTROL Servicio de asistencia], y [!UICONTROL Laboratorio de innovación]. Puede utilizar las mismas credenciales para iniciar sesión en [!DNL Workfront] Comunidad. En este caso, deje el subdominio en blanco.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -43,8 +43,6 @@ Si no es un Contacto de asistencia autorizado de, puede iniciar sesión con su [
 ### Contacto de soporte no autorizado con inicio de sesión SSO {#non-authorized-support-contact-with-sso-login}
 
 Si su empresa utiliza SSO, debe ponerse en contacto con [!DNL Workfront] Atención al cliente por teléfono para solicitar una cuenta. Si no puede enviar un ticket o participar en un chat en vivo, póngase en contacto con su [!DNL Workfront] Contacto con Atención al cliente.
-
-Si ya tiene una cuenta configurada en Ascent Training, puede utilizar las mismas credenciales para acceder al sitio de la comunidad (en este caso, deje el subdominio en blanco).
 
 Si no recuerda su contraseña para el sitio de la comunidad, póngase en contacto con [!DNL Workfront Customer Support] y ellos pueden ayudarle.
 
