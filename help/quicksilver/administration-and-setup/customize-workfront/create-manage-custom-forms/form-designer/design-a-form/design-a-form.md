@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 4%
 
 ---
@@ -739,42 +739,48 @@ Puede agregar campos nativos de Workfront a los formularios personalizados. Cuan
 
 +++ **Amplíe para ver la lista de campos nativos admitidos**
 
-* Fecha real de finalización
-* Duración real
-* Horas reales
-* Fecha real de inicio
-* Compañía
-* Condición
-* Tipo de condición
-* Descripción
-* Duración
-* Tipo de duración
-* Unidad de duración
-* Ingresado por
-* Fecha de entrada
-* Grupo
-* Última actualización por
-* Fecha de última actualización
-* Nombre
-* Propietario
-* Fecha planificada de finalización
-* Duración planificada
-* Horas planificadas
-* Fecha planificada de inicio
-* Portafolio
-* Prioridad
-* Programar
-* Fecha proyectada de finalización
-* Minutos de duración proyectada
-* Fecha proyectada de inicio
-* Número de referencia
-* Modo de programación
-* Gravedad
-* Patrocinador
-* Estado
-* Puntos de la historia
-* Plantilla
-* URL
+Esta tabla enumera los campos nativos disponibles para objetos de Workfront específicos en un formulario personalizado.
+
+| Nombre de campo | Proyecto | Tarea | Problema | Plantilla | Tarea de plantilla | Portafolio | Programar | Grupo |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Fecha real de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Duración real | ✓ |   |   |   |   |   |   |   |
+| Horas reales | ✓ |   | ✓ |   |   |   |   |   |
+| Fecha real de inicio | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Compañía | ✓ |   |   | ✓ |   |   |   |   |
+| Condición | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Tipo de condición | ✓ |   |   | ✓ |   |   |   |   |
+| Descripción | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Duración |   | ✓ |   |   | ✓ |   |   |   |
+| Tipo de duración |   | ✓ |   |   | ✓ |   |   |   |
+| Unidad de duración |   | ✓ |   |   | ✓ |   |   |   |
+| Ingresado por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Fecha de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Última actualización por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Fecha de última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Nombre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Propietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Fecha planificada de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Duración planificada | ✓ |   |   | ✓ |   |   |   |   |
+| Horas planificadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Fecha planificada de inicio | ✓ |   |   |   |   |   |   |   |
+| Portafolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Prioridad | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programar | ✓ |   |   | ✓ |   |   |   |   |
+| Fecha proyectada de finalización | ✓ | ✓ |   |   |   |   |   |   |
+| Minutos de duración proyectada |   | ✓ |   |   |   |   |   |   |
+| Fecha proyectada de inicio | ✓ | ✓ |   |   |   |   |   |   |
+| Número de referencia | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Modo de programación | ✓ |   |   | ✓ |   |   |   |   |
+| Gravedad |   |   | ✓ |   |   |   |   |   |
+| Patrocinador | ✓ |   |   | ✓ |   |   |   |   |
+| Estado | ✓ | ✓ |   |   |   |   |   |   |
+| Puntos de la historia |   | ✓ |   |   |   |   |   |   |
+| Plantilla | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
