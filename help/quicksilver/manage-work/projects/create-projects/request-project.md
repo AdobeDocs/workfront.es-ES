@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Solicitar un proyecto
-description: Puede solicitar la aprobación de un proyecto antes de comenzar a trabajar en él. Recomendamos crear un caso empresarial para un nuevo proyecto, de modo que pueda esbozar algunos de los puntos clave que desea lograr completándolo, así como presentar a su administración su presupuesto de mano de obra y gastos. Completar el caso empresarial y enviar el proyecto para su aprobación completa la solicitud formal del proyecto. Después de enviar el caso empresarial para su aprobación, el estado del proyecto pasa a ser Solicitado.
+description: Puede solicitar la aprobación de un proyecto antes de comenzar a trabajar en él. Recomendamos crear un caso empresarial para un nuevo proyecto para que pueda esbozar algunos de los puntos clave que desea lograr completándolo, así como presentar a su equipo de administración su presupuesto de mano de obra y gastos. Completar el caso empresarial y enviar el proyecto para su aprobación completa la solicitud formal del proyecto. Después de enviar el caso empresarial para su aprobación, el estado del proyecto pasa a ser Solicitado.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

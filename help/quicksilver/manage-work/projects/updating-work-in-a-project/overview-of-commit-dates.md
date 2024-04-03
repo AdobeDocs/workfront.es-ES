@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Resumen de fecha de confirmación
-description: La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema. Esto es diferente a la Fecha planificada de finalización, ya que es una estimación más realista de la fecha de finalización dada únicamente por el usuario a cargo del trabajo. Para obtener información acerca de la fecha planificada de finalización, consulte Información general sobre la fecha planificada de finalización de la tarea.
+description: La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema. Esto es diferente a la Fecha planificada de finalización, ya que es una estimación más realista de la fecha de finalización dada por el usuario que está directamente a cargo del trabajo.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

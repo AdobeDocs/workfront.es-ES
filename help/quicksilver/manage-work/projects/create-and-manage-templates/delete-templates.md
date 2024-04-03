@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Eliminar plantillas de proyecto
-description: Se recomienda desactivar las plantillas que ya no utilice, en lugar de eliminarlas, para poder conservar la información histórica sobre sus proyectos a lo largo del tiempo. Para obtener información sobre cómo desactivar una plantilla, consulte Editar plantillas de proyecto.
+description: Se recomienda desactivar las plantillas que ya no utilice, en lugar de eliminarlas, para poder conservar la información histórica sobre sus proyectos a lo largo del tiempo.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
