@@ -4,7 +4,7 @@ description: Puede editar y administrar el diseño del cuadro de registro y la p
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 El espacio de trabajo al que se accede por última vez se abre.
 
 1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
-
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
