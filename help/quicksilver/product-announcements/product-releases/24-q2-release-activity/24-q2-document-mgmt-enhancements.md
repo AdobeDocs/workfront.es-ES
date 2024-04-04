@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (11 de abril de 2024)
 
 Ahora puede especificar una fecha límite para los usuarios o equipos asignados para revisar o aprobar un documento. Los revisores y aprobadores reciben notificaciones por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado. El plazo también se refleja en el widget de aprobaciones del nuevo área de Inicio.
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Crear una solicitud de revisión o apr
 
 >[!NOTE]
 >
->Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (11 de abril de 2024)
 
 Ahora puede crear plantillas de aprobación en el área de configuración para optimizar el proceso de revisión y aprobación. Las plantillas de aprobación permiten que el proceso de revisión y aprobación sea más repetible por
 
@@ -51,7 +51,7 @@ Para obtener más información, consulte [Crear una plantilla de aprobación](/h
 
 >[!NOTE]
 >
->Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión de vista previa: 28 de marzo de 2024; Producción para todos los clientes: con la versión 24.4 (11 de abril de 2024)
 
 Para ayudarle a administrar y analizar sus solicitudes de aprobación de un vistazo, hemos agregado los siguientes indicadores clave de rendimiento al widget Todas las aprobaciones:
 

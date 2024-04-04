@@ -4,9 +4,10 @@ description: Mejoras en la administración de recursos del segundo trimestre de 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 12 de octubre de 2023; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para versión trimestral: con la versión 24.4 (abril de 2024)
+>Versión de vista previa: 12 de octubre de 2023; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para versión trimestral: con la versión 24.4 (11 de abril de 2024)
 
 Para proporcionar más claridad sobre los ajustes manuales o el contorneado en el Distribuidor de cargas de trabajo, las asignaciones horarias ajustadas manualmente ahora muestran un icono de lápiz.
 

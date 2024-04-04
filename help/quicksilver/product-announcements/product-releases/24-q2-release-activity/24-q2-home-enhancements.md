@@ -4,9 +4,10 @@ description: Mejoras en el hogar del segundo trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 2 de enero de 2024; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024)
+>Versión preliminar: 2 de enero de 2024; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para todos los clientes: con la versión 24.4 (11 de abril de 2024)
 
 Los administradores ahora pueden personalizar qué columnas están disponibles para los usuarios en los nuevos widgets de inicio específicos mediante plantillas de diseño. Las opciones incluyen ocultar o mostrar columnas predeterminadas y agregar campos existentes como columnas nuevas.
 

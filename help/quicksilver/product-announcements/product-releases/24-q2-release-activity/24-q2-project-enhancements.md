@@ -4,9 +4,10 @@ description: Mejoras del proyecto del segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024).
+>Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (11 de abril de 2024).
 
 <span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span>
 
@@ -38,7 +39,7 @@ Para obtener más información, consulte [Información general sobre asignacione
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (abril de 2024).
+>Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: con la versión 24.4 (11 de abril de 2024).
 
 <span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span>
 
