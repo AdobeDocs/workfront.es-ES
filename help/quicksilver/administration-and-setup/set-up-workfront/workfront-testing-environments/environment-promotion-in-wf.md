@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -46,14 +47,14 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 
 ### Objetos de trabajo
 
-| Objeto promocionable | Subobjetos promotables incluidos |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
 | Proyecto (PROJ) | Proyecto<br>Tarea<br>Asignación<br>Predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
 | Plantilla (TMPL) | Plantilla<br>Tarea de plantilla<br>Asignación de tarea de plantilla<br>Tarea de plantilla predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
 
 ### Objetos de informes
 
-| Objeto promocionable | Subobjetos promotables incluidos |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
 | Plantilla de diseño (UITMPL) | Plantilla de diseño<br>Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
 | Tablero (PTLTAB) | Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
@@ -66,7 +67,7 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 
 ### Objetos de datos personalizados
 
-| Objeto promocionable | Subobjetos promotables incluidos |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
 | Categoría (CTGY) | Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría<br>Grupo |
 | Parámetro (PARAM) | Parámetro<br>Opción de parámetro |
@@ -74,7 +75,7 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 
 ### Objetos de organización
 
-| Objeto promocionable | Subobjetos promotables incluidos |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
 | Grupo (GROUP) | Grupo <br>Subgrupos (hasta 5 niveles) *<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
 | Rol (ROLE) | Función |
@@ -85,7 +86,7 @@ La función Promoción de entornos está diseñada para proporcionar la capacida
 
 ### Otros objetos de configuración
 
-| Objeto promocionable | Subobjetos promotables incluidos |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
 | Proceso de aprobación (ARVPRC) | Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Rol<br>Equipo<br>Grupo |
 | Programa (SCHED) | Programación<br>Día no laborable<br>Grupo |
@@ -135,5 +136,3 @@ Estos estados incluyen los siguientes:
   </tr> 
   </tbody> 
 </table>
-
-
