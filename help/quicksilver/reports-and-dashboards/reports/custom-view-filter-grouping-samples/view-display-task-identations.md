@@ -7,7 +7,7 @@ description: En esta vista de tareas, puede agregar código a la columna Nombre 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -61,13 +61,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 1. En la nueva columna, haga clic en **Cambiar a modo de texto**.
 1. Pase el ratón sobre el área de modo de texto y haga clic en **Haga clic para editar el texto**.
-1. Elimine el texto que encuentre en la
-
-   ```
-   valuefield=
-   ```
-
-   y reemplácelo por el siguiente código:
+1. Elimine el texto que encuentre en la `valuefield=` y reemplácelo por el siguiente código:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

@@ -5,22 +5,38 @@ description: Puede utilizar el Panel de resumen para revisar y actualizar la inf
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Resumen] descripción general
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en Producción para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
 Puede usar el complemento [!UICONTROL Resumen] panel para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de [!DNL Adobe Workfront] que muestran tareas y problemas.
+
+El administrador de Workfront o de grupo puede modificar las áreas y los campos que se muestran en el Panel de resumen. Pueden agregar hasta 16 campos al panel Resumen.
+
+>[!IMPORTANT]
+>
+>Se recomienda agregar campos que se deben actualizar con frecuencia al Panel de resumen para poder acceder fácilmente a ellos y actualizarlos sin tener que acceder a la página principal del objeto.
+>
+>Por ejemplo, puede agregar los siguientes campos actualizados con frecuencia a los paneles Resumen de tareas y problemas:
+>
+>* Estado
+>* Porcentaje completado
+>* Fecha de confirmación
+>* Fecha planificada de finalización
+>* Condición
+
+
 
 En la tabla siguiente se muestran las áreas en las que puede localizar y utilizar [!UICONTROL Resumen] panel:
 
@@ -28,7 +44,7 @@ En la tabla siguiente se muestran las áreas en las que puede localizar y utiliz
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Tareas</td> 
+   <td><b>Tareas</b></td> 
   </tr> 
   <tr> 
    <td> <p>Listas de tareas dentro de un</p> 
@@ -44,7 +60,7 @@ En la tabla siguiente se muestran las áreas en las que puede localizar y utiliz
    <td>Tareas en una hoja de horas de [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemas</td> 
+   <td><b>Problemas</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Listas de problemas dentro de un</p> 
@@ -66,7 +82,7 @@ En la tabla siguiente se muestran las áreas en las que puede localizar y utiliz
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Documentos</td> 
+   <td><b>Documentos</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Área de [!UICONTROL Documents]</td> 
@@ -96,25 +112,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual:[!UICONTROL Request] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL View] o acceso superior a Tareas, Problemas, Documentos</p> <p>[!UICONTROL Vista] o acceso superior a cualquier objeto para el que desee ver el [!UICONTROL Resumen] de los documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuración del nivel de acceso</strong></td> 
+   <td> <p>[!UICONTROL View] o acceso superior a Tareas, Problemas, Documentos</p> <p>[!UICONTROL Vista] o acceso superior a cualquier objeto para el que desee ver documentos [!UICONTROL Resumen]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>[!UICONTROL View] o permisos superiores para una tarea, un problema o un documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] o permisos superiores para una tarea, un problema o un documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ver el [!UICONTROL Resumen] panel en una lista de tareas o problemas
 
@@ -131,11 +149,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Solo puede seleccionar una tarea o un problema a la vez para ver sus detalles en la [!UICONTROL Resumen] panel.
 
-   <div class="preview">
-
    ![Panel de resumen](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Opcional) Para cerrar el [!UICONTROL Resumen] , realice una de las siguientes acciones:
 
@@ -155,17 +169,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Utilice la barra de progreso de la parte superior de la [!UICONTROL Resumen] para actualizar el porcentaje completado de la tarea o el problema que ha seleccionado. Introduzca un número o arrastre la barra hasta el porcentaje correcto.
 
-<span class="preview">![Porcentaje completado en el panel de resumen](assets/summary-overview-percent-complete.png)</span>
+![Porcentaje completado en el panel de resumen](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Actualizaciones]
 
 Utilice el [!UICONTROL Actualizaciones] de la sección [!UICONTROL Resumen] para ver las actualizaciones recientes y actualizar la tarea o el problema seleccionados. Clic **[!UICONTROL Ver todo]** para ir directamente a [!UICONTROL Actualizaciones] de la tarea.
 
-<div class="preview">
-
 ![Actualiza la sección en el panel Resumen](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documentos]
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Las siguientes funciones se han eliminado o quedarán obsoletas en la nueva expe
 * Comentario sobre una actualización del sistema. Los comentarios agregados a las actualizaciones del sistema en el pasado se han importado como comentarios de solo lectura en la nueva pestaña Actividad del sistema.
 * Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas.
 
-  Como alternativa, le recomendamos que agregue estos campos al Panel de resumen de tareas y problemas para acceder fácilmente a ellos desde listas, informes, Inicio, Workfront Balancer o una hoja de horas.
+  Como alternativa, le recomendamos que agregue estos campos al Panel de resumen de tareas y problemas para acceder fácilmente a ellos desde listas, Inicio, Workfront Balancer o una hoja de horas.
 * Capacidad para editar el formulario personalizado
 * La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre se eliminó originalmente. Se ha restablecido el 19 de octubre de 2023.
 * La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.

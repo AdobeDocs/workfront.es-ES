@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza zonas horarias para calcular campos de hora para objetos y horas en otras áreas, como correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza zonas horar
 
 * Campos de tiempo para objetos
 * Horas en otros [!DNL Workfront] áreas, como correos electrónicos automatizados de Workfront
+
+>[!WARNING]
+>
+>Si no encuentra su zona horaria exacta en la lista que proporcionamos, busque la zona horaria más cercana a la suya y actualícela para su instancia.
+>
+>Además, tenga en cuenta que una zona horaria similar podría no coincidir perfectamente con la suya.
+>
+>Por ejemplo, algunos países o territorios pueden observar el horario de verano, pero es posible que su país no lo haga. Es posible que deba ajustar los husos horarios del sistema según estos cambios, si es necesario.
+
 
 ## Husos horarios en [!DNL Workfront]
 

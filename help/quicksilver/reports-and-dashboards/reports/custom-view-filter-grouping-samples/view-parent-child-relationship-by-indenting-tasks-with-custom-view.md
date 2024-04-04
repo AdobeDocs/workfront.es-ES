@@ -7,10 +7,10 @@ description: Puede mantener la distinción de relaciones principal-secundario en
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,9 +64,16 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 1. Haga clic en cualquier lugar del cuadro de texto para editar el texto y quitar todo el texto existente.
 1. Pegue el siguiente texto:
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. Haga clic en **Guardar**.
-1. Clic **Guardar vista**.
+1. Pulse **Guardar vista**.

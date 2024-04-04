@@ -6,7 +6,7 @@ description: Una tarea predecesora entre proyectos es una tarea de la que depend
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. En el **Tareas** , empiece a escribir el nombre de la tarea que desea que sea la predecesora de la tarea actual.
 1. Especifique la siguiente información para definir la relación entre la tarea predecesora y la dependiente:
 
-   * **Tipo de dependencia:** Seleccione la relación que desea que tenga la tarea predecesora con la tarea dependiente. La relación predeterminada es &quot;Finalizar-Iniciar&quot;, lo que significa que la tarea predecesora debe finalizar antes de que pueda comenzar la tarea dependiente. Para obtener más información sobre los distintos tipos de dependencias, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Tipo de dependencia:** Seleccione la relación que desea que tenga la tarea predecesora con la tarea dependiente. La relación predeterminada es &quot;Finalizar-Iniciar&quot;, lo que significa que la tarea predecesora debe finalizar antes de que pueda comenzar la tarea dependiente. Para obtener más información sobre los distintos tipos de dependencias, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Retardo:** Especifique la cantidad de tiempo que debe transcurrir después de la finalización de un predecesor forzado hasta que pueda comenzar la tarea dependiente. Para obtener más información sobre los distintos tipos de retardo, consulte [Resumen de tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
