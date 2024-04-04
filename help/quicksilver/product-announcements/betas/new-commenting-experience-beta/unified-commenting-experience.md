@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ Entre las mejoras incluidas en la nueva experiencia de comentarios están las si
 Las siguientes funciones se han eliminado o quedarán obsoletas en la nueva experiencia:
 
 * Comentario sobre una actualización del sistema. Los comentarios agregados a las actualizaciones del sistema en el pasado se han importado como comentarios de solo lectura en la nueva pestaña Actividad del sistema.
-* Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas
+* Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas.
+
+  Como alternativa, le recomendamos que agregue estos campos al Panel de resumen de tareas y problemas para acceder fácilmente a ellos desde listas, informes, Inicio, Workfront Balancer o una hoja de horas.
 * Capacidad para editar el formulario personalizado
 * La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre se eliminó originalmente. Se ha restablecido el 19 de octubre de 2023.
 * La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.
 * Se eliminará la configuración &quot;Mostrar porcentaje completado al actualizar el estado&quot; al editar el cuadro de perfil de un usuario. Se ha eliminado la funcionalidad de actualizar el porcentaje completado de una tarea o problema.
-* La capacidad del propietario del proyecto para cambiar la fecha planificada de finalización de una tarea cuando se cambia la fecha de confirmación desde la sección de actualizaciones. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -499,6 +501,21 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Capacidad del propietario del proyecto para cambiar la fecha planificada de finalización de una tarea cuando se cambia la fecha de confirmación desde la sección de actualizaciones
+   </td>
+   <td> ✓
+   </td>
+   <td> Se podría publicar en una fecha posterior
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>

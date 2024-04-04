@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Las funciones se lanzan semanalmente y se enumeran en el orden de lanzamiento, e
 >
 >La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
 
-<!--
-## Week of April 1, 2024
+## Semana del 1 de abril de 2024
 
-### Reorder the fields on the records page
+### Reordenar los campos en páginas de registro
 
-Production: April 4, 2024 
+Producción: 4 de abril de 2024
 
-Preview: To be determined 
+Vista previa: por determinar
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+Como administrador de Workspace, ahora puede reordenar los campos enumerados en la página o cuadro de registro. Al actualizar el orden de los campos, cambia el orden de los campos en todos los registros del mismo tipo, para todos los que ven la página de registros o el cuadro de registros.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Agregar imagen de portada a las páginas de registro
 
-Production: April 4, 2024 
+Producción: 4 de abril de 2024
 
-Preview: To be determined 
+Vista previa: por determinar
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+A medida que administra páginas de registro, ahora puede agregar, cambiar la posición y reemplazar una imagen de portada en una página o cuadro de registro para enriquecer la presentación del registro y la participación de las partes interesadas. Las imágenes de portada son visibles para todos los usuarios que ven los registros.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Semana del 25 de marzo de 2024
 
