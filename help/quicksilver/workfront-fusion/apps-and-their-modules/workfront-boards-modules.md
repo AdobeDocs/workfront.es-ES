@@ -9,9 +9,9 @@ description: Puede utilizar el conector de tableros de Adobe Workfront para auto
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 * [Tableros](#boards)
 * [Columnas](#columns)
 * [Etiquetas](#tags)
+* [Comentarios](#comments)
 * [Otro](#other)
 
 <!--
@@ -482,6 +483,9 @@ Este módulo de acción crea una etiqueta nueva y le asigna un color.
 </table>
 
 ### Comentarios
+
+* [Crear un comentario](#create-a-comment)
+* [Leer comentarios de tarjeta](#read-card-comments)
 
 #### Crear un comentario
 
