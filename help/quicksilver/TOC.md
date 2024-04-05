@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 1%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 1%
       * [Categoría](wf-api/wf-objects/category.md)
    * Sugerencias, trucos y solución de problemas para la API de Adobe Workfront {#tips-troubleshooting-apis}
       * [Sugerencias, trucos y solución de problemas para la API de Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Formato de dominio para llamadas a la API de Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [Error de API: &quot;El servidor remoto devolvió un error: (400) Solicitud incorrecta&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Duplicados devueltos durante una búsqueda paginada grande](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Ordenar los resultados de las consultas en la API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
