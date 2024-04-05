@@ -8,9 +8,10 @@ title: Módulos de placas Adobe Workfront
 description: Puede utilizar el conector de tableros de Adobe Workfront para automatizar los procesos en los tableros de Workfront y conectarlo a aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ Este módulo de acción crea una etiqueta nueva y le asigna un color.
   <tr> 
    <td>[!UICONTROL Color de etiqueta]</td> 
    <td>Seleccione el color de esta etiqueta.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Comentarios
+
+#### Crear un comentario
+
+Este módulo de acción creó un comentario en la tarjeta especificada.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de tarjeta]</td> 
+   <td>Introduzca o asigne el ID de la tarjeta a la que desea agregar un comentario.<p>Puede encontrar el ID de la tarjeta en la dirección URL cuando la visualice en Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comentario]</td> 
+   <td>Escriba o asigne el texto del comentario que desea agregar.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Leer comentarios de tarjeta
+
+Este módulo de acción recupera los comentarios de la tarjeta especificada.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID de tarjeta]</td> 
+   <td>Introduzca o asigne el ID de la tarjeta para la que desea recuperar los comentarios.<p>Puede encontrar el ID de la tarjeta en la dirección URL cuando la visualice en Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Límite]</td> 
+   <td>Introduzca el número máximo de comentarios que desea que devuelva el módulo en un ciclo de ejecución.</p></td> 
   </tr> 
  </tbody> 
 </table>
