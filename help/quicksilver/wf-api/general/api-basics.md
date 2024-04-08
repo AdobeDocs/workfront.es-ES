@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Para entornos de producción, previsualización y prueba de unidades, las solici
 ### Descargo de responsabilidad
 
 Cualquier uso de la API debe probarse en el entorno beta de Workfront antes de ejecutarse en el entorno de producción. Si algún cliente utiliza la API para un proceso que Workfront considera razonablemente gravoso para el software bajo demanda (es decir, el proceso causa un efecto materialmente negativo en el rendimiento del software para otros clientes), Workfront se reserva el derecho de solicitar que el cliente interrumpa ese proceso. Si el cliente no cumple y el problema persiste, Workfront se reserva el derecho de finalizar el proceso.
+
+## URL de API de Workfront
+
+Para obtener información sobre la dirección URL que utilizará para llamar a la API de Workfront, consulte [Formato de dominio para llamadas a la API de Adobe Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## Conceptos básicos de REST
 
@@ -124,22 +128,22 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza p
 
 >[!IMPORTANT]
 >
-Workfront ya no recomienda el uso del `/login` extremo o claves API. En su lugar, utilice uno de los siguientes métodos de autenticación:
+>Workfront ya no recomienda el uso del `/login` extremo o claves API. En su lugar, utilice uno de los siguientes métodos de autenticación:
 >
-* Autenticación de servidor con JWT
-* Autenticación de usuario con OAuth2
+>* Autenticación de servidor con JWT
+>* Autenticación de usuario con OAuth2
 >
-Para obtener instrucciones sobre la configuración de estos métodos de autenticación, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Para obtener instrucciones sobre la configuración de estos métodos de autenticación, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md)
+>Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización](../../wf-api/api/oauth-app-code-token-flow.md)
+>Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-El procedimiento descrito en esta sección se aplica solo a las organizaciones que aún no se han incorporado a Adobe Business Platform. El inicio de sesión en Workfront a través de la API de Workfront no está disponible si su organización se ha incorporado a Adobe Business Platform.
+>El procedimiento descrito en esta sección se aplica solo a las organizaciones que aún no se han incorporado a Adobe Business Platform. El inicio de sesión en Workfront a través de la API de Workfront no está disponible si su organización se ha incorporado a Adobe Business Platform.
 >
-Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Si utiliza un nombre de usuario y una contraseña válidos, puede utilizar la siguiente solicitud para obtener un ID de sesión:
 
@@ -151,7 +155,7 @@ Esto establece una cookie para autenticar solicitudes futuras, así como devolve
 
 >[!NOTE]
 >
-Si tiene un usuario de API designado que también sea administrador, Workfront le recomienda encarecidamente que utilice una clave de API para iniciar sesión.
+>Si tiene un usuario de API designado que también sea administrador, Workfront le recomienda encarecidamente que utilice una clave de API para iniciar sesión.
 
 **Generación de una clave API**
 
@@ -284,7 +288,7 @@ En la tabla siguiente se enumeran algunos de los modificadores que puede utiliza
 
 >[!NOTE]
 >
-Las solicitudes de búsqueda distinguen entre mayúsculas y minúsculas. Si recibe un error, asegúrese de que  **_Mod** y **_Rango** Tener las mayúsculas correctas.
+>Las solicitudes de búsqueda distinguen entre mayúsculas y minúsculas. Si recibe un error, asegúrese de que  **_Mod** y **_Rango** Tener las mayúsculas correctas.
 
 #### Uso de instrucciones OR
 
@@ -326,7 +330,7 @@ Puede utilizar el parámetro de solicitud de campos para especificar que se devu
 
 >[!NOTE]
 >
-Estos nombres de campo distinguen entre mayúsculas y minúsculas.
+>Estos nombres de campo distinguen entre mayúsculas y minúsculas.
 
 Para obtener una lista de posibles referencias de campo, consulte la  [Explorador de API](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar
 
 >[!NOTE]
 >
-Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
+>Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia pública. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
 <pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ Una instrucción de actualización masiva actualiza varios objetos al mismo tiem
 
 >[!NOTE]
 >
-Las operaciones por lotes atómicas solo pueden devolver &quot;success: true&quot; o un error.
+>Las operaciones por lotes atómicas solo pueden devolver &quot;success: true&quot; o un error.
