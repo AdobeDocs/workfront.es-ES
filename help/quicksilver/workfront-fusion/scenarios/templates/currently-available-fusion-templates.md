@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Esta automatización observa nuevos proyectos en portafolios con formularios per
 
 Esta plantilla convierte los problemas en proyectos. Puede modificarla para que cumpla los estándares de su organización.
 
-### [!BADGE Nuevo!]{type=Informative}
+### Workfront: copia documentos de problemas/solicitudes en proyectos o tareas ya convertidos
 
 Este escenario flexible copia documentos de problemas o solicitudes en proyectos o tareas convertidos anteriormente.
 
