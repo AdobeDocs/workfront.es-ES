@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 'Programa de Alpha: Workfront + Frame.io'
-description: Nos complace anunciar el lanzamiento de nuestro programa de Alpha para Workfront + Frame.io. Aquí encontrará información sobre la última versión de Alpha junto con una breve guía en vídeo para comenzar.
+title: 'Programa beta: Workfront + Frame.io'
+description: Nos complace anunciar el lanzamiento de nuestro programa beta para Workfront + Frame.io. Aquí encontrará información sobre la última versión Beta junto con una breve guía en vídeo para comenzar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Programa de Alpha: Workfront + Frame.io
+# Programa beta: Workfront + Frame.io
 
-Nos complace anunciar el lanzamiento de nuestro programa de Alpha para Workfront + Frame.io. Aquí encontrará información sobre la última versión de Alpha junto con una breve guía en vídeo para comenzar.
+Nos complace anunciar el lanzamiento de nuestro programa beta para Workfront + Frame.io. Aquí encontrará información sobre la última versión Beta junto con una breve guía en vídeo para comenzar.
 
-## Actualizaciones de la versión del Alpha en Frame.io: marzo de 2024
+## Actualizaciones de la versión beta en Frame.io: marzo de 2024
 
-En esta versión de Alpha tenemos:
+En esta versión beta se incluye lo siguiente:
 
 ### Añadir varios recursos de Frame.io a Workfront
 
@@ -34,9 +34,9 @@ Se han actualizado los elementos de menú para agregar un recurso a Workfront, l
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Actualizaciones de la versión del Alpha en Workfront: marzo de 2024
+## Actualizaciones de la versión beta en Workfront: marzo de 2024
 
-En esta versión de Alpha tenemos:
+En esta versión beta se incluye lo siguiente:
 
 ### Agregar una fecha límite a las revisiones y aprobaciones de un documento
 
