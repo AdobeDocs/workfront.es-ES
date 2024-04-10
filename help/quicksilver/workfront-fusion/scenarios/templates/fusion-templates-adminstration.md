@@ -7,9 +7,9 @@ description: Si es administrador, tiene permiso para ver, modificar, cambiar el 
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,16 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Ver [!DNL Workfront Fusion] plantillas como administrador
+## Ver [!DNL Workfront Fusion] templates as a [!DNL Workfront Fusion] administrador
 
 Para ver una tabla de todas las plantillas creadas y sus estados:
 
 1. Clic **[!UICONTROL Administration]** en el panel de navegación izquierdo para abrir [!UICONTROL Administration] área.
+
+   >[!NOTE]
+   >
+   >El área de Administración solo está visible para los administradores de Workfront Fusion.
+
 1. Clic **[!UICONTROL Plantillas]** en el panel de navegación izquierdo.
 
 Existen tres columnas relacionadas con el estado de publicación de las plantillas. Una marca de verificación en una columna indica lo siguiente:
