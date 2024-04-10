@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
+source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -297,6 +297,41 @@ En lugar de un seminario web de lanzamiento, le invitamos a [registrarse para el
                             </li>
                             <li>
                                 <p>Producción para versión trimestral: con la versión 24.4 (11 de abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Mejoras de integración
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en el flujo de trabajo de creación automatizada de carpetas en la integración de Adobe Experience Manager</a></p><p>[!BADGE en producción ]{type=Informative}</p>
+                        <p>Para garantizar que las carpetas de Adobe Experience Manager reflejen sus necesidades con mayor precisión, hemos realizado algunas actualizaciones en el flujo de trabajo de carpetas vinculadas de Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 11 de marzo de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para todos los clientes: 14 de marzo de 2024</p>
                             </li>
                         </ul>
                     </td>
@@ -595,11 +630,11 @@ No hay actualizaciones de Workfront Proof en este punto de la versión. Esta ár
 
 No hay actualizaciones de Workfront Goals en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
-### Versión de API 16
+### Versión de API 18
 
-Para la versión 16 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+Para la versión 18 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 16 de la API](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 18 de la API](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

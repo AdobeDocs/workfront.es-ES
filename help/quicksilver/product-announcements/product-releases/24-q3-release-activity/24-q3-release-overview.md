@@ -4,7 +4,8 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
+source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -90,11 +91,11 @@ No hay actualizaciones de Workfront Proof en este punto de la versión. Esta ár
 
 No hay actualizaciones de Workfront Goals en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
-### Versión de API 16
+### Versión de API 18
 
-Para la versión 16 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+Para la versión 18 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 16 de la API](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 18 de la API](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -105,4 +106,3 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 ### Actualizaciones de formación
 
 Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
-
