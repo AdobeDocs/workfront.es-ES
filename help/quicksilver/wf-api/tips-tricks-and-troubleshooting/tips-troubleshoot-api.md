@@ -9,7 +9,7 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Formato de dominio para llamadas a la API de Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+* [Formato de dominio para llamadas a la API de Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
 * [Error de API: &quot;El servidor remoto devolvió un error: (400) Solicitud incorrecta&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [Duplicados devueltos durante una búsqueda paginada grande](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [Ordenar los resultados de las consultas en la API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 1%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 1%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de API interna](wf-api/api/deprecation-api-internal.md)
+      * [Novedades de la versión 18 de la API](wf-api/api/new-api-version-18.md)
       * [Novedades de la versión 17 de la API](wf-api/api/new-api-version-17.md)
       * [Novedades de la versión 16 de la API](wf-api/api/new-api-version-16.md)
       * [Novedades de la versión 15 de la API](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 1%
       * [Categoría](wf-api/wf-objects/category.md)
    * Sugerencias, trucos y solución de problemas para la API de Adobe Workfront {#tips-troubleshooting-apis}
       * [Sugerencias, trucos y solución de problemas para la API de Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Formato de dominio para llamadas a la API de Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Formato de dominio para llamadas a la API de Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [Error de API: &quot;El servidor remoto devolvió un error: (400) Solicitud incorrecta&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Duplicados devueltos durante una búsqueda paginada grande](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Ordenar los resultados de las consultas en la API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
