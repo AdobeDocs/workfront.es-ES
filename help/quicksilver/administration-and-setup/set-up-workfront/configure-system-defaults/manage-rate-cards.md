@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Valorar tarjetas**].
-1. Clic [!UICONTROL **Nueva tarjeta de tarifa**], luego escriba un nombre para la tarjeta de tarifa en la [!UICONTROL **Tarjeta de tarifa**] , para reemplazar &quot;Tarjeta Tarifa sin título&quot;.
-1. En la pantalla de la tarjeta, haga clic en [!UICONTROL **Agregar rol**].
+1. Clic [!UICONTROL **Nueva tarjeta de tarifa**], luego escriba un nombre para la tarjeta de tarifa en la [!UICONTROL Nueva tarjeta de tarifa] para reemplazar &quot;Tarjeta Tarifa sin título&quot;.
+1. (Opcional) En la pantalla Detalles de la tarjeta de tarifas, añada un [!UICONTROL **Descripción**].
+1. (Opcional) Para adjuntar un formulario personalizado a la tarjeta de tarifa, haga clic en [!UICONTROL **Añadir formulario personalizado**] en la esquina superior derecha y seleccione un formulario personalizado en la lista que se muestra.
+
+   Para obtener más información sobre cómo adjuntar un formulario personalizado, consulte [Agregar un formulario personalizado a un objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Clic [!UICONTROL **Funciones y tarifas del puesto**] en el panel de navegación izquierdo.
+1. En la pantalla Funciones y tarifas del trabajo de la tarjeta de tarifas, haga clic en [!UICONTROL **Agregar rol**].
 1. En el cuadro de diálogo, seleccione una [!UICONTROL **Rol**] para definir tarifas de facturación para.
 
    La tarifa de facturación predeterminada muestra la tarifa en el nivel del sistema para este rol, si se ha definido uno.
@@ -82,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en [!UICONTROL **Guardar**].
 1. (Opcional) Para agregar otra tasa de facturación, ya sea para el mismo rol en otra ubicación o para un rol separado, haga clic en [!UICONTROL **Agregar rol**].
-1. (Opcional) Para editar una tarifa de facturación, seleccione la tarifa en la tarjeta de tarifas y haga clic en **Editar** icono.
+1. (Opcional) Para editar una tarjeta de tarifa, haga clic en el nombre de la tarjeta de tarifa en la lista Tarjetas de tarifa de Configuración. Para editar una tarifa de facturación, haga clic en [!UICONTROL **Funciones y tarifas del puesto**] en el panel de navegación izquierdo de la tarjeta de tarifas. A continuación, seleccione la velocidad y haga clic en **Editar** icono ![Icono Editar](assets/edit-icon.png).
 
 ## Copiar una tarjeta de tarifas
 
@@ -90,8 +96,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Valorar tarjetas**].
 1. Seleccione la casilla de verificación situada junto a la tarjeta de tarifa de la lista y haga clic en **Copiar** icono ![Icono Copiar](assets/copy-icon.png).
+1. Escriba un nombre para la tarjeta de tarifa en la [!UICONTROL Copiar tarjeta de tarifa] para reemplazar &quot;Tarjeta Tarifa sin título&quot;. A continuación, haga clic en **Guardar**.
 
-   Se ha añadido una tarjeta de tarifa duplicada. Haga clic en el nombre de la tarjeta de tarifa en la lista para cambiar su nombre.
+   Se guardará la nueva tarjeta de tarifas. Edite los detalles de la tarjeta de tarifas, los roles y las tarifas según sea necesario.
 
 ## Eliminar una tarjeta de tarifa completa
 
