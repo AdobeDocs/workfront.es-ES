@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado cuyo nombre desee cambiar y, a continuación, haga clic en o ![Icono Editar](assets/edit-icon2.png).
+1. Seleccione el formulario personalizado cuyo nombre desea cambiar y haga clic en ![Icono Editar](assets/edit-icon2.png).
 1. Para cambiar el título, haga clic en el nombre del formulario.
 1. Para cambiar la descripción, haga clic en el cuadro de texto de la descripción.
 
