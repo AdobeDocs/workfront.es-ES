@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Diseñar un formulario a partir de una copia con el diseñador de formularios
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Puede diseñar un nuevo formulario personalizado basado en uno existente. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -58,7 +52,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizado.**
-1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y, a continuación, haga clic en **Copiar** <span class="preview">o ![Icono Copiar](assets/copy-icon.png).</span>
+1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y, a continuación, haga clic en ![Icono Copiar](assets/copy-icon.png).
 1. En el **Copia de formulario personalizado** que aparece, escriba la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -72,20 +66,20 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipos de formularios </p> </td> 
       <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X situada junto a los tipos que desee quitar. Los tipos que ya están asociados con el formulario se deshabilitan en la lista.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>El formulario debe estar asociado al menos a un tipo de objeto.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Copiar formulario**.
+1. Clic **Copiar**.
 
    En el formulario original, si los campos calculados hacen referencia a campos incompatibles con un tipo de objeto que agregue al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
 
    Del mismo modo, si una opción de acceso para un salto de sección en el formulario original no es compatible con un tipo de objeto que agregue al nuevo, aparecerá un mensaje en el que se le pedirá que ajuste la opción.
 
-1. Seleccione el formulario que acaba de copiar y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
+1. Seleccione el formulario que acaba de copiar y haga clic en ![Icono Editar](assets/edit-icon.png).
 1. Realice cambios en el formulario, tal como se explica en las siguientes secciones de la [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artículo:
 
    * [Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)

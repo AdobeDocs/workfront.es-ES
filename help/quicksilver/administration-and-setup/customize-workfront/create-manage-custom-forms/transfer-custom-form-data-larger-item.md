@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Transferir datos de formulario personalizados al convertir un objeto
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Según las necesidades comerciales de su organización, el trabajo definido en una tarea o un problema puede llegar a ser demasiado grande para administrarlo dentro de la tarea o el problema. En este caso, puede convertirlos en un elemento de trabajo más grande:
 
@@ -65,7 +59,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizado**.
-1. Busque el formulario que necesita y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
+1. Busque el formulario que necesita y haga clic en ![Icono Editar](assets/edit-icon.png).
 1. En la parte superior del formulario, agregue el objeto al que planea convertir la tarea o el problema.
 
    >[!INFO]

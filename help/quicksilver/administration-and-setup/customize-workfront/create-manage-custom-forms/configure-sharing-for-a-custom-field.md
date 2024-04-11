@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Configure el uso compartido de campos personalizados y widgets con el generador de formularios heredado
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
 
@@ -63,11 +57,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Si está configurando el uso compartido de un campo o widget personalizado en la instancia de Workfront de su organización, haga lo siguiente:
 
    1. Clic **Campos** para abrir el área Campos.
-   1. Seleccione el elemento para el que desea configurar el uso compartido y haga clic en **Compartir** <span class="preview">o ![Icono Compartir](assets/share-icon.png).</span>
+   1. Seleccione el elemento para el que desea configurar el uso compartido y haga clic en ![Icono Compartir](assets/share-icon.png).
 
    O bien, si está configurando el uso compartido de un campo o widget personalizado en un formulario personalizado existente, haga lo siguiente:
 
-   1. Seleccione el formulario personalizado y haga clic en **Editar** <span class="preview">o ![Icono Editar](assets/edit-icon.png).</span>
+   1. Seleccione el formulario personalizado y haga clic en ![Icono Editar](assets/edit-icon.png).
    1. En el área de edición del formulario de la derecha, seleccione el elemento para el que desea configurar el uso compartido.
    1. En el panel izquierdo, haga clic en **Compartir campo**.
 
@@ -131,7 +125,7 @@ Puede averiguar quién ha heredado el acceso a un campo o widget personalizado y
 1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Haga clic en **Campos** pestaña y, a continuación, seleccione el campo, la imagen o el widget de acceso.
+1. Clic **Campos**, luego seleccione el campo, la imagen o el widget de acceso.
 1. En el cuadro que aparece, haga clic en **Permisos heredados** y vea los nombres que se muestran.
 1. Clic **Cancelar**.
 

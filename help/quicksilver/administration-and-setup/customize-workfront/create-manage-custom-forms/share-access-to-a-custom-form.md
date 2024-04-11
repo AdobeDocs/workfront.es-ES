@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # Compartir un formulario personalizado
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Puede configurar el acceso a un formulario personalizado para controlar quién (persona, función, grupo, equipo, compañía) puede verlo, compartirlo y editarlo.
 
@@ -69,7 +63,7 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Seleccione el formulario personalizado y haga clic en **Compartir** <span class="preview">o ![Icono Compartir](assets/share-icon.png).</span>
+1. Seleccione el formulario personalizado y haga clic en ![Icono Compartir](assets/share-icon.png).
 1. En el cuadro que se muestra, debajo de **Conceder acceso a formularios personalizados a**, empiece a escribir el nombre del usuario, equipo, función del puesto, grupo o empresa con el que desea compartir el formulario personalizado y, a continuación, pulse **Entrar** cuando se muestra el nombre.
 1. Para ajustar el acceso del usuario, equipo, función del trabajo, grupo o compañía que acaba de agregar, haga clic en el menú desplegable situado a la derecha del nombre y, a continuación, configure una de las siguientes opciones disponibles y cualquiera de sus opciones avanzadas:
 
@@ -118,7 +112,7 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Seleccione el formulario personalizado y haga clic en **Compartir** <span class="preview">o ![Icono Compartir](assets/share-icon.png).</span>
+1. Seleccione el formulario personalizado y haga clic en ![Icono Compartir](assets/share-icon.png).
 1. En el cuadro que aparece, haga clic en la X situada a la derecha del nombre del usuario, equipo, función, grupo o empresa a los que ya no desea tener acceso especial al formulario.
 1. (Opcional) Repita el paso anterior a para los demás nombres que desee eliminar.
 1. Haga clic en **Guardar**.

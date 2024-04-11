@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Agregar lógica de visualización y lógica de omisión con el diseñador de formularios
-
-<span class="preview">La información de esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Puede decidir qué secciones de un formulario personalizado se deben mostrar o omitir en función de las opciones que realice un usuario al rellenarlo.
 
@@ -123,10 +117,6 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
 
    Los iconos de lógica de visualización se agregan al campo de destino y al campo de definición en el diseñador de formularios.
 
->[!NOTE]
->
-><span class="preview">La lógica de visualización solo está disponible cuando se obtiene una vista previa del formulario en el diseñador de formularios en el entorno de vista previa.</span>
-
 ## Agregar lógica de omisión a un formulario personalizado
 
 La lógica de omisión define campos de formulario personalizados que se omiten cuando el usuario selecciona un valor específico en un campo de opción múltiple. Los campos omitidos están ocultos en el formulario. La lógica se aplica al campo de definición donde se realiza la selección, no a los campos que se omiten.
@@ -157,7 +147,4 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 
    Los iconos de lógica de omisión se agregan al campo de destino y al campo de definición en el diseñador de formularios.
 
->[!NOTE]
->
-><span class="preview">La lógica de omisión solo está disponible cuando se obtiene una vista previa del formulario en el diseñador de formularios en el entorno de vista previa.</span>
 

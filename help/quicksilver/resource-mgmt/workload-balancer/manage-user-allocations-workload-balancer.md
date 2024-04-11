@@ -6,9 +6,9 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,6 @@ ht-degree: 0%
 # Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo
 
 <!-- Audited: 01/2024 -->
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Como Administrador de recursos, puede asignar trabajo a los usuarios y administrar sus asignaciones diarias, semanales o mensuales desde el Distribuidor de cargas de trabajo para asegurarse de que se les asigna una cantidad de horas que se ajusta a sus programaciones disponibles.
 
@@ -259,7 +253,7 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 
 >[!TIP]
 >
-><span class="preview">Aparece un icono de lápiz a la derecha del nombre del elemento de trabajo para indicar que se ajustó manualmente.</span>
+>Aparece un icono de lápiz a la derecha del nombre del elemento de trabajo para indicar que se ajustó manualmente.
 
 ![Icono de horas ajustadas manualmente](assets/icon-for-manually-adjusted-hours.png)
 
