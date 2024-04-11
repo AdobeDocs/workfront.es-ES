@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ Al configurar este módulo, se muestran los campos siguientes.
 +++
 
 +++ **[!UICONTROL Búsqueda]**
+
+Este módulo de búsqueda busca registros en un objeto de [!DNL Workfront] que coincidan con la consulta de búsqueda especificada.
+
+Puede asignar esta información en módulos subsiguientes en el escenario.
+
+Al configurar este módulo, se muestran los campos siguientes.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tipo de registro]</td> 
+   <td> <p>Seleccione el tipo de [!DNL Workfront] que desea que el módulo busque.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Conjunto de resultados]</td> 
+   <td>Seleccione una opción para especificar si desea que el módulo obtenga el primer resultado que coincida con los criterios de búsqueda o todos los resultados que coincidan con él.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Máximo]</td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Buscar campos de criterios]</td> 
+   <td> <p>Seleccione los campos que desee utilizar para los criterios de búsqueda. Estos campos están disponibles en la lista desplegable Criterios de búsqueda.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Criterios de búsqueda]</td> 
+   <td> <p>Introduzca el campo por el que desea buscar, el operador que desea utilizar en la consulta y el valor que está buscando en el campo.</p> <p>Nota: No utilice <code>username </code>en los criterios de búsqueda. Incluyendo <code>username </code>en una consulta API a [!DNL Workfront] inicia sesión del usuario en Workfront y la búsqueda no se realizará correctamente.</p> <p>Nota: <code>In</code> y <code>NotIn</code>trabajar con matrices. Las entradas deben estar en formato de matriz.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Salidas]</td> 
+   <td> <p>Seleccione los campos que desea incluir en la salida para este módulo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Referencias de [!UICONTROL]</td> 
+   <td>Seleccione cualquier campo de referencia que desee incluir en la búsqueda.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Colecciones]</td> 
+   <td>Seleccione las colecciones que desee añadir a la búsqueda.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Buscar (heredado)]**
 
 Este módulo de búsqueda busca registros en un objeto de [!DNL Workfront] que coincidan con la consulta de búsqueda especificada.
 
