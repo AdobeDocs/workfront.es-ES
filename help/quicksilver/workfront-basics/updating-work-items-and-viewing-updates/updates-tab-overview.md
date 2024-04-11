@@ -7,10 +7,10 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 3%
+source-wordcount: '912'
+ht-degree: 4%
 
 ---
 
@@ -23,170 +23,172 @@ ht-degree: 3%
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en Producción para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios realizan sobre el objeto o las actualizaciones del sistema que realizan un seguimiento de los cambios en el objeto.
 
+<!--
 >[!IMPORTANT]
 >
->Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Según los objetos para los que acceda a la experiencia de comentarios, es posible que vea la siguiente funcionalidad para la sección Actualizaciones:
->* La nueva experiencia
->* La experiencia heredada
->* La nueva experiencia y la experiencia heredada
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> La experiencia de comentarios heredada se ha eliminado de proyectos, tareas, problemas y documentos en el entorno de vista previa. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de los objetos de Workfront y no está disponible al acceder a las actualizaciones desde las áreas siguientes:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * Inicio
-> * Panel de resumen en listas
-> * Panel de resumen en plantillas de horas
-> * Panel de resumen en el Distribuidor de cargas de trabajo
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en listas, plantillas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa y en el entorno de producción para los clientes que han elegido el proceso de versión rápido.
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+-->
 
 ## Información general de la sección Actualizaciones
 
 La sección Actualizaciones de un objeto muestra las actualizaciones del sistema y hasta 200 de las actualizaciones más recientes realizadas por los usuarios en los últimos 90 días.
 
-<div class="preview">
-
 ![Actualiza la sección](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
-<!--Info for April 11: Add the following right under the screen shot above:
+Los objetos siguientes tienen una sección Actualizaciones en la que puede agregar comentarios o revisar las actualizaciones del sistema:
 
-The following objects have an Updates section where you can add comments or review system updates: 
-
-* Projects
-* Tasks
-* Issues
-* Programs
-* Portfolios
-* Templates
-* Template tasks
-* Users
-* Timesheets
-* Teams
-* Goals
-* Cards in the Boards area
-* Iterations
--->
+* Proyectos
+* Tareas
+* Problemas
+* Programas
+* Portafolios
+* Plantillas
+* Tareas de plantilla
+* Usuarios
+* Hojas de horas
+* Equipos
+* Metas
+* Tarjetas en el área de Tableros
+* Iteraciones
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
-En función de los objetos para los que acceda a la experiencia de comentarios, es posible que encuentre la siguiente experiencia en la sección Actualizaciones:
+<!--
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-* Experiencia de comentarios nueva y heredada para los siguientes objetos:
+* Both the new and legacy commenting experience for the following objects: 
 
-   * Proyecto
-   * Tarea (incluye Historias)
-   * Problema
-   * Documento
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-     >[!TIP]
-     >
-     >Utilice la opción Nuevos comentarios para mostrar la nueva experiencia de comentarios (cuando la active) o la experiencia de comentarios heredada (cuando la desactive). La nueva experiencia de comentarios es la predeterminada. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-* Solo la nueva experiencia de comentarios para los objetos enumerados a continuación. No hay opción para habilitar la experiencia de comentarios heredada para estos objetos:
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-   * Meta
+  * Goal
 
-     >[!NOTE]
-     >
-     >Debe tener una licencia adicional de Adobe Workfront Goals para poder acceder a esta área de Workfront. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 
-   * Tarjeta en un tablero
-   * Equipo
-   * Plantilla
-   * Tarea de plantilla
-   * Hoja de horas
-   * Programar
-   * Portafolio
-   * Usuario
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
-* Solo la experiencia de comentarios heredada para los siguientes objetos:
+* Only the legacy commenting experience for the following objects:
 
-   * Iteraciones
+  * Iterations
 
-     No hay opción de habilitar la nueva experiencia de comentarios para iteraciones. Para obtener más información, consulte [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Información general sobre la sección Actualizaciones en la nueva experiencia de comentarios
-
-<div class="preview">
+### Información general de la sección Actualizaciones <!--in the new commenting experience-->
 
 ![Actualiza la sección](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
->La nueva experiencia de comentarios no está disponible para iteraciones.
+>The new commenting experience is not available for iterations.
+-->
 
-* La sección Actualizaciones muestra información en las siguientes pestañas de la nueva experiencia de comentarios:
+* La sección Actualizaciones muestra información en las siguientes pestañas<!-- in the new commenting experience-->:
 
-   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. <span class="preview">Cualquier respuesta realizada a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura.</span> Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * <span class="preview">**Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos en la nueva experiencia de comentarios, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).</span>
+   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos<!-- in the new commenting experience-->, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos<!-- in the new commenting experience-->, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
-* Los objetos siguientes no tienen una ficha Actividad del sistema <span class="preview">o una pestaña Todos:</span>
+* Los objetos siguientes no tienen una ficha Actividad del sistema ni una ficha Todos:
 
    * Equipo
    * Plantilla
    * Tarea de plantilla
    * Tarjeta ad hoc
+   * Iteraciones
 
      Para obtener más información sobre actualizaciones de tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* Los objetos siguientes no tienen un <span class="preview">Pestaña Todos:</span>
+     Para obtener más información sobre las actualizaciones de las iteraciones, consulte [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
+* Los objetos siguientes no tienen una ficha Todos:
 
    * Metas
 
      Para obtener más información sobre las actualizaciones de los objetivos, consulte [Administrar comentarios de metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
-### Información general sobre la sección Actualizaciones heredadas
+<!--
+### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-La sección Actualizaciones heredadas muestra la siguiente información:
+The legacy Updates section shows the following information:
 
-* **Actualizaciones de usuarios**: Comentarios de los usuarios y respuestas a dichos comentarios.
-* **Actualizaciones del sistema**: mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, puede capturar los cambios de estado, nombre o campos personalizados con actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Los objetos siguientes no registran las actualizaciones del sistema:
+The following objects don't record system updates:
 
-* Equipo
-* Plantilla
-* Tarea de plantilla
-* Iteraciones
-
+* Team
+* Template
+* Template Task
+* Iterations
+-->
 
 ## Actualizaciones que también aparecen en objetos de mayor clasificación
 
@@ -263,13 +265,15 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
 
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
->Las respuestas agregadas a las actualizaciones del sistema no se acumulan en el objeto principal. Solo las respuestas directas sobre un objeto secundario y las respuestas agregadas a actualizaciones existentes se acumulan en objetos principales.
+>Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
->Para obtener información sobre la jerarquía de objetos en Adobe Workfront, consulte [Explicación de los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> No es posible responder a las actualizaciones del sistema en la nueva experiencia de comentarios. Para obtener más información, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## Limitaciones de la sección Actualizaciones

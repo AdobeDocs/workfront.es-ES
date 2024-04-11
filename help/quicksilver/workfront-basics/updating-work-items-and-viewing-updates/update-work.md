@@ -6,10 +6,10 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '4288'
-ht-degree: 1%
+source-wordcount: '2974'
+ht-degree: 0%
 
 ---
 
@@ -19,35 +19,39 @@ ht-degree: 1%
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en Producción para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la programación actual de versiones, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
->Actualmente estamos rediseñando la experiencia de comentarios en Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Según los objetos para los que acceda a la experiencia de comentarios, es posible que vea la siguiente funcionalidad para la sección Actualizaciones:
->* La nueva experiencia
->* La experiencia heredada
->* La nueva experiencia y la experiencia heredada
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Para obtener más información sobre la nueva experiencia de comentarios y su disponibilidad, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> La experiencia de comentarios heredada se ha eliminado de proyectos, tareas, problemas y documentos en el entorno de vista previa. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->La nueva experiencia de comentarios solo está disponible para la sección Actualizaciones de los objetos de Workfront y no está disponible al acceder a las actualizaciones desde las áreas siguientes:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * Inicio
-> * Panel de resumen en listas
-> * Panel de resumen en plantillas de horas
-> * Panel de resumen en el Distribuidor de cargas de trabajo
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">La nueva experiencia de comentarios está disponible en el panel Resumen en listas, plantillas de horas y el Distribuidor de cargas de trabajo en el entorno de vista previa y en el entorno de producción para los clientes que han elegido el proceso de versión rápido. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
 Se puede añadir una actualización a un objeto de Adobe Workfront para comunicar el progreso del objeto. Para obtener más información sobre los objetos a los que puede agregar actualizaciones en Workfront, consulte [Información general de la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -133,113 +137,113 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
-## Agregar una actualización a un elemento de trabajo
+<!--
+## Add an update to a work item
 
-La adición de una actualización a un elemento de trabajo varía en función de la versión de la sección Actualizaciones que utilice.
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
-Puede añadir actualizaciones a los siguientes objetos:
+You can add updates to the following objects: 
 
-* Proyectos
-* Tareas
-* Problemas
-* Programas
-* Portafolios
-* Plantillas
-* Tareas de plantilla
-* Usuarios
-* Hojas de horas
-* Equipos
-* Metas
-* Tarjetas en el área de Tableros
-* Iteraciones
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
-### Agregar una actualización a un elemento de trabajo en la sección Actualizaciones heredadas
+<!--
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
->La información de esta página describe cómo actualizar proyectos, tareas y problemas.
+>The information on this page describes how you update projects, tasks, and issues.
 
-1. Vaya al elemento de trabajo para el que desea proporcionar una actualización (como un proyecto, tarea o problema).
-1. Haga clic en **Actualizaciones** sección.
-1. (Condicional) Si está activada, haga clic en el botón **Nuevos comentarios** en la esquina superior derecha de la sección Actualizaciones para desactivarla y activar la experiencia de comentarios heredada.
-1. Clic **Iniciar una nueva actualización,** a continuación, escriba la actualización.
-1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
-1. (Opcional) Actualice cualquiera de la siguiente información sobre el elemento de trabajo:
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
+1. Click the **Updates** section.
+1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Notificar</strong></td> 
-      <td>Identifique a los usuarios a los que se debe notificar la actualización. Los usuarios asignados o suscritos al objeto reciben automáticamente una notificación cuando se realiza una actualización.<br><p>Para obtener información sobre cómo incluir a otros en una actualización, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p></td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fecha de confirmación</strong></td> 
-      <td>En el selector de fechas, seleccione la fecha en la que se compromete a completar el elemento de trabajo. Para obtener información sobre la fecha de confirmación, consulte <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Resumen de fecha de confirmación</a>.</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
+      <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Condición</strong></td> 
-      <td>Seleccione una nueva condición para la tarea o el problema. Para obtener información sobre cómo seleccionar una condición, consulte <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Actualizar condición para tareas y problemas</a>.</td> 
+      <td role="rowheader"><strong>Condition</strong></td> 
+      <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Estado</strong></td> 
-      <td>Haga clic en la flecha situada junto al estado actual y, a continuación, seleccione el estado deseado en el menú desplegable. Para obtener información sobre cómo establecer un estado, consulte <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Actualizar estado de la tarea</a>.<p>La actualización del estado de un elemento de trabajo no cambia automáticamente el estado de un proyecto. Según la configuración del proyecto, puede realizar actualizaciones del estado del proyecto por separado. Para obtener más información sobre los distintos tipos de actualización de proyectos, consulte <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleccione el tipo de actualización del proyecto </a>.</p><p><b>NOTA</b>
-
-   No puede cambiar el estado de un elemento de trabajo mientras esté en estado de Aprobación pendiente.</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Barra de finalización</strong></td> 
-      <td>(Solo disponible en tareas) Indique el porcentaje de trabajo completado desplazando la barra de progreso al porcentaje deseado. También puede hacer doble clic en la barra de finalización e introducir el porcentaje completado.</td> 
+      <td role="rowheader"><strong>Status</strong></td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      
+      You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Privado para mi compañía</strong></td> 
-      <td> <p>Deshabilite esta opción para evitar que los usuarios externos a su compañía tengan acceso para ver esta actualización.</p> 
-      <p><b>NOTA</b></p>
-      <p>Esta opción solo se muestra cuando el usuario está asociado a una Empresa.</p>
-      <p>Esta opción no está disponible en todas las áreas desde las que se pueden agregar actualizaciones. Por ejemplo, esto no está disponible en aplicaciones de terceros desde las que se pueden agregar actualizaciones. </p>
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
+      <p><b>NOTE</b></p>
+      <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Actualizar** para agregar la actualización al objeto Workfront.
+1. Click **Update** to add the update to the Workfront object.
 
    >[!NOTE]
    >
-   >Una pequeña ventana emergente aparecerá durante siete segundos después de hacer clic en **Actualizar**, lo que le permite deshacer la actualización y volver al panel de edición antes de que se publique la actualización. La actualización se publica si descarta la ventana emergente de deshacer, espera a que desaparezca o se aleja de la página.
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
-   >Si el administrador de Workfront selecciona la opción &quot;No permitir nunca que los usuarios eliminen comentarios&quot; en su nivel de acceso, no podrá deshacer un comentario. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. Para responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### Agregar una actualización a un elemento de trabajo mediante la nueva experiencia de comentarios
+## Agregar una actualización a un elemento de trabajo <!--using the new commenting experience-->
 
 1. Busque el objeto que desea actualizar (proyecto, tarea o problema) y, a continuación, haga clic en su nombre para abrir la página del objeto.
 1. Clic  **Actualizaciones** en el panel izquierdo.
 El **Comentarios** está seleccionada de forma predeterminada.
 
-1. (Condicional) Si la variable **Nuevos comentarios** está desactivada, haga clic en para activarla.
+<!--
+1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   Esto habilita la nueva experiencia de comentarios.
+   This enables the new commenting experience. 
 
-   >[!TIP]
-   >
-   ><span class="preview">La opción Nuevo comentario se ha eliminado en el entorno de vista previa.</span>
-
+      >[!TIP]
+      >
+      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+-->
 
 1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 
-   <div class="preview">
-
    ![Nuevo cuadro de comentarios](assets/comment-box-all-tabs.png)
-
-   </div>
-
 
    >[!TIP]
    >
@@ -248,6 +252,7 @@ El **Comentarios** está seleccionada de forma predeterminada.
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
+
 1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) de este artículo.
 
@@ -273,7 +278,6 @@ El **Comentarios** está seleccionada de forma predeterminada.
    >
    >Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
 
-
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -282,15 +286,13 @@ El **Comentarios** está seleccionada de forma predeterminada.
    >* La marca de fecha que aparece junto al comentario es la fecha del comentario original, no la fecha de la última edición.
    >* Cuando agrega un comentario en nombre de otro usuario (cuando inicia sesión como otro usuario como Workfront o administrador de grupo), no puede editar el comentario si ha iniciado sesión como el otro usuario. Solo puede editar el comentario después de cerrar la sesión como usuario y volver a iniciarla como usuario.
 
-
-1. (Opcional) Haga clic en **Responder** o empiece a escribir un comentario en la **Añadir respuesta...** , para responder a un comentario existente, siga los pasos 4-8 anteriores. <!--(**************insure this stays accurate***********)--> Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Opcional) Haga clic en **Responder** o empiece a escribir un comentario en la **Añadir respuesta...** , para responder a un comentario existente, siga los pasos 3-7 anteriores. <!--(**************insure this stays accurate***********)--> Para obtener información sobre cómo responder a una actualización, consulte [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Actualizaciones mientras agregaba los comentarios, haga clic en **Ver** dentro del azul **titular de nuevos comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Los comentarios adicionales se muestran en la parte inferior de la pantalla.
-
 
    >[!NOTE]
    >
@@ -305,23 +307,22 @@ El **Comentarios** está seleccionada de forma predeterminada.
    >
    >Los nombres de las dos primeras entidades etiquetadas se muestran junto a sus avatares. Si se etiquetan más de dos entidades, solo se mostrará el nombre de la primera y el número de entidades adicionales.
 
-1. <span class="preview"> (Opcional) Haga clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Vuelva a hacer clic en el nombre del comentarista en el cuadro de información para abrir su perfil de usuario.</span>
+1. (Opcional) Haga clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Vuelva a hacer clic en el nombre del comentarista en el cuadro de información para abrir su perfil de usuario.
 1. (Opcional) Haga clic en **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza el objeto o cualquiera de sus elementos secundarios, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema.
 
    Para obtener más información, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >No puede agregar un comentario a una actualización del sistema. <span class="preview">Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura.</span>
+   >No puede agregar un comentario a una actualización del sistema. Sin embargo, las respuestas que se hayan realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura.
 
-1. <span class="preview">(Opcional) Haga clic en **Todo** para ver los comentarios del usuario y los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista.</span>
+1. (Opcional) Haga clic en **Todo** para ver los comentarios del usuario y los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista.
 
    >[!TIP]
    >
-   ><span class="preview">No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios.</span>
+   >No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios.
 
 ## Usar texto enriquecido en una actualización de Workfront{#use-rich-text-in-a-workfront-update}
-
 
 Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole varios elementos, como emojis, vínculos o imágenes.
 
@@ -338,7 +339,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    | Hipervínculo | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir el cuadro Agregar vínculos: ⌘+K</br> <br>Para pegar un vínculo sobre el texto seleccionado: ⌘+V</br> | <br>Para abrir el cuadro Agregar vínculos: Ctrl + K</br> <br>Para pegar un vínculo sobre el texto seleccionado: Ctrl+V</br> |
    | Lista con viñetas | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Mayús + 8 | Ctrl + Mayús + 8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Mayús + 7 | Ctrl + Mayús + 7 |
-   | Cita en bloqueo | ![](assets/block-quote-icon-large.png) | ⌘ + Mayús + 9 | <br>Ctrl + Mayús + 9</br> <br>Esto no está disponible en la nueva experiencia de comentarios. </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -354,11 +355,11 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Si su organización utiliza Workfront con Internet Explorer, cualquier texto con formato pegado en una actualización perderá su formato de texto enriquecido y se mostrará como texto sin formato. Puede cambiar el formato del texto mediante los atributos de la barra de herramientas Texto enriquecido.
    >* El formato de texto enriquecido no está disponible para las actualizaciones realizadas en el área Plantillas de horas ni para los objetos Nota y Última condición visualizados en un informe.
 
-1. (Opcional y condicional) Si desea incluir texto de actualizaciones anteriores o de otras fuentes y distinguirlo de su propia actualización, puede marcarlo como Comilla de bloque. Haga clic en **Cita en bloque** icono ![](assets/block-quote-small.png) y escriba el texto que desee citar. El texto citado se muestra marcado con una línea gris vertical. Haga clic en **Cita en bloque** para volver al formato normal. Esto no está disponible en la nueva experiencia de comentarios.
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+<!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+<!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Opcional) Haga clic en **emoji** icono ![](assets/emoji-icon.png) para añadir emojis a tu actualización.
 
@@ -384,7 +385,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
 
    * Guarde la imagen en el equipo y arrástrela y suéltela en el área Nuevo comentario.
-   * Copie una captura de pantalla del equipo y péguela en el comentario. Esto no está disponible en la experiencia de comentarios heredada.
+   * Copie una captura de pantalla del equipo y péguela en el comentario.<!-- This is not available in the legacy commenting experience.-->
    * Haga clic en **Añadir imagen** icono ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en el equipo.
 
 
@@ -395,10 +396,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos del menú principal.
    >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario o presionando CTRL + V para Windows (o ⌘ + V para Mac) en el teclado.
    >* Puede enviar una actualización con una imagen y sin texto.
-   >* Cuando elimina un comentario que contiene una imagen, existen los siguientes escenarios en función de la experiencia que elija:
-   >
-   >     * En la experiencia de comentarios heredada, la imagen permanece en el área Documentos, pero ya no está visible en la sección Actualizaciones.
-   >     * En la nueva experiencia de comentarios, la imagen se elimina de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
+   >* Cuando elimina un comentario que contiene una imagen, la imagen se quita de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
    >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -437,13 +435,13 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
 Existen varias formas de copiar una actualización. Después de copiar un vínculo, puede compartirlo con otras personas para dirigirlas a la actualización.
 
-La copia de una actualización varía en función de la experiencia de comentario que utilice.
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Copiar una actualización en la nueva experiencia de comentarios
+### Copia de una actualización <!--in the new commenting experience-->
 
-Para obtener información sobre las funciones disponibles para la nueva experiencia de comentarios y los objetos, consulte [Nueva experiencia de comentarios](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
 Para copiar información de un comentario existente, siga uno de estos procedimientos:
 
@@ -493,61 +491,63 @@ La opción Respuesta de oferta copia el comentario original en una nueva respues
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
-### Copiar una actualización en la experiencia de comentarios heredada
+<!--
+### Copy an update in the legacy commenting experience
 
-* [Copiar la actualización](#copy-the-update)
-* [Copiar el vínculo del hilo](#copy-the-thread-link)
-* [Copiar el vínculo de actualización](#copy-the-update-link)
-* [Citar respuesta](#quote-reply)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
 
-  >[!TIP]
-  >
-  >Cuando copia y comparte el vínculo de una conversación sobre un objeto secundario desde un objeto de mayor clasificación, el vínculo abre el subproceso en el área Actualizaciones del objeto secundario.
-  >
-  >Por ejemplo, si copia el vínculo de un comentario de tarea desde el área de Actualizaciones del proyecto, el comentario abre la página de la tarea.
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
 
-#### Copiar la actualización {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
-Esta opción copia el texto de una actualización específica en el portapapeles.
+This option copies the text from a specific update to the clipboard.
 
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** y haga clic en **Copiar el texto del cuerpo**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copiar el vínculo del hilo {#copy-the-thread-link}
-
-Esta opción copia el enlace del hilo completo en el portapapeles para que pueda compartir el hilo con otros usuarios.
-
-1. Vaya al hilo de actualización que desee copiar.
-
-1. Haga clic en **Más** y haga clic en **Copiar vínculo del hilo**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Pegue el vínculo copiado en el paso anterior en un correo electrónico u otra aplicación para compartirlo con otros usuarios. El vínculo compartido abre el comentario desde el que compartió el vínculo.
+#### Copy the thread link {#copy-the-thread-link}
 
-#### Copiar el vínculo de actualización {#copy-the-update-link}
+This option copies the full thread link to the clipboard so you can share the thread with other users.
 
-Esta opción copia un vínculo de actualización específico en el portapapeles. Cuando comparte el vínculo de actualización, el usuario que lo sigue ve un borde alrededor de la actualización.
+1. Go to the update thread you want to copy.
 
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** junto a la actualización individual y haga clic en **Copiar vínculo de actualización**.
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/copy-update-link-old-ui.png)
 
-1. Pegue el vínculo copiado en el paso anterior en un correo electrónico u otra aplicación para compartirlo con otros usuarios. El vínculo compartido abre el comentario desde el que compartió el vínculo.
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
-#### Citar respuesta
+#### Quote Reply  
 
-La opción Citar respuesta copia el comentario original en una nueva respuesta como una cita de bloque.
+The Quote Reply option copies the original comment to a new reply as a block quote. 
 
-1. Vaya a la actualización o respuesta que desee copiar.
-1. Haga clic en **Más** y haga clic en **Citar respuesta**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
 
-   Se abre un nuevo cuadro de comentarios y la respuesta citada se incluye en el nuevo comentario y se marca como una cita de bloque.
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
-1. Siga añadiendo la actualización y haga clic en **Responder** para añadir el comentario.
+1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## Eliminar una actualización o respuesta
 
