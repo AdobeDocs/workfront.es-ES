@@ -7,7 +7,7 @@ title: Módulos JWT
 description: El [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] La aplicación proporciona un módulo que crea tokens JWT basados en el algoritmo proporcionado.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -111,4 +111,5 @@ Este módulo genera un JWT basado en el algoritmo seleccionado.
   </tr> 
  </tbody> 
 </table>
+
 
