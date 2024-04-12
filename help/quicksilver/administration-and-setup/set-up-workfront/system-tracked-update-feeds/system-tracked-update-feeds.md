@@ -5,42 +5,46 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Actualizaciones rastreadas por el sistema
 description: Adobe Workfront registra la actividad que se está realizando en ciertos objetos mediante el registro de información de estado en el [!UICONTROL Actualizaciones] área.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Actualizaciones rastreadas por el sistema
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+<!-- Audited: April, 2024-->
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] registra la actividad que tiene lugar en ciertos objetos mediante el registro de información de estado en el [!UICONTROL Actualizaciones] área.
+[!DNL Adobe Workfront] registra la actividad que tiene lugar en ciertos objetos mediante el registro de información de estado en el [!UICONTROL Actualizaciones] sección.
+
+Para obtener información sobre la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 El [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 
-* **Actualizaciones de usuarios:** Introducido manualmente por los usuarios. También se denominan comentarios, respuestas y notas.
+* **Actualizaciones de usuarios:** Introducido manualmente por los usuarios. También se denominan comentarios, respuestas y notas. Las actualizaciones de usuario se muestran en las pestañas Comentarios y Todas de la sección Actualizaciones de un objeto.
 
   Para obtener más información sobre cómo configurar las actualizaciones de usuario, consulte [Configurar preferencias para actualizaciones de usuarios](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Actualizaciones del sistema:** Realizado automáticamente por el sistema. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el elemento.
+* **Actualizaciones del sistema:** Realizado automáticamente por el sistema. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el elemento. Las actualizaciones del sistema se muestran en las pestañas Actividad del sistema y Todas de la sección Actualizaciones de un objeto.
 
   Para obtener más información sobre las fuentes de actualización del sistema y cómo habilitarlas, consulte [Configurar actualizaciones del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
+
 
   <!--
   DRAFTED IN FLARE:
@@ -90,28 +94,30 @@ Las actualizaciones rastreadas por el sistema no están disponibles para todos l
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Las siguientes son diferencias entre la nueva experiencia de comentarios y la experiencia de comentarios heredada:
+* Las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en las pestañas Actividad del sistema y Todos.
 
-   * Al utilizar la nueva experiencia de comentarios, las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en la actividad del sistema <span class="preview">y el de todos</span> pestañas.
+  Para ver una lista de los objetos que no tienen las fichas Actividad del sistema o Todos, consulte [Información general de la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
-     Para obtener más información sobre la nueva experiencia de comentarios, consulte [Nueva experiencia de comentarios](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* No puede agregar una respuesta a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada antes del 11 de abril de 2024, se rellenan en la pestaña Actividad del sistema como de solo lectura.
 
-     <span class="preview">Para ver una lista de los objetos que no tienen las fichas Actividad del sistema o Todos, consulte [Información general de la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+<!--
+* The following are differences between the new and the legacy commenting experience: 
 
-   * <span class="preview">Al utilizar la nueva experiencia de comentarios, no puede agregar un comentario a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura en la nueva experiencia de comentarios.</span>
-   * Al utilizar la experiencia de comentarios heredada, las actualizaciones del sistema y del usuario se muestran en una fuente continua.
+   * When using the new commenting experience, user updates display in the Comments tab and system updates display in the System Activity <span class="preview">and the All</span> tabs.  
 
-   * Al utilizar la experiencia de comentarios heredada, los usuarios pueden ver las actualizaciones del sistema de forma predeterminada o pueden optar por no mostrarlas. No es posible deshabilitar las actualizaciones del sistema al utilizar la nueva experiencia de comentarios.
+      For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-     Para obtener información acerca de cómo deshabilitar la visualización de actualizaciones del sistema, consulte la sección [Habilitar o deshabilitar actualizaciones del sistema](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) en el artículo [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      <span class="preview">For a list of objects that do not have the System Activity or the All tabs, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
 
-   * <span class="preview">La experiencia de comentarios heredada se ha deshabilitado en el entorno de vista previa. Para obtener más información, consulte [Mejoras en el flujo de actualización y las notificaciones del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+   * <span class="preview">When using the new commenting experience, you cannot add a comment to a system update. However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only in the new commenting experience.</span>
+   * When using the legacy commenting experience, the system and user updates display in one continuous feed. 
 
-* Workfront registra las actualizaciones rastreadas por el sistema para los siguientes objetos, pero no hay opción para deshabilitar la visualización:
+   * When using the legacy commenting experience, users can view system updates by default or they can choose to not display them. Disabling system updates is not possible when using the new commenting experience. 
 
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL Programa]
-   * [!UICONTROL Iteración]
+      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
+
+   * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+-->
 
 * [!DNL Workfront] Los administradores de pueden definir qué tipo de cambios debe seguir el sistema en la [!UICONTROL Actualizaciones] área. No todos los objetos que tienen un [!UICONTROL Actualizaciones] también tienen propiedades configurables [!UICONTROL actualizar] fuentes. Los objetos siguientes tienen un [!UICONTROL Actualizaciones] que captura fuentes de actualización rastreadas por el sistema, pero no tienen fuentes de actualización configurables:
 

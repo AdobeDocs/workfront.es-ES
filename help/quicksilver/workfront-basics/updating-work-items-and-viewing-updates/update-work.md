@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Actualizar trabajo
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Se puede añadir una actualización a un objeto de Adobe Workfront para comunicar el progreso del objeto. Para obtener más información sobre los objetos a los que puede agregar actualizaciones en Workfront, consulte [Información general de la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Se puede añadir una actualización a un objeto de Adobe Workfront para comunicar a otros el progreso del objeto. Para obtener más información sobre los objetos a los que puede agregar actualizaciones en Workfront, consulte [Información general de la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 La información de este artículo describe cómo se puede realizar comentarios y actualizar la información de proyectos, tareas y problemas. Los usuarios asignados o suscritos al objeto pueden ver la actualización. También puede etiquetar usuarios para que llamen su atención sobre la actualización.
 
@@ -128,7 +126,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    * Desde un objeto de Workfront, en la sección Actualizaciones (para proyectos, tareas y problemas)
    * Desde el área de Inicio (para tareas y problemas)
-   * En el panel Resumen, en las siguientes áreas (para tareas y problemas):
+   * En el panel Resumen, en las siguientes áreas (para tareas, problemas y documentos):
 
       * Una lista de objetos
       * Una hoja de horas
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Agregar una actualización a un elemento de trabajo <!--using the new commenting experience-->
+## Agregar una actualización a un elemento de trabajo
 
-1. Busque el objeto que desea actualizar (proyecto, tarea o problema) y, a continuación, haga clic en su nombre para abrir la página del objeto.
+Este artículo describe cómo actualizar proyectos, tareas o problemas. La actualización de la mayoría de los demás objetos es similar.
+
+1. Busque el objeto que desea actualizar y, a continuación, haga clic en su nombre para abrir la página del objeto.
 1. Clic  **Actualizaciones** en el panel izquierdo.
 El **Comentarios** está seleccionada de forma predeterminada.
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
 
@@ -294,10 +294,6 @@ El **Comentarios** está seleccionada de forma predeterminada.
 
    Los comentarios adicionales se muestran en la parte inferior de la pantalla.
 
-   >[!NOTE]
-   >
-   >   El indicador &quot;nuevos comentarios&quot; y el botón &quot;Ver&quot; solo se muestran cuando los usuarios que han introducido las nuevas actualizaciones, así como el usuario que está viendo la sección Actualizaciones, están utilizando la nueva experiencia de comentarios.
-
 1. (Opcional) Haga clic en **Like** icono![](assets/like-icon.png). El icono se actualiza con el número de me gusta.
 1. (Condicional y opcional) Si ha incluido más personas en el comentario, haga clic en el número de miembros incluidos en la actualización para mostrar una lista de entidades con las que se comparte el comentario que ha escrito.
 
@@ -314,7 +310,7 @@ El **Comentarios** está seleccionada de forma predeterminada.
 
    >[!TIP]
    >
-   >No puede agregar un comentario a una actualización del sistema. Sin embargo, las respuestas que se hayan realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellenan en la pestaña Actividad del sistema como de solo lectura.
+   >No puede agregar un comentario a una actualización del sistema. Sin embargo, todas las respuestas que se realizaron a los registros de actividad del sistema en la experiencia de comentarios heredada se agregaron a la pestaña Actividad del sistema como de solo lectura. La experiencia de comentarios heredada se eliminó de Workfront el 11 de abril de 2024.
 
 1. (Opcional) Haga clic en **Todo** para ver los comentarios del usuario y los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista.
 
@@ -355,11 +351,11 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* Si su organización utiliza Workfront con Internet Explorer, cualquier texto con formato pegado en una actualización perderá su formato de texto enriquecido y se mostrará como texto sin formato. Puede cambiar el formato del texto mediante los atributos de la barra de herramientas Texto enriquecido.
    >* El formato de texto enriquecido no está disponible para las actualizaciones realizadas en el área Plantillas de horas ni para los objetos Nota y Última condición visualizados en un informe.
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Opcional) Haga clic en **emoji** icono ![](assets/emoji-icon.png) para añadir emojis a tu actualización.
 
@@ -431,9 +427,11 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Copiar información de actualización
+## Copiar actualizaciones
 
-Existen varias formas de copiar una actualización. Después de copiar un vínculo, puede compartirlo con otras personas para dirigirlas a la actualización.
+Existen varias formas de copiar una actualización.
+
+Puede copiar un vínculo a la actualización o copiar el contenido de una actualización para utilizarlo en una nueva actualización.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ Para copiar información de un comentario existente, siga uno de estos procedimi
 
 * [Copiar vínculo](#copy-link)
 * [Copiar el texto del cuerpo](#copy-body-text)
-* [Cita respuesta](#quote-reply-1)
+* [Cita respuesta](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ La opción Respuesta de oferta copia el comentario original en una nueva respues
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Siga añadiendo la actualización y haga clic en **Enviar** para añadir el comentario.
 
@@ -549,14 +546,14 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## Eliminar una actualización o respuesta
+## Eliminar una actualización o una respuesta
 
 En función del acceso que le proporcione su administrador de Workfront, es posible que pueda eliminar las actualizaciones que haya añadido en la pestaña Actualizaciones de un objeto. Para obtener más información, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) en el artículo [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Ningún usuario de Workfront (incluido el administrador de Workfront) puede eliminar las actualizaciones realizadas por otro usuario. Sin embargo, si el nivel de acceso de un usuario le permite eliminar sus propias actualizaciones, el administrador de Workfront puede iniciar sesión como ese usuario y eliminar las actualizaciones que haya realizado. Para obtener más información, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) y [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Vaya a la actualización o respuesta que desee eliminar.
-1. Haga clic en **Más** junto a la actualización o respuesta que desee eliminar y, a continuación, haga clic en **Eliminar**. <!--October 2023 - replace screen shot here-->
+1. Haga clic en **Más** junto a la actualización o respuesta que desee eliminar y, a continuación, haga clic en **Eliminar**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

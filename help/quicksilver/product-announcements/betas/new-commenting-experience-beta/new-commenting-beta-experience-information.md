@@ -8,9 +8,9 @@ feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >Las funciones lanzadas durante el período beta se han puesto a disposición de todos los clientes a partir de la versión del cuarto trimestre de 2023 (octubre de 2023).
 
 
-Los siguientes artículos documentan las funciones disponibles en ser la nueva experiencia de comentarios:
+Los siguientes artículos documentan las funciones disponibles en la nueva experiencia de comentarios:
 
 * [Nueva actividad de lanzamiento de experiencia de comentarios](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [Nueva experiencia de comentarios](../new-commenting-experience-beta/unified-commenting-experience.md)

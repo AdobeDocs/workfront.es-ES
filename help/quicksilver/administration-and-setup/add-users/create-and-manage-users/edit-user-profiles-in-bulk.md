@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # Edición de perfiles de usuario por lotes
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        <ul> 
         <li><b>Zona horaria:</b> Zona horaria de los usuarios.</li> 
         <li><b>Configuración regional</b>: la configuración regional preferida de los usuarios. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li> 
-        <li><b>Mostrar porcentaje completado al actualizar el estado</b>: Marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualización de las tareas de todos los usuarios, al utilizar la experiencia de comentarios heredada. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.
-        <p><span class="preview">Esta opción se ha eliminado del entorno de vista previa.</span></p>
-
-   </li> 
         <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que los usuarios se asignan a sí mismos aparezca directamente en su ficha Trabajando en. El valor predeterminado es enumerar todo lo asignado a un usuario en su pestaña Solicitud de trabajo.</li> 
        </ul> </td> 
      </tr> 

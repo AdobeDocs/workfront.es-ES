@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3287'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,6 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <p><b>NOTA</b></p>
       <p>Esta opción solo está disponible en los entornos Vista previa y Zona protegida. Las notificaciones por correo electrónico están habilitadas en el entorno de producción de forma predeterminada. </p>
       </li>
-
-   <li><b>Mostrar porcentaje completado al actualizar el estado</b>: marque esta opción si desea mostrar una barra de porcentaje completado dentro del área de Actualización de las tareas de este usuario, al utilizar la experiencia de comentarios heredada. Para obtener más información, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nueva experiencia de comentarios</a>.
-      <p><span class="preview">Esta opción se ha eliminado del entorno de vista previa.</span></p>
 
    </li> 
        <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que el usuario se asigna a sí mismo aparezca directamente en la lista Trabajando en del área de Inicio. El valor predeterminado es enumerar todo lo asignado a un usuario en sus listas Listo para comenzar o No listo en el área de Inicio.</li> 

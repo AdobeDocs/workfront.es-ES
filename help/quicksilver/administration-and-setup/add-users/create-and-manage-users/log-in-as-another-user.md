@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador de Adobe Workfront, a veces es posible que deba acceder a Workfront en nombre de otro usuario.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # Iniciar sesión como otro usuario
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo: estándar</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -75,6 +77,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Iniciar sesión y realizar acciones como otro usuario
 
@@ -146,7 +150,7 @@ Cuando inicia sesión como otro usuario, la fecha del último inicio de sesión 
 
 Cuando inicia sesión en Workfront como otro usuario y realiza una acción, Workfront indica claramente que cualquier acción que realice la realizará usted en nombre del usuario con el que ha iniciado sesión.
 
-Por ejemplo, si comenta un elemento mientras está conectado como otro usuario, una instrucción indica que usted hizo el comentario en nombre del usuario.
+Por ejemplo, si comenta un elemento mientras está conectado como otro usuario, una instrucción indica que usted hizo el comentario en nombre del usuario cuando ve la sección Actualizaciones de un objeto.
 
 ### Ver información de auditoría {#view-audit-information}
 

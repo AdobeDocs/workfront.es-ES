@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >La información de este artículo hace referencia a las funciones que se han publicado en la nueva experiencia de comentarios.
 >
->El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023. El programa beta de la nueva experiencia de comentarios se cerró con la versión de octubre de 2023.
+>El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023, con la versión de octubre de 2023.
 >
->A partir de octubre de 2023, todas las nuevas funciones de la nueva experiencia de comentarios se lanzarán a todos los clientes. Para obtener más información, consulte la página de información general de la versión actual de cada versión.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Desde el 11 de abril de 2024, todas las funciones de la nueva experiencia de comentarios están disponibles en el entorno de producción para todos los clientes.
 
 ## Funciones
 
@@ -561,19 +551,20 @@ A continuación se muestra una cronología planificada para el lanzamiento de la
 
 * Con la versión del segundo trimestre de 2024 (11 de abril de 2024):
 
-   * Elimine la opción para volver al flujo de comentarios heredado y hacer que el nuevo flujo de comentarios sea la única experiencia para todos los objetos, con la excepción de las iteraciones.
+  Elimine la opción para volver al flujo de comentarios heredado y hacer que el nuevo flujo de comentarios sea la única experiencia para todos los objetos, con la excepción de las iteraciones.
 
 ## Busque la nueva experiencia de comentarios
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+La nueva experiencia de comentarios está disponible en las siguientes áreas de Workfront:
 
->[!IMPORTANT]
->
->La nueva experiencia de comentarios está disponible en todos los entornos de Workfront en todos los objetos, excepto en Iteraciones.
->
->La experiencia de comentarios heredada se ha eliminado de todos los entornos para Proyectos, Tareas, Problemas y Documentos.
+* En la sección Updates de todos los objetos, excepto Iterations.
 
-Para obtener información sobre el acceso a la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Para obtener información sobre el acceso a la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* En el Panel de resumen de tareas, problemas y documentos en todas las áreas donde esto esté disponible (listas, hojas de horas, Distribuidor de cargas de trabajo y Página de inicio).
+* En el área de Inicio para tareas y problemas.
+
+
 
 <!--
 

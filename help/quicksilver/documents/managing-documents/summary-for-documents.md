@@ -7,18 +7,18 @@ description: El Resumen le permite interactuar con información importante direc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # Resumen de la información general sobre documentos
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-El Resumen le permite interactuar con información importante directamente desde la lista de documentos.
+Puede usar el Panel de resumen para acceder a información importante y actualizarla directamente desde la lista de documentos.
 
 ## Requisitos de acceso
 
@@ -31,25 +31,27 @@ Debe tener lo siguiente:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td> <p>Nuevo: Colaborador o superior</p> 
+   <p>Actual: Solicitud o superior</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a documentos</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso al objeto asociado con el documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver acceso al objeto asociado con el documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Abrir la vista Resumen
 
@@ -67,7 +69,7 @@ Utilice la sección Detalles para ver información general de alto nivel e inter
 * [Información general](#overview)
 * [Formularios personalizados](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Información general {#overview}
 
@@ -79,18 +81,13 @@ Expanda la sección Información general para ver o descargar una miniatura de i
 
 Utilice la sección Forms personalizado para agregar, editar o ver cualquier formulario personalizado asociado al documento. Empiece a escribir el nombre del formulario personalizado para agregarlo al documento. Para obtener más información, consulte [Agregar o editar un formulario personalizado en un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Actualizaciones
 
 Utilice la sección Actualizaciones para leer una actualización realizada por alguien en el documento o la prueba. El resumen muestra los dos primeros comentarios realizados. Para obtener más información sobre las actualizaciones, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Actualiza la sección en el panel Resumen](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Rutas de aprobación
 
@@ -101,7 +98,7 @@ Las aprobaciones de pruebas deben agregarse al flujo de trabajo de pruebas. Para
 * [Aprobación del trabajo](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprobaciones de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versiones
 
@@ -113,4 +110,4 @@ Utilice la sección Versiones para ver el número de versiones creadas para un d
 * Ir a los detalles del documento
 * Eliminar una prueba o un documento
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

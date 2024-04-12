@@ -6,9 +6,9 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,15 @@ Para obtener información sobre cómo establecer el botón Trabajar en ello en u
 Debe tener asignada una tarea o el problema o tener permisos de administración para poder establecer la condición en él.
 
 Puede actualizar manualmente la condición de una tarea o problema en un informe o lista de tareas o problemas al mostrar el campo Condición en la vista.
+
+>[!NOTE]
+>
+>Puede pedir al administrador del sistema o del grupo que añada el campo Condición al Panel de resumen para que sea más fácil actualizarlo en varias áreas de Workfront.
+>
+>Para obtener más información, consulte los siguientes artículos:
+>
+>* [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
