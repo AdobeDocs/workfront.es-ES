@@ -6,16 +6,22 @@ description: Al eliminar una tarjeta de un tablero, se elimina de forma permanen
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Eliminar o archivar una tarjeta de un tablero
 
-Al eliminar una tarjeta de un tablero, se elimina de forma permanente y no se puede restaurar. Archivar una tarjeta la envía al archivo y puede restaurarla en la placa posteriormente.
+Al eliminar una tarjeta ad hoc de un tablero, se elimina de forma permanente y no se puede restaurar. Las tarjetas conectadas se pueden volver a añadir manualmente a un tablero después de eliminarlas.
+
+Si elimina una tarjeta conectada de un tablero dinámico, volverá a aparecer cuando actualice el tablero, ya que este tipo de tablero extrae todas las tareas y problemas de un proyecto específico. Para eliminar la tarjeta, debe eliminar la tarea o el problema conectado del proyecto de Workfront.
+
+Cuando elimine una tarjeta conectada de cualquier otro tipo de tarjeta que tenga una columna de entrada, la tarjeta volverá a aparecer en la columna de entrada cuando actualice el tablero si la tarea o el problema conectado aún no se ha marcado como completado. Para obtener más información sobre las columnas de entrada, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+Archivar una tarjeta la envía al archivo y puede restaurarla en la placa posteriormente.
 
 ## Requisitos de acceso
 

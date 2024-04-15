@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,10 @@ Si utiliza el límite de trabajo en curso en una columna, no se agrega un contad
 1. Clic **[!UICONTROL Ocultar configuración]** para cerrar el [!UICONTROL Configurar] panel.
 
 ## Definir la configuración y las directivas de columna
+
+>[!NOTE]
+>
+>Los tableros dinámicos siempre colocan tarjetas en la columna que coincide con su estado, independientemente de si las directivas de columna están habilitadas o deshabilitadas. Las tarjetas volverán a sus columnas asignadas cuando actualice el tablero.
 
 1. Acceda al tablero.
 1. Haga clic en **[!UICONTROL Más]** menú ![Menú Más](assets/more-icon-spectrum.png) en la columna y seleccione **[!UICONTROL Editar]**.
