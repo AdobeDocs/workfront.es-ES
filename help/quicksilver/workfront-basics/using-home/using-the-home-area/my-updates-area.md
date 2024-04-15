@@ -6,9 +6,9 @@ description: Puede usar el complemento [!UICONTROL Mis actualizaciones] para rev
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ Debe tener lo siguiente antes de empezar:
    >Las primeras 50 menciones se muestran de forma predeterminada.
 
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar más actualizaciones]** para ver más menciones.
-1. (Opcional) Haga clic en **[!UICONTROL Responder]** para responder a un comentario, escriba su respuesta y haga clic en **[!UICONTROL Responder]** otra vez.
+1. (Opcional) Haga clic en **[!UICONTROL Responder]** para responder a un comentario y realice una de las acciones siguientes:
+   * Empiece a escribir una respuesta
+   * Utilice la barra de herramientas Texto enriquecido para dar formato al texto y agregar vínculos, listas, emojis, comillas o imágenes al mensaje
+   * Agregue usuarios o equipos para notificarles su respuesta.
 
-   Para obtener más información sobre la actualización de elementos, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Cuando termine de agregar la respuesta, haga clic en **[!UICONTROL Responder]** otra vez.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Opcional) Haga clic en **[!UICONTROL Anclar página actual]** para fijar la [!UICONTROL Mis actualizaciones] a su navegación superior.

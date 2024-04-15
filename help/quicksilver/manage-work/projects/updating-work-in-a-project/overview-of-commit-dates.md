@@ -7,10 +7,10 @@ description: La fecha de confirmación es la fecha en la que un usuario asignado
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
@@ -64,9 +64,20 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
   El cambio de la fecha de confirmación se muestra en el área de actualizaciones de la tarea o del problema cuando el administrador de Workfront habilita esta actualización en el área de fuentes de actualizaciones en la configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Si el propietario de un proyecto no desea aceptar el cambio, le recomendamos que realice un comentario de nuevo al usuario que propone una nueva fecha utilizando la pestaña Comentarios en la sección Actualizaciones para pedirle que vuelva a cambiar la fecha de compromiso a la fecha planificada original o que seleccione una nueva fecha. Si el propietario de un proyecto acepta el cambio, puede ajustar manualmente la fecha planificada de finalización para que coincida con la fecha de confirmación ofrecida por el usuario asignado al elemento editando la tarea o el problema.
+  Si el propietario de un proyecto no desea aceptar el cambio, le recomendamos que realice un comentario de nuevo al usuario que propone una nueva fecha utilizando la pestaña Comentarios en la sección Actualizaciones para pedirle que vuelva a cambiar la fecha de compromiso a la fecha planificada original o que seleccione una nueva fecha.
+
+  Si el propietario de un proyecto acepta el cambio, puede ajustar manualmente la fecha planificada de finalización para que coincida con la fecha de confirmación ofrecida por el usuario asignado al elemento editando la tarea o el problema.
 
   Debe tener acceso para administrar la tarea o el problema para editarlos.
+
+  >[!TIP]
+  >
+  >Puede pedir al administrador del sistema o del grupo que añada el campo Fecha de confirmación al panel de resumen para facilitar la actualización en varias áreas de Workfront en las que se muestra el panel de resumen.
+  >
+  >Para obtener más información, consulte los siguientes artículos:
+  >
+  >* [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

@@ -6,9 +6,9 @@ description: Puede actualizar el porcentaje completado de una tarea para indicar
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
   Para obtener más información, consulte [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Inicio**: puede actualizar el porcentaje completado de una tarea o un problema desde el Panel de resumen en el área de Inicio o desde el widget Mi trabajo.
+
+Para obtener más información, consulte  [Introducción al nuevo Inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Consideraciones acerca de la actualización del porcentaje completado de una tarea
 
@@ -104,7 +107,13 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
    * Una lista de proyectos y aplicar la vista de Hito
    * Una tarea, accediendo a la página de tareas
 1. Busque el **Porcentaje completado** para la tarea cuyo porcentaje completado desee actualizar.
-1. Haga clic dentro del campo Porcentaje completado y escriba un número entre 0 y 100
+
+   >[!TIP]
+   >
+   >  El campo Porcentaje completado siempre se muestra en la parte superior del panel Resumen.
+
+
+1. Haga clic dentro de **Porcentaje completado** y escriba un número entre 0 y 100
 
    O
 

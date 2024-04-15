@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ El espacio de trabajo al que se accede por última vez se abre.
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro. El cuadro del registro se abre en la vista.
+   En la vista de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro. El cuadro del registro se abre en la vista.
 
    ![](assets/details-box.png)
 

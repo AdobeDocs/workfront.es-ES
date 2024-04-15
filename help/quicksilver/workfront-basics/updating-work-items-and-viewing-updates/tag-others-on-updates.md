@@ -6,9 +6,9 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Puede etiquetar a otros en las actualizaciones de las siguientes maneras:
 
-* **Automáticamente**: Cuando un usuario inicia un hilo de conversación, añade un comentario o añade una respuesta, se etiquetan automáticamente y se añaden al área de Etiquetar personas o equipos del cuadro de comentarios. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **Automáticamente**: Cuando un usuario inicia un hilo de conversación, añade un comentario o añade una respuesta, se etiquetan automáticamente y se añaden al área de Etiquetar personas o equipos del cuadro de comentarios.
+
+  >[!TIP]
+  >
+  >   El etiquetado automático de usuarios no es posible cuando se añade un comentario en una iteración.  Para obtener más información, consulte [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
+  >El etiquetado automático de usuarios no es posible cuando se agrega un comentario desde otras aplicaciones.
+
 
 * **Manualmente**: Cuando agrega manualmente un usuario al área de Etiquetar personas del cuadro de comentarios.
 

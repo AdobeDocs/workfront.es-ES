@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ Además, para registrar el tiempo de un elemento en el widget Mi trabajo:
 
 1. Llegué a la **Inicio** área.
 1. Añada el **Mi trabajo** a su página de inicio.
-1. Seleccione una tarea, problema o solicitud en una lista y haga clic en **Trabajar en ello**
+1. (Opcional) Seleccione una tarea, problema o solicitud en una lista y, a continuación, haga clic en **Trabajar en ello**
 1. Pase el ratón sobre la tarea o el problema para el que quiera registrar tiempo y luego haga clic en **Hora de registro** icono ![](assets/log-time-icon-in-new-home.png) a la derecha de la información de la tarea.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

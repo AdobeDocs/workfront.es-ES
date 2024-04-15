@@ -6,9 +6,9 @@ description: Tanto la finalización planificada como las fechas de confirmación
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ El usuario asignado que trabaja en la tarea o el problema puede actualizar manua
 
 El usuario asignado que cambia la fecha de compromiso no cambia automáticamente la fecha planificada de finalización. Lo contrario también es verdadero: al cambiar la fecha planificada de finalización, no se cambia la fecha de confirmación.
 
-Cuando la fecha de compromiso cambia a una fecha posterior a la fecha planificada de finalización, se notifica al propietario del proyecto que este cambio se ha producido y podría afectar a la cronología del proyecto.
+Cuando cambia la fecha de confirmación, el propietario del proyecto recibe una notificación a través de Workfront en la aplicación de que se ha producido este cambio.
 
-Si la fecha de confirmación ofrecida por el usuario asignado es aceptable para el propietario del proyecto, debe actualizar manualmente la fecha planificada de finalización de la tarea o el problema. Para obtener más información, consulte los siguientes artículos:
+Si la fecha de compromiso ofrecida por el usuario asignado es aceptable para el propietario del proyecto, debe actualizar manualmente la fecha planificada de finalización en la tarea para ilustrar el impacto que podría tener en la cronología del proyecto. Los cambios en la fecha planificada de finalización de los problemas no afectan a la cronología del proyecto.
+
+Para obtener más información, consulte los siguientes artículos:
 
 * [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Actualizar fechas de confirmación en tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

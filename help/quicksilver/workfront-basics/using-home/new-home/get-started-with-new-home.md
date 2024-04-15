@@ -6,9 +6,9 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Para obtener información sobre cómo añadir, mover, cambiar el tamaño o elimi
 A continuación se muestran los diez widgets disponibles actualmente para elegir, así como un resumen de la información que muestran:
 
 * **Mi trabajo**\
-    Es un buen punto de partida para administrar una amplia variedad de trabajos. Muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Puede hacer clic en el botón Trabajar en ello para comenzar a trabajar en un elemento.
+    Es un buen punto de partida para administrar una amplia variedad de trabajos. Muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Puede hacer clic en el botón Trabajar en ello para comenzar a trabajar en un elemento o en el botón Listo para marcarlo como completado. También puede actualizar información (estado, condición, porcentaje completado) acerca de tareas y problemas, registrar tiempo y agregar actualizaciones desde el widget Mi trabajo.
 
 * **Mis proyectos**\
     Muestra los proyectos de su propiedad o los proyectos en los que se encuentra en una lista. Puede utilizar filtros, vistas o agrupaciones existentes para personalizar la lista, o puede crear un proyecto directamente desde el widget.
