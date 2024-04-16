@@ -6,19 +6,18 @@ title: Información general del lago de datos Workfront
 description: Información general sobre la capacidad del lago de datos de Workfront
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Información general del lago de datos Workfront
 
-El lago de datos de Workfront ofrece un acceso sin precedentes a los datos de Workfront, lo que le permite responder preguntas críticas para la empresa y medir el valor de sus procesos. Esta capacidad permite a los clientes empresariales consultar sus datos con herramientas de visualización de datos directamente desde un lago de datos de Workfront o exportar datos de Workfront a almacenes de datos propiedad del cliente.
+El lago de datos de Workfront ofrece un acceso sin precedentes a los datos de Workfront mediante la tecnología de Snowflake, lo que le permite responder preguntas críticas para la empresa y medir el valor de sus procesos. Esta capacidad permite a los clientes empresariales consultar sus datos con herramientas de visualización de datos directamente desde un lago de datos de Workfront o exportar datos de Workfront a almacenes de datos propiedad del cliente.
 
 Los suscriptores podrán conectar su herramienta de inteligencia empresarial preferida (Tableau, Power BI, Domo, Looker, etc.) Vaya al lago de datos de Workfront para crear visualizaciones de datos con los siguientes tipos de datos:
 

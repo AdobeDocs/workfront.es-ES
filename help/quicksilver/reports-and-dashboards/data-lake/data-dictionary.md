@@ -6,13 +6,12 @@ title: Diccionario de datos de Data Lake
 description: Esta página contiene información sobre la estructura y el contenido de los datos del lago de datos de Workfront.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ La tabla Historial diario ofrece una versión abreviada de la tabla Evento, ya q
 
 <!-- Custom table -->
 
-## Tabla de relación de entidades
+## Tabla de terminología
 
 La siguiente tabla correlaciona los nombres de objeto en Workfront (así como sus nombres en la interfaz y la API) con su nombre equivalente en el lago de datos.
 
