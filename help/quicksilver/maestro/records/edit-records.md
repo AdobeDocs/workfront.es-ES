@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ Se abre el espacio de trabajo al que accedió por última vez.
    >* Utilice los siguientes métodos abreviados del teclado para copiar y pegar información:
    >   * Copiar: CTRL + C (⌘ + C para Mac)
    >   * Pegar: CTRL + V (⌘ + V para Mac)
-   >* No puede copiar información de otro origen que no sea un campo de registro del mismo tipo que el campo en el que pega la información.
    >
    >* No se pueden copiar y pegar valores de campo en la página de registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:

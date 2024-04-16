@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -93,6 +93,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Las vistas de Workfront Planning son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
+<!--* Each user can create a maximum of 100 views. -->
 * Los siguientes elementos son exclusivos de cada vista de registro:
 
    * Filtro
