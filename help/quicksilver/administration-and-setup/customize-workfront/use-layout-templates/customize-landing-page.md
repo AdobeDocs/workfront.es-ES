@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Para obtener información sobre la creación de plantillas de diseño, consulte 
 Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+
+>[!NOTE]
+>
+>Cuando Solicitudes se establece como página de aterrizaje, los usuarios colaboradores o solicitantes asignados a la plantilla de diseño ven la página de inicio como página de aterrizaje. ¿Se recomienda elegir una página de aterrizaje que no sea Solicitudes para plantillas de diseño destinadas a usuarios colaboradores o solicitantes?
 
 ## Requisitos de acceso
 

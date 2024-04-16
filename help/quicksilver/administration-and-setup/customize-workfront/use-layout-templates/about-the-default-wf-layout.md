@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -112,7 +112,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Personas</strong> </td> 
+   <td><strong>People</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Horario</strong> </td> 
+   <td><strong>Programación</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -187,7 +187,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Hojas de horas que yo apruebo</strong> </td> 
+   <td><strong>Hojas de horas que apruebo</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -215,7 +215,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Configurar</strong> </td> 
+   <td><strong>Configuración</strong> </td> 
    <td> </td> 
    <td>✔ </td> 
    <td>Funcionalidad limitada</td> 
