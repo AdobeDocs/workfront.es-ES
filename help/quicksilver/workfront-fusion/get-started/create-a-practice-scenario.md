@@ -7,9 +7,9 @@ description: En este artículo se describe cómo crear un escenario de integraci
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Este módulo contendrá los datos que desea que el escenario observe.
 
    ![](assets/pre-loaded-apps-350x139.png)
 
-1. Haga clic **[!DNL Google Sheets]**.
+1. Clic **[!DNL Google Sheets]**.
 
    La lista cambia para mostrar todo [!DNL Google Sheets] módulos que puede utilizar como módulo de déclencheur.
 
@@ -153,7 +153,7 @@ Este módulo contendrá los datos que desea que el escenario observe.
 1. En el **[!DNL Google Sheets]** cuadro, debajo de **[!UICONTROL Conexión]**, haga clic en **[!UICONTROL Añadir]** A continuación, escriba un nombre para la conexión, como &quot;Cuenta de Google de Olivia&quot;, y haga clic en **[!UICONTROL Continuar]**.
 1. Autentique la conexión en la ventana que aparece.
 
-   El proceso de autenticación de una conexión puede variar un poco entre aplicaciones. Es posible que tenga que iniciar sesión en la aplicación. Normalmente tendrá que hacer clic en una **[!UICONTROL Permitir]** botón. Si necesita ayuda, consulte [Acerca de conectar [!DNL Adobe Workfront Fusion] a una aplicación o servicio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   El proceso de autenticación de una conexión puede variar un poco entre aplicaciones. Es posible que tenga que iniciar sesión en la aplicación. Normalmente tendrá que hacer clic en una **[!UICONTROL Permitir]** botón. Si necesita ayuda, consulte [Información general sobre Conexiones](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configuración del primer módulo
 

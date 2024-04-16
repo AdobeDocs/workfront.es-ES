@@ -7,9 +7,9 @@ description: En este artículo se describe cómo crear un escenario de automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Para este ejemplo, no se utiliza un módulo de déclencheur. En su lugar, este e
    1. Iniciar sesión en [!DNL Workfront].
    1. Examine el acceso que [!DNL Workfront Fusion] está solicitando y haga clic en **[!UICONTROL Permitir el acceso]**.
 
-   Si necesita ayuda, consulte [Acerca de conectar [!DNL Adobe Workfront Fusion] a una aplicación o servicio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Si necesita ayuda, consulte [Información general sobre Conexiones](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configuración del primer módulo
 

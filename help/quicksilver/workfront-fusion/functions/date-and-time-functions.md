@@ -8,9 +8,9 @@ description: Las siguientes funciones de fecha y hora están disponibles en el p
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1958'
 ht-degree: 1%
 
 ---
@@ -19,44 +19,288 @@ ht-degree: 1%
 
 ## Requisitos de acceso
 
+
+
 Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] o superior</p> </td> 
+
+
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Cualquiera</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td>  
+   <td> <p>Nuevo: [!UICONTROL Standard]</p><p>O</p><p>Actual: [!UICONTROL Work] o superior</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
+   <td> 
+   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>O</p> 
+   <p>Heredado: cualquiera </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Product</td>  
+   <td> 
+   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>O</p> 
+   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
-   <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL formatDate (fecha; formato; [timezone])]
+## Variables
+
+### now
+
+### timestamp
+
+## Funciones 
+
+### [!UICONTROL addSeconds (fecha; número)]
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de segundos a una fecha. Para restar segundos, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   Devuelve 2016-12-08T15:55:59,536Z
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   Devuelve 2016-12-08T15:55:55,536Z
+
+### [!UICONTROL addMinutes (fecha; número)] {#addminutes-date-number}
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de minutos a una fecha. Para restar minutos, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    Devuelve 2016-12-08T15:57:57,536Z
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Devuelve 2016-12-08T15:53:57,536Z
+
+### [!UICONTROL addHours (fecha; número)] {#addhours-date-number}
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de horas a una fecha. Para restar horas, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    Devuelve 2016-12-08T17:55:57,536Z
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Devuelve 2016-12-08T13:55:57,536Z
+
+### [!UICONTROL addDays (fecha; número)] {#adddays-date-number}
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de días a una fecha. Para restar días, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    Devuelve 2016-12-10T15:55:57,536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Devuelve 2016-12-6T15:55:57,536Z
+
+### [!UICONTROL addMonths (fecha; número)]
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de meses a una fecha. Para restar meses, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    Devuelve 2016-10-08T15:55:57,536Z
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    Devuelve 2016-06-08T15:55:57,536Z
+
+### [!UICONTROL addYears (fecha; número)]
+
+Devuelve una nueva fecha como resultado de agregar un número determinado de años a una fecha. Para restar años, introduzca un número negativo.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    Devuelve 2018-08-08T15:55:57,536Z
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    Devuelve 2014-08-08T15:55:57,536Z
+
+### [!UICONTROL setSecond (fecha; número)]
+
+Esta función devuelve una nueva fecha con los segundos especificados en parámetros.
+
+Especifique un número del 0 al 59. Si el número está fuera de ese intervalo, la función devuelve un segundo desde el minuto anterior (para un número negativo) o un minuto posterior (para un número positivo).
+
+Si necesita especificar un número fuera del intervalo, le recomendamos que utilice[!UICONTROL  addSeconds], tal como se describe más arriba en la sección [addSeconds (fecha; número)](#addseconds-date-number).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    Devuelve 2015-10-07T11:36:10,138Z
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    Devuelve 2015-10-07T11:37:01,138Z
+
+### [!UICONTROL setMinute (fecha; número)]
+
+Esta función devuelve una nueva fecha con los minutos especificados en los parámetros.
+
+Especifique un número del 0 al 59. Si el número está fuera de ese intervalo, la función devuelve un minuto desde la hora anterior (para un número negativo) o una hora posterior (para un número positivo).
+
+Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addMinutes, tal como se describe anteriormente en [addMinutes (fecha; número)](#addminutes-date-number).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    Devuelve 2015-10-07T11:10:39,138Z
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    Devuelve 2015-10-07T12:01:39,138Z
+
+### [!UICONTROL setHour (date; number)]
+
+Esta función devuelve una nueva fecha con la hora especificada en parámetros.
+
+Especifique un número del 0 al 23. Si el número está fuera de este intervalo, la función devuelve una hora desde el día anterior (para un número negativo) o un día posterior (para un número positivo).
+
+Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addHours, tal como se describe anteriormente en [addHours (fecha; número)](#addhours-date-number).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   Devuelve 2015-08-07T06:36:39,138Z
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    Devuelve 2015-08-06T18:36:39,138Z
+
+### [!UICONTROL setDay (fecha; número/nombre del día en inglés)]
+
+Esta función devuelve una nueva fecha con el día especificado en parámetros.
+
+Puede utilizar esta función para establecer el día de la semana, con domingo como 1 y sábado como 7. Si especifica un número del 1 al 7, la fecha resultante se encuentra dentro de la semana actual (de domingo a sábado). Si el número está fuera de ese intervalo, la función devuelve un día de la semana anterior (para un número negativo) o de la semana siguiente (para un número positivo).
+
+Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addDays, tal como se describe anteriormente en [addDays (fecha; número)](#adddays-date-number).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   Devuelve 2018-06-25T11:36:39,138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   Devuelve 2018-06-24T11:36:39,138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   Devuelve 2018-06-30T11:36:39,138Z
+
+### [!UICONTROL setDate (fecha; número)]
+
+Esta función devuelve una nueva fecha con el día del mes especificado en parámetros.
+
+Especifique un número del 1 al 31. Si el número está fuera de este intervalo, la función devuelve un día del mes anterior (para un número negativo) o del mes siguiente (para un número positivo).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   Devuelve 2015-08-05T11:36:39,138Z
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   Devuelve 2015-09-01T11:36:39,138Z
+
+### [!UICONTROL setMonth (fecha; número/nombre del mes en inglés)]
+
+Esta función devuelve una nueva fecha con el mes especificado en parámetros.
+
+Especifique un número del 1 al 12. Si el número está fuera de este intervalo, la función devuelve el mes del año anterior (para un número negativo) o del año siguiente (para un número positivo).
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   Devuelve 2015-05-07T11:36:39,138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   Devuelve 2016-05-07T11:36:39,138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   Devuelve 2015-01-07T12:36:39,138Z
+
+### [!UICONTROL setYear (fecha; número)]
+
+Devuelve una nueva fecha con el año especificado en parámetros.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
+>
+>   Devuelve 2017-08-07T11:36:39,138Z
+
+### [!UICONTROL formatDate (fecha; formato; [timezone])]
 
 Utilice esta función cuando tenga un valor Date como, por ejemplo, `12-10-2021 20:30`, que desea formatear como un valor de texto, como `Dec 10, 2021 8:30 PM`.
 
@@ -64,7 +308,7 @@ Esto resulta útil, por ejemplo, cuando necesita cambiar el formato de fecha de 
 
 Para obtener más información, consulte [Fecha](../../workfront-fusion/mapping/item-data-types.md#date) y [Texto](../../workfront-fusion/mapping/item-data-types.md#text) en el artículo [Tipos de datos de elementos en Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parámetros
+#### Parámetros
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +342,7 @@ Para obtener más información, consulte [Fecha](../../workfront-fusion/mapping/
 
 Si se proporciona un tipo diferente, se aplica coerción de tipo. Para obtener más información, consulte [Coerción de tipos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Valor devuelto y tipo
+#### Valor devuelto y tipo
 
 El `formatDate` función devuelve una representación de texto del valor Date dado según el formato y la zona horaria especificados. El tipo de datos es Texto.
 
@@ -124,11 +368,11 @@ El `formatDate` función devuelve una representación de texto del valor Date da
 >
 >    Devuelve 19.03.2019 15:30
 
-## [!UICONTROL parseDate (texto; formato; [timezone])]
+### [!UICONTROL parseDate (texto; formato; [timezone])]
 
 Utilice esta función cuando tenga un valor de texto que represente una fecha (como `12-10-2019 20:30` o `Aug 18, 2019 10:00 AM`) y desea convertirlo (analizarlo) en un valor Date (una representación binaria legible por máquina). Para obtener más información, consulte [Fecha](../../workfront-fusion/mapping/item-data-types.md#date) y [Texto](../../workfront-fusion/mapping/item-data-types.md#text) en el artículo [Tipos de datos de elementos en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parámetros
+#### Parámetros
 
 La segunda columna indica el tipo esperado. Si se proporciona un tipo diferente, se aplica coerción de tipo. Para obtener más información, consulte [Coerción de tipos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
@@ -164,7 +408,7 @@ La segunda columna indica el tipo esperado. Si se proporciona un tipo diferente,
 
 Si se proporciona un tipo diferente, se aplica coerción de tipo. Para obtener más información, consulte [Coerción de tipos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Valor devuelto y tipo
+#### Valor devuelto y tipo
 
 Esta función convierte una cadena de texto en una fecha, según el formato y la zona horaria que especifique. El tipo de datos del valor es Fecha.
 
@@ -188,239 +432,7 @@ Esta función convierte una cadena de texto en una fecha, según el formato y la
 >
 >   Devuelve 2016-12-28T16:03:06,000Z
 
-## [!UICONTROL addDays (fecha; número)] {#adddays-date-number}
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de días a una fecha. Para restar días, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    Devuelve 2016-12-10T15:55:57,536Z
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    Devuelve 2016-12-6T15:55:57,536Z
-
-## [!UICONTROL addHours (fecha; número)] {#addhours-date-number}
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de horas a una fecha. Para restar horas, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    Devuelve 2016-12-08T17:55:57,536Z
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    Devuelve 2016-12-08T13:55:57,536Z
-
-## [!UICONTROL addMinutes (fecha; número)] {#addminutes-date-number}
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de minutos a una fecha. Para restar minutos, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    Devuelve 2016-12-08T15:57:57,536Z
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    Devuelve 2016-12-08T15:53:57,536Z
-
-## [!UICONTROL addMonths (fecha; número)] {#addseconds-date-number}
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de meses a una fecha. Para restar meses, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    Devuelve 2016-10-08T15:55:57,536Z
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    Devuelve 2016-06-08T15:55:57,536Z
-
-## [!UICONTROL addSeconds (fecha; número)]
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de segundos a una fecha. Para restar segundos, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   Devuelve 2016-12-08T15:55:59,536Z
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   Devuelve 2016-12-08T15:55:55,536Z
-
-## [!UICONTROL addYears (fecha; número)]
-
-Devuelve una nueva fecha como resultado de agregar un número determinado de años a una fecha. Para restar años, introduzca un número negativo.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    Devuelve 2018-08-08T15:55:57,536Z
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    Devuelve 2014-08-08T15:55:57,536Z
-
-## [!UICONTROL setSecond (fecha; número)]
-
-Esta función devuelve una nueva fecha con los segundos especificados en parámetros.
-
-Especifique un número del 0 al 59. Si el número está fuera de ese intervalo, la función devuelve un segundo desde el minuto anterior (para un número negativo) o un minuto posterior (para un número positivo).
-
-Si necesita especificar un número fuera del intervalo, le recomendamos que utilice[!UICONTROL  addSeconds], tal como se describe más arriba en la sección [addSeconds (fecha; número)](#addseconds-date-number).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setSecond(2015-10-07T11:36:39.138Z;10)`
->
->    Devuelve 2015-10-07T11:36:10,138Z
->
->* `setSecond(2015-10-07T11:36:39.138Z; 6)`
->
->    Devuelve 2015-10-07T11:37:01,138Z
-
-## [!UICONTROL setMinute (fecha; número)]
-
-Esta función devuelve una nueva fecha con los minutos especificados en los parámetros.
-
-Especifique un número del 0 al 59. Si el número está fuera de ese intervalo, la función devuelve un minuto desde la hora anterior (para un número negativo) o una hora posterior (para un número positivo).
-
-Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addMinutes, tal como se describe anteriormente en [addMinutes (fecha; número)](#addminutes-date-number).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setMinute(2015-10-07T11:36:39.138Z;10)`
->
->    Devuelve 2015-10-07T11:10:39,138Z
->
->* `setMinute(2015-10-07T11:36:39.138Z;61)`
->
->    Devuelve 2015-10-07T12:01:39,138Z
-
-## [!UICONTROL setHour (date; number)]
-
-Esta función devuelve una nueva fecha con la hora especificada en parámetros.
-
-Especifique un número del 0 al 23. Si el número está fuera de este intervalo, la función devuelve una hora desde el día anterior (para un número negativo) o un día posterior (para un número positivo).
-
-Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addHours, tal como se describe anteriormente en [addHours (fecha; número)](#addhours-date-number).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setHour(2015-08-07T11:36:39.138Z;6)`
->
->   Devuelve 2015-08-07T06:36:39,138Z
->
->* `setHour(2015-08-07T11:36:39.138;-6)`
->
->    Devuelve 2015-08-06T18:36:39,138Z
-
-## [!UICONTROL setDay (fecha; número/nombre del día en inglés)]
-
-Esta función devuelve una nueva fecha con el día especificado en parámetros.
-
-Puede utilizar esta función para establecer el día de la semana, con domingo como 1 y sábado como 7. Si especifica un número del 1 al 7, la fecha resultante se encuentra dentro de la semana actual (de domingo a sábado). Si el número está fuera de ese intervalo, la función devuelve un día de la semana anterior (para un número negativo) o de la semana siguiente (para un número positivo).
-
-Si necesita especificar un número fuera del intervalo, le recomendamos que utilice addDays, tal como se describe anteriormente en [addDays (fecha; número)](#adddays-date-number).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setDay(2018-06-27T11:36:39.138Z;Monday)`
->
->   Devuelve 2018-06-25T11:36:39,138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;1)`
->
->   Devuelve 2018-06-24T11:36:39,138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;7)`
->
->   Devuelve 2018-06-30T11:36:39,138Z
-
-## [!UICONTROL setDate (fecha; número)]
-
-Esta función devuelve una nueva fecha con el día del mes especificado en parámetros.
-
-Especifique un número del 1 al 31. Si el número está fuera de este intervalo, la función devuelve un día del mes anterior (para un número negativo) o del mes siguiente (para un número positivo).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setDate(2015-08-07T11:36:39.138Z;5)`
->
->   Devuelve 2015-08-05T11:36:39,138Z
->
->* `setDate(2015-08-07T11:36:39.138Z;32)`
->
->   Devuelve 2015-09-01T11:36:39,138Z
-
-## [!UICONTROL setMonth (fecha; número/nombre del mes en inglés)]
-
-Esta función devuelve una nueva fecha con el mes especificado en parámetros.
-
-Especifique un número del 1 al 12. Si el número está fuera de este intervalo, la función devuelve el mes del año anterior (para un número negativo) o del año siguiente (para un número positivo).
-
->[!INFO]
->
->**Ejemplos:**
->
->* `setMonth(2015-08-07T11:36:39.138Z;5)`
->
->   Devuelve 2015-05-07T11:36:39,138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;17)`
->
->   Devuelve 2016-05-07T11:36:39,138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;january)`
->
->   Devuelve 2015-01-07T12:36:39,138Z
-
-## [!UICONTROL setYear (fecha; número)]
-
-Devuelve una nueva fecha con el año especificado en parámetros.
-
->[!INFO]
->
->**Ejemplo:**
->
->* `setYear(2015-08-07T11:36:39.138Z;2017)`
->
->   Devuelve 2017-08-07T11:36:39,138Z
-
-## [!UICONTROL dateDifference (Date1; Date2; Unit)]
+### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 Devuelve un número que representa la diferencia entre las dos fechas, expresada en la unidad especificada.
 
@@ -454,9 +466,9 @@ Si no se especifica ninguna unidad, la función devuelve la diferencia en milise
 >
 >    Devuelve `1`
 
-## Ejemplos adicionales
+### Ejemplos adicionales
 
-### Cómo calcular el n-º día de la semana del mes
+#### Cómo calcular el n-º día de la semana del mes
 
 Esta sección está adaptada para [!DNL Workfront Fusion] desde el [!DNL Exceljet] página web que explica cómo obtener el enésimo día de la semana de un mes.
 
@@ -511,12 +523,12 @@ Si desea calcular solo un caso específico, por ejemplo, cada segundo miércoles
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### Explicación:
+#### Explicación:
 
 * `setDate(now;1)` devuelve el primero del mes actual
 * `formatDate(....;E)` devuelve el día de la semana (1, 2, ... 6)
 
-## Cálculo de días entre fechas
+### Cálculo de días entre fechas
 
 Una posibilidad es utilizar la siguiente expresión:
 
@@ -532,7 +544,7 @@ Una posibilidad es utilizar la siguiente expresión:
 >
 >* El `round()` se utiliza para casos en los que una de las fechas se encuentra dentro del período de horario de verano y la otra no. En estos casos, la diferencia de horas es de una hora menos o más. Puede dividirlo entre 24 para obtener un resultado que no sea entero. Pierdes una hora de horario de verano. El redondeo lo aplana para que no tenga ningún porcentaje
 
-### Cómo calcular el último día/milisegundo del mes
+#### Cómo calcular el último día/milisegundo del mes
 
 Cuando se especifica un intervalo de fechas, por ejemplo, en un módulo de búsqueda, si el intervalo abarca todo el mes anterior como un intervalo cerrado (el intervalo que incluye ambos puntos límite), se debe calcular el último día del mes.
 

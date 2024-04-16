@@ -7,9 +7,9 @@ description: Debe configurar las opciones de cada módulo que cree.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
    Haga clic en el icono del módulo en el editor de escenarios, como se describe en [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Si es necesario para el módulo, cree un **[!UICONTROL Conexión]** a su cuenta de usuario registrada para ese servicio determinado, tal como se describe en [Acerca de conectar [!DNL Adobe Workfront Fusion] a una aplicación o servicio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Si es necesario para el módulo, cree un **[!UICONTROL Conexión]** a su cuenta de usuario registrada para ese servicio determinado, tal como se describe en [Información general sobre Conexiones](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. En cada campo, escriba el texto adecuado.
 
    O
