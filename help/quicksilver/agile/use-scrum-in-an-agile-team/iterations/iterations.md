@@ -8,9 +8,9 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 3%
 
 ---
@@ -25,4 +25,3 @@ En los siguientes artículos se describe cómo utilizar las iteraciones cuando s
 * [Agregar historias a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [Ver una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Eliminación de una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-* [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

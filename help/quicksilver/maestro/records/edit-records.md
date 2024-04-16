@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
    * Copie uno o varios valores existentes de un campo y péguelos en un campo del mismo tipo en otro registro
    * Haga clic en el encabezado de una columna para seleccionarla y copiarla. A continuación, haga clic en el encabezado de otra columna y pegue el contenido de la columna copiada. Las columnas deben contener tipos de campo similares.
    * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes.
+   * Copie la información de una celda, seleccione varias celdas y pegue la misma información en varias celdas. Puede seleccionar varias celdas y pegar la misma información en varias celdas de filas y columnas adyacentes.
 
    >[!NOTE]
    >
@@ -171,7 +172,7 @@ Se abre el espacio de trabajo al que accedió por última vez.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
    >
    >
-   >    * Campos vinculados que se crean conectando tipos de registro. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
+   >    * Campos vinculados (o campos de búsqueda) que se crean conectando tipos de registros. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md).
    >    * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la edición o copiar y pegar la información de los registros:

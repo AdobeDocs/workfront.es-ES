@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ Se puede añadir una actualización a un objeto de Adobe Workfront para comunica
 
 La información de este artículo describe cómo se puede realizar comentarios y actualizar la información de proyectos, tareas y problemas. Los usuarios asignados o suscritos al objeto pueden ver la actualización. También puede etiquetar usuarios para que llamen su atención sobre la actualización.
 
-Agregar comentarios a otros objetos es similar a actualizar proyectos, tareas y problemas. Para obtener información adicional sobre cómo comentar tarjetas, objetivos o iteraciones, consulte también los siguientes artículos:
+Agregar comentarios a otros objetos es similar a actualizar proyectos, tareas y problemas. Para obtener información adicional sobre cómo comentar tarjetas y objetivos, consulte también los siguientes artículos:
 
 * [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Debe tener una licencia adicional para acceder a los objetivos de Workfront.
 
 * [Añadir una tarjeta ad hoc a un tablero](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Requisitos de acceso
 

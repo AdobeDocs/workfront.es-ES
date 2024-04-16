@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Tarea de plantilla
 
 * Los objetos siguientes no tienen una ficha Actividad del sistema ni una ficha Todos, y la experiencia de la ficha Comentarios difiere de la de todos los demás objetos:
+   * Iteraciones
    * Tarjeta ad hoc
 
      Para obtener más información sobre actualizaciones de tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Iteraciones
-
-     Para obtener más información sobre las actualizaciones de las iteraciones, consulte [Administrar comentarios de iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * Los objetos siguientes no tienen una ficha Todos y la experiencia de la ficha Comentarios coincide con la de la mayoría de los objetos:
 
