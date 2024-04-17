@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '995'
 ht-degree: 5%
 
 ---
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
    * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >Las pestañas Comentarios y Actividad del sistema se actualizan en tiempo real. Debe actualizar la pestaña Todos para ver las actualizaciones más recientes.
+
 
 * Los siguientes objetos tienen experiencias similares en las tres pestañas de la sección Actualizaciones:
 
