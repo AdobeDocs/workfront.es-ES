@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ Si es administrador de un grupo (o de Workfront), puede crear un estado personal
    El estado aparece atenuado y ya no es visible para todos los usuarios de ese grupo.
 
 1. Repita los pasos del 3 al 5 para ocultar el estado personalizado de cualquier otro grupo que no lo necesite.
+
