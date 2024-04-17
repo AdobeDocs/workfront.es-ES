@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,27 @@ ht-degree: 0%
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccionar **Sistema** en el panel de navegación izquierdo, seleccione **Promoción de entorno**.
 1. Seleccione el paquete en la lista mostrada.
-1. Para instalar el paquete, haga clic en **Instalar** en la parte superior derecha de la pantalla.
-1. Asigne cada objeto del paquete al objeto correspondiente en el entorno de destino.
+1. Para cada objeto que tenga un conflicto, seleccione cómo resolver el conflicto.
 
-   Para obtener más información, consulte [Asignación](#mapping) en este artículo
+   Para resolver un conflicto, haga clic en la flecha desplegable situada junto al tipo de objeto y seleccione la acción que desee realizar.
 
+   Para obtener más información, consulte [Conflictos](#collisions) en este artículo
+1. Para implementar el paquete en el nuevo entorno, haga clic en **Implementar** en la parte superior derecha de la pantalla.
 
-## Asignación
+## Conflictos
 
-Cada tipo de objeto aparece en la lista de navegación izquierda y en una tarjeta. La tarjeta muestra objetos de ese tipo y si existen en el entorno de destino. Puede determinar cómo se moverán estos objetos al entorno de destino.
+Los conflictos se producen cuando ya existe un objeto que forma parte del paquete de instalación en el entorno de destino. Cuando esto sucede, puede seleccionar cómo resolver el conflicto. Los conflictos se resuelven en el nivel de objeto.
 
-* Crear nuevo: crea un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
-* Usar existente: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no se modifica.
-* Sobrescribir existente: (no disponible actualmente) el objeto del paquete reemplaza al objeto existente en el entorno de destino.
-* No utilizar: el objeto del paquete no está instalado en el entorno de destino. Si selecciona No utilizar, aparecerá un mensaje de error que detalla cómo esta opción afectará a otros objetos o campos.
+Para ver los conflictos, haga clic en el menú desplegable situado junto a cada tipo de objeto. Los conflictos se muestran en la columna Conflicto.
+
+Para resolver un conflicto, seleccione una acción en la columna Acción de implementación o utilice la acción predeterminada que ya se muestra.
+
+* **Crear con nombre nuevo**: cree un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
+* **Usar los existentes**: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no cambia.
+* **Sobrescribir**: el objeto del paquete reemplaza al objeto existente en el entorno de destino.
+<!--
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+-->
 
 Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino, y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
 
