@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,68 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 ## Mejoras de Adobe Workfront
 
 * [Otras mejoras](#other-enhancements)
+* [Mejoras del proyecto](#project-enhancements)
+
+### Mejoras del proyecto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 13 de febrero de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                                <p><span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span></p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: por determinar</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 21 de diciembre de 2023</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.3 (14 de marzo de 2024)</p>
+                                <p><span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span></p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: por determinar</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### Otras mejoras
 
@@ -72,6 +134,8 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         </table>   
            </tbody>
         </table>
+
+
 
 ## Anuncios
 

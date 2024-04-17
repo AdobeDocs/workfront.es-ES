@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión del tercer trimestre de 2024 {#release-24-q3}
          * [Información general de la versión 2024 del tercer trimestre](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Mejoras de proyectos en el tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Versión del segundo trimestre de 2024 {#release-24-q2}
          * [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 1%
       * [Comprobar límites de almacenamiento de documentos](documents/managing-documents/check-document-storage.md)
       * [Borrar documentos](documents/managing-documents/delete-documents.md)
       * [Pegar imágenes desde el portapapeles](documents/managing-documents/paste-image-clipboard.md)
+      * [Agregar un generador en Detalles de documento de Workfront](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Organización de documentos {#organize-documents}
       * [Organización de documentos](documents/organizing-documents/organize-documents.md)
       * [Crear carpetas de documentos](documents/organizing-documents/create-documents-folder.md)
