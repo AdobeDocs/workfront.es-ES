@@ -4,9 +4,10 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del te
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
+source-git-commit: 149bb6b50d844c5aac58595a489ce489dfc54fdf
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión del tercer trimestre de 2024.
 
 Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Actualizaciones de aspecto y funcionamiento para el área de Grupos
+
+>[!NOTE]
+>
+>Versión preliminar: 18 de abril de 2024; producción para versión rápida: con la versión 24.5 (mayo de 2024); producción para versión trimestral: con la versión 24.7 (julio de 2024)
+
+Hemos actualizado la lista principal de Grupos en el área Configuración > Grupos a un diseño más moderno que sea coherente con otras áreas de Workfront. Todos los cuadros de diálogo de grupos y subgrupos (agregar, editar, copiar, desactivar, eliminar), tanto si se accede a ellos desde la lista Grupos como desde el menú Más de un grupo o subgrupo específico, también tienen el diseño actualizado.
+
+Para obtener más información, consulte [Crear un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) y [Administrar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Actualizaciones de aspecto y funcionamiento para la lista de tipos de cambio
 
