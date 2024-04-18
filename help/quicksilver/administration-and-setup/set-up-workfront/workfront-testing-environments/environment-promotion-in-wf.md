@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Estos estados incluyen los siguientes:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>SIN MONTAR</td> 
+   <td><p>Este estado se asigna automáticamente y representa un paquete que se ha guardado, pero que aún no se ha ensamblado. </p><p>Un cliente no puede establecer directamente este estado.</p></td> 
+  </tr> 
   <tr> 
    <td>MONTAJE</td> 
    <td><p>Este estado se asigna automáticamente mientras se montan los objetos. </p><p>El ensamblado hace referencia al proceso automatizado de identificación de objetos y subobjetos que se van a incluir en un paquete y de adición de dichos objetos y sus datos al paquete.</p><p>Un cliente no puede establecer directamente este estado.</p></td> 

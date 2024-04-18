@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Para instalar un paquete, debe haber iniciado sesión en el entorno en el que desea instalarlo. Este es el entorno en el que está copiando objetos **hasta**.
+>Para instalar un paquete, debe haber iniciado sesión en el entorno en el que desea instalarlo. Este es el entorno en el que está copiando los objetos **hasta**.
 
 1. Vaya al entorno en el que desea instalar el paquete.
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Conflictos
 
-Los conflictos se producen cuando ya existe un objeto que forma parte del paquete de instalación en el entorno de destino. Cuando esto sucede, puede seleccionar cómo resolver el conflicto. Los conflictos se resuelven en el nivel de objeto.
+Los conflictos se producen cuando un objeto que forma parte del paquete de instalación tiene el mismo nombre que un objeto que ya existe en el entorno de destino. Cuando esto sucede, puede seleccionar cómo resolver el conflicto. Los conflictos se resuelven en el nivel de objeto.
 
 Para ver los conflictos, haga clic en el menú desplegable situado junto a cada tipo de objeto. Los conflictos se muestran en la columna Conflicto.
 
@@ -47,23 +47,31 @@ Para resolver un conflicto, seleccione una acción en la columna Acción de impl
 * **Crear con nombre nuevo**: cree un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
 * **Usar los existentes**: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no cambia.
 * **Sobrescribir**: el objeto del paquete reemplaza al objeto existente en el entorno de destino.
+
+  También puede elegir objetos para sobrescribirlos incluso si no se detecta ninguna colisión.
+
+  Para obtener más información sobre cómo afecta la sobrescritura a los objetos principales y secundarios, consulte
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino, y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
 
+## Sobrescribir objetos principales y secundarios
 
+Algunos objetos del paquete de promoción pueden tener objetos secundarios. Por ejemplo, un proyecto (principal) tiene tareas (secundarias). Al sobrescribir un objeto principal, los objetos secundarios se gestionan de la siguiente manera:
 
-<!--
-## Collisions
+* Los objetos secundarios que existen tanto en el paquete como en el destino se actualizarán en el destino para que coincidan con el paquete.
+* Se crearán los objetos secundarios que existan en el paquete pero no el destino.
+* Los objetos secundarios que existen en el destino pero no en el paquete permanecerán sin cambios.
 
-A collision occurs when <!--???--.
+Esta funcionalidad afecta a los siguientes objetos principales y secundarios:
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| Objeto principal | Objetos secundarios |
+|---|---|
+| Proyecto | Tarea<br>QueueDef (definición de cola)<br>RoutingRule |
+| Plantilla | TemplateTask<br>QueueDef (definición de cola)<br>RoutingRule |
+| Parámetro (campo de formulario personalizado) | ParameterOption (opción de campo de formulario personalizado) |
+| CalendarInfo | SecciónCalendario |
+| QueueDef (definición de cola) | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
