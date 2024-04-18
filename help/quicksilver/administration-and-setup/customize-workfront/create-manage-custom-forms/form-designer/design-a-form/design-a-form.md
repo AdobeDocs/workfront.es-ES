@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
+source-wordcount: '6042'
 ht-degree: 4%
 
 ---
@@ -529,9 +529,9 @@ Para ver ejemplos del uso del campo Búsqueda externa para llamar a la misma ins
 
 >[!NOTE]
 >
->La funcionalidad de búsqueda externa no está disponible en objetos de documento o usuario.
->
->Actualmente, los campos de búsqueda externos de formularios personalizados no son compatibles con los paneles. No puede editar el valor del campo en línea y es posible que no se muestre correctamente en un panel.
+>* La funcionalidad de búsqueda externa no está disponible en objetos de documento o usuario.
+>* Actualmente, los campos de búsqueda externos de formularios personalizados no son compatibles con los paneles. No puede editar el valor del campo en línea y es posible que no se muestre correctamente en un panel. (Los campos de búsqueda externos son compatibles con los paneles de lienzo).
+>* Los campos de búsqueda externos están disponibles en las listas, a menos que el campo tenga una dependencia de otro campo.
 
 Para añadir una búsqueda externa:
 
