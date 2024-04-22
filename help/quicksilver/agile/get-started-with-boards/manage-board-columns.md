@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Si utiliza el límite de trabajo en curso en una columna, no se agrega un contad
 1. Clic **[!UICONTROL Ocultar configuración]** para cerrar el [!UICONTROL Configurar] panel.
 
 ## Definir la configuración y las directivas de columna
+
+Las directivas de columna incluyen la actualización automática de los valores de campo y la definición de un límite de trabajo en curso.
+
+La directiva para actualizar el estado funciona automáticamente tanto para la tarjeta como para la columna:
+
+* Cuando se mueve una tarjeta a una columna con una directiva, el estado de la tarjeta se actualiza al estado definido en la directiva. Esto se aplica tanto a las tarjetas ad hoc como a las tarjetas conectadas.
+* Cuando se actualiza un estado de tarjeta ad hoc o conectada en la tarjeta para que coincida con el estado de columna de la directiva, o cuando se actualiza un estado de tarjeta conectada en cualquier otra parte de Workfront, la tarjeta se mueve automáticamente a esa columna. Además, si un estado personalizado de una tarjeta coincide con el estado del sistema asignado a la columna, la tarjeta se mueve a esa columna.
+
+Una tarjeta permanecerá en una columna donde se coloca si el estado de la tarjeta no coincide con ningún estado establecido en ninguna directiva de columna existente.
 
 >[!NOTE]
 >
