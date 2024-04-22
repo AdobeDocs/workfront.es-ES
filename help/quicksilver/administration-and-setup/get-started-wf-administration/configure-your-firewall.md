@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 8a8a36732800d0f48026b616cc16e4ff30e0ad41
+source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -470,6 +470,16 @@ Si su organización utiliza el filtrado de red saliente, agregue los siguientes 
 * mfe.static.workfront.com
 * https://app.pendo.io/
 * https://cdn.pendo.io/
+* *.static.workfront.com
+
+  Este es un dominio estático que abarca todos los dominios siguientes. Puede agregar los dominios individuales si lo prefiere:
+
+   * mfe.static.workfront.com
+   * mfe-c.static.workfront.com
+   * mfe-preview-c.static.workfront.com
+   * mfe-preview.static.workfront.com
+   * mfe-review.static.workfront.com
+
 
 ## Direcciones URL que se agregarán para todos los clústeres en Workfront {#urls-to-add-for-all-clusters-workfront}
 
