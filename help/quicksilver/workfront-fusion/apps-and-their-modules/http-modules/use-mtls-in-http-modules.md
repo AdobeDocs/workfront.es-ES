@@ -9,9 +9,9 @@ description: Puede utilizar TLS mutuo en los módulos HTTP de Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 
 >[!IMPORTANT]
 >
->* Estos [!DNL Workfront Fusion] los certificados públicos caducan el 9 de junio de 2024. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
+>* Estos [!DNL Workfront Fusion] Los certificados públicos de caducan el 7 de mayo de 2025. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
 >
 >   * Tome nota de la fecha de caducidad y configure un recordatorio para que usted mismo cargue el certificado en su servicio web.
 >   * Marque esta página para encontrar fácilmente los nuevos certificados.
