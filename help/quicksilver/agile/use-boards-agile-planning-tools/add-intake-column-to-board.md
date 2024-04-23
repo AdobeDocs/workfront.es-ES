@@ -7,10 +7,10 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -33,6 +33,10 @@ Problemas:
 
 * Orden principal: nombre del proyecto
 * Orden secundario: número de referencia
+
+>[!IMPORTANT]
+>
+>Se recomienda actualizar el tablero con frecuencia si varios usuarios trabajan en el tablero al mismo tiempo. Actualizar la página ayuda a mantener actualizados los cambios visuales en el tablero y evita que problemas como las tarjetas duplicadas se muevan al tablero desde la columna de entrada.
 
 Para obtener más información sobre las columnas, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -83,7 +87,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Todos los objetos aparecen en la columna de entrada del tablero como tarjetas conectadas.
 
-   ![Columna de entrada](assets/intake-column-added3.png)
+   ![Columna de admisión](assets/intake-column-added3.png)
 
 ## Creación de una columna de entrada con filtros avanzados
 
@@ -136,7 +140,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Para incluir tareas y problemas en la columna de entrada, haga clic en **[!UICONTROL Filtrar fuentes]** y seleccione el otro objeto para crear otro filtro.
 1. Cuando termine de agregar filtros, revise la columna de entrada para comprobar que aparecen las tareas y los problemas correctos.
 
-   ![Columna de entrada](assets/intake-column-added3.png)
+   ![Columna de admisión](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
