@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ En Adobe Workfront Planning, los espacios de trabajo son ubicaciones centralizad
 Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
 Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Todos los cambios que realice en un espacio de trabajo son visibles para todos los que tengan al menos permisos de visualización en el espacio de trabajo.
 
 ## Requisitos de acceso
 
@@ -90,20 +92,52 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
 Se abrirá el área de Espacios de trabajo de Workfront Planning.
 
-1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse **Entrar**
+1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse **Entrar**.
+1. Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Editar**.
 
-   O
+   ![](assets/edit-workspace-box.png)
 
-   Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Cambiar nombre**.
+   Actualice la siguiente información en la **Editar espacio de trabajo** cuadro:
+
+   * Añada un nombre al espacio de trabajo. <!--did they add a label for this field?-->
+   * **Descripción**: Añada información sobre el espacio de trabajo.
+   * Seleccione un icono para asociarlo al espacio de trabajo.
+
+1. Clic **Guardar** para cerrar el cuadro Editar espacio de trabajo y aplicar los cambios.
+
+1. (Opcional) Para agregar una nueva sección de espacio de trabajo, siga uno de estos procedimientos:
+
+   * Clic **Agregar sección** en la parte inferior del espacio de trabajo.
+   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Agregar sección anterior** o **Agregar sección debajo**.
+
+1. (Opcional) Para cambiar la ubicación de una sección, siga uno de estos procedimientos:
+
+   * Pase el ratón sobre el nombre de una sección y haga clic en **agarrar** icono ![](assets/grab-icon.png)A continuación, arrástrela y suéltela en el lugar correcto.
+   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Mover hacia arriba** o **Mover hacia abajo**. La sección se mueve hacia arriba o hacia abajo dentro del espacio de trabajo.
+
+1. (Opcional) Para eliminar una sección de Workspace, haga lo siguiente:
+
+   1. Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Eliminar**. <!--add screen shot when UI is final?-->
+   1. Seleccione una nueva sección para mover todos los tipos de registros y haga clic en **Eliminar**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Todos los tipos de registro se mueven a la sección de selección y esta se elimina.
 
 1. (Opcional) Haga clic en **Añadir tipo de registro** para agregar tipos de registros al espacio de trabajo.
 
    Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
-1. (Opcional) Haga clic en el nombre de una vista en las pestañas de vista, edite una vista existente o haga clic en **+ Ver** para crear una vista.
+1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha, haga clic en **Editar** para modificar el aspecto de un tipo de registro.
+
+   Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha, haga clic en **Eliminar** para eliminar un tipo de registro.
+
+   Para obtener más información, consulte [Eliminar tipos de registros](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. (Opcional) Haga clic en el nombre de una vista en las pestañas de vista para editar una vista existente o haga clic en **+ Ver** para crear una vista.
 
    Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Opcional) Haga clic en **Compartir** para compartir el espacio de trabajo con otros usuarios.
+1. (Opcional) Haga clic en **Compartir** en la esquina superior derecha del espacio de trabajo para compartir el espacio de trabajo con otros usuarios.
 
    Para obtener más información, consulte [Compartir espacios de trabajo](/help/quicksilver/maestro/access/share-workspaces.md).

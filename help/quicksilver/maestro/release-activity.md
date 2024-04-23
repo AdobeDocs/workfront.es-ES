@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Semana del 22 de abril de 2024
+
+### Flujo de trabajo actualizado al editar un espacio de trabajo o un tipo de registro
+
+Producción: 23 de abril de 2024
+
+Vista previa: por determinar
+
+Hemos actualizado el aspecto de los cuadros Editar espacio de trabajo y Editar tipo de registro.
+
+Al editar un espacio de trabajo o un tipo de registro, ahora puede definir un nombre, una descripción y asignarles un color y un icono.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Editar espacios de trabajo](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Editar tipos de registros](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## Semana del 8 de abril de 2024
 
@@ -373,7 +391,7 @@ Vista previa: por determinar
 
 Ahora puede agregar miniaturas individuales a cada registro para distinguirlas en una vista. En la vista de tabla, puede agregar como miniaturas archivos de imagen guardados anteriormente en el equipo. Las miniaturas pueden ser únicas para cada registro y mostrarse tanto en la tabla como en las vistas de cronología de la página de tipo de registro.
 
-Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Quitar tarjetas de tipo de registro conectadas
 

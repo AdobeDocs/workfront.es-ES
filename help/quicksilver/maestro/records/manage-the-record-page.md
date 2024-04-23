@@ -4,9 +4,10 @@ description: Puede editar y administrar el diseño del cuadro de registro y la p
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Consideraciones sobre la edición de páginas de registro
 
 * Al reorganizar los campos del cuadro de registro o de la página, se reorganizan los campos de todos los registros de ese tipo y de todos los usuarios que tienen acceso a esos registros.
-* Agregar una imagen de portada a un registro no forma parte del diseño general del cuadro de registros o de la página. Puede agregar imágenes de portada únicas a cada registro.
+* Agregar una imagen de portada a un registro no forma parte del diseño general del cuadro de registros o de la página. Puede agregar imágenes de portada únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## Reorganizar campos en el cuadro de registro o en la página
 
@@ -131,56 +132,4 @@ El espacio de trabajo al que se accede por última vez se abre.
    La nueva posición del campo se actualiza tanto en el cuadro como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
    Todos los cambios realizados en el diseño del cuadro de registro o de la página se guardan automáticamente.
-
-
-## Agregar una imagen de portada al cuadro de registro o página
-
-Puede personalizar un registro agregando una imagen de portada en la parte superior del cuadro de registro o de la página.
-
-{{step1-to-maestro}}
-
-El espacio de trabajo al que se accede por última vez se abre.
-
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
-
-1. Haga clic en una tarjeta de tipo de registro.
-
-   Se abre la página de tipo de registro.
-
-1. Desde cualquier vista, haga clic en el nombre de un registro
-
-   O
-
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
-
-   El cuadro del registro se abre en la vista.
-
-   ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
-
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha del cuadro de registro para abrir la página del registro en una nueva ficha.
-
-   Se abre la página de registro.
-
-   ![](assets/details-page.png)
-
-1. En el cuadro de registro o la página, haga clic en **Añadir portada**. <!--check the casing here; I logged a bug for this-->
-El **Cubierta de registro** se abre el cuadro.
-
-1. Clic **Seleccionar para cargar** y busque una imagen en el equipo para seleccionarla, agréguela y haga clic en **Usar imagen**.
-
-   La imagen se carga en la parte superior del cuadro de registro o página y los cambios se guardan automáticamente.
-
-   ![](assets/record-page-with-cover-image.png)
-
-1. (Opcional) Pase el ratón sobre la imagen y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina inferior derecha de la imagen de la portada, siga uno de estos procedimientos:
-
-   * Clic **Cargar** Si desea reemplazar la imagen de portada, repita el Paso 6 para cargar y guardar una nueva imagen.
-   * Clic **Cambiar posición** y utilice el **Cambiar posición** herramienta ![](assets/reposition-tool-icon.png) para centrar la imagen de la portada, haga clic en **Guardar** cuando termine.
-   * Clic **Eliminar** para quitar la imagen de portada.
-
-   Todos los cambios entrarán en vigor inmediatamente.
 

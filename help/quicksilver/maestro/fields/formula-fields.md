@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Puede crear campos personalizados en Adobe Workfront Planning haciendo referenci
 
 Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
-Para obtener más información, consulte [Creación de campos](../fields/create-fields.md).
+Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Creación de campos](../fields/create-fields.md).
 
 ## Requisitos de acceso
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 
 1. (Opcional) Agregue una miniatura a cada registro y haga clic en **Campos** en la esquina superior derecha de la tabla, seleccione la opción para **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada.
 
-   Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del nombre del registro para reordenar las filas.
 

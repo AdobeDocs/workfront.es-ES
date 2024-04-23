@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
    >[!NOTE]
    >
-   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, consulte [Añadir miniaturas a los registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Clic **Añadir campo** para agregar hasta 4 campos a las barras de registros.
 1. Haga clic dentro de **Campos de búsqueda** y haga clic en el campo que desee añadir.

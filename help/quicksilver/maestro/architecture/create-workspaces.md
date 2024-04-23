@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
 ## Crear un espacio de trabajo
 
+Puede crear un espacio de trabajo y agregarle tipos de registro para organizar los objetos en Workfront Planning. Para obtener más información sobre la edición de un espacio de trabajo, consulte [Editar espacios de trabajo](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Se abrirá el área de Espacios de trabajo de Workfront Planning.
 
 1. (Condicional) Si no tiene ningún espacio de trabajo en su entorno, haga clic en **Crear espacio de trabajo**
 
-   O bien, desde un espacio de trabajo existente, haga clic en el área de trabajo orientada hacia abajo a la derecha del nombre del espacio de trabajo y, a continuación, haga clic en **Crear espacio de trabajo**.
+   O bien, en un espacio de trabajo existente, haga clic en la flecha hacia abajo situada a la derecha del nombre del espacio de trabajo y, a continuación, haga clic en **Crear espacio de trabajo**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Se abrirá el área de Espacios de trabajo de Workfront Planning.
+
 1. (Opcional y condicional) Haga clic en **Previsualizar** dentro de cualquiera de las siguientes plantillas predefinidas de workspace:
 
    * Gestión de marketing
@@ -136,14 +140,10 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    Se crea uno para los siguientes tipos de espacios de trabajo:
 
-   * Espacio de trabajo vacío en el que puede empezar a agregar tipos de registros manualmente al crear un espacio de trabajo desde cero.
-   * Espacio de trabajo rellenado con tipos de registros de ejemplo que se pueden personalizar aún más al utilizar una de las plantillas.
+   * Un espacio de trabajo vacío denominado **Espacio de trabajo sin título** donde puede empezar a agregar tipos de registros manualmente, al crear un espacio de trabajo desde cero.
+   * Espacio de trabajo con el nombre de la plantilla seleccionada que se rellena con tipos de registros de ejemplo. Puede personalizar aún más los tipos de registro y el espacio de trabajo.
 
-1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse Entrar
-
-   O
-
-   Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Cambiar nombre**.
+1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse Entrar.
 
 1. (Opcional y condicional) Si ha creado el espacio de trabajo a partir de una plantilla, haga clic dentro del nombre del **Tipos de registros operativos** o **Taxonomías** secciones
 
@@ -153,25 +153,14 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 
    >[!TIP]
    >
-   >Puede cambiar el nombre de cualquier sección desde cualquier espacio de trabajo, incluso si ha creado la sección.
+   >Puede cambiar el nombre de cualquier sección desde cualquier espacio de trabajo, incluso si no ha creado la sección.
 
-1. (Opcional) Para cambiar la ubicación de una sección, siga uno de estos procedimientos:
-
-   * Pase el ratón sobre el nombre de una sección y haga clic en **agarrar** icono ![](assets/grab-icon.png)A continuación, arrástrela y suéltela en el lugar correcto.
-   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Mover hacia arriba** o **Mover hacia abajo**. La sección se mueve hacia arriba o hacia abajo dentro del espacio de trabajo.
-
-1. (Opcional) Para agregar una nueva sección, siga uno de estos procedimientos:
-
-   * Clic **Agregar sección** en la parte inferior del espacio de trabajo.
-   * Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Agregar sección anterior** o **Agregar sección debajo**.
+   Para obtener más información sobre la edición de espacios de trabajo, incluida la edición de secciones de espacios de trabajo, consulte [Editar espacios de trabajo](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Opcional) Haga clic en **Añadir tipo de registro** para agregar tipos de registros al espacio de trabajo en cualquier sección.
 
    Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
-1. (Opcional) Para eliminar una sección, haga lo siguiente:
+   Para obtener más información sobre cómo editar y eliminar tipos de registros en un espacio de trabajo, consulte [Editar espacios de trabajo](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Pase el ratón sobre el nombre de una sección y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Eliminar**. <!--add screen shot when UI is final?-->
-   1. Seleccione una nueva sección para mover todos los tipos de registros y haga clic en **Eliminar**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Todos los tipos de registro se mueven a la sección de selección y esta se elimina.

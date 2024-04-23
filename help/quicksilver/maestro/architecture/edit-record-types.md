@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea editar los tipos de registros.
-1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro, haga clic en **Actualizar apariencia**.
+1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro, haga clic en **Editar**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. En el **Actualizar tipo de registro** , actualice la siguiente información:
+1. En el **Editar tipo de registro** , actualice la siguiente información:
 
-   * **Nombre de registro**: edite el nombre del tipo de registro, si es necesario. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Aspecto**: edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
+   * Edite el nombre del tipo de registro si es necesario. <!--did they add a field label for this? -->
+   * **Descripción**: edite o agregue una descripción para el tipo de registro con más información sobre él.
+   * Edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
      ![](assets/update-record-type-box.png)
 
-1. Haga clic fuera de **Actualizar tipo de registro** para guardar los cambios.
+1. Haga clic en **Guardar**.
 1. (Opcional) Haga clic en la tarjeta de tipo de registro del área de trabajo para abrir la página del tipo de registro.
-1. Haga clic en **Más** a la derecha del nombre del tipo de registro y haga clic en **Cambiar nombre** para cambiar el nombre del tipo de registro
+1. Haga clic en **Más** a la derecha del nombre del tipo de registro y haga clic en **Editar** para actualizar información sobre el tipo de registro.
 
-   O
+   >[!TIP]
+   >
+   >   Puede cambiar el nombre del tipo de registro en el encabezado.
 
-   Cambie el nombre del tipo de registro en el encabezado.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   También puede cambiar el nombre de un tipo de registro en el encabezado de la página del tipo de registro.
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un tipo de registro y seleccione otro tipo de registro para editar.
