@@ -9,9 +9,9 @@ description: Puede utilizar el conector de tableros de Adobe Workfront para auto
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ![](assets/map-toggle-350x74.png)
 
-* [tarjetas](#cards)
+* [Tarjetas](#cards)
 * [Tableros](#boards)
 * [Columnas](#columns)
 * [Etiquetas](#tags)
@@ -184,7 +184,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 -->
 
-### tarjetas
+### Tarjetas
 
 * [Añadir elemento de lista de comprobación](#add-checklist-item)
 * [Agregar subtarea](#add-subtask)
@@ -261,7 +261,7 @@ Este módulo de acción crea una nueva tarjeta en un tablero de Workfront.
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de columna]</td> 
-   <td>Introduzca o asigne el ID de la columna a la que desea agregar una subtarea.<p>Puede encontrar el ID de la etiqueta en la información que devuelve el módulo Leer un tablero.</p></td> 
+   <td>Introduzca o asigne el ID de la columna a la que desea agregar una subtarea.<p>Puede encontrar el ID de columna en la información que devuelve el módulo Leer un tablero.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nombre]</td> 
@@ -292,7 +292,7 @@ Este módulo de acción mueve una tarjeta a una columna diferente en el mismo ta
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de columna de destino]</td> 
-   <td>Introduzca o asigne el ID de la columna a la que desea mover la tarjeta.<p>Puede encontrar el ID de la etiqueta en la información que devuelve el módulo Leer un tablero.</p></td> 
+   <td>Introduzca o asigne el ID de la columna a la que desea mover la tarjeta.<p>Puede encontrar el ID de columna en la información que devuelve el módulo Leer un tablero.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -346,7 +346,7 @@ Este módulo de acción actualiza la información de una tarjeta especificada.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
-   <td>Escriba o asigne una nueva descripción para la tarjeta/\.</p></td> 
+   <td>Escriba o asigne una nueva descripción para la tarjeta.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Este módulo de acción devuelve información sobre un único tablero, como las 
 
 ### Columnas
 
+* [Creación de una columna](#create-a-column)
+* [Buscar una columna](#search-for-a-column)
+* [Actualizar una columna](#update-a-column)
+
 #### Creación de una columna
 
 Este módulo de acción crea una nueva columna en el tablero especificado.
@@ -417,8 +421,62 @@ Este módulo de acción crea una nueva columna en el tablero especificado.
    <td>Introduzca o asigne el ID del tablero al que desea agregar una columna.<p>Puede encontrar el ID del tablero en la URL cuando visualice el tablero en Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Id. de columna]</td> 
+   <td>Introduzca o asigne el ID de la columna que desea actualizar.<p>Puede encontrar el ID de columna en la información que devuelve el módulo Leer un tablero.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Nombre de columna]</td> 
-   <td>Introduzca o asigne un nombre para la nueva columna.</td> 
+   <td>Introduzca o asigne un nombre nuevo para la columna.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Límite WIP]</td> 
+   <td>Introduzca o asigne un nuevo límite de WIP para la columna.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Buscar una columna
+
+Este módulo de búsqueda devuelve información sobre la columna con el nombre especificado.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Id. de tablero]</td> 
+   <td>Introduzca o asigne el ID del tablero que contiene la columna que desea recuperar.<p>Puede encontrar el ID del tablero en la URL cuando visualice el tablero en Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nombre de columna]</td> 
+   <td>Introduzca o asigne el nombre de la columna que desea recuperar.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Actualizar una columna
+
+Este módulo de acción actualiza el nombre o el límite de trabajo en curso de la columna especificada.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Id. de tablero]</td> 
+   <td>Introduzca o asigne el ID del tablero que contiene la columna que desea recuperar.<p>Puede encontrar el ID del tablero en la URL cuando visualice el tablero en Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nombre de columna]</td> 
+   <td>Introduzca o asigne el nombre de la columna que desea recuperar.</td> 
   </tr> 
  </tbody> 
 </table>
