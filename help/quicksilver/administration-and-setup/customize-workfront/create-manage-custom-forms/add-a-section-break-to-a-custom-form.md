@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ En un formulario personalizado con un salto de sección configurado con el permi
 >Se agrega el tipo de objeto Portfolio al formulario, lo que significa que la opción Editar de forma limitada ya no está disponible para el salto de sección del formulario.
 >
 >Un mensaje en pantalla le pedirá que cambie al permiso Editar, que es la opción más similar a Edición limitada y compatible tanto con el tipo de objeto Proyecto como con el tipo de objeto Portfolio.
+
