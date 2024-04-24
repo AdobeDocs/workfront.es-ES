@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ Puede realizar este proceso en Workfront creando un paquete de objetos para move
 
 ## Objetos compatibles para la promoción del entorno
 
-La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la capacidad de mover objetos transaccionales (con excepciones limitadas).
+La capacidad de promoción del entorno está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. Se trata de objetos que se pueden configurar, como proyectos, equipos o formularios personalizados.
+
+La promoción del entorno no admite la capacidad de mover objetos transaccionales (con excepciones limitadas). No se pueden configurar los objetos transaccionales. Algunos ejemplos son las actualizaciones de actividades del sistema y las decisiones de prueba.
 
 * [Objetos de trabajo](#work-objects)
 * [Objetos de informes](#reporting-objects)
@@ -124,15 +126,15 @@ Estos estados incluyen los siguientes:
  <tbody> 
   <tr> 
    <td>SIN MONTAR</td> 
-   <td><p>Este estado se asigna automáticamente y representa un paquete que se ha guardado, pero que aún no se ha ensamblado. </p><p>Un cliente no puede establecer directamente este estado.</p></td> 
+   <td><p>Este estado se asigna automáticamente y representa un paquete que se ha guardado, pero que aún no se ha ensamblado. </p><p>Un usuario no puede establecer este estado directamente.</p></td> 
   </tr> 
   <tr> 
    <td>MONTAJE</td> 
-   <td><p>Este estado se asigna automáticamente mientras se montan los objetos. </p><p>El ensamblado hace referencia al proceso automatizado de identificación de objetos y subobjetos que se van a incluir en un paquete y de adición de dichos objetos y sus datos al paquete.</p><p>Un cliente no puede establecer directamente este estado.</p></td> 
+   <td><p>Este estado se asigna automáticamente mientras se montan los objetos. </p><p>El ensamblado hace referencia al proceso automatizado de identificación de objetos y subobjetos que se van a incluir en un paquete y de adición de dichos objetos y sus datos al paquete.</p><p>Un usuario no puede establecer este estado directamente.</p></td> 
   </tr> 
   <tr> 
    <td>BORRADOR</td> 
-   <td><p>Este estado se asigna al finalizar un proceso de ensamblado o al crear un paquete de promoción vacío.</p><p>Un cliente puede volver a mover el paquete de promoción a este estado.</p><p>En este estado, el paquete de promoción no se puede instalar en ningún entorno.</p></td> 
+   <td><p>Este estado se asigna al finalizar un proceso de ensamblado o al crear un paquete de promoción vacío.</p><p>Un usuario puede volver a mover el paquete de promoción a este estado.</p><p>En este estado, el paquete de promoción no se puede instalar en ningún entorno.</p></td> 
   </tr> 
   <tr> 
    <td>PRUEBAS</td> 
@@ -144,11 +146,11 @@ Estos estados incluyen los siguientes:
   </tr> 
   <tr> 
    <td>DESACTIVADO</td> 
-   <td><p>Este estado se utiliza para ocultar los paquetes de promoción utilizados anteriormente que no se instalarán en ningún entorno en el futuro.</p><p>Cuando un paquete se encuentra en este estado, no se puede instalar en ningún entorno.</p><p>Cuando el estado de un paquete se establece en DESHABILITADO, la variable <code>retiredAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p><p>Se recomienda usar este estado en lugar de usar el<code>DELETE /package</code> extremo porque se puede recuperar y el historial de instalación se conserva para cualquier implementación realizada con este paquete.</p></td> 
+   <td><p>Este estado se utiliza para ocultar los paquetes de promoción utilizados anteriormente que no se instalarán en ningún entorno en el futuro.</p><p>Cuando un paquete se encuentra en este estado, no se puede instalar en ningún entorno.</p><p>Cuando el estado de un paquete se establece en DESHABILITADO, la variable <code>retiredAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p><p>Se recomienda usar este estado en lugar de usar el <code>DELETE /package</code> extremo porque se puede recuperar y el historial de instalación se conserva para cualquier implementación realizada con este paquete.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>El paquete de promoción pasa automáticamente a este estado si falla la fase de MONTAJE.</p><p>Para devolver el paquete a la fase de MONTAJE, se debe almacenar en déclencheur de nuevo el proceso de extracción.</p></td> 
+   <td><p>El paquete de promoción pasa automáticamente a este estado si falla la fase de MONTAJE.</p><p>Para devolver el paquete a la fase de MONTAJE, debe volver a almacenar en déclencheur el proceso de montaje.</p><p>Para obtener más información sobre cómo montar un paquete, consulte la sección <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar o montar un paquete existente</a> en el artículo Crear o editar un paquete de promoción de entorno.</td> 
   </tr> 
   </tbody> 
 </table>
