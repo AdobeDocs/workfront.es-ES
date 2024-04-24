@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Para obtener información sobre los campos y widgets personalizados en los formu
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Los usuarios sin los permisos especificados aquí no pueden ver los campos y widgets personalizados en la sección. </p> <p>Esto también se aplica si se muestran los valores de los campos en los informes o si se utilizan en campos calculados en los informes en modo de texto.</p> </li> 
+       <li><p>Para formularios personalizados de solicitud/problema: si se necesita acceso de visualización para ver los campos en el salto de sección, pero se necesita acceso de administrador para editar los campos, los usuarios que no sean administradores no podrán ver la sección y todos sus campos cuando rellenen el formulario. Una vez creada la solicitud, los usuarios con acceso de visualización pueden ver los campos en la sección.</p></li>
        <li> <p>La asociación de varios tipos de objetos con el formulario puede cambiar los permisos de visualización y edición disponibles en estos pasos. Para obtener más información, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Cómo pueden afectar varios tipos de objetos a los permisos de salto de sección en un formulario personalizado</a> en este artículo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
