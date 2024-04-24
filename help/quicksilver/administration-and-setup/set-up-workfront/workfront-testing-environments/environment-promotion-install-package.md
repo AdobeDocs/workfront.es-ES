@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Para resolver un conflicto, seleccione una acción en la columna Acción de impl
 
   También puede elegir objetos para sobrescribirlos incluso si no se detecta ninguna colisión.
 
-  Para obtener más información sobre cómo afecta la sobrescritura a los objetos principales y secundarios, consulte
+  Para obtener más información sobre cómo la sobrescritura afecta a los objetos principales y secundarios, consulte [Sobrescribir objetos principales y secundarios](#overwriting-parent-and-child-objects) en este artículo.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
