@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,11 @@ Puede compartir los siguientes objetos:
   Para obtener información sobre cómo afectan los tipos de licencia a los niveles de permisos de Workfront Planning, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Los administradores del sistema pueden administrar y compartir espacios de trabajo creados por otros usuarios.
 * Si no es administrador del sistema, puede contribuir a los espacios de trabajo creados por otros usuarios si los comparten con usted.
-* No puede compartir espacios de trabajo de forma masiva.
+* No puede compartir espacios de trabajo o vistas de forma masiva.
 * Puede compartir un espacio de trabajo o una vista con las siguientes entidades:
    * Usuarios
    * Grupos
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Otros usuarios, incluidos los administradores del sistema, solo pueden acceder a las vistas que han creado o que se han compartido con ellos. A los administradores del sistema solo se les pueden otorgar permisos para Administrar una vista.
 * Puede compartir un vínculo a un espacio de trabajo o a una vista desde una página de tipo de registro con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo o a la página de tipo de registro que se muestra en la vista seleccionada.
 
@@ -114,9 +115,28 @@ Los siguientes permisos hacen referencia a los propios campos y no a los valores
 
 Debe conceder permisos independientes a las vistas de registros. La concesión de permisos al espacio de trabajo no concede permisos a las vistas de registros del espacio de trabajo.
 
+<!--You can share views internally or publicly. -->
+
 |        | Administrar | Ver |
 |--------|--------|-------|
 | Editar | ✓ |       |
 | Eliminar | ✓ |       |
+| Compartir | ✓ |       |
 | Ver | ✓ | ✓ |
 | Aplicar | ✓ | ✓ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

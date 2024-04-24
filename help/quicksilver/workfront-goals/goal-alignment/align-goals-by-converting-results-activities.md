@@ -6,9 +6,9 @@ description: Puede alinear manualmente dos metas o convertir los resultados y la
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -80,7 +80,6 @@ Para obtener información sobre cómo alinear manualmente dos objetivos, consult
 
 Debe tener lo siguiente para poder iniciar:
 
-* Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 * Una meta existente con resultados y actividades existentes.
 
   Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).

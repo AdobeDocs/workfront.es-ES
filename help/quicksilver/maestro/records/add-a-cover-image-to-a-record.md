@@ -1,15 +1,17 @@
 ---
 title: Agregar una imagen de portada a un registro
-description: Puede editar la información del registro en Adobe Workfront Planning y asociar cada registro con una imagen de portada para personalizar la página del registro.
+description: Puede personalizar los registros agregando una imagen de portada a la página de registros en Adobe Workfront Planning, al editar un registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Puede editar la información del registro en Adobe Workfront Planning y asociar cada registro con una imagen de portada para personalizar la página del registro.
+Puede personalizar los registros agregando una imagen de portada a la página de registros en Adobe Workfront Planning, al editar un registro.
+
+Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 Debe crear tipos de registros antes de empezar a crear y editar registros.
+
 Para obtener más información, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
 ## Requisitos de acceso
@@ -81,14 +86,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones acerca de grabar imágenes de portada de página
 
-Puede personalizar la página de un registro agregándole una imagen de portada. La imagen es única para cada registro y no se aplica a todos los registros del mismo tipo.
+Puede personalizar la página de un registro agregándole una imagen de portada.
 
 Tenga en cuenta lo siguiente:
 
+* Una imagen de portada es única para un registro y no se aplica a todos los registros del mismo tipo.
 * Solo se pueden agregar archivos de imagen como imágenes de portada.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Puede agregar una imagen de portada a registros individuales desde el cuadro de registro en cualquier vista o desde la página de registros.
-* No se pueden agregar imágenes de portada en línea desde la vista de tabla.
+* No puede agregar imágenes de portada en línea desde ninguna vista de registros.
 
 ## Agregar una imagen de portada a un registro
 
