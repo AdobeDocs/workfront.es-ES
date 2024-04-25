@@ -6,10 +6,10 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
 
   >[!NOTE]
   >
-  >Debe tener permiso para crear tareas pendientes en el widget de tareas pendientes.
+  >Debe tener permiso para crear tareas pendientes en el widget Tareas pendientes y solo aparecerán en el widget las tareas personales introducidas por el usuario actual.
 
 De forma predeterminada, la página de inicio se rellena con algunos widgets específicos basados en el tipo de licencia. Las siguientes tablas describen qué widgets ven los usuarios de cada tipo de licencia cuando acceden por primera vez a la página de inicio nueva.
 
