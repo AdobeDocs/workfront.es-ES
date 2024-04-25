@@ -6,9 +6,9 @@ description: Puede quitar la alineación entre dos objetivos si ya no tiene sent
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -27,54 +27,52 @@ Para obtener información sobre cómo alinear objetivos, consulte los siguientes
 Debe tener lo siguiente:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">plan Adobe Workfront*</td>
-   <td>
-   <p>Nuevo plan: Select o superior</p>
-   O
-   <p>Plan actual: Pro o superior</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Licencia de Adobe Workfront*</td>
-   <td>
-   <p>Nueva licencia: Colaborador o superior</p>
-   O
-   <p>Licencia actual: Solicitud o superior</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Producto*</td>
-   <td>
-   <p> Nuevo requisito de producto, uno de los siguientes: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">plan de Adobe Workfront</td>
+ <td>
+ <p>Cualquiera</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licencia de Adobe Workfront*</td>
+ <td>
+ <p>Nueva licencia: Colaborador o superior</p>
+ O
+ <p>Licencia actual: Solicitud o superior</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Producto*</td>
+ <td>
+ <p> Nuevo requisito de producto, uno de los siguientes: </p>
 <ul>
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
-   <p>O</p>
-   <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Nivel de acceso</td>
-   <td> <p>Editar acceso a Objetivos</p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Permisos de objeto</td>
-   <td>
-    <p>Ver o permisos superiores a la meta para verla</p>
-     <p>Administrar permisos para el objetivo y editarlo</p>
-     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
-    </td>
-  </tr>
+ <p>O</p>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nivel de acceso</td>
+ <td> <p>Editar acceso a Objetivos</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permisos de objeto</td>
+ <td>
+  <p>Ver o permisos superiores a la meta para verla</p>
+  <p>Administrar permisos para el objetivo y editarlo</p>
+  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  </td>
+ </tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
    <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

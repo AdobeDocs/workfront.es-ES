@@ -6,10 +6,10 @@ description: En este artículo se describe cómo encontrar y administrar objetiv
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 1%
 
 ---
 
@@ -20,10 +20,7 @@ En este artículo se describe cómo encontrar y administrar objetivos estratégi
 
 ## Requisitos de acceso
 
-<!--drafted for P&P: replace the requirements table and the asterisk below it with the following: 
-
-
-You must have the following to perform the activities described in this article:
+Debe tener lo siguiente para realizar las actividades descritas en este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,81 +29,35 @@ You must have the following to perform the activities described in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> 
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-    
+   <p>Cualquiera</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> 
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <div> 
-     <p>View or higher permissions to the goal to view it</p> 
-     <p>Manage permissions to the goal to edit it</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
-    </div> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> 
-    <div> 
-     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro o superior</p> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td> 
+   <td> 
+   <p>Nueva licencia: Colaborador o superior</p>
+   O
+   <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td> 
   </tr> 
+  <tr>
+ <td role="rowheader">Producto*</td>
+ <td>
+ <p> Nuevo requisito de producto, uno de los siguientes: </p>
+<ul>
+<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
+<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+ <p>O</p>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nivel de acceso</td>
+ <td> <p>Editar acceso a Objetivos</p> </td>
+ </tr>
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>Debe adquirir una licencia adicional para acceder a la funcionalidad de Adobe Workfront Goals que se describe en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Nivel de acceso*</td> 
-   <td> <p>Editar acceso a Objetivos</p> <p><b>NOTA</b><p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concesión de acceso a Adobe Workfront Goals</a></span> </p> </li> 
-     </ul> </p> </td> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Editar acceso a Objetivos</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -116,20 +67,16 @@ You must have the following to perform the activities described in this article:
      <p>Administrar permisos para el objetivo y editarlo</p> 
      <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p> 
     </div> </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+</td>
   </tr>
-
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> 
-    <div> 
-     <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p> 
-    </div> </td> 
-  </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Acceder a Workfront Goals
 

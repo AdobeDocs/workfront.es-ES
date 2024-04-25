@@ -1,149 +1,105 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Cierre y vuelva a abrir los objetivos en Objetivos de Adobe Workfront
-description: Puede cerrar un objetivo cuando desee indicar que lo ha completado o que ya no está trabajando en él porque se ha vuelto obsoleto.
+title: Cerrar y volver a abrir metas en Adobe Workfront Goals
+description: Puede cerrar un objetivo cuando desee indicar que lo ha completado o que ya no está trabajando en él porque ha quedado obsoleto.
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
 
-# Cierre y vuelva a abrir los objetivos en Objetivos de Adobe Workfront
+# Cerrar y volver a abrir metas en Adobe Workfront Goals
 
 Puede cerrar un objetivo cuando desee indicar lo siguiente:
 
-* El objetivo se logra porque lo logró o porque el período de tiempo transcurrió.
-* Ya no trabajas en ello ni planeas hacerlo en el futuro inmediato.
+* El objetivo se realiza, ya sea porque lo ha conseguido o porque ha transcurrido el período de tiempo.
+* Ya no está trabajando en ello ni tiene previsto hacerlo en el futuro inmediato.
 
-Puede volver a abrir los objetivos que se hayan cerrado cuando vuelvan a ser relevantes.
+Puede volver a abrir los objetivos que se han cerrado cuando vuelvan a ser relevantes.
 
 ## Requisitos de acceso
 
-<!--drafted for P&P release: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 Debe tener lo siguiente:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Pro o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>Debe adquirir una licencia adicional para los objetivos de Adobe Workfront para acceder a la funcionalidad que se describe en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar los objetivos de Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Objetivos o posterior</p> <p><b>NOTA</b><p>Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acceso a los objetivos de Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> 
-    <div> 
-     <p>Administrar permisos para el objetivo</p> 
-     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir un objetivo en los objetivos de Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">plan de Adobe Workfront</td>
+ <td>
+ <p>Cualquiera</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licencia de Adobe Workfront*</td>
+ <td>
+ <p>Nueva licencia: Colaborador o superior</p>
+ O
+ <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Producto*</td>
+ <td>
+ <p> Nuevo requisito de producto, uno de los siguientes: </p>
+<ul>
+<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
+<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+ <p>O</p>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ </tr>
+ <td role="rowheader">Nivel de acceso</td>
+ <td> <p>Editar acceso a Objetivos</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permisos de objeto</td>
+ <td>
+  <div>
+  <p>Ver o permisos superiores a la meta para verla</p>
+  <p>Administrar permisos para el objetivo y editarlo</p>
+  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Requisitos previos
+## Consideraciones al cerrar o volver a abrir las metas
 
-Debe tener lo siguiente para poder iniciar:
+* Debe tener acceso a Editar metas en su nivel de acceso para poder cerrar y volver a abrir las metas. Para obtener información sobre la concesión de acceso a los objetivos, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* Solo puede cerrar las metas activas. No se pueden cerrar los objetivos que están en estado de Borrador.
 
-* Plantilla de diseño que incluye el área Objetivos del menú principal.
+  Para obtener información sobre los estados de objetivos, consulte [Información general sobre el estado de las metas en Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
 
-## Consideraciones al cerrar o reabrir objetivos
+* Cerrar metas bloquea su progreso y le permite calificar lo bien que lo logró.
 
-* Debe tener acceso a Editar objetivos en el nivel de acceso para poder cerrar y volver a abrir los objetivos. Para obtener información sobre la concesión de acceso a los objetivos, consulte [Conceder acceso a los objetivos de Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-* Solo puede cerrar objetivos activos. No se pueden cerrar los objetivos que están en el estado de Borrador.
+  >[!CAUTION]
+  >
+  >Al cerrar una meta que tiene metas de contribución activas, su progreso cambia después de cerrarse para indicar el progreso de las metas de contribución activas. Para obtener información sobre cómo alinear objetivos, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Para obtener información sobre los estados de objetivos, consulte [Información general sobre el estado de los objetivos en los objetivos de Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
-
-* El cierre de objetivos bloquea su progreso y le permite evaluar lo bien que hizo al lograrlo.
-
-   >[!CAUTION]
-   >
-   >Al cerrar un objetivo que tiene objetivos de contribución activos, su progreso cambia después de cerrarse para indicar el progreso de los objetivos activos contribuyentes. Para obtener información sobre la alineación de objetivos, consulte [Alinear objetivos conectándolos en los objetivos de Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-
-* Actualice los indicadores de progreso del objetivo antes de cerrar el objetivo para garantizar que el objetivo se cierre con un valor de progreso preciso. Si se han alcanzado todos los indicadores de progreso, el porcentaje de objetivo completado debería ser del 100 % y se ha alcanzado su objetivo. Para obtener información sobre cómo actualizar los objetivos, consulte [Actualización del progreso del objetivo en los objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* Deje cualquier comentario final como una actualización de los objetivos que cierre. Para obtener información sobre cómo agregar comentarios a objetivos, consulte [Administrar comentarios de objetivo en objetivos de Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-* Ya no puede actualizar el progreso de los resultados y las actividades en un objetivo que cierre.
-* Puede volver a abrir un objetivo cerrado si desea continuar trabajando en él.
-* Si no se ha alcanzado el objetivo, considere la posibilidad de copiar la mayor parte de su información al siguiente período de tiempo (trimestre o año). Se trata de una buena opción para objetivos que son los mismos entre un período de tiempo y el siguiente o objetivos que puede que todavía necesite lograr en el siguiente período de tiempo. Para obtener información sobre cómo copiar objetivos, consulte [Copiar objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md). También puede actualizar el periodo de tiempo en el objetivo en lugar de copiarlo en otro periodo.
-* Workfront elimina los comentarios de un objetivo cerrado cuando se vuelve a abrir. Si debe conservar los comentarios, se recomienda copiar el objetivo cerrado, incluidos los resultados asociados a él, en lugar de volver a abrirlo.
+* Actualice los indicadores de progreso de la meta antes de cerrarla para asegurarse de que se cierra con un valor de progreso preciso. Si se han alcanzado todos los indicadores de progreso, el porcentaje de objetivo completado debe ser del 100 % y se ha alcanzado el objetivo. Para obtener información sobre cómo actualizar los objetivos, consulte [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Deje los comentarios finales como una actualización de los objetivos que cierre. Para obtener información sobre cómo agregar comentarios a los objetivos, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+* Ya no se puede actualizar el progreso de los resultados y las actividades de un objetivo que se cierre.
+* Puede volver a abrir una meta cerrada si desea continuar trabajando en ella.
+* Si no se ha alcanzado el objetivo, considere la posibilidad de copiar la mayor parte de su información al siguiente período de tiempo (trimestre o año). Esta es una excelente opción para los objetivos que son iguales de un período de tiempo al siguiente o para los objetivos en los que es posible que tenga que trabajar para lograr en el próximo periodo de tiempo. Para obtener información sobre cómo copiar metas, consulte [Copiar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md). También puede actualizar el periodo de tiempo de la meta en lugar de copiarlo a otro periodo.
+* Workfront elimina los comentarios de un objetivo cerrado cuando se vuelve a abrir. Si debe conservar los comentarios, le recomendamos que copie el objetivo cerrado, incluidos los resultados asociados a él, en lugar de volver a abrirlo.
 
 
-## Cerrar objetivos
+## Cerrar metas
 
 <!--
 Closing goals differs depending on what environment you use. 
@@ -182,42 +138,42 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) > **Objetivos** en la esquina superior derecha.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
 
-   Se abre la lista de objetivos.
+   Se abre la Lista de metas.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. (Opcional) Modifique los filtros para mostrar solo los objetivos que están activos.
+1. (Opcional) Modifique los filtros para mostrar solo las metas que están activas.
 
-   Para obtener información sobre el filtrado de información en los objetivos de Workfront, consulte [Filtrar información en objetivos de Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Para obtener información sobre el filtrado de información en Workfront Goals, consulte [Filtrar información en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 1. Haga clic en un objetivo activo.
 
-   Se abre la página de objetivo.
+   Se abre la página de la meta.
 
    ![](assets/goal-page-unshimmed.png)
-1. Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del nombre del objetivo y haga clic en **Cerrar**.
+1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la meta y haga clic en **Cerrar**.
 
-   El objetivo se cierra y recibe una confirmación en la esquina superior derecha de la pantalla.
+   La meta se cerrará y recibirá una confirmación en la esquina superior derecha de la pantalla.
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Opcional) En el cuadro de confirmación, haga clic en **Agregar notas de cierre** para agregar comentarios sobre este objetivo y por qué debe cerrarlo.
-1. Agregue notas de cierre y haga clic en **Agregar notas**.
+1. Agregue notas de cierre y haga clic en **Añadir notas**.
 
    ![](assets/add-closing-notes-box-unshimmed.png)
 
-   Los comentarios se muestran en la sección Detalles del objetivo de la página del objetivo, en el área Notas de cierre .
+   Los comentarios se muestran en la sección Detalles del objetivo de la página del objetivo, en el área Notas de cierre.
 
    >[!NOTE]
    >
-   >Workfront elimina las notas de cierre si más adelante vuelve a abrir un objetivo cerrado.
+   >Workfront elimina las notas de cierre si más tarde vuelve a abrir una meta cerrada.
 
 
-## Volver a abrir objetivos
+## Volver a abrir metas
 
-Puede volver a abrir los objetivos cerrados si decide que han vuelto a ser relevantes y que necesita seguir actualizando su progreso.
+Puede volver a abrir los objetivos cerrados si decide que vuelven a ser relevantes y que necesita seguir actualizando su progreso.
 
 <!--
 Reopening goals differs depending on what environment you use.
@@ -248,27 +204,27 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png)> **Objetivos** en la esquina superior derecha.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png)> **Metas** en la esquina superior derecha.
 
-   Se abre la lista de objetivos.
+   Se abre la Lista de metas.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. (Opcional) Modifique los filtros para mostrar solo los objetivos que están cerrados.
+1. (Opcional) Modifique los filtros para mostrar solo las metas cerradas.
 
-   Para obtener información sobre el filtrado de información en los objetivos de Workfront, consulte [Filtrar información en objetivos de Adobe Workfront](../goal-management/filter-information-wf-goals.md).
-1. Haga clic en el nombre de un objetivo cerrado.
+   Para obtener información sobre el filtrado de información en Workfront Goals, consulte [Filtrar información en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
+1. Haga clic en el nombre de una meta cerrada.
 
-   Se abre la página de objetivo.
-1. Haga clic en el **Más** menú ![](assets/more-icon.png) a la derecha del nombre del objetivo, **Volver a abrir** > **Volver a abrir**.
+   Se abre la página de la meta.
+1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la meta, **Reabrir** > **Reabrir**.
 
-   Se producen las siguientes cosas:
-   * El objetivo ahora está abierto y tiene el estado Activo.
-   * El progreso del objetivo se vuelve a calcular a partir de la fecha actual.
-   * Las notas de cierre se eliminan de la página de detalles del objetivo. Las notas de cierre eliminadas no se pueden recuperar.
+   Ocurren lo siguiente:
+   * La meta ahora está abierta y tiene el estado Activo.
+   * El progreso de la meta se vuelve a calcular a partir de la fecha actual.
+   * Todas las notas de cierre se eliminan de la página de detalles de Objetivo. Las notas de cierre eliminadas no se pueden recuperar.
 
-1. (Opcional) Modifique los filtros de nuevo para mostrar solo los objetivos activos.
+1. (Opcional) Vuelva a modificar los filtros para que solo se muestren las metas activas.
 
    Los objetivos que ha abierto se muestran en la pantalla.
 

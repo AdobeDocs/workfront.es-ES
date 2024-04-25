@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 </td>
  </tr>
  <tr>
- <td role="rowheader">Licencia de Adobe Workfront*</td>
+ <td role="rowheader">Licencia de Adobe Workfront</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
- O
- <p>Licencia actual: Solicitud o superior</p> </td>
+ <p>Cualquiera</td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -65,7 +63,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  </tr>
  <tr>
  <td role="rowheader">Configuración del nivel de acceso</td>
- <td> <p>Ver los objetivos o acceder a ellos</p> <p><b>NOTA</b><p>Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener más información, consulte <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concesión de acceso a Adobe Workfront Goals</a></span></td>
+ <td> <p>Ver los objetivos o acceder a ellos</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
@@ -76,10 +74,15 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 

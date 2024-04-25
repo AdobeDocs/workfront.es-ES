@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Resumen del progreso y la condición del objetivo en los objetivos de Adobe Workfront
-description: El progreso de los objetivos está impulsado por indicadores de progreso como actividades, resultados o metas para niños. La condición de objetivo está determinada por el progreso del objetivo en el momento actual.
+title: Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals
+description: El progreso de los objetivos está impulsado por indicadores de progreso como actividades, resultados o metas para niños. La condición de objetivo está determinada por el progreso de la meta en el momento actual.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '820'
+ht-degree: 0%
 
 ---
 
-# Resumen del progreso y la condición del objetivo en los objetivos de Adobe Workfront
+# Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals
 
 <!--drafted for P&P release: the note at the top will need to be replaced with this:
 
@@ -41,29 +41,29 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 >
->* Un Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
->* Licencia de Adobe Workfront para objetivos además de una licencia de Workfront.
+>* A Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
+>* Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
->Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront para objetivos.
->Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Adobe Workfront calcula el progreso del objetivo automáticamente en función del progreso de sus indicadores de progreso.
+Adobe Workfront calcula automáticamente el progreso de la meta en función del progreso de sus indicadores de progreso.
 
 ## Requisitos previos
 
 Debe tener lo siguiente para poder iniciar:
 
-* Plantilla de diseño que incluye el área Objetivos del menú principal.
+* Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 
-## Resumen del progreso y el umbral del objetivo
+## Información general sobre el progreso y el umbral del objetivo
 
-Después de activar un objetivo, los objetivos de Workfront empiezan a calcular su progreso y condición y muestran los siguientes indicadores al pasar el ratón por encima del campo Progreso :
+Después de activar una meta, Workfront Goals empieza a calcular su progreso y condición y muestra los siguientes indicadores al pasar el ratón por encima del campo Progress:
 
 | Indicador | Descripción del indicador |
 |---|---|
-| Porcentaje real completado | ¿Cuánto de la meta se ha completado realmente hasta ahora? Workfront Goal calcula este valor promediando el porcentaje completado de todos los indicadores de progreso asociados con el objetivo. |
-| Porcentaje completado esperado | ¿Cuánto de la meta debe cumplirse hasta ahora para que la meta se complete a tiempo? Los objetivos de Workfront calculan este valor mirando la Duración del objetivo y el momento actual en el tiempo. El objetivo debería mostrar este valor en el momento actual, si fuera a completarse a tiempo. |
-| Progreso | Etiqueta que indica si el objetivo está en la meta de completarse a tiempo, si está en riesgo o si tiene problemas para no completarse. |
+| Porcentaje real completado | La parte de la meta que se ha completado hasta ahora. Workfront Goals calcula este valor promediando el porcentaje completado de todos los indicadores de progreso asociados con la meta. |
+| Porcentaje completado esperado | La cantidad de la meta debe completarse hasta el momento para que la meta se complete a tiempo. Workfront Goals calcula este valor mirando la Duración de la meta y el momento actual en el tiempo. La meta debería mostrar este valor en el momento actual, si se completara a tiempo. |
+| Progreso | Una etiqueta que indica si la meta está en el objetivo de completarse a tiempo o si está en riesgo o en problemas de no completarse. |
 
 ![](assets/in-trouble-goal-progress-expanded.png)
 
@@ -75,55 +75,55 @@ Después de activar un objetivo, los objetivos de Workfront empiezan a calcular 
 
 ### Porcentaje real completado {#actual-percent-complete}
 
-Los objetivos de Workfront calculan automáticamente el porcentaje completado real de un objetivo en función del promedio de porcentaje completado de los indicadores de progreso del objetivo.
+Workfront Goals calcula automáticamente el porcentaje completado real de una meta basándose en el porcentaje completado promedio de los indicadores de progreso de la meta.
 
-Los siguientes temas se consideran indicadores de progreso para los objetivos:
+Los siguientes puntos se consideran indicadores de progreso para los objetivos:
 
 * Resultados
 
-   Para obtener información sobre cómo agregar resultados a objetivos, consulte [Agregar resultados a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obtener información sobre cómo agregar resultados a las metas, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Actividades
 
-   Para obtener información sobre cómo agregar actividades, incluidos proyectos, a los objetivos, consulte [Agregar actividades a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obtener información sobre cómo agregar actividades, incluidos proyectos, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-* Objetivos de los niños alineados
+* Metas secundarias alineadas
 
-   Para obtener información sobre los objetivos principales y secundarios, consulte [Alinear objetivos conectándolos en los objetivos de Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Para obtener información sobre las metas principales y secundarias, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Los objetivos de Workfront calculan el porcentaje real completado mediante la fórmula siguiente:
+  Workfront Goals calcula el porcentaje real completado con la fórmula siguiente:
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Por ejemplo, si un objetivo tiene un resultado completado del 20 %, una barra de progreso manual completa del 30 %, un proyecto completado al 10 % y un objetivo secundario completado al 40 %, el porcentaje de objetivo completado es del 25 %.
+  Por ejemplo, si un objetivo tiene un resultado al 20 % completado, una barra de progreso manual al 30 % completado, un proyecto al 10 % completado y un objetivo secundario al 40 % completado, el porcentaje de objetivo completado es el 25 %.
 
 ### Porcentaje completado esperado {#expected-percent-complete}
 
-Los objetivos de Workfront calculan automáticamente el porcentaje de finalización esperado de un objetivo en función del número total de días durante la duración del objetivo, así como el número de días que han transcurrido desde la fecha de inicio del objetivo.
+Workfront Goals calcula automáticamente el porcentaje completado esperado de un objetivo en función del número total de días que dura el objetivo, así como del número de días que han pasado desde la fecha de inicio del objetivo.
 
-Los objetivos de Workfront calculan el porcentaje de finalización esperado mediante la fórmula siguiente:
+Workfront Goals calcula el porcentaje completado esperado utilizando la fórmula siguiente:
 
 ```
 Expected percent complete of goal = Number of days since the goal start date * 100/ Number of days in the goal duration
 ```
 
-Por ejemplo, si un objetivo se debe completar en 90 días y hoy es el día 45 de esa duración, entonces el porcentaje esperado completado es del 50%.
+Por ejemplo, si un objetivo se debe completar en 90 días y hoy es el día 45 de esa duración, el porcentaje completado esperado es del 50 %.
 
 ### Progreso y condición {#progress}
 
-Los objetivos de Workfront calculan un porcentaje de progreso y asignan una etiqueta de progreso a los objetivos, en función del porcentaje del porcentaje completado esperado que se haya alcanzado en el momento actual. El color de la barra de finalización del porcentaje de objetivo cambia para indicar el progreso del objetivo.
+Workfront Goals calcula un porcentaje de progreso y asigna una etiqueta de progreso a los objetivos, en función del porcentaje de progreso alcanzado con respecto al porcentaje esperado completado en el momento actual. El color de la barra de porcentaje completado de la meta cambia para indicar el progreso de la meta.
 
-La condición del objetivo también se actualiza, en consecuencia, para indicar si el objetivo está en el objetivo de completarse a tiempo o si está rezagado.
+La Condición de la meta también se actualiza, en consecuencia, para indicar si la meta está en el objetivo para completarse a tiempo o si se está quedando atrás.
 
-Los objetivos de Workfront calculan el porcentaje de progreso de un objetivo mediante la fórmula siguiente:
+Workfront Goals calcula el porcentaje de progreso de una meta utilizando la fórmula siguiente:
 
 ```
 Goal progress percentage = Actual percent complete * 100 / Expected percent complete
 ```
 
-Por ejemplo, si el porcentaje completado esperado es 53 % en el momento actual y el porcentaje completado real es 30 %, el porcentaje completado del progreso del objetivo es 56 %. Los objetivos de Workfront etiquetan este objetivo con la condición &quot;En problemas&quot;.
+Por ejemplo, si el porcentaje completado esperado es del 53 % en el momento actual y el porcentaje completado real es del 30 %, el porcentaje de progreso completado del objetivo es del 56 %. Workfront Goals etiqueta esta meta con la condición &quot;en problemas&quot;.
 
 El siguiente gráfico ilustra la relación entre las etiquetas de condición y el porcentaje de progreso:
 
@@ -133,7 +133,7 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
 
 >[!TIP]
 >
->Las etiquetas de condición de objetivo coinciden con el nombre y el color del proyecto de Workfront.
+>Las etiquetas de condición de objetivo coinciden con el nombre y el color de la condición del proyecto de Workfront.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,37 +144,37 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
   <tr> 
    <td><b>Nombre del progreso del objetivo</b></td> 
    <td><b>Definición del progreso del objetivo</b></td> 
-   <td><b>Porcentaje de progreso de los objetivos</b></td> 
+   <td><b>Porcentaje de progreso del objetivo</b></td> 
    <td><b>Color de la barra de porcentaje completado</b></td> 
-   <td><b>Icono del indicador de condición</b></td> 
+   <td><b>Icono de indicador de condición</b></td> 
   </tr> 
   <tr> 
    <td>Nuevo</td> 
-   <td> <p>El objetivo se ha creado recientemente y aún no se está registrando el progreso. Un progreso de objetivo se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso del objetivo, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualización del progreso del objetivo en los objetivos de Adobe Workfront</a>.</p> </td> 
+   <td> <p>La meta es de nueva creación y aún no está registrando el progreso. El progreso de una meta se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso del objetivo, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualización del progreso de la meta en Adobe Workfront Goals</a>.</p> </td> 
    <td>Sin porcentaje</td> 
    <td>Sin barra</td> 
-   <td><img src="assets/new-goal-icon-condition.png" alt="new_Goal_icon_condition.png"></td>
+   <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Bien encaminado</span> </p> </td> 
-   <td>El objetivo está teniendo el rendimiento esperado y existe una buena probabilidad de que se complete a tiempo. </td> 
-   <td>90-100%</td> 
+   <td> <p><span>En Target</span> </p> </td> 
+   <td>El objetivo está funcionando según lo esperado y hay una gran probabilidad de que se complete a tiempo. </td> 
+   <td>90-100 %</td> 
    <td>Verde</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
    <td> <p><span>En riesgo</span> </p> </td> 
-   <td>El objetivo está retrasado, pero podría ser posible completarlo a tiempo. </td> 
-   <td>70-89.99%</td> 
+   <td>El objetivo está rezagado, pero es posible que aún sea posible completarlo a tiempo. </td> 
+   <td>70-89,99 %</td> 
    <td>Amarillo</td>
-   <td><img src="assets/at-risk-icon-condition.png" alt="at_Risk_icon_condition.png"></td> 
+   <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>Con problemas</span> </p> </td> 
    <td> <p>Es muy probable que el objetivo no se complete a tiempo. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0-69,99 %</td> 
    <td>Rojo</td> 
-   <td><img src="assets/in-trouble-icon-condition.png" alt="in_Problem_icon_condition.png"></td> 
+   <td><img src="assets/in-trouble-icon-condition.png" alt="in_trouge_icon_condition.png"></td> 
   </tr> 
  </tbody> 
 </table>
