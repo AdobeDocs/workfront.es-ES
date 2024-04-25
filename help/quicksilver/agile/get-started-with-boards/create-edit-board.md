@@ -6,7 +6,7 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -109,3 +109,4 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Clic **[!UICONTROL Todos los tableros]** para volver al tablero de tableros.
 
    También puede localizar el menú desplegable etiquetado con el nombre del tablero actual y hacer clic en él para cambiar a otro tablero.
+
