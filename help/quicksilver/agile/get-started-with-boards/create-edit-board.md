@@ -6,9 +6,9 @@ description: Desde el [!UICONTROL tableros] , puede crear un tablero nuevo o edi
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -81,6 +81,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    1. (Opcional) Haga clic en [!UICONTROL **Uso de filtros avanzados**] para mostrar opciones de filtro adicionales.
 
       Es el mismo proceso que crear un filtro en una columna de entrada. Para obtener más información, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      Si actualiza los filtros de un panel dinámico después de crearlo, se restablecerán los ajustes de la tarjeta que no formen parte de la tarea o del problema de Workfront (como las etiquetas).
 
    1. Después de añadir los filtros, haga clic en [!UICONTROL **Crear tablero**].
 

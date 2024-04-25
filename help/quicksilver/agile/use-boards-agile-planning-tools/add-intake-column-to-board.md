@@ -7,10 +7,10 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Si lo desea, puede agregar una columna de entrada al tablero que extraiga autom�
 
 Solo se permite una columna de entrada en un tablero, que siempre aparece como la columna situada más a la izquierda.
 
-La columna de entrada no está disponible en un tablero dinámico.
+La columna de entrada no está disponible en un tablero dinámico. Sin embargo, puede actualizar los filtros que definen qué tarjetas se llevan a un tablero dinámico. Cuando cambia estos filtros en un panel dinámico, se restablece la configuración de la tarjeta que no forma parte de la tarea o del problema de Workfront (por ejemplo, las etiquetas).
 
 La columna de admisión está limitada a 300 tareas y 300 problemas. El orden predeterminado de los elementos de la columna de entrada es el siguiente:
 
