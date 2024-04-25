@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Instalación de un paquete de promoción de entorno
+
+Después de crear un paquete, puede instalarlo en un entorno diferente.
+
+## Requisitos previos
+
+Debe haber creado un paquete para poder instalarlo.
+
+Para obtener instrucciones, consulte [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 Los conflictos se producen cuando un objeto que forma parte del paquete de instalación tiene el mismo nombre que un objeto que ya existe en el entorno de destino. Cuando esto sucede, puede seleccionar cómo resolver el conflicto. Los conflictos se resuelven en el nivel de objeto.
 
-Para ver los conflictos, haga clic en el menú desplegable situado junto a cada tipo de objeto. Los conflictos se muestran en la columna Conflicto.
+Para ver los conflictos, haga clic en la lista desplegable situada junto a cada tipo de objeto. Los conflictos se muestran en la columna Conflicto.
 
 Para resolver un conflicto, seleccione una acción en la columna Acción de implementación o utilice la acción predeterminada que ya se muestra.
 
