@@ -2,151 +2,112 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Eliminar indicadores de progreso de objetivos en Objetivos de Adobe Workfront
-description: Puede eliminar resultados, actividades y proyectos de los objetivos en Objetivos de Adobe Workfront cuando ya no sean relevantes.
+title: Eliminación de indicadores de progreso de las metas en Adobe Workfront Goals
+description: Puede quitar resultados, actividades y proyectos de las metas en Adobe Workfront Goals cuando ya no sean relevantes.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
 
-# Eliminar indicadores de progreso de objetivos en Objetivos de Adobe Workfront
+# Eliminación de indicadores de progreso de las metas en Adobe Workfront Goals
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
 
-Puede eliminar resultados, actividades y proyectos de los objetivos si ya no son relevantes.
+Puede quitar resultados, actividades y proyectos de los objetivos si ya no son relevantes.
 
-Para obtener información sobre la creación de objetivos y la adición de resultados y actividades a ellos, consulte los siguientes artículos:
+Para obtener información sobre cómo crear metas y agregarles resultados y actividades, consulte los siguientes artículos:
 
-* [Crear objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Agregar actividades a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Agregar resultados a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Editar resultados y actividades en objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+* [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Editar resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
-Los objetivos también se pueden alinear con los objetivos principales, convirtiéndose en objetivos para los niños. Los objetivos relativos a la infancia son también indicadores de progreso de los objetivos principales.
+Las metas también pueden alinearse con las metas de los padres, convirtiéndose en metas de los hijos. Las metas de los niños también son indicadores de progreso de las metas de los padres.
 
-Puede quitar la alineación entre objetivos eliminando la conexión entre ellos. Para obtener más información, consulte [Eliminar la alineación de objetivos en los objetivos de Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
+Puede eliminar la alineación entre los objetivos si elimina la conexión entre ellos. Para obtener más información, consulte [Quitar la alineación de objetivos en Adobe Workfront Goals](../goal-alignment/remove-goal-alignment.md).
 
 ## Requisitos de acceso
 
-<!--drafted - replace the table below with this one when P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 Debe tener lo siguiente:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Pro o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>Debe adquirir una licencia adicional para los objetivos de Adobe Workfront para acceder a la funcionalidad que se describe en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar los objetivos de Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Objetivos o posterior</p> <p><b>NOTA</b><p>Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acceso a los objetivos de Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> 
-    <div> 
-     <p>Administrar permisos para el objetivo</p> 
-     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir un objetivo en los objetivos de Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">plan de Adobe Workfront</td>
+ <td>
+ <p>Cualquiera</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licencia de Adobe Workfront*</td>
+ <td>
+ <p>Nueva licencia: Colaborador o superior</p>
+ O
+ <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Producto*</td>
+ <td>
+ <p> Nuevo requisito de producto, uno de los siguientes: </p>
+<ul>
+<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
+<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+ <p>O</p>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nivel de acceso</td>
+ <td> <p>Editar acceso a Objetivos</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permisos de objeto</td>
+ <td>
+  <div>
+  <p>Ver o permisos superiores a la meta para verla</p>
+  <p>Administrar permisos para el objetivo y editarlo</p>
+  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
-Debe tener lo siguiente para poder iniciar:
-
-* Plantilla de diseño que incluye el área Objetivos del menú principal.
-* Un objetivo con resultados, actividades o proyectos.
+Debe tener un objetivo asociado a resultados, actividades o proyectos.
 
 ## Consideraciones para eliminar resultados, actividades y desconectar proyectos de objetivos
 
-* Solo puede eliminar resultados y actividades de objetivos activos.
-* Puede eliminar resultados y actividades de un objetivo eliminándolos. Los resultados y actividades eliminados no se pueden recuperar.
-* Cuando elimina el resultado o la actividad de un objetivo, el progreso del resultado eliminado o de la actividad afecta al progreso general del objetivo.
-* No puede eliminar un proyecto de un objetivo, pero puede desconectarlo del objetivo. Al desconectar el proyecto del objetivo, el porcentaje completado del proyecto ya no afecta al progreso del objetivo.
+* Solo puede quitar resultados y actividades de los objetivos activos.
+* Puede eliminar los resultados y las actividades de un objetivo. Las actividades y los resultados eliminados no se pueden recuperar.
+* Cuando se elimina el resultado o la actividad de una meta, el progreso del resultado eliminado o la actividad afecta al progreso general de la meta.
+* No puede eliminar un proyecto de una meta, pero puede desconectarlo de la meta. Al desconectar el proyecto de la meta, el porcentaje completado del proyecto ya no afecta al progreso de la meta.
 
-   Para obtener información sobre cómo afectan los proyectos al progreso del objetivo, consulte [Agregar proyectos a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Para obtener información sobre cómo afectan los proyectos al progreso de la meta, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* No puede eliminar un resultado o una actividad de un objetivo y no puede desconectar un objetivo secundario o un proyecto si son el último indicador de progreso del objetivo.
-* Si se elimina un proyecto del área Proyectos y es el último indicador de progreso de un objetivo, el objetivo se vuelve Inactivo.
+* No se puede quitar un resultado o una actividad de una meta ni desconectar una meta secundaria o un proyecto, si son el último indicador de progreso de la meta.
+* Si un proyecto se elimina del área de Proyectos y es el último indicador de progreso de una meta, la meta se vuelve Inactiva.
 
-## Eliminar resultados y actividades de objetivos
+## Eliminar resultados y actividades de las metas
 
-Para eliminar resultados y actividades de un objetivo, elimínelos. La eliminación de resultados y actividades de un objetivo es idéntica.
+Para quitar resultados y actividades de un objetivo, elimínelos. La eliminación de resultados y actividades de una meta es idéntica.
 
 <!--
 How you delete results and activities differs depending on the environment you use.
@@ -175,24 +136,24 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Objetivos**.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-   Se abre el área Objetivos de Workfront y se muestra la Lista de objetivos de forma predeterminada.
+   Se abre el área de Objetivos de Workfront y la lista de objetivos se muestra de forma predeterminada.
 
-1. Haga clic en el nombre de un objetivo desde el que desea eliminar resultados y actividades.
+1. Haga clic en el nombre de una meta de la que desee quitar resultados y actividades.
 
-   Esto abre la página de objetivo.
+   Se abre la página de objetivo.
 
-1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Clic **Indicadores de progreso** en el panel izquierdo.
 
-1. Seleccione un resultado o actividad y haga clic en el botón **Eliminar** icono ![](assets/delete-icon.png) en la parte superior de la lista.
+1. Seleccione un resultado o una actividad y haga clic en **Eliminar** icono ![](assets/delete-icon.png) al principio de la lista.
 
-1. Haga clic en **Eliminar** para confirmar la eliminación. El resultado o la actividad se eliminan y no se pueden recuperar. El porcentaje completado de las actualizaciones de objetivo para excluir la actividad o el resultado eliminados.
+1. Clic **Eliminar** para confirmar la eliminación. El resultado o la actividad se elimina y no se puede recuperar. El porcentaje completado de las actualizaciones de objetivos para excluir la actividad o el resultado eliminado.
 
 
-## Eliminar proyectos de objetivos
+## Quitar proyectos de metas
 
 <!--
 Dsconnecting projects from goals differs depending on the environment you use.
@@ -220,19 +181,19 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Haga clic en el **Menú principal** en la esquina superior derecha y, a continuación, haga clic en **Objetivos**.
+1. Haga clic en **Menú principal** en la esquina superior derecha y haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Se abre el área Objetivos de Workfront y se muestra la Lista de objetivos de forma predeterminada.
+   Se abre el área de Objetivos de Workfront y la lista de objetivos se muestra de forma predeterminada.
 
-1. Haga clic en el nombre de un objetivo desde el que desea eliminar resultados y actividades.
+1. Haga clic en el nombre de una meta de la que desee quitar resultados y actividades.
 
-   Esto abre la página de objetivo.
-1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
-1. Seleccione un proyecto y, a continuación, haga clic en el **Desconectar** icono ![](assets/disconnect-icon.png) en la parte superior de la lista.
-1. Haga clic en **Desconectar** para confirmar.
+   Se abre la página de objetivo.
+1. Clic **Indicadores de progreso** en el panel izquierdo.
+1. Seleccione un proyecto y haga clic en **Desconectar** icono ![](assets/disconnect-icon.png) al principio de la lista.
+1. Clic **Desconectar** para confirmar.
 
-   El proyecto ya no está conectado al objetivo. El porcentaje completado del objetivo se actualiza para excluir el proyecto desconectado.
+   El proyecto ya no está conectado a la meta. El porcentaje completado de las actualizaciones de objetivos para excluir el proyecto desconectado.
 
