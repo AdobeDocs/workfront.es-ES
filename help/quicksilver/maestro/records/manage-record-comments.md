@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,21 @@ El panel derecho de un registro muestra las siguientes secciones:
 
 * Puede etiquetar a los usuarios para que presten atención a una actualización. Los usuarios etiquetados no reciben una notificación dentro de la aplicación ni un correo electrónico sobre su actualización. <!--this might change??-->
 
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
 * Puede agregar una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Workfront Planning:
 
-   * Desde la página de registro.
-
-  <!--* From the table view.-->
+   * Desde la página de detalles del registro.
+   * Desde una vista, en el cuadro de detalles del registro.
 
 ## Requisitos de acceso
 
@@ -132,6 +142,9 @@ El último espacio de trabajo al que se accede se abre de forma predeterminada.
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 1. (Opcional) Añadir **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización.
+
+   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección &quot;Uso de texto enriquecido en una actualización de Workfront&quot; en el artículo [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]

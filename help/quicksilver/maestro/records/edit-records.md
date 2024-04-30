@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -95,6 +95,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * El cuadro del registro en una vista de registros
    * La página del registro
    * En línea, en una vista de tabla.
+
+<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
 
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
    * Campos vinculados de otros registros

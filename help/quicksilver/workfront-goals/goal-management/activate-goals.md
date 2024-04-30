@@ -6,9 +6,9 @@ description: Al crear una meta, Adobe Workfront Goals la guarda con el estado de
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -36,13 +36,18 @@ Debe tener lo siguiente:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> 
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>

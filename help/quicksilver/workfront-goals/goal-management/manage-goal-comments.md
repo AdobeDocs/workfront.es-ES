@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,18 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art√
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> 
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals adem√°s de una licencia de Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront</td>
  <td>

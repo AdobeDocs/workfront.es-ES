@@ -6,9 +6,9 @@ description: Puede ver el estado general de sus metas y la tendencia de su progr
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,18 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art√
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> 
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals adem√°s de una licencia de Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>

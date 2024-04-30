@@ -6,9 +6,9 @@ description: Puede editar las metas existentes de cualquier periodo de tiempo y 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,18 @@ Debe tener lo siguiente:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> 
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>

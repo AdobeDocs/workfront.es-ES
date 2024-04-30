@@ -2,90 +2,73 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Introducción a resultados y actividades en objetivos de Adobe Workfront
-description: Debe añadir resultados, actividades o objetivos alineados a un objetivo para poder activarlo. Esto actualiza el estado del objetivo de Borrador a Activo y comienza a registrar el progreso del objetivo.
+title: Introducción a resultados y actividades en Adobe Workfront Goals
+description: Debe agregar resultados, actividades o metas alineadas a una meta para poder activarla. Esto actualiza el estado de la meta de Borrador a Activo y comienza a registrar el progreso de la meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
-# Introducción a resultados y actividades en objetivos de Adobe Workfront
+# Introducción a resultados y actividades en Adobe Workfront Goals
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 
->[!NOTE]
->
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
->
->* Un Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
->* Licencia de Adobe Workfront para objetivos además de una licencia de Workfront.
->
->  Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront para objetivos.
->
->Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Para el nuevo plan y la estructura de licencias:
 
+   * Un plan definitivo
 
-Cuando crea un objetivo, el objetivo tiene el estado Borrador. Para obtener información sobre la creación de objetivos, consulte [Crear objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+     O
 
-Para iniciar el registro del progreso en un objetivo, debe activarlo. Para activar el objetivo y cambiar su estado a Activo, primero debe agregarle lo siguiente:
+     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
+
+* Para el plan y la estructura de licencias actuales:
+
+   * A Pro o superior
+   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+
+Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+
+Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+
+Para empezar a registrar el progreso de una meta, debe activarlo. Para activar la meta y cambiar su estado a Activo, primero debe agregarle lo siguiente:
 
 * Un resultado
-* Una actividad
+* Una actividad de
 * Un proyecto
-* Un objetivo alineado
+* Una meta alineada
 
-Después de agregar al menos uno de estos elementos, puede activar el objetivo. Debe actualizar los resultados y las actividades de los objetivos para indicar el progreso en el objetivo.
+Después de agregar al menos uno de estos elementos, puede activar la meta. Debe actualizar los resultados y las actividades de las metas para indicar el progreso en la meta.
 
 
 >[!IMPORTANT]
 >
-> Un objetivo no puede tener más de un total de 1000 actividades, resultados, proyectos o objetivos alineados.</span>
+> Una meta no puede tener más de un total de 1000 actividades, resultados, proyectos o metas alineadas.</span>
 
-Este artículo ofrece información general sobre las actividades y los resultados. Para obtener información sobre la alineación de objetivos, consulte [Alineación de objetivos en los objetivos de Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información sobre la conexión de proyectos a objetivos, consulte [Agregar proyectos a objetivos en Objetivos de Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artículo ofrece una descripción general de las actividades y los resultados. Para obtener información sobre cómo alinear objetivos, consulte [Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información sobre cómo conectar proyectos con objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
-## Información general de resultados
+## Resumen de resultados
 
 <!--
 <p> This will have additional types in the future - add another section for types?)</p>
 -->
 
-Los resultados miden el progreso de su objetivo o lo cerca que está de alcanzarlo. Como propietario del objetivo, también puede ser propietario del resultado. Un resultado para su objetivo también puede asignarse a un usuario diferente.
+Los resultados miden el progreso de su objetivo o lo cerca que está de alcanzarlo. Como propietario del objetivo, también puede ser el propietario del resultado. Un resultado para su objetivo también puede asignarse a un usuario diferente.
 
-Para obtener información sobre cómo agregar resultados a objetivos, consulte [Agregar resultados a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Para obtener información sobre cómo agregar resultados a las metas, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-Puede agregar resultados a sus propios objetivos o metas que pertenezcan a otras entidades de su organización.
+Puede agregar resultados a sus propias metas u objetivos que pertenezcan a otras entidades de su organización.
 
 Tenga en cuenta lo siguiente al trabajar con resultados:
 
-* Responden a la pregunta: &quot;¿Cómo sabré cuando mi meta esté completa?&quot;
-* Son indicadores de métricas. Puede seleccionar entre las siguientes opciones para indicar un progreso para el resultado:
+* Responden a la pregunta: &quot;¿Cómo sabré cuando mi objetivo esté completo?&quot;
+* Son indicadores de métricas. Puede seleccionar las siguientes opciones para indicar un progreso para el resultado:
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 
@@ -95,20 +78,20 @@ Tenga en cuenta lo siguiente al trabajar con resultados:
 
 Para obtener más información sobre los resultados, consulte la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre resultados, actividades y proyectos](#similarities-between-results-activities-and-projects) en este artículo.
 
-## Información general sobre las actividades
+## Resumen de actividades
 
 <!--
 This will have additional types in the future - add another section for types?
 -->
 
-Las actividades, como los resultados, son específicas y mensurables y suelen incluir un indicador de porcentaje completado. Como propietario del objetivo, también puede ser propietario de las actividades asociadas con el objetivo. Una actividad sobre su objetivo también puede asignarse a un usuario diferente.
+Las actividades, como los resultados, son específicas y mensurables, y generalmente incluyen un indicador de porcentaje completado. Como propietario del objetivo, también puede ser propietario de las actividades asociadas con el objetivo. También se puede asignar una actividad en su objetivo a un usuario diferente.
 
-Para obtener información sobre cómo agregar actividades a objetivos, consulte [Agregar actividades a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Para obtener información sobre cómo agregar actividades a los objetivos, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-Tenga en cuenta lo siguiente cuando asocie actividades con sus objetivos:
+Tenga en cuenta lo siguiente al asociar actividades con sus objetivos:
 
-* Responden a la pregunta: &quot;¿Qué lograré cuando se complete el objetivo?&quot;
-* Las actividades son entradas personalizadas que se pueden considerar más en términos de completas o incompletas. Deben actualizarse manualmente para indicar qué porcentaje de la actividad se ha completado hasta ahora.
+* Responden a la pregunta: &quot;¿Qué conseguiré cuando se complete el objetivo?&quot;
+* Las actividades son entradas personalizadas que se pueden considerar más en términos de completas o incompletas. Se deben actualizar manualmente para indicar qué porcentaje de la actividad se ha completado hasta ahora.
 
 <!--
 * You can associate the following activities with goals:
@@ -138,11 +121,11 @@ Para obtener más información sobre los resultados y las actividades, consulte 
 
 Los resultados, las actividades y los proyectos son indicadores de progreso de los objetivos.
 
-Existen algunas diferencias en la forma en que administra los proyectos en comparación con la forma en que administra los resultados y las actividades. Para obtener información sobre cómo agregar proyectos a objetivos, consulte [Agregar actividades a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obtener información sobre los proyectos relacionados con los objetivos, consulte [Agregar proyectos a objetivos en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Hay algunas diferencias entre la forma en que administra los proyectos y la forma en que administra los resultados y las actividades. Para obtener información sobre cómo agregar proyectos a las metas, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obtener información sobre los proyectos relacionados con los objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Además de los resultados, las actividades y los proyectos, también puede asociar los objetivos secundarios a un objetivo. Los objetivos en favor de la infancia son también un tipo de indicador de progreso para un objetivo. Para obtener más información, consulte [Alinear objetivos conectándolos en los objetivos de Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). El progreso de los indicadores de progreso del objetivo secundario también impulsa el progreso del objetivo principal.
+Además de los resultados, las actividades y los proyectos, también puede asociar las metas de los niños a una meta. Las metas para niños también son un tipo de indicador de progreso para una meta. Para obtener más información, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). El progreso de los indicadores de progreso de la meta para niños también impulsa el progreso de la meta para padres.
 
-En la tabla siguiente se muestran las similitudes y diferencias entre los resultados, las actividades y los proyectos, como indicadores de objetivo:
+La siguiente tabla muestra las similitudes y diferencias entre los resultados, las actividades y los proyectos, como indicadores de objetivo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,31 +158,31 @@ En la tabla siguiente se muestran las similitudes y diferencias entre los result
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Puede asociar uno de ellos con múltiples objetivos.</td> 
+   <td>Puede asociar uno de ellos con varios objetivos.</td> 
    <td> </td> 
    <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Su progreso se tiene en cuenta al calcular el progreso del objetivo. </td> 
+   <td>Su progreso se tiene en cuenta al calcular el progreso de la meta. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Deben actualizarse manualmente en los objetivos de Workfront</td> 
+   <td>Se deben actualizar de forma manual en Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Se deben completar en la fecha de finalización del objetivo</td> 
+   <td>Deben completarse en la fecha de finalización de la meta</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Solo se pueden asignar a un usuario y no a un equipo, grupo o empresa. </td> 
+   <td>Solo se pueden asignar a un usuario y no a un equipo, grupo o compañía. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -211,7 +194,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre los result
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Ofrecen un rango de valores entre los valores de inicio y fin que ilustran lo cerca que está de alcanzarlos. La proximidad al valor final calcula un valor Progress para el objetivo. </td> 
+   <td>Ofrecen una serie de valores entre los valores inicial y final que ilustran lo cerca que está de alcanzarlos. La proximidad al valor final calcula un valor de Progreso para el objetivo. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

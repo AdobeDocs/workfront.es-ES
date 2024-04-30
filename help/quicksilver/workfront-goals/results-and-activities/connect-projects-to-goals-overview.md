@@ -8,9 +8,9 @@ description: Puede conectar proyectos a metas para indicar cómo progresa la met
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,18 @@ Debe tener lo siguiente:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> 
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>

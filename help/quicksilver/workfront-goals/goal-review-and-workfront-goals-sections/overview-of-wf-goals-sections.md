@@ -2,103 +2,108 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Información general sobre las secciones de objetivos de Adobe Workfront
-description: Puede acceder a listas de objetivos o objetivos individuales y administrarlas desde varias secciones de Objetivos de Adobe Workfront. La sección que utilice dependerá del propósito que desee lograr al trabajar con objetivos.
+title: Información general sobre las secciones Objetivos de Adobe Workfront
+description: Puede acceder a listas de objetivos o metas individuales y administrarlas desde varias secciones de Objetivos de Adobe Workfront. La sección que utilice dependerá del propósito que desee lograr al trabajar con objetivos.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
-# Información general sobre las secciones de objetivos de Adobe Workfront
+# Información general sobre las secciones Objetivos de Adobe Workfront
 
+Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 
->[!NOTE]
->
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
->
->* Un Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
->* Licencia de Adobe Workfront para objetivos además de una licencia de Workfront.
->
->  Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront para objetivos.
->
->Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar los objetivos de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Para el nuevo plan y la estructura de licencias:
 
-Una vez que el administrador de Workfront le haya concedido acceso a los objetivos de Workfront, podrá ver los objetivos que usted o cualquier otra persona de su organización hayan creado en el área de objetivos de Workfront .
+   * Un plan definitivo
 
-Puede acceder a listas de objetivos o objetivos individuales y administrarlas desde varias secciones de Objetivos de Workfront. La sección que utilice dependerá del propósito que desee lograr al trabajar con los objetivos.
+     O
+
+     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
+
+* Para el plan y la estructura de licencias actuales:
+
+   * A Pro o superior
+   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+
+Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+
+Una vez que el administrador de Workfront le haya concedido acceso a las metas de Workfront, podrá ver las metas que usted o cualquier otra persona de su organización haya creado en el área de metas de Workfront.
+
+Puede acceder a listas de objetivos o metas individuales y administrarlas desde varias secciones de Objetivos de Workfront. La sección que utilice dependerá del propósito que desee lograr al trabajar con objetivos.
 
 Puede aplicar filtros para mostrar solo los objetivos que son importantes para usted en cada sección.
 
 >[!TIP]
 >
->Los filtros actualizados en una sección se aplican automáticamente a las secciones Lista de objetivos, Gráficos y Alineación de objetivos . De esta forma, puede actualizarlas solo una vez. Para obtener más información, consulte [Filtrar información en objetivos de Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Los filtros actualizados en una sección se aplican automáticamente a las secciones Lista de metas, Gráficos y Alineación de metas. De este modo, solo puede actualizarlas una vez. Para obtener más información, consulte [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-A continuación se ofrece una breve descripción general de las secciones de Objetivos de Workfront y las opciones disponibles para administrar objetivos. Para obtener más información sobre las acciones adicionales que puede realizar dentro de cada sección de los objetivos de Workfront, también recomendamos los siguientes artículos:
+A continuación se ofrece una breve descripción general de las secciones de los Objetivos de Workfront y las opciones disponibles para administrarlos. Para obtener más información sobre las acciones adicionales que puede realizar en cada sección de los objetivos de Workfront, también recomendamos los siguientes artículos:
 
-* [Crear objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Actualización del progreso del objetivo en los objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Filtrar información en objetivos de Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+* [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Lista de metas
 
-Puede usar la lista de objetivos para revisar los objetivos que le pertenecen, a sus equipos, a grupos o a su organización. Puede ver los objetivos en cualquier estado y desde cualquier período de tiempo.
+Puede usar la Lista de metas para revisar las metas que le pertenecen a usted, a sus equipos, a grupos o a su organización. Puede ver las metas en cualquier estado y período de tiempo.
 
-Para obtener información sobre cómo navegar por la lista de objetivos y administrar los objetivos, consulte [Administrar objetivos en la lista de objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Para obtener información sobre cómo navegar por la Lista de metas y administrar las metas, consulte [Administrar metas en la lista de metas de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
-Utilice la lista de objetivos para hacer lo siguiente:
+Utilice la Lista de objetivos para hacer lo siguiente:
 
-* Vea los objetivos que le pertenecen, a sus equipos, grupos u organización.
+* Vea las metas que le pertenecen a usted, a sus equipos, a sus grupos o a su organización.
 * Revise los objetivos y su información (por ejemplo, nombre, propietario, progreso o condición).
-* Añada nuevos objetivos.
+* Agregar nuevas metas.
 
-   Para obtener más información, consulte [Crear objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Para obtener más información, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-* Acceda a la página de un objetivo y edite y actualice el objetivo, sus resultados o actividades
+* Acceda a la página de una meta y edite y actualice la meta, sus resultados o actividades
 
-   Para obtener más información, consulte [Editar objetivos en objetivos de Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
+  Para obtener más información, consulte [Editar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 
-* Editar objetivos.
+* Editar metas.
 
 ## Gráficos
 
-Puede utilizar la sección Gráficos para obtener una vista holística del estado de los objetivos que le pertenecen o que pertenecen a su organización. Puede ver información de progreso de los objetivos en cualquier estado desde cualquier período de tiempo en esta sección.
+Puede utilizar la sección Gráficos para obtener una vista integral del estado de las metas que le pertenecen a usted o a su organización. Puede ver la información de progreso de los objetivos en cualquier estado desde cualquier periodo de tiempo en esta sección.
 
-Para obtener información sobre el uso de la sección Gráficos , consulte [Revisar gráficos para comprender las tendencias de progreso de objetivos en los objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Para obtener información sobre el uso de la sección Gráficos, consulte [Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
 Utilice la sección Gráficos para hacer lo siguiente:
 
-* Vea el rendimiento de los objetivos que le pertenecen, a sus equipos, grupos u organización.
-* Ver el número de objetivos con un estado de progreso determinado.
-* Comprender el desempeño semanal de sus objetivos.
+* Vea el rendimiento de las metas que le pertenecen a usted, a sus equipos, a grupos o a su organización.
+* Ver el número de metas con un estado de progreso determinado.
+* Comprender el rendimiento semanal de sus objetivos.
 
 ## Alineación de metas
 
-Si los objetivos están alineados entre sí, puede utilizar la sección Alineación de objetivos para mostrar y revisar todos los objetivos de su organización y su alineación entre sí. Los objetivos alineados se muestran aquí en tarjetas conectadas para ilustrar su alineación entre sí. Los objetivos principales se muestran primero y los objetivos secundarios se apilan detrás de ellos. Puede ver los objetivos en cualquier estado y desde cualquier período de tiempo en esta sección.
+Si las metas están alineadas entre sí, puede utilizar la sección Alineación de metas para mostrar y revisar todas las metas de su organización y su alineación entre sí. Los objetivos que están alineados se muestran aquí en las tarjetas conectadas para ilustrar su alineación entre sí. Las metas principales se muestran primero y las metas secundarias se apilan detrás de ellas. Puede ver las metas en cualquier estado y período de tiempo en esta sección.
 
-Para obtener información sobre cómo navegar por la sección Alineación de objetivos para administrar los objetivos, consulte [Vaya a la sección Alineación de objetivos en Objetivos de Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+Para obtener información sobre cómo navegar por la sección Alineación de objetivos para administrar los objetivos, consulte [Navegue hasta la sección Alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-Para obtener información sobre la alineación de objetivos, consulte los siguientes artículos:
+Para obtener información sobre cómo alinear objetivos, consulte los siguientes artículos:
 
-* [Alinear objetivos conectándolos en los objetivos de Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Alinear objetivos convirtiendo resultados y actividades en objetivos](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
 Utilice la sección Alineación de objetivos para hacer lo siguiente:
 
-* Ver los objetivos que le pertenecen a usted o a su organización en formato de tarjeta.
-* Mostrar jerarquía de objetivos y ver objetivos secundarios alineados.
-* Acceda a la página de objetivo y actualice el objetivo, sus resultados o actividades.
+* Vea las metas que le pertenecen a usted o a su organización en formato de tarjeta.
+* Mostrar la jerarquía de metas y ver las metas secundarias alineadas.
+* Acceda a la página de objetivos y actualice la meta, sus resultados o las actividades.
 
 <!--
 ## Pulse

@@ -6,9 +6,9 @@ description: En este artículo se describe cómo encontrar y administrar objetiv
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,15 @@ Debe tener lo siguiente para realizar las actividades descritas en este artícul
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> 
-   <p>Cualquiera</p>
+   <p>Para el nuevo plan y la estructura de licencias:
+  <ul><li>Un plan definitivo </li>
+  O
+  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Para el plan y la estructura de licencias actuales: 
+<ul><li> A Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr> 
   <tr> 
