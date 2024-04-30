@@ -4,7 +4,7 @@ description: Otras mejoras durante el periodo de tiempo de la versión del terce
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -24,3 +24,5 @@ Cuando un usuario no tiene acceso a un objeto, verá &quot;Sin acceso&quot; en c
 Los equipos y usuarios no se incluyen en este cambio. Los usuarios aún pueden ver los nombres de equipo y de usuario.
 
 Para obtener más información, consulte la sección [Acceso restringido a objetos](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) en el [!DNL Adobe Workfront] artículo de información general sobre objetos.
+
+
