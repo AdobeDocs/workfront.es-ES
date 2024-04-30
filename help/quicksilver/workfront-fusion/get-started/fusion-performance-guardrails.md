@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Navegadores
 
-Workfront Fusion solo admite exploradores basados en Chrome.
+* Workfront Fusion solo admite exploradores basados en Chrome.
 
 ## Escenarios
 
@@ -75,9 +75,9 @@ Workfront Fusion solo admite exploradores basados en Chrome.
 
 ## Ejecuciones incompletas
 
-Las ejecuciones incompletas están limitadas a un tamaño total de **500 MB**. Si se alcanza el límite de 500 MB, no se almacenarán más ejecuciones incompletas.
+* Las ejecuciones incompletas están limitadas a un tamaño total de **500 MB**. Si se alcanza el límite de 500 MB, no se almacenarán más ejecuciones incompletas.
 
 ## Reintentos
 
-Al utilizar el módulo Break y especificar la directiva Retry, si un escenario falla consecutivamente 10 veces dentro de un intervalo de tiempo de 2 minutos, el escenario se desactiva automáticamente.
+* Al utilizar el módulo Break y especificar la directiva Retry, si un escenario falla consecutivamente 10 veces dentro de un intervalo de tiempo de 2 minutos, el escenario se desactiva automáticamente.
 
