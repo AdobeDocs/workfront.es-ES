@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Puede ajustar la siguiente información de asignación al realizar asignaciones 
 * Ajuste y redistribuya el número de horas que se asignan a cada usuario asignado.
 * Determine qué usuario debe designarse como propietario o principal asignado a la tarea o al problema.
 * Especifique la función que cumple cada usuario al trabajar en la tarea o el problema.
-* <span class="preview">Anular la tarifa de facturación de un rol.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
->Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas y los problemas. Para obtener información sobre las programaciones, consulte [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas y problemas. Para obtener información sobre las programaciones, consulte [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Áreas de Adobe Workfront donde puede realizar asignaciones avanzadas
 
@@ -93,7 +93,11 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 1. Clic **Avanzadas**.
 
+   Imagen de muestra en el entorno de producción:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)
 
 1. En el **Buscar personas, funciones y equipos** , empiece a escribir el nombre de un usuario, función o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
@@ -113,15 +117,15 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* <span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione el sistema/rol predeterminado para utilizar la tasa de facturación predeterminada para la asignación o seleccione un rol de tarjeta de tarifa para anular la tasa en el nivel de asignación. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-   >
-   >
    >* Si se asignó un usuario, un rol o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
    >   
    >   * Reasignar el elemento de trabajo a los recursos activos.
    >   * Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. Para cada usuario en la **Asignado** , especifique la siguiente información:
 
@@ -132,7 +136,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
      >
      >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la cronología de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información sobre los usuarios asignados a varias tareas, consulte la sección &quot;Asignar varios usuarios a una tarea&quot; en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Asignaciones** : cuando el tipo de duración de una tarea es Simple, especifique el número de horas que cada usuario o rol debe asignarse a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número de la **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
+   * **Asignaciones** : Cuando el tipo de duración de una tarea es Simple, especifique el número de horas que cada usuario o rol debe asignarse a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número de la **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -151,15 +155,19 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    * **Rol de asignado:** Seleccione la función que el usuario debe utilizar al cumplir esta asignación.  La Función principal del usuario se muestra de forma predeterminada. Haga clic en el cuadro Función de asignado para seleccionar otra función.  Al asignar primero la tarea o el problema a un rol y, a continuación, agregar un usuario que pueda cumplir ese rol como segunda asignación, la lista de usuarios sugeridos se filtra para los usuarios que pueden cumplir los roles ya asignados a la tarea y al problema.
 
+     Imagen de muestra en el entorno de producción:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+     ![Rol de asignado](assets/advanced-assignments-select-role.png)
 
-   * **Ubicación**: la ubicación proviene de la tarjeta de tarifas si una tarjeta de tarifas adjunta al proyecto utiliza ubicaciones con los roles. La ubicación no se puede cambiar.
+   <!--<div class="preview">
 
-   * **Tarifas de facturación**: la tasa de facturación de un usuario proviene de la tasa del sistema para el usuario o su rol asociado. La tarifa de facturación de un rol proviene de la tarifa del sistema o de la tarjeta de tarifas, si se adjunta una tarjeta de tarifas al proyecto. Las tarifas de facturación existentes no se muestran en este campo. Haga clic en el campo para cambiar la tarifa de facturación de esta asignación de tarea específica.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **Tipo de duración**: Esto solo está disponible para tareas. Haga clic en el nombre del tipo de duración y seleccione un tipo de duración en el menú desplegable. Para obtener información sobre los tipos de duración, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -170,14 +178,12 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    * **Horas planificadas**: cuando el tipo de duración es Asignación calculada o Simple, actualice el número de horas planificadas. Como resultado, los porcentajes de asignación o las horas de cada recurso se distribuyen de forma uniforme. Workfront calcula las horas planificadas cuando el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo. Para obtener más información, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Imagen de muestra en el entorno de producción:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      Imagen de muestra en el entorno de vista previa:
-
-     ![Asignaciones avanzadas](assets/advanced-assignments-location-billing-rates.png)
+     ![Asignaciones avanzadas](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

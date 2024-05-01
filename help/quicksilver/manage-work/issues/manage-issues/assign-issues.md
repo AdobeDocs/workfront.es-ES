@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Asignar problemas
+
+{{highlighted-preview}}
 
 Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
    Haga clic en el nombre de las asignaciones actuales, si el problema ya está asignado.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Botón Asignar a](assets/assign-to-button-in-header.png)
 
 1. Realice una de las siguientes acciones:
 
    * Comience a escribir el nombre del usuario, rol o equipo que desea asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
+     Imagen de muestra en el entorno de producción:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+     ![Búsqueda de asignaciones](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Condicional) Haga clic en uno de los nombres de la **Asignaciones sugeridas** lista
    * Clic **Asignármelo a mí** para asignársela a usted mismo
@@ -161,7 +167,11 @@ Para asignar problemas en una lista:
 
    * Haga clic dentro de **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar al problema y, a continuación, haga clic en él cuando se muestre en la lista.
 
+     Imagen de muestra en el entorno de producción:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+     ![Campo Asignaciones](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
