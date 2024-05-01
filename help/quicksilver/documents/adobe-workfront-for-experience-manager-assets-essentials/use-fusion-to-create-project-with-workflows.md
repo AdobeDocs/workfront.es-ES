@@ -6,7 +6,7 @@ description: Si está creando un proyecto a través de Workfront Fusion y desea 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-   <td><strong>plan Adobe Workfront*</strong>
-   </td>
-   <td>Cualquiera
-   </td>
+    <td><strong>plan Adobe Workfront*</strong></td>
+    <td>Cualquiera</td>
   </tr>
   <tr>
-   <td><strong>Licencias de Adobe Workfront*</strong>
-   </td>
-   <td>Solicitud o superior
-   </td>
+   <td><strong>Licencias de Adobe Workfront*</strong></td>
+   <td>Solicitud o superior</td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y se le debe añadir al producto como usuario en el Admin Console.</p>
-   </li
-   ><li>
-   <p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Nuevo:</p>
-   <ul>
-   <li>
-   <p>Plan Select or Prime Workfront: su organización debe adquirir Adobe Workfront Fusion.</p>
-   </li>
-   <li> 
-   <p>Plan Workfront definitivo: Workfront Fusion está incluido.</p>
-   </li>
-   </ul>
-   <p>O</p>
-   <p>Actual: Su organización debe adquirir Adobe Workfront Fusion.</p>
+   <td><strong>Product</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y se le debe añadir al producto como usuario en el Admin Console.</p>
+       </li>
+       <li>
+        <p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>Nuevo:</p>
+     <ul>
+       <li>
+         <p>Plan Select or Prime Workfront: su organización debe adquirir Adobe Workfront Fusion.</p>
+       </li>
+       <li> 
+         <p>Plan Workfront definitivo: Workfront Fusion está incluido.</p>
+       </li>
+     </ul>
+     <p>O</p>
+     <p>Actual: Su organización debe adquirir Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Configuraciones de nivel de acceso*</strong>
    </td>
    <td>Editar acceso a documentos
-   <p>
-   <strong>Nota: </strong>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <strong>Crear o modificar niveles de acceso personalizados</strong>.
+     <p>
+       <strong>Nota: </strong>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <strong>Crear o modificar niveles de acceso personalizados</strong>.
+     </p>
    </td>
   </tr>
 </table>
