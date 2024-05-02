@@ -1,13 +1,13 @@
 ---
 title: Administrar la página de registro
-description: Puede editar y administrar el diseño del cuadro de registro y la página en Adobe Workfront Planning.
+description: Puede editar el diseño de la vista previa y la página del registro en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Puede editar y administrar el diseño del cuadro de registro y la página en Adobe Workfront Planning. Puede mostrar el cuadro de registro en una vista de registros.
+Puede editar el diseño de la vista previa y la página del registro en Adobe Workfront Planning.
 
-El cuadro de registro es una vista más pequeña de la página de registro que se muestra en la vista de un tipo de registro.
+La vista previa de registros es una vista más pequeña de la página de registros que se muestra en la vista de un tipo de registro.
 
-Al cambiar el diseño de un cuadro de registro y de una página, el cuadro y la página cambian para todos los registros del mismo tipo.
+Al cambiar el diseño de una vista previa y una página de registro, los cambios afectan a los cuadros y páginas de todos los registros del mismo tipo.
 
 Debe crear tipos de registros y registros antes de poder empezar a editar páginas de registros.
 
@@ -93,10 +93,100 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones sobre la edición de páginas de registro
 
-* Al reorganizar los campos del cuadro de registro o de la página, se reorganizan los campos de todos los registros de ese tipo y de todos los usuarios que tienen acceso a esos registros.
-* Agregar una imagen de portada a un registro no forma parte del diseño general del cuadro de registros o de la página. Puede agregar imágenes de portada únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+* Al reorganizar los campos en la vista previa del registro o en la página, se reorganizan los campos de todos los registros de ese tipo y de todos los usuarios que tienen acceso a esos registros.
 
-## Reorganizar campos en el cuadro de registro o en la página
+* Los cambios de visualización que realice en la vista previa del registro se pueden ver inmediatamente en la página de detalles del registro. Los cambios realizados en la página de registro también se pueden ver en el cuadro de vista previa del registro.
+
+<!--Replace the first bullet with this when we add sections:
+
+* The following changes affect all the records of the same type and are visible to all users accessing those records: 
+
+   * Rearranging fields
+   * Adding or removing sections
+-->
+
+* Agregar una imagen de portada a un registro no forma parte del diseño general de la vista previa del registro o de la página. Puede agregar imágenes de portada únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+<!--
+
+## Add sections to a record preview or page
+
+You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+
+Consider the following when adding sections to a record page:
+
+* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
+* You cannot have an empty section. You must have at least one field in a section. 
+* You can drag and drop fields from one section to another. 
+* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
+
+To add a section to a record preview or page: 
+
+{{step1-to-maestro}}
+
+The workspace that you access last opens. 
+
+1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+1. Click a record type card. 
+
+    The record type page opens. 
+
+1. From a view of any type, click the name of a record 
+
+    Or 
+    
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    
+    The record's preview opens in the view.
+
+    ![](assets/details-box.png) 
+
+    >[!TIP]
+    >
+    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+
+    The record page opens. 
+
+    ![](assets/details-page.png)
+
+1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
+1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+
+1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+
+   ![](assets/more-menu-options-for-section-on-record-page.png)
+1. (Optional) Do one of the following to edit the section: 
+
+   * Click **Rename** to rename the section
+
+      >[!TIP]
+      >
+      > You can rename a section inline, by clicking the name.
+   
+   * Click **Move up** to move the section up one position 
+
+      Or 
+      
+      Click **Move down** to move the section down one position.
+      All fields in the section move with the section. 
+
+   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+
+1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
+   All sections are expanded by default. 
+
+1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+
+    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+
+    All changes to sections and field order are saved automatically. 
+
+-->
+
+## Reorganizar campos en la vista previa o página del registro
 
 {{step1-to-maestro}}
 
@@ -113,7 +203,7 @@ El espacio de trabajo al que se accede por última vez se abre.
 
    En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
 
-   El cuadro del registro se abre en la vista.
+   La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
@@ -121,15 +211,15 @@ El espacio de trabajo al que se accede por última vez se abre.
    >
    >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha del cuadro de registro para abrir la página del registro en una nueva ficha.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En el cuadro de registro o la página, haga clic en el icono de captura ![](assets/grab-icon.png) a la izquierda del nombre de un campo, arrástrelo y suéltelo en el lugar que desee.
+1. En la página de vista previa o de registro, haga clic en **agarrar** icono ![](assets/grab-icon.png) a la izquierda del nombre de un campo, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
-   La nueva posición del campo se actualiza tanto en el cuadro como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
+   La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
-   Todos los cambios realizados en el diseño del cuadro de registro o de la página se guardan automáticamente.
+   Todos los cambios en el diseño de la vista previa del registro o de la página se guardan automáticamente.
 

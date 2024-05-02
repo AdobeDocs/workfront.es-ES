@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Tenga en cuenta lo siguiente:
 * Una imagen de portada es única para un registro y no se aplica a todos los registros del mismo tipo.
 * Solo se pueden agregar archivos de imagen como imágenes de portada.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Puede agregar una imagen de portada a registros individuales desde el cuadro de registro en cualquier vista o desde la página de registros.
+* Puede agregar una imagen de portada a registros individuales desde la vista previa de los registros en cualquier vista o desde la página de registros.
 * No puede agregar imágenes de portada en línea desde ninguna vista de registros.
 
 ## Agregar una imagen de portada a un registro
 
-Puede personalizar un registro agregando una imagen de portada en la parte superior del cuadro de registro o de la página.
+Puede personalizar un registro agregando una imagen de portada en la parte superior de la vista previa del registro o de la página.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ El espacio de trabajo al que se accede por última vez se abre.
 
    En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
 
-   El cuadro del registro se abre en la vista.
+   La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ El espacio de trabajo al que se accede por última vez se abre.
    >
    >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha del cuadro de registro para abrir la página del registro en una nueva ficha.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En el cuadro de registro o la página, haga clic en **Añadir portada**. <!--check the casing here; I logged a bug for this-->
+1. En la página de vista previa o de registro, haga clic en **Añadir portada**. <!--check the casing here; I logged a bug for this-->
 El **Cubierta de registro** se abre el cuadro.
 
 1. Clic **Seleccionar para cargar** y busque una imagen en el equipo para seleccionarla, agréguela y haga clic en **Usar imagen**.
 
-   La imagen se carga en la parte superior del cuadro de registro o página y los cambios se guardan automáticamente.
+   La imagen se carga en la parte superior de la página o vista previa del registro y los cambios se guardan automáticamente.
 
    ![](assets/record-page-with-cover-image.png)
 

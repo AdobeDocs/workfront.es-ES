@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 1%
 {{maestro-important-intro}}
 
 Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede crear tipos de registros personalizados que ilustran los elementos relacionados con el trabajo necesarios en el ciclo de vida de su organización.
-Los tipos de registro pueden ser uno de los siguientes:
 
 Para obtener más información sobre los tipos de registros, consulte [Resumen de los tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 

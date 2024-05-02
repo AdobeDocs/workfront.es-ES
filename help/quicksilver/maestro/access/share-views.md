@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar con registros en Adobe Workfront Planning.
 
 Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros usuarios para las vistas de las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios.
+
+Cuando comparte una vista, otorga a otros permisos para acceder a todos los elementos de la vista. Por ejemplo, cuando se les conceden permisos de administración de una vista, pueden modificar la apariencia de agrupación, filtro, ordenación o barra.
 
 <!--
 You can share a view with the following entities: 

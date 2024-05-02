@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
    O
 
-   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. El cuadro con la información detallada del registro se abre en la tabla.
+   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. Se abrirá en la tabla una vista previa con la información detallada del registro.
 
    >[!TIP]
    >
-   >Solo puede tener acceso al cuadro Detalles desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
+   >Puede acceder a las **Abrir detalles** solo desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
 
-1. Comience a editar la información del registro en el cuadro del registro. Workfront guarda automáticamente los cambios.
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro del registro para abrir la página del registro en una nueva ficha. Continúe editando el registro en la página de registros.
+1. Comience a editar la información del registro en la vista previa del registro. Workfront guarda automáticamente los cambios.
+1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña. Continúe editando el registro en la página de registros.
 
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros:
