@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [El nombre de usuario ya está en uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Creación de informes {#reporting}
    * [Informes y paneles: índice de artículos](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Lienzo de informes {#reporting-canvas}
-      * [Lienzo de informes](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Administración de informes {#manage-reports}
-         * [Información general sobre Administrar informes](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Creación de informes en lienzo de informes](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Exportación de un informe en el lienzo de informes](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Bloques de tabla {#table-blocks}
-         * [Bloques de tabla](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Adición o edición de un bloque de tabla en el lienzo de informes](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Configuración de una columna de tabla en el lienzo de informes](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Creación de un campo de fórmula en el lienzo de informes](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Agrupar filas de tabla en el lienzo de informes](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Filtrado de una tabla en el lienzo de informes](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Bloques de visualización {#visualization-blocks}
-         * [Bloques de visualización](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Adición o edición de un bloque de visualización en el lienzo de informes](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Configurar una visualización de barras en el lienzo de informes](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Configuración de una visualización de columnas en el lienzo de informes](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Configuración de la visualización circular en lienzo de informes](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Configurar una visualización de KPI en el lienzo de informes](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Otros bloques {#other-blocks}
-         * [Otros bloques](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Adición o edición de un bloque de contenido web en el lienzo de informes](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Paneles de lienzo {#canvas-dashboards}
+      * [Paneles de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Administrar paneles de lienzo {#manage-canvas-dashboards}
+         * [Administrar paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Introducción a los paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Agregar, quitar u organizar informes en un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Compartir un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Tipos de informes de Panel de lienzo {#report-types}
+         * [Resumen de tipos de informes de Panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Agregar un informe existente a un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Creación de un informe de KPI en un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Creación de un informe de gráfico en un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Creación de un informe de tabla en un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Añadir un informe de aprobaciones pendientes a un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Informes {#reports}
       * [Informes](reports-and-dashboards/reports/reports-overview.md)
       * Conceptos básicos de informes {#report-basics}

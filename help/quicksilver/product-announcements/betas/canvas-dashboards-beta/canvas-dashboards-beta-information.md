@@ -1,21 +1,81 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: Información beta de paneles de lienzo
 description: Información general sobre la versión beta de Paneles de lienzo
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Información beta de paneles de lienzo
+
+Paneles de lienzo es una función que se está desarrollando actualmente y que le permite visualizar fácilmente los datos de Adobe Workfront agregando varios tipos de informes a un lienzo personalizable. Tenga en cuenta que, aunque le agradecemos su participación durante la fase de prueba de la versión beta, es posible que algunas partes de la funcionalidad no estén completas o que no funcionen según lo previsto. Envíe sus comentarios sobre su experiencia siguiendo las instrucciones del [Proporcionar comentarios](#provide-feedback) más abajo.
+
+Para obtener información básica sobre el uso de paneles de lienzo, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Para obtener una lista de toda la documentación de paneles de lienzo, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+**Programación beta:**
+
+* Fecha de inicio de la versión beta cerrada: 2 de mayo de 2024
+* Fecha de inicio de la versión beta abierta: TBA
+* Fecha de lanzamiento planificada: por determinar
+
+## Participar en la versión beta
+
+### Inscribir
+
+Para inscribirse en la versión beta:
+
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
+
+1. Haga clic en **Únase a la versión beta de paneles de lienzo** botón beta en la esquina superior derecha de la página.
+
+1. Lea los términos y haga clic en **Aceptar**. Ahora está inscrito en la versión beta; sin embargo, tenga en cuenta que los datos de Workfront tardarán unos minutos en ser totalmente accesibles en los paneles de lienzo.
+
+### Proporcionar comentarios
+
+Los comentarios se agradecen a medida que desarrollamos esta herramienta durante el transcurso de la versión beta. Siga las instrucciones a continuación para compartir su experiencia con nosotros.
+
+1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
+
+1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. Haga clic en **Enviar comentarios** en la esquina inferior derecha de la página, introduzca sus comentarios en el formulario que aparece y haga clic en **Enviar**.
+
+## Funciones planificadas
+
+A continuación se ofrece una lista de los tipos de informes que admite actualmente la versión beta, así como una lista de otras funciones que planeamos agregar a los paneles de lienzo durante la versión beta y en etapas posteriores.
+
+### Tipos de informes admitidos
+
+* Informes existentes (informes creados con la herramienta de informes actual)
+* Informes de gráficos
+* Informes de KPI
+* Informes de tabla
+* Informes de aprobaciones pendientes
+
+### Características en desarrollo
+
+* Informes de tabla de matriz
+* Hojas
+* Contenido web incrustado
+* Informes de tableros
+* Filtros del panel
+* Caracteres comodín basados en fecha y usuario para filtros
+
+### Futuras funciones de hoja de ruta
+
+* Indicadores de nivel de panel
+* Compatibilidad con moneda
+
+
 
 <!--
 
