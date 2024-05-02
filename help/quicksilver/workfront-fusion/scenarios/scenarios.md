@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,5 @@ Esta sección contiene los siguientes artículos:
 * [[!DNL Adobe Workfront Fusion] ejemplo de escenario: Conectar correo electrónico, [!UICONTROL Analizador de texto], y [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restauración de una versión de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copia de módulos o escenarios en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [Actualización de un módulo a una nueva versión en un [!DNL Adobe Workfront Fusion] escenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Ver y administrar escenarios bloqueados en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

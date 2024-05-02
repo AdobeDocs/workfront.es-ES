@@ -9,7 +9,7 @@ description: Puede utilizar TLS mutuo en los módulos HTTP de Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Para obtener instrucciones sobre cómo cargar [!DNL Adobe Workfront Fusion] cert
 
 Puede utilizar los siguientes vínculos para descargar los certificados públicos de Workfront Fusion:
 
-### Certificados para el 25 de mayo de 2023 al 9 de junio de 2024
+### Certificados para el 23 de abril de 2023 al 7 de mayo de 2024
 
 >[!IMPORTANT]
 >
