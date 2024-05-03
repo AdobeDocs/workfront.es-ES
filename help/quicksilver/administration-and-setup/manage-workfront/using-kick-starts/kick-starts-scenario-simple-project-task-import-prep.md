@@ -5,11 +5,11 @@ keywords: KickStart, KickStart, KickStart, KickStart
 navigation-topic: use-kick-starts
 title: Kick-Starts preparación de importación de tareas y proyectos simples de escenarios
 description: Describe en detalle la configuración y los controles disponibles para una importación básica de proyectos y tareas mediante el método Kick Start.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -277,10 +277,10 @@ Vaya a la página de Kick-Starts. Seleccione los objetos Company, Group, Project
 
 Abra el archivo Workfront.xlsx que acaba de descargar. Vaya a la hoja Proyecto PROJ.
 
-![](assets/im2-350x14.png)\
+![](assets/im2.png)
 A menos que ya haya creado proyectos en Workfront, debe estar vacío.
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
 Establezca los valores de los siguientes campos de proyecto:
 
@@ -305,7 +305,7 @@ Introduzca la fecha planificada de inicio de cada proyecto en la columna setPlan
 * **Establezca otros detalles necesarios.**
 Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo de grupo y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía de CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja de usuario USUARIO y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USUARIO y escríbalo en la columna setSponsorID.
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Abra el archivo Workfront.xlsx que acaba de descargar. **Vaya a la hoja de tarea
 
 A menos que ya haya creado tareas en Workfront, esta hoja debe estar vacía.
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
 La forma más sencilla de asignar tareas es un proyecto a la vez (especialmente cuando las tareas son las mismas en cada proyecto). A continuación, puede copiar el plan de tareas para el primer proyecto y realizar pequeños ajustes en el plan de tareas para los proyectos siguientes. En los pasos restantes se da por hecho que está creando tareas únicamente para el proyecto Implementar Workfront. Según el escenario, se importarán 9 tareas por proyecto, por lo que se debe introducir TRUE en las filas 3 a 11 para la columna isNew.
 
@@ -364,7 +364,7 @@ Establezca la duración de cada tarea introduciendo el número de horas, días, 
 * Escriba la representación numérica completa del porcentaje completado en el campo setPercentComplete para cada tarea. Este valor no debe incluir el símbolo de porcentaje (%).
 * Incluya una descripción y otros detalles para cada tarea que esté creando, según sea necesario.
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
 * Las columnas setPlannedStartDate y setTaskConstraint no se utilizan para crear la escala de tiempo de este proyecto porque se basan en relaciones de predecesoras. En su lugar, puede introducir una fecha para cada tarea. En este caso, asegúrese de proporcionar también una restricción de tarea válida en la columna setTaskConstraint. Revise la Restricción de tarea y los artículos relacionados para obtener detalles sobre los valores válidos para este campo.
 

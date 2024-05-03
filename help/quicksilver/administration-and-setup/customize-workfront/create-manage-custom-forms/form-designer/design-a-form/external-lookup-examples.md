@@ -7,9 +7,10 @@ description: Un campo de búsqueda externa en un formulario personalizado llama 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Un campo de búsqueda externa en un formulario personalizado llama a una API ext
 
 Este artículo proporciona ejemplos del uso del campo Búsqueda externa para llamar a la misma instancia de Workfront o a una API pública. También puede utilizar la búsqueda externa para comunicarse con un sistema externo como Jira, Salesforce o ServiceNow.
 
-Para obtener más información sobre cómo agregar un campo de búsqueda externa a un formulario personalizado y definiciones adicionales de los componentes de búsqueda externos, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Los campos de búsqueda externa solo están disponibles en el nuevo diseñador de formularios, no en el generador de formularios heredado. Para obtener más información sobre cómo agregar un campo de búsqueda externa a un formulario personalizado y definiciones adicionales de los componentes de búsqueda externos, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configure un campo de búsqueda externa para la misma instancia de Workfront
 
@@ -127,4 +128,3 @@ Enumera todos los países: <https://api.first.org/data/v1/countries>
    ![Formulario personalizado con campo de búsqueda externo](assets/external-lookup-countries-example1.png)
 
    ![Opciones de búsqueda externa para un país según la región](assets/external-lookup-countries-example2.png)
-
