@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Vista previa: por determinar
 Cuando un usuario actualiza la información de un registro en la vista de tabla, otros usuarios pueden ver la información actualizada en el cuadro de detalles del registro (dentro de una vista) o en la página en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
 
 Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
+
+### Actualizaciones en tiempo real en la vista de calendario después de editar registros
+
+Producción: 3 de mayo de 2024
+
+Vista previa: pendiente de determinación.
+
+Cuando un usuario actualiza la información de un registro, otros usuarios pueden ver la información actualizada en la vista de calendario del registro en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
 
 <!--
 
