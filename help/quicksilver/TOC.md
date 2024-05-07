@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
 workflow-type: tm+mt
-source-wordcount: '14164'
+source-wordcount: '14212'
 ht-degree: 1%
 
 ---
@@ -2092,6 +2092,13 @@ ht-degree: 1%
       * [Introducción a Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Información general sobre Adobe Workfront Fusion](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Términos básicos en Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
+      * Escenarios de práctica de compilación {#practice-scenarios-in-workfront-fusion}
+         * [Crear escenarios de práctica](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+         * [Cree un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [Añadir un módulo de déclencheur a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [Utilice una función para actualizar un proyecto en un escenario simple en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [Añadir un filtro a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [Añadir un webhook a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Creación de un escenario de automatización de la práctica en Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Creación de un escenario de integración de prácticas en Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Protecciones de rendimiento de Adobe Workfront Fusion](workfront-fusion/get-started/fusion-performance-guardrails.md)
