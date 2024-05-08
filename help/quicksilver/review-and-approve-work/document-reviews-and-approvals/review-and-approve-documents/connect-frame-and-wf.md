@@ -5,13 +5,13 @@ title: Conectar Workfront y Frame.io
 description: Workfront utiliza Frame.io en el proceso de revisión y aprobación para conocer a las personas donde desean trabajar. El proceso de administración y aprobación del proyecto se administra en Workfront y el proceso de revisión se realiza en Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
+source-git-commit: a8a5205616a0bf30c5ba4b27a2ffb9fae4d52ac4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # Conectar Workfront y Frame.io
 
@@ -28,7 +28,7 @@ Workfront utiliza Frame.io en el proceso de revisión y aprobación para conocer
 
 ## Requisitos de acceso
 
-* Su organización debe incorporarse manualmente para utilizar la funcionalidad descrita en este artículo. Para obtener más información, consulte [Integración nativa alfa de Adobe Workfront y Frame.io: información general](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+* Su organización debe incorporarse manualmente a la versión beta para utilizar la funcionalidad descrita en este artículo. Para obtener más información, consulte [Integración nativa beta de Adobe Workfront y Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md).
 
 
 ## Conectar un grupo de Workfront a un equipo de Frame.io
@@ -121,5 +121,3 @@ El icono Frame.io junto al nombre del proyecto se vuelve morado indicando que la
 >[!IMPORTANT]
 >
 >Una vez que el proyecto está conectado para Frame.io, los cambios realizados en el grupo de proyectos no se reflejarán en Frame.io.
-
-
