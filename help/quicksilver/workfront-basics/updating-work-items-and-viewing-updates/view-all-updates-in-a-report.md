@@ -1,29 +1,29 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Ver todas las actualizaciones en un informe de Nota
-description: Ver todas las actualizaciones en un informe de Nota
+title: Ver todas las actualizaciones en un informe de notas
+description: Ver todas las actualizaciones en un informe de notas
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
-# Ver todas las actualizaciones en un informe de Nota
+# Ver todas las actualizaciones en un informe de notas
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-El área Actualizaciones de un objeto muestra un número máximo de 200 actualizaciones de forma predeterminada. Para ver todas las actualizaciones que cualquiera de los usuarios ha introducido para un objeto, puede crear un informe de Nota que muestre todas las actualizaciones.
+El área Actualizaciones de un objeto muestra un número máximo de 200 actualizaciones de forma predeterminada. Para ver todas las actualizaciones que cualquiera de los usuarios ha introducido para un objeto, puede crear un informe de nota que muestre todas las actualizaciones.
 
 >[!NOTE]
 >
->Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe de entrada de Journal. Para obtener más información, consulte [Informe del área Actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe Entrada de cuaderno. Para obtener más información, consulte [Informe sobre el área de Actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisitos de acceso
 
@@ -36,49 +36,58 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>Nuevo: estándar </p>
+   <p>Actual: plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
    <td> <p>Editar acceso a:</p> 
     <ul> 
      <li> <p>Creación de informes, tableros y calendarios</p> </li> 
-     <li> <p>Crear filtros, vistas y grupos</p> </li> 
-    </ul> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso.<br>Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+     <li> <p>Creación de filtros, vistas y agrupaciones</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Vista</p> <p>Nota: Si no tiene el permiso Ver o superior a un objeto, la información de ese objeto no se muestra en el informe.</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver</p> <p><b>NOTA</b></p>
+   <p>Si no tiene permiso de visualización o superior para un objeto, la información de ese objeto no se muestra en el informe.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Crear un informe de notas
+## Creación de un informe de notas
 
 La creación de un informe para Notas para cualquier objeto es idéntica, independientemente del objeto.
 
-Por ejemplo, para crear un informe de Nota para todas las notas de un proyecto:
+Por ejemplo, para crear un informe de notas para todas las notas de un proyecto:
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Informes**.
-1. Haga clic en **Nuevo informe** y, a continuación, elija **Nota**.
+1. Clic **Informes**.
+1. Clic **Nuevo informe**, luego elija **Nota**.
 
-1. (Opcional) Haga clic en **Vistas**, luego **Agregar columna** para agregar la variable **Nombre** del **Proyecto** en la vista del informe. 
+1. (Opcional) Haga clic en **Vistas**, entonces **Agregar columna** para añadir el **Nombre** de la **Proyecto** en la vista del informe. 
 
-1. (Opcional) Haga clic en **Agrupaciones**, luego **Agregar agrupación** para agrupar por **Nombre del proyecto**, si va a generar informes sobre varios proyectos al mismo tiempo.\
+1. (Opcional) Haga clic en **Agrupaciones**, entonces **Agregar agrupación** para agrupar por el **Nombre de proyecto**, si realiza informes sobre varios proyectos al mismo tiempo.\
    Esto garantiza que las notas se agrupen por sus respectivos proyectos, lo que facilita la lectura del informe. 
 
-1. (Opcional) Haga clic en **Filtros,** then **Agregar una regla de filtro** para filtrar solo por un proyecto o por proyectos específicos.
+1. (Opcional) Haga clic en **Filtros,** entonces **Agregar una regla de filtro**.
+1. Añadir un filtro para **Nota** > **Texto de nota** > **No en blanco**.
 
-1. (Condicional y opcional) Configure el **Nombre del proyecto** como **Igual** al nombre del proyecto para el que desea ver las actualizaciones.  
+   ![](assets/note-note-text-not-blank-filter.png)
 
+   >[!TIP]
+   >
+   >   Si se actualizó un campo de proyecto pero no se agregó ninguna nota en el momento de la actualización, la variable **Texto de nota** de la actualización se muestra como **(No se ha agregado texto para actualizar)**.
+
+
+1. (Opcional) Añada otro filtro para **Proyecto** > **Nombre** > **Igual a** y agregue uno o varios nombres de proyecto para los que desee ver notas.
 1. Haga clic en **Guardar + Cerrar**.\
-   En el informe se muestran todas las actualizaciones introducidas en el proyecto por todos los usuarios con permisos para al menos Ver el proyecto.
+   Todas las actualizaciones introducidas en el proyecto por todos los usuarios con permisos de al menos Ver el proyecto se muestran en el informe.

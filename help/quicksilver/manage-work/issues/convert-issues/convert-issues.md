@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Para obtener información sobre la conversión de problemas en proyectos, consul
 
 ## Consideraciones al convertir problemas
 
+* Al convertir problemas en tareas o proyectos, la mayor parte de la información del problema se transfiere a la tarea o al proyecto, a menos que se especifique lo contrario en este artículo.
 * El administrador de Workfront o del grupo ya ha establecido las preferencias de qué sucede con un problema, su resolución y el acceso de su contacto principal cuando se convierte en un proyecto o una tarea, como se describe en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront elimina todas las aprobaciones asociadas con problemas durante la conversión.
 * Workfront sobrescribe el objeto de resolución del problema al convertirlo en una tarea o un proyecto. La nueva tarea o problema se convierte en el nuevo objeto de resolución del problema después de la conversión.
@@ -76,7 +77,9 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   </tr> 
   <tr> 
    <td>Prioridad</td> 
-   <td>Transferencias de la plantilla. </td> 
+   <td><p>Transferencias del problema.</p>
+   <p>Al utilizar una plantilla para el proyecto convertido, tiene la opción de cambiar manualmente la prioridad. Si decide no cambiarlo, la prioridad del problema se transfiere al proyecto. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   </tr> 
   <tr> 
    <td>Portafolio</td> 
-   <td>Transferencias de la plantilla. De lo contrario, este campo está vacío.</td> 
+   <td>Transferencias de la plantilla. De lo contrario, este campo está vacío.</td> 
   </tr> 
   <tr> 
    <td>Programar</td> 
-   <td>Transferencias de la plantilla. De lo contrario, este campo está vacío.</td> 
+   <td>Transferencias de la plantilla. De lo contrario, este campo está vacío.</td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
@@ -157,7 +160,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ La siguiente tabla ilustra qué campos de problema son visibles desde los proyec
 | Campos de problema | Campo de proyecto o tarea | Lista o informe de proyecto | Área Detalles del proyecto | Lista de tareas o informe | Área Detalles de la tarea |
 |---|---|---|---|---|---|
 | Nombre del problema | Nombre de problema convertido | ✔ | ✔ | ✔ | ✔ |
-| Contacto primario | Nombre del creador del problema convertido | ✔ | `✔` | ✔ |   |
-| Fecha de entrada | Fecha de entrada de problema convertido | ✔ |   | ✔ |   |
+| Contacto primario | Nombre del creador del problema convertido | ✔ | `✔` | ✔ |  |
+| Fecha de entrada | Fecha de entrada de problema convertido | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

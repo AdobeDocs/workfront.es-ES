@@ -4,9 +4,9 @@ description: Cuando alguien le etiqueta en un comentario de registro, recibe una
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Cuando alguien le etiqueta en un comentario de registro, es posible que reciba una notificación en la aplicación para esa etiqueta.
+
+>[!IMPORTANT]
+>
+>Su empresa debe ser cliente de experiencia unificada de Adobe para poder recibir notificaciones de Workfront Planning.
+>
+>Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Para recibir notificaciones de Workfront Planning, la instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -76,12 +83,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 
-## Requisitos previos
-
-Su empresa debe ser cliente de Adobe de Unified Experience Workfront para que reciba una notificación en la aplicación cuando alguien le etiquete en un comentario de registro.
-
-Para determinar si es un usuario de experiencia unificada de Adobe, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Administración de notificaciones en la aplicación
 
 1. (Condicional) Cuando alguien le etiquete en un comentario de un registro, vaya a en la aplicación **Notificaciones** icono ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Para determinar si es un usuario de experiencia unificada de Adobe, consulte [Ex
 
 1. Haga clic en la notificación.
 
-   Se abre la página de detalles de registro en Workfront. Puede realizar actualizaciones en el registro o responder al comentario.
+   Se abre la página de detalles de registro en Workfront Planning. Puede realizar actualizaciones en el registro o responder al comentario.
 
 1. (Opcional) Haga clic en **Marcar todos como leídos** para indicar que ha leído todas las notificaciones.
 1. (Opcional) Haga clic en **Ver todo** para ir a **Notificaciones** página en Adobe Experience Cloud.

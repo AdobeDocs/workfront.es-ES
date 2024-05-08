@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ Se abrirá el área de Espacios de trabajo de Workfront Planning.
 
    Para obtener más información, consulte [Eliminar tipos de registros](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Opcional) Haga clic en el nombre de una vista en las pestañas de vista para editar una vista existente o haga clic en **+ Ver** para crear una vista.
+1. (Opcional) Pulse y haga clic en una tarjeta de tipo de registro para arrastrarla y soltarla en un nuevo lugar. Puede arrastrar y soltar tipos de registros de una sección de Workspace a otra.
 
-   Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Opcional) Haga clic en **Compartir** en la esquina superior derecha del espacio de trabajo para compartir el espacio de trabajo con otros usuarios.
 

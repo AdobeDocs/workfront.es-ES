@@ -4,9 +4,9 @@ description: Cuando alguien le etiqueta en un comentario de registro, recibe una
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Cuando alguien le etiqueta en un comentario de registro, recibe una notificación por correo electrónico para esa etiqueta.
+
+>[!IMPORTANT]
+>
+>Su empresa debe ser cliente de experiencia unificada de Adobe para poder recibir notificaciones de Workfront Planning.
+>
+>Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Para recibir notificaciones de Workfront Planning y administrar las preferencias de notificaciones, la instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
    <td>
@@ -78,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Administrar notificaciones por correo electrónico
 
-1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya a la notificación por correo electrónico que le informa de la etiqueta y del comentario.
+1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya a la notificación por correo electrónico que le informa de la etiqueta y del comentario. El remitente del correo electrónico es Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Se abre la página de detalles de registro en Workfront. Puede realizar actualizaciones en el registro o responder al comentario.
 
 1. (condicional) Si está disponible, haga clic en **Ver todas las notificaciones**. <!--check with Lilit - do non-IMS users have this button??-->
-La página Notificaciones se abre en Adobe Experience Cloud.
+El **Notificaciones** se abre en Adobe Experience Cloud.
