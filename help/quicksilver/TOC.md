@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
+source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
 workflow-type: tm+mt
 source-wordcount: '14212'
 ht-degree: 1%
@@ -2097,7 +2097,7 @@ ht-degree: 1%
          * [Cree un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
          * [Añadir un módulo de déclencheur a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
          * [Utilice una función para actualizar un proyecto en un escenario simple en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [Añadir un filtro a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [Añadir un filtro a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
          * [Añadir un webhook a un escenario básico en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Creación de un escenario de automatización de la práctica en Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Creación de un escenario de integración de prácticas en Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
