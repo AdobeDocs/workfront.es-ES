@@ -8,9 +8,9 @@ description: Un almacén de datos, similar a una base de datos o tabla simple, p
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Espacio de datos disponible
 
-Si su organización está en el nuevo modelo de plan de Workfront (paquetes Select, Prime y Ultimate), el plan de su organización afecta al tamaño y el número de almacenes de datos disponibles en su instancia de Fusion.
+Si su organización está en el nuevo modelo de plan de Workfront (paquetes Select, Prime y Ultimate), el tamaño total del almacén de datos es:
 
-### Plan definitivo
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Las instancias de Fusion en el paquete Ultimate reciben:
+### Ultimate plan
 
-* 500 MB de espacio
-* 50 almacenes de datos
+Fusion instances on the Ultimate package receive:
 
-### Planes Select y Prime
+* 500 MB of space
+* 50 data stores 
 
-Las instancias de Fusion en los paquetes Select o Prime reciben:
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB para las primeras 500K operaciones.
 
 * 10 MB por cada operación adicional de 100.000.
 
-Por ejemplo, una organización con 600 000 operaciones recibe 110 MB.
+  Por ejemplo, una organización con 600 000 operaciones recibe 110 MB.
+
+Su organización puede tener hasta 50 almacenes de datos. El tamaño combinado de estos almacenes de datos no puede superar el tamaño total del almacén de datos de su organización.
 
 ## Creación de un almacén de datos en [!DNL Workfront Fusion]
 
