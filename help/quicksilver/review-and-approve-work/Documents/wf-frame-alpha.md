@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Con esta integración, nuestro objetivo es permitir que los creativos permanezca
 
 Para permitirle probar fácilmente las nuevas funciones del programa beta, hemos creado una nueva cuenta de prueba Frame.io y la hemos conectado a un nuevo grupo llamado `Frame.io testing` en su entorno de vista previa de Workfront o de zona protegida.
 
-+++Amplíe para ver las instrucciones de las pruebas vasculares
++++Amplíe para ver las instrucciones básicas de prueba
 
 Para probar la funcionalidad, inicie sesión en la vista previa de Workfront o en la instancia de zona protegida y realice los siguientes pasos:
 
