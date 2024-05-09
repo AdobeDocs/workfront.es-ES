@@ -6,9 +6,9 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Puede vincular documentos y carpetas a Adobe Workfront desde las siguientes fuen
   </tr> 
   <tr> 
    <td role="rowheader">Revisión de Workfront </td> 
-   <td>Puede hacer que las pruebas creadas originalmente con Workfront Proof estén disponibles en Workfront. Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los distintos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</td> 
+   <td>Puede hacer que las pruebas creadas originalmente en Workfront Proof estén disponibles en Workfront. Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los distintos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -143,7 +143,8 @@ Puede vincular documentos a Workfront desde una aplicación externa como Google 
 
    >[!NOTE]
    >
-   >En el caso de los documentos vinculados a Box, el vínculo al documento en Box no se muestra hasta que se actualiza la página.
+   >* Si la dirección URL de descarga utilizada para vincular el documento supera los 2048 caracteres, el archivo no se puede vincular.
+   >* En el caso de los documentos vinculados a Box, el vínculo al documento en Box no se muestra hasta que se actualiza la página.
 
 ### Agregar una nueva versión de un documento vinculado {#add-a-new-version-of-a-linked-document}
 
@@ -192,18 +193,18 @@ Para obtener información sobre cómo agregar una nueva versión de un documento
 
 ### Vincular documentos de Workfront Proof {#link-workfront-proof-documents}
 
-Puede vincular pruebas a Workfront que existían originalmente en Workfront Proof. Al vincular una prueba desde Workfront Proof, todos los comentarios y demás metadatos asociados con la prueba están disponibles en Workfront.
+Puede vincular pruebas a Workfront que existían originalmente en Workfront Proof. Al vincular una prueba desde Workfront Proof, todos los comentarios y demás metadatos asociados a la prueba están disponibles en Workfront.
 
-Solo puede vincular las pruebas para las que tiene acceso de visualización en Workfront Proof.
+Solo puede vincular las pruebas para las que tenga acceso de visualización en Workfront Proof.
 
 1. Vaya a la **Documentos** área de Workfront donde desea colocar el documento.
-1. Clic **Añadir nuevo**, luego haga clic en **Desde Workfront Proof**.
+1. Clic **Añadir nuevo**, luego haga clic en **De Workfront Proof**.
 
    >[!NOTE]
    >
    >Las opciones de este menú pueden variar según los proveedores de terceros que estén configurados en su entorno.
 
-1. En el **Enlaces de revisión de Workfront** Cuando aparezca, empiece a escribir el nombre de la revisión que desea que esté disponible en Workfront.
+1. En el **Enlaces de revisión de Workfront Proof** Cuando aparezca, empiece a escribir el nombre de la revisión que desea que esté disponible en Workfront.
 
    La lista se filtra a medida que escribe.
 
