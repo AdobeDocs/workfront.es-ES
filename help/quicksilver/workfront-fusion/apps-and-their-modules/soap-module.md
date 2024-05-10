@@ -9,14 +9,14 @@ description: Puede utilizar el módulo SOAP para conectarse a las API de SOAP en
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Módulo SOAP]
+# [!UICONTROL JABÓN] módulo
 
 Puede usar el complemento [!UICONTROL JABÓN] módulo al que conectarse [!UICONTROL JABÓN] API en [!UICONTROL Adobe Workfront Fusion].
 
@@ -59,7 +59,11 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Uso del [!UICONTROL JABÓN] módulo
+## Limitaciones de la [!UICONTROL JABÓN] módulo
+
+>[!NOTE]
+>
+>Las redirecciones se desactivan durante la carga de WDSL. Esta es una función de seguridad, pero puede significar que las redirecciones no verificadas se bloquean cuando se ejecuta el módulo.
 
 El [!UICONTROL JABÓN] El módulo está actualmente en fase beta y no admite:
 
@@ -86,10 +90,10 @@ El [!UICONTROL JABÓN] El módulo está actualmente en fase beta y no admite:
 >     </complexContent>
 ></complexType>
 >```
+>
+>Este ejemplo incluye el `soapenc:Array`, `soapenc:arrayType` y `wsdl:arrayType` referencias, que aún no son compatibles con [!UICONTROL Workfront Fusion].
 
-Incluye el `soapenc:Array`, `soapenc:arrayType` y `wsdl:arrayType` referencias, que aún no son compatibles con [!UICONTROL Workfront Fusion].
-
-## Solución alternativa
+## Solución
 
 Si la variable [!UICONTROL JABÓN] El módulo rechaza procesar el archivo WSDL o genera varios errores en la configuración del módulo. Puede intentar utilizar el **[!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud]** en su lugar:
 
