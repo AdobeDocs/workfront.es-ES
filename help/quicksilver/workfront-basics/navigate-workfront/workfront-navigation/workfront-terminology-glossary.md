@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] El glosario enumera los términos más ut
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Línea base]</td> 
    <td>Una fuente de datos para medir iteraciones en un entorno Agile.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Gasto facturable]</td> 
+   <td> <p>Un gasto marcado como facturable al cliente. Puede ser un gasto planificado o un gasto real.</p> <p>Los campos Costo de gasto facturable planificado y Costo de gasto facturable real están disponibles para que los agregue a las vistas e informes. No aparecen en las páginas de detalles del proyecto o la tarea.</p>
+   <p>Puede encontrar estos campos en los siguientes tipos de informes:</p>
+   <ul>
+   <li>Línea base</li>
+   <li>Plantilla</li>
+   <li>Proyecto (Datos financieros)</li>
+   </ul>
+   <p>Para obtener más información sobre cómo marcar un gasto como facturable, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Administrar gastos del proyecto</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -795,7 +808,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
      <li>[!UICONTROL Condicionada por el esfuerzo]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la tarea [!UICONTROL Duración] y [!UICONTROL Tipo de duración]</a>.</p> 
-    —&gt; </td> 
+    --&gt; </td> 
    </tr> 
    <tr> 
    <td>[!UICONTROL Unidad de duración]</td> 
@@ -1305,7 +1318,21 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
    <td>En un informe de [!UICONTROL Entrada de cuaderno], se muestra el valor actualizado de un campo que reemplaza al valor de [!UICONTROL Número anterior].
    Para obtener más información, consulte "[!UICONTROL Valor de número anterior]" en este artículo.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Gasto no facturable]</td> 
+   <td> <p>Un gasto que no está marcado como facturable al cliente. Puede ser un gasto planificado o un gasto real.</p> <p>Los campos Costo de gasto no facturable planificado y Costo de gasto real no facturable están disponibles para que los agregue a las vistas e informes. No aparecen en las páginas de detalles del proyecto o la tarea.</p>
+   <p>Puede encontrar estos campos en los siguientes tipos de informes:</p>
+   <ul>
+   <li>Línea base</li>
+   <li>Plantilla</li>
+   <li>Proyecto (Datos financieros)</li>
+   </ul>
+   <p>Para obtener más información sobre cómo marcar un gasto como facturable, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Administrar gastos del proyecto</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Día no laborable]</td> 
    <td>Un día que no está asignado a la finalización de ninguna asignación. Generalmente es un día de vacaciones, un día festivo o un fin de semana. El término se muestra en el explorador de API. </td> 
   </tr> 
