@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 7%
 
 ---
@@ -69,6 +69,15 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 
 ### Permisos de Workspace
 
+Debe conceder a los usuarios permiso para acceder a los espacios de trabajo para que puedan acceder a las entidades siguientes:
+
+* Espacios de trabajo
+* Tipos de registro
+* Registros
+* Campos
+
+Los siguientes son los niveles de permisos para espacios de trabajo:
+
 |        | Administrar | Aportar | Ver |
 |--------|--------|------------|-------|
 | Editar | ✓ |            |       |
@@ -80,6 +89,9 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 
 Los permisos de Tipo de registro se heredan al conceder permisos al espacio de trabajo.
 
+A continuación se indican los niveles de permisos para los tipos de registro:
+
+
 |        | Administrar | Aportar | Ver |
 |--------|--------|------------|-------|
 | Crear | ✓ |            |       |
@@ -90,6 +102,9 @@ Los permisos de Tipo de registro se heredan al conceder permisos al espacio de t
 ### Permisos de registro
 
 Los permisos de registro se heredan al conceder permisos al espacio de trabajo.
+
+A continuación se indican los niveles de permisos para los registros:
+
 
 |        | Administrar | Aportar | Ver |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ Los siguientes permisos hacen referencia a los propios campos y no a los valores
 
 Debe conceder permisos independientes a las vistas de registros. La concesión de permisos al espacio de trabajo no concede permisos a las vistas de registros del espacio de trabajo.
 
+Debe conceder permiso a los usuarios para que puedan acceder a los siguientes elementos de vista:
+
+* Filtros
+* Visibilidad de campo
+* Ordenar
+* Agrupación
+* Altura de la fila
+* Configuración
+
+
 <!--You can share views internally or publicly. -->
+
+Los siguientes son los niveles de permisos para vistas y elementos de vista:
 
 |        | Administrar | Ver |
 |--------|--------|-------|

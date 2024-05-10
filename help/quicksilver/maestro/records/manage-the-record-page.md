@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Puede editar el diseño de la vista previa y la página del registro en Adobe Wo
 
 La vista previa de registros es una vista más pequeña de la página de registros que se muestra en la vista de un tipo de registro.
 
-Al cambiar el diseño de una vista previa y una página de registro, los cambios afectan a los cuadros y páginas de todos los registros del mismo tipo.
+Al cambiar el diseño de una vista previa y una página de registro, los cambios afectan a los cuadros de vista previa y a las páginas de detalles de todos los registros del mismo tipo.
+
+Este artículo describe cómo puede cambiar el diseño y el aspecto de un cuadro de vista previa de registro o de una página de registro. Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/maestro/records/edit-records.md).
 
 Debe crear tipos de registros y registros antes de poder empezar a editar páginas de registros.
 
