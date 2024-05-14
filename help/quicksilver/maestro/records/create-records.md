@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](../architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
-Todos los registros del tipo seleccionado se muestran en la vista de tabla.
+Todos los registros del tipo seleccionado se muestran en la vista.
 
-1. (Condicional) Si la página de tipo de registro no se abre en la vista de tabla, haga clic en la ficha de una vista de tabla o en **+ Ver** para crear una vista de tabla.
+1. (Condicional) Según la vista que muestre, siga uno de estos procedimientos:
 
-1. Para añadir nuevos registros, haga clic en **Nuevo registro** en la última fila de la tabla
+   * Desde la vista de tabla:
 
-   O
+      * Clic **Nuevo registro** en la última fila de la tabla
 
-   Clic **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
+      * Clic **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Empiece a escribir información en la nueva fila sobre el nuevo registro.
+   * Desde cualquier vista:
+
+      * Clic **Nuevo registro** en la esquina superior derecha de la página. Se abre el cuadro de vista previa de registros.
+
+1. Comience a escribir información en la nueva fila sobre el nuevo registro o en los campos que ve en el cuadro de vista previa.
 
    >[!NOTE]
    >
-   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda agregar un Nombre para el registro, ya que es útil identificar registros al vincularlos entre sí.
+   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda agregar un Nombre para el registro, ya que es útil identificar los registros por su nombre al vincular registros entre sí.
    >
    >  * Los campos que hacen referencia a otros tipos de registro o campos calculados son campos de sólo lectura.
 
-1. Siga agregando información en cada fila y haga clic en **Entrar** en el teclado para guardar los cambios.
+1. (Condicional) Al agregar registros en la tabla, continúe agregando información en cada fila y, a continuación, haga clic en **Entrar** en el teclado para guardar los cambios.
 
    O
 
@@ -136,8 +140,7 @@ Todos los registros del tipo seleccionado se muestran en la vista de tabla.
 1. Comience a editar la información del registro en la vista previa del registro. Workfront guarda automáticamente los cambios.
 1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña. Continúe editando el registro en la página de registros.
 
-
-1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros:
+1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros o su información al agregarlos en la vista de tabla:
 
    * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
    * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio

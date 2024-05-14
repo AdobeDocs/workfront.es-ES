@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Semana del 13 de mayo de 2024
+
+### Actualizaciones en tiempo real en la vista de cronología después de editar registros
+
+Producción: 14 de mayo de 2024
+
+Vista previa: pendiente de determinación.
+
+Cuando un usuario actualiza la información de un registro, otros usuarios pueden ver la información actualizada en la vista de escala de tiempo del registro en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
+
+### Agregar registro desde el encabezado de vista
+
+Producción: 14 de mayo de 2024
+
+Vista previa: por determinar
+
+Hemos añadido el botón &quot;Nuevo registro&quot; en el encabezado de una página de tipo de registro. Ahora puede crear registros desde cualquier vista. Antes de esta mejora, sólo se podían crear registros desde la vista de tabla.
+
+Para obtener más información, consulte [Creación de registros](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semana del 6 de mayo de 2024
 
