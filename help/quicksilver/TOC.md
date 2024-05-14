@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 1%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 1%
    * Configuración de integraciones {#configure-integrations}
       * [Configuración de integraciones](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Integraciones de Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Configuración de Workfront con el conector heredado de Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [Configure las variables [!DNL Workfront] y [!DNL Frame.io] integración](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Configuración de la integración as a Cloud Service de Experience Manager Assets](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Configuración de la integración de Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Configuración de Workfront con el conector heredado de Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Permitir que los usuarios accedan a la aplicación móvil](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Habilitar Adobe Workfront para Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [Configurar integraciones de documentos](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 1%
          * [Creación de un proyecto con una plantilla](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importar un proyecto desde Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Crear líneas base del proyecto](manage-work/projects/create-projects/create-baselines.md)
+         * [Cree un proyecto conectado con Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Actualización del trabajo en un proyecto {#update-work-on-a-project}
          * [Actualizar el trabajo de un proyecto: índice de artículos](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Aplicar estados al trabajo asociado a un grupo](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 1%
    * Revisión y aprobación de documentos {#document-reviews-and-approvals}
       * [Revisión y aprobación de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [Resumen de revisión y aprobación de recursos](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [Introducción a la revisión y aprobación de recursos con Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Revisar documentos {#review-and-approve-documents}
          * [Revisar documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Revisar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 1%
          * [Agregar revisores o aprobadores adicionales a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Quitar aprobadores o revisores de un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Crear una plantilla de aprobación](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Estado de aprobación del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Aprobar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Revisión {#proofing}
       * [Corrección: índice de artículos](review-and-approve-work/proofing/proofing.md)

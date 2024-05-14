@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -21,10 +21,11 @@ ht-degree: 6%
 Esta sección contiene los siguientes artículos:
 
 * [[!DNL Adobe Workfront] integraciones](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configurar [!DNL Workfront] con [!DNL Adobe Experience Manager] conector heredado](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Configure las variables [!DNL Workfront] y [!DNL Frame.io] integración](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Configure las variables [!DNL Experience Manager Assets as a Cloud Service] integración](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configure las variables [!DNL Experience Manager Assets Essentials] integración](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] Integraciones](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] y [!DNL Experience Manager Assets] Integraciones](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Configurar [!DNL Workfront] con [!DNL Adobe Experience Manager] conector heredado](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Activar [!UICONTROL Adobe Workfront para Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [Configurar integraciones de documentos](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Deshabilitar integraciones de documentos](../../administration-and-setup/configure-integrations/disable-document-integrations.md)

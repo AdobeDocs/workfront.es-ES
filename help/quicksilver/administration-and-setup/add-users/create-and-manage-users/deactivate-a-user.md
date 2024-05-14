@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Para obtener más información, consulte [Acerca de la desactivación de adminis
 
 ## Desactivar un usuario
 
+Tenga en cuenta lo siguiente al desactivar un usuario:
+
+* El usuario no podrá acceder al sistema.
+* Se eliminará al usuario de los vínculos de revisión de Frame.io, los recursos, los proyectos y las cuentas.
+   * La reactivación del usuario no los vuelve a añadir automáticamente a los elementos de Frame.io. Debe reasignar al usuario manualmente a proyectos, tareas y recursos de Workfront que requieran colaboración con Frame.io.
+* Se conservarán todos los datos asociados con el usuario.
+* Puede asignar una licencia de usuario desactivado a otro usuario.
+
+Para desactivar un usuario:
+
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
 1. Seleccione un usuario y haga clic en **Más** icono ![](assets/more-icon.png), luego haga clic en **Desactivar**.
@@ -126,6 +136,10 @@ Le recomendamos que cree un informe para los usuarios cuya desactivación haya p
 1. Seleccione un usuario y haga clic en el icono Más ![](assets/more-icon.png), luego haga clic en **Activar**.
 
 1. Asignar un nuevo **Nivel de acceso** en el menú desplegable, haga clic en **Reactivar**.
+
+### Impacto de la revisión y la aprobación de recursos al reactivar un usuario
+
+Los usuarios desactivados pierden el acceso a sus cuentas de Frame.io asignadas, así como a los proyectos, recursos y vínculos de revisión asignados. Si decide reactivar el usuario, debe reasignarlo manualmente a proyectos, tareas y recursos que requieran la colaboración de Frame.io.
 
 ### Impacto de la corrección al reactivar un usuario
 
