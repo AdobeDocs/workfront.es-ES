@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-### New warning about object visibility when connecting records 
+###  New Planning section added to the left panel of a Workfront project, portfolio, and program
 
-Production: <date>
+Production: <date> 
 
 Preview: To be determined
 
-When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
 
-For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+The following actions are available from the Planning section in Workfront: 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+* View connected Planning records 
+
+* Connect more records to the Workfront object 
+
+* Disconnect records  
+
+* Display more information about the connected records in the preview box 
+
+* Open records in the Planning area 
+
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -117,6 +127,29 @@ Vista previa: por determinar
 Hemos añadido el botón &quot;Nuevo registro&quot; en el encabezado de una página de tipo de registro. Ahora puede crear registros desde cualquier vista. Antes de esta mejora, sólo se podían crear registros desde la vista de tabla.
 
 Para obtener más información, consulte [Creación de registros](/help/quicksilver/maestro/records/create-records.md).
+
+
+### Nueva advertencia sobre la visibilidad de los objetos al conectar registros
+
+Producción: 15 de mayo de 2024
+
+Vista previa: por determinar
+
+Al crear conexiones a tipos de objeto fuera de Workfront Planning, ahora se le notifica que cualquier persona que trabaje en el espacio de trabajo actual tendrá visibilidad de todos los objetos vinculados y sus campos de búsqueda, independientemente de sus permisos y niveles de acceso en la otra aplicación.
+
+Por ejemplo, si vincula proyectos de campañas de Workfront Planning, todas las personas con acceso a Ver la campaña también tendrán acceso para ver los proyectos vinculados y la información de sus campos de búsqueda, incluso cuando no tengan permisos para los proyectos vinculados o acceso a proyectos en general. Puede obtener acceso a los registros de Planning cuando reciba permisos para espacios de trabajo.
+
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+## Agregar secciones a las páginas de vista previa y detalles del registro
+
+Producción: 15 de mayo de 2024
+
+Vista previa: por determinar
+
+Para organizar mejor la información en la página del registro para una legibilidad y navegación más eficientes, hemos introducido secciones en la página del registro. Los títulos de las secciones sirven como encabezados que organizan los campos en distintas categorías. Las secciones son totalmente personalizables y se pueden expandir o contraer, si es necesario.
+
+Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Semana del 6 de mayo de 2024
 

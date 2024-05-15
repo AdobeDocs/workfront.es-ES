@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -219,6 +219,8 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    > Debe crear formularios personalizados en Workfront para los objetos seleccionados antes de que se muestren en esta lista.
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en la **repositorio del Experience Manager** menú desplegable en el **Vincular recursos del siguiente repositorio** sección. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
+
+   <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
 

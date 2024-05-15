@@ -4,13 +4,13 @@ description: Cuando alguien le etiqueta en un comentario de registro, recibe una
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Administrar notificaciones por correo electrónico de Adobe Workfront Planning
 
@@ -94,4 +94,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Se abre la página de detalles de registro en Workfront. Puede realizar actualizaciones en el registro o responder al comentario.
 
 1. (condicional) Si está disponible, haga clic en **Ver todas las notificaciones**. <!--check with Lilit - do non-IMS users have this button??-->
-El **Notificaciones** se abre en Adobe Experience Cloud.
+El **Notificaciones** se abre en Adobe Experience Cloud. Se muestran todas las notificaciones de todas las aplicaciones de Adobe Experience Cloud.

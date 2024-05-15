@@ -4,13 +4,13 @@ description: Cuando alguien le etiqueta en un comentario de registro, recibe una
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Administrar notificaciones en la aplicación de Adobe Workfront Planning
 
@@ -85,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Administración de notificaciones en la aplicación
 
-1. (Condicional) Cuando alguien le etiquete en un comentario de un registro, vaya a en la aplicación **Notificaciones** icono ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
+1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya a la aplicación **Notificaciones** icono ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
