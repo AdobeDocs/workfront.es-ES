@@ -4,9 +4,10 @@ description: Mejoras del proyecto del tercer trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
+exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: Esta función se eliminó de la producción para clientes de versión rápida el 18 de marzo de 2024; producción para todos los clientes: por determinar.
-
-<span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span>
+>Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); producción para todos los clientes: por determinar.
 
 Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
 
@@ -38,9 +37,7 @@ Para obtener más información, consulte [Información general sobre asignacione
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: esta función se eliminó de la producción para clientes de versión rápida el 18 de marzo de 2024; producción para todos los clientes: por determinar.
-
-<span style="color: #ff0000;">Esta función se eliminó del entorno de producción para clientes de lanzamiento rápido el 18 de marzo de 2024.</span>
+>Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); producción para todos los clientes: por determinar.
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 

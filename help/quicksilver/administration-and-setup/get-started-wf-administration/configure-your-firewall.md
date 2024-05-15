@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Para utilizar el servicio de correo electrónico de AWS</td> 
+   <td role="rowheader">Para utilizar el servicio de correo electrónico</td> 
    <td> 
     <ul> 
      <li>54 240 60 174</li> 
@@ -202,6 +202,15 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Para utilizar el servicio de correo electrónico Mailgun</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -502,7 +511,7 @@ Si su organización utiliza el filtrado de red saliente, agregue los siguientes 
      <li>*.workfront.com: obligatorio para ver pruebas en Workfront</li> 
      <li>*.proofhq.com: obligatorio para ver pruebas en Workfront Proof</li> 
      <li>*.proofhq.eu: obligatorio para ver pruebas en Workfront Proof</li> 
-    </ul> <p><b>NOTA</b>:  <p>No admitimos la adición de direcciones IP a su lista de permitidos de Workfront Proof. Han sido dinámicos después de que Workfront se trasladara a AWS. En su lugar, recomendamos que solo permita los dominios de Workfront Proof.</p> <p>Si hay algún problema con la adición de estos dominios a la lista de permitidos y necesita una dirección IP, póngase en contacto con el servicio de atención al cliente de Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTA</b>:  <p>No admitimos la adición de direcciones IP a su lista de permitidos para Workfront Proof. Han sido dinámicos después de que Workfront se trasladara a AWS. En su lugar, le recomendamos que solo permita dominios de Workfront Proof.</p> <p>Si hay algún problema con la adición de estos dominios a la lista de permitidos y necesita una dirección IP, póngase en contacto con el servicio de atención al cliente de Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
