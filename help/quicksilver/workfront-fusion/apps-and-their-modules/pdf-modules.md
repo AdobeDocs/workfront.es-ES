@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3719'
 ht-degree: 0%
 
 ---
@@ -801,6 +801,44 @@ Este módulo de acción divide un documento de PDF en varios documentos más peq
    <li><p><b>Número de archivos</b></p><p>Introduzca el número de archivos de tamaño uniforme en los que desea dividir el documento.</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Realizar una llamada de API personalizada
+
+Este módulo de acción envía una solicitud HTTP personalizada a la API de servicios de PDF.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td> <p>Seleccione la conexión que se utilizará para este módulo.</p> Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Cree una conexión con [!DNL Adobe PDF Services]</a> en este artículo. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> Introduzca una ruta relativa o una dirección URL. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Método]</td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Encabezados]</td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion añade los encabezados de autorización automáticamente.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
+   <td> <p>Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campos]</td> 
+   <td> <p>Para cada campo que desee añadir a la llamada de API, haga clic en <b>Añadir elemento</b> e introduzca la clave y el valor opcional del campo.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
