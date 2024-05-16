@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Por ejemplo, si vincula proyectos de campañas de Workfront Planning, todas las 
 
 Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Agregar secciones a las páginas de vista previa y detalles del registro
+### Agregar secciones a las páginas de vista previa y detalles del registro
 
 Producción: 15 de mayo de 2024
 
@@ -150,6 +132,24 @@ Vista previa: por determinar
 Para organizar mejor la información en la página del registro para una legibilidad y navegación más eficientes, hemos introducido secciones en la página del registro. Los títulos de las secciones sirven como encabezados que organizan los campos en distintas categorías. Las secciones son totalmente personalizables y se pueden expandir o contraer, si es necesario.
 
 Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### Actualizaciones en tiempo real de los cambios de configuración de los campos
+
+Producción: 16 de mayo de 2024
+
+Vista previa: por determinar
+
+Cuando un usuario cambia cualquier configuración de campo (nombre, descripción, lista de opciones, etc.) en un tipo de registro, otros usuarios ven esos cambios en tiempo real. Esto garantiza que todos vean los campos correctos y su información al mismo tiempo.
+
+>[!WARNING]
+>
+>Cuando cambian las expresiones de fórmula o se agregan o eliminan opciones de un campo de tipo select, se perderán datos de los registros que ya tienen información almacenada en los campos cuya configuración se modifica.
+>
+>No hay advertencia ni indicación de que esta pérdida de datos pueda producirse al cambiar la configuración de los campos.
+>
+>No hay ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
+
+Para obtener más información, consulte [Editar campos](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## Semana del 6 de mayo de 2024
 

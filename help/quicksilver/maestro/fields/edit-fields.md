@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ Debe tener en cuenta lo siguiente antes de realizar cambios en la configuración
 * No se puede editar un campo en la página de registro ni en ninguna otra vista, fuera de la vista de tabla.
 * Una vez guardado el campo, no se puede editar el tipo de campo.
 * No puede anular la selección de la opción Permitir números negativos seleccionada anteriormente para un campo Número, Porcentaje o Moneda si ya hay valores negativos almacenados en los registros a los que está asociada.
+* Puede editar la configuración de los siguientes elementos de campo después de guardar el campo:
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * El nombre o la descripción de cualquier campo
+   * Las opciones de un campo de selección única o de selección múltiple.
+   * La expresión de un campo de fórmula.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >Cuando cambian las expresiones de fórmula o se agregan o eliminan opciones de un campo de tipo select, se perderán datos de los registros que ya tienen información almacenada en los campos cuya configuración se modifica.
+  >
+  >No hay advertencia ni indicación de que esta pérdida de datos pueda producirse al cambiar la configuración de los campos.
+  >
+  >No hay ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
