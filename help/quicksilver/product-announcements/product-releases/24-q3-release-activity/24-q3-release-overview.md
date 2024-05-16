@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 ## Mejoras de Adobe Workfront
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Mejoras en la gestión financiera](#financial-management-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
 * [Otras mejoras](#other-enhancements)
 
@@ -79,13 +80,65 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         </table>
 -->
 
+### Mejoras en la gestión financiera
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campos de gastos facturables y no facturables disponibles para proyectos y tareas</a></p>
+                        <p>[!BADGE en producción ]{type=Informative}</p>
+                        <p>Para ayudarle a ver con mayor facilidad los tipos de gastos, los gastos se han separado en gastos facturables y no facturables en proyectos y tareas. Los campos siguientes están disponibles para agregarlos a vistas e informes:</p>
+                        <ul>
+                            <li><p>Coste de gastos planificados facturables</p></li>
+                            <li><p>Costo de gasto no facturable planificado</p></li>
+                            <li><p>Costo de gasto real no facturable</p></li>
+                            <li><p>Costo de gasto real no facturable</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 10 de mayo de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 10 de mayo de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Mejoras del proyecto
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 13 de febrero de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: por determinar</p>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión de vista previa: 21 de diciembre de 2023</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: por determinar</p>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiencia de la IU mejorada para usuarios con acceso limitado a objetos</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
                         <p>Cuando un usuario no tiene acceso a un objeto, verá "Sin acceso" en cualquier lugar donde aparezca el nombre de ese objeto en Workfront. Esta experiencia mejorada también se aplica a la API de Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -181,11 +228,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## Anuncios
 
