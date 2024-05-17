@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 1%
+source-wordcount: '1838'
+ht-degree: 2%
 
 ---
 
 # Resumen de planificación de Adobe Workfront
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Tamaño del archivo CSV de Excel que puede importar* | 5 MB |
+| Número de vistas que un usuario puede crear para un tipo de registro | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 

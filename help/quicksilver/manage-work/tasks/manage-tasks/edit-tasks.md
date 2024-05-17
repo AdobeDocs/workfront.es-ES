@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3727'
 ht-degree: 3%
 
 ---
@@ -525,8 +525,8 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
       <li> <p>Usuario por hora </p> </li> 
       <li> <p>Rol por hora </p> </li> 
       <li> <p>Fijo por hora </p> </li> 
-      <li> <p>Usuario por hora sin tope </p> </li> 
-      <li> <p>Rol por hora con tope </p> </li> 
+      <li> <p>Usuario por hora sin límite </p> </li> 
+      <li> <p>Rol por hora con límite </p> </li> 
       <li> <p>Usuario por hora más fijos </p> </li> 
       <li> <p>Rol por hora más fijos </p> </li> 
       <li> <p>Ingresos fijos </p> </li> 
@@ -612,12 +612,12 @@ El administrador del sistema o del grupo puede personalizar los campos que se ve
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Los campos siguientes se incluyen en el encabezado del proyecto de forma predeterminada:
+Los campos siguientes se incluyen en el encabezado de la tarea de forma predeterminada:
 
 * Nombre de la tarea
 * Porcentaje completado
 * Asignaciones
-* Fecha y hora planificadas de finalización
+* Fecha planificada de finalización
 
   >[!CAUTION]
   >

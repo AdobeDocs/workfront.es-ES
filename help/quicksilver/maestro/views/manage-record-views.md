@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 * Calendario
 
   Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+Este artículo describe la siguiente información sobre las vistas de registros:
+
+* [Creación y edición de una vista](#create-or-edit-record-views)
+* [Eliminación de una vista](#delete-views)
+* [Duplicación de una vista](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Requisitos de acceso
 
@@ -93,7 +101,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Las vistas de Workfront Planning son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
-<!--* Each user can create a maximum of 100 views. -->
+* Cada usuario puede crear un máximo de 100 vistas. Puede mostrar más de 100 vistas para un tipo de registro, pero un usuario solo puede crear 100 vistas.
+* Puede compartir vistas que cree con otros usuarios. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/maestro/access/share-views.md).
 * Los siguientes elementos son exclusivos de cada vista de registro:
 
    * Filtro
@@ -108,14 +117,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   >[!NOTE]
   >
   > Debido a que Adobe Workfront Planning se encuentra actualmente en estado beta, es posible que algunos elementos de vista no estén disponibles para todas las vistas.
-
-Este artículo describe la siguiente información sobre las vistas de registros:
-
-* [Creación y edición de una vista](#create-or-edit-record-views)
-* [Eliminación de una vista](#delete-views)
-* [Duplicación de una vista](#duplicate-views)
-* [Compartir una vista](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Similitudes y diferencias entre vistas de registros
 
@@ -228,10 +229,6 @@ Primero, es posible que tenga que hacer clic en **Más** a la izquierda de la ú
 1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
    La vista se elimina para todos los usuarios que pueden acceder al área de registros y no se puede recuperar.
-
-## Compartir una vista
-
-Para obtener información sobre cómo compartir vistas, consulte [Compartir vistas](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

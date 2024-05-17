@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 ## Personalizar encabezados de objeto
 
 1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En el **Personalizar lo que ven los usuarios** menú desplegable, seleccione **Proyectos**, **Tareas** o **Problemas**.
+1. En el **Personalizar lo que ven los usuarios** menú desplegable, seleccione **Proyectos**, **Tareas**, o **Problemas**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
