@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Adobe Workfront]
-description: Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Adobe Workfront]
+title: Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Workfront]
+description: Este artículo proporciona definiciones de las fechas más comunes asociadas con proyectos, tareas y problemas en [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Adobe Workfront]
+# Información general sobre las fechas del proyecto, la tarea y el problema en [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ Según la variable [!UICONTROL Restricción de tarea], es posible que no pueda e
 
 Para obtener más información, consulte [Información general del proyecto [!UICONTROL Fecha planificada de inicio]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ El [!UICONTROL Fecha de entrada] es la fecha en la que se creó un proyecto, una
 
 El [!UICONTROL Fecha de entrada] no influye en la cronología de los proyectos, tareas o problemas, pero es importante para realizar un seguimiento y generar informes. [!DNL Workfront] genera automáticamente el [!UICONTROL Fecha de entrada] cuando se crea el objeto y no se puede editar manualmente.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Fecha real de inicio]
 
@@ -114,7 +117,7 @@ El [!UICONTROL Fecha de confirmación] es la fecha en la que un usuario asignado
 
 ## [!UICONTROL Fecha proyectada de inicio]
 
-El [!UICONTROL Fecha proyectada de inicio] es una fecha en tiempo real de cuándo se produjo el proyecto, la tarea o el problema y tiene en cuenta todos los retrasos. La fecha de inicio del proyecto, la tarea o el problema es más precisa que la del [!UICONTROL Fecha planificada de inicio]. El [!UICONTROL Fecha planificada de inicio] no tiene en cuenta los retrasos ni las fechas pasadas.
+El [!UICONTROL Fecha proyectada de inicio] es una fecha en tiempo real de cuando comienza el proyecto, la tarea o el problema y tiene en cuenta todos los retrasos. La fecha de inicio del proyecto, la tarea o el problema es más precisa que la del [!UICONTROL Fecha planificada de inicio]. El [!UICONTROL Fecha planificada de inicio] no tiene en cuenta los retrasos ni las fechas pasadas.
 
 Cuando planifique un proyecto por primera vez, la variable [!UICONTROL Fecha planificada de inicio] y el [!UICONTROL Fecha proyectada de inicio] de las tareas y del proyecto son idénticos. Dado que pueden producirse retrasos o que las tareas pueden completarse antes, la variable [!UICONTROL Fecha proyectada de inicio] puede ser diferente a la [!UICONTROL Fecha planificada de inicio].
 
@@ -132,7 +135,7 @@ Para obtener más información, consulte [Información general del proyecto [!UI
 
 El [!UICONTROL Fecha proyectada de finalización] es un indicador calculado en tiempo real de cuándo se completará el proyecto, la tarea o el problema. Cuando el proyecto, tarea o problema se marca como Completado, la variable [!UICONTROL Fecha proyectada de finalización] cambios en la fecha del [!UICONTROL Fecha real de finalización].
 
-Si todo va bien y según lo planificado, la [!UICONTROL Fecha proyectada de finalización] debe coincidir con el [!UICONTROL Fecha planificada de finalización]. De lo contrario, debido a los retrasos en las tareas predecesoras, la [!UICONTROL Fecha proyectada de finalización] podría diferir de la variable [!UICONTROL Fecha planificada de finalización].
+Si todo va bien y según lo planeado, la variable [!UICONTROL Fecha proyectada de finalización] debe coincidir con el [!UICONTROL Fecha planificada de finalización]. De lo contrario, debido a los retrasos en las tareas predecesoras, la variable [!UICONTROL Fecha proyectada de finalización] podría diferir de la variable [!UICONTROL Fecha planificada de finalización].
 
 Para obtener más información, consulte [Descripción general de [!UICONTROL Fecha proyectada de finalización] para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 

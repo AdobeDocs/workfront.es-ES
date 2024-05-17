@@ -2,11 +2,11 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Administrar columnas de tablero
-description: Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite.
+description: Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite. También puede definir directivas de columna.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Administrar columnas de tablero
+
+<!-- Audited: 05/2024 -->
 
 Un tablero nuevo contiene tres columnas de forma predeterminada. Puede agregar más columnas, cambiar el orden de las columnas, cambiar el nombre de las columnas y eliminar las columnas que no necesite.
 
@@ -32,21 +34,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: Colaborador o superior </p>
+        <p>o</p> 
+        <p>Actual: [!UICONTROL Request] o superior </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Añadir una columna a un tablero
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clic **[!UICONTROL Agregar columna]** a la derecha de las columnas existentes.
 1. En la nueva columna, escriba un nombre y haga clic en **[!UICONTROL Agregar columna]**.

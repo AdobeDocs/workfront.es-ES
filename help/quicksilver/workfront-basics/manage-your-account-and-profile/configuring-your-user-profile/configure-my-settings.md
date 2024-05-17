@@ -6,9 +6,9 @@ description: Su [!DNL Adobe Workfront] El perfil contiene información sobre ust
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Solamente permitir &lt;sso configuration=""&gt; Autenticación]</strong></td> 
-   <td> <p> Si su [!DNL Workfront] El administrador habilitó una integración de SSO con [!DNL Workfront] y ha actualizado los usuarios para el SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para su [!DNL Workfront] La instancia de es visible en este campo.</p> <p>Cuando se selecciona este campo, es necesario iniciar sesión en [!DNL Workfront] con sus credenciales de SSO. Si desmarca esta opción, podrá iniciar sesión en [!DNL Workfront] con su [!DNL Workfront] credenciales.</p> <p>Para obtener más información sobre la configuración [!DNL Workfront] con una solución de SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Inicio de sesión único [!DNL Adobe Workfront]</a>. Para obtener más información sobre la actualización de usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> </td> 
+   <td> <p> Si su [!DNL Workfront] El administrador habilitó una integración de SSO con [!DNL Workfront] y ha actualizado los usuarios para el SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para su [!DNL Workfront] La instancia de es visible en este campo.</p> <p>Cuando se selecciona este campo, es necesario iniciar sesión en [!DNL Workfront] con sus credenciales de SSO. Si desmarca esta opción, podrá iniciar sesión en [!DNL Workfront] con su [!DNL Workfront] credenciales.</p> <p>Para obtener más información sobre la configuración [!DNL Workfront] con una solución de SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Inicio de sesión único [!DNL Workfront]: índice del artículo</a>. Para obtener más información sobre la actualización de usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

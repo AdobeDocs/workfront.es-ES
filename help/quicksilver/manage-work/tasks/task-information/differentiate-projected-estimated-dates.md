@@ -7,9 +7,9 @@ description: Existen varios tipos de fechas que muestran la cronología de las t
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Este artículo describe las diferencias entre las fechas estimadas y proyectadas
 
 Cuando se crea la tarea por primera vez, las fechas planificadas, proyectadas y estimadas suelen coincidir. Existen algunas excepciones. 
 
-Para obtener más información sobre el proyecto, la tarea y las fechas de los problemas en Adobe Workfront, consulte [Información general sobre las fechas del proyecto, la tarea y el problema en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Para obtener más información sobre el proyecto, la tarea y las fechas de los problemas en Adobe Workfront, consulte [Información general sobre las fechas del proyecto, la tarea y el problema en Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Resumen de las fechas planificadas
 

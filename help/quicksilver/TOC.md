@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 1%
@@ -540,8 +540,8 @@ ht-degree: 1%
          * [Conceder acceso al Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Conceder acceso a Administración de recursos](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Concesión de acceso a Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Inicio de sesión único en Adobe Workfront {#sso}
-         * [Inicio de sesión único](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Inicio de sesión único en Workfront {#sso}
+         * [Inicio de sesión único: índice de artículos](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Información general sobre el inicio de sesión único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Actualizar usuarios para el inicio de sesión único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Configuración de Workfront con SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 1%
       * [[!DNL Adobe Workfront] objetos información general](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Comprender la navegación de un usuario con licencia de trabajo](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Comprender la navegación para un usuario con licencia de revisión](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Información general sobre las fechas del proyecto, la tarea y el problema en Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Información general sobre las fechas del proyecto, la tarea y el problema en Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Página de inicio {#home}
       * [Inicio](workfront-basics/using-home/home.md)
       * Nuevo inicio {#new-home}
