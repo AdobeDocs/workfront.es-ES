@@ -6,9 +6,9 @@ description: '"La información que muestra en [!DNL Adobe Workfront] se represen
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ Puede crear informes sobre los siguientes objetos al usar Report Builder en [!DN
 * [!UICONTROL Grupo de parámetros] (o [!UICONTROL Salto de sección])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programa]
-* [!UICONTROL Proyecto] ([!UICONTROL Datos financieros])
+* [!UICONTROL Proyecto (datos financieros)]
+   * La información financiera se rellena en [!UICONTROL Proyecto (datos financieros)] informa solo cuando los datos asociados con él tienen menos de 5 años. Por ejemplo, si se asignó una función a una tarea en enero de 2015 y hoy es septiembre de 2021, un campo financiero como el [!UICONTROL Fecha de asignación] para el rol no se rellena en la variable [!UICONTROL Proyecto (datos financieros)] informe.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >La información financiera se rellena en [!UICONTROL Proyecto] ([!UICONTROL Datos financieros]) informa solamente cuando los datos asociados con él tienen menos de 5 años. Por ejemplo, si se asignó una función a una tarea en enero de 2015 y hoy es septiembre de 2021, un campo financiero como el [!UICONTROL Fecha de asignación] para el rol no se rellena en la variable [!UICONTROL Proyecto (datos financieros)] informe.
+  >La ejecución de un informe de proyecto (datos financieros) realiza un nuevo cálculo de los datos financieros, que puede sobrescribir los datos financieros anteriores y puede tardar bastante tiempo. Para obtener más información sobre las consecuencias del recálculo de datos financieros, consulte [Recalcular finanzas del proyecto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Aprobación de revisión]
    * Permite ver información diversa acerca de la aprobación de pruebas, incluyendo: la prueba que se envió para su aprobación, información acerca de [!UICONTROL Aprobador], información sobre el solicitante (si el solicitante tiene licencia para [!DNL Workfront] usuario), información de la versión, el ID de prueba y la fecha de creación de la prueba.\
