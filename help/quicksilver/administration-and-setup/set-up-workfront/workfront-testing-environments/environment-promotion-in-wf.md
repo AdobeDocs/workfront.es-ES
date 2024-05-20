@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -58,10 +58,10 @@ La promoción del entorno no admite la capacidad de mover objetos transaccionale
 
 | Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Plantilla de diseño (UITMPL) | Plantilla de diseño<br>Tablero<br>Calendario*<br>Sección de calendario*<br>Página externa*<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Tablero (PTLTAB) | Tablero<br>Calendario*<br>Sección de calendario*<br>Página externa*<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Calendario* (CALEND) | Calendario*<br>Sección de calendario* |
-| Página externa* (EXTSEC) | Página externa* |
+| Plantilla de diseño (UITMPL) | Plantilla de diseño<br>Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
+| Tablero (PTLTAB) | Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
+| Calendario (CALEND) | Calendario<br>Sección de calendario |
+| Página externa (EXTSEC) | Página externa |
 | Informe (PTLSEC) | Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
 | Filtro (UIFT) | Filtrar<br>Parámetro |
 | Agrupación (UIGB) | Agrupación<br>Parámetro |
