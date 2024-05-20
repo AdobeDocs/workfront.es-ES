@@ -8,9 +8,9 @@ description: Aprenda a utilizar Workfront Proof para revisiones fuera de la orga
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Esta opción ilustra un flujo de trabajo en el que los clientes pueden ver todos
 
 El diseñador comparte primero la prueba con el administrador del proyecto (y con cualquier otro compañero). Los compañeros revisan la prueba y, si la aprueban, puede utilizar la función Compartir para compartirla con sus clientes. Para obtener más información, consulte [Uso compartido de una prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Crear una nueva prueba** : el diseñador crea una nueva prueba en [!DNL Workfront Proof] y lo comparte con los revisores internos. El diseñador convierte al administrador del proyecto en el propietario de la prueba.
 1. **Revisión interna** : el administrador del proyecto y otros compañeros revisan la prueba.
@@ -49,7 +49,7 @@ Puede repetir este proceso hasta que se apruebe la prueba.
 
 Esta opción ilustra un flujo de trabajo en el que el proceso de revisión lo administra el administrador del proyecto, que crea cualquier versión nueva (según sea necesario) y comparte la prueba con el cliente. No es necesario que el diseñador participe en el proceso de revisión).
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Crear una nueva prueba** - El diseñador crea una nueva prueba en [!DNL Workfront Proof] y lo comparte con revisores internos. El diseñador convierte al administrador del proyecto en el propietario de la prueba o, alternativamente, le asigna la función de [!UICONTROL Autor] en la revisión (consulte [Administración de funciones de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
