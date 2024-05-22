@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ Este módulo de acción realiza una de las siguientes conversiones:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Opciones]</td> 
    <td> <p>Active las opciones que desee al convertir el objeto. Las opciones están disponibles en función del objeto al que se convierta o desde el que se convierta.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copiar campos nativos]</td> 
+   <td> <p>Active esta opción para copiar cualquier campo nativo del objeto original al nuevo objeto.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copiar formularios personalizados]</td> 
+   <td> <p>Active esta opción para copiar cualquier campo nativo del objeto original al nuevo objeto.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1238,6 +1246,16 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Línea base</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Registro de facturación</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1298,6 +1316,16 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Tipo de cambio</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Gasto</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1316,6 +1344,16 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Documento externo</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
@@ -1522,7 +1560,7 @@ Consulte una lista de los [!DNL Workfront] tipos de objeto para los que puede ut
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
