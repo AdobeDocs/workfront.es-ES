@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+>[!NOTE]
+>
+>Las siguientes afirmaciones se aplican solamente a los nuevos planes.
+>
+>Para el plan seleccionado:
+>
+>1. Los administradores del sistema no pueden establecer límites para los grupos de inicio.
+>2. Los administradores del sistema solo pueden ver el número total de licencias utilizadas en todos los grupos de inicio.
+>3. Los administradores de grupo no pueden acceder a la página Licencias.
+>
+>Para los planes Prime y Ultimate:
+>
+>1. Los administradores del sistema pueden agregar Grupos de inicio a la página Licencias para ver el uso de las licencias en esos grupos y también pueden establecer límites de licencias.
+>2. Los administradores del grupo pueden acceder a la página Licencias y ver la utilización de las licencias en los grupos que gestionan y que los administradores del sistema han añadido a la página Licencias.
+>3. Los administradores de grupo no pueden ver información de otros grupos de inicio ni agregar máximos.
 
 ## Ver las licencias de su organización
 
