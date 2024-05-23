@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: 7ab92af92fe39ae3342190ffb74a08fecbdd88ec
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1845'
 ht-degree: 2%
 
 ---
@@ -97,6 +97,7 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 | Formato de texto enriquecido para campos de párrafo | ✓ |                                  |                 |
 | Módulos de Adobe Workfront Planning para Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiar y pegar información de un campo a otro | ✓ |                                  |                 |
+| Acceso a registros de Planning desde objetos de Workfront | ✓ |                                  |                 |
 
 ## Habilite Adobe Workfront Planning para los usuarios de la instancia de Workfront
 

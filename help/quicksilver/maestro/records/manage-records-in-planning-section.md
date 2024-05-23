@@ -4,18 +4,19 @@ description: Puede mostrar los registros conectados a objetos de Adobe Workfront
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Administrar registros en la sección Planificación de objetos de Adobe Workfront
@@ -101,7 +102,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/maestro/records/connect-records.md)
 * Puede ver la sección de Planning en un objeto de Workfront, incluso cuando no haya registros asociados al objeto de Workfront.
-* Puede conectar registros de Planning con objetos de Workfront desde Workfront, en la sección Planning.
+* Puede conectar registros de Planning con objetos de Workfront desde Workfront, en la sección de Planning cuando haya al menos un registro conectado al objeto de Workfront.
+* Debe tener permisos de Contribute o superiores en un espacio de trabajo para conectar registros de los objetos de Workfront.
 
 ## Administrar registros en la sección Planificación
 
@@ -132,17 +134,15 @@ La página del objeto se abre en Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-1. Haga clic en una tarjeta de registro para mostrar más información sobre el registro. Se muestra el cuadro de vista previa de registros.
-1. (Opcional) Comience a modificar los campos en el cuadro de vista previa del registro. Los cambios se guardarán automáticamente.
-1. (Opcional) Haga clic en **Abrir en una pestaña nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro de vista previa para abrir la página de detalles del registro.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Pase el ratón sobre una tarjeta de registro y haga clic en el icono de desconexión de registro **-**, luego haga clic en **Desconectar**.
 Ocurren lo siguiente:
    * El registro ya no está conectado al objeto Workfront.
    * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
-   * También se eliminan los valores de los campos de Workfront conectados al registro de Planning.
+   * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
 1. Clic **Connect** para conectar más registros.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Ocurren lo siguiente:
 
    * Los registros se conectan inmediatamente al objeto Workfront y se muestran en la sección Planificación.
    * El objeto Workfront se agrega al campo conectado del registro de Workfront Planning.
-   * Los valores de los campos de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
+   * Los valores de los campos de búsqueda de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
 
 <!--add more steps here for what happens after clicking Connect-->
 

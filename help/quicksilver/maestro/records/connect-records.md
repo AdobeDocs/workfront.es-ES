@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Conectar registros
-
-### Consideraciones sobre la conexión de registros
+## Consideraciones sobre la conexión de registros
 
 * Después de conectar los tipos de registros, los tipos de registros conectados se muestran como campos de registro vinculados en la tabla de los tipos de registros desde los que están vinculados y en las páginas de los registros.
 * Puede examinar y agregar registros y objetos de los tipos de registro y objeto vinculados desde los campos de registro vinculados.
@@ -150,6 +148,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       * [Creación de registros](../records/create-records.md)
 
    * Conexiones entre tipos de registro o entre tipos de registro y objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](../architecture/connect-record-types.md)
+* Puede conectar objetos de Workfront a registros de Workfront Planning en las siguientes áreas:
+   * Desde un registro de Planning en Workfront Planning.
+   * Desde la sección Planificación de un objeto de Workfront.
+
+## Conectar registros de Workfront Planning
 
 ### Conectar registros de Adobe Workfront Planning
 
@@ -379,3 +382,13 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    Quite los campos del objeto Workfront de **Campos seleccionados** área.
 
    Esto agrega o quita campos vinculados de los registros. La información asociada con los campos eliminados permanece en Adobe Experience Assets.
+
+## Conexión de registros de objetos de Workfront
+
+Debe tener lo siguiente para conectar registros de Workfront Planning desde objetos de Workfront:
+
+* Conexiones entre tipos de registros y tipos de objetos de Workfront.
+* Al menos una conexión entre un registro y un objeto de Workfront.
+* El administrador de Workfront o de grupo debe agregar la sección de Planning a los tipos de objeto de Workfront que pueden conectarse a los tipos de registro de Planning.
+
+Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

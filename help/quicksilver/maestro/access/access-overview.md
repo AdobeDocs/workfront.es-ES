@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Debe tener la siguiente configuración para utilizar Adobe Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalización del menú principal mediante una plantilla de diseño</a> y y <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Asignar usuarios a una plantilla de diseño</a>. </p>  
 </td>
   </tr>
  </tbody>
