@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Puede realizar este proceso en Workfront creando un paquete de objetos para move
 
 La capacidad de promoción del entorno está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. Se trata de objetos que se pueden configurar, como proyectos, equipos o formularios personalizados.
 
-La promoción del entorno no admite la capacidad de mover objetos transaccionales (con excepciones limitadas). No se pueden configurar los objetos transaccionales. Algunos ejemplos son las actualizaciones de actividades del sistema y las decisiones de prueba.
+Debido a que la promoción del entorno trata la configuración de objetos, los objetos transaccionales (objetos que cambian con frecuencia o que dependen en gran medida del caso de uso) no se incluyen. Algunos ejemplos de objetos transaccionales son documentos, problemas, solicitudes, actualizaciones y decisiones de revisión y prueba.
 
 * [Objetos de trabajo](#work-objects)
 * [Objetos de informes](#reporting-objects)
