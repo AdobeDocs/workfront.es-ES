@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ Esta tabla enumera las actividades de administración disponibles para:
   <tr> 
    <td>Creación y edición de perfiles de usuario</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de subgrupos</p> </td> 
+   <td>Creación y administración de subgrupos</td>
    <td>✓ </td> 
-   <td> <p>✓ *** de</p> </td> 
+   <td>✓ *** de</td> 
    <td>✓ *** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurar las preferencias de proyectos, tareas y problemas en el nivel del sistema</p> </td> 
+   <td>Configurar las preferencias de proyectos, tareas y problemas en el nivel del sistema</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Activar y desactivar las preferencias de proyectos, tareas y problemas para grupos y subgrupos</p> </td> 
+   <td>Activar y desactivar las preferencias de proyectos, tareas y problemas para grupos y subgrupos</td> 
    <td>✓ *** de</td> 
-   <td> <p>✓ *** de</p> </td> 
+   <td>✓ *** de</td> 
    <td>✓ *** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurar las preferencias de horas y hojas de horas en el sistema</p> </td> 
+   <td>Configurar las preferencias de horas y hojas de horas en el sistema</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Activar y desactivar las preferencias de horas y hojas de horas para grupos y subgrupos</p> </td> 
+   <td>Activar y desactivar las preferencias de horas y hojas de horas para grupos y subgrupos </td> 
    <td>✓ *** de</td> 
-   <td> <p>✓ *** de</p> </td> 
+   <td>✓ *** de</td> 
    <td>✓ *** de</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ Esta tabla enumera las actividades de administración disponibles para:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Crear y administrar formularios personalizados</p> </td> 
+   <td>Crear y administrar formularios personalizados</td> 
    <td>✓ </td> 
    <td>✓ ** de</td> 
    <td>✓ ** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de plantillas de diseño</p> </td> 
+   <td>Creación y administración de plantillas de diseño</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de procesos de aprobación para un grupo</p> </td> 
+   <td>Creación y administración de procesos de aprobación para un grupo</td> 
    <td>✓ *** de </td> 
-   <td> <p>✓ *** de</p> </td> 
+   <td>✓ *** de</td> 
    <td>✓ *** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de equipos</p> </td> 
+   <td>Creación y administración de equipos</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Crear y administrar tasas de cambio</p> </td> 
+   <td>Crear y administrar tasas de cambio</td> 
    <td>✓ </td> 
    <td>✓ ** de</td> 
    <td>✓ ** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de tipos de horas</p> </td> 
+   <td>Creación y administración de tipos de horas</td> 
    <td>✓ </td> 
    <td>✓ ** de</td> 
    <td>✓ ** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de rutas de hitos</p> </td> 
+   <td>Creación y administración de rutas de hitos</td> 
    <td>✓ </td> 
    <td>✓ ** de</td> 
    <td>✓ ** de</td> 
   </tr> 
   <tr> 
-   <td> <p>Crear y administrar programaciones</p> </td> 
+   <td>Crear y administrar programaciones</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creación y administración de empresas</p> </td> 
+   <td>Creación y administración de empresas</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Crear y administrar perfiles de hojas de horas</p> </td> 
+   <td>Crear y administrar perfiles de hojas de horas</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ Esta tabla enumera las actividades de administración disponibles para:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Crear y administrar prioridades, gravedades y condiciones</p> </td> 
+   <td>Crear y administrar prioridades, gravedades y condiciones</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Crear y administrar tipos de riesgos</p> </td> 
+   <td>Crear y administrar tipos de riesgos</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
