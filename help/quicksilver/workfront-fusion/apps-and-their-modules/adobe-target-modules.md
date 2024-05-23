@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Antes de usar el [!DNL Adobe Target] Conector de, debe asegurarse de que se cump
 
 ## Cree una conexión con [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Las conexiones creadas después del 3 de junio de 2024 requieren una conexión de servidor a servidor de Adobe Target.
+>
+>* Las conexiones de cuenta de servicio existentes seguirán funcionando hasta enero de 2025. Debe reemplazar las conexiones de su cuenta de servicio con las conexiones de servidor a servidor de Adobe Target para enero de 2024.
+>* Debe ser un desarrollador para su organización para crear una conexión de servidor a servidor de Adobe Target. La función de desarrollador se establece en Adobe Admin Console.
+
 Para crear una conexión para su [!DNL Adobe Target] módulos:
 
 1. Clic **[!UICONTROL Añadir]** situado junto al cuadro Conexión.
@@ -94,6 +101,11 @@ Para crear una conexión para su [!DNL Adobe Target] módulos:
         <td role="rowheader">[!UICONTROL Nombre de conexión]</td>
         <td>
           <p>Escriba un nombre para esta conexión.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Tipo de conexión]</td>
+        <td>Seleccione si va a crear una conexión de cuenta de servicio o una conexión de servidor a servidor de Adobe Target.<p><b>IMPORTANTE</b>: Las conexiones creadas después del 3 de junio de 2024 requieren una conexión de servidor a servidor de Adobe Target. Las conexiones de cuenta de servicio existentes seguirán funcionando hasta enero de 2025. Debe reemplazar las conexiones de su cuenta de servicio con las conexiones de servidor a servidor de Adobe Target para enero de 2024.
         </td>
       </tr>
       <tr>
