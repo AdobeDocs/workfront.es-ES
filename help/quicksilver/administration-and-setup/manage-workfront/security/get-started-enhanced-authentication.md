@@ -6,10 +6,10 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,6 @@ ht-degree: 3%
 Adobe Workfront está cambiando la administración del sistema de usuarios y contraseñas. Estos cambios se implementarán en una versión por fases llamada **Autenticación mejorada** experiencia. La autenticación mejorada ofrece a los usuarios una experiencia de inicio de sesión más coherente y segura en todos los productos y servicios de Workfront.
 
 La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
-
->[!IMPORTANT]
->
->La mayoría de los clientes utilizan actualmente la autenticación heredada y algunos utilizan la autenticación mejorada 1.0.
-> 
->Para comprobar qué tipo de autenticación está utilizando actualmente, vaya a *your_domain*.my.workfront.com/login. Si se le redirige a /auth/login, está utilizando la autenticación mejorada 1.0.
-> 
->Si se le redirige a https://login-a-xx.workfront.com/, donde &quot;xx&quot; podría ser EE. UU. (Estados Unidos), UE (Europa) o GCP (Google Cloud Platform) según su ubicación o plataforma, utilizará la autenticación mejorada 2.0.
->
->Todos los clientes pasarán a la autenticación mejorada 2.0 a finales de 2021.
 
 <table style="table-layout:auto"> 
  <col> 
