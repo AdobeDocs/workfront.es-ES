@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td>
    <p>Nuevo: Colaborador o superior</p>
    <p>O</p>
@@ -53,12 +53,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td>
+   <td role="rowheader">Configuraciones de nivel de acceso</td>
    <td><p>Ver o acceso superior a tareas y problemas</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Permisos de objeto</strong></td>
-   <td><p>Ver o permisos superiores de la tarea o el problema de Workfront</p></td>
+   <td role="rowheader">Permisos de objeto</td>
+   <td><p>Ver o permisos superiores de la tarea o el problema de Workfront</p>
+   <p><strong>Nota:</strong> Los usuarios con permisos de visualización en una tarea o un problema no pueden realizar ninguna acción en las tarjetas conectadas a ella, incluido mover la tarjeta a otra columna del tablero. Ver usuarios solo pueden abrir la tarjeta para ver sus propiedades y abrir la tarea o el problema conectado. Para solicitar acceso adicional, abra la tarea o el problema y solicite acceso allí.</td>
   </tr>
  </tbody> 
 </table>
