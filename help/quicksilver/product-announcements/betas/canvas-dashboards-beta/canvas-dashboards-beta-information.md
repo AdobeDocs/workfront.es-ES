@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obtener una lista de toda la documentación de paneles de lienzo, consulte 
 
 **Programación beta:**
 
-* Fecha de inicio de la versión beta cerrada: 2 de mayo de 2024
+* Fecha de inicio de la versión beta cerrada: por determinar
 * Fecha de inicio de la versión beta abierta: TBA
 * Fecha de lanzamiento planificada: por determinar
 
@@ -36,6 +36,10 @@ Para inscribirse en la versión beta:
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
 
 1. Haga clic en **Únase a la versión beta de paneles de lienzo** botón beta en la esquina superior derecha de la página.
+
+   >[!NOTE]
+   >
+   >Este botón solo está disponible si su organización ha sido aceptada en la versión beta cerrada. Cuando comience la versión beta abierta, estará disponible para todas las organizaciones.
 
 1. Lea los términos y haga clic en **Aceptar**. Ahora está inscrito en la versión beta; sin embargo, tenga en cuenta que los datos de Workfront tardarán unos minutos en ser totalmente accesibles en los paneles de lienzo.
 
@@ -63,12 +67,13 @@ A continuación se ofrece una lista de los tipos de informes que admite actualme
 
 ### Características en desarrollo
 
-* Informes de tabla de matriz
+* Caracteres comodín basados en fecha y usuario para filtros
+* Informes de Workfront Planning
+* Tipos de objetos adicionales de Workfront
+* Informes de tableros
+* Otras mejoras de uso
 * Hojas
 * Contenido web incrustado
-* Informes de tableros
-* Filtros del panel
-* Caracteres comodín basados en fecha y usuario para filtros
 
 ### Futuras funciones de hoja de ruta
 
