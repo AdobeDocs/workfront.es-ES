@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Para ver las plantillas disponibles, haga clic en **Plantillas** icono ![](asset
 ## Workfront templates
 
 Estas plantillas automatizan los procesos y flujos de trabajo de Workfront.
+
+### [!BADGE ¡Nuevo!]{type=Informative}
+
+Esta plantilla de Fusion crea una lista de comprobación estándar para todas las tarjetas que introducen una columna específica en un tablero específico de forma cronometrada.
 
 ### Workfront - Creación de proyectos desde CSV
 
@@ -86,11 +90,11 @@ Esta plantilla registra una línea de base de proyecto semanalmente todos los lu
 
 Una vez al mes, revise las plantillas de proyecto con su propia directiva con esta plantilla fácil de administrar que notifica a los usuarios correspondientes de las plantillas que infringen la directiva.
 
-## Workfront - Workfront Proof templates
+## Workfront - Plantillas de Workfront Proof
 
 Estas plantillas automatizan los flujos de trabajo que combinan Workfront con Workfront Proof.
 
-### Workfront Proof > Workfront: actualización del proyecto tras la decisión sobre la prueba
+### Workfront Proof > Workfront: actualización del proyecto al tomar una decisión sobre la prueba
 
 Cuando se toma una decisión sobre una prueba que se añade directamente a un proyecto, esta automatización recopila información sobre la decisión de la prueba, como quién tomó la decisión y, a continuación, refleja este progreso en el proyecto de Workfront correspondiente como actualización.
 
