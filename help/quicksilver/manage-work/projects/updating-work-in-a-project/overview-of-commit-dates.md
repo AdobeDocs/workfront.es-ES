@@ -7,14 +7,16 @@ description: La fecha de confirmación es la fecha en la que un usuario asignado
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Resumen de fecha de confirmación
+
+<!--{{highlighted-preview}}-->
 
 La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema.
 
@@ -47,6 +49,15 @@ Para obtener más información, consulte [Actualizar fechas de confirmación en 
 >* Cualquier otro usuario con permisos para la tarea.
 >
 >Para obtener más información sobre el propietario de la tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Localizar la fecha de confirmación de tareas y problemas
+
+Puede encontrar la Fecha de confirmación para tareas y problemas en las siguientes áreas de Workfront:
+
+* La página Detalles
+* El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

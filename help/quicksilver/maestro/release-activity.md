@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '6471'
+source-wordcount: '6571'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Actividad de versión de Adobe Workfront Planning
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 {{maestro-important-intro}}
 
@@ -49,7 +49,45 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New process for deleting a workspace 
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+
+### Share views with all members of a workspace by default
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
+
+For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
+
 -->
+
+## Semana del 27 de mayo de 2024
+
+### Introducción al operador de resumen UNIQUE para los campos de búsqueda
+
+Producción: 27 de mayo de 2024
+
+Vista previa: por determinar
+
+Se ha agregado el operador UNIQUE al agregar valores de campos de búsqueda.
+
+El operador UNIQUE elimina los duplicados de los valores de los campos de búsqueda y solo muestra un valor único. Por ejemplo, si agrega varios registros conectados y los valores de un campo de búsqueda son idénticos entre varios registros, Workfront muestra sólo uno de los valores del campo de búsqueda del registro original.
+
+El operador UNIQUE está disponible para todos los tipos de campo excepto para los siguientes:
+
+* Párrafo
+* Personas
+* Campo de casilla
+
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semana del 20 de mayo de 2024
 

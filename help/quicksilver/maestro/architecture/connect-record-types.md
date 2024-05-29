@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 0%
 
 ---
@@ -260,16 +260,21 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    * **MIN**: Muestra el valor más bajo de todos los valores procedentes de varios registros seleccionados en el campo de registro vinculado.
    * **SUM**: Muestra el total de todos los valores procedentes de varios registros seleccionados en el campo de registro vinculado.
    * **AVG**: Muestra el promedio de todos los valores procedentes de varios registros seleccionados en el campo de registro vinculado.
+   * **ÚNICO**: elimina los duplicados de los valores de los campos de búsqueda y solo muestra los valores únicos. Esto no está disponible para los siguientes tipos de campo:
+      * Párrafo
+      * Casilla de verificación
+      * Personas
 
    >[!NOTE]
    >
-   >Por ejemplo, puede vincular el registro de producto (registro vinculado) desde el registro de campaña (registro original) y asignarle el nombre &quot;Campo de producto&quot;. También puede vincular el campo Presupuesto del registro de producto del registro de campaña y llamarlo &quot;Presupuesto de producto&quot;. Si se le permite seleccionar varios registros en el &quot;Campo de producto&quot;, puede seleccionar el Producto 1 con un presupuesto de 120 000 $ y el Producto 2 con un presupuesto de 100 000 $. Puede ver la siguiente información de presupuesto en el campo vinculado desde el registro original, en función del agregador que elija:
+   >Por ejemplo, puede vincular el registro de producto (registro vinculado) desde el registro de campaña (registro original) y asignarle el nombre &quot;Campo de producto&quot;. También puede vincular el campo Presupuesto del registro de producto del registro de campaña y llamarlo &quot;Presupuesto de producto&quot;. Si se le permite seleccionar varios registros en el &quot;Campo de producto&quot;, puede seleccionar el Producto 1 con un Presupuesto de 100 000 $ y el Producto 2 con un Presupuesto de 110 000 $, y el Producto 3 con un Presupuesto de 100 000 $. Puede ver la siguiente información de presupuesto en el campo vinculado desde el registro original, en función del agregador que elija:
    >
-   >* **Ninguno**: 120 000 $, 100 000 $
-   >* **MAX**: 120 000 $
+   >* **Ninguno**: 100 000 $, 110 000 $, 100 000 $
+   >* **MAX**: 110 000 $
    >* **MIN**: 100 000 $
-   >* **SUM**: 220 000 $
-   >* **AVG**: 110 000 $
+   >* **SUM**: 310 000 $
+   >* **AVG**: 103.000,33 $
+   >* **ÚNICO**: 100 000 $
    >
 
 1. (Opcional) Utilice la variable **búsqueda** icono ![](assets/search-icon.png) para buscar un campo.
