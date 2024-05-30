@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Esta página describe todas las mejoras de proyecto realizadas con la versión d
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea
+## Edite la tarea y emita la fecha y condición de confirmación desde el encabezado o la sección Detalles
 
 >[!NOTE]
 >
->Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.7 (julio de 2024).
+>Versión de vista previa: 30 de mayo de 2024; producción para versión rápida: con la versión 24.6 (13 de junio de 2024); versión de producción para todos los clientes: con la versión 24.7 (julio de 2024).
 
-Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
+Para facilitar la actualización de tareas y problemas, ahora se han añadido los campos Fecha de confirmación y Condición como opciones para agregar a las secciones Encabezados de tareas y problemas y Detalles en una plantilla de diseño. Los usuarios ahora pueden actualizar estos campos desde el encabezado o la sección Detalles de una página cuando se les asigna a la plantilla de diseño modificada. Antes de esta mejora, no se podía agregar la condición y la fecha de confirmación de las tareas y problemas al personalizar los encabezados.
 
-* Cuadro de diálogo Nueva tarea al agregar una tarea a un proyecto
+Para obtener información sobre la actualización de la fecha y la condición de confirmación, consulte los siguientes artículos:
 
-* En una lista de tareas de proyecto
+* [Actualizar condición para tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Actualizar la fecha de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Asignaciones inteligentes más relevantes
 

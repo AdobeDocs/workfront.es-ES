@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 0%
 
 ---
 
@@ -139,6 +139,26 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edite la tarea y emita la fecha y condición de confirmación desde el encabezado o la sección Detalles</a></p>
+                        <p><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
+                        <p>Para facilitar la actualización de tareas y problemas, ahora se han añadido los campos Fecha de confirmación y Condición como opciones para agregar a las secciones Encabezados de tareas y problemas y Detalles en una plantilla de diseño. Los usuarios ahora pueden actualizar estos campos desde el encabezado o la sección Detalles de una página cuando se les asigna a la plantilla de diseño modificada.   </p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 30 de mayo de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para lanzamiento rápido: con la versión 24.6 (13 de junio de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
                         <p>[!BADGE En producción para lanzamiento rápido ]{type=Positive}</p>
