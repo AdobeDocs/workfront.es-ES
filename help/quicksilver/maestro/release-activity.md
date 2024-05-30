@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ Producción: 30 de mayo de 2024
 
 Vista previa: por determinar
 
-Hemos actualizado el aspecto del icono de Planning en el área del menú principal. Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+Hemos actualizado el aspecto del icono del área de planificación en el menú principal. Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+
+### Cambio del nombre del programa de Workfront Planning
+
+A partir del 30 de mayo de 2024, el programa de planificación de Adobe Workfront pasará de la fase beta a una fase de acceso anticipado. Verá este cambio en la terminología de nuestra documentación.
+
+La fase de acceso anticipado también se limita a unos pocos clientes de Workfront.
+
+El representante de la cuenta le informará si cumple los requisitos para participar en la fase de acceso anticipado.
 
 ## Semana del 20 de mayo de 2024
 
