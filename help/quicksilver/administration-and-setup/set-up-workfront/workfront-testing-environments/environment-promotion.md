@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 2%
 
 ---
@@ -509,7 +509,7 @@ Para cada objeto de promoción, siga uno de estos procedimientos `actions`  se c
   </tr> 
   <tr> 
    <td>SOBRESCRITURA</td> 
-   <td><p>Esta acción no se establecerá automáticamente.</p><p>Esta acción permite actualizar un objeto que existe en el entorno de destino. Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.<ul><li>Un usuario puede actualizar un objeto en el entorno de prueba y, a continuación, utilizar la acción SOBRESCRIBIR para actualizar ese objeto en el entorno de destino.</p></li><li><p>Si el usuario instala un paquete de promoción inicialmente y, posteriormente, un paquete nuevo (o actualizado) contiene cambios en los objetos del paquete inicial, el usuario puede utilizar OVERWRITING para reemplazar (anular) los objetos instalados anteriormente. </p></li><ul></td> 
+   <td><p>Esta acción no se establecerá automáticamente.</p><p>Esta acción permite actualizar un objeto que existe en el entorno de destino. Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.<ul><li>Un usuario puede actualizar un objeto en el entorno de prueba y, a continuación, utilizar la acción SOBRESCRIBIR para actualizar ese objeto en el entorno de destino.</p></li><li><p>Si el usuario instala un paquete de promoción inicialmente y, posteriormente, un paquete nuevo (o actualizado) contiene cambios en los objetos del paquete inicial, el usuario puede utilizar OVERWRITING para reemplazar (anular) los objetos instalados anteriormente. </p><p>Para obtener más información sobre la sobrescritura, consulte la sección [Sobrescritura](#overwriting) en este artículo.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORAR</td> 
@@ -891,7 +891,209 @@ _Empty_
 }
 ```
 
+## Sobrescritura
 
+Este es un proceso de tres pasos.
+
+1. Crear un mapa de traducción (esto es análogo a la fase de &quot;preparación de la instalación&quot;).
+1. Edite el mapa de traducción generado configurando la variable `action` y `targetId` campos para cualquier objeto que desee sobrescribir. La acción debe ser `OVERWRITING`, y el `targetId` debe ser el uuid del objeto que se debe sobrescribir
+1. Ejecute la instalación.
+
+* [Paso 1: Creación de un mapa de traducción](#step-1---create-a-translation-map)
+* [Paso 2: Modificación del mapa de traducción](#step-2---modify-the-translation-map)
+* [Paso 3: Instalación](#step-3---install)
+
+### **Paso 1: Creación de un mapa de traducción**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Cuerpo
+
+Ninguno
+
+#### Respuesta
+
+Un mapa de traducción, con un `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Ejemplo
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Paso 2: Modificación del mapa de traducción
+
+No hay punto final para este paso.
+
+1. En el mapa de traducción devuelto en [Paso 1: Creación de un mapa de traducción](#step-1---create-a-translation-map), inspeccione la lista de objetos que se instalarán.
+1. Actualice el campo de acción de cada objeto a la acción de instalación deseada.
+1. Validar la `targetId` en cada objeto. Si la acción establecida es `USEEXISTING` o `OVERWRITING`, el `targetId` debe establecerse en el UUID del objeto de destino en el entorno de destino. Para cualquier otra acción, targetId debe ser una cadena vacía.
+
+   >[!NOTE]
+   >
+   >El `targetId` ya se ha rellenado si se detecta una colisión.
+
+### **Paso 3: Instalación**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Cuerpo
+
+Es un objeto con un solo campo `translationMap`, que debe coincidir con el mapa de traducción modificado de [Paso 2: Modificación del mapa de traducción](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Ejemplo
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Respuesta
+
+La respuesta incluye lo siguiente `{uuid of the created installation}` y una `202 - ACCEPTED` estado.
+
+Ejemplo: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
