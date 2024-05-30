@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -249,15 +249,17 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Planificación]**.
 
-## Introducción importante de Maestro: {#maestro-important-intro}
+## Introducción importante a Workfront Planning: {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
 >
->Actualmente, Workfront Planning forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
+>Actualmente, Workfront Planning se encuentra en una fase de acceso anticipado abierta a un número limitado de clientes.
 >
->Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta de Workfront Planning.
+>Debe ser cliente de Workfront para utilizar estas funciones.
+>
+>El representante de cuentas le informará si forma parte de esta fase.
 >
 >Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 

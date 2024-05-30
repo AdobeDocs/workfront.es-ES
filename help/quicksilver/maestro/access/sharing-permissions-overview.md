@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Información general sobre los permisos de uso compartido en Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Puede compartir o quitar permisos en un espacio de trabajo o vista en Adobe Workfront Planning.
 
@@ -75,9 +75,9 @@ Debe conceder a los usuarios permiso para acceder a los espacios de trabajo para
 * Tipos de registro
 * Registros
 * Campos
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* Vistas*
+
+  *Puede permitir que todos los usuarios con permisos de Vista o superiores de un espacio de trabajo también accedan a las vistas del espacio de trabajo. Se trata de un permiso adicional que debe habilitar al compartir una vista. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/maestro/access/share-views.md).
 
 Los siguientes son los niveles de permisos para espacios de trabajo:
 
@@ -147,17 +147,19 @@ Debe conceder permiso a los usuarios para que puedan acceder a los siguientes el
 
 Los siguientes son los niveles de permisos para vistas y elementos de vista:
 
-|        | Administrar | Ver |
-|--------|--------|-------|
-| Editar | ✓ |       |
-| Eliminar | ✓ |       |
-| Compartir | ✓ |       |
-| Ver | ✓ | ✓ |
-| Aplicar | ✓ | ✓ |
+|        | Administrar (solo pueden acceder las personas invitadas) | Ver (solo pueden acceder las personas invitadas) | Todos los usuarios del espacio de trabajo pueden ver* |
+|--------|--------|-------|------------------------------|
+| Editar | ✓ |       |                            |
+| Eliminar | ✓ |       |                            |
+| Compartir | ✓ |       |                           |
+| Ver | ✓ | ✓ | ✓ |
+| Aplicar | ✓ | ✓ | ✓ |
 
-<!--Replace the above with this when global sharing is released: 
+*Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

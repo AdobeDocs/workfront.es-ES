@@ -6,24 +6,22 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 0%
+source-wordcount: '1032'
+ht-degree: 1%
 
 ---
 
 # Actualizar condición para tareas y problemas
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 La condición de una tarea o problema es un indicador colocado en él para indicar cómo va. Esto es diferente al Estado del elemento de trabajo, que indica la fase actual de desarrollo del elemento.
 
 Puede establecer la condición de una tarea o un problema de forma automática o manual.
 
 Los valores de Condición a los que nos referimos en este artículo están disponibles en Workfront de forma predeterminada. El administrador de Adobe Workfront puede crear condiciones personalizadas para su entorno, tal como se describe en [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-<!--You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.-->
 
 ## Requisitos de acceso {#access-requirements}
 
@@ -74,12 +72,11 @@ Se le debe asignar una tarea o un problema para poder actualizar manualmente su 
 
 Las condiciones se muestran como un indicador asociado a tareas o problemas. También pueden asociarse con un número que se puede mostrar en los informes en lugar de en la etiqueta. Para obtener más información sobre cómo asociar condiciones con números, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Puede localizar la Condición de las tareas y los problemas en las siguientes áreas de Workfront:
+Puede localizar la Condición de las tareas y problemas en las siguientes áreas de Workfront:
 
-<!--* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>-->
+* <span class="preview">La página Detalles, después de que un administrador de Workfront o de un grupo la añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de la vista Detalles mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Encabezado de una tarea o problema, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 * El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -123,7 +120,31 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Para actualizar de forma manual la condición de una tarea o un problema:
+Para actualizar manualmente la condición de una tarea o un problema, realice una de las siguientes acciones:
+
+<div class="preview">
+
+1. Para actualizar la condición de una tarea o problema en el encabezado de tarea o problema:
+
+   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición al encabezado de tarea o problema de la plantilla de diseño, haga clic en **Condición** en el encabezado y seleccione una de las siguientes opciones:
+      * Sin problemas
+      * Algunas preocupaciones
+      * Impedimentos mayores
+
+      ![](assets/condition-in-task-header.png)
+   1. Haga clic en Entrar para guardar la condición.
+
+1. Para actualizar la condición de una tarea o problema en la sección Detalles de la tarea o problema:
+
+   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo, haga clic en **Condición** y seleccione una de las siguientes opciones:
+      * Sin problemas
+      * Algunas preocupaciones
+      * Impedimentos mayores
+1. Clic **Guardar cambios**. Se actualiza la condición de la tarea o el problema.
+
+</div>
+
+Para actualizar la condición de una tarea o un problema en un informe o una lista:
 
 1. Vaya a una lista de tareas o problemas para los que tenga permisos de administración. Asegúrese de que **Condición** Este campo es visible en la vista de la lista.
 
@@ -138,50 +159,8 @@ Para actualizar de forma manual la condición de una tarea o un problema:
 
 1. Prensa **Entrar** en el teclado o haga clic fuera del campo Condición para guardar la nueva condición de tarea o problema.
 
-
-<!--
-Replace the above with the following when we release Condition to headers and Details page:
-
-To manually update the Condition of a task or an issue do one of the following:
-
-<div class="preview">
-
-1. To update the Condition of a task or issue in the task or issue header:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-
-          ![](assets/condition-in-task-header.png)
-     1. Click Enter to save the Condition. 
-
-1. To update the Condition of a task or issue in the task or issue Details section:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-1. Click **Save Changes**. The Condition of the task or issue is updated. 
-
-</div>
-
-To update the Condition of a task or issue in a report or list: 
-
-1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
-
-1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
-
-    ![](assets/condition-drop-down-values-in-task-list.png)
-
-     >[!NOTE]
-     >
-     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-
-1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
-
--->
 <!--   
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->
+
+

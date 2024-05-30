@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Administrar las preferencias de notificación de Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Cuando alguien le añada a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico.
 

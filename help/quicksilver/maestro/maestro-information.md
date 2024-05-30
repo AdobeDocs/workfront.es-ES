@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Puede utilizar esta página como punto de partida para toda la documentación relacionada con Adobe Workfront Planning.
 
@@ -49,7 +49,7 @@ Acceda a los siguientes artículos para obtener una descripción general de la n
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Resumen de planificación de Adobe Workfront](maestro-overview.md): Información general de alto nivel sobre Adobe Workfront Planning, incluida la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Workfront Planning aquí.
-* [Actividad de versión de Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md): Una lista de todas las funciones que se han lanzado desde el lanzamiento del programa beta cerrado de Adobe Workfront Planning, el 22 de mayo de 2023 con las fechas exactas de lanzamiento y una breve descripción general de cada función.
+* [Actividad de versión de Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md): una lista de todas las funciones que se han lanzado desde el lanzamiento del programa Adobe Workfront Planning, el 22 de mayo de 2023 con fechas de lanzamiento exactas y una breve descripción general de cada función.
 * [Módulos de Adobe Workfront Planning para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Arquitectura y funcionalidad de Workfront Planning

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 2%
@@ -26,9 +26,11 @@ ht-degree: 2%
 >
 >La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
 >
->Actualmente, Adobe Workfront Planning forma parte de un programa beta abierto a un número limitado de clientes. Debe ser cliente de Workfront para utilizar estas funciones.
+>Actualmente, Workfront Planning se encuentra en una fase de acceso anticipado abierta a un número limitado de clientes.
 >
->Póngase en contacto con su representante de cuentas para obtener más información sobre cómo unirse al programa beta de Workfront Planning.
+>Debe ser cliente de Workfront para utilizar estas funciones.
+>
+>El representante de la cuenta le habría informado si formaba parte de esta etapa.
 >
 >Para obtener una lista completa de todas las secciones y artículos que documentan Workfront Planning, consulte [Adobe Workfront Planning: índice de artículos](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Para obtener información sobre las nuevas funciones y cuándo se lanzarán, con
 
 ## Habilite Adobe Workfront Planning para los usuarios de la instancia de Workfront
 
-Su organización debe inscribirse en el programa beta cerrado de Adobe Workfront Planning para poder acceder a las funciones de planificación. Póngase en contacto con su representante de cuentas para obtener información sobre cómo inscribirse en el programa beta.
+Su organización debe inscribirse en el programa de planificación de Adobe Workfront para poder acceder a las funciones de planificación. El representante de cuentas debería haberte dado información sobre cómo inscribirte en este programa, si calificas para ello.
 
 Para obtener más información sobre la concesión de acceso a Workfront Planning y la posibilidad de que otros lo utilicen, consulte [Acceso a información general](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -277,7 +279,7 @@ Para localizar Workfront Planning:
 
 1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha o haga clic en el botón **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible.
 
-1. Clic **Planificación** ![](assets/maestro-icon.png).
+1. Clic **Planificación** ![](assets/planning-icon.png).
 
    Se abre el área Espacios de trabajo.
 

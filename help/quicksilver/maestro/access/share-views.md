@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Compartir vistas
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar con registros en Adobe Workfront Planning.
 
@@ -24,12 +24,12 @@ Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros us
 
 Cuando comparte una vista, otorga a otros permisos para acceder a todos los elementos de la vista. Por ejemplo, cuando se les conceden permisos de administración de una vista, pueden modificar la apariencia de agrupación, filtro, ordenación o barra.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+Puede compartir una vista con las siguientes entidades:
+
+* Usuarios de Workfront
+* Grupos de Workfront
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Requisitos de acceso
@@ -110,14 +110,12 @@ Puede compartir las vistas que ha creado o las vistas para las que tiene permiso
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (Opcional) Seleccione entre las siguientes opciones para compartir la vista:
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **Solo las personas invitadas pueden acceder a**: debe especificar los usuarios o grupos con los que desea compartir la vista. Esta es la opción predeterminada.
+   * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permiso de Vista o superior en los espacios de trabajo pueden acceder a la vista.
 
-
-1. En el **Conceder acceso de visualización a** , empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.  <!--***********replace screen shot below when global sharing is released***********-->
+1. En el **Conceder acceso de visualización a** , empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

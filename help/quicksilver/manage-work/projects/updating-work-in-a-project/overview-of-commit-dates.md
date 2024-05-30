@@ -7,16 +7,16 @@ description: La fecha de confirmación es la fecha en la que un usuario asignado
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Resumen de fecha de confirmación
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema.
 
@@ -56,8 +56,7 @@ Puede encontrar la Fecha de confirmación para tareas y problemas en las siguien
 
 * La página Detalles
 * El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Encabezado de una tarea o problema, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
 * El cambio de fecha de confirmación se rellena en las pestañas Actividad del sistema y Todos de la sección Actualización de la tarea o el problema.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   El cambio de la fecha de confirmación se muestra en el área de actualizaciones de la tarea o del problema cuando el administrador de Workfront habilita esta actualización en el área de fuentes de actualizaciones en la configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
   >[!TIP]
   >
-  >Puede pedir al administrador del sistema o del grupo que añada el campo Fecha de confirmación al panel de resumen para facilitar la actualización en varias áreas de Workfront en las que se muestra el panel de resumen.
+  >Puede pedir al administrador del sistema o del grupo que añada el campo Fecha de confirmación al panel Resumen o al encabezado para facilitar la actualización.
   >
   >Para obtener más información, consulte los siguientes artículos:
   >
   >* [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
