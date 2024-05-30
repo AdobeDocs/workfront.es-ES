@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ A partir del 30 de mayo de 2024, el programa de planificación de Adobe Workfron
 La fase de acceso anticipado también se limita a unos pocos clientes de Workfront.
 
 El representante de la cuenta le informará si cumple los requisitos para participar en la fase de acceso anticipado.
+
+### Nuevo proceso para eliminar un espacio de trabajo
+
+Producción: 30 de mayo de 2024
+
+Vista previa: por determinar
+
+Dado que el impacto de la eliminación de un espacio de trabajo puede ser significativo, hemos añadido un paso adicional para confirmar la eliminación. Ahora es necesario que los usuarios escriban &quot;eliminar&quot; para poder completar la eliminación permanente de un espacio de trabajo.
+
+Los espacios de trabajo eliminados y su información no se pueden recuperar.
+
+Para obtener más información, consulte [Eliminar espacios de trabajo](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Semana del 20 de mayo de 2024
 

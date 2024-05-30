@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,9 @@ Esto abre el último espacio de trabajo al que accedió.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo que desea eliminar.
 1. Haga clic en **Más** menú ![](assets/more-menu.png) junto al nombre del espacio de trabajo y haga clic en **Eliminar**.
-   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
 
-1. Clic **Eliminar** para confirmar.
+   ![](assets/permanently-delete-workspace-confirmation.png)
+
+1. Escriba &quot;**eliminar**&quot; en el espacio proporcionado y haga clic en **Eliminar permanentemente**.
 
    El espacio de trabajo se elimina y no se puede recuperar. También se elimina cualquier tipo de registro, registro, campo y vista asociada a ellos. <!--ensure this is right after closed beta-->
