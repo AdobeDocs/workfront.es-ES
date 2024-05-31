@@ -7,7 +7,7 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -158,6 +158,8 @@ Los usuarios se recomiendan en la lista desplegable asignaciones inteligentes en
 >* Si no hay ninguna función o equipo asignado en la tarea o el problema, Workfront muestra todos los usuarios asignados durante los últimos 30 días, hasta 50 usuarios.
 >
 >* Si no ha realizado ninguna asignación en los últimos 30 días, sólo se mostrarán en la lista de asignaciones inteligentes los usuarios que pertenezcan al equipo asignado o que tengan la función asignada al elemento de trabajo.
+
+
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
