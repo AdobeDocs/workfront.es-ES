@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
+>
+>Actualmente, Workfront Planning se encuentra en una fase de acceso anticipado abierta a un número limitado de clientes.
+>
+>Debe ser cliente de Workfront para utilizar estas funciones.
+>
+>El representante de cuentas le informará si forma parte de esta fase.
+>
+>Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>
+>En algunos casos, la documentación a la que se hace referencia en las secciones siguientes puede estar disponible después de que las funciones documentadas se publiquen en el entorno de producción.
 
 Este artículo enumera las funciones que se han lanzado después del lanzamiento del programa Adobe Workfront Planning, el 22 de mayo de 2023.
 
->[!NOTE]
->
->Entre mayo de 2023 y diciembre de 2023, todas las funciones de este artículo se lanzaron al entorno de vista previa y producción. Workfront Planning se ha eliminado temporalmente de los entornos Vista previa y Zona protegida desde enero de 2024. Todas las funciones lanzadas después de esta fecha están disponibles actualmente en el entorno de producción.
-
 Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero. Los clientes que participan en el programa de Workfront Planning pueden acceder a todas las funciones de sus entornos de producción.
 
->[!IMPORTANT]
->
->La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
+Entre mayo de 2023 y diciembre de 2023, todas las funciones de este artículo se lanzaron al entorno de vista previa y producción.
+
+Workfront Planning se ha eliminado temporalmente de los entornos Vista previa y Zona protegida desde enero de 2024. Todas las funciones lanzadas después de esta fecha están disponibles actualmente en el entorno de producción.
+
+
+
 
 <!--
 
