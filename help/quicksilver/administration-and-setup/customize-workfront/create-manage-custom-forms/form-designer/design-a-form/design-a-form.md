@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 4%
 
 ---
@@ -248,29 +248,31 @@ Para agregar un campo calculado, consulte [Agregar campos calculados con el dise
 
 ### Agregar botones de opción, casillas de verificación y listas desplegables
 
-Puede agregar botones de opción, casillas de verificación y listas desplegables a un formulario personalizado.
+Puede agregar botones de opción, casillas de verificación, listas desplegables y listas desplegables de selección múltiple a un formulario personalizado.
 
 +++ **Amplíe para ver las descripciones de los campos disponibles**
 
 * **Botones de radio**: requiere que los usuarios seleccionen solo una opción.
 * **Grupo de casillas**: permite a los usuarios seleccionar varias opciones.
 * **Desplegable**: Proporciona una lista de opciones desplegables.
+* **Lista desplegable de selección múltiple**: permite a los usuarios seleccionar varias opciones en una lista desplegable.
 
 +++
 
 >[!NOTE]
 >
->Los campos que permiten varias selecciones, como el Grupo de casillas de verificación y la Lista desplegable, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
+>Los campos que permiten varias selecciones, como el grupo de casillas de verificación y la lista desplegable de selección múltiple, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
 
-Para agregar botones de opción y casillas de verificación:
+Para agregar botones de opción, casillas de verificación y listas desplegables:
 
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
    * Botones de radio
    * Grupo de casillas de verificación
    * Lista desplegable
+   * Lista desplegable de selección múltiple
 
-   ![](assets/drag-field-to-section.png)
+   ![Arrastre un campo al lienzo](assets/drag-field-to-section-041524.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
 
@@ -288,6 +290,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Para agregar botones de opción y casillas de verificación:
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable</li>
+    <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
     </tbody> 
