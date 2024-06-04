@@ -7,7 +7,7 @@ description: El planificador de escenarios requiere una licencia independiente d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Debe asegurarse de que se cumplen todas las condiciones siguientes antes de pode
 
    Dependiendo de si utiliza el plan de Workfront nuevo o el actual, su organización debe tener uno de los siguientes:
 
-   * Para los planes actuales, su organización debe tener uno de los siguientes:
+   * Para los nuevos planes, su organización debe tener uno de los siguientes:
 
       * El [!UICONTROL Ultimate] [!DNL Workfront] plan. El Scenario Planner está incluido en el plan Ultimate.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
    El número es un incremento generado automáticamente.
 
 1. (Condicional) Seleccione la variable **Inicio** y **Fechas de finalización** para los registros que se mostrarán en la vista cronología o calendario.
+
+   >[!TIP]
+   >
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda entre los registros u objetos conectados.
+
 1. Haga clic en **Crear**.
 
    La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con usted.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Dado que el impacto de la eliminación de un espacio de trabajo puede ser signif
 Los espacios de trabajo eliminados y su información no se pueden recuperar.
 
 Para obtener más información, consulte [Eliminar espacios de trabajo](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### Los campos de fecha de búsqueda ahora están disponibles en la vista de cronología
+
+Ahora puede establecer las Fechas de inicio y finalización de la vista de escala de tiempo en un campo de búsqueda a partir de un registro conectado o un tipo de objeto.
+
+Para obtener más información sobre la creación de vistas, consulte [Administrar vistas de registros](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Semana del 20 de mayo de 2024
 
