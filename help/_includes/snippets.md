@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Paso 1: Cómo llegar a Maestro - {#step1-to-maestro}
+## Paso 1: Cómo llegar a Maestro - {#step1-to-planning}
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Planificación]**.
 
@@ -261,7 +261,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 >
 >El representante de cuentas le informará si forma parte de esta fase.
 >
->Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
