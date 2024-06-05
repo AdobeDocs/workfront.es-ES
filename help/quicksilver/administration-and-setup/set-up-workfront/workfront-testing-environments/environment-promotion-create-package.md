@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Crear o editar un paquete de promoción de entorno
+
+Debe crear un paquete en el entorno en el que desee copiar los objetos **de**. Por ejemplo, si está configurando un proyecto en el entorno de espacio aislado de actualización personalizado y lo está promocionando al entorno de producción, debe crear el paquete en el entorno de espacio aislado de actualización personalizado.
+
+>[!IMPORTANT]
+>
+>Si la zona protegida de actualización personalizada se actualiza mientras configura un objeto para la promoción del entorno, esa configuración se perderá durante la actualización. Le recomendamos que no actualice la zona protegida de actualización personalizada a menos que todos los objetos y paquetes de promoción de entorno pendientes se hayan promocionado correctamente.
 
 ## Creación de un paquete
 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # Instalación de un paquete de promoción de entorno
 
 Después de crear un paquete, puede instalarlo en un entorno diferente.
+
+Debe instalar un paquete en el entorno en el que desee copiar los objetos **hasta**. Por ejemplo, si está configurando un proyecto en el entorno de espacio aislado de actualización personalizado y lo está promocionando al entorno de producción, debe instalar el paquete en el entorno de producción.
+
+>[!IMPORTANT]
+>
+>Si la zona protegida de actualización personalizada se actualiza mientras configura un objeto para la promoción del entorno, esa configuración se perderá durante la actualización. Le recomendamos que no actualice la zona protegida de actualización personalizada a menos que todos los objetos y paquetes de promoción de entorno pendientes se hayan promocionado correctamente.
 
 ## Requisitos previos
 
