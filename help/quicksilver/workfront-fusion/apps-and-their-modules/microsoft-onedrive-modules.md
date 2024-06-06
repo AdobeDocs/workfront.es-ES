@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '3982'
+source-wordcount: '4073'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,18 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar [!DNL OneDrive] módulos, debe tener un [!DNL Microsoft OneDrive] cuenta.
 
+
+
+
 ## Conexión del [!DNL OneDrive] servicio a [!DNL Workfront Fusion]
 
 Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
 
 ## [!DNL Microsoft OneDrive] módulos y sus campos
 
@@ -450,7 +459,7 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. de archivo o la ruta de acceso del archivo para el que desea recuperar un vínculo compartido.</p> <p>Si seleccionó [!UICONTROL Seleccionar] en la lista, seleccione el archivo para el que desea recuperar un vínculo compartido.</p> </td> 
+   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. de archivo o la ruta de acceso del archivo para el que desea recuperar un vínculo compartido.</p> <p>Si seleccionó [!UICONTROL Seleccionar] de la lista, seleccione el archivo para el que desea recuperar un vínculo compartido.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de permiso]</td> 

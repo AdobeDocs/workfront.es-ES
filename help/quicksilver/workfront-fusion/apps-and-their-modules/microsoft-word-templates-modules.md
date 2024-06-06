@@ -10,9 +10,9 @@ description: En un escenario de Adobe Workfront Fusion, puede automatizar los fl
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para utilizar [!DNL Miscrosoft Word Templates] con [!DNL Adobe Workfront Fusion], es necesario tener un [!DNL Office 365] cuenta. Puede crear uno en www.office.com.
 
+
+
+## Conexión del [!DNL Office] servicio a [!DNL Workfront Fusion]
+
+Para obtener instrucciones acerca de cómo conectar su [!DNL Office] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
+
 ## Uso de [!DNL Microsoft Word Templates] módulos
 
 Puede usar un [!DNL Microsoft Word Template] para combinar datos de varios servicios web en una [!DNL Microsoft Word] documento.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] La plantilla es una plantilla normal [!DNL Microsoft Wor
 Una etiqueta de valor simple se sustituye simplemente por un valor correspondiente. El nombre de la etiqueta corresponde a la etiqueta [!UICONTROL Clave] el valor del campo, que se coloca entre llaves dobles; por ejemplo,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Ejemplo:** Para crear un documento que diga &quot;¡Hola, Petr!&quot;, podría usar un [!DNL Microsoft Word Template] para crear la siguiente plantilla:
 
-<pre>&gt; Hola &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hola {{name}}!</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 
@@ -111,7 +123,7 @@ Para ello, debe configurar el módulo de la siguiente manera:
 Puede utilizar una etiqueta de condición para ajustar el texto que se debe representar solo cuando se cumplen determinadas condiciones. Para ajustar el texto, colóquelo entre las etiquetas de condición de apertura y cierre, como &quot;hasPhone&quot; si la condición es si los datos incluyen o no un número de teléfono. El nombre de una etiqueta de apertura va precedido del signo hash # y el nombre de una etiqueta de cierre va precedido de una barra diagonal /, como se muestra en el ejemplo siguiente.
 
 **Ejemplo:** Para generar un documento que incluya el número de teléfono de un cliente si los datos de entrada incluyen un número de teléfono pero ninguna dirección de correo electrónico, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Teléfono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;Correo electrónico: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Para ello, debe configurar el módulo de la siguiente manera:
+<pre>&gt; {{#hasPhone}}Teléfono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Correo electrónico: {{email}} {{/hasEmail}}</pre>Para ello, debe configurar el módulo de la siguiente manera:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ Puede utilizar una etiqueta de bucle, también conocida como etiqueta de secció
 
 **Ejemplo:** Para generar un documento que incluya el nombre y el número de teléfono de cada contacto en una lista de clientes, puede utilizar un [!DNL Microsoft Word Template] y cree la siguiente plantilla:
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Para ello, debe configurar el módulo de la siguiente manera:
 

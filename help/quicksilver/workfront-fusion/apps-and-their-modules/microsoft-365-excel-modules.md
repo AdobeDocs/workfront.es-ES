@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, se pueden au
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,18 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar [!DNL Microsoft office 365 Excel], debe tener una cuenta de Microsoft.
+
+
+
+## Conexión del [!DNL Office 365 Excel] servicio a [!DNL Workfront Fusion]
+
+Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365 Excel] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
 
 ## [!DNL Microsoft Office 365 Excel] módulos y sus campos
 
@@ -345,7 +357,7 @@ Este módulo de acción actualiza una fila de hoja de cálculo existente.
   <tr> 
     <td role="rowheader" >[!UICONTROL Fila]</td>
     <td>Para cada columna, introduzca el valor que desea que tenga la columna en la nueva fila.</td>
-   —&gt; 
+   --&gt; 
   </tr> 
  </tbody> 
 </table>

@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar [!DNL Microsoft Office 365 Email] módulos, debe tener un [!DNL Microsoft Office 365 Email] cuenta.
 
+
+
+## Conexión del [!DNL Office 365 Email] servicio a [!DNL Workfront Fusion]
+
+Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365 Email] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
+
 ## [!DNL Microsoft Office 365 Email] módulos y sus campos
 
 Al configurar [!DNL Microsoft Office 365 Email] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Microsoft Office 365 Email] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
@@ -79,7 +91,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 * [Mensaje](#message)
 * [Borrador de mensaje](#draft-message)
-* [Datos adjuntos](#attachment)
+* [Archivos adjuntos](#attachment)
 * [Otro](#other)
 
 ### Mensaje
@@ -357,7 +369,7 @@ Crea un nuevo mensaje de correo electrónico.
    <td> <p>Añada los destinatarios Cuando desee recibir una copia del mensaje:</p> 
     <ul> 
      <li> <p><strong>Nombre</strong> </p> <p>Introduzca el nombre del contacto</p> </li> 
-     <li> <p><strong>Dirección de correo electrónico</strong> </p> <p>Introduzca la dirección de correo electrónico del contacto.</p> </li> 
+     <li> <p><strong>Correo electrónico</strong> </p> <p>Introduzca la dirección de correo electrónico del contacto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -411,7 +423,7 @@ Actualiza un mensaje existente.
    <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de mensaje]</td> 
+   <td role="rowheader">[!UICONTROL Escriba un ID de mensaje]</td> 
    <td> <p>Seleccione cómo desea identificar el mensaje que se va a actualizar:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Escribir manualmente]</strong> </p> <p>Introduzca o asigne el ID del mensaje.</p> </li> 
@@ -474,7 +486,7 @@ Actualiza un mensaje existente.
  </tbody> 
 </table>
 
-### Datos adjuntos
+### Archivos adjuntos
 
 * [[!UICONTROL Enumerar archivos adjuntos]](#list-attachments)
 * [[!UICONTROL Descargar un archivo adjunto]](#download-an-attachment)

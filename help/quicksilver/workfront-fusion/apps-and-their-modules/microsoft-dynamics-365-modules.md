@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, se pueden au
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,12 @@ Para usar [!DNL Microsoft Dynamics] 365, usted debe tener un [!DNL Microsoft Dyn
 ## Conexión de Microsoft Dynamics 365 a Workfront Fusion
 
 Puede crear una conexión con su [!DNL Microsoft Dynamics 365] cuenta directamente desde dentro de un [!DNL Microsoft Dynamics 365] módulo.
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
 
 1. En cualquier [!DNL Microsoft Dynamics 365] , haga clic en **[!UICONTROL Añadir]** junto al [!UICONTROL Conexión] field.
 1. Introduzca un nombre para la conexión.

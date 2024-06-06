@@ -8,10 +8,10 @@ description: Muchos [!DNL Adobe Workfront Fusion] Los conectores de no requieren
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -69,3 +69,9 @@ Para crear una conexión dentro de un [!DNL Workfront Fusion] módulo:
 1. Clic **[!UICONTROL Continuar]**.
 1. En la ventana de inicio de sesión que aparece, introduzca sus credenciales para iniciar sesión en la aplicación si aún no lo ha hecho.
 1. (Condicional) Si **[!UICONTROL Permitir]** , examine las acciones que podrá realizar el conector y haga clic en el botón para conectar la aplicación [!DNL Workfront Fusion].
+
+   >[!NOTE]
+   >
+   >Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+   >
+   >Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.

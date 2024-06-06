@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar [!DNL Microsoft Office 365 Calendar] módulos, debe tener un [!DNL Microsoft Office 365 Calendar] cuenta.
+
+## Conexión del [!DNL Office 365 Calendar] servicio a [!DNL Workfront Fusion]
+
+Para obtener instrucciones acerca de cómo conectar su [!DNL Office 365 Calendar] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>
+>Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
 
 ## [!DNL Microsoft Office 365 Calendar] módulos y sus campos
 
