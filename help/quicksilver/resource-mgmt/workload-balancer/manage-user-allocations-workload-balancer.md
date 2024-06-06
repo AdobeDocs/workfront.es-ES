@@ -6,9 +6,9 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 Como Administrador de recursos, puede asignar trabajo a los usuarios y administrar sus asignaciones diarias, semanales o mensuales desde el Distribuidor de cargas de trabajo para asegurarse de que se les asigna una cantidad de horas que se ajusta a sus programaciones disponibles.
 
@@ -111,11 +113,14 @@ Tenga en cuenta lo siguiente al localizar asignaciones diarias, semanales o mens
 
 * Dos usuarios en zonas horarias o programaciones diferentes a las de los usuarios asignados pueden hacer que las cantidades asignadas aparezcan de forma diferente para dos usuarios que vean los mismos elementos de trabajo.
 
-* Cuando un usuario tiene tiempo libre programado, el día o la parte del día se muestra en un fondo gris. Si el administrador de Workfront habilitó la configuración Tiempo libre del usuario en el área de Configuración para tener en cuenta el tiempo libre del usuario, las horas asignadas pasan al siguiente día disponible en la cronología. Si la configuración está deshabilitada, las horas asignadas permanecen en el día marcado como tiempo libre y el usuario se muestra como sobreasignado. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Cuando un usuario tiene tiempo libre programado, el día o la parte del día se muestra en un fondo gris, <span class="preview">y un icono de avión indica tiempo libre</span>. Si el administrador de Workfront habilitó la configuración Tiempo libre del usuario en el área de Configuración para tener en cuenta el tiempo libre del usuario, las horas asignadas pasan al siguiente día disponible en la cronología. Si la configuración está deshabilitada, las horas asignadas permanecen en el día marcado como tiempo libre y el usuario se muestra como sobreasignado. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Si el tiempo libre se marcó después de que el usuario se asignara a un elemento de trabajo, debe volver a calcular la escala de tiempo del proyecto para mostrar la asignación desplazada. Para obtener más información, consulte [Recalcular escalas de tiempo del proyecto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">Cuando se asignan varios usuarios a una tarea y el usuario principal asignado tiene tiempo libre programado, la cronología se desplaza (si las fechas no son fijas) y las horas planificadas de todos los usuarios asignados se redistribuyen a lo largo de la nueva duración de la tarea. Si la tarea tiene fechas fijas, la cronología no cambia debido al tiempo libre y las horas se reasignan entre los días restantes.</span>
+   * <span class="preview">Si las asignaciones se realizan manualmente, las horas planificadas no se reasignan después del tiempo libre.</span>
 
 * Si hay varios usuarios asignados a la tarea, la cantidad de horas planificadas se distribuye equitativamente a cada usuario, en primer lugar, y luego equitativamente a cada día dentro de la duración de la tarea. Esta distribución se convierte en la asignación de cada usuario a la tarea.
 
