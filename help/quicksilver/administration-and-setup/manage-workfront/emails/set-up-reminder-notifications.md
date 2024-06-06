@@ -1,13 +1,13 @@
 ---
 title: Configurar notificaciones de recordatorio
-description: Configurar notificaciones de recordatorio
+description: Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Las notificaciones de recordatorio envían correos electrónicos a los destinatarios en función de criterios específicos. Puede asociar manualmente notificaciones de recordatorio a los elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas.
+Como administrador de Workfront, puede crear notificaciones de recordatorio para los usuarios y asociarlos a objetos a los que desee que presten especial atención.
+
+Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
+
+Después de crear las notificaciones de recordatorio, los usuarios pueden asociarlas manualmente a elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas. Para obtener más información, consulte [Adjuntar una notificación de recordatorio a un objeto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Personalizar el correo electrónico del recordatorio
 
@@ -126,7 +130,18 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
      </tr> 
      <tr> 
       <td role="rowheader">Destinatarios</td> 
-      <td>Seleccione los tipos de usuarios que desea que reciban la notificación. Seleccione entre varias partes interesadas del objeto, como el propietario, el aprobador o el usuario asignado.</td> 
+      <td><p>Según el objeto para el que sea la notificación de recordatorio, seleccione entre los siguientes tipos de usuarios que desea que reciban la notificación:</p>
+      <ul>
+      <li>Asignado a</li>
+      <li>Ingresado por</li>
+      <li>Equipo del proyecto (todos los usuarios del equipo del proyecto reciben el recordatorio)</li>
+      <li>Usuarios asignados a tareas dependientes (los usuarios asignados a tareas dependientes reciben el recordatorio)</li>
+      <li>Propietario del proyecto</li>
+      <li>Asignado a (los usuarios asignados a una tarea o a un problema reciben el recordatorio)</li>
+      <li>Propietario de hoja de horas</li>
+      <li>Aprobador de hoja de horas</li>
+      <li>Gerente de propietario de hoja de horas</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

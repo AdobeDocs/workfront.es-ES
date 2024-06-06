@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,21 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 ## Paso 1: Cómo llegar a Maestro - {#step1-to-planning}
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Planificación]**.
+
+   Se abrirá el área de Espacios de trabajo de Workfront Planning.
+
+<!-- replace sentence above with this and following step:
+   The Workfront Planning landing page opens. 
+    
+1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+
+   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+
+   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
+ 
+-->
+
 
 ## Introducción importante a Workfront Planning: {#planning-important-intro}
 

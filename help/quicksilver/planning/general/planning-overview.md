@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ Para localizar Workfront Planning:
 
    Se abre el área Espacios de trabajo.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Opcional y recomendada) Continúe con algunas de las siguientes acciones para crear la estructura de trabajo:
 
-   1. Cree un espacio de trabajo desde cero o con una plantilla.
+   1. Cree un espacio de trabajo desde cero o con una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Agregue secciones al nuevo espacio de trabajo.
+   1. Agregue secciones al nuevo espacio de trabajo. Para obtener más información, consulte [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Cambie el nombre de las secciones existentes en el nuevo espacio de trabajo.
-   1. Agregue tipos de registros al nuevo espacio de trabajo.
+   1. Agregue tipos de registros al nuevo espacio de trabajo. Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Haga clic en el nombre de un tipo de registro para abrir su página. La página de tipo de registro se abre en la vista Tabla de forma predeterminada.
 
-      También puede crear una vista Cronología o Calendario.
+      También puede crear una vista Cronología o Calendario. Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. En la vista de tabla, comience a agregar registros agregando filas
 
       O
 
       Comience a agregar campos de registro agregando columnas.
+
+      Para obtener más información, consulte los siguientes artículos:
+
+      * [Creación de registros](/help/quicksilver/planning/records/create-records.md)
+      * [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Actividad de versión de Adobe Workfront Planning
 

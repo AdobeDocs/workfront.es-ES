@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b3e4b056961543ea95c67c00f93d1fe13b280985
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ Al crear una vista de escala de tiempo, todos los registros del tipo de registro
 Tenga en cuenta lo siguiente:
 
 * Sólo puede crear una vista Cronología si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista Cronología aparece atenuada.
+
+  Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado.
 * Según las fechas asociadas con los registros, es posible que algunos registros no se muestren en la vista de escala de tiempo en los siguientes casos:
 
    * Cuando las fechas de inicio y finalización no tienen valores

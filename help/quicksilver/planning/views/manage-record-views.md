@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 >
 >Al crear un tipo de registro, la vista de tabla también se crea de forma predeterminada.
 >
->Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología y Calendario aparecen atenuadas.
+>Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
+>
+>De lo contrario, las opciones Cronología y Calendario aparecen atenuadas.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha. De lo contrario, las opciones Cronología o Calendario aparecen atenuadas.
 
 1. (Condicional) Haga clic en **Siguiente**, al crear una vista de calendario o de cronología.
 
@@ -195,7 +193,7 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
    >[!TIP]
    >
-   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda entre los registros u objetos conectados.
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado.
 
 1. Haga clic en **Crear**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -126,8 +126,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Editar configuración de campo
 
 {{step1-to-planning}}
-
-El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
 

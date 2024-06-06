@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Tenga en cuenta lo siguiente:
 
 * Puede crear una vista Calendario únicamente si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista Calendario aparece atenuada.
+
+  Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado.
 * Existen los siguientes escenarios:
 
    * Cuando las fechas de inicio y finalización no tienen valores, los registros no se muestran en el calendario

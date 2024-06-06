@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -96,8 +96,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Editar tipos de registros
 
 {{step1-to-planning}}
-
-El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
 
 1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea editar los tipos de registros.
 1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro, haga clic en **Editar**.

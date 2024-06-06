@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ Para obtener más información sobre los requisitos de acceso, consulte [Requisi
 ## Editar un espacio de trabajo
 
 {{step1-to-planning}}
-
-Se abrirá el área de Espacios de trabajo de Workfront Planning.
 
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse **Entrar**.
 1. Haga clic en **Más** menú ![](assets/more-menu.png)a la derecha del nombre del espacio de trabajo en el encabezado y haga clic en **Editar**.
