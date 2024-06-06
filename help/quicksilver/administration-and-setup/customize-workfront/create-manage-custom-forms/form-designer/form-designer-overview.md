@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo l
 
 ![Diseñador de formularios de ejemplo](assets/form-designer-example.png)
 
-## Cómo acceder al nuevo diseñador de formularios
+## Cómo acceder al diseñador de formularios
 
-Hay un nuevo botón en la parte superior del nuevo diseñador de formularios y del creador de formularios heredados. Puede utilizar este botón para cambiar entre el generador heredado y el nuevo diseñador.
+Un botón en la parte superior del nuevo diseñador de formularios y del creador de formularios heredados le permite cambiar entre las versiones.
 
 ![Cambiar al nuevo diseñador de formularios](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Con el nuevo diseñador de formularios, se ha agregado la capacidad de:
   >
   >La sección Predeterminada no está visible dentro de los objetos una vez que el formulario está adjunto al objeto.
 
+* **Usar un campo de búsqueda externa**: este tipo de campo llama a una API externa y devuelve valores como opciones en un campo desplegable.
+
 ## Funcionalidad quitada del diseñador de formularios
 
 Se ha quitado la siguiente funcionalidad del diseñador de formularios:
 
-* Fichas Configuración de formulario, Uso compartido de formularios, Uso compartido de campos
-
-   * La configuración de formulario ya está disponible en la parte superior del lienzo
-
-   * Pestaña principal Compartir formularios y subpestaña Compartir campos
-
-  >[!NOTE]
-  >
-  >Puede controlar el uso compartido de formularios y campos desde el área Configuración > Forms personalizado > Forms o Campos.
+* La configuración de formulario ya está disponible en la parte superior del lienzo
 
 * Seguir cambios de los campos en las fuentes de actualización
 
   >[!NOTE]
   >
-  >Puede encontrarlo en Configuración > Interfaz > Actualizar fuentes
+  >Puede encontrar esta opción en Configuración > Interfaz > Actualizar fuentes
 
