@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] En este escenario, se pueden au
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,13 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td role="rowheader">[!UICONTROL Tipo de entidad]</td> 
    <td>Seleccione el tipo de entidad que desea que cree el módulo.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seleccionar campos para asignar]</td> 
+   <td>Seleccione los campos para los que desea incluir valores cuando se cree el registro. Los campos disponibles dependen del tipo de entidad.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Campos de propiedad]</td> 
-   <td>En estos campos, introduzca el valor que desea que tenga el elemento de trabajo para una propiedad determinada. Los campos disponibles dependen del tipo de entidad.</td> 
+   <td> Estos son los campos que ha seleccionado. Introduzca el valor que desea que tenga el registro para una propiedad determinada. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,9 +325,13 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td role="rowheader">[!UICONTROL Tipo de entidad]</td> 
    <td>Seleccione el tipo de entidad que desea que actualice el módulo.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seleccionar campos para asignar]</td> 
+   <td>Seleccione los campos para los que desea incluir valores cuando se cree el registro. Los campos disponibles dependen del tipo de entidad.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Campos de propiedad]</td> 
-   <td>En estos campos, introduzca el valor que desea que tenga el elemento de trabajo para una propiedad determinada. Los campos disponibles dependen del tipo de entidad.</td> 
+   <td>Estos son los campos que ha seleccionado. Introduzca el valor que desea que tenga el registro para una propiedad determinada.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
