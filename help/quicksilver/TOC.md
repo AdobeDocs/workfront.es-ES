@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 1%
@@ -624,7 +624,7 @@ ht-degree: 1%
             * [Ver informes que utilizan un campo o widget personalizado](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [Ver formularios personalizados que utilizan un campo o widget personalizado](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [Transferir datos de formulario personalizados al convertir un objeto](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [Editar las propiedades de un campo, un salto de sección o un widget personalizado](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Agregar o editar un campo personalizado, un salto de sección o un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [Eliminar un campo o widget personalizado del sistema](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Eliminar un formulario personalizado](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [Almacenamiento de campo de texto enriquecido en la API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)

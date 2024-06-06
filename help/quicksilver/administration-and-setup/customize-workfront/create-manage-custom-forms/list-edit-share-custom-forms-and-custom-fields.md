@@ -4,9 +4,9 @@ description: Cuando vea una lista de los formularios personalizados de su organi
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    Para obtener información acerca de lo que puede hacer al seleccionar un elemento de la lista, vea los siguientes artículos:
 
-   * [Editar las propiedades de un campo personalizado, salto de sección o widget en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Agregar o editar un campo personalizado, un salto de sección o un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configuración del uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Eliminar un campo o widget personalizado del sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
