@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para obtener más información, consulte [Compartir un formulario personalizado]
 
 >[!NOTE]
 >
->Versión preliminar: 6 de junio de 2024; producción para versión rápida: con la versión 24.6 (20 de junio de 2024); producción para versión trimestral: con la versión 24.7 (julio de 2024)
+>Versión preliminar: 6 de junio de 2024; versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)
 
 Ahora puede agregar un nuevo campo o widget personalizado directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo. Esto le permite crear rápidamente campos personalizados reutilizables.
 

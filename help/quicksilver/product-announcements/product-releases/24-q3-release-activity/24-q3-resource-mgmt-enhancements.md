@@ -4,9 +4,9 @@ description: Mejoras en la administración de recursos del tercer trimestre de 2
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3a56518ecbcb85b443284402d0e273d6a8485fb2
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 6 de junio de 2024; producción para versión rápida: con la versión 24.6 (20 de junio de 2024); producción para versión trimestral: con la versión 24.7 (julio de 2024)
+>Versión preliminar: 6 de junio de 2024; versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)
 
 Para ajustar sin problemas el trabajo cuando el usuario asignado principal de una tarea tiene tiempo libre programado, el Distribuidor de cargas de trabajo ahora reasigna horas tanto a los usuarios principales como a los secundarios cuando se recalcula la cronología del proyecto. (Esta función sólo está disponible si el administrador de Workfront ha habilitado la opción Tiempo libre del usuario en el área de Configuración para tener en cuenta el tiempo libre del usuario).
 

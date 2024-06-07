@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 6 de junio de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para lanzamiento rápido: con la versión 24.6 (20 de junio de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: con la versión 24.7 (julio de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tiempo libre ahora reflejado en el Distribuidor de cargas de trabajo</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tiempo libre ahora reflejado en el Distribuidor de cargas de trabajo</a></p>
                         [!BADGE Nuevo en vista previa ]{type=Negative}
                         <p>Para ajustar sin problemas el trabajo cuando el usuario asignado principal de una tarea tiene tiempo libre programado, el Distribuidor de cargas de trabajo ahora reasigna horas tanto a los usuarios principales como a los secundarios cuando se recalcula la cronología del proyecto.</p>
                     </td>
@@ -274,10 +271,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                                 <p>Versión preliminar: 6 de junio de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para lanzamiento rápido: con la versión 24.6 (20 de junio de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Producción para versión trimestral: con la versión 24.7 (julio de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 (julio de 2024)</p>
                             </li>
                         </ul>
                     </td>
