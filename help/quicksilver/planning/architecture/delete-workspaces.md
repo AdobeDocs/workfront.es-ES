@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-Esto abre el último espacio de trabajo al que accedió.
+1. Haga clic en el espacio de trabajo que desee eliminar.
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo que desea eliminar.
+   Se muestra la página de Workspace.
+
 1. Haga clic en **Más** menú ![](assets/more-menu.png) junto al nombre del espacio de trabajo y haga clic en **Eliminar**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Escriba &quot;**eliminar**&quot; en el espacio proporcionado y haga clic en **Eliminar permanentemente**.
+1. Escriba &quot;**eliminar**&quot; en el espacio proporcionado y haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 
    El espacio de trabajo se elimina y no se puede recuperar. También se elimina cualquier tipo de registro, registro, campo y vista asociada a ellos. <!--ensure this is right at or before GA-->

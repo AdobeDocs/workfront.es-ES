@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,9 @@ Para obtener información sobre cómo editar la información de registro, consul
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Haga clic en el área de trabajo donde desee agregar registros.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 

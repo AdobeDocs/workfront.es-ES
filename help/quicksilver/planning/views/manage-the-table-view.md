@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -270,9 +270,9 @@ Para agregar un filtro a una vista de tabla:
 1. Seleccione una vista de tabla y haga clic en **Filtros** en la esquina superior derecha de la tabla.
 1. Clic **Añadir condición** y añada la siguiente información:
 
-   * Seleccione un campo por el que desee filtrar <!-- the tip below might change-->
+   * **Seleccionar un campo** por el que desea filtrar <!-- the tip below might change-->
 
-   * Seleccione una opción (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
+   * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
      La tabla siguiente muestra los modificadores disponibles para cada tipo de campo.
 
@@ -387,7 +387,7 @@ Para agregar una agrupación:
 
    La agrupación se aplica automáticamente a la tabla y los registros se muestran bajo la línea de separación de agrupación.
 
-1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
+1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para agregar hasta 3 agrupaciones.
 
    El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
 
@@ -438,13 +438,13 @@ Para ordenar <!--ungrouped (add this when sorting for groupings will be availabl
 
    Pase el ratón sobre el nombre de una columna en la vista de tabla, haga clic en la flecha hacia abajo a la derecha del nombre del encabezado de la columna y, a continuación, haga clic en **Ordenar por este campo**. El campo se agrega como una selección de ordenación en el icono Ordenar de la esquina superior derecha de la vista de tabla.
 
-1. En el **Ordenar registros por** , haga clic en uno de los campos sugeridos o en **Elija un campo diferente** y busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. (Condicional) En el **Ordenar registros por** , haga clic en uno de los campos sugeridos o en **Elija un campo diferente** y busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
    El orden se aplica automáticamente a la vista de tabla y los registros se muestran ordenados según los criterios seleccionados.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Opcional) Repita los pasos anteriores para ordenar por campos adicionales.
+1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para ordenar por campos adicionales.
 
    El número de campos por el que está ordenando se muestra a la izquierda del icono Ordenar en la esquina superior derecha de la barra de herramientas. Sólo puede elegir campos que se muestran en las columnas de la vista de tabla.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar los tipos de registros.
+1. Haga clic en el espacio de trabajo cuyos tipos de registros desee conectar,
+
+   O
+
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo desde el que desea conectar los tipos de registros.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Haga clic en **+** en la esquina superior derecha de la vista de tabla y, a continuación, haga clic en el icono **Nueva conexión** pestaña.
 

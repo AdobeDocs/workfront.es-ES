@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar registros.
+1. Haga clic en el área de trabajo cuyos registros desee conectar
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 1. (Opcional) Agregue registros al tipo de registro seleccionado agregando una nueva fila a la tabla. Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar registros.
+1. Haga clic en el área de trabajo cuyos registros desee conectar.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable.
 
@@ -306,7 +310,9 @@ Después de crear una conexión entre un tipo de registro y Adobe Experience Man
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo desde la que desea conectar registros.
+1. Haga clic en el área de trabajo cuyos registros desee conectar.
+
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Seleccione una **Tabla** vista desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
 

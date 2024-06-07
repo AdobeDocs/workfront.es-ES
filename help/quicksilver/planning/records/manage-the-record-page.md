@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,10 @@ Para agregar una sección a una vista previa de registro o a una página:
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en la tarjeta de un espacio de trabajo.
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
@@ -187,9 +188,10 @@ Todas las secciones se expanden de forma predeterminada.
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en la tarjeta de un espacio de trabajo.
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.

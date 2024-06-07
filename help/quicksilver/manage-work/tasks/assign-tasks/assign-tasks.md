@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Asignar una sola tarea
 
 1. Vaya a la tarea que desee asignar.
-1. Clic **Asignar a** en el **Asignaciones** en el encabezado de la tarea o el problema.
+1. Clic **Asignar a** en el **Asignaciones** en el encabezado de la tarea
 
    O
 
    Haga clic en el nombre de las asignaciones si la tarea o el problema ya está asignado.
 
-   Imagen de muestra en el entorno de producción:
+   En el entorno de producción:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   <span class="preview">En el entorno de vista previa:</span>
    ![Asignaciones](assets/assignments-box-in-task-header.png)
 
 1. Realice una de las siguientes acciones:

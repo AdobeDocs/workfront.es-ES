@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en el espacio de trabajo cuyos registros desee personalizar,
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   O
+
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo cuyos registros desee personalizar.
+
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
 
 1. Haga clic en una tarjeta de tipo de registro.
 

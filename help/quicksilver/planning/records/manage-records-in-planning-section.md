@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-El último espacio de trabajo al que se accede se abre de forma predeterminada.
+1. Haga clic en la tarjeta de un espacio de trabajo.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
 1. Haga clic en la tarjeta de un tipo de registro conectado a un proyecto, portafolio o programa de Workfront.
 1. Elija una vista de tabla de la **Ver** menú desplegable.

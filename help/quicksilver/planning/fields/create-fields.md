@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accedió por última vez debe abrirse de forma predeterminada.
+1. Haga clic en el área de trabajo cuyos registros desee crear campos.
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo para el que desea crear campos y, a continuación, haga clic en el tipo de registro.
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
+
+1. Haga clic en la tarjeta de un tipo de registro.
 
    Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
 
@@ -127,8 +129,11 @@ El espacio de trabajo al que se accedió por última vez debe abrirse de forma p
    >
    >    Si no se muestra ningún registro, es posible que aún no tenga ningún registro, o que tenga aplicado un filtro que limite lo que ve en la pantalla.
 
-   Todos los campos existentes asociados al tipo de registro se muestran en las columnas de la vista de tabla. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Todos los campos existentes asociados al tipo de registro se muestran en las columnas de la vista de tabla.
 
+   >[!TIP]
+   >
+   >    Algunos campos pueden estar ocultos. Haga clic en Campos y active la opción de los campos que desee ver como columnas en la vista de tabla.
 
 1. Haga clic en **+** en la esquina superior derecha de la vista de tabla para añadir nuevos campos.
 1. En el **Nuevo campo** pestaña, busque un tipo de campo en la **Tipo de campo** o seleccione uno de los siguientes tipos de campo:

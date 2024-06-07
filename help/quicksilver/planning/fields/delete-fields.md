@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-Se abre el último espacio de trabajo al que se accedió en Workfront Planning.
-1. Haga clic en la tarjeta de un tipo de registro cuyos campos desee eliminar.
-1. (Condicional) Seleccione una **Vista de tabla** desde el **Ver** menú desplegable en la esquina superior derecha de la página tipo de registro.
+1. Haga clic en el espacio de trabajo cuyos campos de registro desee eliminar.
+
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
+
+1. Haga clic en la tarjeta de un tipo de registro.
+
+1. (Condicional) Si no está seleccionado, haga clic en la pestaña de un **Vista de tabla** en la página tipo de registro.
+
+   Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
+
 1. Busque el campo que desea eliminar en los encabezados de columna, pase el ratón sobre el encabezado de columna y, a continuación, haga clic en la flecha hacia abajo situada después del nombre del campo.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

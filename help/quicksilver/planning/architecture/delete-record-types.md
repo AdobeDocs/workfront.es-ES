@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
+1. Haga clic en el espacio de trabajo cuyos tipos de registros desee eliminar.
+
+   O
+
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo del que desea eliminar los tipos de registro.
 
    Se abre el espacio de trabajo y se muestran los tipos de registro.
-1. Haga clic en la tarjeta del tipo de registro que desee eliminar.
+1. Realice una de las siguientes acciones:
 
-   Se abre la página del tipo de registro.
-1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**. <!--add screen shot when they finalize the UI-->
-1. Tipo **Eliminar** en el cuadro de confirmación, haga clic en **Eliminar permanentemente**.
+   * Pase el ratón sobre la tarjeta de tipo de registro y haga clic en el menú Más. **Eliminar**.
+   * Haga clic en la tarjeta del tipo de registro que desee eliminar y, en la página de tipo de registro, haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Tipo **eliminar** en el cuadro de confirmación, haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 
    El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminan.

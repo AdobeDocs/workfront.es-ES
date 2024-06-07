@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ El panel derecho de un registro muestra las siguientes secciones:
 
 {{step1-to-planning}}
 
-El último espacio de trabajo al que se accede se abre de forma predeterminada.
+1. Haga clic en la tarjeta de un espacio de trabajo.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran en tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro.
+Se abre la página de tipo de registro y se muestran todos los registros de ese tipo.
 
 1. Elija una vista de tabla de la **Ver** menú desplegable.
 1. Haga clic en el nombre de un registro en la vista de tabla.

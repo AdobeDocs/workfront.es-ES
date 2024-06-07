@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Clic **Crear espacio de trabajo**
 
-1. (Condicional) Si no tiene ningún espacio de trabajo en su entorno, haga clic en **Crear espacio de trabajo**
-
-   O bien, en un espacio de trabajo existente, haga clic en la flecha hacia abajo situada a la derecha del nombre del espacio de trabajo y, a continuación, haga clic en **Crear espacio de trabajo**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   Se muestra el cuadro Crear espacio de trabajo. Puede crear un espacio de trabajo desde cero o crearlo con una de las plantillas disponibles.
 
 1. (Opcional y condicional) Haga clic en **Previsualizar** dentro de cualquiera de las siguientes plantillas predefinidas de workspace:
 
@@ -131,17 +121,19 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
    * Administración de ventas
    * Administración de productos
 
+   Se abrirá el cuadro de vista previa de plantilla.
+
    Existe una indicación de qué tipos de registros operativos, taxonomías y cuántos campos están asociados a cada plantilla.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Para obtener información sobre las plantillas de espacio de trabajo de Workfront Planning, consulte [Lista de plantillas de Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Clic **Usar plantilla** para empezar a crear el espacio de trabajo a partir de la plantilla seleccionada
+1. En el cuadro de vista previa de la plantilla, haga clic en **Usar plantilla** para empezar a crear el espacio de trabajo a partir de la plantilla seleccionada
 
    O
 
-   Clic **Crear espacio de trabajo** para crear un espacio de trabajo desde cero.
+   Clic **Atrás**, luego haga clic en **Crear espacio de trabajo** para crear un espacio de trabajo desde cero.
 
    Se crea uno para los siguientes tipos de espacios de trabajo:
 

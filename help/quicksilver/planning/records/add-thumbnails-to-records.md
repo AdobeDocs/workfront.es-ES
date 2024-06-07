@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Tenga en cuenta lo siguiente:
 
 {{step1-to-planning}}
 
-1. Seleccione el espacio de trabajo para cuyos registros desea agregar miniaturas y, a continuación, haga clic en la tarjeta de tipo de registro.
+1. Haga clic en el área de trabajo para cuyos registros desea agregar miniaturas y, a continuación, haga clic en la tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
 1. Seleccione una vista de tabla de la **Ver** menú desplegable. Todos los registros del tipo seleccionado se muestran en una tabla.
@@ -145,7 +145,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -180,7 +180,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 

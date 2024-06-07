@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Puede editar un registro desde las siguientes áreas:
 
 {{step1-to-planning}}
 
-Se abre el espacio de trabajo al que accedió por última vez.
+1. Haga clic en el área de trabajo cuyos registros desee editar
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
@@ -192,9 +192,9 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en el área de trabajo cuyos registros desee editar
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
 1. Haga clic en una tarjeta de tipo de registro.
 
@@ -231,9 +231,9 @@ El espacio de trabajo al que se accede por última vez se abre.
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en el área de trabajo cuyos registros desee editar
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del nombre del área de trabajo para seleccionar el área de trabajo cuyos registros desea actualizar.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
 1. Haga clic en una tarjeta de tipo de registro.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 {{step1-to-planning}}
 
 
-El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Haga clic en la tarjeta de un espacio de trabajo.
 
-1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro.
+
+   Se abre la página de tipo de registro.
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
@@ -218,11 +222,13 @@ El espacio de trabajo al que se accedió por última vez se abre de forma predet
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Haga clic en la tarjeta de un espacio de trabajo.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
 1. Haga clic en una tarjeta de tipo de registro.
 
-   Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+   Se abre la página de tipo de registro.
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
@@ -247,13 +253,14 @@ Los permisos de uso compartido de la vista original no se transfieren a la vista
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accedió por última vez se abre de forma predeterminada.
+1. Haga clic en la tarjeta de un espacio de trabajo.
 
-Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
-1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Haga clic en una tarjeta de tipo de registro.
 
-   De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
+   Se abre la página de tipo de registro.
+De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Duplicar**.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -249,20 +249,14 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Planificación]**.
 
-   Se abrirá el área de Espacios de trabajo de Workfront Planning.
+   Se abre la página de aterrizaje de Workfront Planning.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Opcional y condicional) Si es administrador de Workfront, haga clic en las siguientes pestañas:
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Mis espacios de trabajo**: Muestra los espacios de trabajo creados.
+   * **Otros espacios de trabajo**: muestra todos los espacios de trabajo en Workfront Planning, incluidos los compartidos con usted.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   Para el resto de los usuarios, todos los espacios de trabajo que han creado o que se comparten con ellos se muestran en la **Workspaces** área.
 
 ## Introducción importante a Workfront Planning: {#planning-important-intro}
 

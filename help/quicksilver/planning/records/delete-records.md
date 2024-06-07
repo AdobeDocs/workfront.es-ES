@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ Puede eliminar un registro de las siguientes áreas:
 
 {{step1-to-planning}}
 
-El espacio de trabajo al que se accede por última vez se abre.
+1. Haga clic en el área de trabajo cuyos registros desee eliminar.
 
-1. Haga clic en un tipo de registro.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
 1. Realice una de las siguientes acciones:
@@ -126,9 +128,11 @@ El registro se elimina y no se puede recuperar.
 
 {{step1-to-planning}}
 
-Se abre el espacio de trabajo al que accedió por última vez.
+1. Haga clic en el área de trabajo cuyos registros desee eliminar.
 
-1. Haga clic en un tipo de registro.
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
 1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior izquierda de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.

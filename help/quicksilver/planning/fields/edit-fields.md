@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea eliminar los tipos de registros.
+1. Haga clic en el espacio de trabajo cuyos campos de registro desee editar.
 
-   Se abre el espacio de trabajo y se muestran los tipos de registro asociados a él.
-1. Haga clic en la tarjeta del tipo de registro cuyos campos desee editar.
+   El espacio de trabajo se abre y todos los tipos de registros del espacio de trabajo se muestran en tarjetas.
+
+1. Haga clic en la tarjeta de un tipo de registro.
 
    Se abre la página del tipo de registro.
+
 1. (Condicional) Haga clic en la pestaña de un **Vista de tabla**.
+
+   Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
 1. Pase el ratón sobre el encabezado de columna de un campo que desee editar, haga clic en la flecha hacia abajo situada después del nombre del campo y, a continuación, haga clic en **Editar campo**
 
    O
@@ -146,7 +150,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >No se puede actualizar el tipo de campo una vez guardado el campo.
+   >* No se puede actualizar el tipo de campo una vez guardado el campo.
+   >
+   >* Al modificar las configuraciones de campo (opciones de campo o expresiones de fórmula), los registros que ya contienen información en los campos modificados actualizarán sus valores en tiempo real. No hay advertencias ni registros de auditoría para los cambios de valor activados por los cambios de configuración de campo. Todos los usuarios que vean los campos verán inmediatamente los nuevos valores con las modificaciones.
 
    La información de campo se actualiza para todos los que tengan acceso a la vista del espacio de trabajo.
 
@@ -154,9 +160,3 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

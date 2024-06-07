@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda la flecha hacia abajo a la derecha del nombre de un área de trabajo existente y seleccione el área de trabajo para la que desea editar los tipos de registros.
+1. Haga clic en el espacio de trabajo cuyos tipos de registros desee editar.
+
+   O
+
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo cuyos tipos de registro desee editar.
+
+   Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro, haga clic en **Editar**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    Se recomienda utilizar esta opción, especialmente cuando se añaden varias tareas a la lista.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Condicional) Realice una de las siguientes acciones:
 
@@ -141,7 +141,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
          Esto hace que la nueva tarea sea secundaria o subtarea de la tarea anterior.
 
-         Para obtener más información sobre las tareas secundarias, consulte [Información general sobre tareas](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Para obtener más información sobre las tareas secundarias, consulte [Creación de subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Condicional) Si ha desactivado la variable **Autoguardar** después de pulsar **Agregar más tareas**, puede hacer lo siguiente:
 
