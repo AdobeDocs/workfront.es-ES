@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.5 (16 de mayo de 2024)</li><li>24.6 (junio de 2024)</li><li>24.7 (julio de 2024)</li></ul> | <ul><li>24.7 (julio de 2024)</li></ul> |
+>| <ul><li>24.5 (16 de mayo de 2024)</li><li>24.6 (20 de junio de 2024)</li><li>24.7 (julio de 2024)</li></ul> | <ul><li>24.7 (julio de 2024)</li></ul> |
 >
 >Para obtener más información sobre el proceso de liberación rápida, consulte [Habilitar o deshabilitar el proceso de liberación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Mejoras de Adobe Workfront
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras en la gestión financiera](#financial-management-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
+* [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Otras mejoras](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### Mejoras del administrador
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Función</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Mover objetos entre entornos de Workfront con la promoción del entorno</a></p>
+                        <p>La promoción de entornos permite mover objetos de un entorno de Workfront a otro, como de un entorno de zona protegida a un entorno de producción. Puede configurar y probar objetos sin ningún riesgo para los datos y registros de su organización. A continuación, puede mover esos objetos a producción sin tener que volver a configurarlos, lo que ahorra tiempo y esfuerzo.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión 24.6 (20 de junio de 2024)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Compartir formularios y campos personalizados en el diseñador de formularios personalizados</a></p>
+                        [!BADGE Nuevo en vista previa ]{type=Negative}
+                        <p>Ahora puede compartir formularios personalizados y campos personalizados dentro del nuevo diseñador de formularios. Esto permite una mayor colaboración entre los usuarios en los formularios personalizados.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de junio de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: por determinar</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Agregue un nuevo campo personalizado desde el área Campos</a></p>
+                        [!BADGE Nuevo en vista previa ]{type=Negative}
+                        <p>Ahora puede agregar un nuevo campo o widget personalizado directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo. Esto le permite crear rápidamente campos personalizados reutilizables.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de junio de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para lanzamiento rápido: con la versión 24.6 (20 de junio de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.7 (julio de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tipo de campo desplegable de selección múltiple disponible en el diseñador de formularios</a></p>
+                        [!BADGE en producción ]{type=Informative}
+                        <p>Para ayudarle a definir los campos desplegables con mayor facilidad, hemos agregado el campo desplegable Selección múltiple al diseñador de formularios personalizado. Este tipo de campo permite a los usuarios elegir más de una opción en una lista desplegable.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 4 de junio de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 4 de junio de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Mejoras en la gestión financiera
 
@@ -141,7 +187,6 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edite la tarea y emita la fecha y condición de confirmación desde el encabezado o la sección Detalles</a></p>
-                        <p><span style="color: #ff0000;"> Novedades en la vista previa</span></p>
                         <p>Para facilitar la actualización de tareas y problemas, ahora se han añadido los campos Fecha de confirmación y Condición como opciones para agregar a las secciones Encabezados de tareas y problemas y Detalles en una plantilla de diseño. Los usuarios ahora pueden actualizar estos campos desde el encabezado o la sección Detalles de una página cuando se les asigna a la plantilla de diseño modificada.   </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -201,6 +246,45 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
            </tbody>
         </table>
 
+### Mejoras en la administración de recursos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tiempo libre ahora reflejado en el Distribuidor de cargas de trabajo</a></p>
+                        [!BADGE Nuevo en vista previa ]{type=Negative}
+                        <p>Para ajustar sin problemas el trabajo cuando el usuario asignado principal de una tarea tiene tiempo libre programado, el Distribuidor de cargas de trabajo ahora reasigna horas tanto a los usuarios principales como a los secundarios cuando se recalcula la cronología del proyecto.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de junio de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para lanzamiento rápido: con la versión 24.6 (20 de junio de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.7 (julio de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Otras mejoras
 
 <table>
@@ -215,6 +299,26 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Botón de ayuda eliminado de la barra de navegación principal</a></p>
+                        [!BADGE Nuevo en vista previa ]{type=Negative}
+                        <p>Para unificar la experiencia de los usuarios que no están en Unified Shell, se ha eliminado el botón Ayuda de la barra de navegación principal. Este botón, que no está presente para los usuarios de Unified Shell, estaba vinculado a la documentación de Workfront y era redundante con un botón de Ayuda similar disponible para todos los usuarios en el menú principal.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de junio de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para lanzamiento rápido: con la versión 24.6 (20 de junio de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Producción para versión trimestral: con la versión 24.7 (julio de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
