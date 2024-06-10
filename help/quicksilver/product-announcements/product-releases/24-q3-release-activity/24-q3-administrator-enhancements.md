@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ La promoción de entornos permite mover objetos de un entorno de Workfront a otr
 Anteriormente, los objetos debían configurarse en entornos de producción independientemente de los entornos de zona protegida o de vista previa.
 
 Habrá más información e instrucciones para la promoción del entorno disponibles cuando la promoción del entorno se ponga en marcha con la versión 24.6.
+
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Compartir formularios y campos personalizados en el diseñador de formularios personalizados
 
