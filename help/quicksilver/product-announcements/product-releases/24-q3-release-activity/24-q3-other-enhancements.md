@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 Esta página describe las mejoras realizadas con la versión del tercer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-YA ENVIADO: NOLAN PUEDE IGNORAR
 
 ## La experiencia unificada de Adobe ya está disponible para más organizaciones de Workfront
 
@@ -47,7 +45,7 @@ Para obtener más información, consulte [Experiencia unificada de Adobe para Wo
 
 >[!NOTE]
 >
->Versión preliminar: 6 de junio de 2024; producción para versión rápida: con la versión 24.6 (13 de junio de 2024); producción para versión trimestral: con la versión 24.7 (julio de 2024)
+>Versión preliminar: 6 de junio de 2024; producción para todos los clientes: con la versión 24.7 (julio de 2024)
 
 Para unificar la experiencia de los usuarios que no están en Unified Shell, se ha eliminado el botón Ayuda de la barra de navegación principal. Este botón, que no está presente para los usuarios de Unified Shell, estaba vinculado a la documentación de Workfront y era redundante con un botón de Ayuda similar disponible para todos los usuarios en el menú principal.
 
