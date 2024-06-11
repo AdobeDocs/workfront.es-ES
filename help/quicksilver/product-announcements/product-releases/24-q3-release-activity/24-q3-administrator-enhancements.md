@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->La promoción del entorno estará disponible en los entornos de zona protegida, vista previa y producción con la versión 24.6 (20 de junio de 2024).
+>La promoción del entorno estará disponible en los entornos de zona protegida, vista previa y producción con la versión 24.6 (13 de junio de 2024).
 
 La promoción de entornos permite mover objetos de un entorno de Workfront a otro, como de un entorno de zona protegida a un entorno de producción. Puede configurar y probar objetos sin ningún riesgo para los datos y registros de su organización. A continuación, puede mover esos objetos a producción sin tener que volver a configurarlos, lo que ahorra tiempo y esfuerzo.
 
