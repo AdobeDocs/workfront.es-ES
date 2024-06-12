@@ -8,13 +8,11 @@ description: La capacidad de promoción de entornos está diseñada para proporc
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ Debe crear un paquete en el entorno en el que desee copiar los objetos **de**. P
 >[!IMPORTANT]
 >
 >Si la zona protegida de actualización personalizada se actualiza mientras configura un objeto para la promoción del entorno, esa configuración se perderá durante la actualización. Le recomendamos que no actualice la zona protegida de actualización personalizada a menos que todos los objetos y paquetes de promoción de entorno pendientes se hayan promocionado correctamente.
+
+## Requisitos de acceso
+
+Debe tener lo siguiente:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Su organización debe seguir el nuevo modelo de precios y tener un plan Prime o Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licencias</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser un [!DNL Workfront] administrador.
+   </td>
+  </tr>
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Creación de un paquete
 

@@ -8,20 +8,18 @@ description: La función Promoción de entornos está diseñada para proporciona
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # Mover objetos entre [!DNL Workfront] entornos que utilizan la variable [!DNL Workfront] API de promoción de entorno
 
-La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. Puede mover estos objetos mediante la API de Workfront como se describe en este artículo.
+La capacidad Promoción de entornos permite mover objetos relacionados con la configuración de un entorno a otro. Puede mover estos objetos mediante la API de Workfront como se describe en este artículo.
 
 Para obtener instrucciones sobre cómo mover objetos entre entornos mediante la aplicación de Workfront, consulte:
 
@@ -29,7 +27,32 @@ Para obtener instrucciones sobre cómo mover objetos entre entornos mediante la 
 * [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Requisitos de acceso
+
+Debe tener lo siguiente:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Su organización debe seguir el nuevo modelo de precios y tener un plan Prime o Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licencias</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser un [!DNL Workfront] administrador.
+   </td>
+  </tr>
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
