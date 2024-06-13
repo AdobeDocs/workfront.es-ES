@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Para obtener más información sobre los estados, consulte [Estados de promoció
 
 ## Conflictos
 
-Los conflictos se producen cuando un objeto que forma parte del paquete de instalación tiene el mismo nombre que un objeto que ya existe en el entorno de destino. Cuando esto sucede, puede seleccionar cómo resolver el conflicto. Los conflictos se resuelven en el nivel de objeto.
+Un conflicto es un objeto que se encuentra en el entorno de destino de una instalación que coincide con uno de los objetos que se están instalando desde el entorno de origen. Los conflictos se detectan comparando los nombres e ID de los objetos de origen con los objetos del entorno de destino. Los conflictos también se detectan comparando objetos de origen con registros de objetos instalados anteriormente.
+
+Cuando se produce una colisión, puede seleccionar cómo resolverla. Los conflictos se resuelven en el nivel de objeto.
 
 Para ver los conflictos, haga clic en la lista desplegable situada junto a cada tipo de objeto. Los conflictos se muestran en la columna Conflicto.
+
+>[!NOTE]
+>
+>Es posible que los conflictos detectados no sean los objetos que desea anular o utilizar en la instalación. Se recomienda validar los conflictos detectados para garantizar que los destinos de instalación son correctos.
 
 Para resolver un conflicto, seleccione una acción en la columna Acción de implementación o utilice la acción predeterminada que ya se muestra.
 
