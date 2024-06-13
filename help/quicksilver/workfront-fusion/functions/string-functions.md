@@ -8,7 +8,7 @@ description: Las siguientes funciones de cadena están disponibles en el panel d
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -56,121 +56,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (texto; [eliminar diacríticos])]
-
-Quita todos los caracteres que no sean ascii de una cadena de texto.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   Devuelve: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   Devuelve: [!UICONTROL escrz]
-
-## [!UICONTROL base64 (texto)]
-
-Transforma el texto en base64.
-
->[!INFO]
->
->**Ejemplo:**
->
->`base64( workfront )`
->
->Devuelve: d29ya2Zyb250==
-
-## [!UICONTROL poner en mayúsculas (texto)]
-
-Convierte el primer carácter de una cadena de texto a mayúsculas.
-
->[!INFO]
->
->**Ejemplo:**
->
->`capitalize( workfront )`
->
->Devuelve: [!DNL Workfront]
-
-## contiene (texto; cadena de búsqueda)
-
-Comprueba si el texto contiene la cadena de búsqueda.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `contains( Hello World ; Hello )`
->
->   Devuelve: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   Devuelve: [!UICONTROL false]
-
-## [!UICONTROL decodeURL (texto)]
-
-Descodifica los caracteres especiales de una dirección URL en texto.
-
->[!INFO]
->
->**Ejemplo:**
->`decodeURL( Automate%20your%20workflow )`
->
->Devuelve: [!UICONTROL Automatización del flujo de trabajo]
-
-## [!UICONTROL encodeURL (texto)]
-
-Codifica caracteres especiales de algún texto en una dirección URL válida.
-
-## [!UICONTROL escapeHTML (texto)]
-
-Omite todas las etiquetas de HTML del texto.
-
->[!INFO]
->
->**Ejemplo:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> Devuelve: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(texto)]
-
-Excluye todas las etiquetas Markdown del texto.
-
->[!INFO]
->
->**Ejemplo:**
->
->`escapeMarkdown( # Header )`
->
->Devuelve: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-Devuelve la posición de la primera aparición de un valor especificado en una cadena. Este método devuelve &#39;-1&#39; si el valor que se busca no está allí. El valor de inicio indica en qué punto de la cadena debe comenzar la búsqueda.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `indexOf( Workfront ; o )`
->
->   Devuelve: 1
->
->* `indexOf( Workfront ; x )`
->
->   Devuelve: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   Devuelve: 6
-
 ## [!UICONTROL longitud (texto o búfer)]
 
 Devuelve la longitud de la cadena de texto (número de caracteres) o del búfer binario (tamaño del búfer en bytes).
@@ -195,17 +80,46 @@ Convierte a minúsculas todos los caracteres alfabéticos de una cadena de texto
 >
 >Devuelve: hello
 
-## [!UICONTROL md5 (texto)]
+## [!UICONTROL poner en mayúsculas (texto)]
 
-Calcula el hash md5 de una cadena.
+Convierte el primer carácter de una cadena de texto a mayúsculas.
 
 >[!INFO]
 >
 >**Ejemplo:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->Devuelve: `1448bbbeaa7a9b8091d426999f1f666b`
+>Devuelve: [!DNL Workfront]
+
+## [!UICONTROL startcase (texto)]
+
+Pone en mayúscula la primera letra de cada palabra y en minúsculas todas las demás letras.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>`startcase( hello WORLD )`
+>
+>Devuelve: [!UICONTROL Hello World]
+
+## [!UICONTROL ascii (texto; [eliminar diacríticos])]
+
+Quita todos los caracteres que no sean ascii de una cadena de texto.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   Devuelve: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   Devuelve: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL reemplazar (texto;cadena de búsqueda; cadena de reemplazo)]
 
@@ -251,6 +165,169 @@ La cadena de reemplazo puede incluir los siguientes patrones de reemplazo especi
 >No utilice grupos de captura con nombre como `/ is (?<number>\d+)/` en el argumento de cadena de reemplazo. Al hacerlo, se produce un error.
 
 Para obtener más información sobre las expresiones regulares, consulte [Analizador de texto](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL recortar (texto)]
+
+Elimina los caracteres de espacio al principio o al final del texto.
+
+## [!UICONTROL upper (texto)]
+
+Convierte todos los caracteres alfabéticos de una cadena de texto a mayúsculas.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`upper( Hello )`
+>
+>Devuelve: [!UICONTROL HOLA]
+
+## [!UICONTROL subcadena (texto; inicio;fin)]
+
+Devuelve una parte de una cadena de texto entre la posición &quot;inicio&quot; y &quot;final&quot;.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Devuelve: Ayuda
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Devuelve: el
+
+## [!DNL indexOf (string; value; [start])]
+
+Devuelve la posición de la primera aparición de un valor especificado en una cadena. Este método devuelve &#39;-1&#39; si el valor que se busca no está allí. El valor de inicio indica en qué punto de la cadena debe comenzar la búsqueda.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   Devuelve: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   Devuelve: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Devuelve: 6
+
+## [!UICONTROL toBinary (valor)]
+
+Convierte cualquier valor en datos binarios.
+
+También puede especificar la codificación como un segundo argumento para aplicar conversiones binarias de hex o base64 a datos binarios.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `toBinary( Workfront )`
+>
+>   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (valor)]
+
+Convierte cualquier valor en una cadena.
+
+## [!UICONTROL encodeURL (texto)]
+
+Codifica caracteres especiales de algún texto en una dirección URL válida.
+
+## [!UICONTROL decodeURL (texto)]
+
+Descodifica los caracteres especiales de una dirección URL en texto.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>Devuelve: [!UICONTROL Automatización del flujo de trabajo]
+
+## [!UICONTROL escapeHTML (texto)]
+
+Omite todas las etiquetas de HTML del texto.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> Devuelve: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(texto)]
+
+Excluye todas las etiquetas Markdown del texto.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`escapeMarkdown( # Header )`
+>
+>Devuelve: `&#35; Header`
+
+## [!UICONTROL stripHTML (texto)]
+
+Quita todas las etiquetas de HTML del texto.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Devuelve: Hola
+
+## contiene (texto; cadena de búsqueda)
+
+Comprueba si el texto contiene la cadena de búsqueda.
+
+>[!INFO]
+>
+>**Ejemplos:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   Devuelve: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   Devuelve: [!UICONTROL false]
+
+## [!UICONTROL split (texto; separador)]
+
+Divide una cadena en una matriz de cadenas separando la cadena en subcadenas.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5 (texto)]
+
+Calcula el hash md5 de una cadena.
+
+>[!INFO]
+>
+>**Ejemplo:**
+>
+>`md5( Workfront )`
+>
+>Devuelve: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1 (texto; [codificación]; [key])]
 
@@ -302,89 +379,14 @@ Al usar &quot;[!UICONTROL binario]&quot;, una clave debe ser un búfer, no una c
 >
 >Devuelve: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb11 9
 
-## [!UICONTROL split (texto; separador)]
+## [!UICONTROL base64 (texto)]
 
-Divide una cadena en una matriz de cadenas separando la cadena en subcadenas.
-
->[!INFO]
->
->**Ejemplo:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (texto)]
-
-Pone en mayúscula la primera letra de cada palabra y en minúsculas todas las demás letras.
-
->[!INFO]
->
->**Ejemplo:**
->`startcase( hello WORLD )`
->
->Devuelve: [!UICONTROL Hello World]
-
-## [!UICONTROL stripHTML (texto)]
-
-Quita todas las etiquetas de HTML del texto.
+Transforma el texto en base64.
 
 >[!INFO]
 >
 >**Ejemplo:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Devuelve: Hola
-
-## [!UICONTROL subcadena (texto; inicio;fin)]
-
-Devuelve una parte de una cadena de texto entre la posición &quot;inicio&quot; y &quot;final&quot;.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Devuelve: Ayuda
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Devuelve: el
-
-## [!UICONTROL toBinary (valor)]
-
-Convierte cualquier valor en datos binarios.
-
-También puede especificar la codificación como un segundo argumento para aplicar conversiones binarias de hex o base64 a datos binarios.
-
->[!INFO]
->
->**Ejemplos:**
->
->* `toBinary( Workfront )`
->
->   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Devuelve: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (valor)]
-
-Convierte cualquier valor en una cadena.
-
-## [!UICONTROL recortar (texto)]
-
-Elimina los caracteres de espacio al principio o al final del texto.
-
-## [!UICONTROL upper (texto)]
-
-Convierte todos los caracteres alfabéticos de una cadena de texto a mayúsculas.
-
->[!INFO]
->
->**Ejemplo:**
->
->`upper( Hello )`
->
->Devuelve: [!UICONTROL HOLA]
+>Devuelve: d29ya2Zyb250==
