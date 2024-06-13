@@ -9,9 +9,9 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,5 @@ Esta sección contiene los siguientes artículos:
 * [Configuración de opciones para OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [Recuperar información de moneda para un proyecto cuando la moneda es nula (no asignada)](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
 * [No se admite el uso de la API para agregar una carpeta vinculada](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [La acción moverAcarpeta del documento no funciona](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 
