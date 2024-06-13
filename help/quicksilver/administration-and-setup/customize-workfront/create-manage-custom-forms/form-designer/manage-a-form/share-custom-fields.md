@@ -7,7 +7,7 @@ description: De forma predeterminada, cuando se agrega un nuevo campo personaliz
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Configurar el uso compartido de campos y widgets personalizados con el diseñador de formularios
-
-{{highlighted-preview-article-level}}
 
 De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
 
