@@ -6,16 +6,20 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Actualizar condición para tareas y problemas
 
-{{highlighted-preview}}
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La condición de una tarea o problema es un indicador colocado en él para indicar cómo va. Esto es diferente al Estado del elemento de trabajo, que indica la fase actual de desarrollo del elemento.
 
@@ -136,7 +140,7 @@ Para actualizar manualmente la condición de una tarea o un problema, realice un
 
 1. Para actualizar la condición de una tarea o problema en la sección Detalles de la tarea o problema:
 
-   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo, haga clic en **Condición** y seleccione una de las siguientes opciones:
+   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo, haga clic en **Condición de tarea** o **Condición de problema** y seleccione una de las siguientes opciones:
       * Sin problemas
       * Algunas preocupaciones
       * Impedimentos mayores

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
      <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-     ![Búsqueda de asignaciones](assets/assignments-expanded-in-task-issue-header.png)
+     <span class="preview">![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)</span>
 
    * (Condicional) Haga clic en uno de los nombres de la **Asignaciones sugeridas** lista
    * Clic **Asignármelo a mí** para asignársela a usted mismo

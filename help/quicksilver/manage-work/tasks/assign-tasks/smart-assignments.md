@@ -7,7 +7,7 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -69,11 +69,11 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * El campo Asignaciones de un elemento enumerado en el área de Inicio, al abrir una tarea o un problema
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Criterios de asignaciones inteligentes
@@ -122,7 +122,7 @@ El cálculo de la puntuación de similitud y el orden en que se enumeran las asi
 
   Por ejemplo, si Rick fue asignado a una tarea similar hoy temprano y Jennifer fue asignada a una tarea similar hace dos días, Rick aparece primero.
 
-* Las asignaciones identificadas en esta fase se enumeran en la    **Asignaciones sugeridas**  del campo Asignaciones.
+* Las asignaciones identificadas en esta fase se enumeran en la    **Asignaciones sugeridas**  del campo Asignaciones de tareas.
 
 * Si no hay coincidencias con este cálculo, se inicia la segunda fase de las asignaciones inteligentes, que se calcula con un algoritmo diferente.
 
@@ -132,7 +132,7 @@ Si no se encuentran coincidencias en el primer paso de las asignaciones intelige
 
 Para obtener más información, consulte la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
 
-Las asignaciones identificadas en esta fase se enumeran en la   **Otras asignaciones** (o la sección Usuarios y equipos o Asignaciones de funciones del puesto) del campo Asignaciones para tareas.
+Las asignaciones identificadas en esta fase se enumeran en la   **Otras asignaciones**, **Usuarios y equipos**, o **Asignaciones de roles**  secciones del campo Asignaciones para tareas.
 
 ### Criterios de asignaciones inteligentes para tareas y problemas
 
@@ -142,7 +142,7 @@ Las asignaciones identificadas en esta fase se enumeran en la   **Otras asignaci
 >
 ><span class="preview">Los siguientes criterios se aplican a las tareas sólo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. Para obtener más información, consulte la sección [Primera fase del cálculo de asignación inteligente para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Los usuarios se recomiendan en la lista desplegable asignaciones inteligentes en función de una combinación de los siguientes criterios (enumerados en orden de lo más importante a lo menos importante):
 

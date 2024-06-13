@@ -6,9 +6,9 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
 
 1. Coloque el cursor en el campo de asignación y espere dos segundos.
 
-   <span class="preview">El **Asignaciones sugeridas** se muestra la lista.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Se muestra una o varias de las siguientes secciones con sugerencias de asignación inteligente:
 
-   >[!TIP]
-   >
-   >   Se muestra el encabezado de la lista **Estas son algunas recomendaciones** en lugar de **Asignaciones sugeridas** en una lista de problemas.
+   * **Asignaciones sugeridas**: se muestra para las tareas.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   Se muestra el encabezado de la lista **Estas son algunas recomendaciones** en lugar de **Asignaciones sugeridas** en el entorno Producción.
+     >
+   * **Otras asignaciones**: se muestra para tareas y problemas.
+   * **Usuarios y equipos**: se muestra para tareas y problemas.
+   * **Funciones del puesto**: Muestra las tareas y los problemas.
+   </div>
 
-   Si tiene problemas, las sugerencias de asignación inteligente se muestran en **Asignaciones sugeridas** área.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase del cálculo del algoritmo en la que se hayan identificado las asignaciones:
 
    * **Asignaciones sugeridas**: Asignaciones identificadas en la primera fase del cálculo del algoritmo de asignación inteligente de tareas. <span class="preview">Esta sección no está disponible para problemas.</span>
-   * <span class="preview">**Otras asignaciones** (o **Usuarios y equipos**, o **Funciones del puesto**): Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Otras asignaciones**, **Usuarios y equipos**, o **Funciones del puesto**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
