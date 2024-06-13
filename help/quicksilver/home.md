@@ -3,108 +3,100 @@ title: '[!DNL Adobe Workfront] documentación'
 description: Documentación para [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 02566b4ab08873fd45afb902ece3fedcecbaa9ee
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 2%
+source-wordcount: '335'
+ht-degree: 1%
 
 ---
 
 # [!DNL Workfront] documentación
 
-Le damos la bienvenida a la página de inicio y a la documentación técnica de Adobe Workfront. Adobe Workfront es una aplicación de administración de trabajo que le ayuda a administrar todo el ciclo de vida del trabajo en un solo lugar.
+Le damos la bienvenida a la página de inicio y a la documentación técnica de Adobe Workfront. Utilice los siguientes vínculos de Adobe Workfront, artículos de ayuda y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 
-Utilice los siguientes artículos de ayuda de Adobe Workfront y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
+## Novedades
 
-Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las audiencias a las que se dirigen:
+>[!BEGINTABS]
 
-## Administradores
+>[!TAB Última versión]
 
-### Introducción para administradores de Workfront
+* [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-Empiece a aprender a administrar Adobe Workfront.
+>[!TAB Versiones de 2024]
 
-Consulte [Introducción a la administración de Adobe Workfront](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
+* [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-### Adobe Workfront Fusion
+>[!TAB Beta]
 
-Workfront Fusion conecta sus aplicaciones y servicios web sin problemas para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez.
+* [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Integración de Workfront y Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
-Consulte [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md).
+>[!TAB Problemas conocidos]
 
-## Usuarios finales
-
-### Conceptos básicos para los usuarios
-
-Empiece a usar Workfront dominando los conceptos básicos.
-
-Consulte [Conceptos básicos de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
-
-### Administración de trabajo
-
-Aprenda a configurar y utilizar las potentes herramientas y procesos de administración de trabajo de Workfront.
-
-Consulte [Administrar trabajo](/help/quicksilver/manage-work/manage-work.md)
+* [Problemas conocidos](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
-### Agile en Workfront
+>[!ENDTABS]
 
-La funcionalidad Agile de Workfront permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente.
 
-Consulte [Información general de Agile](/help/quicksilver/agile/agile-overview.md).
+## Explorar documentación
 
-### Uso de documentos
+<table>
 
-Mejore su experiencia añadiendo documentos al flujo de trabajo.
+<tr tr style="border: 0;">
+    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 100px; height: 100px;"><p><b>Administradores</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>Usuarios</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>Desarrolladores</b></p></td>
+  </tr>
+  <tr tr style="border: 0;">
+    <td>
+    <ul>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introducción a la administración de Workfront</a></li>
+    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Introducción a Workfront Fusion</li>
+    </ul>
+ </td>
+    <td>
+        <ul>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Introducción a Workfront</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">Introducción a la administración del trabajo</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Introducción a Informes y paneles</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Introducción al modo de texto</a></li>
+        </ul>
+    </td>
+    <td><ul>
+        <li><a href="/help/quicksilver/agile/agile-overview.md">Introducción a Agile</a></li>
+        <li><a href="/help/quicksilver/documents/documents-overview.md">Introducción a los documentos</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Introducción al Distribuidor de cargas de trabajo</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Introducción a la revisión y aprobación</a></li>
+        </ul></td>
+    <td><ul>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a></li>
+        <li><a href="https://developer.adobe.com/workfront/api-explorer/">Explorador de API</a></li>
+        <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Integraciones de Workfront</a></li>
+        </ul></td>
+  </tr>
+</table>
 
-Consulte [Documentos](/help/quicksilver/documents/documents-overview.md).
+## Sugerencias para buscar contenido en Experience League
 
-### Informes
+La búsqueda de documentación puede ser más eficaz con algunos enfoques estratégicos. A continuación se ofrecen algunos consejos para ayudarle a encontrar lo que necesita de forma eficaz:
 
-Para mostrar la información existente en un formato fácil de leer y compartirla con todas las partes interesadas, utilice informes y paneles.
+### Utilice la tabla de contenido y la barra de búsqueda
 
-Consulte [Informes y paneles: índice de artículos](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+* **Tabla de contenido**: Comience con la tabla de contenido para obtener una visión general de los temas disponibles y reduzca a temas específicos mediante las secciones en expansión.
+* **Barra de búsqueda**: utilice la barra de búsqueda para encontrar la documentación. Introduzca términos específicos relacionados con su problema o tema. En lugar de términos generales como &quot;administración de proyectos&quot;, utilice &quot;configuración de la cronología del proyecto&quot; o &quot;dependencias de tareas&quot;.
 
-#### Creación de informes con modo de texto
+![](assets/exl-site-nav.png)
 
-Si no puede averiguar cómo crear el informe que necesita en Workfront, la solución que busca podría encontrarse en el modo Texto.
+### Explorar secciones de aprendizaje y formación
 
-Consulte [Recursos del modo de texto: índice del artículo](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+* **Materiales de formación**: Vaya a [Formación de Workfront](https://experienceleague.adobe.com/en/browse/workfront) para obtener una biblioteca de vídeos y artículos de formación diseñados para ayudarle a comprender mejor las funciones y la configuración de Workfront. También puede acceder a materiales de formación de pago en [learning.adobe.com](http://learning.adobe.com/).
+* **Cursos**: Buscar [cursos de formación estructurada](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que le guían a través del uso de varias funciones de Workfront en una secuencia lógica.
 
-### Distribuidor de cargas de trabajo
+### Encuentre respuestas en los foros de la comunidad
 
-Utilice el Distribuidor de cargas de trabajo como alternativa a la programación de recursos en Workfront.
-
-Consulte [Índice de artículos del Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
-
-### Objetivos de Adobe Workfront
-
-Alinee su estrategia con su trabajo para lograr la alineación y lograr el éxito mediante el uso de los Objetivos de Workfront de Adobe.
-
-Consulte [Objetivos de Adobe Workfront](/help/quicksilver/workfront-goals/workfront-goals.md).
-
-## Desarrolladores
-
-### Conceptos básicos de API
-
-Conozca los conceptos básicos de la API de Workfront.
-
-Consulte [Conceptos básicos de API](/help/quicksilver/wf-api/general/api-basics.md).
-
-### Explorador de API
-
-Puede ver todos los objetos disponibles a través de la API de Adobe Workfront en el explorador de API.
-
-Consulte la [Explorador de API de Workfront en developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
-
-### Integraciones de Workfront
-
-Acceda a todas las aplicaciones en un solo lugar integrando Workfront con otros sistemas.
-
-Consulte [Integraciones de Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
-
-## Información de la versión de Workfront
-
-Descubra todos los detalles sobre las novedades de Workfront.
-
-Consulte [Versiones de productos de Workfront](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+* **Hacer preguntas**: Si la documentación no responde a su pregunta, intente publicar en [Foros de la comunidad Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) donde otros usuarios y expertos pueden ofrecer asistencia.
