@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ La promoción de entornos permite mover objetos de un entorno de Workfront a otr
 
 Anteriormente, los objetos debían configurarse en entornos de producción independientemente de los entornos de zona protegida o de vista previa.
 
-Habrá más información e instrucciones para la promoción del entorno disponibles cuando la promoción del entorno se ponga en marcha con la versión 24.6.
+Para obtener más información sobre la promoción del entorno, consulte [Descripción general del movimiento de objetos entre entornos de Workfront (Promoción de entornos)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>La promoción del entorno solo está disponible para organizaciones con los nuevos planes Prime o Ultimate.
+>
 
 ## Compartir formularios y campos personalizados en el diseñador de formularios personalizados
 
 >[!NOTE]
 >
->Versión de vista previa: 6 de junio de 2024; versión de producción para todos los clientes: por determinar
+>Versión preliminar: 6 de junio de 2024; versión de producción para todos los clientes: 13 de junio
 
 Ahora puede compartir formularios personalizados y campos personalizados dentro del nuevo diseñador de formularios. Esto permite una mayor colaboración entre los usuarios en los formularios personalizados.
 
