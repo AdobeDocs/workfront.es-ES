@@ -6,14 +6,16 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Realización de asignaciones inteligentes
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
 
@@ -25,7 +27,7 @@ Puede utilizar asignaciones inteligentes para identificar quién es el mejor usu
 
 Las asignaciones inteligentes son sugerencias para usuarios, funciones o equipos que Adobe Workfront presenta al asignar elementos de trabajo a recursos. Workfront basa sus sugerencias en un algoritmo que determina el recurso más apropiado para el trabajo.
 
-<span class="preview">Hay dos algoritmos independientes en Workfront para tareas y problemas. </span>
+<span class="preview">Hay dos algoritmos independientes en Workfront que calculan las asignaciones inteligentes que funcionan de forma diferente para las tareas y para los problemas. </span>
 
 Para obtener más información sobre los criterios utilizados para determinar las asignaciones inteligentes, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * El campo Asignaciones de un elemento enumerado en el área de Inicio
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
-1. Coloque el cursor en el campo de asignación y espere dos segundos.
+1. Coloque el cursor en el campo Asignaciones y espere dos segundos.
 
    <div class="preview">
    Se muestra una o varias de las siguientes secciones con sugerencias de asignación inteligente:
 
-   * **Asignaciones sugeridas**: se muestra para las tareas.
+   * **Asignaciones sugeridas**: se muestra para las tareas. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   Se muestra el encabezado de la lista **Estas son algunas recomendaciones** en lugar de **Asignaciones sugeridas** en el entorno Producción.
      >
-   * **Otras asignaciones**: se muestra para tareas y problemas.
    * **Usuarios y equipos**: se muestra para tareas y problemas.
    * **Funciones del puesto**: Muestra las tareas y los problemas.
+   * **Valorar roles de trabajo de tarjeta**: se muestra para las tareas. Para obtener más información, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase del cálculo del algoritmo en la que se hayan identificado las asignaciones:
 
    * **Asignaciones sugeridas**: Asignaciones identificadas en la primera fase del cálculo del algoritmo de asignación inteligente de tareas. <span class="preview">Esta sección no está disponible para problemas.</span>
-   * <span class="preview">**Otras asignaciones**, **Usuarios y equipos**, o **Funciones del puesto**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Usuarios y equipos**, **Funciones del puesto**, o **Valorar roles de trabajo de tarjeta**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de asignación inteligente de tareas. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

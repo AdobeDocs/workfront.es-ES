@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * **Descripción**: Información adicional sobre el campo de registro conectado. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
    * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos del tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
+
+     >[!TIP]
+     >
+     > No puede agregar los siguientes tipos de campo como campos de búsqueda:
+     >
+     >    * Personas
+     >    * Creado por
+     >    * Última modificación realizada por
+     >    * Campos de escritura anticipada de Workfront
 
 1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo objetos que cumplan estos criterios** sección. Solo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro seleccionado. Puede seleccionar varios formularios.
 

@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 1%
 
 ---
 
 # Asignar tareas
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
 
@@ -51,6 +53,8 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 </table>
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Consideraciones para varias asignaciones a roles de trabajo, equipos y usuarios
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione el sistema/rol predeterminado para utilizar la tarifa de facturación predeterminada para la asignación o seleccione un rol de tarjeta de tarifas para utilizar la tarifa de facturación de la tarjeta de tarifas. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione una función de la lista Funciones del puesto para utilizar la tarifa de facturación predeterminada para la asignación, o seleccione una función de puesto de la tarjeta Tarifa para utilizar la tarifa de facturación de la tarjeta Tarifa. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Haga clic en uno de los nombres de la **Asignaciones sugeridas** , si se muestra esta lista. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Haga clic en uno de los nombres de la <span class="preview">**Asignaciones sugeridas**, **Usuarios y equipos**, o **Funciones del puesto**, o **Clasificar funciones de tarjeta**</span> enumera cuándo se muestran. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     Puede empezar a escribir el nombre de cualquier usuario, equipo o función del trabajo que desee asignar a la tarea y, a continuación, seleccionarla cuando se muestre en la lista.
 
    * Clic **Avanzadas**
 

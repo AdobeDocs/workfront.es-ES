@@ -7,14 +7,16 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Información general sobre asignaciones inteligentes
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
 
@@ -132,7 +134,7 @@ Si no se encuentran coincidencias en el primer paso de las asignaciones intelige
 
 Para obtener más información, consulte la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
 
-Las asignaciones identificadas en esta fase se enumeran en la   **Otras asignaciones**, **Usuarios y equipos**, o **Asignaciones de roles**  secciones del campo Asignaciones para tareas.
+Las asignaciones identificadas en esta fase se enumeran en la **Usuarios y equipos**, **Asignaciones de roles**, y **Clasificar funciones de tarjeta**  del campo Asignaciones. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criterios de asignaciones inteligentes para tareas y problemas
 
