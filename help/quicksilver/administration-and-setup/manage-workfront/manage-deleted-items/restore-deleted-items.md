@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,8 @@ Un administrador de grupo también puede restaurar estos objetos para un grupo q
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Información que se recupera al restaurar un proyecto, tarea o problema
 

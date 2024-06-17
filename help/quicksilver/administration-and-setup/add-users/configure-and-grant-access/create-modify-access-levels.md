@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Como administrador de Adobe Workfront, puede crear niveles de acceso personaliza
 >Le recomendamos encarecidamente que deje los niveles de acceso integrados sin cambios para que pueda hacer referencia a ellos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. Puede hacerlo para cada nivel de acceso, excepto para el administrador del sistema y el usuario externo.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -56,6 +58,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear o editar un nivel de acceso personalizado
 
@@ -108,7 +112,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>Cree y administre todos los formularios personalizados de su grupo. <br><p>Sin este acceso, los usuarios solo pueden adjuntar formularios existentes a los objetos a los que tienen acceso para contribuir o administrar.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tasas de cambio</td> 
+      <td role="rowheader">Tipos de cambio</td> 
       <td> Añada una nueva moneda en Workfront. <p>Sin este acceso, el usuario puede agregar una moneda existente solo a un proyecto que cree.</p> </td> 
      </tr> 
      <tr> 

@@ -7,9 +7,9 @@ description: Las notificaciones por correo electrónico generadas desde Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 Las notificaciones por correo electrónico informan a los colaboradores sobre la actividad reciente en las pruebas, como comentarios, respuestas o decisiones.
 
 Puede establecer notificaciones por correo electrónico para los revisores en las siguientes áreas:
-
-## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Product</td> 
-   <td>Workfront Proof independiente</td> 
-  </tr> 
-</table>
 
 Las notificaciones por correo electrónico para los revisores se pueden configurar en la página Nueva prueba, [!UICONTROL Nueva versión] y se gestionan en la [!UICONTROL Flujo de trabajo] de la sección [!UICONTROL Detalles de revisión] página. Para obtener más información, consulte [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Usuarios con [!UICONTROL Administrador] o [!UICONTROL Administrador de facturaci
 
 Para obtener información sobre los perfiles, consulte [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configure los valores predeterminados de prueba en la configuración personal ([!DNL Workfront Proof] solo usuarios)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Cambiar las alertas de correo electrónico de un destinatario](#change-email-alerts-for-a-recipient)
-* [Configurar valores predeterminados de prueba para un usuario](#configure-proof-defaults-for-a-user)
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proof independiente</td> 
+  </tr> 
+</table>
+
++++
 
 ## Configure los valores predeterminados de prueba en la configuración personal ([!DNL Workfront Proof] solo usuarios)
 

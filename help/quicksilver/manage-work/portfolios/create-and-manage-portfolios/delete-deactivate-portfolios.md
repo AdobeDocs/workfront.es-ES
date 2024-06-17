@@ -6,9 +6,9 @@ description: Los Portfolio son colecciones de proyectos o programas en Adobe Wor
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Los Portfolio son colecciones de proyectos o programas en [!DNL Adobe Workfront]
 Se recomienda desactivar un portafolio que ya no necesite asociarse con proyectos futuros en lugar de eliminarlo, para mantener la información histórica de los proyectos que están asociados actualmente con el portafolio y sus programas.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -50,6 +52,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Información general sobre la eliminación y desactivación de portafolios
 

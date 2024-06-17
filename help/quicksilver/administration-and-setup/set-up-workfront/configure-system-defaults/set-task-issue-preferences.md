@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ De forma predeterminada, las preferencias de tareas y problemas están bloqueada
 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -54,6 +56,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Configurar las preferencias de tareas y problemas para todos los usuarios en [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabajar en ello</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Acceso]](#access)
 
@@ -114,7 +118,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se convierte un problema en una tarea</td> 
+    <td role="rowheader" [!UICONTROL>Cuando se convierte un problema en una tarea</td> 
     <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Mantener el problema original y enlazar su solución a la tarea]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete la tarea. El estado del problema cambia automáticamente a [!UICONTROL Cerrado] cuando finaliza la tarea. Si no selecciona esta opción, se elimina el problema.</p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, independientemente del estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte:</p> 

@@ -6,9 +6,9 @@ description: Colecciones de referencia en un informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ La creación de un informe en Adobe Workfront permite mostrar un conjunto de obj
 Para obtener más información sobre la creación de informes en Workfront, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Explicación de las colecciones
 
@@ -419,7 +423,7 @@ Para agregar una referencia a una colección en la petición de datos personaliz
 
    >[!NOTE]
    >
-   Tenga en cuenta que debe utilizar **problemas** para el nombre del objeto de colección. El Explorador de API no ofrece un nombre de objeto de colección para los problemas en este momento.
+   >Tenga en cuenta que debe utilizar **problemas** para el nombre del objeto de colección. El Explorador de API no ofrece un nombre de objeto de colección para los problemas en este momento.
 
 1. Clic **Listo**.
 1. (Opcional) Continúe editando el informe.

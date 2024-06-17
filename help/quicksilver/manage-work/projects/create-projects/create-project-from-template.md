@@ -6,9 +6,9 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
 * Cree un proyecto a partir de una plantilla en el área Grupos
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <!--drafted for P&P:
 
@@ -102,6 +104,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Cree un proyecto a partir de una plantilla en el área Proyectos
 

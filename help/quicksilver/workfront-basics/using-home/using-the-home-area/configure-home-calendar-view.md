@@ -6,9 +6,9 @@ description: Puede configurar la configuración del Calendario principal para qu
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Para obtener más información sobre el Calendario de Inicio, consulte [[!UICONT
 En este artículo se describe cómo configurar el Calendario principal e integrar el Calendario principal con el calendario externo de Outlook.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -51,6 +53,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Acerca de la integración [!DNL Microsoft Outlook] calendarios
 

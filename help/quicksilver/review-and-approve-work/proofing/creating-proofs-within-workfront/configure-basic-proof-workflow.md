@@ -6,9 +6,9 @@ description: Con un flujo de trabajo básico, puede asignar varios revisores a u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pero no están organizados en fases. Todos los revisores que agregue podrán acceder a la prueba inmediatamente después de crearla.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -52,6 +54,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Creación de una prueba avanzada con un flujo de trabajo básico
 
@@ -298,7 +302,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td role="rowheader">Requerir inicio de sesión: la prueba solo se puede compartir con otros usuarios</td> 
       <td>Cuando esta opción está deshabilitada (predeterminada), cualquier persona con la URL puede ver la revisión. <br>Cuando se selecciona esta opción:
        <ul>
-        <li>Solo los usuarios de Workfront Proof pueden ver la prueba.</li>
+        <li>Solo los usuarios de Workfront Proof pueden ver la revisión.</li>
         <li>Los usuarios no pueden iniciar sesión en la prueba a menos que se les haya agregado a la prueba.</li>
         <li>No se pueden activar las suscripciones.</li>
        </ul></td> 

@@ -6,7 +6,7 @@ description: Puede agregar documentos a proyectos, tareas o problemas en varias 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
+source-git-commit: c6fc7325700f220fcda5c7cb1b4aa0b94cb67880
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 1%
@@ -53,6 +53,8 @@ Debe tener lo siguiente:
 </table>
 
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 +++
 

@@ -7,9 +7,9 @@ description: Resumen de esfuerzo de trabajo
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,8 @@ Este artículo describe qué es el esfuerzo de trabajo y cómo debe utilizarlo a
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones para utilizar Esfuerzo de trabajo
 
@@ -151,7 +155,7 @@ Como administrador de Workfront, puede definir las horas típicas por día labor
    <td>Se establece un nivel de esfuerzo pequeño para completar una tarea en el 25% de las horas habituales por día laborable. Esto significa que una tarea asignada a este nivel de esfuerzo de trabajo debe tardar hasta 2 horas al día en completarse en un día. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>Medio</td> 
+   <td>Media</td> 
    <td> <p>Un nivel medio de esfuerzo para completar una tarea se establece en el 50% de las horas habituales por día laborable. Esto significa que una tarea asignada a este nivel de esfuerzo de trabajo debe tardar más de 2 horas y menos de 6 en completarse en un día. <code>(0.50*80=4)</code> </p> <p>Nota: Cuando la opción Usar esfuerzo de trabajo para calcular automáticamente las horas planificadas de la tarea está habilitada en el proyecto, esta es la opción predeterminada para una tarea, si la tarea tenía 0 horas planificadas antes de que esta opción estuviera habilitada. Esto hace que las horas planificadas para la tarea se actualicen a 4 horas. </p> </td> 
   </tr> 
   <tr> 

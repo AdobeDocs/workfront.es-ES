@@ -6,9 +6,9 @@ description: Puede instalar [!DNL Adobe Workfront for design and video] del merc
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ Puede instalar [!DNL Adobe Workfront for design and video] desde el [!DNL Adobe 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+
++++
 
 ## Requisitos previos
 
@@ -78,7 +82,7 @@ Si es un [!DNL Adobe Admin Console] administrador, puede incluir [!DNL Adobe Wor
 
 Puede instalar [!DNL Adobe Workfront for design and video] para usted desde el [!DNL Adobe Exchange].
 
-1. Vaya a la [Página de instalación de Adobe Workfront para diseño y vídeo](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) en la Bolsa de Adobe.
+1. Vaya a la [Página de instalación de Adobe Workfront para diseño y vídeo](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) en el Adobe Exchange.
 1. En el cuadro de diálogo que aparece, haga clic en **Abrir [!DNL Adobe Creative Cloud] aplicación de escritorio**.
 1. Una [!DNL Adobe Creative Cloud] se abre el administrador de complementos, haga clic en **[!UICONTROL Instalar]**.
 1. Lea la información del cuadro de diálogo y haga clic en **[!UICONTROL OK]**.

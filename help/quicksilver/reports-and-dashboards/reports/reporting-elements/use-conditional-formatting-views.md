@@ -6,9 +6,9 @@ description: Cuando comparta los informes con otros usuarios de Adobe Workfront,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Con una vista con formato condicional, puede:
 Los cambios que realice en la vista del informe sólo se aplicarán en la ficha Detalles del informe. Estos cambios no afectan a las pestañas Resumen, Matriz o Gráfico del informe.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -70,6 +72,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Requisitos previos
 

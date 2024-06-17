@@ -7,9 +7,9 @@ description: Retardo es la cantidad de tiempo que debe transcurrir después de l
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Retardo es la cantidad de tiempo que debe transcurrir después de la finalizaci�
 Las fechas planificadas, proyectadas y estimadas de las tareas sucesoras se calculan teniendo en cuenta las fechas de retardo y planificadas, proyectadas y estimadas de inicio (finalización) de las tareas predecesoras.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Indicar tipos de retardo y retardo en las tareas
 

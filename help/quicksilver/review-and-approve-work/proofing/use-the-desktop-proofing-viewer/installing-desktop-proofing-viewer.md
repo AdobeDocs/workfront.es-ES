@@ -6,9 +6,9 @@ description: Desktop Proofing Viewer, diseñado principalmente para revisar cont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Esta aplicación es compatible con los siguientes sistemas operativos:
 * Windows 7 y versiones posteriores, 32 y 64 bits
 * Mac OS X 10.9 y posterior, 64 bits
 
+{{latest-version}}
+
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,7 +51,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-{{latest-version}}
++++
+
+
 
 ## Instalación del Visor de corrección de escritorio en Mac
 
@@ -69,7 +75,7 @@ Si no es así, puede seguir los pasos a continuación.
 
 >[!NOTE]
 >
->Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente significa que el administrador de Workfront o Workfront Proof debe configurarlo como el visor predeterminado para las pruebas interactivas, como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Instalación del Visor de corrección de escritorio en Windows
 
@@ -93,4 +99,4 @@ Si el administrador de Workfront o Workfront Proof ha descargado la aplicación 
 1. (Condicional) Si instala la aplicación mediante Internet Explorer, actualice la página de inicio en el explorador después de que se instale la aplicación.
 1. Abra una prueba interactiva desde el área Documentos.
 
-Una vez instalado el Visor de pruebas de escritorio, todas las pruebas interactivas se abren en el Visor de pruebas de escritorio. Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente significa que el administrador de Workfront o Workfront Proof debe configurarlo como el visor predeterminado para las pruebas interactivas, como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Una vez instalado el Visor de pruebas de escritorio, todas las pruebas interactivas se abren en el Visor de pruebas de escritorio. Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

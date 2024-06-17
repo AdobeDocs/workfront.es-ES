@@ -6,9 +6,9 @@ description: Para instalar la aplicación antes de que esté disponible en el [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: e823589247a2231e038142ae8d19f366769060e2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Para obtener una visión general de lo que puede esperar al instalar [!DNL Workf
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este artículo:
 
 <table style="table-layout:auto"> 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este a
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos para la instalación y el uso [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

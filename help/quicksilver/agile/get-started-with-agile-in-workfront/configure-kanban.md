@@ -6,14 +6,16 @@ description: Puede crear un equipo Agile de Kanban o Scrum en [!DNL Adobe Workfr
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
 # Configurar [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 Puede crear un equipo Agile en [!DNL Adobe Workfront] como se describe en [Crear un equipo Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo Agile, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
 
@@ -33,7 +35,7 @@ Para obtener información sobre la configuración de un equipo de Scrum, consult
 
 ## Requisitos de acceso
 
-<!--Audited: 12/2023-->
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -64,6 +66,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+
++++
 
 ## Configure si las historias se calculan en puntos o en horas
 

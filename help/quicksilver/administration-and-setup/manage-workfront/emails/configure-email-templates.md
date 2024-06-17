@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '821'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ Sin una plantilla de correo electrónico, la notificación de recordatorio se en
 Las plantillas de correo electrónico se pueden asociar con notificaciones de recordatorio para problemas, tareas, proyectos y plantillas de horas. Al crear plantillas de correo electrónico, el administrador de Workfront puede proporcionar contenido para el correo electrónico y una línea de asunto.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -50,6 +52,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creación de una plantilla de correo electrónico {#create-an-email-template}
 

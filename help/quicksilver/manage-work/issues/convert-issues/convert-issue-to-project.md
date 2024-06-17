@@ -6,9 +6,9 @@ description: Conversión de un problema en un proyecto en Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1980'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Puede convertir un problema en un proyecto nuevo o convertirlo en un proyecto me
 Al crear un proyecto a partir de un problema, algunos de los campos del proyecto se rellenan desde otros objetos. Para obtener más información, consulte la sección &quot;Nueva configuración predeterminada del proyecto&quot; en el artículo [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -57,6 +59,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Convertir un problema en un proyecto
 

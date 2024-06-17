@@ -6,9 +6,9 @@ description: Las tareas predecesoras son tareas de las que dependen otras tareas
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Puede forzar la relación de predecesoras al establecer predecesoras en un proye
 Si se fuerza una tarea predecesora, la tarea sucesora no puede iniciarse antes de que finalice la predecesora. Por ejemplo, si se aplica una relación Fin-Comienzo entre la Tarea A y la Tarea B, la Tarea B no puede comenzar (el estado debe ser Nuevo y el porcentaje completado debe permanecer en 0%) hasta que la Tarea A se marque como completada. Las relaciones obligatorias se aplican a todos los tipos de predecesoras.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -67,6 +69,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exigir un predecesor en el nivel de tarea
 

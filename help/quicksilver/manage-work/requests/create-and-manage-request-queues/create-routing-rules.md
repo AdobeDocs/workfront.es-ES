@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Las reglas de enrutamiento controlan lo que Adobe Workfront hace con los problem
 Las reglas de enrutamiento envían problemas a usuarios específicos o a funciones de trabajo que estén mejor equipadas para resolver el problema o la solicitud enviados. Las reglas de enrutamiento suelen estar asociadas a temas de colas, que se utilizan para controlar qué regla de enrutamiento se aplicará al problema o la solicitud.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear una regla de enrutamiento
 

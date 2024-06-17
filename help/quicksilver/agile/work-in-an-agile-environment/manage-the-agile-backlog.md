@@ -6,9 +6,9 @@ description: Las tareas y los problemas se pueden asignar a un equipo Agile y ag
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Las tareas o problemas se pueden asignar al equipo (y posteriormente se pueden a
 >Si agrega varios equipos a un elemento de registro de asuntos pendientes, la tarea o el problema solo se mostrarán en el registro de asuntos pendientes del equipo principal. El equipo principal es el equipo asignado en primer lugar.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -56,6 +58,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear y administrar historias en el registro de pendientes
 

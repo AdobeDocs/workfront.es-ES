@@ -6,9 +6,9 @@ description: Puede acceder a [!DNL Adobe Workfront] de [!DNL Microsoft Teams] y 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Los comandos que se utilizan en [!DNL Microsoft Teams] realizar estas acciones e
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Información general sobre los requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ Para obtener información sobre cómo agregar un widget de recurso a un formular
 >En un formulario personalizado que contiene muchos campos personalizados o muchas opciones de selección múltiple en campos personalizados, es posible que los usuarios experimenten un rendimiento más lento al agregar o cambiar valores en esos campos. Por ejemplo, un formulario que contenga 100 campos personalizados o campos personalizados de selección múltiple con más de 200 opciones podría ser más lento cuando los usuarios interactúen con él.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -56,6 +58,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar un campo personalizado a un formulario personalizado {#add-custom-field-to-custom-form}
 

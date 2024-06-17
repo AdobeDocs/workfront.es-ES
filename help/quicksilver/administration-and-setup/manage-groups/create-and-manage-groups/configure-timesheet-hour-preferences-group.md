@@ -3,40 +3,42 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: grupo,preferencias,tarea,grupos,problema,desbloquear
 navigation-topic: create-and-manage-groups
-title: Configuración de las preferencias de horas y horas de un grupo
-description: A nivel del sistema, un administrador de Adobe Workfront puede desbloquear las secciones de preferencias de horas y horas Preferencias generales y cumplimentar hojas de horas previamente con. Esto permite a los administradores de grupos configurar las opciones de esas secciones de forma independiente para sus propios grupos.
+title: Configurar las preferencias de horas y hojas de horas de un grupo
+description: En el nivel del sistema, un administrador de Adobe Workfront puede desbloquear las secciones de plantilla de horas y preferencias de horas Preferencias generales y Rellenar de forma previa las plantillas de horas con. Esto permite a los administradores de grupos configurar las opciones de esas secciones de forma independiente para sus propios grupos.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 6%
+source-wordcount: '1379'
+ht-degree: 1%
 
 ---
 
-# Configuración de las preferencias de horas y horas de un grupo
+# Configurar las preferencias de horas y hojas de horas de un grupo
 
-Un administrador de Adobe Workfront puede desbloquear las siguientes secciones de las preferencias de horario y horario a nivel del sistema para que los administradores de grupo puedan configurarlas de forma independiente para sus propios grupos:
+Un administrador de Adobe Workfront puede desbloquear las siguientes secciones de la plantilla de horas y las preferencias de horas en el sistema para que los administradores de grupos puedan configurarlas de forma independiente para sus propios grupos:
 
 * Preferencias generales
 * Dónde pueden registrar el tiempo los usuarios
-* Rellenar partes de horas previamente
+* Rellenar de forma previa hojas de horas
 
-Si hay algún grupo por encima del grupo que administra, sus administradores también pueden hacerlo por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
+Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Las siguientes secciones de la página Preferencias de parte de horas y horas solo se pueden configurar a nivel del sistema y no se pueden desbloquear para grupos:
+Las siguientes secciones de la página Preferencias de plantilla de horas y horas solo se pueden configurar en el sistema y no se pueden desbloquear para grupos:
 
 * Proyectos, tareas y problemas eliminados
 
-Para obtener información sobre cómo un administrador de Workfront desbloquea un parte de horas y una preferencia de hora, consulte la sección [Desbloquear preferencias de horas y horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configuración de las preferencias de horas y horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener información sobre cómo un administrador de Workfront desbloquea una plantilla de horas y preferencias de hora, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->La configuración a nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema. Para obtener más información, consulte [Configuración de las preferencias de un proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configuración de las preferencias de tarea y problema para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>La configuración de nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema. Para obtener más información, consulte [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -45,50 +47,52 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Workfront*</td> 
+   <td role="rowheader">plan Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o administrador de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
+&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
-## Agrupar preferencias de horas y horas
++++
 
-Tenga en cuenta la siguiente información sobre la configuración de un parte de horas o preferencia de hora desbloqueados para un grupo:
+## Agrupar preferencias de horas y hojas de horas
 
-* Si es un administrador de grupo y configura un parte de horas o una preferencia de hora para su grupo, esto afecta a las personas que usan el grupo como su grupo principal.
-* Normalmente, una preferencia desbloqueada permanece desbloqueada indefinidamente. Si el administrador de Workfront lo vuelve a bloquear, la configuración del sistema se aplica de nuevo y se pierde la configuración de las preferencias de los administradores del grupo.
-* Un parte de horas hereda las preferencias de horas y hojas de horas configuradas para el grupo principal del propietario del parte de horas.
+Tenga en cuenta la siguiente información sobre la configuración de una plantilla de horas o preferencia de horas desbloqueadas para un grupo:
 
-   <!--
+* Si es administrador de un grupo y configura una plantilla de horas o una preferencia de horas para su grupo, esto afectará a las personas que usen el grupo como su grupo de inicio.
+* Normalmente, una preferencia desbloqueada permanece desbloqueada indefinidamente. Si el administrador de Workfront vuelve a bloquearlo, la configuración del sistema vuelve a tener efecto y se pierde la configuración de las preferencias realizadas por los administradores del grupo.
+* Una plantilla de horas hereda la plantilla de horas y las preferencias de horas configuradas para el grupo de inicio del propietario de la plantilla de horas.
+
+  <!--
   Add example here?
   -->
 
-* Una vez que un administrador de Workfront desbloquea una preferencia a nivel de sistema y la configura para su grupo, puede bloquearla para asegurarse de que todos los miembros de los grupos debajo de la suya usen la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de Workfront para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, consulte [Bloquear o desbloquear un grupo de preferencias de horas y horas](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Una vez que un administrador de Workfront desbloquea una preferencia en el sistema y usted la configura para su grupo, puede bloquearla para asegurarse de que todos los miembros de los grupos debajo del suyo estén usando la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de Workfront para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, consulte [Bloquear o desbloquear una plantilla de horas de grupo y sus preferencias horarias](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
-## Configurar una hoja de horas o preferencia de hora desbloqueada para un grupo
+## Configurar una hoja de horas o preferencia de horas desbloqueadas para un grupo
 
 >[!TIP]
 >
->Si es administrador de Workfront, puede evitar los pasos del 1 al 4 accediendo a Configuración > Horario y horas > Preferencias y buscando el nombre del grupo en el cuadro de la parte superior de la página.
+>Si es administrador de Workfront, puede omitir los pasos del 1 al 4 en Configuración > Plantilla de horas y Horas > Preferencias y, a continuación, buscar el nombre del grupo en el cuadro de la parte superior de la página.
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
-1. Haga clic en el nombre del grupo cuyas preferencias de horario u hora desee configurar.
-1. En el panel izquierdo, haga clic en **Hojas de hora y horas**.
+1. Haga clic en el nombre del grupo cuya hoja de horas o preferencias de hora desee configurar.
+1. En el panel izquierdo, haga clic en **Hojas de horas y horas**.
 
-1. En la página que se muestra, en la sección **Preferencias generales** , configure cualquiera de las siguientes opciones:
+1. En la página que se muestra, en la variable **Preferencias generales** , configure cualquiera de las siguientes opciones:
 
    >[!TIP]
    >
-   >Si pasa el ratón sobre una preferencia y aparece un aviso para decirle que está bloqueado, puede solicitar al administrador de Workfront que la desbloquee para todos los grupos de la organización.
+   >Si pasa el ratón por encima de una preferencia y se muestra información del objeto para indicarle que está bloqueada, puede pedir al administrador de Workfront que la desbloquee para todos los grupos de la organización.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,45 +100,45 @@ Tenga en cuenta la siguiente información sobre la configuración de un parte de
     <tbody> 
      <tr> 
       <td role="rowheader">Registrar tiempo para fechas futuras</td> 
-      <td> <p>Permite a los usuarios registrar la hora de las fechas futuras en todo el sistema en:</p> 
+      <td> <p>Permite a los usuarios registrar tiempo para fechas futuras en todo el sistema en:</p> 
        <ul> 
-       <li>Todos los proyectos, tareas y problemas en los que tengan acceso al tiempo de registro, independientemente del grupo del proyecto</li> 
-       <li>Sus partes de horas como hora general</li>
+       <li>Proyectos, tareas y problemas a los que tengan acceso para registrar tiempo, independientemente del grupo del proyecto</li> 
+       <li>Sus hojas de horas como Hora general</li>
        </ul> 
-       <p>Esto resulta útil cuando los usuarios planean estar fuera de la oficina y desean hacerlo antes.</p> 
-       <p><b>NOTA</b>: No puede impedir que los usuarios inicien sesión en tareas o problemas que se hayan cerrado o cancelado. Solo puede evitar que los usuarios inicien sesión en proyectos completos o en ejecución. Se recomienda utilizar filtros en listas de tareas y problemas para excluir los que se han completado o cancelado de la visibilidad de los usuarios.</p> </td> 
+       <p>Esto resulta útil cuando los usuarios planean estar fuera de la oficina y desean registrar esa hora de antemano.</p> 
+       <p><b>NOTA</b>: no puede evitar que los usuarios registren el tiempo en tareas o problemas que se han cerrado o cancelado. Solo puede evitar que los usuarios registren el tiempo en proyectos completos o inactivos. Le recomendamos que utilice filtros en listas de tareas y problemas para excluir de la visibilidad a los usuarios los que se hayan completado o cancelado.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Agregar gastos de una hoja de horas</td> 
-      <td> <p>Permite a los usuarios registrar el tiempo y los gastos en el parte de horas.</p> 
-      <p>Cuando esta preferencia está habilitada para un grupo y el grupo está establecido como grupo principal para determinados usuarios, aparece un icono de gastos junto a los proyectos y tareas en las hojas de horas de esos usuarios. Los usuarios pueden hacer clic en este icono para añadir o editar los gastos del proyecto o la tarea.</p>
+      <td> <p>Permite que los usuarios registren tanto el tiempo como los gastos en la hoja de horas.</p> 
+      <p>Cuando esta preferencia está habilitada para un grupo y el grupo se establece como el grupo de inicio para ciertos usuarios, aparece un icono de gastos junto a los proyectos y las tareas de las hojas de horas de esos usuarios. Los usuarios pueden hacer clic en este icono para agregar o editar gastos para el proyecto o la tarea.</p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Asignar roles a entradas de horas manualmente</td> 
-      <td> <p>Permita a los usuarios seleccionar manualmente cualquier función de trabajo asignada en su perfil de usuario o asignada al objeto.</p> <p><b>IMPORTANTE</b>:  
+      <td> <p>Permite que los usuarios seleccionen manualmente cualquier rol asignado en su perfil de usuario o asignado al objeto.</p> <p><b>IMPORTANTE</b>:  
         <ul> 
-         <li>Si deshabilita esta configuración después de asignar funciones de trabajo a entradas de hora, los usuarios deben ajustar las horas registradas en las distintas funciones en la ficha Horas del proyecto, tarea o problema.</li> 
-         <li>Si el usuario no tiene una función de trabajo asignada en su perfil y hay una tarea asignada como Propietario de la Tarea en el cuadro de diálogo Asignaciones avanzadas, esa función de trabajo aparece cuando el usuario inicia sesión en la tarea.</li> 
+         <li>Si deshabilita esta configuración después de asignar los roles a las entradas de horas, los usuarios deben ajustar las horas registradas en varios roles en la pestaña Horas del proyecto, tarea o problema.</li> 
+         <li>Si el usuario no tiene una función de trabajo asignada en su perfil y hay una tarea asignada como Propietario de la tarea en el cuadro de diálogo Asignaciones avanzadas, esa función de trabajo aparece cuando el usuario registra tiempo en la tarea.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrinja la edición de la plantilla de horas trabajadas a los propietarios y administradores</td> 
-      <td> <p>Restringir la edición a propietarios de hojas de horas, independientemente del grupo del proyecto y los administradores de Workfront. Cuando esta opción está deshabilitada, las hojas de horas también se pueden editar:</p> 
+      <td role="rowheader">Restringir la edición de hojas de horas a propietarios y administradores</td> 
+      <td> <p>Restrinja la edición a los propietarios de plantillas de horas, independientemente del grupo del proyecto y de los administradores de Workfront. Si se deshabilita esta opción, las plantillas de horas también se pueden editar:</p> 
        <ul> 
         <li> <p>Usuarios con acceso administrativo a hojas de horas y horas en su nivel de acceso</p> </li> 
-        <li> <p>Aprobadores de parte de horas si "Puede editar horas" está habilitado en el parte de horas</p> </li> 
-        <li> <p>El administrador del propietario del parte de horas</p> </li> 
+        <li> <p>Aprobadores de hojas de horas si "Puede editar horas" está habilitado en la hoja de horas</p> </li> 
+        <li> <p>El administrador del propietario de la plantilla de horas</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Restringir la edición de horas a propietarios y administradores</td> 
-      <td>Restrinja la edición al usuario que ha introducido las horas y a los administradores de Workfront. Esta configuración se aplica a la ficha Horas de un proyecto o a un informe de horas.</td> 
+      <td>Restrinja la edición al usuario que introduce las horas y a los administradores de Workfront. Esta configuración se aplica a la ficha Horas de un proyecto o de un informe de horas.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En el **Dónde los usuarios pueden registrar la hora** , configure cualquiera de las siguientes opciones:
+1. En el **Donde los usuarios pueden registrar el tiempo** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto">
     <col>
@@ -142,44 +146,44 @@ Tenga en cuenta la siguiente información sobre la configuración de un parte de
     <tbody>
      <tr>
       <td role="rowheader">Registrar tiempo directamente en los proyectos</td> 
-      <td>Permite a los usuarios iniciar sesión en el proyecto (tanto en la ficha Actualizaciones como en el parte de horas). Si desea restringir el tiempo de grabación de los usuarios en el nivel de proyecto, deje esta opción sin marcar.</td>
+      <td>Permite a los usuarios registrar tiempo en el proyecto (tanto en la pestaña Actualizaciones como en la hoja de horas). Si desea restringir el tiempo de registro de los usuarios en el nivel de proyecto, deje esta opción sin marcar.</td>
      </tr>
      <tr>
       <td role="rowheader">Registrar tiempo en proyectos completos</td>
-      <td>Permite a los usuarios registrar la hora en un proyecto que se haya marcado como completado. Si esta opción está desactivada, los usuarios no pueden registrar la hora del trabajo que han completado en los proyectos en el estado Completar .</td>
+      <td>Permite a los usuarios registrar el tiempo de un proyecto que se ha marcado como completado. Si esta opción está deshabilitada, los usuarios no podrán registrar el tiempo de trabajo que hayan completado en los proyectos en el estado Completado.</td>
      </tr>
      <tr>
       <td role="rowheader">Registrar tiempo en proyectos inactivos</td> 
-      <td>Cuando esta opción está habilitada, los usuarios pueden iniciar sesión durante horas en los proyectos con estado de Muerta.</td>
+      <td>Cuando esta opción está habilitada, los usuarios pueden registrar horas en los proyectos con el estado Inactivo.</td>
      </tr>
     </tbody>
    </table>
 
    >[!NOTE]
    >
-   >Esta preferencia se aplica en función de la configuración de las preferencias del grupo de inicio del usuario. Si esta configuración está habilitada en las preferencias del grupo de inicio del usuario, podrá registrar el tiempo directamente en los proyectos, incluidos los proyectos completados o muertos, independientemente de si las preferencias de grupo del proyecto lo permiten o no.
+   >Esta preferencia se aplica según la configuración de las preferencias del grupo de inicio del usuario. Si esta configuración está habilitada en las preferencias de grupo de inicio del usuario, podrá registrar tiempo directamente en los proyectos, incluidos los proyectos completados o inactivos, independientemente de si las preferencias de grupo del proyecto lo permiten o no.
 
-1. En el **Rellenar partes de horas previamente** , configure cualquiera de las siguientes opciones:
+1. En el **Rellenar de forma previa hojas de horas** , configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Trabajo que se encuentra dentro de &lt;number of="" weeks=""&gt; del rango de trabajo del parte de horas</td> 
-      <td> <p>Define el número de semanas antes y después del intervalo de fechas del parte de horas que contiene fechas de tareas y problemas asignados al usuario. El valor predeterminado es 1 semana y se puede ampliar este intervalo a 4 semanas. Esto significa que el parte de horas se rellena previamente con tareas y problemas que tienen fechas entre cuatro semanas antes del intervalo de fechas del parte de horas y hasta cuatro semanas después del intervalo de fechas del parte de horas, si selecciona 4 semanas para el intervalo. </p> </td> 
+      <td role="rowheader">Trabajo que se encuentra dentro &lt;number of="" weeks=""&gt; del rango de trabajo de la hoja de horas</td> 
+      <td> <p>Define el número de semanas antes y después del intervalo de fechas de la hoja de horas que contiene las fechas de las tareas y problemas asignados al usuario. La configuración predeterminada es 1 semana y puede ampliar este intervalo a 4 semanas. Esto significa que la hoja de horas se rellena previamente con tareas y problemas que tienen fechas entre cuatro semanas antes del intervalo de fechas de la hoja de horas y hasta cuatro semanas después del intervalo de fechas de la hoja de horas, si selecciona 4 semanas para el intervalo de fechas. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tareas y problemas que se han completado</td> 
-      <td>Si se asignan varios recursos a una sola tarea, se recomienda esta configuración. Esto significa que cuando un recurso registra la hora en la tarea y la marca como completa, los demás recursos asignados a la tarea aún pueden encontrar la tarea o el problema en su parte de horas, para registrar sus horas.</td> 
+      <td>Si se suelen asignar varios recursos a una sola tarea, se recomienda esta configuración. Esto significa que cuando un recurso registra la hora con la tarea y la marca como completada, los demás recursos asignados a la tarea pueden encontrar la tarea o el problema en su hoja de horas para registrar sus horas.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tareas y problemas con fechas planificadas que se encuentren en el rango de fechas de la hoja de horas</td> 
-      <td> <p>Cuando se selecciona, el parte de horas incluye tareas y problemas que tienen una Fecha de inicio planificada o una Fecha de finalización que se encuentra dentro del intervalo de fechas del parte de horas.</p> </td> 
+      <td> <p>Una vez seleccionada, la hoja de horas incluye tareas y problemas con una fecha planificada de inicio o una fecha de finalización que se encuentran dentro del intervalo de fechas de la hoja de horas.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> Tareas con fechas proyectadas que se encuentren en el rango de fechas de la hoja de horas</td> 
-      <td> <p>Cuando se selecciona, el parte de horas incluye tareas que tienen una Fecha de inicio prevista o una Fecha de finalización comprendida dentro del lapso de tiempo del proyecto, incluso si la fecha planificada del problema o la tarea queda fuera del intervalo de fechas del parte de horas.</p> </td> 
+      <td> <p>Cuando se selecciona, la hoja de horas incluye tareas que tienen una Fecha proyectada de inicio o Fecha de finalización que se encuentra dentro del marco de tiempo del proyecto, incluso si la fecha planificada del problema o la tarea está fuera del intervalo de fechas de la hoja de horas.</p> </td> 
      </tr> 
     </tbody> 
    </table>

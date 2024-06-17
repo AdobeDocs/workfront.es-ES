@@ -6,9 +6,9 @@ description: Puede proporcionar acceso a la información que su organización ne
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Para obtener información sobre cómo crear un informe copiándolo, consulte [Cr
 Para obtener más información sobre la creación y administración de informes, incluidas clases, vídeos y tutoriales, consulte la sección Más información en el sitio de Adobe Experience League.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -57,6 +59,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Creación de un informe {#create-a-report}
 

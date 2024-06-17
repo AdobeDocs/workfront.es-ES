@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Los administradores de Portfolio suelen definir las preguntas y respuestas del c
 Las preguntas y respuestas seleccionadas para un cuadro de resultados deben ser cuantificables para proporcionar un valor de alineación y comparar diferentes proyectos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -51,6 +53,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Crear un informe de valoración
 
