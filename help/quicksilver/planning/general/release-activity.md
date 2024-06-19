@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Vista previa: por determinar
 
 Hemos actualizado la experiencia para agregar una miniatura o una imagen de portada a un registro desde la página Detalles. Las mejoras incluyen las siguientes actualizaciones:
 
-* Una imagen en miniatura se asigna aleatoriamente a un registro cuando se crea. Más adelante puede editar esta imagen.
+* Una imagen en miniatura y una imagen de portada se asignan automáticamente a un registro cuando se crea. Más adelante puede editar estas imágenes.
 
 * Puede añadir una miniatura desde la página Detalles. Antes de esta mejora, solo se podía añadir una miniatura desde la vista de tabla.
 
@@ -129,7 +129,7 @@ Producción: 17 de junio de 2024
 
 Vista previa: por determinar
 
-Se ha agregado el vínculo &quot;Mostrar más/Mostrar menos&quot; en un campo de registro conectado cuando hay registros que, de lo contrario, se mostrarían en más de dos filas.
+Se ha agregado el vínculo &quot;Mostrar más/Mostrar menos&quot; en un campo de registro conectado cuando hay registros que, de lo contrario, se mostrarían en más de dos filas de la página Detalles de un registro.
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -324,7 +324,7 @@ Vista previa: por determinar
 
 Para organizar mejor la información en la página del registro para una legibilidad y navegación más eficientes, hemos introducido secciones en la página del registro. Los títulos de las secciones sirven como encabezados que organizan los campos en distintas categorías. Las secciones son totalmente personalizables y se pueden expandir o contraer, si es necesario.
 
-Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Actualizaciones en tiempo real de los cambios de configuración de los campos
 
@@ -433,7 +433,7 @@ Vista previa: por determinar
 
 Como administrador de Workspace, ahora puede reordenar los campos enumerados en la página de registro o en la vista previa. Al actualizar el orden de los campos, cambia el orden de los campos en todos los registros del mismo tipo, para todos los que ven la página de registros o la vista previa de registros.
 
-Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Agregar imagen de portada a las páginas de registro
@@ -444,7 +444,7 @@ Vista previa: por determinar
 
 A medida que administra páginas de registro, ahora puede agregar, cambiar la posición y reemplazar una imagen de portada en una página de registro o vista previa para enriquecer la presentación del registro y la participación de las partes interesadas. Las imágenes de portada son visibles para todos los usuarios que ven los registros.
 
-Para obtener más información, consulte [Administrar la página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Semana del 25 de marzo de 2024
 

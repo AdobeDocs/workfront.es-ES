@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -198,7 +198,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    >[!TIP]
    >
-   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado.
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado. Debe utilizar acumuladores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como fechas de inicio y finalización para las vistas de calendario y de escala de tiempo. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Haga clic en **Crear**.
 

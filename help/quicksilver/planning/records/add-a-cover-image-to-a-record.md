@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para obtener más información, consulte [Creación de tipos de registros](/help
 
 ## Requisitos de acceso
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -58,9 +58,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
+   <p>Actual: Trabajo o superior</p>
+   <p>Nuevo: estándar</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Permisos de contribución o superiores en un espacio de trabajo </p>  
+   <td> <p>Administración de permisos en un espacio de trabajo </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </tbody>
 </table>
 
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Consideraciones acerca de grabar imágenes de portada de página
 
 Puede personalizar la página de un registro agregándole una imagen de portada.
@@ -94,7 +97,8 @@ Tenga en cuenta lo siguiente:
 * Solo se pueden agregar archivos de imagen como imágenes de portada.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Puede agregar una imagen de portada a registros individuales desde la vista previa de los registros en cualquier vista o desde la página de registros.
-* No puede agregar imágenes de portada en línea desde ninguna vista de registros.
+* No se pueden agregar imágenes de portada desde una vista de registros.
+* Workfront carga automáticamente una imagen de portada cada vez que crea un registro. Más adelante puede modificar esta imagen.
 
 ## Agregar una imagen de portada a un registro
 
@@ -114,19 +118,15 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    Se abre la página de tipo de registro.
 
-1. Desde cualquier vista, haga clic en el nombre de un registro
+1. Desde cualquier vista, haga clic en un registro
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
+   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
 1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
@@ -134,10 +134,25 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    ![](assets/details-page.png)
 
-1. En la página de vista previa o de registro, haga clic en **Añadir portada**. <!--check the casing here; I logged a bug for this-->
-El **Cubierta de registro** se abre el cuadro.
+1. En la página de vista previa o de registro, haga clic en **Añadir portada**
 
-1. Clic **Seleccionar para cargar** y busque una imagen en el equipo para seleccionarla, agréguela y haga clic en **Usar imagen**.
+
+   O
+
+   Pase el ratón sobre una imagen de portada existente y haga clic en **Más** menú ![](assets/more-menu.png) , luego haga clic en **Cargar**. <!--check the casing here; I logged a bug for this-->
+El **Cubierta de registro** se abre en el **Cargar** pestaña.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Clic **Examinar imágenes** y busque una imagen en el equipo para seleccionarla y agregarla.
+
+1. (Opcional) Para quitar la imagen antes de guardarla, haga clic en **Cargar nueva imagen** icono ![](assets/upload-new-image-icon.png) y cargue una imagen nueva.
+
+1. (Opcional) Haga clic en **Galería** , luego haga clic en una imagen de la galería de imágenes. La galería de imágenes no se puede modificar.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Clic **Usar imagen**.
 
    La imagen se carga en la parte superior de la página o vista previa del registro y los cambios se guardan automáticamente.
 

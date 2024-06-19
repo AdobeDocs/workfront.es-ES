@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
    * **Mis espacios de trabajo**: Muestra los espacios de trabajo creados.
    * **Otros espacios de trabajo**: muestra todos los espacios de trabajo en Workfront Planning, incluidos los compartidos con usted.
 
-   Para el resto de los usuarios, todos los espacios de trabajo que han creado o que se comparten con ellos se muestran en la **Workspaces** área.
+   Para el resto de los usuarios, todos los espacios de trabajo que haya creado o que se compartan con usted se mostrarán en la **Workspaces** área.
 
 ## Introducción importante a Workfront Planning: {#planning-important-intro}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con el tipo de registro &quot;Producto&quot;, se crea un campo de registro vinculado denominado &quot;Producto vinculado&quot; en el tipo de registro de Campaña y se crea un tipo de registro vinculado denominado automáticamente &quot;Campaña&quot; en el tipo de registro de Producto.
 
-   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
+   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**:
 
-     Se crea un nuevo tipo de registro de sólo lectura de Workfront Planning para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a registros de Workfront Planning.
+      * Se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
 
-     Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+      * Se crea un nuevo tipo de registro de sólo lectura de Workfront Planning para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a registros de Workfront Planning.
+
+        Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+      * No se puede acceder a los registros de Planning o a sus campos desde Workfront.
+      * Se puede acceder a los registros de Planning y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **Cuando se agregan campos de búsqueda del registro u objeto al que se conecta**: puede conectar campos del objeto de la otra aplicación al tipo de registro de Workfront Planning. Son campos vinculados o de búsqueda. Los campos vinculados muestran automáticamente información de registros u objetos conectados al conectar los registros u objetos. Los campos de búsqueda vinculados siempre son de solo lectura y se rellenan automáticamente con los valores de los registros u objetos conectados.
 
@@ -167,7 +172,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Los campos de registro vinculados van precedidos de un icono de relación ![](assets/relationship-field-icon.png).
 
-  Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los iconos que indican que un campo es un número, un párrafo o una fecha.
+  Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los campos vinculados (o de búsqueda) van precedidos de iconos que indican que un campo es un número, un párrafo o una fecha.
+
 
 ## Conectar tipos de registros
 
@@ -220,7 +226,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >    * Personas
      >    * Creado por
      >    * Última modificación realizada por
-     >    * Campos de escritura anticipada de Workfront
+     >    * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
 
 1. (Condicional y opcional) Si ha seleccionado conectar un objeto de Workfront, seleccione un **Formulario personalizado** desde el **Vincular solo objetos que cumplan estos criterios** sección. Solo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro seleccionado. Puede seleccionar varios formularios.
 
@@ -235,6 +241,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. Haga clic en **Crear**.
 
@@ -258,6 +279,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Haga clic en **Omitir** y no agregue ningún campo del registro u objeto vinculado. El **Nombre** del registro vinculado es el único campo visible en la vista de tabla del registro original.
 
 1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador. Los valores de los campos vinculados se muestran separados por comas o como un valor agregado según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registro vinculado.
+
+   >[!IMPORTANT]
+   >
+   >    Debe seleccionar un valor de agregado al agregar campos de fecha si desea que los campos estén disponibles para agregarlos como fechas de inicio y finalización en las vistas de calendario y cronología.
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
