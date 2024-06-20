@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
 1. (Opcional y condicional) Haga clic en **Previsualizar** dentro de cualquiera de las siguientes plantillas predefinidas de workspace:
 
-   * Gestión de marketing
+   * Básico: gestión de marketing
+   * Avanzado: Gestión de marketing
+   * Empresa: gestión de marketing
    * Administración de ventas
    * Administración de productos
 
@@ -133,7 +135,7 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
    O
 
-   Clic **Atrás**, luego haga clic en **Crear espacio de trabajo** para crear un espacio de trabajo desde cero.
+   Clic **Atrás**, luego haga clic en **Nuevo espacio de trabajo** para crear un espacio de trabajo desde cero.
 
    Se crea uno para los siguientes tipos de espacios de trabajo:
 

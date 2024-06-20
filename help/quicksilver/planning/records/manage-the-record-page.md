@@ -1,20 +1,20 @@
 ---
-title: Administrar la página de registro
+title: Administrar el diseño de página de registro
 description: Puede editar el diseño de la vista previa y la página del registro en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Administrar la página de registro
+# Administrar el diseño de página de registro
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Los cambios de visualización que realice en la vista previa del registro se pueden ver inmediatamente en la página de detalles del registro. Los cambios realizados en la página de registro también se pueden ver en el cuadro de vista previa del registro.
 
-* Agregar una imagen de portada a un registro no forma parte del diseño general de la vista previa del registro o de la página. Puede agregar imágenes de portada únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* La adición de una imagen de portada o una miniatura a un registro no forma parte del diseño general de la vista previa o la página del registro. Puede agregar imágenes de portada o miniaturas únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) y [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Agregar secciones a una vista previa de registro o página
 
@@ -135,15 +135,11 @@ Para agregar una sección a una vista previa de registro o a una página:
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
+   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
 1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
@@ -200,15 +196,11 @@ Todas las secciones se expanden de forma predeterminada.
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre de un registro.
+   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Puede ver el **Abrir detalles** a la izquierda del campo Nombre de un registro en una vista de tabla sólo cuando el campo Nombre es un campo principal.
 
 1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 

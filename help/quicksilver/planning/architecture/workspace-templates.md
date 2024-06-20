@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 A continuación, se muestran las plantillas de espacio de trabajo de Workfront Planning y el número de campos que incluyen:
 
-* **Gestión de marketing**: Puede administrar todas las campañas de marketing cuando utilice esta plantilla. La plantilla incluye lo siguiente:
+* **Básico: gestión de marketing**: Ideal para organizaciones que establecen las bases de un sistema de marketing fundacional. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
-      * **Plan de marketing**: 7 campos y 5 campos vinculados
-      * **Campaign**: 9 campos y 7 campos vinculados
-      * **Programa**: 9 campos y 5 campos vinculados
-      * **Actividad**: 6 campos y 5 campos vinculados
+      * **Campaign**: 15 campos
    * Taxonomías:
-      * **Audiencia**: 3 campos y 3 campos vinculados
-      * **Segmento**: 5 campos y 1 campo vinculado
-      * **Recorrido del cliente**: 4 campos
-      * **Oferta de productos**: 3 campos y 1 campo vinculado
-      * **Región**: 1 campo
-      * **Táctico**: 1 campo
-      * **Canales**: 1 campo y 1 campo vinculado
-      * **Unidad de negocio**: 1 campo
-      * **Función**: 1 campo
 
-* **Administración de ventas**: Puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye lo siguiente:
+      * **Personas**: 7 campos
+      * **Marcas**: 6 campos
+      * **Productos**: 5 campos
+
+* **Avanzado: Gestión de marketing**: adecuado para equipos listos para explorar estrategias de marketing más matizadas. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
-      * **Oportunidad**: 7 campos y 4 campos vinculados
-      * **Actividad**: 4 campos y 5 campos vinculados
-      * **Campaign**: 5 campos y 3 campos vinculados
+      * **Campañas**: 14 campos
+      * **Programas**: 23 campos
+
    * Taxonomías:
-      * **Cuenta**: 4 campos y 3 campos vinculados
-      * **Posible cliente**: 12 campos y 2 campos vinculados
-      * **Contacto**: 10 campos y 2 campos vinculados
-      * **Región**: 1 campo y 2 campos vinculados
-      * **Industria**: 1 campo
+      * **Regiones**: 1 campo
+      * **Fases de Recorrido del cliente**: 4 campos
+      * **Audiencias**: 8 campos
+      * **Entregables**: 12 campos
+      * **Marcas**: 6 campos
+
+* **Empresa: gestión de marketing**: Diseñado para organizaciones grandes o maduras con sistemas de marketing complejos. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+
+   * Tipos de registros operativos:
+
+      * **Campañas**: 15 campos
+      * **Programas**: 15 campos
+      * **Tácticas**: 11 campos
+      * **Actividades**: 18 campos
+
+   * Taxonomías:
+
+      * **Productos**: 10 campos
+      * **Entregables**: 18 campos
+      * **Audiencias de Target**: 8 campos
+      * **Regiones**: 8 campos
+      * **Subregiones**: 7 campos
+      * **Socios**: 7 campos
+      * **Casos de uso**: 7 campos
+      * **Fases de Recorrido del cliente**: 3 campos
+
+* **Administración de ventas**: Puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+
+   * Tipos de registros operativos:
+
+      * **Oportunidad**: 11 campos
+      * **Actividad**: 9 campos
+      * **Campaign**: 8 campos
+   * Taxonomías:
+      * **Cuenta**: 7 campos
+      * **Posible cliente**: 14 campos
+      * **Contacto**: 12 campos
+      * **Región**: 3 campos
+      * **Industria**: campo 2
       * **Centro de compras**: 1 campo
       * **Producto/ servicio**: 1 campo
       * **Competencia**: 1 campo
 
-* **Administración de productos**: Puede crear un proceso de administración de productos eficiente y estructurado con esta plantilla. La plantilla incluye lo siguiente:
+* **Administración de productos**: Puede crear un proceso de administración de productos eficiente y estructurado con esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
-      * **Tema**: 8 campos y 2 campos vinculados
-      * **Iniciativa**: 8 campos y 2 campos vinculados
-      * **Épico**: 9 campos y 3 campos vinculados
-      * **Historia del usuario**: 9 campos y 2 campos vinculados
+      * **Tema**: 10 campos
+      * **Iniciativa**: 10 campos
+      * **Épico**: 12 campos
+      * **Historia del usuario**: 11 campos
 
    * Taxonomías:
 
-      * **Cliente**: 6 campos y 1 campo vinculado
-      * **Sprint**: 7 campos y 1 campo vinculado
-      * **Equipo de productos**: 3 campos
-      * **Solicitudes de función**: 8 campos y 1 campo vinculado
-      * **Industria**: 1 campo y 1 campo vinculado
+      * **Cliente**: 8 campos
+      * **Sprint**: 9 campos
+      * **Equipo de productos**: 4 campos
+      * **Solicitudes de función**: 9 campos
+      * **Industria**: 2 campos

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
    * **Predeterminado (gris)**: el color de las agrupaciones se establece en gris. Esta es la opción predeterminada.
    * **Valores de campo**: El color de las agrupaciones coincide con el color del campo por el que se agrupa.
-Puede hacer coincidir el color de las agrupaciones solo con campos con opciones codificadas por colores.
+
+     >[!NOTE]
+     >
+     >    * Puede hacer coincidir el color solo con campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con los campos de Estado o con las opciones asociadas con los colores.
+     >    
+     >    * No se puede hacer coincidir el color con los campos de búsqueda de tipos de objeto o registro vinculados.
+
 
    Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
 

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 1%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [Resumen de la sección Historial](planning/records/history-section-overview.md)
       * [Añadir una miniatura en un registro](planning/records/add-thumbnails-to-records.md)
       * [Agregar una imagen de portada a un registro](planning/records/add-a-cover-image-to-a-record.md)
-      * [Administrar la página de registro](planning/records/manage-the-record-page.md)
+      * [Administrar el diseño de página de registro](planning/records/manage-the-record-page.md)
       * [Administrar registros en la sección Planificación de objetos de Adobe Workfront](planning/records/manage-records-in-planning-section.md)
    * Vistas de Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vistas: índice de artículos](planning/views/views-information.md)

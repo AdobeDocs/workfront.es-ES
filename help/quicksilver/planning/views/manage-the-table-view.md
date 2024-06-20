@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 3%
 
 ---
@@ -145,9 +145,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
      >
      >* No puede mover el campo Nombre a otra posición, a menos que designe otro campo como campo principal. Para obtener más información, continúe con el paso 4. <!--accurate?-->
      >
-     >* No se puede ocultar ni eliminar un campo principal.
      >
-     >* El campo principal está congelado y no forma parte del desplazamiento horizontal.
 
    * Reemplace el campo de la primera columna por otro campo cambiando el campo principal. Para obtener más información, siga con el paso 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >       * Número
    >       * Fórmula
    >
-   >   * El campo principal siempre está congelado y no se puede mover. Puede seleccionar otro campo para reemplazar un campo principal si necesita moverlo a otra posición.
+   >   * El campo principal siempre está inmovilizado y no se puede mover ni ocultar. El campo principal está congelado y no forma parte del desplazamiento horizontal. Puede seleccionar otro campo para reemplazar un campo principal si necesita moverlo a otra posición.
    >
    >   * Cambiar el campo principal en la vista de tabla afecta a la vista de todos los demás usuarios que lo elijan.
    >
@@ -176,6 +174,8 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >   * No se puede eliminar ni ocultar un campo principal.
    >
    >   * El valor enumerado en el campo principal siempre tiene un hipervínculo a la página del registro.
+   >
+   >   * Los campos principales se convierten en el título del registro y se muestran en las páginas de registro del área de encabezado de los registros y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas.
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
@@ -230,7 +230,7 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 
    Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del nombre del registro para reordenar las filas.
+1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de tabla:
 
 * Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
 
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando un filtro para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto que está conectado al tipo de registro de campaña que está conectado a un proyecto de Workfront, puede hacer referencia al propietario del proyecto en el filtro que está creando para el tipo de registro de actividad.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando un filtro para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al presupuesto del proyecto en el filtro que está creando para el tipo de registro de actividad.
 
 Para agregar un filtro a una vista de tabla:
 
@@ -375,7 +375,7 @@ Tenga en cuenta lo siguiente:
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 * Puede editar los registros enumerados bajo una agrupación.
 * Puede agrupar por campos de registro conectados o campos de búsqueda, pero no para los campos que permiten la vinculación a varios registros.
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una agrupación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al propietario del proyecto en la agrupación que está creando para el tipo de registro de actividad.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una agrupación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la agrupación que está creando para el tipo de registro de actividad.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Para agregar una agrupación:
    Clic **Borrar todo** para eliminar todos los campos.
 
 1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **+ Nuevo &lt; Nombre del tipo de registro >** al final de cualquier agrupación para agregar nuevos registros, actualice la página para agregar el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para agregar nuevos registros, actualice la página para agregar el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Agregar un orden {#sort-information}
 
@@ -432,7 +432,7 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 
 * Puede ordenar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
 
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una ordenación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al propietario del proyecto en la ordenación que está creando para el tipo de registro de actividad.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una ordenación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la ordenación que está creando para el tipo de registro de actividad.
 
 Para ordenar <!--ungrouped (add this when sorting for groupings will be available--> Registros, haga lo siguiente:
 
