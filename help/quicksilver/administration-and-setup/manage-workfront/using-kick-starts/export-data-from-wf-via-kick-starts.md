@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -330,17 +330,17 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
    El archivo de KickStart exportado se descarga en el equipo como archivo de Excel o como . archivo zip que contiene varios archivos de propiedades y de Excel. Cada archivo de Excel es una colección de hojas, donde cada hoja representa un campo asociado al objeto seleccionado. Hay un **Propiedades** hoja asociada a cada exportación.
 
-   El **Tablero** y **Informe** Las opciones de le permiten seleccionar tableros e informes específicos para incluirlos en la descarga. Solo puede exportar paneles que se compartan en todo el sistema.
+   El **Tablero** y **Informe** Las opciones de le permiten seleccionar tableros e informes específicos para incluirlos en la descarga. Solo puede exportar paneles, que se comparten en todo el sistema.
 
    No se pueden exportar los informes de matriz. Para obtener más información sobre los informes de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts no admite filtros de modo de texto. Para que la exportación se realice correctamente, los filtros de creación de informes deben cambiarse al modo Estándar.
 
    Puede seleccionar hasta 100 paneles y 100 informes en una sola exportación.
 
    ![](assets/kickstart-export-350x381.png)
 
    Puede exportar varios objetos al mismo tiempo.
-
-
 
 1. (Recomendado) Analice los datos exportados para asegurarse de que toda la información que espera ver se ha exportado.
 
