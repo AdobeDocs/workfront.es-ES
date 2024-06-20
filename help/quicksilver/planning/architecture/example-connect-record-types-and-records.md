@@ -1,13 +1,13 @@
 ---
 title: Ejemplo de conexión de tipos y registros
-description: En este artículo se describe un ejemplo de cómo crear una conexión entre un tipo de registro de Adobe de Workfront Planning y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Workfront Planning con un proyecto individual.
+description: Este artículo describe un ejemplo de cómo crear una conexión entre un tipo de registro de Adobe Workfront Planning y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Workfront Planning con un proyecto individual.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ Para ello:
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Condicional) Si seleccionó la variable **Seleccionar opción de campos de búsqueda** en el paso anterior, en la lista de campos asociados con el **Product** tipo de registro, haga clic en **+** para el **Presupuesto** y haga clic en **Añadir campos**. Esto crea un campo llamado **Presupuesto (de la información del producto)**, que es el nombre del campo vinculado. Cualquier información del presupuesto del producto se mostrará en este campo para los registros de campaña.
+1. (Opcional) Anule la selección del **Título** alternar en **Registrar apariencia** para mostrar únicamente la imagen en miniatura del registro en los campos conectados. Si está activada, los registros muestran la miniatura y el título. La opción está activada de forma predeterminada.
+1. (Condicional) Si seleccionó la variable **Seleccionar opción de campos de búsqueda** en el paso anterior, en la lista de campos asociados con el **Product** tipo de registro, haga clic en **+** para el **Presupuesto** y haga clic en **Añadir campos**. Esto crea un campo llamado **Presupuesto (de la información del producto)**, que es el nombre del campo vinculado. Cualquier información del presupuesto del producto se muestra en este campo para los registros de campaña.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -57,13 +58,13 @@ Para ello:
    >
    >    Si desea ver el presupuesto de todos los productos seleccionados como un número total, seleccione **SUM** en el menú desplegable situado a la derecha del nombre del campo. Cuando los usuarios seleccionan varios productos en la **Información del producto** campo de registro vinculado, la variable **Presupuesto (de la información del producto)** El campo suma todos sus valores de Budget y muestra el total. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Si selecciona **Ninguno**, en lugar de **SUM**, los presupuestos individuales de los productos seleccionados se mostrarán separados por comas.
+   > Si selecciona **Ninguno**, en lugar de **SUM**, los presupuestos individuales de los productos seleccionados se muestran separados por comas.
 
    Esto genera los campos siguientes:
 
    * En la vista de tabla Registro de campaña y en la página Registro de campaña de una campaña:
 
-      * **Información del producto** (el campo de registro vinculado): esto muestra el nombre o los nombres de los productos cuando los añada.
+      * **Información del producto** (el campo de registro vinculado): muestra el nombre o los nombres de los productos cuando los agrega.
       * **Presupuesto (de la información del producto)** (el campo vinculado): esto muestra los presupuestos de los productos seleccionados en el campo Información del producto.
 
    * En la vista de tabla de registros de producto y en la página de registro de producto de un producto:
@@ -78,7 +79,7 @@ Para ello:
 
 1. Desde el **Campaign** para crear una campaña agregando una fila nueva en la tabla de la página Tipo de registro de campaña.
 
-1. Haga doble clic dentro de  **Información del producto** de la nueva campaña.
+1. Haga doble clic dentro de **Información del producto** de la nueva campaña.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -157,7 +158,7 @@ Para ello:
 
    * En la vista de tabla de registros de Campaign y en la página de registros de Campaign:
 
-      * **Información del proyecto** (el campo del objeto vinculado): esto muestra el nombre o los nombres de los proyectos.
+      * **Información del proyecto** (el campo del objeto vinculado): Muestra el nombre o los nombres de los proyectos.
       * **Ingresos planificados (de la información del proyecto)** (el campo vinculado): Esto muestra los ingresos planificados de los proyectos seleccionados en el campo Información del proyecto.
 
    >[!TIP]
@@ -166,7 +167,7 @@ Para ello:
 
 1. Desde el **Campaign** tipo de registro vista de tabla, cree una campaña agregando una nueva fila en la tabla.
 
-1. Haga doble clic dentro de  **Información del proyecto** de la nueva campaña.
+1. Haga doble clic dentro de la columna Información ** proyecto de la nueva campaña.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -211,8 +212,8 @@ Revise la información sobre el proyecto. En la página del registro solo se mue
 1. (Opcional) Actualice la información sobre el proyecto en Workfront, si tiene permisos para hacerlo.
 
 1. (Opcional) En la vista de tabla de Campaign, pase el ratón sobre la **Información del proyecto** encabezado de campo, haga clic en la flecha hacia abajo y, a continuación, haga clic en **Editar campos de búsqueda.**
-1. Haga clic en **+** para cualquier campo de proyecto que desee agregar al registro de planificación de Workfront del proyecto en la **Campos no seleccionados** sección.
-1. Haga clic en **-** para cualquier campo de proyecto que desee eliminar del registro de planificación de proyectos de Workfront en la **Campos seleccionados** sección.
+1. Haga clic en **+** icono para cualquier campo de proyecto que desee agregar al registro de planificación de Workfront del proyecto en la **Campos no seleccionados** sección.
+1. Haga clic en **-** icono para cualquier campo de proyecto que desee eliminar del registro de planificación de proyectos de Workfront en **Campos seleccionados** sección.
 1. Haga clic en **Guardar**.
 
    Los campos vinculados adicionales se añaden al tipo de registro de campaña.

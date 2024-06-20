@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 3%
 
 ---
@@ -157,25 +157,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    El campo se convierte en un campo principal, lo que significa que se muestra como la primera columna de la vista de tabla. El campo principal anterior se desplaza a la segunda columna.
 
-   >[!NOTE]
-   >
-   >   * Solo pueden ser campos principales los campos de los siguientes tipos:
-   >
-   >       * Texto de línea única
-   >       * Número
-   >       * Fórmula
-   >
-   >   * El campo principal siempre está inmovilizado y no se puede mover ni ocultar. El campo principal está congelado y no forma parte del desplazamiento horizontal. Puede seleccionar otro campo para reemplazar un campo principal si necesita moverlo a otra posición.
-   >
-   >   * Cambiar el campo principal en la vista de tabla afecta a la vista de todos los demás usuarios que lo elijan.
-   >
-   >   * Cambiar el campo principal en una vista de tabla afecta a todas las vistas de tabla.
-   >
-   >   * No se puede eliminar ni ocultar un campo principal.
-   >
-   >   * El valor enumerado en el campo principal siempre tiene un hipervínculo a la página del registro.
-   >
-   >   * Los campos principales se convierten en el título del registro y se muestran en las páginas de registro del área de encabezado de los registros y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas.
+   Los campos principales se convierten en el título del registro y se muestran en el área de encabezado de la página del registro y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas. Para obtener más información sobre los campos principales, consulte [Resumen del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 

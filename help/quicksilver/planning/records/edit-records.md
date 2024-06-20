@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ Puede editar un registro desde las siguientes áreas:
 * [Desde la vista de tabla de un tipo de registro](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [Desde la previsualización del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view)
 * [Desde la página del registro](#edit-a-record-from-the-records-page)
+* [Desde un objeto Workfront en la sección Planificación](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Editar un registro en línea en la vista de tabla de un tipo de registro
 
@@ -210,7 +211,7 @@ Puede editar un registro desde las siguientes áreas:
 
 1. (Opcional) Haga clic en **Más** a la derecha del título del registro y haga clic en **Cambiar nombre**. Se actualiza el campo que se muestra como título del registro.
 
-   El título del registro es el campo principal del registro cuando se ve en una vista de tabla. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+   El título del registro es el campo principal del registro cuando se ve en una vista de tabla. Para obtener más información, consulte [Resumen del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Comience a editar la información del campo en la vista previa del registro.
 
@@ -280,3 +281,8 @@ Puede editar un registro desde las siguientes áreas:
 
    Workfront guarda automáticamente los cambios.
 
+## Edición de un registro de un objeto de Workfront en la sección Planificación
+
+Después de conectar registros con objetos de Workfront, puede editar los registros de Workfront Planning en Workfront desde la sección Planificación del objeto.
+
+Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

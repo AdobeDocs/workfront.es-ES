@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: f51dc8bf403d0784ea908d2f6e23f59f86d09273
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ En los artículos de las secciones siguientes se describe cómo crear y configur
 * [Editar campos](/help/quicksilver/planning/fields/edit-fields.md)
 * [Eliminar campos](/help/quicksilver/planning/fields/delete-fields.md)
 * [Campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md)
+* [Resumen del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md)
