@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 1%
 # Habilitar o deshabilitar el Ayudante de IA
 
 Como administrador de Workfront, puede controlar qué usuarios de su organización tienen habilitado el asistente de IA. Esto se administra mediante niveles de acceso.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Habilitar o deshabilitar el Asistente de IA en Workfront
 
 El Asistente de IA está habilitado de forma predeterminada.
 
