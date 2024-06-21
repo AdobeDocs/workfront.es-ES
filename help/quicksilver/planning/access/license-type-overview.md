@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 El tipo de licencia de Adobe Workfront funciona junto con los permisos de Adobe Workfront Planning para que pueda ver, contribuir o administrar espacios de trabajo. <!--add more objects here when we can grant other object-specific permissions-->
 
+Los permisos de Workfront Planning para registrar vistas son independientes de los tipos de licencia de Workfront.
+
 Los usuarios con todos los tipos de licencia pueden ver, crear, editar o administrar las vistas de Workfront Planning.
 
 En este artículo se describen los tipos de licencias necesarias en Workfront y los permisos otorgados a los espacios de trabajo en Workfront Planning en función de cada tipo de licencia.
@@ -33,7 +35,7 @@ Un usuario con un tipo de licencia de nivel inferior tiene permisos restringidos
 >
 >Los solicitantes (o colaboradores, según el nuevo modelo de licencia) no pueden contribuir ni administrar espacios de trabajo y sus objetos.
 >
->Hay una indicación en el cuadro de diálogo de uso compartido de que no se puede otorgar a los usuarios permisos para contribuir o administrar un espacio de trabajo cuando tienen una licencia de nivel inferior.
+>Hay una indicación en el cuadro de diálogo de uso compartido de que no se pueden conceder permisos a los usuarios para contribuir o administrar un espacio de trabajo cuando tienen una licencia de nivel inferior, ya que estos niveles de permisos están atenuados.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ En la tabla siguiente se describe la relación entre el tipo de licencia de un u
 Al conceder permisos de usuario a un espacio de trabajo, también se les conceden permisos para tipos de registros, registros y campos.
 
 
-| Tipo de licencia de Adobe Workfront* | Permisos permitidos en Adobe Workfront Planning |
+| Tipo de licencia de Adobe Workfront* | Permisos más altos permitidos en Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nuevo: estándar <br> o <br>Actual: plan | Los usuarios pueden crear y administrar espacios de trabajo, tipos de registros y registros.<br> Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado. |
-| Nuevo: claro <br> o <br>Actual: Trabajo | Los usuarios pueden contribuir y ver un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo. <br> Los usuarios pueden crear, editar o eliminar registros en los espacios de trabajo en los que tienen permisos de Contribute. |
-| Nuevo: colaborador <br> o <br>Actual: Revisor o Solicitante | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. <br> Los usuarios no pueden crear, editar ni eliminar tipos de registros o registros. |
+| Nuevo: estándar <br> o <br>Actual: plan | Los usuarios pueden administrar espacios de trabajo. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros y campos. <br> Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado. |
+| Nuevo: claro, colaborador <br> o <br>Actual: Trabajo, Solicitante, Revisor | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo. <br> Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos. |
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

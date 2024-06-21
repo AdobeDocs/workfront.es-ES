@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Nuevo: claro o superior</p>
+   <p>Nuevo: estándar</p>
    O
-   <p>Actual: Trabajo o superior</p> 
+   <p>Actual: plan</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administrar permisos superiores a un espacio de trabajo</a> </p>  
+   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>

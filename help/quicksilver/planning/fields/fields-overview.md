@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de
 
   Para obtener información sobre la administración de campos, consulte los siguientes artículos:
 
-   * [Editar campos](/help/quicksilver/planning/fields/edit-fields.md)
+   * [Editar configuración de campo](/help/quicksilver/planning/fields/edit-fields.md)
    * [Eliminar campos](/help/quicksilver/planning/fields/delete-fields.md)
 
 * Los campos asociados a un tipo de registro están disponibles para asociarse a todos los registros de ese tipo. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

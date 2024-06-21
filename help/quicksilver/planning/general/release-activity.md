@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ El título de un registro es el nombre del registro o cualquier campo que esté 
 Esta mejora está disponible para registros conectados desde Workfront Planning y para recursos conectados desde Adobe Experience Manager.
 
 Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Solo los usuarios con licencia Standard o Plan pueden tener permisos de administración en los espacios de trabajo (título)
+
+Producción: 21 de junio de 2024
+
+Vista previa: por determinar
+
+Hemos cambiado los tipos de usuarios que pueden tener acceso completo a los espacios de trabajo. Ahora, solo los usuarios con licencia Estándar o Planificar pueden tener permisos de Administración en los espacios de trabajo. El acceso a los tipos de registro, registros y campos se hereda de un espacio de trabajo. Todos los demás usuarios tienen acceso de solo vista a los espacios de trabajo y sus tipos de objetos. Antes de esta actualización, los usuarios con licencia Light y Worker podían recibir permisos de Contribute para los espacios de trabajo.
+
+Para obtener más información, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Semana del 10 de junio de 2024
 
@@ -366,7 +376,7 @@ Cuando un usuario cambia cualquier configuración de campo (nombre, descripción
 >
 >No hay ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
 
-Para obtener más información, consulte [Editar campos](/help/quicksilver/planning/fields/edit-fields.md).
+Para obtener más información, consulte [Editar configuración de campo](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Semana del 6 de mayo de 2024
 
