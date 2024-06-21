@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ Puede recuperar campos de datos personalizados con el prefijo &quot;DE:&quot;. P
 #### Uso de consultas con nombre
 
 Algunos tipos de objeto tienen búsquedas con nombre que se ejecutan normalmente y están disponibles añadiendo el nombre de la consulta al final del URI del tipo de objeto. Por ejemplo, la siguiente solicitud recupera los elementos de trabajo (tareas y problemas) a los que está asignado el usuario actualmente:
-<pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro fields para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de las consultas con nombre permitidas para un objeto, consulte la pestaña Acción del objeto en [Explorador de API](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro fields para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de las consultas con nombre permitidas para un objeto, consulte la pestaña Acción del objeto en [Explorador de API](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Uso de `Count`
 
@@ -373,7 +373,7 @@ Puede utilizar `count` para devolver el número de resultados que coinciden con 
 
 ### Solicitud de un informe
 
-Puede realizar una solicitud de informe donde solo se desee el agregado de algún campo con una o más agrupaciones. Como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la sintaxis para la API de SOAP:
+Puede realizar una solicitud de informe donde solo se desee el agregado de algún campo con una o más agrupaciones. SOAP Como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la de la API de la:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
 <pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo proyecto": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
 <pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo proyecto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
