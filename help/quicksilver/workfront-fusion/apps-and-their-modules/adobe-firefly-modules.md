@@ -8,9 +8,10 @@ title: módulos de Adobe Firefly
 description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Firefly], así como conectarlo a múltiples aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ Este módulo de acción expande una imagen, de forma opcional con contenido de u
    <td>Introduzca o asigne un mensaje para el contenido con el que desea expandir la imagen. Si no se proporciona ningún mensaje, la imagen se expandirá con contenido que coincida con la imagen original.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Número de variaciones]</td> 
+   <td>Escriba un número entre 1 y 4. El módulo generará este número de variaciones de imagen expandidas.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Formato de imagen expandido]</td> 
    <td>Seleccione el formato de archivo con el que se guardará la imagen expandida.</td> 
   </tr> 
@@ -212,6 +217,10 @@ Este módulo de acción rellena el área enmascarada de una imagen, opcionalment
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Introduzca o asigne un mensaje para el contenido con el que desea rellenar la imagen. Si no se proporciona ningún mensaje, la imagen se rellenará con contenido que coincida con la imagen original.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Número de variaciones]</td> 
+   <td>Escriba un número entre 1 y 4. El módulo generará este número de variaciones de imágenes rellenadas.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato de imagen rellena]</td> 
@@ -253,6 +262,10 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Introduzca o asigne un indicador para la imagen que desea crear. Más detalles en la solicitud le permitirá tener más control sobre lo que aparece en la imagen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Número de variaciones]</td> 
+   <td>Escriba un número entre 1 y 4. El módulo generará este número de variaciones de imagen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato de imagen generado]</td> 
@@ -297,5 +310,3 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
   </tr> 
  </tbody> 
 </table>
-
-
