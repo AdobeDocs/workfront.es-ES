@@ -9,9 +9,9 @@ description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ Este módulo de acción rellena el área enmascarada de una imagen, opcionalment
    <td>Seleccione el tamaño que desea que tenga la imagen rellena.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Semilla]</td> 
-   <td>Introduzca o asigne un entero. Puede utilizar esta misma semilla en otro módulo Expandir una imagen para generar una imagen similar con estilos diferentes. </td> 
+   <td role="rowheader">[!UICONTROL Semillas]</td> 
+   <td>Para cada imagen que genere el módulo, haga clic en <b>Añadir elemento<b> y escriba o asigne un número entero. Puede utilizar esta misma semilla en otro módulo Expandir una imagen para generar una imagen similar con estilos diferentes. El número de semillas que añada debe ser igual al campo Number of variaciones.</td> 
   </tr> 
  </tbody> 
 </table>
