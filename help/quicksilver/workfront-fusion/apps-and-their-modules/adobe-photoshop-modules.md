@@ -8,9 +8,10 @@ title: Módulos de Adobe Photoshop
 description: Con los módulos de Adobe Photoshop, puede iniciar un escenario de Adobe Workfront Fusion basado en los eventos de su cuenta de Adobe Photoshop, crear, leer o actualizar acuerdos y otros registros, buscar registros utilizando los criterios definidos y cargar documentos.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
+source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -157,7 +158,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 Este módulo de acción crea un nuevo PSD con capas opcionales y genera representaciones o guarda como PSD.
 
-Para ver los campos relacionados con este módulo, consulte [Creación de un nuevo PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) en en la documentación de Adobe Photoshop.
+Para ver los campos relacionados con este módulo, consulte [Creación de un nuevo PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) en la documentación de Adobe Photoshop.
 
 #### Editar capas de texto
 
@@ -535,4 +536,3 @@ Este módulo de acción realiza una llamada personalizada a la API de Photoshop.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
