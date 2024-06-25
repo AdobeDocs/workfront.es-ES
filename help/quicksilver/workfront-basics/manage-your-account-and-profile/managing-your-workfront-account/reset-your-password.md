@@ -6,9 +6,9 @@ description: Puede restablecer su [!DNL Adobe Workfront] contraseña. Como medid
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Puede restablecer su [!DNL Adobe Workfront] contraseña. Como medida de segurida
 >
 >A [!DNL Workfront] El administrador de puede configurar restricciones de contraseña personalizadas, tal como se explica en [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) y [Configurar directivas de contraseña para la autenticación](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
->A [!DNL Workfront] El administrador también puede restablecer su contraseña en un entorno habilitado para la autenticación mejorada. Para obtener más información, consulte [Restablecer la contraseña de un usuario con autenticación mejorada](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
+><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
 ## Requisitos de acceso
 
