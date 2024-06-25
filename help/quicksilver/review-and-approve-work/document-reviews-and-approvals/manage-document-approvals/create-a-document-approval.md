@@ -6,16 +6,14 @@ description: Puede solicitar la aprobación de otros usuarios para un documento 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Crear una solicitud de revisión o aprobación de documento
-
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -62,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Clic **Aprobaciones** en el panel izquierdo.
 
-1. <span class="preview">(Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.</span>
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 
 1. Para agregar un aprobador, haga clic en **Aprobador** y y empiezan a escribir el nombre de un usuario o equipo.
 
@@ -84,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.</span>
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 
 1. Para agregar un aprobador, haga clic en **Aprobador** y y empiezan a escribir el nombre de un usuario o equipo.
 
