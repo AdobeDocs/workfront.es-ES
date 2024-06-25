@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Agregar datos calculados a un formulario personalizado con el generador de formularios heredado
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 En un formulario personalizado, puede agregar un campo personalizado calculado que utilice datos existentes para generar datos nuevos cuando el formulario personalizado se adjunta a un objeto.
 

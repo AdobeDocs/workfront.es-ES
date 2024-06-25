@@ -1,18 +1,20 @@
 ---
 title: Agregar o editar una imagen u otro widget de recursos en un formulario personalizado con el generador de formularios heredado
 description: Puede agregar o editar las propiedades de cualquiera de los siguientes widgets de recursos, como imágenes, vídeos, archivos de PDF y archivos de Adobe XD, en un formulario personalizado. Esto resulta útil cuando necesita incluir contenido visual como imágenes de marca, un vídeo de instrucciones o un prototipo interactivo para una aplicación que está diseñando.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # Agregar o editar una imagen u otro widget de recursos en un formulario personalizado con el generador de formularios heredado
+
+{{form-designer-default}}
 
 Puede agregar o editar las propiedades de cualquiera de los siguientes widgets de recursos en un formulario personalizado:
 

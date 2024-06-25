@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reutilizar un campo personalizado o un widget de recurso en un formulario personalizado con el generador de formularios heredado
 description: Al crear o editar un formulario personalizado, puede agregar un campo personalizado o un widget que ya se haya agregado a otro formulario personalizado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Reutilizar un campo personalizado o un widget de recurso en un formulario personalizado con el generador de formularios heredado
+
+{{form-designer-default}}
 
 Al crear o editar un formulario personalizado, puede agregar un campo personalizado o un widget de recurso que ya se haya agregado a otro formulario personalizado.
 

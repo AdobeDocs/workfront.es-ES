@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 1%
 
 1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 
+## Diseñador de formularios a GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Con la versión 24.7, el diseñador de formularios estará disponible de forma general y se convertirá en la experiencia predeterminada para crear y editar formularios personalizados en Adobe Workfront. El generador de formularios heredado ya no estará disponible. Le recomendamos que cambie al diseñador de formularios ahora y aproveche sus características.
+>
+>Para obtener más información, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>El generador de formularios heredado se eliminó del entorno de vista previa el 19 de junio de 2024 y se eliminará del entorno de producción con la versión 24.7 en julio.
 
 ## Asociar el grupo derecho con el equipo {#right-group-team}
 
