@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1b6d807e3ec560974632bb6667e576efc13a0827
+source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
 workflow-type: tm+mt
-source-wordcount: '14368'
+source-wordcount: '14373'
 ht-degree: 1%
 
 ---
@@ -454,6 +454,7 @@ ht-degree: 1%
          * [Recálculos de escala de tiempo del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Trimestres personalizados para proyectos](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Activar o desactivar las versiones rápidas para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configuración de ubicaciones](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Configurar las preferencias de programación y hoja de horas {#configure-timesheets-schedules}
