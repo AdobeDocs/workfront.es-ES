@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calcular porcentaje completado en función de]</td> 
-   <td> <p>El porcentaje completado de un proyecto o tarea principal se basa en el progreso general de las tareas. Esta información se puede calcular en función de la duración o las horas planificadas de las tareas de un proyecto.</p> <p>Si selecciona [!UICONTROL Duración], la Duración de cada tarea de un proyecto determina el porcentaje completado global del proyecto y la Duración de cada subtarea determina el porcentaje completado global de su tarea principal.</p> <p>Si selecciona [!UICONTROL Duración], asegúrese de especificar las [!UICONTROL Horas habituales por día laborable] y [!UICONTROL Días laborables habituales por semana] en la sección [!UICONTROL Líneas de tiempo]. [!DNL Workfront] utiliza esta información al calcular el porcentaje completado de una tarea según la duración. </p> <p>Si selecciona [!UICONTROL Horas planificadas], asegúrese de que todas las tareas de cada proyecto tengan definida la cantidad de [!UICONTROL Horas planificadas] y de que la cantidad no sea cero.</p> </td> 
+   <td> <p>Workfront calcula el porcentaje completado de un proyecto o una tarea principal utilizando el porcentaje completado de cada tarea del proyecto y la duración o las horas planificadas de cada tarea.</p><p>Los usuarios asignados a cada tarea establecen manualmente el porcentaje completado de cada tarea.</p><p>Aquí puede seleccionar si Workfront utilizará la duración o las horas planificadas de las tareas para calcular el porcentaje completado de los proyectos.</p> <p>Si selecciona [!UICONTROL Duración], la Duración de cada tarea de un proyecto determina el porcentaje completado global del proyecto y la Duración de cada subtarea determina el porcentaje completado global de su tarea principal.</p> <p>Si selecciona [!UICONTROL Duración], asegúrese de especificar las [!UICONTROL Horas habituales por día laborable] y [!UICONTROL Días laborables habituales por semana] en la sección [!UICONTROL Líneas de tiempo]. [!DNL Workfront] utiliza esta información al calcular el porcentaje completado de una tarea según la duración. </p> <p>Si selecciona [!UICONTROL Horas planificadas], asegúrese de que todas las tareas de cada proyecto tengan definida la cantidad de [!UICONTROL Horas planificadas] y de que la cantidad no sea cero.</p><p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Resumen de porcentaje completado del proyecto</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Establecer automáticamente la condición del proyecto según el estado de progreso]</td> 
