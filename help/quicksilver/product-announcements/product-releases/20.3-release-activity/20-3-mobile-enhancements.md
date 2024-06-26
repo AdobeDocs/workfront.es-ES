@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -52,5 +52,5 @@ Anclar comandos
 
 Puede utilizar la función de anclaje para acceder a los comandos guardados del asistente virtual, así como a los anclajes del explorador web.
 
-Para obtener más información sobre estas dos funciones, consulte [asistente virtual de la aplicación móvil de Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Nota: El Asistente virtual móvil ha quedado obsoleto en abril de 2024.**
 

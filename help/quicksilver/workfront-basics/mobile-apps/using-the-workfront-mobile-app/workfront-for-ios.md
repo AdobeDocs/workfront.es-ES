@@ -7,10 +7,10 @@ description: El [!DNL Adobe Workfront] La aplicación de le permite acceder a su
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ El [!DNL Adobe Workfront] La aplicación le permite acceder a su trabajo en cual
 
 Para obtener información sobre cómo iniciar sesión en la aplicación móvil, consulte la sección [Inicie sesión en [!UICONTROL Workfront] aplicación móvil](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) en el artículo [Iniciar sesión en [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
-## [!UICONTROL Página de inicio]
+## [!UICONTROL Inicio]
 
 El [!UICONTROL Inicio] le permite trabajar directamente en las tareas, problemas y aprobaciones que le han sido asignadas. Desde el [!UICONTROL Inicio] de la aplicación, puede:
 
@@ -39,7 +39,7 @@ El [!UICONTROL Inicio] le permite trabajar directamente en las tareas, problemas
    <td> 
     <ul> 
      <li>Actualizar estados de tareas y problemas</li> 
-     <li>Publicar en el área de Actualizaciones</li> 
+     <li>Post en el área de Actualizaciones</li> 
      <li>Ver documentos</li> 
      <li>Adjuntar fotos</li> 
      <li> <p>Crear una solicitud o una tarea rápida</p> <p>Nota: Las tareas rápidas creadas en Inicio son tareas personales, a menos que elija asignar un proyecto.</p> </li> 
@@ -58,7 +58,7 @@ El [!UICONTROL Tableros] le permite acceder a su [!DNL Workfront] tableros.
 
 ![Área de tableros](assets/mobile-all-boards-displayed.png)
 
-Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Tableros] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Proyectos]
 
@@ -73,7 +73,7 @@ El [!UICONTROL Proyectos] le permite interactuar con y administrar [!UICONTROL p
     <ul> 
      <li>Actualizar estado del proyecto</li> 
      <li>Ver detalles importantes del proyecto</li> 
-     <li>Publicar en el área de [!UICONTROL Actualizaciones]</li> 
+     <li>Post en el área de [!UICONTROL Updates]</li> 
      <li>Convertir tareas, problemas y solicitudes en proyectos</li> 
     </ul> </td> 
    <td> 
@@ -106,7 +106,7 @@ El [!UICONTROL Aprobaciones] le permite ver y aprobar [!UICONTROL aprobaciones] 
     </ul> </td>
    <td>
     <ul>
-     <li>Plantillas de horas</li>
+     <li>Hojas de horas</li>
      <li>Solicitudes de acceso</li>
     </ul> </td>
   </tr>
@@ -145,7 +145,7 @@ El [!UICONTROL Solicitudes] le permite ver detalles sobre las solicitudes. Desde
     </ul> </td>
    <td>
     <ul>
-     <li>Publicar en el área de [!UICONTROL Actualizaciones]</li>
+     <li>Post en el área de [!UICONTROL Updates]</li>
      <li>Ver documentos</li>
      <li>Adjuntar fotos</li>
      <li>Guardar una solicitud como borrador</li>
@@ -156,11 +156,11 @@ El [!UICONTROL Solicitudes] le permite ver detalles sobre las solicitudes. Desde
 
 ![Área de solicitudes](assets/mobile-requests-area.png)
 
-## Plantillas de horas
+## Hojas de horas
 
 El [!UICONTROL plantillas de horas] le permite ver detalles sobre sus plantillas de horas. En el [!UICONTROL Plantillas de horas] de la aplicación, puede:
 
-* Publicación en [!UICONTROL Actualizaciones] área
+* Post en la [!UICONTROL Actualizaciones] área
 * Ajustar tipos de horas
 * Cambiar el tiempo que ha iniciado sesión
 * Escriba comentarios en la hoja de horas
@@ -192,21 +192,3 @@ El [!UICONTROL Configuración] le permite:
 * Cerrar sesión
 
 ![Área de configuración](assets/ios-configuration-area.png)
-
-## Asistente virtual
-
-El asistente virtual le permite realizar las siguientes tareas mediante el comando de voz:
-
-* [!UICONTROL Mostrar yo]
-* [!UICONTROL Eliminar]
-* [!UICONTROL Buscar]
-* [!UICONTROL Ayudarme con comandos]
-
-Para obtener más información sobre el Asistente virtual, consulte [[!DNL Adobe Workfront] asistente virtual de aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Fijar]
-
-El [!UICONTROL Fijar] permite acceder a comandos guardados del asistente virtual, así como a pines desde el explorador web.
-![Anclar y guardar consulta](assets/pin-and-save-query-adobe-350x285.png)
-
-Para obtener más información sobre el Asistente virtual, consulte [asistente virtual de la aplicación móvil de Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
