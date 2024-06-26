@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ Este modelo contiene una plantilla para el [!DNL Workfront] La organización de 
 
 Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para que un usuario se traslade a una función o grupo nuevo para reasignar su trabajo.
 
-**[!UICONTROL Posterior a la implementación: nuevo despliegue de caso de uso]**
+[!BADGE Nuevo]{type=negative}**Tablero del Administrador de personas**
+
+Este modelo contiene un solo tablero con 12 informes para dar a los administradores de personas visibilidad del trabajo de sus informes directos.
+
+**[!UICONTROL Implementación de Post: nuevo despliegue de caso de uso]**
 Este modelo contiene una sola plantilla que organiza el trabajo que un [!DNL Workfront] El cliente deberá completar para administrar la expansión a los siguientes procesos después de su implementación inicial.
 
 **[!UICONTROL Producción de recursos de impresión] (Integrado)**
@@ -133,6 +137,10 @@ Este modelo contiene un solo tablero con 21 informes que le ayudarán a medir el
 **Realización de valores | Proporcionar panel de servicios orientados al cliente**
 
 Este modelo contiene un solo tablero con 8 informes que le ayudarán a sacar el máximo partido a Workfront. Estos informes están diseñados para ayudarle a traducir los servicios orientados al cliente en valores medibles que puede rastrear con el tiempo para obtener mejores resultados.
+
+[!BADGE Nuevo]{type=negative}**Realización de valores | Tablero de flujos de trabajo de conformidad**
+
+Este modelo contiene un solo tablero con 7 informes que le ayudarán a descubrir el valor de Workfront. Para su uso diario o en industrias altamente reguladas, estos informes que ahorran tiempo impulsan la rendición de cuentas y mejoran los resultados a lo largo del tiempo, ya que ayudan a rastrear y regular los flujos de trabajo y las necesidades de cumplimiento.
 
 **Realización de valores | Revisar y aprobar panel**
 
