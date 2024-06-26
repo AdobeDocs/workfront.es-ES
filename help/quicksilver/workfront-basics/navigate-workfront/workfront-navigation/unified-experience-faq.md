@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Experiencia unificada de Adobe para preguntas frecuentes
+title: Preguntas frecuentes sobre Adobe Unified Experience
 description: Algunas funciones son diferentes entre [!DNL Workfront] y Adobe Experience Cloud, y es posible que tenga algunas preguntas como [!DNL Workfront] La instancia de se migra a la experiencia unificada.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---

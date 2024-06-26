@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ El seminario web de la versión 24.7 se celebrará el 27 de junio de 2024. Puede
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 11 de junio de 2024</p>
+                                <p>Versión preliminar: 20 de junio de 2024</p>
                             </li>
                             <li>
                                 <p>Producción para clientes especificados: con la versión 24.7 (julio de 2024)</p>
