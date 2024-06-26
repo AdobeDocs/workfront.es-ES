@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 7%
 
 ---
@@ -80,6 +80,6 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 
 Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, consulte [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Para obtener información sobre lo que sucede con los formularios personalizados cuando un problema se convierte en un proyecto, consulte [Conversión de un problema en un proyecto](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener información sobre lo que sucede con los formularios personalizados al convertir un objeto, consulte [Transferir datos de formulario personalizados al convertir un objeto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 
