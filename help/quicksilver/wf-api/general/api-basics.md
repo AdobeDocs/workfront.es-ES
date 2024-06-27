@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Una familiaridad con el esquema de Workfront le ayudará a comprender las relaci
 
 ## Límites y directrices
 
-Para garantizar el rendimiento coherente del sistema bajo demanda de Workfront, cada cliente está limitado a 10 subprocesos de API simultáneos. El entorno de espacio aislado tiene el mismo límite, lo que permite a los clientes y socios probar con precisión las llamadas de API antes de lanzar el código en producción.
+Para garantizar un rendimiento coherente del sistema bajo demanda de Workfront, la API de Workfront limita los subprocesos de API simultáneos. Esta protección evita problemas del sistema causados por llamadas API abusivas. El entorno de espacio aislado tiene el mismo límite de subprocesos de API simultáneas, lo que permite a los clientes y socios probar las llamadas de API con precisión antes de lanzar el código a producción.
 
 Para entornos de producción, previsualización y prueba de unidades, las solicitudes de los usuarios finales tienen una longitud URI máxima de 8892 bytes, ya que se enrutan a través de la CDN de Workfront (Akamai). Este límite solo se aplica a los URI que se enrutan a través de la CDN.
 
