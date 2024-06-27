@@ -6,14 +6,16 @@ description: La integración entre Workfront y Experience Manager Assets o Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
 # Información general sobre las integraciones de Adobe Experience Manager Assets
+
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -37,13 +39,19 @@ Con la integración nativa de Experience Manager, puede
 ## Requisitos previos
 
 * Workfront debe estar en un Admin Console con un ID de organización asignado.
-* Los Assets Essentials o recursos de Workfront y Experience Manager deben asignarse como un producto al usuario que configura la integración.
+* Workfront y Experience Manager Assets o los Assets Essentials deben asignarse como un producto al usuario que configura la integración.
 
 
 ## Productos compatibles
 
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
+
+## Proveedores de servicios en la nube admitidos
+
+* AWS (Amazon Web Service)
+* Azure
+* <span class="preview">GCP (Google Cloud Platform)</span>
 
 
 ## Introducción

@@ -2,22 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Enviar un documento a Experience Manager Assets o a los Assets Essentials
-description: Puede enviar documentos desde Workfront a Experience Manager Assets o a Assets Essentials. Los documentos cargados y enviados desde Workfront a los Assets Essentials siguen contando en el almacenamiento general de documentos. Los recursos vinculados desde Assets Essentials no se contabilizan en el almacenamiento general.
+description: Puede enviar documentos desde Workfront a Experience Manager Assets o a Assets Essentials. Los documentos cargados y enviados desde Workfront a los Assets Essentials siguen contando en el almacenamiento general de documentos. Los Assets vinculados desde Assets Essentials no se contabilizan en el almacenamiento general.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Enviar un documento a Experience Manager Assets o a los Assets Essentials
 
-Puede enviar documentos desde Workfront a Experience Manager Assets o a Assets Essentials. Los documentos cargados y enviados desde Workfront a los Assets Essentials siguen contando en el almacenamiento general de documentos. Los recursos vinculados desde Assets Essentials no se contabilizan en el almacenamiento general.
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
-Los recursos enviados al Experience Manager mediante esta integración tienen un límite de tamaño de **5 GB**.
+Puede enviar documentos desde Workfront a Experience Manager Assets o a Assets Essentials. Los documentos cargados y enviados desde Workfront a los Assets Essentials siguen contando en el almacenamiento general de documentos. Los Assets vinculados desde Assets Essentials no se contabilizan en el almacenamiento general.
+
+Assets enviado al Experience Manager mediante esta integración tiene un límite de tamaño de **5 GB**.
+
+<span class="preview">En el entorno de vista previa, Assets enviado al Experience Manager mediante esta integración tiene un límite de tamaño de **30 GB**.</span>
 
 Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a los Assets Essentials. También se envían los metadatos configurados para asignar a objetos principales. Para obtener más información sobre la configuración de la asignación de metadatos, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -43,7 +47,7 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Debe tener Experience Manager as a Cloud Service o Assets Essentials, y se le debe añadir al producto como usuario en el Admin Console.
+   <td>Debe tener Assets Essentials as a Cloud Service Experience Manager y se le debe agregar al producto como usuario en el Admin Console.
 </td> 
   </tr> 
   <tr> 
@@ -68,7 +72,7 @@ Antes de empezar,
 
 ## Enviar un documento desde Workfront
 
-Cuando un usuario envía un documento desde Workfront a Experience Manager Assets o a Assets Essentials, los metadatos asignados se transfieren a lo largo del documento. Una vez enviado el documento, los cambios realizados en los metadatos del documento en Workfront no se reflejarán en Assets ni en Assets Essentials. Si se cambia un campo asignado en Workfront, se debe enviar una nueva versión del documento con los metadatos actualizados a Assets o a Assets Essentials. Para configurar o editar metadatos, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Cuando un usuario envía un documento desde Workfront a Experience Manager Assets o a Assets Essentials, los metadatos asignados se transfieren a lo largo del documento. Una vez enviado el documento, los cambios realizados en los metadatos del documento en Workfront no se reflejan en Assets ni en los Assets Essentials. Si se cambia un campo asignado en Workfront, se debe enviar una nueva versión del documento con los metadatos actualizados a Assets o a los Assets Essentials. Para configurar o editar metadatos, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Para enviar un documento:
 
@@ -77,7 +81,7 @@ Para enviar un documento:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente Recursos o Assets Essentials.
+   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente a Assets ni a los Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ Para enviar la versión más reciente:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente Recursos o Assets Essentials.
+   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente a Assets ni a los Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
