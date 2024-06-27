@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 30 de mayo de 2024; producción para versión rápida: con la versión 24.6 (13 de junio de 2024); versión de producción para todos los clientes: con la versión 24.7 (julio de 2024).
+>Versión de vista previa: 30 de mayo de 2024; producción para versión rápida: con la versión 24.6 (13 de junio de 2024); versión de producción para todos los clientes: con la versión 24.7 (18 de julio de 2024).
 
 Para facilitar la actualización de tareas y problemas, ahora se han añadido los campos Fecha de confirmación y Condición como opciones para agregar a las secciones Encabezados de tareas y problemas y Detalles en una plantilla de diseño. Los usuarios ahora pueden actualizar estos campos desde el encabezado o la sección Detalles de una página cuando se les asigna a la plantilla de diseño modificada. Antes de esta mejora, no se podía agregar la condición y la fecha de confirmación de las tareas y problemas al personalizar los encabezados.
 
@@ -38,7 +38,7 @@ Para obtener información sobre la actualización de la fecha y la condición de
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.7 (julio de 2024).
+>Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.7 (18 de julio de 2024).
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 
