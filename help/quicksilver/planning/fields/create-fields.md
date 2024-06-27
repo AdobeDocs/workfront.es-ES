@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >    Algunos campos pueden estar ocultos. Haga clic en Campos y active la opción de los campos que desee ver como columnas en la vista de tabla.
 
-1. Haga clic en **+** en la esquina superior derecha de la vista de tabla para añadir nuevos campos.
+1. Haga clic en **+** en la esquina superior derecha de la vista de tabla
+
+   O
+
+   Pase el ratón sobre el encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar derecho** para añadir el nuevo campo.
 1. En el **Nuevo campo** pestaña, busque un tipo de campo en la **Tipo de campo** o seleccione uno de los siguientes tipos de campo:
 
    * [Texto de línea única](#single-line-text)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Para obtener información sobre los tipos de registros que se incluyen con cada 
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo en el que desea crear tipos de registros.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al espacio de trabajo.
 1. Clic **Añadir tipo de registro**.
 1. (Condicional) Cuando esté habilitada la creación de tipos de registros mediante la importación de un archivo de Excel o CSV, haga clic en **Desde cero**. De lo contrario, la variable **Añadir tipo de registro** se abre el cuadro.
@@ -230,7 +230,7 @@ Para importar tipos de registros mediante un archivo de Excel:
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente y seleccione el espacio de trabajo en el que desea crear tipos de registros.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
 1. Clic **Añadir tipo de registro**.
 1. Clic **Excel/CSV**.
 1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
