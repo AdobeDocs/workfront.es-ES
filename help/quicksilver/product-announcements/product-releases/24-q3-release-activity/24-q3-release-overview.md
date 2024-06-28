@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
 * [Mejoras en la gestión financiera](#financial-management-enhancements)
 * [Mejoras de integración](#integration-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
+* [Mejoras de corrección](#proofing-enhancements)
 * [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Otras mejoras](#other-enhancements)
 
@@ -299,6 +300,41 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### Mejoras de corrección
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Función</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de seguridad para el Visor de corrección de escritorio</a></p>
+                        <p>La actualización de seguridad del Visor de pruebas de escritorio de Workfront Proof 2.1.35 proporciona correcciones de errores de seguridad para vulnerabilidades que se han identificado en versiones anteriores.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: julio de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Producción para todos los clientes: 4 de julio de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
