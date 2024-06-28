@@ -7,14 +7,23 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
+source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
 # Habilitar o deshabilitar el Ayudante de IA
+
+>[!IMPORTANT]
+>
+>En la actualidad, el asistente de IA está disponible para un número limitado de clientes de Workfront y Workfront Planning.
+>
+>* Workfront: AI Assistant beta
+>* Planificación de Workfront: acceso anticipado
+>
+>El representante de cuentas puede informarle si forma parte de alguno de estos grupos.
 
 Como administrador de Workfront, puede controlar qué usuarios de su organización tienen habilitado el asistente de IA. Esto se administra mediante niveles de acceso.
 
