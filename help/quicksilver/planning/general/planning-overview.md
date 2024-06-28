@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Estas son algunas de las funciones principales:
 
 La siguiente tabla ilustra las principales funciones disponibles en Workfront Planning, así como una cronología de su disponibilidad. La lista no incluye todas las funciones.
 
-Para obtener información sobre las nuevas funciones y cuándo se lanzarán, consulte [Actividad de versión de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Para obtener información sobre las nuevas funciones y cuándo se lanzarán, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 | Función | Disponible ahora | Disponible próximamente | En investigación |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -328,5 +328,5 @@ Para localizar Workfront Planning:
 
 Estamos lanzando nuevas funciones a Workfront Planning regularmente.
 
-Para obtener una lista actualizada de las funciones lanzadas, consulte [Actividad de versión de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
+Para obtener una lista actualizada de las funciones lanzadas, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
 

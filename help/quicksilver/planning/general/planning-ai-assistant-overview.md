@@ -4,9 +4,9 @@ description: Puede utilizar el asistente de IA para generar, actualizar o quitar
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning y al asistente de IA, que son nuevas ofertas de Adobe Workfront.
+>La información de este artículo hace referencia a Adobe Workfront Planning y al Asistente de IA de Workfront (beta), que son nuevas ofertas de Adobe Workfront.
 >
->En la actualidad, Workfront Planning y el asistente de IA se encuentran en una fase de acceso anticipado abierta a un número limitado de clientes.
+>En la actualidad, Workfront Planning se encuentra en una fase de acceso anticipado y el Asistente de IA de Workfront se encuentra en una fase beta.
+>
+>Workfront Planning y el asistente de IA (beta) están abiertos a un número limitado de clientes.
 >
 >Debe ser cliente de Workfront para utilizar estas funciones.
 >
@@ -28,7 +30,7 @@ ht-degree: 0%
 >
 >Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
-Puede utilizar el asistente de IA para generar, actualizar o quitar registros en función del contexto de página actual y la estructura de registros.
+Puede utilizar el Asistente de IA para generar, actualizar o quitar registros basados en el contexto de página y la estructura de registros actuales.
 
 Los comandos del usuario y la ejecución por parte de la IA de esos comandos trabajan juntos para garantizar que los cambios realizados por la IA se reflejen con precisión en su entorno.
 
@@ -40,25 +42,27 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos tra
 
 * El asistente de IA funciona en el contexto de cada página. Las solicitudes que envía para el asistente de IA deben hacer referencia a la funcionalidad que está disponible en la página que ha abierto.
 
-* Las acciones que realiza el asistente de IA se encuentran en el contexto de los permisos de Workfront Planning y del nivel de acceso de Workfront. Para obtener más información, consulte los siguientes artículos:
+* Las acciones que realiza el asistente de IA en el área de Planning se encuentran en el contexto de los permisos de Workfront Planning y del nivel de acceso de Workfront. Para obtener más información, consulte los siguientes artículos:
 
    * [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Los cambios realizados por el asistente de IA en nombre del usuario se rastrean en el panel del historial del registro.
 
-* Puede utilizar comandos para deshacer las acciones.
+* Puede utilizar comandos para deshacer las acciones. Por ejemplo, puede escribir &quot;Deshacer el último cambio&quot; para revertir el cambio.
 
 ## Funcionalidad disponible actualmente para el asistente de IA
 
 Actualmente, el Asistente de IA está disponible en el área de Planificación de Workfront para las siguientes páginas:
 
+* página de Workspace
 * Página de tipo de registro
 * Página de registro
 
 Puede utilizar el asistente de IA para realizar las siguientes acciones en este momento:
 
-* Crear registros. Una vez creado el registro, se muestra un ID con un vínculo al nuevo registro.
+* Buscar registros. Puede buscar por la información contenida en cualquier campo de registro.
+* Crear registros. Una vez creado el registro, se muestra un ID con un vínculo al nuevo registro. Puede especificar los campos que desea actualizar durante el proceso de creación, como fechas o descripciones.
 * Cree registros basados en un documento que haya cargado. Workfront admite los siguientes formatos de documento para el asistente de IA:
 
   .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt y la mayoría de los formatos de imagen
@@ -70,7 +74,9 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 
 1. Inicie sesión en Workfront y vaya a **Planificación** área.
 
-1. Haga clic en **tarjeta de workspace** > **tarjeta de tipo de registro**.
+1. Haga clic en **tarjeta de workspace**.
+
+1. (Opcional) Haga clic en un **tarjeta de tipo de registro**.
 
 1. (Opcional) Haga clic en un **registro** para abrir el archivo del registro **Detalles** página.
 
@@ -84,7 +90,7 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 
    Por ejemplo, puede escribir una de las siguientes opciones:
 
-   * Creación de un registro
+   * Cree una campaña con la fecha de inicio del 4 de julio y la fecha de finalización del 30 de julio
    * Actualice el campo Description del registro de campaña de verano con la fecha por determinar
    * Eliminar el último registro
    * Restauración del registro
