@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del tercer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Ya están disponibles las reglas empresariales
+
+>[!NOTE]
+>
+>Versión de vista previa: 4 de julio de 2024; versión de producción para todos los clientes: con la versión 24.7 (18 de julio de 2024).
+
+Los administradores ahora pueden agregar reglas empresariales en el área de Configuración de Workfront.
+
+Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas se crean mediante una fórmula similar a los campos calculados en los formularios personalizados.
+
+Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Las reglas empresariales solo están disponibles para organizaciones que cuentan con el nuevo plan Ultimate.
 
 ## Diseñador de formularios personalizados disponible generalmente en Adobe Workfront
 

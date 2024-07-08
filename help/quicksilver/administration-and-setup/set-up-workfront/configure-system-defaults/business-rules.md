@@ -7,17 +7,16 @@ description: Puede seleccionar si desea recibir las nuevas funciones de Workfron
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Crear y editar reglas empresariales
+
+{{highlighted-preview-article-level}}
 
 Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas empresariales ayudan a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
 
@@ -25,7 +24,7 @@ Una sola regla de negocio sólo se puede asignar a un objeto. Por ejemplo, si cr
 
 Los niveles de acceso y el uso compartido de objetos tienen una prioridad mayor que las reglas empresariales cuando un usuario interactúa con un objeto. Por ejemplo, si un usuario tiene un nivel de acceso o un permiso que no permite editar un proyecto, entonces esos permisos tendrían prioridad sobre una regla de negocio que permite editar un proyecto en ciertas condiciones.
 
-También existe una jerarquía cuando se aplica más de una regla de negocio a un objeto. Por ejemplo, tiene dos reglas de negocio. Uno restringe la creación de gastos en el mes de febrero. La segunda impide editar un proyecto cuando el estado del proyecto es Completo. Si un usuario intenta agregar un gasto a un proyecto completado en junio, el gasto no se puede agregar porque ha activado la segunda regla.
+Cuando se aplica más de una regla de negocio a un objeto, las reglas se siguen todas, pero no se aplican en un orden determinado. Por ejemplo, tiene dos reglas de negocio. Uno restringe la creación de gastos en el mes de febrero. La segunda impide editar un proyecto cuando el estado del proyecto es Completo. Si un usuario intenta agregar un gasto a un proyecto completado en junio, el gasto no se puede agregar porque ha activado la segunda regla.
 
 Las reglas empresariales se aplican a la creación, edición y eliminación de objetos a través de la API y en la interfaz de Workfront.
 
@@ -64,18 +63,36 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Escenarios para reglas de negocio
 
-Algunos escenarios de reglas de negocio simples son:
+El formato de una regla de negocio es &quot;SI se cumple la condición definida, se impide al usuario realizar la acción en el objeto y se muestra el mensaje&quot;.
 
-* Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula puede expresarse de la siguiente manera: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Los usuarios no pueden editar un proyecto que esté en estado completo. Esta fórmula puede expresarse de la siguiente manera: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-La sintaxis para crear una regla de negocio es la misma que crear un campo calculado en un formulario personalizado. Para obtener más información sobre la sintaxis, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La sintaxis de las propiedades y otras funciones de una regla de negocio es la misma que la sintaxis de un campo calculado en un formulario personalizado. Para obtener más información sobre la sintaxis, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Para obtener información sobre las instrucciones IF, consulte [Información general sobre las instrucciones &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) y [Operadores de condición en campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obtener información sobre los comodines basados en usuarios, consulte [Utilice comodines basados en usuarios para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Para obtener información sobre los comodines basados en fecha, consulte [Utilice comodines basados en fecha para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+También hay un comodín de API disponible en las reglas empresariales. Puede utilizar `$$ISAPI` para almacenar en déclencheur la regla solo en la interfaz de usuario o solo en la API.
+
+Algunos escenarios de reglas de negocio simples son:
+
+* Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula puede expresarse de la siguiente manera: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Los usuarios no pueden editar un proyecto que esté en estado completo. Esta fórmula puede expresarse de la siguiente manera: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Un escenario con instrucciones IF anidadas es:
+
+Los usuarios no pueden editar los proyectos completados y no pueden editar los proyectos con una fecha planificada de finalización en marzo. Esta fórmula puede expresarse de la siguiente manera:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Agregar nueva regla de negocio
 

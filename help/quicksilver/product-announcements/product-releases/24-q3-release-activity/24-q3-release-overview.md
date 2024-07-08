@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
 
 >[!IMPORTANT]
 >
->La versión 23.3 incluía la opción de mover su organización a versiones mensuales. Por lo tanto, Workfront ha cambiado el esquema de numeración de versiones para tener en cuenta las versiones mensuales y trimestrales. El primer número designa el año y el segundo número significa el mes de la versión. Ejemplo: La versión de abril de 2024 es la 24.4.
+>La versión 23.3 incluía la opción de mover su organización a versiones mensuales. Por lo tanto, Workfront ha cambiado el esquema de numeración de versiones para tener en cuenta las versiones mensuales y trimestrales. El primer número designa el año y el segundo número indica el mes de la versión. Ejemplo: La versión de abril de 2024 es 24.4.
 >
->Las versiones mensuales y trimestrales están planificadas para estar disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario.
+>Se planea que las publicaciones mensuales y trimestrales estén disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario.
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
 >| <ul><li>24.5 (16 de mayo de 2024)</li><li>24.6 (13 de junio de 2024)</li><li>24.7 (18 de julio de 2024)</li></ul> | <ul><li>24.7 (18 de julio de 2024)</li></ul> |
 >
->Para obtener más información sobre el proceso de liberación rápida, consulte [Habilitar o deshabilitar el proceso de liberación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obtener más información sobre el proceso de lanzamiento rápido, consulte [Habilitar o deshabilitar el proceso](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) de lanzamiento rápido.
 
-## Mejoras de Adobe Workfront
+## Mejoras de Adobe Systems Workfront
 
 * [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras en la gestión financiera](#financial-management-enhancements)
@@ -56,6 +56,23 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Ya están disponibles las reglas empresariales</a></p>
+                        <p>Los administradores ahora pueden agregar reglas empresariales en el área de Configuración de Workfront.</p>
+                        <p>Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas se crean mediante una fórmula similar a los campos calculados en los formularios personalizados.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 4 de julio de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión 24.7 de (18 de julio de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -167,13 +184,13 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                             <li><p>Coste de gastos planificados facturables</p></li>
                             <li><p>Costo de gasto no facturable planificado</p></li>
                             <li><p>Costo de gasto real no facturable</p></li>
-                            <li><p>Costo de gasto real no facturable</p></li>
+                            <li><p>Costo real de gastos no facturables</p></li>
                         </ul>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 10 de mayo de 2024</p>
+                                <p>Vista previa versión: 10 de mayo de 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Producción para todos los clientes: 10 de mayo de 2024</span></p>
@@ -391,16 +408,16 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">La experiencia unificada de Adobe ya está disponible para más organizaciones de Workfront</a></p>
-                        <p>Para permitir que las organizaciones accedan a las ventajas de la experiencia unificada de Adobe, hemos comenzado a ponerla a disposición de los clientes de Workfront existentes. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Systems Unified Experience ahora está disponible para más organizaciones de Workfront</a></p>
+                        <p>Para permitir que las organizaciones accedan a los beneficios de la Adobe Systems Experiencia unificada, hemos comenzado a ponerla a disposición de los clientes existentes de Workfront. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 20 de junio de 2024</p>
+                                <p>Vista previa versión: 20 de junio de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para clientes especificados: con la versión 24.7 de (18 de julio de 2024)</p>
+                                <p>Producción para clientes específicos: con la versión 24.7 (18 de julio de 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">El shell unificado de Adobe está disponible en un despliegue gradual. Se incorporarán organizaciones adicionales al Unified Shell de Adobe con las versiones 24.10 y 25.1. </p>
@@ -431,21 +448,21 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 27 de marzo de 2024</p>
+                                <p>Versión de Vista previa: 27 de marzo de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
+                                <p>Producción para lanzamiento rápido: Con el lanzamiento 24.5 (16 de mayo de 2024)</p>
                             </li>
                             <li>
-                                <p>Producción para versión trimestral: con la versión 24.7 (18 de julio de 2024)</p>
+                                <p>Producción para publicación trimestral: Con la versión 24.7 (18 de julio de 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el tercer trimestre de 2024</a></p>
-                        <p>En el tercer trimestre de 2024 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look actualizaciones generales durante el tercer trimestre de 2024 periodo de tiempo</a></p>
+                        <p>Se están realizando actualizaciones menores en el apariencia de varias áreas del aplicación de Adobe Systems Workfront dentro del tercer trimestre de 2024 periodo de tiempo. Revise los Notas de la versión individuales para fechas de lanzamiento específicas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
