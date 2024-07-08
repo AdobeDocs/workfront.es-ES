@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
+source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
 >
 >La versión 23.3 incluía la opción de mover su organización a versiones mensuales. Por lo tanto, Workfront ha cambiado el esquema de numeración de versiones para tener en cuenta las versiones mensuales y trimestrales. El primer número designa el año y el segundo número indica el mes de la versión. Ejemplo: La versión de abril de 2024 es 24.4.
 >
->Se planea que las publicaciones mensuales y trimestrales estén disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario.
+>Las versiones mensuales y trimestrales están planificadas para estar disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario.
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
@@ -61,6 +61,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Ya están disponibles las reglas empresariales</a></p>
+                        [!BADGE Nuevo en vista previa ]{type=Negative}
                         <p>Los administradores ahora pueden agregar reglas empresariales en el área de Configuración de Workfront.</p>
                         <p>Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas se crean mediante una fórmula similar a los campos calculados en los formularios personalizados.</p>
                     </td>
@@ -183,7 +184,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                         <ul>
                             <li><p>Coste de gastos planificados facturables</p></li>
                             <li><p>Costo de gasto no facturable planificado</p></li>
-                            <li><p>Costo de gasto real no facturable</p></li>
+                            <li><p>Costo real de gastos no facturables</p></li>
                             <li><p>Costo real de gastos no facturables</p></li>
                         </ul>
                     </td>
@@ -374,7 +375,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tiempo libre ahora reflejado en el Distribuidor de cargas de trabajo</a></p>
-                        <p>Para ajustar sin problemas el trabajo cuando el usuario asignado principal de una tarea tiene tiempo libre programado, el Distribuidor de cargas de trabajo ahora reasigna horas tanto a los usuarios principales como a los secundarios cuando se recalcula la cronología del proyecto.</p>
+                        <p>Para ajustar sin problemas el trabajo cuando el usuario principal asignado en una tarea tiene tiempo libre programado, Workload Balancer ahora vuelve a asignar horas a los usuarios primarios y secundarios cuando se vuelve a calcular la cronología del proyecto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -398,7 +399,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -417,7 +418,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                                 <p>Vista previa versión: 20 de junio de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para clientes específicos: con la versión 24.7 (18 de julio de 2024)</p>
+                                <p>Producción para clientes especificados: con la versión 24.7 de (18 de julio de 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">El shell unificado de Adobe está disponible en un despliegue gradual. Se incorporarán organizaciones adicionales al Unified Shell de Adobe con las versiones 24.10 y 25.1. </p>
@@ -462,7 +463,7 @@ El seminario web de la versión 24.7 en directo se ha cancelado, pero aún puede
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look actualizaciones generales durante el tercer trimestre de 2024 periodo de tiempo</a></p>
-                        <p>Se están realizando actualizaciones menores en el apariencia de varias áreas del aplicación de Adobe Systems Workfront dentro del tercer trimestre de 2024 periodo de tiempo. Revise los Notas de la versión individuales para fechas de lanzamiento específicas.</p>
+                        <p>En el tercer trimestre de 2024 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
