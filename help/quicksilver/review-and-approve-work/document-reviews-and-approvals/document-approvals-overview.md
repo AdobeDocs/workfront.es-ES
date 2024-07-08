@@ -6,10 +6,10 @@ description: Puede agregar aprobadores o revisores adicionales a un documento qu
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,9 @@ Siga leyendo a continuación para obtener más información sobre las funciones 
 
 ## Plan de lanzamiento
 
-En el transcurso de varias versiones, ponemos a disposición de los usuarios nuevas aprobaciones de documentos. Además de agregar nuevas funciones, también ampliaremos el número de cuentas para las cuales hay nuevas aprobaciones de documentos disponibles con cada versión. Los administradores de cuenta recibirán un correo electrónico del Centro de anuncios en el que se les informará del cambio antes de que se incluya.
+En el transcurso de varias versiones, ponemos a disposición de los usuarios nuevas aprobaciones de documentos. Además de agregar nuevas funciones, también ampliaremos el número de cuentas para las cuales hay nuevas aprobaciones de documentos disponibles con cada versión.
 
 Si desea que las aprobaciones de nuevos documentos estén habilitadas en su entorno de producción, póngase en contacto con el administrador de éxito del cliente o de cuentas estratégicas.
-
-**Versión 1**\
-    Vista previa: 31 de mayo de 2023\
-    Producción: 14 de junio de 2023
 
 ## Uso de nuevas aprobaciones de documentos
 

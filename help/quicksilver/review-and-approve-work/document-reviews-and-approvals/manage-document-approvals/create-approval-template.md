@@ -5,13 +5,13 @@ title: Crear una plantilla de aprobación
 description: Puede crear plantillas de aprobación para optimizar el proceso de aprobación.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 2%
 
 ---
-
 
 # Crear una plantilla de aprobación
 
@@ -37,7 +37,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Estándar</p> </td> 
+   <td> <p>Nuevo: estándar</p> 
+   <p>o</p>
+   <p>Actual: plan</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
