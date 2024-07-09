@@ -7,10 +7,10 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
+source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -166,4 +166,5 @@ Los iconos de la parte superior derecha de la columna de entrada muestran cuánt
    Haga clic en **[!UICONTROL Más]** menú ![Icono del menú Más](assets/more-icon-spectrum.png) en la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en la **[!UICONTROL Mover elemento]** , elija otra columna y seleccione **[!UICONTROL Mover]**.
 
 1. (Opcional) Para eliminar la columna de entrada, haga clic en **[!UICONTROL Más]** menú ![Icono del menú Más](assets/more-icon-spectrum.png) y seleccione **[!UICONTROL Eliminar]**.
+
 
