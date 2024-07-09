@@ -6,9 +6,9 @@ description: Los modificadores de filtro y condición permiten crear filtros y e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ Puede utilizar los siguientes modificadores de condición en filtros e instrucci
    <td> <p><strong>Distinto a</strong> </p> </td> 
    <td> <p><strong>noción</strong> </p> </td> 
    <td> <p>Este es el <i>distingue mayúsculas de minúsculas</i> opuesto a <strong>in</strong>. Devuelve solo los resultados que no están en la lista especificada.</p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> <p>Nota: <span>Si el campo para el que está filtrando tiene varias opciones, se filtran los resultados que contienen tanto la opción especificada, como la especificada y las opciones adicionales.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>gustar</strong> </p> </td> 
+   <td> <p>Este modificador busca partes de un <i>distingue mayúsculas de minúsculas</i> cadena de texto de forma similar a <strong>contains</strong>. Sin embargo, <strong>gustar</strong> permite insertar caracteres comodín para dividir el texto.</p> <p>Por ejemplo, al buscar notas, utilizando <code>like %Current% %Dead%</code> devuelve cualquier nota que contenga la frase "Current to Dead". No incluye ninguna nota que contenga "De muerto a actual". Cada valor se busca en el orden en que aparece en la lista. % representa un comodín para reemplazar caracteres o segmentos de texto. También se puede utilizar un guion bajo para un solo carácter comodín, como en <code>like Project_</code> que devuelve "Proyecto" y "Proyectos". Si tiene intención de utilizar un <strong>gustar</strong> o <strong>clike</strong> modificador en el filtro, se recomienda evitar los caracteres % o _ en los nombres de campos de datos personalizados, valores de opciones de parámetros u otros nombres de objetos.</p><p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>silueta</strong> </p> </td> 
    <td> <p>Este es el <i>sin distinción de mayúsculas</i> versión de <strong>gustar</strong>. Por ejemplo: <code>cilike %Current% %Dead%</code> devuelve cualquier nota que contenga <code>Current to Dead</code> o <code>current to dead</code>.</p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>gustar</strong> </p> </td> 
-   <td> <p>Este modificador busca partes de un <i>distingue mayúsculas de minúsculas</i> cadena de texto de forma similar a <strong>contains</strong>. Sin embargo, <strong>gustar</strong> permite insertar caracteres comodín para dividir el texto.</p> <p>Por ejemplo, al buscar notas, utilizando <code>like %Current% %Dead%</code> devuelve cualquier nota que contenga la frase "Current to Dead". No incluye ninguna nota que contenga "De muerto a actual". Cada valor se busca en el orden en que aparece en la lista. % representa un comodín para reemplazar caracteres o segmentos de texto.</p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edición de un filtro mediante el modo de texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>No existe</strong> </td> 

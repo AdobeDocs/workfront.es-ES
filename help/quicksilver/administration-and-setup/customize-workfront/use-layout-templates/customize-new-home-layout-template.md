@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
 
 1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Haga clic en la flecha hacia abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Espacio de trabajo principal**.
+1. Haga clic en la flecha hacia abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Inicio Workspace**.
 
 1. En las pestañas que aparecen a la derecha, haga clic en **Diseño y diseño** para elegir y organizar los widgets y el fondo, o **Configuración del widget** para administrar la configuración de widgets individuales como filtros y grupos disponibles.
 
@@ -132,3 +132,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
    O
 
    Si ha terminado de personalizar, haga clic en **Guardar** en la esquina inferior izquierda.
+
+
+>[!NOTE]
+>
+>Los administradores que personalizan sus propias plantillas de diseño deberán actualizar la página para ver los cambios.
