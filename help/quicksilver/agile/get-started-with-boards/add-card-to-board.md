@@ -6,9 +6,9 @@ description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -106,9 +106,9 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comentarios]</strong></td>
-      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
+      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
       </p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
-      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p></td>
+      <p>Para obtener más información sobre los comentarios, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p></td>
      </tr>
     </tbody> 
    </table>

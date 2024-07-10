@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comentarios]</strong></td>
-      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto y haga clic en <strong>Agregar archivo adjunto</strong> icono <img src="assets/attachment-icon.png" alt="Icono de adjunto"> para adjuntar un archivo al comentario. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero. Los usuarios etiquetados en tarjetas conectadas recibirán notificaciones por correo electrónico.</p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
-      <p><strong>NOTA:</strong> El área de comentarios en tarjetas utiliza la nueva experiencia de comentarios de Adobe Workfront. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p></td>
+      <td><p>Haga clic en en <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto. Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero. Los usuarios etiquetados en tarjetas conectadas recibirán notificaciones por correo electrónico.</p><p>Clic <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
+      <p>Para obtener más información sobre los comentarios, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Actividad del sistema]</strong></td> 
