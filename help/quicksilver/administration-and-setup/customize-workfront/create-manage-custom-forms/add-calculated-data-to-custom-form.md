@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Por ejemplo, para hacer referencia a la opción seleccionada en un campo persona
 
 ## Campos personalizados calculados en formularios personalizados de varios objetos {#calculated-custom-fields-in-multi-object-custom-forms}
 
-En un formulario personalizado de varios objetos, los tipos de objeto seleccionados deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios.
+En un formulario personalizado de varios objetos, los tipos de objeto seleccionados deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario.
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ En un formulario personalizado de varios objetos, los tipos de objeto selecciona
 >
 >`{assignedTo}.{name}`
 >
->Posteriormente, se agrega el tipo de objeto Project al formulario personalizado. Un mensaje de advertencia le indica que el tipo de objeto Project no es compatible con el campo personalizado calculado.
+>Posteriormente, se agrega el tipo de objeto Project al formulario personalizado, pero el tipo de objeto Project no es compatible con el campo personalizado calculado.
 
 Cuando esto sucede, puede realizar una de las siguientes acciones:
 
@@ -325,7 +325,7 @@ Cuando esto sucede, puede realizar una de las siguientes acciones:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Para obtener más información sobre variables como `$$OBJCODE,` consulte [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener más información sobre variables como `$$OBJCODE,` consulte [Resumen de variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Actualizaciones automáticas de campos personalizados calculados
 
