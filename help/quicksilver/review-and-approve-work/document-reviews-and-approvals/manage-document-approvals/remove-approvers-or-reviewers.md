@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Quitar aprobadores o revisores de un documento
+title: Quitar aprobadores o revisores de un recurso o documento
 description: Puede quitar aprobadores o revisores individuales de un documento.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# Quitar aprobadores o revisores de un documento
+# Quitar aprobadores o revisores de un recurso o documento
 
-Puede quitar aprobadores o revisores individuales de un documento después de haberlos asignado.
+Puede quitar aprobadores o revisores individuales de un recurso o documento después de haberlos asignado.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Quitar aprobadores o revisores de la página del documento
+## Eliminar aprobadores o revisores de la página Detalles del documento
 
 1. Vaya a la página del documento haciendo clic en su nombre y, a continuación, seleccione la versión del documento cuya aprobación desea eliminar en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Repita el paso anterior para eliminar los aprobadores o revisores adicionales.
 
-## Quitar aprobadores o revisores del panel Resumen del documento
+## Quitar aprobadores o revisores del resumen del documento
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 

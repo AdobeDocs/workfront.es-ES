@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: Información general sobre nuevas aprobaciones de documentos
 description: Puede agregar aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -47,9 +47,9 @@ Si desea que las aprobaciones de nuevos documentos estén habilitadas en su ento
 
 ## Uso de nuevas aprobaciones de documentos
 
-Para los usuarios que buscan crear o administrar aprobaciones de documentos, consulte los artículos enumerados en [Aprobar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+Para los usuarios que buscan crear o administrar aprobaciones de documentos, consulte los artículos enumerados en [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, consulte los artículos enumerados en [Revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, consulte los artículos enumerados en [Aprobar y revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

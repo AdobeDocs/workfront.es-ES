@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Revisar un documento
+title: Revisar un documento en Workfront
 description: Como revisor, puede obtener una vista previa de un documento que se le haya enviado para su revisión.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Revisar un documento
+# Revisar un documento en Workfront
 
 Como revisor, puede ver un documento que se le ha enviado para su revisión. A diferencia de una aprobación, usted no toma una decisión. En su lugar, confirma que ha revisado el recurso.
 

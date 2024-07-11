@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 1%
 
 ---
@@ -1530,7 +1530,7 @@ ht-degree: 1%
 * Creación de informes {#reporting}
    * [Informes y paneles: índice de artículos](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Paneles de lienzo {#canvas-dashboards}
-      * [Paneles de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Paneles de control de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * Administrar paneles de lienzo {#manage-canvas-dashboards}
          * [Administrar paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Introducción a los paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
@@ -1724,7 +1724,7 @@ ht-degree: 1%
          * [Introducción a los paneles](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [Comprender cómo se muestran los informes en un panel](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
       * Creación y administración de paneles {#create-dashboards}
-         * [Crear y administrar paneles](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
+         * [Crear y administrar paneles de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [Crear un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [Agregar un informe a un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
          * [Copiar un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
@@ -1820,22 +1820,22 @@ ht-degree: 1%
       * [Delegar solicitud de aprobación](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Asociar un proceso de aprobación nuevo o existente con el trabajo](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recuperar aprobaciones enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Revisión y aprobación de documentos {#document-reviews-and-approvals}
-      * [Revisión y aprobación de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Revisión y aprobación de recursos y documentos {#document-reviews-and-approvals}
+      * [Revisión y aprobación de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Resumen del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introducción a la revisión y aprobación de recursos con Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * Revisar documentos {#review-and-approve-documents}
-         * [Revisar documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Revisar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Conectar Workfront y Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [Agregar un recurso Frame.io a un proyecto de Workfront conectado](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Aprobar documentos {#approve-documents}
-         * [Aprobar documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [Configuración y administración de aprobaciones de recursos y documentos]{#manage-asset-review-and-approval}
+         * [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Crear una solicitud de revisión o aprobación de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Agregar revisores o aprobadores adicionales a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Quitar aprobadores o revisores de un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Crear una plantilla de aprobación](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Crear una solicitud de revisión o aprobación para un recurso Frame.io](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [Agregar revisores o aprobadores adicionales a un recurso o documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Quitar aprobadores o revisores de un recurso o documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Crear una plantilla de aprobación para recursos y documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Agregar un recurso Frame.io a un proyecto de Workfront conectado](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * Aprobar y revisar recursos y documentos {#review-and-approve-documents}
+         * [Aprobar y revisar documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Revisar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Aprobar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Revisión {#proofing}
       * [Corrección: índice de artículos](review-and-approve-work/proofing/proofing.md)

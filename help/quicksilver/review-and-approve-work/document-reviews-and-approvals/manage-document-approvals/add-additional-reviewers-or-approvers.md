@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Agregar aprobadores o revisores adicionales a un documento
+title: Agregar aprobadores o revisores adicionales a un recurso o documento
 description: Puede agregar aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Agregar aprobadores o revisores adicionales a un documento
+# Agregar aprobadores o revisores adicionales a un recurso o documento
 
-Puede agregar aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
+Puede agregar aprobadores o revisores adicionales a un recurso o documento que ya tenga aprobaciones pendientes.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
-## Agregar aprobadores o revisores adicionales desde la página del documento
+## Agregar aprobadores o revisores adicionales desde la página Detalles del documento
 
 1. Vaya a la página del documento haciendo clic en su nombre y, a continuación, seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
@@ -60,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Repita el paso anterior para agregar más aprobadores o revisores.
 
-## Agregar aprobadores o revisores adicionales desde el panel Resumen del documento
+## Agregar aprobadores o revisores adicionales desde el resumen del documento
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
