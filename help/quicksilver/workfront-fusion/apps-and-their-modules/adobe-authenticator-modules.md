@@ -8,9 +8,10 @@ title: módulo de Adobe Authenticator
 description: Con el módulo Adobe Authenticator, puede conectarse a cualquier producto de Adobe con una API mediante una sola conexión.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -63,19 +64,19 @@ Para ver una lista de las API de Adobe disponibles, consulte [API de Adobe](http
 ## Requisitos previos
 
 * Debe tener acceso al producto de Adobe al que desea conectarse el módulo.
-* Debe tener acceso a la consola de Adobe Developer.
-* Debe tener un proyecto en la consola de Adobe Developer que incluya la API a la que desea conectarse el módulo. Puede:
+* Debe tener acceso a Adobe Developer Console.
+* Debe tener un proyecto en Adobe Developer Console que incluya la API a la que desea conectarse el módulo. Puede:
 
    * Cree un nuevo proyecto con la API.
 
      O
    * Añada la API a un proyecto existente.
 
-  Para obtener información sobre cómo crear o agregar una API a un proyecto en la consola de Adobe Developer, consulte [Creación de un proyecto](https://developer.adobe.com/dep/guides/dev-console/create-project/) en la documentación del Adobe.
+  Para obtener información sobre cómo crear o añadir una API a un proyecto en Adobe Developer Console, consulte [Creación de un proyecto](https://developer.adobe.com/dep/guides/dev-console/create-project/) en la documentación del Adobe.
 
 ## Crear una conexión
 
-Una conexión de Adobe Authenticator se conecta a un solo proyecto en la consola de Adobe Developer. Para utilizar la misma conexión para más de una API de Adobe, agregue las API al mismo proyecto y cree una conexión con ese proyecto.
+Una conexión de Adobe Authenticator se conecta a un solo proyecto en Adobe Developer Console. Para utilizar la misma conexión para más de una API de Adobe, agregue las API al mismo proyecto y cree una conexión con ese proyecto.
 
 Puede crear conexiones independientes a proyectos independientes, pero no puede utilizar una conexión para acceder a una API que no esté en el proyecto especificado en esa conexión.
 
@@ -157,6 +158,14 @@ Para crear una conexión:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL URL base]</td>
+        <td>Debe agregar las direcciones URL base que desea que permita este autenticador. Cuando utilice el módulo Crear una llamada de API personalizada más adelante en el escenario, agregará una ruta relativa a la dirección URL elegida. Al introducir las direcciones URL aquí, puede controlar a qué se puede conectar el módulo Crear una llamada de API personalizada, lo que aumenta la seguridad.<p>Para cada URL base que desee añadir al autenticador, haga clic en <b>Añadir elemento</b> e introduzca la dirección URL base.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL URL de autenticación]</td>
+        <td>Deje esto en blanco para utilizar la URL de autenticación IMS estándar de Adobe. <code>https://ims-na1.adobelogin.com</code>. Si no utiliza Adobe IMS para la autenticación, introduzca la URL que desea utilizar para la autenticación.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Entorno]</td>
         <td>Seleccione si desea conectarse a un entorno de producción o de no producción.</td>
       </tr>
@@ -229,4 +238,3 @@ Este módulo de acción le permite realizar una llamada a cualquier API de Adobe
     </tr>
   </tbody>
 </table>
-
