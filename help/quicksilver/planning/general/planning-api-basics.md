@@ -4,9 +4,9 @@ description: El objetivo de la API de Planning de Adobe Workfront es simplificar
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Los objetos se manipulan enviando una solicitud HTTP a su URI único. La operaci
 
 Los métodos HTTP estándar corresponden a las siguientes operaciones:
 
-* **GET** : Recupera un objeto por ID, busca todos los objetos por una consulta, ejecuta informes o ejecuta consultas con nombre
+* **GET** - Recupera un objeto por ID, busca todos los objetos por una consulta
 * **POST** - Inserta un nuevo objeto
 * **PUT** - Edita un objeto existente
 * **DELETE** - Elimina un objeto
