@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,8 @@ Puede compartir una vista con las siguientes entidades:
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
+   <p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> No hay controles de acceso para Adobe Workfront Planning </p>  
+   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Permisos de objeto</p></td>
-   <td> <p>Administración de permisos en una vista</p>
-
+   <td role="rowheader"><p>Permisos</p></td>
+   <td> <p>Administración de permisos en una vista</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Compartir permisos en una vista <!--internally-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
-   <p>Los administradores del sistema solo tienen acceso a las vistas que han creado o que se han compartido con ellos. </p>
+   <p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning </p>  
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
+   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos de la vista</p>  
+   <td> <p>Administración de permisos en una vista</p>  
+   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe añadir el área de planificación a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Administrar una vista de cronología {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
   Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
+* Puede filtrar por campos de registro conectados o campos de búsqueda.
+* Puede filtrar por campos de búsqueda que muestren varios valores.
+
 
 ### Agregar agrupación
 
@@ -193,11 +201,16 @@ Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronolo
 
 * Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-* Puede aplicar hasta 4 niveles de agrupación al utilizar la API.
-* Las agrupaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de cronología ven la misma agrupación que se aplica actualmente.
-* No puede asignar nombres a las agrupaciones que genere para una vista de cronología.
+&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
+* Las agrupaciones son únicas para la vista que seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de tabla ven la misma agrupación que se aplica actualmente.
+* No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
-* Puede agrupar por campos de registro conectados o campos de búsqueda, pero no para los campos que permiten la vinculación a varios registros.
+* Puede editar los registros enumerados bajo una agrupación.
+* Puede agrupar por campos de registro conectados o campos de búsqueda.
+* Cuando se agrupan por campos de búsqueda con varios valores (que no se han resumido con un agregador), los registros se agrupan por cada combinación única de valores de campo.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una agrupación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la agrupación que está creando para el tipo de registro de actividad.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 Para agregar una agrupación en la vista de escala de tiempo:
 

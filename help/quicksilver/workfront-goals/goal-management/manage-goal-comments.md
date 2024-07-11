@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ Se abrirá la lista de metas.
 
    >[!TIP]
    >
-   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se agreguen al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
+   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
-1. (Opcional) Para agregar formato de texto enriquecido a la actualización, a un hipervínculo o a una imagen, utilice las opciones de la barra de herramientas Texto enriquecido o los iconos adyacentes. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Para agregar formato de texto enriquecido a la actualización, un hipervínculo o un emoji, utilice las opciones de la barra de herramientas Texto enriquecido o los iconos adyacentes. Para obtener más información, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) En el **Etiquetar personas o equipos** , empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Seleccione el **Privado para mi compañía** alterne para que el comentario solo sea visible para las personas de la compañía.
 
@@ -150,7 +150,7 @@ Se abrirá la lista de metas.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Opcional) Para editar un comentario, haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del icono Like y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario, añada o elimine imágenes, o quite usuarios etiquetados.
+1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
 Puede editar su comentario en un plazo de 15 minutos a partir del envío. Se agrega un indicador &quot;editado&quot; a la izquierda de la marca de fecha que muestra cuándo se actualizó el comentario.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

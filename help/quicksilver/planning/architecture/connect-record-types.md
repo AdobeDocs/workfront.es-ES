@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       * Se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
 
-      * Se crea un nuevo tipo de registro de sólo lectura de Workfront Planning para el objeto de la otra aplicación sólo cuando los objetos reales están conectados a registros de Workfront Planning.
-
-        Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-
       * No se puede acceder a los campos de registros de Planning desde objetos de Workfront.
       * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Opcional) Haga clic en **Omitir** para omitir agregar campos del registro vinculado o tipo de objeto. El **Nombre** o el **Título** del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
 
-1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador. Los valores de los campos vinculados se muestran separados por comas o como un valor agregado según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registro vinculado.
+1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador para resumir varios valores. Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionan más de un registro vinculado en el campo de registro vinculado.
+
+   Si el campo de búsqueda contiene varios valores que no están resumidos, tenga en cuenta lo siguiente al utilizar el campo en la ordenación o agrupación de una vista:
+
+   * La ordenación se realiza mediante el primer valor
+
+   * Los registros se agrupan por cada combinación única de valores de campo
+
+   * La vista de cronología se crea en función del primer valor de fecha.
 
    >[!IMPORTANT]
    >

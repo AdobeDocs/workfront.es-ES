@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,9 @@ hide: yes
 
 Puede mostrar los registros y sus campos en una vista de calendario, desde la página de tipo de registro.
 
-Para obtener información sobre las vistas de funcionalidades de Adobe Workfront Planning y cómo administrarlas, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+Para obtener información sobre las vistas de Adobe Workfront Planning y cómo administrarlas, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
-   <p>Los administradores del sistema solo tienen acceso a las vistas que han creado o que se han compartido con ellos. </p>
+   <p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
+   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos de la vista</p>  
+   <td> <p>Administración de permisos en una vista</p>  
+   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe añadir el área de planificación a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Administrar una vista de calendario {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de calendario:
 
   Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
+* Puede filtrar por campos de registro conectados o campos de búsqueda.
+
+* Puede filtrar por campos de búsqueda que muestren varios valores.

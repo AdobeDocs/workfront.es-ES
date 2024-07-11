@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,9 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 >
 >No todos los usuarios pueden tener los niveles de permisos que se describen a continuación. La licencia individual de los usuarios determina qué nivel de permisos pueden recibir para los objetos de Workfront Planning.
 >
->Solo los usuarios con licencia estándar (o de planificación) pueden tener permisos de Contribute o de Administración en los espacios de trabajo.
+>Solo los usuarios con licencia estándar (o de planificación) pueden tener permisos de Contribute o de Administración en los espacios de trabajo y permisos de Administración en las vistas.
+> 
+>Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en espacios de trabajo y vistas.
 >
 >Para obtener más información, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -157,7 +159,8 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | Eliminar | ✓ |       |                            |
 | Compartir | ✓ |       |                           |
 | Ver | ✓ | ✓ | ✓ |
-| Aplicar | ✓ | ✓ | ✓ |
+| Acceso a la vista | ✓ | ✓ | ✓ |
+| Aplicar filtros temporales, agrupaciones y ordenación | ✓ | ✓ | ✓ |
 
 *Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
 

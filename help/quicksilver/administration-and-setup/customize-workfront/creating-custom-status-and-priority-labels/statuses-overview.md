@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Para saber cuál es el estado actual de desarrollo de un proyecto, tarea o probl
 Por ejemplo, en este proyecto, el estado Planificación indica que el jefe del proyecto está planificando aspectos del proyecto, como su cronología, asignaciones de tareas y aprobaciones.
 
 ![Estado del proyecto de muestra](assets/statuses-overview.png)
+
+Debe tener los siguientes permisos y acceso a un proyecto, tarea o problema para ver su estado:
+
+* Vea o aumente el acceso en su nivel de acceso a Proyectos, Tareas y Problemas
+* Ver o permisos superiores en el objeto
+
+Para cambiar manualmente el estado de un proyecto, tarea o problema, debe tener los siguientes permisos y acceso:
+
+* Editar el acceso en su nivel de acceso a Proyectos, Tareas y Problemas
+* Contribute o permisos superiores en la tarea o el problema
+* Administrar permisos en el proyecto.
 
 Cambiar el estado de un proyecto, tarea o problema suele ser un proceso manual. Sin embargo, hay ocasiones en que el estado de un problema cambia automáticamente, según otros factores que sucedan en el sistema.
 

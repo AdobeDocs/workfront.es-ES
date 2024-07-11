@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Para obtener información sobre las vistas de registros y cómo administrarlas, 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
-   <p>Los administradores del sistema solo tienen acceso a las vistas que han creado o que se han compartido con ellos. </p>
+   <p>Nuevo: estándar</p>
+   O
+   <p>Actual: plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuración del nivel de acceso</td>
-   <td> <p>No hay controles de nivel de acceso para la planificación del Adobe de Workfront</p>  
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
+   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos de la vista</p>  
+   <td> <p>Administración de permisos en una vista</p>  
+   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Plantilla de diseño</td>
-   <td> <p>El administrador del sistema debe añadir el área de planificación a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Administración de una vista de tabla {#manage-a-table-view}
 
@@ -244,7 +250,9 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de tabla:
 
 * Añadir filtros a la vista de tabla es idéntico a añadir filtros a la vista de cronología.
 
-* Puede filtrar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
+* Puede filtrar por campos de registro conectados o campos de búsqueda.
+
+* Puede filtrar por campos de búsqueda que muestren varios valores.
 
 * Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando un filtro para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al presupuesto del proyecto en el filtro que está creando para el tipo de registro de actividad.
 
@@ -356,7 +364,8 @@ Tenga en cuenta lo siguiente:
 * No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.
 * Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 * Puede editar los registros enumerados bajo una agrupación.
-* Puede agrupar por campos de registro conectados o campos de búsqueda, pero no para los campos que permiten la vinculación a varios registros.
+* Puede agrupar por campos de registro conectados o campos de búsqueda.
+* Cuando se agrupan por campos de búsqueda con varios valores (que no se han resumido con un agregador), los registros se agrupan por cada combinación única de valores de campo.
 * Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una agrupación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la agrupación que está creando para el tipo de registro de actividad.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 
 * Puede ordenar por tantos campos como vea mostrados en la vista de tabla de un tipo de registro.
 
-* Los campos vinculados solo se pueden ordenar si permiten valores únicos o valores de selección múltiple con la opción de resumen seleccionada (suma, promedio, máximo, mínimo).
+* No puede ordenar por campos de registro conectados, pero puede ordenar por campos de búsqueda de tipos de registro conectados.
+
+* Al ordenar por campos de búsqueda con varios valores (que no se hayan resumido con un agregador), se utiliza el primer valor para ordenar.
 
 * Al quitar los criterios de ordenación, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y utilice la misma vista que utiliza.
-
-* Puede ordenar por campos de registro conectados o campos de búsqueda, pero no por los campos que permiten la vinculación a varios registros.
 
 * Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una ordenación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la ordenación que está creando para el tipo de registro de actividad.
 
