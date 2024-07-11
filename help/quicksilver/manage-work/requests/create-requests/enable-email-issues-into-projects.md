@@ -6,7 +6,7 @@ description: Permitir que los usuarios envíen por correo electrónico un proble
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Antes de habilitar esta función, deben cumplirse las siguientes condiciones:
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
 1. Clic **Detalles de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** primero.
-1. En el **Tipo de cola** , seleccione **Publicar como cola de solicitud de ayuda**.
+1. En el **Tipo de cola** , seleccione **Publish como cola de solicitudes de ayuda**.
 
 1. Desplácese hacia abajo hasta el **Configuración de cola de correo electrónico** , luego seleccione **Habilitar la admisión de solicitudes por correo electrónico**.
 
