@@ -4,9 +4,9 @@ description: El [!DNL Adobe Workfront Fusion] Los módulos CRM de HubSpot le per
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Para usar [!DNL HubSpot CRM] módulos, debe tener un [!DNL HubSpot CRM] cuenta.
 ## Connect [!DNL Adobe Workfront Fusion] hasta [!DNL HubSpot CRM]
 
 Para obtener instrucciones acerca de cómo conectar su [!DNL HubSpot CRM] cuenta a [!DNL Workfront Fusion], consulte [Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Al configurar una conexión, seleccione la **HubSpot CRM** tipo de conexión. El tipo HubSpot CRM (obsoleto) admite conexiones existentes, pero no se recomienda utilizarlo para crear nuevas conexiones.
 
 ## [!DNL HubSpot CRM] módulos y sus campos
 
