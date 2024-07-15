@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ Puede realizar este proceso en Workfront creando un paquete de objetos para move
    * [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Para obtener instrucciones sobre cómo realizar este proceso mediante la API de Workfront, consulte [Mover objetos entre [!DNL Workfront] entornos que utilizan la variable [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Para obtener instrucciones sobre cómo realizar este proceso mediante la API de Workfront, consulte [Mover objetos entre [!DNL Workfront] entornos mediante la API [!DNL Workfront] 3}.](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Objetos compatibles para la promoción del entorno
 
@@ -51,20 +51,20 @@ Debido a que la promoción del entorno trata la configuración de objetos, los o
 
 | Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Proyecto (PROJ) | Proyecto<br>Tarea<br>Asignación<br>Predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
-| Plantilla (TMPL) | Plantilla<br>Tarea de plantilla<br>Asignación de tarea de plantilla<br>Tarea de plantilla predecesora<br>Compañía<br>Tasa de anulación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Programación<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br>Conjunto de recursos<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
+| Proyecto (PROJ) | Proyecto<br>Tarea<br>Asignación<br>Predecesora<br>Compañía<br>Tasa de invalidación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de paso<br>Programar<br>Día sin trabajo<br>Definición de cola<br>Grupo de temas de cola<br>Tema de cola<br>Regla de enrutamiento<br>Ruta de hitos<br>Hito<br>Tipo de hora<br> 2}Parámetro de categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría<br> |
+| Plantilla (TMPL) | Plantilla<br>Tarea de plantilla<br>Asignación de tarea de plantilla<br>Predecesora de tarea de plantilla<br>Compañía<br>Tasa de invalidación<br>Grupo<br>Rol<br>Equipo<br>Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de paso<br>Programar<br>Día no laborable<br>Definición de cola<br>Grupo de temas de cola<br>Ruta de hitos de cola<br>Hito de enrutamiento<br>Tipo de hora Grupo De Recursos<br>Categoría<br>Parámetro De Categoría<br>Parámetro<br>Grupo De Parámetros<br>Opción De Parámetro<br>Lógica De Visualización De Categoría<br><br><br> |
 
 ### Objetos de informes
 
 | Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Plantilla de diseño (UITMPL) | Plantilla de diseño<br>Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Tablero (PTLTAB) | Tablero<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Calendario (CALEND) | Calendario<br>Sección de calendario |
+| Plantilla de diseño (UITMPL) | Plantilla De Diseño<br>Panel<br>Calendario<br>Sección De Calendario<br>Página Externa<br>Informe<br>Filtro<br>Agrupación<br>Ver<br>Parámetro<br>Grupo |
+| Tablero (PTLTAB) | Panel<br>Calendario<br>Sección de calendario<br>Página externa<br>Informe<br>Filtro<br>Agrupación<br>Ver<br>Parámetro |
+| Calendario (CALEND) | Sección de calendario<br>Calendario |
 | Página externa (EXTSEC) | Página externa |
-| Informe (PTLSEC) | Informe<br>Filtrar<br>Agrupación<br>Ver<br>Parámetro |
-| Filtro (UIFT) | Filtrar<br>Parámetro |
-| Agrupación (UIGB) | Agrupación<br>Parámetro |
+| Informe (PTLSEC) | Informe<br>Filtro<br>Agrupación<br>Ver<br>Parámetro |
+| Filtro (UIFT) | Filtro<br>Parámetro |
+| Agrupación (UIGB) | Parámetro <br>de agrupación |
 | Vista (UIVW) | Ver<br>Parámetro |
 
 ### Objetos de datos personalizados
@@ -79,10 +79,10 @@ Debido a que la promoción del entorno trata la configuración de objetos, los o
 
 | Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Grupo (GROUP) | Grupo <br>Subgrupos (hasta 5 niveles) *<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
+| Grupo (GROUP) | Grupo <br>Subgrupos (hasta 5 niveles) *<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetros<br>Lógica de visualización de categoría |
 | Rol (ROLE) | Función |
 | Equipo (EQUIPO) | Equipo<br>Grupo |
-| Empresa (CMPY) | Compañía<br>Tasa de anulación<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Parámetro <br>Lógica de visualización de categoría<br>Grupo |
+| Empresa (CMPY) | Compañía<br>Tasa de invalidación<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Parámetro <br>Lógica de visualización de categoría<br>Grupo |
 | Portfolio (PUERTO) | Portfolio<br>Programa<br>Grupo<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
 | Programa (PRGM) | Programa<br>Portfolio<br>Grupo<br>Categoría<br>Parámetro de categoría<br>Parámetro<br>Grupo de parámetros<br>Opción de parámetro<br>Lógica de visualización de categoría |
 
@@ -90,9 +90,9 @@ Debido a que la promoción del entorno trata la configuración de objetos, los o
 
 | Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Proceso de aprobación (ARVPRC) | Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de etapa<br>Rol<br>Equipo<br>Grupo |
-| Programa (SCHED) | Programación<br>Día no laborable<br>Grupo |
-| Ruta de hitos (MPATH) | Ruta de hitos<br>Hito |
+| Proceso de aprobación (ARVPRC) | Proceso de aprobación<br>Ruta de aprobación<br>Paso de aprobación<br>Aprobador de paso<br>Rol<br>Equipo<br>Grupo |
+| Programa (SCHED) | Programar<br>Día no laborable<br>Grupo |
+| Ruta de hitos (MPATH) | Ruta de hitos<br>Milestone |
 | Perfil de hoja de horas (TSPRO) | Perfil de hoja de horas<br>Tipo de hora |
 | Tipo de hora (HOURT) | Tipo de hora |
 | Tipo de gasto (EXPTYPE) | Tipo de gasto |
@@ -142,15 +142,15 @@ Estos estados incluyen los siguientes:
   </tr> 
   <tr> 
    <td>ACTIVO</td> 
-   <td><p>Este estado permite instalar un paquete de promoción en cualquier entorno, incluido el de producción.</p><p>Cuando el estado de un paquete se establece en ACTIVO, la variable <code>publishedAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p></td> 
+   <td><p>Este estado permite instalar un paquete de promoción en cualquier entorno, incluido el de producción.</p><p>Cuando el estado de un paquete se establece en ACTIVO, la fecha <code>publishedAt</code> se establece automáticamente en la marca de tiempo actual de la solicitud.</p></td> 
   </tr> 
   <tr> 
    <td>DESACTIVADO</td> 
-   <td><p>Este estado se utiliza para ocultar los paquetes de promoción utilizados anteriormente que no se instalarán en ningún entorno en el futuro.</p><p>Cuando un paquete se encuentra en este estado, no se puede instalar en ningún entorno.</p><p>Cuando el estado de un paquete se establece en DESHABILITADO, la variable <code>retiredAt</code> La fecha se establece automáticamente en la marca de tiempo actual de la solicitud.</p><p>Se recomienda usar este estado en lugar de usar el <code>DELETE /package</code> extremo porque se puede recuperar y el historial de instalación se conserva para cualquier implementación realizada con este paquete.</p></td> 
+   <td><p>Este estado se utiliza para ocultar los paquetes de promoción utilizados anteriormente que no se instalarán en ningún entorno en el futuro.</p><p>Cuando un paquete se encuentra en este estado, no se puede instalar en ningún entorno.</p><p>Cuando el estado de un paquete se establece en DESHABILITADO, la fecha <code>retiredAt</code> se establece automáticamente en la marca de tiempo actual de la solicitud.</p><p>Se recomienda usar este estado en lugar de usar el extremo <code>DELETE /package</code> porque se puede recuperar y el historial de instalación se conserva para cualquier implementación realizada con este paquete.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>El paquete de promoción pasa automáticamente a este estado si falla la fase de MONTAJE.</p><p>Para devolver el paquete a la fase de MONTAJE, debe volver a almacenar en déclencheur el proceso de montaje.</p><p>Para obtener más información sobre cómo montar un paquete, consulte la sección <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar o montar un paquete existente</a> en el artículo Crear o editar un paquete de promoción de entorno.</td> 
+   <td><p>El paquete de promoción pasa automáticamente a este estado si falla la fase de MONTAJE.</p><p>Para devolver el paquete a la fase de MONTAJE, debe volver a almacenar en déclencheur el proceso de montaje.</p><p>Para obtener más información sobre cómo ensamblar un paquete, consulte la sección <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar o ensamblar un paquete existente</a> en el artículo Crear o editar un paquete de promoción de entorno.</td> 
   </tr> 
   </tbody> 
 </table>
