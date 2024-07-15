@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 39a6f46d811812ca70e7455fb4353b8d1841586a
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '14441'
 ht-degree: 1%
@@ -2374,22 +2374,22 @@ ht-degree: 1%
       * [Vincular elementos entre Adobe Workfront y Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Actualización de elementos vinculados entre Jira y Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Ver el registro de actividades de Jira](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Adobe Workfront para G Suite {#workfront-for-g-suite}
-      * [Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [Instalación de Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-      * [Privacidad y permisos en Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-      * [Iniciar y cerrar sesión en Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
-      * [Acceder al contenido de Adobe Workfront Home desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-      * [Actualizar un objeto Adobe Workfront desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-      * [Ver y administrar documentos desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-      * [Ver y administrar detalles de objetos de Adobe Workfront desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-      * [Ver actualizaciones de objetos de Adobe Workfront desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
-      * [Administración de detalles de notificaciones de Adobe Workfront desde G Suite](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-      * [Responder a una notificación de actualización de Adobe Workfront de G Suite](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
-      * [Convierta correos electrónicos de G Suite en objetos y actualizaciones de Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-      * [Creación de una tarea de Adobe Workfront en G Suite mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-      * [Crear un problema de Adobe Workfront en G Suite mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [Actualizar un elemento de Adobe Workfront de G Suite mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+   * Adobe Workfront para Google Workspace {#workfront-for-g-suite}
+      * [Adobe Workfront para Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
+      * [Instalación de Adobe Workfront para Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Privacidad y permisos en Workfront para Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+      * [Iniciar y cerrar sesión en Adobe Workfront para Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+      * [Acceder al contenido de la página principal de Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+      * [Actualizar un objeto Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+      * [Ver y administrar documentos desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+      * [Ver y administrar detalles de objetos de Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+      * [Ver actualizaciones de objetos de Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+      * [Administrar detalles de notificaciones de Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+      * [Responder a una notificación de actualización de Adobe Workfront desde Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+      * [Convierta correos electrónicos de Google Workspace en objetos y actualizaciones de Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+      * [Creación de una tarea de Adobe Workfront en Google Workspace mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+      * [Crear un problema de Adobe Workfront en Google Workspace mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+      * [Actualizar un elemento de Adobe Workfront desde Google Workspace mediante contenido de correo electrónico](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront para Outlook {#workfront-for-outlook}
       * [Adobe Workfront para Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Configuración de Adobe Workfront para Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

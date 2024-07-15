@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -49,15 +49,15 @@ Proporcione al administrador de red la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Direcciones IP y dominios específicos que se permitirán</td> 
-   <td> <p>El artículo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuración de la lista de permitidos del cortafuegos</a> contiene la lista de direcciones IP y dominios que su organización debe agregar a su lista de permitidos. </p> <p>Es posible que el administrador de la red no tenga acceso al artículo "Configuración de la lista de permitidos del cortafuegos". En ese caso, debe proporcionárselo a ellos. No se recomienda imprimir una copia impresa (en papel). Una copia digital permite al administrador de la red copiar y pegar las direcciones, lo que resulta más rápido y preciso que escribir desde una copia impresa.</p> </td> 
+   <td> <p>El artículo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configuración de la lista de permitidos del firewall</a> contiene la lista de direcciones IP y dominios que su organización debe agregar a su lista de permitidos. </p> <p>Es posible que el administrador de la red no tenga acceso al artículo "Configuración de la lista de permitidos del cortafuegos". En ese caso, debe proporcionárselo a ellos. No se recomienda imprimir una copia impresa (en papel). Una copia digital permite al administrador de la red copiar y pegar las direcciones, lo que resulta más rápido y preciso que escribir desde una copia impresa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Su clúster</td> 
-   <td>Para localizar el clúster de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Ver el clúster y el plan de Workfront de su organización</a>.</td> 
+   <td>Para localizar el clúster de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Ver el clúster de su organización y el plan de Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Su plan de Workfront</td> 
-   <td> <p>Para localizar el plan de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Vea el clúster y el plan de Workfront de su organización.</a></p> </td> 
+   <td> <p>Para encontrar el plan de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Ver el clúster de su organización y el plan de Workfront.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Su dominio</td> 
@@ -76,7 +76,7 @@ Proporcione al administrador de red la siguiente información:
    <td>Informe al administrador de red si utiliza cualquiera de los siguientes elementos:
     <ul>
      <li><p>Workfront para Jira</p></li>
-     <li><p>Workfront para G Suite</p></li>
+     <li><p>Workfront para Google Workspace</p></li>
      <li><p>Workfront para Microsoft Teams</p></li>
      <li><p>Workfront para Outlook</p></li>
      <li><p>Workfront para Salesforce</p></li>
@@ -98,16 +98,16 @@ Proporcione al administrador de red la siguiente información:
 
 ### Ver el clúster y el plan de Workfront de su organización {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 
-1. Clic **Sistema** en el panel izquierdo
+1. Haga clic en **Sistema** en el panel izquierdo
 1. Para ver el clúster, seleccione **Información del cliente**.
 
-   El clúster se muestra cerca de la parte superior derecha de la pantalla **Información básica** sección.
+   El clúster se muestra cerca de la parte superior derecha de la sección **Información básica**.
 
    ![](assets/locate-cluster.png)
 
-1. Para ver su plan de Workfront, seleccione **Licencias**.
+1. Para ver tu plan de Workfront, selecciona **Licencias**.
 
    Su plan se muestra cerca de la parte inferior de la página.
 

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Si el cortafuegos o el servidor de correo están configurados para permitir el a
 * Uso de los webhooks de documentos al configurar integraciones de documentos personalizadas
 * Uso de suscripciones a eventos de Workfront
 
-  Para obtener más información, consulte [API de suscripción de evento](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Para obtener más información, consulte [API de suscripción a evento](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 También debe abrir ciertos puertos para que los mensajes de correo electrónico se cifren cuando se envíen.
 
@@ -50,8 +50,8 @@ También debe abrir ciertos puertos para que los mensajes de correo electrónico
 
 Si su organización tiene el plan Enterprise, también puede configurar dos listas de permitidos de Workfront:
 
-* **Lista de permitidos de correo electrónico**: le permite controlar dónde pueden enviar los usuarios los datos de correo electrónico almacenados en Workfront. Para obtener más información, consulte [Configuración de la lista de permitidos de correo electrónico](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **LISTA DE PERMITIDOS IP**: limita el acceso a Workfront a 45 direcciones IP o rangos de direcciones IP que especifique, lo que proporciona un nivel adicional de seguridad para la aplicación de Workfront. Para obtener más información, consulte [Restringir el acceso a Adobe Workfront por dirección IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **lista de permitidos por correo electrónico**: permite controlar dónde pueden enviar los usuarios los datos almacenados en Workfront. Para obtener más información, consulte [Configuración de la lista de permitidos por correo electrónico](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **lista de permitidos IP**: limita el acceso a Workfront a 45 direcciones IP o rangos de direcciones IP que especifique, lo que proporciona un nivel de seguridad adicional para la aplicación Workfront. Para obtener más información, consulte [Restringir el acceso a Adobe Workfront por dirección IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Busque el clúster de Workfront
 
@@ -59,13 +59,13 @@ Las direcciones IP que debe agregar a la lista de permitidos en el cortafuegos d
 
 Para localizar el clúster de su organización:
 
-1. Como administrador de Workfront, haga clic en **Menú principal** icono ![Menú principal](assets/main-menu-icon.png), luego haga clic en **Configurar**.
-1. En el panel de navegación izquierdo, haga clic en **Sistema**, luego seleccione **Información del cliente**.
-1. Busque el **Configuración de clúster** en la esquina superior derecha de la página. El clúster de su organización se muestra aquí.
+1. Como administrador de Workfront, haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Configurar**.
+1. En el panel de navegación izquierdo, haga clic en **Sistema** y, a continuación, seleccione **Información del cliente**.
+1. Busque el campo **Configuración de clúster** en la esquina superior derecha de la página. El clúster de su organización se muestra aquí.
 
    CL01 hace referencia al clúster 1, CL02 al clúster 2, etc.
 
-Para obtener más información, consulte la sección [Ver el clúster y el plan de Workfront de su organización](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) en el artículo [Resumen del cortafuegos](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Para obtener más información, consulte la sección [Ver el clúster de su organización y el plan de Workfront](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) en el artículo [Descripción general del firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Direcciones IP que agregar a la lista de permitidos
 
@@ -73,18 +73,18 @@ Para obtener más información, consulte la sección [Ver el clúster y el plan 
 >
 >Algunas integraciones de Workfront no funcionan cuando la lista de permitidos está habilitada porque no se pueden configurar con una dirección IP estática. Para utilizar las siguientes integraciones, debe deshabilitar la lista de permitidos.
 >
->* Workfront para G Suite
+>* Workfront para Google Workspace
 >* Workfront para Outlook
 >* Workfront para Salesforce
 
-* [Direcciones IP para permitir los clústeres 1, 2, 3, 5, 7, 8 y 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
+* [Direcciones IP que permiten los clústeres 1, 2, 3, 5, 7, 8 y 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Direcciones IP para permitir el clúster 4](#ip-addresses-to-allow-for-cluster-4)
 * [Direcciones IP para permitir el clúster 6](#ip-addresses-to-allow-for-cluster-6)
 * [Direcciones IP para permitir una unidad de prueba](#IP%20Addre2)
 * [Direcciones IP que se permitirán al implementar suscripciones de evento](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [Direcciones IP para permitir la autenticación mejorada](#ip-addresses-to-allow-for-enhanced-authentication)
-* [Direcciones IP que añadir para acceder a Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [Direcciones IP que se agregarán para usar Workfront para Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
+* [Direcciones IP que agregar para acceder a Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* [Direcciones IP que agregar para usar Workfront para Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [Direcciones URL que se agregarán para todos los clústeres en Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### Direcciones IP para permitir los clústeres 1, 2, 3, 5, 7, 8 y 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5 o 7, debe permitir 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>Para obtener información sobre las siguientes direcciones IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1</a></p> 
+    </ul> <p>Para obtener información sobre las siguientes direcciones IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1</a></p> 
     <ul> 
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
@@ -163,7 +163,7 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 46.51.194.192/32
 * 54,229.129.66/32
 
-Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23 251 239 98
 * 23 251 239 99
