@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 4%
 
 ---
@@ -51,19 +51,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clic **Nuevo formulario personalizado.**
+1. Haga clic en **Nuevo formulario personalizado.**
 1. Seleccione a qué tipos de objetos desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 
    ![](assets/choose-object-type.jpg)
 
-1. En el **El título es obligatorio** , escriba el título del formulario personalizado.
-1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en **Añadir** icono ![](assets/add-objects-icon.png) después **Tipos de objetos**, a continuación, seleccione el tipo que desee en el menú que se muestra. Puede repetir esto para agregar todos los tipos de objetos que desee.
+1. En el área **Se requiere título**, escriba el título del formulario personalizado.
+1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en el icono **Agregar** ![](assets/add-objects-icon.png) después de **Tipos de objetos** y, a continuación, seleccione el tipo que desee en el menú que aparece. Puede repetir esto para agregar todos los tipos de objetos que desee.
 
    También puede hacer clic en la X de un tipo de objeto para eliminarlo del formulario.
 
@@ -71,7 +71,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >Al eliminar un formulario personalizado, también se eliminan todos los datos personalizados de los objetos asociados con el formulario. Los datos eliminados no se pueden recuperar. Considere la posibilidad de desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados.
    >
-   >Para obtener más información, consulte [Eliminar tipos de objetos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >Para obtener más información, vea [Eliminar tipos de objetos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 
 1. A continuación, puede empezar a agregar campos de al formulario personalizado. Consulte las secciones siguientes:
@@ -103,11 +103,11 @@ Puede utilizar campos nuevos o existentes al diseñar el formulario personalizad
    >
    >Algunos ejemplos de formularios complejos son formularios con parámetros en cascada, campos de datos personalizados calculados y varias opciones de valor en un único campo.
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Añadir campos de texto
 
@@ -115,19 +115,19 @@ Puede agregar varios campos de texto diferentes a un formulario personalizado.
 
 +++ **Amplíe para ver las descripciones de los campos de texto disponibles**
 
-* **Campo de texto de línea única**: permite a los usuarios escribir una sola línea de texto en el campo.
+* **Campo de texto de una sola línea**: permite a los usuarios escribir una sola línea de texto en el campo.
 * **Campo de texto de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
-* **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y dar formato al texto con negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
+* **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y aplicar al texto negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
 
   Este tipo de campo personalizado no se admite en filtros de listas e informes.
 
-  Para obtener información sobre el acceso a este campo a través de la API, consulte [Almacenamiento de campo de texto enriquecido en la API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Para obtener información sobre cómo obtener acceso a este campo a través de la API, consulte [Almacenamiento de campo de texto enriquecido en la API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
   >Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront (disponibles en próximas versiones).
 
-* **Texto descriptivo**: Permite incluir instrucciones y vínculos a páginas fuera de Workfront.
+* **Texto descriptivo**: permite incluir instrucciones y vínculos a páginas fuera de Workfront.
 
 +++
 
@@ -234,11 +234,11 @@ Para agregar un campo de texto:
 
    ![icono de copia](assets/copy-field.png)
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Añadir campos calculados
 
@@ -246,15 +246,15 @@ En un formulario personalizado, puede agregar un campo personalizado calculado q
 
 Para agregar un campo calculado, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Agregar botones de opción, casillas de verificación y listas desplegables
+### Agregar botones de opción, grupos de casillas de verificación y menús desplegables
 
-Puede agregar botones de opción, casillas de verificación, listas desplegables y listas desplegables de selección múltiple a un formulario personalizado.
+Puede agregar botones de opción, grupos de casillas de verificación, listas desplegables y listas desplegables de selección múltiple a un formulario personalizado.
 
 +++ **Amplíe para ver las descripciones de los campos disponibles**
 
-* **Botones de radio**: requiere que los usuarios seleccionen solo una opción.
-* **Grupo de casillas**: permite a los usuarios seleccionar varias opciones.
-* **Desplegable**: Proporciona una lista de opciones desplegables.
+* **Botones de radio**: Requiere que los usuarios seleccionen solo una opción.
+* **Grupo de casillas de verificación**: permite a los usuarios seleccionar varias opciones.
+* **Menú desplegable**: Proporciona una lista de opciones desplegables.
 * **Lista desplegable de selección múltiple**: permite a los usuarios seleccionar varias opciones en una lista desplegable.
 
 +++
@@ -263,7 +263,7 @@ Puede agregar botones de opción, casillas de verificación, listas desplegables
 >
 >Los campos que permiten varias selecciones, como el grupo de casillas de verificación y la lista desplegable de selección múltiple, son difíciles de trazar y agrupar en los informes. Para facilitar la creación de gráficos y la agrupación en los informes, puede crear campos independientes para cada opción (por ejemplo, un campo de texto de una sola línea).
 
-Para agregar botones de opción, casillas de verificación y listas desplegables:
+Para agregar botones de opción, grupos de casillas de verificación y menús desplegables:
 
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
@@ -272,7 +272,7 @@ Para agregar botones de opción, casillas de verificación y listas desplegables
    * Lista desplegable
    * Lista desplegable de selección múltiple
 
-   ![Arrastre un campo al lienzo](assets/drag-field-to-section-041524.png)
+   ![Arrastrar un campo al lienzo](assets/drag-field-to-section-041524.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
 
@@ -360,17 +360,17 @@ Para agregar botones de opción, casillas de verificación y listas desplegables
     <td role="rowheader">Opciones </td> 
     <td> 
     <ol> 
-    <li> <p>Clic <b>Opciones</b>y, a continuación, habilite cualquiera de las siguientes opciones:</p> 
+    <li> <p>Haga clic en <b>Opciones</b> y, a continuación, habilite cualquiera de las siguientes opciones:</p> 
     <ul> 
-    <li><strong>Mostrar valores</strong>: Muestra los valores de cada opción en el campo. La etiqueta de cada opción se muestra de forma predeterminada.</li> 
-     <li><strong>Ordenar opciones A-Z</strong>: Ordena las opciones que se agregan alfabéticamente en el campo.</li> 
+    <li><strong>Mostrar valores</strong>: muestra los valores de cada opción en el campo. La etiqueta de cada opción se muestra de forma predeterminada.</li> 
+     <li><strong>Ordenar opciones A-Z</strong>: ordena las opciones que se agregan alfabéticamente en el campo.</li> 
     </ul> 
     </li> 
-    <li> <p>Para cada opción que agregue para el usuario, haga clic en el icono de engranaje <img src="assets/gear-icon-settings.png">, luego seleccione una de las siguientes opciones:</p> 
+    <li> <p>Para cada opción que agregue para el usuario, haga clic en el icono de engranaje <img src="assets/gear-icon-settings.png"> y, a continuación, seleccione una de las siguientes opciones:</p> 
     <ul> 
-    <li><strong>Seleccionar de forma predeterminada</strong>: Seleccione la opción de forma predeterminada en el campo.</li> 
-    <li> <p><strong>Ocultar opción</strong>: oculte la opción en el campo. Las opciones ocultas siguen siendo accesibles en los informes.</p> </li> 
-    <li> <p><strong>Quitar opción</strong>: elimine la opción del campo.</p> <p><b>ADVERTENCIA</b>: Si tiene objetos actuales utilizando esta opción, no lo elimine del campo. Si lo elimina, se perderán datos históricos. En su lugar, seleccione la opción para ocultarla, lo que impide que los usuarios la seleccionen en el futuro.</p> </li> 
+    <li><strong>Seleccionar de forma predeterminada</strong>: seleccione la opción de forma predeterminada en el campo.</li> 
+    <li> <p><strong>Ocultar opción</strong>: oculta la opción en el campo. Las opciones ocultas siguen siendo accesibles en los informes.</p> </li> 
+    <li> <p><strong>Quitar opción</strong>: quite la opción del campo.</p> <p><b>ADVERTENCIA</b>: Si tiene objetos actuales que utilizan esta opción, no la quite del campo. Si lo elimina, se perderán datos históricos. En su lugar, seleccione la opción para ocultarla, lo que impide que los usuarios la seleccionen en el futuro.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -392,11 +392,11 @@ Para agregar botones de opción, casillas de verificación y listas desplegables
 
    ![icono de copia](assets/copy-field.png)
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Adición de campos de fecha y tipo anticipado
 
@@ -414,7 +414,7 @@ Puede agregar campos de escritura anticipada y fecha a un formulario personaliza
    * Equipo
    * Plantilla
    * Compañía
-* **Campo de fecha**: muestra un calendario en el que los usuarios pueden seleccionar una fecha y una hora.
+* **Campo de fecha**: muestra un calendario donde los usuarios pueden seleccionar una fecha y una hora.
 
 +++
 
@@ -493,7 +493,7 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
         <li>Pertenecen a uno o varios grupos especificados</li> 
         <li>Están asociados a un rol o cargo que especifique</li> 
         <li>Pertenecen al mismo grupo que la persona que utiliza el campo</li> 
-       </ul> <p>Debe definir el filtro para el tipo de objeto seleccionado mediante la sintaxis de Modo de texto. Para obtener información sobre cómo crear un filtro con el modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edición de un filtro mediante el modo de texto</a>.</p>
+       </ul> <p>Debe definir el filtro para el tipo de objeto seleccionado mediante la sintaxis de Modo de texto. Para obtener información acerca de cómo crear un filtro mediante el modo de texto, vea <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
        <p><b>NOTA</b>:
        <ul> 
         <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo de escritura anticipada no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
@@ -524,17 +524,17 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
 
    ![icono de copia](assets/copy-field.png)
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Adición de campos de búsqueda externos
 
 Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable. El campo de búsqueda externa también está disponible en listas e informes.
 
-Para ver ejemplos del uso del campo Búsqueda externa para llamar a la misma instancia de Workfront o a una API pública, consulte [Ejemplos del campo Búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Para obtener ejemplos del uso del campo de búsqueda externa para llamar a la misma instancia de Workfront o a una API pública, consulte [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -581,31 +581,36 @@ Para añadir una búsqueda externa:
       <td role="rowheader">URL de API básica</td> 
       <td><p>Escriba o pegue la dirección URL de la API.</p><p>La dirección URL de la API debe devolver un contenido JSON de las opciones que desee mostrar en la lista desplegable. Puede utilizar la Ruta de JSON para seleccionar los valores específicos de las opciones desplegables de JSON que se van a devolver.</p><p>Al introducir la URL de la API, puede, opcionalmente, pasar los siguientes valores en la URL:</p>
       <ul>
-      <li>$$HOST: representa el host actual de Workfront y se puede utilizar para hacer llamadas de la API /search a la API de Workfront. Cuando se utiliza este comodín, se administra la autenticación y los usuarios no necesitan enviar encabezados de autenticación. (Por ejemplo, los usuarios pueden buscar tareas utilizando la dirección URL base <code>$$HOST/attask/api/task/search</code> y permitirá buscar tareas y seleccionar valores de una lista devuelta de tareas).</li>
+      <li>$$HOST: representa el host actual de Workfront y se puede utilizar para hacer llamadas de la API /search a la API de Workfront. Cuando se utiliza este comodín, se administra la autenticación y los usuarios no necesitan enviar encabezados de autenticación. (Por ejemplo, los usuarios pueden buscar tareas utilizando la dirección URL base <code>$$HOST/attask/api/task/search</code> y permitirá buscar tareas y seleccionar valores de una lista de tareas devuelta).</li>
       <li><p>$$QUERY: representa el texto de búsqueda que el usuario final escribe en el campo y le permite implementar el filtrado de consultas para los usuarios finales. (El usuario buscará el valor en la lista desplegable).</p>
-      <p>Si la API a la que hace referencia lo permite, también puede incluir modificadores en la consulta de búsqueda para identificar cómo debería funcionar la búsqueda. Por ejemplo, puede utilizar lo siguiente como URL de API base para permitir que las personas busquen cualquier proyecto de Workfront que contenga texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Obtenga más información acerca de los modificadores de búsqueda de Workfront en <a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a>.</p>
-      <p><strong>NOTA:</strong> Si no utiliza $$QUERY y el usuario escribe texto en el cuadro de búsqueda, se reducirán las opciones que ya tiene. Sin embargo, si utiliza $$QUERY y el usuario escribe cualquier cosa, se realiza una nueva llamada de red a la API. Por lo tanto, si tiene más de 2000 valores en la API y esta admite consultas, puede utilizar $$QUERY no solo para buscar entre los 2000 valores existentes, sino también desde la API original con las opciones reducidas.</p></li>
-      <li><p>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo de Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</p>
-      <p>Para un campo de búsqueda externo que dependa de otros campos (con el {fieldName} sintaxis), las opciones devueltas por la API se limitan a las que coinciden con cualquier cadena o valor introducido en los demás campos. (Esta funcionalidad no se admite en listas e informes).</p></li>
-      <li>{referenceObject}.{fieldName} - Donde el campo forma parte de un objeto. Esta sintaxis es similar a las expresiones personalizadas. (Por ejemplo, portfolioID={project}.{portfolioID})</li></ul>
+      <p>Si la API a la que hace referencia lo permite, también puede incluir modificadores en la consulta de búsqueda para identificar cómo debería funcionar la búsqueda. Por ejemplo, puede usar lo siguiente como dirección URL de la API base para permitir que las personas busquen cualquier proyecto de Workfront que contenga texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Obtenga más información acerca de los modificadores de búsqueda de Workfront en <a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a>.</p>
+      <p><strong>NOTA:</strong> Si no usa $$QUERY y el usuario escribe texto en el cuadro de búsqueda, reducirá las opciones que ya tiene. Sin embargo, si utiliza $$QUERY y el usuario escribe cualquier cosa, se realiza una nueva llamada de red a la API. Por lo tanto, si tiene más de 2000 valores en la API y esta admite consultas, puede utilizar $$QUERY no solo para buscar entre los 2000 valores existentes, sino también desde la API original con las opciones reducidas.</p></li>
+      <li><p>{fieldName} - Donde fieldName es cualquier campo personalizado o nativo en Workfront. De este modo, puede implementar filtros de opción desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</p>
+      <p>Para un campo de búsqueda externo que dependa de otros campos (con la sintaxis {fieldName}), las opciones devueltas por la API se limitan a las que coinciden con cualquier cadena o valor introducido en los demás campos. (Esta funcionalidad no se admite en listas e informes).</p></li>
+      <li>{referenceObject}.{fieldName} - Donde el campo es parte de un objeto. Esta sintaxis es similar a las expresiones personalizadas. (Por ejemplo, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTA:</strong> Revise la documentación de la API con la que está trabajando para las consultas específicas que puede definir.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Método HTTP</td> 
-      <td>Seleccionar <strong>Obtener</strong>, <strong>Publicar</strong>, o <strong>Put</strong> para el método.</td> 
+      <td>Seleccione <strong>Get</strong>, <strong>Post</strong> o <strong>Put</strong> para el método.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la dirección URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON con este formato:</br>
       <pre>
-      { data: { { name: "USA"}, { name: "Canada"} } }
+      {
+       datos: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
-      <p>a continuación, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables.</p> <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de escribir la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>a continuación, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables.</p> <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Encabezados</td>
-      <td><p>Clic <strong>Añadir encabezado</strong>y escriba o pegue el par clave-valor necesario para la autenticación con la API.</p><p><strong>NOTA:</strong> Los campos Encabezado no son un lugar seguro para almacenar credenciales y debe tener cuidado con lo que escribe y guarda.</p></td>
+      <td><p>Haga clic en <strong>Agregar encabezado</strong> y escriba o pegue el par clave-valor necesario para la autenticación con la API.</p><p><strong>NOTA:</strong> Los campos de encabezado no son un lugar seguro para almacenar credenciales, y debe tener cuidado con lo que escribe y guarda.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Lista desplegable de selección múltiple</td>
@@ -619,11 +624,11 @@ Para añadir una búsqueda externa:
     </tbody>
    </table>
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 >[!NOTE]
 >
@@ -651,9 +656,9 @@ The Workfront Mobile app -->
 
 +++ **Amplíe para ver las descripciones de los campos disponibles**
 
-* **Imagen**: permite a los usuarios añadir archivos de imagen.
-* **PDF**: permite a los usuarios añadir PDF
-* **Vídeos**: permite a los usuarios añadir archivos de vídeo.
+* **Imagen**: permite a los usuarios agregar archivos de imagen.
+* **PDF**: permite a los usuarios agregar PDF
+* **Vídeos**: Permite a los usuarios agregar archivos de vídeo.
 
 +++
 
@@ -679,7 +684,7 @@ Para agregar imágenes, PDF o vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es la forma en que el sistema identifica el widget.</p> <p>Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p><b>IMPORTANTE</b>: Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el widget donde ahora se podría hacer referencia a él en otras áreas de Workfront. </p> <p>Cada nombre de widget debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. </p> </td> 
+      <td> <p>(Obligatorio) Este nombre es la forma en que el sistema identifica el widget.</p> <p>Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p><b>IMPORTANTE</b>: aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a usar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el widget donde ahora se podría hacer referencia a él en otras áreas de Workfront. </p> <p>Cada nombre de widget debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -712,11 +717,11 @@ Para agregar imágenes, PDF o vídeos:
 
    ![icono de copia](assets/copy-field.png)
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 #### Agregar un widget de vídeo a un formulario personalizado desde el área Documentos{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
@@ -724,15 +729,15 @@ Para agregar imágenes, PDF o vídeos:
 >
 >Cuando se agrega un vídeo a un formulario personalizado de este modo, solo se aplican al vídeo los permisos establecidos para el formulario personalizado cuando los usuarios acceden al formulario en un objeto, no los permisos establecidos para el vídeo en el área Documentos.
 
-1. Vaya al vídeo en el área Documents y genere una prueba para él, tal como se describe en [Creación de una prueba interactiva para un sitio web u otro contenido web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Vaya al vídeo en el área Documentos y genere una prueba para él, tal como se describe en [Crear una prueba interactiva para un sitio web u otro contenido web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Abra la prueba.
-1. Haga clic con el botón derecho en cualquier lugar del vídeo y seleccione **Copiar dirección de vídeo**.
-1. En el formulario personalizado en el que está agregando el widget de vídeo, pegue la dirección copiada en la **URL** cuadro.
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Haga clic con el botón derecho en cualquier lugar del vídeo y, a continuación, seleccione **Copiar dirección de vídeo**.
+1. En el formulario personalizado donde esté agregando el widget de vídeo, pegue la dirección copiada en el cuadro **URL**.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Añadir campos nativos de Workfront
 
@@ -785,7 +790,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 
 +++
 
-1. En el lado izquierdo de la pantalla, busque **Campo nativo** y arrástrela a una sección del lienzo.
+1. En el lado izquierdo de la pantalla, busque **Campo nativo** y arrástrelo a una sección del lienzo.
 1. En el lado derecho de la pantalla, configure las opciones del campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -820,11 +825,11 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
     </tbody> 
    </table>
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ### Añadir archivos de Adobe XD
 
@@ -835,7 +840,7 @@ Puede agregar un prototipo de Adobe XD directamente a un formulario personalizad
 
 Para agregar un archivo Adobe XD:
 
-1. En el lado izquierdo de la pantalla, busque **Adobe XD** y arrástrela a una sección del lienzo.
+1. En el lado izquierdo de la pantalla, busca **Adobe XD** y arrástralo a una sección del lienzo.
 1. Escriba o edite cualquiera de las siguientes propiedades para el widget:
 
    <table style="table-layout:auto"> 
@@ -881,11 +886,11 @@ Para agregar un archivo Adobe XD:
 
    ![icono de copia](assets/copy-field.png)
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haz clic en **Aplicar** y pasa a otra sección para seguir creando el formulario.
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ## Organizar y obtener una vista previa de un formulario con el diseñador de formularios
 
