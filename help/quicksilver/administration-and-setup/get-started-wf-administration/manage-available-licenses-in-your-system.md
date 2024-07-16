@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+   <td> <p>Debe ser administrador del sistema o de un grupo. El administrador del grupo tiene una vista limitada de la información de la licencia.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Ver las licencias de su organización
 
-El número de licencias en uso se actualiza automáticamente al asignar niveles de acceso a los usuarios que agrega a Workfront. Para obtener más información, consulte [Adición de usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+El número de licencias en uso se actualiza automáticamente al asignar niveles de acceso a los usuarios que agrega a Workfront. Para obtener más información, consulte [Agregar usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Para ver la información de licencia en el sistema:
 
@@ -83,9 +83,9 @@ Para ver la información de licencia en el sistema:
 
    >[!NOTE]
    >
-   >Las licencias de revisión solo están disponibles para los clientes que hayan adquirido el complemento Workfront Proof de pago además de su licencia de Workfront. Para obtener más información sobre este complemento, consulte [Workfront Proof: índice de artículos](../../workfront-proof/workfront-proof.md).
+   >Las licencias de revisión solo están disponibles para los clientes que hayan adquirido el complemento Workfront Proof de pago además de su licencia de Workfront. Para obtener información acerca de este complemento, consulte [Workfront Proof: article index](../../workfront-proof/workfront-proof.md).
 
-1. (Condicional) Si ve el mensaje **Para establecer un máximo, debe agregar un grupo de inicio**, agregue un grupo de inicio en el sistema como se explica en la sección [Agregar o quitar un grupo de inicio en la página Licencias](#add-or-remove-a-home-group-to-the-licenses-page) en este artículo.
+1. (Condicional) Si ve el mensaje **Para establecer un máximo, debe agregar un grupo de inicio**, agregue un grupo de inicio en el sistema como se explica en la sección [Agregar o quitar un grupo de inicio en la página Licencias](#add-or-remove-a-home-group-to-the-licenses-page) de este artículo.
 
    >[!NOTE]
    >
@@ -93,7 +93,7 @@ Para ver la información de licencia en el sistema:
 
 ## Ver información sobre las licencias de los complementos de Workfront
 
-Si su organización tiene el complemento Workfront Proof de pago, se muestra el número de licencias utilizadas y el número de licencias disponibles. Por ejemplo, **5 de 10 Licencias de revisión** indica que la organización está utilizando actualmente 5 de las 10 licencias de Workfront Proof que adquirieron.
+Si su organización tiene el complemento Workfront Proof de pago, se muestra el número de licencias utilizadas y el número de licencias disponibles. Por ejemplo, **5 de 10 licencias de Proof** indica que la organización está usando actualmente 5 de las 10 licencias de Workfront Proof que compró.
 
 ![Licencia para complementos de Workfront](assets/updated-licenses-page.png)
 
@@ -102,7 +102,7 @@ Si su organización ha adquirido Workfront Goals, la información de la licencia
 * Cantidad total de licencias de Workfront Goals que su compañía ha adquirido
 * Número de licencias de Workfront Goals asociadas a los usuarios. Es el número de usuarios a los que se debe otorgar al menos acceso de visualización a los objetivos en su nivel de acceso.
 
-Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información sobre el acceso a los objetivos de Workfront, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información sobre el acceso a las metas de Workfront, consulte [Conceder acceso a las metas de Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -120,19 +120,19 @@ If an organization has other paid add-on products, their license information als
 >* Límite de tipo de licencia: límite de trabajador
 >* Límite de tipo de licencia: Límite de planificador
 >
->Para obtener más información sobre cómo crear un informe, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>Para obtener más información sobre cómo crear un informe, consulte [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Ver información sobre asignaciones mensuales de pruebas y decisiones de documentos
 
 >[!IMPORTANT]
 >
->Los límites de decisión sobre pruebas y documentos se aplican solamente a los usuarios con las nuevas licencias. Para obtener más información, consulte [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Los límites de decisión sobre pruebas y documentos se aplican solamente a los usuarios con las nuevas licencias. Para obtener más información, vea [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Las decisiones sobre pruebas y documentos son limitadas para todas las licencias de Workfront sin pago. Los límites se restablecen por usuario cada mes.
 
 Los límites de decisión para cada licencia difieren según el plan en el que se encuentre. Puede ver la asignación mensual en Configuración > Licencias.
 
-Para obtener más información sobre los límites de prueba y decisión de documentos, consulte [Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Para obtener más información sobre los límites de revisión y decisión de documentos, consulte [Información general sobre la revisión de documentos y decisiones de revisión para usuarios sin pago](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 ![Asignación de decisión mensual](assets/monthly-decision-allotment.png)
 
@@ -156,8 +156,8 @@ Para agregar o quitar un grupo de inicio a la página Licencias:
 
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 
-1. Clic **Administrar lista de grupos**.
-1. Empiece a escribir el nombre del grupo de nivel superior en la **Grupos de inicio** cuadro.
+1. Haga clic en **Administrar lista de grupos**.
+1. Empiece a escribir el nombre del grupo de nivel superior en el cuadro **Grupos principales**.
 1. Para agregar el grupo, haga clic en su nombre cuando aparezca.
 
    O
@@ -166,7 +166,7 @@ Para agregar o quitar un grupo de inicio a la página Licencias:
 
 1. Haga clic en **Guardar**.
 
-Como administrador de Workfront, puede establecer recuentos máximos de licencias para los grupos de inicio a fin de evitar que una unidad comercial use licencias de Workfront adquiridas para otras unidades comerciales. Para obtener instrucciones, consulte [Establecer el número máximo de licencias para un grupo de inicio](#set-the-maximum-license-count-for-a-home-group) en este artículo.
+Como administrador de Workfront, puede establecer recuentos máximos de licencias para los grupos de inicio a fin de evitar que una unidad comercial use licencias de Workfront adquiridas para otras unidades comerciales. Para obtener instrucciones, vea [Establecer el número máximo de licencias para un grupo de inicio](#set-the-maximum-license-count-for-a-home-group) en este artículo.
 
 ## Establecer el número máximo de licencias para un grupo de inicio {#set-the-maximum-license-count-for-a-home-group}
 
@@ -174,7 +174,7 @@ Como administrador de Workfront, puede establecer recuentos máximos de licencia
 
 De forma predeterminada, el recuento máximo de licencias está establecido en N/D, lo que significa que no hay límite.
 
-Los administradores del grupo pueden ver el número de licencias asignadas y utilizadas en el grupo de inicio que administran. Para obtener más información, consulte [Ver el número de licencias asignadas y utilizadas en un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Los administradores del grupo pueden ver el número de licencias asignadas y utilizadas en el grupo de inicio que administran. Para obtener más información, vea [Ver el número de licencias asignadas y utilizadas en un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 Para establecer el número máximo de licencias para un grupo de inicio:
 
@@ -183,7 +183,7 @@ Para establecer el número máximo de licencias para un grupo de inicio:
 1. En la parte inferior del panel izquierdo, haga clic en **Sistema** > **Licencias**.
 
 1. Busque el grupo de inicio en la lista.
-1. En el **Max** del grupo, haga clic en el valor para el que desee establecer un máximo.
+1. En la columna **Max** del grupo, haga clic en el valor para el que desea establecer un máximo.
 1. Escriba el número máximo y pulse Entrar.
 
    ![](assets/updated-max.png)

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
+source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
 workflow-type: tm+mt
-source-wordcount: '6081'
+source-wordcount: '6091'
 ht-degree: 4%
 
 ---
@@ -540,6 +540,7 @@ Para obtener ejemplos del uso del campo de búsqueda externa para llamar a la mi
 >
 >* Actualmente, la funcionalidad de búsqueda externa no es compatible con los formularios personalizados de documento.
 >* Actualmente, los campos de búsqueda externos de formularios personalizados no son compatibles con los paneles. No puede editar el valor del campo en línea y es posible que no se muestre correctamente en un panel. (Los campos de búsqueda externos son compatibles con los paneles de lienzo).
+>* Los campos de búsqueda externos no son compatibles con el complemento de Outlook.
 >* Los campos de búsqueda externos están disponibles en las listas, a menos que el campo tenga una dependencia de otro campo.
 
 Para añadir una búsqueda externa:
