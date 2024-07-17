@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 1%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 1%
          * [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [Promoción de entornos mediante la API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [Preguntas frecuentes sobre promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [Solución de problemas de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * Administración de usuarios {#add-users}
       * [User management: índice de artículos](administration-and-setup/add-users/add-users.md)
       * Crear y administrar usuarios {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 1%
       * [Información general sobre Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-overview.md)
       * [Creación de un escenario en Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
       * [El editor de escenarios en Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-      * [Configuración básica de escenarios en Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [El panel de configuración de escenarios en Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Detalles de los escenarios en Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
       * [Flujo de ejecución de escenarios en Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)
