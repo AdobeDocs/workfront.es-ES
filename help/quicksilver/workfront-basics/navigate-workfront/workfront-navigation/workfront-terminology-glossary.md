@@ -6,9 +6,9 @@ description: El glosario  [!DNL Adobe Workfront] enumera los términos usados co
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Fecha planificada de finalización]</td> 
-   <td> <p>Puede establecer manualmente la [!UICONTROL Fecha planificada de finalización] en una fecha de su elección. Si no establece la [!UICONTROL Fecha planificada de finalización], [!DNL Workfront] la establece automáticamente. Cuando se establece automáticamente, la fecha planificada de finalización de [!UICONTROL] es: [!UICONTROL Fecha planificada de inicio] + [!UICONTROL Duración]</p> <p>Para obtener más información, consulte los siguientes artículos:</p> 
+   <td> <p>Puede establecer manualmente la [!UICONTROL Fecha planificada de finalización] de una tarea, proyecto o problema en una fecha de su elección. Si no establece la [!UICONTROL Fecha planificada de finalización], [!DNL Workfront] la establece automáticamente. Cuando se establece automáticamente, la fecha planificada de finalización de [!UICONTROL] es: [!UICONTROL Fecha planificada de inicio] + [!UICONTROL Duración]</p> <p>Para obtener más información, consulte los siguientes artículos:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la tarea [!UICONTROL Fecha planificada de finalización]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Establecer la fecha planificada de finalización del proyecto [!UICONTROL]</a> </p> </li> 

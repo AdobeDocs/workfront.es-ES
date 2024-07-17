@@ -6,9 +6,9 @@ description: Puede solicitar la aprobación de un proyecto antes de comenzar a t
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '521'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Puede solicitar un proyecto al agregar uno nuevo en las siguientes áreas de Ado
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,12 +57,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Al crear una solicitud de proyecto, recibe automáticamente permisos de administración en el proyecto </p> <p> Para obtener información acerca de los permisos del proyecto, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Al crear una solicitud de proyecto, recibe automáticamente permisos de administración en el proyecto </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solicitar un proyecto
 

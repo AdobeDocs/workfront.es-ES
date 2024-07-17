@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3581'
+source-wordcount: '3553'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Puede registrar el tiempo en los siguientes elementos de la plantilla de horas:
 
 Para registrar tiempo en una hoja de horas:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+{{step1-click-main-menu}}
 
 1. Haga clic en [!UICONTROL **Plantillas de horas**]. La hoja de horas actual se muestra de forma predeterminada.
    ![Hoja de horas](assets/timesheet-redesigned-nwe.png)

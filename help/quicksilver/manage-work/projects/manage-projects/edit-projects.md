@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7474'
 ht-degree: 1%
 
 ---
 
 # Editar proyectos
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -49,7 +49,7 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de planificación. 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td><p>Nuevo: estándar </p> 
    O
    <p>Actual: plan </p> </td> 
@@ -62,12 +62,12 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de planificación. 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
      <p>Administración de permisos en un proyecto </p> 
-     <p> Para obtener información acerca de los permisos del proyecto, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

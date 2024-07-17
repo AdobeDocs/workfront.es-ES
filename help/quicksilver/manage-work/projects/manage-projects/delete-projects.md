@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
 
 # Eliminar proyectos
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 Puede eliminar un proyecto si el proyecto y sus datos ya no son necesarios.
 
@@ -40,9 +40,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td> <p>Licencia de Adobe Workfront*</p> </td> 
-   <td> <p>Licencia actual: Plan </p> 
-   O
-   <p>Nueva licencia: Standard </p>
+   <td> <p>Nueva licencia: Standard </p>
+   <p>Licencia actual: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -56,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

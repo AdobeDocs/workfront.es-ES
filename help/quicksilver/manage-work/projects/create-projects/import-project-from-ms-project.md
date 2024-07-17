@@ -6,9 +6,9 @@ description: Puede importar proyectos de Microsoft Project a Adobe Workfront y a
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -25,12 +25,14 @@ Puede importar proyectos de Microsoft Project a Adobe Workfront y administrar to
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +43,19 @@ Puede importar proyectos de Microsoft Project a Adobe Workfront y administrar to
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los proyectos, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acceso a los proyectos</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Editar acceso a Proyectos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Al crear un proyecto, recibe automáticamente permisos de administración en el proyecto </p> <p> Para obtener información acerca de los permisos del proyecto, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Al crear un proyecto, recibe automáticamente permisos de administración en el proyecto </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--old permissions model: 
 
@@ -96,7 +98,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 1. Inicie sesión en Workfront.
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
+   * Haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront o haga clic en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda; si está disponible, haga clic en **Proyectos** y expanda **Nuevo proyecto**.
    * Vaya a un portafolio y expanda **Nuevo proyecto**.
    * Vaya a un programa y expanda **Nuevo proyecto**.
    * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

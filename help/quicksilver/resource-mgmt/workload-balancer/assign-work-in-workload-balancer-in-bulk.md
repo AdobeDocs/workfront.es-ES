@@ -6,9 +6,9 @@ description: Puede asignar recursos a varias tareas y problemas por lotes median
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1499'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Para obtener información general acerca de cómo asignar trabajo a los usuarios
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,6 +68,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones para realizar asignaciones masivas en el Distribuidor de cargas de trabajo
 

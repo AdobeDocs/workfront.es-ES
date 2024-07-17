@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -287,13 +287,18 @@ Para localizar Workfront Planning:
 
 1. Inicie sesión en Adobe Workfront.
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-workfront.png) en la esquina superior derecha, o haga clic en **Menú principal** ![](assets/main-menu-shell.png) en la esquina superior izquierda, si está disponible.
+{{step1-click-main-menu}}
 
 1. Haga clic en **Planificación** ![](assets/planning-icon.png).
 
    Se abre la página de aterrizaje de Workfront Planning.
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    El administrador de Workfront puede agregar el área de Planning a la opción Seleccionar página de aterrizaje de la plantilla de diseño para que pueda abrir Planning en cuanto inicie sesión en Workfront. Para obtener más información, consulte [Personalizar la página de aterrizaje mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
 
 1. (Condicional y opcional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
    * **Mis espacios de trabajo**: muestra los espacios de trabajo que creó.

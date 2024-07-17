@@ -6,9 +6,9 @@ description: Los Portfolio son colecciones de proyectos o programas en Adobe Wor
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -77,14 +77,16 @@ Cuando desactiva un portafolio, aún puede acceder a él desde el área de [!UIC
 >
 >Según la forma en que el administrador de grupo o [!DNL Workfront] configure la plantilla de diseño, es posible que el área de [!UICONTROL Portfolio] no se muestre en el [!UICONTROL menú principal]. Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+{{step1-click-main-menu}}
+
 1. Haga clic en **[!UICONTROL Portfolio]** .
 1. Haga clic en el nombre del portafolio.
 1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre del portafolio y, a continuación, haga clic en **[!UICONTROL Desactivar Portfolio]**.
 
 ## Eliminar un portafolio
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+{{step1-click-main-menu}}
+
 1. Haga clic en **[!UICONTROL Portfolio]** .
 1. Seleccione el portafolio y haga clic en **[!UICONTROL Eliminar]** el icono [!UICONTROL Eliminar] ![](assets/delete.png).
-1. En el cuadro que aparece, haga clic en **[!UICONTROL Sí, eliminarlo]** para confirmar.
+1. Haga clic en **[!UICONTROL Sí, eliminarlo]** para confirmar.

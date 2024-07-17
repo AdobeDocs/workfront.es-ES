@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,7 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
    * Crear, editar y eliminar registros
    * Conectar registros
    * Agregar una imagen de portada o una miniatura a un registro
+   * Administrar el diseño de una página de registro
    * Registrar comentarios y sección Historial
    * Compartir registros
    * Sección de planificación de Workfront para objetos de Workfront

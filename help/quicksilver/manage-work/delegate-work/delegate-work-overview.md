@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Resumen del trabajo delegado
 description: Cuando planea estar fuera de la oficina por un corto período de tiempo, puede delegar temporalmente su trabajo a otros usuarios para asegurarse de que su ausencia no se convierta en un obstáculo para el trabajo que se está completando.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%

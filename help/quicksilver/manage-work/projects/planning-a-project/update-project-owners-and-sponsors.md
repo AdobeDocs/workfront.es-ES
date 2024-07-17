@@ -6,14 +6,17 @@ description: Al crear un proyecto en Adobe Workfront, se establece automáticame
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
+
 # Actualizar propietarios y patrocinadores de proyectos
+
+<!--Audited: 07/2024-->
 
 Al crear un proyecto en Adobe Workfront, se establece automáticamente como Propietario del proyecto. Puede actualizar este campo con otro usuario. También puede actualizar el campo Patrocinador de proyecto de un proyecto.
 
@@ -60,34 +63,35 @@ Para obtener información acerca de los propietarios y patrocinadores de proyect
 </table>
 -->
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nuevo: estándar</p> 
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Editar acceso a Proyectos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Edición de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Edición de permisos en un proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Actualizar el propietario del proyecto de un proyecto
 
@@ -105,7 +109,7 @@ Cuando se agrega un usuario como Propietario del proyecto de un proyecto, Workfr
 
    El Propietario del proyecto se actualiza en el encabezado del proyecto y en el área Detalles del proyecto.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Actualizar el patrocinador de un proyecto
 
